@@ -1,1 +1,1 @@
-# Merveilles de la cours, les textes
+# Merveilles de la Cour, les textes
