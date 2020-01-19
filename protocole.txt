@@ -1,0 +1,219 @@
+
+BALISAGE – PREMIÈRE FEUILLE DE ROUTE
+
+RAPPEL : Nous voulons extraire trois types d’informations.
+1.	Des informations sur l’événement : lieux, dates, types de divertissements mentionnés ;
+2.	Des informations sur les personnes : qui est nommé ? quel rôle cette personne joue-t-elle ? Quelle fonction lui est attribuée ? À quelle institution est-elle rattachée ?
+3.	Des informations sur les techniques mobilisées pour construire l’évènement : techniques spectaculaires (feux, vols…) et techniques textuelles (devises, descriptions, listes de noms…).
+
+MODUS OPERANDI
+1.	La transcription (dans le dossier « Transcriptions ») du texte est passée à la moulinette « Odette » puis corrigée et découpée. Les fragments sont placés dans le dossier « À faire » sur GitHub.
+2.	Premier balisage par Contributeur 1 : ne pas oublier de compléter les index de formes normalisées. Les difficultés de balisages sont reportées dans le tableau de suivi. Le fragment traité est déplacé dans le dossier « édités ».
+3.	Relecture et tentative de résolution des difficultés par contributeur 2. Le fragment est déplacé dans « relus ».
+4.	Les difficultés restantes sont soumises à la réflexion collective et signalées dans le tableau de suivi.
+
+
+
+
+A.	L’EN TETE : LES INFORMATIONS SUR LE DOCUMENT
+
+Il s’agit des informations des colonnes bleues (A à M) du tableau de recensement des sources : auteur, titre, type de document, date de création, éditeur, dimension, description matérielle, lieux de conservation, côtes, URL, éditions critiques, mentions dans des inventaires.
+
+L’en-tête est encadré par les balises <teiHeader>  <fileDesc>
+
+1.	Le titre et l’auteur : <titleStmt>
+
+      <titleStmt>
+        <title>Les Plaisirs de l'île enchantée</title>
+        <author></author>
+      </titleStmt>
+
+2.	Des informations sur l’édition que nous produisons <editionStmt> et sur la publication en ligne : <publicationStmt>
+
+C’est là que nous pouvons indiquer qui a fait quoi, pour suivre le travail : il suffit d’ajouter une balise <respStmt> à chaque intervention sur le document
+
+      <editionStmt>
+        <edition>Merveilles17</edition>
+        <respStmt>
+          <name>Gaëlle Lafage</name>
+          <resp>Transcription et premier balisage</resp>
+        </respStmt>
+        <respStmt>
+          <name>Marine Roussillon</name>
+          <resp>Relecture</resp>
+        </respStmt>
+      </editionStmt>
+
+      <publicationStmt>
+        <publisher></publisher>
+        <date when="2019"/>
+        <availability status="restricted">
+          <licence></licence>
+        </availability>
+      </publicationStmt>
+
+3.	Une description de la source: <sourceDesc>
+
+-	Auteur, titre, date, éditeur, format et nombre de pages,.
+
+      <sourceDesc>
+        <bibl>
+          <author></author>
+          <title>Les Plaisirs de l'île enchantée : Course de bague, collation ornée de machines, comédie mêlée de danse et de musique, ballet du palais d'Alcine, feu d'artifice, et autres fêtes galantes et magnifiques, faites par le roi à Versailles, le 7 mai 1664.</title>
+          <pubPlace>Paris</pubPlace> 
+<publisher>Ballard</publisher>
+            <date when="1664">1664</date>
+<dim>in-fol</dim>
+<extent>245 pages</extent>
+
+Comment peut-on ajouter une côte ou une référence de notice ?
+On peut (mais le faut-il ?) ajouter un mot clé pour indiquer le type de source : document d’archive, relation, périodique…
+<term type="genre" subtype="relation">Relation</term>
+
+        </bibl>
+
+Il est possible d’ajouter les références d’une édition critique ou d’un inventaire mentionnant la source.
+
+        <bibl>
+RÉFÉRENCES D’UNE ÉVENTUELLE ÉDITION CRITIQUE/ INVENTAIRE
+        </bibl>
+      </sourceDesc>
+    
+
+Je ne sais pas comment indiquer un lien vers la version numérisée du document (URL)
+
+
+B.	BALISER LES INFORMATIONS SUR L’EVENEMENT
+
+1.	Les lieux
+
+<placeName>Versailles</placeName>
+
+Attribut ref = normalisation du lieu pour renvoi vers un index locorum.
+Attribut spec = précision
+
+<placeName ref=“loc:Versailles” spec=“jardins”>La bassin de Latone</placeName>
+
+Remarque : il faudra sans doute être plus précis que « jardins » : le degré de précision est à tester, en établissant une liste des lieux au fur et à mesure : 
+https://lite.framacalc.org/merveilles17-lieux
+
+
+2.	Les dates
+
+<date>Ce 12me de mars 1685</date>
+
+Attribut when = normalisation de la date.
+<date when=“1685-03-12”>Ce 12me de mars 1685</date>
+
+
+3.	Les types de divertissements
+
+<div type="course">
+= Élaborer une liste close des types de divertissements au fur et à mesure
+https://lite.framacalc.org/7t0q5VUl7D 
+
+
+
+C.	BALISER LES NOMS DE PERSONNES
+
+
+1.	Repérer les noms de personnes
+
+<persName>Benserade</persName>
++ renvoi à un index de formes normalisées
+<persName key="#louisxiv">Le Roi</persName> 
+
+	Compléter la liste des formes normalisées (celles qui figureront dans l’index): 
+https://lite.framacalc.org/merveilles17-nomspersonnes 
+
+
+2.	Personnes ou personnages ?
+
+Que faire des mentions de Louis XIV comme personnage, dans des vers ?
+Distinguer : participant (balise persName) et personnage (balise name)
+<persName key="#louisxiv">Le Roi</persName> 
+<name key="#louisxiv" >Le Roi</name> 
+
+Que faire des mentions d’un courtisan qui le désignent par le rôle qu’il joue ?
+<name key="#roger" ana="#louisxiv”>Roger</name> 
+
+Pour les mentions de personnages historiques (Charlemagne) ou fictifs (Apollon) qui ne sont pas joués par un participant :
+<name key="#Charlemagne”>Charle Magne</name> 
+
+
+3.	Fonctions et institutions
+
+Pour indiquer les fonctions et les institutions de rattachement quand elles sont mentionnées dans le texte on utilise les balises role et affiliation.
+
+<persName ref="#saint-aignan" role="#auteur"><affiliation key="#Chambre"></affiliation> duc de Saint-Aignan</persName>, qui se trouva lors en fonction de premier gentilhomme de sa chambre
+
+Liste des fonctions et des affiliations à mettre en place : https://lite.framacalc.org/merveilles17-fonctions 
+
+D.	BALISER LES TECHNIQUES SPECTACULAIRES ET TEXTUELLES
+
+1.	Techniques spectaculaires
+
+<tech type=“machine”>Char d’Apollon</tech>
+Il faudra sans doute être plus précis. Compléter une liste des techniques : https://lite.framacalc.org/merveilles17
+
+
+2.	Techniques textuelles
+
+a.	Les images
+
+<p><graphic url="void" resp="le-pautre"><desc><quote>Le Pautre Sculps. 1676</quote><date>1676</date></desc></graphic>
+          <cb/>Première Journées<lb/><title key="#alceste-lully-quinault">Alceste</title>, tragédie en mu
+          <cb/><foreign xml:lang="latin">Dies primus<lb/><title key="#alceste-lully-quinault">Alcestes</title></foreign>
+        </p>
+
+b.	La structure du texte
+
+Si les relations contiennent des titres et sont divisées, par exemple en journées.
+<head> pour signaler les titres
+<div type="journee"> pour signaler les divisions explicites du texte. (Ici division en journées)
+Tout paragraphe est encadré par <p>…</p>
+
+
+c.	Les passages de vers et/ou présentés comme du théâtre
+
+<l> : un vers isolé
+<lg> : un groupe de vers + attribute (quatrain, madrigal)
+
+        <lg type="quatrain">
+        <l rend="i">Ce n’est pas sans raison que la Terre et les Cieux,</l>
+        <l rend="i">Ont tant d’estonnement pour un objet si rare;</l>
+        <l rend="i">Qui dans son cours pénible, autant que glorieux,</l>
+        <l rend="i">Jamais ne repose, et jamais ne s’egare.</l>
+        </lg>
+
+<sp> le nom du personage qui parle quand c’est présenté comme du théâtre
+
+Le cas particulier des devises :
+Je propose de baliser les devises comme un type de vers : <l type="devise">
+
+d.	Descriptions 
+
+<div type="description"> ?
+
+e.	Listes de noms
+
+Une liste peut être encadrée par <list>…</list>
+Attributs : 
+- @subtype : préciser le type de liste (il faudra se mettre d’accord sur des valeurs) : défilé, table…
+- @ana : autres informations importantes ? voir ce que l’on peut vouloir en fonction du corpus.
+
+Quand les listes n’ont pas de titre, il faudra ajouter des balises invisibles. Je prends le cas de Félibien : 
+ 
+
+La liste, c’est donc la composition de la table. Donc il faudrait la coder comme ça : 
+<list @subtype=’table’>
+<head><persName @who=’#louisxiv’/>[pas besoin de role puisqu’il est dans le head + element vide parce que ce n’est pas du texte, mais une indication pour le traitement automatique]</head>
+<persName @who=’Mes_Angouleme’>Mesdemoiselles d’Angoulesmes.</persName>
+…
+</list>
+
+
+f.	Langue étrangère
+
+<l ana="devise"><foreign xml:lang="latin">Fidelis et audax.<note type="translation">Fidèle et audacieux</note></foreign></l>
+
