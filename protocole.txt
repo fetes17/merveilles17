@@ -1,219 +1,218 @@
 
-BALISAGE – PREMIÈRE FEUILLE DE ROUTE
+PROTOCOLE DE BALISAGE XML-TEI POUR LE PROJET MERVEILLES 17 – 30/01/2020
 
-RAPPEL : Nous voulons extraire trois types d’informations.
-1.	Des informations sur l’événement : lieux, dates, types de divertissements mentionnés ;
-2.	Des informations sur les personnes : qui est nommé ? quel rôle cette personne joue-t-elle ? Quelle fonction lui est attribuée ? À quelle institution est-elle rattachée ?
-3.	Des informations sur les techniques mobilisées pour construire l’évènement : techniques spectaculaires (feux, vols…) et techniques textuelles (devises, descriptions, listes de noms…).
+
+
+
+RAPPEL : Nous voulons extraire trois types d’informations.
+
+    • Des informations sur l’événement : lieux, dates, types de divertissements mentionnés ;
+    • Des informations sur les personnes : qui est nommé ? quel rôle cette personne joue-t-elle ? Quelle fonction lui est attribuée ? À quelle institution est-elle rattachée ?
+    • Des informations sur les techniques mobilisées pour construire l’évènement : techniques spectaculaires (feux, vols…) et techniques textuelles (devises, descriptions, listes de noms…).
+
+
 
 MODUS OPERANDI
-1.	La transcription (dans le dossier « Transcriptions ») du texte est passée à la moulinette « Odette » puis corrigée et découpée. Les fragments sont placés dans le dossier « À faire » sur GitHub.
-2.	Premier balisage par Contributeur 1 : ne pas oublier de compléter les index de formes normalisées. Les difficultés de balisages sont reportées dans le tableau de suivi. Le fragment traité est déplacé dans le dossier « édités ».
-3.	Relecture et tentative de résolution des difficultés par contributeur 2. Le fragment est déplacé dans « relus ».
-4.	Les difficultés restantes sont soumises à la réflexion collective et signalées dans le tableau de suivi.
+
+    • Le tableau bibliographique (1664-tableausuivi) recense l’ensemble des documents et leur attribue à chacun un identifiant (dans la suite : id). Il permet aussi le suivi du travail, chacun y indiquant quel document il prend en charge.
+    • Chaque document doit d’abord être transcrit (phase 1) dans un fichier id-trans.odt placé dans le dossier transcriptions sur GitHub.
+    • Puis chaque transcription doit être stylée (phase 2) à l’aide d’un traitement de texte comme Word ou LibreOffice et de la feuille de style du projet dans un document intitulé id-styl.odt
+    • Ce document est ensuite transformé par Odette en fichier xml. Après une brève relecture, ce document id-V1.xml est placé dans le dossier « édité » sur GitHub.
+    • Il reste alors à compléter le balisage en précisant les attributs des différentes balises (phase 3). Le travail se fait alors par couche, chaque contributeur se spécialisant dans un type de balises.
+    • Les difficultés sont signalées au fur et à mesure du travail dans le document en utilisant l'insertion de commentaires.
+
+NB
+Raccourci dans Oxygen : sélectionner un ensemble à baliser ; ctrl+E ; entrer l’élément dans l’encart de saisie ; valider.
+Une balise ouverte - <persName> doit être fermée </persName>.
+
+
+PHASE 1. TRANSCRIPTION
+
+Beaucoup de transcriptions peuvent être récupérées en ligne, notamment dans les projets de l’OBVIL. Sinon, on peut utiliser l’ocr ou la transcription manuelle.
+Nous ne modernisons ni la graphie ni la ponctuation.
+
+La transcription est placée dans un fichier intitulé id-trans.odt dans le dossier transcriptions (rappel: id = identifiant du document). Le transcripteur indique ses initiales dans le tableau de suivi, dans la colonne transcription.
+
+La transcription commence par un en-tête :
+Creator: NOM DE L’AUTEUR, PRÉNOM (NAISSANCE, MORT)
+Title: TITRE
+Date: ANNÉE DE PUBLICATION
+Bibl: AUTEUR, TITRE EN ITALIQUES, LIEU, ÉDITEUR, ANNÉE.
+Cpyeditor : NOM DE LA PERSONNE QUI ÉDITE LE TEXTE
 
 
 
 
-A.	L’EN TETE : LES INFORMATIONS SUR LE DOCUMENT
+PHASE 2. STYLAGE
 
-Il s’agit des informations des colonnes bleues (A à M) du tableau de recensement des sources : auteur, titre, type de document, date de création, éditeur, dimension, description matérielle, lieux de conservation, côtes, URL, éditions critiques, mentions dans des inventaires.
+La transcription est enregistrée dans un fichier id-styl.odt dans le dossier stylés (rappel: id = identifiant du document).
+Un simple copier-coller à partir du document de référence « styles » permet d’importer l’ensemble des styles dans le fichier.
 
-L’en-tête est encadré par les balises <teiHeader>  <fileDesc>
+À chaque élément du texte est alors attribué un style.
 
-1.	Le titre et l’auteur : <titleStmt>
+NB. Pour les textes composés de plusieurs parties (périodiques, correspondances), on ne style que les parties évoquant les divertissements de cour.
 
-      <titleStmt>
-        <title>Les Plaisirs de l'île enchantée</title>
-        <author></author>
-      </titleStmt>
-
-2.	Des informations sur l’édition que nous produisons <editionStmt> et sur la publication en ligne : <publicationStmt>
-
-C’est là que nous pouvons indiquer qui a fait quoi, pour suivre le travail : il suffit d’ajouter une balise <respStmt> à chaque intervention sur le document
-
-      <editionStmt>
-        <edition>Merveilles17</edition>
-        <respStmt>
-          <name>Gaëlle Lafage</name>
-          <resp>Transcription et premier balisage</resp>
-        </respStmt>
-        <respStmt>
-          <name>Marine Roussillon</name>
-          <resp>Relecture</resp>
-        </respStmt>
-      </editionStmt>
-
-      <publicationStmt>
-        <publisher></publisher>
-        <date when="2019"/>
-        <availability status="restricted">
-          <licence></licence>
-        </availability>
-      </publicationStmt>
-
-3.	Une description de la source: <sourceDesc>
-
--	Auteur, titre, date, éditeur, format et nombre de pages,.
-
-      <sourceDesc>
-        <bibl>
-          <author></author>
-          <title>Les Plaisirs de l'île enchantée : Course de bague, collation ornée de machines, comédie mêlée de danse et de musique, ballet du palais d'Alcine, feu d'artifice, et autres fêtes galantes et magnifiques, faites par le roi à Versailles, le 7 mai 1664.</title>
-          <pubPlace>Paris</pubPlace> 
-<publisher>Ballard</publisher>
-            <date when="1664">1664</date>
-<dim>in-fol</dim>
-<extent>245 pages</extent>
-
-Comment peut-on ajouter une côte ou une référence de notice ?
-On peut (mais le faut-il ?) ajouter un mot clé pour indiquer le type de source : document d’archive, relation, périodique…
-<term type="genre" subtype="relation">Relation</term>
-
-        </bibl>
-
-Il est possible d’ajouter les références d’une édition critique ou d’un inventaire mentionnant la source.
-
-        <bibl>
-RÉFÉRENCES D’UNE ÉVENTUELLE ÉDITION CRITIQUE/ INVENTAIRE
-        </bibl>
-      </sourceDesc>
-    
-
-Je ne sais pas comment indiquer un lien vers la version numérisée du document (URL)
+    • En fonction des formes et techniques textuelles
+        ◦ Corps de texte pour les paragraphes normaux
+        ◦  Titre 1, titre 2… pour les titres en fonction de leur hiérarchie
+        ◦ <l> pour les vers
+        ◦ les listes sont transformées en listes à puce
+        ◦ <foreign> pour les passages en langue étrangère
+        ◦ <description> pour les passages descriptifs
 
 
-B.	BALISER LES INFORMATIONS SUR L’EVENEMENT
+    • En fonction des informations sur l’évènement
+        ◦ <placeName> pour les noms de lieux
+        ◦ <date> pour les dates et les indications de jours
+        ◦ <tech> pour toutes les mentions de techniques d’élaboration du divertissement: machines, feux d’artifice, éclairages, mais aussi ballet, carrousel, costumes…
 
-1.	Les lieux
+    • En fonction des informations sur les participants
+        ◦ <persName> pour les noms ou les mentions de personnes (Le Roi, M. Le Tellier…)
+        ◦ <name> pour les noms de personnages (Alcine, Charlemagne,…), y compris quand ce sont des allégories.
 
-<placeName>Versailles</placeName>
+Attention à repérer aussi les collectifs (les Reines, les paladins...).
 
-Attribut ref = normalisation du lieu pour renvoi vers un index locorum.
+Le styleur indique ses initiales dans le tableau de suivi, dans la colonne stylage.
+
+
+
+PHASE 3. XML-TEI
+
+Le fichier stylé est passé dans Odette, qui le transforme en fichier xml.
+http://obvil.lip6.fr/Odette/ 
+On obtient ainsi une première version du fichier xml : id-V1.xml déposée dans le fichier édité.
+
+Dans cette phase, le travail se fait avec Oxygen. Il s’agit de compléter le balisage du fichier, d’ajouter des éléments manquants, et notamment les attributs. Dans cette phase, le travail peut se faire par couche, chaque contributeur se spécialisant dans un type d’apport.
+
+    • Compléter l’en-tête.
+
+L’en-tête (appelée header) est encadré par  <teiHeader> <fileDesc>  </fileDesc></teiHeader>. Il regroupe toutes les informations des colonnes bleues (A à M) du tableau de recensement des sources : auteur, titre, type de document, date de création, éditeur, dimension, description matérielle, lieux de conservation, côtes, URL, événement concerné, éditions critiques, mentions dans des inventaires.
+Voici le header pour la relation des Plaisirs de l’île enchantée. Les informations en italique sont celles qui changent en fonction des documents encodés :
+
+<teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les Plaisirs de l'île enchantée</title>
+                <author>Auteur du fichier</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Merveilles17</edition>
+                <respStmt><name>Marine Roussillon</name><resp>Transcription</resp></respStmt>
+                <respStmt><name>Yohann Deguin</name><resp>Premier balisage</resp></respStmt>
+                <respStmt><name>XXX</name><resp>XXX</resp></respStmt></editionStmt>
+            
+            <publicationStmt>
+                <publisher>Université d'Artois - Lille</publisher><date when="2019">2019</date>
+                <availability status="restricted"><licence>Tous droits réservés</licence></availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <bibl>
+                    <author>Sans auteur</author>
+                    <title>Les Plaisirs de l'île enchantée : Course de bague, collation ornée de machines, comédie mêlée de danse et de musique, ballet du palais d'Alcine, feu d'artifice, et autres fêtes galantes et magnifiques, faites par le roi à Versailles, le 7 mai 1664.</title>         <pubPlace>Paris</pubPlace> 
+                    <publisher>Ballard</publisher>
+                    <date when="1664">1664</date>
+                    <dim>in-fol</dim>
+                    <extent>60 pages</extent>
+                    <term type="imprime">Livre imprimé</term>              
+                </bibl>
+           
+              <listEvent><event>
+<item/><date when="1664-05">mai 1664</date><place loc=”#Versailles”>Versailles</place></event>
+</listEvent>
+            </sourceDesc>
+…
+
+        </fileDesc>
+    </teiHeader>
+
+    • Les pièces préliminaires
+
+Les pièces préliminaires à un texte (Page de titre, préface, dédicace) se trouvent au sein d’une balise <front>. 
+Une page de titre est signalée par <titlePage>.
+
+Exemple de page de titre, avec les balises associées en fonction des informations transcrites à partir d’une page de titre :
+<text>
+<front>
+<titlePage>
+<docTitle>
+<titlePart>Clélie, Histoire romaine</titlePart>
+</docTitle>
+<byline>Par <docAuthor>M. De Scudéry</docAuthor></byline>
+<docEdition>Première édition</docEdition>
+<docImprint>A Paris,
+chez Claude Barbin,
+M. D. CC.
+</docImprint>
+<imprimatur>Avec privilège du roi</imprimatur>
+</titlePage></front>
+
+Le corps du texte doit apparaître au sein d’un <body>.
+
+    • Personnes et personnages
+
+La balise <persName> sera complétée par un attribut « key » renvoyant à un index de formes normalisées.
+<persName key="#louisxiv">Le Roi</persName> 
+Les entités collectives peuvent être renseignées ainsi :
+<persName key="#anne_d_autriche  #marie_therese">Les Reines</persName> 
+La liste des formes normalisées doit être complétée pour éviter qu’une même personne renvoie à deux formes normalisées différentes.
+https://lite.framacalc.org/merveilles17-nomspersonnes 
+
+La balise <persName> pourra être aussi complétée par un attribut role et par une balise affiliation quand la fonction de la personne nommée ou son institution de rattachement sont mentionnés dans le texte. 
+<persName key="#saint-aignan" role="#auteur"><affiliation key="#Chambre"></affiliation> duc de Saint-Aignan</persName>, qui se trouva lors en fonction de premier gentilhomme de sa chambre
+Les listes des fonctions et des affiliations restent à mettre en place.
+Attention : l’attribut role renvoie aux catégories générales dans lesquelles s’inscrivent les personnes au sein de l’événement : organisateur, danseur, acteur, courtisan, auteur, etc. Il ne renvoie pas au rôle/personnage joué par la personne.
+
+La balise <name> sera complétée par un attribut « key » renvoyant à un index et, si nécessaire, par un attribut ana renvoyant à la personne qui incarne le personnage (si elle est mentionnée dans le texte à proximité de l’occurence balisée):
+<name key="#roger" ana="#louisxiv”>Roger</name> 
+Pour les mentions de personnages historiques (Charlemagne) ou fictifs (Apollon) qui ne sont pas joués par un participant :
+<name key="#Charlemagne”>Charle Magne</name> 
+
+    • Évènement et techniques spectaculaires
+
+Lieux: la balise <placeName> doit être spécifiée de manière à renvoyer à un index des lieux
+Attribut key = normalisation du lieu pour renvoi vers un index locorum.
 Attribut spec = précision
+<placeName key=“loc:versailles” spec=“jardins”>La bassin de Latone</placeName>
+Remarque : il faudra sans doute être plus précis que « jardins » : le degré de précision est à tester, en établissant une liste des lieux au fur et à mesure.
 
-<placeName ref=“loc:Versailles” spec=“jardins”>La bassin de Latone</placeName>
-
-Remarque : il faudra sans doute être plus précis que « jardins » : le degré de précision est à tester, en établissant une liste des lieux au fur et à mesure : 
-https://lite.framacalc.org/merveilles17-lieux
-
-
-2.	Les dates
-
-<date>Ce 12me de mars 1685</date>
-
-Attribut when = normalisation de la date.
+Les dates : l’attribut when introduit une forme normalisée de la date.
 <date when=“1685-03-12”>Ce 12me de mars 1685</date>
 
-
-3.	Les types de divertissements
-
-<div type="course">
-= Élaborer une liste close des types de divertissements au fur et à mesure
-https://lite.framacalc.org/7t0q5VUl7D 
-
-
-
-C.	BALISER LES NOMS DE PERSONNES
-
-
-1.	Repérer les noms de personnes
-
-<persName>Benserade</persName>
-+ renvoi à un index de formes normalisées
-<persName key="#louisxiv">Le Roi</persName> 
-
-	Compléter la liste des formes normalisées (celles qui figureront dans l’index): 
-https://lite.framacalc.org/merveilles17-nomspersonnes 
-
-
-2.	Personnes ou personnages ?
-
-Que faire des mentions de Louis XIV comme personnage, dans des vers ?
-Distinguer : participant (balise persName) et personnage (balise name)
-<persName key="#louisxiv">Le Roi</persName> 
-<name key="#louisxiv" >Le Roi</name> 
-
-Que faire des mentions d’un courtisan qui le désignent par le rôle qu’il joue ?
-<name key="#roger" ana="#louisxiv”>Roger</name> 
-
-Pour les mentions de personnages historiques (Charlemagne) ou fictifs (Apollon) qui ne sont pas joués par un participant :
-<name key="#Charlemagne”>Charle Magne</name> 
-
-
-3.	Fonctions et institutions
-
-Pour indiquer les fonctions et les institutions de rattachement quand elles sont mentionnées dans le texte on utilise les balises role et affiliation.
-
-<persName ref="#saint-aignan" role="#auteur"><affiliation key="#Chambre"></affiliation> duc de Saint-Aignan</persName>, qui se trouva lors en fonction de premier gentilhomme de sa chambre
-
-Liste des fonctions et des affiliations à mettre en place : https://lite.framacalc.org/merveilles17-fonctions 
-
-D.	BALISER LES TECHNIQUES SPECTACULAIRES ET TEXTUELLES
-
-1.	Techniques spectaculaires
-
+Les techniques spectaculaires: la balise <tech> sera précisée par un attribut « type » renvoyant à une liste fermée de types de machines qui reste à élaborer, à partir des occurrences.
 <tech type=“machine”>Char d’Apollon</tech>
-Il faudra sans doute être plus précis. Compléter une liste des techniques : https://lite.framacalc.org/merveilles17
 
+    • Techniques textuelles
 
-2.	Techniques textuelles
+Les balises <div>, <l>, <p> (paragraphe), <list> (liste de noms), <foreign> peuvent être spécifiées par des attributs pour mieux définir les techniques textuelles.
 
-a.	Les images
+Les divisions explicites du texte (chapitres, journées, parties), à l’intérieur du <body> sont signalées par la balise <div>. La <div> peut être spécifiée. <div type="chapitre">
 
-<p><graphic url="void" resp="le-pautre"><desc><quote>Le Pautre Sculps. 1676</quote><date>1676</date></desc></graphic>
-          <cb/>Première Journées<lb/><title key="#alceste-lully-quinault">Alceste</title>, tragédie en mu
-          <cb/><foreign xml:lang="latin">Dies primus<lb/><title key="#alceste-lully-quinault">Alcestes</title></foreign>
-        </p>
+Tout paragraphe est encadré par <p>…</p>. Quand le paragraphe est une description, la balise est assortie d’un attribut <p type="description">
 
-b.	La structure du texte
+Les passages de vers doivent être encadrés par la balise <lg>  assortie d’un attribut type (quatrain, madrigal, devise…)
+        <lg type="quatrain">
+        <l>Ce n’est pas sans raison que la Terre et les Cieux,</l>
+        <l>Ont tant d’estonnement pour un objet si rare;</l>
+        <l>Qui dans son cours pénible, autant que glorieux,</l>
+        <l>Jamais ne repose, et jamais ne s’egare.</l>
+        </lg>
 
-Si les relations contiennent des titres et sont divisées, par exemple en journées.
-<head> pour signaler les titres
-<div type="journee"> pour signaler les divisions explicites du texte. (Ici division en journées)
-Tout paragraphe est encadré par <p>…</p>
-
-
-c.	Les passages de vers et/ou présentés comme du théâtre
-
-<l> : un vers isolé
-<lg> : un groupe de vers + attribute (quatrain, madrigal)
-
-        <lg type="quatrain">
-        <l rend="i">Ce n’est pas sans raison que la Terre et les Cieux,</l>
-        <l rend="i">Ont tant d’estonnement pour un objet si rare;</l>
-        <l rend="i">Qui dans son cours pénible, autant que glorieux,</l>
-        <l rend="i">Jamais ne repose, et jamais ne s’egare.</l>
-        </lg>
-
-<sp> le nom du personage qui parle quand c’est présenté comme du théâtre
-
-Le cas particulier des devises :
-Je propose de baliser les devises comme un type de vers : <l type="devise">
-
-d.	Descriptions 
-
-<div type="description"> ?
-
-e.	Listes de noms
-
-Une liste peut être encadrée par <list>…</list>
-Attributs : 
-- @subtype : préciser le type de liste (il faudra se mettre d’accord sur des valeurs) : défilé, table…
-- @ana : autres informations importantes ? voir ce que l’on peut vouloir en fonction du corpus.
-
-Quand les listes n’ont pas de titre, il faudra ajouter des balises invisibles. Je prends le cas de Félibien : 
- 
-
-La liste, c’est donc la composition de la table. Donc il faudrait la coder comme ça : 
-<list @subtype=’table’>
-<head><persName @who=’#louisxiv’/>[pas besoin de role puisqu’il est dans le head + element vide parce que ce n’est pas du texte, mais une indication pour le traitement automatique]</head>
-<persName @who=’Mes_Angouleme’>Mesdemoiselles d’Angoulesmes.</persName>
+Les listes sont encadrées par <list>…</list>  
+Attributs : 
+- @type : préciser le type de liste (il faudra se mettre d’accord sur des valeurs) : défilé, table…
+- @ana : autres informations importantes ? voir ce que l’on peut vouloir en fonction du corpus.
+Quand les listes n’ont pas de titre, il faudra ajouter des balises invisibles. Exemple : Félibien, liste décrivant la composition de la table du roi.
+<list type=’table’>
+<item><persName key=’#louisxiv’/>[pas besoin de role puisqu’il est dans le head + element vide parce que ce n’est pas du texte, mais une indication pour le traitement automatique.
+<item><persName key=’#Mes_Angouleme’>Mesdemoiselles d’Angoulesmes.</persName>
 …
 </list>
+Pour les listes d’acteurs, on ne reprend pas le modèle du théâtre : on signale les noms de personnes et de personnage, et on balise la liste.
 
+La balise <foreign> indiquant un passage en langue étrangère doit être précisée par un attribut indiquant la langue et éventuellement par une note contenant la traduction.
+<l ana="devise"><foreign xml:lang="lat">Fidelis et audax.<note type="translation">Fidèle et audacieux</note></foreign></l>
 
-f.	Langue étrangère
+Le cas des images fera l’objet d’une prochaine séance de travail.
 
-<l ana="devise"><foreign xml:lang="latin">Fidelis et audax.<note type="translation">Fidèle et audacieux</note></foreign></l>
 
