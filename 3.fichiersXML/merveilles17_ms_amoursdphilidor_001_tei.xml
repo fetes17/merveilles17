@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--Odette: 2020-03-30T15:17:40+02:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Les Amours Deguisez, Ballet du Roy, Dansée par Sa Majesté, au mois de Fevrier 1664, recueilly par Philidor l’aisné en 1690</title>
+        <author>Philidor André (1652?-1730). </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Merveilles17</edition>
+        <respStmt>
+          <name>Mathilde Nicolas. </name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université d’Artois - Lille, MESHS</publisher>
+        <date when="2019"/>
+        <availability status="restricted">
+          <licence/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Philidor André, <hi rend="i">Les Amours Deguisez, Ballet du Roy, Dansée par Sa Majesté, au mois de Fevrier 1664, recueilly par Philidor l’aisné en 1690</hi><anchor xml:id="_GoBack"/>, 1690.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date>1690. </date>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>LES AMOURS DEGUISEZ</head>
+      <div subtype="level2">
+        <head>BALLET DU ROY</head>
+        <p>Dansée par sa Majesté au mois de Fevrier  1664</p>
+        <p>Receuilly par Philidor laisné en 1690</p>
+        <p>Les Amours Déguisez</p>
+        <p>Ballet</p>
+        <p>Argument</p>
+        <p>Le Théatre s’ouvre par un combat de deux differentes harmonies, la plus-Forte et composée des Arts et des Vertus qui suivent <name>Pallas</name>, et la plus douce, les graces et les Plaisirs qui accompagnent <name>Venus</name>.</p>
+        <p>
+          <pb n="1" xml:id="p1"/>
+        </p>
+        <p>Ouverture</p>
+        <p>
+          <pb n="2" xml:id="p2"/>
+        </p>
+        <p rend="left">Simphonie des Arts des Graces &amp; des Plaisirs
+<lb/>Les arts tous le monde joue
+<lb/>Les Graces et les Plaisirs a Partis simple meslé de flustes
+<lb/>Les Graces et les Plaisirs
+<lb/>Les arts</p>
+        <p rend="left">
+          <pb n="3" xml:id="p3"/>
+        </p>
+        <p rend="left">Les arts
+<lb/>Les Graces et les Plaisirs
+<lb/>Les Graces et les Plaisirs
+<lb/>Les arts
+<lb/>Les arts
+<lb/>Les Graces et les Plaisirs
+<lb/>Les Graces et les Plaisirs
+<lb/>Les arts</p>
+        <p rend="left"><pb n="4" xml:id="p4"/>Les arts
+<lb/>Les Graces et les Plaisirs
+<lb/>Les Graces et les Plaisirs
+<lb/>Les arts
+<lb/>Les arts
+<lb/>Les Graces et les Plaisirs
+<lb/>Les Graces et les Plaisirs
+<lb/>Les arts</p>
+        <p rend="left">
+          <pb n="5" xml:id="p5"/>
+        </p>
+        <p rend="left">Les arts
+<lb/>Les Graces et les Plaisirs
+<lb/>Les Graces et les Plaisirs
+<lb/>Les arts
+<lb/>Les arts
+<lb/>Les Graces et les Plaisirs
+<lb/>Les Graces et les Plaisirs
+<lb/>Les arts</p>
+        <p>
+          <pb n="6" xml:id="p6"/>
+        </p>
+        <label type="head">Argument</label>
+        <p><name>Venus,</name> et <name>Pallas</name> prenant le party, l’une du plaisir, et l’autre de la vertu entrent en contestation, cependant que <name>Mercure</name> qui tasche de les accorder leur propose de prendre le <persName>Roy</persName> pour Arbitre de leur different ; toutes deux-l’acceptent avec une-égale satisfaction ; Mais <name>Pallas </name>qui connoist l’avantage qu’elle a dans le choix d’un tel Juge insulte à sa Rivale, et apres luy avoir fait remarquer combien <persName>sa Majesté</persName> par toutes ses actions se déclare ouvertement pour la vertu,  la laisse dans la confusion</p>
+        <p><name>Venus</name> revenuë de son premier étonnement veut faire effort pour dompter l’Orgueil de <name>Pallas</name> en gagnant le cœur du <persName>Roy</persName>, et pour Unir toutes ses forces dans ce grand dessein, elle prie <name>Mercure</name> de voler dans tous les coins du Monde, afin de rassembler tous les Amours qui s’y trouvent dispersez. Mais lorsqu’il est prest de partir, elle a peur qu’il n’en sache pas reconnoistre la plus grande partie, qui pour faire reussir des entreprises importantes, se déguisent, et se cachent sous des formes empruntées, et pour luy donner moyen de ne s’y pas tromper, elle luy fait voir plusieurs de leurs déguisemens qui seront expliquez dans chacune des Entrées du <tech>Ballet</tech>.</p>
+        <p>
+          <pb n="7" xml:id="p7"/>
+        </p>
+        <label type="head">Dialogue</label>
+        <p><name>Pallas</name>, <name>Venus</name>, <name>Mercure</name></p>
+        <p>
+          <seg rend="labelspeaker">Mercure</seg>
+        </p>
+        <p>Surquoy contestez vous ? peut-on vous accorder</p>
+        <p>
+          <seg rend="labelspeaker">Venus</seg>
+        </p>
+        <l>La sçavante Pallas nous s’en persuader</l>
+        <l>Que son visage austere, et le bruit de ses armes</l>
+        <l>Doivent pour les Mortels avoir de plus doux charmes</l>
+        <l>Que les Jeux, les Plaisirs et les Graces, et l’Amour</l>
+        <l>Qui marchent à ma suite, et composent ma Cour.</l>
+        <p>
+          <seg rend="labelspeaker">Pallas</seg>
+        </p>
+        <l>Et la belle Venus pretend nous faire croire</l>
+        <l>Que les Arts, les Vertus et la Puissance, et la gloire</l>
+        <l>Ne versent pas dans l’ame un plus parfait bon-heur</l>
+        <l>Que de ses vains appas la trompeuse-douceur.</l>
+        <p>
+          <pb n="8" xml:id="p8"/>
+        </p>
+        <p>Venus.</p>
+        <l>Est-il rien si charmant que cet heureux martyre</l>
+        <l>Que l’on aime à souffrir à lorsqu’on en soupire ?</l>
+        <p><seg rend="labelspeaker">Pallas</seg>.</p>
+        <l>Est-il rien de si noble, et de si glorieux</l>
+        <l>Que de voir un mortel se rendre égal aux Dieux ?</l>
+        <l>Et de ses longs travaux avoir pour recompense</l>
+        <l>Le royal repos ; la vertu, l’honneur et la puissance.</l>
+        <p><seg rend="labelspeaker">Venus</seg>.</p>
+        <l>Qui d’un aimable objet adore les beaux yeux</l>
+        <l>Trouve ses sens plus doux que l’Empire des Cieux,</l>
+        <l>Et ne voit rien d’égal à la gloire immortelle</l>
+        <l>De rogner sur un cœur amoureux, et fidelle.</l>
+        <p><seg rend="labelspeaker">Pallas</seg>.</p>
+        <l>Tout cede à la valeur.</l>
+        <p><seg rend="labelspeaker">Venus</seg>.</p>
+        <l>L’amour peut tout charmer.</l>
+        <p><seg rend="labelspeaker">Pallas</seg>.</p>
+        <l>Ah qu’il est beau de vaincre.</l>
+        <p>
+          <pb n="9" xml:id="p9"/>
+        </p>
+        <p><seg rend="labelspeaker">Venus</seg>.</p>
+        <l>Ah ! qu’il est doux d’aimer.</l>
+        <p>
+          <seg rend="labelspeaker">Pallas</seg>
+        </p>
+        <l>On voit mes Conquerans plus crains que le Tonnerre.</l>
+        <p><seg rend="labelspeaker">Venus</seg>.</p>
+        <l>Ils temblent à mes pieds, ces Maitres de la Terre.</l>
+        <p><seg rend="labelspeaker">Pallas</seg>.</p>
+        <l>Par vos vaines douceurs un Amant arresté</l>
+        <l>Languit dans la molesse, et dans l’oisiveté.</l>
+        <p><seg rend="labelspeaker">Venus</seg>.</p>
+        <l>On a veû par l’effort des amoureuses flames</l>
+        <l>Naitre cent beaux desirs dans les plus belles ames ;</l>
+        <l>Mille explois qu’on admire, et dont vous vous parez</l>
+        <l>Furent à vous Heros par l’Amour inspirez.</l>
+        <p><seg rend="labelspeaker">Pallas</seg>.</p>
+        <l>Si graces à mes vertus, quelqu’ame genereuse</l>
+        <l>a sçeu se bien servir de l’ardeur amoureux ;</l>
+        <l>A quels déréglements à quelles cruautez</l>
+        <l>Tous vos autres Amans se sont-ils emportez ?</l>
+        <p>
+          <pb n="10" xml:id="p10"/>
+        </p>
+        <l>D’un soupçon qu’on se fait, d’un refus qu’on merite</l>
+        <l>La vangeance qu’on cherche est toujours sans limite.</l>
+        <l>L’Imposture, le fer, la flâme, et le poison</l>
+        <l>Semblent encor trop doux pour en tirer raison ;</l>
+        <l>Et de tant de forfaits, recompense legere,</l>
+        <l>On trouve un cœur changeant, une foy mensongere</l>
+        <l>On poursuit un objet, qui foible et delicat</l>
+        <l>Chaque moment s’efface, et perd de son éclat :</l>
+        <l>Mais le prix des vertus, d’immortelle nature,</l>
+        <l>Ny du temps, ny du Sort, ne reçoit point d’injure.</l>
+        <p><seg rend="labelspeaker">Venus</seg>.</p>
+        <l>Cette immortalité qu’on étale à nos yeux</l>
+        <l>Fait porter le Carnage, et la mort en tous lieux,</l>
+        <l>Et parmy vos Guerriers cette vertu cruelle,</l>
+        <l>Cette noble fureur qui vous paroist si belle,</l>
+        <l>Cette aspre audité du sang des malheureux,</l>
+        <l>C’est par où l’on acquiert le nom de valeureux,</l>
+        <l>Où par qui, pour mieux dire ; on fait autant de crimes,</l>
+        <l>Qu’à vos sanglans Autels on offre de victimes ;</l>
+        <l>Mais tous ces Conquerans, si folement vantez,</l>
+        <l>Pour de si longs travaux, pour tant d’inpiétez,</l>
+        <l>Pour tant de sang versé sur la terre opprimée,</l>
+        <l>Qu’ont-ils ? qu’un peu de vent, qu’on nomme Renommée ?</l>
+        <p><seg rend="labelspeaker">Mercure</seg>.</p>
+        <l>Tant d’aigreur conveint mal à des Divinitez.</l>
+        <p>
+          <seg rend="labelspeaker">Pallas</seg>
+        </p>
+        <l>Vous vous échaufez trop.</l>
+        <p>
+          <pb n="11" xml:id="p11"/>
+        </p>
+        <p><seg rend="labelspeaker">Venus</seg>.</p>
+        <l>Et vous vous emportez.</l>
+        <p><seg rend="labelspeaker">Pallas</seg>.</p>
+        <l>Quoy que le souvenir de la fatale Pomme</l>
+        <l>Me deust faire éviter le jugement d’un homme,</l>
+        <l>Je veux bien m’y soûmettre encore cette fois ;</l>
+        <l>Mais il en faut choisir.</l>
+        <p><seg rend="labelspeaker">Venus</seg>.</p>
+        <l>Je vous donne le choix.</l>
+        <p><seg rend="labelspeaker">Mercure</seg>.</p>
+        <l>Quel Arbitre peut mieux appaiser votre guerre,</l>
+        <l>Que celuy qui déjà l’est de toute la Terre ;</l>
+        <l>Loüis dont les décrets, des peuples écoutez,</l>
+        <l>Resolus par luy seul sont de tous respectez,</l>
+        <l>Loüis de qui déjà la sagesse profonde</l>
+        <l>Du Thrône des François preside à tout le monde,</l>
+        <l>Qui voit de tous cotez les plus grands Potentats</l>
+        <l>Briguer en supplians le secours de son bras,</l>
+        <l>Ou pour vivre à l’abry de sa juste puissance,</l>
+        <l>Rechercher à l’envie son auguste alliance ;</l>
+        <l>Qui voit la Renommée avec toutes ses voix</l>
+        <l>Preparer l’Univers à recevoir ses Loix ;</l>
+        <l>Qui se trouve en tous lieux suivy de la victoire ;</l>
+        <l>Et qui presque trahy par l’excès de sa gloire,</l>
+        <l>Voit par tout son grand nom par un heureux malheur,</l>
+        <l>Dérober la matiere à sa rare valeur.</l>
+        <p>
+          <pb n="12" xml:id="p12"/>
+        </p>
+        <l>Sur luy de toutes parts la Terre interessée</l>
+        <l>Arreste fixement ses yeux, et sa pensée,</l>
+        <l>Et son moindre appareil, son moindre mouvement,</l>
+        <l>Chez cent peuples divers porte l’etonnement.</l>
+        <p><seg rend="labelspeaker">Pallas</seg>.</p>
+        <l>Si Loüis doit juger, que vous estes à plaidre.</l>
+        <p><seg rend="labelspeaker">Venus</seg>.</p>
+        <l>Si Loüis doit jugez, que vous avez à craindre.</l>
+        <p><seg rend="labelspeaker">Mercure</seg>.</p>
+        <l>La brillante clarté de son discernement</l>
+        <l>Des trompeuses couleurs hait le déguisement.</l>
+        <p><seg rend="labelspeaker">Venus</seg>.</p>
+        <l>Ses yeux qui semblent faits pour charmer tous les notrs,</l>
+        <l>Voyent bien plus avant, et plus clair que les autres.</l>
+        <l>Et d’un mesme regard l’éclat, et la douceur</l>
+        <l>Captivent à la fois, et penestrent un cœur</l>
+        <l>C’est d’où vient ce respect qu’onluy rend sans contrainte,</l>
+        <l>C’est d’où vient ce pouvoir qu’on voit croitre sans crainte ;</l>
+        <l>C’est d’où ce forme en luy l’heureux, et sage choix</l>
+        <l>Qu’il fait pour les plus grands, et les moindres emplois.</l>
+        <l>Et dans ceux qu’il coisit, cette ardeur si fidelle,</l>
+        <l>Qui de tant de succez accompagne leur zele :</l>
+        <l>Notre accord par tout autre eut esté concerté</l>
+        <l>Avec moins de lumiere avec moins de bonté.</l>
+        <p>
+          <pb n="13" xml:id="p13"/>
+        </p>
+        <p>
+          <seg rend="labelspeaker">Pallas</seg>
+        </p>
+        <l>Vous y consentez donc ?</l>
+        <p>
+          <seg rend="labelspeaker">Venus</seg>
+        </p>
+        <l>Je le veux.</l>
+        <p><seg rend="labelspeaker">Pallas</seg>.</p>
+        <l>Sa conduite</l>
+        <l>Flate peu toutefois votre vaine poursuite</l>
+        <l>Et vous pourriez juger, à voir ses actions</l>
+        <l>Ce qu’il doit prononcer sur nos pretentions.</l>
+        <l>La paix dont il joüit, sa grandeur, sa richesse,</l>
+        <l>Son humeur, son esprit, son port, et sa jeunesse,</l>
+        <l>Pouvoient sans le flater assurer d’estre heureux</l>
+        <l>S’il vouloit s’asservir à l’Empire amoureux.</l>
+        <l>Mais quand ces qualitez portrant par tout la flâme</l>
+        <l>Sembloient aussi devoir amolir sa grande ame,</l>
+        <l>Son cœur qui les neglige, et s’éleve au dessus,</l>
+        <l>Jusqu’à tout mépriser s’attache à mes vertus,</l>
+        <l>Ce travail assidu qui jamais ne l’étonne,</l>
+        <l>Allarme son Estat qui craint pour sa personne,</l>
+        <l>Et qui déjà tout prest d’en recueillir les fruits</l>
+        <l>S’ent troubler son espoirt de craintes, et d’ennuits.</l>
+        <l>Son peuple plein d’ardeur demande au ciel sans cesse</l>
+        <l>Que ce Roy qui des Dieux imite la sagesse,</l>
+        <l>Qui comme eux est puissant, bon, juste, et genereux,</l>
+        <l>Pour le bon-heur publie soit immortel comme eux,</l>
+        <l>De ses premiers sujets la foule pretieuse</l>
+        <l>De le suivre en tous lieux se montre ambiteuse,</l>
+        <l>Touts brigue ses regards, et leur plus doux espoir,</l>
+        <l>Est l’heur de le servir, le plaisir de le voir.</l>
+        <p>
+          <pb n="14" xml:id="p14"/>
+        </p>
+        <p>
+          <seg rend="labelspeaker">Mercure</seg>
+        </p>
+        <l>Si des François, pour luy la tendresse est extréme</l>
+        <l>Ce Heros glorieux les cherit tout de mesme ;</l>
+        <l>Et cherche sa grandeur, et ses plus doux plaisirs</l>
+        <l>A contenter des siens tous les justes desirs.</l>
+        <l>Il n’attend pas toujours qu’un important service</l>
+        <l>Demande ses faveurs à titre de justice ;</l>
+        <l>Il sçait qu’un mauvais sort faute d’occasion,</l>
+        <l>Souvent du plus zélé trompe la passion :</l>
+        <l>Il se plaist à payer d’un solide salaire</l>
+        <l>Le desir impuissant que l’on a de luy plaisr,</l>
+        <l>Et ne paroist jamais le cœur si satisfait</l>
+        <l>Que lorsqu’il s’applaudit de quelque grand bienfait :</l>
+        <l>Cet air de majetsé qui brille en sa personne</l>
+        <l>Reléve de beaucoup l’éclat de sa Couronne.</l>
+        <l>Les Mmortels n’ont besoin de le regarder</l>
+        <l>Pour sçavoir que c’est luy qui leur doit commander.</l>
+        <l>Et quoy qu’en son accueil, une grace attrayante</l>
+        <l>Paroisse encourager celuy qui se presente ;</l>
+        <l>Un timide respect par ses yeux imprimé</l>
+        <l>De qui l’ose aborder tient le cœur allarmé.</l>
+        <p><seg rend="labelspeaker">Pallas</seg>.</p>
+        <l>Voila du grand Loüis la fidelle peinture</l>
+        <l>En faveur de vos droits tirez en quelqu’augure :</l>
+        <l>Et vous, qui soutenez l’oisif, et vain plaisirs</l>
+        <l>Pensez qui de nous deux aura sçeu mieux choisir,</l>
+        <l>S’il est vray que celuy que nous en devons croire</l>
+        <l>N’aime que le travail, les vertus et la gloire</l>
+        <l>Vous ne repondez rien ? mais vous nous confondez</l>
+        <l>Par les fortes raisons dont vous vous deffendrez ;</l>
+        <l>Je vous laissr y réver. Adieu.</l>
+        <p>
+          <pb n="15" xml:id="p15"/>
+        </p>
+        <p>
+          <seg rend="labelspeaker">Venus</seg>
+        </p>
+        <l>Quelle arrogance !</l>
+        <l>Elle croit donc déjà que je sois sans défence :</l>
+        <l>Son orgueil est trop grand ; Mais il luy faut ôter</l>
+        <l>Ce glorieux appuy dont il s’ose vanter.</l>
+        <l>Pour mieux exécuter cette noble entreprise</l>
+        <l>Employons à la fois la force, et la suprise,</l>
+        <l>Faisons en un moment venir de toutes parts</l>
+        <l>Tous nos Amours armez de flambeaux, et de dars.</l>
+        <l>Toy, qu’en mes interests j’ay toujours veu fidelle,</l>
+        <l>Mercure, en ce besoin témoigne moy ton zele,</l>
+        <l>Va les cherchers par tout.</l>
+        <p>
+          <seg rend="labelspeaker">Mercure</seg>
+        </p>
+        <l>Déesse, avec plaisir,</l>
+        <l>Mon cœur, en ce projet seconde ton desir.</l>
+        <p><seg rend="labelspeaker">Venus</seg>.</p>
+        <l>Va vîte.</l>
+        <p><seg rend="labelspeaker">Mercure</seg>.</p>
+        <l>J’obeïs.</l>
+        <p><seg rend="labelspeaker">Venus</seg>.</p>
+        <l>Mais reviens, je te prie,</l>
+        <l>Tu n’en connoitrois pas la plus grande partie</l>
+        <l>Si je ne t’instruisois de cent déguisemens</l>
+        <l>Qu’ils prennent pour aider aux grans évenemens.</l>
+        <p rend="left">
+          <pb n="16" xml:id="p16"/>
+        </p>
+        <p rend="left">Premiere Entrée 
+<lb/><name>8 Amours</name> Deguisez en <tech>forgerons</tech></p>
+        <p rend="left">
+          <pb n="17" xml:id="p17"/>
+        </p>
+        <p rend="left">Premiere Entrée 
+<lb/><name>8 A mours</name> Deguisez en <tech>forgerons</tech></p>
+        <p rend="left">
+          <pb n="19" xml:id="p19"/>
+        </p>
+        <p rend="left">2<hi rend="sup">e</hi> Airs pour <name>les forgerons</name> forgeant sur l’enclume</p>
+        <p rend="left">
+          <pb n="20" xml:id="p20"/>
+        </p>
+        <p rend="left">2<hi rend="sup">e</hi> Entrée
+<lb/><name>Le Gouverneur d’Egypte</name> avec toute la jeunesse du Pays</p>
+        <p rend="left">
+          <pb n="21" xml:id="p21"/>
+        </p>
+        <p rend="left">2<hi rend="sup">e</hi> Airs Ensuittes</p>
+        <p rend="left">
+          <pb n="22" xml:id="p22"/>
+        </p>
+        <p rend="left">Ritournelle pour le Dialogue de <name>Marc-antoine</name> et de <name>Cleopatre</name></p>
+        <p rend="left">
+          <pb n="23" xml:id="p23"/>
+        </p>
+        <p rend="left">Doutez-vous de mon feu, pour pour qui je soûpire.</p>
+        <p rend="left">Ah ! qu’il vous couste cher de me l’avoir prouvé ? J’en ay perdu 
+<lb/>la victoire et l’empire et ne m’en suis pas mal trouvé. 
+<lb/>Vous avez tout quitté pour ne suivre sur l’onde sans
+<lb/>moy vous demeuriez vainqueur Et vous estiez maistre du mon</p>
+        <p rend="left">
+          <pb n="24" xml:id="p24"/>
+        </p>
+        <p rend="left">Comme vous l’estiez de mon Cœur dont la tendresse est pour vous sans seconde ?
+<lb/>helas ! helas ! qu’avez-vous fait qu’avez-vous
+<lb/>fait amant fidelle amant parfait Amour amour j’ay fait ceder
+<lb/>ma gloire Jamais Jamais amant ne fut plus transporté j’ay fait plus, je vous
+<lb/>l’ay fait croire et par la me suis raquitté de l’Empire et de la victoire.</p>
+        <p rend="left">
+          <pb n="25" xml:id="p25"/>
+        </p>
+        <p rend="left">Non, non pour vivre heureux, Il faut estre amoureux 
+<lb/>Non non pour vivre heureux, 
+<lb/>Il faut estre amoureux Non, non pour vivre heureux, 
+<lb/>Il faut estre amoureux Non, non pour vivre heureux, Il faut estre amoureux
+<lb/></p>
+        <p rend="left">
+          <pb n="26" xml:id="p26"/>
+        </p>
+        <p rend="left">Je n’ay pu
+<lb/>soutenir nostre suitte impreveuë Que ne demuriez
+<lb/>vous sans nous en émouvoir Pour quelque temps Je vous perdrois de veuë,
+<lb/>Puis-je estre un moement sans vous voir ? Vous alliez remportez tout l’honneur
+<lb/>de la guerre sa fin couronnoit vos exploits et bien plus craint que
+<lb/>le Tonnerre vostre cœur estant sous mes loix vous y mettiez le
+<lb/>reste de la Terre helas helas qu’aurez vous</p>
+        <p rend="left">
+          <pb n="27" xml:id="p27"/>
+        </p>
+        <p rend="left">Fait, Amant fidelle amant amant parfait
+<lb/>A mon Amour j’ay fait ceder ma gloire, si c’est un
+<lb/>mal il vous doit estre Doux, c’est un trait digne de mémoire
+<lb/>Et qu’avois je affaire sans vous de l’Empire et de la victoire
+<lb/>Non non pour vivre heureux Il faut estre amoureux,
+<lb/>pour vivre heureux Il faut estre amoureux
+<lb/>Non non pour vivre heureux il faut estre amoureux, non non</p>
+        <p rend="left">
+          <pb n="28" xml:id="p28"/>
+        </p>
+        <p rend="left">Non non pour vivre heureux pour vivre heureux
+<lb/>pour vivre heureux Il faut estre amoureux Il faut Il
+<lb/>faut estre amoureux Il faut Il faut estre amoureux
+<lb/>faut estre amoureux Il faut etsre amoureux,
+<lb/>De veritables feux bien prouvez bien prouvez entre deux personnes
+<lb/>De veritables feux bien prouvez entre deux personnes
+<lb/>qui scavent s’aimer tout deux vallent mieux que des Couronnes
+<lb/>qui scavent s’aimer tous deux vallent mieux que des Couronnes</p>
+        <p>
+          <pb n="29" xml:id="p29"/>
+        </p>
+        <p>3<hi rend="sup">e</hi> Entrée</p>
+        <p>
+          <pb n="30" xml:id="p30"/>
+        </p>
+        <p>4<hi rend="sup">e</hi> Entrée. <name>Proserpine</name> et <name>ses compagnes</name></p>
+        <p>
+          <pb n="31" xml:id="p31"/>
+        </p>
+        <p>2<hi rend="sup">e</hi> Air sarabande Pour les mesmes</p>
+        <p>
+          <pb n="32" xml:id="p32"/>
+        </p>
+        <p>3<hi rend="sup">e</hi> Air Bourée pour les mesmes</p>
+        <p>
+          <pb n="33" xml:id="p33"/>
+        </p>
+        <p>5<hi rend="sup">e</hi> Entrée. <name>Des Amours</name> Deguisez en <tech>Jardiniers de Ceres</tech></p>
+        <p>
+          <lb/>
+          <pb n="34" xml:id="p34"/>
+        </p>
+        <p>6<hi rend="sup">e</hi> Entrée. <name>Pluton</name> enlevants <name>proserpinne</name></p>
+        <p>
+          <pb n="35" xml:id="p35"/>
+        </p>
+        <p>2<hi rend="sup">e</hi> Airs pour <name>les Demons</name></p>
+        <p>
+          <pb n="36" xml:id="p36"/>
+        </p>
+        <p>Concert de berger</p>
+        <p>
+          <pb n="37" xml:id="p37"/>
+        </p>
+        <p rend="left">Recit champestre chanté par <persName>Mr le Gros</persName>
+<lb/>Guerriers, il ne faut pas faire un mauvais usage
+<lb/>Des plus beaux jours de vostre âge Vous en rendrez quelque
+<lb/>jours conte a l’amour vous en rendrez quelque jour conte a L’amour
+<lb/>Concert de Berger</p>
+        <p rend="left">
+          <pb n="38" xml:id="p38"/>
+        </p>
+        <p rend="left">Passez dans les plaisirs la fleur de vos années
+<lb/>Et vos plus belles journées vous en rendrez 
+<lb/>quelques jour conte a l’amour vous en rendrez quelque 
+<lb/>jour conte a l’amour</p>
+        <p>
+          <pb n="39" xml:id="p39"/>
+        </p>
+        <p>7<hi rend="sup">e</hi> Entrée. <name>Renaud</name> et<name> 2 Chevaliers</name> sa suitte</p>
+        <p>
+          <pb n="40" xml:id="p40"/>
+        </p>
+        <p>2<hi rend="sup">e</hi> Air pour la Gloire et la renomez</p>
+        <p>
+          <pb n="41" xml:id="p41"/>
+        </p>
+        <p>8<hi rend="sup">e</hi> Entrée. <name>Flore</name> et <name>ses Nimphes</name></p>
+        <p>
+          <pb n="42" xml:id="p42"/>
+        </p>
+        <p>2 Air Menuet pour <name>les Nimphes</name></p>
+        <p>
+          <pb n="43" xml:id="p43"/>
+        </p>
+        <p rend="left">Recit Italien Chanté Par la <seg rend="labelspeaker">Seignora Anna</seg>
+<lb/>Ritournelle
+<lb/><foreign>Armide
+<lb/>Ah rinaldo e doue
+<lb/>sei ? e doue sei e</foreign></p>
+        <p rend="left">
+          <pb n="44" xml:id="p44"/>
+        </p>
+        <p rend="left">
+          <foreign>doue e doue sei Dunque
+<lb/>tù partir potesti partir potesti N’el mio
+<lb/>duol, nei pianti miei Posson far ch’il passo
+<lb/>arresti E questa é la merce ch’à mé tù dei ;
+<lb/>Ah ! rinaldo e doue sei ? e doue</foreign>
+        </p>
+        <p rend="left">
+          <pb n="45" xml:id="p45"/>
+        </p>
+        <p rend="left">
+          <foreign>Sei e doue e
+<lb/>doue sei Ritournelle
+<lb/></foreign>
+        </p>
+        <p rend="left">
+          <pb n="46" xml:id="p46"/>
+        </p>
+        <p rend="left">
+          <foreign>Ahi che ser vola lunge dà me Ed io qui
+<lb/>solà ed io qui sola Scherno rimango di rotta
+<lb/>fè ferma ferma rinaldo oh dio
+<lb/>Se morta è la tuà fè morta son io se morta
+<lb/>e la tua fè morta son io morta </foreign>
+        </p>
+        <p rend="left">
+          <pb n="47" xml:id="p47"/>
+        </p>
+        <p rend="left">
+          <foreign>morta son io
+<lb/>Ritournelle
+<lb/>Dunque il bel foco che t’arse già ceduto hà ‘l</foreign>
+        </p>
+        <p rend="left">
+          <pb n="48" xml:id="p48"/>
+        </p>
+        <p rend="left">
+          <foreign>loco ceduto hà’l loco A duro ghiaccio di ferita
+<lb/>Deh torna Deh torna Idolomio
+<lb/></foreign>
+          <foreign>se morta la tua fè morta son io
+<lb/>se morta la tua fè morta son io morta
+<lb/>morta son io</foreign>
+        </p>
+        <p rend="left">
+          <pb n="49" xml:id="p49"/>
+        </p>
+        <p rend="left">Ritournelle
+<lb/><foreign>A che spargo indarno
+<lb/>gridi voi che foste, ond’io mi moro Del moi ben del moi lesoro del moi
+<lb/>ben del moi Tesoro Sparite Suanite</foreign></p>
+        <p rend="left">
+          <pb n="50" xml:id="p50"/>
+        </p>
+        <p rend="left">
+          <foreign>Fuggite dà mè sparite suanite fuggite dà
+<lb/>mè fuggite dà mè ; sparite suanite fuggite Dà</foreign>
+        </p>
+        <p rend="left"><foreign>me fuggite fuggite Dà mè ; fuggite fuggite Dà
+<lb/>me</foreign> Ritournelle</p>
+        <p rend="left">
+          <pb n="51" xml:id="p51"/>
+        </p>
+        <p rend="left">
+          <foreign>E voi moli incantate</foreign>
+        </p>
+        <p rend="left">
+          <foreign>Ch’al fuggitiuo non arrestase il piè Ch’al fuggiliuo non arresta
+<lb/>fe il pie sparite suanite
+<lb/>fuggite dà mè sparite suanite fuggite Da
+<lb/>me fuggite Dà mà sparite suanite fuggite Dà</foreign>
+        </p>
+        <p rend="left">
+          <pb n="52" xml:id="p52"/>
+        </p>
+        <p rend="left"><foreign>Mè sparite fuggite dame suanite fuggite Dà mè
+<lb/></foreign>Ritournelle
+<lb/></p>
+        <p rend="left">
+          <pb n="53" xml:id="p53"/>
+        </p>
+        <p rend="left">9<hi rend="sup">e</hi> Entrée. <name>Une troupe de petit Amours</name></p>
+        <p rend="left">
+          <pb n="54" xml:id="p54"/>
+        </p>
+        <p rend="left">2<hi rend="sup">e</hi> Air. 
+<lb/>Concert de flustes pour <name>les Amours</name>.</p>
+        <p rend="left">
+          <pb n="55" xml:id="p55"/>
+        </p>
+        <p rend="left">3<hi rend="sup">e</hi> Air. 
+<lb/>Sarabande pour les mesme.</p>
+        <p rend="left">
+          <pb n="56" xml:id="p56"/>
+        </p>
+        <p rend="left">10<hi rend="sup">e</hi> Entrée.
+<lb/><name>Des sauvages de la Colchide</name></p>
+        <p rend="left">
+          <pb n="57" xml:id="p57"/>
+        </p>
+        <p rend="left">2<hi rend="sup">e</hi> Air pour les mesmes</p>
+        <p rend="left">
+          <pb n="58" xml:id="p58"/>
+        </p>
+        <p rend="left">11<hi rend="sup">e</hi> Entrée. <name>5 Dieux Marins</name> &amp; <name>5 Nymphes Maritimes</name></p>
+        <p rend="left">
+          <pb n="59" xml:id="p59"/>
+        </p>
+        <p rend="left">2<hi rend="sup">e</hi> Air pour les mesmes.</p>
+        <p rend="left">
+          <pb n="60" xml:id="p60"/>
+        </p>
+        <p rend="left">3<hi rend="sup">e</hi> Air les <name>Dieux Marins</name></p>
+        <p rend="left">
+          <pb n="61" xml:id="p61"/>
+        </p>
+        <p rend="left">4<hi rend="sup">e</hi> Air Bourée pour <name>les Dieux</name> et <name>Nimphes Maritimes</name></p>
+        <p rend="left">
+          <pb n="62" xml:id="p62"/>
+        </p>
+        <p rend="left">12<hi rend="sup">e</hi> Entrée. <name>Les Grecs</name> allants au Combat</p>
+        <p rend="left">
+          <pb n="63" xml:id="p63"/>
+        </p>
+        <p rend="left">Combat des <name>Grecs</name> &amp; <name>Troyens</name></p>
+        <p rend="left">
+          <pb n="64" xml:id="p64"/>
+        </p>
+        <p rend="left">3<hi rend="sup">e</hi> Air <name>les Grecs</name> Vainqueurs des <name>Troyens</name></p>
+        <p rend="left">
+          <pb n="65" xml:id="p65"/>
+        </p>
+        <p rend="left">4<hi rend="sup">e</hi> Air pour <name>les Grecs</name> &amp; <name>Troyens</name></p>
+        <p rend="left">
+          <pb n="66" xml:id="p66"/>
+        </p>
+        <p rend="left">Ritournelle pour les Récit de <name>Junon</name></p>
+      </div>
+    </body>
+  </text>
+</TEI>
