@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--Odette: 2020-03-30T15:18:04+02:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Gazette.</title>
+        <author>Renaudot, Théophraste (1586-1653). </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Merveilles17</edition>
+        <respStmt>
+          <name>Mathilde Nicolas. </name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université d’Artois - Lille, MESHS</publisher>
+        <date when="2019"/>
+        <availability status="restricted">
+          <licence/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Renaudot <anchor xml:id="_GoBack"/>Théophraste, <hi rend="i">Recueil des gazettes nouvelles, ordinaires et extraordinaires. Relations et récits des choses avenues tant en ce royaume qu’ailleurs, pendant l’année mil six cent soixante-quatre.</hi>, Paris, Bureau d’adresse, 1664.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date>1664/05/10.  </date>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>
+        <pb n="456" xml:id="p456"/>
+      </p>
+      <p><date>Le premier du Courant</date>, <persName>Leurs Majestez</persName>, avec lesquelles estoyent <persName>Monseigneur le Dauphin</persName>, <persName>Monsieur</persName>, &amp; <persName>Madame</persName>, arrivérent sur <!-- Auteur inconnu : 2020-02-13T13:26:13.05
+Identification des heures avec la balise « date ». Quel moyen pour l’identifier plus clairement ?--><date>les 6 heures</date><office:annotation-end xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" office:name="__Annotation__276_18480221"/> à <placeName>S. Cloud</placeName> : la <persName>Reyne Mére</persName> ayant oüi Vespres au <placeName>Couvent des Religieuses de Challiot</placeName>.
+<lb/><date>Le 2</date>, la Cour prit le divertissement de <tech>la Promenade</tech> dans le délicieux <placeName>Iardin de cette belle Maison</placeName> : <persName>les Reynes</persName> en <tech>chaise</tech>, &amp; <persName>les Dames</persName> en <tech>Caléche</tech>.
+<lb/><date>Le 3</date>, ces <persName>Princesses</persName>, accompagnées de <persName>Monsieur</persName>, allérent oüir Messe au <placeName>Mont Valérien</placeName>, à cause de la Feste de l’Invention de Sainte Croix: &amp; le lendemain, <date>premier Dimanche du mois</date>, Elles firent leurs dévotions au <placeName>Monastére des Vrsulines de S. Cloud</placeName>.</p>
+      <p><date>Le 4</date>, <persName>Leurs Majestez</persName> furent diverties par la <tech>Comédie Françoise</tech>: &amp; <persName>le Roy</persName> ayant ces jours là , traité toute la Cour, avec vne magnificence singuliére, Elles en partirent <date>le 5</date>, pour aller à <placeName>Versailles</placeName>, prendre les divertissemens qui leur y estoyent préparez sous le titre des Plaisir de l’Isle enchantée, &amp; qu’on avoit partagez en trois Iournées.</p>
+      <p>Le premier, qui estoit vne <tech>Course de Bague</tech>, se donna<date> le 7</date>, sur <!-- Auteur inconnu : 2020-02-13T13:29:52.05
+Même question que plus haut, identification des heures. 
+--><date>les six heures du soir</date><office:annotation-end xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" office:name="__Annotation__277_18480221"/> : &amp; <persName>tous les Chevaliers</persName> s’y estans signalez, le <persName>Marquis de la Valliére</persName> l’emporta, &amp; eut l’honneur d’en recevoir le Prix des mains de <persName>la Reyne Mére</persName>, qui estoit vne Epée enrichie de Diamans. La nuit estant survenuë, il parut <tech>plus de deux mille lumiéres</tech>, à la clarté desquel1es on servit vn superbe <tech>Festin </tech>de plus de <!-- Auteur inconnu : 2020-02-26T15:28:03.05
+Je ne parviens pas à mettre ceci en description. Tout le paragraphe se met en description également quand j’essaye de la faire. -->40 Bassins de viande, &amp; d’autant de Pyramides<office:annotation-end xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" office:name="__Annotation__5225_1135346906"/> : <persName>Leurs Majestez</persName> estans accompagnées à Table, de grand nombre des <persName>principales Dames </persName>fort bien parées.</p>
+      <p><date>Le 8</date>, il y eut pour la seconde Journée, <tech>Comédie Françoise</tech>, entremeslée de <tech>Concerts</tech>, de <tech>Récits</tech>, &amp; <tech>d’Entrées de Balet</tech>, ainsi que vous verrez ailleurs, dans le détail de tous ces agréables divertissemens, qui se terminérent hier, par vn <tech>Balet sur l’eau</tech>, &amp; vn tres beau <tech>feu d’Artifice</tech>.</p>
+      <byline>A Paris, du Bureau d’Adresse, aux Galleries du .Louvre,</byline>
+      <byline>devant la ruë S.Thomas, le 10 May 1664.</byline>
+      <byline>Avec Privilége.</byline>
+    </body>
+  </text>
+</TEI>
