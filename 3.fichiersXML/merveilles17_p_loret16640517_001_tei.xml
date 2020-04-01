@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--Odette: 2020-04-01T14:41:09+02:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>"Avertissante", La Muze historique, Lettre XIX, Lettre en vers à Son Altesse Madame la Duchesse de Nemours. Du 17 mai 1664.</title>
+        <author>Loret Jean (1595 ?-1665). </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Merveilles17</edition>
+        <respStmt>
+          <name>Mathilde Nicolas. </name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université d’Artois - Lille, MESHS</publisher>
+        <date when="2019"/>
+        <availability status="restricted">
+          <licence/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><hi rend="color_333333">Bibl: </hi><hi rend="color_333333">Loret Jean</hi>
+          , 
+          <hi rend="color_333333"><hi rend="i">La muze historique, ou Recueil des lettres en vers contenant les nouvelles du temps : écrites à Son Altesse Mademoizelle de Longueville, depuis duchesse de Nemours (1650-1665)</hi></hi>
+          <hi rend="color_333333">, Paris, Charlese Chenault, 1664</hi>
+          .
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date>1664/05/17. </date>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>
+        <pb n="198" xml:id="p198"/>
+      </p>
+      <head>LETTRE DIX-NEUFIÉME</head>
+      <p>Du <date>[samedi] dix-septiéme May</date>.</p>
+      <div subtype="level2">
+        <head>AVERTISSANTE.</head>
+        <l>Ha que j’ay de peine à me mettre</l>
+        <l>A faire aujourd’hui nôtre Lettre !</l>
+        <l>Hâ <persName>Princesse</persName>, que j’ay de peur</l>
+        <l>(Si mon préjugé n’est trompeur)</l>
+        <l>Que de loin de vous rendre contente,</l>
+        <l>Et de répondre à vôtre atente,</l>
+        <l>Qu’elle n’aye rien d’assez doux</l>
+        <l>Pour la Cour, ny mesmes pour Vous.</l>
+        <l>Ma Veine n’est pas bien ouverte,</l>
+        <l>Elle n’est peu, ny point dizerte ;</l>
+        <l>Et j’ay, par un fatal revers,</l>
+        <l>Plus de peine à faire deux Vers,</l>
+        <l>Que je n’ay, dans d’autres semaines,</l>
+        <l>Pour en compozer deux douzaines.</l>
+        <l>Oüay, que veut donc dire cela ?</l>
+        <l>Quel caprice êtrange est-ce là ?</l>
+        <l>D’où vient que j’ay l’esprit si beste ?</l>
+        <l>Toutefois, en gratant ma teste,</l>
+        <l>Je suis à ce point arivé</l>
+        <l>Que mon Prélude est achevé.</l>
+        <l>Mais je conjure ceux et celles</l>
+        <l>Qui, dans les suivantes Nouvelles</l>
+        <l>Auront quelque intérêt, ou part,</l>
+        <l>D’avoir quelque petit égar</l>
+        <l>A cette humeur toute de glace</l>
+        <l>Que j’alégue dans ma Préface,</l>
+        <l>Car je puis dire, en vérité,</l>
+        <l>Que c’est avec sincérité.</l>
+        <l>Quand je parlay, vaille-que-vaille,</l>
+        <l>L’autre-jour, un peu de <placeName>Versaille</placeName>,</l>
+        <l>Faute d’avis, faute d’amis,</l>
+        <l>Dans nôtre Lettre en Vers j’obmis</l>
+        <l>Une choze assez de remarque ;</l>
+        <l>Asssavoir que nôtre <placeName>Monarque</placeName>,</l>
+        <l>Qui d’adresse, en pluzieurs façons,</l>
+        <l>Pouroit faire à tous des leçons,</l>
+        <l>Etant nay pour bien des conquestes,</l>
+        <l>Obtint en la <tech>Course des Testes</tech></l>
+        <l>Le très-riche Prix destiné</l>
+        <l>Pour le bras le plus fortuné :</l>
+        <l>Mais par une bonté Royale,</l>
+        <l>Que l’on peut nommer sans égale,</l>
+        <l>Ce Prix qu’il avoit mérité,</l>
+        <l>Par luy ne fut point accepté ;</l>
+        <l>Et ce <persName>Roy</persName> que chacun honore,</l>
+        <l>Voulant qu’on recourût encore,</l>
+        <l><persName>Monseigneur le Duc de Coâlin</persName>,</l>
+        <l>D’un très-noble Pére, orfelin,</l>
+        <l>Et qui, d’esprit et de courage,</l>
+        <l>Posséde le doux avantage,</l>
+        <l>Si bien courut, et disputa,</l>
+        <l>Qu’en fin finale il l’emporta ;</l>
+        <l>Lequel Prix était (que je pense)</l>
+        <l>Un Diamant de conséquence,</l>
+        <l>Valant des Loüis maints et maints,</l>
+        <l>Et donné par d’<persName>illustre mains</persName>. <seg rend="commentreference"><!-- Windows User : 2020-02-12T15:39:00.51
+Une note dans le texte précisant qui a remis le prix, faut‑il la transcrire ?
+--></seg>[La Reine]<office:annotation-end xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" office:name="0"/></l>
+        <l>Comme <persName>ma Muze</persName> a grande estime</l>
+        <l>Pour iceluy <persName>Duc</persName> magnanime,</l>
+        <l>J’aurois plutôt parlé de luy,</l>
+        <l>Mais je n’ay sceu, que d’aujourd’huy,</l>
+        <l>Cette précieuze victoire,</l>
+        <l>Dont il aquit bien de la gloire.</l>
+        <l>
+          <pb n="199" xml:id="p199"/>
+        </l>
+        <l>Mercredy, lors qu’à Saint-Denis,</l>
+        <l>(Où furent Gens presque infinis)</l>
+        <l>Comne on a coûtume de faire,</l>
+        <l>On célébroit l’Anniversaire</l>
+        <l>De Louis Treize du Nom,</l>
+        <l>Roy (Comme on sçait) de grand renom,</l>
+        <l>Pour sa justice et sa vaillance,</l>
+        <l>Et qui fit prézent à la France,</l>
+        <l>De deux admirables Enfans,</l>
+        <l>Dans nos cœurs toûjours trionfans,</l>
+        <l>Dont l’un, sur les François domine,</l>
+        <l>Brave, bien-fait, de bonne mine,</l>
+        <l>Aux grandes chozes adonné;</l>
+        <l>Et 1’autre, assavoir son Puîné,</l>
+        <l>Est le Cadet le plus aimable</l>
+        <l>Qui soit sur la Terre habitable.</l>
+        <l>Durant, donc, iceluy jour-là,</l>
+        <l>L’Auguste Reine-Mére alla</l>
+        <l>Dans le plus beau des Monastéres,</l>
+        <l>Ordonner aussi des priéres,</l>
+        <l>Pour rendre Dieu propice et doux</l>
+        <l>Audit défunt Roy son Epous:</l>
+        <l>Ensuite, avec des cœurs sincéres,</l>
+        <l>Elle receut l’adieu des Méres</l>
+        <l>Epouzes de Nôtre-Seigneur,</l>
+        <l>Qui, de six mois, n’auront l’honneur</l>
+        <l>De revoir cette Grande Reine:</l>
+        <l>Car depuis, elle a pris la peine</l>
+        <l>D’aller avec toute la Cour</l>
+        <l>Habiter ce pompeux séjour</l>
+        <l>Dont la Rézidence est si belle,</l>
+        <l>Et qui Fontainebleau s’apelle.</l>
+        <l>J’ay sceu d’un excélent Auteur,</l>
+        <l>Que Monsieur d’Arque, Sénateur,</l>
+        <l>Du Parlement de Rotomage,</l>
+        <l>Que l’on tient être prude et sage,</l>
+        <l>Et, mesmement, docte et sçavant,</l>
+        <l>Ayant professé, cy-devant,</l>
+        <l>(Non pas sans quelque sindérèze)</l>
+        <l>La Foy de Calvin et de Béze,</l>
+        <l>Par divine inspiration,</l>
+        <l>Et a fait abjuration</l>
+        <l>Depuis des jours environ douze,</l>
+        <l>Et Madame, aussi, son Epouze,</l>
+        <l>Tous deux instruits sufizamment,</l>
+        <l>Et tous leurs Enfans, mesmement:</l>
+        <l>Laquelle Action autentique,</l>
+        <l>Autant que sainte et catholique,</l>
+        <l>Se fit avec assez d’éclat,</l>
+        <l>Entre les mains de leur Prélat</l>
+        <l>(Des plus fameux qui soient en France)</l>
+        <l>Dans Gaillon, Maizon de plaizance,</l>
+        <l>Et l’un des séjours plus charmans,</l>
+        <l>Qui soient dans les Climats Normans ;</l>
+        <l>Lequel Prélat, remply de zéle,</l>
+        <l>Prézenta ce nouveau Fidelle,</l>
+        <l>Dans Versaille, au Roy, l’autre-jour,</l>
+        <l>Où, lors, êtoit toute la Cour:</l>
+        <l>Lequel Roy montra grande joye</l>
+        <l>De le voir dans la bonne voye,</l>
+        <l>Luy promit sa protection,</l>
+        <l>Avéques protestation</l>
+        <l>D'en donner des preuves puissantes</l>
+        <l>Dans les occazions naissantes,</l>
+        <l>Luy dizant (mesmes) sçavoir bien</l>
+        <l>Qu'il êtoit fort Homme-de-bien,</l>
+        <l>Qu'il êtoit prudent et capable,</l>
+        <l>Juge et Magistrat équitable,</l>
+        <l>Et que pour le Party Royal</l>
+        <l>Il fût toûjours droit et loyal ;</l>
+        <l>Lesquels mots de ce Grand Monarque,</l>
+        <l>Charmérent fort ledit Sieur d’Arque.</l>
+        <l>Quand il eut vû Sa Majesté,</l>
+        <l>La Reine-Mére eut la bonté</l>
+        <l>De voir le susdit Personnage,</l>
+        <l>Qu'Elle receut d’un bon vizage;</l>
+        <l>Et Monsieur d’Orléans, aussy,</l>
+        <l>Eut un mesme et pareil soucy :</l>
+        <l>Auquel un Réligionnaire,</l>
+        <l>Qui n’est pas un Homme vulgaire,</l>
+        <l>Dit » Il faut que ce Converty</l>
+        <l>» Dézertant de nôtre Party,</l>
+        <l>» Ait eu mainte raizon expresse</l>
+        <l>» De quiter Marot pour la Messe:</l>
+        <l>» Car, enfin, je suis assûré</l>
+        <l>» Qu'il êtoit fort considéré</l>
+        <l>» Pour la valeur de sa Personne</l>
+        <l>» Des Eglizes qu’il abandonne.</l>
+        <l>A peu prés, voila ce qu’il dit ;</l>
+        <l>Et j’ay sceu qu’on luy répondit</l>
+        <l>Que le favorable langage</l>
+        <l>Qu'il tenoit de ce Personnage,</l>
+        <l>Venant de luy, valoit, du moins,</l>
+        <l>Deux douzaines d’autres témoins.</l>
+        <l>Après cecy, faut que je die</l>
+        <l>Qu'on m’a mandé de Picardie,</l>
+        <l>Que l’Episcopus de Noyon,</l>
+        <l>Le vray modelle, ou le crayon</l>
+        <l>D'un Prélat remply de mérites,</l>
+        <l>Et continüant ses vizites,</l>
+        <l>Pour, de propos chrétiens et saints,</l>
+        <l>Instruire ses Diocézains</l>
+        <l>Touchant les points plus salutéres</l>
+        <l>De nos adorables Mystéres,</l>
+        <l>Fut avec joye et grand’amour,</l>
+        <l>Receu dans Chauny, l’autre-jour,</l>
+        <l>
+          <pb n="200" xml:id="p200"/>
+        </l>
+        <l>Où tous les Corps d’icelle Ville,</l>
+        <l>Avec mainte Harangue habille</l>
+        <l>Et des discours judicieux,</l>
+        <l>Le complimentérent des mieux:</l>
+        <l>Il déploya son éloquence</l>
+        <l>Devant une grande aflüence</l>
+        <l>De Gens venus des environs,</l>
+        <l>Tant Manans, Bourgeois, que Barons,</l>
+        <l>Et de ses mains Episcopales,</l>
+        <l>Avec des ferveurs sans égales,</l>
+        <l>Il en confirma quantité</l>
+        <l>Qui ne l’avoient jamais été :</l>
+        <l>Enfin, il prêche, il catéchize,</l>
+        <l>Il s’adonne tout à l’Eglize,</l>
+        <l>Vaquant souvent à l’oraizon ;</l>
+        <l>Et l’on luy donne, avec raizon,</l>
+        <l>L'un et l’autre titre honorable,</l>
+        <l>D'éloquent et d’infatigable.</l>
+        <l>Mes chers Lecteurs, grands et petits,</l>
+        <l>Soyez, s’il vous plaît, avertis</l>
+        <l>Comme d’une choze certaine,</l>
+        <l>De la Grossesse de la Reine,</l>
+        <l>Qui dans cét an, et vers la fin,</l>
+        <l>Doit donner à son cher Daufin</l>
+        <l>Une Sœur, ou, possible, un Frére :</l>
+        <l>Je souhaite d’un cœur sincére,</l>
+        <l>Quand arivera ce moment,</l>
+        <l>Qu'elle en acouche heureuzement.</l>
+        <l>Un nommé Monsieur de la Vauve,</l>
+        <l>Noble Breton, ou Diou-me-sauve,</l>
+        <l>Fut, l’autre-jour, à peu de bruit,</l>
+        <l>Qu'il êtoit dix heures de nuit,</l>
+        <l>Ataqué par trois drôles d’hommes,</l>
+        <l>Qui ne luy trouvant nules sommes,</l>
+        <l>Bijoux, diamans, ny rubis,</l>
+        <l>Se saizirent de ses habits,</l>
+        <l>Et l’ayant mis nud en chemize,</l>
+        <l>Par raillerie, ou gaillardize,</l>
+        <l>L'escortérent civilement,</l>
+        <l>Jusqu’à l’huis de son logement,</l>
+        <l>Prés de ce Palais admirable,</l>
+        <l>(Jusqu’à cette heure, incomparable)</l>
+        <l>Nommé le Palais d’Orléans,</l>
+        <l>Et quand il fut entré léans,</l>
+        <l>Ces trois Messieurs se retirerérent ;</l>
+        <l>Mais sur leurs pas ils retournérent</l>
+        <l>Et heurtans avec le marteau,</l>
+        <l>Rendirent pourpoint et manteau,</l>
+        <l>Chapeau, cordon, chausses, jartiére,</l>
+        <l>A Madame sa Chambriére,</l>
+        <l>Luy donnant un billet en main,</l>
+        <l>Qui dizoit » Que le lendemain,</l>
+        <l>» Aux Cordeliers, et sans remize</l>
+        <l>» Et sans minuter de surprit</l>
+        <l>» Son Maître portât à tous trois</l>
+        <l>» Trente Loüis-d’or et de poids,</l>
+        <l>» Que l’un d’eux prend roit en cachette,</l>
+        <l>» Et les métroit dans sa pochette,</l>
+        <l>» A côté droit du bénoîtier,</l>
+        <l>» Ou, qu’autrement, point de quartier.</l>
+        <l>Ledit Monsieur n’y manqua mie,</l>
+        <l>Y fut deux heures et demie,</l>
+        <l>Et nul d’iceux ne vint, pourtant,</l>
+        <l>Prendre ledit argent comptant.</l>
+        <l>Le jour suivant, autre message,</l>
+        <l>Portant, à peu prés, ce langage,</l>
+        <l>Que d’un pas vîte et diligent</l>
+        <l>On leur portât ledit argent,</l>
+        <l>Sans bruit, sans escorte et sans armes,</l>
+        <l>Entre les Chartreux et les Carmes,</l>
+        <l>La Vauve, assez prompt et sou</l>
+        <l>Avec douze de ses amis,</l>
+        <l>Au rendez-vous se transportérent</l>
+        <l>Mais personne n’y rencontrèren</l>
+        <l>Et ce Gentilhomme Breton</l>
+        <l>Atend un tiers Billet, dit-on.</l>
+        <l>C'est une charmante personne</l>
+        <l>Qui l’avis de cecy me donne,</l>
+        <l>En termes cent fois plus jolis</l>
+        <l>Que ces Vers, Lecteur, que tu lis:</l>
+        <l>Mais si j’ay compris son mémoire,</l>
+        <l>C'est ainsi que finit l’histoire.</l>
+        <l><persName>Princesse</persName>, digne de bon-heur,</l>
+        <l>J'espére bien avoir l’honneur</l>
+        <l>D'aller dans vôtre Rézidence</l>
+        <l>Vous faire, en bref, la révérence.</l>
+        <l>Le <date>dix-sept May</date>, jour pluvieux,</l>
+        <l>Dontles Champs s’en trouveront mieux.</l>
+      </div>
+    </body>
+  </text>
+</TEI>

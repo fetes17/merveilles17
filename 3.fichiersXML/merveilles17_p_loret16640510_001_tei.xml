@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<!--Odette: 2020-02-12T11:05:47+01:00-->
+<!--Odette: 2020-04-01T14:41:03+02:00-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>« Immanquable », La Muze historique, Lettre XVIII, Lettre en vers à Son Altesse Madame la Duchesse de Nemours. </title>
+        <title>« Immanquab<anchor xml:id="_GoBack"/>le », La Muze historique, Lettre XVIII, Lettre en vers à Son Altesse Madame la Duchesse de Nemours. </title>
         <author>Loret Jean (1595 ?-1665). </author>
       </titleStmt>
       <editionStmt>
@@ -23,12 +23,12 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl>Loret Jean, <hi rend="i">La muze historique, ou Recueil des lettres en vers contenant les nouvelles du temps : écrites à Son Altesse Mademoizelle de Longueville, depuis duchesse de Nemours (1650-1665.</hi>, LIEU, Claude Chenault, ANNÉE.</bibl>
+        <bibl>Loret Jean, <hi rend="i">La muze historique, ou Recueil des lettres en vers contenant les nouvelles du temps : écrites à Son Altesse Mademoizelle de Longueville, depuis duchesse de Nemours (1650-1665.</hi>, Paris, Charles Chenault, 1664.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
       <creation>
-        <date>10 mai 1664. </date>
+        <date>1664/05/10. </date>
       </creation>
       <langUsage>
         <language ident="fre"/>
@@ -40,12 +40,10 @@
       <p>
         <pb n="195" xml:id="p195"/>
       </p>
-      <l>Lettre dix-huitiéme
-<lb/>Du <date>[samedi] dixié</date><date>me May</date>.
-<lb/>
-<lb/>Immanquable.
-<lb/>
-<lb/>Durant que la plus belle Cour
+      <l><hi rend="color_2e74b5">Lettre dix-huitiéme
+<lb/></hi>Du <date>[samedi] dixiéme May</date>.
+<lb/><lb/><hi rend="color_2e74b5">Immanquable.
+<lb/></hi><lb/>Durant que la plus belle Cour
 <lb/>Qu’ait jamais éclairé le jour,
 <lb/>Se divertit et se goberge
 <lb/>Dans <placeName>Versaille</placeName>, Royale Auberge,
@@ -213,7 +211,7 @@
 <lb/>De voir ses pompes et ses jeux :
 <lb/>Mais, de ce beau <placeName>Château</placeName>, <placeName>l’entrée</placeName>
 <lb/>Ne fut point par moy pénétrée ;
-<lb/>Dés la premiére, ou <placeName>basse Co</placeName><placeName>urt</placeName>,
+<lb/>Dés la premiére, ou <placeName>basse Court</placeName>,
 <lb/>Un Suisse m’arêta tout court,
 <lb/>Humble, je fis le pié derriére,
 <lb/>Mais il me dit à sa maniére,</l>
@@ -248,8 +246,8 @@
       <l>Où moy, pauvret, fus rebuté)</l>
       <l>Dans un lieu plus êtroit que vague,</l>
       <l>Se firent des <tech>Courses de Bague</tech>,</l>
-      <l>Avec des <tech>habits fort galan</tech><tech>s</tech>,</l>
-      <l><tech>D’argent, de soy</tech><tech>e et d’or, brillans</tech>,</l>
+      <l>Avec des <tech>habits fort galans</tech>,</l>
+      <l><tech>D’argent, de soye et d’or, brillans</tech>,</l>
       <l>Dont le Brave et beau <persName>La-Valliére</persName>,</l>
       <l>Par son adresse singuliére,</l>
       <l>Devant plus de deux cens beaux yeux,</l>
@@ -285,7 +283,7 @@
       <l>Que sans miracles, ou magies,</l>
       <l>On ait vû <tech>deux mille bougies</tech></l>
       <l>Eclairer, par profuzion,</l>
-      <l>Une seule <tech>Col</tech><tech>ation</tech>.</l>
+      <l>Une seule <tech>Colation</tech>.</l>
       <l>Le second jour, la <tech>Comédie</tech>,</l>
       <l>Par le sieur de <persName>Molière</persName> ourdie,</l>
       <l>Où l’on remarqua pleinement</l>
@@ -319,7 +317,7 @@
       <l>Enfin, tant de ravissemens,</l>
       <l>Tant de pompeux contentement,</l>
       <l><tech>Courses de Bague</tech>, magnifiques,</l>
-      <l><tech>Carrouz</tech><tech>els</tech>, <tech>s</tech><tech>pectacles comiques</tech>,</l>
+      <l><tech>Carrouzels</tech>, <tech>spectacles comiques</tech>,</l>
       <l><tech>Mille feux</tech> brillans dans les airs,</l>
       <l>Tant de <tech>Festins</tech>, tant de <tech>Concerts</tech>,</l>
       <l>Et, dans des Marches rayonnantes,</l>
@@ -327,9 +325,7 @@
       <l>Bref, tant d’aprèts délicieux,</l>
       <l>Avoient pour titre spécieux</l>
       <l>Les Plaisirs de l’Isle enchantée,</l>
-      <l>Que <!-- Windows User : 2020-02-06T16:44:00
-Comment baliser l’Arioste ?
--->l’Arioste<seg rend="marquedecommentaire"><office:annotation-end xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" office:name="0"/></seg> a tant chantée,</l>
+      <l>Que <persName>l’Arioste</persName> a tant chantée,</l>
       <l>Où quantitè de <name>Paladins</name>,</l>
       <l>Des plus Preux, et des moins gredins,</l>
       <l>(Sans alors se soucier d’armes)</l>
@@ -348,31 +344,6 @@ Comment baliser l’Arioste ?
       <l>Dont si belle et blonde est la tresse.</l>
       <l>Le <date>Dix de May</date>, Mois le plus doux,</l>
       <l>Et le plus verdoyant de tous.</l>
-      <p>Les titres et corps de texte sont stylés à partir des styles par défaut du logiciel (Titre, Titre 1, Titre 2, Corps de Texte, etc.).</p>
-      <salute>Les salutations</salute>
-      <l>Les vers</l>
-      <p>
-        <placeName>Les noms de lieu</placeName>
-      </p>
-      <p>
-        <date>Les dates</date>
-      </p>
-      <p>
-        <foreign>Les segments en langue étrangère</foreign>
-      </p>
-      <l>
-        <name>Les noms de personnages</name>
-      </l>
-      <l>
-        <persName>Les noms de personnes réelles</persName>
-      </l>
-      <l>
-        <tech>Les techniques</tech>
-      </l>
-      <byline>L’annonce de l’auteur ou de l’éditeur : « Par Barbier »</byline>
-      <p>
-        <pb n="Les numéros de page."/>
-      </p>
     </body>
   </text>
 </TEI>

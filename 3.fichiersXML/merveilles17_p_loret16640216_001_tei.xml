@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--Odette: 2020-04-01T14:40:58+02:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>« Hazardée », La Muze historique, Lettre VII en vers à Son Altesse Madame la Duchesse de Nemours. Du 16 février 1664.</title>
+        <author>Loret Jean (1595 ?-1665). </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Merveilles17</edition>
+        <respStmt>
+          <name>Mathilde Nicolas. </name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université d’Artois - Lille, MESHS</publisher>
+        <date when="2019"/>
+        <availability status="restricted">
+          <licence/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Loret Jean, <hi rend="i">La muze historique, ou Recueil des lettres en vers contenant les nouvelles du temps : écrites à Son Altesse Mademoizelle de Longueville, depuis duchesse de Nemours (1650-1665).</hi>, Paris, Charles Chenault, 1664.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date>1664/02/16. </date>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>
+        <pb n="164" xml:id="p164"/>
+      </p>
+      <head>LETTRE SEPTIÉME</head>
+      <p>
+        <date>Du [samedi] seize Février.</date>
+      </p>
+      <p><hi rend="color_2e74b5">HAZARDÉE</hi>.</p>
+      <l>MADAME, quoi que peu sçavant,</l>
+      <l>Il faut, dans l’Article suivant,</l>
+      <l>Que d’un beau sujet je discoure,</l>
+      <l>Ou du moins, que je le parcoure ;</l>
+      <l>Ce n’est pas mon intention</l>
+      <l>De faire une Description</l>
+      <l>Reguliére, Pléniére, entiére,</l>
+      <l>Du susdit sujet, ou matiére,</l>
+      <l>Ce me seroit trop de tracas :</l>
+      <l>Mais comme, en de semblables cas,</l>
+      <l>Ç’a toûjours été ma coûtume</l>
+      <l>D’hazarder quelques traits de plume,</l>
+      <l>Sans m’amuzer aux longs dicours</l>
+      <l>Sans un’œuvre de pluzieurs jours,</l>
+      <l>Je n’y vais employer qu’une heure,</l>
+      <l>Et c’est assez que je l’éfleure.</l>
+      <l><date>Mercredy</date>, fut le premier jour</l>
+      <l>Où le beau <tech>Balet</tech> de la Cour,</l>
+      <l>Agréable par excélence,</l>
+      <l>Avec grande magnificence,</l>
+      <l>Au <placeName>Palais Royal</placeName> fut dansé,</l>
+      <l>Où le <persName>Commandant, Charnassé</persName>,</l>
+      <l>Gentil-homme digne d’estime,</l>
+      <l>À la priére d’un intime,</l>
+      <l>Qui l’en requit obligeamment,</l>
+      <l>M’y fit placer commodément,</l>
+      <l>Et tout contre, par bonne chance,</l>
+      <l>D’une Belle, de connoissance.</l>
+      <l>Ce <tech>Balet</tech> des mieux compozez,</l>
+      <l>S’intitule <tech>Amours Déguizez</tech>.</l>
+      <l>Aprés la premiére Musique</l>
+      <l>Qui fut tout-à-fait harmonique,</l>
+      <l><name>Mercure</name>, <name>Pallas</name> et <name>Venus</name>,</l>
+      <l>Sur le <placeName>Téatre</placeName> intervenus,</l>
+      <l>Firent, entr’eux, un Dialogue,</l>
+      <l>Qui du sujet est le Prologue,</l>
+      <l>Où ces belles Divinitez,</l>
+      <l>En Vers par elles récitez,</l>
+      <l>Prétendent donner la victoire,</l>
+      <l>L’une à l’Amour, l’autre à la Gloire :</l>
+      <l><name>Pallas</name>, avec son sage Esprit,</l>
+      <l>Le party de la Gloire prit,</l>
+      <l>(Seul but des Lettres et des Armes ;)</l>
+      <l>Et <name>Venus</name> avec ses doux charmes</l>
+      <l>À qui tant de cœurs font la cour,</l>
+      <l>Ne parla qu’en faveur d’Amour,</l>
+      <l>Chacune dans leurs contreverses,</l>
+      <l>Alèguant des raizons diverses :</l>
+      <l>Enfin, ne pouvant s’acorder,</l>
+      <l><name>Mercure</name>, sans rien décider,</l>
+      <l>Leur fait accepter pour Arbitre</l>
+      <l><persName>Louis</persName>, qui mérite le titre</l>
+      <l>Du <persName>Roy</persName> qui le plus judicieux</l>
+      <l>Qui soit sous la rondeur des Cieux,</l>
+      <l><persName>Roy</persName>, qui dans la fleur de son âge</l>
+      <l>Est aussi charmant qu’il est sage,</l>
+      <l>Et dont ces trois Divinitez</l>
+      <l>Prônans les hautes qualitez,</l>
+      <l>A son honneur cent chozes dizent</l>
+      <l>Et ses Vertus immortalizent.</l>
+      <l>L’excélent Acteur, <persName>Floridor</persName>,</l>
+      <l>Qui vaut mieux que son pézant d’or,</l>
+      <l>Dans son héroïque figure,</l>
+      <l>Réprezenta le Dieu <name>Mercure</name>.</l>
+      <l><persName>Mademoiselle Des-Oeillets</persName>,</l>
+      <l>Qui dans ses Rolles, ou Rollets,</l>
+      <l>A paru toûjours admirable,</l>
+      <l>(D’autres dizent incomparable)</l>
+      <l>Ayant, et lance et coutelas,</l>
+      <l>Faizoit <name>la Guerriére Pallas</name>,</l>
+      <l>Et du <persName>sieur Monfleury la Fille</persName>,</l>
+      <l>Qui d’un air assez charmant brille,</l>
+      <l>Et mieux que ses riches atours,</l>
+      <l>Étoit la <name>Mére des Amours</name>,</l>
+      <l>Dont tous trois de l’honneur acquirent,</l>
+      <l>Et firent bien tout ce qu’ils firent.</l>
+      <l>Le <tech>Ballet </tech>aprés commença,</l>
+      <p>
+        <pb n="165" xml:id="p165"/>
+      </p>
+      <l>Où nôtre <persName>Monarque</persName> dansa</l>
+      <l>Avec cette grace Royale</l>
+      <l>Qui dans l’Europe est sans égale.</l>
+      <l>Aprés luy, <persName>Monsieur d’Orleans</persName>,</l>
+      <l>Fut le plus Galant de léans,</l>
+      <l>Montrant une si noble adresse,</l>
+      <l>Que par le bel air et justesse,</l>
+      <l>Dont ses pas êtoient animez,</l>
+      <l>Pluzieurs beaux yeux furent charmez.</l>
+      <l><persName>Maint Prince, Duc et Pair de France</persName>,</l>
+      <l>Qui sçavent aussi bien la dance,</l>
+      <l>Que le Mêtier de guerroyer,</l>
+      <l>Lors que Mars veut les employer,</l>
+      <l>Audit <tech>Balet </tech>se signalérent,</l>
+      <l>Et fort galamment y dansérent,</l>
+      <l>Étant Gens d’élite et de choix,</l>
+      <l>Mais qui plus, qui moins, toutefois,</l>
+      <l>Enfin, mainte Personne illustre</l>
+      <l>Parut, illec, dans tout son lustre.</l>
+      <l><persName>La jeune Reine</persName> mesmement,</l>
+      <l>De la Cour le cher Ornement,</l>
+      <l>De mille graces assortie,</l>
+      <l>Voulut être de la partie,</l>
+      <l>Avec cette douce fierté,</l>
+      <l>Naturelle à Sa Majesté,</l>
+      <l>Qui marque sa naissance Auguste,</l>
+      <l>Y dansa fort bien et fort juste.</l>
+      <l>Pluzieurs autres nobles Objets,</l>
+      <l>Dont bien des cœurs sont les sujets,</l>
+      <l>Augmentans, comme des miracles,</l>
+      <l>La pompe et l’éclat des spectacles,</l>
+      <l>Avec un parfait agrément,</l>
+      <l>Y dansérent pareillement ;</l>
+      <l>Et comme elles sont toutes belles,</l>
+      <l>Je vais spécifier icelles</l>
+      <l>Dans un stile simple et naïf,</l>
+      <l>Et non d’un ton superlatif</l>
+      <l>Sans afecter, mesme, aucun ordre,</l>
+      <l>De peur qu’on y trouvât à mordre,</l>
+      <l>Ny relever leurs qualitez</l>
+      <l>Par pointes et subtilitez.</l>
+      <l>De leurs Noms voicy, donc, la liste,</l>
+      <l>Comme ils viendront à l’improviste,</l>
+      <l>Sans y chercher d’autre façon ;</l>
+      <l>On m’a donné cette leçon.</l>
+      <l><foreign>Primo</foreign>, cette <persName>aimable Princesse,</persName></l>
+      <l><persName>Qui de Soissons est la Comtesse</persName>,</l>
+      <l>Un des beaux Esprits de la Cour,</l>
+      <l>Digne d’honneur, digne d’amour,</l>
+      <l>Et (ce qui vaut mieux qu’un Domaine)</l>
+      <l>Sur-intendante chez la Reine.</l>
+      <l>D’Elbeuf la Fille, et non la Sœur,</l>
+      <l>Dont les yeux ont grande douceur,</l>
+      <l>Dont la face est claire et seraine,</l>
+      <l>Et qui vient du Sang de Loraine.</l>
+      <l><persName>Mademoizelle de Nemours</persName>,</l>
+      <l>Qui, dans la fleur de ses beaux jours,</l>
+      <l>Est un amas de belles chozes,</l>
+      <l>Et, sur tout, de lys et de rozes.</l>
+      <l>Sa Cadette, dont l’air charmant, <!-- Windows User : 2020-02-12T15:35:00.27
+Il y avait une note intéressante dans le texte précisant le nom de la cadette, faut‑il la transcrire ?
+-->[<persName>Mademoiselle d’Aumale</persName>.]<office:annotation-end xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" office:name="__Annotation__223_895801051"/></l>
+      <l>Pouroit d’un Dieu faire un amant,</l>
+      <l>Blanche et fraîche comme une Aurore,</l>
+      <l>Et qui-là reprézentoit <name>Flore</name>.</l>
+      <l>La noble <persName>Dame de Créqui</persName>,</l>
+      <l>Adorable Duchesse, et qui</l>
+      <l>Peut passer, dans toute croyance,</l>
+      <l>Pour un des beaux Objets de France.</l>
+      <l>La jeune <persName>Madame de Foix</persName>,</l>
+      <l>Dont chacun dit, à haute voix,</l>
+      <l>Que dans tout le Monde habitable</l>
+      <l>On ne voit rien de plus aimable.</l>
+      <l>L’agréable et jeune <persName>Sully</persName>,</l>
+      <l>Au vizage frais et joly.</l>
+      <l>L’incomparable <persName>de Luynes</persName>,</l>
+      <l>Dont les beautez presque divines,</l>
+      <l>Les yeux, la gorge, et l’en-bon-point</l>
+      <l>Blessent et ne guérissent point.</l>
+      <l><persName>Vilequier, Marquize</persName> excellente,</l>
+      <l>Spiritüelle, intelligente,</l>
+      <l>Dont la Personne a des apas,</l>
+      <l>Et qui, sur-tout, fait de beaux pas,</l>
+      <l>Etant parée, ou non parée,</l>
+      <l>En dançant toûjours admirée.</l>
+      <l>L’agréable <persName>de Montespan</persName>,</l>
+      <l>Que l’on peut nommer un beau plan</l>
+      <l>De toutes les graces touchantes</l>
+      <l>Qui rendent les Dames charmantes.</l>
+      <l>La jeune <persName>Dame de Vibray</persName>,</l>
+      <l>Laquelle, pour dire le vray,</l>
+      <l>Et bien parler comme il faut d’elle,</l>
+      <l>A la gloire d’être fort belle ;</l>
+      <l>D’honnêtes Gens m’ont dit cela,</l>
+      <l>Car je ne la vis pas bien-là.</l>
+      <l><persName>Montauzier</persName>, digne et rare Fille,</l>
+      <l>En qui la vertu toûjours brille,</l>
+      <l>L’esprit, la prudence et l’honneur,</l>
+      <l>Qui n’est pas un petit bon-heur,</l>
+      <l><persName>Brancas</persName>, dont l’angélique face</l>
+      <l>L’éclat des plus beaux lys éface,</l>
+      <l>Fille qu’on aime, avec raizon,</l>
+      <l>Et d’illustre et bonne Maizon.</l>
+      <l><persName>Grancé</persName>, belle et jeune Normande,</l>
+      <l>Des plus aimables de sa bande,</l>
+      <l>Et qui, parmy ces qualitez,</l>
+      <l>Est fort noble des deux côtez.</l>
+      <l><persName>Castelnau</persName>, beauté singuliére,</l>
+      <l>Douce fleur, roze printaniére,</l>
+      <l>Dont le Pére, Homme martial,</l>
+      <p>
+        <pb n="166" xml:id="p166"/>
+      </p>
+      <l>En mourant fut fait Marêchal.</l>
+      <l><persName>Mademoiselle de la Mothe</persName>,</l>
+      <l>Pour qui maint noble cœur sanglote,</l>
+      <l>Ayant des mérites assez,</l>
+      <l>Pour attacher les mieux sensez.</l>
+      <l><persName>Dardennes</persName>, Fille ravissante,</l>
+      <l>D’humeur belle et divertissante,</l>
+      <l>Et qui porte dans ses beaux yeux</l>
+      <l>Dequoy charmer des demy-Dieux.</l>
+      <l><persName>D’Arquien</persName>, dont l’esprit est fort sage,</l>
+      <l>Et dont les yeux et le vizage</l>
+      <l>Ont je ne sçay quoy d’assez doux</l>
+      <l>Pour mériter un digne Epoux.</l>
+      <l><persName>Cologon</persName>, la belle inhumaine,</l>
+      <l>Qu’on estime fort chez la Reine,</l>
+      <l>Et qui par ses charmes vainqueurs</l>
+      <l>Se peut asservir bien des cœurs.</l>
+      <l><persName>De-Pons</persName>, illustre Demoizelle,</l>
+      <l>De l’Honneur vizible modelle,</l>
+      <l>Très-digne du doux Sacrement,</l>
+      <l>Et qui dance admirablement.</l>
+      <l>J’ay pensé faire une folie,</l>
+      <l>En oubliant cette jolie,</l>
+      <l>Cette pucelle <persName>Sévigny</persName>,</l>
+      <l>Objet de mérite infiny ;</l>
+      <l>Certes, moy, qui l’ay deux fois vûë</l>
+      <l>De divins agrémens pourvûë,</l>
+      <l>Et d’une très-rare beauté,</l>
+      <l>Aux Balets de Sa Majesté,</l>
+      <l>Si quelqu’un s’en venoit me dire,</l>
+      <l>Et fût-ce le Roy nôtre Sire,</l>
+      <l>As-tu rien vû de si mignon ?</l>
+      <l>Je dirois hardiment que non.</l>
+      <l>Outre ces Beautez éclatantes,</l>
+      <l>La plus-part des Dames importantes,</l>
+      <l><persName>Cinq ou six Fillettes encor</persName>,</l>
+      <l>Chacun valant un Trézor,</l>
+      <l>Fort joliment s’y trémoussérent,</l>
+      <l>C’est-à-dire très-bien dansérent,</l>
+      <l>Mais leurs noms êtant oubliez</l>
+      <l>Ne sont point icy publiez.</l>
+      <l>Il s’y fit des <tech>Concerts </tech>si rares,</l>
+      <l>Qu’ils eussent touché des Barbares,</l>
+      <l>On chanta quatre ou cinq Récits</l>
+      <l>Qui tenoient tous nos sens surcis.</l>
+      <l>Ces trois aimables Demoizelles, <!-- Windows User : 2020-02-12T15:37:00.28
+Il s’agit également d’une note dans le texte. -->[<persName>Mesdem. Hilaire</persName>, <persName>Cercamanan</persName> et <persName>Anne Bergeroti</persName>.]<office:annotation-end xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" office:name="__Annotation__403_895801051"/></l>
+      <l>Qui sont si bonnes Chanterelles,</l>
+      <l>Dont tu vois les noms à côté,</l>
+      <l>N’avaient jamais si bien chanté.</l>
+      <l>Les habits êtoient admirables,</l>
+      <l>Les perspectives agréables,</l>
+      <l>Riches et beaux les ornemens,</l>
+      <l>Et, merveilleux, les changemens.<anchor xml:id="_GoBack"/></l>
+      <l>Mais êtant pressé de conclure,</l>
+      <l>Par mon Imprimeur qui murmure,</l>
+      <l>En me dizant, hola, hola,</l>
+      <l>Je suis contraint de brizer-là,</l>
+      <l>Non pas sans dire male-peste ;</l>
+      <l>Aprenez de <persName>Balard</persName> le reste,</l>
+      <l>Il en a fait un Imprimé</l>
+      <l>Par qui tout Paris est semé ;</l>
+      <l>Et, de plus, la Gazette en Proze</l>
+      <l>En raporte aussi mainte choze.</l>
+      <l>Du moins ce beau <tech>Balet Royal</tech>,</l>
+      <l>Et sérieux, et jovial,</l>
+      <l>Si par hazard je l’estropie</l>
+      <l>Dans cette imparfaite Copie,</l>
+      <l>Il se peut vanter qu’aujourd’huy</l>
+      <l>Je n’ay discouru que de luy :</l>
+      <l>Enfin, je suis fort las d’êcrire,</l>
+      <l>Et ne croyois pas en tant dire.</l>
+      <l>Haute <persName>Princesse de Nemours</persName>,</l>
+      <l>Pardonnez à ce long Discours.</l>
+      <l>Achevé, dont je suis bien aize,</l>
+      <l>Du <date>second des mois, le jour seize</date>.</l>
+      <div subtype="level2">
+        <div subtype="level3">
+          <head>Apostile</head>
+          <l>Cher Lecteur, je crains que ces Vers</l>
+          <l>Ne soient par toy vûs de travers,</l>
+          <l>Comme dignes de tes censures :</l>
+          <l>J’ay fait de meilleures peintures.</l>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
