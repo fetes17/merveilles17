@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
-<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<!--Odette: 2020-04-01T14:40:58+02:00-->
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<?xml-model href="../merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
@@ -23,7 +22,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl>Loret Jean, <hi rend="i">La muze historique, ou Recueil des lettres en vers contenant les nouvelles du temps : écrites à Son Altesse Mademoizelle de Longueville, depuis duchesse de Nemours (1650-1665).</hi>, Paris, Charles Chenault, 1664.</bibl>
+        <bibl>Loret Jean, <title>La muze historique, ou Recueil des lettres en vers contenant les nouvelles du temps : écrites à Son Altesse Mademoizelle de Longueville, depuis duchesse de Nemours (1650-1665).</title>, Paris, Charles Chenault, 1664.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -37,14 +36,10 @@
   </teiHeader>
   <text>
     <body>
-      <p>
-        <pb n="164" xml:id="p164"/>
-      </p>
-      <head>LETTRE SEPTIÉME</head>
-      <p>
-        <date>Du [samedi] seize Février.</date>
-      </p>
-      <p><hi rend="color_2e74b5">HAZARDÉE</hi>.</p>
+      <pb n="164" xml:id="p164"/>
+      <head>LETTRE SEPTIÉME
+        <lb/><date>Du [samedi] seize Février.</date>
+        <lb/>HAZARDÉE </head>
       <l>MADAME, quoi que peu sçavant,</l>
       <l>Il faut, dans l’Article suivant,</l>
       <l>Que d’un beau sujet je discoure,</l>
@@ -186,7 +181,7 @@
       <l>Et, sur tout, de lys et de rozes.</l>
       <l>Sa Cadette, dont l’air charmant, <!-- Windows User : 2020-02-12T15:35:00.27
 Il y avait une note intéressante dans le texte précisant le nom de la cadette, faut‑il la transcrire ?
--->[<persName>Mademoiselle d’Aumale</persName>.]<office:annotation-end xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" office:name="__Annotation__223_895801051"/></l>
+-->[<persName>Mademoiselle d’Aumale</persName>.]</l>
       <l>Pouroit d’un Dieu faire un amant,</l>
       <l>Blanche et fraîche comme une Aurore,</l>
       <l>Et qui-là reprézentoit <name>Flore</name>.</l>
@@ -284,14 +279,14 @@ Il y avait une note intéressante dans le texte précisant le nom de la cadette,
       <l>On chanta quatre ou cinq Récits</l>
       <l>Qui tenoient tous nos sens surcis.</l>
       <l>Ces trois aimables Demoizelles, <!-- Windows User : 2020-02-12T15:37:00.28
-Il s’agit également d’une note dans le texte. -->[<persName>Mesdem. Hilaire</persName>, <persName>Cercamanan</persName> et <persName>Anne Bergeroti</persName>.]<office:annotation-end xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" office:name="__Annotation__403_895801051"/></l>
+Il s’agit également d’une note dans le texte. -->[<persName>Mesdem. Hilaire</persName>, <persName>Cercamanan</persName> et <persName>Anne Bergeroti</persName>.]</l>
       <l>Qui sont si bonnes Chanterelles,</l>
       <l>Dont tu vois les noms à côté,</l>
       <l>N’avaient jamais si bien chanté.</l>
       <l>Les habits êtoient admirables,</l>
       <l>Les perspectives agréables,</l>
       <l>Riches et beaux les ornemens,</l>
-      <l>Et, merveilleux, les changemens.<anchor xml:id="_GoBack"/></l>
+      <l>Et, merveilleux, les changemens.</l>
       <l>Mais êtant pressé de conclure,</l>
       <l>Par mon Imprimeur qui murmure,</l>
       <l>En me dizant, hola, hola,</l>
@@ -314,15 +309,11 @@ Il s’agit également d’une note dans le texte. -->[<persName>Mesdem. Hilaire
       <l>Pardonnez à ce long Discours.</l>
       <l>Achevé, dont je suis bien aize,</l>
       <l>Du <date>second des mois, le jour seize</date>.</l>
-      <div subtype="level2">
-        <div subtype="level3">
-          <head>Apostile</head>
-          <l>Cher Lecteur, je crains que ces Vers</l>
-          <l>Ne soient par toy vûs de travers,</l>
-          <l>Comme dignes de tes censures :</l>
-          <l>J’ay fait de meilleures peintures.</l>
-        </div>
-      </div>
+      <label>Apostile</label>
+      <l>Cher Lecteur, je crains que ces Vers</l>
+      <l>Ne soient par toy vûs de travers,</l>
+      <l>Comme dignes de tes censures :</l>
+      <l>J’ay fait de meilleures peintures.</l>
     </body>
   </text>
 </TEI>

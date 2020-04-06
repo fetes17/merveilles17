@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
-<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<!--Odette: 2020-04-01T14:41:19+02:00-->
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<?xml-model href="../merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -23,32 +22,24 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl>
-          <hi rend="color_333333">Bibl: Loret Jean, </hi>
-          <hi rend="color_333333">
-            <hi rend="i">La muze historique, ou Recueil des lettres en vers contenant les nouvelles du temps : écrites à Son Altesse Mademoizelle de Longueville, depuis duchesse de Nemours (1650-1665)</hi>
-          </hi>
-          <hi rend="color_333333">, Paris, Charles Chenault, 1664.</hi>
-        </bibl>
+        <bibl>Loret Jean, <title>La muze historique, ou Recueil des lettres en vers contenant les nouvelles du temps : écrites à Son Altesse Mademoizelle de Longueville, depuis duchesse de Nemours (1650-1665)</title>, Paris, Charles Chenault, 1664.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
       <creation>
-        <date>1664/08/09. </date>
+        <date when="1664-08-09">1664/08/09</date>
       </creation>
       <langUsage>
-        <language ident="fre"/>
+        <language ident="fr"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
-      <p>
-        <pb n="231" xml:id="p231"/>
-      </p>
-      <head>LETTRE TRENTE-UNE</head>
-      <p>Du <date>[samedi ] neuviéme Aoust</date>.</p>
-      <p><hi rend="color_2e74b5">RÉGALANTE</hi>.</p>
+      <pb n="231" xml:id="p231"/>
+      <head>LETTRE TRENTE-UNE
+        <lb/>Du <date>[samedi ] neuviéme Aoust</date>.
+        <lb/>RÉGALANTE.</head>
       <l>COMME on tient quazy pour certain</l>
       <l>Que <persName>le Légat</persName> viendra demain</l>
       <l>Faire icy sa superbe Entrée,</l>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
-<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<!--Odette: 2020-04-01T14:41:15+02:00-->
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<?xml-model href="../merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
@@ -23,7 +22,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl>Loret Jean, <hi rend="i">La muze historique, ou Recueil des lettres en vers contenant les nouvelles du temps : écrites à Son Altesse Mademoizelle de Longueville, depuis duchesse de Nemours (1650-1665)</hi>, Paris, Charles Chenault, 1664.</bibl>
+        <bibl>Loret Jean, <title>La muze historique, ou Recueil des lettres en vers contenant les nouvelles du temps : écrites à Son Altesse Mademoizelle de Longueville, depuis duchesse de Nemours (1650-1665)</title>, Paris, Charles Chenault, 1664.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -37,12 +36,10 @@
   </teiHeader>
   <text>
     <body>
-      <p>
-        <pb n="228" xml:id="p228"/>
-      </p>
-      <head>LETTRE TRENTIÉME</head>
-      <p>Du <date>[samedi] deuxième Aoust</date>.</p>
-      <p><hi rend="color_2e74b5">CURIEUZE</hi>.</p>
+      <pb n="228" xml:id="p228"/>
+      <head>LETTRE TRENTIÉME
+        <lb/>Du <date>[samedi] deuxième Aoust</date>.
+        <lb/>CURIEUZE.</head>
       <l><persName>PRINCESSE</persName>, d’esprit rare et beau,</l>
       <l>Revenant de <placeName>Fontainebleau</placeName></l>
       <l>Dans un Carosse de loüage,</l>
@@ -128,7 +125,7 @@
       <l>Avec autant de Perd(e)reaux.</l>
       <l><!-- Auteur inconnu : 2020-02-13T15:16:34.33
 Comment baliser les moments de la journée ?
---><date>Sur le soir</date><office:annotation-end xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" office:name="__Annotation__786_382643840"/>, une <tech>Comédie</tech></l>
+--><date>Sur le soir</date>, une <tech>Comédie</tech></l>
       <l>Trés-abondante en mélodie,</l>
       <l>Sujet parfaitement joly,</l>
       <l>Où les sieurs <persName>Moliére</persName> et <persName>Lully</persName>,</l>

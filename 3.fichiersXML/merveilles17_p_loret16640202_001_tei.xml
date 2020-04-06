@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
-<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<!--Odette: 2020-04-01T14:40:52+02:00-->
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<?xml-model href="../merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -23,7 +22,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl>Loret Jean, <hi rend="i">La muze historique, ou Recueil des lettres en vers contenant les nouvelles du temps : écrites à Son Altesse Mademoizelle de Longueville, depuis duchesse de Nemours (1650-1665).</hi>, Paris, Charles Chenault, 1664.</bibl>
+        <bibl>Loret Jean, <title>La muze historique, ou Recueil des lettres en vers contenant les nouvelles du temps : écrites à Son Altesse Mademoizelle de Longueville, depuis duchesse de Nemours (1650-1665).</title>, Paris, Charles Chenault, 1664.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -37,272 +36,266 @@
   </teiHeader>
   <text>
     <body>
-      <p>
-        <pb n="158" xml:id="p158"/>
-      </p>
+      <pb n="158" xml:id="p158"/>
       <head>LETTRE CINQUIÈME</head>
-      <p><hi rend="color_333333">Du </hi><date>[samedi] deux Février</date>
-        .
-</p>
-      <div subtype="level2">
-        <head>INTERDITE.</head>
-        <l>Une fluxion corrozive</l>
-        <l>Qui me tombe sur la gencive,</l>
-        <l>Un des plus fâcheux accidents</l>
-        <l>Qui puissent ariver aux dents,</l>
-        <l>Aujourd’huy semble m’interdire</l>
-        <l>L'Art de compozer et d’écrire,</l>
-        <l>Puisque soufrir et compozer</l>
-        <l>Ne peuvent pas sympatizer :</l>
-        <l>Toutefois, quoy que véhémente</l>
-        <l>Soit la douleur qui me toumente,</l>
-        <p>
-          <pb n="159" xml:id="p159"/>
-        </p>
-        <l>Qui me force, non de jurer,</l>
-        <l>Mais de me plaindre et murmurer,</l>
-        <l>Loin de murmurer et de plaindre,</l>
-        <l>Je vais, maintenant, me contraindre</l>
-        <l>Dans une sensible afliction,</l>
-        <l>Pour faire démonstration</l>
-        <l>Du beau zéle qui m’intéresse</l>
-        <l>A servir cette illustre <persName>Altesse</persName>,</l>
-        <l>Qui voit, avec des yeux contents,</l>
-        <l>Mes Vers depuis assez longtemps.</l>
-        <l><date>Lundy dernier</date>, dans l’<placeName>Oratoire</placeName>,</l>
-        <l>Où l’on solennizoit la Gloire</l>
-        <l>Et les Grandeurs du Fils de Dieu,</l>
-        <l><persName>Les Reines</persName> furent en ce Lieu,</l>
-        <l>Comme trés-devotes et sages,</l>
-        <l>Rendre leurs trés-humbles hommages,</l>
-        <l>Avec zéle et grande ferveur,</l>
-        <l>A ce cher et divin Sauveur.</l>
-        <l>Cét <persName>Evesque</persName>, de conséquence,</l>
-        <l>Ce rare Torrent d’éloquence,</l>
-        <l><persName>Monsieur d’Acqs</persName> fit un Sermon</l>
-        <l>Digne du célébre renom</l>
-        <l>Qu’il s’est, en prêchant l’Evangile,</l>
-        <l>Aquis en Cour et dans la Ville,</l>
-        <l>Où, tout-de-bon, <persName>Leurs Majestez</persName>,</l>
-        <l><persName>Les Prélats</persName>, les Principautez,</l>
-        <l><persName>Les Personnes scientifiques</persName>,</l>
-        <l><persName>Les Errans</persName> et <persName>les Catholiques</persName>,</l>
-        <l><persName>Les Courtizans</persName> et <persName>les Bourgeois</persName>,</l>
-        <l>L’ont admiré cent et cent fois.</l>
-        <l>Dans un <placeName>Salon</placeName>, ou <placeName>grande Sale</placeName>,</l>
-        <l>De la noble <placeName>Maizon Royale</placeName>,</l>
-        <l>Un <tech>Balet</tech> fut dansé, <date>Mardy</date>,</l>
-        <l>Je m’y coulay, non pas sans peine,</l>
-        <l>Un peu devant qu’entrât <persName>la Reine</persName> :</l>
-        <l>Mais n’ayant pas été placé</l>
-        <l>Aussi bien que j’avois pensé,</l>
-        <l>Je n’oüys point la mélodie,</l>
-        <l>Je n’y vy point la <tech>Comédie</tech>,</l>
-        <l>Ny le <tech>Balet</tech> entremêlé,</l>
-        <l>Ny ce qu’on en avoit moulé :</l>
-        <l>C’est pourquoy j’en sortis, belle-erre,</l>
-        <l>Et quoi qu’on ne vît Ciel, ny Terre,</l>
-        <l>Je revins chez-moy, promptement,</l>
-        <l>Sans voir ce divertissement.</l>
-        <l><date>Jeudy</date>, ma chance fut meilleure,</l>
-        <l>Car m’y rendant d’assez bonne-heure,</l>
-        <l>La sage <persName>Dame de Beauvais</persName>,</l>
-        <l>Dont beaucoup d’estime je fais,</l>
-        <l>Et que l’on chérit et révére</l>
-        <l>Dans la Cour de la <persName>Reine Mére</persName>,</l>
-        <l>M'y fit entrer, m’y fit placer,</l>
-        <l>Dieu l’en veüille recompenser :</l>
-        <l>Enfin, par la bonté d’icelle,</l>
-        <l>Ayant pour siége une bancelle,</l>
-        <l>Tantôt assis, tantôt debout,</l>
-        <l>Je vy bien, et de bout-en-bout</l>
-        <l>Ce plaizant <tech>Balet</tech> qui se pique</l>
-        <l>De muzical et de comique,</l>
-        <l>Et voicy deux mots du sujet.</l>
-        <l><name>Un Jaloux</name> charmé d’un Objet</l>
-        <l>Ravissant et de belle taille,</l>
-        <l>Veut l’épouzer, vaille-que-vaille,</l>
-        <l>Ou, du moins, il promet cela</l>
-        <l><name>Aux Parens</name> de cét Objet-là :</l>
-        <l>Mais connoissant que <name>sa Maîtresse</name></l>
-        <l>Est plus Coquette, que Tygresse,</l>
-        <l>Redoutant, comme un grand méchef,</l>
-        <l>Le fatal pennache du chef,</l>
-        <l>S'êtant dégagé vers <name>le Pére</name>,</l>
-        <l>Il arive, enfin, que <name>le Frére</name>,</l>
-        <l>Qui paroît doux comme un mouton,</l>
-        <l>Le contraint à coups de bâton,</l>
-        <l>De conclure le Mariage,</l>
-        <l>Ce qu’il fait, dont son ame enrage ;</l>
-        <l>Mais ce que je dy du <tech>Balet</tech></l>
-        <l>Ne vaut pas un coup de siflet,</l>
-        <l>Ou, du moins, ce n’est pas grand’choze,</l>
-        <l>Ny de la Comédie en proze,</l>
-        <l>Qu'on peut nommer certainement</l>
-        <l>Un exquis divertissement.</l>
-        <l>Je ne dis rien des huit Entrées,</l>
-        <l>Qui méritent d’être admirées,</l>
-        <l>Où <persName>Princes et Grands de la Cour</persName>,</l>
-        <l>Et nôtre <persName>Roy</persName> digne d’amour,</l>
-        <l>En comblant nos cœurs d’allegresse,</l>
-        <l>Font êclater leur noble adresse ;</l>
-        <l>Je laisse les <tech>Concerts</tech> galans,</l>
-        <l>Et les <tech>habits beaux et brillans</tech>,</l>
-        <l>J'obmets les <persName>deux Egiptiennes</persName></l>
-        <l>Ou, si l’on veut, Bohémiennes,</l>
-        <l>Qui joüérent audit <tech>Balet </tech></l>
-        <l>Admirablement leur rolet,</l>
-        <l>Et parurent assez charmantes</l>
-        <l>Avec leurs atours et leurs mantes :</l>
-        <l>De la <persName>Du-Parc</persName>, rien je ne dis,</l>
-        <l>Qui rendoit les Gens ébaudis</l>
-        <l>Par ses apas, par sa prestance,</l>
-        <l>Et par ses beaux pas et sa dance ;</l>
-        <l>Enfin, je ne décide rien</l>
-        <l>De ce <tech>Balet </tech>qui me plût bien :</l>
-        <l>Cette <tech>Piéce</tech> assez singuliére</l>
-        <l>Est un <foreign>In-promptu</foreign> de <persName>Moliére</persName>;</l>
-        <l>Et comme les Bourgeois, un jour,</l>
-        <l>Verront ce spectacle à leur tour,</l>
-        <p>
-          <pb n="160" xml:id="p160"/>
-        </p>
-        <l>Où l’on a des plaizirs extresmes,</l>
-        <l>Ils en pouront juger eux-mesmes :</l>
-        <l>Mais prézentement écrivons</l>
-        <l>Autres chozes, si nous pouvons.</l>
-        <l><date>Mercredy</date>, le <persName>Roy</persName> nôtre Sire,</l>
-        <l>A qui de longs jours je dézire,</l>
-        <l>Dans <placeName>Versaille</placeName> traita la Cour;</l>
-        <l>Et quoy que ce fût un beau jour,</l>
-        <l>On n’y fit point, dit-on, de chasse,</l>
-        <l>Mais le plaizir de <tech>la Ramasse</tech>,</l>
-        <l>Plus rapide que hazardeux,</l>
-        <l>Les divertit une heure, ou deux.</l>
-        <l>Le <persName>jeune Comte de Brienne</persName>,</l>
-        <l>Touché d’une ferveur chrétienne,</l>
-        <l>Ayant, pour les plaizirs mondains,</l>
-        <l>Conceu de généreux dédains,</l>
-        <l>S'est retiré dans l’<placeName>Oratoire</placeName>,</l>
-        <l>Pour y servir le <persName>Roy</persName> de Gloire,</l>
-        <l>En atendant que son Destin</l>
-        <l>Le rejoigne quelque matin</l>
-        <l>A son Epouze chaste et belle,</l>
-        <l>Dans la Rézidence éternelle.</l>
-        <l>Monsieur <persName>le Comte de Soissons</persName>,</l>
-        <l>Triste pour deux grandes raizons,</l>
-        <l>Depuis trois jours s’est mis en voye</l>
-        <l>Pour aller en <placeName>Cour de Savoye</placeName></l>
-        <l>Mêler ses justes déplaizirs,</l>
-        <l>Ses regrets, sanglots et soûpirs,</l>
-        <l>Aux larmes de l’illustre <persName>Prince</persName></l>
-        <l>Souverain d’icelle Province,</l>
-        <l>Dont il plaint le sort inhumain,</l>
-        <l>Et dont il est Couzin germain.</l>
-        <l>Or comme ce Duc est fort triste,</l>
-        <l>Dieu le console, Dieu l’assiste,</l>
-        <l>J'en fais de bon cœur le souhait ;</l>
-        <l>Car il est certain qu’il a fait,</l>
-        <l>Par deux morts des plus déplorables,</l>
-        <l>Deux pertes presque iréparables.</l>
-        <l>Pluzieurs Gens du Louvre m’ont dit,</l>
-        <l>Gens notables, Gens de crédit,</l>
-        <l>Que ce Dêmelé d’importance,</l>
-        <l>D'entre les Chizis et la France,</l>
-        <l>Qui menaçoit d’un si grand feu,</l>
-        <l>Est acommodé depuis peu ;</l>
-        <l>Si cette Paix n’est pas jurée,</l>
-        <l>On la tient du moins assürée :</l>
-        <l>Mais par quelles conventions,</l>
-        <l>Mais à quelles conditions,</l>
-        <l>(Que sçavoir je serois bien aize)</l>
-        <l>Il faut qu’à prézent je m’en taize,</l>
-        <l>Et ce m’est un faire le faut ;</l>
-        <l>Car Messieurs du Conseil d’Enhaut,</l>
-        <l>Par négligence, ou par prudence,</l>
-        <l>Ne m’en ont pas fait confidence.</l>
-        <l>Un Gentil-homme de Bayeux,</l>
-        <l>Extrait de fort nobles Ayeux,</l>
-        <l>Et de Race fort ancienne,</l>
-        <l>Qu'on nommoit Monsieur de Vienne,</l>
-        <l>Des erreurs de Calvin, coifé,</l>
-        <l>Et Huguenot franc et fiéfé,</l>
-        <l>Ayant dans toute sa jeunesse</l>
-        <l>Préféré le Prêche à la Messe,</l>
-        <l>Se sentant au lit atrapé,</l>
-        <l>Et de ce cruël mal frapé,</l>
-        <l>Qui tant de vizages dézole,</l>
-        <l>Qu'on apelle Plate-vérole,</l>
-        <l>Publiquement, et non sous-main,</l>
-        <l>Se fit Catholique Romain.</l>
-        <l>Ses Parens, tous grands calvinistes,</l>
-        <l>De son beau dessein êtans trites,</l>
-        <l>Voulurent unanimement</l>
-        <l>Y métre de l’empêchement :</l>
-        <l>Mais leurs défenses furent vaines,</l>
-        <l>Ils y perdirent soins et peines,</l>
-        <l>Ce Fils abjura leur erreur,</l>
-        <l>Ce qui les mit presque en fureur,</l>
-        <l>L'un en murmure, l’autre en pleure :</l>
-        <l>Et luy, se sentant d’heure-en-heure,</l>
-        <l>Aprocher des derniers momens,</l>
-        <l>Il receut tous ses Sacremens,</l>
-        <l>Et fut mis (aprés la mort dure)</l>
-        <l>En honorable sépulture,</l>
-        <l>Avec des funébres honneurs</l>
-        <l>Qu'on ne fait qu’aux plus Grands Seigneurs</l>
-        <l>Tous les Prestres et tous les Moines,</l>
-        <l>Avec quantité de Chanoines,</l>
-        <l>En larmoyant, l’ayans conduit</l>
-        <l>Au funeste et dernier réduit,</l>
-        <l>Ou nos corps ne sont plus que cendre :</l>
-        <l>Voila ce que je vien d’aprendre</l>
-        <l>(J'en puis jurer ma foy-de-Dieu)</l>
-        <l>D'un Billet venant de bon lieu,</l>
-        <l>Sçavoir d’un Prézident illustre,</l>
-        <l>Dont le Fils, dans un digne lustre,</l>
-        <l>Fils dévot et judicieux,</l>
-        <l>Est Evesque dudit Bayeux.</l>
-        <l>J'aysceu d’un nommé Maître Estienne</l>
-        <l>Que dans la Cité de Vienne,</l>
-        <l>Qui vaut cinq fois celle du Mans,</l>
-        <l>On a si peur des Otomans,</l>
-        <l>Que pluzieurs ont plié bagage</l>
-        <l>Pour ailleurs fixer leur ménage,</l>
-        <p>
-          <pb n="161" xml:id="p161"/>
-        </p>
-        <l>Quoy que l’on prenne des grands soins</l>
-        <l>D’en fortifier tous les coins,</l>
-        <l>Les Bastions et les Courtines ;</l>
-        <l>On y creuse des Contre-mines,</l>
-        <l>On y fait des Canons si gros,</l>
-        <l>Qu’un seul peut tuër dix Héros</l>
-        <l>Avec boulet de cent livres;</l>
-        <l>On y voiture bien des vivres,</l>
-        <l>Tant pour hommes, que pour chevaux:</l>
-        <l>De plus, outre tous ces travaux,</l>
-        <l>On y met des Faux-bours par-terre,</l>
-        <l>Qui ne sont pas bons pour la guerre.</l>
-        <l>Enfin, si ladite Cité,</l>
-        <l>Vers le Printemps, ou vers l’Eté,</l>
-        <l>Etoit par lesdits Turcs bloquée,</l>
-        <l>Enceinte, assaillie, ataquée,</l>
-        <l>Messieurs les Généraux Hongrois</l>
-        <l>En feroient créver plus de trois :</l>
-        <l>Et si le Grand Seigneur aspire</l>
-        <l>A la conquête de l’Empire,</l>
-        <l>Selon l’atente et le dézir</l>
-        <l>De son fameux Premier Vizir,</l>
-        <l>Les Germains, les Auxiliaires,</l>
-        <l>Etans contre iceux Aversaires<anchor xml:id="_GoBack"/></l>
-        <l>D'une juste ardeur embrazez,</l>
-        <l>N'auront pas lors les bras croizez.</l>
-        <l>Comme icy nôtre Verve cesse,</l>
-        <l>Je prens congé de <persName>ma Princesse</persName>.</l>
-        <l>Fait le <date>jour de la Chandeleur</date>,</l>
-        <l>Sentant aux dents quelque douleur.</l>
-      </div>
+      <dateline>Du <date>[samedi] deux Février</date></dateline>
+      <label>INTERDITE.</label>
+      <l>Une fluxion corrozive</l>
+      <l>Qui me tombe sur la gencive,</l>
+      <l>Un des plus fâcheux accidents</l>
+      <l>Qui puissent ariver aux dents,</l>
+      <l>Aujourd’huy semble m’interdire</l>
+      <l>L'Art de compozer et d’écrire,</l>
+      <l>Puisque soufrir et compozer</l>
+      <l>Ne peuvent pas sympatizer :</l>
+      <l>Toutefois, quoy que véhémente</l>
+      <l>Soit la douleur qui me toumente,</l>
+      <p>
+        <pb n="159" xml:id="p159"/>
+      </p>
+      <l>Qui me force, non de jurer,</l>
+      <l>Mais de me plaindre et murmurer,</l>
+      <l>Loin de murmurer et de plaindre,</l>
+      <l>Je vais, maintenant, me contraindre</l>
+      <l>Dans une sensible afliction,</l>
+      <l>Pour faire démonstration</l>
+      <l>Du beau zéle qui m’intéresse</l>
+      <l>A servir cette illustre <persName>Altesse</persName>,</l>
+      <l>Qui voit, avec des yeux contents,</l>
+      <l>Mes Vers depuis assez longtemps.</l>
+      <l><date>Lundy dernier</date>, dans l’<placeName>Oratoire</placeName>,</l>
+      <l>Où l’on solennizoit la Gloire</l>
+      <l>Et les Grandeurs du Fils de Dieu,</l>
+      <l><persName>Les Reines</persName> furent en ce Lieu,</l>
+      <l>Comme trés-devotes et sages,</l>
+      <l>Rendre leurs trés-humbles hommages,</l>
+      <l>Avec zéle et grande ferveur,</l>
+      <l>A ce cher et divin Sauveur.</l>
+      <l>Cét <persName>Evesque</persName>, de conséquence,</l>
+      <l>Ce rare Torrent d’éloquence,</l>
+      <l><persName>Monsieur d’Acqs</persName> fit un Sermon</l>
+      <l>Digne du célébre renom</l>
+      <l>Qu’il s’est, en prêchant l’Evangile,</l>
+      <l>Aquis en Cour et dans la Ville,</l>
+      <l>Où, tout-de-bon, <persName>Leurs Majestez</persName>,</l>
+      <l><persName>Les Prélats</persName>, les Principautez,</l>
+      <l><persName>Les Personnes scientifiques</persName>,</l>
+      <l><persName>Les Errans</persName> et <persName>les Catholiques</persName>,</l>
+      <l><persName>Les Courtizans</persName> et <persName>les Bourgeois</persName>,</l>
+      <l>L’ont admiré cent et cent fois.</l>
+      <l>Dans un <placeName>Salon</placeName>, ou <placeName>grande Sale</placeName>,</l>
+      <l>De la noble <placeName>Maizon Royale</placeName>,</l>
+      <l>Un <tech>Balet</tech> fut dansé, <date>Mardy</date>,</l>
+      <l>Je m’y coulay, non pas sans peine,</l>
+      <l>Un peu devant qu’entrât <persName>la Reine</persName> :</l>
+      <l>Mais n’ayant pas été placé</l>
+      <l>Aussi bien que j’avois pensé,</l>
+      <l>Je n’oüys point la mélodie,</l>
+      <l>Je n’y vy point la <tech>Comédie</tech>,</l>
+      <l>Ny le <tech>Balet</tech> entremêlé,</l>
+      <l>Ny ce qu’on en avoit moulé :</l>
+      <l>C’est pourquoy j’en sortis, belle-erre,</l>
+      <l>Et quoi qu’on ne vît Ciel, ny Terre,</l>
+      <l>Je revins chez-moy, promptement,</l>
+      <l>Sans voir ce divertissement.</l>
+      <l><date>Jeudy</date>, ma chance fut meilleure,</l>
+      <l>Car m’y rendant d’assez bonne-heure,</l>
+      <l>La sage <persName>Dame de Beauvais</persName>,</l>
+      <l>Dont beaucoup d’estime je fais,</l>
+      <l>Et que l’on chérit et révére</l>
+      <l>Dans la Cour de la <persName>Reine Mére</persName>,</l>
+      <l>M'y fit entrer, m’y fit placer,</l>
+      <l>Dieu l’en veüille recompenser :</l>
+      <l>Enfin, par la bonté d’icelle,</l>
+      <l>Ayant pour siége une bancelle,</l>
+      <l>Tantôt assis, tantôt debout,</l>
+      <l>Je vy bien, et de bout-en-bout</l>
+      <l>Ce plaizant <tech>Balet</tech> qui se pique</l>
+      <l>De muzical et de comique,</l>
+      <l>Et voicy deux mots du sujet.</l>
+      <l><name>Un Jaloux</name> charmé d’un Objet</l>
+      <l>Ravissant et de belle taille,</l>
+      <l>Veut l’épouzer, vaille-que-vaille,</l>
+      <l>Ou, du moins, il promet cela</l>
+      <l><name>Aux Parens</name> de cét Objet-là :</l>
+      <l>Mais connoissant que <name>sa Maîtresse</name></l>
+      <l>Est plus Coquette, que Tygresse,</l>
+      <l>Redoutant, comme un grand méchef,</l>
+      <l>Le fatal pennache du chef,</l>
+      <l>S'êtant dégagé vers <name>le Pére</name>,</l>
+      <l>Il arive, enfin, que <name>le Frére</name>,</l>
+      <l>Qui paroît doux comme un mouton,</l>
+      <l>Le contraint à coups de bâton,</l>
+      <l>De conclure le Mariage,</l>
+      <l>Ce qu’il fait, dont son ame enrage ;</l>
+      <l>Mais ce que je dy du <tech>Balet</tech></l>
+      <l>Ne vaut pas un coup de siflet,</l>
+      <l>Ou, du moins, ce n’est pas grand’choze,</l>
+      <l>Ny de la Comédie en proze,</l>
+      <l>Qu'on peut nommer certainement</l>
+      <l>Un exquis divertissement.</l>
+      <l>Je ne dis rien des huit Entrées,</l>
+      <l>Qui méritent d’être admirées,</l>
+      <l>Où <persName>Princes et Grands de la Cour</persName>,</l>
+      <l>Et nôtre <persName>Roy</persName> digne d’amour,</l>
+      <l>En comblant nos cœurs d’allegresse,</l>
+      <l>Font êclater leur noble adresse ;</l>
+      <l>Je laisse les <tech>Concerts</tech> galans,</l>
+      <l>Et les <tech>habits beaux et brillans</tech>,</l>
+      <l>J'obmets les <persName>deux Egiptiennes</persName></l>
+      <l>Ou, si l’on veut, Bohémiennes,</l>
+      <l>Qui joüérent audit <tech>Balet </tech></l>
+      <l>Admirablement leur rolet,</l>
+      <l>Et parurent assez charmantes</l>
+      <l>Avec leurs atours et leurs mantes :</l>
+      <l>De la <persName>Du-Parc</persName>, rien je ne dis,</l>
+      <l>Qui rendoit les Gens ébaudis</l>
+      <l>Par ses apas, par sa prestance,</l>
+      <l>Et par ses beaux pas et sa dance ;</l>
+      <l>Enfin, je ne décide rien</l>
+      <l>De ce <tech>Balet </tech>qui me plût bien :</l>
+      <l>Cette <tech>Piéce</tech> assez singuliére</l>
+      <l>Est un <foreign>In-promptu</foreign> de <persName>Moliére</persName>;</l>
+      <l>Et comme les Bourgeois, un jour,</l>
+      <l>Verront ce spectacle à leur tour,</l>
+      <p>
+        <pb n="160" xml:id="p160"/>
+      </p>
+      <l>Où l’on a des plaizirs extresmes,</l>
+      <l>Ils en pouront juger eux-mesmes :</l>
+      <l>Mais prézentement écrivons</l>
+      <l>Autres chozes, si nous pouvons.</l>
+      <l><date>Mercredy</date>, le <persName>Roy</persName> nôtre Sire,</l>
+      <l>A qui de longs jours je dézire,</l>
+      <l>Dans <placeName>Versaille</placeName> traita la Cour;</l>
+      <l>Et quoy que ce fût un beau jour,</l>
+      <l>On n’y fit point, dit-on, de chasse,</l>
+      <l>Mais le plaizir de <tech>la Ramasse</tech>,</l>
+      <l>Plus rapide que hazardeux,</l>
+      <l>Les divertit une heure, ou deux.</l>
+      <l>Le <persName>jeune Comte de Brienne</persName>,</l>
+      <l>Touché d’une ferveur chrétienne,</l>
+      <l>Ayant, pour les plaizirs mondains,</l>
+      <l>Conceu de généreux dédains,</l>
+      <l>S'est retiré dans l’<placeName>Oratoire</placeName>,</l>
+      <l>Pour y servir le <persName>Roy</persName> de Gloire,</l>
+      <l>En atendant que son Destin</l>
+      <l>Le rejoigne quelque matin</l>
+      <l>A son Epouze chaste et belle,</l>
+      <l>Dans la Rézidence éternelle.</l>
+      <l>Monsieur <persName>le Comte de Soissons</persName>,</l>
+      <l>Triste pour deux grandes raizons,</l>
+      <l>Depuis trois jours s’est mis en voye</l>
+      <l>Pour aller en <placeName>Cour de Savoye</placeName></l>
+      <l>Mêler ses justes déplaizirs,</l>
+      <l>Ses regrets, sanglots et soûpirs,</l>
+      <l>Aux larmes de l’illustre <persName>Prince</persName></l>
+      <l>Souverain d’icelle Province,</l>
+      <l>Dont il plaint le sort inhumain,</l>
+      <l>Et dont il est Couzin germain.</l>
+      <l>Or comme ce Duc est fort triste,</l>
+      <l>Dieu le console, Dieu l’assiste,</l>
+      <l>J'en fais de bon cœur le souhait ;</l>
+      <l>Car il est certain qu’il a fait,</l>
+      <l>Par deux morts des plus déplorables,</l>
+      <l>Deux pertes presque iréparables.</l>
+      <l>Pluzieurs Gens du Louvre m’ont dit,</l>
+      <l>Gens notables, Gens de crédit,</l>
+      <l>Que ce Dêmelé d’importance,</l>
+      <l>D'entre les Chizis et la France,</l>
+      <l>Qui menaçoit d’un si grand feu,</l>
+      <l>Est acommodé depuis peu ;</l>
+      <l>Si cette Paix n’est pas jurée,</l>
+      <l>On la tient du moins assürée :</l>
+      <l>Mais par quelles conventions,</l>
+      <l>Mais à quelles conditions,</l>
+      <l>(Que sçavoir je serois bien aize)</l>
+      <l>Il faut qu’à prézent je m’en taize,</l>
+      <l>Et ce m’est un faire le faut ;</l>
+      <l>Car Messieurs du Conseil d’Enhaut,</l>
+      <l>Par négligence, ou par prudence,</l>
+      <l>Ne m’en ont pas fait confidence.</l>
+      <l>Un Gentil-homme de Bayeux,</l>
+      <l>Extrait de fort nobles Ayeux,</l>
+      <l>Et de Race fort ancienne,</l>
+      <l>Qu'on nommoit Monsieur de Vienne,</l>
+      <l>Des erreurs de Calvin, coifé,</l>
+      <l>Et Huguenot franc et fiéfé,</l>
+      <l>Ayant dans toute sa jeunesse</l>
+      <l>Préféré le Prêche à la Messe,</l>
+      <l>Se sentant au lit atrapé,</l>
+      <l>Et de ce cruël mal frapé,</l>
+      <l>Qui tant de vizages dézole,</l>
+      <l>Qu'on apelle Plate-vérole,</l>
+      <l>Publiquement, et non sous-main,</l>
+      <l>Se fit Catholique Romain.</l>
+      <l>Ses Parens, tous grands calvinistes,</l>
+      <l>De son beau dessein êtans trites,</l>
+      <l>Voulurent unanimement</l>
+      <l>Y métre de l’empêchement :</l>
+      <l>Mais leurs défenses furent vaines,</l>
+      <l>Ils y perdirent soins et peines,</l>
+      <l>Ce Fils abjura leur erreur,</l>
+      <l>Ce qui les mit presque en fureur,</l>
+      <l>L'un en murmure, l’autre en pleure :</l>
+      <l>Et luy, se sentant d’heure-en-heure,</l>
+      <l>Aprocher des derniers momens,</l>
+      <l>Il receut tous ses Sacremens,</l>
+      <l>Et fut mis (aprés la mort dure)</l>
+      <l>En honorable sépulture,</l>
+      <l>Avec des funébres honneurs</l>
+      <l>Qu'on ne fait qu’aux plus Grands Seigneurs</l>
+      <l>Tous les Prestres et tous les Moines,</l>
+      <l>Avec quantité de Chanoines,</l>
+      <l>En larmoyant, l’ayans conduit</l>
+      <l>Au funeste et dernier réduit,</l>
+      <l>Ou nos corps ne sont plus que cendre :</l>
+      <l>Voila ce que je vien d’aprendre</l>
+      <l>(J'en puis jurer ma foy-de-Dieu)</l>
+      <l>D'un Billet venant de bon lieu,</l>
+      <l>Sçavoir d’un Prézident illustre,</l>
+      <l>Dont le Fils, dans un digne lustre,</l>
+      <l>Fils dévot et judicieux,</l>
+      <l>Est Evesque dudit Bayeux.</l>
+      <l>J'aysceu d’un nommé Maître Estienne</l>
+      <l>Que dans la Cité de Vienne,</l>
+      <l>Qui vaut cinq fois celle du Mans,</l>
+      <l>On a si peur des Otomans,</l>
+      <l>Que pluzieurs ont plié bagage</l>
+      <l>Pour ailleurs fixer leur ménage,</l>
+      <p>
+        <pb n="161" xml:id="p161"/>
+      </p>
+      <l>Quoy que l’on prenne des grands soins</l>
+      <l>D’en fortifier tous les coins,</l>
+      <l>Les Bastions et les Courtines ;</l>
+      <l>On y creuse des Contre-mines,</l>
+      <l>On y fait des Canons si gros,</l>
+      <l>Qu’un seul peut tuër dix Héros</l>
+      <l>Avec boulet de cent livres;</l>
+      <l>On y voiture bien des vivres,</l>
+      <l>Tant pour hommes, que pour chevaux:</l>
+      <l>De plus, outre tous ces travaux,</l>
+      <l>On y met des Faux-bours par-terre,</l>
+      <l>Qui ne sont pas bons pour la guerre.</l>
+      <l>Enfin, si ladite Cité,</l>
+      <l>Vers le Printemps, ou vers l’Eté,</l>
+      <l>Etoit par lesdits Turcs bloquée,</l>
+      <l>Enceinte, assaillie, ataquée,</l>
+      <l>Messieurs les Généraux Hongrois</l>
+      <l>En feroient créver plus de trois :</l>
+      <l>Et si le Grand Seigneur aspire</l>
+      <l>A la conquête de l’Empire,</l>
+      <l>Selon l’atente et le dézir</l>
+      <l>De son fameux Premier Vizir,</l>
+      <l>Les Germains, les Auxiliaires,</l>
+      <l>Etans contre iceux Aversaires</l>
+      <l>D'une juste ardeur embrazez,</l>
+      <l>N'auront pas lors les bras croizez.</l>
+      <l>Comme icy nôtre Verve cesse,</l>
+      <l>Je prens congé de <persName>ma Princesse</persName>.</l>
+      <l>Fait le <date>jour de la Chandeleur</date>,</l>
+      <l>Sentant aux dents quelque douleur.</l>
     </body>
   </text>
 </TEI>
