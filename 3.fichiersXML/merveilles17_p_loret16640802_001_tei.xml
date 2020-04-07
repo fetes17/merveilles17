@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<?xml-model href="../merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>« Curieuse », La Muze historique, Lettre XXX, Lettre en vers à Son Altesse Madame la Duchesse de Nemours. Du samedi 2 août 1664.</title>
+        <author>Loret Jean (1595 ?-1665). </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Merveilles17</edition>
+        <respStmt>
+          <name>Mathilde Nicolas. </name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université d’Artois - Lille, MESHS</publisher>
+        <date when="2019"/>
+        <availability status="restricted">
+          <licence/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Loret Jean, <title>La muze historique, ou Recueil des lettres en vers contenant les nouvelles du temps : écrites à Son Altesse Mademoizelle de Longueville, depuis duchesse de Nemours (1650-1665)</title>, Paris, Charles Chenault, 1664.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date>1664/08/02. </date>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="228" xml:id="p228"/>
+      <head>LETTRE TRENTIÉME
+        <lb/>Du <date>[samedi] deuxième Aoust</date>.
+        <lb/>CURIEUZE.</head>
+      <l><persName>PRINCESSE</persName>, d’esprit rare et beau,</l>
+      <l>Revenant de <placeName>Fontainebleau</placeName></l>
+      <l>Dans un Carosse de loüage,</l>
+      <l>Quoy que fatigué du voyage,</l>
+      <l>Je vais prendre la plume en main</l>
+      <l>Pour, aujourd’huy mesme, et demain,</l>
+      <l>Tâcher à déduire des chozes</l>
+      <l>Qui sont dans ma mémoire enclozes,</l>
+      <l>Des chozes dignes de sçavoir,</l>
+      <l>Qu'on sera bien-aize de voir,</l>
+      <l>Mais qui ne seront pas écrites</l>
+      <l>Selon leurs dégrez et mérites,</l>
+      <l>Ne leur donnant pas ce beau tour</l>
+      <l>Qu'on leur donneroit à la Cour,</l>
+      <l>Où l’on me void fort peu parêtre,</l>
+      <l>Et dont je n’ay pas l’honneur d’être,</l>
+      <l>Quoy que j’aye toûjours été</l>
+      <l>Trés-zélé pour <persName>Sa Majesté</persName>,</l>
+      <l>Et plein d’une ardeur sans égale</l>
+      <l>Pour toute la Maizon Royale;</l>
+      <l>C'est ce que pluzieurs Gens-de-bien</l>
+      <l>Sçavent et reconnoissent bien:</l>
+      <l>Mais, pour décharger ma mémoire,</l>
+      <l>Ecrivons en stile d’Histoire.</l>
+      <l><persName>Monseigneur le Légat Chizy</persName>,</l>
+      <l><tech>Vêtu d’un fort beau cramoisy</tech>,</l>
+      <l>Avec sa <tech>brillante Livrée</tech>,</l>
+      <l><date>Lundi dernier</date> fit son Entrée</l>
+      <l>Dans un éclat pompeux et beau,</l>
+      <l>Au<placeName> Palais de Fontainebleau</placeName>.</l>
+      <l><persName>Monsieur</persName>, du Roy le Frére unique,</l>
+      <l>Prince charmant et magnifique,</l>
+      <l>Prince digne de tout bon-heur,</l>
+      <l>
+        <persName>Accompagné de maint Seigneur,</persName>
+      </l>
+      <l><persName>Et d’un flot de leste Noblesse</persName>,</l>
+      <l>Tous Serviteurs de son Altesse,</l>
+      <l>Fut (à ce qu’on met en avant)</l>
+      <l>Une bonne lieüe au-devant,</l>
+      <l>Luy donnant, dans toute la Traite,</l>
+      <l>Ce que l’on appelle la Droite.</l>
+      <l><date>Mardy</date>, qui fut le lendemain,</l>
+      <l>Cét aimable <persName>Prince Romain</persName>,</l>
+      <l>Gardant une sage décence,</l>
+      <l>Eut, du <persName>Roy</persName>, bénigne Audiance,</l>
+      <l>Auquel humblement il parla</l>
+      <l>Du sujet qui l’amenoit-là.</l>
+      <l>Ensuite de son doux langage,</l>
+      <l>Le <persName>Roy</persName>, qui fit sur son vizage</l>
+      <l>Parêtre un air tout engageant,</l>
+      <l>Luy tint maint discours obligeant,</l>
+      <l>Et receut de fort bonne grace</l>
+      <l>Deux jeunes Seigneurs de sa Race,</l>
+      <l>Et tous ceux qui l’avoient suivy,</l>
+      <l>(Dont chacun eut le coeur ravy,)</l>
+      <l>Evesques, Abbez, Gentilhommes,</l>
+      <l>Qui sont tous de fort sages Hommes,</l>
+      <l>Ayans des esprits, non communs ;</l>
+      <l>J’en ay pratiqué quelques-uns,</l>
+      <l>Gens de mérite et de naissance,</l>
+      <l>Et j’en parle avec connoissance.</l>
+      <l>Ensuite de ce grand moment,</l>
+      <l>Il vizita pareillement</l>
+      <l>Nos deux judicieuzes <persName>Reines</persName>,</l>
+      <l>Nos deux illustres Souveraines,</l>
+      <l>Qui d’un air noble et gracieux</l>
+      <l>
+        <pb n="229" xml:id="p229"/>
+      </l>
+      <l>L’accueillirent, dit-on, des mieux ;</l>
+      <l>Puis, il vid le <persName>Daufin de France</persName>,</l>
+      <l>Dont l’aimable et Royale Enfance,</l>
+      <l>La gentillesse et l’agrément</l>
+      <l>Lui plûrent merveilleuzement.</l>
+      <l><date>Mercredy</date>, quoy que jour de pluye,</l>
+      <l>Qui volontiers les Gens ennuye,</l>
+      <l>Il alla, pour se divertir,</l>
+      <l>(Car je les vis tous deux partir)</l>
+      <l>A la <tech>Chasse </tech>avec nôtre <persName>Sire</persName>,</l>
+      <l>Lequel <persName>Légat</persName>, qui fort bien tire,</l>
+      <l>Tüa quatre ou cinq Lap(e)reaux,</l>
+      <l>Avec autant de Perd(e)reaux.</l>
+      <l><!-- Auteur inconnu : 2020-02-13T15:16:34.33
+Comment baliser les moments de la journée ?
+--><date>Sur le soir</date>, une <tech>Comédie</tech></l>
+      <l>Trés-abondante en mélodie,</l>
+      <l>Sujet parfaitement joly,</l>
+      <l>Où les sieurs <persName>Moliére</persName> et <persName>Lully</persName>,</l>
+      <l>Deux rares Hommes, ce me semble,</l>
+      <l>Ont joint leurs beaux talens ensemble ;</l>
+      <l><persName>Lully</persName> payant d’acords divers,</l>
+      <l><persName>L’autre</persName> d’intrigues et de Vers :</l>
+      <l>Cette <tech>Piéce</tech> (dis-je) galante,</l>
+      <l>Qui me parut toute charmante,</l>
+      <l>Et de laquelle, à mon avis,</l>
+      <l>Les Spectateurs furent ravis,</l>
+      <l>Fut joüée avec excélence</l>
+      <l>Devant cette <persName>noble Eminence</persName>.</l>
+      <l>Ces deux Filles qui par leurs voix</l>
+      <l>Ont charmé la Cour tant de fois,</l>
+      <l>Sçavoir <persName>Mademoizelle Hilaire</persName>,</l>
+      <l>Qui ne sçauroit chanter sans plaire,</l>
+      <l>Et <persName>La-Barre</persName>, qui plainement</l>
+      <l>Dompte les coeurs à tout moment,</l>
+      <l>Par le rare et double avantage</l>
+      <l>De son chant et de son vizage,</l>
+      <l>Joüérent si bien leur rolet</l>
+      <l>Dans la <tech>Piéce </tech>et dans le <tech>Balet</tech>,</l>
+      <l>Remplis d’agréables mélanges,</l>
+      <l>Que, certainement, leurs voix d’Anges</l>
+      <l>Furent dans ces contentemens</l>
+      <l>Un des plus doux ravissemens.</l>
+      <l>Il ne faut pas qu’on me demande</l>
+      <l>Si la Compagnie êtoit grande :</l>
+      <l>Outre un frédon de Majestez,</l>
+      <l>J’y lorgnay cent et cent Beautez,</l>
+      <l>Dont les radieuzes prunelles</l>
+      <l>Eclairoient mieux que les chandelles ;</l>
+      <l>J’ay tort, il faut dire <tech>flambeaux</tech>,</l>
+      <l>Car en des spectacles si beaux</l>
+      <l>Chez <persName>les Reines</persName>, chez nôtre <persName>Sire</persName>,</l>
+      <l>On n’uze que de blanche cire.</l>
+      <l>C’est ce que de <placeName>Fontainebleau</placeName></l>
+      <l>Je puis raconter de nouveau :</l>
+      <l>Car, pour vaquer à ma Gazette,</l>
+      <l><date>Le lendemain</date>, je fis retrette,</l>
+      <l>Et je ne fus, chez un Amy,</l>
+      <l>Audit lieu, qu’un jour et demy.</l>
+      <l>Ce qu’illec je sceus davantage,</l>
+      <l>C’est qu’<tech>Othon</tech>, excélent Ouvrage,</l>
+      <l>Que <persName>Corneille</persName>, plein d’un beau feu,</l>
+      <l>A produit au jour depuis peu,</l>
+      <l>De sa plume docte et dorée,</l>
+      <l>Devait, <date>la suivante soirée</date>,</l>
+      <l>Ravir et charmer à son tour</l>
+      <l>Le Légat et toute la Cour :</l>
+      <l>Je l’apris de <persName>son Auteur</persName> mesme ;</l>
+      <l>Et j’ûs un déplaizir extresmes</l>
+      <l>Qui me fit bien des fois pester</l>
+      <l>De ne pouvoir encor rester</l>
+      <l>Pour voir, dudit <persName>sieur de Corneille</persName>,</l>
+      <l>La fraîche et derniére Merveille,</l>
+      <l>Que je verray, s’il plaît à Dieu,</l>
+      <l>Quelque-jour en quelque autre lieu.</l>
+      <l>Avant que partir, j’oüis dire</l>
+      <l>Aux Courtizans de nôtre Sire,</l>
+      <l>(Et j’en devins tout ébaudy)</l>
+      <l>Que <persName>Monsieur le Légat</persName>, <date>Jeudy</date>,</l>
+      <l>Revenant dans cette Contrée,</l>
+      <l>Feroit à <placeName>Paris</placeName> son Entrée ;</l>
+      <l>Et c’est dequoy, Grands et petits,</l>
+      <l>Tous nos bons bourgeois j’avertis,</l>
+      <l>Et je croy que cette nouvelle</l>
+      <l>Sera pour eux joyeuse et belle.</l>
+      <l>La prize du Fort de Sérin,</l>
+      <l>Dont on ne doute plus un brin,</l>
+      <l>A produit dans la Germanie</l>
+      <l>Une frayeur presque infinie:</l>
+      <l>Car iceux Turcs outrecuidez,</l>
+      <l>Que ledit Fort tenoit bridez,</l>
+      <l>Maintenant qu’ils en sont les maîtres,</l>
+      <l>Ils pouroient bien traîner leurs guêtres,</l>
+      <l>Et leurs Escadrons r'enforcez,</l>
+      <l>Dans des Climats plus avancez.</l>
+      <l>Dudit Fort, le Seigneur et Comte,</l>
+      <l>Qu'un juste déplaizir surmonte,</l>
+      <l>Le comblant quazy de fureur,</l>
+      <l>S'est, dit-on, plaint à l’Empéreur,</l>
+      <l>Que les Généraux ses Confraires,</l>
+      <l>Loin d’ataquer ses Aversaires,</l>
+      <l>Par un combat un peu douteux,</l>
+      <l>Ont lâché le pié devant eux,</l>
+      <l>Qu'ils n’ont point fait de tentative,</l>
+      <l>Et que sur le premier, Qui vive?</l>
+      <l>Qui leurs oreilles a frapé,</l>
+      <l>Ils ont tout soudain dècampé;</l>
+      <l>Que de sondit Fort, la défence</l>
+      <l>Etoit d’extréme conséquence,</l>
+      <l>
+        <pb n="230" xml:id="p230"/>
+      </l>
+      <l>Qu'ils devoient hazarder un peu,</l>
+      <l>Et ne pas-tant craindre le feu,</l>
+      <l>Que leur lâcheté non commune</l>
+      <l>Détruit sa gloire et sa fortune,</l>
+      <l>Le rendant gueux comme un Lezard,</l>
+      <l>Et métant l’Empire au hazard.</l>
+      <l>C'est de cette sorte, et tout comme</l>
+      <l>Que se plaint, dit-on, ce grand Homme :</l>
+      <l>Sans doute, ce cœur généreux</l>
+      <l>Eprouve un sort trop rigoureux;</l>
+      <l>Mais dans les biens et les disgraces,</l>
+      <l>Comme chaque choze a deux faces,</l>
+      <l>Les Chefs dont ils se plaint ainsy</l>
+      <l>Ont (je croy) leurs raizons aussy,</l>
+      <l>Mais à prézent je les ignore,</l>
+      <l>Et je ne les puis dire encore.</l>
+      <l>Les Moscovites, Gens têtus,</l>
+      <l>Encor qu’ils soient souvent batus</l>
+      <l>Par les Gens que met en bézogne</l>
+      <l>Le sage et grand Roy de Pologne,</l>
+      <l>Sont, pourtant, toûjours obstinez,</l>
+      <l>Et si mal intentionnez,</l>
+      <l>Que malgré la fortune Averse</l>
+      <l>Qui leurs prétentions renverse,</l>
+      <l>Ils n’ont à la paix nul penchant,</l>
+      <l>Ce qui dénote un cœur méchant,</l>
+      <l>Car, tous les Bons qui sont sur Terre</l>
+      <l>Aiment mieux la paix que la guerre.</l>
+      <l>Les Anglois et les Holandois,</l>
+      <l>Se voudroient donner sur les doigts,</l>
+      <l>La peau leur démange, ce semble,</l>
+      <l>Et chacun, ce dit-on, assemble</l>
+      <l>Des Vaisseaux et des Matelots</l>
+      <l>Pour se guerroyer sur les flots</l>
+      <l>Avec le fer et le salpêtre:</l>
+      <l>Mais comme le Roy nôtre Maître</l>
+      <l>Ofre sa médiation</l>
+      <l>A l’une et l’autre Nation,</l>
+      <l>Déférant à ce grand Arbitre,</l>
+      <l>Dont, Trés-Chrêtien, est le vray titre,</l>
+      <l>Possible qu’ils s’en prévaudront,</l>
+      <l>Et meilleurs Amis deviendront.</l>
+      <l>Si la Holande et l’Angleterre</l>
+      <l>Ont de la pente pour la guerre,</l>
+      <l>Qu'ils la fassent, êtans unis,</l>
+      <l>A ceux d’Alger et de Tunis,</l>
+      <l>Engeance maudite et perverse</l>
+      <l>Qui rompt si souvent leur commerce ;</l>
+      <l>C'est-là qu’ils sont intéressez,</l>
+      <l>Mais sur ce sujet, c’est assez.</l>
+      <l>A propos de la Barbarie,</l>
+      <l>Trés-experte en piraterie,</l>
+      <l>On dit que le Duc de Beaufort</l>
+      <l>A pris Bugie, un certain Fort</l>
+      <l>Ayant parapets et tenailles,</l>
+      <l>Assez bien enceint de rnurailles,</l>
+      <l>Et flanqué de trois grosses Tours :</l>
+      <l>II s’y prézenta du secours</l>
+      <l>D'habitans des Côtes prochaines.</l>
+      <l>Mais ils y perdirent leurs pleines ;</l>
+      <l>On en avoit un cent, ou deux,</l>
+      <l>Des plus mauvais et hazardeux,</l>
+      <l>Les autres firent la retraite :</l>
+      <l>Enfin, aprés cette défaite,</l>
+      <l>Ils s’enfuirent, de-ça, de-là,</l>
+      <l>Et la Place capitula.</l>
+      <l>Je vien de trouver sur ma table</l>
+      <l>Un Billet qu’on tient véritable,</l>
+      <l>Portant que le Roy, l’autre-jour</l>
+      <l>Les Reines, et toute la cour,</l>
+      <l>Soussignérent le Mariage</l>
+      <l>De Monsieur Portail, Homme sage,</l>
+      <l>Juge, de bon entendement,</l>
+      <l>Et Conseiller au Parlement,</l>
+      <l>Avec Chémeraud, DemoizelIe</l>
+      <l>Aimable, Noble, jeune et belle,</l>
+      <l>Et qui, jadis, eut le bon-heur</l>
+      <l>D'être une des Filles-d’honnneur</l>
+      <l>De nôtre Reine Anne d’Autriche</l>
+      <l>Qui pour rendre encore plus riche</l>
+      <l>Cette Fille de grand renom,</l>
+      <l>Luy donne argent comptant, ou non,</l>
+      <l>De vingt mil beaux écus la somme.</l>
+      <l>Et l’on dit que Monsieur son Homme,</l>
+      <l>Autrement, Monsieur son Épous,</l>
+      <l>Posséde, au jugement de tous,</l>
+      <l>Tant en Charge, qu’en héritage,</l>
+      <l>Un million, et davantage.</l>
+      <l>De ce discours assez peu fin,</l>
+      <l>O <persName>Princesse</persName>, voicy la fin.</l>
+      <l>Le <date>deux du mois</date>, laides ou belles</l>
+      <l>J'ay rimé toutes ces Nouvelles.</l>
+    </body>
+  </text>
+</TEI>

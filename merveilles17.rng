@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar xmlns="http://relaxng.org/ns/structure/1.0" ns="http://www.tei-c.org/ns/1.0" xml:lang="fr" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <start>
+    <ref name="TEI"/>
+  </start>
+  <div>
+    <a:documentation>Structure</a:documentation>
+    <define name="TEI">
+      <element name="TEI">
+        <ref name="xml.lang"/>
+        <ref name="teiHeader"/>
+        <element name="text">
+          <ref name="body"/>
+        </element>
+      </element>
+    </define>
+    <define name="teiHeader">
+      <element name="teiHeader">
+        <element name="fileDesc">
+          <element name="titleStmt">
+            <ref name="title"/>
+            <element name="author">
+              <oneOrMore>
+                <choice>
+                  <text/>
+                </choice>
+              </oneOrMore>
+            </element>
+          </element>
+          <element name="editionStmt">
+            <element name="edition">
+              <data type="NCName"/>
+            </element>
+            <element name="respStmt">
+              <ref name="name"/>
+            </element>
+          </element>
+          <element name="publicationStmt">
+            <element name="publisher">
+              <text/>
+            </element>
+            <ref name="date"/>
+            <element name="availability">
+              <attribute name="status">
+                <data type="NCName"/>
+              </attribute>
+              <element name="licence">
+                <empty/>
+              </element>
+            </element>
+          </element>
+          <element name="sourceDesc">
+            <element name="bibl">
+              <oneOrMore>
+                <choice>
+                  <text/>
+                  <ref name="title"/>
+                </choice>
+              </oneOrMore>
+            </element>
+          </element>
+        </element>
+        <element name="profileDesc">
+          <element name="creation">
+            <element name="date">
+              <ref name="when"/>
+              <text/>
+            </element>
+          </element>
+          <element name="langUsage">
+            <element name="language">
+              <attribute name="ident">
+                <choice>
+                  <value>fr</value>
+                </choice>
+              </attribute>
+            </element>
+          </element>
+        </element>
+      </element>
+    </define>
+    <define name="body">
+      <element name="body">
+        <choice>
+          <group>
+            <ref name="div.content"/>
+          </group>
+          <group>
+            <oneOrMore>
+              <ref name="div"/>
+            </oneOrMore>
+          </group>
+        </choice>
+      </element>
+    </define>
+    <define name="div">
+      <element name="div">
+        <ref name="div.content"/>
+        <zeroOrMore>
+          <ref name="div"/>
+        </zeroOrMore>
+      </element>
+    </define>
+    <define name="div.content">
+      <optional>
+        <ref name="pb"/>
+      </optional>
+      <ref name="head"/>
+      <zeroOrMore>
+        <choice>
+          <ref name="byline"/>
+          <ref name="dateline"/>
+        </choice>
+      </zeroOrMore>
+      <zeroOrMore>
+        <ref name="block"/>
+      </zeroOrMore>
+      <!-- Conclusion -->
+      <zeroOrMore>
+        <choice>
+          <ref name="byline"/>
+          <ref name="dateline"/>
+          <ref name="trailer"/>
+        </choice>
+      </zeroOrMore>
+    </define>
+    <define name="byline">
+      <element name="byline">
+        <ref name="chars"/>
+      </element>
+    </define>
+    <define name="dateline">
+      <element name="dateline">
+        <ref name="chars"/>
+      </element>
+    </define>
+    <define name="trailer">
+      <element name="trailer">
+        <ref name="chars"/>
+      </element>
+    </define>
+  </div>
+  <div>
+    <a:documentation>Blocs (niveau paragraphe)</a:documentation>
+    <define name="block">
+      <choice>
+        <ref name="l"/>
+        <ref name="lg"/>
+        <ref name="label"/>
+        <ref name="list"/>
+        <ref name="p"/>
+        <ref name="pb"/>
+      </choice>
+    </define>
+    <define name="head">
+      <element name="head">
+        <zeroOrMore>
+          <choice>
+            <ref name="chars"/>
+            <ref name="lb"/>
+          </choice>
+        </zeroOrMore>
+      </element>
+    </define>
+    <define name="l">
+      <element name="l">
+        <optional>
+          <ref name="xml.lang"/>
+        </optional>
+        <ref name="chars"/>
+      </element>
+    </define>
+    <define name="lg">
+      <element name="lg">
+        <optional>
+          <ref name="xml.lang"/>
+        </optional>
+        <oneOrMore>
+          <choice>
+            <ref name="l"/>
+            <ref name="pb"/>
+          </choice>
+        </oneOrMore>
+      </element>
+    </define>
+    <define name="label">
+      <element name="label">
+        <optional>
+          <attribute name="type">
+            <choice>
+              <value>head</value>
+              <a:documentation>Intertitre non structurant, indépendant de la hiérarchie du document (pas un titre de partie ou de section)</a:documentation>
+              <value>speaker</value>
+              <a:documentation>Théâtre non structuré (ex : citation), didascalie de tirade, contient au moins un nom de personnage, et parfois des didascalies <a:el>stage</a:el></a:documentation>
+            </choice>
+          </attribute>
+        </optional>
+        <optional>
+          <ref name="xml.lang"/>
+        </optional>
+        <zeroOrMore>
+          <choice>
+            <ref name="chars"/>
+            <ref name="lb"/>
+          </choice>
+        </zeroOrMore>
+      </element>
+    </define>
+    <define name="list">
+      <element name="list">
+        <oneOrMore>
+          <element name="item">
+            <ref name="chars"/>
+          </element>
+        </oneOrMore>
+      </element>
+    </define>
+    <define name="p">
+      <element name="p">
+        <ref name="chars"/>
+      </element>
+    </define>
+  </div>
+  <div>
+    <a:documentation>Segments (de niveau caractères)</a:documentation>
+    <define name="chars">
+      <zeroOrMore>
+        <choice>
+          <text/>
+          <ref name="date"/>
+          <ref name="foreign"/>
+          <ref name="name"/>
+          <ref name="persName"/>
+          <ref name="pb"/>
+          <ref name="placeName"/>
+          <ref name="seg"/>
+          <ref name="sup"/>
+          <ref name="tech"/>
+          <ref name="title"/>
+        </choice>
+      </zeroOrMore>
+    </define>
+    <define name="date">
+      <element name="date">
+        <optional>
+          <attribute name="when">
+            <data type="integer"/>
+          </attribute>
+        </optional>
+        <text/>
+      </element>
+    </define>
+    <define name="emph">
+      <element name="emph">
+        <a:documentation>Mise en valeur, &lt;html5:em> (apparence italique)</a:documentation>
+        <zeroOrMore>
+          <choice>
+            <text/>
+            <ref name="date"/>
+            <ref name="seg"/>
+            <ref name="sup"/>
+          </choice>
+        </zeroOrMore>
+      </element>
+    </define>
+    <define name="foreign">
+      <element name="foreign">
+        <ref name="xml.lang"/>
+        <text/>
+      </element>
+    </define>
+    <define name="lb">
+      <element name="lb">
+        <empty/>
+      </element>
+    </define>
+    <define name="name">
+      <element name="name">
+        <text/>
+      </element>
+    </define>
+    <define name="pb">
+      <element name="pb">
+        <attribute name="n">
+          <data type="integer"/>
+        </attribute>
+        <attribute>
+          <name ns="http://www.w3.org/XML/1998/namespace">id</name>
+          <data type="NCName"/>
+        </attribute>
+      </element>
+    </define>
+    <define name="persName">
+      <element name="persName">
+        <zeroOrMore>
+          <choice>
+            <text/>
+            <ref name="sup"/>
+          </choice>
+        </zeroOrMore>
+      </element>
+    </define>
+    <define name="placeName">
+      <element name="placeName">
+        <text/>
+      </element>
+    </define>
+    <define name="seg">
+      <element name="seg">
+        <attribute name="type">
+          <choice>
+            <value>description</value>
+          </choice>
+        </attribute>
+        <text/>
+      </element>
+    </define>
+    <define name="sup">
+      <element name="hi">
+        <attribute name="rend">
+          <value>sup</value>
+        </attribute>
+        <text/>
+      </element>
+    </define>
+    <define name="title">
+      <element name="title">
+        <zeroOrMore>
+          <choice>
+            <text/>
+            <ref name="sup"/>
+            <ref name="title"/>
+          </choice>
+        </zeroOrMore>
+      </element>
+    </define>
+    <define name="tech">
+      <element name="tech">
+        <text/>
+      </element>
+    </define>
+  </div>
+  <div>
+    <a:documentation>Attributs et types de données</a:documentation>
+    <define name="date.type">
+      <data type="string">
+        <param name="pattern">([0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?)?</param>
+      </data>
+    </define>
+    <define name="xml.lang">
+      <attribute name="xml:lang">
+        <a:documentation>Code normalisé de langue.</a:documentation>
+        <choice>
+          <value>fr</value>
+          <value>it</value>
+          <value>la</value>
+        </choice>
+      </attribute>
+    </define>
+    <define name="when">
+      <attribute name="when">
+        <ref name="date.type"/>
+      </attribute>
+    </define>
+    <define name="key-att">
+      <attribute name="key">
+        <a:documentation>Terme normalisé (clé de regroupement) pour une entité indexable (personne, lieu…)</a:documentation>
+      </attribute>
+    </define>
+  </div>
+</grammar>
