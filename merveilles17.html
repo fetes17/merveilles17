@@ -188,15 +188,15 @@ code.error-control { background:none repeat scroll 0 0 #FF0000; font-weight:bold
         </div>
         <div><a href="#el_TEI">&lt;TEI&gt;</a> <a href="#el_teiHeader">&lt;teiHeader&gt;</a> <a href="#el_body">&lt;body&gt;</a> <a href="#el_div">&lt;div&gt;</a> <a href="#el_byline">&lt;byline&gt;</a> <a href="#el_dateline">&lt;dateline&gt;</a> <a href="#el_trailer">&lt;trailer&gt;</a> </div>
         <div style="margin-left:1em;">
-          <a style="font-weight:bold; color:#000000;" href="#idm185">Blocs (niveau paragraphe)</a>
+          <a style="font-weight:bold; color:#000000;" href="#idm189">Blocs (niveau paragraphe)</a>
         </div>
         <div><a href="#el_head">&lt;head&gt;</a> <a href="#el_l">&lt;l&gt;</a> <a href="#el_lg">&lt;lg&gt;</a> <a href="#el_label">&lt;label&gt;</a> <a href="#el_list">&lt;list&gt;</a> <a href="#el_p">&lt;p&gt;</a> </div>
         <div style="margin-left:1em;">
-          <a style="font-weight:bold; color:#000000;" href="#idm262">Segments (de niveau caractères)</a>
+          <a style="font-weight:bold; color:#000000;" href="#idm266">Segments (niveau caractère)</a>
         </div>
         <div><a href="#el_date_2">&lt;date&gt;</a> <a href="#el_emph">&lt;emph&gt;</a> <a href="#el_foreign">&lt;foreign&gt;</a> <a href="#el_lb">&lt;lb&gt;</a> <a href="#el_name">&lt;name&gt;</a> <a href="#el_note">&lt;note&gt;</a> <a href="#el_pb">&lt;pb&gt;</a> <a href="#el_persName">&lt;persName&gt;</a> <a href="#el_placeName">&lt;placeName&gt;</a> <a href="#el_seg">&lt;seg&gt;</a> <a href="#el_hi">&lt;hi<small class="att"> rend="sup"</small>&gt;</a> <a href="#el_title">&lt;title&gt;</a> <a href="#el_tech">&lt;tech&gt;</a> </div>
         <div style="margin-left:1em;">
-          <a style="font-weight:bold; color:#000000;" href="#idm370">Attributs et types de données</a>
+          <a style="font-weight:bold; color:#000000;" href="#idm374">Attributs et types de données</a>
         </div>
         <div/>
       </section>
@@ -1016,13 +1016,28 @@ code.error-control { background:none repeat scroll 0 0 #FF0000; font-weight:bold
         </header>
           <table class="grammar">
             <tr>
+              <th>Attributs</th>
+              <td>
+                <table class="attributes">
+                  <tr>
+                    <td class="name">@<a href="#att_type">type</a></td>
+                    <td>?</td>
+                    <td>
+                      <span class="value">chapitre</span>
+                      <br/>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
               <th>Enfants</th>
               <td class="children"><div><b>B</b>. &lt;<a href="#el_byline">byline</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_dateline">dateline</a>&gt; &lt;<a href="#el_div">div</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_head">head</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt; &lt;<a href="#el_lg">lg</a>&gt; &lt;<a href="#el_list">list</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt; &lt;<a href="#el_pb">pb</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_trailer">trailer</a>&gt;  </div> </td>
             </tr>
             <tr>
               <th>Modèle</th>
               <td class="model">
-                <span class="compact element"><span class="more"><a class="ref" href="#def_div.content">div.content</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact define">( <a href="#el_pb">pb</a> ? , <a href="#el_head">head</a><span class="compact choice">, ( <a href="#el_byline">byline</a> | <a href="#el_dateline">dateline</a> ) * </span>, (<span class="compact choice">( <a href="#el_l">l</a> | <a href="#el_lg">lg</a> | <a href="#el_label">label</a> | <a href="#el_list">list</a> | <a href="#el_p">p</a> | <a href="#el_pb">pb</a> )</span>) * <span class="compact choice">, ( <a href="#el_byline">byline</a> | <a href="#el_dateline">dateline</a> | <a href="#el_trailer">trailer</a> ) * </span> )</span></span>)</span> <a href="#el_div">div</a> * </span>
+                <span class="compact element"><span class="more"> <a class="ref" href="#def_div.content">div.content</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact define">( <a href="#el_pb">pb</a> ? , <a href="#el_head">head</a><span class="compact choice">, ( <a href="#el_byline">byline</a> | <a href="#el_dateline">dateline</a> ) * </span>, (<span class="compact choice">( <a href="#el_l">l</a> | <a href="#el_lg">lg</a> | <a href="#el_label">label</a> | <a href="#el_list">list</a> | <a href="#el_p">p</a> | <a href="#el_pb">pb</a> )</span>) * <span class="compact choice">, ( <a href="#el_byline">byline</a> | <a href="#el_dateline">dateline</a> | <a href="#el_trailer">trailer</a> ) * </span> )</span></span>)</span> <a href="#el_div">div</a> * </span>
               </td>
             </tr>
             <tr>
@@ -1106,7 +1121,7 @@ code.error-control { background:none repeat scroll 0 0 #FF0000; font-weight:bold
           </table>
         </section>
       </section>
-      <section class="div" id="idm185">
+      <section class="div" id="idm189">
         <h2>Blocs (niveau paragraphe)</h2>
         <section class="element rng" id="el_head">
           <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-head.html" target="TEI">head</a>&gt; Titre, niveau déterminé par le contexte hiérarchique, html5 : h1, h2, h3, h4, h5, h6</header>
@@ -1262,7 +1277,7 @@ code.error-control { background:none repeat scroll 0 0 #FF0000; font-weight:bold
           </table>
         </section>
         <section class="element rng" id="el_list">
-          <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-list.html" target="TEI">list</a>&gt; Listes, &lt;html5:ul&gt; &lt;html5:ol&gt;</header>
+          <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-list.html" target="TEI">list</a>&gt; Listes, &lt;html5:ul&gt; &lt;html5:ol&gt; [?] quels types de listes ? type obligatoire ?</header>
           <table class="grammar">
             <tr>
               <th>Enfants</th>
@@ -1338,8 +1353,8 @@ code.error-control { background:none repeat scroll 0 0 #FF0000; font-weight:bold
           </table>
         </section>
       </section>
-      <section class="div" id="idm262">
-        <h2>Segments (de niveau caractères)</h2>
+      <section class="div" id="idm266">
+        <h2>Segments (niveau caractère)</h2>
         <section class="define rng" id="def_chars">
           <header class="define rng">
             <b>chars() </b>
@@ -1704,7 +1719,7 @@ code.error-control { background:none repeat scroll 0 0 #FF0000; font-weight:bold
           </table>
         </section>
       </section>
-      <section class="div" id="idm370">
+      <section class="div" id="idm374">
         <h2>Attributs et types de données</h2>
         <section class="attribute rng" id="att_key">
           <header class="attribute rng">@<b>key</b> Terme normalisé (clé de regroupement) pour une entité indexable (personne, lieu…)</header>

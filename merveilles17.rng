@@ -227,6 +227,13 @@
         <a:documentation>Sections du texte, &lt;html5:section>, &lt;html5:article> 
           [?] Faut-il rendre le titre obligatoire en têtre de section ? Est-ce qu’il y a une liste close de type de section (ex : collation, course) ? ce type est-il obligatoire ?
         </a:documentation>
+        <optional>
+          <attribute name="type">
+            <choice>
+              <value>chapitre</value>
+            </choice>
+          </attribute>
+        </optional>
         <ref name="div.content"/>
         <zeroOrMore>
           <ref name="div"/>
@@ -362,7 +369,7 @@
     </define>
     <define name="list">
       <element name="list">
-        <a:documentation>Listes, &lt;html5:ul> &lt;html5:ol></a:documentation>
+        <a:documentation>Listes, &lt;html5:ul> &lt;html5:ol> [?] quels types de listes ? type obligatoire ?</a:documentation>
         <optional>
           <ref name="head"/>
         </optional>
@@ -390,7 +397,7 @@
     </define>
   </div>
   <div>
-    <a:documentation>Segments (de niveau caractères)</a:documentation>
+    <a:documentation>Segments (niveau caractère)</a:documentation>
     <define name="chars">
       <zeroOrMore>
         <choice>
@@ -556,6 +563,19 @@
       <data type="string">
         <param name="pattern">([0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?)?</param>
       </data>
+    </define>
+    <define name="ana">
+      <attribute name="ana">
+        <a:documentation>[?] Type de texte ? Arrêter une liste close, ouverte ? quatrain, madrigal, devise</a:documentation>
+        <list>
+          <zeroOrMore>
+            <choice>
+              <a:documentation>Bloc ou segment de type description</a:documentation>
+              <value>description</value>
+            </choice>
+          </zeroOrMore>
+        </list>
+      </attribute>
     </define>
     <define name="key">
       <attribute name="key">
