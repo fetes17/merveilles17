@@ -5,6 +5,70 @@
   </start>
   <div>
     <a:documentation>Structure</a:documentation>
+    <a:example>
+      <teiHeader>
+        <fileDesc>
+          <titleStmt>
+            <title>Les Plaisirs de l'île enchantée</title>
+            <author>Auteur du texte</author>
+          </titleStmt>
+          <editionStmt>
+            <edition>Merveilles17</edition>
+            <respStmt>
+              <name>Marine Roussillon</name>
+              <resp>Transcription</resp>
+            </respStmt>
+            <respStmt>
+              <name>Yohann Deguin</name>
+              <resp>Premier balisage</resp>
+            </respStmt>
+          </editionStmt>
+          <publicationStmt>
+            <publisher>Université d’Artois - Lille, MESHS</publisher>
+            <date when="2019">2019</date>
+            <availability status="restricted">
+              <licence><!-- [FG] Quelle licence ? --></licence>
+            </availability>
+          </publicationStmt>
+          <sourceDesc>
+            <bibl>
+              <!-- [FG] Est-ce que l’absence ne suffit pas à préciser l’absence d’auteur ? -->
+              <author>Sans auteur</author>
+              <title>Les Plaisirs de l'île enchantée : Course de bague, collation ornée de machines, comédie mêlée de danse et de musique, ballet du palais d'Alcine, feu d'artifice, et autres fêtes galantes et magnifiques, faites par le roi à Versailles, le 7 mai 1664.</title>
+              <!-- Est-ce nécessaire de baliser autant l’enregistrement bibliographique ? Est-ce que ces balises feront l’objet de requête ? Comment assurer une bonne ponctuation ? Pourquoi pas une ligne bibliographique avec typographie simple ? -->
+              <pubPlace>Paris</pubPlace>
+              <publisher>Ballard</publisher>
+              <date when="1664">1664</date>
+              <dim>in-fol</dim>
+              <extent>60 pages</extent>
+              <term type="imprime">Livre imprimé</term>
+            </bibl>
+          </sourceDesc>
+          <profileDesc>
+            <creation>
+              <date when="1673">1673</date>
+            </creation>
+            <abstract>
+              <listEvent>
+                <event xml:id="event-id" when="AAAA-MM-JJ">
+                  <!-- Comment indiquer le lieu ? -->
+                </event>
+              </listEvent>
+              <listPlace>
+                <place xml:id="place-id">
+                  <placeName>Nom de lieu</placeName>
+                </place>
+              </listPlace>
+              <listPerson>
+                <person xml:id="person-id">
+                  <persName>Nom de personne</persName>
+                </person>
+              </listPerson>
+            </abstract>
+          </profileDesc>
+        </fileDesc>
+      </teiHeader>
+    </a:example>
     <define name="TEI">
       <element name="TEI">
         <ref name="xml.lang"/>
@@ -15,37 +79,52 @@
       </element>
     </define>
     <define name="teiHeader">
+      <a:documentation>La page de titre électronique, avec les métadonnées, notamment les entités d’indexation <a:el>event</a:el>, <a:el>person</a:el>…</a:documentation>
       <element name="teiHeader">
         <element name="fileDesc">
           <element name="titleStmt">
+            <a:documentation>Titre (! obligatoire) et auteurs (* optionnel et répétable) du document</a:documentation>
             <ref name="title"/>
-            <element name="author">
-              <oneOrMore>
-                <choice>
-                  <text/>
-                </choice>
-              </oneOrMore>
-            </element>
+            <zeroOrMore>
+              <element name="author">
+                <a:documentation>Auteur du document, avec forme normalisée dans l’attribut <a:att>key</a:att>.</a:documentation>
+                <a:example>
+                  <author key="Poquelin, Jean-Baptiste (1622-1673) dit Molière">Molière</author>
+                </a:example>
+                <text/>
+              </element>
+            </zeroOrMore>
           </element>
           <element name="editionStmt">
             <element name="edition">
-              <data type="NCName"/>
+              <a:documentation>Nom de l’édition électronique</a:documentation>
+              <value>Merveilles17</value>
             </element>
-            <element name="respStmt">
-              <ref name="name"/>
-            </element>
+            <zeroOrMore>
+              <element name="respStmt">
+                <a:documentation>Personne ayant une responsabilité dans l'élaboration du texte électronique (pas le contenu intellectuel, cf. <a:el>titleStmt</a:el>)</a:documentation>
+                <ref name="name"/>
+                <element name="resp">
+                  <a:documentation>Date et rôle dans l’établissement du texte électronique</a:documentation>
+                  <text/>
+                </element>
+              </element>
+            </zeroOrMore>
           </element>
           <element name="publicationStmt">
+            <a:documentation>Informations relatives à la publication et à la diffusion du fichier XML/TEI</a:documentation>
             <element name="publisher">
+              <a:documentation>Éditeur responsable de la publication électronique</a:documentation>
               <text/>
             </element>
             <ref name="date"/>
             <element name="availability">
               <attribute name="status">
-                <data type="NCName"/>
+                <value>restricted</value>
               </attribute>
               <element name="licence">
-                <empty/>
+                <ref name="target"/>
+                <text/>
               </element>
             </element>
           </element>
@@ -61,26 +140,76 @@
           </element>
         </element>
         <element name="profileDesc">
-          <element name="creation">
-            <element name="date">
-              <ref name="when"/>
-              <text/>
+          <a:documentation>Description non-bibliographique du texte (langue, circonstances de production)</a:documentation>
+          <interleave>
+            <element name="creation">
+              <a:documentation>Date de création du document (pour base de données)</a:documentation>
+              <element name="date">
+                <ref name="when"/>
+                <text/>
+              </element>
             </element>
-          </element>
-          <element name="langUsage">
-            <element name="language">
-              <attribute name="ident">
+            <element name="langUsage">
+              <a:documentation>Code de langue</a:documentation>
+              <element name="language">
+                <attribute name="ident">
+                  <choice>
+                    <value>fr</value>
+                  </choice>
+                </attribute>
+                <empty/>
+              </element>
+            </element>
+            <element name="abstract">
+              <a:documentation>Métadonnées sur le document (résumé, événement, lieu, personnes…)</a:documentation>
+              <oneOrMore>
                 <choice>
-                  <value>fr</value>
+                  <ref name="p"/>
                 </choice>
-              </attribute>
+              </oneOrMore>
+              <element name="listEvent">
+                <a:documentation>Liste d’événements</a:documentation>
+                <oneOrMore>
+                  <element name="event">
+                    <a:documentation>Un événement, identifié, daté, localisé (?)</a:documentation>
+                    <ref name="xml.id"/>
+                    <ref name="when"/>
+                    <ref name="label"/>
+                  </element>
+                </oneOrMore>
+              </element>
+              <optional>
+                <element name="listPlace">
+                  <a:documentation>Liste de lieux</a:documentation>
+                  <oneOrMore>
+                    <element name="place">
+                      <a:documentation>Un lieu identifié</a:documentation>
+                      <ref name="xml.id"/>
+                      <ref name="label"/>
+                    </element>
+                  </oneOrMore>
+                </element>
+              </optional>
+              <optional>
+                <element name="listPerson">
+                  <a:documentation>Liste de personnes</a:documentation>
+                  <oneOrMore>
+                    <element name="person">
+                      <a:documentation>Une personne identifiée</a:documentation>
+                      <ref name="xml.id"/>
+                      <ref name="label"/>
+                    </element>
+                  </oneOrMore>
+                </element>
+              </optional>
             </element>
-          </element>
+          </interleave>
         </element>
       </element>
     </define>
     <define name="body">
       <element name="body">
+        <a:documentation>Texte principal</a:documentation>
         <choice>
           <group>
             <ref name="div.content"/>
@@ -95,6 +224,9 @@
     </define>
     <define name="div">
       <element name="div">
+        <a:documentation>Sections du texte, &lt;html5:section>, &lt;html5:article> 
+          [?] Faut-il rendre le titre obligatoire en têtre de section ? Est-ce qu’il y a une liste close de type de section (ex : collation, course) ? ce type est-il obligatoire ?
+        </a:documentation>
         <ref name="div.content"/>
         <zeroOrMore>
           <ref name="div"/>
@@ -126,16 +258,19 @@
     </define>
     <define name="byline">
       <element name="byline">
+        <a:documentation>Mention de responsabilité (dans un article de périodique, une lettre…)</a:documentation>
         <ref name="chars"/>
       </element>
     </define>
     <define name="dateline">
       <element name="dateline">
+        <a:documentation>Mention de date, de temps ou de lieu, ex : donné le … à … ("datum", dans une lettre, une charte…)</a:documentation>
         <ref name="chars"/>
       </element>
     </define>
     <define name="trailer">
       <element name="trailer">
+        <a:documentation>Un titre de fin (livre, chapitre, page…)</a:documentation>
         <ref name="chars"/>
       </element>
     </define>
@@ -154,6 +289,10 @@
     </define>
     <define name="head">
       <element name="head">
+        <a:documentation>Titre, niveau déterminé par le contexte hiérarchique, html5 : h1, h2, h3, h4, h5, h6</a:documentation>
+        <optional>
+          <ref name="rend.block"/>
+        </optional>
         <zeroOrMore>
           <choice>
             <ref name="chars"/>
@@ -164,6 +303,10 @@
     </define>
     <define name="l">
       <element name="l">
+        <a:documentation>Un vers, peut être contenu dans une strophe &lt;lg> [?] &lt;l ana="devise">, est-ce qu’une devise est un vers ? Est-ce une technique textuelle que la base de données doit savoir extraire ?</a:documentation>
+        <optional>
+          <ref name="rend.block"/>
+        </optional>
         <optional>
           <ref name="xml.lang"/>
         </optional>
@@ -172,8 +315,15 @@
     </define>
     <define name="lg">
       <element name="lg">
+        <a:documentation>Strophe de vers [?] Est-ce qu’une strophe a toujours un type (quatrain, madrigal, sonnet…) ? Est-ce qu’il y a une liste close de types ? Quel fonctionnalité est attendue dans le site sur cette information ? Est-ce que cela ne relève pas des techniques littéraires ?</a:documentation>
         <optional>
           <ref name="xml.lang"/>
+        </optional>
+        <optional>
+          <ref name="rend.block"/>
+        </optional>
+        <optional>
+          <ref name="label"/>
         </optional>
         <oneOrMore>
           <choice>
@@ -185,6 +335,7 @@
     </define>
     <define name="label">
       <element name="label">
+        <a:documentation>Étiquette, pour un intitulé court, de niveau paragraphe ou de niveau caractère</a:documentation>
         <optional>
           <attribute name="type">
             <choice>
@@ -198,6 +349,9 @@
         <optional>
           <ref name="xml.lang"/>
         </optional>
+        <optional>
+          <ref name="rend.block"/>
+        </optional>
         <zeroOrMore>
           <choice>
             <ref name="chars"/>
@@ -208,15 +362,29 @@
     </define>
     <define name="list">
       <element name="list">
+        <a:documentation>Listes, &lt;html5:ul> &lt;html5:ol></a:documentation>
+        <optional>
+          <ref name="head"/>
+        </optional>
         <oneOrMore>
-          <element name="item">
-            <ref name="chars"/>
-          </element>
+          <choice>
+            <element name="item">
+              <ref name="chars"/>
+            </element>
+            <ref name="pb"/>
+            <ref name="label"/>
+          </choice>
         </oneOrMore>
       </element>
     </define>
     <define name="p">
       <element name="p">
+        <optional>
+          <ref name="rend.block"/>
+        </optional>
+        <optional>
+          <ref name="xml.lang"/>
+        </optional>
         <ref name="chars"/>
       </element>
     </define>
@@ -242,6 +410,7 @@
     </define>
     <define name="date">
       <element name="date">
+        <a:documentation>Date</a:documentation>
         <optional>
           <attribute name="when">
             <data type="integer"/>
@@ -265,33 +434,68 @@
     </define>
     <define name="foreign">
       <element name="foreign">
+        <a:documentation>Mot, expression, ou proposition dans une langue différente du contexte, le code de la languedoit être précisée dans l’attribut obligatoire <a:att>xml:lang</a:att>, avec éventuellement une note contenant la traduction</a:documentation>
         <ref name="xml.lang"/>
         <text/>
+        <optional>
+          <ref name="note"/>
+        </optional>
       </element>
     </define>
     <define name="lb">
       <element name="lb">
+        <a:documentation>Saut de ligne “line break” &lt;html5:br/&gt;</a:documentation>
         <empty/>
       </element>
     </define>
     <define name="name">
       <element name="name">
-        <text/>
+        <optional>
+          <ref name="key"/>
+        </optional>
+        <optional>
+          <attribute name="ana"/>
+        </optional>
+          <text/>
+      </element>
+    </define>
+    <define name="note">
+      <element name="note">
+        <a:documentation>Une note, encodée dans le flux du texte, au point de l’appel</a:documentation>
+        <choice>
+          <oneOrMore>
+            <choice>
+              <ref name="chars"/>
+            </choice>
+          </oneOrMore>
+          <oneOrMore>
+            <choice>
+              <ref name="p"/>
+              <ref name="l"/>
+            </choice>
+          </oneOrMore>
+        </choice>
       </element>
     </define>
     <define name="pb">
       <element name="pb">
+        <a:documentation>Saut de page, “page break”, à placer avant le début du texte de la page, avec le numéro</a:documentation>
         <attribute name="n">
           <data type="integer"/>
         </attribute>
-        <attribute>
-          <name ns="http://www.w3.org/XML/1998/namespace">id</name>
-          <data type="NCName"/>
-        </attribute>
+        <optional>
+          <ref name="xml.id"/>
+        </optional>
       </element>
     </define>
     <define name="persName">
       <element name="persName">
+        <optional>
+          <ref name="key"/>
+        </optional>
+        <optional>
+          <attribute name="role"/>
+        </optional>
         <zeroOrMore>
           <choice>
             <text/>
@@ -302,11 +506,16 @@
     </define>
     <define name="placeName">
       <element name="placeName">
+        <a:documentation>Nom de lieu</a:documentation>
+        <optional>
+          <ref name="key"/>
+        </optional>
         <text/>
       </element>
     </define>
     <define name="seg">
       <element name="seg">
+        <a:documentation>Passage descriptif</a:documentation>
         <attribute name="type">
           <choice>
             <value>description</value>
@@ -336,6 +545,7 @@
     </define>
     <define name="tech">
       <element name="tech">
+        <a:documentation>Technique théâtrale</a:documentation>
         <text/>
       </element>
     </define>
@@ -347,14 +557,26 @@
         <param name="pattern">([0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?)?</param>
       </data>
     </define>
-    <define name="xml.lang">
-      <attribute name="xml:lang">
-        <a:documentation>Code normalisé de langue.</a:documentation>
-        <choice>
-          <value>fr</value>
-          <value>it</value>
-          <value>la</value>
-        </choice>
+    <define name="key">
+      <attribute name="key">
+        <a:documentation>Terme normalisé (clé de regroupement) pour une entité indexable (personne, lieu…)</a:documentation>
+      </attribute>
+    </define>
+    <define name="rend.block">
+      <attribute name="rend">
+        <a:documentation>Indication de rendu, selon un vocabulaire contrôlé. Interprété comme une liste de classes CSS comme dans l'attribut @html5:class</a:documentation>
+        <list>
+          <oneOrMore>
+            <choice>
+              <value>i</value>
+              <a:documentation>italique “italic” &lt;html5:i></a:documentation>
+              <value>sc</value>
+              <a:documentation>petites capitales “small-caps”</a:documentation>
+              <value>uc</value>
+              <a:documentation>capitales “uppercase”</a:documentation>
+            </choice>
+          </oneOrMore>
+        </list>
       </attribute>
     </define>
     <define name="when">
@@ -362,9 +584,23 @@
         <ref name="date.type"/>
       </attribute>
     </define>
-    <define name="key-att">
-      <attribute name="key">
-        <a:documentation>Terme normalisé (clé de regroupement) pour une entité indexable (personne, lieu…)</a:documentation>
+    <define name="target">
+      <attribute name="target"/>
+    </define>
+    <define name="xml.id">
+      <attribute name="xml:id">
+        <a:documentation>Identifiant, au moins unique pour le document</a:documentation>
+        <data type="ID"/>
+      </attribute>
+    </define>
+    <define name="xml.lang">
+      <attribute name="xml:lang">
+        <a:documentation>Code normalisé de langue</a:documentation>
+        <choice>
+          <value>fr</value>
+          <value>it</value>
+          <value>la</value>
+        </choice>
       </attribute>
     </define>
   </div>
