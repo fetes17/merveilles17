@@ -5,7 +5,9 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
-      <titleStmt><title>Les Plaisirs de l'île enchantée</title> </titleStmt>
+      <titleStmt>
+        <title>Les Plaisirs de l'île enchantée</title>
+      </titleStmt>
       <editionStmt>
         <edition>Merveilles17</edition>
         <respStmt>
@@ -36,11 +38,13 @@
       <langUsage>
         <language ident="fr"/>
       </langUsage>
+      <textClass>
+        <classCode scheme="merveilles17">Imprimé</classCode>
+      </textClass>
       <abstract>
-        <p></p>
         <listEvent>
-          <event xml:id="" when="">
-            <label></label>
+          <event xml:id="???" when="???">
+            <placeName key="???">???</placeName>
           </event>
         </listEvent>
       </abstract>
@@ -52,7 +56,7 @@
         <p>Dix-huit pages du Roi, fort richement vêtus, qui devoient servir les dames à table, faisoient les derniers de cette troupe ; laquelle étant rangée, <name key="#pan" ana="#moliere">Pan</name>, <name key="#diane" ana="#madeleine_bejart">Diane</name> et les <name key="#saisons" ana="#therese_duparc #gros_rene #la_thorillere #louis_bejart">Saisons</name> se présentant devant <persName key="#marie_therese">la Reine</persName>, <name key="printemps" ana="#therese_duparc">le Printemps</name> lui adressa le premier ces vers :</p>
         <p><name key="printemps" ana="#therese_duparc">LE PRINTEMPS</name>.</p>
         <p>A <persName key="#marie_therese">LA REYNE</persName>.</p>
-        <lg type="madrigal?" rend="i">
+        <lg ana="madrigal?" rend="i">
           <!-- forme poétique à vérifier -->
           <l>Entre toutes les fleurs nouvellement écloses,</l>
           <l>Dont mes jardins sont embellis,</l>
@@ -65,7 +69,7 @@
           <l>Quand ils brillent sur votre teint.</l>
         </lg>
         <p><name key="printemps" ana="#gros_rene">L'ESTÉ</name>.</p>
-        <lg rend="i" type="?">
+        <lg rend="i" ana="?">
           <!-- forme poétique à vérifier -->
           <l>Surpris un peu trop promptement,</l>
           <l>J'apporte à cette feste un leger ornement;</l>
@@ -75,7 +79,7 @@
           <l>Une ample moisson de lauriers.</l>
         </lg>
         <p><pb n="18"/><name key="automne" ana="#la_thorillere">L'AUTOMNE</name>.</p>
-        <lg type="?" rend="i">
+        <lg ana="?" rend="i">
           <!-- forme poétique à vérifier -->
           <l>Le Printemps orgueilleux de la beauté des fleurs</l>
           <l>Qui lui tomberent en partage</l>
@@ -87,7 +91,7 @@
           <l>Pour faire quelque jour les delices du Monde.</l>
         </lg>
         <p><name key="hiver" ana="louis_bejart">L'HYVER</name></p>
-        <lg type="?" rend="i">
+        <lg ana="?" rend="i">
           <!--forme poétique à vérifier-->
           <l>La neige, les glaçons que j’apporte en ces lieux,</l>
           <l>Sont des mets les moins precieux;</l>
@@ -98,7 +102,7 @@
         </lg>
         <p><name key="#diane" ana="#madeleine_bejart">DIANE</name>.</p>
         <p><persName key="#marie_therese">A LA REINE</persName>.</p>
-        <lg type="?" rend="i">
+        <lg ana="?" rend="i">
           <!--forme poétique à vérifier-->
           <l>Nos bois, nos rochers, nos montagnes,</l>
           <l>Tous nos chasseurs, et mes compagnes,</l>
@@ -115,7 +119,7 @@
           <l>A le mesme secret que vous.</l>
         </lg>
         <p><name key="#pan" ana="#moliere">PAN</name>.</p>
-        <lg type="?" rend="i">
+        <lg ana="?" rend="i">
           <!--forme poétique à vérifier-->
           <l>Jeune Divinité, ne vous étonnez pas,</l>
           <l>Lors que nous vous offrons en ce fameux repas</l>
@@ -186,7 +190,7 @@
             <!-- à identifier? -->
             <item>Mlle de Fiennes.</item>
             <!-- à identifier Françoise du Bois de Fiennes? -->
-            </list>
+          </list>
           <p>La somptuosité de cette collation passoit tout ce qu’on en pourroit écrire, tant par l’abondance que par la délicatesse des choses qui y furent servies. Elle faisoit aussi le plus bel objet qui puisse tomber sous les sens, puisque, dans la nuit, auprès de la verdeur de ces hautes palissades, un nombre infini de chandeliers peints de vert et d’argent, portant chacun vingt-quatre bougies, et deux cents flambeaux de cire blanche, tenus par autant de personnes vêtus en masques, rendoient une clarté presque aussi grande et plus agréable que celle du jour. Tous les chevaliers, avec leurs casques couverts de plumes de différentes couleurs, et leurs habits de la course, étoient appuyés sur la barrière ; et ce grand nombre d’officiers richement vêtus qui servoient, en augmentoient encore la beauté, et rendoient ce rond une chose enchantée, duquel, après la collation, Leurs Majestés et toute la Cour sortirent par le portique opposé à la barrière, et dans un grand nombre de calesches fort ajustées, reprirent le chemin du château.</p>
           <p>FIN DE LA PREMIÈRE JOURNÉE.</p>
         </div>

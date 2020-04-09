@@ -18,20 +18,16 @@
           <name>Yohann Deguin</name>
           <resp>Premier balisage</resp>
         </respStmt>
-        <respStmt>
-          <name/>
-          <resp/>
-        </respStmt>
       </editionStmt>
       <publicationStmt>
         <publisher>Université d'Artois - Lille</publisher>
         <date when="2019"/>
         <availability status="restricted">
-          <licence>Tous droits réservés</licence>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl> <title>Les Plaisirs de l'île enchantée : Course de bague, collation ornée de machines, comédie mêlée de danse et de musique, ballet du palais d'Alcine, feu d'artifice, et autres fêtes galantes et magnifiques, faites par le roi à Versailles, le 7 mai 1664.</title> <pubPlace>Paris</pubPlace> <publisher>Ballard</publisher> <date when="1664">1664</date> <dim>in-fol</dim> <extent>245 pages</extent> <term type="genre" subtype="imprimé">Imprimé</term> </bibl>
+        <bibl> <title>Les Plaisirs de l'île enchantée : Course de bague, collation ornée de machines, comédie mêlée de danse et de musique, ballet du palais d'Alcine, feu d'artifice, et autres fêtes galantes et magnifiques, faites par le roi à Versailles, le 7 mai 1664.</title> <pubPlace>Paris</pubPlace> <publisher>Ballard</publisher> <date when="1664">1664</date> <dim>in-fol</dim> <extent>245 pages</extent></bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -41,11 +37,13 @@
       <langUsage>
         <language ident="fr"/>
       </langUsage>
+      <textClass>
+        <classCode scheme="merveilles17">Imprimé</classCode>
+      </textClass>
       <abstract>
-        <p/>
         <listEvent>
-          <event xml:id="pli" when="1664">
-            <label>Les Plaisirs de l'île Enchantée</label>
+          <event xml:id="???" when="???">
+            <placeName key="???">???</placeName>
           </event>
         </listEvent>
       </abstract>
@@ -54,13 +52,13 @@
   <text>
     <body>
       <div>
-        <p><pb n="3"/><persName key="#louisxiv" role="#organisateur #h"><affiliation key=""/>Le Roi</persName> voulant donner aux <persName key="anne_d_autriche #marie_therese" role="spectateur #f">Reines</persName> et à toute sa cour le plaisir de quelques fêtes peu communes, dans un lieu orné de tous les agréments qui peuvent faire admirer une maison de campagne, choisit <placeName ref="loc:Versailles">Versailles</placeName>, à quatre lieues de <placeName ref="loc:Paris">Paris</placeName>. C’est un château qu’on peut nommer un palais enchanté, tant les ajustements de l’art ont bien secondé les soins que la nature a pris pour le rendre parfait. Il charme en toutes manières ; tout y rit dehors et dedans, l’or et le marbre y disputent de beauté et d’éclat ; et quoiqu’il n’ait pas cette grande étendue qui se remarque en quelques autres palais de <persName key="#louisxiv" role="#organisateur #h">sa Majesté</persName>, toutes choses y sont si polies, si bien entendues <pb n="4"/> et si achevées, que rien ne le peut égaler. Sa symétrie, la richesse de ses meubles, la beauté de ses promenades et le nombre infini de ses fleurs, comme de ses orangers, rendent les environs de ce lieu dignes de sa rareté singulière. La diversité des bêtes contenues dans les deux parcs et dans la ménagerie, où plusieurs cours en étoile sont accompagnées de viviers pour les animaux aquatiques, avec de grands bâtiments, joignent le plaisir avec la magnificence, et en font une maison accomplie.</p>
+        <p><pb n="3"/><persName key="#louisxiv" role="#organisateur #h"><affiliation key=""/>Le Roi</persName> voulant donner aux <persName key="anne_d_autriche #marie_therese" role="spectateur #f">Reines</persName> et à toute sa cour le plaisir de quelques fêtes peu communes, dans un lieu orné de tous les agréments qui peuvent faire admirer une maison de campagne, choisit <placeName key="loc:Versailles">Versailles</placeName>, à quatre lieues de <placeName key="loc:Paris">Paris</placeName>. C’est un château qu’on peut nommer un palais enchanté, tant les ajustements de l’art ont bien secondé les soins que la nature a pris pour le rendre parfait. Il charme en toutes manières ; tout y rit dehors et dedans, l’or et le marbre y disputent de beauté et d’éclat ; et quoiqu’il n’ait pas cette grande étendue qui se remarque en quelques autres palais de <persName key="#louisxiv" role="#organisateur #h">sa Majesté</persName>, toutes choses y sont si polies, si bien entendues <pb n="4"/> et si achevées, que rien ne le peut égaler. Sa symétrie, la richesse de ses meubles, la beauté de ses promenades et le nombre infini de ses fleurs, comme de ses orangers, rendent les environs de ce lieu dignes de sa rareté singulière. La diversité des bêtes contenues dans les deux parcs et dans la ménagerie, où plusieurs cours en étoile sont accompagnées de viviers pour les animaux aquatiques, avec de grands bâtiments, joignent le plaisir avec la magnificence, et en font une maison accomplie.</p>
         <p>Ce fut en ce beau lieu, où toute la cour se rendit <date when="1664-05-05">le cinquième de mai</date>, que <persName key="#louisxiv" role="#oranisateur #h">le Roi</persName> traita plus de six cent personnes, jusques au <date when="1664-05-14">quatorzième</date>, outre une infinité de gens nécessaires à la <!-- à voir si on encode quand il s'agit de désignation générale ? --> <affiliation key="danse">danse</affiliation> et à la <affiliation key="comedie">comédie</affiliation>, et d’artisans de toutes sortes venus de Paris : si bien que cela paroissoit une petite armée.</p>
       </div>
       <div type="course">
         <p>Le Ciel mesme sembla favoriser les desseins de <persName key="#louisxiv" role="#organisateur #h">sa Majesté</persName>, puisqu’en une saison presque toujours pluvieuse on en fut quitte pour un peu de vent, qui sembla n’avoir augmenté, que pour faire voir que la prévoyance et la puissance du <persName key="#louisxiv" role="#organisateur #h">Roy</persName>, estoient à l’epreuve des plus grandes incommoditez; de <tech type="couture">hautes toilles</tech>, des <tech type="construction">bastimens de bois</tech> faits presque en un instant, et un <tech type="lumiere">nombre prodigieux de flambeaux de cire blanche</tech>, pour suppléer à plus de quatre mille bougies chaque journée, resisterent à ce vent; qui par tout ailleurs eust rendu ces divertissements comme impossibles à achever.</p>
         <p><persName key="#vigarani" role="#ingenieur #h"><affiliation key="menusplaisirs"/>M. de Vigarini</persName>, gentilhomme modénois, fort savant en toutes ces choses, inventa et proposa celles-ci ; et <persName key="#louisxiv" role="#organisateur #h">le Roi</persName> commanda au <persName key="#saint_aignan" role="#auteur"><affiliation key="chambre"/>duc de Saint-Aignan</persName>, qui se trouva lors en fonction de <affiliation key="chambre">premier gentilhomme de sa chambre</affiliation>, et qui avoit déjà donné plusieurs sujets de ballet fort agréables, de faire un dessein où elles fussent toutes comprises avec liaison et avec ordre, de sorte qu’elles ne pouvaient manquer de bien réussir.</p>
-        <p>Il prit pour sujet le <title>Palais d’Alcine</title>, qui donna lieu au titre des <hi rend="i"><title>Plaisirs de l’Île enchantée</title></hi>, puisque, selon l’<persName key="arioste">Arioste</persName>, le brave <name key="roger">Roger</name> et plusieurs autres bon chevaliers y furent retenus par les doubles charmes de la beauté, quoique <pb n="5"/> empruntée, et du savoir de <name key="Alcine">cette magicienne</name>, et en furent délivrés, après beaucoup de temps consommé dans les délices, par la bague qui détruisoit les enchantements. C’étoit celle d’<name key="angelique">Angélique</name>, que <name key="melisse">Mélisse</name>, sous la forme du vieux <name key="atlas">Atlas</name>, mit enfin au doigt de <name key="roger">Roger</name>.</p>
+        <p>Il prit pour sujet le <title>Palais d’Alcine</title>, qui donna lieu au titre des <title>Plaisirs de l’Île enchantée</title>, puisque, selon l’<persName key="arioste">Arioste</persName>, le brave <name key="roger">Roger</name> et plusieurs autres bon chevaliers y furent retenus par les doubles charmes de la beauté, quoique <pb n="5"/> empruntée, et du savoir de <name key="Alcine">cette magicienne</name>, et en furent délivrés, après beaucoup de temps consommé dans les délices, par la bague qui détruisoit les enchantements. C’étoit celle d’<name key="angelique">Angélique</name>, que <name key="melisse">Mélisse</name>, sous la forme du vieux <name key="atlas">Atlas</name>, mit enfin au doigt de <name key="roger">Roger</name>.</p>
         <p>On fit donc en peu de jours orner un rond, où quatre grandes allées aboutissent entre de hautes palissades, de quatre portiques de trente-cinq pieds d’élévation et de vingt-deux en carré d’ouverture, de plusieurs festons enrichis d’or, et de diverses peintures avec les armes de <persName key="#louisxiv" role="#organisateur #h">Sa Majesté</persName>.</p>
         <p>Toute la cour s’y étant placée <date when="1664-05-07">le septième</date>, il entra dans la place, sur les six heures du soir, un héraut d’armes, représenté par <persName key="#desbardins" role="acteur">M. des Bardins</persName>, vêtu d’un habit à l’antique, couleur de feu en broderie d’argent, et fort bien monté.</p>
         <p>Il était suivi de trois pages. Celui du Roi, <persName key="#artagnan" role="acteur">M. d’Artagnan</persName>, marchoit à la tête des deux autres, fort richement habillé de couleur de feu, livrée de sa Majesté, portant sa lance et son écu, dans lequel brilloit un soleil de pierrerie, avec ces mots :</p>
@@ -68,7 +66,7 @@
         <p>Faisant allusion à l’attachement de <persName key="#louisxiv" role="#organisateur #h">sa Majesté</persName> aux affaires de son État et la manière avec laquelle il agit : ce qui étoit encore représenté par ces quatre vers du <persName key="#perigny" role="auteur">Président de Périgny</persName>, auteur de la même devise :</p>
       </div>
       <div>
-        <lg type="quatrain">
+        <lg ana="quatrain">
           <l rend="i">Ce n’est pas sans raison que la Terre et les Cieux,</l>
           <l rend="i">Ont tant d’estonnement pour un objet si rare;</l>
           <l rend="i">Qui dans son cours pénible, autant que glorieux,</l>
@@ -86,7 +84,7 @@
         <p>Quatre trompettes et deux timbaliers marchoient après ces pages, <tech type="couture">habillés de satin couleur de feu et argent, leurs plumes de la même livrée, et les carapaçons de leurs chevaux couverts d’une pareille broderie, avec des soleils d’or fort éclatants aux banderoles des trompettes et les couvertures des timbales</tech>.</p>
         <p><persName key="#saint_aignan" role="acteur">Le duc de Saint-Aignan</persName>, maréchal de camp, marchoit après eux, armé à la grecque, d’une cuirasse de toile d’argent, couverte de petites écailles d’or, aussi bien que son bas de saye ; et son casque étoit orné d’un dragon et d’un grand nombre de plumes blanches, mêlées d’incarnat et de noir. Il montoit un cheval blanc, bardé de même, et représentoit <name key="guidon_le_sauvage" ana="#saint_aignan">Guidon le Sauvage</name>. </p>
         <p>Pour le duc de Saint Aignan, représentant Guidon le Sauvage</p>
-        <lg type="madrigal">
+        <lg ana="madrigal">
           <label>Madrigal</label>
           <l>Les combats que j’ai faits en l’Ile dangereuse,</l>
           <l>Quand de tant de guerriers je demeurai vainqueur,</l>
@@ -106,7 +104,7 @@
         </lg>
         <p><pb n="7"/> Huit trompettes et deux timballiers, vêtus comme les premiers, marchoient après le maréchal de camp.</p>
         <p><persName key="#louisxiv" role="acteur">Le Roi</persName>, représentant <name key="roger" ana="#louisxiv">Roger</name>, les suivoit, montant un des plus beaux chevaux du monde, dont le harnois couleur de feu éclatoit d’or, d’argent et de pierreries. <persName key="#louisxiv" role="acteur">Sa Majesté</persName> <tech type="couture">étoit armée à la façon des Grecs, comme tous ceux de sa quadrille, et portoit une cuirasse de lame d’argent, couverte d’une riche broderie d’or et de diamants. Son port et toute son action étoient dignes de son rang ; son casque, tout couvert de plumes couleur de feu</tech>, avoit une grâce incomparable ; et jamais un air plus libre, ni plus guerrier, n’a mis un mortel au-dessus des autres hommes.</p>
-        <lg type="sonnet">
+        <lg ana="sonnet">
           <label>Sonnet</label>
           <l>Pour le roi, représentant Roger</l>
           <l>Quelle taille, quel port a ce fier conquérant !</l>
@@ -124,53 +122,53 @@
           <l>N’a que l’honneur en vue, et ne tire l’épée</l>
           <l>Que pour des intérêts qui ne sont pas les siens.</l>
         </lg>
-        <p><persName key="#anne_de_noailles" role="acteur">Le duc de Noailles</persName>, juge du camp, sous le nom d’<name key="#oger_le_danois" ane="#anne_de_noailles">Oger le Danois</name>, marchoit après le Roi, <tech type="couture">portant la couleur de feu et le noir, sous une riche broderie d’argent ; et ses plumes aussi bien que tous le reste de son équipage, étoient de cette même livrée</tech>.</p>
-        <p><pb n="8"/> <persName key="#anne_de_noailles" role="acteur">Le duc de Noailles</persName>, <hi rend="i"><name key="#oger_le_danois">Oger le Danois</name></hi>, juge du camp.</p>
+        <p><persName key="#anne_de_noailles" role="acteur">Le duc de Noailles</persName>, juge du camp, sous le nom d’<name key="#oger_le_danois" corresp="#anne_de_noailles">Oger le Danois</name>, marchoit après le Roi, <tech type="couture">portant la couleur de feu et le noir, sous une riche broderie d’argent ; et ses plumes aussi bien que tous le reste de son équipage, étoient de cette même livrée</tech>.</p>
+        <p><pb n="8"/> <persName key="#anne_de_noailles" role="acteur">Le duc de Noailles</persName>, <name rend="i" key="#oger_le_danois">Oger le Danois</name>, juge du camp.</p>
         <p>Ce paladin s’applique à cette seule affaire,</p>
         <p>De servir dignement le plus puissant des rois.</p>
         <p>Comme, pour bien juger, il faut savoir bien faire,</p>
         <p>Je doute que personne appelle de sa voix.</p>
         <p>Le <persName key="#henri_ii_de_guise" role="acteur">duc de Guise</persName> et le <persName key="#henri_de_lorraine" role="acteur">comte d’Armagnac</persName>  marchoient ensemble après lui. Le premier, portant le nom d’<name key="#aquilant_le_noir" ana="#henri_ii_de_guise">Aquilant le Noir</name>, avoit <tech type="couture">un habit de cette couleur en broderie d’or et de jais</tech> ; ses plumes, son cheval et sa lance assortissoient à sa livrée ; et l’autre, représentant <name key="griffon_le_blanc" ana="#henri_de_lorraine">Griffon le blanc</name>, <tech type="couture">portoit sur un habit de toile d’argent plusieurs rubis, et montait un cheval blanc hardé de la même couleur</tech>.</p>
-        <p>Le <persName key="#henri_ii_de_guise" role="acteur">duc de Guise</persName>, <hi rend="i"><name key="#aquilant_le_noir" ana="#henri_ii_de_guise">Aquilant le Noir</name></hi></p>
+        <p>Le <persName key="#henri_ii_de_guise" role="acteur">duc de Guise</persName>, <name rend="i" key="#aquilant_le_noir" ana="#henri_ii_de_guise">Aquilant le Noir</name></p>
         <p>La Nuit a ses beautés, de même que le jour.</p>
         <p>Le noir est ma couleur, je l’ai toujours aimée ;</p>
         <p>Et si l’obscurité convient à mon amour,</p>
         <p>Elle ne s’étend pas jusqu’à ma renommée.</p>
-        <p>Le comte d’Armagnac, <hi rend="i">Griffon le blanc</hi></p>
+        <p>Le comte d’Armagnac, <emph>Griffon le blanc</emph></p>
         <p>Voyez quelle candeur en moi le Ciel a mis ;</p>
         <p>Aussi nulle beauté ne s’en verra trompée ;</p>
         <p>Et quand il sera temps d’aller aux ennemis,</p>
         <p>C’est où je me ferai tout blanc de mon épée.</p>
         <p>Les ducs de Foix et de Coaslin, qui paroissoient ensuite, étoient vêtus, l’un d’incarnat avec or et argent, et l’autre de vert, blanc et argent, toute leur livrée et leurs chevaux étant dignes du reste de leur équipage.</p>
-        <p>Pour le <persName key="#" role="acteur">duc de Foix</persName><!-- à identifier -->, <hi rend="i"><name key="renaud">Renaud</name></hi></p>
+        <p>Pour le <persName key="#" role="acteur">duc de Foix</persName><!-- à identifier -->, <name rend="i" key="renaud">Renaud</name></p>
         <!-- renseigner ana -->
         <p>Il porte un nom célèbre, il est jeune, il est sage:</p>
         <p>À vous dire le vrai c’est pour aller bien haut ;</p>
         <p>Et c’est un grand bonheur que d’avoir à son âge,</p>
         <p>La chaleur nécessaire et le flegme qu’il faut.</p>
-        <p><pb n="9"/> <persName key="#armand_du_cambout" role="acteur">Le duc de Coaslin</persName>. <hi rend="i"><name key="dudon" ana="#henri_du_cambout">Dudon</name></hi></p>
+        <p><pb n="9"/> <persName key="#armand_du_cambout" role="acteur">Le duc de Coaslin</persName>. <name key="dudon" rend="i" ana="#henri_du_cambout">Dudon</name></p>
         <p>Trop avant dans la gloire on ne peut s’engager.</p>
         <p>J’aurai vaincu sept rois, et, par mon grand courage,</p>
         <p>Les verrai tous soumis au pouvoir de <name key="roger" ana="#louisxiv">Roger</name>,</p>
         <p>Que je ne serai pas content de mon ouvrage.</p>
         <p>Après eux marchaient le <persName>comte du Lude</persName>
-          <!-- à identifier : ambiguïté avec le duc de Lude --> et le <persName key="#francois_vi_de_la_rochefoucauld" role="acteur">prince de Marsillac</persName>, <tech key="couture">le premier vêtu d’incarnat et blanc, et l’autre de jaune, blanc, et noir, enrichis de broderie d’argent ; leur livrée de même, et fort bien montés</tech>.</p>
-        <p>Le comte du Lude. <hi rend="i"><name key="astolphe">Astolphe</name></hi></p>
+          <!-- à identifier : ambiguïté avec le duc de Lude --> et le <persName key="#francois_vi_de_la_rochefoucauld" role="acteur">prince de Marsillac</persName>, <tech type="couture">le premier vêtu d’incarnat et blanc, et l’autre de jaune, blanc, et noir, enrichis de broderie d’argent ; leur livrée de même, et fort bien montés</tech>.</p>
+        <p>Le comte du Lude. <name rend="i" key="astolphe">Astolphe</name></p>
         <p>De tous</p>
-        <p>Le <persName key="#francois_vi_de_la_rochefoucauld" role="acteur">prince de Marsillac</persName>. <hi rend="i"><name key="brandimart" ana="#francois_vi_de_la_rochefoucauld">Brandimart</name>.</hi></p>
+        <p>Le <persName key="#francois_vi_de_la_rochefoucauld" role="acteur">prince de Marsillac</persName>. <name rend="i" key="brandimart" ana="#francois_vi_de_la_rochefoucauld">Brandimart</name>.</p>
         <p>Mes vœux</p>
         <p>Les <persName>marquis de Villequier</persName> et <persName>Soyecourt</persName> marchoient ensuite. <tech type="couture">L’un portoit le bleu et argent ; et l’autre, le bleu, blanc et noir, avec or et argent ; leurs plumes et les harnois de leurs chevaux étoient de la même couleur et d’une pareille richesse</tech>.</p>
-        <p>Le marquis de Villequier. <hi rend="i"><name>Richardet</name></hi>.</p>
+        <p>Le marquis de Villequier. <name rend="i">Richardet</name>.</p>
         <p>Personne</p>
-        <p>Le marquis de Soyecourt. <hi rend="i"><name>Olivier</name>.</hi></p>
+        <p>Le marquis de Soyecourt. <name rend="i">Olivier</name>.</p>
         <p>Voici</p>
         <p><pb n="10"/> Les <persName>marquis d’Humières</persName> et de <persName>la Vallière</persName> les suivoient : ce premier portant la couleur de chair et argent, et l’autre, le gris de lin, blanc et argent, toute leur livrée étant la plus riche et la mieux assortie du monde.</p>
-        <p>Le marquis d’Humières. <hi rend="i"><name>Ariodant</name>.</hi></p>
+        <p>Le marquis d’Humières. <name rend="i">Ariodant</name>.</p>
         <p>Je tremble</p>
-        <p>Le marquis de la Vallière. <hi rend="i"><name>Zerbin</name>.</hi></p>
+        <p>Le marquis de la Vallière. <name rend="i">Zerbin</name>.</p>
         <p>Quelques beaux</p>
         <p><persName>Monsieur le Duc </persName>marchoit seul, portant pour sa livrée la couleur de feu, blanc et argent. Un grand nombre de diamants estoient attachés sur la magnifique broderie dont sa cuirasse et son bas de saye étoient couverts, son casque et le harnois de son cheval en étoient aussi enrichis. </p>
-        <p>Monsieur le Duc. <hi rend="i"><name>Roland</name>.</hi></p>
+        <p>Monsieur le Duc. <name rend="i">Roland</name>.</p>
         <p>Roland fera bien loin son grand nom retentir ;</p>
         <p>La gloire deviendra sa fidèle compagne.</p>
         <p>Il est sorti d’un sang qui brûle de sortir</p>
@@ -188,25 +186,25 @@
         <!-- Et ça, ce n’est pas une devise ? -->
         <p rend="i">Et quiescente pavescunt.</p>
         <p><persName>Le comte d’Armagnac</persName>, représentant <name>Griffon le blanc</name>, ayant pour devise une hermine, avec ces mots :</p>
-        <p><hi rend="i"><l ana="devise"><foreign xml:lang="la">Ex candore decus</foreign></l></hi>.</p>
+        <p xml:lang="la" ana="devise">Ex candore decus.</p>
         <p><pb n="12"/> <persName>Le duc de Foix</persName>, représentant <name>Renaud</name>, ayant pour devise un vaisseau dans la mer, avec ces mots :</p>
-        <p><hi rend="i"><l ana="devise"><foreign xml:lang="la">Longe levis aura feret</foreign></l></hi>.</p>
+        <p xml:lang="la" ana="devise">Longe levis aura feret.</p>
         <p>Le <persName>duc de Coaslin</persName>, représentant <name>Dudon</name>, ayant pour devise un soleil, et l’héliotrope ou tournesol, avec ces mots :</p>
-        <p rend="i"><l ana="devise"><foreign xml:lang="la">Splendor ab obsequio</foreign></l>.</p>
+        <p ana="devise" xml:lang="la">Splendor ab obsequio.</p>
         <p>Le <persName>comte du Lude</persName>, représentant <name>Astolphe</name>, ayant pour devise un chiffre en forme de nœud, avec ces mots :</p>
-        <p rend="i"><l ana="devise"><foreign xml:lang="la">Non fia mai sciolto.</foreign></l></p>
+        <p  xml:lang="la" ana="devise">Non fia mai sciolto.</p>
         <p>Le <persName>prince de Marsillac</persName>, représentant <name>Brandimart</name>, ayant pour devise une montre en relief, dont on voit tous les ressorts, avec ces mots :</p>
-        <p> <hi rend="i"><l ana="devise"><foreign xml:lang="la">Chieto fuor, commoto dentro.</foreign></l></hi> </p>
+        <p xml:lang="la" ana="devise">Chieto fuor, commoto dentro. </p>
         <p>Le <persName>marquis de Villequier</persName>, représentant <name>Richardet</name>, ayant pour devise un aigle qui plane devant le soleil avec ces mots :</p>
-        <p> <hi rend="i"><l ana="devise"><foreign xml:lang="la">Uni militat astro.</foreign></l></hi> </p>
+        <p xml:lang="la" ana="devise">Uni militat astro. </p>
         <p>Le <persName>marquis de Soyecourt</persName>, représentant <name>Olivier</name>, ayant pour devise la massue d’Hercule, avec ces mots :</p>
-        <p> <hi rend="i"><l ana="devise"><foreign xml:lang="la">Vix aequat fama labores.</foreign></l></hi> </p>
+        <p xml:lang="la" ana="devise">Vix aequat fama labores.</p>
         <p>Le <persName>marquis d’Humières</persName>, représentant <name>Ariodant</name>, ayant pour devise toutes sortes de couronnes, avec ces mots :</p>
-        <p> <hi rend="i"><l ana="devise"><foreign xml:lang="la">No quiro menos.</foreign></l></hi> </p>
+        <p xml:lang="la" ana="devise">No quiro menos. </p>
         <p>Le <persName>marquis de la Vallière</persName>, représentant <name>Zerbin</name>, ayant pour devise un phénix sur un bûcher allumé par le soleil, avec ces mots :</p>
-        <p rend="i"><l ana="devise"><foreign xml:lang="la">Hoc juvat uri.</foreign></l></p>
+        <p  xml:lang="la" ana="devise">Hoc juvat uri.</p>
         <p><persName>Monsieur le Duc</persName>, représentant <name>Roland</name>, ayant pour devise un dard entortillé de lauriers, avec ces mots :</p>
-        <p rend="i"><l ana="devise"><foreign xml:lang="la">Certo ferit.</foreign></l></p>
+        <p  xml:lang="la" ana="devise">Certo ferit.</p>
         <p><pb n="13"/> <name>Vingt pasteurs</name>, chargés des diverses pièces de la barrière qui devoit être dressée pour la course de bague<!-- encoder divertissement -->, formoient la dernière troupe qui entra dans la lice. Ils portoient des vestes couleur de feu enrichie d’argent, et des coiffures de même.</p>
         <p>Aussitôt que ces troupes furent entrées dans le camp, elles en firent le tour, et après avoir salué les reines, elles se séparèrent, et prirent chacun son poste. Les pages de la tête, les trompettes et les timbaliers, se croisant, s’allèrent poster sur les ailes. <persName>Le Roi</persName>, s’avançant au milieu, prt sa place vis-à-vis du haut dais ; <persName>Monsieur le Duc</persName>, proche de <persName key="#louisxiv" role="#organisateur #h">Sa Majesté</persName> ; les ducs de Saint-Aignan et de Noailles, à droit et à gauche ; les dix chevaliers, en haie aux deux côtés du char ; leurs pages, au même ordre, derrière eux ; les Signes et les Heures, comme ils étoient entrés.</p>
         <p>Lorsqu’on eut fait halte en cet état, un profond silence, causé tout ensemble par l’attention et par le respect, donna le moyen à Mlle de Brie, qui représentoit le Siècle d’airain, de commencer ces vers à la louange de la Reine, adressés à Apollon :</p>
