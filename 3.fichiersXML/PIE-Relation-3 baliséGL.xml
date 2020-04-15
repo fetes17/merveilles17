@@ -1,183 +1,200 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt> 
-                <title>Les Plaisirs de l'île enchantée</title> 
-                <author/> 
-            </titleStmt>
-            <editionStmt> 
-                <edition>Merveilles17</edition> 
-                <respStmt><name>Marine Roussillon</name><resp>Transcription</resp></respStmt>
-                <respStmt><name>Gaëlle Lafage</name><resp>Premier balisage</resp></respStmt></editionStmt>
-            
-            <publicationStmt>
-                <publisher>Univeristé d'Artois - Lille, MESHS</publisher><date when="2019"/><!-- quelle(s) institution(s) ? -->
-                <availability status="restricted"><licence/></availability> 
-            </publicationStmt>
-            <sourceDesc>
-                <bibl> 
-                    <author/> 
-                    <title>Les Plaisirs de l'île enchantée : Course de bague, collation ornée de machines, comédie mêlée de danse et de musique, ballet du palais d'Alcine, feu d'artifice, et autres fêtes galantes et magnifiques, faites par le roi à Versailles, le 7 mai 1664.</title>           <pubPlace>Paris</pubPlace> 
-                    <publisher>Ballard</publisher> 
-                    <date when="1664">1664</date>
-                    <dim>in-fol</dim> 
-                    <extent>245 pages</extent> 
-                    <term type="genre" subtype="relation">Relation</term>
-                </bibl>
-            </sourceDesc>
-        </fileDesc>
-    </teiHeader>
-    
-    <text>
-        <body>
-            <div>
-    
-    <p>Dix-huit pages du Roi, fort richement vêtus, qui devoient servir les dames à table,
-        faisoient les derniers de cette troupe ; laquelle étant rangée, <name key="#pan" ana="#moliere">Pan</name>, <name key="#diane" ana="#madeleine_bejart">Diane</name> et les
-        <name key="#saisons" ana="#therese_duparc #gros_rene #la_thorillere #louis_bejart">Saisons</name> se présentant devant <persName key="#marie_therese">la Reine</persName>, <name key="printemps" ana="#therese_duparc">le Printemps</name> lui adressa le premier ces
-        vers :</p>
-    <p><name key="printemps" ana="#therese_duparc">LE PRINTEMPS</name>.</p>
-    <p>A <persName key="#marie_therese">LA REYNE</persName>.</p>
-    <lg type="madrigal?"><!-- forme poétique à vérifier -->
-    <l rend="i">Entre toutes les fleurs nouvellement écloses,</l>
-    <l rend="i">Dont mes jardins sont embellis,</l>
-    <l rend="i">Méprisant les jasmins, les oeillets et les roses,</l>
-    <l rend="i">Pour payer mon tribut j’ay fait choix de ces lys,</l>
-    <l rend="i">Que de vos premiers ans vous avez tant cheris:</l>
-    <l rend="i"><persName key="#louisxiv" role="#organisateur #h">LOUIS</persName> les fait briller du couchant à l’aurore,</l>
-    <l rend="i">Tout l’Univers charmé les respecte et les craint;</l>
-    <l rend="i">Mais leur regne est plus doux et plus puissant encore,</l>
-    <l rend="i">Quand ils brillent sur votre teint.</l>
-    </lg>
-    <p><name key="printemps" ana="#gros_rene">L'ESTÉ</name>.</p>
-    <lg type="?"><!-- forme poétique à vérifier -->
-    <l rend="i">Surpris un peu trop promptement,</l>
-    <l rend="i">J'apporte à cette feste un leger ornement;</l>
-    <l rend="i">Mais avant que ma saison passe,</l>
-    <l rend="i">Je feray faire à vos Guerriers,</l>
-    <l rend="i">Dans les campagnes de la Thrace,</l>
-    <l rend="i">Une ample moisson de lauriers.</l>
-    </lg>
-    <p><pb n="18"/><name key="automne" ana="#la_thorillere">L'AUTOMNE</name>.</p>
-    <lg type="?"><!-- forme poétique à vérifier -->
-    <l rend="i">Le Printemps orgueilleux de la beauté des fleurs</l>
-    <l rend="i">Qui lui tomberent en partage</l>
-    <l rend="i">Pretend de cette feste avoir tout l’avantage,</l>
-    <l rend="i">Et nous croit obscurcir par ses vives couleurs:</l>
-    <l rend="i">Mais vous vous souviendrez, <persName key="#marie_therese">Princesse</persName> sans seconde,</l>
-    <l rend="i">De ce fruit precieux qu’a produit ma saison,</l>
-    <l rend="i">Et qui croist dans votre maison,</l>
-    <l rend="i">Pour faire quelque jour les delices du Monde.</l>
-    </lg>
-    <p><name key="hiver" ana="louis_bejart">L'HYVER</name></p>
-    <lg type="?"><!--forme poétique à vérifier--> 
-    <l rend="i">La neige, les glaçons que j’apporte en ces lieux,</l>
-    <l rend="i">Sont des mets les moins precieux;</l>
-    <l rend="i">Mais ils sont des plus necessaires,</l>
-    <l rend="i">Dans une Feste où mille objets charmans,</l>
-    <l rend="i">De leurs oeillades meurtrières,</l>
-    <l rend="i">Font naitre tant d’embrazemens.</l>
-    </lg>
-    <p><name key="#diane" ana="#madeleine_bejart">DIANE</name>.</p>
-    <p><persName key="#marie_therese">A LA REINE</persName>.</p>
-    <lg type="?"><!--forme poétique à vérifier-->
-    <l rend="i">Nos bois, nos rochers, nos montagnes,</l>
-    <l rend="i">Tous nos chasseurs, et mes compagnes,</l>
-    <l rend="i">Qui m’ont toujours rendu des honneurs souverains;</l>
-    <l rend="i">Depuis que parmi nous ils vous ont veue paroistre,</l>
-    <l rend="i">Ne veulent plus me reconnoistre,</l>
-    <l rend="i">Et chargez de presens, viennent avec moy</l>
-    <l rend="i">Vous porter ce tribut pour marque de leur foy.</l>
-    <l rend="i">Les habitants legers de cet heureux bocage,</l>
-    <l rend="i">De tomber dans vos rets font leur sort le plus doux,</l>
-    <l rend="i">Et n’estiment rien davantage,</l>
-    <l rend="i">Que l’heur de perir de vos coups:</l>
-    <l rend="i">Amour dont vous avez la grace et le visage,</l>
-    <l rend="i">A le mesme secret que vous.</l>
-    </lg>
-    <p><name key="#pan" ana="#moliere">PAN</name>.</p>
-    <lg type="?"><!--forme poétique à vérifier-->
-    <l rend="i">Jeune Divinité, ne vous étonnez pas,</l>
-    <l rend="i">Lors que nous vous offrons en ce fameux repas</l>
-    <l rend="i">L'eslite de nos bergeries:</l>
-    <l rend="i">Si nos troupeaux goutent en paix</l>
-    <l rend="i">Les herbages de nos prairies,</l>
-    <l rend="i">Nous devons ce bon-heur à vos divins attraits.</l>
-    </lg>
-    <div type="collation">
-    <p><pb n="19"/>Ces récits achevés, une grande table en forme de croissant, rond d’un
-        côté, où l’on devoit couvrir, et garni de fleurs de celui où elle étoit creuse, vint à
-        se découvrir.</p>
-    <p>Trente-six violons<!-- doit on mettre les noms des 34 violons indiqués dans le livret de Ballard? -->, très bien vêtus, parurent derrière sur un petit théâtre, pendant
-        que MM. de la Marche et Parfait, père, frère et fils <!-- à identifier -->, contrôleurs généraux, sous les
-        noms de l’Abondance, de la Joie, de la propreté et de la Bonne Chère, la firent couvrir
-        par les Plaisirs, par les Jeux , par les Ris et par les Délices.</p>
-    <p><persName key="#anne_d_autriche"><persName key="#marie_therese"><persName key="#louisxiv"><!-- je ne sais pas si l'on peut baliser ainsi plusieurs noms au sein d'une appelation -->Leurs Majestés</persName></persName></persName> s’y mirent en cet ordre, qui prévint tous les embarras qui eussent pu
-        naître pour les rangs.</p>
-    <p><list type="table">
-        <head><persName key="#anne_d_autriche">La Reine mère</persName>étoit assise au milieu de la table, et avoit à sa main droite :</head>
-        <item><persName key="#louisxiv">LE ROI</persName></item>
-        <item><persName key="#elisabeth_orleans_alencon">Mlle d’Alençon</persName></item>
-        <item><persName key="#maille_breze_conde">Madame la Princesse.</persName></item>
-        <item><persName key="#marie_lorraine_elbeuf">Mlle d’Elbeuf.</persName></item><!-- identitée à vérifier -->
-        <item><persName key="#beauvilliers_bethune">Mme de Béthune.</persName></item>
-        <item><persName key="#lansac_crequi">Mme la duchesse de Créqui.</persName></item>
-        <item><persName key="#monsieur">MONSIEUR</persName></item>
-        <item><persName key="#servien_saint_aignan">Mme la duchesse de Saint-Aignan.</persName></item>
-        <item><persName key="#charron_du_plessis">Mme la maréchale Du Plessis.</persName></item>
-        <item><persName key="#choiseul_etampes">la maréchale d’Étampes.</persName></item>
-        <item>Mme de Gourdon.</item><!-- à identifier? -->
-        <item><persName key="#madame_montespan">Mme de Montespan.</persName></item>
-        <item><persName key="#chatre-humieres">Mme d’Humières.</persName></item>
-        <item>Mlle de Brancas.</item><!-- à identifier? Marie de Brancas? -->
-        <item><persName key="#marguerite_cambout_armagnac">Mme d’Armagnac.</persName></item>
-        <item><persName key="#mancini_soissons">Mme la comtesse de Soissons.</persName></item>
-        <item><persName key="#louise_savoie_bade">Mme la princesse de Bade.</persName></item>
-        <item><persName key="#louise-rouxel_grancey">Mlle de Grançay.</persName></item>
-        <lb>De l’autre côté étoient assises :</lb>
-        <item><persName key="#anne_d_autriche">LA REINE.</persName></item>
-        <item><persName key="#marie_bourbon_carignan">Mme de Carignan.</persName></item>
-        <item><persName key="#marie_bauffremont_fleix">Mme de Flaix.</persName></item>
-        <item>Mme la duchesse de Foix.</item><!-- à identifier? -->
-        <item>Mme de Brancas.</item><!-- à identifier? -->
-        <item><persName key="#angelique_baudean_froulay">Mme de Froulay.</persName></item>
-        <pb n="20"/><item><persName key="#baudean_parabere_navailles">Mme la duchesse de Navailles.</persName></item>
-        <item>Mlle d’Ardennes.</item><!-- à identifier? -->
-        <item>Mlle de Cologon.</item><!-- à identifier? -->
-        <item>Mme de Crussol.</item><!-- à identifier? -->
-        <item><persName key="#julie_montausier">Mme de Montauzier.</persName></item>
-        <item><persName key="#madame">MADAME</persName></item>
-        <item>Mme la princesse Bénédicte.</item><!-- à identifier? -->
-        <item><persName key="abbe_baviere_conde">Madame la Duchesse.</persName></item>
-        <item><persName key="#diane_budos_rouvroy">Mme de Rouvroy.</persName></item><!-- identitée à vérifier -->
-        <item><persName key="#anne_de_la_mothe_houdancourt">Mlle de la Mothe.</persName></item>
-        <item>Mme de Marsé.</item><!-- à identifier? -->
-        <item><persName key="#louise_la_valliere">Mlle de la Vallière.</persName></item>
-        <item><persName key="#madeleine_du_guast_d_artigny">Mlle d’Artigny.</persName></item>
-        <item>Mlle du Bellay.</item><!-- à identifier? -->
-        <item>Mlle de Dampierre.</item><!-- à identifier? -->
-        <item>Mlle de Fiennes.</item><!-- à identifier Françoise du Bois de Fiennes? -->
-    </list></p>
-    <p>La somptuosité de cette collation passoit tout ce qu’on en pourroit écrire, tant par
-        l’abondance que par la délicatesse des choses qui y furent servies. Elle faisoit aussi
-        le plus bel objet qui puisse tomber sous les sens, puisque, dans la nuit, auprès de la
-        verdeur de ces hautes palissades, un nombre infini de chandeliers peints de vert et
-        d’argent, portant chacun vingt-quatre bougies, et deux cents flambeaux de cire blanche,
-        tenus par autant de personnes vêtus en masques, rendoient une clarté presque aussi
-        grande et plus agréable que celle du jour. Tous les chevaliers, avec leurs casques
-        couverts de plumes de différentes couleurs, et leurs habits de la course, étoient
-        appuyés sur la barrière ; et ce grand nombre d’officiers richement vêtus qui servoient,
-        en augmentoient encore la beauté, et rendoient ce rond une chose enchantée, duquel,
-        après la collation, Leurs Majestés et toute la Cour sortirent par le portique opposé à
-        la barrière, et dans un grand nombre de calesches fort ajustées, reprirent le chemin du
-        château.</p>
-    <p>FIN DE LA PREMIÈRE JOURNÉE.</p>
-    </div>
-            </div>
-        </body>
-    </text>
+<?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
+<?xml-stylesheet type="text/css" href="../tei-author.css" alternate="author"?>
+<?xml-model href="../merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Les Plaisirs de l'île enchantée</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>Merveilles17</edition>
+        <respStmt>
+          <name>Marine Roussillon</name>
+          <resp>Transcription</resp>
+        </respStmt>
+        <respStmt>
+          <name>Gaëlle Lafage</name>
+          <resp>Premier balisage</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Univeristé d'Artois - Lille, MESHS</publisher>
+        <date when="2019"/>
+        <!-- quelle(s) institution(s) ? -->
+        <availability status="restricted">
+          <licence target=""/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl> <author/> <title>Les Plaisirs de l'île enchantée : Course de bague, collation ornée de machines, comédie mêlée de danse et de musique, ballet du palais d'Alcine, feu d'artifice, et autres fêtes galantes et magnifiques, faites par le roi à Versailles, le 7 mai 1664.</title> <pubPlace>Paris</pubPlace> <publisher>Ballard</publisher> <date when="1664">1664</date> <dim>in-fol</dim> <extent>245 pages</extent> <term type="genre" subtype="relation">Relation</term> </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1664"/>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <textClass>
+        <classCode scheme="merveilles17">Imprimé</classCode>
+      </textClass>
+      <abstract>
+        <listEvent>
+          <event xml:id="???" when="???">
+            <placeName key="???">???</placeName>
+          </event>
+        </listEvent>
+      </abstract>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <p>Dix-huit pages du Roi, fort richement vêtus, qui devoient servir les dames à table, faisoient les derniers de cette troupe ; laquelle étant rangée, <name key="#pan" ana="#moliere">Pan</name>, <name key="#diane" ana="#madeleine_bejart">Diane</name> et les <name key="#saisons" ana="#therese_duparc #gros_rene #la_thorillere #louis_bejart">Saisons</name> se présentant devant <persName key="#marie_therese">la Reine</persName>, <name key="printemps" ana="#therese_duparc">le Printemps</name> lui adressa le premier ces vers :</p>
+        <p><name key="printemps" ana="#therese_duparc">LE PRINTEMPS</name>.</p>
+        <p>A <persName key="#marie_therese">LA REYNE</persName>.</p>
+        <lg ana="madrigal?" rend="i">
+          <!-- forme poétique à vérifier -->
+          <l>Entre toutes les fleurs nouvellement écloses,</l>
+          <l>Dont mes jardins sont embellis,</l>
+          <l>Méprisant les jasmins, les oeillets et les roses,</l>
+          <l>Pour payer mon tribut j’ay fait choix de ces lys,</l>
+          <l>Que de vos premiers ans vous avez tant cheris:</l>
+          <l><persName key="#louisxiv" role="#organisateur #h">LOUIS</persName> les fait briller du couchant à l’aurore,</l>
+          <l>Tout l’Univers charmé les respecte et les craint;</l>
+          <l>Mais leur regne est plus doux et plus puissant encore,</l>
+          <l>Quand ils brillent sur votre teint.</l>
+        </lg>
+        <p><name key="printemps" ana="#gros_rene">L'ESTÉ</name>.</p>
+        <lg rend="i" ana="?">
+          <!-- forme poétique à vérifier -->
+          <l>Surpris un peu trop promptement,</l>
+          <l>J'apporte à cette feste un leger ornement;</l>
+          <l>Mais avant que ma saison passe,</l>
+          <l>Je feray faire à vos Guerriers,</l>
+          <l>Dans les campagnes de la Thrace,</l>
+          <l>Une ample moisson de lauriers.</l>
+        </lg>
+        <p><pb n="18"/><name key="automne" ana="#la_thorillere">L'AUTOMNE</name>.</p>
+        <lg ana="?" rend="i">
+          <!-- forme poétique à vérifier -->
+          <l>Le Printemps orgueilleux de la beauté des fleurs</l>
+          <l>Qui lui tomberent en partage</l>
+          <l>Pretend de cette feste avoir tout l’avantage,</l>
+          <l>Et nous croit obscurcir par ses vives couleurs:</l>
+          <l>Mais vous vous souviendrez, <persName key="#marie_therese">Princesse</persName> sans seconde,</l>
+          <l>De ce fruit precieux qu’a produit ma saison,</l>
+          <l>Et qui croist dans votre maison,</l>
+          <l>Pour faire quelque jour les delices du Monde.</l>
+        </lg>
+        <p><name key="hiver" ana="louis_bejart">L'HYVER</name></p>
+        <lg ana="?" rend="i">
+          <!--forme poétique à vérifier-->
+          <l>La neige, les glaçons que j’apporte en ces lieux,</l>
+          <l>Sont des mets les moins precieux;</l>
+          <l>Mais ils sont des plus necessaires,</l>
+          <l>Dans une Feste où mille objets charmans,</l>
+          <l>De leurs oeillades meurtrières,</l>
+          <l>Font naitre tant d’embrazemens.</l>
+        </lg>
+        <p><name key="#diane" ana="#madeleine_bejart">DIANE</name>.</p>
+        <p><persName key="#marie_therese">A LA REINE</persName>.</p>
+        <lg ana="?" rend="i">
+          <!--forme poétique à vérifier-->
+          <l>Nos bois, nos rochers, nos montagnes,</l>
+          <l>Tous nos chasseurs, et mes compagnes,</l>
+          <l>Qui m’ont toujours rendu des honneurs souverains;</l>
+          <l>Depuis que parmi nous ils vous ont veue paroistre,</l>
+          <l>Ne veulent plus me reconnoistre,</l>
+          <l>Et chargez de presens, viennent avec moy</l>
+          <l>Vous porter ce tribut pour marque de leur foy.</l>
+          <l>Les habitants legers de cet heureux bocage,</l>
+          <l>De tomber dans vos rets font leur sort le plus doux,</l>
+          <l>Et n’estiment rien davantage,</l>
+          <l>Que l’heur de perir de vos coups:</l>
+          <l>Amour dont vous avez la grace et le visage,</l>
+          <l>A le mesme secret que vous.</l>
+        </lg>
+        <p><name key="#pan" ana="#moliere">PAN</name>.</p>
+        <lg ana="?" rend="i">
+          <!--forme poétique à vérifier-->
+          <l>Jeune Divinité, ne vous étonnez pas,</l>
+          <l>Lors que nous vous offrons en ce fameux repas</l>
+          <l>L'eslite de nos bergeries:</l>
+          <l>Si nos troupeaux goutent en paix</l>
+          <l>Les herbages de nos prairies,</l>
+          <l>Nous devons ce bon-heur à vos divins attraits.</l>
+        </lg>
+        <div type="collation">
+          <p><pb n="19"/>Ces récits achevés, une grande table en forme de croissant, rond d’un côté, où l’on devoit couvrir, et garni de fleurs de celui où elle étoit creuse, vint à se découvrir.</p>
+          <p>Trente-six violons<!-- doit on mettre les noms des 34 violons indiqués dans le livret de Ballard? -->, très bien vêtus, parurent derrière sur un petit théâtre, pendant que MM. de la Marche et Parfait, père, frère et fils <!-- à identifier -->, contrôleurs généraux, sous les noms de l’Abondance, de la Joie, de la propreté et de la Bonne Chère, la firent couvrir par les Plaisirs, par les Jeux , par les Ris et par les Délices.</p>
+          <p><persName key="#anne_d_autriche"><persName key="#marie_therese"><persName key="#louisxiv"><!-- je ne sais pas si l'on peut baliser ainsi plusieurs noms au sein d'une appelation -->Leurs Majestés</persName></persName></persName> s’y mirent en cet ordre, qui prévint tous les embarras qui eussent pu naître pour les rangs.</p>
+          <list type="table">
+            <head><persName key="#anne_d_autriche">La Reine mère</persName>étoit assise au milieu de la table, et avoit à sa main droite :</head>
+            <item><persName key="#louisxiv">LE ROI</persName></item>
+            <item><persName key="#elisabeth_orleans_alencon">Mlle d’Alençon</persName></item>
+            <item><persName key="#maille_breze_conde">Madame la Princesse.</persName></item>
+            <item><persName key="#marie_lorraine_elbeuf">Mlle d’Elbeuf.</persName></item>
+            <!-- identitée à vérifier -->
+            <item><persName key="#beauvilliers_bethune">Mme de Béthune.</persName></item>
+            <item><persName key="#lansac_crequi">Mme la duchesse de Créqui.</persName></item>
+            <item><persName key="#monsieur">MONSIEUR</persName></item>
+            <item><persName key="#servien_saint_aignan">Mme la duchesse de Saint-Aignan.</persName></item>
+            <item><persName key="#charron_du_plessis">Mme la maréchale Du Plessis.</persName></item>
+            <item><persName key="#choiseul_etampes">la maréchale d’Étampes.</persName></item>
+            <item>Mme de Gourdon.</item>
+            <!-- à identifier? -->
+            <item><persName key="#madame_montespan">Mme de Montespan.</persName></item>
+            <item><persName key="#chatre-humieres">Mme d’Humières.</persName></item>
+            <item>Mlle de Brancas.</item>
+            <!-- à identifier? Marie de Brancas? -->
+            <item><persName key="#marguerite_cambout_armagnac">Mme d’Armagnac.</persName></item>
+            <item><persName key="#mancini_soissons">Mme la comtesse de Soissons.</persName></item>
+            <item><persName key="#louise_savoie_bade">Mme la princesse de Bade.</persName></item>
+            <item><persName key="#louise-rouxel_grancey">Mlle de Grançay.</persName></item>
+            <label>De l’autre côté étoient assises :</label>
+            <item><persName key="#anne_d_autriche">LA REINE.</persName></item>
+            <item><persName key="#marie_bourbon_carignan">Mme de Carignan.</persName></item>
+            <item><persName key="#marie_bauffremont_fleix">Mme de Flaix.</persName></item>
+            <item>Mme la duchesse de Foix.</item>
+            <!-- à identifier? -->
+            <item>Mme de Brancas.</item>
+            <!-- à identifier? -->
+            <item><persName key="#angelique_baudean_froulay">Mme de Froulay.</persName></item>
+            <pb n="20"/>
+            <item><persName key="#baudean_parabere_navailles">Mme la duchesse de Navailles.</persName></item>
+            <item>Mlle d’Ardennes.</item>
+            <!-- à identifier? -->
+            <item>Mlle de Cologon.</item>
+            <!-- à identifier? -->
+            <item>Mme de Crussol.</item>
+            <!-- à identifier? -->
+            <item><persName key="#julie_montausier">Mme de Montauzier.</persName></item>
+            <item><persName key="#madame">MADAME</persName></item>
+            <item>Mme la princesse Bénédicte.</item>
+            <!-- à identifier? -->
+            <item><persName key="abbe_baviere_conde">Madame la Duchesse.</persName></item>
+            <item><persName key="#diane_budos_rouvroy">Mme de Rouvroy.</persName></item>
+            <!-- identitée à vérifier -->
+            <item><persName key="#anne_de_la_mothe_houdancourt">Mlle de la Mothe.</persName></item>
+            <item>Mme de Marsé.</item>
+            <!-- à identifier? -->
+            <item><persName key="#louise_la_valliere">Mlle de la Vallière.</persName></item>
+            <item><persName key="#madeleine_du_guast_d_artigny">Mlle d’Artigny.</persName></item>
+            <item>Mlle du Bellay.</item>
+            <!-- à identifier? -->
+            <item>Mlle de Dampierre.</item>
+            <!-- à identifier? -->
+            <item>Mlle de Fiennes.</item>
+            <!-- à identifier Françoise du Bois de Fiennes? -->
+          </list>
+          <p>La somptuosité de cette collation passoit tout ce qu’on en pourroit écrire, tant par l’abondance que par la délicatesse des choses qui y furent servies. Elle faisoit aussi le plus bel objet qui puisse tomber sous les sens, puisque, dans la nuit, auprès de la verdeur de ces hautes palissades, un nombre infini de chandeliers peints de vert et d’argent, portant chacun vingt-quatre bougies, et deux cents flambeaux de cire blanche, tenus par autant de personnes vêtus en masques, rendoient une clarté presque aussi grande et plus agréable que celle du jour. Tous les chevaliers, avec leurs casques couverts de plumes de différentes couleurs, et leurs habits de la course, étoient appuyés sur la barrière ; et ce grand nombre d’officiers richement vêtus qui servoient, en augmentoient encore la beauté, et rendoient ce rond une chose enchantée, duquel, après la collation, Leurs Majestés et toute la Cour sortirent par le portique opposé à la barrière, et dans un grand nombre de calesches fort ajustées, reprirent le chemin du château.</p>
+          <p>FIN DE LA PREMIÈRE JOURNÉE.</p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>

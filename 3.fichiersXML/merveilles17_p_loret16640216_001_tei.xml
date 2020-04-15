@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
+<?xml-stylesheet type="text/css" href="../tei-author.css" alternate="author"?>
 <?xml-model href="../merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
@@ -18,7 +19,7 @@
         <publisher>Université d’Artois - Lille, MESHS</publisher>
         <date when="2019"/>
         <availability status="restricted">
-          <licence/>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -27,11 +28,21 @@
     </fileDesc>
     <profileDesc>
       <creation>
-        <date>1664/02/16. </date>
+        <date when="1664-02-16">1664/02/16</date>
       </creation>
       <langUsage>
-        <language ident="fre"/>
+        <language ident="fr"/>
       </langUsage>
+      <abstract>
+        <listEvent>
+          <event when="???">
+            <placeName key="???">???</placeName>
+          </event>
+        </listEvent>
+      </abstract>
+      <textClass>
+        <classCode scheme="merveilles17">???</classCode>
+      </textClass>
     </profileDesc>
   </teiHeader>
   <text>

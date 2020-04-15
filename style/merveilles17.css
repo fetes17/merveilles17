@@ -1,0 +1,27 @@
+body {
+  background: #FFFFFF;  
+}
+
+main, h1, h2, h3, h4, h5, h6 {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Verdana, Geneva, sans-serif;
+}
+
+#aside, #toolbar, #header {
+  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+main {
+  position: relative;
+  max-width: 40rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#header {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+#header > * {
+  display: block;
+}

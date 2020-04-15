@@ -1,0 +1,1821 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8"/>
+    <style type="text/css"> /* keep file XML valid, maybe included by xsl:document() */
+/*
+
+Copyright © 2004-2017 Frédéric Glorieux
+license : APACHE 2.0 http://www.apache.org/licenses/LICENSE-2.0
+&lt;frederic.glorieux@fictif.org&gt;
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+*/
+/*
+Classes for documented XML files by xmldoc transformations
+*/
+
+section, nav, article, aside, hgroup, header, footer, figure, figcaption { display:block; }
+* {-moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+
+/** Fonts */
+
+body.xmldoc, table.facs caption { background: #FFFFFF; font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; margin: 0;}
+body.item {padding: 2em;}
+body.nav{padding: 0; margin: 1ex;}
+body.xmldoc #nav, body.xmldoc #header {font-family: Arial, sans-serif; font-size: smaller; }
+
+/** simple HTML, with body class protection if css imported (in html tagname order) */
+
+body.xmldoc a {color:#226; text-decoration:none;}
+body.xmldoc a:hover { text-decoration:underline;}
+body.xmldoc fieldset { margin:1em 0 1ex 0; padding:0 1ex 0 1ex; border:1px dotted #363; -moz-border-radius:1ex; -webkit-border-radius:1ex; white-space:normal;}
+body.xmldoc p {}
+body.xmldoc h1 {text-align:center; line-height:105%;}
+body.xmldoc h3 {border-bottom:1px solid #336699; padding-left: 1em; margin-top:2em; margin-bottom:1em;}
+body.xmldoc table {font-size:inherit;}
+
+/* Global layout */
+html{height:100%;}
+body.xmldoc{position:relative;}
+body.xmldoc #article { padding:0; margin:3ex 5em 5em 30%; min-height:500px;}
+body.xmldoc #header {position:absolute; top:0; left:0; right:0; padding:0 1ex;}
+body.xmldoc #footer {position:absolute; bottom:-1px; left:0; right:0; padding:0 1ex;} /* need container with position :relative */
+body.xmldoc #footer img {margin:-4px;}
+body.xmldoc #nav { top:0; position:fixed; padding:0 3px 2em 11px; height:100%; overflow:auto; width:27%; color:black; margin:0 0 0 0; border-right:solid 1px #b3b3b3; }
+body.xmldoc #nav header, body.nav header { padding:1ex 0;font-style:normal; font-weight:bold;}
+.index div {line-height:100%;margin:0.8ex 0;}
+
+/** generic classes */
+.pre {white-space: pre-wrap;}
+.tree ul { padding:0; margin:0; padding-left:1em; }
+body.xmldoc ul.tree ul { padding-left:1ex; margin-left:1em;}
+
+/* xml2html.xsl, documented XML source */
+
+.example { background-color: #FFFFFF; background-image: -webkit-gradient(linear, left top, right top,from(#FFFFFF),to(#F8F8F8)); background-image: -webkit-linear-gradient(left, #FFFFFF, #F8F8F8); background-image: -moz-linear-gradient(left, #FFFFFF, #F8F8F8); background-image: -ms-linear-gradient(left, #FFFFFF, #F8F8F8); background-image:      -o-linear-gradient(left, #FFFFFF, #F8F8F8); background-image: linear-gradient(left, #FFFFFF, #F8F8F8); border-left:1px dotted #808080; padding:1ex 1em; margin:0;}
+.xml { line-height:105%; text-align:left;}
+.xml  a { text-decoration:none; border-bottom:none; border:none; padding:0;}
+.xml a.val { color:#0000FF; }
+.xml a.val:hover { text-decoration:underline; border:none; }
+a.xsl  { color:#669966; font-weight:100;}
+a:hover.xsl, a:hover.rdf { background:#0000FF; color:white; }
+a.html, a.dc { color:#FF0000; font-weight:bold;}
+a:hover.html, a:hover.dc, a:hover.template { background:red; color:white; }
+a.template { font-family: Verdana, arial, sans-serif; font-weight:bold; }
+.xml .el, .xml  a.el { font-weight:bold; font-family: "Lucida Console", Courier, "MS Courier New", monospace; text-decoration:none; color:#040; border:none; }
+.xml a:hover.el, .xml a:hover.att { background:#8080FF; color:#FFFFFF; }
+.xml .att { font-family:Arial, sans-serif; font-weight:100; }
+.xml a.att { font-family:Arial, sans-serif; color:#444;}
+.xml .open, .xml .close, .xml .tag { margin:0; font-family:monospace, sans-serif; color:#383; }
+.xml .fold {color:#666666; }
+.xml .pi { color:#008000; font-weight: bold; }
+.xml .val, .xml .cdata { font-weight:normal; margin:0; padding:0; }
+.xml .comment, .xml .comment code { font-size:12px; line-height:125%; background:#FFE; color:#666; }
+.xml  pre.comment { margin:0; padding:0 1em;}
+.xml .comment { font-family:monospace; color:#000; }
+fieldset.comment pre {color:#008;}
+div.comment {white-space: normal;}
+dd.code { margin:0 !important; padding:0 !important; padding-left:1em !important; border-left: 1px dotted #808080;}
+.pre .text { background:#EEF; font-family:serif; color:#000;}
+.xml span.text, .xml .val, .xml .cdata { color:#444;}
+.xml .cdata { color:red}
+.xml .ns { color:#000080; font-weight:100;}
+dt { font-weight:bold;}
+dl.xml { margin:0; padding:0;}
+dl.xml dt { font-weight:normal; }
+details.source { margin-left:1em; float:right; max-width:60%; background:#FFFFFF;}
+details.source summary { float:right; display:inline; text-align:right;}
+details &gt; * { display:none;}
+details.minus &gt; * { display:block;}
+
+/** Relax-NG */
+
+section.attribute { margin-top:1em; }
+section.define, section.element { margin-top:2em; }
+section.rng { margin:2em 0 0 0;}
+section.rng section.rng header { padding-left:2em;}
+section.rng section.rng section.rng header { padding-left:4em;}
+section.rng section.rng section.rng section.rng header { padding-left:6em;}
+header.rng { font-size:110%; margin-bottom:1ex; padding:0; border:none;}
+header.rng a { color:#77A; font-weight:bold;}
+header.attribute { color:#666;}
+/* entry in a table */
+table.grammar { background-color:#F8F8F8; background-image: -webkit-gradient(linear, left top, right top,from(#FFFFFF),to(#F8F8F8)); background-image: -webkit-linear-gradient(left, #FFFFFF, #F8F8F8); background-image: -moz-linear-gradient(left, #FFFFFF, #F8F8F8); background-image: -ms-linear-gradient(left, #FFFFFF, #F8F8F8); background-image: -o-linear-gradient(left, #FFFFFF, #F8F8F8); background-image: linear-gradient(left, #FFFFFF, #F8F8F8); border-collapse:collapse; width:100%; line-height:105%; border-left:1px dotted #808080;margin-bottom:1em;}
+table.grammar tt, table.grammar em {color:#000;}
+table.grammar td { padding:0.5ex 1ex; line-height:1.1em; border-bottom:1px dotted #999999;vertical-align:top;}
+table.grammar th { font-family:Helvetica, Arial, "DejaVu Sans Light ", sans-serif; font-size:12px; width:10ex; vertical-align:top; padding:0.5ex 1ex; background:#DADADA; border-bottom:1px solid #FFFFFF; font-weight:normal;}
+table.attributes td {padding:0 0.2ex;line-height:100%;border:none;}
+table.attributes td.name {text-align:right;}
+.xmldoc a.required {color:#000;font-weight:bold;}
+.grammar a { font-family:Helvetica, Arial, "DejaVu Sans Light ", sans-serif; color:#315BA7; border:none;}
+.grammar a.define, .grammar a.ref { color:#000; font-style:italic; font-family:serif;}
+td.children div, td.usage div {display:inline}
+p.cf {margin-top:0;}
+/* att values */
+ul.values {  margin-top:0; margin-bottom:0; padding-top:0; margin-bottom:0;}
+.value{color:#000;}
+.value div.documentation {font-style:italic}
+/* hide/show macro compact view */
+.grammar a.toggle { color:#000; cursor:pointer;}
+a.toggle:hover { text-decoration:none !important; background:#336699; color:#FFFFFF;}
+span.more span.refin { display:none;}
+span.less span.refin {display:block;}
+span.less span.more span.refin {display:none;}
+span.refin { margin-left:0.5ex; border-left:1px dotted #888; padding-left:2ex;}
+div.compact {padding-left:1ex;}
+div.compact ul { margin-top:0; margin-bottom:0; padding-top:0; padding-bottom:0;}
+/* image example */
+table.facs { font-family:serif; margin-top:2em; margin-bottom:2em; border:1px dotted #808080; padding-left:2em; padding-right:2em;}
+table.facs td { vertical-align:top;}
+table.facs caption { background:#DADADA;}
+table.facs p { margin-top:2ex; margin-bottom:2ex;}
+
+/** xsl2html.xsl, documented transformation */
+.transform a {border:none;}
+.match p, .result p { text-indent:1em; line-height:110%; margin:0 0 0.5ex 0; }
+.xsl-var { margin-top:1ex;}
+.output { color:#961716; font-family: "Lucida Console", Courier, "MS Courier New", monospace; font-size:13px; line-height:110%; text-indent:0; text-align:left;}
+.template { margin: 1em 0 0 0; clear:both;}
+.template header { border:none; padding:0; border-bottom:#888 1px solid;}
+
+/* PHP code */
+a.function, .php b.construct, .php var {font-family:Frutiger,"Deja Vu Sans",Helvetica,sans-serif; }
+pre.php { white-space: pre-wrap; font-size:14px; color:red; }
+code.function {color:#A82C37; }
+span.function { font-family:Frutiger,"Deja Vu Sans",Helvetica,sans-serif; color:#000;}
+a.function:hover {text-decoration:underline; }
+.php b.construct { color:#000; }
+code.string { color:#060; }
+code.integer { color:#FF0000; font-weight:bold; }
+code.php-tag { color:#FF0000; }
+code.numeric { color:#FF0000; font-weight:bold; }
+code.constant { color:#000000; }
+tt.op { background:none repeat scroll 0 0 #EEEEEE; color:#000000; }
+code.defined { color:red; }
+code.whitespace { white-space:pre; }
+code.curly { background:none repeat scroll 0 0 #FFAAAA;}
+code.parenthese { background:none repeat scroll 0 0 #AAFFAA; }
+code.square { background:none repeat scroll 0 0 #AAAAFF; }
+code.error-control { background:none repeat scroll 0 0 #FF0000; font-weight:bold; }
+
+@media print {
+  #nav {display:none;}
+  #article {margin:0px !important; padding:0px; }
+  table.grammar  td, table.grammar  th { border:1px dotted #808080; }
+}
+/* keep file XML valid, maybe included by xsl:document() */
+</style>
+  </head>
+  <body class="xmldoc rng">
+    <nav id="nav">
+      <p> </p>
+      <a style="font-weight:bold; color:#000000;" href="#idm1">Documentation</a>
+      <section>
+        <div style="margin-left:1em;">
+          <a style="font-weight:bold; color:#000000;" href="#idm4">Structure</a>
+        </div>
+        <div><a href="#el_TEI">&lt;TEI&gt;</a> <a href="#el_teiHeader">&lt;teiHeader&gt;</a> <a href="#el_body">&lt;body&gt;</a> <a href="#el_div">&lt;div&gt;</a> <a href="#el_byline">&lt;byline&gt;</a> <a href="#el_dateline">&lt;dateline&gt;</a> <a href="#el_trailer">&lt;trailer&gt;</a> </div>
+        <div style="margin-left:1em;">
+          <a style="font-weight:bold; color:#000000;" href="#idm189">Blocs (niveau paragraphe)</a>
+        </div>
+        <div><a href="#el_head">&lt;head&gt;</a> <a href="#el_l">&lt;l&gt;</a> <a href="#el_lg">&lt;lg&gt;</a> <a href="#el_label">&lt;label&gt;</a> <a href="#el_list">&lt;list&gt;</a> <a href="#el_p">&lt;p&gt;</a> </div>
+        <div style="margin-left:1em;">
+          <a style="font-weight:bold; color:#000000;" href="#idm266">Segments (niveau caractère)</a>
+        </div>
+        <div><a href="#el_date_2">&lt;date&gt;</a> <a href="#el_emph">&lt;emph&gt;</a> <a href="#el_foreign">&lt;foreign&gt;</a> <a href="#el_lb">&lt;lb&gt;</a> <a href="#el_name">&lt;name&gt;</a> <a href="#el_note">&lt;note&gt;</a> <a href="#el_pb">&lt;pb&gt;</a> <a href="#el_persName">&lt;persName&gt;</a> <a href="#el_placeName">&lt;placeName&gt;</a> <a href="#el_seg">&lt;seg&gt;</a> <a href="#el_hi">&lt;hi<small class="att"> rend="sup"</small>&gt;</a> <a href="#el_title">&lt;title&gt;</a> <a href="#el_tech">&lt;tech&gt;</a> </div>
+        <div style="margin-left:1em;">
+          <a style="font-weight:bold; color:#000000;" href="#idm374">Attributs et types de données</a>
+        </div>
+        <div/>
+      </section>
+      <section class="index"><header>Éléments (53)</header><div><b>A</b>. &lt;<a href="#el_abstract">abstract</a>&gt; &lt;<a href="#el_author">author</a>&gt; &lt;<a href="#el_availability">availability<small class="att"> status="restricted"</small></a>&gt;  </div> <div><b>B</b>. &lt;<a href="#el_bibl">bibl</a>&gt; &lt;<a href="#el_body">body</a>&gt; &lt;<a href="#el_byline">byline</a>&gt;  </div> <div><b>C</b>. &lt;<a href="#el_creation">creation</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_date">date</a>&gt; &lt;<a href="#el_date_2">date</a>&gt; &lt;<a href="#el_dateline">dateline</a>&gt; &lt;<a href="#el_div">div</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_edition">edition="Merveilles17"</a>&gt; &lt;<a href="#el_editionStmt">editionStmt</a>&gt; &lt;<a href="#el_emph">emph</a>&gt; &lt;<a href="#el_event">event</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_fileDesc">fileDesc</a>&gt; &lt;<a href="#el_foreign">foreign</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_head">head</a>&gt; &lt;<a href="#el_hi">hi<small class="att"> rend="sup"</small></a>&gt;  </div> <div><b>I</b>. &lt;<a href="#el_item">item</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt; &lt;<a href="#el_langUsage">langUsage</a>&gt; &lt;<a href="#el_language">language</a>&gt; &lt;<a href="#el_lb">lb</a>&gt; &lt;<a href="#el_lg">lg</a>&gt; &lt;<a href="#el_licence">licence</a>&gt; &lt;<a href="#el_list">list</a>&gt; &lt;<a href="#el_listEvent">listEvent</a>&gt; &lt;<a href="#el_listPerson">listPerson</a>&gt; &lt;<a href="#el_listPlace">listPlace</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt; &lt;<a href="#el_note">note</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt; &lt;<a href="#el_pb">pb</a>&gt; &lt;<a href="#el_persName">persName</a>&gt; &lt;<a href="#el_person">person</a>&gt; &lt;<a href="#el_place">place</a>&gt; &lt;<a href="#el_placeName">placeName</a>&gt; &lt;<a href="#el_profileDesc">profileDesc</a>&gt; &lt;<a href="#el_publicationStmt">publicationStmt</a>&gt; &lt;<a href="#el_publisher">publisher</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_resp">resp</a>&gt; &lt;<a href="#el_respStmt">respStmt</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt; &lt;<a href="#el_sourceDesc">sourceDesc</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_TEI">TEI</a>&gt; &lt;<a href="#el_tech">tech</a>&gt; &lt;<a href="#el_teiHeader">teiHeader</a>&gt; &lt;<a href="#el_text">text</a>&gt; &lt;<a href="#el_title">title</a>&gt; &lt;<a href="#el_titleStmt">titleStmt</a>&gt; &lt;<a href="#el_trailer">trailer</a>&gt;  </div> </section>
+      <section class="index"><header>Attributs</header><div><b>K</b>. @<a href="#att_key">key</a>  </div> <div><b>R</b>. @<a href="#att_rend">rend</a>  </div> <div><b>W</b>. @<a href="#att_when">when</a>  </div> <div><b>X</b>. @<a href="#att_xml-id">xml:id</a> @<a href="#att_xml-lang">xml:lang</a>  </div> </section>
+      <section class="index"><header>Macros</header><div><b>C</b>. <a href="#def_chars">chars</a>()  </div> <div><b>D</b>. <a href="#def_div.content">div.content</a>()  </div> </section>
+      <p> </p>
+    </nav>
+    <article id="article" class="grammar">
+      <section class="div" id="idm4">
+        <h2>Structure</h2>
+        <figure class="xml example" id="ex_1">
+          <dl class="xml ">
+            <dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="#el_teiHeader">teiHeader</a>&gt;</dt>
+            <dd class="code">
+              <dl class="xml ">
+                <dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="#el_fileDesc">fileDesc</a>&gt;</dt>
+                <dd class="code">
+                  <dl class="xml ">
+                    <dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="#el_titleStmt">titleStmt</a>&gt;</dt>
+                    <dd class="code">
+                      <div class="">
+                        <span class="open">&lt;<a class="el" href="#el_title">title</a>&gt;</span>
+                        <span class="text">Les Plaisirs de l'île enchantée</span>
+                        <span class="close">&lt;/<a class="el" href="#el_title">title</a>&gt;</span>
+                      </div>
+                      <div class="">
+                        <span class="open">&lt;<a class="el" href="#el_author">author</a>&gt;</span>
+                        <span class="text">Auteur du texte</span>
+                        <span class="close">&lt;/<a class="el" href="#el_author">author</a>&gt;</span>
+                      </div>
+                    </dd>
+                    <dt class="close">&lt;/<a class="el" href="#el_titleStmt">titleStmt</a>&gt;</dt>
+                  </dl>
+                  <dl class="xml ">
+                    <dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="#el_editionStmt">editionStmt</a>&gt;</dt>
+                    <dd class="code">
+                      <div class="">
+                        <span class="open">&lt;<a class="el" href="#el_edition">edition</a>&gt;</span>
+                        <span class="text">Merveilles17</span>
+                        <span class="close">&lt;/<a class="el" href="#el_edition">edition</a>&gt;</span>
+                      </div>
+                      <dl class="xml ">
+                        <dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="#el_respStmt">respStmt</a>&gt;</dt>
+                        <dd class="code">
+                          <div class="">
+                            <span class="open">&lt;<a class="el" href="#el_name">name</a>&gt;</span>
+                            <span class="text">Marine Roussillon</span>
+                            <span class="close">&lt;/<a class="el" href="#el_name">name</a>&gt;</span>
+                          </div>
+                          <div class="">
+                            <span class="open">&lt;<a class="el" href="#el_resp">resp</a>&gt;</span>
+                            <span class="text">Transcription</span>
+                            <span class="close">&lt;/<a class="el" href="#el_resp">resp</a>&gt;</span>
+                          </div>
+                        </dd>
+                        <dt class="close">&lt;/<a class="el" href="#el_respStmt">respStmt</a>&gt;</dt>
+                      </dl>
+                      <dl class="xml ">
+                        <dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="#el_respStmt">respStmt</a>&gt;</dt>
+                        <dd class="code">
+                          <div class="">
+                            <span class="open">&lt;<a class="el" href="#el_name">name</a>&gt;</span>
+                            <span class="text">Yohann Deguin</span>
+                            <span class="close">&lt;/<a class="el" href="#el_name">name</a>&gt;</span>
+                          </div>
+                          <div class="">
+                            <span class="open">&lt;<a class="el" href="#el_resp">resp</a>&gt;</span>
+                            <span class="text">Premier balisage</span>
+                            <span class="close">&lt;/<a class="el" href="#el_resp">resp</a>&gt;</span>
+                          </div>
+                        </dd>
+                        <dt class="close">&lt;/<a class="el" href="#el_respStmt">respStmt</a>&gt;</dt>
+                      </dl>
+                    </dd>
+                    <dt class="close">&lt;/<a class="el" href="#el_editionStmt">editionStmt</a>&gt;</dt>
+                  </dl>
+                  <dl class="xml ">
+                    <dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="#el_publicationStmt">publicationStmt</a>&gt;</dt>
+                    <dd class="code">
+                      <div class="">
+                        <span class="open">&lt;<a class="el" href="#el_publisher">publisher</a>&gt;</span>
+                        <span class="text">Université d’Artois - Lille, MESHS</span>
+                        <span class="close">&lt;/<a class="el" href="#el_publisher">publisher</a>&gt;</span>
+                      </div>
+                      <div class="">
+                        <span class="open">&lt;<a class="el" href="#el_date">date</a> <b class="att">when</b>="<code class="val">2019</code>"&gt;</span>
+                        <span class="text">2019</span>
+                        <span class="close">&lt;/<a class="el" href="#el_date">date</a>&gt;</span>
+                      </div>
+                      <dl class="xml ">
+                        <dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="#el_availability">availability</a> <b class="att">status</b>="<code class="val">restricted</code>"&gt;</dt>
+                        <dd class="code">
+                          <div class="">
+                            <span class="open">&lt;<a class="el" href="#el_licence">licence</a>&gt;</span>
+                            <div class="comment">&lt;!--<code> [FG] Quelle licence ? </code>--&gt;</div>
+                            <span class="close">&lt;/<a class="el" href="#el_licence">licence</a>&gt;</span>
+                          </div>
+                        </dd>
+                        <dt class="close">&lt;/<a class="el" href="#el_availability">availability</a>&gt;</dt>
+                      </dl>
+                    </dd>
+                    <dt class="close">&lt;/<a class="el" href="#el_publicationStmt">publicationStmt</a>&gt;</dt>
+                  </dl>
+                  <dl class="xml ">
+                    <dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="#el_sourceDesc">sourceDesc</a>&gt;</dt>
+                    <dd class="code">
+                      <dl class="xml ">
+                        <dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="#el_bibl">bibl</a>&gt;</dt>
+                        <dd class="code">
+                          <div class="comment">&lt;!--<code> [FG] Est-ce que l’absence ne suffit pas à préciser l’absence d’auteur ? </code>--&gt;</div>
+                          <div class="">
+                            <span class="open">&lt;<a class="el" href="#el_author">author</a>&gt;</span>
+                            <span class="text">Sans auteur</span>
+                            <span class="close">&lt;/<a class="el" href="#el_author">author</a>&gt;</span>
+                          </div>
+                          <div class="">
+                            <span class="open">&lt;<a class="el" href="#el_title">title</a>&gt;</span>
+                            <span class="text">Les Plaisirs de l'île enchantée : Course de bague, collation ornée de machines, comédie mêlée de danse et de musique, ballet du palais d'Alcine, feu d'artifice, et autres fêtes galantes et magnifiques, faites par le roi à Versailles, le 7 mai 1664.</span>
+                            <span class="close">&lt;/<a class="el" href="#el_title">title</a>&gt;</span>
+                          </div>
+                          <div class="comment">&lt;!--<code> Est-ce nécessaire de baliser autant l’enregistrement bibliographique ? Est-ce que ces balises feront l’objet de requête ? Comment assurer une bonne ponctuation ? Pourquoi pas une ligne bibliographique avec typographie simple ? </code>--&gt;</div>
+                          <div class="">
+                            <span class="open">&lt;<a class="el" href="#el_pubPlace">pubPlace</a>&gt;</span>
+                            <span class="text">Paris</span>
+                            <span class="close">&lt;/<a class="el" href="#el_pubPlace">pubPlace</a>&gt;</span>
+                          </div>
+                          <div class="">
+                            <span class="open">&lt;<a class="el" href="#el_publisher">publisher</a>&gt;</span>
+                            <span class="text">Ballard</span>
+                            <span class="close">&lt;/<a class="el" href="#el_publisher">publisher</a>&gt;</span>
+                          </div>
+                          <div class="">
+                            <span class="open">&lt;<a class="el" href="#el_date">date</a> <b class="att">when</b>="<code class="val">1664</code>"&gt;</span>
+                            <span class="text">1664</span>
+                            <span class="close">&lt;/<a class="el" href="#el_date">date</a>&gt;</span>
+                          </div>
+                          <div class="">
+                            <span class="open">&lt;<a class="el" href="#el_dim">dim</a>&gt;</span>
+                            <span class="text">in-fol</span>
+                            <span class="close">&lt;/<a class="el" href="#el_dim">dim</a>&gt;</span>
+                          </div>
+                          <div class="">
+                            <span class="open">&lt;<a class="el" href="#el_extent">extent</a>&gt;</span>
+                            <span class="text">60 pages</span>
+                            <span class="close">&lt;/<a class="el" href="#el_extent">extent</a>&gt;</span>
+                          </div>
+                          <div class="">
+                            <span class="open">&lt;<a class="el" href="#el_term">term</a> <b class="att">type</b>="<code class="val">imprime</code>"&gt;</span>
+                            <span class="text">Livre imprimé</span>
+                            <span class="close">&lt;/<a class="el" href="#el_term">term</a>&gt;</span>
+                          </div>
+                        </dd>
+                        <dt class="close">&lt;/<a class="el" href="#el_bibl">bibl</a>&gt;</dt>
+                      </dl>
+                    </dd>
+                    <dt class="close">&lt;/<a class="el" href="#el_sourceDesc">sourceDesc</a>&gt;</dt>
+                  </dl>
+                  <dl class="xml ">
+                    <dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="#el_profileDesc">profileDesc</a>&gt;</dt>
+                    <dd class="code">
+                      <dl class="xml ">
+                        <dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="#el_creation">creation</a>&gt;</dt>
+                        <dd class="code">
+                          <div class="">
+                            <span class="open">&lt;<a class="el" href="#el_date">date</a> <b class="att">when</b>="<code class="val">1673</code>"&gt;</span>
+                            <span class="text">1673</span>
+                            <span class="close">&lt;/<a class="el" href="#el_date">date</a>&gt;</span>
+                          </div>
+                        </dd>
+                        <dt class="close">&lt;/<a class="el" href="#el_creation">creation</a>&gt;</dt>
+                      </dl>
+                      <dl class="xml ">
+                        <dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="#el_abstract">abstract</a>&gt;</dt>
+                        <dd class="code">
+                          <dl class="xml ">
+                            <dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="#el_listEvent">listEvent</a>&gt;</dt>
+                            <dd class="code">
+                              <div class="">
+                                <span class="open">&lt;<a class="el" href="#event-id">event</a> <b class="xml att">xml:id</b>="<code class="val">event-id</code>" <b class="att">when</b>="<code class="val">AAAA-MM-JJ</code>"&gt;</span>
+                                <div class="comment">&lt;!--<code> Comment indiquer le lieu ? </code>--&gt;</div>
+                                <span class="close">&lt;/<a class="el" href="#event-id">event</a>&gt;</span>
+                              </div>
+                            </dd>
+                            <dt class="close">&lt;/<a class="el" href="#el_listEvent">listEvent</a>&gt;</dt>
+                          </dl>
+                          <dl class="xml ">
+                            <dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="#el_listPlace">listPlace</a>&gt;</dt>
+                            <dd class="code">
+                              <dl class="xml ">
+                                <dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="#place-id">place</a> <b class="xml att">xml:id</b>="<code class="val">place-id</code>"&gt;</dt>
+                                <dd class="code">
+                                  <div class="">
+                                    <span class="open">&lt;<a class="el" href="#el_placeName">placeName</a>&gt;</span>
+                                    <span class="text">Nom de lieu</span>
+                                    <span class="close">&lt;/<a class="el" href="#el_placeName">placeName</a>&gt;</span>
+                                  </div>
+                                </dd>
+                                <dt class="close">&lt;/<a class="el" href="#place-id">place</a>&gt;</dt>
+                              </dl>
+                            </dd>
+                            <dt class="close">&lt;/<a class="el" href="#el_listPlace">listPlace</a>&gt;</dt>
+                          </dl>
+                          <dl class="xml ">
+                            <dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="#el_listPerson">listPerson</a>&gt;</dt>
+                            <dd class="code">
+                              <dl class="xml ">
+                                <dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="#person-id">person</a> <b class="xml att">xml:id</b>="<code class="val">person-id</code>"&gt;</dt>
+                                <dd class="code">
+                                  <div class="">
+                                    <span class="open">&lt;<a class="el" href="#el_persName">persName</a>&gt;</span>
+                                    <span class="text">Nom de personne</span>
+                                    <span class="close">&lt;/<a class="el" href="#el_persName">persName</a>&gt;</span>
+                                  </div>
+                                </dd>
+                                <dt class="close">&lt;/<a class="el" href="#person-id">person</a>&gt;</dt>
+                              </dl>
+                            </dd>
+                            <dt class="close">&lt;/<a class="el" href="#el_listPerson">listPerson</a>&gt;</dt>
+                          </dl>
+                        </dd>
+                        <dt class="close">&lt;/<a class="el" href="#el_abstract">abstract</a>&gt;</dt>
+                      </dl>
+                    </dd>
+                    <dt class="close">&lt;/<a class="el" href="#el_profileDesc">profileDesc</a>&gt;</dt>
+                  </dl>
+                </dd>
+                <dt class="close">&lt;/<a class="el" href="#el_fileDesc">fileDesc</a>&gt;</dt>
+              </dl>
+            </dd>
+            <dt class="close">&lt;/<a class="el" href="#el_teiHeader">teiHeader</a>&gt;</dt>
+          </dl>
+        </figure>
+        <section class="element rng" id="el_TEI">
+          <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-TEI.html" target="TEI">TEI</a>&gt; </header>
+          <table class="grammar">
+            <tr>
+              <th>Attributs</th>
+              <td>
+                <table class="attributes">
+                  <tr>
+                    <td class="name">@<a class="required" href="#att_xml-lang">xml:lang</a></td>
+                    <td/>
+                    <td><span class="compact choice">( <span class="value">fr</span> | <span class="value">it</span> | <span class="value">la</span> )</span><br/>Code normalisé de langue</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <th>Enfants</th>
+              <td class="children"><div><b>T</b>. &lt;<a href="#el_teiHeader">teiHeader</a>&gt; &lt;<a href="#el_text">text</a>&gt;  </div> </td>
+            </tr>
+            <tr>
+              <th>Modèle</th>
+              <td class="model">
+                <span class="compact element"> <a href="#el_teiHeader">teiHeader</a> <a href="#el_text">text</a></span>
+              </td>
+            </tr>
+            <tr>
+              <th>Parents</th>
+              <td class="usage">start. </td>
+            </tr>
+          </table>
+          <section class="element rng" id="el_text">
+            <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-text.html" target="TEI">text</a>&gt; </header>
+            <table class="grammar">
+              <tr>
+                <th>Enfants</th>
+                <td class="children"><div><b>B</b>. &lt;<a href="#el_body">body</a>&gt;  </div> </td>
+              </tr>
+              <tr>
+                <th>Modèle</th>
+                <td class="model">
+                  <a href="#el_body">body</a>
+                </td>
+              </tr>
+              <tr>
+                <th>Parents</th>
+                <td class="usage"><div><b>T</b>. &lt;<a href="#el_TEI">TEI</a>&gt;  </div> </td>
+              </tr>
+            </table>
+          </section>
+        </section>
+        <section class="element rng" id="el_teiHeader">
+          <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-teiHeader.html" target="TEI">teiHeader</a>&gt; </header>
+          <table class="grammar">
+            <tr>
+              <th>Enfants</th>
+              <td class="children"><div><b>F</b>. &lt;<a href="#el_fileDesc">fileDesc</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_profileDesc">profileDesc</a>&gt;  </div> </td>
+            </tr>
+            <tr>
+              <th>Modèle</th>
+              <td class="model">
+                <span class="compact element"><a href="#el_fileDesc">fileDesc</a> <a href="#el_profileDesc">profileDesc</a></span>
+              </td>
+            </tr>
+            <tr>
+              <th>Parents</th>
+              <td class="usage"><div><b>T</b>. &lt;<a href="#el_TEI">TEI</a>&gt;  </div> </td>
+            </tr>
+          </table>
+          <section class="element rng" id="el_fileDesc">
+            <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-fileDesc.html" target="TEI">fileDesc</a>&gt; </header>
+            <table class="grammar">
+              <tr>
+                <th>Enfants</th>
+                <td class="children"><div><b>E</b>. &lt;<a href="#el_editionStmt">editionStmt</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_publicationStmt">publicationStmt</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_sourceDesc">sourceDesc</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_titleStmt">titleStmt</a>&gt;  </div> </td>
+              </tr>
+              <tr>
+                <th>Modèle</th>
+                <td class="model">
+                  <span class="compact element"><a href="#el_titleStmt">titleStmt</a> <a href="#el_editionStmt">editionStmt</a> <a href="#el_publicationStmt">publicationStmt</a> <a href="#el_sourceDesc">sourceDesc</a></span>
+                </td>
+              </tr>
+              <tr>
+                <th>Parents</th>
+                <td class="usage"><div><b>T</b>. &lt;<a href="#el_teiHeader">teiHeader</a>&gt;  </div> </td>
+              </tr>
+            </table>
+            <section class="element rng" id="el_titleStmt">
+              <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-titleStmt.html" target="TEI">titleStmt</a>&gt; Titre (! obligatoire) et auteurs (* optionnel et répétable) du document</header>
+              <table class="grammar">
+                <tr>
+                  <th>Enfants</th>
+                  <td class="children"><div><b>A</b>. &lt;<a href="#el_author">author</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_title">title</a>&gt;  </div> </td>
+                </tr>
+                <tr>
+                  <th>Modèle</th>
+                  <td class="model">
+                    <span class="compact element"><a href="#el_title">title</a> <a href="#el_author">author</a> * </span>
+                  </td>
+                </tr>
+                <tr>
+                  <th>Parents</th>
+                  <td class="usage"><div><b>F</b>. &lt;<a href="#el_fileDesc">fileDesc</a>&gt;  </div> </td>
+                </tr>
+              </table>
+              <section class="element rng" id="el_author">
+                <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-author.html" target="TEI">author</a>&gt; Auteur du document, avec forme normalisée dans l’attribut @<a class="att" href="#att_key">key</a>.</header>
+                <table class="grammar">
+                  <tr>
+                    <th>Modèle</th>
+                    <td class="model">
+                      <i>{text}</i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>Parents</th>
+                    <td class="usage"><div><b>T</b>. &lt;<a href="#el_titleStmt">titleStmt</a>&gt;  </div> </td>
+                  </tr>
+                </table>
+                <figure class="xml example" id="ex_2">
+                  <div class="">
+                    <span class="open">&lt;<a class="el" href="#el_author">author</a> <b class="att">key</b>="<code class="val">Poquelin, Jean-Baptiste (1622-1673) dit Molière</code>"&gt;</span>
+                    <span class="text">Molière</span>
+                    <span class="close">&lt;/<a class="el" href="#el_author">author</a>&gt;</span>
+                  </div>
+                </figure>
+              </section>
+            </section>
+            <section class="element rng" id="el_editionStmt">
+              <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-editionStmt.html" target="TEI">editionStmt</a>&gt; </header>
+              <table class="grammar">
+                <tr>
+                  <th>Enfants</th>
+                  <td class="children"><div><b>E</b>. &lt;<a href="#el_edition">edition="Merveilles17"</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_respStmt">respStmt</a>&gt;  </div> </td>
+                </tr>
+                <tr>
+                  <th>Modèle</th>
+                  <td class="model">
+                    <span class="compact element"><a href="#el_edition">edition="Merveilles17"</a> <a href="#el_respStmt">respStmt</a> * </span>
+                  </td>
+                </tr>
+                <tr>
+                  <th>Parents</th>
+                  <td class="usage"><div><b>F</b>. &lt;<a href="#el_fileDesc">fileDesc</a>&gt;  </div> </td>
+                </tr>
+              </table>
+              <section class="element rng" id="el_edition">
+                <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-edition.html" target="TEI">edition="Merveilles17"</a>&gt; Nom de l’édition électronique</header>
+                <table class="grammar">
+                  <tr>
+                    <th>Modèle</th>
+                    <td class="model">
+                      <span class="value">Merveilles17</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>Parents</th>
+                    <td class="usage"><div><b>E</b>. &lt;<a href="#el_editionStmt">editionStmt</a>&gt;  </div> </td>
+                  </tr>
+                </table>
+              </section>
+              <section class="element rng" id="el_respStmt">
+                <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-respStmt.html" target="TEI">respStmt</a>&gt; Personne ayant une responsabilité dans l'élaboration du texte électronique (pas le contenu intellectuel, cf. &lt;<a class="el" href="#el_titleStmt">titleStmt</a>&gt;)</header>
+                <table class="grammar">
+                  <tr>
+                    <th>Enfants</th>
+                    <td class="children"><div><b>N</b>. &lt;<a href="#el_name">name</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_resp">resp</a>&gt;  </div> </td>
+                  </tr>
+                  <tr>
+                    <th>Modèle</th>
+                    <td class="model">
+                      <span class="compact element"><a href="#el_name">name</a> <a href="#el_resp">resp</a></span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>Parents</th>
+                    <td class="usage"><div><b>E</b>. &lt;<a href="#el_editionStmt">editionStmt</a>&gt;  </div> </td>
+                  </tr>
+                </table>
+                <section class="element rng" id="el_resp">
+                  <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-resp.html" target="TEI">resp</a>&gt; Date et rôle dans l’établissement du texte électronique</header>
+                  <table class="grammar">
+                    <tr>
+                      <th>Modèle</th>
+                      <td class="model">
+                        <i>{text}</i>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>Parents</th>
+                      <td class="usage"><div><b>R</b>. &lt;<a href="#el_respStmt">respStmt</a>&gt;  </div> </td>
+                    </tr>
+                  </table>
+                </section>
+              </section>
+            </section>
+            <section class="element rng" id="el_publicationStmt">
+              <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-publicationStmt.html" target="TEI">publicationStmt</a>&gt; Informations relatives à la publication et à la diffusion du fichier XML/TEI</header>
+              <table class="grammar">
+                <tr>
+                  <th>Enfants</th>
+                  <td class="children"><div><b>A</b>. &lt;<a href="#el_availability">availability<small class="att"> status="restricted"</small></a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_date_2">date</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_publisher">publisher</a>&gt;  </div> </td>
+                </tr>
+                <tr>
+                  <th>Modèle</th>
+                  <td class="model">
+                    <span class="compact element"><a href="#el_publisher">publisher</a> <a href="#el_date_2">date</a> <a href="#el_availability">availability<small class="att"> status="restricted"</small></a></span>
+                  </td>
+                </tr>
+                <tr>
+                  <th>Parents</th>
+                  <td class="usage"><div><b>F</b>. &lt;<a href="#el_fileDesc">fileDesc</a>&gt;  </div> </td>
+                </tr>
+              </table>
+              <section class="element rng" id="el_publisher">
+                <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-publisher.html" target="TEI">publisher</a>&gt; Éditeur responsable de la publication électronique</header>
+                <table class="grammar">
+                  <tr>
+                    <th>Modèle</th>
+                    <td class="model">
+                      <i>{text}</i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>Parents</th>
+                    <td class="usage"><div><b>P</b>. &lt;<a href="#el_publicationStmt">publicationStmt</a>&gt;  </div> </td>
+                  </tr>
+                </table>
+              </section>
+              <section class="element rng" id="el_availability">
+                <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-availability.html" target="TEI">availability<small class="att"> status="restricted"</small></a>&gt; </header>
+                <table class="grammar">
+                  <tr>
+                    <th>Attributs</th>
+                    <td>
+                      <table class="attributes">
+                        <tr>
+                          <td class="name">@<a class="required" href="#att_status">status="restricted"</a></td>
+                          <td/>
+                          <td>
+                            <span class="value">restricted</span>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>Enfants</th>
+                    <td class="children"><div><b>L</b>. &lt;<a href="#el_licence">licence</a>&gt;  </div> </td>
+                  </tr>
+                  <tr>
+                    <th>Modèle</th>
+                    <td class="model">
+                      <span class="compact element">
+                        <a href="#el_licence">licence</a>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>Parents</th>
+                    <td class="usage"><div><b>P</b>. &lt;<a href="#el_publicationStmt">publicationStmt</a>&gt;  </div> </td>
+                  </tr>
+                </table>
+              </section>
+            </section>
+            <section class="element rng" id="el_sourceDesc">
+              <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-sourceDesc.html" target="TEI">sourceDesc</a>&gt; </header>
+              <table class="grammar">
+                <tr>
+                  <th>Enfants</th>
+                  <td class="children"><div><b>B</b>. &lt;<a href="#el_bibl">bibl</a>&gt;  </div> </td>
+                </tr>
+                <tr>
+                  <th>Modèle</th>
+                  <td class="model">
+                    <a href="#el_bibl">bibl</a>
+                  </td>
+                </tr>
+                <tr>
+                  <th>Parents</th>
+                  <td class="usage"><div><b>F</b>. &lt;<a href="#el_fileDesc">fileDesc</a>&gt;  </div> </td>
+                </tr>
+              </table>
+              <section class="element rng" id="el_bibl">
+                <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-bibl.html" target="TEI">bibl</a>&gt; </header>
+                <table class="grammar">
+                  <tr>
+                    <th>Enfants</th>
+                    <td class="children"><div><b>T</b>. &lt;<a href="#el_title">title</a>&gt;  </div> </td>
+                  </tr>
+                  <tr>
+                    <th>Modèle</th>
+                    <td class="model">
+                      <span class="compact choice">( <i>{text}</i> | <a href="#el_title">title</a> ) + </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>Parents</th>
+                    <td class="usage"><div><b>S</b>. &lt;<a href="#el_sourceDesc">sourceDesc</a>&gt;  </div> </td>
+                  </tr>
+                </table>
+              </section>
+            </section>
+          </section>
+          <section class="element rng" id="el_profileDesc">
+            <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-profileDesc.html" target="TEI">profileDesc</a>&gt; Description non-bibliographique du texte (langue, circonstances de production)</header>
+            <table class="grammar">
+              <tr>
+                <th>Enfants</th>
+                <td class="children"><div><b>A</b>. &lt;<a href="#el_abstract">abstract</a>&gt;  </div> <div><b>C</b>. &lt;<a href="#el_creation">creation</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_langUsage">langUsage</a>&gt;  </div> </td>
+              </tr>
+              <tr>
+                <th>Modèle</th>
+                <td class="model">
+                  <span class="compact interleave">( <a href="#el_creation">creation</a> - <a href="#el_langUsage">langUsage</a> - <a href="#el_abstract">abstract</a> )</span>
+                </td>
+              </tr>
+              <tr>
+                <th>Parents</th>
+                <td class="usage"><div><b>T</b>. &lt;<a href="#el_teiHeader">teiHeader</a>&gt;  </div> </td>
+              </tr>
+            </table>
+            <section class="element rng" id="el_creation">
+              <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-creation.html" target="TEI">creation</a>&gt; Date de création du document (pour base de données)</header>
+              <table class="grammar">
+                <tr>
+                  <th>Enfants</th>
+                  <td class="children"><div><b>D</b>. &lt;<a href="#el_date">date</a>&gt;  </div> </td>
+                </tr>
+                <tr>
+                  <th>Modèle</th>
+                  <td class="model">
+                    <a href="#el_date">date</a>
+                  </td>
+                </tr>
+                <tr>
+                  <th>Parents</th>
+                  <td class="usage"><div><b>P</b>. &lt;<a href="#el_profileDesc">profileDesc</a>&gt;  </div> </td>
+                </tr>
+              </table>
+            </section>
+            <section class="element rng" id="el_langUsage">
+              <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-langUsage.html" target="TEI">langUsage</a>&gt; Code de langue</header>
+              <table class="grammar">
+                <tr>
+                  <th>Enfants</th>
+                  <td class="children"><div><b>L</b>. &lt;<a href="#el_language">language</a>&gt;  </div> </td>
+                </tr>
+                <tr>
+                  <th>Modèle</th>
+                  <td class="model">
+                    <a href="#el_language">language</a>
+                  </td>
+                </tr>
+                <tr>
+                  <th>Parents</th>
+                  <td class="usage"><div><b>P</b>. &lt;<a href="#el_profileDesc">profileDesc</a>&gt;  </div> </td>
+                </tr>
+              </table>
+              <section class="element rng" id="el_language">
+                <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-language.html" target="TEI">language</a>&gt; </header>
+                <table class="grammar">
+                  <tr>
+                    <th>Attributs</th>
+                    <td>
+                      <table class="attributes">
+                        <tr>
+                          <td class="name">@<a class="required" href="#att_ident">ident</a></td>
+                          <td/>
+                          <td>
+                            <span class="value">fr</span>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>Modèle</th>
+                    <td class="model"/>
+                  </tr>
+                  <tr>
+                    <th>Parents</th>
+                    <td class="usage"><div><b>L</b>. &lt;<a href="#el_langUsage">langUsage</a>&gt;  </div> </td>
+                  </tr>
+                </table>
+              </section>
+            </section>
+            <section class="element rng" id="el_abstract">
+              <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-abstract.html" target="TEI">abstract</a>&gt; Métadonnées sur le document (résumé, événement, lieu, personnes…)</header>
+              <table class="grammar">
+                <tr>
+                  <th>Enfants</th>
+                  <td class="children"><div><b>L</b>. &lt;<a href="#el_listEvent">listEvent</a>&gt; &lt;<a href="#el_listPerson">listPerson</a>&gt; &lt;<a href="#el_listPlace">listPlace</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt;  </div> </td>
+                </tr>
+                <tr>
+                  <th>Modèle</th>
+                  <td class="model">
+                    <span class="compact element"><a href="#el_p">p</a> +  <a href="#el_listEvent">listEvent</a> <a href="#el_listPlace">listPlace</a> ?  <a href="#el_listPerson">listPerson</a> ? </span>
+                  </td>
+                </tr>
+                <tr>
+                  <th>Parents</th>
+                  <td class="usage"><div><b>P</b>. &lt;<a href="#el_profileDesc">profileDesc</a>&gt;  </div> </td>
+                </tr>
+              </table>
+              <section class="element rng" id="el_listEvent">
+                <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-listEvent.html" target="TEI">listEvent</a>&gt; Liste d’événements</header>
+                <table class="grammar">
+                  <tr>
+                    <th>Enfants</th>
+                    <td class="children"><div><b>E</b>. &lt;<a href="#el_event">event</a>&gt;  </div> </td>
+                  </tr>
+                  <tr>
+                    <th>Modèle</th>
+                    <td class="model"><a href="#el_event">event</a> + </td>
+                  </tr>
+                  <tr>
+                    <th>Parents</th>
+                    <td class="usage"><div><b>A</b>. &lt;<a href="#el_abstract">abstract</a>&gt;  </div> </td>
+                  </tr>
+                </table>
+                <section class="element rng" id="el_event">
+                  <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-event.html" target="TEI">event</a>&gt; Un événement, identifié, daté, localisé (?)</header>
+                  <table class="grammar">
+                    <tr>
+                      <th>Attributs</th>
+                      <td>
+                        <table class="attributes">
+                          <tr>
+                            <td class="name">@<a class="required" href="#att_when">when</a></td>
+                            <td/>
+                            <td>
+                              <em class="data" title="([0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?)?">{string}</em>
+                              <br/>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="name">@<a class="required" href="#att_xml-id">xml:id</a></td>
+                            <td/>
+                            <td><em class="data" title="">{ID}</em><br/>Identifiant, au moins unique pour le document</td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>Enfants</th>
+                      <td class="children"><div><b>L</b>. &lt;<a href="#el_label">label</a>&gt;  </div> </td>
+                    </tr>
+                    <tr>
+                      <th>Modèle</th>
+                      <td class="model">
+                        <span class="compact element"> <a href="#el_label">label</a></span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>Parents</th>
+                      <td class="usage"><div><b>L</b>. &lt;<a href="#el_listEvent">listEvent</a>&gt;  </div> </td>
+                    </tr>
+                  </table>
+                </section>
+              </section>
+              <section class="element rng" id="el_listPlace">
+                <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-listPlace.html" target="TEI">listPlace</a>&gt; Liste de lieux</header>
+                <table class="grammar">
+                  <tr>
+                    <th>Enfants</th>
+                    <td class="children"><div><b>P</b>. &lt;<a href="#el_place">place</a>&gt;  </div> </td>
+                  </tr>
+                  <tr>
+                    <th>Modèle</th>
+                    <td class="model"><a href="#el_place">place</a> + </td>
+                  </tr>
+                  <tr>
+                    <th>Parents</th>
+                    <td class="usage"><div><b>A</b>. &lt;<a href="#el_abstract">abstract</a>&gt;  </div> </td>
+                  </tr>
+                </table>
+                <section class="element rng" id="el_place">
+                  <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-place.html" target="TEI">place</a>&gt; Un lieu identifié</header>
+                  <table class="grammar">
+                    <tr>
+                      <th>Attributs</th>
+                      <td>
+                        <table class="attributes">
+                          <tr>
+                            <td class="name">@<a class="required" href="#att_xml-id">xml:id</a></td>
+                            <td/>
+                            <td><em class="data" title="">{ID}</em><br/>Identifiant, au moins unique pour le document</td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>Enfants</th>
+                      <td class="children"><div><b>L</b>. &lt;<a href="#el_label">label</a>&gt;  </div> </td>
+                    </tr>
+                    <tr>
+                      <th>Modèle</th>
+                      <td class="model">
+                        <span class="compact element"> <a href="#el_label">label</a></span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>Parents</th>
+                      <td class="usage"><div><b>L</b>. &lt;<a href="#el_listPlace">listPlace</a>&gt;  </div> </td>
+                    </tr>
+                  </table>
+                </section>
+              </section>
+              <section class="element rng" id="el_listPerson">
+                <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-listPerson.html" target="TEI">listPerson</a>&gt; Liste de personnes</header>
+                <table class="grammar">
+                  <tr>
+                    <th>Enfants</th>
+                    <td class="children"><div><b>P</b>. &lt;<a href="#el_person">person</a>&gt;  </div> </td>
+                  </tr>
+                  <tr>
+                    <th>Modèle</th>
+                    <td class="model"><a href="#el_person">person</a> + </td>
+                  </tr>
+                  <tr>
+                    <th>Parents</th>
+                    <td class="usage"><div><b>A</b>. &lt;<a href="#el_abstract">abstract</a>&gt;  </div> </td>
+                  </tr>
+                </table>
+                <section class="element rng" id="el_person">
+                  <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-person.html" target="TEI">person</a>&gt; Une personne identifiée</header>
+                  <table class="grammar">
+                    <tr>
+                      <th>Attributs</th>
+                      <td>
+                        <table class="attributes">
+                          <tr>
+                            <td class="name">@<a class="required" href="#att_xml-id">xml:id</a></td>
+                            <td/>
+                            <td><em class="data" title="">{ID}</em><br/>Identifiant, au moins unique pour le document</td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>Enfants</th>
+                      <td class="children"><div><b>L</b>. &lt;<a href="#el_label">label</a>&gt;  </div> </td>
+                    </tr>
+                    <tr>
+                      <th>Modèle</th>
+                      <td class="model">
+                        <span class="compact element"> <a href="#el_label">label</a></span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>Parents</th>
+                      <td class="usage"><div><b>L</b>. &lt;<a href="#el_listPerson">listPerson</a>&gt;  </div> </td>
+                    </tr>
+                  </table>
+                </section>
+              </section>
+            </section>
+          </section>
+        </section>
+        <section class="element rng" id="el_body">
+          <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-body.html" target="TEI">body</a>&gt; Texte principal</header>
+          <table class="grammar">
+            <tr>
+              <th>Enfants</th>
+              <td class="children"><div><b>B</b>. &lt;<a href="#el_byline">byline</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_dateline">dateline</a>&gt; &lt;<a href="#el_div">div</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_head">head</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt; &lt;<a href="#el_lg">lg</a>&gt; &lt;<a href="#el_list">list</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt; &lt;<a href="#el_pb">pb</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_trailer">trailer</a>&gt;  </div> </td>
+            </tr>
+            <tr>
+              <th>Modèle</th>
+              <td class="model">
+                <span class="compact choice">( <span class="more"><a class="ref" href="#def_div.content">div.content</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact define">( <a href="#el_pb">pb</a> ? , <a href="#el_head">head</a><span class="compact choice">, ( <a href="#el_byline">byline</a> | <a href="#el_dateline">dateline</a> ) * </span>, (<span class="compact choice">( <a href="#el_l">l</a> | <a href="#el_lg">lg</a> | <a href="#el_label">label</a> | <a href="#el_list">list</a> | <a href="#el_p">p</a> | <a href="#el_pb">pb</a> )</span>) * <span class="compact choice">, ( <a href="#el_byline">byline</a> | <a href="#el_dateline">dateline</a> | <a href="#el_trailer">trailer</a> ) * </span> )</span></span>)</span> | <a href="#el_div">div</a> +  )</span>
+              </td>
+            </tr>
+            <tr>
+              <th>Parents</th>
+              <td class="usage"><div><b>T</b>. &lt;<a href="#el_text">text</a>&gt;  </div> </td>
+            </tr>
+          </table>
+          <div class="group"/>
+          <div class="group"/>
+        </section>
+        <section class="element rng" id="el_div">
+          <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-div.html" target="TEI">div</a>&gt; Sections du texte, &lt;html5:section&gt;, &lt;html5:article&gt; 
+          [?] Faut-il rendre le titre obligatoire en têtre de section ? Est-ce qu’il y a une liste close de type de section (ex : collation, course) ? ce type est-il obligatoire ?
+        </header>
+          <table class="grammar">
+            <tr>
+              <th>Attributs</th>
+              <td>
+                <table class="attributes">
+                  <tr>
+                    <td class="name">@<a href="#att_type">type</a></td>
+                    <td>?</td>
+                    <td>
+                      <span class="value">chapitre</span>
+                      <br/>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <th>Enfants</th>
+              <td class="children"><div><b>B</b>. &lt;<a href="#el_byline">byline</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_dateline">dateline</a>&gt; &lt;<a href="#el_div">div</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_head">head</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt; &lt;<a href="#el_lg">lg</a>&gt; &lt;<a href="#el_list">list</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt; &lt;<a href="#el_pb">pb</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_trailer">trailer</a>&gt;  </div> </td>
+            </tr>
+            <tr>
+              <th>Modèle</th>
+              <td class="model">
+                <span class="compact element"><span class="more"> <a class="ref" href="#def_div.content">div.content</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact define">( <a href="#el_pb">pb</a> ? , <a href="#el_head">head</a><span class="compact choice">, ( <a href="#el_byline">byline</a> | <a href="#el_dateline">dateline</a> ) * </span>, (<span class="compact choice">( <a href="#el_l">l</a> | <a href="#el_lg">lg</a> | <a href="#el_label">label</a> | <a href="#el_list">list</a> | <a href="#el_p">p</a> | <a href="#el_pb">pb</a> )</span>) * <span class="compact choice">, ( <a href="#el_byline">byline</a> | <a href="#el_dateline">dateline</a> | <a href="#el_trailer">trailer</a> ) * </span> )</span></span>)</span> <a href="#el_div">div</a> * </span>
+              </td>
+            </tr>
+            <tr>
+              <th>Parents</th>
+              <td class="usage"><div><b>B</b>. &lt;<a href="#el_body">body</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_div">div</a>&gt;  </div> </td>
+            </tr>
+          </table>
+        </section>
+        <section class="define rng" id="def_div.content">
+          <header class="define rng">
+            <b>div.content() </b>
+          </header>
+          <table class="grammar">
+            <tr>
+              <th>Contenu</th>
+              <td>
+                <span class="compact define">( <a href="#el_pb">pb</a> ? , <a href="#el_head">head</a><span class="compact choice">, ( <a href="#el_byline">byline</a> | <a href="#el_dateline">dateline</a> ) * </span>, (<span class="compact choice">( <a href="#el_l">l</a> | <a href="#el_lg">lg</a> | <a href="#el_label">label</a> | <a href="#el_list">list</a> | <a href="#el_p">p</a> | <a href="#el_pb">pb</a> )</span>) * <span class="compact choice">, ( <a href="#el_byline">byline</a> | <a href="#el_dateline">dateline</a> | <a href="#el_trailer">trailer</a> ) * </span> )</span>
+              </td>
+            </tr>
+            <tr>
+              <th>Usage</th>
+              <td><div><b>B</b>. &lt;<a href="#el_body">body</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_div">div</a>&gt;  </div> </td>
+            </tr>
+          </table>
+        </section>
+        <section class="element rng" id="el_byline">
+          <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-byline.html" target="TEI">byline</a>&gt; Mention de responsabilité (dans un article de périodique, une lettre…)</header>
+          <table class="grammar">
+            <tr>
+              <th>Enfants</th>
+              <td class="children"><div><b>D</b>. &lt;<a href="#el_date_2">date</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_foreign">foreign</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_hi">hi<small class="att"> rend="sup"</small></a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_pb">pb</a>&gt; &lt;<a href="#el_persName">persName</a>&gt; &lt;<a href="#el_placeName">placeName</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_tech">tech</a>&gt; &lt;<a href="#el_title">title</a>&gt;  </div> </td>
+            </tr>
+            <tr>
+              <th>Modèle</th>
+              <td class="model">
+                <span class="more"><a class="ref" href="#def_chars">chars</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <i>{text}</i> | <a href="#el_date_2">date</a> | <a href="#el_foreign">foreign</a> | <a href="#el_name">name</a> | <a href="#el_persName">persName</a> | <a href="#el_pb">pb</a> | <a href="#el_placeName">placeName</a> | <a href="#el_seg">seg</a> | <a href="#el_hi">hi<small class="att"> rend="sup"</small></a> | <a href="#el_tech">tech</a> | <a href="#el_title">title</a> ) * </span></span>)</span>
+              </td>
+            </tr>
+            <tr>
+              <th>Parents</th>
+              <td class="usage"><div><b>B</b>. &lt;<a href="#el_body">body</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_div">div</a>&gt;  </div> </td>
+            </tr>
+          </table>
+        </section>
+        <section class="element rng" id="el_dateline">
+          <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-dateline.html" target="TEI">dateline</a>&gt; Mention de date, de temps ou de lieu, ex : donné le … à … ("datum", dans une lettre, une charte…)</header>
+          <table class="grammar">
+            <tr>
+              <th>Enfants</th>
+              <td class="children"><div><b>D</b>. &lt;<a href="#el_date_2">date</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_foreign">foreign</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_hi">hi<small class="att"> rend="sup"</small></a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_pb">pb</a>&gt; &lt;<a href="#el_persName">persName</a>&gt; &lt;<a href="#el_placeName">placeName</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_tech">tech</a>&gt; &lt;<a href="#el_title">title</a>&gt;  </div> </td>
+            </tr>
+            <tr>
+              <th>Modèle</th>
+              <td class="model">
+                <span class="more"><a class="ref" href="#def_chars">chars</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <i>{text}</i> | <a href="#el_date_2">date</a> | <a href="#el_foreign">foreign</a> | <a href="#el_name">name</a> | <a href="#el_persName">persName</a> | <a href="#el_pb">pb</a> | <a href="#el_placeName">placeName</a> | <a href="#el_seg">seg</a> | <a href="#el_hi">hi<small class="att"> rend="sup"</small></a> | <a href="#el_tech">tech</a> | <a href="#el_title">title</a> ) * </span></span>)</span>
+              </td>
+            </tr>
+            <tr>
+              <th>Parents</th>
+              <td class="usage"><div><b>B</b>. &lt;<a href="#el_body">body</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_div">div</a>&gt;  </div> </td>
+            </tr>
+          </table>
+        </section>
+        <section class="element rng" id="el_trailer">
+          <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-trailer.html" target="TEI">trailer</a>&gt; Un titre de fin (livre, chapitre, page…)</header>
+          <table class="grammar">
+            <tr>
+              <th>Enfants</th>
+              <td class="children"><div><b>D</b>. &lt;<a href="#el_date_2">date</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_foreign">foreign</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_hi">hi<small class="att"> rend="sup"</small></a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_pb">pb</a>&gt; &lt;<a href="#el_persName">persName</a>&gt; &lt;<a href="#el_placeName">placeName</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_tech">tech</a>&gt; &lt;<a href="#el_title">title</a>&gt;  </div> </td>
+            </tr>
+            <tr>
+              <th>Modèle</th>
+              <td class="model">
+                <span class="more"><a class="ref" href="#def_chars">chars</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <i>{text}</i> | <a href="#el_date_2">date</a> | <a href="#el_foreign">foreign</a> | <a href="#el_name">name</a> | <a href="#el_persName">persName</a> | <a href="#el_pb">pb</a> | <a href="#el_placeName">placeName</a> | <a href="#el_seg">seg</a> | <a href="#el_hi">hi<small class="att"> rend="sup"</small></a> | <a href="#el_tech">tech</a> | <a href="#el_title">title</a> ) * </span></span>)</span>
+              </td>
+            </tr>
+            <tr>
+              <th>Parents</th>
+              <td class="usage"><div><b>B</b>. &lt;<a href="#el_body">body</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_div">div</a>&gt;  </div> </td>
+            </tr>
+          </table>
+        </section>
+      </section>
+      <section class="div" id="idm189">
+        <h2>Blocs (niveau paragraphe)</h2>
+        <section class="element rng" id="el_head">
+          <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-head.html" target="TEI">head</a>&gt; Titre, niveau déterminé par le contexte hiérarchique, html5 : h1, h2, h3, h4, h5, h6</header>
+          <table class="grammar">
+            <tr>
+              <th>Attributs</th>
+              <td>
+                <table class="attributes">
+                  <tr>
+                    <td class="name">@<a href="#att_rend">rend</a></td>
+                    <td>?</td>
+                    <td><span class="compact choice">( <span class="value" title="italique “italic” &lt;html5:i&gt;">i</span> | <span class="value" title="petites capitales “small-caps”">sc</span> | <span class="value" title="capitales “uppercase”">uc</span> ) + </span><br/>Indication de rendu, selon un vocabulaire contrôlé. Interprété comme une liste de classes CSS comme dans l'attribut @html5:class</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <th>Enfants</th>
+              <td class="children"><div><b>D</b>. &lt;<a href="#el_date_2">date</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_foreign">foreign</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_hi">hi<small class="att"> rend="sup"</small></a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_lb">lb</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_pb">pb</a>&gt; &lt;<a href="#el_persName">persName</a>&gt; &lt;<a href="#el_placeName">placeName</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_tech">tech</a>&gt; &lt;<a href="#el_title">title</a>&gt;  </div> </td>
+            </tr>
+            <tr>
+              <th>Modèle</th>
+              <td class="model">
+                <span class="compact element">
+                  <span class="compact choice"> ( <span class="more"><a class="ref" href="#def_chars">chars</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <i>{text}</i> | <a href="#el_date_2">date</a> | <a href="#el_foreign">foreign</a> | <a href="#el_name">name</a> | <a href="#el_persName">persName</a> | <a href="#el_pb">pb</a> | <a href="#el_placeName">placeName</a> | <a href="#el_seg">seg</a> | <a href="#el_hi">hi<small class="att"> rend="sup"</small></a> | <a href="#el_tech">tech</a> | <a href="#el_title">title</a> ) * </span></span>)</span> | <a href="#el_lb">lb</a> ) * </span>
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <th>Parents</th>
+              <td class="usage"><div><b>B</b>. &lt;<a href="#el_body">body</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_div">div</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_list">list</a>&gt;  </div> </td>
+            </tr>
+          </table>
+        </section>
+        <section class="element rng" id="el_l">
+          <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-l.html" target="TEI">l</a>&gt; Un vers, peut être contenu dans une strophe &lt;lg&gt; [?] &lt;l ana="devise"&gt;, est-ce qu’une devise est un vers ? Est-ce une technique textuelle que la base de données doit savoir extraire ?</header>
+          <table class="grammar">
+            <tr>
+              <th>Attributs</th>
+              <td>
+                <table class="attributes">
+                  <tr>
+                    <td class="name">@<a href="#att_rend">rend</a></td>
+                    <td>?</td>
+                    <td><span class="compact choice">( <span class="value" title="italique “italic” &lt;html5:i&gt;">i</span> | <span class="value" title="petites capitales “small-caps”">sc</span> | <span class="value" title="capitales “uppercase”">uc</span> ) + </span><br/>Indication de rendu, selon un vocabulaire contrôlé. Interprété comme une liste de classes CSS comme dans l'attribut @html5:class</td>
+                  </tr>
+                  <tr>
+                    <td class="name">@<a href="#att_xml-lang">xml:lang</a></td>
+                    <td>?</td>
+                    <td><span class="compact choice">( <span class="value">fr</span> | <span class="value">it</span> | <span class="value">la</span> )</span><br/>Code normalisé de langue</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <th>Enfants</th>
+              <td class="children"><div><b>D</b>. &lt;<a href="#el_date_2">date</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_foreign">foreign</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_hi">hi<small class="att"> rend="sup"</small></a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_pb">pb</a>&gt; &lt;<a href="#el_persName">persName</a>&gt; &lt;<a href="#el_placeName">placeName</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_tech">tech</a>&gt; &lt;<a href="#el_title">title</a>&gt;  </div> </td>
+            </tr>
+            <tr>
+              <th>Modèle</th>
+              <td class="model">
+                <span class="compact element">
+                  <span class="more"> <a class="ref" href="#def_chars">chars</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <i>{text}</i> | <a href="#el_date_2">date</a> | <a href="#el_foreign">foreign</a> | <a href="#el_name">name</a> | <a href="#el_persName">persName</a> | <a href="#el_pb">pb</a> | <a href="#el_placeName">placeName</a> | <a href="#el_seg">seg</a> | <a href="#el_hi">hi<small class="att"> rend="sup"</small></a> | <a href="#el_tech">tech</a> | <a href="#el_title">title</a> ) * </span></span>)</span>
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <th>Parents</th>
+              <td class="usage"><div><b>B</b>. &lt;<a href="#el_body">body</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_div">div</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_lg">lg</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_note">note</a>&gt;  </div> </td>
+            </tr>
+          </table>
+        </section>
+        <section class="element rng" id="el_lg">
+          <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-lg.html" target="TEI">lg</a>&gt; Strophe de vers [?] Est-ce qu’une strophe a toujours un type (quatrain, madrigal, sonnet…) ? Est-ce qu’il y a une liste close de types ? Quel fonctionnalité est attendue dans le site sur cette information ? Est-ce que cela ne relève pas des techniques littéraires ?</header>
+          <table class="grammar">
+            <tr>
+              <th>Attributs</th>
+              <td>
+                <table class="attributes">
+                  <tr>
+                    <td class="name">@<a href="#att_rend">rend</a></td>
+                    <td>?</td>
+                    <td><span class="compact choice">( <span class="value" title="italique “italic” &lt;html5:i&gt;">i</span> | <span class="value" title="petites capitales “small-caps”">sc</span> | <span class="value" title="capitales “uppercase”">uc</span> ) + </span><br/>Indication de rendu, selon un vocabulaire contrôlé. Interprété comme une liste de classes CSS comme dans l'attribut @html5:class</td>
+                  </tr>
+                  <tr>
+                    <td class="name">@<a href="#att_xml-lang">xml:lang</a></td>
+                    <td>?</td>
+                    <td><span class="compact choice">( <span class="value">fr</span> | <span class="value">it</span> | <span class="value">la</span> )</span><br/>Code normalisé de langue</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <th>Enfants</th>
+              <td class="children"><div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_pb">pb</a>&gt;  </div> </td>
+            </tr>
+            <tr>
+              <th>Modèle</th>
+              <td class="model">
+                <span class="compact element"> <a href="#el_label">label</a> ? <span class="compact choice"> ( <a href="#el_l">l</a> | <a href="#el_pb">pb</a> ) + </span></span>
+              </td>
+            </tr>
+            <tr>
+              <th>Parents</th>
+              <td class="usage"><div><b>B</b>. &lt;<a href="#el_body">body</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_div">div</a>&gt;  </div> </td>
+            </tr>
+          </table>
+        </section>
+        <section class="element rng" id="el_label">
+          <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-label.html" target="TEI">label</a>&gt; Étiquette, pour un intitulé court, de niveau paragraphe ou de niveau caractère</header>
+          <table class="grammar">
+            <tr>
+              <th>Attributs</th>
+              <td>
+                <table class="attributes">
+                  <tr>
+                    <td class="name">@<a href="#att_rend">rend</a></td>
+                    <td>?</td>
+                    <td><span class="compact choice">( <span class="value" title="italique “italic” &lt;html5:i&gt;">i</span> | <span class="value" title="petites capitales “small-caps”">sc</span> | <span class="value" title="capitales “uppercase”">uc</span> ) + </span><br/>Indication de rendu, selon un vocabulaire contrôlé. Interprété comme une liste de classes CSS comme dans l'attribut @html5:class</td>
+                  </tr>
+                  <tr>
+                    <td class="name">@<a href="#att_type">type</a></td>
+                    <td>?</td>
+                    <td>
+                      <span class="compact choice">( <span class="value" title="Intertitre non structurant, indépendant de la hiérarchie du document (pas un titre de partie ou de section)">head</span> | <span class="value" title="Théâtre non structuré (ex : citation), didascalie de tirade, contient au moins un nom de personnage, et parfois des didascalies &lt;stage&gt;">speaker</span> )</span>
+                      <br/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="name">@<a href="#att_xml-lang">xml:lang</a></td>
+                    <td>?</td>
+                    <td><span class="compact choice">( <span class="value">fr</span> | <span class="value">it</span> | <span class="value">la</span> )</span><br/>Code normalisé de langue</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <th>Enfants</th>
+              <td class="children"><div><b>D</b>. &lt;<a href="#el_date_2">date</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_foreign">foreign</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_hi">hi<small class="att"> rend="sup"</small></a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_lb">lb</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_pb">pb</a>&gt; &lt;<a href="#el_persName">persName</a>&gt; &lt;<a href="#el_placeName">placeName</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_tech">tech</a>&gt; &lt;<a href="#el_title">title</a>&gt;  </div> </td>
+            </tr>
+            <tr>
+              <th>Modèle</th>
+              <td class="model">
+                <span class="compact element">
+                  <span class="compact choice"> ( <span class="more"><a class="ref" href="#def_chars">chars</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <i>{text}</i> | <a href="#el_date_2">date</a> | <a href="#el_foreign">foreign</a> | <a href="#el_name">name</a> | <a href="#el_persName">persName</a> | <a href="#el_pb">pb</a> | <a href="#el_placeName">placeName</a> | <a href="#el_seg">seg</a> | <a href="#el_hi">hi<small class="att"> rend="sup"</small></a> | <a href="#el_tech">tech</a> | <a href="#el_title">title</a> ) * </span></span>)</span> | <a href="#el_lb">lb</a> ) * </span>
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <th>Parents</th>
+              <td class="usage"><div><b>B</b>. &lt;<a href="#el_body">body</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_div">div</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_event">event</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_lg">lg</a>&gt; &lt;<a href="#el_list">list</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_person">person</a>&gt; &lt;<a href="#el_place">place</a>&gt;  </div> </td>
+            </tr>
+          </table>
+        </section>
+        <section class="element rng" id="el_list">
+          <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-list.html" target="TEI">list</a>&gt; Listes, &lt;html5:ul&gt; &lt;html5:ol&gt; [?] quels types de listes ? type obligatoire ?</header>
+          <table class="grammar">
+            <tr>
+              <th>Enfants</th>
+              <td class="children"><div><b>H</b>. &lt;<a href="#el_head">head</a>&gt;  </div> <div><b>I</b>. &lt;<a href="#el_item">item</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_label">label</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_pb">pb</a>&gt;  </div> </td>
+            </tr>
+            <tr>
+              <th>Modèle</th>
+              <td class="model">
+                <span class="compact element"><a href="#el_head">head</a> ? <span class="compact choice"> ( <a href="#el_item">item</a> | <a href="#el_pb">pb</a> | <a href="#el_label">label</a> ) + </span></span>
+              </td>
+            </tr>
+            <tr>
+              <th>Parents</th>
+              <td class="usage"><div><b>B</b>. &lt;<a href="#el_body">body</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_div">div</a>&gt;  </div> </td>
+            </tr>
+          </table>
+          <section class="element rng" id="el_item">
+            <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-item.html" target="TEI">item</a>&gt; </header>
+            <table class="grammar">
+              <tr>
+                <th>Enfants</th>
+                <td class="children"><div><b>D</b>. &lt;<a href="#el_date_2">date</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_foreign">foreign</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_hi">hi<small class="att"> rend="sup"</small></a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_pb">pb</a>&gt; &lt;<a href="#el_persName">persName</a>&gt; &lt;<a href="#el_placeName">placeName</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_tech">tech</a>&gt; &lt;<a href="#el_title">title</a>&gt;  </div> </td>
+              </tr>
+              <tr>
+                <th>Modèle</th>
+                <td class="model">
+                  <span class="more"><a class="ref" href="#def_chars">chars</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <i>{text}</i> | <a href="#el_date_2">date</a> | <a href="#el_foreign">foreign</a> | <a href="#el_name">name</a> | <a href="#el_persName">persName</a> | <a href="#el_pb">pb</a> | <a href="#el_placeName">placeName</a> | <a href="#el_seg">seg</a> | <a href="#el_hi">hi<small class="att"> rend="sup"</small></a> | <a href="#el_tech">tech</a> | <a href="#el_title">title</a> ) * </span></span>)</span>
+                </td>
+              </tr>
+              <tr>
+                <th>Parents</th>
+                <td class="usage"><div><b>L</b>. &lt;<a href="#el_list">list</a>&gt;  </div> </td>
+              </tr>
+            </table>
+          </section>
+        </section>
+        <section class="element rng" id="el_p">
+          <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-p.html" target="TEI">p</a>&gt; </header>
+          <table class="grammar">
+            <tr>
+              <th>Attributs</th>
+              <td>
+                <table class="attributes">
+                  <tr>
+                    <td class="name">@<a href="#att_rend">rend</a></td>
+                    <td>?</td>
+                    <td><span class="compact choice">( <span class="value" title="italique “italic” &lt;html5:i&gt;">i</span> | <span class="value" title="petites capitales “small-caps”">sc</span> | <span class="value" title="capitales “uppercase”">uc</span> ) + </span><br/>Indication de rendu, selon un vocabulaire contrôlé. Interprété comme une liste de classes CSS comme dans l'attribut @html5:class</td>
+                  </tr>
+                  <tr>
+                    <td class="name">@<a href="#att_xml-lang">xml:lang</a></td>
+                    <td>?</td>
+                    <td><span class="compact choice">( <span class="value">fr</span> | <span class="value">it</span> | <span class="value">la</span> )</span><br/>Code normalisé de langue</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <th>Enfants</th>
+              <td class="children"><div><b>D</b>. &lt;<a href="#el_date_2">date</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_foreign">foreign</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_hi">hi<small class="att"> rend="sup"</small></a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_pb">pb</a>&gt; &lt;<a href="#el_persName">persName</a>&gt; &lt;<a href="#el_placeName">placeName</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_tech">tech</a>&gt; &lt;<a href="#el_title">title</a>&gt;  </div> </td>
+            </tr>
+            <tr>
+              <th>Modèle</th>
+              <td class="model">
+                <span class="compact element">
+                  <span class="more"> <a class="ref" href="#def_chars">chars</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <i>{text}</i> | <a href="#el_date_2">date</a> | <a href="#el_foreign">foreign</a> | <a href="#el_name">name</a> | <a href="#el_persName">persName</a> | <a href="#el_pb">pb</a> | <a href="#el_placeName">placeName</a> | <a href="#el_seg">seg</a> | <a href="#el_hi">hi<small class="att"> rend="sup"</small></a> | <a href="#el_tech">tech</a> | <a href="#el_title">title</a> ) * </span></span>)</span>
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <th>Parents</th>
+              <td class="usage"><div><b>A</b>. &lt;<a href="#el_abstract">abstract</a>&gt;  </div> <div><b>B</b>. &lt;<a href="#el_body">body</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_div">div</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_note">note</a>&gt;  </div> </td>
+            </tr>
+          </table>
+        </section>
+      </section>
+      <section class="div" id="idm266">
+        <h2>Segments (niveau caractère)</h2>
+        <section class="define rng" id="def_chars">
+          <header class="define rng">
+            <b>chars() </b>
+          </header>
+          <table class="grammar">
+            <tr>
+              <th>Contenu</th>
+              <td>
+                <span class="compact choice">( <i>{text}</i> | <a href="#el_date_2">date</a> | <a href="#el_foreign">foreign</a> | <a href="#el_name">name</a> | <a href="#el_persName">persName</a> | <a href="#el_pb">pb</a> | <a href="#el_placeName">placeName</a> | <a href="#el_seg">seg</a> | <a href="#el_hi">hi<small class="att"> rend="sup"</small></a> | <a href="#el_tech">tech</a> | <a href="#el_title">title</a> ) * </span>
+              </td>
+            </tr>
+            <tr>
+              <th>Usage</th>
+              <td><div><b>B</b>. &lt;<a href="#el_byline">byline</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_dateline">dateline</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_head">head</a>&gt;  </div> <div><b>I</b>. &lt;<a href="#el_item">item</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_note">note</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_trailer">trailer</a>&gt;  </div> </td>
+            </tr>
+          </table>
+        </section>
+        <section class="element rng" id="el_date_2">
+          <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-date.html" target="TEI">date</a>&gt; Date</header>
+          <table class="grammar">
+            <tr>
+              <th>Attributs</th>
+              <td>
+                <table class="attributes">
+                  <tr>
+                    <td class="name">@<a href="#att_when">when</a></td>
+                    <td>?</td>
+                    <td>
+                      <em class="data" title="">{integer}</em>
+                      <br/>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <th>Modèle</th>
+              <td class="model">
+                <span class="compact element">
+                  <i>{text}</i>
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <th>Parents</th>
+              <td class="usage"><div><b>B</b>. &lt;<a href="#el_byline">byline</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_dateline">dateline</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_emph">emph</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_head">head</a>&gt;  </div> <div><b>I</b>. &lt;<a href="#el_item">item</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_note">note</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt; &lt;<a href="#el_publicationStmt">publicationStmt</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_trailer">trailer</a>&gt;  </div> </td>
+            </tr>
+          </table>
+        </section>
+        <section class="element rng" id="el_emph">
+          <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-emph.html" target="TEI">emph</a>&gt; Mise en valeur, &lt;html5:em&gt; (apparence italique)</header>
+          <table class="grammar">
+            <tr>
+              <th>Enfants</th>
+              <td class="children"><div><b>D</b>. &lt;<a href="#el_date_2">date</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_hi">hi<small class="att"> rend="sup"</small></a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt;  </div> </td>
+            </tr>
+            <tr>
+              <th>Modèle</th>
+              <td class="model">
+                <span class="compact choice">( <i>{text}</i> | <a href="#el_date_2">date</a> | <a href="#el_seg">seg</a> | <a href="#el_hi">hi<small class="att"> rend="sup"</small></a> ) * </span>
+              </td>
+            </tr>
+            <tr>
+              <th>Parents</th>
+              <td class="usage">Inutilisé</td>
+            </tr>
+          </table>
+        </section>
+        <section class="element rng" id="el_foreign">
+          <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-foreign.html" target="TEI">foreign</a>&gt; Mot, expression, ou proposition dans une langue différente du contexte, le code de la languedoit être précisée dans l’attribut obligatoire @<a class="att" href="#att_xml-lang">xml:lang</a>, avec éventuellement une note contenant la traduction</header>
+          <table class="grammar">
+            <tr>
+              <th>Attributs</th>
+              <td>
+                <table class="attributes">
+                  <tr>
+                    <td class="name">@<a class="required" href="#att_xml-lang">xml:lang</a></td>
+                    <td/>
+                    <td><span class="compact choice">( <span class="value">fr</span> | <span class="value">it</span> | <span class="value">la</span> )</span><br/>Code normalisé de langue</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <th>Enfants</th>
+              <td class="children"><div><b>N</b>. &lt;<a href="#el_note">note</a>&gt;  </div> </td>
+            </tr>
+            <tr>
+              <th>Modèle</th>
+              <td class="model">
+                <span class="compact element"><i>{text}</i> <a href="#el_note">note</a> ? </span>
+              </td>
+            </tr>
+            <tr>
+              <th>Parents</th>
+              <td class="usage"><div><b>B</b>. &lt;<a href="#el_byline">byline</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_dateline">dateline</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_head">head</a>&gt;  </div> <div><b>I</b>. &lt;<a href="#el_item">item</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_note">note</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_trailer">trailer</a>&gt;  </div> </td>
+            </tr>
+          </table>
+        </section>
+        <section class="element rng" id="el_lb">
+          <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-lb.html" target="TEI">lb</a>&gt; Saut de ligne “line break” &lt;html5:br/&gt;</header>
+          <table class="grammar">
+            <tr>
+              <th>Modèle</th>
+              <td class="model"/>
+            </tr>
+            <tr>
+              <th>Parents</th>
+              <td class="usage"><div><b>H</b>. &lt;<a href="#el_head">head</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_label">label</a>&gt;  </div> </td>
+            </tr>
+          </table>
+        </section>
+        <section class="element rng" id="el_name">
+          <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-name.html" target="TEI">name</a>&gt; </header>
+          <table class="grammar">
+            <tr>
+              <th>Attributs</th>
+              <td>
+                <table class="attributes">
+                  <tr>
+                    <td class="name">@<a href="#att_ana">ana</a></td>
+                    <td>?</td>
+                    <td/>
+                  </tr>
+                  <tr>
+                    <td class="name">@<a href="#att_key">key</a></td>
+                    <td>?</td>
+                    <td>Terme normalisé (clé de regroupement) pour une entité indexable (personne, lieu…)</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <th>Modèle</th>
+              <td class="model">
+                <span class="compact element">
+                  <i>{text}</i>
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <th>Parents</th>
+              <td class="usage"><div><b>B</b>. &lt;<a href="#el_byline">byline</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_dateline">dateline</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_head">head</a>&gt;  </div> <div><b>I</b>. &lt;<a href="#el_item">item</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_note">note</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_respStmt">respStmt</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_trailer">trailer</a>&gt;  </div> </td>
+            </tr>
+          </table>
+        </section>
+        <section class="element rng" id="el_note">
+          <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-note.html" target="TEI">note</a>&gt; Une note, encodée dans le flux du texte, au point de l’appel</header>
+          <table class="grammar">
+            <tr>
+              <th>Enfants</th>
+              <td class="children"><div><b>D</b>. &lt;<a href="#el_date_2">date</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_foreign">foreign</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_hi">hi<small class="att"> rend="sup"</small></a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt; &lt;<a href="#el_pb">pb</a>&gt; &lt;<a href="#el_persName">persName</a>&gt; &lt;<a href="#el_placeName">placeName</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_tech">tech</a>&gt; &lt;<a href="#el_title">title</a>&gt;  </div> </td>
+            </tr>
+            <tr>
+              <th>Modèle</th>
+              <td class="model">
+                <span class="compact choice">( <span class="more"><a class="ref" href="#def_chars">chars</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <i>{text}</i> | <a href="#el_date_2">date</a> | <a href="#el_foreign">foreign</a> | <a href="#el_name">name</a> | <a href="#el_persName">persName</a> | <a href="#el_pb">pb</a> | <a href="#el_placeName">placeName</a> | <a href="#el_seg">seg</a> | <a href="#el_hi">hi<small class="att"> rend="sup"</small></a> | <a href="#el_tech">tech</a> | <a href="#el_title">title</a> ) * </span></span>)</span> + <span class="compact choice"> | ( <a href="#el_p">p</a> | <a href="#el_l">l</a> ) + </span> )</span>
+              </td>
+            </tr>
+            <tr>
+              <th>Parents</th>
+              <td class="usage"><div><b>F</b>. &lt;<a href="#el_foreign">foreign</a>&gt;  </div> </td>
+            </tr>
+          </table>
+        </section>
+        <section class="element rng" id="el_pb">
+          <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-pb.html" target="TEI">pb</a>&gt; Saut de page, “page break”, à placer avant le début du texte de la page, avec le numéro</header>
+          <table class="grammar">
+            <tr>
+              <th>Attributs</th>
+              <td>
+                <table class="attributes">
+                  <tr>
+                    <td class="name">@<a class="required" href="#att_n">n</a></td>
+                    <td/>
+                    <td>
+                      <em class="data" title="">{integer}</em>
+                      <br/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="name">@<a href="#att_xml-id">xml:id</a></td>
+                    <td>?</td>
+                    <td><em class="data" title="">{ID}</em><br/>Identifiant, au moins unique pour le document</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <th>Modèle</th>
+              <td class="model"/>
+            </tr>
+            <tr>
+              <th>Parents</th>
+              <td class="usage"><div><b>B</b>. &lt;<a href="#el_body">body</a>&gt; &lt;<a href="#el_byline">byline</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_dateline">dateline</a>&gt; &lt;<a href="#el_div">div</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_head">head</a>&gt;  </div> <div><b>I</b>. &lt;<a href="#el_item">item</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt; &lt;<a href="#el_lg">lg</a>&gt; &lt;<a href="#el_list">list</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_note">note</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_trailer">trailer</a>&gt;  </div> </td>
+            </tr>
+          </table>
+        </section>
+        <section class="element rng" id="el_persName">
+          <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-persName.html" target="TEI">persName</a>&gt; </header>
+          <table class="grammar">
+            <tr>
+              <th>Attributs</th>
+              <td>
+                <table class="attributes">
+                  <tr>
+                    <td class="name">@<a href="#att_key">key</a></td>
+                    <td>?</td>
+                    <td>Terme normalisé (clé de regroupement) pour une entité indexable (personne, lieu…)</td>
+                  </tr>
+                  <tr>
+                    <td class="name">@<a href="#att_role">role</a></td>
+                    <td>?</td>
+                    <td/>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <th>Enfants</th>
+              <td class="children"><div><b>H</b>. &lt;<a href="#el_hi">hi<small class="att"> rend="sup"</small></a>&gt;  </div> </td>
+            </tr>
+            <tr>
+              <th>Modèle</th>
+              <td class="model">
+                <span class="compact element">
+                  <span class="compact choice"> ( <i>{text}</i> | <a href="#el_hi">hi<small class="att"> rend="sup"</small></a> ) * </span>
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <th>Parents</th>
+              <td class="usage"><div><b>B</b>. &lt;<a href="#el_byline">byline</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_dateline">dateline</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_head">head</a>&gt;  </div> <div><b>I</b>. &lt;<a href="#el_item">item</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_note">note</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_trailer">trailer</a>&gt;  </div> </td>
+            </tr>
+          </table>
+        </section>
+        <section class="element rng" id="el_placeName">
+          <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-placeName.html" target="TEI">placeName</a>&gt; Nom de lieu</header>
+          <table class="grammar">
+            <tr>
+              <th>Attributs</th>
+              <td>
+                <table class="attributes">
+                  <tr>
+                    <td class="name">@<a href="#att_key">key</a></td>
+                    <td>?</td>
+                    <td>Terme normalisé (clé de regroupement) pour une entité indexable (personne, lieu…)</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <th>Modèle</th>
+              <td class="model">
+                <span class="compact element">
+                  <i>{text}</i>
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <th>Parents</th>
+              <td class="usage"><div><b>B</b>. &lt;<a href="#el_byline">byline</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_dateline">dateline</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_head">head</a>&gt;  </div> <div><b>I</b>. &lt;<a href="#el_item">item</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_note">note</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_trailer">trailer</a>&gt;  </div> </td>
+            </tr>
+          </table>
+        </section>
+        <section class="element rng" id="el_seg">
+          <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-seg.html" target="TEI">seg</a>&gt; Passage descriptif</header>
+          <table class="grammar">
+            <tr>
+              <th>Attributs</th>
+              <td>
+                <table class="attributes">
+                  <tr>
+                    <td class="name">@<a class="required" href="#att_type">type</a></td>
+                    <td/>
+                    <td>
+                      <span class="value">description</span>
+                      <br/>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <th>Modèle</th>
+              <td class="model">
+                <span class="compact element">
+                  <i>{text}</i>
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <th>Parents</th>
+              <td class="usage"><div><b>B</b>. &lt;<a href="#el_byline">byline</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_dateline">dateline</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_emph">emph</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_head">head</a>&gt;  </div> <div><b>I</b>. &lt;<a href="#el_item">item</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_note">note</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_trailer">trailer</a>&gt;  </div> </td>
+            </tr>
+          </table>
+        </section>
+        <section class="element rng" id="el_hi">
+          <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-hi.html" target="TEI">hi<small class="att"> rend="sup"</small></a>&gt; </header>
+          <table class="grammar">
+            <tr>
+              <th>Attributs</th>
+              <td>
+                <table class="attributes">
+                  <tr>
+                    <td class="name">@<a class="required" href="#att_rend">rend="sup"</a></td>
+                    <td/>
+                    <td>
+                      <span class="value">sup</span>
+                      <br/>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <th>Modèle</th>
+              <td class="model">
+                <span class="compact element">
+                  <i>{text}</i>
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <th>Parents</th>
+              <td class="usage"><div><b>B</b>. &lt;<a href="#el_byline">byline</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_dateline">dateline</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_emph">emph</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_head">head</a>&gt;  </div> <div><b>I</b>. &lt;<a href="#el_item">item</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_note">note</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt; &lt;<a href="#el_persName">persName</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_title">title</a>&gt; &lt;<a href="#el_trailer">trailer</a>&gt;  </div> </td>
+            </tr>
+          </table>
+        </section>
+        <section class="element rng" id="el_title">
+          <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-title.html" target="TEI">title</a>&gt; </header>
+          <table class="grammar">
+            <tr>
+              <th>Enfants</th>
+              <td class="children"><div><b>H</b>. &lt;<a href="#el_hi">hi<small class="att"> rend="sup"</small></a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_title">title</a>&gt;  </div> </td>
+            </tr>
+            <tr>
+              <th>Modèle</th>
+              <td class="model">
+                <span class="compact choice">( <i>{text}</i> | <a href="#el_hi">hi<small class="att"> rend="sup"</small></a> | <a href="#el_title">title</a> ) * </span>
+              </td>
+            </tr>
+            <tr>
+              <th>Parents</th>
+              <td class="usage"><div><b>B</b>. &lt;<a href="#el_bibl">bibl</a>&gt; &lt;<a href="#el_byline">byline</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_dateline">dateline</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_head">head</a>&gt;  </div> <div><b>I</b>. &lt;<a href="#el_item">item</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_note">note</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_title">title</a>&gt; &lt;<a href="#el_titleStmt">titleStmt</a>&gt; &lt;<a href="#el_trailer">trailer</a>&gt;  </div> </td>
+            </tr>
+          </table>
+        </section>
+        <section class="element rng" id="el_tech">
+          <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-tech.html" target="TEI">tech</a>&gt; Technique théâtrale</header>
+          <table class="grammar">
+            <tr>
+              <th>Modèle</th>
+              <td class="model">
+                <i>{text}</i>
+              </td>
+            </tr>
+            <tr>
+              <th>Parents</th>
+              <td class="usage"><div><b>B</b>. &lt;<a href="#el_byline">byline</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_dateline">dateline</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_head">head</a>&gt;  </div> <div><b>I</b>. &lt;<a href="#el_item">item</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_note">note</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_trailer">trailer</a>&gt;  </div> </td>
+            </tr>
+          </table>
+        </section>
+      </section>
+      <section class="div" id="idm374">
+        <h2>Attributs et types de données</h2>
+        <section class="attribute rng" id="att_key">
+          <header class="attribute rng">@<b>key</b> Terme normalisé (clé de regroupement) pour une entité indexable (personne, lieu…)</header>
+          <table class="grammar">
+            <tr>
+              <th>Valeur</th>
+              <td>
+                <i>{text}</i>
+              </td>
+            </tr>
+            <tr>
+              <th>Parents</th>
+              <td class="usage"><div><b>N</b>. &lt;<a href="#el_name">name</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_persName">persName</a>&gt; &lt;<a href="#el_placeName">placeName</a>&gt;  </div> </td>
+            </tr>
+          </table>
+        </section>
+        <section class="attribute rng" id="att_rend">
+          <header class="attribute rng">@<b>rend</b> Indication de rendu, selon un vocabulaire contrôlé. Interprété comme une liste de classes CSS comme dans l'attribut @html5:class</header>
+          <table class="grammar">
+            <tr>
+              <th>Valeur</th>
+              <td>
+                <span class="compact choice">( <li class="value"><b class="value">i</b> — <span class="documentation">italique “italic” &lt;html5:i&gt;</span></li><li class="value"><b class="value">sc</b> — <span class="documentation">petites capitales “small-caps”</span></li><li class="value"><b class="value">uc</b> — <span class="documentation">capitales “uppercase”</span></li> ) + </span>
+              </td>
+            </tr>
+            <tr>
+              <th>Parents</th>
+              <td class="usage"><div><b>H</b>. &lt;<a href="#el_head">head</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt; &lt;<a href="#el_lg">lg</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt;  </div> </td>
+            </tr>
+          </table>
+        </section>
+        <section class="attribute rng" id="att_when">
+          <header class="attribute rng">@<b>when</b> </header>
+          <table class="grammar">
+            <tr>
+              <th>Valeur</th>
+              <td>
+                <li class="value"><em class="data">{string}</em> — pattern: <tt>([0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?)?</tt></li>
+              </td>
+            </tr>
+            <tr>
+              <th>Parents</th>
+              <td class="usage"><div><b>D</b>. &lt;<a href="#el_date">date</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_event">event</a>&gt;  </div> </td>
+            </tr>
+          </table>
+        </section>
+        <section class="attribute rng" id="att_xml-id">
+          <header class="attribute rng">@<b>xml:id</b> Identifiant, au moins unique pour le document</header>
+          <table class="grammar">
+            <tr>
+              <th>Valeur</th>
+              <td>
+                <em class="data">{ID}</em>
+              </td>
+            </tr>
+            <tr>
+              <th>Parents</th>
+              <td class="usage"><div><b>E</b>. &lt;<a href="#el_event">event</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_pb">pb</a>&gt; &lt;<a href="#el_person">person</a>&gt; &lt;<a href="#el_place">place</a>&gt;  </div> </td>
+            </tr>
+          </table>
+        </section>
+        <section class="attribute rng" id="att_xml-lang">
+          <header class="attribute rng">@<b>xml:lang</b> Code normalisé de langue</header>
+          <table class="grammar">
+            <tr>
+              <th>Valeur</th>
+              <td>
+                <span class="compact choice">( <span class="value">fr</span> | <span class="value">it</span> | <span class="value">la</span> )</span>
+              </td>
+            </tr>
+            <tr>
+              <th>Parents</th>
+              <td class="usage"><div><b>F</b>. &lt;<a href="#el_foreign">foreign</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt; &lt;<a href="#el_lg">lg</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_TEI">TEI</a>&gt;  </div> </td>
+            </tr>
+          </table>
+        </section>
+      </section>
+    </article>
+    <script>
+var els = document.getElementsByTagName('a');
+for(var i = 0, len = els.length; i < len; i++) {
+  if (els[i].title) continue;
+  els[i].onmouseover = function () {
+    var t0 = performance.now();
+    if (this.title) return true;
+    if (!this.hash) return true;
+    var id = this.hash.substring(1);
+    if (!id) return true;
+    var div = document.getElementById(id);
+    if (!div) return true;
+    var header = div.getElementsByTagName('header');
+    if (header.length == 0) return true;
+    this.title = header[0].textContent;
+    return true;
+  }
+}      
+    </script>
+  </body>
+</html>
