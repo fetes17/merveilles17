@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
+<?xml-stylesheet type="text/css" href="../tei-author.css" alternate="author"?>
+<?xml-model href="../merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Registre de La Grange (1658-1685) : précédé d’une notice biographique / publié par
+          les soins de la Comédie-Française...[par Edouard Thierry]</title>
+        <author>Varlet Charles, sieur de La Grange (1635-1692).</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Merveilles17</edition>
+        <respStmt>
+          <name>Mathilde Nicolas.</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université d’Artois - Lille, MESHS</publisher>
+        <date when="2019"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Varlet Charles, sieur de La Grange, <title>Registre de La Grange (1658-1685) : précédé
+            d’une notice biographique / publié par les soins de la Comédie-Française...[par Edouard
+            Thierry]</title>, Paris, J. Claye ? , 1664 ou postérieur.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date>1664 ou postérieur.</date>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="62" xml:id="p62"/>
+      <p>Le mesmes Jour <date>Mardy 29me</date>. Commancé <placeName>au Louure</placeName>
+            deuant <persName>le Roy</persName>, dans <placeName>l’Apartement bas</placeName> de
+              <persName>la Reyne Mere</persName> : Le Mariage forcé, <tech>Comedie-Balet</tech>. Et
+            le <date>Jeudi 31me</date>. Idem.</p>
+      <pb n="65" xml:id="p65"/>
+      <p><persName>La Troupe</persName> est partye par ordre du<persName> Roy</persName> pour
+              <placeName>Versailles</placeName> le <date>dernier de ce mois</date>, et y a sejouné
+            jusques au <date>22me May</date>. On y a representé, pendant trois jours, qui fut le
+              <date>6me de May</date>, les Plaisirs de l’Isle Enchantée, dont la Princesse d’Elide
+            fist vne Journée  Plus les Fascheux, Mariage forcé  et trois Actes du TARTUFFE qui
+            estoient les premiers.</p>
+      <p rend="right">Receu. 4000lt</p>
+      <p rend="right">Partagé. 268lt 10s</p>
+    </body>
+  </text>
+</TEI>

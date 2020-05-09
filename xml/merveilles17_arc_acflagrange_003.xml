@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
+<?xml-stylesheet type="text/css" href="../tei-author.css" alternate="author"?>
+<?xml-model href="../merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Registre de La Grange (1658-1685) : précédé d’une notice biographique / publié par
+          les soins de la Comédie-Française...[par Edouard Thierry]</title>
+        <author>Varlet Charles, sieur de La Grange (1635-1692).</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Merveilles17</edition>
+        <respStmt>
+          <name>Mathilde Nicolas.</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université d’Artois - Lille, MESHS</publisher>
+        <date when="2019"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Varlet Charles, sieur de La Grange, <title>Registre de La Grange (1658-1685) : précédé
+            d’une notice biographique / publié par les soins de la Comédie-Française...[par Edouard
+            Thierry]</title>, Paris, J. Claye ? , 1664 ou postérieur.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date>1664 ou postérieur.</date>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="66" xml:id="p66"/>
+      <p><persName>La Troupe</persName> est partie le <date>Lundy 21 Juillet</date> pour
+          <placeName>Fontainebleau</placeName>. On a joué 4 fois la Princesse d’Elide deuant
+          <persName>Monsieur le Legat</persName> et vne fois la Thebaïde.</p>
+      <p rend="right">Receu par ordre du <persName>Roy</persName>. 3000lt</p>
+
+      <p rend="right">Partagé &amp; faict 2 partz d’<persName>autheurs</persName> en seize et en
+        quartorze pars, 193lt.</p>
+
+      <p><persName>La Troupe</persName> est reuenue le <date>Mercredy 13 Aoust</date>.</p>
+    </body>
+  </text>
+</TEI>

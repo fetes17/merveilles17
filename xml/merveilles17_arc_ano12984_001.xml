@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
+<?xml-stylesheet type="text/css" href="../tei-author.css" alternate="author"?>
+<?xml-model href="../merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Compte des Menus plaisirs et affaires de la Chambre du Roi de l’année 1664 rendu par
+          Michel d’Aligre Trésorier, a été extrait ce qui suit au chapitre des Dépenses
+          exraordinaires et inopinées.</title>
+        <author>d’Aligre Michel (-1675).</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Merveilles17</edition>
+        <respStmt>
+          <name>Mathilde Nicolas</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université d’Artois - Lille, MESHS</publisher>
+        <date when="2019"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>d’Aligre Michel, <title>Compte des Menus plaisirs et affaires de la Chambre du Roi de
+            l’année 1664 rendu par Michel d’Aligre Trésorier, a été extrait ce qui suit au chapitre
+            des Dépenses exraordinaires et inopinées</title>, 1664.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date>1664.</date>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1" xml:id="p1"/>
+      <p>
+        <date>1664</date>
+      </p>
+      <p>Du Compte des Menus plaisirs et aff<hi rend="sup">res</hi>. de la Chambre du
+          <persName>Roy</persName> de l’année <date>1664</date> rendu par <persName>Michel
+          daligre</persName> Tresorier, a Eté Extrait ce qui suits au Chapitre des Depenses
+        Extraordinaires et Inopinées Fol. 312</p>
+      <p>fol. 312</p>
+      <p>A <persName>Cristophe Gaulard</persName> chef de fruterie du <persName>Roy</persName> pour
+        payement des <tech>cires blanches et jaulne</tech> fournies pour les fiançailles de
+          <persName>Mad.e. La duchesse de Savoye</persName> et celles de M<persName>ons. Le duc
+          d’Anguien</persName> et au <tech>ballet</tech> qui a esté dancé en la presence de
+          <persName>Sa Majesté</persName> en son <placeName>Chateau de Vincennes</placeName>.</p>
+      <p rend="right">1219lt. 16s. 6d.</p>
+      <p>fol. 332. V°.</p>
+      <p>A <persName>Antoine Gonzales</persName> Espagnol m<hi rend="sup">.e</hi> de <tech>feux
+          d’artifices</tech> pour depense faite pour <tech>les feux d’artifices</tech> qu’il a
+        preparés par le Commandement de <persName>sa majesté</persName>.</p>
+      <p rend="right">1400.</p>
+      <pb n="2" xml:id="p2"/>
+      <p>fol. 395. V°. et suiv<hi rend="sup">s</hi>.</p>
+      <p>A <persName>Louis Lazure</persName> Chef du Gobelet du <persName>Roy</persName> pour son
+          remboursem.<hi rend="sup">t</hi>. de ce qu’il a avancé pour plusieurs raretéz de
+          <tech>machines</tech>
+        <seg ana="description">dorées et vermeil Conques de porcelaines, Corbeilles, festons et
+          fleurs de bouquets expres Contre-faits et de bois dorez</seg> et <pb n="3" xml:id="p3"/>
+        <seg ana="description">argentez</seg> pour servir au <tech>festin</tech> fait par
+          <persName>sa Majesté</persName> en son <placeName>Chateau de Versailles</placeName>.</p>
+      <p rend="right">3322lt.</p>
+      <p>A <persName>antoine Gonzalles</persName> espagnol m<hi rend="sup">e</hi>. de <tech>feu
+          d’artifice</tech> outre qu’il a cy devant receu pour son remboursem<hi rend="sup">t</hi>.
+        de sa depense qu’il a faitte pour Composer <tech>vn feu d’artifice</tech> de l’histoire du
+        mauvais riche qui a eté tiré au <placeName>Chateau de fontainebleau</placeName>.</p>
+      <p rend="right">600.</p>
+      <p>fol. 406. V°. et suiv<hi rend="sup">s</hi>.</p>
+      <p>A <persName>fran.s Simon </persName>batelier de la Ville de nevers pour son payem<hi
+          rend="sup">t</hi>. de 150 pots de fayance façon de pourcelaine q.<hi rend="sup">l</hi> a
+        fournis pour le service de <persName>S. M</persName>. qui a ordonné estre portés en son
+          <placeName>Chateau de Versailles</placeName> pour y mettre des jasmins y Compris la
+        voiture et au[tr]es menus faits pour le transport desd. pots.</p>
+      <p rend="right">912.</p>
+    </body>
+  </text>
+</TEI>
