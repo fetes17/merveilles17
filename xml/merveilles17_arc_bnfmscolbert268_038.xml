@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
+<?xml-stylesheet type="text/css" href="../tei-author.css" alternate="author"?>
+<?xml-model href="../merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rôle des dépenses du Trésor royal des quartiers de janvier et avril (paiement à
+          Molière).</title>
+        <author/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Merveilles17</edition>
+        <respStmt>
+          <name>Mathilde Nicolas</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université d’Artois - Lille, MESHS</publisher>
+        <date when="2019"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>Rôle des dépenses du Trésor royal des quartiers de janvier et avril (paiement à
+            Molière)</title>, 1664.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date>1664.</date>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="390" xml:id="p390"/>
+      <p>Audit <persName>d’Aligre</persName> [trésorier des menus plaisirs], la somme de quatre mil
+        livres que <persName>Sa Majesté</persName> lui a ordonnée pour emploier au fait de sa
+        charge, mesmes icelle delivrer à <persName>la troupe des comediens</persName> de
+          <persName>Monseigneur le duc d’Orleans</persName> pour <tech>les comedies</tech> qu’ils
+        ont representées au <placeName>chasteau de Versailles</placeName> et pour leur servir audit
+        lieu pendant les festes et rejouissances qui y ont esté faictes, cy...</p>
+      <p rend="right">4.000 l. comptant.</p>
+      <p>A luy [<persName>Michel d’Aligre</persName>], la somme de deux mil livres que <persName>Sa
+          Majesté</persName> lui a ordonnée pour emploier au fait de sadicte charge, mesmes icelle
+        delivrer à <persName>Molieres</persName>, chef de la troupe des comediens de
+          <persName>Monseigneur le duc d’Orleans</persName>, laquelle <persName>Sa
+          Majesté</persName> lui a ordonnée pour une nouvelle <tech>comedie</tech> qu’il a faicte et
+        qui a esté representée par <persName>la troupe</persName> pendant les festes et
+        rejouissances de <placeName>Versailles</placeName>, cy...</p>
+      <p rend="right">2.000 l.</p>
+    </body>
+  </text>
+</TEI>

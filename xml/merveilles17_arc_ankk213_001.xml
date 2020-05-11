@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
+<?xml-stylesheet type="text/css" href="../tei-author.css" alternate="author"?>
+<?xml-model href="../merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Comptes des menus plaisirs de la chambre du roi.</title>
+        <author/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Merveilles17</edition>
+        <respStmt>
+          <name>Mathilde Nicolas. </name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université d’Artois - Lille, MESHS</publisher>
+        <date when="2019"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Comptes des menus plaisirs de la chambre du roi, 1664.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date>1664. </date>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="390" xml:id="p390"/>
+      <p>Rol<anchor xml:id="_GoBack"/>e des parties et sommes de deniers ordonnées etre payées et delivrées comptant.</p>
+      <p>A <persName>Jean Baptiste Pocquelin de Moliere</persName>, comedien de <persName>Monsieur</persName>, frere unicque du roy, tant pour luy que pour <persName>la trouppe</persName>, pour <tech>les comedies</tech> qu’ilz ont representées au <placeName>chasteau de Versailles</placeName> et pour leur sejour, la somme de...</p>
+      <p rend="right">4.000 l.</p>
+      <p>Audit <persName>Jean-Baptiste Pocquelin de Moliere</persName>, comedien de <persName>Monsieur</persName> frere unicque du roy, pour une nouvelle <tech>comedie</tech> qu’il a faicte et qui a esté representée par <persName>sa trouppe</persName> à <placeName>Versailles</placeName>...</p>
+      <p rend="right">2.000 l.</p>
+    </body>
+  </text>
+</TEI>
