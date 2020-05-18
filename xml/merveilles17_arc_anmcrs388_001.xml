@@ -42,13 +42,13 @@
   <text>
     <body>
       <pb n="386" xml:id="p386"/>
-      <p>Fut present <persName>Anthoine Petit</persName>, maistre charpentier à
+      <p>Fut present <persName key="#antoine_petit" role="#fournisseur">Anthoine Petit</persName>, maistre charpentier à
           <placeName>Paris</placeName>, demeurant <placeName>rue Saincte-Anne</placeName>,
           <placeName>parroisse Sainct-Roch</placeName>, lequel a faict marché, promis et promect à
-          <persName>Maistre Charles de Vigarany</persName>, gentilhomme modenois, demeurant dans
+          <persName key="#carlo_vigarani" role="#organisateur">Maistre Charles de Vigarany</persName>, gentilhomme modenois, demeurant dans
           <placeName>les galleryes du Louvre</placeName>, <placeName>parroisse
           Sainct-Germainl’Auxerrois</placeName>, à ce present et acceptant, de luy fournir et livrer
-        à <placeName>Versailles</placeName> quinze jours après l’ordre que ledict <persName>sieur
+        à <placeName>Versailles</placeName> quinze jours après l’ordre que ledict <persName key="#carlo_vigarani" role="#organisateur">sieur
           Vigarany</persName> luy aura donné, les bois cy-après declarés, iceux faconnez et possez.
         Premierement, vingt-huict pieces de bois, scavoir quatre de vingt-sept pieds de long sur
         cinq à sept poulces d’espoisseur, quatre autres de vingt-cinq pieds de long, le tout de bois
@@ -63,7 +63,7 @@
         susdict, douze premieres solives, soixante planches de bastau de dix-huict pieds de long
         pour toutes les escharpes du <tech>theatre</tech>, pour faire le <tech>pont de
           derriere</tech> et aux <tech>deux de devant</tech> et pour les <tech>quatre
-        rochers</tech>. Fournira aussy ledict <persName>Petit </persName>ainsy que dessus est dit
+        rochers</tech>. Fournira aussy ledict <persName key="#antoine_petit" role="#fournisseur">Petit </persName>ainsy que dessus est dit
         douze solives pour le <tech>pont de derriere</tech>, cinq autres solives pour les six
         traiteaux, trente-deux solives pour les <tech>ponts de devant</tech>, vingt-huict solives
         pour les<tech> petits rochers</tech>, le tout de bois de sapin de pareille grosseur que
@@ -72,13 +72,13 @@
       <p>dessus et des longueurs convenables et cent vingt-trois planches de basteau de dix-huict
         pieds de long; tout ledict bois cy-dessus declaré bon, loyal et marchand, bien faconné et
         possé, comme dict est. Ce present marché ainsy faict moyennant la somme de quinze cens
-        livres tournois sur laquelle ledict <persName>Petit</persName> a confessé avoir eu et receu
-        dudict <persName>sieur Vigarany</persName> la somme de cinq cens livres tournois dont etc
-        quictant etc, et pour les mil livres restans ledict <persName>sieur Vigarany</persName> a
-        promis et promect les payer audict <persName>Petit</persName> ou au porteur au fur et à
+        livres tournois sur laquelle ledict <persName key="#antoine_petit" role="#fournisseur">Petit</persName> a confessé avoir eu et receu
+        dudict <persName key="#antoine_petit" role="#fournisseur">sieur Vigarany</persName> la somme de cinq cens livres tournois dont etc
+        quictant etc, et pour les mil livres restans ledict <persName key="#carlo_vigarani" role="#organisateur">sieur Vigarany</persName> a
+        promis et promect les payer audict <persName key="#antoine_petit" role="#fournisseur">Petit</persName> ou au porteur au fur et à
         mesure que ledict bois se fassonnera et posera, auquel bois ledict
-          <persName>Petit</persName> promect aussy faire tous les trous et chevilles necessaires,
-        lesquels bois cy-dessus ledict <persName>sieur Vigarany</persName> sera tenu de faire à ses
+        <persName key="#antoine_petit" role="#fournisseur">Petit</persName> promect aussy faire tous les trous et chevilles necessaires,
+        lesquels bois cy-dessus ledict <persName key="#antoine_petit" role="#fournisseur">sieur Vigarany</persName> sera tenu de faire à ses
         frais et despens conduire de cette ville audict <placeName>Versailles</placeName>, comme
         ladicte voiture n’estant comprise au present marché. Promectant etc, obligeant chacun en
         droit soy. Renonceant etc.</p>
@@ -86,16 +86,16 @@
           Louvre</placeName>, l’an <date>mil six cens soixante et quatre le vingtiesme jour de mars
         </date>et ont signé</p>
       <p>
-        <persName>VIGARANY</persName>
+        <persName key="#antoine_petit" role="#fournisseur">VIGARANY</persName>
       </p>
       <p>
-        <persName>A. PETIT</persName>
+        <persName key="#antoine_petit" role="#fournisseur">A. PETIT</persName>
       </p>
       <p>
-        <persName>CHUPPIN</persName>
+        <persName key="#simon_chuppin">CHUPPIN</persName>
       </p>
       <p>
-        <persName>LENORMAND</persName>
+        <persName key="#louis_lenormand">LENORMAND</persName>
       </p>
     </body>
   </text>
