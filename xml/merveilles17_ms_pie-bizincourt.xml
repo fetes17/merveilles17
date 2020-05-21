@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
-<?xml-stylesheet type="text/css" href="../tei-author.css" alternate="author"?>
-<?xml-model href="../merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>« Les plaisirs de l’isle enchantée, ordonnéz par Louis XIV, roy de France et
                     de Navarre, à Versailles, le 6 may 1664, » par DE BIZINCOURT.</title>
-                <author>De Bizincourt, Chauveau François (1613-1676) et Petitot Jean (1607-1691).
-                </author>
+                <author>De Bizincourt, Chauveau François (1613-1676) et Petitot Jean
+                    (1607-1691).</author>
             </titleStmt>
             <editionStmt>
                 <edition>Merveilles17</edition>
                 <respStmt>
                     <name>Mathilde Nicolas. </name>
+                    <resp>Transcription</resp>
                 </respStmt>
             </editionStmt>
             <publicationStmt>
@@ -25,103 +23,155 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <bibl>De Bizincourt, Chauveau François, Petitot Jean, <title>« Les plaisirs de
-                        l’isle enchantée, ordonnéz par Louis XIV, roy de France et de Navarre, à
-                        Versailles, le 6 may 1664, » par DE BIZINCOURT</title>, 1664 ou postérieur.
-                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Département des manuscrits</repository>
+                        <idno>Ms. Français 7834</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <author>De Bizincourt</author>
+                            <author>Chauveau François</author>
+                            <author>Petitot Jean</author>
+                            <title>« Les plaisirs de l’isle enchantée, ordonnéz par Louis XIV, roy
+                                de France et de Navarre, à Versailles, le 6 may 1664, » par DE
+                                BIZINCOURT</title>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="manuscript">
+                            <p>Manuscrit sur parchemin avec peintures. Reliure aux armes du roi</p>
+                            <supportDesc>
+                                <dimensions unit="cm">
+                                    <height>45,5</height>
+                                    <width>32</width>
+                                </dimensions>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+
             </sourceDesc>
         </fileDesc>
         <profileDesc>
             <creation>
-                <date>1664 ou postérieur.</date>
+                <date notBefore="1664">1664 ou postérieur</date>
             </creation>
             <langUsage>
-                <language ident="fre"/>
+                <language ident="fr"/>
             </langUsage>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
-            <p>
-                <pb n="1" xml:id="p1"/>
-            </p>
-            <head><!-- Windows User : 2020-02-24T11:44:00.89
-Faut‑il le mettre en titre bien qu’il soit intégré à une image ?
--->LES
-                PLAISIRS DE L’ISLE ENCHANTÉE ORDONNEZ PAR <persName key="#louisxiv" role="#organisateur">LOVIS XIV</persName> ROY DE
-                France ET DE NAVARRE. A <placeName>Versailles</placeName> le <date>6 May
-                1664</date>. </head>
-            <p>
-                <pb n="2" xml:id="p2"/>
-            </p>
-            <p>AV ROY.</p>
-            <p>SIRE</p>
-            <p><persName key="#louisxiv">VOSTRE MAIESTE’</persName> a étably dans son Royaume vne paix si profonde,
-                que ceux de ses sujets que leur Naissance, &amp; leur Condition destinent à la
-                seruir dans ses Armées, auroient bien-tost oublié les Exercices de Mars, si elle
-                n’en faisoit ses divertissemens ordinaires ; mais comme <persName key="#louisxiv">VOSTRE
-                    MAIESTE’</persName> est également remplie de valeur &amp; de prudence, apres
-                qu’elle s’est seruy dans les commencemens des combats veritables, pour procurer le
-                repos &amp; l’abondance à ses peuples ; elle veut se servir dans la suitte de la
-                representation de ces mesmes combats pour empécher que, l’oisiueté qui accompagne
-                ordinairement la Paix, ne fasse oublier le mestier de la Guerre. Les braues de
-                l’Isle flottante se sont presentez tout afait a propos à <persName key="#louisxiv">VOSTRE
-                    MAIESTE</persName>, pour l’aider en ce dessein ; car ceux de la terre ferme</p>
-            <p>3</p>
-            <p>Se sont si mal trouuez de <persName key="#louisxiv">V. MAIESTE’</persName>, lors qu’ils ont eu
-                quelque chose a démeler auec elle par les armes, qu’ils auroient eü peine a
-                paroîstre vne seconde fois deuant elle dans les Ieux qui ont quelque figure de
-                combat : ces Heros mesme que la deliurance d’vne illustre captiuité deuoit auoir
-                rendu intrepides, n’osent quasi se resoudre a paroistre dans Vôtre Cour,
-                apprehendant auec justice que les charmes de la <persName>Reyne</persName> &amp; des
-                    <persName>autres Dames</persName> dont elle est composée ne les engagent dans vn
-                nouuel esclauage qui leur soit plus fácheux que le premier, parceque l’adresse &amp;
-                la galanterie de <persName>V.MAIESTE’</persName>, estant infiniment au dessus de la
-                leur, ils n’auront pas la consolation d’y
-                passer<!-- Windows User : 2020-02-24T11:49:00.89
-Faut‑il résoudre les abréviations ?
--->
-                    cōme ils feroient dans le <tech>Palais
-                    d’Alcine</tech> pour des captifs les plus adroits &amp; les plus galants du
-                monde : mais comme considere dauantage le diuertissement de <persName>V.
-                    Majesté</persName>, que leur interest, je ne laisse pas de les produire
-                aujourdhuy contre leur gré, pour luy seruir de Lustre, &amp; afin que cette
-                inegalité augmente sa gloire : l’impuissance dans laquelle je me vois d’y contribuer
-                dans les grandes choses, m’oblige a recourir auec soin aux petites pour témoigner
-                auec combien d’attachement &amp; de respect je suis.</p>
-            <p>SIRE</p>
-            <p>DE VOSTRE MAIESTE’.</p>
-            <p>Le tres-humble tres-obeïssant &amp; tres fidel serviteur &amp; sujet.</p>
-            <p><persName>DE BIZINCOVRT</persName>.</p>
-            <p>
-                <pb n="4" xml:id="p4"/>
-            </p>
-            <p>AV<persName> ROY</persName>.</p>
-            <label type="head">SONNET.</label>
-            <l>GRAND ROY, dont le mâle Courage</l>
-            <l>Fait si grand bruit de toutes parts,</l>
-            <l>Que celuy des douzes Cesars</l>
-            <l>En a moins fait durant leur âge.</l>
-            <l>Si je vous offre cét Ouurage</l>
-            <l>Où vous éclattez comme vn Mars,</l>
-            <l>Qui regarde tous les hazards</l>
-            <l>Sans jamais changer de visage.</l>
-            <l>Par vn noble trait de bonté</l>
-            <l>Commune à <persName>Vôtre Majesté</persName>,</l>
-            <l>Voyez-lè d’vn œil fauorable.</l>
-            <l>Et puisque c’est vôtre Tableau,</l>
-            <l>Monarque en tout incomparable</l>
-            <l>Que pouuez-vous voir de plus beau.</l>
-            <l>
-                <pb n="5" xml:id="p5"/>
-            </l>
-            <l>Que la Nimphe a cent voix, fasse éclatter la vie.</l>
-            <l>Et monstre à nos nepueux, ce portrait sans egal,</l>
-            <l>S’ils s’estiment heureux, d’avoir une coppie</l>
-            <l>Nostre heur est bien plus grand d’auoir l’original.</l>
-            <p>
-                <pb n="6" xml:id="p6"/>
-            </p>
+            
+            <pb n="1" xml:id="fol1r"/>
+            <head>
+                <figure>
+                    <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10527887j/f7.item"/>
+                    <figDesc>Un paysage représentant à l'arrière plan un château élevé au milieu
+                        d'une île. Au premier plan sur un bloc de marbre est inscrit le titre du
+                        manuscrit</figDesc>
+                    <p>LES PLAISIRS DE L’ISLE ENCHANTÉE ORDONNEZ PAR <persName key="#louisxiv"
+                            role="#organisateur">LOVIS XIV</persName> ROY DE France ET DE NAVARRE. A
+                            <placeName>Versailles</placeName> le <date when="1664-05-06">6 May
+                            1664</date>.</p>
+                </figure>
+            </head>
+            
+            <pb n="2" xml:id="fol2r"/>
+            <figure>
+                <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10527887j/f9.item"/>
+
+                <p>AV ROY.</p>
+                <p>SIRE</p>
+                <p><persName key="#louisxiv">VOSTRE MAIESTE’</persName> a étably dans son Royaume
+                    vne paix si profonde, que ceux de ses sujets que leur Naissance, &amp; leur
+                    Condition destinent à la seruir dans ses Armées, auroient bien-tost oublié les
+                    Exercices de Mars, si elle n’en faisoit ses divertissemens ordinaires ; mais
+                    comme <persName key="#louisxiv">VOSTRE MAIESTE’</persName> est également remplie
+                    de valeur &amp; de prudence, apres qu’elle s’est seruy dans les commencemens des
+                    combats veritables, pour procurer le repos &amp; l’abondance à ses peuples ;
+                    elle veut se servir dans la suitte de la representation de ces mesmes combats
+                    pour empécher que, l’oisiueté qui accompagne ordinairement la Paix, ne fasse
+                    oublier le mestier de la Guerre. Les braues de l’Isle flottante se sont
+                    presentez tout afait a propos à <persName key="#louisxiv">VOSTRE
+                        MAIESTE</persName>, pour l’aider en ce dessein ; car ceux de la terre
+                    ferme</p>
+            </figure>
+
+            <pb n="3" xml:id="fol3r"/>
+            <figure>
+                <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10527887j/f11.item"/>
+
+                <p>Se sont si mal trouuez de <persName key="#louisxiv">V. MAIESTE’</persName>, lors
+                    qu’ils ont eu quelque chose a démeler auec elle par les armes, qu’ils auroient
+                    eü peine a paroîstre vne seconde fois deuant elle dans les Ieux qui ont quelque
+                    figure de combat : ces Heros mesme que la deliurance d’vne illustre captiuité
+                    deuoit auoir rendu intrepides, n’osent quasi se resoudre a paroistre dans Vôtre
+                    Cour, apprehendant auec justice que les charmes de la <persName>Reyne</persName>
+                    &amp; des <persName>autres Dames</persName> dont elle est composée ne les
+                    engagent dans vn nouuel esclauage qui leur soit plus fácheux que le premier,
+                    parceque l’adresse &amp; la galanterie de <persName>V.MAIESTE’</persName>,
+                    estant infiniment au dessus de la leur, ils n’auront pas la consolation d’y
+                    passer comme ils feroient dans le <tech>Palais d’Alcine</tech> pour des captifs
+                    les plus adroits &amp; les plus galants du monde : mais comme considere
+                    dauantage le diuertissement de <persName>V. Majesté</persName>, que leur
+                    interest, je ne laisse pas de les produire aujourdhuy contre leur gré, pour luy
+                    seruir de Lustre, &amp; afin que cette inegalité augmente sa gloire :
+                    l’impuissance dans laquelle je me vois d’y contribuer dans les grandes choses,
+                    m’oblige a recourir auec soin aux petites pour témoigner auec combien
+                    d’attachement &amp; de respect je suis.</p>
+                <p>SIRE</p>
+                <p>DE VOSTRE MAIESTE’.</p>
+                <p>Le tres-humble tres-obeïssant &amp; tres fidel serviteur &amp; sujet.</p>
+                <p><persName>DE BIZINCOVRT</persName>.</p>
+            </figure>
+
+            <pb n="4" xml:id="fol4r"/>
+            <figure>
+                <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10527887j/f13.item"/>
+                <figDesc>Un rouleau déployé orné des fleurs de lys et d'hermine sur lequel est écrit
+                    :</figDesc>
+                <p>AV<persName> ROY</persName>.</p>
+                <label type="head">SONNET.</label>
+                <l>GRAND ROY, dont le mâle Courage</l>
+                <l>Fait si grand bruit de toutes parts,</l>
+                <l>Que celuy des douzes Cesars</l>
+                <l>En a moins fait durant leur âge.</l>
+                <l>Si je vous offre cét Ouurage</l>
+                <l>Où vous éclattez comme vn Mars,</l>
+                <l>Qui regarde tous les hazards</l>
+                <l>Sans jamais changer de visage.</l>
+                <l>Par vn noble trait de bonté</l>
+                <l>Commune à <persName>Vôtre Majesté</persName>,</l>
+                <l>Voyez-lè d’vn œil fauorable.</l>
+                <l>Et puisque c’est vôtre Tableau,</l>
+                <l>Monarque en tout incomparable</l>
+                <l>Que pouuez-vous voir de plus beau.</l>
+            </figure>
+
+            <pb n="5" xml:id="p5"/>
+            <figure>
+                <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10527887j/f15.item"/>
+
+                <figDesc>La Renommée, volant au-dessus du monde, tient le portrait de Louis XIV dans
+                    sa main droite et une trompette dans sa main gauche avec une bannière portant
+                    cette inscription :</figDesc>
+                <l>Que la Nimphe a cent voix, fasse éclatter la vie.</l>
+                <l>Et monstre à nos nepueux, ce portrait sans egal,</l>
+                <l>S’ils s’estiment heureux, d’avoir une coppie</l>
+                <l>Nostre heur est bien plus grand d’auoir l’original.</l>
+            </figure>
+
+
+
+
+
+            <pb n="6" xml:id="p6"/>
             <p>A LA <persName>REYNE MERE</persName>.</p>
             <label type="head">MADRIGAL.</label>
             <l>REYNE que l’Vnivers admire,</l>
@@ -203,9 +253,9 @@ Faut‑il résoudre les abréviations ?
 Balisons nous les trompettes et les timballiers comme des personnes ou comme des techniques ?
 --><tech>quatre
                     Trompettes &amp; deux Timballiers, huit autres Trompettes &amp; deux
-                    Timballiers</tech> deuançoient <persName>le
-                    Roy</persName> representant <name>Roger</name>, suiuy de <persName>M.r le Duc de
-                    Noailles</persName> nommé <name>Oger le Danois</name>.</p>
+                    Timballiers</tech> deuançoient <persName>le Roy</persName> representant
+                    <name>Roger</name>, suiuy de <persName>M.r le Duc de Noailles</persName> nommé
+                    <name>Oger le Danois</name>.</p>
             <p>En suitte les Chevaliers entrerent deux à deux, M.<hi rend="sup">rs</hi>
                 <persName>le Duc de Guise</persName> representant <name>Aquilant</name>, &amp;
                     <persName>le Comte d’Armagnac</persName>, <name>Griffon le blanc</name>.</p>
@@ -715,7 +765,7 @@ Faut‑il baliser Mars et Bellone ?
             <l>Ie tremble dans l’accez de l’amoureuse fiévre ;</l>
             <l>Ailleurs sans vanité je ne tremblay jamais,</l>
             <l>Et ce charmant objet l’adorable
-                    <!-- Windows User : 2020-02-24T13:32:00.93
+                <!-- Windows User : 2020-02-24T13:32:00.93
 Comment baliser ?
 -->Genéure</l>
             <l>Est l’unique vainqueur à qui je me soumets.</l>
@@ -1003,18 +1053,17 @@ Comment baliser ?
                     <!-- Windows User : 2020-02-24T13:56:00.95
 Faut‑il résoudre les abréviations ?
 -->quatri<hi
-                    rend="sup">e</hi> entrée, qui font des sauts auec
-                vne force &amp; agilité merueilleuse. <name>Six autres Demons</name> dans la
-                cinquiéme entrtée viennent encore asseurer la <name>Magicienne</name> qu’ils
-                n’oubliront rien pour son repos. Mais à peine commence-t-elle à se r’asseurer
-                qu’elle voit paroistre auprés de <name>Roger la sage Melisse</name> souz la forme
-                    d’<name>Atlas</name> ; elle court pour empécher l’effet de son intention, mais
-                elle arrive trop tard : <name>Mélisse</name> a déjà mis au doigt de ce braue
-                Chevalier la fameuse bague qui détruit les enchantemens ; lors vn coup de tonnerre,
-                suiuy de plusieurs éclairs, marque la destruction du <tech>Palais</tech>, qui s’est
-                aussy tôt reduit en cendre par vn <tech>feu d’artifice</tech>, qui finit cette
-                sixiéme entrée &amp; met fin à cette avanture &amp; aux diuertissemens de l’Île
-                enchantée.</p>
+                    rend="sup">e</hi> entrée, qui font des sauts auec vne force &amp; agilité
+                merueilleuse. <name>Six autres Demons</name> dans la cinquiéme entrtée viennent
+                encore asseurer la <name>Magicienne</name> qu’ils n’oubliront rien pour son repos.
+                Mais à peine commence-t-elle à se r’asseurer qu’elle voit paroistre auprés de
+                    <name>Roger la sage Melisse</name> souz la forme d’<name>Atlas</name> ; elle
+                court pour empécher l’effet de son intention, mais elle arrive trop tard :
+                    <name>Mélisse</name> a déjà mis au doigt de ce braue Chevalier la fameuse bague
+                qui détruit les enchantemens ; lors vn coup de tonnerre, suiuy de plusieurs éclairs,
+                marque la destruction du <tech>Palais</tech>, qui s’est aussy tôt reduit en cendre
+                par vn <tech>feu d’artifice</tech>, qui finit cette sixiéme entrée &amp; met fin à
+                cette avanture &amp; aux diuertissemens de l’Île enchantée.</p>
             <p>
                 <pb n="73" xml:id="p73"/>
             </p>
