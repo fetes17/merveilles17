@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Première journée. Comparse du Roy et de ses chevaliers, auec toutes leurs
+                    suittes, dans le Camp de la course de bague, pendant l'Ouuerture : de la feste
+                    faite par les recits d'Apollon et des quatre siecles, assis sur un grand char de
+                    triomphe</title>
+                <author>Lepautre, Jean</author>
+                <author>Silvestre, Israël</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Merveilles17</edition>
+                <respStmt>
+                    <name>Gaëlle Lafage</name>
+                    <resp>Encodage</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Université d’Artois - Lille, MESHS</publisher>
+                <date when="2019"/>
+                <availability status="restricted">
+                    <licence/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Réserve du Département des Estampes et de la
+                            photographie</repository>
+                        <idno>RESERVE QB-201 (46)-FOL</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <author>Lepautre Jean</author>
+                            <author>Silvestre Israël</author>
+                            <title>Première journée. Comparse du Roy et de ses chevaliers, auec
+                                toutes leurs suittes, dans le Camp de la course de bague, pendant
+                                l'Ouuerture : de la feste faite par les recits d'Apollon et des
+                                quatre siecles, assis sur un grand char de triomphe</title>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="estampe">
+                            <p>Estampe</p>
+                            <supportDesc>
+                                <dimensions unit="cm">
+                                    <height>27,6</height>
+                                    <width>42,3</width>
+                                </dimensions>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date notBefore="1664">1664 ou postérieur</date>
+            </creation>
+            <note>Cette estampe se trouve également reliée dans <ref type="imprimé"
+                target="URI">le livre de la fête publié en 1673 par l'imprimerie royale</note> <!-- GL : je ne sais pas où ni comment faire apparaître ce lien -->
+        </profileDesc>
+    </teiHeader>
+    <figure>
+        <graphic
+            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84047867/f1//full/full/0/native.jpg"/>
+
+        <figDesc>Dans une grande arène entourée de feuillées et ouverte par trois portes ornées, les
+            participants du spectacle se présentent aux spectateurs. Le roi, au centre est entouré
+            des chevaliers, des trompettes et des tymbaliers. Derrière lui, le char d'Apollon,
+            conduit par le Temps. Apollon est assis au sommet, accompagné de l'Age de fer, l'Age
+            d'airain, l'Age de argent et l'Age d'or. Le char est entouré des douze heures du jour et
+            des douze signes du zodiaque. <tech type="decor"/><tech type="machine_terrestre"
+                /><persName key="#louisxiv" role="participant"/><name key="#chevaliers"/><name
+                key="#apollon"/><name key="#temps"/><name key="#quatre_siecles"/><name
+                key="#age_airain"/><name key="#age_fer"/><name key="#age_argent"/><name
+                key="#age_or"/><name key="#heures"/><name key="#zodiaque"/></figDesc>
+        <head>Première journée.</head>
+        <p>Comparse du <persName key="#louisxiv">Roy</persName> et de ses <name key="#chevaliers"
+                >chevaliers</name>, auec toutes leurs suittes, dans le <tech type="decor"
+                >Camp</tech> de la course de bague, pendant l'Ouuerture : de la feste faite par les
+            recits d'<name key="#apollon">Apollon</name> et des <name key="#quatre siecles">quatre
+                siecles</name>, assis sur un grand <tech type="machine_terrestre">char de
+                triomphe</tech>.</p>
+        <p><persName key="#isilvestre" role="auteur">Israel Siluestre</persName>, <foreign
+                xml:lang="la">deline, et sculpsit Parisiis</foreign>.</p>
+    </figure>
+</TEI>
