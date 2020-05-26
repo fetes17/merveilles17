@@ -49,11 +49,11 @@
         <head>LES PLAISIRS DE L’ISLE ENCHHANTÉE.</head>
       </div>
       <div subtype="level1">
-        <head><tech>Course de Bague</tech> faite par le <persName>Roy</persName> à <placeName>Versailles</placeName>, le <date>6. May. 1664</date>.</head>
+        <head><tech>Course de Bague</tech> faite par le <persName key="#louisxiv" role="#commanditaire">Roy</persName> à <placeName>Versailles</placeName>, le <date>6. May. 1664</date>.</head>
         <byline>A <placeName>PARIS</placeName>,</byline>
-        <byline>Par <persName>ROBERT BALLARD</persName>, seul Imprimeur du <persName>Roy</persName> pour la Musique.</byline>
+        <byline>Par <persName key="#ballard" role="#imprimeur">ROBERT BALLARD</persName> <!--doit-on garder le role "imprimeur", au même titre que auteur, etc. ?-->, seul Imprimeur du <persName>Roy</persName> pour la Musique.</byline>
         <byline><date>M. DC. LXIV</date>.</byline>
-        <byline>Auec Priuilege de <persName>sa Majesté</persName>.</byline>
+        <byline>Auec Priuilege de <persName key="#louisxiv">sa Majesté</persName>.</byline>
         <pb n="2" xml:id="p2"/>
         <pb n="3" xml:id="p3"/>
         <div subtype="level2">
@@ -70,19 +70,19 @@
             <pb n="4" xml:id="p4"/>
             <p>leur fuitte, pour faire durer ses plaisirs : Elle joignit à la force, &amp; à la sçituation de son Palais, le pouuoir de ses <name>Demons</name>, la fierté de ses <name>Geants</name> &amp; celle de ses <name>bestes farouches</name> : Mais elle n’eust pas moins de confiance aux diuertissemens <tech>des Promenades</tech>, de <tech>la Dance, des Tournois, des Festins, de la Comedie</tech> &amp; <tech>de la Musique</tech>. Et comme elle auoit autant d’Amans que de Captifs, &amp; qu’ils ne pensoient tous qu’à luy plaire : Ces Illustres <name>Guerriers</name> font vne partie de <tech>Course de Bague</tech> ; &amp; prenant pour sujet les Ieux Pythiens, ausquels <name>Apollon</name> presidoit, ils font leur entrée dans la Lice, auec tous les ornements dont ils peuuent l’accompagner, dans le plus beau lieu que la Nature &amp; l’Art ayent jamais formé, &amp; embelly pour le plaisir de la vie : Mais cette belle <name>Magicienne</name>, de qui les enchantements estoient d’vne force prodigieuse, n’estant pas satisfaire que sa puissance</p>
             <pb n="5" xml:id="p5"/>
-            <p>parust en vn seul endroit de la Terre ; afin de porter en tous lieux le triomphe de sa beauté, par les hommages de ses <name>Cheualliers</name>, a rendu son <tech>Isle flotante</tech> : Et apres auoir visité plusieurs Climats, elle la fait aborder en <placeName>France</placeName>, où le respect &amp; l’admiration que luy causent les rares qualitez de <persName>la Reyne</persName> ; Elle ordonne à ces <name>Guerriers</name> de faire, en faueur de <persName>sa Majesté</persName>, tout ce qu’ils auront peu inventer pour luy plaire par leur adresse, &amp; par leur magnificence.</p>
+            <p>parust en vn seul endroit de la Terre ; afin de porter en tous lieux le triomphe de sa beauté, par les hommages de ses <name>Cheualliers</name>, a rendu son <tech>Isle flotante</tech> : Et apres auoir visité plusieurs Climats, elle la fait aborder en <placeName>France</placeName>, où le respect &amp; l’admiration que luy causent les rares qualitez de <persName key="#marie_therese">la Reyne</persName> ; Elle ordonne à ces <name>Guerriers</name> de faire, en faueur de <persName key="#louisxiv">sa Majesté</persName>, tout ce qu’ils auront peu inventer pour luy plaire par leur adresse, &amp; par leur magnificence.</p>
             <pb n="6" xml:id="p6"/>
             <head type="sub">ORDRE DE L’ENTRÉE DES CHEVALIERS dans le Camp, leurs suittes, &amp; Deuises.</head>
             <p>VN <name>Heraut d’Armes</name>.</p>
-            <p><persName>Monsieur Desbardins</persName>.</p>
+            <p><persName key="#desbardins">Monsieur Desbardins</persName>.</p>
             <p>VN <name>Page de Roger</name>, Chef de la Quadrille, portant sa Lance &amp; l’Escu de sa Devise, accompagné de <name>celuy de Guidon le Sauuage</name>, Mareschal de Camp, &amp; de <name>celuy d’Oger le Danois</name>, Iuge des Courses, portans les Lances &amp; les Escus de leurs Maistres.</p>
             <pb n="7" xml:id="p7"/>
-            <p><persName>Quatre Trompettes</persName>, &amp; <persName>deux Tymballiers</persName>.</p>
-            <p>LE <persName>Duc de Saint-Aignan</persName>, representant <name>Guidon le Sauuage</name>, Mareschal de Camp, ayant pour Deuise vn Tymbre d’Horloge frappé par le Marteau, qui sonne les Heures, auec ces mots.</p>
+            <p><persName role="#musicien">Quatre Trompettes</persName>, &amp; <persName role="#musicien">deux Tymballiers</persName>.</p>
+            <p>LE <persName key="#saint_aignan" role="#acteur">Duc de Saint-Aignan</persName>, representant <name>Guidon le Sauuage</name>, Mareschal de Camp, ayant pour Deuise vn Tymbre d’Horloge frappé par le Marteau, qui sonne les Heures, auec ces mots.</p>
             <p>
               <foreign>De mis golpes mi Ruido.</foreign>
             </p>
-            <p>Le <persName>Duc de Saint-Aignan</persName>, representant <name>Guidon le Sauuage</name>.</p>
+            <p>Le <persName key="#saint_aignan" role="#acteur">Duc de Saint-Aignan</persName>, representant <name>Guidon le Sauuage</name>.</p>
             <p>MADRIGAL.</p>
             <l>LEs combats que j’ay faits dans l’Isle dangereuse,</l>
             <l>Quand de tant de <name>Guerriers</name> je demeuray vainqueur,</l>
@@ -100,18 +100,18 @@
             <l>C’est auoir sur les bras deux étranges querelles,</l>
             <l>Qui sort à son honneur de double combat</l>
             <l>Doit estre ce me semble vn terrible Soldat.</l>
-            <p><persName>Huit Trompettes</persName>, &amp; <persName>deux Tymballiers</persName>.</p>
-            <p><persName>LE ROY</persName>, representant <name>Roger</name>, ayant pour Deuise vn Soleil auec ces mots.</p>
+            <p><persName role="#musicien">Huit Trompettes</persName>, &amp; <persName role="#musicien">deux Tymballiers</persName>.</p>
+            <p><persName key="#louisxiv" role="#acteur">LE ROY</persName>, representant <name>Roger</name>, ayant pour Deuise vn Soleil auec ces mots.</p>
             <p>
               <foreign>Nec Cesso, nec Erro.</foreign>
             </p>
-            <p>Pour <persName>LE ROY</persName>, Representant <name>Roger</name>.</p>
+            <p>Pour <persName key="#louisxiv" role="#destinataire">LE ROY</persName>, Representant <name>Roger</name>.</p>
             <l>CE n’est pas sans raison que la Terre &amp; les Cieux,</l>
             <l>Ont tant d’estonnement pour vn Objet si rare ;</l>
             <l>Qui dans son cours penible, autant que glorieux,</l>
             <l>Iamais ne se repose, &amp; jamais ne s’égare.</l>
             <p>SONNET.</p>
-            <l>Pour <persName>LE ROY</persName>, sous le nom de <name>ROGER</name>.</l>
+            <l>Pour <persName key="#louisxiv" role="#destinataire">LE ROY</persName>, sous le nom de <name>ROGER</name>.</l>
             <l>QVelle taille, quel port a ce fier Conquérant !</l>
             <l>Sa personne éblouit quiconque l’examine,</l>
             <l>Et quoy que par son Poste il soit déjà si Grand,</l>
@@ -127,18 +127,18 @@
             <l>Il efface l’éclat des Héros anciens,</l>
             <l>N’a que l’honneur en veuë, et ne tire l’épée</l>
             <l>Que pour des interests qui ne sont pas siens.</l>
-            <p>Le <persName>Duc de Noailles</persName>, representant <name>Oger le Danois</name>, Iuge des Courses, ayant pour Deuise vn Aigle, qui voyant le Soleil, s’esleue &amp; ouure ses Ailes pour s’en approcher, auec ces mots.</p>
+            <p>Le <persName key="#anne_de_noailles" role="#acteur">Duc de Noailles</persName>, representant <name>Oger le Danois</name>, Iuge des Courses, ayant pour Deuise vn Aigle, qui voyant le Soleil, s’esleue &amp; ouure ses Ailes pour s’en approcher, auec ces mots.</p>
             <p>
               <foreign>Fidelis &amp; audax.</foreign>
             </p>
-            <p>Le <persName>Duc de Noailles</persName>. <name>Oger le Danois</name> Iuge du Camp.</p>
+            <p>Le <persName key="#anne_de_noailles" role="#acteur">Duc de Noailles</persName>. <name>Oger le Danois</name> Iuge du Camp.</p>
             <l><name>CE Paladin</name> s’applique a cette seule affaire</l>
             <l>De seruir dignement le plus puissant des Rois,</l>
             <l>Comme pour bien juger il faut sçavoir bien faire</l>
             <l>Ie doute que personne appelle de sa voix.</l>
             <pb n="10" xml:id="p10"/>
-            <p><persName>Le Duc de Guise</persName>, &amp; <persName>le Comte d’Armagnac</persName> ensemble.</p>
-            <p><persName>Le Duc de Guise</persName>, representant <name>Aquilant le noir</name>, ayant pour Deuise vn Lyon qui dort, auec ces mots.</p>
+            <p><persName key="#henri_ii_de_guise" role="#acteur">Le Duc de Guise</persName>, &amp; <persName key="#henri_de_lorraine" role="#acteur">le Comte d’Armagnac</persName> ensemble.</p>
+            <p><persName key="#henri_ii_de_guise" role="#acteur">Le Duc de Guise</persName>, representant <name>Aquilant le noir</name>, ayant pour Deuise vn Lyon qui dort, auec ces mots.</p>
             <p>
               <foreign>Et quiescente pauescunt.</foreign>
             </p>
