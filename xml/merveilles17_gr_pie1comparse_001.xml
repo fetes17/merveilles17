@@ -63,7 +63,7 @@
                 <date notBefore="1664">1664 ou postérieur</date>
             </creation>
             <note>Cette estampe se trouve également reliée dans <ref type="imprimé"
-                target="URI">le livre de la fête publié en 1673 par l'imprimerie royale</note> <!-- GL : je ne sais pas où ni comment faire apparaître ce lien -->
+                target="URI">le livre de la fête publié en 1673 par l'imprimerie royale</ref></note> <!-- GL : je ne sais pas où ni comment faire apparaître ce lien -->
         </profileDesc>
     </teiHeader>
     <figure>
@@ -80,10 +80,10 @@
                 key="#apollon"/><name key="#temps"/><name key="#quatre_siecles"/><name
                 key="#age_airain"/><name key="#age_fer"/><name key="#age_argent"/><name
                 key="#age_or"/><name key="#heures"/><name key="#zodiaque"/></figDesc>
-        <head>Première journée.</head>
+        <head><date when="1664-05-06">Première journée</date>.</head>
         <p>Comparse du <persName key="#louisxiv">Roy</persName> et de ses <name key="#chevaliers"
                 >chevaliers</name>, auec toutes leurs suittes, dans le <tech type="decor"
-                >Camp</tech> de la course de bague, pendant l'Ouuerture : de la feste faite par les
+                    >Camp</tech> de la course de bague, pendant l'Ouuerture : de la feste faite par les
             recits d'<name key="#apollon">Apollon</name> et des <name key="#quatre siecles">quatre
                 siecles</name>, assis sur un grand <tech type="machine_terrestre">char de
                 triomphe</tech>.</p>
