@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>L’Automne. Le sieur La Thorillière sur un chameau</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Merveilles17</edition>
+                <respStmt>
+                    <name>Mathilde Nicolas</name>
+                    <resp>Encodage</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Université d’Artois - Lille, MESHS</publisher>
+                <date when="2019"/>
+                <availability status="restricted">
+                    <licence/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Suède</country>
+                        <settlement>Stockolm</settlement>
+                        <institution>Konstakademien</institution>
+                        <repository></repository>
+                        <idno>portef. 22, no 31</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem></msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="dessin">
+                            <p>Contre-épreuve d'un dessin à la pierre noire</p>
+                            <supportDesc>
+                                <dimensions unit="cm">
+                                    <height>52</height>
+                                    <width>37,5</width>
+                                </dimensions>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date notBefore="1664">1664 ou postérieur</date>
+            </creation>
+            <note>Une contre-épreuve de ce dessin semble conservée à <ref type="dessin" target="URI"
+                >Bibliothèque Nationale de France, Département des Estampes, OA 37 (2) Fol</ref></note>
+        </profileDesc>
+    </teiHeader>
+    <figure>
+        <graphic url=""/>
+        <figDesc>Une jeune femme, vêtue d'un riche costume et tenant une baguette, est assise sur un chameau également paré.
+            Un page les guide.<name key="#automne"/><tech type="chameau"/><tech
+                type="costume"/></figDesc>
+    </figure>
+</TEI>
