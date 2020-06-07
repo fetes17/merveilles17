@@ -10,6 +10,9 @@
         <ref name="xml.lang"/>
         <ref name="teiHeader"/>
         <element name="text">
+          <optional>
+            <ref name="front"/>
+          </optional>
           <ref name="body"/>
         </element>
       </element>
@@ -172,7 +175,13 @@
                     <optional>
                       <ref name="xml.id"/>
                     </optional>
-                    <ref name="when"/>
+                    <choice>
+                      <ref name="when"/>
+                      <group>
+                        <ref name="from"/>
+                        <ref name="to"/>
+                      </group>
+                    </choice>
                     <ref name="placeName"/>
                     <optional>
                       <ref name="label"/>
@@ -215,16 +224,16 @@
     <define name="body">
       <element name="body">
         <a:documentation>Texte principal</a:documentation>
-        <choice>
-          <group>
-            <ref name="div.content"/>
-          </group>
-          <group>
-            <oneOrMore>
-              <ref name="div"/>
-            </oneOrMore>
-          </group>
-        </choice>
+        <ref name="div.content"/>
+        <zeroOrMore>
+          <ref name="div"/>
+        </zeroOrMore>
+      </element>
+    </define>
+    <define name="front">
+      <element name="front">
+        <a:documentation>Avant-texte, optionnel, pour page de titre</a:documentation>
+        <ref name="titlePage"/>
       </element>
     </define>
     <define name="div">
@@ -285,6 +294,31 @@
         <ref name="chars"/>
       </element>
     </define>
+    <define name="titlePage">
+      <element name="titlePage">
+        <a:documentation>Page de titre</a:documentation>
+        <oneOrMore>
+          <choice>
+            <element name="docTitle">
+              <oneOrMore>
+                <element name="titlePart">
+                  <ref name="chars"/>
+                </element>
+              </oneOrMore>
+            </element>
+            <element name="docImprint">
+              <ref name="chars"/>
+            </element>
+            <element name="docDate">
+              <ref name="chars"/>
+            </element>
+            <element name="imprimatur">
+              <ref name="chars"/>
+            </element>
+          </choice>
+        </oneOrMore>
+      </element>
+    </define>
     <define name="trailer">
       <element name="trailer">
         <a:documentation>Un titre de fin, ex : « Fin de la premiére Journée. »</a:documentation>
@@ -311,7 +345,7 @@
           <ref name="ana"/>
         </optional>
         <optional>
-          <ref name="rend.font"/>
+          <ref name="rend.block"/>
         </optional>
         <zeroOrMore>
           <choice>
@@ -325,7 +359,7 @@
       <element name="l">
         <a:documentation>Un vers, peut être contenu dans une strophe <a:el>lg</a:el></a:documentation>
         <optional>
-          <ref name="rend.font"/>
+          <ref name="rend.block"/>
         </optional>
         <optional>
           <ref name="xml.lang"/>
@@ -346,7 +380,7 @@
           <ref name="ana"/>
         </optional>
         <optional>
-          <ref name="rend.font"/>
+          <ref name="rend.block"/>
         </optional>
         <optional>
           <ref name="label"/>
@@ -379,7 +413,7 @@
           <ref name="ana"/>
         </optional>
         <optional>
-          <ref name="rend.font"/>
+          <ref name="rend.block"/>
         </optional>
         <zeroOrMore>
           <choice>
@@ -412,7 +446,7 @@
     <define name="p">
       <element name="p">
         <optional>
-          <ref name="rend.font"/>
+          <ref name="rend.block"/>
         </optional>
         <optional>
           <ref name="xml.lang"/>
@@ -437,6 +471,7 @@
           <ref name="persName"/>
           <ref name="pb"/>
           <ref name="placeName"/>
+          <ref name="orgName"/>
           <ref name="seg"/>
           <ref name="sup"/>
           <ref name="sc"/>
@@ -501,7 +536,7 @@
           <attribute name="ana"/>
         </optional>
         <optional>
-          <ref name="rend.font"/>
+          <ref name="rend.inline"/>
         </optional>
         <zeroOrMore>
           <choice>
@@ -547,10 +582,32 @@
           <ref name="key"/>
         </optional>
         <optional>
-          <ref name="rend.font"/>
+          <ref name="rend.inline"/>
         </optional>
         <optional>
-          <attribute name="role"/>
+          <attribute name="role">
+            <list>
+              <oneOrMore>
+                <choice>
+                  <value>acteur</value>
+                  <value>danseur</value>
+                  <value>chanteur</value>
+                  <value>musicien</value>
+                  <value>auteur</value>
+                  <value>convive</value>
+                  <value>participant</value>
+                  <value>spectateur</value>
+                  <value>commanditaire</value>
+                  <value>destinataire</value>
+                  <value>fournisseur</value>
+                  <value>organisation</value>
+                  <value>artificier</value>
+                  <value>fontainier</value>
+                  <value>dessinateur</value>
+                </choice>
+              </oneOrMore>
+            </list>
+          </attribute>
         </optional>
         <zeroOrMore>
           <choice>
@@ -568,8 +625,13 @@
           <ref name="key"/>
         </optional>
         <optional>
-          <ref name="rend.font"/>
+          <ref name="rend.inline"/>
         </optional>
+        <text/>
+      </element>
+    </define>
+    <define name="orgName">
+      <element name="orgName">
         <text/>
       </element>
     </define>
@@ -580,7 +642,7 @@
           <ref name="ana"/>
         </optional>
         <optional>
-          <ref name="rend.font"/>
+          <ref name="rend.inline"/>
         </optional>
         <ref name="chars"/>
       </element>
@@ -619,7 +681,28 @@
       <element name="tech">
         <a:documentation>Technique théâtrale</a:documentation>
         <optional>
-          <attribute name="type"/>
+          <attribute name="type">
+            <list>
+              <oneOrMore>
+                <choice>
+                  <value>construction</value>
+                  <value>décor</value>
+                  <value>costume</value>
+                  <value>animal</value>
+                  <value>machine-volante</value>
+                  <value>machine-terrestre</value>
+                  <value>machine-aquatique</value>
+                  <value>machine-musciale</value>
+                  <value>machine-du-temps</value>
+                  <value>trappe</value>
+                  <value>bruitage</value>
+                  <value>éclairage</value>
+                  <value>jeux-d'eaux</value>
+                  <value>feux-d'artifice</value>
+                </choice>
+              </oneOrMore>
+            </list>
+          </attribute>
         </optional>
         <text/>
       </element>
@@ -653,25 +736,61 @@
         <a:documentation>Terme normalisé (clé de regroupement) pour une entité indexable (personne, lieu…)</a:documentation>
       </attribute>
     </define>
-    <define name="rend.font">
+    <define name="rend.block">
       <attribute name="rend">
-        <a:documentation>Indication de rendu, selon un vocabulaire contrôlé. Interprété comme une liste de classes CSS comme dans l'attribut @html5:class</a:documentation>
+        <a:documentation>Indication de rendu de noiveau paragraphe, selon un vocabulaire contrôlé. Interprété comme une liste de classes CSS comme dans l'attribut @html5:class</a:documentation>
         <list>
           <oneOrMore>
             <choice>
-              <value>i</value>
-              <a:documentation>italique “italic” &lt;html5:i></a:documentation>
-              <value>sc</value>
-              <a:documentation>petites capitales “small-caps”</a:documentation>
-              <value>uc</value>
-              <a:documentation>capitales “uppercase”</a:documentation>
+              <ref name="rend.font"/>
+              <ref name="rend.align"/>
             </choice>
           </oneOrMore>
         </list>
       </attribute>
     </define>
+    <define name="rend.inline">
+      <attribute name="rend">
+        <a:documentation>Indication de rendu de niveau caractère, selon un vocabulaire contrôlé. Interprété comme une liste de classes CSS comme dans l'attribut @html5:class</a:documentation>
+        <list>
+          <oneOrMore>
+            <choice>
+              <ref name="rend.font"/>
+            </choice>
+          </oneOrMore>
+        </list>
+      </attribute>
+    </define>
+    <define name="rend.font">
+      <choice>
+        <value>i</value>
+        <a:documentation>italique “italic” &lt;html5:i></a:documentation>
+        <value>sc</value>
+        <a:documentation>petites capitales “small-caps”</a:documentation>
+        <value>uc</value>
+        <a:documentation>capitales “uppercase”</a:documentation>
+      </choice>
+    </define>
+    <define name="rend.align">
+      <choice>
+        <value>center</value>
+        <a:documentation>bloc centré</a:documentation>
+        <value>right</value>
+        <a:documentation>bloc à droite</a:documentation>
+      </choice>
+    </define>
     <define name="when">
       <attribute name="when">
+        <ref name="date.type"/>
+      </attribute>
+    </define>
+    <define name="from">
+      <attribute name="from">
+        <ref name="date.type"/>
+      </attribute>
+    </define>
+    <define name="to">
+      <attribute name="to">
         <ref name="date.type"/>
       </attribute>
     </define>
@@ -688,6 +807,7 @@
       <attribute name="xml:lang">
         <a:documentation>Code normalisé de langue</a:documentation>
         <choice>
+          <value>es</value>
           <value>fr</value>
           <value>it</value>
           <value>la</value>

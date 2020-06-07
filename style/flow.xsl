@@ -2043,6 +2043,9 @@ Elements block or inline level
         <a>
           <!-- linking policy will be resolved from the "linking" template, matched by @ref attribute -->
           <xsl:call-template name="atts"/>
+          <xsl:attribute name="id">
+            <xsl:call-template name="id"/>
+          </xsl:attribute>
           <!-- Make an exception here for @xml:base ? -->
           <xsl:choose>
             <xsl:when test="self::tei:persName">
@@ -2058,6 +2061,9 @@ Elements block or inline level
       <xsl:otherwise>
         <span>
           <xsl:call-template name="atts"/>
+          <xsl:attribute name="id">
+            <xsl:call-template name="id"/>
+          </xsl:attribute>
           <xsl:apply-templates/>
         </span>
       </xsl:otherwise>

@@ -25,3 +25,11 @@ main {
 #header > * {
   display: block;
 }
+
+#aside {
+  position: fixed;
+  overflow-y: visible;
+  width: 20rem;
+  top:0;
+  left: 0;
+}

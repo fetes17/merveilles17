@@ -15,22 +15,52 @@ foreach (glob("pages/*.html") as $srcfile) {
 }
 
 
-$biblio = array();
-$biblio[] = "<article>";
-$biblio[] = '<ul class="biblio">';
+$fwpers = fopen("pers.tsv", "w");
+$fwtech = fopen("tech.tsv", "w");
+
 foreach (glob("../xml/*.xml") as $srcfile) {
-  $dstfile = basename($srcfile, ".xml").".html";
+  $dstname = basename($srcfile, ".xml");
+  $dstfile = $dstname.".html";
   echo basename($srcfile),"\n";
   $dom = Build::dom($srcfile);
   $main = Build::transformDoc($dom, $xslpage);
   file_put_contents($dstfile, str_replace("%main%", $main, $template));
-  $biblio[] = Build::transformDoc($dom, $xslbiblio, null, array('href' => basename($dstfile)));
+  // data
+  $pers = Build::transformDoc($dom, "theme/pers.xsl", null, array('filename' => $dstname));
+  fwrite($fwpers, $pers);
+  $tech = Build::transformDoc($dom, "theme/tech.xsl", null, array('filename' => $dstname));
+  fwrite($fwtech, $tech);
 }
-$biblio[] = "</ul>";
-$biblio[] = "</article>";
-file_put_contents("biblio.html", str_replace("%main%", implode("\n", $biblio), $template));
+
+// file_put_contents("biblio.html", str_replace("%main%", implode("\n", $biblio), $template));
 
 
+class Merveilles17
+{
+  /** SQLite link, maybe useful outside */
+  static public $pdo;
+  /** La base de données */
+  static private $sqlfile = "labymots.sqlite";
+
+  static private $create = "
+PRAGMA encoding = 'UTF-8';
+PRAGMA page_size = 8192;
+
+CREATE table pers (
+  -- une personne
+  id          INTEGER,        -- ! rowid auto
+  text        TEXT NOT NULL,  -- ! forme dans le texte
+  key         TEXT,           -- ! clé
+  role        TEXT,           -- ! role
+  filename    TEXT NOT NULL,  -- ! nom du fichier source
+  anchor      TEXT NOT NULL,  -- ! ancre dans le ficheir source
+  PRIMARY KEY(id ASC)
+);
+CREATE INDEX pers_role ON pers(role, key, text);
+
+  ";
+
+}
 
 class Build
 {
@@ -75,9 +105,7 @@ class Build
     $key = realpath($xslfile);
     // cache compiled xsl
     if (!isset(self::$transcache[$key])) {
-      // renew the processor
-      self::$transcache[$key] = new XSLTProcessor();
-      $trans = self::$transcache[$key];
+      $trans = new XSLTProcessor();
       $trans->registerPHPFunctions();
       // allow generation of <xsl:document>
       if (defined('XSL_SECPREFS_NONE')) $prefs = XSL_SECPREFS_NONE;
@@ -89,6 +117,7 @@ class Build
       $xsldom = new DOMDocument();
       $xsldom->load($xslfile);
       $trans->importStyleSheet($xsldom);
+      self::$transcache[$key] = $trans;
     }
     $trans = self::$transcache[$key];
     // add params
