@@ -104,7 +104,6 @@ LGPL  http://www.gnu.org/licenses/lgpl.html
             <xsl:apply-templates select="$children" mode="toclocal"/>
           </ul>
         </xsl:when>
-        <!-- Should ne  -->
       </xsl:choose>
     </li>
   </xsl:template>
