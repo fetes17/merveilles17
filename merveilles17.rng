@@ -632,6 +632,9 @@
     </define>
     <define name="orgName">
       <element name="orgName">
+        <optional>
+          <ref name="key"/>
+        </optional>
         <text/>
       </element>
     </define>
