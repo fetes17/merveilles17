@@ -336,6 +336,7 @@
         <ref name="list"/>
         <ref name="p"/>
         <ref name="pb"/>
+        <ref name="stage"/>
       </choice>
     </define>
     <define name="head">
@@ -445,12 +446,22 @@
     </define>
     <define name="p">
       <element name="p">
+        <a:documentation>Paragraphe html5 : p</a:documentation>
         <optional>
           <ref name="rend.block"/>
         </optional>
         <optional>
           <ref name="xml.lang"/>
         </optional>
+        <optional>
+          <ref name="ana"/>
+        </optional>
+        <ref name="chars"/>
+      </element>
+    </define>
+    <define name="stage">
+      <element name="stage">
+        <a:documentation>Didascalie</a:documentation>
         <optional>
           <ref name="ana"/>
         </optional>
@@ -568,9 +579,7 @@
     <define name="pb">
       <element name="pb">
         <a:documentation>Saut de page, “page break”, à placer avant le début du texte de la page, avec le numéro</a:documentation>
-        <attribute name="n">
-          <data type="integer"/>
-        </attribute>
+        <attribute name="n"/>
         <optional>
           <ref name="xml.id"/>
         </optional>
@@ -612,6 +621,7 @@
         <zeroOrMore>
           <choice>
             <text/>
+            <ref name="orgName"/>
             <ref name="sc"/>
             <ref name="sup"/>
           </choice>
@@ -707,7 +717,12 @@
             </list>
           </attribute>
         </optional>
-        <text/>
+        <zeroOrMore>
+          <choice>
+            <text/>
+            <ref name="name"/>
+          </choice>
+        </zeroOrMore>
       </element>
     </define>
   </div>
