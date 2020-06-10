@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Le char d'Apollon, conduit par le Temps lors de la première journée des
+                    Plaisirs de l'Ile enchantée</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Merveilles17</edition>
+                <respStmt>
+                    <name>Mathilde Nicolas</name>
+                    <resp>Encodage</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Université d’Artois - Lille, MESHS</publisher>
+                <date when="2019"/>
+                <availability status="restricted">
+                    <licence/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives Nationales</institution>
+                        <repository/>
+                        <idno>Cartes et plans, O1 3241, n° 77b</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <title>Le char d'Apollon, conduit par le Temps lors de la première
+                                journée des Plaisirs de l'Ile enchantée</title>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="dessin">
+                            <p>Contre-épreuve d’un dessin à la pierre noire</p>
+                            <supportDesc>
+                                <dimensions unit="cm">
+                                    <height>25,5</height>
+                                    <width>39,2</width>
+                                </dimensions>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date notBefore="1664">Après 1664</date>
+            </creation>
+            <note>Il s'agit certainement de la contre-épreuve du dessin conservé à <ref
+                    type="dessin" target="URI">BnF, OA 37 (2) Fol, fol. 171</ref></note>
+        </profileDesc>
+    </teiHeader>
+    <figure>
+        <graphic
+            url="http://www2.culture.gouv.fr/Wave/image/archim/MP/FRDAFAN08_SCEK000646N_2.jpg
+            "/>
+
+        <figDesc>Le char d'Apollon, richement décoré, est tiré par quatre chevaux et conduit par le
+            Temps. Apollon est assis au sommet, accompagné de l'Âge de fer, l'Age d'airain, l'Âge
+            d'argent et l'Âge d'or.<tech type="machine_terrestre"/><tech type="costume"/><name
+                key="#apollon"/><name key="#temps"/><name key="#quatre_siecles"/><name
+                key="#age_fer"/><name key="#age_airain"/><name key="#age_argent"/><name
+                key="#age_or"/></figDesc>
+    </figure>
+</TEI>
