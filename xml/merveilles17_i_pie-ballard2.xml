@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
-<?xml-stylesheet type="text/css" href="../tei-author.css" alternate="author"?>
+<?xml-stylesheet type="text/css" href="../style/tei-author.css" alternate="author"?>
 <?xml-model href="../merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
@@ -61,6 +61,7 @@
   </teiHeader>
   <text>
     <front>
+      <pb n="np" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f9"/>
       <titlePage>
         <docTitle>
           <titlePart>LES PLAISIRS DE L'ISLE ENCHANTÉE. COVRSE DE BAGVE, Collation ornée de Machines, Comedie meslée de Danse &amp; de Musique, Ballet du Palais d’Alcine, Feu d’Artifice : Et autres festes galantes &amp; magnifiques; faites par le Roy à Versailles, le 7. may 1664. Et continuées plusieurs autres Iours</titlePart>
@@ -73,13 +74,13 @@
     </front>
     <body>
       <div>
-        <pb n="3"/>
+        <pb n="3" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f11"/>
         <head>LES PLAISIRS DE L'ISLE ENCHANTÉE. COVRSE DE BAGVE, Collation ornée de Machines, Comedie meslée de Danse et de Musique, Ballet du Palais d'Alcine, Feu d'Artifice : Et Autres Festes galantes &amp; magnifiques ; faites par le Roy à Versailles,le <date when="1664-05-07">7. May 1664</date>. Et continuées plusieurs autres Iours.</head>
-        <p><persName key="#louisxiv" role="organisateur">LE ROY</persName> voulant donner aux <persName key="#anne_d_autriche #marie_therese" role="spectateur">Reynes</persName>, &amp; à toute sa Cour le plaisir de quelques Festes peu communes, dans vn lieu orné de tous les agrements qui peuuent faire admirer vne Maison de Campagne, choisit <placeName key="loc:Versailles">Versailles</placeName>, à quatre lieuës de <placeName key="loc:Paris">Paris</placeName>. C’est vn Chasteau qu’on peut nommer vn Palais Enchanté, tant les adjustements de l’art ont bien secondé les soins que la Nature a pris pour le rendre parfait: Il charme en toutes manieres, tout y rit dehors &amp; dedans, l’or &amp; le marbre y disputent de beauté et d’esclat : Et quoy qu’il n’ayt pas cette grande estenduë qui se remarque en quelques autres Palais de <persName key="#louisxiv" role="organisateur">sa Majesté</persName>: Toutes choses y sont si polies, si bien entenduës <pb n="4"/> &amp; si acheuées, que rien ne le peut esgaler. Sa symetrie, la richesse de ses meubles, la beauté de ses promenades, &amp; le nombre infiny de ses fleurs, comme de ses orangers, rendent les enuirons de ce lieu dignes de sa rareté singuliere: La diuersité des bestes contenuës dans les deux Parcs, &amp; dans la Menagerie, ou plusieurs courts en Estoilles sont accompagnées de Viuiers pour les animaux aquatiques, auec de grands bastiments, joignent le plaisir auec la magnificence, &amp; en font vne maison accomplie.</p>
+        <p><persName key="#louisxiv" role="organisateur">LE ROY</persName> voulant donner aux <persName key="#anne_d_autriche #marie_therese" role="spectateur">Reynes</persName>, &amp; à toute sa Cour le plaisir de quelques Festes peu communes, dans vn lieu orné de tous les agrements qui peuuent faire admirer vne Maison de Campagne, choisit <placeName key="loc:Versailles">Versailles</placeName>, à quatre lieuës de <placeName key="loc:Paris">Paris</placeName>. C’est vn Chasteau qu’on peut nommer vn Palais Enchanté, tant les adjustements de l’art ont bien secondé les soins que la Nature a pris pour le rendre parfait: Il charme en toutes manieres, tout y rit dehors &amp; dedans, l’or &amp; le marbre y disputent de beauté et d’esclat : Et quoy qu’il n’ayt pas cette grande estenduë qui se remarque en quelques autres Palais de <persName key="#louisxiv" role="organisateur">sa Majesté</persName>: Toutes choses y sont si polies, si bien entenduës <pb n="4" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f12"/> &amp; si acheuées, que rien ne le peut esgaler. Sa symetrie, la richesse de ses meubles, la beauté de ses promenades, &amp; le nombre infiny de ses fleurs, comme de ses orangers, rendent les enuirons de ce lieu dignes de sa rareté singuliere: La diuersité des bestes contenuës dans les deux Parcs, &amp; dans la Menagerie, ou plusieurs courts en Estoilles sont accompagnées de Viuiers pour les animaux aquatiques, auec de grands bastiments, joignent le plaisir auec la magnificence, &amp; en font vne maison accomplie.</p>
         <p>CE fut en ce beau lieu ou toute la Cour se rendit <date when="1664-05-05">le cinquiesme de May</date>, que <persName key="#louisxiv" role="organisateur">le Roy</persName> traitta plus de six cent personnes jusques au <date when="1664-05-14">quatorziesme</date>; outre vne infinité de gens necessaires à la <!-- à voir si on encode quand il s'agit de désignation générale ? --> <orgName key="danse">danse</orgName> &amp; à la <orgName key="comedie">Comedie</orgName>, &amp; d’Artisans de toutes sortes venus de Paris; si bien que cela paroissoit vne petite armée.</p>
         <p>Le Ciel mesme sembla fauoriser les desseins de <persName key="#louisxiv" role="organisateur">sa Majesté</persName>, puis qu’en vne saison presque toûjours pluuieuse on en fut quitte pour vn peu de vent, qui sembla n’auoir augmenté, qu'afin de faire voir que la preuoyance &amp; la puissance du <persName key="#louisxiv" role="organisateur">Roy</persName>, estoient à l’espreuve des plus grandes incommoditez; de <tech type="couture">hautes toilles</tech>, des <tech type="construction">bastimens de bois</tech> faits presque en vn instant, &amp; vn <tech type="éclairage">nombre prodigieux de flambeaux de cire blanche</tech>, pour suppléer à plus de quatre mille bougies chaque journée, resisterent à ce vent; qui par tout ailleurs eust rendu ces diuertissements comme impossibles à acheuer.</p>
         <p> <persName key="#vigarani" role="ingenieur"><orgName key="menusplaisirs"/>Monsieur de Vigarini</persName>, Gentilhomme Modenois, fort sçauant en toutes ces choses, inuenta &amp; proposa celles-cy ; &amp; <persName key="#louisxiv" role="organisateur">le Roy</persName> commanda au <persName key="#saint_aignan" role="auteur"><orgName key="#chambre"/>Duc de S. Aignan</persName>, qui se trouua lors en fonction de <orgName key="#chambre">premier Gentilhomme de sa Chambre</orgName>, &amp; qui auoit déjà donné plusieurs sujets de Ballet fort agreables; de faire vn dessein ou elles fussent toutes comprises auec liaison &amp; auec ordre; de sorte qu’elles ne pouuoient manquer de bien reussir.</p>
-        <p>Il prit pour sujet le <title>Palais d’Alcine</title>, qui donna lieu au Tiltre des <title>Plaisirs de l’Isle Enchantée</title>; puis que selon l’<persName key="#arioste">Arioste</persName>, le braue <name key="#roger">Roger</name> &amp; plusieurs autres bon Cheualliers y furent retenus par les doubles charmes de la beauté, quoy <pb n="5"/> qu'empruntée, &amp; du sçauoir de <name key="#alcine">cette Magicienne</name>; &amp; en furent déliurez apres beaucoup de temps consommé dans les delices, par la bague qui destruisoit les enchantemens: C’estoit celle d’<name key="#angelique">Angelique</name>, que <name key="#melisse">Melisse</name> sous la forme du vieux <name key="atlas">Atlas</name>, mit enfin au doigt de <name key="#roger">Roger</name>.</p>
+        <p>Il prit pour sujet le <title>Palais d’Alcine</title>, qui donna lieu au Tiltre des <title>Plaisirs de l’Isle Enchantée</title>; puis que selon l’<persName key="#arioste">Arioste</persName>, le braue <name key="#roger">Roger</name> &amp; plusieurs autres bon Cheualliers y furent retenus par les doubles charmes de la beauté, quoy <pb n="5" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f13"/> qu'empruntée, &amp; du sçauoir de <name key="#alcine">cette Magicienne</name>; &amp; en furent déliurez apres beaucoup de temps consommé dans les delices, par la bague qui destruisoit les enchantemens: C’estoit celle d’<name key="#angelique">Angelique</name>, que <name key="#melisse">Melisse</name> sous la forme du vieux <name key="atlas">Atlas</name>, mit enfin au doigt de <name key="#roger">Roger</name>.</p>
         <p>On fit donc en peu de jours <tech type="décor">orner vn Rond, ou quatre grandes allées aboutissent entre de hautes palissades; de quatre Portiques de trente-cinq pieds d’éleuation, &amp; de vingt-deux en quarré d’ouuerture; de plusieurs festons enrichis d’or, &amp; de diuerses peintures auec les armes de <persName key="#louisxiv" role="organisateur">sa Majesté</persName>.</tech></p>
       </div>
       <div>
@@ -97,7 +98,7 @@
         <p>Les deux autres pages estoient aux Ducs de <persName key="#saint_aignan">S. Aignan</persName> &amp; de <persName key="#anne_de_noailles">Noailles</persName>; Le premier Mareschal de Camp, &amp; l’autre Iuge des Courses.</p>
         <p>Celuy du Duc de <persName key="#saint_aignan">S. Aignan</persName> portoit l’Escu de sa Deuise, &amp; estoit habillé de sa liurée de toille d’argent enrichie d’or, auec les plumes incarnates &amp; noires &amp; les rubans de mesme: Sa Deuise estoit telle. Vn Tymbre d’Horloge, auec ces mots.</p>
         <l ana="devise" xml:lang="la">De mis golpes mi Ruido.</l>
-        <p><pb n="6"/> Le Page du Duc de <persName key="#anne_de_noailles">Noailles</persName> estoit vestu de couleur de feu, argent &amp; noir; &amp; le reste de la liurée semblable: La Deuise qu’il portoit dans son Escu, estoit vn Aigle auec ces mots.</p>
+        <p><pb n="6" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f14"/> Le Page du Duc de <persName key="#anne_de_noailles">Noailles</persName> estoit vestu de couleur de feu, argent &amp; noir; &amp; le reste de la liurée semblable: La Deuise qu’il portoit dans son Escu, estoit vn Aigle auec ces mots.</p>
         <l ana="devise" xml:lang="la">Fidelis &amp; audax.</l>
         <p>Quatre Trompettes &amp; deux Tymballiers, marchoient apres ces Pages, <tech type="costume">habillez de satin couleur de feu, &amp; argent; leurs plumes de la mesme liurée, &amp; les carapaçons de leurs cheuaux couuerts d’vne pareille broderie, auec des Soleils d’or fort esclatants aux banderolles des Trompettes, &amp; les couuertures des Tymballes</tech>.</p>
         <p><persName key="#saint_aignan" role="acteur">Le Duc de S. Aignan</persName> Mareschal de Camp, marchoit apres eux armé à la Grecque, d’vne cuirasse de toille d’argent couuerte de petites escailles d’or; aussi bien que son bas de saye, &amp; son Casque estoit orné d’vn Dragon, &amp; d’vn grand nombre de plumes blanches, meslées d’incarnat &amp; de noir: Il montoit vn cheval blanc, bardé de mesme, &amp; representoit <name key="guidon_le_sauvage" corresp="#saint_aignan">Guidon le Sauuage</name>. </p>
@@ -120,7 +121,7 @@
           <l>Qui sort à son honneur de ce double combat</l>
           <l>Doit estre ce me semble vn terrible Soldat.</l>
         </lg>
-        <l><pb n="7"/> Huit Trompettes &amp; deux Tymballiers, vestus comme les premiers, marchoient apres le Mareschal de Camp.</l>
+        <l><pb n="7" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f15"/> Huit Trompettes &amp; deux Tymballiers, vestus comme les premiers, marchoient apres le Mareschal de Camp.</l>
         <p><persName key="#louisxiv" role="acteur">LE ROY</persName> representant <name key="roger" corresp="#louisxiv">Roger</name>, les suiuoit, montant vn des plus beaux cheuaux du monde, dont le harnois couleur de feu esclattoit d’or, d’argent &amp; de pierreries: <persName key="#louisxiv" role="acteur">Sa Majesté</persName> <tech type="costume">estoit armée à la façon des Grecs comme tous ceux de sa Quadrille, &amp; portoit vne cuirasse de lame d’argent, couuerte d’vne riche broderie d’or &amp; de diamans. Son port &amp; toute son action estoient dignes de son rang ; son Casque tout couuert de plumes couleur de feu</tech>, auoit vne grace incomparable ; &amp; jamais vn air plus libre, ny plus guerrier, n’a mis vn mortel au dessus des autres hommes.</p>
         <lg ana="sonnet">
           <l>SONNET</l>
@@ -141,7 +142,7 @@
           <l>Que pour des interests qui ne sont pas les siens.</l>
         </lg>
         <p> <persName key="#anne_de_noailles" role="acteur">Le Duc de Noailles</persName>, Iuge du Camp sous le nom d’ <name key="#oger_le_danois" corresp="#anne_de_noailles">Oger le Danois</name>, marchoit apres le Roy, <tech type="costume">portant la couleur de feu &amp; le noir sous vne riche broderie d’argent, &amp; ces plumes aussi bien que tout le reste de son esquipage estoient de cette mesme liurée</tech>.</p>
-        <p><pb n="8"/> <persName key="#anne_de_noailles" role="acteur">Le duc de Noailles</persName>. <name rend="i" key="#oger_le_danois">Oger le Danois</name> Iuge du Camp.</p>
+        <p><pb n="8" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f16"/> <persName key="#anne_de_noailles" role="acteur">Le duc de Noailles</persName>. <name rend="i" key="#oger_le_danois">Oger le Danois</name> Iuge du Camp.</p>
         <lg>
           <l>CE paladin s’applique à cette seule affaire</l>
           <l>De seruir dignement le plus puissant des Rois,</l>
@@ -170,7 +171,7 @@
           <l>Et c’est vn grand bonheur que d’auoir à son âge</l>
           <l>La chaleur necessaire, et le flegme qu’il faut.</l>
         </lg>
-        <p><pb n="9"/> <persName key="#armand_du_cambout" role="acteur">Le Duc de Coaslin</persName>. <name rend="i" key="dudon" corresp="#henri_du_cambout">Dudon</name>.</p>
+        <p><pb n="9" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f17"/> <persName key="#armand_du_cambout" role="acteur">Le Duc de Coaslin</persName>. <name rend="i" key="dudon" corresp="#henri_du_cambout">Dudon</name>.</p>
         <lg>
           <l>Trop auant dans la Gloire on ne peut s’engager,</l>
           <l>I’aurai vaincu sept Rois, et par mon grand courage</l>
@@ -201,7 +202,7 @@
         <l>Et mesme les Geants, de mediocres Hommes,</l>
         <l>Et ce franc Cheualier à tout venant tout prest</l>
         <l>Toûjours pour quelque Iouste a la lance en arrest.</l>
-        <p><pb n="10"/> Les <persName key="#louis_crevant" role="acteur">Marquis d’Humieres</persName> &amp; de <persName key="#jf_de_labaume" role="acteur">la Valliere</persName> les suiuoient : Ce premier portant la couleur de chair &amp; argent; &amp; l’autre le gris de lin, blanc &amp; argent: toute leur liurée estant la plus riche, &amp; la mieux assortie du monde.</p>
+        <p><pb n="10" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f18"/> Les <persName key="#louis_crevant" role="acteur">Marquis d’Humieres</persName> &amp; de <persName key="#jf_de_labaume" role="acteur">la Valliere</persName> les suiuoient : Ce premier portant la couleur de chair &amp; argent; &amp; l’autre le gris de lin, blanc &amp; argent: toute leur liurée estant la plus riche, &amp; la mieux assortie du monde.</p>
         <p>Le <persName key="#louis_crevant" role="acteur">Marquis d’Humieres</persName>. <name rend="i" key="ariodant" corresp="louis_crevant">Ariodant</name>.</p>
         <l>IE tremble dans l'accés de l'amoureuse fiéure,</l>
         <l>Ailleurs sans vanité je n etremblay jamais,</l>
@@ -220,7 +221,7 @@
         <l>Quand il est question de se mettre en campagne,</l>
         <l>Et pour ne vous en point mentir</l>
         <l>C’est le pur sang de <name key="charlemagne">Charlemagne</name>.</l>
-        <p>VN char de dix-huit pieds de haut, de vingt-quatre de long, &amp; de quinze de large; paroissoit en suite esclatant d’or &amp; de diuerses couleurs: Il representoit celui d’<name key="apollon">Apollon</name>, en l’honneur duquel se celebroient autrefois les Ieux Pythiens, que ces Cheualiers s’estoient proposez d’imiter en leurs Courses &amp; en leur équipage: Cette Diuinité brillante de lumieres estoit assise au plus <pb n="11"/> haut du Char, ayant à ses pieds <name key="quatre_ages">les quatre Aages ou Siecles</name>, distinguez par de riches habits, &amp; par ce qu’ils portoient à la main.</p>
+        <p>VN char de dix-huit pieds de haut, de vingt-quatre de long, &amp; de quinze de large; paroissoit en suite esclatant d’or &amp; de diuerses couleurs: Il representoit celui d’<name key="apollon">Apollon</name>, en l’honneur duquel se celebroient autrefois les Ieux Pythiens, que ces Cheualiers s’estoient proposez d’imiter en leurs Courses &amp; en leur équipage: Cette Diuinité brillante de lumieres estoit assise au plus <pb n="11" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f19"/> haut du Char, ayant à ses pieds <name key="quatre_ages">les quatre Aages ou Siecles</name>, distinguez par de riches habits, &amp; par ce qu’ils portoient à la main.</p>
         <p><name key="age_or">Le Siecle d’Or</name> orné de ce précieux metail, estoit encore paré des diuerses Fleurs, qui faisoient vn des principaux ornemens de cét heureux Aage.</p>
         <p>Ceux d’<name key="age_argent">Argent</name> et d’<name key="age_airain" corresp="mlle_de_brie">Airain</name>, auoient aussi leurs remarques particulieres.</p>
         <p>Et celuy de <name key="age_fer">Fer</name>, estoit représenté par vn Guerrier d’vn regard terrible, portant d’vne main l’espée, &amp; de l’autre le bouclier.</p>
@@ -231,7 +232,7 @@
         <p rend="i">Et quiescente pauescunt.</p>
         <p><persName key="#henri_de_lorraine" role="acteur">Le Comte d’Armagnac</persName>, representant <name key="griffon_le_blanc" corresp="#henri_de_lorraine">Griffon le Blanc</name>, ayant pour Deuise vne Hermine, auec ces mots.</p>
         <l rend="i" xml:lang="la">Ex candore decus.</l>
-        <p><pb n="12"/> <persName key="#henri_daillon_charles_de_foix">Le Duc de Foix</persName>, representant <name key="renaud">Renaud</name>, ayant pour Deuise vn Vaisseau dans la Mer, auec ces mots.</p>
+        <p><pb n="12" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f20"/> <persName key="#henri_daillon_charles_de_foix">Le Duc de Foix</persName>, representant <name key="renaud">Renaud</name>, ayant pour Deuise vn Vaisseau dans la Mer, auec ces mots.</p>
         <l ana="devise" xml:lang="la" rend="i">Longe leuis aura feret.</l>
         <p>Le <persName key="#armand_du_cambout" role="acteur">Duc de Coaslin</persName>, representant <name key="dudon" corresp="#henri_du_cambout">Dudon</name>, ayant pour Deuise vn Soleil, &amp; l’Heliotrope ou Tournesol, auec ces mots.</p>
         <l ana="devise" xml:lang="la" rend="i">Splendor ab obsequio.</l>
@@ -250,7 +251,7 @@
         <l ana="devise" xml:lang="la" rend="i">Hoc juuat vri.</l>
         <p><persName key="#hj_bourbon_conde" role="acteur">Monsieur le Dvc</persName>, representant <name key="roland" corresp="#hj_bourbon_conde">Roland</name>, ayant pour Deuise vn Dard entortillé de Lauriers, auec ces mots.</p>
         <l ana="devise" xml:lang="la" rend="i">Certo ferit.</l>
-        <p><pb n="13"/> <name>VIngt Pasteurs</name>, chargez des diuers pieces de la Barrière, qui deuoit estre dressée pour la Course de Bague<!-- encoder divertissement -->, formoient la derniere Troupe qui entra dans la Lice. Ils portoient des vestes couleur de feu enrichie d’argent, &amp; des coiffures de mesmes.</p>
+        <p><pb n="13" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f21"/> <name>VIngt Pasteurs</name>, chargez des diuers pieces de la Barrière, qui deuoit estre dressée pour la Course de Bague<!-- encoder divertissement -->, formoient la derniere Troupe qui entra dans la Lice. Ils portoient des vestes couleur de feu enrichie d’argent, &amp; des coiffures de mesmes.</p>
         <p>Aussi-tost que ces Troupes furent entrées dans le Camp, elles en firent le tour, &amp; apres auoir salüé les Reynes, elles se separerent, &amp; prirent chacun son poste: Les Pages de la teste, les Trompettes &amp; les Tymballiers se croisants, s’allerent poster sur les aisles: <persName key="#louisxiv" role="acteur">Le Roy</persName> s’aduançant au milieu, prit sa place vis à vis du haut Dais: <persName key="#hj_bourbon_conde" role="acteur">Monsieur le Duc</persName>, proche de <persName key="#louisxiv" role="acteur">Sa Majesté</persName>: Les Ducs de <persName key="#saint_aignan">S. Aignan</persName> &amp; de <persName key="#anne_de_noailles" role="acteur">Noailles</persName> à droit &amp; à gauche: Les <name key="#chevaliers">dix Cheualiers</name> en haye aux deux costéez du Char: Leurs Pages au mesme Ordre derriere eux: Les <name key="#zodiaque">Signes</name> &amp; les <name key="#heures">Heures</name>, comme ils estoient entrez.</p>
         <p>Lors qu’on eut fait alte en cet estat, vn profond silence causé tout ensemble par l’attention &amp; par le respect; donna le moyen à <persName key="#mlle_de_brie" role="acteur">Mlle. de Brie</persName>, qui representoit le <name key="#age_airain" corresp="#mlle_de_brie">Siecle d’Airain</name>, de commencer ces Vers à la loüange de la <persName key="#marie_therese">Reyne</persName>, addressez à Apollon.</p>
         <label type="speaker"><name key="#age_airain" corresp="#mlle_de_brie">LE SIECLE D'AIRAIN</name> à <name key="#apollon">Apollon</name>.</label>
@@ -267,7 +268,7 @@
         <l rend="i">De gloire, de valeur, de merite &amp; d’adresse;</l>
         <l rend="i">Ce n’est pas sans raison qu’on y voit transferez</l>
         <l rend="i">Ces jeux, qu’à mon honneur la terre a consacrez:</l>
-        <l rend="i"><pb n="14"/> I'ay toûjours pris plaisir a verser sur la France</l>
+        <l rend="i"><pb n="14" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f22"/> I'ay toûjours pris plaisir a verser sur la France</l>
         <l rend="i">De mes plus doux Rayons la benigne influence:</l>
         <l rend="i">Mais le charmant objet qu’Hymen y fait regner,</l>
         <l rend="i">Pour elle maintenant me fait tout desdaigner.</l>
@@ -304,7 +305,7 @@
         <l rend="i">Si-tost qu’elle paroist dans cette heureuse terre,</l>
         <l rend="i">Voy comme elle en banit les fureurs de la guerre:</l>
         <l rend="i">Comment depuis ce jour d’infatigables mains</l>
-        <l rend="i"><pb n="15"/> Trauaillent sans relâche au bon-heur des humains;</l>
+        <l rend="i"><pb n="15" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f23"/> Trauaillent sans relâche au bon-heur des humains;</l>
         <l rend="i">Par quels secrets ressors vn Heros se prepare</l>
         <l rend="i">A chasser les horreurs d’vn siecle si barbare,</l>
         <l rend="i">Et me faire reuiure avec tous les plaisirs,</l>
@@ -330,7 +331,7 @@
         <p>TOus ces Recits acheuez, la Course de bague commença, en laquelle apres que <persName key="#louisxiv" role="acteur">le Roy</persName> eut fait admirer l’addresse &amp; la grace qu’il a en cét exercice, comme en tous les autres, &amp; plusieurs belles Courses ; &amp; de tous ces Cheualiers, le <persName key="#henri_ii_de_guise" role="acteur">Duc de Guise</persName>, les Marquis de <persName key="#cm_de_belleforiere" role="acteur">Soyecourt</persName> &amp; de la <persName key="#jf_de_labaume" role="acteur">Valliere</persName> demeurerent à la dispute, dont ce dernier emporta le prix; qui fut vne espée d’or enrichie de Diamans, auec des boucles de baudrier de grande valeur, que donna la Reyne Mere, &amp; dont elle l’honora de sa main.</p>
         <!-- voir comment endoder les divertissements -->
         <p>La nuit vint cependant à la fin des Courses, par la justesse qu’on auoit eu à les commencer : Et <tech type="éclairage">vn nombre infiny de lumieres ayant esclairé tout ce beau lieu</tech>; l’on vis entrer dans la mesme place.</p>
-        <p>Trente-quatre Concertans fort bien vestus, qui deuoient <pb n="16"/> preceder <name key="#saisons" corresp="#therese_duparc #gros_rene #la_thorillere #louis_bejart">les Saisons</name>; &amp; faisoient le plus agreable concert du monde.</p>
+        <p>Trente-quatre Concertans fort bien vestus, qui deuoient <pb n="16" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f24"/> preceder <name key="#saisons" corresp="#therese_duparc #gros_rene #la_thorillere #louis_bejart">les Saisons</name>; &amp; faisoient le plus agreable concert du monde.</p>
         <p>Pendant que les <name key="#saisons" corresp="#therese_duparc #gros_rene #la_thorillere #louis_bejart">Saisons</name> se chargeoient des mets delicieux qu’elles deuoient porter, pour seruir deuant <persName key="#louisxiv #anne_d_autriche #marie_therese">leurs Majestez</persName> la magnifique collation qui estoit préparée: Les douze <name key="#zodiaque">Signes du Zodiaque</name>, &amp; <name key="#saisons" corresp="#therese_duparc #gros_rene #la_thorillere #louis_bejart">les quatre Saisons</name> danserent dans le rond vne des plus belles entrées de Ballet, qu’on eust encore veuë.</p>
         <p><name key="#printemps" corresp="#therese_duparc">Le Printemps</name> parut en suite sur vn Cheual d’Espagne, representé par <persName key="#therese_duparc" role="acteur">Mlle. du Parc</persName>; qui auec le sexe et les aduantages d’vne femme, faisoit voir l’addresse d’vn homme: Son habit estoit vert en broderie d’argent, &amp; de fleurs au naturel.</p>
         <p>L’<name key="#ete" corresp="#gros_rene">Esté</name> le suiuoit, representé par le <persName key="#gros_rene" role="acteur">Sieur du Parc</persName>, sur vn Elephant, couuert d’vne riche housse.</p>
@@ -341,7 +342,7 @@
         <p>Les douze premiers couuerts de fleurs, portoient, comme des Iardiniers, des Corbeilles peintes de vert &amp; d’argent, garnies d’vn grand nombre de porcelaines, si remplies de confitures &amp; d’autres choses delicieuses de la Saison, qu’ils estoient courbez sous cét agreable faix.</p>
         <p>Douze autres, comme Moissonneurs, vestus d’habits conformes à cette profession, mais fort riches, portoient des bassins de cette couleur incarnate, qu’on remarque au Soleil Leuant, &amp; suiuoient l’<name key="#ete" corresp="#gros_rene">Esté</name>.</p>
         <p>Douze vestus en Vandangeurs, estoient couuerts de feuilles de vignes &amp; de grappes de raisins; &amp; portoient dans des paniers feuille-morte, remplis de petits bassins de cette mesme couleur, diuers autres fruits &amp; confitures, à la suite de l’<name key="#automne" corresp="#la_thorilliere">Automne</name>.</p>
-        <p>Les douze derniers, estoient des Vieillards gelez, dont les fourrures &amp; la desmarche marquoient la froideur &amp; la foiblesse portant, dans des bassins couuerts d’vne glace &amp; <pb n="17"/> d’vne neige si bien contrefaites, qu’on les eust pris pour la chose mrsme, ce qu’ils deuoient contribüer à la Collation, &amp; suiuoient l’<name key="#hiver" corresp="#louis_bejart">Hyuer</name>.</p>
+        <p>Les douze derniers, estoient des Vieillards gelez, dont les fourrures &amp; la desmarche marquoient la froideur &amp; la foiblesse portant, dans des bassins couuerts d’vne glace &amp; <pb n="17" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f25"/> d’vne neige si bien contrefaites, qu’on les eust pris pour la chose mrsme, ce qu’ils deuoient contribüer à la Collation, &amp; suiuoient l’<name key="#hiver" corresp="#louis_bejart">Hyuer</name>.</p>
         <p>Quatorze Concertans de <name key="#pan" corresp="#moliere">Pan</name> &amp; de <name key="#diane" corresp="#madeleine_bejart">Diane</name> precedoient ces deux Diuinitez, auec vne agreable Harmonie de Flustes &amp; de musettes.</p>
         <p>Elles venoient en suite sur vne <tech type="machine">Machine fort ingenieuse en forme d’vne petite Montagne ou Roche ombragée de plusieurs arbres ; mais ce qui estoit plus surprenant, c’est qu’on la voyoit portée en l’air, sans que l’artifice qui la faisoit mouuoir se peust descouurir à la veuë.</tech>.</p>
         <p>Vingt autres personnes les suiuoient, portant des viandes de la Mesnagerie de <name key="#pan" corresp="#moliere">Pan</name>, &amp; de la chasse de <name key="#diane" corresp="#madeleine_bejart">Diane</name>.</p>
@@ -370,7 +371,7 @@
           <l rend="i">Dans les Campagnes de la Thrace,</l>
           <l rend="i">Vne ample moisson de Lauriers.</l>
         </lg>
-        <pb n="18"/>
+        <pb n="18" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f26"/>
         <label type="speaker"><name key="#automne" corresp="#la_thorilliere">L'AUTOMNE</name>.</label>
         <lg>
           <!-- forme poétique à vérifier -->
@@ -422,7 +423,7 @@
           <l rend="i">Nous deuons ce bon-heur à vos divins attraits.</l>
         </lg>
         <!-- encoder le divertissement - Collation -->
-        <pb n="19"/>
+        <pb n="19" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f27"/>
         <p>CEs Recits acheuez, vne grande Table en forme de Croissant, rond d’vn costé, ou l’on deuoit couurir &amp; garnir de fleurs de celuy où elle estoit creuze, vint à se decouurir.</p>
         <p>Trente-six Viollons tres bien vestus, parurent derriere sur vn petit Theatre; pendant que Messieurs de la Marche, &amp; Parfait Pere, Frere, &amp; Fils <!-- à identifier --> Controlleurs Generaux, sous les noms de l’Abondance, de la Ioye, de la Propreté, &amp; de la Bonne-Chere; l'a firent couurir par <name key="#plaisirs">les Plaisirs</name>, par <name key="#jeux">les Ieux</name>, par <name key="#ris">les Ris</name> &amp; par <name key="#délices">les Delices</name>.</p>
         <p><persName key="#anne_d_autriche #marie_therese #louisxiv">Leurs Majestez</persName> s’y mirent en cét Ordre, qui preuint tous les embarras, qui eussent pû naistre pour les rangs.</p>
@@ -459,7 +460,7 @@
           <item>Madame de Brancas.</item>
           <!-- à identifier? -->
           <item><persName key="#angelique_baudean_froulay">Madame de Froulay.</persName></item>
-          <pb n="20"/>
+          <pb n="20" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f28"/>
           <item><persName key="#baudean_parabere_navailles">Madame la Duchesse de Nauailles.</persName></item>
           <item>Mademoiselle d’Ardennes.</item>
           <!-- à identifier? -->
@@ -490,14 +491,14 @@
         <trailer>Fin de la premiere Iournée.</trailer>
       </div>
       <div>
-        <pb n="21"/>
+        <pb n="21" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f29"/>
         <!-- Vignette - à encoder ? -->
         <head><date when="1664-05-08">SECONDE IOVRNÉE</date> DES PLAISIRS DE L’ISLE ENCHANTÉE.</head>
         <p>LORS que la nuit du second jour fut venuë, <persName key="#louisxiv #anne_d_autriche #marie_therese">Leurs Majestez</persName> se rendirent dans vn autre rond enuironné de palissades comme le premier, &amp; sur la mesme ligne, s’auançant toûjours vers le Lac, où l’on feignoit que le Palais d’Alcine estoit basty.</p>
         <p>Le dessein de cette seconde Feste, estoit que <name key="#roger" corresp="#louisxiv">Roger</name> &amp; les Cheualiers de sa Quadrille, apres auoir fait des merueilles aux Courses, que par l’ordre de la belle Magicienne ils auoient fait en faueur de <persName key="#marie_therese">la Reyne</persName>, continüoient en ce mesme dessein pour le diuertissement suiuant; &amp; que l’Isle flotante n’ayant point esloigné le riuage de la France, ils donnoient à <persName key="#louisxiv">Sa Majesté</persName> le plaisir <!-- encoder le divertissement -->d’vne Comedie dont la Scene estoit en <placeName key="loc:Elide"> >Elide</placeName>.</p>
         <p><persName key="#louisxiv">Le Roy</persName> fit donc <tech type="structure">couurir de toilles, en si peu de temps qu’on auoit lieu de s’en estonner, tout ce rond d’vne espece de Dome, pour deffendre contre le vent</tech> <tech type="éclairage">le grand nombre de Flambeaux &amp; de Bougies qui deuoient esclairer</tech> <tech type="construction">le Theatre</tech>, dont <tech type="decor">la decoration estoit fort agreable</tech>.</p>
         <p>Aussi-tost qu’on eut tiré la toille, <tech type="#musique">vn grand Concert de plusieurs instruments se fit entendre</tech>: Et <name key="#laurore" corresp="#mlle_hilaire">l’Aurore</name> representée par <persName>Mademoiselle Hilaire</persName>, ouurit la Scene, &amp; chanta ce Recit.</p>
-        <pb n="22"/>
+        <pb n="22" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f30"/>
         <!-- doit on faire des div pour les différents intermèdes/scènes etc -->
         <div>
           <head>PREMIERE INTERMEDE.</head>
@@ -531,7 +532,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
               <l rend="i">Pour la Chasse ordonnée il faut préparer tout:</l>
               <l rend="i">Hola ? ho debout, viste debout.</l>
             </lg>
-            <pb n="23"/>
+            <pb n="23" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f31"/>
             <label type="speaker">Ier.</label>
             <l rend="i">Iusqu'aux plus sombres lieux le jour se communique,</l>
             <label type="speaker">IIme.</label>
@@ -570,7 +571,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
             <p rend="i">Point, point debout, viste debout.</p>
             <label type="speaker"><name key="#lyciscas" corresp="#moliere">LYCISCAS</name>.</label>
             <p rend="i">Hé ! je vous prie ?</p>
-            <pb n="24"/>
+            <pb n="24" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f32"/>
             <label type="speaker"><name key="#valets-de-chiens #musiciens" corresp="#estival #don #blondel">MVSICIENS</name>.</label>
             <p rend="i">Debout.</p>
             <label type="speaker"><name key="#lyciscas" corresp="#moliere">LYCISCAS</name>.</label>
@@ -633,7 +634,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
             <p rend="i">Le diable vous emporte.</p>
             <label type="speaker"><name key="#valets-de-chiens #musiciens" corresp="#estival #don #blondel">MVSICIENS</name>.</label>
             <p rend="i">Debout.</p>
-            <pb n="26"/>
+            <pb n="26" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f34"/>
             <label type="speaker"><name key="#lyciscas" corresp="#moliere">LYCISCAS</name>.</label>
             <stage> en se leuant.</stage>
             <p rend="i"> Quoy toûjours ? A-t'on jamais veu vne pareille furie de chanter : par le sang bleu j'enrage, puisque me voila esueillé il faut que j'éueille les autres, et que je les tourmente comme on m'a fait. Allons ho ? Messieurs, debout, debout, viste c'est trop dormir. Ie vais faire vn bruit de Diable par tout, debout, debout, debout: Allons viste, ho, ho, ho ? Debout, debout, pour la Chasse ordonnée il faut preparer tout, debout, debout, Lyciscas debout ? ho ! ho ! ho ! ho ! ho.</p>
@@ -657,7 +658,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
           </list>
         </div>
         <div>
-          <pb n="27"/>
+          <pb n="27" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f35"/>
           <head>ACTE PREMIER</head>
           <head>ARGVMENT</head>
           <p>CEtte Chasse qui se preparoit ainsi, estoit celle d’vn Prince d’Elide, lequel estant d’humeur galante &amp; magnifique, &amp; souhaittant que la Princesse sa fille se resolust à aymer &amp; à penser au mariage, qui estoit fort contre son inclination, auoit fait venir en sa Cour les Princes d’Ithaque, de Messene et de Pyle ; afin que dans l’exercice de la Chasse qu’elle aymoit fort, &amp; dans d’autres jeux, comme des Courses de Chars &amp; semblables magnificences, quelqu’vn de ces Pinces peust lui plaire &amp; deuenir son espoux.</p>
@@ -679,7 +680,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
             <label type="speaker">EVRIALE.</label>
             <l>Explique, explique Arbate, auec toute licence,</l>
             <l>Ces soûpirs, ces regards, &amp; ce morne silence:</l>
-            <pb n="28" xml:id="p28"/>
+            <pb n="28" xml:id="p28" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f36"/>
             <l>Je te permets icy de dire que l'Amour</l>
             <l>M'a rangé sous ses loix, &amp; me braue à son tour:</l>
             <l>Et je consens encore que tu me fasse honte</l>
@@ -718,7 +719,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
             <label type="speaker">EVRIALE.</label>
             <l>Si de l'amour vn temps j'ay, braué la puissance,</l>
             <l>Helas ! mon cher Arbate, il en prend bien vengeance!</l>
-            <pb n="29" xml:id="p29"/>
+            <pb n="29" xml:id="p29" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f37"/>
             <l>Et sçaçhant dans quels maux mon coeur s'est abismé,</l>
             <l>Toy-mesme, tu voudrois qu'il n'eust jamais aymé:</l>
             <l>Car enfin voy le sort où mon Astre me guide,</l>
@@ -757,7 +758,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
             <l>M'en refit vne image &amp; si noble &amp; si belle;</l>
             <l>Me peignit tant de gloire, &amp; de telles douceurs</l>
             <l>A pouuoir triompher de toutes ses froideurs,</l>
-            <pb n="30" xml:id="p30"/>
+            <pb n="30" xml:id="p30" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f38"/>
             <l>Que mon coeur aux brillans d'vne telle victoire</l>
             <l>Vit de sa liberté s'euvanouïr la gloire;</l>
             <l>Contre vne telle amorce il eut beau s'indigner,</l>
@@ -795,7 +796,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
             <label type="speaker">ARBATE.</label>
             <l>Et c'est dans ce mespris, et dans cette humeur fiere</l>
             <l>Que vostre ame à ses voeux doit voir plus de lumiere,</l>
-            <pb n="31" xml:id="p31"/>
+            <pb n="31" xml:id="p31" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f39"/>
             <l>Puisque le sort vous donne à conquerir vn cœur</l>
             <l>Que deffend seulement vne jeune froideur,</l>
             <l>Et qui n'impose point à l'ardeur qui vous presse</l>
@@ -833,7 +834,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
             <l>Ce choix t'estonne vn peu;</l>
             <l>Par son titre de fou tu crois le bien connoistre:</l>
             <l>Mais sçache qu’il l’est moins qu’il le veut paroistre,</l>
-            <pb n="32" xml:id="p32"/>
+            <pb n="32" xml:id="p32" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f40"/>
             <l>Et que malgré l'employ qu'il exerce aujourd'huy</l>
             <l>II a plus de bon sens que tel qui rit de luy:</l>
             <l>La Princesse se plaist à ses bouffonneries,</l>
@@ -865,7 +866,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
           <l>Ie vous promets, pourueu qu'il ne m'attrape pas,</l>
           <l>Quatre liures d'encens, &amp; deux veaux des plus gras.</l>
           <l>Ha! je suis mort!</l>
-          <pb n="33" xml:id="p33"/>
+          <pb n="33" xml:id="p33" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f41"/>
           <label type="speaker">EVRIALE.</label>
           <p>Qu'as-tu?</p>
           <label type="speaker">MORON.</label>
@@ -902,7 +903,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
           <l>Qu'ay-je dit?</l>
           <label type="speaker">EVRIALE.</label>
           <p>Tu parlois d'exercice penible.</p>
-          <pb n="34" xml:id="p34"/>
+          <pb n="34" xml:id="p34" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f42"/>
           <label type="speaker">MORON.</label>
           <l>Ah ! oüy, succombant donc à ce trauail horrible ;</l>
           <l>Car en Chasseur fameux j'estois enharnaché,</l>
@@ -938,7 +939,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
           <label type="speaker">ARBATE.</label>
           <l>Fuïr deuant vn Sanglier ayant dequoy l'abatre,</l>
           <l>Ce trait, Moron, n'est pas genereux...</l>
-          <pb n="35" xml:id="p35"/>
+          <pb n="35" xml:id="p35" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f43"/>
           <label type="speaker">MORON.</label>
           <l>I’y consens,</l>
           <l>II n'est pas genereux, mais il est de bon sens.</l>
@@ -972,7 +973,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
           <l>Vous sçauez de quel titre elle se glorifie,</l>
           <l>Et qu'elle a dans la teste vne Philosophie</l>
           <l>Qui declare la guerre au conjugal lien,</l>
-          <pb n="36" xml:id="p36"/>
+          <pb n="36" xml:id="p36" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f44"/>
           <l>Et vous traitte l'Amour de déïté de rien:</l>
           <l>Pour n'effaroucher point son humeur de tigresse</l>
           <l>II me faut manier la chose auec adresse;</l>
@@ -996,7 +997,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
           <l>Mais voicy la Princesse, et deux de vos Riuaux.</l>
         </div>
         <div>
-          <pb n="37" xml:id="p37"/>
+          <pb n="37" xml:id="p37" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f45"/>
           <label type="head">SCENE TROISIESME.</label>
           <p>La Princesse d’Elide parut en suite, auec les Princes de Messene &amp; de Pyle, lesquels firent remarquer en eux des caracteres bien differens de celuy du Prince d’Ithaque; &amp; luy cederent dans le cœur de la Princesse tous les auantages qu’il y pouuoit desirer : Cette aymable Princesse ne tesmoigna pas pourtant que le merite de ce Prince eust fait aucune impression sur son esprit, &amp; qu’elle l’eust quasi remarqué; elle tesmoigna toûjours, comme vne autre Diane, n’aymer que la Chasse &amp; les Forests, &amp; lors que le Prince de Messenne voulut lui faire valoir le seruice qui luy auoit rendu, en la desfaisant d’vn fort grand sanglier qui l’auoit attaquée; elle luy dit que sans rien diminüer de sa reconnoissance; elle trouuoit son secours d’autant moins considerable, qu’elle en auoit tué toute seule d’aussi furieux, &amp; fut peut-estre bien encore venuë à bout de celuy-cy.</p>
           <p>LA PRINCESSE &amp; sa suite. ARISTOMENE, THEOCLE, EVRIALE, ARBATE, MORON.</p>
@@ -1013,7 +1014,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
           <l>Qui me fait auoir part à ce qui vous offence.</l>
           <label type="speaker">THEOCLE.</label>
           <l>Pour moy tiens, Madame, à sensible bon-heur</l>
-          <pb n="38" xml:id="p38"/>
+          <pb n="38" xml:id="p38" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f46"/>
           <l>L'action ou pour vous a volé tout mon coeur,</l>
           <l>Et ne puis consentir malgré vostre murmure</l>
           <l>A quereller le sort d'vne telle auanture:</l>
@@ -1050,7 +1051,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
           <l>Les bontez que pour moy vostre amour vous inspire.</l>
         </div>
         <div>
-          <pb n="39" xml:id="p39"/>
+          <pb n="39" xml:id="p39" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f47"/>
           <label type="head">SCENE QVATRIESME.</label>
           <p>EVRIALE. MORON. ARBATE.</p>
           <label type="speaker">MORON.</label>
@@ -1082,7 +1083,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
           <p>Fin du premier Acte.</p>
         </div>
         <div>
-          <pb n="40" xml:id="p40"/>
+          <pb n="40" xml:id="p40" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f48"/>
           <label type="head">DEVXIESME INTERMEDE.</label>
           <p>L’Agreable Moron laissa aller le Prince pour parler de sa passion naissante aux bois &amp; aux rochers, &amp; faisant retentir par tout le beau nom de sa Bergere Philis, vn Echo ridicule luy respondant bizarement, il y prit si grand plaisir, que riant en cent manieres, il fit respondre autant de fois cét Echo, sans tesmoigner d’en estre ennuyé: Mais vn Ours vint interrompre ce beau diuertissement, &amp; le surprit si fort par cette veuë peu attenduë, qu’il lui donna des sensibles marques de sa peur: Il luy fit faire deuant l’Ours toutes les soûmmissions dont il se pût auiser pour l’adoucir: Enfin se jettant à vn arbre pour y monter, comme il vit que l’Ours y vouloit grimper aussi bien que luy; il cria au secours d’vne voix si haute, qu’elle attira huit Paysans armez de bastons à deux bouts &amp; d’espieux, pendant qu’vn autre Ours parut en suite du premier. Il se fit vn Combat qui finit par la mort d’vn des Ours, &amp; par la fuite de l’autre.</p>
           <label type="head">SCENE PREMIERE.</label>
@@ -1094,7 +1095,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
           <l>Qui tient mon coeur à l'attache,</l>
           <l>Et je deuins son amant</l>
           <l>La voyant traire vne Vache.</l>
-          <pb n="41" xml:id="p41"/>
+          <pb n="41" xml:id="p41" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f49"/>
           <l>Ses doigts tout plains de lait, et plus blancs mille fois</l>
           <l>Pressoient les bouts du pis d'vne grace admirable:</l>
           <l>Ouf! cette idée est capable</l>
@@ -1106,15 +1107,15 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
           <p>VN OVRS. MORON.</p>
           <label type="speaker">MORON.</label>
           <p>AH! monsieur l'Ours, je suis vostre seruiteur de tout mon coeur: de grace epargnez-moy? je vous asseure que je ne vaux rien du tout à manger, je n'ay que la peau &amp; les os, &amp; je voy de certaines gens la bas qui seroient bien mieux vostre affaire. Eh! Eh! Eh! monseigneur, tout doux s'il vous plaist. La la la la. ah! monseigneur que vostre altesse est jolie &amp; bien faite; elle a tout à fait l'air galand &amp; la taille la plus mignonne du monde. Ah beau poil! belle teste! beaux yeux brillans et bien fendus! ah beau petit nez! belle petite bouche, petites quenotes jolies! ah belle gorge! belles petites menottes! petits ongles bien faits. A l'aide, au secours, je suis mort, misericorde, pauure Moron, ah mon Dieu! &amp; viste, à moy à moy, je suis perdu! Eh, messieurs ayez pitié de moy? bon messieurs tuez moy ce vilain animal là. O Ciel! daigne les assister. Bon le voila vn qui vient de luy donner vn coup dans la gueule. Les voila tous à lentour de luy. Courage, ferme, allons mes amis. Bon, poussez fort, descendons maintenant pour luy donner cent coups. Seruiteur Messieurs, je vous rends grace de m'auoir deliuré de cette beste, maintenant que vous l'auez tuée je m'en vais l'acheuer, et en triompher avec vous.</p>
-          <pb n="42" xml:id="p42"/>
+          <pb n="42" xml:id="p42" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f50"/>
           <p>Ces heureux Chasseurs, n'eurent pas plustost remporté cette victoire, que Moron deuenu braue par l'esloignement du peril, voulut aller donner mille coups à la beste, qui n'estoit plus en estat de se deffendre, &amp; fit tout ce qu'vn fanfaron, qui n'auroit pas esté trop hardy, eust pû faire en cette occasion; &amp; les Chasseurs pour tesmoigner leur joye, danserent vne fort belle Entrée: C'esttoient les Sieurs Chicanneau, Baltasard, Noblet, Bonard, Mançeau, Magny, &amp; la Pierre.</p>
         </div>
         <div>
-          <pb n="43" xml:id="p43"/>
+          <pb n="43" xml:id="p43" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f51"/>
           <label type="head">ACTE DEVXIESME.</label>
           <label type="head">ARGVMENT.</label>
           <p>LE Prince d’Ithaque &amp; la Princesse eurent vne conuersation fort galante sur la Course des Chars qui se preparoit: Elle auoit dit auparauant à l’vne des Princesses ses Parentes, que l’insensibilité du Prince d’Ithaque luy donnoit de la peine &amp; luy estoit honteuse: qu’encore qu’elle ne voulust rien aymer, il estoit bien fascheux de voir qu’il n’aymoit rien; &amp; que quoy qu’elle eust resolu de n’aller point voir les Courses, elle s’y vouloit rendre, dans le dessein de tascher à triompher de la liberté d’vn homme qui la cherissoit si fort. Il estoit facile de juger que le merite de ce Prince produisoit son effet ordinaire, que ses belles qualitez auoient touché se cœur superbe: &amp; commencé à fondre vne partie de cette glace qui auoit resisté jusques alors à toutes les ardeurs de l’Amour, &amp; plus il affectoit, (par le conseil de Moron qu’il auoit gagné, &amp; qui connoissoit fort le cœur de la Princesse), de paroistre insensible, quoy qu’il ne fut que trop amoureux, plus la Princesse se mettoit dans la tete de l’engager, quoy qu’elle n’eust pas fait dessein de s’engager elle-mesme. Les Princes de Messene &amp; de Pyle prirent lors congé d’elle pour s’aller preparer aux Courses, &amp; luy parlant de l’esperance qu’ils auoient de vaincre, par le desir qu’ils sentoient de luy plaire: Celuy d’Ithaque luy tesmoigna au contraire, que n’ayant jamais rien aymé, il allait essayer à vaincre pour sa propre satisfaction, ce qui la picqua encore d’auantage, &amp; qui l’engagea à vouloir soûmettre vn cœur déjà assez soûmis, mais qui sçauoit déguiser ses sentiments le mieux du monde.</p>
-          <pb n="44" xml:id="p44"/>
+          <pb n="44" xml:id="p44" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f52"/>
           <label type="head">SCENE PREMIERE.</label>
           <p>LA PRINCESSE, AGLANTE, CINTHIE.</p>
           <label type="speaker">LA PRINCESSE.</label>
@@ -1147,7 +1148,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
           <l>Iusques à quand ce coeur veut-il s'effaroucher</l>
           <l>Des innocens desseins qu'on a de le toucher?</l>
           <l>Et regarder les soins que pour vous on se donne</l>
-          <pb n="45" xml:id="p45"/>
+          <pb n="45" xml:id="p45" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f53"/>
           <l>Comme autant d'attentats contre vostre personne?</l>
           <l>Ie sçay qu'en deffendant le party de l'Amour</l>
           <l>On s'expose chez vous à faire mal sa cour:</l>
@@ -1166,7 +1167,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
           <label type="speaker">AGLANTE.</label>
           <p>Pour moy je tiens que cette passion est la plus agreable affaire de la vie, qu'il est necessaire d'aymer pour viure heureusement, &amp; que tous les plaisirs sont fades s'il ne s'y mesle vn peu d'amour.</p>
           <label type="speaker">LA PRINCESSE.</label>
-          <p>Pouuez-vous bien toutes deux, estant ce que vous estes, prononcer ces paroles; &amp; ne deuez-vous pas rougir d'appuyer vne passion qui n'est qu'erreur, que foiblesse &amp; qu'emportement, et dont tous les desordres ont tant de repugnance auec la gloire de nostre sexe. I'en pretens soustenir l'honneur jusqu'au dernier moment de ma vie: Et ne veux point du tout me commettre à ces gens qui font les esclaves aupres de nous, pour deuenir vn jour nos tyrans: Toutes ces larmes, tous ces <pb n="46" xml:id="p46"/> soûpirs, tous ces hommages, tous ces respects sont des embusches qu'on tend à nostre coeur, &amp; les bassesses épouuantables ou cette passion rauale les personnes sur qui elle étend sa puissance: Ie sens tout mon coeur qui s'émeut: et je ne puis souffrir qu'vne ame qui fait profession d'vn peu de fierté, ne trouue pas vne honte horrible à de telles foiblesse.</p>
+          <p>Pouuez-vous bien toutes deux, estant ce que vous estes, prononcer ces paroles; &amp; ne deuez-vous pas rougir d'appuyer vne passion qui n'est qu'erreur, que foiblesse &amp; qu'emportement, et dont tous les desordres ont tant de repugnance auec la gloire de nostre sexe. I'en pretens soustenir l'honneur jusqu'au dernier moment de ma vie: Et ne veux point du tout me commettre à ces gens qui font les esclaves aupres de nous, pour deuenir vn jour nos tyrans: Toutes ces larmes, tous ces <pb n="46" xml:id="p46" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f54"/> soûpirs, tous ces hommages, tous ces respects sont des embusches qu'on tend à nostre coeur, &amp; les bassesses épouuantables ou cette passion rauale les personnes sur qui elle étend sa puissance: Ie sens tout mon coeur qui s'émeut: et je ne puis souffrir qu'vne ame qui fait profession d'vn peu de fierté, ne trouue pas vne honte horrible à de telles foiblesse.</p>
           <label type="speaker">CINTHIE</label>
           <p>Eh! Madame, il est de certaines foiblesses qui ne sont point honteuses, &amp; qu'il est beau mesme d'auoir dans les plus hauts degrez de gloire. I'espere que vous changerez vn jour de pensée, et s'il plaist au Ciel nous verrons vostre coeur auant qu'il soit peu....</p>
           <label type="speaker">LA PRINCESSE.</label>
@@ -1177,7 +1178,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
           <p>Non, non je braue tous ses traits, &amp; le grand pouuoir qu'on luy donne n'est rien qu'vne chimere, qu'vne excuse des foibles coeurs qui le font inuincible pour authoriser leur foiblesse.</p>
           <label type="speaker">CINTHIE.</label>
           <p>Mais enfin toute la terre reconnoist sa puissance, &amp; vous voyez que les Dieux mesme sont assujettis à son empire: On nous fait voir que Iupiter n'a pas aymé pour vne fois; &amp; que Diane mesme dont vous affectez tant l'exemple n'a pas rougy de pousser des soûpirs d'amour.</p>
-          <pb n="47" xml:id="p47"/>
+          <pb n="47" xml:id="p47" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f55"/>
           <label type="speaker">LA PRINCESSE.</label>
           <p>Les croyances publiques sont toûjours meslées d'erreur: Les Dieux ne sont point faits comme se les fait le vulgaire, &amp; c'est leur manquer de respect que de leur attribüer les foiblesses des hommes.</p>
           <label type="head">SCENE DEVXIESME.</label>
@@ -1194,7 +1195,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
           <p>Fort bien.</p>
           <label type="speaker">CINTHIE.</label>
           <p>Et de vouloir estre aymé?</p>
-          <pb n="48" xml:id="p48"/>
+          <pb n="48" xml:id="p48" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f56"/>
           <label type="speaker">MORON.</label>
           <p>Et pourquoy non? Est-ce qu'on n'est pas assez bien fait pour cela? Ie pense que ce visage est assez passable, &amp; que pour le bel air, dieu mercy, nous ne le cedons à personne.</p>
           <label type="speaker">CINTHIE.</label>
@@ -1208,13 +1209,13 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
           <label type="head">SCENE QVATRIESME.</label>
           <p>LE PRINCE, EVRIALE, ARISTOMENE, THEOCLE, LA PRINCESSE, AGLANTE, CINTHIE, PHILIS, MORON.</p>
           <label type="speaker">LA PRINCESSE.</label>
-          <p>SEigneur, je vous demande la licence de preuenir par deux paroles la declaration des pensées que vous pouuez auoir. Il y a deux veritez, Seigneur, aussi constantes l'vne que l'autre, et dont je puis vous asseurer également: L'vne que vous auez vn absolu pouuoir sur moy, &amp; que vous ne sçauriez m'ordonner rien ou je ne responde aussi-tost par vne obeissance <pb n="49" xml:id="p49"/> aueugle. L'autre que je regarde l'Hymenée ainsi que le trespas, &amp; qu'il m'est impossible de forcer cette auersion naturelle: Me donner vn Mary, &amp; me donner la mort c'est vne mesmes chose; mais vostre volonté va la premiere, et mon obeïssance m'est bien plus chere que ma vie: Apres cela parlez, Seigneur, prononcez librement ce que vous voulez.</p>
+          <p>SEigneur, je vous demande la licence de preuenir par deux paroles la declaration des pensées que vous pouuez auoir. Il y a deux veritez, Seigneur, aussi constantes l'vne que l'autre, et dont je puis vous asseurer également: L'vne que vous auez vn absolu pouuoir sur moy, &amp; que vous ne sçauriez m'ordonner rien ou je ne responde aussi-tost par vne obeissance <pb n="49" xml:id="p49" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f57"/> aueugle. L'autre que je regarde l'Hymenée ainsi que le trespas, &amp; qu'il m'est impossible de forcer cette auersion naturelle: Me donner vn Mary, &amp; me donner la mort c'est vne mesmes chose; mais vostre volonté va la premiere, et mon obeïssance m'est bien plus chere que ma vie: Apres cela parlez, Seigneur, prononcez librement ce que vous voulez.</p>
           <label type="speaker">LE PRINCE.</label>
           <p>Ma Fille, tu as tort de prendre de telles allarmes, &amp; je me plains de toy, qui peux mettre dans ta pensée que je sois assez mauuais Pere pour vouloir faire violence à tes sentimens, &amp; me seruir tiranniquement de la puissance que le Ciel me donne sur toy. Ie souhaite à la verité que ton coeur puisse aymer quelqu’vn: Tous mes voeux seroient satisfaits si cela pouuoit arriuer, &amp; je n’ay proposé les Festes &amp; les Jeux que je fais celebrer icy, qu’afin d’y pouuoir attirer tout ce que la Grece a d’illustre; &amp; que parmy cette noble jeunesse, tu puisse enfin rencontrer ou arrester tes yeux, &amp; determiner tes pensées. Ie ne demande, dy-je, au Ciel autre bonheur que celuy de te voir vn espoux: J'ay pour obtenir cette grace fait encor ce matin vn sacrifice à Venus; et si je sçais bien expliquer le langage des Dieux, elle m’a promis vn miracle: mais quoy qu’il en soit je veux en vser auec toy en Pere, qui cherit sa Fille: Si tu trouue ou attacher tes vœux, ton choix sera le mien, &amp; je ne considereray ny interests d’estat, ny avantages d’alliance. Si ton coeur demeure insensible, je n’entreprendray point de le forcer: Mais au moins sois complaisante aux ciuilitez qu'on te rend, &amp; ne m'oblige point à faire les excuses de ta froideur:Traite ces Princes auec l'estime que tu leur dois, reçois auec reconnoissance les tesmoignages de leur zele, &amp; viens voir cette Course ouleur adresse va paroistre.</p>
           <label type="speaker">THEOCLE.</label>
           <p>Tout le monde va faire des efforts pour remporter le prix de cette Course; mais à vous dire vray j'ay peu d'ardeur pour la victoire, puisque ce n'est pas vostre coeur qu'on y doit disputer.</p>
           <label type="speaker">ARISTOMENE.</label>
-          <p>Pour moy, Madame, vous estes le seul prix que je me propose par tout: C'est vous que je croy disputer dans ces combats <pb n="50" xml:id="p50"/> d'adresse, et je n'aspire maintenant à remporter l'honneur de cette Course, que pour obtenir vn degré de gloire qui m'approche de vostre coeur.</p>
+          <p>Pour moy, Madame, vous estes le seul prix que je me propose par tout: C'est vous que je croy disputer dans ces combats <pb n="50" xml:id="p50" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f58"/> d'adresse, et je n'aspire maintenant à remporter l'honneur de cette Course, que pour obtenir vn degré de gloire qui m'approche de vostre coeur.</p>
           <label type="speaker">EVRIALE.</label>
           <p>Pour moy, Madame, je n'y vais point du tout auec cette pensée: Comme j'ay fait toute ma vie profession de ne rien aymer, tous les soins que je prens ne vont point ou tendent les autres: Ie n'ay aucune pretention sur vostre coeur, &amp; le seul honneur de la Course est tout l'auantage où j'aspire.</p>
           <label type="speaker">LA PRINCESSE.</label>
@@ -1236,7 +1237,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
           <p>Fin du deuxiesme Acte.</p>
         </div>
         <div>
-          <pb n="51" xml:id="p51"/>
+          <pb n="51" xml:id="p51" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f59"/>
           <label type="head">TROISIESME INTERMEDE.</label>
           <label type="head">SCENE PREMIERE.</label>
           <p>MORON, PHILIS.</p>
@@ -1262,7 +1263,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
           <p>Ah! que de façons.</p>
           <label type="speaker">MORON.</label>
           <p>Ie ne te demande qu'vn moment à estre auec toy?</p>
-          <pb n="52" xml:id="p52"/>
+          <pb n="52" xml:id="p52" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f60"/>
           <label type="speaker">PHILIS.</label>
           <p>Et bien!ouy, j'y demeureray, pourueu que tu me promette vne chose?</p>
           <label type="speaker">MORON.</label>
@@ -1283,7 +1284,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
           <p>Prens-y bien garde au moins; car à la moindre parole je prends la fuitte.</p>
           <label type="speaker">MORON.</label>
           <p>Soit. Ah ! Philis…. Eh…. Elle s’enfuit, &amp; je ne sçaurois l’atrapper. Voyla ce que c’est, si je sçauois chanter j’en ferois bien mieux mes affaires. La plus part des Femmes aujourd’huy se laissent prendre par les oreilles: Elles sont cause que tout le monde se mesle de Musique, &amp; l’on ne reüssit aupres d’elles, que par les petites chansons, &amp; les petits vers qu’on leur fait entendre. II faut que j’aprenne à chanter pour faire comme les autres. Bon voicy justement mon homme.</p>
-          <pb n="53" xml:id="p53"/>
+          <pb n="53" xml:id="p53" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f61"/>
           <label type="head">SCENE DEVXIESME.</label>
           <p>SATYRE, MORON.</p>
           <label type="speaker">SATYRE.</label>
@@ -1309,7 +1310,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
           <label type="speaker">SATYRE.</label>
           <l>IE portois dans vne cage</l>
           <l>Deux moyneaux que j'auois pris;</l>
-          <pb n="54" xml:id="p54"/>
+          <pb n="54" xml:id="p54" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f62"/>
           <l>Lors que la jeune Cloris</l>
           <l>Fit dans vn sombre boccage</l>
           <l>Briller, à mes yeux surpris,</l>
@@ -1342,7 +1343,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
           <p>Le Satyre s’en mit en colere, &amp; peu à peu se mettant en posture d'en venir à des coups de poing, les Violons reprirent vn Air, sur lequel ils danserent vne plaisante entrée.</p>
         </div>
         <div>
-          <pb n="55" xml:id="p55"/>
+          <pb n="55" xml:id="p55" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f63"/>
           <label type="head">ACTE TROISIESME.</label>
           <label type="head">ARGVMENT</label>
           <p>La Princesse d’Elide estoit cependant dans d’estranges inquietudes: le Prince d’Ithaque auoit gagné le prix des Courses, elle auoit dans la suite de ce diuertissement fait des merueilles à chanter &amp; à la danse, sans qu’il parust que les dons de la nature &amp; de l’art eussent esté quasi remarquez par le Prince d’Ithaque; elle en fit de grandes plaintes à la Princesse sa parente; elle en parla à Moron, qui fit passer cet insensible pour vn brutal: Et enfin le voyant arriuer luy-mesme, elle ne pût s’empescher de luy en toucher fort serieusement quelque chose: Il luy respondit ingenuement qu’il n’aymoit rien, &amp; qu’hors l’amour de sa liberté, &amp; les plaisirs qu’elle trouuoit si agreables de la solitude &amp; de la Chasse rien ne le touchoit.</p>
@@ -1352,7 +1353,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
           <p>IL est vray, Madame, que ce jeune Prince a fait voir vne adresse non commune, et que l’air dont il a paru a esté quelque chose de surprenant. Il sort vainqueur de cette course; mais je doute fort qu’il en sorte auec le mesme coeur qu’il y a porté. Car enfin, vous luy auez tiré des traits dont il est difficile de se deffendre, &amp; sans parler de tout le reste, la grace de vostre danse, &amp; la douceur de vostre voix ont eu des charmes aujourd’huy à toucher les plus insensibles.</p>
           <label type="speaker">LA PRINCESSE.</label>
           <p>Le voicy qui s’entretient auec Moron; nous sçaurons vn peu de quoy il luy parle: Ne rompons point encore leur entretien, et prenons cette route pour reuenir à leur rencontre.</p>
-          <pb n="56" xml:id="p56"/>
+          <pb n="56" xml:id="p56" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f64"/>
           <label type="head">SCENE DEVXIESME.</label>
           <p>EVRIALE, MORON, ARBATE.</p>
           <label type="speaker">EVRIALE.</label>
@@ -1361,7 +1362,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
           <p>Donnez-vous en bien de garde, Seigneur, si vous m’en voulez croire. Vous auez trouué la meilleure inuention du monde, &amp; je me trompe fort si elle ne vous reussit. Les femmes sont des animaux d’vn naturel bizarre, nous les gastons par nos douceurs, &amp; je croy tout de bon que nous les verrions nous courir, sans tous ces respects, et ces soûmissions, où les hommes les acoquinent.</p>
           <label type="speaker">ARBATE.</label>
           <p>Seigneur voicy la Princesse qui s'est un peu eloigné de sa suite.</p>
-          <pb n="57" xml:id="p57"/>
+          <pb n="57" xml:id="p57" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f65"/>
           <label type="speaker">MORON.</label>
           <p>Demeurez ferme, au moins, dans le chemin que vous auez pris. Ie m’en vais voir ce qu’elle me dira: cependant promenez-vous icy dans ces petites routes sans faire aucun semblant d'auoir euie de la joindre, et si vous l'abordez, demeurez auec elle le moins qu'il vous sera possible.</p>
           <label type="head">SCENE TROISIESME.</label>
@@ -1382,7 +1383,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
           <p>Pour moy je le confesse, Moron, cette fuite ma choquée, &amp; j’ay toutes les enuies du monde de l’engager pour rabatre vn peu son orgueil.</p>
           <label type="speaker">MORON.</label>
           <p>Ma foy, Madame, vous ne feriez pas mal, il le meriteroit bien: mais à vous dire vray, je doute fort que vous y puissiez reüssir.</p>
-          <pb n="58" xml:id="p58"/>
+          <pb n="58" xml:id="p58" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f66"/>
           <label type="speaker">LA PRINCESSE.</label>
           <p>Comment!</p>
           <label type="speaker">MORON.</label>
@@ -1409,7 +1410,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
           <p>Voyez-vous comme il passe, sans prendre garde à vous?</p>
           <label type="speaker">LA PRINCESSE.</label>
           <p>De grace, Moron, va le faire auiser que je suis icy, &amp; l'oblige à venir aborder.</p>
-          <pb n="59" xml:id="p59"/>
+          <pb n="59" xml:id="p59" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f67"/>
           <label type="head">SCENE QVATRIESME.</label>
           <p>LA PRINCESSE, EVRIALE, MORON, ARBATE.</p>
           <label type="speaker">MORON.</label>
@@ -1424,7 +1425,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
           <p>Ie ne voy pas, Madame, que celles qui ne veulent point aymer, doiuent prendre aucun interest à ces sortes d'offences.</p>
           <label type="speaker">LA PRINCESSE.</label>
           <p>Ce n'est pas vne raison, Seigneur, et sans vouloir aymer, on est toûjours bien-ayse d'estre aymée.</p>
-          <pb n="60" xml:id="p60"/>
+          <pb n="60" xml:id="p60" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f68"/>
           <label type="speaker">EVRIALE.</label>
           <p>Pour moy je ne suis pas de mesme, &amp; dans le dessein où je suis, de ne rien aymer, je serois fasché d'estre aymé.</p>
           <label type="speaker">LA PRINCESSE.</label>
@@ -1443,7 +1444,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
           <p>A-t'on jamais rien veu de tel!</p>
           <label type="speaker">MORON.</label>
           <p>Peste soit du petit brutal, j'aurois enuie de luy bailler un coup de poing.</p>
-          <pb n="61" xml:id="p61"/>
+          <pb n="61" xml:id="p61" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f69"/>
           <label type="speaker">LA PRINCESSE parlant en soy.</label>
           <p>Cet orgeuil me confond, &amp; j'ay vn tel d'espit, que je ne me sens pas.</p>
           <label type="speaker">MORON parlant au Prince.</label>
@@ -1466,7 +1467,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
           <p>Ne pourrois-tu, Moron, me seruir dans vn tel dessein?</p>
           <label type="speaker">MORON.</label>
           <p>Vous açauez bien, Madame, que je suis tout à vostre seruice.</p>
-          <pb n="62" xml:id="p62"/>
+          <pb n="62" xml:id="p62" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f70"/>
           <label type="speaker">LA PRINCESSE.</label>
           <p>Parle luy de moy dans tes entretiens, vante luy adroitement ma personne, &amp; les auantages de ma naissance, &amp; tache débranler ses sentimens, par la douceur de quelque espoir. Ie te permets de dire tout ce que tu voudras, pour tacher à me l’engager.</p>
           <label type="speaker">MORON.</label>
@@ -1492,7 +1493,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
           <p>Fin du troisiesme Acte.</p>
         </div>
         <div>
-          <pb n="63" xml:id="p63"/>
+          <pb n="63" xml:id="p63" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f71"/>
           <label type="head">QVATRIESME INTERMEDE.</label>
           <label type="head">SCENE PREMIERE.</label>
           <p>PHILIS, TIRCIS.</p>
@@ -1513,7 +1514,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
           <p>Oüy, je m’écarte pour cela; je te le dis encore. Je me plais auec luy, et l’on écoute volontiers les amans, lors qu’ils se plaignent aussi agreablement qu’il fait. Que ne chante-tu comme luy? je prendrois plaisir à t’écouter.</p>
           <label type="speaker">MORON.</label>
           <p>Si je ne sçay chanter, je sçay faire autre chose, &amp; quand....</p>
-          <pb n="64" xml:id="p64"/>
+          <pb n="64" xml:id="p64" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f72"/>
           <label type="speaker">PHILIS.</label>
           <p>Tais-toy? je veux l’entendre. Dis, Tircis, ce que tu voudras.</p>
           <label type="speaker">MORON.</label>
@@ -1537,7 +1538,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
           <p>Oüy, dis? je veux bien t’écouter pour la rareté du fait.</p>
           <label type="speaker">MORON.</label>
           <p>Courage, Moron? il n’y a qu’à auoir de la hardiesse.</p>
-          <pb n="65" xml:id="p65"/>
+          <pb n="65" xml:id="p65" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f73"/>
           <label type="speaker">MORON chante.</label>
           <l>TOn extréme rigueur</l>
           <l>S'acharne sur mon cœur,</l>
@@ -1563,7 +1564,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
           <l>De mourir pour ce qu’on aime. bis</l>
           <label type="speaker">MORON.</label>
           <p>C’est vn plaisir que vous aurez quand vous voudrez.</p>
-          <pb n="66" xml:id="p66"/>
+          <pb n="66" xml:id="p66" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f74"/>
           <label type="speaker">TIRCIS chante.</label>
           <l>Courage Moron? meurs promtement</l>
           <l>En genereux Amant.</l>
@@ -1573,13 +1574,13 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
           <p>Allons, Tircis, viens t’en me redire à l’echo, ce que tu m’a chanté.</p>
         </div>
         <div>
-          <pb n="67" xml:id="p67"/>
+          <pb n="67" xml:id="p67" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f75"/>
           <p>IV</p>
           <p>La Princesse esperant par vne feinte pouuoir descouurir les sentimens du Prince d’Ithaque, elle luy fit confidence qu’elle aymoit le Prince de Messene: Au lieu d’en paroistre affligé il luy rendit la pareille, &amp; luy fit connoistre que la Princesse sa parente luy auoit donné dans la veuë, &amp; qu’il la demanderoit en Mariage au Roy son Pere: A cette atteinte impreueuë cette Princesse perdit toute sa constance; &amp; quoy qu’elle essayast à se contraindre deuant luy, aussi-tost qu’il fut sorty, elle demanda auec tant d’empressement à sa Cousine de ne receuoir point les seruices de ce Prince, &amp; de ne l’espouser jamais, qu’elle ne pût le luy refuser: Elle s’en plaignit mesme à Moron, qui luy ayant dit assez franchement qu’elle l’aymoit donc, en fut chassé de sa presence.</p>
           <label type="head">SCENE PREMIERE.</label>
           <p>EVRIALE, LA PRINCESSE, MORON.</p>
           <label type="speaker">LA PRINCESSE.</label>
-          <p>PRince, comme jusques icy nous auons fait paroistre vne conformité de sentimens, &amp; que le Ciel a semblé mettre en nous mesmes attachemens pour nostre liberté, &amp; mesme auersion pour l’Amour; je suis bien ayse de vous ouurir mon coeur, &amp; de vous faire confidence d’vn changement dont vous serez surpris. I'ay toûjours regardé l’Hymen comme vne chose affreuse ; et j’auois fait serment d’abandonner plutost la vie, que de me resoudre jamais à perdre cette liberté pour qui j’auois des tendresses si grandes: mais, enfin, vn moment a dissipé toutes ces resolutions, le merite d’vn Prince m’a frapé aujourd’huy les yeux, &amp; mon ame tout d’vn coup (comme par vn miracle) est deuenuë sensible aux traits de cette passion que j’auois <pb n="68" xml:id="p68"/> toûjours mesprisée. I'ay trouué d’abord des raisons pour authoriser ce changement, &amp; je puis l’apuyer de la volonté de respondre aux ardantes sollicitations d’vn Pere, et aux voeux de tout vn Estat; mais, à vous dire vray, je suis en peine du jugement que vous ferez de moy, &amp; je voudrois sçauoir si vous condamnerez ou non le dessein que j'ay de me donner vn Espoux.</p>
+          <p>PRince, comme jusques icy nous auons fait paroistre vne conformité de sentimens, &amp; que le Ciel a semblé mettre en nous mesmes attachemens pour nostre liberté, &amp; mesme auersion pour l’Amour; je suis bien ayse de vous ouurir mon coeur, &amp; de vous faire confidence d’vn changement dont vous serez surpris. I'ay toûjours regardé l’Hymen comme vne chose affreuse ; et j’auois fait serment d’abandonner plutost la vie, que de me resoudre jamais à perdre cette liberté pour qui j’auois des tendresses si grandes: mais, enfin, vn moment a dissipé toutes ces resolutions, le merite d’vn Prince m’a frapé aujourd’huy les yeux, &amp; mon ame tout d’vn coup (comme par vn miracle) est deuenuë sensible aux traits de cette passion que j’auois <pb n="68" xml:id="p68" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f76"/> toûjours mesprisée. I'ay trouué d’abord des raisons pour authoriser ce changement, &amp; je puis l’apuyer de la volonté de respondre aux ardantes sollicitations d’vn Pere, et aux voeux de tout vn Estat; mais, à vous dire vray, je suis en peine du jugement que vous ferez de moy, &amp; je voudrois sçauoir si vous condamnerez ou non le dessein que j'ay de me donner vn Espoux.</p>
           <label type="speaker">EVRIALE.</label>
           <p>Vous pourriez faire vn tel choix, Madame, que je l’approuuerois sans doute.</p>
           <label type="speaker">LA PRINCESSE.</label>
@@ -1600,7 +1601,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
           <p>O Ciel!</p>
           <label type="speaker">LA PRINCESSE.</label>
           <p>Mon inuention à reussi, Moron, le voila qui se trouble.</p>
-          <pb n="69" xml:id="p69"/>
+          <pb n="69" xml:id="p69" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f77"/>
           <label type="speaker">MORON. parlant à la Princesse. au Prince. à la Princesse. au Prince.</label>
           <p>Bon, Madame. Courage, Seigneur. II en tient. Ne vous defaites pas.</p>
           <label type="speaker">LA PRINCESSE.</label>
@@ -1613,7 +1614,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
           <p>Ie le suis à la vérité, &amp; j’admire, Madame, comme le Ciel a pû former deux ames aussi semblables en tout que les nostres: deux ames en qui l’on ait veu vne plus grande conformité de sentimens, qui ayent fait éclater dans le mesme temps vne resolution à brauer les traits de l’Amour, &amp; qui dans le mesme moment ayent fait paroistre vne égale facilité à perdre le nom d’insensibles: Car enfin, Madame, puis que vostre exemple m’authorise, je ne feindray point de vous dire, que l’Amour aujourd’huy s’est rendu maistre de mon coeur, et qu’vne des Princesses, vos Cousines, l’aymable &amp; belle Aglante, a renuersé d’vn coup d’oeil tous les projets de ma fierté. Ie suis rauy, Madame, que par cette égalité de défaite, nous n’ayons rien à nous reprocher l’vn &amp; l’autre; &amp; je ne doute point, que comme je vous louë infiniement de vostre choix, vous n’aprouuiez aussi le mien. II faut que ce miracle éclate aux yeux de tout le monde, &amp; nous ne deuons point differer à nous rendre tous deux contens. Pour moy, Madame, je vous sollicite de vos suffrages, pour obtenir celle que je souhaite, &amp; vous trouuerez bon que j’aille de ce pas en faire la demande au Prince vostre Pere.</p>
           <label type="speaker">MORON.</label>
           <p>Ah digne ! ah braue coeur !</p>
-          <pb n="70" xml:id="p70"/>
+          <pb n="70" xml:id="p70" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f78"/>
           <label type="head">SCENE DEVXIESME.</label>
           <p>LA PRINCESSE, MORON.</p>
           <label type="speaker">LA PRINCESSE.</label>
@@ -1632,7 +1633,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
           <p>Oüy, il vient de m’en asseurer luy-mesme, et m’a demandé mon suffrage pour vous obtenir, mais je vous conjure de rejetter cette proposition, et de ne point prester l’oreille à tout ce qu’il pourra vous dire.</p>
           <label type="speaker">AGLANTE.</label>
           <p>Mais, Madame, s’il estoit vray que ce Prince m’aymast effectiuement, pourquoy n’ayant aucun dessein de vous engager, ne voudriez-vous pas soufrir….</p>
-          <pb n="71" xml:id="p71"/>
+          <pb n="71" xml:id="p71" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f79"/>
           <label type="speaker">LA PRINCESSE.</label>
           <p>Non, Aglante, je vous le demande, faites-moy ce plaisir, je vous prie, &amp; trouuez bon que n’ayant pû auoir l’auantage de le soûmettre, je luy dérobe la joye de vous obtenir.</p>
           <label type="speaker">AGLANTE.</label>
@@ -1652,7 +1653,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
           <label type="speaker">ARISTOMENE.</label>
           <p>Oüy, Madame.</p>
           <label type="speaker">LA PRINCESSE.</label>
-          <p>C'est vn estourdy, et vous estes vn peu trop credule, Prince, <pb n="72" xml:id="p72"/> d’ajouster foy si promptement à ce qu’il vous a dit; vne pareille nouuelle meriteroit bien, ce me semble, qu’on en doutast vn peu de temps, et c’est tout ce que vous pourriez faire de la croire, si je vous l’auois dite moy-mesme.</p>
+          <p>C'est vn estourdy, et vous estes vn peu trop credule, Prince, <pb n="72" xml:id="p72" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f80"/> d’ajouster foy si promptement à ce qu’il vous a dit; vne pareille nouuelle meriteroit bien, ce me semble, qu’on en doutast vn peu de temps, et c’est tout ce que vous pourriez faire de la croire, si je vous l’auois dite moy-mesme.</p>
           <label type="speaker">ARISTOMENE.</label>
           <p>Madame, si j’ay esté trop promt à me persuàder….</p>
           <label type="speaker">LA PRINCESSE.</label>
@@ -1671,7 +1672,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
           <p>Ma foy, Madame, auüons la dette, vous voudriez qu’il fût à vous, et dans toutes vos actions, il est aysé de voir que vous aymez vn peu, ce jeune Prince.</p>
           <label type="speaker">LA PRINCESSE.</label>
           <p>Moy, je l’ayme? O Ciel ! je l’ayme? auez-vous l’insolence de prononcer ces paroles, sortez de ma veuë impudent, &amp; ne vous presentez jamais deuuant moy.</p>
-          <pb n="73" xml:id="p73"/>
+          <pb n="73" xml:id="p73" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f81"/>
           <label type="speaker">MORON.</label>
           <p>Madame….</p>
           <label type="speaker">LA PRINCESSE.</label>
@@ -1684,7 +1685,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
           <p>Fin du quatriesme Acte.</p>
         </div>
         <div>
-          <pb n="74" xml:id="p74"/>
+          <pb n="74" xml:id="p74" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f82"/>
           <label type="head">CINQVIESME INTERMEDE.</label>
           <p>CLIMENE PHILIS.</p>
           <label type="speaker">CLLIMENE.</label>
@@ -1724,11 +1725,11 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
           <p>LA Princesse les interrompit en cet endroit, &amp; leur dit, Acheuez seules si vous voulez, je ne sçaurois demeurer en repos &amp; quelque douceur qu’ayent vos chants, ils ne font que redoubler mon inquietude.</p>
         </div>
         <div>
-          <pb n="75" xml:id="p75"/>
+          <pb n="75" xml:id="p75" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f83"/>
           <label type="head">ACTE CINQVIESME.</label>
           <label type="head">ARGVMENT.</label>
           <p>Il se passoit dans le cœur du Prince de Messene des choses bien differentes; la joye que lui auoit donnée le prince d’Ithaque, en luy apprenant malicieusement qu’il estoit aymé de la Princesse, l’auoit obligé de l’aller trouuer auec vne inconsideration que rien qu’vne extréme amour ne pouuoit excuser; mais il en auoit esté receu d’vne maniere bien differente à ce qu’il esperoit. Elle luy demanda qui luy auoit appris cette nouuelle, &amp; quand elle eut sçeu que sçauoit esté le Prince d’Ithaque, cette connoissance augmenta cruellement son mal, &amp; luy fit dire à demy desespérée, c’est vn estourdy; &amp; ce mot estourdit si fort le Prince de Messene, qu’il sortit tout confus sans lui pouuoir respondre. La Princesse d’vn autre costé alla trouuer le Roy son Pere, qui venoit de paroistre auec le Prince d’Ithaque, &amp; qui luy tesmoignoit, non seulement la joye qu’il auroit euë de le voir entrer dans son alliance, mais l’opinion qu’il commençoit d’auoir que sa fille ne le haissoit pas: Elle ne fut pas plustot aupres de luy, que se jettant à ses pieds, elle luy demanda pour la plus grande faueur qu’elle en pust jamais receuoir, que le prince d’Ithaque n’espousast jamais la Princesse.</p>
-          <p>Ce qu’il luy promit solemnellement; mais il luy dit que si elle ne vouloit point qu’il fut à vne autre, il falloit qu’elle le prit pour elle : Elle luy respondit, il ne le voudroit pas; mais d’vne maniere si passionée, qu’il estoit aisé de connoistre les sentiments de son cœur. Alors le Prince quittant toute sorte de feinte, luy confessa son amour, &amp; le stratageme dont il s’estoit seruy pour venir au point ou il se voyoit alors par la connoissance de son humeur: La Princesse luy donnant la main, le Roy se tourna vers les deux Princes de Messene &amp; de Pyle, &amp; leur demanda si ses deux parentes, dont le merite n’estoit pas moindre que la qualité, ne seroient point capables de les consoler de leur disgrace; ils luy res<pb n="76" xml:id="p76"/>pondirent que l’honneur de son alliance faisant tous leurs souhaits, ils ne pouuoient esperer vne plus heureuse fortune. Alors la joye fut si grande dans le Palais, qu’elle se respandit par tous les enuirons.</p>
+          <p>Ce qu’il luy promit solemnellement; mais il luy dit que si elle ne vouloit point qu’il fut à vne autre, il falloit qu’elle le prit pour elle : Elle luy respondit, il ne le voudroit pas; mais d’vne maniere si passionée, qu’il estoit aisé de connoistre les sentiments de son cœur. Alors le Prince quittant toute sorte de feinte, luy confessa son amour, &amp; le stratageme dont il s’estoit seruy pour venir au point ou il se voyoit alors par la connoissance de son humeur: La Princesse luy donnant la main, le Roy se tourna vers les deux Princes de Messene &amp; de Pyle, &amp; leur demanda si ses deux parentes, dont le merite n’estoit pas moindre que la qualité, ne seroient point capables de les consoler de leur disgrace; ils luy res<pb n="76" xml:id="p76" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f84"/>pondirent que l’honneur de son alliance faisant tous leurs souhaits, ils ne pouuoient esperer vne plus heureuse fortune. Alors la joye fut si grande dans le Palais, qu’elle se respandit par tous les enuirons.</p>
           <label type="head">SCENE PREMIERE.</label>
           <p>LE PRINCE, EVRIALE, MORON, AGLANTE, CINTHIE.</p>
           <label type="speaker">MORON.</label>
@@ -1743,7 +1744,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
           <p>LA PRINCESSE, LE PRINCE EVRIALE, AGLANTE, CINTHIE, MORON.</p>
           <label type="speaker">LA PRINCESSE.</label>
           <p>O Ciel ! que vois-je icy ?</p>
-          <pb n="77" xml:id="p77"/>
+          <pb n="77" xml:id="p77" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f85"/>
           <label type="speaker">LE PRINCE.</label>
           <p>Oüy, l’honneur de vostre alliance m’est d’vn prix tres-considerable, &amp; je souscris aysement de tous mes suffrages à la demande que vous me faites.</p>
           <label type="speaker">LA PRINCESSE.</label>
@@ -1762,7 +1763,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
           <p>Il ma mesprisée.</p>
           <label type="speaker">LE PRINCE.</label>
           <p>Et comment?</p>
-          <pb n="78" xml:id="p78"/>
+          <pb n="78" xml:id="p78" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f86"/>
           <label type="speaker">LA PRINCESSE.</label>
           <p>II ne m’a pas trouuée assez bien faite pour m’addresser ses voeux.</p>
           <label type="speaker">LE PRINCE.</label>
@@ -1784,7 +1785,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
           <label type="speaker">LE PRINCE.</label>
           <p>Oüy, tu l’aymes.</p>
           <label type="speaker">LA PRINCESSE.</label>
-          <p>Ie l’ayme, dites-vous? &amp; vous m’imputez cette lascheté, O Ciel ! quelle est mon infortune? puis-je bien, sans mourir, entendre <pb n="79" xml:id="p79"/> ces paroles, &amp; faut-il que je sois si malheureuse qu’on me soupçonne de l’aymer. Ah ! si c’estoit vn autre que vous, Seigneur, qui me tint ce discours, je ne sçay pas ce que je ne ferois point.</p>
+          <p>Ie l’ayme, dites-vous? &amp; vous m’imputez cette lascheté, O Ciel ! quelle est mon infortune? puis-je bien, sans mourir, entendre <pb n="79" xml:id="p79" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f87"/> ces paroles, &amp; faut-il que je sois si malheureuse qu’on me soupçonne de l’aymer. Ah ! si c’estoit vn autre que vous, Seigneur, qui me tint ce discours, je ne sçay pas ce que je ne ferois point.</p>
           <label type="speaker">LE PRINCE.</label>
           <p>Et bien? oüy, tu ne l’aymes pas. Tu le hais, j’y consens, &amp; je veux bien pour te contenter qu’il n’espouse pas la Princesse Aglante.</p>
           <label type="speaker">LA PRINCESSE.</label>
@@ -1795,7 +1796,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
           <p>Vous vous mocquez, Seigneur, &amp; ce n’est pas ce qu’il demande.</p>
           <label type="speaker">EVRIALE.</label>
           <p>Pardonnez-moy, Madame, je suis assez temeraire pour cela, &amp; je prens à tesmoin le Prince vostre Pere, si ce n’est pas vous que j’ay demandée. C'est trop vous tenir dans l’erreur, il faut lever le masque, &amp; deussiez-vous vous en preualoir contre moy, descouvrir à vos yeux les veritables sentimens de mon coeur. Ie n’ay jamais aymé que vous, &amp; jamais je n’aymeray que vous. C’est vous, Madame, qui m’auez enlevé cette qualité d’insensible, que j’auois toûjours affectée, et tout ce que j’ay pû vous dire, n’a esté qu’vne feinte qu’vn mouuement secret m’a inspirée, et que je n’ay suiuie qu’auec toutes les violences imaginables. Il falloit qu’elle cessast bien-tost, sans doute, &amp; je m’estonne seulement qu’elle ait pû durer la moitié d’vn jour; car enfin je mourois, je bruslois dans l’ame quand je vous déguisois mes sentimens, &amp; jamais cœur n’a souffert vne contrainte égale à la mienne. Que si cette feinte, Madame, à quelque chose qui vous offence je suis tout prest de mourir pour vous en vanger: Vous n’auez qu’à parler, et ma main sur le champ fera gloire d’executer l’Arrest que vous prononcerez.</p>
-          <pb n="80" xml:id="p80"/>
+          <pb n="80" xml:id="p80" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f88"/>
           <label type="speaker">LA PRINCESSE.</label>
           <p>Non, non, Prince, je ne vous sçay pas mauuais gré de m’auoir abusée, et tout ce que vous m’auez dit, je l’ayme bien mieux vne feinte, que non pas vne verité.</p>
           <label type="speaker">LE PRINCE.</label>
@@ -1809,7 +1810,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
           <p>Vien, Moron, c’est icy vn jour de paix, &amp; je te remets en grace auec la Princesse.</p>
           <label type="speaker">MORON.</label>
           <p>Seigneur, je seray meilleur Courtisan vne autre fois, et je me garderay bien de dire ce que je pense.</p>
-          <pb n="81" xml:id="p81"/>
+          <pb n="81" xml:id="p81" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f89"/>
           <label type="head">SCENE TROISIESME.</label>
           <p>ARISTOMENE, THEOCLES, LE PRINCE, LA PRINCESSE, AGLANTE, CINTHIE, MORON.</p>
           <label type="speaker">LE PRINCE.</label>
@@ -1823,7 +1824,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
           <p>Fin du cinquiesme Acte.</p>
         </div>
         <div>
-          <pb n="82" xml:id="p82"/>
+          <pb n="82" xml:id="p82" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f90"/>
           <label type="head">SIXIESME INTERMEDE.</label>
           <label type="head">CHOEVR DE PASTEVRS ET DE BERGERES QVI DANSENT.</label>
           <p>Quatre Bergers &amp; deux Bergeres Heroïques, representez les premiers par les Sieurs le Gros, Estiual Don &amp; Blondel, &amp; les deux Bergeres par Madlle. de la Barre &amp; Madlle. Hilaire se prenant la main, chanterent cette Chanson à danser à laquelle les autres respondirent.</p>
@@ -1843,7 +1844,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
           <l>Il y faut venir vn jour:</l>
           <l>Il n’est rien qui ne se rende</l>
           <l>Aux doux charmes de l’Amour.</l>
-          <p>Pendant que ces aymables personnes dansoient, il sortit de dessous le Theatre la machine d’vn grand arbre chargé de seize <pb n="83" xml:id="p83"/>Faunes, dont les huit joüerent de la Fluste, &amp; les autres du Violon auec vn concert le plus agreable du monde. Trente Violons leur respondoient de l’Orchestre, auec six autres concertans de Clauessins &amp; de Theorbes, qui estoient les Sieurs D’Anglebert, Richard, Itier, La Barre le cadet, Tissu &amp; le Moine.</p>
+          <p>Pendant que ces aymables personnes dansoient, il sortit de dessous le Theatre la machine d’vn grand arbre chargé de seize <pb n="83" xml:id="p83" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f91"/>Faunes, dont les huit joüerent de la Fluste, &amp; les autres du Violon auec vn concert le plus agreable du monde. Trente Violons leur respondoient de l’Orchestre, auec six autres concertans de Clauessins &amp; de Theorbes, qui estoient les Sieurs D’Anglebert, Richard, Itier, La Barre le cadet, Tissu &amp; le Moine.</p>
           <p>Et quatre Bergers &amp; quatre Bergeres vinrent danser vne fort belle entrée, à laquelle les Faunes descendans de l’arbre se meslerent de temps en temps, &amp; toute cette Scene fust si grande, si remplie &amp; si agreable, qu’il ne s’estoit encore rien veu de plus beau en Ballet.</p>
           <p>Aussi fit-elle vne aduantageuse conclusion aux diuertissemens de ce jour, que toute la Cour ne loüa pas moins que celuy qui l’auoit precedé, se retirant auec vne satisfaction qui luy fit bien esperer de la suite d’vne Feste si complette.</p>
           <p>Les Bergers estoient. Les Sieurs Chicanneau, du Pron, Noblet, &amp; la Pierre.</p>
@@ -1852,14 +1853,14 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
         </div>
       </div>
       <div>
-        <pb n="np"/>
+        <pb n="np" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f93"/>
         <!-- Vignette - à encoder ? -->
         <head><date when="1664-05-08">TROISIESME IOVRNÉE</date> DES PLAISIRS DE L’ISLE ENCHANTÉE.</head>
         <p>PLVS on s’auançoit vers <placeName key="loc:Versailles" spec="bassin_des_cygnes">le grand Rondeau</placeName> qui representoit le Lac, sur lequel estoit autresfois basty <tech type="construction">le Palais d’Alcine</tech>: Plus on s’approchoit de la fin des diuertissemens de l’Isle Enchantée, comme s’il n’eust pas été juste que tant de braues Cheualiers demeurassent plus long-temps dans vne oysiueté qui eust fait tort à leur gloire.</p>
         <p>On feignoit donc, suiuant toûjours le premier dessein, que le Ciel ayant resolu de donner la liberté à ces Guerriers; <name key="#alcine">Alcine</name> en eut des pressentimens qui la remplirent de terreur &amp; d’inquietudes: Elle voulut apporter tous les remedes possibles pour preuenir ce malheur, &amp; fortifier en toutes manieres vn lieu qui pût renfermer tout son repos &amp; sa joye.</p>
         <p>On fit paroistre sur <placeName key="loc:Versailles" spec="bassin_des_cygnes">ce Rondeau</placeName>, dont l’estenduë &amp; la forme sont extraordinaires, <tech type="construction">vn Rocher situé au milieu d’vne Isle couuerte de diuers animaux</tech>, comme s’ils eussent voulu en deffendre l’entrée.</p>
         <p><tech type="construction">Deux autres Isles plus longues, mais d’vne moindre largeur, paroissoient aux deux costez de la premiere</tech>, &amp; toutes trois aussi bien que les bords du Rondeau, estoient <tech type="éclairage">si fort esclairées, que ces lumieres faisoient naistre vn nouueau jour dans l’obscurité de la nuit</tech>.</p>
-        <p><persName key="#louisxiv #anne_d_autriche #marie_therese">Leurs Majestez</persName> estant arriuées, n’eurent pas plustost pris <pb n="np"/>leur place, que <tech type="musique">l’vne des deux Isles qui paroissoient aux costez de la premiere, fut toute couuerte de Violons fort bien vestus</tech>.</p>
+        <p><persName key="#louisxiv #anne_d_autriche #marie_therese">Leurs Majestez</persName> estant arriuées, n’eurent pas plustost pris <pb n="np" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f94"/>leur place, que <tech type="musique">l’vne des deux Isles qui paroissoient aux costez de la premiere, fut toute couuerte de Violons fort bien vestus</tech>.</p>
         <p><tech type="musique">L’autre qui luy estoit opposée, le fut en mesme temps de Trompettes &amp; de Tymballiers, dont les habits n’estoient pas moins riches</tech>.</p>
         <p>Mais ce qui surprit dauantge, fut de voir sortir <tech type="machine"><name key="#alcine" corresp="#therese_duparc">Alcine</name> de derriere le Rocher, portée par vn Monstre-Marin d’vne grandeur prodigieuse</tech>.</p>
         <p>Deux des Nymphes de sa suite, sous les noms de <name key="#celie" corresp="#mlle_de_brie">Celie</name> et de <name key="#dirce" corresp="#armande_bejart">Dircé</name>, partirent au mesme temps à sa suite; &amp; se mettant à ses costez sur <tech type="machine">de grandes Baleines</tech>, elles s’approcherent du bord du Rondeau, &amp; <name key="#alcine" corresp="#therese_duparc">Alcine</name> commença des Vers, ausquels ses Compagnes respondirent, &amp; qui furent à la loüange de la <persName key="#anne_d_autriche">Reyne Mere du Roy</persName>.</p>
@@ -1887,7 +1888,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
           <l rend="i">Et tout ce que mon art m’a predit de malheurs,</l>
           <l rend="i">En ce songe fut peint de si viues couleurs,</l>
           <l rend="i">Qu’à mes yeux éueillez sans cesse il représente</l>
-          <pb n="np"/>
+          <pb n="np" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f95"/>
           <l rend="i">Le pouuoir de <name key="#melisse">Melisse</name>, &amp; l’heur de <name key="#bradamante">>Bradamante</name>.</l>
           <l rend="i">I’auois preveu ces maux, mais les charmans plaisirs</l>
           <l rend="i">Qui sembloient en ces lieux preuenir nos desirs;</l>
@@ -1931,7 +1932,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
           <l rend="i">I’y vois vn grand remede, et facile à tenter;</l>
           <l rend="i">Vne <persName key="#anne_d_autirche">Reyne</persName> paroist, dont le secours propice</l>
           <l rend="i">Nous sçaura garentir des efforts de <name key="#melisse">Melisse</name>:</l>
-          <pb n="np"/>
+          <pb n="np" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f96"/>
           <l rend="i">Par tout de cette Reyne on vante la bonté,</l>
           <l rend="i">Et l’on dit que son cœur, de qui la fermeté</l>
           <l rend="i">Des flots les plus mutins méprisa l’insolence,</l>
@@ -1972,7 +1973,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
           <l rend="i">Et nous pourrons trouuer au fort de nostre peine</l>
           <l rend="i">Vn refuge paisible aux pieds de cette <persName key="anne_d_autriche">Reyne</persName>.</l>
         </lg>
-        <pb n="np"/>
+        <pb n="np" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f97"/>
         <label type="speaker"><name key="#dirce" corresp="#armande_bejart">DIRCÉ</name></label>
         <lg>
           <l rend="i">Ie sçais bien que son cœur, noblement genereux,</l>
@@ -2006,7 +2007,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
         </list>
         <p>LOrs qu’ils furent acheuez, &amp; qu’<name key="#alcine" corresp="#therese_duparc">Alcine</name> se fut retirée pour aller redoubler les Gardes du Palais, <tech type="musique">le concert des Violons</tech> se fit entendre; pendant que <tech type="machine">le Frontispice du Palais venant à s’ouurir auec vn merueilleux artifice, &amp; des Tours à s’esleuer à veuë d’œil</tech>.</p>
         <p>Quatre Geants d’vne grandeur desmesurée, vinrent à paroistre auec quatre Nains; qui par l’opposition de leur petite taille, faisoient paroistre celle des Geants encore plus excessiue. Ces Colloses estoient commis à la garde du Palais, &amp; ce fut par eux que commença la premiere Entrée du Ballet.</p>
-        <pb n="np"/>
+        <pb n="np" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f98"/>
         <!-- voir comment encoder les types de divertissement -->
         <label type="head"><title>BALLET DV PALAIS D'ALCINE</title></label>
         <div>
@@ -2033,7 +2034,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
           </list>
         </div>
         <div>
-        <pb n="np"/>
+        <pb n="np" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f99"/>
           <head>IV. ENTRÉE</head>
           <stage><name key="#alcine" corresp="#therese_du_parc">Alcine</name> allarmée de cét accident, inuoque de nouueau tous ses <name key="#demons">Esprits</name>, &amp; leur demande secours: il s’en presente <name key="#demons_agiles" corresp="#saint_andre #mmagny">deux à elle, qui font des sauts auec vne force, &amp; vne agilité merueilleuses</name>.</stage>
           <list>
@@ -2060,7 +2061,7 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
           <trailer>FIN DV BALLET.</trailer>
         </div>
         <div>
-          <pb n="np"/>
+          <pb n="np" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f100"/>
           <p> <tech type="feu°d°artifice">IL sembloit que le Ciel, la Terre &amp; l’Eau fussent tous en feu, &amp; que la destruction du superbe Palais d’Alcine, comme la liberté des Cheualiers qu’elle y retenoit en prison, ne se pût accomplir que par des prodiges &amp; des miracles: La hauteur &amp; le nombre des fusées volantes, celles qui rouloient sur le riuage, &amp; celles qui ressortoient de l’eau apres s’y estre enfoncées, faisoient vn spectacle si grand &amp; si magnifique, que rien ne pouuoit mieux terminer les enchantemens qu’vn si beau Feu d’Artifice; lequel ayant enfin cessé apres vn bruit &amp; vne longueur extraordinaires, les coups de boëttes qui l’auoient commencé redoublerent encore.</tech></p>
           <p>Alors toute la Cour se retirant, confessa qu’il ne se pouuoit rien voir de plus acheué que ces trois Festes: Et c’est assez aduoëer qu’il ne s’y pouuoit rien adjouster, que de dire que les trois Iournées ayant eu chacune ses partisans, comme chacun auoit eu ses beautez particuliers, on ne conuint pas du prix qu’elles deuoient emporter entre-elles; bien qu’on demeurast d’accord qu’elles pouuoient justement le disputer à toutes celles qu’on auoit veuës jusques alors, &amp; les surpasser peut-estre.</p>
           <p>Mais quoy que les Festes comprises dans le sujet des <title>Plaisirs de l’Isle Enchantée</title> fussent terminées, tous les diuertissemens de <placeName key="loc:versailles">Versailles</placeName> ne l’estoient pas; &amp; la magnificence &amp; la galanterie du <persName key="#louisxiv">Roy</persName>, en auoit encore réserué pour les autres jours, qui n’estoient pas moins agreables.</p>
@@ -2068,13 +2069,13 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
       </div>
       <div>
         <p><date when="1664-05-10">Le Samedy dixiesme</date> <persName key="#louisxiv" role="organisateur">Sa Majesté</persName> voulut courir les testes; c’est vn exercice que peu de gens ignorent, &amp; dont l’vsage est venu d’Allemagne, fort bien inuenté, pour faire voir l’addresse d’vn Caualier; tant à bien mener son cheual dans les passades de guerre, qu’à bien se seruir d’vne lance, d’vn dard, &amp; d’vne espée. Si quelqu’vn ne les a point veu courre, il en trouuera icy la description, estant moins communes que la bague, &amp; seulement icy depuis peu d’années, &amp; ceux qui en ont eu le plaisir, ne s’ennuyent pas pourtant d’vne narration si peu estenduë.</p>
-        <p>Les Cheualiers entrent l’vn apres l’autre dans la Lice la lance à la main, &amp; vn dard sous la cuisse droite; &amp; apres <pb n="np"/> que l’vn d’eux a couru &amp; emporté vne Teste de gros carton peinte, &amp; de la forme de celle d’vn Turc, il donne sa lance à vn Page, &amp; faisant la demy-volte il reuient à toute bride à la seconde Teste, qui a la couleur &amp; la forme d’vn Maure, l’emporte auec le dard qui luy jette en passant; puis reprenant vne jaueline, peu diferente de la forme du dard, dans vne troisiesme passade il la darde dans vn bouclier où est peinte vne teste de Meduse; &amp; acheuant sa demy-volte il tire l’espée, dont il emporte en passant toûjours à toute bride vne teste esleuée à vn demy pied de terre; puis faisant place à vn autre, celuy qui en ses courses en a emporté le plus, gagne le prix.</p>
+        <p>Les Cheualiers entrent l’vn apres l’autre dans la Lice la lance à la main, &amp; vn dard sous la cuisse droite; &amp; apres <pb n="np" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f101"/> que l’vn d’eux a couru &amp; emporté vne Teste de gros carton peinte, &amp; de la forme de celle d’vn Turc, il donne sa lance à vn Page, &amp; faisant la demy-volte il reuient à toute bride à la seconde Teste, qui a la couleur &amp; la forme d’vn Maure, l’emporte auec le dard qui luy jette en passant; puis reprenant vne jaueline, peu diferente de la forme du dard, dans vne troisiesme passade il la darde dans vn bouclier où est peinte vne teste de Meduse; &amp; acheuant sa demy-volte il tire l’espée, dont il emporte en passant toûjours à toute bride vne teste esleuée à vn demy pied de terre; puis faisant place à vn autre, celuy qui en ses courses en a emporté le plus, gagne le prix.</p>
         <p>Toute la Cour s’estant placée sur vne balustrade de fer doré, qui regnoit autour de l’agreable maison de <placeName key="loc:versailles">Versailles</placeName>, &amp; qui regarde sur le fossé, dans lequel on auoit dressé la Lice auec des barrieres.</p>
         <p>Le Roy s’y rendit suiuy des mesmes Cheualiers qui auoient couru la bague: Les Ducs <persName key="#saint_aignan" role="marechal_de_camp">de S. Aignan</persName> &amp; <persName key="#anne_de_noailles" role="juge_des_courses">de Noailles</persName> y continäns leurs premieres fonctions; l’vn de Mareschal de Camp, &amp; l’autre de Iuge des Courses: Il s’en fit plusieurs fort belles &amp; heureuses; mais l’addresse du <persName key="#louisxiv" role="participant">Roy</persName> luy fit emporter hautement en suitte du prix de la Course des Dames, encore celuy que donnoit la <persName key="#marie_therese">Reyne</persName>; c’estoit vne rose de Diamans de grand prix, que le <persName key="louisxiv" role="participant">Roy</persName>, apres l’auoir gagnée, redonna liberalement à courre aux autres Cheualiers, &amp; que le <persName key="#armand_du_cambout" role="participant">Marquis de Coaslin</persName> disputa contre le <persName key="#charles_de_soyecourt" role="participant">Marquis de Soyecourt</persName>&amp; la gagna.</p>
       </div>
       <div>
         <p><date when="1664-05-11">Le Dimanche</date> au leuer du <name key="#louisxiv">Roy</name>, quasi toute la conuersation tourna sur les belles Courses du jour precedent, &amp; donna lieu à vn grand deffy entre le <persName key="#saint_aignan" role="participant">Duc de S. Aignan</persName>, qui n’auoit point encore couru, &amp; le <persName key="#charles_de_soyecourt" role="participant">Marquis de Soyecourt</persName>, qui fut remise au lendemain, pource que le <persName key="#antoine_iii_de_gramont">Mareschal Duc de Grammont</persName>, qui parioit pour ce Marquis, estoit obligé de partir pour Paris, d’où il ne deuoit reuenir que le jour d’apres.</p>
-        <p>Le <persName key="#louisxiv">Roy</persName> mena toute la Cour cette apresdinée à sa <placeName key="loc:Versailles" spec="ménagerie">Mesnagerie</placeName>, dont on admira les beautez particulieres, &amp; le nombre presque incroyable d’oyseaux de toutes sortes; parmy <pb n="np"/> lesquels il y en a beaucoup de fort rares. Il seroit inutile de parler de la collation qui suiuit ce diuertissement, puis que huit jours durant chaque repas pouuoit passer pour vn Festin des plus grands qu’on puisse faire.</p>
+        <p>Le <persName key="#louisxiv">Roy</persName> mena toute la Cour cette apresdinée à sa <placeName key="loc:Versailles" spec="ménagerie">Mesnagerie</placeName>, dont on admira les beautez particulieres, &amp; le nombre presque incroyable d’oyseaux de toutes sortes; parmy <pb n="np" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f102"/> lesquels il y en a beaucoup de fort rares. Il seroit inutile de parler de la collation qui suiuit ce diuertissement, puis que huit jours durant chaque repas pouuoit passer pour vn Festin des plus grands qu’on puisse faire.</p>
         <p>Et le soir Sa Majesté, fit representer sur l’vn des theatres doubles de son Sallon, que son Esprit vniuersel a luy-mesme inuentez, la Comedie des <title>Fascheux</title> faite par le Sieur <persName key="#moliere" role="auteur">de Moliere</persName>, meslée d’entrées de Ballet, &amp; fort ingenieuse.</p>
       </div>
       <div>
@@ -2089,14 +2090,14 @@ C . Cadiot"?>les Sieurs Estiual, Don, &amp; Blondel<?oxy_comment_end?> de <orgNa
         </lg>
         <p>Faisant toûjours allusion à son nom de <name key="#guidon_le_sauvage" corresp="#saint_aignan">Guidon le Sauvage</name>, que l’aventure de l’île perilleuse rendit vainqueur de dix chevaliers.</p>
         <p>Aussi-tost que le <persName key="#louisxiv">Roy</persName> eust disné, il conduisit <persName key="#anne_d_autriche #marie_therese">les Reynes</persName>, <persName key="#monsieur">Monsieur</persName>, <persName key="#madame">Madame</persName>, &amp; toutes les Dames dans vn lieu ou on deuoit tirer vne Loterie, afin que rien ne manquast à la galanterie de ces Festes; c’estoit des pierreries, des ameublemens, de l’argenterie &amp; autres choses semblables: Et quoyque le sort ait accoustumé de decider de ces presens, il s’accorda sans doute auec le desir de <persName key="#louisxiv">S. M.</persName> quand il fit tomber le gros lot entre les mains de <persName key="#marie_therese">la Reyne</persName>; chacun sortant de ce lieu là fort content, pour aller voir les Courses qui s’alloient commencer.</p>
-        <pb n="np"/>
+        <pb n="np" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f103"/>
         <p>Enfin <name key="#guidon_le_sauvage" corresp="#saint_aignan">Guidon</name> &amp; <name key="olivier" corresp="#cm_de_belleforiere">Oliuier</name> parurent sur les rangs à cinq heures du soir, fort proprement vestus &amp; bien montez.</p>
         <p><persName key="#louisxiv">Le Roy</persName> auec toute la Cour les honora de sa presence; &amp; <persName key="#louisxiv">Sa Majesté</persName> leust mesme les Articles des Courses, afin qu’il n’y eust aucune contestation entre-eux. Le succés en fut heureux au <persName key="#saint_aignan">Duc de S. Aignan</persName>, qui gagna le deffy.</p>
         <p>Le soir, <persName key="#louisxiv" role="organisateur">Sa Majesté</persName> fit joüer vne Comedie, nommée <title>Tartuffe</title>, que <persName key="#moliere" role="auteur">le Sieur de Molliere</persName> auoit fait contre les Hypocrites; mais quoy qu’elle eut esté trouuée fort diuertissante, <persName key="#louisxiv">le Roy</persName> connut tant de conformité entre ceux qu’vne veritable devotion met dans le chemin du Ciel, &amp; ceux qu’vne vaine ostentation des bonnes œuures n’empesche pas d’en commettre de mauuaises; que son extréme délicatesse pour les choses de la Religion, ne put souffrir cette ressemblance du vice auec la vertu, qui pouuoient estre prise l’vne pour l’autre: Et quoy qu’on ne doutast point des bonnes intentions de l’Autheur, il la deffendit pourtant en public, &amp; se priua soy-mesme de ce plaisir, pour n’en pas laisser abuser à d’autres, moins capables d’en faire vn juste discernement.</p>
       </div>
       <div>
         <p><date when="1664-05-13">Le Mardy treiziesme</date>, <persName key="#louisxiv" role="organisateur">le Roy</persName> voulut encore courre les Testes, comme à vn jeu ordinaire que deuoit gagner celuy qui en feroit le plus: <persName key="#louisxiv">Sa Majesté</persName> eut encore le prix de la Course des Dames, le <persName key="#saint_aignan">Duc de S. Aignan</persName> celuy du jeu; &amp; ayant eu l’honneur d’entrer pour le second à la dispute auec <persName key="#louisxiv">Sa Majesté</persName>: L’addresse incomparable du <persName key="#louisxiv">Roy</persName> luy fit encore auoir ce prix, &amp; ce ne fut pas sans vn estonnement duquel on ne pouuoit se deffendre, qu’on en vit gagner quatre à <persName key="#louisxiv">Sa Majesté</persName> en deux fois qu’elle auoit couru les testes.</p>
-        <p>On joäa le mesme soir la Comedie du <title>Mariage Forcé</title>, encore de la façon du mesme <persName key="#moliere" role="auteur">Sieur de Molliere</persName>, meslée d’entrées de Balets, &amp; de Recits: Puis <persName key="#louisxiv">le Roy</persName> prit le chemin de <placeName key="loc:fontainebleau"/>Fontainebleau <date when="1664-05-14">le Mercredy quatorziesme</date>; toute la Cour se trouuant si satisfaite de ce qu’elle auoit veu, que chacun crut qu’on ne pouuoit se passer de le mettre par escrit, pour en donner connoissance à ceux qui n’auoient pû voir des Festes si diuersifiées &amp; si agreables; où l’on a pû admirer tout à la fois le projet auec le succés, la liberalité auec la politesse, le grand nombre auec l’ordre, &amp; la <pb n="np"/> satisfaction de tous: Où les soins infatigables de <persName key="#colbert" role="organisation">Monsieur de Colbert</persName> s’employerent dans tous ces diuertissemens, malgré ses importantes affaires; où le <persName key="#saint_aignan">Duc de S. Aignan</persName>, joignit l’action à l’inuention du dessein; où les beaux vers du <persName key="#perigny" role="auteur">President de Perigny</persName> à la loüange des <persName key="#anne_d_autriche #marie_therese">Reynes</persName>, furent si justement pensez, si agreablement tournez, &amp; récitez auec tant d’Art; où ceux que <persName key="#benserade" role="auteur">Monsieur de Bensserade</persName> fit pour les Cheualiers, eurent vne approbation generalle; où la vigilance exacte de <persName key="#bontemps" role="intendance">Monsieur Bontemps</persName>, &amp; l’application de <persName key="de_laynay" role="intendance"><!-- à identifier -->Monsieur de Launay</persName>, ne laisserent manquer d’aucune des choses necessaires: Enfin, où chacun à marquer si aduantageusement son dessein de plaire au <persName key="#louisxiv">Roy</persName>; dans le temps où <persName key="#louisxiv">Sa Majesté</persName> ne pensoit elle-mesme qu’à plaire; &amp; où
+        <p>On joäa le mesme soir la Comedie du <title>Mariage Forcé</title>, encore de la façon du mesme <persName key="#moliere" role="auteur">Sieur de Molliere</persName>, meslée d’entrées de Balets, &amp; de Recits: Puis <persName key="#louisxiv">le Roy</persName> prit le chemin de <placeName key="loc:fontainebleau"/>Fontainebleau <date when="1664-05-14">le Mercredy quatorziesme</date>; toute la Cour se trouuant si satisfaite de ce qu’elle auoit veu, que chacun crut qu’on ne pouuoit se passer de le mettre par escrit, pour en donner connoissance à ceux qui n’auoient pû voir des Festes si diuersifiées &amp; si agreables; où l’on a pû admirer tout à la fois le projet auec le succés, la liberalité auec la politesse, le grand nombre auec l’ordre, &amp; la <pb n="np" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f104"/> satisfaction de tous: Où les soins infatigables de <persName key="#colbert" role="organisation">Monsieur de Colbert</persName> s’employerent dans tous ces diuertissemens, malgré ses importantes affaires; où le <persName key="#saint_aignan">Duc de S. Aignan</persName>, joignit l’action à l’inuention du dessein; où les beaux vers du <persName key="#perigny" role="auteur">President de Perigny</persName> à la loüange des <persName key="#anne_d_autriche #marie_therese">Reynes</persName>, furent si justement pensez, si agreablement tournez, &amp; récitez auec tant d’Art; où ceux que <persName key="#benserade" role="auteur">Monsieur de Bensserade</persName> fit pour les Cheualiers, eurent vne approbation generalle; où la vigilance exacte de <persName key="#bontemps" role="intendance">Monsieur Bontemps</persName>, &amp; l’application de <persName key="de_laynay" role="intendance"><!-- à identifier -->Monsieur de Launay</persName>, ne laisserent manquer d’aucune des choses necessaires: Enfin, où chacun à marquer si aduantageusement son dessein de plaire au <persName key="#louisxiv">Roy</persName>; dans le temps où <persName key="#louisxiv">Sa Majesté</persName> ne pensoit elle-mesme qu’à plaire; &amp; où
           ce qu’on a veu ne sçauroit jamais se perdre dans la memoire des Spectateurs, quand on n’auroit pas pris le soin de conseruer par cét escrit le souuenir de toutes ces merueilles.</p>
         <trailer>FIN.</trailer>
       </div>

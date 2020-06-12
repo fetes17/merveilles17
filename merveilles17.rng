@@ -233,7 +233,13 @@
     <define name="front">
       <element name="front">
         <a:documentation>Avant-texte, optionnel, pour page de titre</a:documentation>
+        <zeroOrMore>
+          <ref name="pb"/>
+        </zeroOrMore>
         <ref name="titlePage"/>
+        <zeroOrMore>
+          <ref name="pb"/>
+        </zeroOrMore>
       </element>
     </define>
     <define name="div">
@@ -580,6 +586,9 @@
       <element name="pb">
         <a:documentation>Saut de page, “page break”, à placer avant le début du texte de la page, avec le numéro</a:documentation>
         <attribute name="n"/>
+        <optional>
+          <attribute name="facs"/>
+        </optional>
         <optional>
           <ref name="xml.id"/>
         </optional>
