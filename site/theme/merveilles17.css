@@ -9,6 +9,9 @@ h1 {
 main {
   min-height: 70%;
 }
+#main > .container {
+  position: relative;
+}
 
 .headnav a {
   text-decoration: none;
@@ -40,4 +43,11 @@ main {
 .headnav ul li a {
   display: block;
   padding: 10px 10px;
+}
+a.pb {
+  width: auto;
+  right: -170px;
+}
+a.pb img {
+  display: block;
 }
