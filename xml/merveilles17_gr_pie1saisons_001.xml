@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Première journée. Comparse des quatre saisons, auec leur suitte de
+                    concertans, et de porteurs de presens, et la machine de Pan, et de Diane, auec
+                    leur suitte de concertans, et de bergers portans les plats pendant le recit des
+                    vns et des autres deuant le Roy, et les Reynes.</title>
+                <author>Lepautre, Jean</author>
+                <author>Silvestre, Israël</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Merveilles17</edition>
+                <respStmt>
+                    <name>Mathilde Nicolas</name>
+                    <resp>Encodage</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Université d’Artois - Lille, MESHS</publisher>
+                <date when="2019"/>
+                <availability status="restricted">
+                    <licence/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Réserve des livres rares</repository>
+                        <idno>RES-V-498</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <author>Lepautre Jean</author>
+                            <author>Silvestre Israël</author>
+                            <title>Première journée. Comparse des quatre saisons, auec leur suitte
+                                de concertans, et de porteurs de presens, et la machine de Pan, et
+                                de Diane, auec leur suitte de concertans, et de bergers portans les
+                                plats pendant le recit des vns et des autres deuant le Roy, et les
+                                Reynes.</title>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="estampe">
+                            <p>Estampe</p>
+                            <supportDesc>
+                                <dimensions unit="cm">
+                                    <height>27,6</height>
+                                    <width>42,2</width>
+                                </dimensions>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date notBefore="1664">1664 ou postérieur</date>
+            </creation>
+            <note>Cette estampe se trouve également reliée dans <ref type="imprimé" target="URI">le
+                    livre de la fête publié en 1673 par l'imprimerie royale</ref></note>
+        </profileDesc>
+    </teiHeader>
+    <figure>
+        <graphic
+            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8626216h/f28//full/full/0/native.jpg
+            "/>
+        <figDesc>Dans une grande arène entourée de feuillées et ouverte par trois portes ornées, les
+            participants du spectacle se présentent aux spectateurs. Au premier plan, on peut voir
+            les concertans. Derrière eux, les quatre saisons : le printemps et son cheval, l'été et
+            son éléphant, l'automne et son chameau, l'hiver et son ours. Ils sont suivis par leurs
+            porteurs de présents. Au centre, la machine de Pan et de Diane. <tech type="decor"
+                /><tech type="machine_terrestre"/><tech type="cheval"/><tech type="elephant"/><tech
+                type="chameau"/><tech type="ours"/><name key="#quatre_saisons"/><name
+                key="#printemps"/><name key="#ete"/><name key="#automne"/><name key="#hiver"/><name
+                key="#pan"/><name key="#diane"/><persName role="#musicien"/></figDesc>
+        <head><date when="1664-05-06">Première journée</date>.</head>
+        <p>Comparse des <name key="#quatre_saisons">quatre saisons</name>, auec leur suitte de
+                <persName role="#musicien">concertans</persName>, et de porteurs de presens, et la
+                <tech type="machine_terrestre">machine de Pan, et de Diane</tech>, auec leur suitte
+            de <persName role="#musicien">concertans</persName>, et de bergers portans les plats
+            pendant le recit des vns et des autres deuant le <persName key="#louisxiv"
+                >Roy</persName>, et les <persName key="#anne_d_autriche #marie_therese"
+                >Reynes</persName>.</p>
+        <p><persName key="#isilvestre" role="auteur">Israel Siluestre</persName>, <foreign
+                xml:lang="la">del et sculp</foreign>.</p>
+    </figure>
+</TEI>
