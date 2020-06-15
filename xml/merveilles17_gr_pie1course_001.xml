@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Première journée. Course de bague disputée par le Roy, et ses cheualiers,
+                    representans Roger et les autres cheualiers enchantée dans l'Isle
+                    d'Alcine</title>
+                <author>Lepautre, Jean</author>
+                <author>Silvestre, Israël</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Merveilles17</edition>
+                <respStmt>
+                    <name>Mathilde Nicolas</name>
+                    <resp>Encodage</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Université d’Artois - Lille, MESHS</publisher>
+                <date when="2019"/>
+                <availability status="restricted">
+                    <licence/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Réserve des livres rares</repository>
+                        <idno>RES-V-498</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <author>Lepautre Jean</author>
+                            <author>Silvestre Israël</author>
+                            <title>Première journée. Course de bague disputée par le Roy, et ses
+                                cheualiers, representans Roger et les autres cheualiers enchantée
+                                dans l'Isle d'Alcine</title>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="estampe">
+                            <p>Estampe</p>
+                            <supportDesc>
+                                <dimensions unit="cm">
+                                    <height>27,6</height>
+                                    <width>42</width>
+                                </dimensions>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date notBefore="1664">1664 ou postérieur</date>
+            </creation>
+            <note>Cette estampe se trouve également reliée dans <ref type="imprimé" target="URI">le
+                    livre de la fête publié en 1673 par l'imprimerie royale</ref></note>
+        </profileDesc>
+    </teiHeader>
+    <figure>
+        <graphic
+            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8626216h/f25//full/full/0/native.jpg
+            "/>
+        <figDesc>Dans une grande arène entourée de feuillées et ouverte par trois portes ornées, le
+            Roy, representant Roger, dispute la course, devant les spectateurs. Des trompettistes et
+            des timbaliers à cheval sont également présents.<tech type="decor"/><persName
+                key="#louisxiv" role="participant"/><name key="#roger"/><persName role="#musicien"
+            /></figDesc>
+        <head><date when="1664-05-06">Première journée</date>.</head>
+        <p>
+            <tech>Course de bague</tech>disputée par <persName key="#louisxiv">le Roy</persName>, et
+            ses <name key="#chevaliers">cheualiers</name>, representans <name key="#roger"
+                >Roger</name> et les autres <name key="#chevaliers">cheualiers</name> enchantée dans
+                <tech type="decor">l'Isle d'Alcine</tech></p>
+        <!-- type de divertissement à encoder-->
+        <p><persName key="#isilvestre" role="auteur">Israel Siluestre</persName>, <foreign
+                xml:lang="la">del et sculp</foreign>.</p>
+    </figure>
+</TEI>
