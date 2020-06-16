@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Seconde Journée. Theatre fait dans la mesme allée, sur lequel la Comédie, et
+                    le Ballet de la Princesse d'Elide furent representéz.</title>
+                <author>Lepautre, Jean</author>
+                <author>Silvestre, Israël (d'après)</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Merveilles17</edition>
+                <respStmt>
+                    <name>Mathilde Nicolas</name>
+                    <resp>Encodage</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Université d’Artois - Lille, MESHS</publisher>
+                <date when="2019"/>
+                <availability status="restricted">
+                    <licence/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Réserve des livres rares</repository>
+                        <idno>RES-V-498</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <author>Lepautre Jean</author>
+                            <author>Silvestre Israël (d'après)</author>
+                            <title>Seconde Journée. Theatre fait dans la mesme allée, sur lequel la
+                                Comédie, et le Ballet de la Princesse d'Elide furent
+                                representéz.</title>
+
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="estampe">
+                            <p>Estampe</p>
+                            <supportDesc>
+                                <dimensions unit="cm">
+                                    <height>28,2</height>
+                                    <width>42,8</width>
+                                </dimensions>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date notBefore="1664">1664 ou postérieur</date>
+            </creation>
+            <note>Cette estampe se trouve également reliée dans <ref type="imprimé" target="URI">le
+                    livre de la fête publié en 1673 par l'imprimerie royale</ref></note>
+        </profileDesc>
+    </teiHeader>
+    <figure>
+        <graphic
+            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8626216h/f50//full/full/0/native.jpg"/>
+
+        <figDesc>Un théâtre orné de décorations et de lustres est installé dans une longue allée,
+            bordée par des arbres. Sur la scène, de nombreux acteurs costumés jouent une pièce
+            devant les spectateurs.<tech type="decor"/><tech type="costume"/><tech type="lustres"
+                /><persName role="acteur"/></figDesc>
+        <!-- encodage lustres -->
+        <head><date when="1664-05-08">Seconde journée</date>.</head>
+        <p><tech type="decor">Theatre</tech> fait dans la mesme allée, sur lequel la
+                <tech>Comédie</tech>, et le <tech>Ballet</tech> de la Princesse d'Elide furent
+            representéz.</p>
+        <!-- encodage type divertissement -->
+        <p><persName key="#isilvestre" role="auteur">Israel Siluestre</persName>, <foreign
+                xml:lang="la">delineauit, et sculps</foreign>.</p>
+    </figure>
+</TEI>
