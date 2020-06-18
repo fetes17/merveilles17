@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Troisiesme journée. Rupture du Palais et des enchantemens de l'Isle
+                    representé par vn feu d'Artifice.</title>
+                <author>Lepautre, Jean</author>
+                <author>Silvestre, Israël</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Merveilles17</edition>
+                <respStmt>
+                    <name>Mathilde Nicolas</name>
+                    <resp>Encodage</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Université d’Artois - Lille, MESHS</publisher>
+                <date when="2019"/>
+                <availability status="restricted">
+                    <licence/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque Nationale de France</institution>
+                        <repository>Réserve des livres rares</repository>
+                        <idno>RES-V-498</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <author>Lepautre Jean</author>
+                            <author>Silvestre Israël</author>
+                            <title>Troisiesme journée. Rupture du Palais et des enchantemens de
+                                l'Isle representé par vn feu d'Artifice.</title>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="estampe">
+                            <p>Estampe</p>
+                            <supportDesc>
+                                <dimensions unit="cm">
+                                    <height>28,2</height>
+                                    <width>42,9</width>
+                                </dimensions>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date notBefore="1664">1664 ou postérieur</date>
+            </creation>
+            <note>Cette estampe se trouve également reliée dans <ref type="imprimé" target="URI">le
+                    livre de la fête publié en 1673 par l'imprimerie royale</ref></note>
+        </profileDesc>
+    </teiHeader>
+    <figure>
+        <graphic
+            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8626216h/f116//full/full/0/native.jpg"/>
+        <figDesc>Les spectateurs admirent l'imposant feu d'artifice tiré au dessus d'un bassin
+            d'eau. Il semble détruire le batîment que l'on aperçoit au centre du bassin.<tech
+                type="decor"/><tech type="feu_d_artifice"/></figDesc>
+        <!-- encodage bassin d'eau ? -->
+        <head><date when="1664-05-09">Troisiesme journée</date>.</head>
+        <p>Rupture du  <tech type="decor">Palais</tech> et des enchantemens de l'Isle representé par vn <tech
+                type="feu_d_artifice">feu d'Artifice</tech>.</p>
+        <p><persName key="#isilvestre" role="auteur">Israel Siluestre</persName>, <foreign
+                xml:lang="la">del, et sculps</foreign>.</p>
+    </figure>
+</TEI>
