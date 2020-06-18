@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>La marche du carrousel lors de la première journée des Plaisirs de l’Ile
+                    enchantée</title>
+                <author>Silvestre, Israël (d'après)</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Merveilles17</edition>
+                <respStmt>
+                    <name>Mathilde Nicolas</name>
+                    <resp>Encodage</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Université d’Artois - Lille, MESHS</publisher>
+                <date when="2019"/>
+                <availability status="restricted">
+                    <licence/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives Nationales</institution>
+                        <repository/>
+                        <idno>Cartes et plans, O1 3242B, n° 1</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <author>Silvestre Israël (d'après)</author>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="dessin">
+                            <p>Dessin à la pierre noire, à la plume, à l'encre noire et au lavis
+                                gris</p>
+                            <supportDesc>
+                                <dimensions unit="cm">
+                                    <height>61,6</height>
+                                    <width>90</width>
+                                </dimensions>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date notBefore="1664">1664 ou postérieur</date>
+            </creation>
+        </profileDesc>
+    </teiHeader>
+    <figure>
+        <graphic
+            url="http://www2.culture.gouv.fr/Wave/image/archim/MP/FRDAFAN08_SCEK000795_2.jpg"/>
+        <figDesc>Une grande arène entourée de feuillées, ouverte sur les côtés par deux portes
+            ornées et au fond sur une longue allée bordée d'arbres. Les participants du spectacle se
+            présentent aux spectateurs en défilant dans l'arène. Le roi, ses chevaliers et leurs
+            suites sont présents. On distingue également le char d'Apollon, conduit par le temps.
+            Apollon est assis au sommet, accompagné des quatre âges, et entouré des douzes heures du
+            jour et des douzes signes du zodiaque. <tech type="decor"/><tech type="costume"/><tech
+                type="machine_terrestre"/><persName key="#louisxiv" role="participant"/><name
+                key="#roger"/><name key="#chevaliers"/><name key="#apollon"/><name key="#temps"
+                /><name key="#quatre_siecles"/><name key="#age_airain"/><name key="#age_fer"/><name
+                key="#age_argent"/><name key="#age_or"/><name key="#heure"/><name key="#zodiaque"
+            /></figDesc>
+    </figure>
+</TEI>
