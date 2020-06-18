@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Feu d'artifice tiré à Versailles</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Merveilles17</edition>
+                <respStmt>
+                    <name>Mathilde Nicolas</name>
+                    <resp>Encodage</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Université d’Artois - Lille, MESHS</publisher>
+                <date when="2019"/>
+                <availability status="restricted">
+                    <licence/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Versailles</settlement>
+                        <institution>Musée Lambinet</institution>
+                        <repository/>
+                        <idno>2579</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem></msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="peinture">
+                            <p>Huile sur toile</p>
+                            <supportDesc>
+                                <dimensions unit="cm">
+                                    <height>40,5</height>
+                                    <width>59,5</width>
+                                </dimensions>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date notBefore="1664">1664 ou postérieur</date>
+            </creation>
+        </profileDesc>
+    </teiHeader>
+    <figure>
+        <graphic url=""/>
+        <figDesc>Dans la nuit, les spectateurs admirent l'imposant feu d'artifice tiré au dessus
+            d'un grand bassin d'eau. <tech type="feu_d_artifice"></tech></figDesc>
+        <!-- encodage de la nuit ? -->
+        <!-- encodage du bassin d'eau ? -->
+    </figure>
+</TEI>
