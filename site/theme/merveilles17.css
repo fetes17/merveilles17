@@ -13,6 +13,11 @@ main {
   position: relative;
 }
 
+.headnav {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .headnav a {
   text-decoration: none;
   color: #000;
@@ -22,7 +27,7 @@ main {
   display: flex;
   justify-content: center;
   padding: 0;
-  margin: 30px 0 0 0;
+  margin: 0;
 }
 .headnav ul li {
   list-style: none;
@@ -50,4 +55,12 @@ a.pb {
 }
 a.pb img {
   display: block;
+}
+.carousel-item {
+  background: #000;
+}
+.carousel-inner img {
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }

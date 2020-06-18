@@ -37,11 +37,12 @@
       <xsl:when test="normalize-space($facs) != ''">
         <!-- https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f104.image -->
         <a class="pb" href="{$facs}" target="_blank">
+          
           <span>
             <xsl:if test="translate(@n, '1234567890', '') = ''">p. </xsl:if>
             <xsl:value-of select="@n"/>
           </span>
-          <img src="{substring-before($facs, '/ark:/')}/iiif/ark:/{substring-after($facs, '/ark:/')}/full/150,/0/native.jpg"/>
+          <img src="{substring-before($facs, '/ark:/')}/iiif/ark:/{substring-after(substring-before(concat($facs, '.image'), '.image'), '/ark:/')}/full/150,/0/native.jpg"/>
         </a>
       </xsl:when>
       <xsl:otherwise>
