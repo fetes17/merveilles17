@@ -1,13 +1,14 @@
 <?php
 
+$home = dirname(__FILE__).'/';
+$theme = $home.'theme/';
+$xslpage = $theme."page.xsl";
+$xslbiblio = $theme."biblio.xsl";
 
-$xslpage = "theme/page.xsl";
-$xslbiblio = "theme/biblio.xsl";
+$template = file_get_contents($theme."template.html");
 
-$template = file_get_contents("theme/template.html");
-
-foreach (glob("pages/*.html") as $srcfile) {
-  $dstfile = basename($srcfile);
+foreach (glob($home."pages/*.html") as $srcfile) {
+  $dstfile = $home.basename($srcfile);
   echo "$dstfile\n";
   $main = file_get_contents($srcfile);
   $html = str_replace("%main%", $main, $template);
@@ -15,20 +16,20 @@ foreach (glob("pages/*.html") as $srcfile) {
 }
 
 
-$fwpers = fopen("pers.tsv", "w");
-$fwtech = fopen("tech.tsv", "w");
+$fwpers = fopen($home."pers.tsv", "w");
+$fwtech = fopen($home."tech.tsv", "w");
 
-foreach (glob("../xml/*.xml") as $srcfile) {
+foreach (glob($home."../xml/*.xml") as $srcfile) {
   $dstname = basename($srcfile, ".xml");
-  $dstfile = $dstname.".html";
+  $dstfile = $home.$dstname.".html";
   echo basename($srcfile),"\n";
   $dom = Build::dom($srcfile);
   $main = Build::transformDoc($dom, $xslpage);
   file_put_contents($dstfile, str_replace("%main%", $main, $template));
   // data
-  $pers = Build::transformDoc($dom, "theme/pers.xsl", null, array('filename' => $dstname));
+  $pers = Build::transformDoc($dom, $theme."pers.xsl", null, array('filename' => $dstname));
   fwrite($fwpers, $pers);
-  $tech = Build::transformDoc($dom, "theme/tech.xsl", null, array('filename' => $dstname));
+  $tech = Build::transformDoc($dom, $theme."tech.xsl", null, array('filename' => $dstname));
   fwrite($fwtech, $tech);
 }
 

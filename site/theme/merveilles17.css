@@ -88,9 +88,13 @@ a.pb img {
 .card.doctype:hover img {
   opacity: 0.5;
 }
-.card.perslist,
+.card-deck.pers {
+  margin-left: 0;
+  margin-right: 0;
+}
 .card.pers {
-  width : 100%;
+  width : 16.6%;
+  margin: 0;
 }
 .card.pers img {
   border-radius: 50%;
@@ -123,23 +127,39 @@ a.pb img {
    width: 5rem;
    float:left;
 }
+
+.card-deck.place {
+  margin-left: 0;
+  margin-right: 0;
+}
 .card.place {
-  width: 100%;
+  width: 16.6%;
+  margin: 0;
 }
 .card.place .card-body {
   padding: 0.5rem 0;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.2rem;
   font-weight: bold;
   color: #FFFFFF;
   position: absolute;
   bottom: 45%;
-  left: 2rem;
-  right: 2rem;
+  width: 100%;
 }
 .card.place:hover .card-body {
   color: #000000;
 }
 .card.place:hover img {
   opacity: 0.5;
+}
+.card-deck.divers {
+  margin-left: 0;
+  margin-right: 0;
+}
+.card.divers {
+  width: 16.6%;
+  margin: 0;
+}
+.card.divers .card-body {
+  padding: 0.5rem;
 }
