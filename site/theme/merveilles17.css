@@ -12,7 +12,13 @@ main {
 #main > .container {
   position: relative;
 }
-
+#partners img.logo {
+  width: 7rem;
+}
+#partners a {
+  display: block;
+}
+/*  
 .headnav {
   margin-left: auto;
   margin-right: auto;
@@ -49,6 +55,7 @@ main {
   display: block;
   padding: 10px 10px;
 }
+*/
 a.pb {
   width: auto;
   right: -170px;
