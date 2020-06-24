@@ -374,7 +374,7 @@ Balisage ?-->Hymen y
         <l>Mais vn titre plus grand, vn plus noble partage</l>
         <l>Qui l’esleue plus haut, qui luy plaist davantage ;</l>
         <l>Vn Nom qui tient en soy les plus grands noms vnis,</l>
-        <l>C'est le nom glorieux d’Espouse de <persName>LOVIS</persName><!-- Louis XIV ? -->.</l>
+        <l>C'est le nom glorieux d’Espouse de <name>LOVIS</name><!-- Louis XIV ? -->.</l>
         <pb n="18"/>
         <label type="speaker">LE SIECLE D'ARGENT.</label>
         <l>Quel destin fait brisler auec tant d’injustice</l>
@@ -408,7 +408,7 @@ Balisage ?-->Hymen y
         <l>Il est temps de ceder à la Loy souueraine,</l>
         <l>Que t’imposent les voeux de cette auguste <persName>Reyne</persName>;</l>
         <l>Il est temps de ceder aux trauaux glorieux</l>
-        <l>D'vn <persName>Roy</persName> fauorisé de la Terre &amp; des Cieux ;</l>
+        <l>D'vn <name>Roy</name> fauorisé de la Terre &amp; des Cieux ;</l>
         <l>Mais icy trop long-temps ce different m’arreste,</l>
         <l>A de plus doux combats cette Lice s’apreste ;</l>
         <l>Allons la faire ouurir, &amp; ployons des Lauriers,</l>
@@ -456,7 +456,7 @@ Balisage ?-->Hymen y
         <p><name>Dix-huit Pages</name>, qui doiuent seruir à Table les Dames.</p>
         <p><name>Cette Troupe</name> estant rangée, <name>les quatre Saisons</name>,
             <name>Pan</name> &amp; <name>Diane</name>, se presentent deuant <persName key="#marie_therese">la
-            Reyne</persName>, &amp; luy disent ces Vers.</p>
+            Reyne</persName><!-- personne ou perosnnage ? -->, &amp; luy disent ces Vers.</p>
         <pb n="21"/>
         <label type="speaker">LE PRINTEMPS.</label>
         <p>A LA REYNE.</p>
@@ -465,7 +465,7 @@ Balisage ?-->Hymen y
         <l>Méprisant les jasmins, les oeillets &amp; les roses,</l>
         <l>Pour payer mon tribut j’ay fait choix de ces lys,</l>
         <l>Que de vos premiers ans vous auez tant cheris :</l>
-        <l><persName key="#louisxiv">LOVIS</persName> les fait briller du couchant à l’aurore,</l>
+        <l><persName key="#louisxiv">LOVIS</persName> <!-- idem personne ou personnage ? --> les fait briller du couchant à l’aurore,</l>
         <l>Tout l’Vnivers charmé les respecte et les craint;</l>
         <l>Mais leur regne est plus doux &amp; plus puissant encore,</l>
         <l>Quand ils brillent sur vostre teint.</l>
@@ -482,7 +482,7 @@ Balisage ?-->Hymen y
         <pb n="22"/>
         <l>Pretend de cette <tech>Feste</tech> auoir tout l’auantage,</l>
         <l>Et nous croit obscurcir pas ses viues couleurs :</l>
-        <l>Mais vous vous souuiendrez, <persName key="#marie_therese">Princesse</persName> sans seconde,</l>
+        <l>Mais vous vous souuiendrez, <name>Princesse</name> sans seconde,</l>
         <l>De ce fruict precieux qu’a produit ma saison,</l>
         <l>Et qui croist dans vostre maison,</l>
         <l>Pour faire quelque jour les delices du Monde.</l>
@@ -533,7 +533,7 @@ Balisage ?-->Hymen y
         <p>Apres que <name>Pan</name> a acheué son Recit, vne Table ornée des festons, &amp; fort
           enrichie se descouure ; &amp; les quatre Controlleurs Generaux, <persName>Monsieurs de la
             Marque Coquet</persName>, <persName>Messieurs Parfait Père</persName>,
-            <persName>Fils</persName> &amp; <persName>Frere</persName>, sous les noms de
+            <persName>Fils</persName> &amp; <persName>Frere</persName> <!-- à identifer : lien avec les frères parfaict, auteurs d'histoire du théâtre ? -->, sous les noms de
             <name>l’Abondance</name>, <name>la Ioye</name>, <name>la Propretré</name>, &amp;<name>
             la bonne-chere</name>, l’ayant fait couurir par la Plaisirs, les Ieux, les Ris &amp; les
           Delices : vne magnifique <tech>Collation</tech> finit ce premier jour des Diuertissemens
@@ -564,35 +564,35 @@ Balisage ?-->Hymen y
           fort agreable.</p>
         <p>Noms de ceux qui jouënt la <tech>Comedie</tech>.</p>
         <list>
-          <item><name>Le Prince d’Elide</name>. <persName>Hubert</persName>.</item>
+          <item><name>Le Prince d’Elide</name>. <persName key="#andre_hubert" role="acteur">Hubert</persName>.</item>
           <item><name>La Princesse d’Elide</name>, &amp; deux autres <name>ses parents</name>.
-              <persName>Mesdlles de Brie</persName>. <persName>Moliere</persName>, <persName>du
+              <persName key="#mlle_de_brie" role="acteur">Mesdlles de Brie</persName>. <persName key="#armande_bejart" role="acteur">Moliere</persName>, <persName key="#therese_duparc" role="acteur">du
               Parc</persName>.</item>
-          <item><name>Philis</name>. <persName>Madlle Bejart</persName>.</item>
-          <item><name>Le Prince d’Ithaque</name>. <persName>La Grange</persName>.</item>
-          <item><name>Le Prince de Messene</name>. <persName>Du Croysy</persName>.</item>
-          <item><name>Le Prince de Pyle</name>. <persName>Bejart</persName>.</item>
-          <item><name>Arbale Gouuerneur du Prince d’Ithaque</name>. <persName>La
+          <item><name>Philis</name>. <persName key="#armande_bejart" role="acteur">Madlle Bejart</persName>.</item>
+          <item><name>Le Prince d’Ithaque</name>. <persName key="#la_grange" role="acteur">La Grange</persName>.</item>
+          <item><name>Le Prince de Messene</name>. <persName key="#du_croisy" role="acteur">Du Croysy</persName>.</item>
+          <item><name>Le Prince de Pyle</name>. <persName key="#louis_bejart" role="acteur">Bejart</persName>.</item>
+          <item><name>Arbale Gouuerneur du Prince d’Ithaque</name>. <persName key="#la_thorilliere" role="acteur">La
               Thorilliere</persName>.</item>
-          <item><name>Moron</name>. <persName>Moliere</persName>.</item>
+          <item><name>Moron</name>. <persName key="#moliere" role="acteur">Moliere</persName>.</item>
           <item><name>Lycas</name>, &amp; <name>deux petits Pages</name>.</item>
         </list>
         <pb n="3"/>
         <p>Noms de ceux qui dansent au <tech>Ballet</tech>, et ceux qui chantent.</p>
         <p><name>L’AVRORE</name>.</p>
-        <p><persName>Madlle Hilaire</persName>.</p>
+        <p><persName key="#hilaire_dupuis" role="acteur">Madlle Hilaire</persName>.</p>
         <p><name>Quatre Valets de Chiens</name>, qui doiuent chanter.</p>
-        <p><persName>Messieurs Estiual</persName>, <persName>Don</persName>,
-            <persName>Blondel</persName>, &amp; <persName>Molliere</persName>.</p>
+        <p><persName key="#estival" role="acteur">Messieurs Estiual</persName>, <persName key="#don" role="acteur">Don</persName>,
+            <persName key="#francois_blondel" role="acteur">Blondel</persName>, &amp; <persName key="#moliere" role="acteur">Molliere</persName>.</p>
         <p><name>Six autres Valets de Chiens</name>, qui doiuent danser.</p>
-        <p><persName>Les Sieurs Paysan</persName>, <persName>Chicanneau</persName>,
-            <persName>Noblet</persName>, <persName>Pesan</persName>, <persName>Bonard</persName>,
-          &amp; <persName>La Pierre</persName>.</p>
+        <p><persName key="#paysan" role="acteur">Les Sieurs Paysan</persName>, <persName key="#chicanneau" role="acteur">Chicanneau</persName>,
+            <persName key="#noblet" role="acteur">Noblet</persName>, <persName key="#pesan" role="acteur">Pesan</persName>, <persName key="#bonard" role="acteur">Bonard</persName>,
+          &amp; <persName key="#la_pierre" role="acteur">La Pierre</persName>.</p>
         <p><name>Deux Ours</name>.</p>
-        <p><persName>Les Sieurs Mercier</persName>, &amp; <persName>Vagnard</persName>.</p>
+        <p><persName key="#mercier" role="acteur">Les Sieurs Mercier</persName>, &amp; <persName key="#vagnard" role="acteur">Vagnard</persName>.</p>
         <p><name>Huict Paysans</name>.</p>
-        <p><persName>Les Sieurs Paysan</persName>, <persName>Chicanneau</persName>,
-            <persName>Baltazard</persName>, <persName>Noblet</persName>,
+        <p><persName key="#paysan" role="acteur">Les Sieurs Paysan</persName>, <persName key="#chicanneau" role="acteur">Chicanneau</persName>,
+            <persName key="#balthazar_martinot">Baltazard</persName>, <persName>Noblet</persName>,
           <persName>Bonard</persName>, <persName>Mançeau</persName>, <persName>Magny</persName>,
           &amp; <persName>La Pierre</persName>.</p>
         <p><name>Vn Satyre</name>.</p>
