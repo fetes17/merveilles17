@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Représentation du ballet d’Alcine lors des Plaisirs de l’Ile enchantée
+                    1664</title>
+                <author>Chauveau, François (d'après)</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Merveilles17</edition>
+                <respStmt>
+                    <name>Mathilde Nicolas</name>
+                    <resp>Encodage</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Université d’Artois - Lille, MESHS</publisher>
+                <date when="2019"/>
+                <availability status="restricted">
+                    <licence/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives Nationales</institution>
+                        <repository/>
+                        <idno>Cartes et plans, O1 3238, n° 68b</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <author>Chauveau, François (d'après)</author>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="dessin">
+                            <p>contre-épreuve d’un dessin à la pierre noire</p>
+                            <supportDesc>
+                                <dimensions unit="cm">
+                                    <height>35,4</height>
+                                    <width>27</width>
+                                </dimensions>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date notBefore="1664">1664 ou postérieur</date>
+            </creation>
+            <note>Il s'agit de la contre-épreuve du dessin ayant servi à l'illustration du manuscrit
+                conservé à <ref type="dessin" target="URI">BNF, Ms.Fr.7834, fol.73</ref></note>
+        </profileDesc>
+    </teiHeader>
+    <figure>
+        <graphic
+            url="http://www2.culture.gouv.fr/Wave/image/archim/MP/FRDAFAN08_SCEK000248N_2.jpg
+            "/>
+        <figDesc>Entre deux arbres, se trouve un bassin. Sur l'avant de celui-ci, trois monstres
+            marins, chacun monté par une femme. En son centre, un bâtiment posé sur un rocher. <tech
+                type="decor"/><tech type="construction"/><tech type="machine_aquatique"/><name
+                key="#alcine"/><name key="#celie"/><name key="#dirce"/><placeName key="basin_cygnes"
+            /></figDesc>
+    </figure>
+</TEI>
