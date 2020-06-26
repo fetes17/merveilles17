@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Troisiesme journée. Theatre dressé au milieu du grand Estang representant
+                    l'Isle d'Alcine, ou paroissoit son Palais enchanté sortant d'vn petit Rocher
+                    dans lequel fut dancé vn Ballet de plusieurs entrées, et apres quoy ce Palais
+                    fut consumé, par vn feu d'artifice representant la rupture de l'enchantement
+                    après la fuite de Roger.</title>
+                <author>Lepautre, Jean</author>
+                <author>Silvestre, Israël</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Merveilles17</edition>
+                <respStmt>
+                    <name>Mathilde Nicolas</name>
+                    <resp>Encodage</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Université d’Artois - Lille, MESHS</publisher>
+                <date when="2019"/>
+                <availability status="restricted">
+                    <licence/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Réserve des livres rares</repository>
+                        <idno>RES-V-498</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <author>Lepautre Jean</author>
+                            <author>Silvestre Israël</author>
+                            <title>Troisiesme journée. Theatre dressé au milieu du grand Estang
+                                representant l'Isle d'Alcine, ou paroissoit son Palais enchanté
+                                sortant d'vn petit Rocher dans lequel fut dancé vn Ballet de
+                                plusieurs entrées, et apres quoy ce Palais fut consumé, par vn feu
+                                d'artifice representant la rupture de l'enchantement après la fuite
+                                de Roger.</title>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="estampe">
+                            <p>Estampe</p>
+                            <supportDesc>
+                                <dimensions unit="cm">
+                                    <height>27,1</height>
+                                    <width>42,4</width>
+                                </dimensions>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date notBefore="1664">1664 ou postérieur</date>
+            </creation>
+            <note>Cette estampe se trouve également reliée dans <ref type="imprimé" target="URI">le
+                    livre de la fête publié en 1673 par l'imprimerie royale</ref></note>
+        </profileDesc>
+    </teiHeader>
+    <figure>
+        <graphic
+            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8626216h/f113//full/full/0/native.jpg
+            "/>
+        <figDesc>Les spectateurs observent le spectacle se déroulant sur le bassin d'eau. Celui-ci
+            est entouré de deux panneaux. Sur l'avant du bassin, trois monstres marins, chacun monté
+            par une femme. En son centre, un bâtiment posé sur un rocher, représente le Palais
+            d'Alcine,où plusieurs danseurs réalisent un ballet.<tech type="decor"/><tech
+                type="construction"/><tech type="machine_aquatique"/><name key="#alcine"/><name
+                key="#celie"/><name key="#dirce"/><placeName key="bassin_cygnes"/></figDesc>
+        <!-- encodage danseurs ? -->
+        <head><date when="1664-05-09">Troisiesme journée</date>.</head>
+        <p><tech type="decor">Theatre</tech> dressé au milieu du <placeName key="bassin_cygnes"
+                >grand Estang</placeName> representant l'Isle d'Alcine, ou paroissoit son <tech
+                type="construction">Palais enchanté</tech> sortant d'vn petit <tech
+                type="construction">Rocher</tech> dans lequel fut dancé vn <tech>Ballet</tech> de
+            plusieurs entrées, et apres quoy ce <tech type="construction">Palais</tech> fut consumé,
+            par vn <tech type="feu_d_artifice">feu d'artifice</tech>representant la rupture de
+            l'enchantement après la fuite de <name key="#roger">Roger</name></p>
+        <!-- encodage type divertissement -->
+        <p><persName key="#isilvestre" role="auteur">Israel Siluestre</persName>, <foreign
+                xml:lang="la">deline, et sculpsit</foreign>.</p>
+    </figure>
+</TEI>
