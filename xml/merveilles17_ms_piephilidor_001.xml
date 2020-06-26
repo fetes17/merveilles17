@@ -58,13 +58,13 @@
           Cour le plaisir de quelques festes peu commvnes, dans vn lieu orné de tous les agrémens
           qui peuuent</p>
         <pb n="4" xml:id="p4"/>
-        <p>faire admirer vne Maison de Campagne, choisit <placeName>Versailles</placeName> à quatre
-          lieuës de <placeName>Paris</placeName>. C’est vn chateau, qu’on peut nommer vn Palais
+        <p>faire admirer vne Maison de Campagne, choisit <placeName key="versailles">Versailles</placeName> à quatre
+          lieuës de <placeName key="paris">Paris</placeName>. C’est vn chateau, qu’on peut nommer vn Palais
           Enchanté, tant les ajustemens de l’art ont bien secondé les soins que la Nature a pris
           pour le rendre parfait : Il charme en toutes manieres, tout y rit dehors, et dedan, <seg
             ana="description">l’or et le marbre y disputent d’éclat, et de beauté, et quoy qu’il
             n’ait pas cette grande étenduë qui se remarque en quelques autres</seg>
-          <placeName>Palais de sa Majesté</placeName>, <seg ana="description">toutes choses y sont
+          <placeName key="chateau_versailles">Palais de sa Majesté</placeName>, <seg ana="description">toutes choses y sont
             si polies, si bien entenduës, et si acheuées, que rien ne le peut égaler. Sa Symetrie,
             la richesse de ses meubles, la beauté de ses promendes, et le nombre Infiny ses fleurs,
             comme ses Orangers, rendent ce lieu dignes de sa rareté singuliére. La diuersité des
@@ -76,7 +76,7 @@
             <persName>le Roy</persName> traita plus de six cens personnes jusqu’au
             <date>quatorzieme</date> ; outre vne Infinité de gens necessaires à la
             <tech>Danse</tech>, et à la <tech>Comedie</tech>, Et d’artisans de toute sorte venus de
-            <placeName>Paris</placeName>, si bien que cela paroissoit vne petite armée.</p>
+            <placeName key="paris">Paris</placeName>, si bien que cela paroissoit vne petite armée.</p>
         <p>Le Ciel mesme sembla favoriser les desseins de <persName>sa Majesté</persName>, puis que
           dans vne saison presque toujours pluuieuse, on en fut quitte pour vn peu de Vent, qui
           sembla n’auoir augmenté, qu’afin de faire voir que la preuoyance, et la puissance du
@@ -397,11 +397,11 @@
         <p>
           <seg rend="labelspeaker">Apollon</seg>
         </p>
-        <l>Si ces lieux fortunez ont tout ce qu’eut la <placeName>Grece</placeName></l>
+        <l>Si ces lieux fortunez ont tout ce qu’eut la <placeName key="grece">Grece</placeName></l>
         <l>De gloire, de valeur, de merite et d’adresse;</l>
         <l>Ce n’est pas sans raison qu’on y voit transferez</l>
         <l>Ces jeux, qu’à mon honneur la terre a consacrez.</l>
-        <l>I'ay toujours pris plaisir à verser sur la <placeName>France</placeName></l>
+        <l>I'ay toujours pris plaisir à verser sur la <placeName key="france">France</placeName></l>
         <l>De mes plus doux rayons la benigne Influence</l>
         <l>Mais le charmant objet qu’<name>Hymen</name> y fait regner,</l>
         <l>Pour elle maintenant me fait tout dédaigner.</l>
@@ -418,8 +418,8 @@
         <l>De tous les Demy-Dieux dont elle prit naissance,</l>
         <l>Cedant à son mérite autant qu’à leur devoir ;</l>
         <l>Se trouueront un jour vnis sous son pouuoir.</l>
-        <l>Ce qu’eurent de grandeurs, et la <placeName>Fran</placeName><placeName>ce</placeName>, et
-            l’<placeName>Espagne</placeName> ;</l>
+        <l>Ce qu’eurent de grandeurs, et la <placeName key="france">France</placeName>, et
+            l’<placeName key="espagne">Espagne</placeName> ;</l>
         <l>Les droits de <persName>Charle-Quint</persName>, les droits
             <persName>Charle-Magne</persName>,</l>
         <l>En elle auec leur sang heureusement transmis,</l>
@@ -650,7 +650,7 @@
           beauté, et rendoient ce rond vne chose enchantée, du quel, aprés la
           <tech>Collation</tech>, <persName>leurs Matez</persName> et toute la Cour sortirent par le
           Portique opposé à la Barriere, et dans vn grand nombre de Calesches fort ajustées,
-          reprirent le chemin du <placeName>Chateau</placeName>.</p>
+          reprirent le chemin du <placeName key="chateau_versailles">Chateau</placeName>.</p>
         <p>
           <pb n="23" xml:id="p23"/>
           <pb/>
@@ -2783,7 +2783,7 @@
           bien qu’on demeurast d’accord qu’elles pouuoient Iustement disputer à toutes celles qu’on
           auoit veuës Iusques à lors, et les surpasser peut-estre.</p>
         <p>Mais quoyque les Festes comprises dans le sujet des plaisirs de l’Isle enchantée fussent
-          terminées, tous les diuertissemens de <placeName>Versailles </placeName>ne l’estoient pas,
+          terminées, tous les diuertissemens de <placeName key="versailles">Versailles </placeName>ne l’estoient pas,
           et la magnificence, et la galanterie du <persName>Roy</persName>, en auoit</p>
         <pb n="198" xml:id="p198"/>
         <p>reserué pour les autres jours qui n’estoient pas moins agréables.</p>
@@ -2806,7 +2806,7 @@
           terre, puis faisant place à vn autre, celuy qui en ces courses en a emporté le plus, gagne
           le prix.</p>
         <p>Toute la Cour s’estant placée sur vne balustrade de fer doré qui regnoit autour de
-          l’agréable <placeName>Maison de Versailles</placeName>, et qui regarde sur le fossé,</p>
+          l’agréable <placeName key="chateau_versailles">Maison de Versailles</placeName>, et qui regarde sur le fossé,</p>
         <pb n="199" xml:id="p199"/>
         <p>dans lequel on auoit dressé la lice, avec des Barrieres.</p>
         <p><persName>Le Roy</persName> s’y rendit suiuy des mesmes <name>Cheualiers</name> qui
@@ -2824,17 +2824,17 @@
             Duc de St. Aignant</persName>, qui n’auoit point encore couru, et <persName>le Marquis
             de Soyecourt</persName> qui fut remise au lendemain, par ce que <persName>le Mareschal
             Duc de Grammont</persName> qui parioit pour ce Marquis estoit obligé de partir pour
-            <placeName>P</placeName><placeName>aris</placeName>, d’où il ne deuoit reuenir que le
+            <placeName key="paris">Paris</placeName>, d’où il ne deuoit reuenir que le
           jour d’apres.</p>
-        <p><persName>Le Roy</persName> mena toute la Cour cette <date>apres dinée</date> à <tech>sa
-            Menagerie</tech> dont on admira les beautez particulieres, et le nombre presque
+        <p><persName>Le Roy</persName> mena toute la Cour cette <date>apres dinée</date> à <placeName key="menagerie">sa
+            Menagerie</placeName> dont on admira les beautez particulieres, et le nombre presque
           Incroyable d’oyseaux de toutes sortes, parmy les quels il y en a beaucoup de fort rares.
           II seroit Inutile de parler de la <tech>colation</tech> qui suiuit ce diuertissement,
           puisque huict Iours durant chaque repas pouuoit passer pour Festin des plus grands qu’on
           puisse faire.</p>
         <p>Et <date>Le soir</date>
           <persName>sa Majesté</persName> fit representer sur l’vn de ces <tech>Théatres</tech>
-          doubles de <placeName>son Sallon</placeName>, que</p>
+          doubles de <placeName key="chateau_versailles">son Sallon</placeName>, que</p>
         <pb n="200" xml:id="p200"/>
         <p>son Esprit vniversel a luy mesme Inventez, <tech>La Comedie des Fascheux</tech> faite par
             <persName>le Sieur de Moliere</persName>, meslée d’entrées de <tech>Ballet</tech>, et
@@ -2898,7 +2898,7 @@
         <p>On Ioüa le mesme soir <tech>la Comedie du Mariage forcé</tech> ; encore de la façon du
           mesme <persName>Sieur de Moliere</persName>, meslée d’entrées de <tech>Ballet</tech>, et
           de Recits, puis <persName>le Roy</persName> prit le chemin de
-            <placeName>Font</placeName><placeName>ainebleau </placeName><date>le Mercredy
+            <placeName key="chateau_fontainebleau">Fontainebleau </placeName><date>le Mercredy
             quatorziéme</date>.</p>
         <p>Toute la Cour se trouua si satisfaite de ce qu’elle auoit veu, que chacun creut qu’on ne
           pouuoit se passer de le mettre par écrit, pour en donner la connoissance à ceux qui
