@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les plaisirs de l'Isle enchantée, ou les festes, et diuertissements du Roy, à
+                    Versailles, Diuisez en trois journées, et commencéz le 7me. jour de may de
+                    l'année 1664.</title>
+                <author>Lepautre, Jean</author>
+                <author>Silvestre, Israël</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Merveilles17</edition>
+                <respStmt>
+                    <name>Mathilde Nicolas</name>
+                    <resp>Encodage</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Université d’Artois - Lille, MESHS</publisher>
+                <date when="2019"/>
+                <availability status="restricted">
+                    <licence/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Réserve des livres rares</repository>
+                        <idno>RES-V-498</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <author>Lepautre Jean</author>
+                            <author>Silvestre Israël</author>
+                            <title>Les plaisirs de l'Isle enchantée, ou les festes, et
+                                diuertissements du Roy, à Versailles, Diuisez en trois journées, et
+                                commencéz le 7me. jour de may de l'année 1664.</title>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="estampe">
+                            <p>Estampe</p>
+                            <supportDesc>
+                                <dimensions unit="cm">
+                                    <height>28</height>
+                                    <width>42,3</width>
+                                </dimensions>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date notBefore="1664">1664 ou postérieur</date>
+            </creation>
+            <note>Cette estampe se trouve également reliée dans <ref type="imprimé" target="URI">le
+                    livre de la fête publié en 1673 par l'imprimerie royale</ref></note>
+        </profileDesc>
+    </teiHeader>
+    <figure>
+        <graphic
+            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8626216h/f14//full/full/0/native.jpg
+            "/>
+        <figDesc>Un riche décor composé de rideaux, de feuillées et de fruits, laissent entrevoir la
+            scène. En haut du décor, deux anges tenant les armes du roi de France. En bas, les
+            devises des chevaliers entourant la légende. Au centre, le château de Versailles et ses
+            jardins se dévoilent. En contrebas, de nombreux cavaliers ainsi qu'un carosse se
+            dirigent vers la gauche.<placeName key="versailles"/><persName key="#chevaliers"
+            /></figDesc>
+        <p>VEUE DV <placeName key="versailles">CHASTEAV DE VERSAILLE</placeName></p>
+        <p>Les plaisirs de l'Isle enchantée, ou les festes, et diuertissements du <persName
+                key="#louisxiv">Roy</persName>, à <placeName key="versailles"
+            >Versailles</placeName>, Diuisez en trois journées, et commencéz le <date
+                when="1664-05-07">7me. jour de may de l'année 1664</date>.</p>
+        <p>Ces Escus chargés de deuises sont icy placés selon le rang que les cheualiers tenoient
+            dans la marche, et non pas suiuant leurs qualitez.<persName key="#isilvestre"
+                role="auteur">Israel Siluestre</persName>, <foreign xml:lang="la">del, et scul.
+                parisis</foreign>.</p>
+    </figure>
+</TEI>
