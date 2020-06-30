@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Copie de la première planche représentant le château de Versailles et un
+                    cartouche pour le recueil des Plaisirs de l’Ile enchantée 1664.</title>
+                <author>Silvestre, Israël (d'après)</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Merveilles17</edition>
+                <respStmt>
+                    <name>Mathilde Nicolas</name>
+                    <resp>Encodage</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Université d’Artois - Lille, MESHS</publisher>
+                <date when="2019"/>
+                <availability status="restricted">
+                    <licence/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives Nationales</institution>
+                        <repository/>
+                        <idno>Cartes et plans, O1 3239, n° 81</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <author>Silvestre Israël (d'après)</author>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="dessin">
+                            <p>Dessin à la plume, à l'encre noire et au lavis gris </p>
+                            <supportDesc>
+                                <dimensions unit="cm">
+                                    <height>60,8</height>
+                                    <width>90,3</width>
+                                </dimensions>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date notBefore="1664">1664 ou postérieur</date>
+            </creation>
+        </profileDesc>
+    </teiHeader>
+    <figure>
+        <graphic
+            url="http://www2.culture.gouv.fr/Wave/image/archim/MP/FRDAFAN08_SCEK000375_2.jpg
+            "/>
+        <figDesc>Un riche décor composé de rideaux, de feuillées et de fruits, laissent entrevoir la
+            scène. En haut du décor, deux anges tenant les armes du roi de France. En bas, les
+            devises des chevaliers entourant la légende. Au centre, le château de Versailles et ses
+            jardins se dévoilent. En contrebas, de nombreux cavaliers ainsi qu'un carosse se
+            dirigent vers la droite.<placeName key="versailles"/><persName key="#chevaliers"
+            /></figDesc>
+    </figure>
+</TEI>
