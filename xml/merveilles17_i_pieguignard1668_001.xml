@@ -15,6 +15,7 @@
         <edition>Merveilles17</edition>
         <respStmt>
           <name>Mathilde Nicolas</name>
+          <resp>Transcription et balisage</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -31,7 +32,7 @@
     </fileDesc>
     <profileDesc>
       <creation>
-        <date>1668.</date>
+        <date when="1668">1668</date>
       </creation>
       <langUsage>
         <language ident="fr"/>
@@ -45,7 +46,7 @@
       <byline>A <placeName>PARIS</placeName>,</byline>
       <byline>Chez <persName>IEAN GVIGNARD fils</persName>, dans la grand<hi rend="sup">e</hi> Salle
         du Palais, costé de la Cour des Aydes, à l’Image S. Iean.</byline>
-      <p><date>M. DC. LXVIII</date>.</p>
+      <p><date when="1664">M. DC. LXVIII</date>.</p>
       <pb n="3" xml:id="p3"/>
       <p><hi rend="color_00000A">LES PLAISIRS DE L’ISLE ENCHANTEE</hi>.</p>
       <div subtype="level2">
@@ -71,11 +72,11 @@
             Ménagerie, où plusieurs courts en Estoilles sont accompagnées de Viviers pour les
             animaux aquatiques, avec de grands bastimens, ioignent le plaisir avec la magnificence,
             &amp; en font vne Maison accomplie</seg>.</p>
-        <p>Ce fut en ce beau lieu où toute la Cour se rendit le <date>5. de May</date>, que
-            <persName>le Roy</persName> traitta plus de six cens personnes iusque au
-            <date>14.</date> outre vne infinité de gens necessaires à la <tech>danse</tech> &amp; à
-            la<tech> Comedie</tech>, &amp; d’Artisans de toutes sortes venus de
-            <placeName>Paris</placeName> ; si bien que cela paroissoit vne petite armée.</p>
+        <p>Ce fut en ce beau lieu où toute la Cour se rendit le <date when="1664-05-05">5. de
+            May</date>, que <persName>le Roy</persName> traitta plus de six cens personnes iusque au
+            <date when="1664-05-14">14.</date> outre vne infinité de gens necessaires à la
+            <tech>danse</tech> &amp; à la<tech> Comedie</tech>, &amp; d’Artisans de toutes sortes
+          venus de <placeName>Paris</placeName> ; si bien que cela paroissoit vne petite armée.</p>
         <p>Le Ciel mesme sembla favoriser les desseins de <persName>sa Majesté</persName>, puis que
           dans vne saison presque toûjours pluvieuse on en fut quitte pour vn peu de vent, qui
           sembla n’avoir augmenté, qu’afin de faire voir que la prévoyance &amp; la puissance du
@@ -104,9 +105,9 @@
           <seg ana="description">de trente cinq pieds d’élevation, &amp; de vingt-deux en quarré
             d’ouverture ; de plusieurs festions enrichis d’or, &amp; de diverses peintures avec les
             armes de Sa Majesté</seg>.</p>
-        <p>Toute la Cour s’y estant placée <date>le septiéme</date>, il entra dans la place sur les
-            <date>six heures du soir</date><space/><name>vn Heraut d’Armes</name>, representé par
-            <persName>M. des Bardins</persName>, <tech>vestu d’vn habit à l’antique</tech>
+        <p>Toute la Cour s’y estant placée <date when="1664-05-07">le septiéme</date>, il entra dans
+          la place sur les <date>six heures du soir</date><name>vn Heraut d’Armes</name>, representé
+          par <persName>M. des Bardins</persName>, <tech>vestu d’vn habit à l’antique</tech>
           <seg ana="description">couleur de feu, en broderie d’argent</seg>, &amp; fort bien
           monté.</p>
         <p>Il estoit suivy de <name>trois Pages</name> : celuy du <persName>Roy</persName>,
@@ -599,7 +600,7 @@
         <p>Fin de la premiere Iournée.</p>
       </div>
       <div subtype="level2">
-        <head>SECONDE IOVRNÉE DES PLAISIRS DE L’ISLE ENCHANTÉE.</head>
+        <head><date when="1664-05-08"></date>SECONDE IOVRNÉE DES PLAISIRS DE L’ISLE ENCHANTÉE.</head>
         <p>LORS que <date>la nuit</date> du second jour fut venuë, <persName>leurs
             Majestez</persName> se rendirent dans vn autre rond environné de palissades comme le
           premier, &amp; sur la méme ligne, s’avançant toûjours vers le <placeName>Lac</placeName>,
@@ -2882,7 +2883,7 @@
         <pb n="84" xml:id="p84"/>
       </div>
       <div subtype="level2">
-        <head>TROISIESME IOVRNÉE DES PLAISIRS DE L'ISLE ENCHANTÉE.</head>
+        <head><date when="1664-05-09"></date>TROISIESME IOVRNÉE DES PLAISIRS DE L'ISLE ENCHANTÉE.</head>
         <p>PLus on s’avançoit vers <tech>le grand Rondeau</tech> qui representoit <placeName>le
             Lac</placeName> sur lequel estoit autrefois bâty <tech>le Palais d’Alcine</tech> : plus
           on s’approchoit de la fin des divertissemens de l’Isle Enchantée comme s’il n’eût pas esté
@@ -3121,7 +3122,7 @@
           terminées, tous les divertissemens de <placeName>Versailles</placeName> ne l’estoient pas;
           &amp; la magnificẽce &amp; la galanterie du <persName>Roy</persName>, en avoit encore
           reservé <pb n="92" xml:id="p92"/>pour les autres, qui n’estoient pas moins agreables.</p>
-        <p><date>Le Samedy dixiéme</date>, <persName>Sa Majesté</persName> voulut courre <tech>les
+        <p><date when="1664-05-10">Le Samedy dixiéme</date>, <persName>Sa Majesté</persName> voulut courre <tech>les
             testes</tech> ; c’est vn exercice que peu de gens ignorent, &amp; dont l’vsage est venu
             d’<placeName>Allemagne</placeName>, fort bien inventé, pour faire voir l’adresse d’vn
           Cavalier ; tant à bien mener son cheval dãs les passades de guerre, qu’à bien se servir
@@ -3154,7 +3155,7 @@
           liberalement à courre aux <name>autres Chevaliers</name>, &amp; que <persName>le Marquis
             de Coaslin</persName> disputa contre <persName>le Marquis de Soyecourt</persName>, &amp;
           la gaigna.</p>
-        <p><date>Le Dimanche</date><date>au lever du Roy</date>, quasi toute la conversation tourna
+        <p><date when="1664-05-11">Le Dimanche</date><date>au lever du Roy</date>, quasi toute la conversation tourna
           sur les belles Courses du jour precedent, &amp; donna lieu à vn grand deffy entre
             <persName>le Duc de S. Aignan</persName>, qui n’avoit point encore couru, &amp;
             <persName>le Marquis de Soyecourt</persName>, qui fut remise au lendemain, pource que
@@ -3172,7 +3173,7 @@
             doubles</tech> de <placeName>son Sallon</placeName>, que son Esprit vniversel a luy-même
           inventez, <tech>la Comedie des Fâcheux</tech> faite par <persName>le Sr. de
             Moliere</persName>, mêlée d’entrées de <tech>Ballet</tech>, &amp; fort ingenieuse.</p>
-        <p>Le bruit du deffy qui se devoit courir <date>le Lũdy douziéme</date>, fit faire vne
+        <p>Le bruit du deffy qui se devoit courir <date when="1664-05-12">le Lũdy douziéme</date>, fit faire vne
           infinité de gageures d’assez grande valeur ; quoy que celle des deux Chevaliers ne fût que
           de cent pistolles : Et comme <persName>le Duc</persName> par vne heureuse audace donnoit
           vne Teste à <persName>ce Marquis</persName> fort adroit beaucoup tenoient pour ce
@@ -3215,7 +3216,7 @@
           intentions de <persName>l’Autheur</persName>, il la deffendit pourtant en public, &amp; se
           priva soy-mesme de ce plaisir, pour n’en pas laisser abuser à d’autres, moins capables
           d’en faire vne iuste discernement.</p>
-        <p><date>Le Mardy treiziéme</date>, <persName>le Roy</persName> voulut encore courre
+        <p><date when="1664-05-13">Le Mardy treiziéme</date>, <persName>le Roy</persName> voulut encore courre
             <tech>les Testes</tech>, comme à vn jeu ordinaire que devoit gaigner celuy qui feroit le
           plus : <persName>Sa Majesté</persName> eut encore celuy de la Course des Dames, le
             <persName>Duc de S. Aignan</persName> celuy du jeu ; &amp; ayant eu l’honneur d’entrer
@@ -3227,7 +3228,7 @@
           <tech>la Comedie du Mariage Forcé</tech>, encore dela façon du même <persName>Sr. de
             Moliere</persName>, mélée d’entrées de <tech>Balet</tech>, &amp; de Recits. Puis
             <persName>le Roy</persName> prit le chemin de <placeName>Fontaine-bleau</placeName>
-          <date>le Mercredy quatorziéme</date> ; toute la Cour se trouvant si satisfaite de ce
+          <date when="1664-05-14">le Mercredy quatorziéme</date> ; toute la Cour se trouvant si satisfaite de ce
           qu’elle avoit veu, que chacun crût qu’on ne pouvoit se passer de le mettre par écrit, pour
           en donner la cõnoissance à ceux qui n’avoiẽt pû voir des Festes si diversifiées &amp; si
           agreables ; où l’on a pû admirer tout à la fois le projet avec le succez, la liberalité
