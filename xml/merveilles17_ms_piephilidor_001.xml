@@ -14,6 +14,7 @@
         <edition>Merveilles17</edition>
         <respStmt>
           <name>Mathilde Nicolas</name>
+          <resp>Transcription et balisage</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -31,7 +32,7 @@
     </fileDesc>
     <profileDesc>
       <creation>
-        <date>1690.</date>
+        <date when="1690">1690</date>
       </creation>
       <langUsage>
         <language ident="fr"/>
@@ -43,8 +44,8 @@
       <pb n="1" xml:id="p1"/>
       <head>Les Plaisirs de L’Isle Enchantée</head>
       <div subtype="level1">
-        <head>Festes Galantes, et Magnifiques, faites par Le Roy à Versailles, le 7<hi rend="sup"
-            >e</hi> May 1664.</head>
+        <head>Festes Galantes, et Magnifiques, faites par Le Roy à Versailles, le <date
+            when="1664-05-07">7<hi rend="sup">e</hi> May 1664</date>.</head>
         <p>Copié par Philidor L’aisné.</p>
         <pb n="3" xml:id="p3"/>
         <head>Les Plaisirs de L’Isle Enchantée</head>
@@ -53,30 +54,32 @@
         <head>Course de Bague, Collation ornée de Machines, Comedie de Moliere, Intitulée la
           Princesse d’Elide, meslée de danse, et de Musique, Ballet du Palais d’Alcine, Feu
           d’Artifice, et autres Festes galantes, et magnifiques, faites par le Roy à Versailles, le
-            7<hi rend="sup">e</hi> May 1664 et continuées plusieurs autres Iours.</head>
+            <date when="1664-05-07">7<hi rend="sup">e</hi> May 1664</date> et continuées plusieurs autres Iours.</head>
         <p><persName>Le Roy</persName> voulant donner aux <persName>Reines</persName>, et à toute sa
           Cour le plaisir de quelques festes peu commvnes, dans vn lieu orné de tous les agrémens
           qui peuuent</p>
         <pb n="4" xml:id="p4"/>
-        <p>faire admirer vne Maison de Campagne, choisit <placeName key="versailles">Versailles</placeName> à quatre
-          lieuës de <placeName key="paris">Paris</placeName>. C’est vn chateau, qu’on peut nommer vn Palais
-          Enchanté, tant les ajustemens de l’art ont bien secondé les soins que la Nature a pris
-          pour le rendre parfait : Il charme en toutes manieres, tout y rit dehors, et dedan, <seg
-            ana="description">l’or et le marbre y disputent d’éclat, et de beauté, et quoy qu’il
-            n’ait pas cette grande étenduë qui se remarque en quelques autres</seg>
-          <placeName key="chateau_versailles">Palais de sa Majesté</placeName>, <seg ana="description">toutes choses y sont
-            si polies, si bien entenduës, et si acheuées, que rien ne le peut égaler. Sa Symetrie,
-            la richesse de ses meubles, la beauté de ses promendes, et le nombre Infiny ses fleurs,
-            comme ses Orangers, rendent ce lieu dignes de sa rareté singuliére. La diuersité des
-            bestes contenuës dans les deux Parcs, et dans la Menagerie, où plusieurs Courts en
-            Estoiles sont accompagnée de Viuiers pour les animaux-aquatiques, auec de grands
-            bastimens, Joignent le plaisir auec la magnificence, et en font vne Maison
-            accomplie</seg>.</p>
-        <p>Ce fut en ce beau lieu où toute la Cour se rendit le <date>5e de May</date>, que
-            <persName>le Roy</persName> traita plus de six cens personnes jusqu’au
-            <date>quatorzieme</date> ; outre vne Infinité de gens necessaires à la
+        <p>faire admirer vne Maison de Campagne, choisit <placeName key="versailles"
+            >Versailles</placeName> à quatre lieuës de <placeName key="paris">Paris</placeName>.
+          C’est vn chateau, qu’on peut nommer vn Palais Enchanté, tant les ajustemens de l’art ont
+          bien secondé les soins que la Nature a pris pour le rendre parfait : Il charme en toutes
+          manieres, tout y rit dehors, et dedan, <seg ana="description">l’or et le marbre y
+            disputent d’éclat, et de beauté, et quoy qu’il n’ait pas cette grande étenduë qui se
+            remarque en quelques autres</seg>
+          <placeName key="chateau_versailles">Palais de sa Majesté</placeName>, <seg
+            ana="description">toutes choses y sont si polies, si bien entenduës, et si acheuées, que
+            rien ne le peut égaler. Sa Symetrie, la richesse de ses meubles, la beauté de ses
+            promendes, et le nombre Infiny ses fleurs, comme ses Orangers, rendent ce lieu dignes de
+            sa rareté singuliére. La diuersité des bestes contenuës dans les deux Parcs, et dans la
+            Menagerie, où plusieurs Courts en Estoiles sont accompagnée de Viuiers pour les
+            animaux-aquatiques, auec de grands bastimens, Joignent le plaisir auec la magnificence,
+            et en font vne Maison accomplie</seg>.</p>
+        <p>Ce fut en ce beau lieu où toute la Cour se rendit le <date when="1664-05-05">5e de
+            May</date>, que <persName>le Roy</persName> traita plus de six cens personnes jusqu’au
+            <date when="1664-05-14">quatorzieme</date> ; outre vne Infinité de gens necessaires à la
             <tech>Danse</tech>, et à la <tech>Comedie</tech>, Et d’artisans de toute sorte venus de
-            <placeName key="paris">Paris</placeName>, si bien que cela paroissoit vne petite armée.</p>
+            <placeName key="paris">Paris</placeName>, si bien que cela paroissoit vne petite
+          armée.</p>
         <p>Le Ciel mesme sembla favoriser les desseins de <persName>sa Majesté</persName>, puis que
           dans vne saison presque toujours pluuieuse, on en fut quitte pour vn peu de Vent, qui
           sembla n’auoir augmenté, qu’afin de faire voir que la preuoyance, et la puissance du
@@ -104,10 +107,10 @@
             <tech>hautes palissades</tech>, de <tech>quatre portiques</tech>
           <seg ana="description">de trente cinq pieds d’elevation, et de vingt deux en quarré, et de
             diuerses peintures auec les armes de Sa Majesté</seg>.</p>
-        <p>Toute la Cour s’estant placée <date>le septiéme</date>, il entra dans la place <name>vn
-            Heraut d’armes</name>, representé par <persName>Mr. des Bardins</persName>, <tech>vestu
-            d’vn habit à l’antique</tech>, <seg ana="description">couleur de feu en broderie
-            d’argent</seg>, et fort bien monté.</p>
+        <p>Toute la Cour s’estant placée <date when="1664-05-07">le septiéme</date>, il entra dans
+          la place <name>vn Heraut d’armes</name>, representé par <persName>Mr. des
+            Bardins</persName>, <tech>vestu d’vn habit à l’antique</tech>, <seg ana="description"
+            >couleur de feu en broderie d’argent</seg>, et fort bien monté.</p>
         <p>Il estoit suiuy de <name>trois pages</name> : celuy du <persName>Roy</persName>,
             <persName>Mr. d’Artagnan</persName>, marchoit à la teste de deux autres, <seg
             ana="description">fort richement habillé de couelur de feu</seg>, liurée de <persName>sa
@@ -2571,7 +2574,7 @@
         <pb n="169" xml:id="p169"/>
       </div>
       <div subtype="level1">
-        <head>Troisieme Iournée des Plaisirs de l’Isle Enchantée.</head>
+        <head><date when="1664-05-09"/>Troisieme Iournée des Plaisirs de l’Isle Enchantée.</head>
         <pb n="170" xml:id="p170"/>
         <pb n="171" xml:id="p171"/>
         <p>Plus on sçauancoit vers le grand <tech>Rondeau</tech> qui representoit le Lac sur lequel
@@ -2783,11 +2786,12 @@
           bien qu’on demeurast d’accord qu’elles pouuoient Iustement disputer à toutes celles qu’on
           auoit veuës Iusques à lors, et les surpasser peut-estre.</p>
         <p>Mais quoyque les Festes comprises dans le sujet des plaisirs de l’Isle enchantée fussent
-          terminées, tous les diuertissemens de <placeName key="versailles">Versailles </placeName>ne l’estoient pas,
-          et la magnificence, et la galanterie du <persName>Roy</persName>, en auoit</p>
+          terminées, tous les diuertissemens de <placeName key="versailles">Versailles
+          </placeName>ne l’estoient pas, et la magnificence, et la galanterie du
+            <persName>Roy</persName>, en auoit</p>
         <pb n="198" xml:id="p198"/>
         <p>reserué pour les autres jours qui n’estoient pas moins agréables.</p>
-        <p>Le <date>Same</date><date>dy dixiéme</date>
+        <p>Le <date when="1664-05-10">Samedy dixiéme</date>
           <persName>Sa Majesté</persName> voulut courre <tech>les Testes</tech>. C'est vn exercice
           que peu de gens ignorent, et dont l’vsage est venu d’Allemagne, fort bien Inuenté, pour
           faire voir l’adresse d’vn Chevalier, tant à bien mener son cheual dans les passades de
@@ -2806,7 +2810,8 @@
           terre, puis faisant place à vn autre, celuy qui en ces courses en a emporté le plus, gagne
           le prix.</p>
         <p>Toute la Cour s’estant placée sur vne balustrade de fer doré qui regnoit autour de
-          l’agréable <placeName key="chateau_versailles">Maison de Versailles</placeName>, et qui regarde sur le fossé,</p>
+          l’agréable <placeName key="chateau_versailles">Maison de Versailles</placeName>, et qui
+          regarde sur le fossé,</p>
         <pb n="199" xml:id="p199"/>
         <p>dans lequel on auoit dressé la lice, avec des Barrieres.</p>
         <p><persName>Le Roy</persName> s’y rendit suiuy des mesmes <name>Cheualiers</name> qui
@@ -2819,19 +2824,19 @@
           gagnée, redonna liberalement à courre aux autres Cheualiers, et que <persName>le Marquis
             de Coaslin</persName> disputa contre <persName>le Marquis de Soyecourt</persName>, et la
           gagna.</p>
-        <p><date>Le Dimanche</date><date>au leuer du Roy</date>, quasi toute la conuersation tourna
-          sur les belles courses du jour precedent, et donna lieu d’vn grand défi entre <persName>le
-            Duc de St. Aignant</persName>, qui n’auoit point encore couru, et <persName>le Marquis
-            de Soyecourt</persName> qui fut remise au lendemain, par ce que <persName>le Mareschal
-            Duc de Grammont</persName> qui parioit pour ce Marquis estoit obligé de partir pour
-            <placeName key="paris">Paris</placeName>, d’où il ne deuoit reuenir que le
-          jour d’apres.</p>
-        <p><persName>Le Roy</persName> mena toute la Cour cette <date>apres dinée</date> à <placeName key="menagerie">sa
-            Menagerie</placeName> dont on admira les beautez particulieres, et le nombre presque
-          Incroyable d’oyseaux de toutes sortes, parmy les quels il y en a beaucoup de fort rares.
-          II seroit Inutile de parler de la <tech>colation</tech> qui suiuit ce diuertissement,
-          puisque huict Iours durant chaque repas pouuoit passer pour Festin des plus grands qu’on
-          puisse faire.</p>
+        <p><date when="1664-05-11">Le Dimanche</date><date>au leuer du Roy</date>, quasi toute la
+          conuersation tourna sur les belles courses du jour precedent, et donna lieu d’vn grand
+          défi entre <persName>le Duc de St. Aignant</persName>, qui n’auoit point encore couru, et
+            <persName>le Marquis de Soyecourt</persName> qui fut remise au lendemain, par ce que
+            <persName>le Mareschal Duc de Grammont</persName> qui parioit pour ce Marquis estoit
+          obligé de partir pour <placeName key="paris">Paris</placeName>, d’où il ne deuoit reuenir
+          que le jour d’apres.</p>
+        <p><persName>Le Roy</persName> mena toute la Cour cette <date>apres dinée</date> à
+            <placeName key="menagerie">sa Menagerie</placeName> dont on admira les beautez
+          particulieres, et le nombre presque Incroyable d’oyseaux de toutes sortes, parmy les quels
+          il y en a beaucoup de fort rares. II seroit Inutile de parler de la <tech>colation</tech>
+          qui suiuit ce diuertissement, puisque huict Iours durant chaque repas pouuoit passer pour
+          Festin des plus grands qu’on puisse faire.</p>
         <p>Et <date>Le soir</date>
           <persName>sa Majesté</persName> fit representer sur l’vn de ces <tech>Théatres</tech>
           doubles de <placeName key="chateau_versailles">son Sallon</placeName>, que</p>
@@ -2839,13 +2844,13 @@
         <p>son Esprit vniversel a luy mesme Inventez, <tech>La Comedie des Fascheux</tech> faite par
             <persName>le Sieur de Moliere</persName>, meslée d’entrées de <tech>Ballet</tech>, et
           fort ingenieuse.</p>
-        <p>Le bruit du défy qui se deuoit courir <date>le Lundy douziéme</date>, fit faire vne
-          infinité de gageures d’assez grande valeur, quoyque celle des <name>deux Cheualiers</name>
-          ne fut que de cent pistoles, et comme <persName>le Duc</persName> par vne heureuse audace
-          donnoit vne teste à <persName>ce Marquis</persName> fort adroit beaucoup tenoient pour ce
-          dernier, qui s’estant rendu vn peu plus tard chez <persName>le Roy</persName> y trouua vn
-          Cartel pour le presser, le quel, pour n’estre qu’en prose, on n’a point mis en ce
-          discours.</p>
+        <p>Le bruit du défy qui se deuoit courir <date when="1664-05-12">le Lundy douziéme</date>,
+          fit faire vne infinité de gageures d’assez grande valeur, quoyque celle des <name>deux
+            Cheualiers</name> ne fut que de cent pistoles, et comme <persName>le Duc</persName> par
+          vne heureuse audace donnoit vne teste à <persName>ce Marquis</persName> fort adroit
+          beaucoup tenoient pour ce dernier, qui s’estant rendu vn peu plus tard chez <persName>le
+            Roy</persName> y trouua vn Cartel pour le presser, le quel, pour n’estre qu’en prose, on
+          n’a point mis en ce discours.</p>
         <p><persName>Le Duc de St. Aignan</persName> auoit aussi fait voir à quelques-vns de ses
           amis, comme vn heureux presage de sa Victoire, ces quatre Vers.</p>
         <p>
@@ -2885,7 +2890,7 @@
           défendit cette <tech>Comedie</tech> pour le public, Iusqu’à ce qu’elle fut entierement
           acheuée, et examinée par des gens capables d’en Iuger, pour n’en pas laisser abuser
           d’autres moins capables d’en faire vn juste discernement.</p>
-        <p>Le <date>Mardy Treiziéme</date>
+        <p>Le <date when="1664-05-13">Mardy Treiziéme</date>
           <persName>le Roy</persName> voulut encore courre <tech>les Testes</tech>, comme à vn jeu
           ordinaire que deuoit gagner celuy qui feroit le plus. <persName>Sa Majesté</persName> eut
           encore celuy de la Course des Dames, <persName>le Duc de St. Aignt</persName> celuy du
@@ -2897,9 +2902,9 @@
           fois qu’elle auoit couru <tech>les Testes</tech>.</p>
         <p>On Ioüa le mesme soir <tech>la Comedie du Mariage forcé</tech> ; encore de la façon du
           mesme <persName>Sieur de Moliere</persName>, meslée d’entrées de <tech>Ballet</tech>, et
-          de Recits, puis <persName>le Roy</persName> prit le chemin de
-            <placeName key="chateau_fontainebleau">Fontainebleau </placeName><date>le Mercredy
-            quatorziéme</date>.</p>
+          de Recits, puis <persName>le Roy</persName> prit le chemin de <placeName
+            key="chateau_fontainebleau">Fontainebleau </placeName><date when="1664-05-14">le
+            Mercredy quatorziéme</date>.</p>
         <p>Toute la Cour se trouua si satisfaite de ce qu’elle auoit veu, que chacun creut qu’on ne
           pouuoit se passer de le mettre par écrit, pour en donner la connoissance à ceux qui
           n’auoient pu voir des Festes si diuersifiées, et si agréables, où l’on a pu admirer tout à
