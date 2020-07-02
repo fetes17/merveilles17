@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
+<?xml-stylesheet type="text/css" href="../tei-author.css" alternate="author"?>
+<?xml-model href="../merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Mémoires de messire Roger de Rabutin, comte de Bussy. Tome 2</title>
+        <author>de Rabutin Roger, comte de Bussy, dit Bussy-Rabutin (1618-1693).</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Merveilles17</edition>
+        <respStmt>
+          <name> Mathilde Nicolas. </name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université d’Artois - Lille, MESHS</publisher>
+        <date when="2019"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Roger de Rabutin, comte de Bussy, dit Bussy-Rabutin, Mémoires de messire Roger de
+          Rabutin, comte de Bussy. Tome 2, Paris, Jean Anisson, 1696.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date>1664</date>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="292" xml:id="p292"/>
+      <p><date>Au commencement de May</date>, <persName>le Roy</persName> fit <tech>une Feste</tech>
+        à <placeName>Versailles</placeName> de la maniere dont il fait toutes choses, c’est-à-dire,
+        la plus galante &amp; la plus magnifique qu’on puisse imaginer : je la vis &amp; je
+        l’admiray, &amp; quoy-que les mauvais traitemens qu’on reçoit de la part d’un Maistre,
+        empeschent d’ordinaire d’approuver ce qu’il fait, j’estois rempli d’une si grande estime
+        pour <persName>le Roy</persName>, &amp; je le trouvois si parfait en toutes choses, que je
+        l’excusois sur les injustices qu’on me faisoit à la Cour, &amp; je les attribuois à tout
+        autre qu’à luy.</p>
+    </body>
+  </text>
+</TEI>

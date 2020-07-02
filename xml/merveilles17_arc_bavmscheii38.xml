@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
+<?xml-stylesheet type="text/css" href="../tei-author.css" alternate="author"?>
+<?xml-model href="../merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Relazione del viaggio fatto dall’ill.mo Sig. Card.e Chigi</title>
+        <author>Baldini Stefano ( ?- ?).</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Merveilles17</edition>
+        <respStmt>
+          <name> Mathilde Nicolas</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université d’Artois - Lille, MESHS</publisher>
+        <date when="2019"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Baldini Stefano, Relazione del viaggio fatto dall’ill.mo Sig.
+            Card.e Chigi, 1664,
+            <!-- Windows User : 2020-04-25T13:59:00.82
+Le lien est‑il bien mis ?--><ref
+            target="http://moliere.huma-num.fr/base.php?Stefano_Baldini%2C_Relazione_del_viaggio_fatto_dall’ill%2Emo_Sig%2E_Card%2Ee_Chigi"
+            >http://moliere.huma-num.fr/base.php?Stefano_Baldini%2C_Relazione_del_viaggio_fatto_dall%E2%80%99ill%2Emo_Sig%2E_Card%2Ee_Chigi</ref>.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1664-07-30">1664/07/30. </date>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p><persName>Le cardinal</persName> accompagna ensuite <persName>le roi</persName> dans les
+        chambres et, après lui avoir fait la révérence, il se retira dans son appartement afin de se
+        préparer pour aller au divertissement d’<tech>une comédie française</tech>, puisqu’il y
+        avait en même temps des <persName>acteurs français</persName>,
+          <persName>espagnols</persName> et <persName>italiens</persName> divisés en <persName>trois
+          troupes</persName>, qui jouaient en alternance chaque jour […] <tech>La pièce</tech> fut
+        pleine de traits d’esprit et d’airs muscicaux, et de variétés et d’amours, relatant
+        l’histoire d’<name>une princesse</name> qui, afin d’apprivoiser l’arrogance d’<name>un
+          Prince</name>, fit en sorte de le faire tomber amoureux et finit par en tomber elle-même
+        amoureuse au même moment ; elle le prit pour mari. Il y eut de nombreux <tech>ballets</tech>
+        de <name>dormeurs</name>, de <name>nymphes</name> et de <name>bergers</name>, mais le
+        dernier surpassa tous les autres, puisqu’il y avait sur scène au même moment plus de
+          <name>cinquante personnages</name> à l’aide d’<tech>une machine</tech>
+        <seg ana="description">qui avait la forme d’un grand vase, qui présentait sur les côtés deux
+          escaliers remplis</seg>
+        <persName>de joueurs de trompettes</persName> et <persName>violes</persName> dans le vase et
+          <persName>de violons</persName> sur les escaliers déguisés en <name>satyres</name>, qui
+        descendirent sur scène et dansèrent avec <persName>douze autres danseurs</persName> déguisés
+        différemment ; et pour varier <tech>la danse</tech>, ils quittèrent les violons et prirent
+          <persName>des tambourins</persName>, avec lesquels il firent divers petits jeux au tempo
+        de la musique ; il y en avait <persName>plus de 40</persName> qui jouaient de la
+        contrebasse, de la viole, du violon et de la trompette et du tambourin. <tech>La
+          machine</tech> avait un aspect semblable :</p>
+      <p>[croquis]</p>
+      <p>Et ici avec un amusement universel se termina <tech>la pièce sylvestre</tech> qui avait
+        déjà été représentée une autre fois devant <persName>S.M.</persName> dans une forêt</p>
+    </body>
+  </text>
+</TEI>
