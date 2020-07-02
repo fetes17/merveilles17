@@ -35,7 +35,35 @@ foreach (glob($home."../xml/*.xml") as $srcfile) {
   fwrite($fwtech, $tech);
 }
 
-file_put_contents("biblio.html", str_replace("%main%", implode("\n", $biblio), $template));
+
+$doctype = array(
+  "arc" => "Archives",
+  "gr" => "Gravures",
+  "i" => "Imprimés",
+  "ms" => "Manuscrits",
+  "p" => "Périodiques",
+);
+
+$html = array();
+$last = null;
+$first = true;
+foreach ($biblio as $key => $value) {
+  $type = explode('_', $key)[1];
+  if ($type != $last) {
+    if ($first) $first = false;
+    else $html[] = "</div>";
+    $html[] = "<div>";
+    $html[] = "<h2>";
+    if (isset($doctype[$type])) $html[] = $doctype[$type];
+    else $html[] = $type;
+    $html[] = "</h2>";
+    $last = $type;
+  }
+  $html[] = $value;
+}
+$html[] = "</div>";
+
+file_put_contents($home."biblio.html", str_replace("%main%", implode("\n", $html), $template));
 
 
 class Merveilles17
