@@ -49,6 +49,26 @@
         </div>
         <div>
           <h2>Thèmes</h2>
+          <xsl:variable name="names">
+                      <xsl:for-each select="//*[@ana][count(. | key('ana', normalize-space(@ana))[1]) = 1]">
+            <xsl:sort select="normalize-space(@ana)"/>
+            <xsl:variable name="key" select="normalize-space(@ana)"/>
+            <div>
+              <h3>
+                <xsl:value-of select="@ana"/>
+              </h3>
+              <xsl:for-each select="key('ana', $key)">
+                <p>
+                  <xsl:call-template name="ellipse">
+                    <xsl:with-param name="node" select="."/>
+                    <xsl:with-param name="length" select="100"/>
+                  </xsl:call-template>
+                </p>
+              </xsl:for-each>
+            </div>
+          </xsl:for-each>
+
+          </xsl:variable>         
           <ul>
             <li>Personnages fictifs ?</li>
             <li>Nuage de mots ? Attention, ne va pas du tout réagir de la même manière sur les documents longs ou courts.</li>

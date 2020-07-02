@@ -2016,7 +2016,7 @@ Elements block or inline level
   <!-- Default, content from <index> is supposed to not be displayed -->
   <xsl:template match="tei:index"/>
   <!-- Termes with possible normal form -->
-  <xsl:template match="tei:addName | tei:affiliation | tei:author | tei:authority | tei:country | tei:foreign | tei:forename | tei:genName | tei:geogFeat | tei:geogName | tei:name | tei:origPlace | tei:orgName | tei:persName | tei:placeName | tei:repository | tei:roleName | tei:rs | tei:settlement | tei:surname">
+  <xsl:template match="tei:addName | tei:affiliation | tei:author | tei:authority | tei:country | tei:foreign | tei:forename | tei:genName | tei:geogFeat | tei:geogName | tei:name | tei:origPlace | tei:orgName | tei:persName | tei:placeName | tei:repository | tei:roleName | tei:rs | tei:settlement | tei:surname | tei:tech">
     <xsl:choose>
       <!-- empty -->
       <xsl:when test="normalize-space(.) = ''">
@@ -2057,6 +2057,22 @@ Elements block or inline level
           </xsl:choose>
           <xsl:apply-templates/>
         </a>
+      </xsl:when>
+      <xsl:when test="@key">
+        <span>
+          <xsl:call-template name="atts">
+            <xsl:with-param name="class">
+              <xsl:value-of select="translate(@key, $idfrom, $idto)"/>
+            </xsl:with-param>
+          </xsl:call-template>
+          <xsl:attribute name="data-key">
+            <xsl:value-of select="translate(@key, $idfrom, $idto)"/>
+          </xsl:attribute>
+          <xsl:attribute name="id">
+            <xsl:call-template name="id"/>
+          </xsl:attribute>
+          <xsl:apply-templates/>
+        </span>
       </xsl:when>
       <xsl:otherwise>
         <span>

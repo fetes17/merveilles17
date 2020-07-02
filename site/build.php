@@ -18,8 +18,20 @@ $fwpers = fopen($home."pers.tsv", "w");
 $fwtech = fopen($home."tech.tsv", "w");
 $biblio = array();
 
+$fwreadme = fopen(dirname(dirname(__FILE__))."/README.md", "w");
+fwrite($fwreadme, "
+# Merveilles de la Cour, les textes
+
+[Documentation du schema](https://fetes17.github.io/merveilles17/merveilles17.html)
+
+");
+
+
 foreach (glob($home."../xml/*.xml") as $srcfile) {
   $dstname = basename($srcfile, ".xml");
+  fwrite($fwreadme, "* [".basename($srcfile)."merveilles17_i_pie1673.xml](https://fetes17.github.io/merveilles17/xml/".basename($srcfile)."\n");
+
+  
   $dstfile = $home.$dstname.".html";
   echo basename($srcfile),"\n";
   $dom = Build::dom($srcfile);

@@ -1,3 +1,8 @@
+html, body {
+  position: relative;
+  height: 100%;
+}
+
 body {
   background: #FFFFFF;  
 }
@@ -10,20 +15,45 @@ main, h1, h2, h3, h4, h5, h6 {
   font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 }
 
-a.pb {
+.pb {
   width: auto;
-  right: -170px;
+  position: relative;
+  float: right;
+  right:0;
 }
 a.pb img {
   display: block;
 }
 
-main {
-  position: relative;
-  max-width: 40rem;
-  margin-right: auto;
-  margin-left: auto;
+#split {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
 }
+
+#split > * {
+  overflow: auto;
+}
+
+#main {
+  padding: 2rem;
+}
+
+#aside {
+  top: 2rem;
+  bottom: 0;
+  padding-bottom: 5rem;
+}
+
+#navaside {
+  top: 0;
+  left: 0;
+  position: fixed;
+  padding: 2px 1rem !important;
+  background: #FFFFFF;
+  border-bottom: 1px solid #CCC;
+}
+
 
 #header {
   padding-left: 20%;
@@ -34,10 +64,161 @@ main {
   display: block;
 }
 
-#aside {
-  position: fixed;
-  overflow-y: visible;
-  width: 20rem;
-  top:0;
-  left: 0;
+
+
+/** The split gutters */
+.gutter-horizontal {
+  width: 5px;
+  background: #CCCCCC;
+  cursor: col-resize;
+  height: 100%;
+  border-style: none;
 }
+
+.gutter-vertical {
+  height: 3px;
+  cursor: ns-resize;
+  border-style: none;
+  text-align: center;
+}
+
+.gutter.but {
+  font-size: 10px;
+  position: relative;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.gutter.but:hover {
+  background: #CCCCD5;
+  color: #FFFFFF;
+}
+
+.gutter.but.closed {
+  background: #888;
+  color: #FFFFFF;
+}
+
+.gutter.but.closed:hover {
+  background: #FFFFFF;
+  color: #000;
+}
+
+.gutter.but.horizontal {
+  margin-left: -2px;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.gutter.but.horizontal:after {
+  content: '▶';
+}
+
+.gutter.but.horizontal.closed:after {
+  content: '◀';
+}
+
+.gutter.but.horizontal.first:after {
+  content: '◀';
+}
+
+.gutter.but.horizontal.first.closed:after {
+  content: '▶';
+}
+
+.gutter.but.vertical {
+  padding-left: 2em;
+  padding-right: 2em;
+  bottom: 12px;
+  line-height: 0;
+  height: 6px;
+}
+
+.gutter.but.vertical.first:after {
+  content: '▲';
+}
+
+.gutter.but.vertical.first.closed {
+  bottom: 6px;
+}
+
+.gutter.but.vertical.first.closed:after {
+  content: '▼';
+}
+
+.gutter.but.vertical.last:after {
+  content: "▼";
+}
+
+.gutter.but.vertical.last.closed {
+  bottom: 12px;
+}
+
+.gutter.but.vertical.last.closed:after {
+  content: '▲';
+}
+
+#aside ul {
+ list-style: inside;
+ padding-left: 0;
+}
+#aside ul ul {
+ padding-left: 1rem;
+}
+
+#aside > * {
+  padding: 0.1rem 1rem;
+}
+
+#aside a:hover {
+  background: #FFFFFF;
+}
+
+#personnes,
+.persName {
+  background-color: rgba(0, 0, 128, 0.1);
+}
+
+#personnes a.active,
+.persName:target {
+  background-color: rgba(0, 0, 128, 1);
+  color: white;
+}
+
+.persName,
+.tech,
+.name {
+  cursor: pointer;
+}
+
+#techniques,
+.tech {
+  background-color: rgba(128, 0, 0, 0.1);
+}
+
+#techniques a.active,
+.tech:target {
+  background-color: rgba(128, 0, 0, 1);
+  color: white;
+}
+
+#personnages,
+.name {
+  background-color: rgba(255, 192, 0, 0.1);
+}
+
+#personnages a.active,
+.name:target {
+  background-color: rgba(255, 192, 0, 1);
+  color: white;
+}
+
+#aside li:target {
+  background-color: #FFFFFF;
+}
+
