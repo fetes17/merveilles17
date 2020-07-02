@@ -704,26 +704,22 @@
         <a:documentation>Technique théâtrale</a:documentation>
         <optional>
           <attribute name="type">
-            <list>
-              <oneOrMore>
-                <choice>
-                  <value>construction</value>
-                  <value>décor</value>
-                  <value>costume</value>
-                  <value>animal</value>
-                  <value>machine-volante</value>
-                  <value>machine-terrestre</value>
-                  <value>machine-aquatique</value>
-                  <value>machine-musciale</value>
-                  <value>machine-du-temps</value>
-                  <value>trappe</value>
-                  <value>bruitage</value>
-                  <value>éclairage</value>
-                  <value>jeux-d'eaux</value>
-                  <value>feux-d'artifice</value>
-                </choice>
-              </oneOrMore>
-            </list>
+            <choice>
+              <value>construction</value>
+              <value>décor</value>
+              <value>costume</value>
+              <value>animal</value>
+              <value>machine-volante</value>
+              <value>machine-terrestre</value>
+              <value>machine-aquatique</value>
+              <value>machine-musciale</value>
+              <value>machine-du-temps</value>
+              <value>trappe</value>
+              <value>bruitage</value>
+              <value>éclairage</value>
+              <value>jeux-d'eaux</value>
+              <value>feux-d'artifice</value>
+            </choice>
           </attribute>
         </optional>
         <zeroOrMore>

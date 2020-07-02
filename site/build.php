@@ -2,8 +2,6 @@
 
 $home = dirname(__FILE__).'/';
 $theme = $home.'theme/';
-$xslpage = $theme."page.xsl";
-$xslbiblio = $theme."biblio.xsl";
 
 $template = file_get_contents($theme."template.html");
 
@@ -18,13 +16,17 @@ foreach (glob($home."pages/*.html") as $srcfile) {
 
 $fwpers = fopen($home."pers.tsv", "w");
 $fwtech = fopen($home."tech.tsv", "w");
+$biblio = array();
 
 foreach (glob($home."../xml/*.xml") as $srcfile) {
   $dstname = basename($srcfile, ".xml");
   $dstfile = $home.$dstname.".html";
   echo basename($srcfile),"\n";
   $dom = Build::dom($srcfile);
-  $main = Build::transformDoc($dom, $xslpage);
+  
+  $biblio[$dstname] = Build::transformDoc($dom, $theme."biblio.xsl", null, array('name' => $dstname));
+  
+  $main = Build::transformDoc($dom, $theme."document.xsl");
   file_put_contents($dstfile, str_replace("%main%", $main, $template));
   // data
   $pers = Build::transformDoc($dom, $theme."pers.xsl", null, array('filename' => $dstname));
@@ -33,7 +35,7 @@ foreach (glob($home."../xml/*.xml") as $srcfile) {
   fwrite($fwtech, $tech);
 }
 
-// file_put_contents("biblio.html", str_replace("%main%", implode("\n", $biblio), $template));
+file_put_contents("biblio.html", str_replace("%main%", implode("\n", $biblio), $template));
 
 
 class Merveilles17
