@@ -29,7 +29,7 @@ fwrite($fwreadme, "
 
 foreach (glob($home."../xml/*.xml") as $srcfile) {
   $dstname = basename($srcfile, ".xml");
-  fwrite($fwreadme, "* [".basename($srcfile)."merveilles17_i_pie1673.xml](https://fetes17.github.io/merveilles17/xml/".basename($srcfile)."\n");
+  fwrite($fwreadme, "* [".basename($srcfile)."merveilles17_i_pie1673.xml](https://fetes17.github.io/merveilles17/xml/".basename($srcfile).")\n");
 
   
   $dstfile = $home.$dstname.".html";
