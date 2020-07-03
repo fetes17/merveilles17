@@ -6,13 +6,15 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>« Immanquable », La Muze historique, Lettre XVIII, Lettre en vers à Son Altesse Madame la Duchesse de Nemours. </title>
+        <title>« Immanquable », La Muze historique, Lettre XVIII, Lettre en vers à Son Altesse
+          Madame la Duchesse de Nemours. </title>
         <author>Loret Jean (1595 ?-1665). </author>
       </titleStmt>
       <editionStmt>
         <edition>Merveilles17</edition>
         <respStmt>
-          <name>Mathilde Nicolas. </name>
+          <name>Mathilde Nicolas</name>
+          <resp>Transcription et balisage</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -23,7 +25,9 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl>Loret Jean, <title>La muze historique, ou Recueil des lettres en vers contenant les nouvelles du temps : écrites à Son Altesse Mademoizelle de Longueville, depuis duchesse de Nemours (1650-1665.</title>, Paris, Charles Chenault, 1664.</bibl>
+        <bibl>Loret Jean, <title>La muze historique, ou Recueil des lettres en vers contenant les
+            nouvelles du temps : écrites à Son Altesse Mademoizelle de Longueville, depuis duchesse
+            de Nemours (1650-1665.</title>, Paris, Charles Chenault, 1664.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -39,7 +43,7 @@
       <abstract>
         <listEvent>
           <event>
-            <placeName></placeName>
+            <placeName/>
           </event>
         </listEvent>
       </abstract>
@@ -48,9 +52,7 @@
   <text>
     <body>
       <pb n="195" xml:id="p195"/>
-      <head>Lettre dix-huitiéme
-        <lb/>Du <date>[samedi] dixiéme May</date>.
-        <lb/>Immanquable.</head>
+      <head>Lettre dix-huitiéme <lb/>Du <date when="1664-05-10">[samedi] dixiéme May</date>. <lb/>Immanquable.</head>
       <l>Durant que la plus belle Cour</l>
       <l>Qu’ait jamais éclairé le jour,</l>
       <l>Se divertit et se goberge</l>
@@ -346,7 +348,7 @@
       <l>Et je finis ma Lettre ainsy,</l>
       <l>Souhaitant bon-soir à l’<persName>Altesse</persName></l>
       <l>Dont si belle et blonde est la tresse.</l>
-      <l>Le <date>Dix de May</date>, Mois le plus doux,</l>
+      <l>Le <date when="1664-05-10">Dix de May</date>, Mois le plus doux,</l>
       <l>Et le plus verdoyant de tous.</l>
     </body>
   </text>
