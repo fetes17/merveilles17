@@ -6,13 +6,15 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>« Curieuse », La Muze historique, Lettre XXX, Lettre en vers à Son Altesse Madame la Duchesse de Nemours. Du samedi 2 août 1664.</title>
+        <title>« Curieuse », La Muze historique, Lettre XXX, Lettre en vers à Son Altesse Madame la
+          Duchesse de Nemours. Du samedi 2 août 1664.</title>
         <author>Loret Jean (1595 ?-1665). </author>
       </titleStmt>
       <editionStmt>
         <edition>Merveilles17</edition>
         <respStmt>
-          <name>Mathilde Nicolas. </name>
+          <name>Mathilde Nicolas</name>
+          <resp>Transcription et balisage</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -23,12 +25,14 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl>Loret Jean, <title>La muze historique, ou Recueil des lettres en vers contenant les nouvelles du temps : écrites à Son Altesse Mademoizelle de Longueville, depuis duchesse de Nemours (1650-1665)</title>, Paris, Charles Chenault, 1664.</bibl>
+        <bibl>Loret Jean, <title>La muze historique, ou Recueil des lettres en vers contenant les
+            nouvelles du temps : écrites à Son Altesse Mademoizelle de Longueville, depuis duchesse
+            de Nemours (1650-1665)</title>, Paris, Charles Chenault, 1664.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
       <creation>
-        <date>1664/08/02. </date>
+        <date when="1664-08-02">1664/08/02</date>
       </creation>
       <langUsage>
         <language ident="fre"/>
@@ -38,8 +42,7 @@
   <text>
     <body>
       <pb n="228" xml:id="p228"/>
-      <head>LETTRE TRENTIÉME
-        <lb/>Du <date>[samedi] deuxième Aoust</date>.
+      <head>LETTRE TRENTIÉME <lb/>Du <date when="1664-08-02">[samedi] deuxième Aoust</date>.
         <lb/>CURIEUZE.</head>
       <l><persName>PRINCESSE</persName>, d’esprit rare et beau,</l>
       <l>Revenant de <placeName>Fontainebleau</placeName></l>
@@ -68,7 +71,7 @@
       <l><persName>Monseigneur le Légat Chizy</persName>,</l>
       <l><tech>Vêtu d’un fort beau cramoisy</tech>,</l>
       <l>Avec sa <tech>brillante Livrée</tech>,</l>
-      <l><date>Lundi dernier</date> fit son Entrée</l>
+      <l><date when="1664-07-28">Lundi dernier</date> fit son Entrée</l>
       <l>Dans un éclat pompeux et beau,</l>
       <l>Au<placeName> Palais de Fontainebleau</placeName>.</l>
       <l><persName>Monsieur</persName>, du Roy le Frére unique,</l>
@@ -83,7 +86,7 @@
       <l>Une bonne lieüe au-devant,</l>
       <l>Luy donnant, dans toute la Traite,</l>
       <l>Ce que l’on appelle la Droite.</l>
-      <l><date>Mardy</date>, qui fut le lendemain,</l>
+      <l><date when="1664-07-29">Mardy</date>, qui fut le lendemain,</l>
       <l>Cét aimable <persName>Prince Romain</persName>,</l>
       <l>Gardant une sage décence,</l>
       <l>Eut, du <persName>Roy</persName>, bénigne Audiance,</l>
@@ -116,7 +119,7 @@
       <l>Dont l’aimable et Royale Enfance,</l>
       <l>La gentillesse et l’agrément</l>
       <l>Lui plûrent merveilleuzement.</l>
-      <l><date>Mercredy</date>, quoy que jour de pluye,</l>
+      <l><date when="1664-07-30">Mercredy</date>, quoy que jour de pluye,</l>
       <l>Qui volontiers les Gens ennuye,</l>
       <l>Il alla, pour se divertir,</l>
       <l>(Car je les vis tous deux partir)</l>
@@ -124,9 +127,7 @@
       <l>Lequel <persName>Légat</persName>, qui fort bien tire,</l>
       <l>Tüa quatre ou cinq Lap(e)reaux,</l>
       <l>Avec autant de Perd(e)reaux.</l>
-      <l><!-- Auteur inconnu : 2020-02-13T15:16:34.33
-Comment baliser les moments de la journée ?
---><date>Sur le soir</date>, une <tech>Comédie</tech></l>
+      <l>Sur le soir, une <tech>Comédie</tech></l>
       <l>Trés-abondante en mélodie,</l>
       <l>Sujet parfaitement joly,</l>
       <l>Où les sieurs <persName>Moliére</persName> et <persName>Lully</persName>,</l>
@@ -167,7 +168,7 @@ Comment baliser les moments de la journée ?
       <l>C’est ce que de <placeName>Fontainebleau</placeName></l>
       <l>Je puis raconter de nouveau :</l>
       <l>Car, pour vaquer à ma Gazette,</l>
-      <l><date>Le lendemain</date>, je fis retrette,</l>
+      <l><date when="1664-07-31">Le lendemain</date>, je fis retrette,</l>
       <l>Et je ne fus, chez un Amy,</l>
       <l>Audit lieu, qu’un jour et demy.</l>
       <l>Ce qu’illec je sceus davantage,</l>
@@ -175,7 +176,7 @@ Comment baliser les moments de la journée ?
       <l>Que <persName>Corneille</persName>, plein d’un beau feu,</l>
       <l>A produit au jour depuis peu,</l>
       <l>De sa plume docte et dorée,</l>
-      <l>Devait, <date>la suivante soirée</date>,</l>
+      <l>Devait, <date when="1664-07-31">la suivante soirée</date>,</l>
       <l>Ravir et charmer à son tour</l>
       <l>Le Légat et toute la Cour :</l>
       <l>Je l’apris de <persName>son Auteur</persName> mesme ;</l>
@@ -189,7 +190,7 @@ Comment baliser les moments de la journée ?
       <l>Avant que partir, j’oüis dire</l>
       <l>Aux Courtizans de nôtre Sire,</l>
       <l>(Et j’en devins tout ébaudy)</l>
-      <l>Que <persName>Monsieur le Légat</persName>, <date>Jeudy</date>,</l>
+      <l>Que <persName>Monsieur le Légat</persName>, <date when="1664-07-31">Jeudy</date>,</l>
       <l>Revenant dans cette Contrée,</l>
       <l>Feroit à <placeName>Paris</placeName> son Entrée ;</l>
       <l>Et c’est dequoy, Grands et petits,</l>
@@ -313,7 +314,7 @@ Comment baliser les moments de la journée ?
       <l>Un million, et davantage.</l>
       <l>De ce discours assez peu fin,</l>
       <l>O <persName>Princesse</persName>, voicy la fin.</l>
-      <l>Le <date>deux du mois</date>, laides ou belles</l>
+      <l>Le <date when="1664-08-02">deux du mois</date>, laides ou belles</l>
       <l>J'ay rimé toutes ces Nouvelles.</l>
     </body>
   </text>
