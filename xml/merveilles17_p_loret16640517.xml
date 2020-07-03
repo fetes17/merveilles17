@@ -6,13 +6,15 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>"Avertissante", La Muze historique, Lettre XIX, Lettre en vers à Son Altesse Madame la Duchesse de Nemours. Du 17 mai 1664.</title>
+        <title>"Avertissante", La Muze historique, Lettre XIX, Lettre en vers à Son Altesse Madame
+          la Duchesse de Nemours. Du 17 mai 1664.</title>
         <author>Loret Jean (1595 ?-1665). </author>
       </titleStmt>
       <editionStmt>
         <edition>Merveilles17</edition>
         <respStmt>
-          <name>Mathilde Nicolas. </name>
+          <name>Mathilde Nicolas</name>
+          <resp>Transcription et balisage</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -23,7 +25,9 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl>Loret Jean, <title>La muze historique, ou Recueil des lettres en vers contenant les nouvelles du temps : écrites à Son Altesse Mademoizelle de Longueville, depuis duchesse de Nemours (1650-1665)</title>, Paris, Charlese Chenault, 1664. </bibl>
+        <bibl>Loret Jean, <title>La muze historique, ou Recueil des lettres en vers contenant les
+            nouvelles du temps : écrites à Son Altesse Mademoizelle de Longueville, depuis duchesse
+            de Nemours (1650-1665)</title>, Paris, Charlese Chenault, 1664. </bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -39,7 +43,7 @@
       <abstract>
         <listEvent>
           <event when="">
-            <placeName></placeName>
+            <placeName/>
           </event>
         </listEvent>
       </abstract>
@@ -48,8 +52,7 @@
   <text>
     <body>
       <pb n="198" xml:id="p198"/>
-      <head>LETTRE DIX-NEUFIÉME
-        <lb/>Du <date>[samedi] dix-septiéme May</date>.
+      <head>LETTRE DIX-NEUFIÉME <lb/>Du <date when="1664-05-17">[samedi] dix-septiéme May</date>.
         <lb/>AVERTISSANTE. </head>
       <l>Ha que j’ay de peine à me mettre</l>
       <l>A faire aujourd’hui nôtre Lettre !</l>
@@ -106,9 +109,11 @@
       <l>Lequel Prix était (que je pense)</l>
       <l>Un Diamant de conséquence,</l>
       <l>Valant des Loüis maints et maints,</l>
-      <l>Et donné par d’<persName>illustre mains</persName>. <!-- Windows User : 2020-02-12T15:39:00.51
+      <l>Et donné par d’<persName>illustre mains</persName>.
+        <!-- Windows User : 2020-02-12T15:39:00.51
 Une note dans le texte précisant qui a remis le prix, faut‑il la transcrire ?
--->[La Reine]</l>
+-->[La
+        Reine]</l>
       <l>Comme <persName>ma Muze</persName> a grande estime</l>
       <l>Pour iceluy <persName>Duc</persName> magnanime,</l>
       <l>J’aurois plutôt parlé de luy,</l>
@@ -309,7 +314,7 @@ Une note dans le texte précisant qui a remis le prix, faut‑il la transcrire 
       <l>J'espére bien avoir l’honneur</l>
       <l>D'aller dans vôtre Rézidence</l>
       <l>Vous faire, en bref, la révérence.</l>
-      <l>Le <date>dix-sept May</date>, jour pluvieux,</l>
+      <l>Le <date when="1664-05-17">dix-sept May</date>, jour pluvieux,</l>
       <l>Dontles Champs s’en trouveront mieux.</l>
     </body>
   </text>
