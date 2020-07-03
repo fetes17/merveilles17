@@ -6,13 +6,15 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>« Hazardée », La Muze historique, Lettre VII en vers à Son Altesse Madame la Duchesse de Nemours. Du 16 février 1664.</title>
+        <title>« Hazardée », La Muze historique, Lettre VII en vers à Son Altesse Madame la Duchesse
+          de Nemours. Du 16 février 1664.</title>
         <author>Loret Jean (1595 ?-1665). </author>
       </titleStmt>
       <editionStmt>
         <edition>Merveilles17</edition>
         <respStmt>
-          <name>Mathilde Nicolas. </name>
+          <name>Mathilde Nicolas</name>
+          <resp>Transcription et balisage</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -23,7 +25,9 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl>Loret Jean, <title>La muze historique, ou Recueil des lettres en vers contenant les nouvelles du temps : écrites à Son Altesse Mademoizelle de Longueville, depuis duchesse de Nemours (1650-1665).</title>, Paris, Charles Chenault, 1664.</bibl>
+        <bibl>Loret Jean, <title>La muze historique, ou Recueil des lettres en vers contenant les
+            nouvelles du temps : écrites à Son Altesse Mademoizelle de Longueville, depuis duchesse
+            de Nemours (1650-1665).</title>, Paris, Charles Chenault, 1664.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -48,8 +52,7 @@
   <text>
     <body>
       <pb n="164" xml:id="p164"/>
-      <head>LETTRE SEPTIÉME
-        <lb/><date>Du [samedi] seize Février.</date>
+      <head>LETTRE SEPTIÉME <lb/><date when="1664-02-16">Du [samedi] seize Février.</date>
         <lb/>HAZARDÉE </head>
       <l>MADAME, quoi que peu sçavant,</l>
       <l>Il faut, dans l’Article suivant,</l>
@@ -67,7 +70,7 @@
       <l>Sans un’œuvre de pluzieurs jours,</l>
       <l>Je n’y vais employer qu’une heure,</l>
       <l>Et c’est assez que je l’éfleure.</l>
-      <l><date>Mercredy</date>, fut le premier jour</l>
+      <l><date  when="1664-30-01">Mercredy</date>, fut le premier jour</l>
       <l>Où le beau <tech>Balet</tech> de la Cour,</l>
       <l>Agréable par excélence,</l>
       <l>Avec grande magnificence,</l>
@@ -190,9 +193,11 @@
       <l>Qui, dans la fleur de ses beaux jours,</l>
       <l>Est un amas de belles chozes,</l>
       <l>Et, sur tout, de lys et de rozes.</l>
-      <l>Sa Cadette, dont l’air charmant, <!-- Windows User : 2020-02-12T15:35:00.27
+      <l>Sa Cadette, dont l’air charmant,
+          <!-- Windows User : 2020-02-12T15:35:00.27
 Il y avait une note intéressante dans le texte précisant le nom de la cadette, faut‑il la transcrire ?
--->[<persName>Mademoiselle d’Aumale</persName>.]</l>
+-->[<persName>Mademoiselle
+          d’Aumale</persName>.]</l>
       <l>Pouroit d’un Dieu faire un amant,</l>
       <l>Blanche et fraîche comme une Aurore,</l>
       <l>Et qui-là reprézentoit <name>Flore</name>.</l>
@@ -289,8 +294,11 @@ Il y avait une note intéressante dans le texte précisant le nom de la cadette,
       <l>Qu’ils eussent touché des Barbares,</l>
       <l>On chanta quatre ou cinq Récits</l>
       <l>Qui tenoient tous nos sens surcis.</l>
-      <l>Ces trois aimables Demoizelles, <!-- Windows User : 2020-02-12T15:37:00.28
-Il s’agit également d’une note dans le texte. -->[<persName>Mesdem. Hilaire</persName>, <persName>Cercamanan</persName> et <persName>Anne Bergeroti</persName>.]</l>
+      <l>Ces trois aimables Demoizelles,
+          <!-- Windows User : 2020-02-12T15:37:00.28
+Il s’agit également d’une note dans le texte. -->[<persName>Mesdem.
+          Hilaire</persName>, <persName>Cercamanan</persName> et <persName>Anne
+        Bergeroti</persName>.]</l>
       <l>Qui sont si bonnes Chanterelles,</l>
       <l>Dont tu vois les noms à côté,</l>
       <l>N’avaient jamais si bien chanté.</l>
@@ -319,7 +327,7 @@ Il s’agit également d’une note dans le texte. -->[<persName>Mesdem. Hilaire
       <l>Haute <persName>Princesse de Nemours</persName>,</l>
       <l>Pardonnez à ce long Discours.</l>
       <l>Achevé, dont je suis bien aize,</l>
-      <l>Du <date>second des mois, le jour seize</date>.</l>
+      <l>Du <date when="1664-02-16">second des mois, le jour seize</date>.</l>
       <label>Apostile</label>
       <l>Cher Lecteur, je crains que ces Vers</l>
       <l>Ne soient par toy vûs de travers,</l>
