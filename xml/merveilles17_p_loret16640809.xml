@@ -6,13 +6,15 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>« Régalante », La Muze historique, Lettre XXXI, Lettre en vers à Son Altesse Madame la Duchesse de Nemours. Du samedi 9 août 1664.</title>
+        <title>« Régalante », La Muze historique, Lettre XXXI, Lettre en vers à Son Altesse Madame
+          la Duchesse de Nemours. Du samedi 9 août 1664.</title>
         <author>Loret Jean (1595 ?-1665). </author>
       </titleStmt>
       <editionStmt>
         <edition>Merveilles17</edition>
         <respStmt>
-          <name>Mathilde Nicolas. </name>
+          <name>Mathilde Nicolas</name>
+          <resp>Transcription et balisage</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -23,7 +25,9 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl>Loret Jean, <title>La muze historique, ou Recueil des lettres en vers contenant les nouvelles du temps : écrites à Son Altesse Mademoizelle de Longueville, depuis duchesse de Nemours (1650-1665)</title>, Paris, Charles Chenault, 1664.</bibl>
+        <bibl>Loret Jean, <title>La muze historique, ou Recueil des lettres en vers contenant les
+            nouvelles du temps : écrites à Son Altesse Mademoizelle de Longueville, depuis duchesse
+            de Nemours (1650-1665)</title>, Paris, Charles Chenault, 1664.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -48,8 +52,7 @@
   <text>
     <body>
       <pb n="231" xml:id="p231"/>
-      <head>LETTRE TRENTE-UNE
-        <lb/>Du <date>[samedi ] neuviéme Aoust</date>.
+      <head>LETTRE TRENTE-UNE <lb/>Du <date when="1664-08-09">[samedi] neuviéme Aoust</date>.
         <lb/>RÉGALANTE.</head>
       <l>COMME on tient quazy pour certain</l>
       <l>Que <persName>le Légat</persName> viendra demain</l>
@@ -91,7 +94,7 @@
       <l>Dont le mérite a tant d’éclat,</l>
       <l>Et dont vole par tout la gloire,</l>
       <l>Reprenons le fil de l’histoire.</l>
-      <l><date>Vendredy dernier</date>, nôtre <persName>Roy</persName></l>
+      <l><date when="1664-08-01">Vendredy dernier</date>, nôtre <persName>Roy</persName></l>
       <l>Luy fit voir en moult noble aroy,</l>
       <l>En une large et vaste Plaine,</l>
       <l>Une Revûë entiere et pleine,</l>
@@ -138,7 +141,7 @@
       </l>
       <l>Ensuite, <persName>Sadite Eminence</persName></l>
       <l>Admira la magnificence</l>
-      <l>(<date>Le lendemain, ou jour d’aprés</date>)</l>
+      <l>(<date when="1664-08-02">Le lendemain, ou jour d’aprés</date>)</l>
       <l>D'un <tech>grand Bal</tech>, pour luy fait exprés,</l>
       <l>Où toute la Maison Royale,</l>
       <l>Qui n’a point au Monde d’égale</l>
@@ -152,7 +155,7 @@
       <l>Bons pour la guerre et pour la dance,</l>
       <l>Plaizoient aux yeux, à tout moment,</l>
       <l>En dansant cavaliérement.</l>
-      <l><date>Dimanche</date>, le <persName>Roy nôtre Sire</persName>,</l>
+      <l><date when="1664-08-03">Dimanche</date>, le <persName>Roy nôtre Sire</persName>,</l>
       <l>Et je le sçay par oüyr-dire,</l>
       <l>(Car, hélas ! je n’êtois pas-là,)</l>
       <l><persName>Le Légat</persName> susdit régala</l>
@@ -164,7 +167,7 @@
       <l>Mais des <persName>grands Seigneurs et des Princes</persName>,</l>
       <l>Chacun selon leur qualité</l>
       <l>Comme aux jours de solennité.</l>
-      <l><date>Le lendemain</date>, <persName>la Reine-Mére</persName>,</l>
+      <l><date when="1664-08-04">Le lendemain</date>, <persName>la Reine-Mére</persName>,</l>
       <l>Que toute l’Europe révére,</l>
       <l>Entre toutes ses Majestez,</l>
       <l>Pour ses illustres qualitez</l>
@@ -207,7 +210,7 @@
       <l>Que l’on poura métre en lumiére,</l>
       <l>Sur cette excélente matière.</l>
       <l>J’ai sceu d’un Officier à Sel</l>
-      <l>Que, <date>Mardy</date>, certain <tech>Carozel</tech></l>
+      <l>Que, <date when="1664-08-05">Mardy</date>, certain <tech>Carozel</tech></l>
       <l>Se fit en la propre prézence</l>
       <l>De sadite <persName>Illustre Eminence</persName>,</l>
       <l>Où le <persName>Roy</persName>, Prince haut et droit,</l>
@@ -228,7 +231,7 @@
       <l>Et tant de preuves sans égales,</l>
       <l>De l’afection qu’aujourd’huy</l>
       <l>Nôtre <persName>Souverain</persName> a pour luy,</l>
-      <l><date>Mardy</date>, <persName>ce Prélat</persName> d’importance</l>
+      <l><date when="1664-08-05">Mardy</date>, <persName>ce Prélat</persName> d’importance</l>
       <l>Eut de toute la Cour de France</l>
       <l>(Selon un mémoire que j’ay)</l>
       <l>Son Audiance de congé;</l>
@@ -297,12 +300,8 @@
       <l>Eussay-je pû faire autrement</l>
       <l>Dans un embaras de la sorte ?</l>
       <l>C’est à vous que je m’en raporte.</l>
-      <l>
-        <date>Fait le jour que </date>
-        <persName>Monsieur Chizy</persName>
-        <date>,</date>
-      </l>
-      <l><date>Pour son Entrée avoit choizy</date>.</l>
+      <l>Fait le jour que <persName>Monsieur Chizy</persName>,</l>
+      <l>Pour son Entrée avoit choizy.</l>
     </body>
   </text>
 </TEI>
