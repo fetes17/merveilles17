@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
+<?xml-stylesheet type="text/css" href="../tei-author.css" alternate="author"?>
+<?xml-model href="../merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
     <teiHeader>
         <fileDesc>
@@ -77,7 +80,7 @@
                         manuscrit</figDesc>
                     <p>LES PLAISIRS DE L’ISLE ENCHANTÉE ORDONNEZ PAR <persName key="louisxiv"
                             role="organisateur">LOVIS XIV</persName> ROY DE France ET DE NAVARRE. A
-                            <placeName>Versailles</placeName> le <date when="1664-05-06">6 May
+                            <placeName key="versailles">Versailles</placeName> le <date when="1664-05-06">6 May
                             1664</date>.</p>
                 </figure>
             </head>
@@ -230,7 +233,7 @@
                 force prodigieuse, n’estant pas satisfaire que sa puissance parust en vn seul
                 endroit de la Terre ; afin de porter en tous lieux le triomphe de sa beauté, par les
                 hommages de ses Cheualiers a rendu son Île flottante : &amp; après auoir visité
-                plusieurs Climats, elle la fait aborder en <placeName>France</placeName>, où le
+                plusieurs Climats, elle la fait aborder en <placeName key="france">France</placeName>, où le
                 respect &amp; l’admiration que luy causent les rares Qualitez de la
                     <persName>Reyne</persName> ; elle ordonne à ces <name>Guerriers</name> de faire
                 en faueur de <persName>sa Majesté</persName>, tout ce qu’ils auront pû inventer pour
@@ -843,11 +846,11 @@ Comment baliser ?
                 <pb n="61" xml:id="p61"/>
             </p>
             <p>REPONCE <seg rend="labelspeaker">D’APOLLON</seg>.</p>
-            <l>Si ces lieux fortunez ont tout ce qu’eut la <placeName>Grece</placeName></l>
+            <l>Si ces lieux fortunez ont tout ce qu’eut la <placeName key="grece">Grece</placeName></l>
             <l>De gloire, de valeur, de merite et d’adresse;</l>
             <l>Ce n’est pas sans raison qu’on y voit transferez</l>
             <l>Ces Ieux, qu’à mon honneur la Terre a consacrez.</l>
-            <l>I'ay toujours pris plaisir à verser sur la <placeName>France</placeName></l>
+            <l>I'ay toujours pris plaisir à verser sur la <placeName key="france">France</placeName></l>
             <l>De mes plus doux rayons la benigne influence :</l>
             <l>Mais le charmant objet qu’Himen y fait regner,</l>
             <l>Pour elle maintenant me fait tout dédaigner.</l>
@@ -863,8 +866,8 @@ Comment baliser ?
             <l>De tous les demy-Dieux dont elle prit naissance,</l>
             <l>Cedant à son merite autant qu’à leur devoir,</l>
             <l>Se trouueront vn jour vnis sous son pouuoir.</l>
-            <l>Ce qu’eurent de grandeurs &amp; la <placeName>France</placeName>, &amp;
-                    l’<placeName>Espagne</placeName>,</l>
+            <l>Ce qu’eurent de grandeurs &amp; la <placeName key="france">France</placeName>, &amp;
+                    l’<placeName key="france">Espagne</placeName>,</l>
             <l>Les droits de <persName>Charles Quint</persName>, les droits
                     <persName>Charlemagne</persName>,</l>
             <l>En Elle auec leur Sang heureusement transmis,</l>
@@ -940,7 +943,7 @@ Comment baliser ?
             <l>I'apporte à cette Fête vn leger ornement ;</l>
             <l>Mais auant que ma Saison passe,</l>
             <l>Ie feroy faire à vos Guerriers,</l>
-            <l>Dans les campagnes de la <placeName>Thrace</placeName>,</l>
+            <l>Dans les campagnes de la <placeName key="thrace">Thrace</placeName>,</l>
             <l>Vne ample moisson de Lauriers.</l>
             <p>
                 <pb n="66" xml:id="p66"/>
@@ -1011,7 +1014,7 @@ Comment baliser ?
                 le plaisir de la <tech>Comedie</tech> : comme ils auoient entrepris <tech>les
                     Courses</tech> souz le nom des Ieux Pythiens &amp; <tech>armez à la
                     Grecques</tech>, ils ne sortent pas de leur premier dessein, lorsque la Scene
-                est en <placeName>Elide</placeName>, c’est-là qu’vn Prince d’humeur magnifique &amp;
+                est en <placeName key="elide">Elide</placeName>, c’est-là qu’vn Prince d’humeur magnifique &amp;
                 galante, ayant vne Fille aussy naturellement ennemie de l’amour, qu’ornée de tous
                 les dons qui la rendent aimable, propose des Ieux d’exercices, des courses de
                 chariots, &amp; des chasses, croyant que la magnificence des premiers, &amp; le
