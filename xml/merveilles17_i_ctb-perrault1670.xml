@@ -14,7 +14,8 @@
                         <editionStmt>
                                 <edition>Merveilles17</edition>
                                 <respStmt>
-                                        <name> Mathilde Nicolas. </name>
+                                        <name>Mathilde Nicolas</name>
+                                        <resp>transcription et stylage</resp>
                                 </respStmt>
                         </editionStmt>
                         <publicationStmt>
@@ -29,12 +30,13 @@
                         <sourceDesc>
                                 <bibl>Charles Perrault, François Chauveau et Henri Gissey, Courses
                                         de testes et de bagues faites par le roy et par les princes
-                                        et seigneurs en l’année 1662, Paris, 1670.</bibl>
+                                        et seigneurs en l’<date when="1662">année 1662</date>,
+                                        Paris, <date when="1670">1670</date>.</bibl>
                         </sourceDesc>
                 </fileDesc>
                 <profileDesc>
                         <creation>
-                                <date>1662. </date>
+                                <date when="1670">1670</date>
                         </creation>
                         <langUsage>
                                 <language ident="fr"/>
@@ -44,7 +46,8 @@
         <text>
                 <body>
                         <head>COVRSES DE TESTES ET DE BAGVE, FAITES PAR LE ROY, ET PAR LES PRINCES
-                                ET SEIGEVRS DE SA COVR, EN L’ANNÉE M. DC. LXII.</head>
+                                ET SEIGEVRS DE SA COVR, EN L’<date when="1670">ANNÉE M. DC.
+                                        LXII.</date></head>
                         <pb n="np"/>
                         <p>&lt;figure&gt;</p>
                         <pb n="np"/>
@@ -253,14 +256,16 @@
                                         Spectacle, &amp; où l’on pût dresser un
                                                 <tech>Amphitéatre</tech> capable de contenir le
                                         grand nombre d’hommes &amp; de chevaux qui le composoient.
-                                                <placeName key="paris_place_des_vosges">La Place Royale</placeName>, qui sembloit
-                                        estre en possession de servir à ces sortes de <pb n="3"
-                                                xml:id="p3"/> magnificences fut trouvée trop petite,
-                                        &amp; trop reserrée, bien que sous <persName>LOVIS
-                                                XIII</persName>. on y ait representé un des plus
-                                        beaux <tech>Carrousels</tech> qui se soient jamais veûs,
-                                        l’on choisit donc <placeName key="paris_place_tuileries">la grande Place</placeName>,
-                                        qui est au devant du <placeName key="paris_tuileries_chateau">Palais des
+                                                <placeName key="paris_place_des_vosges">La Place
+                                                Royale</placeName>, qui sembloit estre en possession
+                                        de servir à ces sortes de <pb n="3" xml:id="p3"/>
+                                        magnificences fut trouvée trop petite, &amp; trop reserrée,
+                                        bien que sous <persName>LOVIS XIII</persName>. on y ait
+                                        representé un des plus beaux <tech>Carrousels</tech> qui se
+                                        soient jamais veûs, l’on choisit donc <placeName
+                                                key="paris_place_tuileries">la grande
+                                                Place</placeName>, qui est au devant du <placeName
+                                                key="paris_tuileries_chateau">Palais des
                                                 Thuilleries</placeName>, &amp; qui a peu de
                                         pareilles, soit pour son étenduë, soit pour la beauté des
                                         bâtimens qui l’environnent.</p>
@@ -327,25 +332,31 @@
                                                 <persName>sieur Vigarani</persName>, Ingenieur du
                                         Roy, qui eût le soin &amp; la conduite de toute cette pompe,
                                         sous les ordres du Mareschal de Camp General.</p>
-                                <p>Toutes choses étant ainsi preparées, &amp; le <date>cinquiéme
-                                                jour du mois Iuin</date>, que <persName>Sa
-                                                Majesté</persName> avoit destiné à cette superbe
-                                        Feste, étant arrivé, les Compagnies du Regiment des <pb
-                                                n="4" xml:id="p4"/> Gardes, Suisses &amp;
-                                        Françoises, furent dés <date>le matin</date> mises en haye,
-                                        depuis <placeName key="paris_place_tuileries">la Grande Place</placeName>, qui est
-                                        derriere <placeName key="paris_hotel_vendome">l’Hostel de Vandôme</placeName>, tout le
-                                        long des <placeName key="paris_rue_richelieu">ruës de Richelieu</placeName>, <placeName key="paris_rue_honore">S. Honoré</placeName> &amp; <placeName key="paris_rue_nicaise">S. Nicaise</placeName>,
-                                        jusqu’à l’entrée de <tech>l’Amphitheatre</tech>, tant pour
-                                        empêcher le desordre &amp; la confusion que pouvoir causer
-                                        l’affluence du peuple, que pour augmenter par le nombre de
-                                        cette milice, la Magnificene du Spectacle.</p>
+                                <p>Toutes choses étant ainsi preparées, &amp; le <date
+                                                when="1662-06-05">cinquiéme jour du mois
+                                        Iuin</date>, que <persName>Sa Majesté</persName> avoit
+                                        destiné à cette superbe Feste, étant arrivé, les Compagnies
+                                        du Regiment des <pb n="4" xml:id="p4"/> Gardes, Suisses
+                                        &amp; Françoises, furent dés le matin mises en haye, depuis
+                                                <placeName key="paris_place_tuileries">la Grande
+                                                Place</placeName>, qui est derriere <placeName
+                                                key="paris_hotel_vendome">l’Hostel de
+                                                Vandôme</placeName>, tout le long des <placeName
+                                                key="paris_rue_richelieu">ruës de
+                                                Richelieu</placeName>, <placeName
+                                                key="paris_rue_honore">S. Honoré</placeName> &amp;
+                                                <placeName key="paris_rue_nicaise">S.
+                                                Nicaise</placeName>, jusqu’à l’entrée de
+                                                <tech>l’Amphitheatre</tech>, tant pour empêcher le
+                                        desordre &amp; la confusion que pouvoir causer l’affluence
+                                        du peuple, que pour augmenter par le nombre de cette milice,
+                                        la Magnificene du Spectacle.</p>
                                 <p><persName>Le Roy</persName> s’étant rendu avec toute sa Quadrille
-                                        &amp; son équipage dans <placeName key="paris_hotel_vendome">l’Hostel de
-                                                Vandôme</placeName>, où il s’habilla, les autres
-                                        Chefs avec leurs Quadrilles, arriverent dans l’ordre qui
-                                        leur avoit été donné par <name>le Mareschal de Camp
-                                                general</name>, au rendez-vous, où peu de temps
+                                        &amp; son équipage dans <placeName key="paris_hotel_vendome"
+                                                >l’Hostel de Vandôme</placeName>, où il s’habilla,
+                                        les autres Chefs avec leurs Quadrilles, arriverent dans
+                                        l’ordre qui leur avoit été donné par <name>le Mareschal de
+                                                Camp general</name>, au rendez-vous, où peu de temps
                                         après, <persName>le Roy</persName> parut au milieu de sa
                                         grande Quadrille.</p>
                                 <p>Cependant <persName>les Reynes</persName> arriverent, &amp;
@@ -572,13 +583,12 @@
                                 <p>Cette Quadrille magnifique après avoir fait le tour de
                                                 <tech>l’Amphitheatre</tech> par le dehors de la
                                         Barriere, &amp; ensuite la comparse devant l’Eschafaut
-                                                <persName>des Reynes</persName>, entre dans
-                                                le grande Carré de la Course,
-                                        où elle se posta en formant vn grande demy-cercle, dont
-                                                <persName>sa Majesté</persName> occupoit le milieu,
-                                        pour laisser libre aux autres Quadrilles l’entrée de
-                                                <tech>l’Amphitheatre</tech> qu’elle devoit ensuite
-                                        occcuper.</p>
+                                                <persName>des Reynes</persName>, entre dans le
+                                        grande Carré de la Course, où elle se posta en formant vn
+                                        grande demy-cercle, dont <persName>sa Majesté</persName>
+                                        occupoit le milieu, pour laisser libre aux autres Quadrilles
+                                        l’entrée de <tech>l’Amphitheatre</tech> qu’elle devoit
+                                        ensuite occcuper.</p>
                                 <p>Cependant on vit arriver la Quadrille de
                                                 <persName>Monsieur</persName>, representant les
                                         Persans. Elle étoit composée <persName>d’un
@@ -734,8 +744,9 @@
                                         toutes en fort bel ordre, &amp; chacune fut prendre place au
                                         Poste marqué par son <name>Mareschal de Camp</name>.
                                         Sçavoir, celle de <persName>Monsieur </persName>à la droite
-                                        de <placeName key="paris_place_tuileries">l’entrée de l’Amphitheatre</placeName>, celle
-                                        de <persName>Monsieur le Prince</persName> à la gauche,
+                                        de <placeName key="paris_place_tuileries">l’entrée de
+                                                l’Amphitheatre</placeName>, celle de
+                                                <persName>Monsieur le Prince</persName> à la gauche,
                                         celle de <persName>Monsieur le Duc</persName> à la droite de
                                         l’Echafaut des Reynes, vis à vis de la précedente, celle de
                                                 <persName>Monsieur le Duc de Guise</persName> à la
@@ -744,7 +755,8 @@
                                                 <persName>Roy</persName> sortant du Carré par une
                                         contre-Marche assez difficile où elle s’étoit rangée, pour
                                         donner passage aux autres, s’alla placer vis-à-vis de
-                                        l’Echafaut des Reynes, à <placeName key="paris_place_tuileries">l’entrée de
+                                        l’Echafaut des Reynes, à <placeName
+                                                key="paris_place_tuileries">l’entrée de
                                                 l’Amphitheatre</placeName>.</p>
                                 <p>Ce fut en cét état de que ces magnifiques troupes attendirent
                                         quelques temps le signal de la <tech>Course</tech> : il
@@ -2081,12 +2093,13 @@
                                 <label type="head">COMPARSE DES CINQ QVADRILLES DANS
                                         L’AMPHITHEATRE.</label>
                                 <p>&lt;figure&gt; AVSSI-TOST que les Quadrilles eûrent paru dans
-                                                <placeName key="paris_place_tuileries">l’Amphiteatre</placeName>, ainsi qu’il a
-                                        été cy-devant, qu’elles se furent rangées chacune en leur
-                                        poste par les soins du <persName>sieur de
-                                                Vigarani</persName>, &amp; que celle du
-                                                <persName>Roy</persName> se fut placée en face du
-                                        Camp vis-à-vis de <placeName key="paris_place_tuileries">l’Echafaut des
+                                                <placeName key="paris_place_tuileries"
+                                                >l’Amphiteatre</placeName>, ainsi qu’il a été
+                                        cy-devant, qu’elles se furent rangées chacune en leur poste
+                                        par les soins du <persName>sieur de Vigarani</persName>,
+                                        &amp; que celle du <persName>Roy</persName> se fut placée en
+                                        face du Camp vis-à-vis de <placeName
+                                                key="paris_place_tuileries">l’Echafaut des
                                                 Reynes</placeName> ; le <persName>Mareschal de Camp
                                                 general</persName> fit poser les Testes, fermer les
                                         Barrieres, &amp; poster les Chefs des autres Quadrille aux
@@ -2295,8 +2308,8 @@
                                         jour, &amp; l’Assemblée se retira avec toute la satisfaction
                                         possible, &amp; en méme temps avec toute l’impatience
                                         imaginable de voir dans le méme lieu <tech>la Course de
-                                                Bague</tech>, qui s’y devoit faire <date>le
-                                                lendemain</date>.</p>
+                                                Bague</tech>, qui s’y devoit faire <date
+                                                when="1662-06-06">le lendemain</date>.</p>
                                 <p>&lt;figure&gt;</p>
                                 <pb n="67" xml:id="p67"/>
                                 <p>&lt;figure&gt;</p>
@@ -2304,18 +2317,21 @@
                                 <p>&lt;figure&gt; <persName>LE Roy</persName> qui ne goûte point de
                                         plaisir plus doux que celuy qu’il partage avec ses Peuples,
                                         &amp; qui fait sa principale joye de celle qu’il donne à ses
-                                        Sujets, voulut que les Quadrilles se rendissent à
-                                                <placeName key="paris_arsenal">l’Arsenal</placeName>, pour delà prendre
-                                        leur Marche vers le Camp, c’est-à-dire, traverser toute la
-                                        Ville dune extremité à l’autre, afin de donner ce
+                                        Sujets, voulut que les Quadrilles se rendissent à <placeName
+                                                key="paris_arsenal">l’Arsenal</placeName>, pour delà
+                                        prendre leur Marche vers le Camp, c’est-à-dire, traverser
+                                        toute la Ville dune extremité à l’autre, afin de donner ce
                                         divertissement à tous ceux que le lieu destiné pour <tech>la
                                                 Course</tech> ne pouvoit contenir ; en quoy il
                                         préfera la satisfaction des spectateurs à la regularité,
                                         &amp; à la beauté de cette Marche, parce qu’encore qu’elle
                                         eût l’avantage de passer par des places &amp; par des ruës
-                                        tres-spacieuses &amp; tres-belles, comme <placeName key="paris_place_des_vosges">la Place
-                                                Royale</placeName>, <placeName key="paris_rue_antoine">la ruë Saint
-                                                Antoine</placeName>, <placeName key="paris_rue_honore">la ruë Saint
+                                        tres-spacieuses &amp; tres-belles, comme <placeName
+                                                key="paris_place_des_vosges">la Place
+                                                Royale</placeName>, <placeName
+                                                key="paris_rue_antoine">la ruë Saint
+                                                Antoine</placeName>, <placeName
+                                                key="paris_rue_honore">la ruë Saint
                                                 Honoré</placeName>, &amp; quelques autres, il se
                                         rencontroit plusieurs ruës étroites où le spectacle perdoit
                                         beaucoup de son lustre &amp; de sa magnificence.</p>
@@ -2326,9 +2342,9 @@
                                         ceremonie, en la presence de toute la Cour, &amp; d’une
                                         infinité d’autre monde qui se pressoit non seulement sur les
                                         échafauts qui entouroient le Camp, mais jusques sur les
-                                        toîts du <placeName key="paris_tuileries_chateau">Palais des Thuilleries</placeName>,
-                                        &amp; de toutes les maisons voisines qui en étoient
-                                        couvertes de tous côtez.</p>
+                                        toîts du <placeName key="paris_tuileries_chateau">Palais des
+                                                Thuilleries</placeName>, &amp; de toutes les maisons
+                                        voisines qui en étoient couvertes de tous côtez.</p>
                                 <p><persName>Le Roy</persName> y donna encore des preuves
                                         incroyables de son adresse, ayant d’abord emporté la Bague
                                         après une Course qui le fit admirer d’un chacun, dont la
