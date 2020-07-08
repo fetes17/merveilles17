@@ -2540,13 +2540,13 @@ Est‑ce des personnages ?-->Monstres Celestes,
           bien que les bords du <tech>Rondeau</tech>, estoient si fort éclairées, que <tech>ces
             lumiéres</tech> faisoient naistre un nouveau jour dans l’obscurité de la
             nuit.</p>
-        <p><persName>Leurs Majestez</persName> estant arrivées, n’eûrent pas plûtost pris leur
+        <p><persName key="louisxiv marie_therese anne_d_autriche" role="spectateur">Leurs Majestez</persName> estant arrivées, n’eûrent pas plûtost pris leur
           place, que l’une des deux Isles qui paroissoient aux costez de la premiére, fut toute
-          couverte de <persName>Violons</persName>
+          couverte de <persName role="musicien">Violons</persName>
           <seg ana="description">fort bien vestus</seg>.</p>
         <pb n="82" xml:id="p82"/>
-        <p>L'autre, qui luy estoit opposée, le fut au mesme temps de <persName>Trompettes</persName>
-          &amp; de <persName>Tymballiers</persName>, <seg ana="description">dont les habits
+        <p>L'autre, qui luy estoit opposée, le fut au mesme temps de <persName role="musicien">Trompettes</persName>
+          &amp; de <persName role="musicien">Tymballiers</persName>, <seg ana="description">dont les habits
             n’estoient pas moins riches</seg>.</p>
         <p>Mais ce qui surprit davantage, fut de voir sortir <name>Alcine</name> de derriére le
             <tech>Rocher</tech>, portée par un
@@ -2557,7 +2557,7 @@ Personne ou machine ?-->Monstre Marin d’une
             <name>Dircé</name>, partirent au mesme temps à sa suite, &amp; se mettant à ses costez
           sur de grandes Baleines, elles s’approcherent du bord du <tech>Rondeau</tech> ; &amp;
             <name>Alcine</name> commença des Vers, ausquels ses Compagnes répondirent, &amp; qui
-          furent à la loüange de la <persName>Reine Mere</persName> du Roy.</p>
+          furent à la loüange de la <persName key="anne_d_autriche" role="destinataire">Reine Mere</persName> du Roy.</p>
         <p><name>ALCINE</name>. <name>CELIE</name>. <name>DIRCE</name>.</p>
         <label type="speaker">ALCINE.</label>
         <l>VOUS, à qui je fis part de ma felicité,</l>
@@ -2677,9 +2677,9 @@ Personne ou machine ?-->Monstre Marin d’une
         <l>Dans nostre desespoir cherchons nostre défense,</l>
         <l>Et ne nous rendons pas au moins sans résistance.</l>
         <list>
-          <item><name>ALCINE</name>, <persName>Mademoiselle du Parc</persName>.</item>
-          <item><name>CELIE</name>, <persName>Mademoiselle de Brie</persName>.</item>
-          <item><name>DIRCE</name>, <persName>Mademoiselle Moliére</persName>.</item>
+          <item><name>ALCINE</name>, <persName key="therese_duparc" role="acteur">Mademoiselle du Parc</persName>.</item>
+          <item><name>CELIE</name>, <persName key="mlle_de_brie" role="acteur">Mademoiselle de Brie</persName>.</item>
+          <item><name>DIRCE</name>, <persName key="armande_bejart" role="acteur">Mademoiselle Moliére</persName>.</item>
         </list>
         <p>LORS qu’ils furent achevez, &amp; qu’<name>Alcine </name>se fut retirée, pour aller
           redoubler les Gardes du Palais, <tech>le concert</tech> des Violons se fit entendre;
@@ -2694,28 +2694,28 @@ Personne ou machine ?-->Monstre Marin d’une
         <label type="head">PREMIERE ENTREE.</label>
         <p><name>QUATRE Géants</name> &amp; <name>quatre Nains</name>.</p>
         <p><name>GEANTS</name>.</p>
-        <p><persName>Les sieurs Manceau</persName>, <persName>Vagnard</persName>,
-            <persName>Pesan</persName>, &amp; <persName>Joubert</persName>.</p>
+        <p><persName key="manceau" role="danseur acteur">Les sieurs Manceau</persName>, <persName key="vagnard" role="danseur acteur">Vagnard</persName>,
+            <persName key="pesan" role="danseur acteur">Pesan</persName>, &amp; <persName key="joubert" role="danseur acteur">Joubert</persName>.</p>
         <p><name>NAINS</name>.</p>
-        <p><persName>Les deux petits Des-Airs</persName>, <persName>le petit Vagnard</persName>,
-          &amp; <persName>le petit Tutin</persName>.</p>
+        <p><persName key="des_airs_fils1 des_airs_fils2" role="danseur acteur">Les deux petits Des-Airs</persName>, <persName key="vangnard_fils" role="danseur acteur">le petit Vagnard</persName>,
+          &amp; <persName key="tutin_fils" role="danseur acteur">le petit Tutin</persName>.</p>
         <label type="head">DEUXIEME ENTREE.</label>
         <p><name>HUIT Mores</name> chargez par <name>Alcine</name> de la garde du dedans, en font
           une exacte visite, avec chacun <tech>deux flambeaux</tech>.</p>
         <p><name>MORES</name>.</p>
-        <p><persName>Messieurs d’Heureux</persName>, <persName>Beauchamp</persName>,
-            <persName>Molier</persName>, <persName>La Marre</persName> : <persName>Les sieurs le
-            Chantre</persName>, <persName>de Gan</persName>, <persName>Du Pron</persName>, &amp;
-            <persName>Mercier</persName>.</p>
+        <p><persName key="d_heureux" role="danseur acteur">Messieurs d’Heureux</persName>, <persName key="beauchamp" role="danseur acteur">Beauchamp</persName>,
+            <persName key="molier" role="danseur acteur">Molier</persName>, <persName key="la_marre" role="danseur acteur">La Marre</persName> : <persName key="le_chantre" role="danseur acteur">Les sieurs le
+            Chantre</persName>, <persName key="de_gan" role="danseur acteur">de Gan</persName>, <persName key="du_pron" role="danseur acteur">Du Pron</persName>, &amp;
+            <persName key="mercier" role="danseur acteur">Mercier</persName>.</p>
         <label type="head">TROISIEME ENTREE.</label>
         <p>CEPENDANT un dépit amoureux oblige <name>six des Chevaliers</name> qu’<name>Alcine</name>
           retenoit auprés d’elle, à tenter la sortie de ce Palais. Mais la fortune ne secondant pas
           les efforts qu’ils font dans leur desespoir, ils sont vaincus, aprés un grand combat, par
           autant de <name>Monstres</name> qui les attaquent.</p>
         <p><name>Six Chevaliers</name>, et <name>six Monstres</name>.</p>
-        <p><persName>Messieurs de Souville</persName>, <persName>Raynal</persName>,
-            <persName>Des-Airs l’aisné</persName>, <persName>Des-Airs le second</persName>,
-            <persName>de Lorge</persName>, &amp; <persName>Balthasard</persName>.</p>
+        <p><persName key="de_souville" role="danseur acteur">Messieurs de Souville</persName>, <persName key="raynal" role="danseur acteur">Raynal</persName>,
+            <persName key="des_airs_l_aine" role="danseur acteur">Des-Airs l’aisné</persName>, <persName key="des_airs_le_second" role="danseur acteur">Des-Airs le second</persName>,
+            <persName key="de_lorge" role="danseur acteur">de Lorge</persName>, &amp; <persName key="balthazard_martinot" role="danseur acteur">Balthasard</persName>.</p>
         <p><name>MONSTRES</name>.</p>
         <p><persName>Les sieurs Chicanneau</persName>, <persName>Noblet</persName>,
             <persName>Arnald</persName>, <persName>Desbrosses</persName>,
@@ -2726,13 +2726,13 @@ Personne ou machine ?-->Monstre Marin d’une
             Esprits</name>, &amp; leur demande secours. Il s’en presente deux à elle, qui font des
           sauts avec une force &amp; une agilité merveilleuses.</p>
         <p><name>DEMONS AGILES</name>.</p>
-        <p><persName>Les sieurs Saint-André</persName>, &amp; <persName>Magny</persName>.</p>
+        <p><persName key="saint_andre" role="danseur acteur">Les sieurs Saint-André</persName>, &amp; <persName key="magny" role="danseur acteur">Magny</persName>.</p>
         <label type="head">CINQUIEME ENTREE.</label>
         <p><name>D'AUTRES Démons</name> viennent encore, &amp; semblent asseûrer la
             <name>Magicienne</name>, qu’ils n’oublieront rien pour son repos.</p>
         <p><name>AUTRES DEMONS SAUTEURS</name>.</p>
-        <p><persName>Les sieurs Tutin</persName>, <persName>La Brodiére</persName>,
-            <persName>Pesan</persName>, &amp; <persName>Bureau</persName>.</p>
+        <p><persName key="tutin" role="danseur acteur">Les sieurs Tutin</persName>, <persName key="la_brodiere" role="danseur acteur">La Brodiére</persName>,
+            <persName key="pesan" role="danseur acteur">Pesan</persName>, &amp; <persName key="bureau" role="danseur acteur">Bureau</persName>.</p>
         <label type="head">SIXIEME ET DERNIERE ENTREE. </label>
         <p>MAIS à peine commence-t-elle à se rasseûrer, qu’elle voit paroistre auprés de
             <name>Roger</name>, &amp; de quelques <name>Chevaliers</name> de sa suite, la sage
@@ -2743,16 +2743,16 @@ Personne ou machine ?-->Monstre Marin d’une
           du Palais, qui est aussi-tost réduit en cendres par un <tech>Feu d’artifice</tech>, qui
           met fin à cette avanture, &amp; aux divertissemens de l’Isle Enchantée.</p>
         <list>
-          <item><name>ALCINE</name>, <persName>Mademoiselle du Parc</persName>.</item>
-          <item><name>MELISSE</name>, <persName>M. de Lorge</persName>.</item>
-          <item><name>ROGER</name>, <persName>M. Beauchamp</persName>.</item>
+          <item><name>ALCINE</name>, <persName key="therese_duparc" role="danseur acteur">Mademoiselle du Parc</persName>.</item>
+          <item><name>MELISSE</name>, <persName key="mlle_de_lorge" role="danseur acteur">M. de Lorge</persName>.</item>
+          <item><name>ROGER</name>, <persName key="beauchamp" role="danseur acteur">M. Beauchamp</persName>.</item>
         </list>
         <p><name>CHEVALIERS</name>.</p>
-        <p><persName>Messieurs d’Heureux</persName>, <persName>Raynal</persName>, <persName>du
-            Pron</persName>, &amp; <persName>Desbrosses</persName>.</p>
+        <p><persName key="d_heureux" role="danseur acteur">Messieurs d’Heureux</persName>, <persName key="raynal" role="danseur acteur">Raynal</persName>, <persName key="du_pron" role="danseur acteur">du
+            Pron</persName>, &amp; <persName key="desbrosses" role="danseur acteur">Desbrosses</persName>.</p>
         <p><name>ECUYERS</name>.</p>
-        <p><persName>Messieurs la Marre</persName>, <persName>le Chantre</persName>, <persName>De
-            Gan</persName>, &amp; <persName>Mercier</persName>.</p>
+        <p><persName key="la_marre" role="danseur acteur">Messieurs la Marre</persName>, <persName key="le_chantre" role="danseur acteur">le Chantre</persName>, <persName key="de_gan" role="danseur acteur">De
+            Gan</persName>, &amp; <persName key="mercier" role="danseur acteur">Mercier</persName>.</p>
         <label type="head">Fin du <tech>Ballet</tech>.</label>
         <pb n="88" xml:id="p88"/>
         <p>IL sembloit que le Ciel, la Terre &amp; l’Eau fussent tous en feu, &amp; que la
@@ -2772,10 +2772,10 @@ Personne ou machine ?-->Monstre Marin d’une
           qu’on avoit veûës jusques alors, &amp; les surpasser peut-estre.</p>
         <p>Mais quoi-que les Festes comprises dans le sujet des Plaisirs de l’Isle Enchantée fussent
           terminées, tous les divertissemens de <placeName key="versailles">Versailles</placeName> ne l’estoient pas;
-          &amp; la magnificence &amp; la galanterie du <persName>Roy</persName>, en avoit encore
+          &amp; la magnificence &amp; la galanterie du <persName key="louisxiv">Roy</persName>, en avoit encore
           reservé pour les autres jours, qui n’estoient pas moins agréables.</p>
         <p>Le <date when="1664-05-10">Samedy dixiéme</date>
-          <persName>Sa Majesté</persName> voulut courre <tech>les Testes</tech>. C'est un exercice
+          <persName key="louisxiv" role="organisation">Sa Majesté</persName> voulut courre <tech>les Testes</tech>. C'est un exercice
           que peu de gens ignorent, &amp; dont l’usage est venu d’Allemagne, fort bien inventé, pour
           faire voir l’adresse d’un Cavalier, tant à bien mener son cheval dans les passades de
           guerre, qu’à bien se servir d’une lance, d’un dard, &amp; d’une épée. Si quelqu’un ne les
@@ -2796,42 +2796,42 @@ Personne ou machine ?-->Monstre Marin d’une
           plus, gagne le prix.</p>
         <p>Toute la Cour s’estant placée sur une balustrade de fer doré, qui regnoit autour de
           l’agréable Maison de Versailles, &amp; qui regarde sur le fossé, dans lequel on avoit
-          dressé la Lice, avec des barriéres ; <persName>le Roy</persName> s’y rendit, suivi des
-          mesmes <name>Chevaliers</name> qui avoient couru la bague, <persName>les Ducs de Saint
-            Aignan</persName> &amp;<persName> de Noailles</persName> y continüant leurs premiéres
+          dressé la Lice, avec des barriéres ; <persName key="louisxiv" role="participant">le Roy</persName> s’y rendit, suivi des
+          mesmes <name>Chevaliers</name> qui avoient couru la bague, <persName key="saint_aignan" role="participant">les Ducs de Saint
+            Aignan</persName> &amp;<persName key="anne_de_noailles" role="participant"> de Noailles</persName> y continüant leurs premiéres
           fonctions, l’un de Maréchal de Camp, &amp; l’autre de Juge des Courses. II s’en fit
-          plusieurs fort belles &amp; heureuses; mais l’addresse du <persName>Roy</persName> luy fit
+          plusieurs fort belles &amp; heureuses; mais l’addresse du <persName key="louisxiv" role="participant">Roy</persName> luy fit
           emporter hautement, en suite du prix de la Course des Dames, encore celuy que donnoit
-            <persName>la Reine</persName>. C’estoit une rose de Diamans de grand prix, que
-            <persName>le Roy</persName>, aprés l’avoir gagnée, redonna liberalement à courre aux
-          autres Chevaliers, &amp; que <persName>le Marquis de Coastin</persName> disputa contre le
-            <persName>Marquis de Soyecourt</persName>, &amp; la gagna.</p>
+            <persName key="marie_therese">la Reine</persName>. C’estoit une rose de Diamans de grand prix, que
+            <persName key="louisxiv" role="participant">le Roy</persName>, aprés l’avoir gagnée, redonna liberalement à courre aux
+          autres Chevaliers, &amp; que <persName key="armand_du_cambout" role="participant">le Marquis de Coastin</persName> disputa contre le
+            <persName key="cmde_belleforiere" role="participant">Marquis de Soyecourt</persName>, &amp; la gagna.</p>
         <p><date when="1664-05-11">Le Dimanche</date>, au lever du Roy, quasi toute la
           conversation tourna sur les belles Courses du jour précédent, &amp; donna lieu à un grand
-          défi entre le <persName>Duc de Saint Aignan</persName>, qui n’avoit point encore couru,
-          &amp; le <persName>Marquis de Soyecourt</persName>, qui fut remise au lendemain, pource
-          que le <persName>Maréchal Duc de Grammont</persName>, qui parioit pour ce Marquis, estoit
+          défi entre le <persName key="saint_aignan" role="participant">Duc de Saint Aignan</persName>, qui n’avoit point encore couru,
+          &amp; le <persName key="cm_de_belleforiere" role="participant">Marquis de Soyecourt</persName>, qui fut remise au lendemain, pource
+          que le <persName key="antoine_iii_de_gramont" role="participant">Maréchal Duc de Grammont</persName>, qui parioit pour ce Marquis, estoit
           obligé de partir pour <placeName key="paris">Paris</placeName>, d’où il ne devoit revenir que le jour
           d’aprés.</p>
-        <p><persName>Le Roy</persName> mena toute la Cour cette apresdinée à <tech>sa
+        <p><persName key="louisxiv">Le Roy</persName> mena toute la Cour cette apresdinée à <tech>sa
             Mênagerie</tech>, dont on admira les beautez particuliéres, &amp; le nombre presque
           incroyable d’oiseaux de toutes sortes, parmi lesquels il y en a beaucoup de fort rares. II
           seroit inutile de parler de la<tech> collation</tech> qui suivit ce divertissement, puis
           que huit jours durant chaque repas pouvoit passer pour <tech>un Festin</tech> des plus
           grands qu’on puisse faire.</p>
-        <p>Et le soir, <persName>Sa Majesté</persName> fit representer sur l’un de ces
+        <p>Et le soir, <persName key="louisxiv" role="organisation">Sa Majesté</persName> fit representer sur l’un de ces
           Theatres doubles de son<placeName key="versailles_chateau"> Sallon</placeName>, que son esprit universel a
-          luy-mesme inventez, la <tech>Comédie des Fascheux</tech> faite par le <persName>sieur de
+          luy-mesme inventez, la <tech>Comédie des Fascheux</tech> faite par le <persName key="moliere" role="auteur">sieur de
             Molliére</persName>, meslée d’Entrées de <tech>Ballet</tech>, &amp; fort ingenieuse.</p>
         <p>Le bruit du défi qui se devoit courir le <date when="1664-05-12">Lundy douziéme</date>,
           fit faire une infinité de gageures d’assez grande valeur,</p>
         <pb n="90" xml:id="p90"/>
-        <p>quoi-que celle des deux Chevaliers ne fût que de cent pistolles. Et comme <persName>le
-            Duc</persName>, par une heureuse audace, donnoit une Teste à <persName>ce
+        <p>quoi-que celle des deux Chevaliers ne fût que de cent pistolles. Et comme <persName key="saint_aignan" role="participant">le
+            Duc</persName>, par une heureuse audace, donnoit une Teste à <persName key="cm_de_belleforiere" role="participant">ce
             Marquis</persName> fort adroit, beaucoup tenoient pour ce dernier, qui s’estant rendu un
-          peu plus tard chez <persName>le Roy</persName>, y trouva un cartel pour le presser,
+          peu plus tard chez <persName key="louisxiv">le Roy</persName>, y trouva un cartel pour le presser,
           lequel, pour n’estre qu’en prose, on n’a point mis en ce discours.</p>
-        <p><persName>Le Duc de Saint Aignan</persName> avoit aussi fait voir à quelques-uns de ses
+        <p><persName key="saint_aignan" role="auteur">Le Duc de Saint Aignan</persName> avoit aussi fait voir à quelques-uns de ses
           amis, comme un heureux présage de sa victoire, ces quatre Vers.</p>
         <label type="head">AUX DAMES.</label>
         <l>Belles, vous direz en ce jour,</l>
@@ -2840,63 +2840,63 @@ Personne ou machine ?-->Monstre Marin d’une
         <l>C'est estre vainqueur de dix autres.</l>
         <p>Faisant toûjours allusion à son nom de <name>Guidon le Sauvage</name>, que l’avanture de
           l’Isle perilleuse rendit victorieux de <name>dix Chevaliers</name>.</p>
-        <p>Aussitost que <persName>le Roy</persName> eût disné, il conduisit <persName>les
-            Reines</persName>, <persName>Monsieur</persName>, <persName>Madame</persName>, &amp;
+        <p>Aussitost que <persName key="louisxiv" >le Roy</persName> eût disné, il conduisit <persName key="marie_therese anne_d_autriche">les
+            Reines</persName>, <persName key="monsieur">Monsieur</persName>, <persName key="madame">Madame</persName>, &amp;
           toutes <persName>les Dames</persName>, dans un lieu où on devoit tirer <tech>une
             Loterie</tech>, afin que rien ne manquast à la galanterie de ces Festes. C'estoit des
           pierreries, des ameublemens, de l’argenterie, &amp; autres choses semblables : &amp;
           quoique le sort ait accoustumé de décider de ces presens, il s’accorda sans doute avec le
-          désir de S. M. quand il fit tomber le gros lot entre les mains de <persName>la
+          désir de <persName key="louisxiv">S. M.</persName> quand il fit tomber le gros lot entre les mains de <persName key="marie_therese">la
             Reine</persName>; chacun sortant de ce lieu-là fort content, pour aller voir <tech>les
             Courses</tech> qui s’alloient commencer.</p>
         <p>Enfin <name>Guidon </name>&amp; <name>Oliuier</name> parurent sur les rangs, à cinq
             heures du soir, <seg ana="description">fort proprement vestus, &amp; bien
             montez</seg>.</p>
-        <p><persName>Le Roy</persName> avec toute la Cour les honora de sa presence; &amp;
-            <persName>Sa Majesté</persName> leût mesme les Articles des Courses, afin qu’il n’y eût
-          aucune contestation entr’eux. Le succés en fut heureux au <persName>Duc de Saint
+        <p><persName key="louisxiv">Le Roy</persName> avec toute la Cour les honora de sa presence; &amp;
+            <persName key="louisxiv">Sa Majesté</persName> leût mesme les Articles des Courses, afin qu’il n’y eût
+          aucune contestation entr’eux. Le succés en fut heureux au <persName key="saint_aignan" role="participant">Duc de Saint
             Aignan</persName>, qui gagna le défi.</p>
-        <p>Le soir <persName>Sa Majesté</persName> fit joüer une <tech>Comedie</tech>,
-          nommée <tech>Tartuffe</tech>, que le <persName>sieur de Molliére</persName> avoit faite,
+        <p>Le soir <persName key="louisxiv" role="organisation">Sa Majesté</persName> fit joüer une <tech>Comedie</tech>,
+          nommée <tech>Tartuffe</tech>, que le <persName key="moliere" role="auteur">sieur de Molliére</persName> avoit faite,
           contre les Hypocrites : mais quoi-qu’elle eût esté trouvée fort divertissante,
-            <persName>le Roy</persName> connut tant de conformité entre ceux qu’une veritable
+            <persName key="louisxiv">le Roy</persName> connut tant de conformité entre ceux qu’une veritable
           dévotion met dans le chemin du Ciel, &amp; ceux qu’une vaine ostentation des bonnes
           oeuvres n’empesche pas d’en commettre de mauvaises, que son extréme délicatesse pour les
           choses de la Religion, ne pût souffrir cette ressemblance du vice avec</p>
         <pb n="91" xml:id="p91"/>
         <p>la vertu, qui pouvoient estre pris l’une pour l’autre. Et quoi-qu’on ne doutast point des
-          bonnes intentions de <persName>l’Auteur</persName>, <persName>Sa Majesté</persName> la
+          bonnes intentions de <persName key="moliere" role="auteur">l’Auteur</persName>, <persName key="louisxiv">Sa Majesté</persName> la
           défendit pourtant en public, &amp; se priva soi-mesme de ce plaisir, pour n’en pas laisser
           abuser à d’autres moins capables d’en faire une juste discernement.</p>
-        <p><date when="1664-05-13">Le Mardy treiziéme</date>, <persName>le Roy</persName> voulut
+        <p><date when="1664-05-13">Le Mardy treiziéme</date>, <persName key="louisxiv" role="organisation">le Roy</persName> voulut
           encore courre <tech>les Testes</tech>, comme à un jeu ordinaire, que devoit gagner celuy
-          qui feroit le plus. <persName>Sa Majesté</persName> eût encore le prix de la Course des
-          Dames, le <persName>Duc de Saint Aignan </persName>celuy du jeu ; &amp; ayant eû l’honneur
-          d’entrer pour le second à la dispute avec <persName>Sa Majesté</persName>, l’adresse
-          incomparable du <persName>Roy </persName>luy fit encore avoir ce prix ; &amp; ce ne fut
+          qui feroit le plus. <persName key="louisxiv">Sa Majesté</persName> eût encore le prix de la Course des
+          Dames, le <persName key="saint_aignan">Duc de Saint Aignan </persName>celuy du jeu ; &amp; ayant eû l’honneur
+          d’entrer pour le second à la dispute avec <persName key="louisxiv">Sa Majesté</persName>, l’adresse
+          incomparable du <persName key="louisxiv">Roy </persName>luy fit encore avoir ce prix ; &amp; ce ne fut
           pas sans un étonnement, duquel on ne pouvoit se défendre, qu’on en vit gagner quatre à
-            <persName>Sa Majesté</persName> en deux fois qu’elle avoit couru<tech> les
+            <persName key="louisxiv">Sa Majesté</persName> en deux fois qu’elle avoit couru<tech> les
             Testes.</tech></p>
         <p>On joüa le mesme soir la <tech>Comedie du Mariage Forcé</tech>, encore dela façon du
-          mesme s<persName>ieur de Molliére</persName>, meslée d’Entrées de <tech>Balet</tech>,
-          &amp; de Recits. Puis <persName>le Roy</persName> prit le chemin de
+          mesme <persName key="moliere" role="auteur">sieur de Molliére</persName>, meslée d’Entrées de <tech>Balet</tech>,
+          &amp; de Recits. Puis <persName key="louisxiv">le Roy</persName> prit le chemin de
             <placeName key="fontainebleau">Fontainebleau</placeName>
           <date when="1664-05-14">le Mercredy quatorziéme</date>, toute la Cour se trouvant si
           satisfaite de ce qu’elle avoit veû, que chacun crût qu’on ne pouvoit se passer de le
           mettre par écrit, pour en donner la connoissance à ceux qui n’avoient pû voir des Festes
           si diversifiées &amp; si agréables ; où l’on a pû admirer tout à la fois le projet avec le
           succés, la liberalité avec la politesse, le grand nombre avec l’ordre, &amp; la
-          satisfaction de tous ; où les soins infatigables de <persName>Monsieur Colbert</persName>
+          satisfaction de tous ; où les soins infatigables de <persName key="colbert" role="organisation">Monsieur Colbert</persName>
           s’employérent en tous ces divertissemens, malgré ses importantes affaires ; où le
-            <persName>Duc de Saint Aignant</persName> joignit l’action à l’invention du dessein ; où
-          les beaux Vers du <persName>Président de Perigny</persName> à la loüange des
-            <persName>Reines</persName>, furent si justement pensez, si agréablement tournez, &amp;
-          recitez avec tant d’Art ; où ceux que <persName>Monsieur de Bensserade</persName> fit pour
+            <persName key="saint_aignan" role="organisation">Duc de Saint Aignant</persName> joignit l’action à l’invention du dessein ; où
+          les beaux Vers du <persName key="perigny" role="auteur">Président de Perigny</persName> à la loüange des
+            <persName key="marie_therese anne_d_autriche" role="destinataire">Reines</persName>, furent si justement pensez, si agréablement tournez, &amp;
+          recitez avec tant d’Art ; où ceux que <persName key="benserades" role="auteur">Monsieur de Bensserade</persName> fit pour
           les <name>Chevaliers</name>, eûrent une approbation génerable ; où la vigilance exacte de
-            <persName>Monsieur Bontemps</persName>, &amp; l’application de <persName>Monsieur de
+            <persName key="bontemps" role="organisation">Monsieur Bontemps</persName>, &amp; l’application de <persName key="de_launay" role="organisation">Monsieur de
             Launay</persName>, ne laisserent manquer d’aucune des choses necessaires ; enfin où
-          chacun a marqué si avantageusement son dessein de plaire au <persName>Roy</persName>, dans
-          le temps où <persName>Sa Majesté</persName> ne pensoit Elle-mesme qu’à plaire ; &amp; où
+          chacun a marqué si avantageusement son dessein de plaire au <persName key="louisxiv">Roy</persName>, dans
+          le temps où <persName key="louisxiv">Sa Majesté</persName> ne pensoit Elle-mesme qu’à plaire ; &amp; où
           ce qu’on a veû ne sçauroit jamais se perdre dans la mémoire des Spectateurs, quand on
           n’auroit pas pris le soin de conserver cét écrit le souvenir de toutes ces merveilles.</p>
         <p>FIN.</p>
