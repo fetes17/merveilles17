@@ -128,7 +128,7 @@
           et <persName key="anne_de_noailles">de Noailles</persName>, le Premier, Mareschal de Camp, et l’autre, Iuge des
           Courses. Celuy du <persName key="saint_aignan">Duc de</persName></p>
         <pb n="6" xml:id="p6"/>
-        <p><persName>St. Aignant</persName> portoit l’Escu de sa Deuise, et <seg ana="description"
+        <p><persName key="saint_aignan">St. Aignant</persName> portoit l’Escu de sa Deuise, et <seg ana="description"
             >estoit habillé de sa liurée de toile d’argent enrichie d’or, auec des plumes
             Incarnates, et noires, et les rubans de mesme</seg>. Sa Devise estoit vn Timbre
           d’Orloge, auec ces Mots.</p>
@@ -527,7 +527,7 @@
         <p>Vingt autres personnes les suiuoient portants des viandes de la menagerie de
             <name>Pan</name>, et de la chasse de <name>Diane</name>.</p>
         <p><name>Dix-huict Pages</name> du <persName key="louisxiv">Roy</persName>, <seg ana="description">fort
-            richement Vêtus</seg>, qui deuoient seruir <persName>les Dames</persName> à Table,
+            richement Vêtus</seg>, qui deuoient seruir <persName role="convive">les Dames</persName> à Table,
           faisoient</p>
         <p>les derniers de cette Troupe, la quelle estant rangée, <name>Pan</name>,
             <name>Diane</name>, et <name>les Saisons</name>, se presentans deuant <persName key="marie_therese">la
@@ -592,8 +592,8 @@
           deuoit couurir, et garnir de fleurs le coté, où elle estoit creuse, Vint à se
           découurir.</p>
         <p><persName role="musicien">Trente-six violons</persName><seg ana="description">tres bien Vêtus</seg>
-          parurent derriere sur vn petit <tech>Theatre</tech>, pendant que <persName>Messieurs de la
-            Marche</persName>, et <persName>Parfait Pere</persName>, <persName>Frere</persName>, et <persName>Fils</persName>, Controleurs Generaux, sous les noms
+          parurent derriere sur vn petit <tech>Theatre</tech>, pendant que <persName role="participant">Messieurs de la
+            Marche</persName>, et <persName role="participant">Parfait Pere</persName>, <persName role="participant">Frere</persName>, et <persName role="participant">Fils</persName>, Controleurs Generaux, sous les noms
           de <name>l’Abondance</name>, de <name>la Ioye</name>, de <name>la Propreté</name>, et de
             <name>la Bonne chere</name>, la firent ouurir par les plaisirs, par les Ieux, par les
           Ris, et par les delices.</p>
@@ -2821,14 +2821,14 @@
           heureuses; Mais l’adresse du <persName key="louisxiv">Roy</persName> luy fit emporter hautement, ensuitte
           du prix de la Course des Dames, encore celuy que donnoit <persName key="marie_therese">la Reine</persName>.
           C’estoit vne rose de Diamans de grand prix, que <persName key="louisxiv">le Roy</persName>, apres l’auoir
-          gagnée, redonna liberalement à courre aux autres Cheualiers, et que <persName>le Marquis
-            de Coaslin</persName> disputa contre <persName>le Marquis de Soyecourt</persName>, et la
+          gagnée, redonna liberalement à courre aux autres Cheualiers, et que <persName key="armand_du_cambout" role="participant">le Marquis
+            de Coaslin</persName> disputa contre <persName key="cm_de_belleforiere">le Marquis de Soyecourt</persName>, et la
           gagna.</p>
         <p><date when="1664-05-11">Le Dimanche</date> au leuer du Roy, quasi toute la
           conuersation tourna sur les belles courses du jour precedent, et donna lieu d’vn grand
           défi entre <persName key="saint_aignan">le Duc de St. Aignant</persName>, qui n’auoit point encore couru, et
-            <persName>le Marquis de Soyecourt</persName> qui fut remise au lendemain, par ce que
-            <persName>le Mareschal Duc de Grammont</persName> qui parioit pour ce Marquis estoit
+            <persName key="cm_de_belleforiere">le Marquis de Soyecourt</persName> qui fut remise au lendemain, par ce que
+            <persName key="antoine_iii_de_gramont">le Mareschal Duc de Grammont</persName> qui parioit pour ce Marquis estoit
           obligé de partir pour <placeName key="paris">Paris</placeName>, d’où il ne deuoit reuenir
           que le jour d’apres.</p>
         <p><persName key="louisxiv">Le Roy</persName> mena toute la Cour cette apres dinée à
@@ -2846,8 +2846,8 @@
           fort ingenieuse.</p>
         <p>Le bruit du défy qui se deuoit courir <date when="1664-05-12">le Lundy douziéme</date>,
           fit faire vne infinité de gageures d’assez grande valeur, quoyque celle des <name>deux
-            Cheualiers</name> ne fut que de cent pistoles, et comme <persName>le Duc</persName> par
-          vne heureuse audace donnoit vne teste à <persName>ce Marquis</persName> fort adroit
+            Cheualiers</name> ne fut que de cent pistoles, et comme <persName key="saint_aignan" role="participant">le Duc</persName> par
+          vne heureuse audace donnoit vne teste à <persName key="cm_de_belleforiere" role="participant">ce Marquis</persName> fort adroit
           beaucoup tenoient pour ce dernier, qui s’estant rendu vn peu plus tard chez <persName key="louisxiv">le
             Roy</persName> y trouua vn Cartel pour le presser, le quel, pour n’estre qu’en prose, on
           n’a point mis en ce discours.</p>
@@ -2858,18 +2858,18 @@
         </p>
         <l>Belles vous direz en ce Iour</l>
         <l>Si vos sentimens sont les notres,</l>
-        <l>Qu'estre vainqueur du grand <persName>Soyecourt</persName></l>
+        <l>Qu'estre vainqueur du grand <persName key="cm_de_belleforiere">Soyecourt</persName></l>
         <l>C'est estre vainqueur de dix autres.</l>
         <p>Faisant toujours allusion à son nom de <name>Guidon le sauuage</name>, que l’avanture de
-          l’Isle perilleuse rendit victorieux de <name>dix cheualiers</name>. Aussitost que <name>le
-            Roy</name> eut disné, il conduisit <persName>les Reines</persName>,
-            <persName>Monsieur</persName>, <persName>Madame</persName>, et toutes <persName>les
+          l’Isle perilleuse rendit victorieux de <name>dix cheualiers</name>. Aussitost que <persName key="louisxiv">le
+            Roy</persName> eut disné, il conduisit <persName key="marie_therese anne_d_autriche">les Reines</persName>,
+            <persName key="monsieur">Monsieur</persName>, <persName key="madame">Madame</persName>, et toutes <persName>les
             Dames</persName>, dans vn lieu où on deuoit tirer <tech>vne Lotterie</tech>, afin que
           rien ne manquast à la galanterie de ces festes. C'estoit des pierreries, des ameublemens,
           de l’argenterie, et autres choses semblables, et quoyque le sort ait accoutume de</p>
         <pb n="201" xml:id="p201"/>
         <p>décider de ces presens, Il s’accorda sans doute auec le desir de <persName key="louisxiv">Sa
-            Majesté</persName>, quand il fit tomber le gros lot entre les mains de <persName>la
+            Majesté</persName>, quand il fit tomber le gros lot entre les mains de <persName key="marie_therese">la
             Reine</persName>; chacun sortant de ce lieu là fort content, pour aller voir <tech>les
             Courses</tech> qui s’alloient commencer.</p>
         <p>Enfin <name>Guidon</name>, et <name>Oliuier</name> parurent sur les rangs à cinq
@@ -2901,7 +2901,7 @@
           défendre, qu’on en vit gagner quatre à <persName key="louisxiv">sa Majesté</persName>, quatre en deux
           fois qu’elle auoit couru <tech>les Testes</tech>.</p>
         <p>On Ioüa le mesme soir <tech>la Comedie du Mariage forcé</tech> ; encore de la façon du
-          mesme <persName key="moliere">Sieur de Moliere</persName>, meslée d’entrées de <tech>Ballet</tech>, et
+          mesme <persName key="moliere" role="auteur">Sieur de Moliere</persName>, meslée d’entrées de <tech>Ballet</tech>, et
           de Recits, puis <persName key="louisxiv">le Roy</persName> prit le chemin de <placeName
             key="fontainebleau">Fontainebleau </placeName><date when="1664-05-14">le
             Mercredy quatorziéme</date>.</p>
@@ -2909,14 +2909,14 @@
           pouuoit se passer de le mettre par écrit, pour en donner la connoissance à ceux qui
           n’auoient pu voir des Festes si diuersifiées, et si agréables, où l’on a pu admirer tout à
           la fois ; le projet auec le succez, la liberalité auec la politesse, le grand nombre auec
-          l’ordre, et la satisfaction de tous : Ou les soins infatigables de <persName>Mr.
+          l’ordre, et la satisfaction de tous : Ou les soins infatigables de <persName key="colbert" role="organisation">Mr.
             Colbert</persName> s’employerent en tous ces diuertissemens malgré ses importantes
           affaires. Où <persName key="saint_aignan">le Duc de St. Aignant</persName> joignit l’action à l’Invention, du
-          dessein ; où les beaux Vers du <persName key="perigny">President de Perigny</persName> à la louange
-            <persName>des Reines</persName> furent si justement pensez si justement tournez, et
-          recitez auec tant d’art, où ceux que <persName>Mr de Bensserade</persName> fit pour les
-          Cheualiers eurent vne approbation generable ; ou la vigilance exacte de <persName>Mr.
-            Bontemps</persName>, et l’application de <persName>Mr de Launay</persName>, ne
+          dessein ; où les beaux Vers du <persName key="perigny" role="auteur">President de Perigny</persName> à la louange
+            <persName key="marie_therese anne_d_autriche" role="destinataire">des Reines</persName> furent si justement pensez si justement tournez, et
+          recitez auec tant d’art, où ceux que <persName key="benserades" role="auteur">Mr de Bensserade</persName> fit pour les
+          Cheualiers eurent vne approbation generable ; ou la vigilance exacte de <persName key="bontemps" role="organisation">Mr.
+            Bontemps</persName>, et l’application de <persName key="de_launay" role="organisation">Mr de Launay</persName>, ne
           laisserent manquer d’aucunes des choses necessaires, Enfin où chacun a marqué si
           auantageusement son dessein de plaire au <persName key="louisxiv">Roy</persName>, dans le temps où
             <persName key="louisxiv">sa Majesté</persName> ne pensoit elle mesme qu’à plaire, et où ce qu’on a veu
