@@ -1,71 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Les Saisons avec leur suite</title>
-                <author>Chauveau, François</author>
-            </titleStmt>
-            <editionStmt>
-                <edition>Merveilles17</edition>
-                <respStmt>
-                    <name>Mathilde Nicolas</name>
-                    <resp>Encodage</resp>
-                </respStmt>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Université d’Artois - Lille, MESHS</publisher>
-                <date when="2019"/>
-                <availability status="restricted">
-                    <licence/>
-                </availability>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <country>France</country>
-                        <settlement>Paris</settlement>
-                        <institution>Bibliothèque nationale de France</institution>
-                        <repository>Bibliothèque de l'Opéra</repository>
-                        <idno>Esquisses anciennes, II, 35</idno>
-                    </msIdentifier>
-                    <msContents>
-                        <msItem>
-                            <author>Chauveau François</author>
-                        </msItem>
-                    </msContents>
-                    <physDesc>
-                        <objectDesc form="dessin">
-                            <p>Dessin à la plume, à l'encre brune et au lavis brun</p>
-                            <supportDesc>
-                                <dimensions unit="cm">
-                                    <height>31,8</height>
-                                    <width>22</width>
-                                </dimensions>
-                            </supportDesc>
-                        </objectDesc>
-                    </physDesc>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <creation>
-                <date notBefore="1664">1664 ou postérieur</date>
-            </creation>
-            <note>Un dessin préparatoire ou une copie du dessin est conservé à <ref type="dessin"
-                    target="URI">BnF, Département des Manuscrits, Ms. 7834</ref>.</note>
-        </profileDesc>
-    </teiHeader>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Les Saisons avec leur suite</title>
+        <author>Chauveau, François</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Merveilles17</edition>
+        <respStmt>
+          <name>Mathilde Nicolas</name>
+          <resp>Encodage</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université d’Artois - Lille, MESHS</publisher>
+        <date when="2019"/>
+        <availability status="restricted">
+          <licence/>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>Un dessin préparatoire ou une copie du dessin est conservé à <ref type="dessin" target="URI">BnF, Département des Manuscrits, Ms. 7834</ref>.</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl><!-- ligne bibliographique affichable --></bibl>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque nationale de France</institution>
+            <repository>Bibliothèque de l'Opéra</repository>
+            <idno>Esquisses anciennes, II, 35</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <author>Chauveau François</author>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <p>Dessin à la plume, à l'encre brune et au lavis brun</p>
+            <objectDesc form="dessin">
+              <supportDesc>
+                <extent>
+                  <dimensions unit="cm">
+                    <height>31,8</height>
+                    <width>22</width>
+                  </dimensions>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date notBefore="1664">1664 ou postérieur</date>
+      </creation>
+    </profileDesc>
+  </teiHeader>
+  <sourceDoc>
     <figure>
-        <graphic url="
-            "/>
-        <figDesc>Entre deux arbres, un spectacle se déroule. Au premier plan, on peut voir les
-            concertans. Au centre, quatre cavaliers qui montent respectivement un cheval, un
-            éléphant, un chameau et un ours. Ils sont suivis de leurs porteurs de présents. En
-            arrière-plan, une longue allée bordée d'arbres, débouchant sur une montagne.<tech
-                type="costume"/><tech type="cheval"/><tech type="elephant"/><tech type="chameau"
-                /><tech type="ours"/><name key="quatre_saisons"/><name key="printemps"/><name
-                key="ete"/><name key="automne"/><name key="hiver"/><persName role="musicien"
-            /></figDesc>
+      <graphic url="
+              "/>
+      <figDesc>Entre deux arbres, un spectacle se déroule. Au premier plan, on peut voir les concertans. Au centre, quatre cavaliers qui montent respectivement un cheval, un éléphant, un chameau et un ours. Ils sont suivis de leurs porteurs de présents. En arrière-plan, une longue allée bordée d'arbres, débouchant sur une montagne.<tech type="costume"/><tech type="cheval"/><tech type="elephant"/><tech type="chameau"/><tech type="ours"/><name key="quatre_saisons"/><name key="printemps"/><name key="ete"/><name key="automne"/><name key="hiver"/><persName role="musicien"/></figDesc>
     </figure>
+  </sourceDoc>
 </TEI>
