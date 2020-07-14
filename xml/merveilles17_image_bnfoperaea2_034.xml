@@ -20,7 +20,14 @@
                     <licence/>
                 </availability>
             </publicationStmt>
+            <notesStmt>
+                <note>Ce dessin semble préparatoire à l'illustration du manuscrit de Bizincourt
+                        :<ref type="dessin" target="URI">BnF, Département des Manuscrits, Ms.
+                        7834</ref>.</note>
+            </notesStmt>
             <sourceDesc>
+                <bibl>François Chauveau, <hi rend="italic">Pan et Diane avec leur suite</hi>,
+                    dessin, Paris, BNF, BMO, Esquisses anciennes, II, 34</bibl>
                 <msDesc>
                     <msIdentifier>
                         <country>France</country>
@@ -35,13 +42,15 @@
                         </msItem>
                     </msContents>
                     <physDesc>
+                        <p>Dessin à la plume, à l'encre brune et au lavis brun</p>
                         <objectDesc form="dessin">
-                            <p>Dessin à la plume, à l'encre brune et au lavis brun</p>
                             <supportDesc>
-                                <dimensions unit="cm">
-                                    <height>31,8</height>
-                                    <width>22</width>
-                                </dimensions>
+                                <extent>
+                                    <dimensions unit="cm">
+                                        <height>31,8</height>
+                                        <width>22</width>
+                                    </dimensions>
+                                </extent>
                             </supportDesc>
                         </objectDesc>
                     </physDesc>
@@ -52,17 +61,19 @@
             <creation>
                 <date notBefore="1664">1664 ou postérieur</date>
             </creation>
-            <note>Un dessin préparatoire ou une copie du dessin est conservé à <ref type="dessin"
-                    target="URI">BnF, Département des Manuscrits, Ms. 7834</ref>.</note>
         </profileDesc>
     </teiHeader>
-    <figure>
-        <graphic url="
+    <sourceDoc>
+        <figure>
+            <graphic url="
             "/>
-        <figDesc>Entre deux arbres, un spectacle se déroule. De chaque côté, on peut voir les
-            musiciens. Au centre, des figures portant des denrées. Dans le ciel, assis sur un nuage, un
-            homme à l'allure de bouc tenant un sceptre et une femme avec un arc. En arrière-plan,
-            une longue allée bordée d'arbres, débouchant sur une montagne.<tech type="costume"
-                /> <tech type="machine"></tech><name key="pan"/><name key="diane"/><persName role="musicien"/></figDesc>
-    </figure>
+            <figDesc>Entre deux arbres, un spectacle se déroule. De chaque côté, on peut voir les
+                musiciens. Au centre, des figures portant des denrées. Dans le ciel, assis sur un
+                nuage, un homme à l'allure de bouc tenant un sceptre et une femme avec un arc. En
+                arrière-plan, une longue allée bordée d'arbres débouche sur une montagne.<tech
+                    type="costume"/>
+                <tech type="machine_volante"/><name key="pan"/><name key="diane"/><persName
+                    role="musicien"/></figDesc>
+        </figure>
+    </sourceDoc>
 </TEI>
