@@ -11,6 +11,8 @@
         <respStmt>
           <name>Mathilde Nicolas</name>
           <resp>Encodage</resp>
+          <name>Gaëlle Lafage</name>
+          <resp>Corrections</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -21,16 +23,18 @@
         </availability>
       </publicationStmt>
       <notesStmt>
-        <note>Un dessin préparatoire ou une copie du dessin est conservé à <ref type="dessin" target="URI">BnF, Département des Manuscrits, Ms. 7834</ref>.</note>
+        <note>Ce dessin semble préparatoire à l'illustration du manuscrit de Bizincourt :<ref
+            type="dessin" target="URI">BnF, Département des Manuscrits, Ms. 7834</ref>.</note>
       </notesStmt>
       <sourceDesc>
-        <bibl><!-- ligne bibliographique affichable --></bibl>
+        <bibl>François Chauveau, <hi rend="italic">Les Saisons avec leur suite</hi>, dessin, Paris,
+          BNF, BMO, Esquisses anciennes, II, 35</bibl>
         <msDesc>
           <msIdentifier>
             <country>France</country>
             <settlement>Paris</settlement>
             <institution>Bibliothèque nationale de France</institution>
-            <repository>Bibliothèque de l'Opéra</repository>
+            <repository>Bibliothèque-Musée de l'Opéra</repository>
             <idno>Esquisses anciennes, II, 35</idno>
           </msIdentifier>
           <msContents>
@@ -64,7 +68,13 @@
     <figure>
       <graphic url="
               "/>
-      <figDesc>Entre deux arbres, un spectacle se déroule. Au premier plan, on peut voir les concertans. Au centre, quatre cavaliers qui montent respectivement un cheval, un éléphant, un chameau et un ours. Ils sont suivis de leurs porteurs de présents. En arrière-plan, une longue allée bordée d'arbres, débouchant sur une montagne.<tech type="costume"/><tech type="cheval"/><tech type="elephant"/><tech type="chameau"/><tech type="ours"/><name key="quatre_saisons"/><name key="printemps"/><name key="ete"/><name key="automne"/><name key="hiver"/><persName role="musicien"/></figDesc>
+      <figDesc>Entre deux arbres, un spectacle se déroule. Deux groupes de musiciens précèdent
+        quatre figures assises sur un cheval, un éléphant, un chameau et un ours. Ils sont suivis de
+        leurs porteurs de présents. En arrière-plan, une longue allée bordée d'arbres débouche
+        sur une montagne.<tech type="costume"/><tech type="cheval"/><tech type="elephant"/><tech
+          type="chameau"/><tech type="ours"/><name key="quatre_saisons"/><name key="printemps"
+          /><name key="ete"/><name key="automne"/><name key="hiver"/><persName role="musicien"
+        /></figDesc>
     </figure>
   </sourceDoc>
 </TEI>
