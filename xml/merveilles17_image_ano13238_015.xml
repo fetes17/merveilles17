@@ -5,7 +5,7 @@
             <titleStmt>
                 <title>Le char d'Apollon, conduit par le Temps lors de la première journée des
                     Plaisirs de l'Ile enchantée</title>
-                <author>Vigarani, Carlo</author>
+                <author>Vigarani, Carlo (d'après)</author>
             </titleStmt>
             <editionStmt>
                 <edition>Merveilles17</edition>
@@ -22,6 +22,9 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
+                <bibl>Carlo Vigarani (d'après), <hi rend="italic">Le char d'Apollon, conduit par le
+                        Temps lors de la première journée des Plaisirs de l'Ile enchantée</hi>,
+                    dessin, Paris, AN, CP O1 3238, n° 15</bibl>
                 <msDesc>
                     <msIdentifier>
                         <country>France</country>
@@ -32,17 +35,19 @@
                     </msIdentifier>
                     <msContents>
                         <msItem>
-                            <author>Vigarani Carlo</author>
+                            <author>Vigarani Carlo (d'après)</author>
                         </msItem>
                     </msContents>
                     <physDesc>
+                        <p>Contre-épreuve d’un dessin à la pierre noire</p>
                         <objectDesc form="dessin">
-                            <p>Contre-épreuve d’un dessin à la pierre noire</p>
                             <supportDesc>
-                                <dimensions unit="cm">
-                                    <height>56</height>
-                                    <width>41,4</width>
-                                </dimensions>
+                                <extent>
+                                    <dimensions unit="cm">
+                                        <height>56</height>
+                                        <width>41,4</width>
+                                    </dimensions>
+                                </extent>
                             </supportDesc>
                         </objectDesc>
                     </physDesc>
@@ -55,15 +60,18 @@
             </creation>
         </profileDesc>
     </teiHeader>
-    <figure>
-        <graphic
-            url="http://www2.culture.gouv.fr/Wave/image/archim/MP/FRDAFAN08_SCEK000186N_2.jpg     
+    <sourceDoc>
+        <figure>
+            <graphic
+                url="http://www2.culture.gouv.fr/Wave/image/archim/MP/FRDAFAN08_SCEK000186N_2.jpg     
             "/>
 
-        <figDesc>Le char d'Apollon, tiré par quatre chevaux et conduit par le Temps. Apollon est
-            assis au sommet, accompagné de l'Âge de fer, l'Âge d'airain, l'Âge d'argent et l'Âge
-                d'or.<tech type="machine_terrestre"/><tech type="animal"/><tech type="costume"/><name key="apollon"
-                /><name key="temps"/><name key="quatre_siecles"/><name key="age_fer"/><name
-                key="age_airain"/><name key="age_argent"/><name key="age_or"/></figDesc>
-    </figure>
+            <figDesc>Le char d'Apollon, tiré par quatre chevaux et conduit par le Temps. Apollon est
+                assis au sommet, accompagné de l'Âge de fer, l'Âge d'airain, l'Âge d'argent et l'Âge
+                    d'or.<tech type="machine_terrestre"/><tech type="animal"/><tech type="costume"
+                    /><name key="apollon"/><name key="temps"/><name key="quatre_siecles"/><name
+                    key="age_fer"/><name key="age_airain"/><name key="age_argent"/><name
+                    key="age_or"/></figDesc>
+        </figure>
+    </sourceDoc>
 </TEI>

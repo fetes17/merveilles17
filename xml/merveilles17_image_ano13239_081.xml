@@ -4,7 +4,7 @@
         <fileDesc>
             <titleStmt>
                 <title>Copie de la première planche représentant le château de Versailles et un
-                    cartouche pour le recueil des Plaisirs de l’Ile enchantée 1664.</title>
+                    cartouche pour le recueil des Plaisirs de l’Ile enchantée</title>
                 <author>Silvestre, Israël (d'après)</author>
             </titleStmt>
             <editionStmt>
@@ -21,7 +21,12 @@
                     <licence/>
                 </availability>
             </publicationStmt>
+            <notesStmt>
+                <note></note>
+            </notesStmt>
             <sourceDesc>
+                <bibl>Israël Silvestre (d'après), <hi rend="italic">Copie de la première planche représentant le château de Versailles et un
+                    cartouche pour le recueil des Plaisirs de l’Ile enchantée</hi>dessin, Paris, CP, O1 3239, n° 81</bibl>
                 <msDesc>
                     <msIdentifier>
                         <country>France</country>
@@ -36,13 +41,15 @@
                         </msItem>
                     </msContents>
                     <physDesc>
-                        <objectDesc form="dessin">
                             <p>Dessin à la plume, à l'encre noire et au lavis gris </p>
+                        <objectDesc form="dessin">
                             <supportDesc>
+                                <extent>
                                 <dimensions unit="cm">
                                     <height>60,8</height>
                                     <width>90,3</width>
                                 </dimensions>
+                                </extent>
                             </supportDesc>
                         </objectDesc>
                     </physDesc>
@@ -55,6 +62,7 @@
             </creation>
         </profileDesc>
     </teiHeader>
+    <sourceDoc>
     <figure>
         <graphic
             url="http://www2.culture.gouv.fr/Wave/image/archim/MP/FRDAFAN08_SCEK000375_2.jpg
@@ -63,7 +71,8 @@
             scène. En haut du décor, deux anges tenant les armes du roi de France. En bas, les
             devises des chevaliers entourant la légende. Au centre, le château de Versailles et ses
             jardins se dévoilent. En contrebas, de nombreux cavaliers ainsi qu'un carosse se
-            dirigent vers la droite.<tech type="décor"/><placeName key="versailles"/><persName key="chevaliers"
+            dirigent vers la droite.<tech type="decor"/><placeName key="versailles"/><persName key="chevaliers"
             /></figDesc>
     </figure>
+    </sourceDoc>
 </TEI>

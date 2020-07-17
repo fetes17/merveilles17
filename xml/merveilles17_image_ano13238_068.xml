@@ -3,8 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Représentation du ballet d’Alcine lors des Plaisirs de l’Ile enchantée
-                    1664</title>
+                <title>Représentation du ballet d’Alcine lors des Plaisirs de l’Ile enchantée</title>
                 <author>Chauveau, François (d'après)</author>
             </titleStmt>
             <editionStmt>
@@ -21,7 +20,14 @@
                     <licence/>
                 </availability>
             </publicationStmt>
+            <notesStmt>
+                <note>Il s'agit de la contre-épreuve du dessin ayant servi à l'illustration du
+                    manuscrit conservé à la<ref type="dessin" target="URI">BNF, Ms.Fr.7834,
+                        fol.73</ref></note>
+            </notesStmt>
             <sourceDesc>
+                <bibl>François Chauveau (d'après), <hi rend="italic">eprésentation du ballet d’Alcine lors des Plaisirs de l’Ile enchantée</hi>,
+                    dessin, Paris, AN, CP O1 3238, n° 68b</bibl>
                 <msDesc>
                     <msIdentifier>
                         <country>France</country>
@@ -36,13 +42,15 @@
                         </msItem>
                     </msContents>
                     <physDesc>
+                        <p>contre-épreuve d’un dessin à la pierre noire</p>
                         <objectDesc form="dessin">
-                            <p>contre-épreuve d’un dessin à la pierre noire</p>
                             <supportDesc>
-                                <dimensions unit="cm">
-                                    <height>35,4</height>
-                                    <width>27</width>
-                                </dimensions>
+                                <extent>
+                                    <dimensions unit="cm">
+                                        <height>35,4</height>
+                                        <width>27</width>
+                                    </dimensions>
+                                </extent>
                             </supportDesc>
                         </objectDesc>
                     </physDesc>
@@ -53,18 +61,18 @@
             <creation>
                 <date notBefore="1664">1664 ou postérieur</date>
             </creation>
-            <note>Il s'agit de la contre-épreuve du dessin ayant servi à l'illustration du manuscrit
-                conservé à <ref type="dessin" target="URI">BNF, Ms.Fr.7834, fol.73</ref></note>
         </profileDesc>
     </teiHeader>
-    <figure>
-        <graphic
-            url="http://www2.culture.gouv.fr/Wave/image/archim/MP/FRDAFAN08_SCEK000248N_2.jpg
+    <sourceDoc>
+        <figure>
+            <graphic
+                url="http://www2.culture.gouv.fr/Wave/image/archim/MP/FRDAFAN08_SCEK000248N_2.jpg
             "/>
-        <figDesc>Entre deux arbres, se trouve un bassin. Sur l'avant de celui-ci, trois monstres
-            marins, chacun monté par une femme. En son centre, un bâtiment posé sur un rocher. <tech
-                type="decor"/><tech type="construction"/><tech type="machine_aquatique"/><name
-                key="alcine"/><name key="celie"/><name key="dirce"/><placeName key="versailles_bassin_apollon"
-            /></figDesc>
-    </figure>
+            <figDesc>Entre deux arbres, se trouve un bassin. Sur l'avant de celui-ci, trois femmes
+                sont assises sur le dos de monstres marins. En son centre, un bâtiment posé sur un
+                rocher. <tech type="decor"/><tech type="construction"/><tech
+                    type="machine_aquatique"/><name key="alcine"/><name key="celie"/><name
+                    key="dirce"/><placeName key="versailles_bassin_apollon"/></figDesc>
+        </figure>
+    </sourceDoc>
 </TEI>
