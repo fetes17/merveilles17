@@ -42,11 +42,11 @@ Le lien est‑il bien mis ?--><ref
   </teiHeader>
   <text>
     <body>
-      <p><persName>Le cardinal</persName> accompagna ensuite <persName>le roi</persName> dans les
+      <p><persName key="flacvio_chigi">Le cardinal</persName> accompagna ensuite <persName key="louisxiv">le roi</persName> dans les
         chambres et, après lui avoir fait la révérence, il se retira dans son appartement afin de se
         préparer pour aller au divertissement d’une comédie française, puisqu’il y
-        avait en même temps des <persName>acteurs français</persName>,
-          <persName>espagnols</persName> et <persName>italiens</persName> divisés en <persName>trois
+        avait en même temps des <persName role="acteur">acteurs français</persName>,
+          <persName role="acteur">espagnols</persName> et <persName role="acteur">italiens</persName> divisés en <persName role="acteur">trois
           troupes</persName>, qui jouaient en alternance chaque jour […] La pièce fut
         pleine de traits d’esprit et <tech type="musique">d’airs muscicaux</tech>, et de variétés et d’amours, relatant
         l’histoire d’<name>une princesse</name> qui, afin d’apprivoiser l’arrogance d’<name>un
@@ -57,17 +57,17 @@ Le lien est‑il bien mis ?--><ref
           <name>cinquante personnages</name> à l’aide d’<tech type="machine_musicale">une machine</tech>
         <seg ana="description">qui avait la forme d’un grand vase, qui présentait sur les côtés deux
           escaliers remplis</seg>
-        <persName>de joueurs de trompettes</persName> et <persName>violes</persName> dans le vase et
-          <persName>de violons</persName> sur les escaliers déguisés en <name>satyres</name>, qui
-        descendirent sur scène et dansèrent avec <persName>douze autres danseurs</persName> déguisés
+        <persName role="musicien">de joueurs de trompettes</persName> et <persName role="musicien">violes</persName> dans le vase et
+          <persName role="musicien">de violons</persName> sur les escaliers déguisés en <name>satyres</name>, qui
+        descendirent sur scène et dansèrent avec <persName role="danseur">douze autres danseurs</persName> déguisés
         différemment ; et pour varier la danse, ils quittèrent les violons et prirent
-          <persName>des tambourins</persName>, avec lesquels il firent divers petits jeux au tempo
-        de la musique ; il y en avait <persName>plus de 40</persName> qui jouaient de <tech type="musique">la
+          <persName role="musicien">des tambourins</persName>, avec lesquels il firent divers petits jeux au tempo
+        de la musique ; il y en avait <persName role="musicien">plus de 40</persName> qui jouaient de <tech type="musique">la
         contrebasse, de la viole, du violon et de la trompette et du tambourin</tech>. <tech type="machine_musicale">La
           machine</tech> avait un aspect semblable :</p>
       <p>[croquis]</p>
       <p>Et ici avec un amusement universel se termina la pièce sylvestre qui avait
-        déjà été représentée une autre fois devant <persName>S.M.</persName> dans une forêt</p>
+        déjà été représentée une autre fois devant <persName key="louisxiv" role="spectateur">S.M.</persName> dans une forêt</p>
     </body>
   </text>
 </TEI>
