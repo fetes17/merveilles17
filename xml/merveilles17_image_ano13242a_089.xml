@@ -5,7 +5,7 @@
             <titleStmt>
                 <title>Représentation du théâtre dressé dans les jardins de Versailles sur lequel
                     est joué la Princesse d’Elide donnée lors des Plaisirs de l’Ile
-                    enchantée.</title>
+                    enchantée</title>
                 <author>Silvestre, Israël (d'après)</author>
             </titleStmt>
             <editionStmt>
@@ -22,7 +22,14 @@
                     <licence/>
                 </availability>
             </publicationStmt>
+            <notesStmt>
+                <note/>
+            </notesStmt>
             <sourceDesc>
+                <bibl>Israël Silvestre (d'après), <hi rend="italic">Représentation du théâtre dressé
+                        dans les jardins de Versailles sur lequel est joué la Princesse d’Elide
+                        donnée lors des Plaisirs de l’Ile enchantée</hi>, dessin à la pierre noire,
+                    à l'encre noire et au lavis gris, Paris, CP O1 3242A, n°89.</bibl>
                 <msDesc>
                     <msIdentifier>
                         <country>France</country>
@@ -37,13 +44,15 @@
                         </msItem>
                     </msContents>
                     <physDesc>
+                        <p>Dessin à la pierre noire, à l'encre noire et au lavis gris</p>
                         <objectDesc form="dessin">
-                            <p>Dessin à la pierre noire, à l'encre noire et au lavis gris</p>
                             <supportDesc>
-                                <dimensions unit="cm">
-                                    <height>60,4</height>
-                                    <width>89,6</width>
-                                </dimensions>
+                                <extent>
+                                    <dimensions unit="cm">
+                                        <height>60,4</height>
+                                        <width>89,6</width>
+                                    </dimensions>
+                                </extent>
                             </supportDesc>
                         </objectDesc>
                     </physDesc>
@@ -56,11 +65,14 @@
             </creation>
         </profileDesc>
     </teiHeader>
-    <figure>
-        <graphic url="http://www2.culture.gouv.fr/Wave/image/archim/MP/FRDAFAN08_SCEK000793_2.jpg"/>
-        <figDesc>Un théâtre orné de décorations et de lustres est installé dans une longue allée,
-            bordée par des arbres. Sur la scène, de nombreux acteurs costumés jouent une pièce
-            devant les spectateurs.<tech type="decor"/><tech type="costume"/><tech type="eclairage"
-                /><persName role="acteur"/></figDesc>
-    </figure>
+    <sourceDoc>
+        <figure>
+            <graphic
+                url="http://www2.culture.gouv.fr/Wave/image/archim/MP/FRDAFAN08_SCEK000793_2.jpg"/>
+            <figDesc>Un théâtre orné de décorations et de lustres est installé dans une longue
+                allée, bordée par des arbres. Sur la scène, de nombreux acteurs costumés jouent une
+                pièce devant les spectateurs.<tech type="decor"/><tech type="costume"/><tech
+                    type="construction"/><tech type="eclairage"/><persName role="acteur"/></figDesc>
+        </figure>
+    </sourceDoc>
 </TEI>

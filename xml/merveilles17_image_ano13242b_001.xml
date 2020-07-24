@@ -21,13 +21,23 @@
                     <licence/>
                 </availability>
             </publicationStmt>
+            <notesStmt>
+                <note>Ce dessin est peut-être préparatoire à l'estampe<ref type="estampe"
+                        target="URI"/>. Il est dans le même sens que la gravure, présente quelques
+                    variantes et la lettre est absente.</note>
+            </notesStmt>
             <sourceDesc>
+                <bibl>Isarël Silvestre (d'après), <hi rend="italic">La marche du carrousel lors de
+                        la première journée des Plaisirs de l’Ile enchantée</hi>, dessin à la pierre
+                    noire, à la plume, à l'encre noire et au lavis gris, Paris, Archives nationales,
+                    CP O1 3242B, n°1.</bibl>
                 <msDesc>
                     <msIdentifier>
                         <country>France</country>
                         <settlement>Paris</settlement>
                         <institution>Archives Nationales</institution>
-                        <idno>Cartes et plans, O1 3242B, n° 1</idno>
+                        <repository>Cartes et plans</repository>
+                        <idno>O1 3242B, n° 1</idno>
                     </msIdentifier>
                     <msContents>
                         <msItem>
@@ -35,14 +45,16 @@
                         </msItem>
                     </msContents>
                     <physDesc>
+                        <p>Dessin à la pierre noire, à la plume, à l'encre noire et au lavis
+                            gris</p>
                         <objectDesc form="dessin">
-                            <p>Dessin à la pierre noire, à la plume, à l'encre noire et au lavis
-                                gris</p>
                             <supportDesc>
-                                <dimensions unit="cm">
-                                    <height>61,6</height>
-                                    <width>90</width>
-                                </dimensions>
+                                <extent>
+                                    <dimensions unit="cm">
+                                        <height>61,6</height>
+                                        <width>90</width>
+                                    </dimensions>
+                                </extent>
                             </supportDesc>
                         </objectDesc>
                     </physDesc>
@@ -53,23 +65,24 @@
             <creation>
                 <date notBefore="1664">1664 ou postérieur</date>
             </creation>
-            <note>Ce dessin est peut-être préparatoire à l'estampe<ref type="estampe" target="URI"
-                />. Il est dans le même sens que la gravure, présente quelques variantes et la
-                lettre est absente.</note>
         </profileDesc>
     </teiHeader>
-    <figure>
-        <graphic url="http://www2.culture.gouv.fr/Wave/image/archim/MP/FRDAFAN08_SCEK000795_2.jpg"/>
-        <figDesc>Une grande arène entourée de feuillées, ouverte sur les côtés par deux portes
-            ornées et au fond sur une longue allée bordée d'arbres laissant entrevoir la façade du
-            château. Les participants du spectacle se présentent aux spectateurs en défilant dans
-            l'arène. Le roi, ses chevaliers et leurs suites sont présents. On distingue également le
-            char d'Apollon, conduit par le temps. Apollon est assis au sommet, accompagné des quatre
-            âges, et entouré des douzes heures du jour et des douzes signes du zodiaque. <tech
-                type="decor"/><tech type="costume"/><tech type="machine_terrestre"/><persName
-                key="louisxiv" role="participant"/><name key="roger"/><name key="chevaliers"
-                /><name key="apollon"/><name key="temps"/><name key="quatre_siecles"/><name
-                key="age_airain"/><name key="age_fer"/><name key="age_argent"/><name
-                key="age_or"/><name key="heure"/><name key="zodiaque"/></figDesc>
-    </figure>
+    <sourceDoc>
+        <figure>
+            <graphic
+                url="http://www2.culture.gouv.fr/Wave/image/archim/MP/FRDAFAN08_SCEK000795_2.jpg"/>
+            <figDesc>Une grande arène entourée de feuillées, ouverte sur les côtés par deux portes
+                ornées et au fond sur une longue allée bordée d'arbres laisse entrevoir la façade
+                du château. Les participants du spectacle se présentent aux spectateurs en défilant
+                dans l'arène. Le roi, ses chevaliers et leurs suites sont présents. On distingue
+                également le char d'Apollon, conduit par le temps. Apollon est assis au sommet,
+                accompagné des quatre âges, et entouré des douzes heures du jour et des douzes
+                signes du zodiaque. <tech type="decor"/><tech type="costume"/><tech
+                    type="machine_terrestre"/><persName key="louisxiv" role="participant"/><name
+                    key="roger"/><name key="chevaliers"/><name key="apollon"/><name key="temps"
+                    /><name key="quatre_siecles"/><name key="age_airain"/><name key="age_fer"/><name
+                    key="age_argent"/><name key="age_or"/><name key="heure"/><name key="zodiaque"
+                /></figDesc>
+        </figure>
+    </sourceDoc>
 </TEI>

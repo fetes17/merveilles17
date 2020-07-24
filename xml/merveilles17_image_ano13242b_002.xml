@@ -4,7 +4,7 @@
         <fileDesc>
             <titleStmt>
                 <title>Alcine devant son palais accompagnée de ses suivantes lors des Plaisirs de
-                    l’Ile enchantée.</title>
+                    l’Ile enchantée</title>
                 <author>Silvestre, Israël d'après)</author>
             </titleStmt>
             <editionStmt>
@@ -21,14 +21,23 @@
                     <licence/>
                 </availability>
             </publicationStmt>
+            <notesStmt>
+                <note>Ce dessin est peut-être préparatoire à l'estampe de Lepautre et Silvestre<ref
+                        type="estampe" target="URI"/>. Il est dans le sens inverse de la gravure et
+                    la lettre est absente.</note>
+            </notesStmt>
             <sourceDesc>
+                <bibl>Israël Silvestre (d'après), <hi rend="italice">Alcine devant son palais
+                        accompagnée de ses suivantes lors des Plaisirs de l’Ile enchantée</hi>,
+                    dessin à la plume, à l'encre noire et au lavis gris, avec des traces de pierre
+                    noire, Paris, Archives nationales, CP O1 3242B, n° 2</bibl>
                 <msDesc>
                     <msIdentifier>
                         <country>France</country>
                         <settlement>Paris</settlement>
                         <institution>Archives Nationales</institution>
-                        <repository/>
-                        <idno>Cartes et plans, O1 3242B, n° 2</idno>
+                        <repository>Cartes et plans</repository>
+                        <idno>O1 3242B, n° 2</idno>
                     </msIdentifier>
                     <msContents>
                         <msItem>
@@ -36,14 +45,16 @@
                         </msItem>
                     </msContents>
                     <physDesc>
+                        <p>Dessin à la plume, à l'encre noire et au lavis gris, avec des traces de
+                            pierre noire</p>
                         <objectDesc form="dessin">
-                            <p>Dessin à la plume, à l'encre noire et au lavis gris, avec des traces
-                                de pierre noire</p>
                             <supportDesc>
-                                <dimensions unit="cm">
-                                    <height>58,5</height>
-                                    <width>89,7</width>
-                                </dimensions>
+                                <extent>
+                                    <dimensions unit="cm">
+                                        <height>58,5</height>
+                                        <width>89,7</width>
+                                    </dimensions>
+                                </extent>
                             </supportDesc>
                         </objectDesc>
                     </physDesc>
@@ -54,21 +65,21 @@
             <creation>
                 <date notBefore="1664">1664 ou postérieur</date>
             </creation>
-            <note>Ce dessin est peut-être préparatoire à l'estampe de Lepautre et Silvestre<ref type="estampe" target="URI"
-                ></ref>. Il est dans le sens inverse de la gravure et la lettre est absente.</note>
-            <!-- GL : Je ne sais pas où placer cette note -->
         </profileDesc>
     </teiHeader>
+    <sourceDoc>
     <figure>
         <graphic
             url="http://www2.culture.gouv.fr/Wave/image/archim/MP/FRDAFAN08_SCEK000796_2.jpg
             "/>
-        <figDesc>Les spectateurs observent le spectacle se déroulant sur un grand bassin d'eau. Celui-ci
-            est encadré deux îles décorées de tentures. Sur l'avant du bassin, trois monstres marins, chacun monté
-            par une femme. A l'arrière, au centre du bassin, un bâtiment élevé sur un rocher représente le Palais
-            d'Alcine, où plusieurs danseurs exécutent un ballet.<tech type="decor"/><tech
-                type="construction"/><tech type="machine_aquatique"/><name key="alcine"/><name
-                key="celie"/><name key="dirce"/><placeName key="versailles_jardins_bassin_apollon"/></figDesc>
+        <figDesc>Les spectateurs observent le spectacle se déroulant sur un grand bassin d'eau.
+            Celui-ci est encadré par deux îles décorées de tentures. Sur l'avant du bassin, trois
+            monstres marins, chacun monté par une femme. A l'arrière, au centre du bassin, un
+            bâtiment élevé sur un rocher représente le Palais d'Alcine, où plusieurs danseurs
+            exécutent un ballet.<tech type="decor"/><tech type="construction"/><tech
+                type="machine_aquatique"/><name key="alcine"/><name key="celie"/><name key="dirce"
+                /><placeName key="versailles_jardins_bassin_apollon"/></figDesc>
 
     </figure>
+    </sourceDoc>
 </TEI>

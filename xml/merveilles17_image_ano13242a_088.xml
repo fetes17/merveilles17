@@ -3,7 +3,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Décor de feuillée lors de la première journée des Plaisirs de l’Ile enchantée </title>
+                <title>Décor de feuillée lors de la première journée des Plaisirs de l’Ile
+                    enchantée</title>
                 <author>Vigarani, Carlo (d'après)</author>
             </titleStmt>
             <editionStmt>
@@ -20,14 +21,20 @@
                     <licence/>
                 </availability>
             </publicationStmt>
+            <notesStmt>
+                <note/>
+            </notesStmt>
             <sourceDesc>
+                <bibl>Carlo Vigarani (d'après), <hi rend="italic">Décor de feuillée lors de la
+                        première journée des Plaisirs de l’Ile enchantée</hi>, dessin à la pierre
+                    noire, Paris, Archives nationales, CP, O1 3242A, n° 88</bibl>
                 <msDesc>
                     <msIdentifier>
                         <country>France</country>
                         <settlement>Paris</settlement>
                         <institution>Archives Nationales</institution>
-                        <repository/>
-                        <idno>Cartes et plans, O1 3242A, n° 88</idno>
+                        <repository>Cartes et plans</repository>
+                        <idno>O1 3242A, n° 88</idno>
                     </msIdentifier>
                     <msContents>
                         <msItem>
@@ -35,13 +42,15 @@
                         </msItem>
                     </msContents>
                     <physDesc>
+                        <p>Dessin à la pierre noire</p>
                         <objectDesc form="dessin">
-                            <p>Dessin à la pierre noire</p>
                             <supportDesc>
-                                <dimensions unit="cm">
-                                    <height>53,2</height>
-                                    <width>38,4</width>
-                                </dimensions>
+                                <extent>
+                                    <dimensions unit="cm">
+                                        <height>53,2</height>
+                                        <width>38,4</width>
+                                    </dimensions>
+                                </extent>
                             </supportDesc>
                         </objectDesc>
                     </physDesc>
@@ -54,12 +63,14 @@
             </creation>
         </profileDesc>
     </teiHeader>
-    <figure>
-        <graphic
-            url="http://www2.culture.gouv.fr/Wave/image/archim/MP/FRDAFAN08_SCEK000792_2.jpg
+    <sourceDoc>
+        <figure>
+            <graphic
+                url="http://www2.culture.gouv.fr/Wave/image/archim/MP/FRDAFAN08_SCEK000792_2.jpg
             "/>
-        <figDesc>Un décor de feuillées constitué de plusieurs arches. Sur le long des piliers, on peut
-            noter de nombreuses décorations. Sur chaque arc, deux femmes ailées tenant les armes du
-            roi de France.<tech type="decor"/></figDesc>
-    </figure>
+            <figDesc>Un décor de feuillées constitué de plusieurs arches. Sur le long des piliers,
+                on peut noter de nombreuses décorations. Sur chaque arc, deux femmes ailées tenant
+                les armes du roi de France.<tech type="decor"/></figDesc>
+        </figure>
+    </sourceDoc>
 </TEI>

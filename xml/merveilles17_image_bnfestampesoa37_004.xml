@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Homme au pied d'un cheval</title>
+                <title>Cavalier au pied d'un cheval</title>
             </titleStmt>
             <editionStmt>
                 <edition>Merveilles17</edition>
@@ -19,31 +19,40 @@
                     <licence/>
                 </availability>
             </publicationStmt>
+            <notesStmt>
+                <note/>
+            </notesStmt>
             <sourceDesc>
+                <bibl><hi rend="italic">Cavalier au pied d'un cheval</hi>, dessin à la pierre noire,
+                    traces d'encre brune à la plume, Paris, BNF, Estampes, OA 37(2) Fol</bibl>
                 <msDesc>
                     <msIdentifier>
                         <country>France</country>
                         <settlement>Paris</settlement>
                         <institution>Bibliothèque Nationale de France</institution>
                         <repository>Département des Estampes et de la Photographie</repository>
-                        <idno>OA 37 (2) Fol</idno>
+                        <idno>OA 37(2) Fol</idno>
                     </msIdentifier>
                     <msContents>
-                        <msItem> </msItem>
+                        <msItem>
+                            <author/>
+                        </msItem>
                     </msContents>
                     <physDesc>
+                        <p>Dessin à la pierre noire, traces d'encre brune à la plume</p>
                         <objectDesc form="dessin">
-                            <p>Dessin à la pierre noire, traces d'encre brune à la plume</p>
                             <supportDesc>
-                                <dimensions unit="cm">
-                                    <height>42,7</height>
-                                    <width>38,2</width>
-                                </dimensions>
+                                <extent>
+                                    <dimensions unit="cm">
+                                        <height>42,7</height>
+                                        <width>38,2</width>
+                                    </dimensions>
+                                </extent>
                             </supportDesc>
                         </objectDesc>
                     </physDesc>
                 </msDesc>
-                <bibl></bibl>
+                <bibl/>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -52,10 +61,13 @@
             </creation>
         </profileDesc>
     </teiHeader>
-    <figure>
-        <graphic url="
+    <sourceDoc>
+        <figure>
+            <graphic url="
             "/>
-        <figDesc>Un homme vêtu d'un riche costume à l'antique et tenant une lance, se tient au pied d'un
-            cheval, également paré. </figDesc>
-    </figure>
+            <figDesc>Un homme vêtu d'un riche costume à l'antique et tenant une lance, se tient au
+                pied d'un cheval, également paré.<tech type="costume"/><tech type="animal"/><name
+                    role="cavalier"/></figDesc>
+        </figure>
+    </sourceDoc>
 </TEI>

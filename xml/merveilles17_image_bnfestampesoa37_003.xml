@@ -4,7 +4,7 @@
         <fileDesc>
             <titleStmt>
                 <title>Le char d'Apollon, conduit par le Temps lors de la première journée des
-                    Plaisirs de l'Ile enchantée</title> <!-- GL faut-il conserver ce titre qui est une interprétation puisque le dessin ne comporte aucune indication manuscrite ? -->
+                    Plaisirs de l'Ile enchantée</title>
             </titleStmt>
             <editionStmt>
                 <edition>Merveilles17</edition>
@@ -20,29 +20,37 @@
                     <licence/>
                 </availability>
             </publicationStmt>
+            <notesStmt>
+                <note>Un dessin semblable mais inversé est conservé à<ref type="dessin"
+                        target="URI"> Paris, Archives nationales, CP O1 3241, n° 77b</ref></note>
+            </notesStmt>
             <sourceDesc>
+                <bibl><hi rend="italic">Le char d'Apollon, conduit par le Temps lors de la première
+                        journée des Plaisirs de l'Ile enchantée</hi>, dessin à la pierre noire,
+                    Paris, BNF, Estampes, OA 37(2) Fol</bibl>
                 <msDesc>
                     <msIdentifier>
                         <country>France</country>
                         <settlement>Paris</settlement>
                         <institution>Bibliothèque Nationale de France</institution>
                         <repository>Département des Estampes et de la Photographie</repository>
-                        <idno>OA 37 (2) Fol</idno>
+                        <idno>OA 37(2) Fol</idno>
                     </msIdentifier>
                     <msContents>
                         <msItem>
-                            <title>Le char d'Apollon, conduit par le Temps lors de la première
-                                journée des Plaisirs de l'Ile enchantée</title>
+                            <author/>
                         </msItem>
                     </msContents>
                     <physDesc>
+                        <p>Dessin à la pierre noire</p>
                         <objectDesc form="dessin">
-                            <p>Dessin à la pierre noire</p>
                             <supportDesc>
-                                <dimensions unit="cm">
-                                    <height>38</height>
-                                    <width>37</width>
-                                </dimensions>
+                                <extent>
+                                    <dimensions unit="cm">
+                                        <height>38</height>
+                                        <width>37</width>
+                                    </dimensions>
+                                </extent>
                             </supportDesc>
                         </objectDesc>
                     </physDesc>
@@ -54,19 +62,18 @@
             <creation>
                 <date notBefore="1664">1664 ou postérieur</date>
             </creation>
-            <note>Un dessin semblable mais inversé est conservé à <ref type="dessin"
-                    target="http://www2.culture.gouv.fr/public/mistral/caran_fr?ACTION=RETROUVER&FIELD_9=NOMDOS&VALUE_9=Recueils%20des%20Menus%20Plaisirs%20du%20roi&NUMBER=72&GRP=4&REQ=%28%28Recueils%20des%20Menus%20Plaisirs%20du%20roi%29%20%3aNOMDOS%20%29&USRNAME=nobody&USRPWD=4%24%2534P&SPEC=9&SYN=1&IMLY=&MAX1=1&MAX2=1&MAX3=100&DOM=All"
-                    >Paris, Archives nationales, Cartes et plans, O1 3241, n° 77b</ref></note>
         </profileDesc>
     </teiHeader>
-    <figure>
-        <graphic url="   
+    <sourceDoc>
+        <figure>
+            <graphic url="   
             "/>
-        <figDesc>Le char d'Apollon, richement décoré, est tiré par quatre chevaux et conduit par le
-            Temps. Apollon est assis au sommet, accompagné de l'Âge de fer, l'Âge d'airain, l'Âge
-            d'argent et l'Âge d'or.<tech type="machine_terrestre"/><tech type="costume"/><name
-                key="apollon"/><name key="temps"/><name key="quatre_siecles"/><name
-                key="age_fer"/><name key="age_airain"/><name key="age_argent"/><name
-                key="age_or"/></figDesc>
-    </figure>
+            <figDesc>Le char d'Apollon, richement décoré, est tiré par quatre chevaux et conduit par
+                le Temps. Apollon est assis au sommet, accompagné de l'Âge de fer, l'Âge d'airain,
+                l'Âge d'argent et l'Âge d'or.<tech type="machine_terrestre"/><tech type="costume"
+                    /><name key="apollon"/><name key="temps"/><name key="quatre_siecles"/><name
+                    key="age_fer"/><name key="age_airain"/><name key="age_argent"/><name
+                    key="age_or"/></figDesc>
+        </figure>
+    </sourceDoc>
 </TEI>
