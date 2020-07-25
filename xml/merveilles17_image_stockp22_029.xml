@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Un homme sur un éléphant</title>
+                <title>L'Eté</title>
             </titleStmt>
             <editionStmt>
                 <edition>Merveilles17</edition>
@@ -19,7 +19,10 @@
                     <licence/>
                 </availability>
             </publicationStmt>
+            <notesStmt><note></note></notesStmt>
             <sourceDesc>
+                <bibl><hi rend="italic">L'Eté</hi>, dessin à la pierre noire, Stockholm,
+                    Konstakademien, portef. 22, no 29</bibl>
                 <msDesc>
                     <msIdentifier>
                         <country>Suède</country>
@@ -29,25 +32,22 @@
                         <idno>portef. 22, no 29</idno>
                     </msIdentifier>
                     <msContents>
-                        <msItem/>
+                        <msItem><author></author></msItem>
                     </msContents>
                     <physDesc>
+                        <p>Dessin à la pierre noire</p>
                         <objectDesc form="dessin">
-                            <p>Dessin à la pierre noire</p>
                             <supportDesc>
+                                <extent>
                                 <dimensions unit="cm">
                                     <height>44,9</height>
                                     <width>34,9</width>
                                 </dimensions>
+                                </extent>
                             </supportDesc>
                         </objectDesc>
                     </physDesc>
                 </msDesc>
-                <bibl><title>Fêtes et divertissements à la cour</title>, cat. exp., sous la
-                    direction d'Elisabeth Caude, Jérôme de La Gorce et Béatrix Saule, Versailles,
-                    Musée du château de Versailles et de Trianon, 29 novembre 2016 - 26 mars 2017,
-                    Versailles, Paris, Château de Versailles, Gallimard, p. 332-333, cat. 321.
-                </bibl>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -56,10 +56,12 @@
             </creation>
         </profileDesc>
     </teiHeader>
+    <sourceDoc>
     <figure>
         <graphic url=""/>
         <figDesc>Un homme, vêtu d'un riche costume, est assis sur un éléphant également
-            paré. Un page tenant entre ces mains un baton surmonté de plumes, les guide.<name key="ete"/><tech type="elephant"/><tech type="costume"
+            paré. Un page tenant entre ces mains un baton surmonté de plumes, les guide.<name key="ete"/><tech type="animal"/><tech type="costume"
             /></figDesc>
     </figure>
+    </sourceDoc>
 </TEI>

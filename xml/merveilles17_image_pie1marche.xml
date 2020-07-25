@@ -5,7 +5,7 @@
             <titleStmt>
                 <title>Premiere journée. Marche du Roy, et de ses cheualiers, auec toutes leurs
                     suittes, au tour du Camp de la course de bague, representant Roger, et les
-                    autres Cheualiers enchantez dans l'Isle d'Alcine.</title>
+                    autres Cheualiers enchantez dans l'Isle d'Alcine</title>
                 <author>Lepautre, Jean</author>
                 <author>Silvestre, Israël</author>
             </titleStmt>
@@ -23,14 +23,23 @@
                     <licence/>
                 </availability>
             </publicationStmt>
+            <notesStmt>
+                <note>Cette estampe se trouve également reliée dans <ref type="imprimé" target="URI">le
+                    livre de la fête publié en 1673 par l'imprimerie royale</ref></note>
+            </notesStmt>
             <sourceDesc>
+                <bibl>Jean Lepautre et Israël Silvestre, <hi rend="italic">Premiere journée. Marche
+                        du Roy, et de ses cheualiers, auec toutes leurs suittes, au tour du Camp de
+                        la course de bague, representant Roger, et les autres Cheualiers enchantez
+                        dans l'Isle d'Alcine</hi>, estampe, Paris, BNF, Estampes, RESERVE QB-201
+                    (46)-FOL, Hennin, 4208</bibl>
                 <msDesc>
                     <msIdentifier>
                         <country>France</country>
                         <settlement>Paris</settlement>
                         <institution>Bibliothèque Nationale de France</institution>
-                        <repository>Réserve des livres rares</repository>
-                        <idno>RES-V-498</idno>
+                        <repository>Département des Estampes et de la photographie</repository>
+                        <idno>RESERVE QB-201 (46)-FOL, Hennin, 4208</idno>
                     </msIdentifier>
                     <msContents>
                         <msItem>
@@ -43,13 +52,15 @@
                         </msItem>
                     </msContents>
                     <physDesc>
+                        <p>Estampe</p>
                         <objectDesc form="estampe">
-                            <p>Estampe</p>
                             <supportDesc>
+                                <extent>
                                 <dimensions unit="cm">
                                     <height>27,6</height>
                                     <width>42,3</width>
                                 </dimensions>
+                                </extent>
                             </supportDesc>
                         </objectDesc>
                     </physDesc>
@@ -60,13 +71,12 @@
             <creation>
                 <date notBefore="1664">1664 ou postérieur</date>
             </creation>
-            <note>Cette estampe se trouve également reliée dans <ref type="imprimé" target="URI">le
-                    livre de la fête publié en 1673 par l'imprimerie royale</ref></note>
         </profileDesc>
     </teiHeader>
+    <sourceDoc>
     <figure>
         <graphic
-            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8626216h/f19//full/full/0/native.jpg"/>
+            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8404785t//f1/full/full/0/native.jpg"/>
 
         <figDesc>Une grande arène entourée de feuillées, ouverte sur les côtés par deux portes
             ornées et au fond sur une longue allée bordée d'arbres. Les participants du spectacle se
@@ -75,17 +85,18 @@
             Apollon est assis au sommet, accompagné des quatre âges, et entouré des douzes heures du
             jour et des douzes signes du zodiaque. <tech type="decor"/><tech type="costume"/><tech
                 type="machine_terrestre"/><persName key="louisxiv" role="participant"/><name
-                key="roger"/><name key="chevaliers"/><name key="apollon"/><name key="temps"
-                /><name key="quatre_siecles"/><name key="age_airain"/><name key="age_fer"/><name
+                key="roger"/><name key="chevaliers"/><name key="apollon"/><name key="temps"/><name
+                key="quatre_siecles"/><name key="age_airain"/><name key="age_fer"/><name
                 key="age_argent"/><name key="age_or"/><name key="heure"/><name key="zodiaque"
             /></figDesc>
         <head><date when="1664-05-07">Première journée</date>.</head>
-        <p>Marche du <persName key="louisxiv" role="participant">Roy</persName>, et de ses <name key="chevaliers"
-                >cheualiers</name>, auec toutes leurs suittes, au tour du Camp de la course de
-            bague, representant <name key="roger">Roger</name>, et les autres <name
+        <p>Marche du <persName key="louisxiv" role="participant">Roy</persName>, et de ses <name
+                key="chevaliers">cheualiers</name>, auec toutes leurs suittes, au tour du Camp de la
+            course de bague, representant <name key="roger">Roger</name>, et les autres <name
                 key="chevaliers">Cheualiers</name> enchantez dans l'<tech type="decor">Isle
                 d'Alcine</tech>.</p>
         <p><persName key="isilvestre" role="auteur">Israel Siluestre</persName>, <foreign
                 xml:lang="la">del, et sculp</foreign>.</p>
     </figure>
+    </sourceDoc>
 </TEI>

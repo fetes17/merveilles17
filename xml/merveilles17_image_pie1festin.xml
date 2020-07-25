@@ -5,7 +5,7 @@
             <titleStmt>
                 <title>Première journée. Festin du Roy, et des Reynes auec plusieurs Princesses et
                     Dames serui de tous les mets et presens faits par les Dieux et les quatre
-                    saisons.</title>
+                    saisons</title>
                 <author>Lepautre, Jean</author>
                 <author>Silvestre, Israël</author>
             </titleStmt>
@@ -23,14 +23,22 @@
                     <licence/>
                 </availability>
             </publicationStmt>
+            <notesStmt>
+                <note>Cette estampe se trouve également reliée dans <ref type="imprimé" target="URI"
+                        >le livre de la fête publié en 1673 par l'imprimerie royale</ref></note>
+            </notesStmt>
             <sourceDesc>
+                <bibl>Jean Lepautre et Israël Silvestre, <hi rend="italic">Première journée. Festin
+                        du Roy, et des Reynes auec plusieurs Princesses et Dames serui de tous les
+                        mets et presens faits par les Dieux et les quatre saisons</hi>, estampe,
+                    Paris, BNF, Estampes, RESERVE QB-201 (46)-FOL, Hennin, 4212</bibl>
                 <msDesc>
                     <msIdentifier>
                         <country>France</country>
                         <settlement>Paris</settlement>
                         <institution>Bibliothèque nationale de France</institution>
-                        <repository>Réserve des livres rares</repository>
-                        <idno>RES-V-498</idno>
+                        <repository>Département des Estampes et de la photographie</repository>
+                        <idno>RESERVE QB-201 (46)-FOL, Hennin, 4212</idno>
                     </msIdentifier>
                     <msContents>
                         <msItem>
@@ -42,13 +50,15 @@
                         </msItem>
                     </msContents>
                     <physDesc>
+                        <p>Estampe</p>
                         <objectDesc form="estampe">
-                            <p>Estampe</p>
                             <supportDesc>
-                                <dimensions unit="cm">
-                                    <height>27,5</height>
-                                    <width>42,2</width>
-                                </dimensions>
+                                <extent>
+                                    <dimensions unit="cm">
+                                        <height>27,5</height>
+                                        <width>42,2</width>
+                                    </dimensions>
+                                </extent>
                             </supportDesc>
                         </objectDesc>
                     </physDesc>
@@ -59,28 +69,28 @@
             <creation>
                 <date notBefore="1664">1664 ou postérieur</date>
             </creation>
-            <note>Cette estampe se trouve également reliée dans <ref type="imprimé" target="URI">le
-                    livre de la fête publié en 1673 par l'imprimerie royale</ref></note>
         </profileDesc>
     </teiHeader>
-    <figure>
-        <graphic
-            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8626216h/f31//full/full/0/native.jpg
+    <sourceDoc>
+        <figure>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8404789g//f1/full/full/0/native.jpg
             "/>
-        <figDesc>Dans une grande arène entourée de feuillées et ouverte par trois portes ornées, un
-            grand festin se tient au fond de celle-ci, en présence du Roi, des Reines et de
-            plusieurs Dames et Princesses. Une rangée d'hommes tenant des flambeaux se tiennent
-            devant eux. Les porteurs des mets défilent devant les spectateurs avant de se diriger
-            vers la table. <tech type="decor"/><persName key="louisxiv" role="convive"/><persName
-                key="anne_d_autriche marie_therese" role="convive"/><tech type="eclairage"/></figDesc>
-        <head><date when="1664-05-07">Première journée</date>.</head>
-        <p><tech>Festin</tech> du <persName key="louisxiv" role="convive">Roy</persName>, et des <persName
-                key="anne_d_autriche marie_therese" role="convive">Reynes</persName> auec plusieurs Princesses et
-            Dames serui de tous les mets et presens faits par les Dieux et les <name
-                key="quatre_saisons">quatre saisons</name>.</p>
-        <!--type de divertissement à encoder  -->
-        <p><persName key="isilvestre" role="auteur">Israel Siluestre</persName>, <foreign
-                xml:lang="la">deline, et sculpsit parisiis et excud. cum priuilegis
-            Regis</foreign>.</p>
-    </figure>
+            <figDesc>Dans une grande arène entourée de feuillées et ouverte par trois portes ornées,
+                un grand festin se tient au fond de celle-ci, en présence du Roi, des Reines et de
+                plusieurs Dames et Princesses. Une rangée d'hommes tenant des flambeaux se tiennent
+                devant eux. Les porteurs des mets défilent devant les spectateurs avant de se
+                diriger vers la table. <tech type="decor"/><persName key="louisxiv" role="convive"
+                    /><persName key="anne_d_autriche marie_therese" role="convive"/><tech
+                    type="eclairage"/></figDesc>
+            <head><date when="1664-05-07">Première journée</date>.</head>
+            <p><tech>Festin</tech> du <persName key="louisxiv" role="convive">Roy</persName>, et des
+                    <persName key="anne_d_autriche marie_therese" role="convive">Reynes</persName>
+                auec plusieurs Princesses et Dames serui de tous les mets et presens faits par les
+                Dieux et les <name key="quatre_saisons">quatre saisons</name>.</p>
+            <p><persName key="isilvestre" role="auteur">Israel Siluestre</persName>, <foreign
+                    xml:lang="la">deline, et sculpsit parisiis et excud. cum priuilegis
+                    Regis</foreign>.</p>
+        </figure>
+    </sourceDoc>
 </TEI>

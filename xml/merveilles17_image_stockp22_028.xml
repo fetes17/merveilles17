@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Une femme sur un ours</title>
+                <title>L'Hiver</title>
             </titleStmt>
             <editionStmt>
                 <edition>Merveilles17</edition>
@@ -19,35 +19,39 @@
                     <licence/>
                 </availability>
             </publicationStmt>
+            <notesStmt>
+                <note/>
+            </notesStmt>
             <sourceDesc>
+                <bibl><hi rend="italic">L'Hiver</hi>, dessin à la pierre noire, Stockholm,
+                    Konstakademien, portef. 22, no 28</bibl>
                 <msDesc>
                     <msIdentifier>
                         <country>Suède</country>
                         <settlement>Stockholm</settlement>
                         <institution>Konstakademien</institution>
-                        <repository></repository>
+                        <repository/>
                         <idno>portef. 22, no 28</idno>
                     </msIdentifier>
                     <msContents>
-                        <msItem></msItem>
+                        <msItem>
+                            <author/>
+                        </msItem>
                     </msContents>
                     <physDesc>
+                        <p>Dessin à la pierre noire</p>
                         <objectDesc form="dessin">
-                            <p>Dessin à la pierre noire</p>
                             <supportDesc>
-                                <dimensions unit="cm">
-                                    <height>41</height>
-                                    <width>32,9</width>
-                                </dimensions>
+                                <extent>
+                                    <dimensions unit="cm">
+                                        <height>41</height>
+                                        <width>32,9</width>
+                                    </dimensions>
+                                </extent>
                             </supportDesc>
                         </objectDesc>
                     </physDesc>
                 </msDesc>
-                <bibl><title>Fêtes et divertissements à la cour</title>, cat. exp., sous la
-                    direction d'Elisabeth Caude, Jérôme de La Gorce et Béatrix Saule, Versailles,
-                    Musée du château de Versailles et de Trianon, 29 novembre 2016 - 26 mars 2017,
-                    Versailles, Paris, Château de Versailles, Gallimard, p. 332-333, cat. 323.
-                </bibl>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -56,10 +60,12 @@
             </creation>
         </profileDesc>
     </teiHeader>
+    <sourceDoc>
     <figure>
         <graphic url=""/>
         <figDesc>Une jeune femme, vêtue d'un riche costume, est assise sur un ours également paré.
-            Un page les guide, pointant la direction de son doigt.<name key="hiver"/><tech type="ours"/><tech
-                type="costume"/></figDesc>
+            Un page les guide, pointant la direction de son doigt.<name key="hiver"/><tech
+                type="animal"/><tech type="costume"/></figDesc>
     </figure>
+    </sourceDoc>
 </TEI>

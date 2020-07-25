@@ -6,7 +6,7 @@
                 <title>Première journée. Comparse des quatre saisons, auec leur suitte de
                     concertans, et de porteurs de presens, et la machine de Pan, et de Diane, auec
                     leur suitte de concertans, et de bergers portans les plats pendant le recit des
-                    vns et des autres deuant le Roy, et les Reynes.</title>
+                    vns et des autres deuant le Roy, et les Reynes</title>
                 <author>Lepautre, Jean</author>
                 <author>Silvestre, Israël</author>
             </titleStmt>
@@ -24,14 +24,24 @@
                     <licence/>
                 </availability>
             </publicationStmt>
+            <notesStmt>
+                <note>Cette estampe se trouve également reliée dans <ref type="imprimé" target="URI"
+                        >le livre de la fête publié en 1673 par l'imprimerie royale</ref></note>
+            </notesStmt>
             <sourceDesc>
+                <bibl>Jean Lepautre et Israël Silvestre, <hi rend="italic">Première journée.
+                        Comparse des quatre saisons, auec leur suitte de concertans, et de porteurs
+                        de presens, et la machine de Pan, et de Diane, auec leur suitte de
+                        concertans, et de bergers portans les plats pendant le recit des vns et des
+                        autres deuant le Roy, et les Reynes</hi>estampe, Paris, BNF, Estampes,
+                    RESERVE FOL-QB-201 (46), Hennin 4211</bibl>
                 <msDesc>
                     <msIdentifier>
                         <country>France</country>
                         <settlement>Paris</settlement>
                         <institution>Bibliothèque nationale de France</institution>
-                        <repository>Réserve des livres rares</repository>
-                        <idno>RES-V-498</idno>
+                        <repository>Département des Estampes et de la photographie</repository>
+                        <idno>RESERVE FOL-QB-201 (46), Hennin 4211</idno>
                     </msIdentifier>
                     <msContents>
                         <msItem>
@@ -45,13 +55,15 @@
                         </msItem>
                     </msContents>
                     <physDesc>
+                        <p>Estampe</p>
                         <objectDesc form="estampe">
-                            <p>Estampe</p>
                             <supportDesc>
-                                <dimensions unit="cm">
-                                    <height>27,6</height>
-                                    <width>42,2</width>
-                                </dimensions>
+                                <extent>
+                                    <dimensions unit="cm">
+                                        <height>27,6</height>
+                                        <width>42,2</width>
+                                    </dimensions>
+                                </extent>
                             </supportDesc>
                         </objectDesc>
                     </physDesc>
@@ -62,32 +74,33 @@
             <creation>
                 <date notBefore="1664">1664 ou postérieur</date>
             </creation>
-            <note>Cette estampe se trouve également reliée dans <ref type="imprimé" target="URI">le
-                    livre de la fête publié en 1673 par l'imprimerie royale</ref></note>
         </profileDesc>
     </teiHeader>
-    <figure>
-        <graphic
-            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8626216h/f28//full/full/0/native.jpg
+    <sourceDoc>
+        <figure>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84047882//f1/full/full/0/native.jpg
             "/>
-        <figDesc>Dans une grande arène entourée de feuillées et ouverte par trois portes ornées, les
-            participants du spectacle se présentent aux spectateurs. Au premier plan, on peut voir
-            les concertans. Derrière eux, les quatre saisons : le printemps et son cheval, l'été et
-            son éléphant, l'automne et son chameau, l'hiver et son ours. Ils sont suivis par leurs
-            porteurs de présents. Au centre, la machine de Pan et de Diane. <tech type="decor"
-                /><tech type="machine_terrestre"/><tech type="cheval"/><tech type="elephant"/><tech
-                type="chameau"/><tech type="ours"/><name key="quatre_saisons"/><name
-                key="printemps"/><name key="ete"/><name key="automne"/><name key="hiver"/><name
-                key="pan"/><name key="diane"/><persName role="musicien"/></figDesc>
-        <head><date when="1664-05-07">Première journée</date>.</head>
-        <p>Comparse des <name key="quatre_saisons">quatre saisons</name>, auec leur suitte de
-                <persName role="musicien">concertans</persName>, et de porteurs de presens, et la
-                <tech type="machine_terrestre">machine de Pan, et de Diane</tech>, auec leur suitte
-            de <persName role="musicien">concertans</persName>, et de bergers portans les plats
-            pendant le recit des vns et des autres deuant le <persName key="louisxiv" role="spectateur"
-                >Roy</persName>, et les <persName key="anne_d_autriche marie_therese" role="spectateur"
-                >Reynes</persName>.</p>
-        <p><persName key="isilvestre" role="auteur">Israel Siluestre</persName>, <foreign
-                xml:lang="la">del et sculp</foreign>.</p>
-    </figure>
+            <figDesc>Dans une grande arène entourée de feuillées et ouverte par trois portes ornées,
+                les participants du spectacle se présentent aux spectateurs. Au premier plan, on
+                peut voir les concertans. Derrière eux, les quatre saisons : le printemps et son
+                cheval, l'été et son éléphant, l'automne et son chameau, l'hiver et son ours. Ils
+                sont suivis par leurs porteurs de présents. Au centre, la machine de Pan et de
+                Diane. <tech type="decor"/><tech type="machine_terrestre"/><tech type="cheval"
+                    /><tech type="elephant"/><tech type="chameau"/><tech type="ours"/><name
+                    key="quatre_saisons"/><name key="printemps"/><name key="ete"/><name
+                    key="automne"/><name key="hiver"/><name key="pan"/><name key="diane"/><persName
+                    role="musicien"/></figDesc>
+            <head><date when="1664-05-07">Première journée</date>.</head>
+            <p>Comparse des <name key="quatre_saisons">quatre saisons</name>, auec leur suitte de
+                    <persName role="musicien">concertans</persName>, et de porteurs de presens, et
+                la <tech type="machine_terrestre">machine de Pan, et de Diane</tech>, auec leur
+                suitte de <persName role="musicien">concertans</persName>, et de bergers portans les
+                plats pendant le recit des vns et des autres deuant le <persName key="louisxiv"
+                    role="spectateur">Roy</persName>, et les <persName
+                    key="anne_d_autriche marie_therese" role="spectateur">Reynes</persName>.</p>
+            <p><persName key="isilvestre" role="auteur">Israel Siluestre</persName>, <foreign
+                    xml:lang="la">del et sculp</foreign>.</p>
+        </figure>
+    </sourceDoc>
 </TEI>

@@ -7,7 +7,7 @@
                     l'Isle d'Alcine, ou paroissoit son Palais enchanté sortant d'vn petit Rocher
                     dans lequel fut dancé vn Ballet de plusieurs entrées, et apres quoy ce Palais
                     fut consumé, par vn feu d'artifice representant la rupture de l'enchantement
-                    après la fuite de Roger.</title>
+                    après la fuite de Roger</title>
                 <author>Lepautre, Jean</author>
                 <author>Silvestre, Israël</author>
             </titleStmt>
@@ -25,14 +25,27 @@
                     <licence/>
                 </availability>
             </publicationStmt>
+            <notesStmt>
+                <note>Un dessin conservé aux Archives nationales <ref type="estampe" target="URI"/>
+                    pourrait être préparatoire à cette estampe. Cette dernière se trouve aussi
+                    reliée dans <ref type="imprimé" target="URI">le livre de la fête publié en 1673
+                        par l'imprimerie royale</ref></note>
+            </notesStmt>
             <sourceDesc>
+                <bibl>Jean Lepautre et Israël Silvestre, <hi rend="italic">Troisiesme journée.
+                        Theatre dressé au milieu du grand Estang representant l'Isle d'Alcine, ou
+                        paroissoit son Palais enchanté sortant d'vn petit Rocher dans lequel fut
+                        dancé vn Ballet de plusieurs entrées, et apres quoy ce Palais fut consumé,
+                        par vn feu d'artifice representant la rupture de l'enchantement après la
+                        fuite de Roger</hi>, estampe, Paris, BNF, Estampe, RESERVE QB-201 (46)-FOL,
+                    Hennin, 4214</bibl>
                 <msDesc>
                     <msIdentifier>
                         <country>France</country>
                         <settlement>Paris</settlement>
                         <institution>Bibliothèque nationale de France</institution>
-                        <repository>Réserve des livres rares</repository>
-                        <idno>RES-V-498</idno>
+                        <repository>Département des Estampes et de la photographie</repository>
+                        <idno>RESERVE QB-201 (46)-FOL, Hennin, 4214</idno>
                     </msIdentifier>
                     <msContents>
                         <msItem>
@@ -47,13 +60,15 @@
                         </msItem>
                     </msContents>
                     <physDesc>
+                        <p>Estampe</p>
                         <objectDesc form="estampe">
-                            <p>Estampe</p>
                             <supportDesc>
-                                <dimensions unit="cm">
-                                    <height>27,1</height>
-                                    <width>42,4</width>
-                                </dimensions>
+                                <extent>
+                                    <dimensions unit="cm">
+                                        <height>27,1</height>
+                                        <width>42,4</width>
+                                    </dimensions>
+                                </extent>
                             </supportDesc>
                         </objectDesc>
                     </physDesc>
@@ -64,32 +79,31 @@
             <creation>
                 <date notBefore="1664">1664 ou postérieur</date>
             </creation>
-            <note>Un dessin conservé aux Archives nationales <ref type="estampe" target="URI"
-                ></ref> pourrait être préparatoire à cette estampe. Cette dernière se trouve aussi reliée dans <ref type="imprimé" target="URI">le
-                    livre de la fête publié en 1673 par l'imprimerie royale</ref></note>
         </profileDesc>
     </teiHeader>
-    <figure>
-        <graphic
-            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8626216h/f113//full/full/0/native.jpg
+    <sourceDoc>
+        <figure>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8404791j//f1/full/full/0/native.jpg
             "/>
-        <figDesc>Les spectateurs observent le spectacle se déroulant sur le bassin d'eau. Celui-ci
-            est entouré de deux panneaux. Sur l'avant du bassin, trois monstres marins, chacun monté
-            par une femme. En son centre, un bâtiment posé sur un rocher, représente le Palais
-            d'Alcine,où plusieurs danseurs réalisent un ballet.<tech type="decor"/><tech
-                type="construction"/><tech type="machine_aquatique"/><name key="alcine"/><name
-                key="celie"/><name key="dirce"/><placeName key="versailles_jardins_bassin_apollon"/></figDesc>
-        <!-- encodage danseurs ? -->
-        <head><date when="1664-05-09">Troisiesme journée</date>.</head>
-        <p><tech type="decor">Theatre</tech> dressé au milieu du <placeName key="versailles_jardins_bassin_apollon"
-                >grand Estang</placeName> representant l'Isle d'Alcine, ou paroissoit son <tech
-                type="construction">Palais enchanté</tech> sortant d'vn petit <tech
-                type="construction">Rocher</tech> dans lequel fut dancé vn <tech>Ballet</tech> de
-            plusieurs entrées, et apres quoy ce <tech type="construction">Palais</tech> fut consumé,
-            par vn <tech type="feu_d_artifice">feu d'artifice</tech>representant la rupture de
-            l'enchantement après la fuite de <name key="roger">Roger</name></p>
-        <!-- encodage type divertissement -->
-        <p><persName key="isilvestre" role="auteur">Israel Siluestre</persName>, <foreign
-                xml:lang="la">deline, et sculpsit</foreign>.</p>
-    </figure>
+            <figDesc>Les spectateurs observent le spectacle se déroulant sur le bassin d'eau.
+                Celui-ci est entouré de deux panneaux. Sur l'avant du bassin, trois monstres marins,
+                chacun monté par une femme. En son centre, un bâtiment posé sur un rocher,
+                représente le Palais d'Alcine,où plusieurs danseurs réalisent un ballet.<tech
+                    type="decor"/><tech type="construction"/><tech type="machine_aquatique"/><name
+                    key="alcine"/><name key="celie"/><name key="dirce"/><placeName
+                    key="versailles_jardins_bassin_apollon"/></figDesc>
+            <head><date when="1664-05-09">Troisiesme journée</date>.</head>
+            <p><tech type="decor">Theatre</tech> dressé au milieu du <placeName
+                    key="versailles_jardins_bassin_apollon">grand Estang</placeName> representant
+                l'Isle d'Alcine, ou paroissoit son <tech type="construction">Palais enchanté</tech>
+                sortant d'vn petit <tech type="construction">Rocher</tech> dans lequel fut dancé vn
+                Ballet de plusieurs entrées, et apres quoy ce <tech type="construction"
+                    >Palais</tech> fut consumé, par vn <tech type="feu_d_artifice">feu
+                    d'artifice</tech>representant la rupture de l'enchantement après la fuite de
+                    <name key="roger">Roger</name></p>
+            <p><persName key="isilvestre" role="auteur">Israel Siluestre</persName>, <foreign
+                    xml:lang="la">deline, et sculpsit</foreign>.</p>
+        </figure>
+    </sourceDoc>
 </TEI>

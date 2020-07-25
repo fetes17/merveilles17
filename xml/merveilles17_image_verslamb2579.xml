@@ -19,7 +19,12 @@
                     <licence/>
                 </availability>
             </publicationStmt>
+            <notesStmt>
+                <note/>
+            </notesStmt>
             <sourceDesc>
+                <bibl><hi rend="italic">Feu d'artifice tiré à Versailles</hi>, huile sur toile,
+                    Versailles, Musée Lambinet</bibl>
                 <msDesc>
                     <msIdentifier>
                         <country>France</country>
@@ -29,16 +34,20 @@
                         <idno>2579</idno>
                     </msIdentifier>
                     <msContents>
-                        <msItem></msItem>
+                        <msItem>
+                            <author/>
+                        </msItem>
                     </msContents>
                     <physDesc>
+                        <p>Huile sur toile</p>
                         <objectDesc form="peinture">
-                            <p>Huile sur toile</p>
                             <supportDesc>
-                                <dimensions unit="cm">
-                                    <height>40,5</height>
-                                    <width>59,5</width>
-                                </dimensions>
+                                <extent>
+                                    <dimensions unit="cm">
+                                        <height>40,5</height>
+                                        <width>59,5</width>
+                                    </dimensions>
+                                </extent>
                             </supportDesc>
                         </objectDesc>
                     </physDesc>
@@ -51,11 +60,12 @@
             </creation>
         </profileDesc>
     </teiHeader>
-    <figure>
-        <graphic url=""/>
-        <figDesc>Dans la nuit, les spectateurs admirent l'imposant feu d'artifice tiré au dessus
-            d'un grand bassin d'eau. <tech type="feu_d_artifice"></tech></figDesc>
-        <!-- encodage de la nuit ? -->
-        <!-- encodage du bassin d'eau ? -->
-    </figure>
+    <sourceDoc>
+        <figure>
+            <graphic url=""/>
+            <figDesc>Dans la nuit, les spectateurs admirent l'imposant feu d'artifice tiré au dessus
+                d'un grand bassin d'eau. <tech type="feu_d_artifice"/><placeName
+                    key="versailles_jardins_bassin_apollon"/></figDesc>
+        </figure>
+    </sourceDoc>
 </TEI>
