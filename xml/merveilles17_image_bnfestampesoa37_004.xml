@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
+<?xml-stylesheet type="text/css" href="../tei-author.css" alternate="author"?>
+<?xml-model href="../merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
     <teiHeader>
         <fileDesc>
@@ -16,14 +19,14 @@
                 <publisher>Université d’Artois - Lille, MESHS</publisher>
                 <date when="2019"/>
                 <availability status="restricted">
-                    <licence/>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
                 </availability>
             </publicationStmt>
             <notesStmt>
                 <note/>
             </notesStmt>
             <sourceDesc>
-                <bibl><hi rend="italic">Cavalier au pied d'un cheval</hi>, dessin à la pierre noire,
+                <bibl><title>Cavalier au pied d'un cheval</title>, dessin à la pierre noire,
                     traces d'encre brune à la plume, Paris, BNF, Estampes, OA 37(2) Fol</bibl>
                 <msDesc>
                     <msIdentifier>
@@ -52,7 +55,6 @@
                         </objectDesc>
                     </physDesc>
                 </msDesc>
-                <bibl/>
             </sourceDesc>
         </fileDesc>
         <profileDesc>

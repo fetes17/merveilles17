@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
+<?xml-stylesheet type="text/css" href="../tei-author.css" alternate="author"?>
+<?xml-model href="../merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
     <teiHeader>
         <fileDesc>
@@ -19,7 +22,7 @@
                 <publisher>Université d’Artois - Lille, MESHS</publisher>
                 <date when="2019"/>
                 <availability status="restricted">
-                    <licence/>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
                 </availability>
             </publicationStmt>
             <notesStmt>
@@ -27,9 +30,9 @@
                         >le livre de la fête publié en 1673 par l'imprimerie royale</ref></note>
             </notesStmt>
             <sourceDesc>
-                <bibl>Jean Lepautre et Israël Silvestre, <hi rend="italic">Seconde Journée. Theatre
+                <bibl>Jean Lepautre et Israël Silvestre, <title>Seconde Journée. Theatre
                         fait dans la mesme allée, sur lequel la Comédie, et le Ballet de la
-                        Princesse d'Elide furent representéz</hi>, estampe, Paris, Estampes, RESERVE
+                        Princesse d'Elide furent representéz</title>, estampe, Paris, Estampes, RESERVE
                     QB-201 (46)-FOL, Hennin, 4213</bibl>
                 <msDesc>
                     <msIdentifier>

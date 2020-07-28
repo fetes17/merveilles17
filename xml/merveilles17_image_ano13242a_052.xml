@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
+<?xml-stylesheet type="text/css" href="../tei-author.css" alternate="author"?>
+<?xml-model href="../merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
     <teiHeader>
         <fileDesc>
@@ -17,15 +20,15 @@
                 <publisher>Université d’Artois - Lille, MESHS</publisher>
                 <date when="2019"/>
                 <availability status="restricted">
-                    <licence/>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
                 </availability>
             </publicationStmt>
             <notesStmt>
                 <note/>
             </notesStmt>
             <sourceDesc>
-                <bibl>Carlo Vigarani (d'après), <hi rend="italic">La machine de Pan et de
-                    Diane</hi>, contre-épreuve d’un dessin à la pierre noire, Paris, Archives nationales,
+                <bibl>Carlo Vigarani (d'après), <title>La machine de Pan et de
+                    Diane</title>, contre-épreuve d’un dessin à la pierre noire, Paris, Archives nationales,
                     CP O1 3242A, n° 52.</bibl>
                 <msDesc>
                     <msIdentifier>

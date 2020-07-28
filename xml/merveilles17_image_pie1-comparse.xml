@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
+<?xml-stylesheet type="text/css" href="../tei-author.css" alternate="author"?>
+<?xml-model href="../merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
     <teiHeader>
         <fileDesc>
@@ -21,7 +24,7 @@
                 <publisher>Université d’Artois - Lille, MESHS</publisher>
                 <date when="2019"/>
                 <availability status="restricted">
-                    <licence/>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
                 </availability>
             </publicationStmt>
             <notesStmt>
@@ -29,11 +32,11 @@
                         >le livre de la fête publié en 1673 par l'imprimerie royale</ref></note>
             </notesStmt>
             <sourceDesc>
-                <bibl>Jean Lepautre et Israël Silvestre, <hi rend="italic">Première journée.
+                <bibl>Jean Lepautre et Israël Silvestre, <title>Première journée.
                         Comparse du Roy et de ses chevaliers, auec toutes leurs suittes, dans le
                         Camp de la course de bague, pendant l'Ouuerture : de la feste faite par les
                         recits d'Apollon et des quatre siecles, assis sur un grand char de
-                        triomphe</hi>, estampe, Paris, BNF, Estampes, RESERVE QB-201 (46)-FOL,
+                        triomphe</title>, estampe, Paris, BNF, Estampes, RESERVE QB-201 (46)-FOL,
                     Hennin, 4209</bibl>
                 <msDesc>
                     <msIdentifier>
@@ -56,12 +59,13 @@
                     </msContents>
                     <physDesc>
                         <objectDesc form="estampe">
-                            <p>Estampe</p>
                             <supportDesc>
+                              <extent>
                                 <dimensions unit="cm">
                                     <height>27,6</height>
                                     <width>42,3</width>
                                 </dimensions>
+                              </extent>
                             </supportDesc>
                         </objectDesc>
                     </physDesc>

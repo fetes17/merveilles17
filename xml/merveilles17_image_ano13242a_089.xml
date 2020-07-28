@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
+<?xml-stylesheet type="text/css" href="../tei-author.css" alternate="author"?>
+<?xml-model href="../merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
     <teiHeader>
         <fileDesc>
@@ -19,16 +22,16 @@
                 <publisher>Université d’Artois - Lille, MESHS</publisher>
                 <date when="2019"/>
                 <availability status="restricted">
-                    <licence/>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
                 </availability>
             </publicationStmt>
             <notesStmt>
                 <note/>
             </notesStmt>
             <sourceDesc>
-                <bibl>Israël Silvestre (d'après), <hi rend="italic">Représentation du théâtre dressé
+                <bibl>Israël Silvestre (d'après), <title>Représentation du théâtre dressé
                         dans les jardins de Versailles sur lequel est joué la Princesse d’Elide
-                        donnée lors des Plaisirs de l’Ile enchantée</hi>, dessin à la pierre noire,
+                        donnée lors des Plaisirs de l’Ile enchantée</title>, dessin à la pierre noire,
                     à l'encre noire et au lavis gris, Paris, CP O1 3242A, n°89.</bibl>
                 <msDesc>
                     <msIdentifier>

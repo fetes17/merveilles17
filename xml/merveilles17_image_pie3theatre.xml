@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
+<?xml-stylesheet type="text/css" href="../tei-author.css" alternate="author"?>
+<?xml-model href="../merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
     <teiHeader>
         <fileDesc>
@@ -22,7 +25,7 @@
                 <publisher>Université d’Artois - Lille, MESHS</publisher>
                 <date when="2019"/>
                 <availability status="restricted">
-                    <licence/>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
                 </availability>
             </publicationStmt>
             <notesStmt>
@@ -32,12 +35,12 @@
                         par l'imprimerie royale</ref></note>
             </notesStmt>
             <sourceDesc>
-                <bibl>Jean Lepautre et Israël Silvestre, <hi rend="italic">Troisiesme journée.
+                <bibl>Jean Lepautre et Israël Silvestre, <title>Troisiesme journée.
                         Theatre dressé au milieu du grand Estang representant l'Isle d'Alcine, ou
                         paroissoit son Palais enchanté sortant d'vn petit Rocher dans lequel fut
                         dancé vn Ballet de plusieurs entrées, et apres quoy ce Palais fut consumé,
                         par vn feu d'artifice representant la rupture de l'enchantement après la
-                        fuite de Roger</hi>, estampe, Paris, BNF, Estampe, RESERVE QB-201 (46)-FOL,
+                        fuite de Roger</title>, estampe, Paris, BNF, Estampe, RESERVE QB-201 (46)-FOL,
                     Hennin, 4214</bibl>
                 <msDesc>
                     <msIdentifier>

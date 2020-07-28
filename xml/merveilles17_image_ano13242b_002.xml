@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
+<?xml-stylesheet type="text/css" href="../tei-author.css" alternate="author"?>
+<?xml-model href="../merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
     <teiHeader>
         <fileDesc>
@@ -18,7 +21,7 @@
                 <publisher>Université d’Artois - Lille, MESHS</publisher>
                 <date when="2019"/>
                 <availability status="restricted">
-                    <licence/>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
                 </availability>
             </publicationStmt>
             <notesStmt>
@@ -27,8 +30,8 @@
                     la lettre est absente.</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>Israël Silvestre (d'après), <hi rend="italice">Alcine devant son palais
-                        accompagnée de ses suivantes lors des Plaisirs de l’Ile enchantée</hi>,
+                <bibl>Israël Silvestre (d'après), <title>Alcine devant son palais
+                        accompagnée de ses suivantes lors des Plaisirs de l’Ile enchantée</title>,
                     dessin à la plume, à l'encre noire et au lavis gris, avec des traces de pierre
                     noire, Paris, Archives nationales, CP O1 3242B, n° 2</bibl>
                 <msDesc>

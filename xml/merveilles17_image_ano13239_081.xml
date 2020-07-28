@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
+<?xml-stylesheet type="text/css" href="../tei-author.css" alternate="author"?>
+<?xml-model href="../merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
     <teiHeader>
         <fileDesc>
@@ -18,15 +21,15 @@
                 <publisher>Université d’Artois - Lille, MESHS</publisher>
                 <date when="2019"/>
                 <availability status="restricted">
-                    <licence/>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
                 </availability>
             </publicationStmt>
             <notesStmt>
                 <note></note>
             </notesStmt>
             <sourceDesc>
-                <bibl>Israël Silvestre (d'après), <hi rend="italic">Copie de la première planche représentant le château de Versailles et un
-                    cartouche pour le recueil des Plaisirs de l’Ile enchantée</hi>dessin, Paris, CP, O1 3239, n° 81</bibl>
+                <bibl>Israël Silvestre (d'après), <title>Copie de la première planche représentant le château de Versailles et un
+                    cartouche pour le recueil des Plaisirs de l’Ile enchantée</title>dessin, Paris, CP, O1 3239, n° 81</bibl>
                 <msDesc>
                     <msIdentifier>
                         <country>France</country>

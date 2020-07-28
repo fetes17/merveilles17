@@ -147,10 +147,7 @@
           <interleave>
             <element name="creation">
               <a:documentation>Date de création du document (pour base de données)</a:documentation>
-              <element name="date">
-                <ref name="when"/>
-                <text/>
-              </element>
+              <ref name="date"/>
             </element>
             <optional>
               <element name="langUsage">
@@ -494,12 +491,20 @@
     </define>
     <define name="figure">
       <element name="figure">
+        <a:documentation>Document image, avec lien oligatoire à une version numérique de l’image <a:el>graphic</a:el>, et une description contenant les termes indexés <a:el>figDesc</a:el></a:documentation>
         <ref name="graphic"/>
-        <oneOrMore>
+        <element name="figDesc">
+          <a:documentation>Description de l’image (texte de l’éditeur)</a:documentation>
+          <ref name="chars"/>
+        </element>
+        <optional>
+          <ref name="head"/>
+        </optional>
+        <zeroOrMore>
           <choice>
             <ref name="p"/>
           </choice>
-        </oneOrMore>
+        </zeroOrMore>
       </element>
     </define>
     <define name="head">
@@ -658,9 +663,19 @@
     <define name="date">
       <element name="date">
         <a:documentation>Date</a:documentation>
-        <optional>
+        <choice>
           <ref name="when"/>
-        </optional>
+          <ref name="notAfter"/>
+          <ref name="notBefore"/>
+          <group>
+            <ref name="notAfter"/>
+            <ref name="notBefore"/>
+          </group>
+          <group>
+            <ref name="from"/>
+            <ref name="to"/>
+          </group>
+        </choice>
         <text/>
       </element>
     </define>
@@ -987,6 +1002,16 @@
     </define>
     <define name="to">
       <attribute name="to">
+        <ref name="date.type"/>
+      </attribute>
+    </define>
+    <define name="notBefore">
+      <attribute name="notBefore">
+        <ref name="date.type"/>
+      </attribute>
+    </define>
+    <define name="notAfter">
+      <attribute name="notAfter">
         <ref name="date.type"/>
       </attribute>
     </define>

@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
+<?xml-stylesheet type="text/css" href="../tei-author.css" alternate="author"?>
+<?xml-model href="../merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
     <teiHeader>
         <fileDesc>
@@ -17,14 +20,16 @@
                 <publisher>Université d’Artois - Lille, MESHS</publisher>
                 <date when="2019"/>
                 <availability status="restricted">
-                    <licence/>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
                 </availability>
             </publicationStmt>
-            <note>Il s'agit certainement de la contre-épreuve du dessin conservé à la<ref
-                    type="dessin" target="URI">BnF, OA 37 (2) Fol, fol. 171</ref></note>
+            <notesStmt>
+                <note>Il s'agit certainement de la contre-épreuve du dessin conservé à la<ref
+                        type="dessin" target="URI">BnF, OA 37 (2) Fol, fol. 171</ref></note>
+            </notesStmt>
             <sourceDesc>
-                <bibl><hi rend="italic">Le char d'Apollon, conduit par le Temps lors de la première
-                        journée des Plaisirs de l'Ile enchantée</hi>, dessin, Paris, AN, CP O1
+                <bibl><title>Le char d'Apollon, conduit par le Temps lors de la première
+                        journée des Plaisirs de l'Ile enchantée</title>, dessin, Paris, AN, CP O1
                     23241, n° 77b</bibl>
                 <msDesc>
                     <msIdentifier>

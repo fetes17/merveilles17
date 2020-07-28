@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
+<?xml-stylesheet type="text/css" href="../tei-author.css" alternate="author"?>
+<?xml-model href="../merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
     <teiHeader>
         <fileDesc>
@@ -16,7 +19,7 @@
                 <publisher>Université d’Artois - Lille, MESHS</publisher>
                 <date when="2019"/>
                 <availability status="restricted">
-                    <licence/>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
                 </availability>
             </publicationStmt>
             <notesStmt>
@@ -25,7 +28,7 @@
                         37 (2) Fol</ref></note>
             </notesStmt>
             <sourceDesc>
-                <bibl><hi rend="italic">Le Printemps</hi>, contre-épreuve d'un dessin à la pierre
+                <bibl><title>Le Printemps</title>, contre-épreuve d'un dessin à la pierre
                     noire, Stockholm, Konstakademien, portef. 22, no 30</bibl>
                 <msDesc>
                     <msIdentifier>

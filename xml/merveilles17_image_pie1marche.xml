@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
+<?xml-stylesheet type="text/css" href="../tei-author.css" alternate="author"?>
+<?xml-model href="../merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
     <teiHeader>
         <fileDesc>
@@ -20,7 +23,7 @@
                 <publisher>Université d’Artois - Lille, MESHS</publisher>
                 <date when="2019"/>
                 <availability status="restricted">
-                    <licence/>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
                 </availability>
             </publicationStmt>
             <notesStmt>
@@ -28,10 +31,10 @@
                     livre de la fête publié en 1673 par l'imprimerie royale</ref></note>
             </notesStmt>
             <sourceDesc>
-                <bibl>Jean Lepautre et Israël Silvestre, <hi rend="italic">Premiere journée. Marche
+                <bibl>Jean Lepautre et Israël Silvestre, <title>Premiere journée. Marche
                         du Roy, et de ses cheualiers, auec toutes leurs suittes, au tour du Camp de
                         la course de bague, representant Roger, et les autres Cheualiers enchantez
-                        dans l'Isle d'Alcine</hi>, estampe, Paris, BNF, Estampes, RESERVE QB-201
+                        dans l'Isle d'Alcine</title>, estampe, Paris, BNF, Estampes, RESERVE QB-201
                     (46)-FOL, Hennin, 4208</bibl>
                 <msDesc>
                     <msIdentifier>

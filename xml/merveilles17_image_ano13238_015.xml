@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
+<?xml-stylesheet type="text/css" href="../tei-author.css" alternate="author"?>
+<?xml-model href="../merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
     <teiHeader>
         <fileDesc>
@@ -18,12 +21,12 @@
                 <publisher>Université d’Artois - Lille, MESHS</publisher>
                 <date when="2019"/>
                 <availability status="restricted">
-                    <licence/>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Carlo Vigarani (d'après), <hi rend="italic">Le char d'Apollon, conduit par le
-                        Temps lors de la première journée des Plaisirs de l'Ile enchantée</hi>,
+                <bibl>Carlo Vigarani (d'après), <title>Le char d'Apollon, conduit par le
+                        Temps lors de la première journée des Plaisirs de l'Ile enchantée</title>,
                     dessin, Paris, AN, CP O1 3238, n° 15</bibl>
                 <msDesc>
                     <msIdentifier>
@@ -66,12 +69,12 @@
                 url="http://www2.culture.gouv.fr/Wave/image/archim/MP/FRDAFAN08_SCEK000186N_2.jpg     
             "/>
 
-            <figDesc>Le char d'Apollon, tiré par quatre chevaux et conduit par le Temps. Apollon est
+            <p>Le char d'Apollon, tiré par quatre chevaux et conduit par le Temps. Apollon est
                 assis au sommet, accompagné de l'Âge de fer, l'Âge d'airain, l'Âge d'argent et l'Âge
                     d'or.<tech type="machine_terrestre"/><tech type="animal"/><tech type="costume"
                     /><name key="apollon"/><name key="temps"/><name key="quatre_siecles"/><name
                     key="age_fer"/><name key="age_airain"/><name key="age_argent"/><name
-                    key="age_or"/></figDesc>
+                    key="age_or"/></p>
         </figure>
     </sourceDoc>
 </TEI>

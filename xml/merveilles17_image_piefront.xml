@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
+<?xml-stylesheet type="text/css" href="../tei-author.css" alternate="author"?>
+<?xml-model href="../merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
     <teiHeader>
         <fileDesc>
@@ -20,7 +23,7 @@
                 <publisher>Université d’Artois - Lille, MESHS</publisher>
                 <date when="2019"/>
                 <availability status="restricted">
-                    <licence/>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
                 </availability>
             </publicationStmt>
             <notesStmt>
@@ -28,9 +31,9 @@
                         >le livre de la fête publié en 1673 par l'imprimerie royale</ref></note>
             </notesStmt>
             <sourceDesc>
-                <bibl>Jean Lepautre et Israël Silvestre, <hi rend="italic">Les plaisirs de l'Isle
+                <bibl>Jean Lepautre et Israël Silvestre, <title>Les plaisirs de l'Isle
                         enchantée, ou les festes, et diuertissements du Roy, à Versailles, Diuisez
-                        en trois journées, et commencéz le 7me. jour de may de l'année 1664</hi>,
+                        en trois journées, et commencéz le 7me. jour de may de l'année 1664</title>,
                     estampe, Paris, BNF, Estampes, RESERVE QB-201 (46)-FOL, Hennin, 4207</bibl>
                 <msDesc>
                     <msIdentifier>
