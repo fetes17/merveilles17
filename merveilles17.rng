@@ -5,16 +5,29 @@
   </start>
   <div>
     <a:documentation>Structure</a:documentation>
-   <define name="TEI">
+    <define name="TEI">
       <element name="TEI">
         <ref name="xml.lang"/>
         <ref name="teiHeader"/>
-        <element name="text">
-          <optional>
-            <ref name="front"/>
-          </optional>
-          <ref name="body"/>
-        </element>
+        <choice>
+          <ref name="text"/>
+          <ref name="sourceDoc"/>
+        </choice>
+      </element>
+    </define>
+    <define name="text">
+      <element name="text">
+        <optional>
+          <ref name="front"/>
+        </optional>
+        <ref name="body"/>
+      </element>
+    </define>
+    <define name="sourceDoc">
+      <element name="sourceDoc">
+        <oneOrMore>
+          <ref name="figure"/>
+        </oneOrMore>
       </element>
     </define>
     <a:example>
@@ -79,13 +92,7 @@
             <a:documentation>Titre (! obligatoire) et auteurs (* optionnel et répétable) du document</a:documentation>
             <ref name="title"/>
             <zeroOrMore>
-              <element name="author">
-                <a:documentation>Auteur du document, avec forme normalisée dans l’attribut <a:att>key</a:att>.</a:documentation>
-                <a:example>
-                  <author key="Poquelin, Jean-Baptiste (1622-1673) dit Molière">Molière</author>
-                </a:example>
-                <text/>
-              </element>
+              <ref name="author"/>
             </zeroOrMore>
           </element>
           <element name="editionStmt">
@@ -121,15 +128,18 @@
               </element>
             </element>
           </element>
-          <element name="sourceDesc">
-            <element name="bibl">
+          <optional>
+            <element name="notesStmt">
               <oneOrMore>
-                <choice>
-                  <text/>
-                  <ref name="title"/>
-                </choice>
+                <ref name="note"/>
               </oneOrMore>
             </element>
+          </optional>
+          <element name="sourceDesc">
+            <ref name="bibl"/>
+            <optional>
+              <ref name="msDesc"/>
+            </optional>
           </element>
         </element>
         <element name="profileDesc">
@@ -142,54 +152,189 @@
                 <text/>
               </element>
             </element>
-            <element name="langUsage">
-              <a:documentation>Code de langue</a:documentation>
-              <element name="language">
-                <attribute name="ident">
-                  <choice>
-                    <value>fr</value>
-                  </choice>
-                </attribute>
-                <empty/>
-              </element>
-            </element>
-            <element name="textClass">
-              <a:documentation>Liste de types de documents</a:documentation>
-              <oneOrMore>
-                <element name="classCode">
-                  <a:documentation>Types de documents, liste de termes en cours de fermeture</a:documentation>
-                  <attribute name="scheme" a:defaultValue="merveille17"/>
-                  <choice>
-                    <text/>
-                  </choice>
-                </element>
-              </oneOrMore>
-            </element>
-            <element name="abstract">
-              <a:documentation>Métadonnées sur le document (résumé, événement, lieu, personnes…)</a:documentation>
-              <element name="listEvent">
-                <a:documentation>Un ou plusieurs événements, obligatoire pour tout document.</a:documentation>
-                <oneOrMore>
-                  <element name="event">
-                    <a:documentation>Un événement, daté et localisé, l’identifiant <a:att>xml:id</a:att> est nécessaire s’il y a plus d’un événement et que des parties du document veulent y faire référence.</a:documentation>
-                    <optional>
-                      <ref name="xml.id"/>
-                    </optional>
+            <optional>
+              <element name="langUsage">
+                <a:documentation>Code de langue</a:documentation>
+                <element name="language">
+                  <attribute name="ident">
                     <choice>
-                      <ref name="when"/>
-                      <group>
-                        <ref name="from"/>
-                        <ref name="to"/>
-                      </group>
+                      <value>fr</value>
                     </choice>
-                    <ref name="placeName"/>
-                    <optional>
-                      <ref name="label"/>
-                    </optional>
-                  </element>
-                </oneOrMore>
+                  </attribute>
+                  <empty/>
+                </element>
               </element>
-              <!--
+            </optional>
+            <optional>
+              <ref name="textClass"/>
+            </optional>
+            <optional>
+              <ref name="events"/>
+            </optional>
+          </interleave>
+        </element>
+      </element>
+    </define>
+    <define name="author">
+      <element name="author">
+        <a:documentation>Auteur du document, avec forme normalisée dans l’attribut <a:att>key</a:att>.</a:documentation>
+        <a:example>
+          <author key="Poquelin, Jean-Baptiste (1622-1673) dit Molière">Molière</author>
+        </a:example>
+        <text/>
+      </element>
+    </define>
+    <define name="msDesc">
+      <element name="msDesc">
+        <ref name="msIdentifier"/>
+        <optional>
+          <ref name="msContents"/>
+        </optional>
+        <ref name="physDesc"/>
+      </element>
+    </define>
+    <define name="msIdentifier">
+      <element name="msIdentifier">
+        <zeroOrMore>
+          <choice>
+            <element name="collection">
+              <text/>
+            </element>
+            <element name="country">
+              <text/>
+            </element>
+            <element name="institution">
+              <text/>
+            </element>
+            <element name="repository">
+              <text/>
+            </element>
+            <element name="settlement">
+              <text/>
+            </element>
+          </choice>
+        </zeroOrMore>
+        <oneOrMore>
+          <element name="idno">
+            <text/>
+          </element>
+        </oneOrMore>
+      </element>
+    </define>
+    <define name="msContents">
+      <element name="msContents">
+        <oneOrMore>
+          <element name="msItem">
+            <optional>
+              <element name="locus">
+                <text/>
+              </element>
+            </optional>
+            <zeroOrMore>
+              <choice>
+                <ref name="title"/>
+                <ref name="author"/>
+              </choice>
+            </zeroOrMore>
+          </element>
+        </oneOrMore>
+      </element>
+    </define>
+    <define name="physDesc">
+      <element name="physDesc">
+        <zeroOrMore>
+          <ref name="p"/>
+        </zeroOrMore>
+        <element name="objectDesc">
+          <attribute name="form"/>
+          <element name="supportDesc">
+            <optional>
+              <attribute name="material"/>
+            </optional>
+            <optional>
+              <element name="support">
+                <text/>
+              </element>
+            </optional>
+            <optional>
+              <element name="extent">
+                <element name="dimensions">
+                  <attribute name="unit"/>
+                  <interleave>
+                    <optional>
+                      <element name="depth">
+                        <text/>
+                      </element>
+                    </optional>
+                    <element name="height">
+                      <text/>
+                    </element>
+                    <element name="width">
+                      <text/>
+                    </element>
+                  </interleave>
+                </element>
+              </element>
+            </optional>
+          </element>
+        </element>
+        <a:example>
+          <physDesc>
+            <p>Dessin à la plume, à l'encre brune et au lavis brun</p>
+            <objectDesc form="dessin">
+              <supportDesc>
+                <extent>
+                  <dimensions unit="cm">
+                    <height>31,8</height>
+                    <width>22</width>
+                  </dimensions>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </a:example>
+      </element>
+    </define>
+    <define name="textClass">
+      <element name="textClass">
+        <a:documentation>Liste de types de documents</a:documentation>
+        <oneOrMore>
+          <element name="classCode">
+            <a:documentation>Types de documents, liste de termes en cours de fermeture</a:documentation>
+            <attribute name="scheme" a:defaultValue="merveille17"/>
+            <choice>
+              <text/>
+            </choice>
+          </element>
+        </oneOrMore>
+      </element>
+    </define>
+    <define name="events">
+      <element name="abstract">
+        <a:documentation>Métadonnées sur le document (résumé, événement, lieu, personnes…)</a:documentation>
+        <element name="listEvent">
+          <a:documentation>Un ou plusieurs événements, obligatoire pour tout document.</a:documentation>
+          <oneOrMore>
+            <element name="event">
+              <a:documentation>Un événement, daté et localisé, l’identifiant <a:att>xml:id</a:att> est nécessaire s’il y a plus d’un événement et que des parties du document veulent y faire référence.</a:documentation>
+              <optional>
+                <ref name="xml.id"/>
+              </optional>
+              <choice>
+                <ref name="when"/>
+                <group>
+                  <ref name="from"/>
+                  <ref name="to"/>
+                </group>
+              </choice>
+              <ref name="placeName"/>
+              <optional>
+                <ref name="label"/>
+              </optional>
+            </element>
+          </oneOrMore>
+        </element>
+        <!--
               <zeroOrMore>
                 <choice>
                   <ref name="p"/>
@@ -216,9 +361,6 @@
                   </oneOrMore>
                 </element>
               -->
-            </element>
-          </interleave>
-        </element>
       </element>
     </define>
     <define name="body">
@@ -344,6 +486,21 @@
         <ref name="pb"/>
         <ref name="stage"/>
       </choice>
+    </define>
+    <define name="bibl">
+      <element name="bibl">
+        <ref name="chars"/>
+      </element>
+    </define>
+    <define name="figure">
+      <element name="figure">
+        <ref name="graphic"/>
+        <oneOrMore>
+          <choice>
+            <ref name="p"/>
+          </choice>
+        </oneOrMore>
+      </element>
     </define>
     <define name="head">
       <element name="head">
@@ -489,6 +646,7 @@
           <ref name="pb"/>
           <ref name="placeName"/>
           <ref name="orgName"/>
+          <ref name="ref"/>
           <ref name="seg"/>
           <ref name="sup"/>
           <ref name="sc"/>
@@ -519,7 +677,7 @@
         </zeroOrMore>
       </element>
     </define>
-   <define name="foreign">
+    <define name="foreign">
       <element name="foreign">
         <a:documentation>Mot, expression, ou proposition dans une langue différente du contexte, le code de la languedoit être précisée dans l’attribut obligatoire <a:att>xml:lang</a:att>, avec éventuellement une note contenant la traduction</a:documentation>
         <ref name="xml.lang"/>
@@ -530,6 +688,11 @@
         <optional>
           <ref name="note"/>
         </optional>
+      </element>
+    </define>
+    <define name="graphic">
+      <element name="graphic">
+        <attribute name="url"/>
       </element>
     </define>
     <define name="lb">
@@ -649,6 +812,15 @@
         <text/>
       </element>
     </define>
+    <define name="ref">
+      <element name="ref">
+        <a:documentation>Lien</a:documentation>
+        <attribute name="target">
+          <data type="anyURI"/>
+        </attribute>
+        <ref name="chars"/>
+      </element>
+    </define>
     <define name="orgName">
       <element name="orgName">
         <optional>
@@ -726,6 +898,7 @@
           <choice>
             <text/>
             <ref name="name"/>
+            <ref name="pb"/>
           </choice>
         </zeroOrMore>
       </element>
