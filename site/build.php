@@ -16,6 +16,7 @@ foreach (glob($home."pages/*.html") as $srcfile) {
 
 $fwpers = fopen($home."pers.tsv", "w");
 $fwtech = fopen($home."tech.tsv", "w");
+fwrite($fwtech, "tech/@key\ttext()\tfichier\n");
 $biblio = array();
 
 $fwreadme = fopen(dirname(dirname(__FILE__))."/README.md", "w");
