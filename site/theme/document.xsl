@@ -107,6 +107,7 @@
           <h2>Dates</h2>
           <ul>
             <xsl:for-each select="/tei:TEI/tei:text//tei:date">
+              <xsl:sort select="@when"/>
               <li>
                 <xsl:choose>
                   <xsl:when test="@when">
