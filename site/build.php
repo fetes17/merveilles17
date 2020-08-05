@@ -1,22 +1,42 @@
 <?php
 
-$home = dirname(__FILE__).'/';
-$theme = $home.'theme/';
+$home = dirname(dirname(__FILE__)).'/';
+$theme = $home.'site/theme/';
+$tmpdir = sys_get_temp_dir()."/";
 
 $template = file_get_contents($theme."template.html");
 
-foreach (glob($home."pages/*.html") as $srcfile) {
-  $dstfile = $home.basename($srcfile);
+foreach (glob($home."site/pages/*.html") as $srcfile) {
+  $dstfile = $home."site/".basename($srcfile);
   echo "$dstfile\n";
   $main = file_get_contents($srcfile);
   $html = str_replace("%main%", $main, $template);
   file_put_contents($dstfile, $html);
 }
 
+// convert indexes to flat xml
+$indexes = array();
+foreach (array($home."index/locorum.tsv") as $srcfile) {
+  $dstname = basename($srcfile, ".tsv");
+  $indexes[$dstname] = $tmpdir."merveilles17-".$dstname.".xml";
+  $xml = '<index xml:id="'.$dstname.'">'."\n";
+  $handle = fopen($srcfile, "r");
+  fgets($handle); // jump first line
+  while ($line = fgets($handle)) {
+    list($key, $value) = explode("\t", $line);
+    $xml .= '<term xml:id="'.$key.'">'.$value."</term>\n";
+  }
+  $xml .= "</index>"."\n";
+  file_put_contents($indexes[$dstname], $xml);
+}
+print_r($indexes);
 
-$fwpers = fopen($home."pers.tsv", "w");
+
+$fwpers = fopen($home."index/pers.tsv", "w");
 fwrite($fwpers, "@key\t@role\tpersName\tfichier\n");
-$fwtech = fopen($home."tech.tsv", "w");
+$fwplace = fopen($home."index/place.tsv", "w");
+fwrite($fwplace, "clé\tentrée\toccurrence\tfichier\n");
+$fwtech = fopen($home."index/tech.tsv", "w");
 fwrite($fwtech, "@type\ttech\tfichier\n");
 $biblio = array();
 
@@ -29,20 +49,22 @@ fwrite($fwreadme, "
 ");
 
 
-foreach (glob($home."../xml/*.xml") as $srcfile) {
+foreach (glob($home."xml/*.xml") as $srcfile) {
   $dstname = basename($srcfile, ".xml");
   fwrite($fwreadme, "* [".basename($srcfile)."](https://fetes17.github.io/merveilles17/xml/".basename($srcfile).")\n");
 
   
-  $dstfile = $home.$dstname.".html";
+  $dstfile = $home."site/".$dstname.".html";
   echo basename($srcfile),"\n";
   $dom = Build::dom($srcfile);
   
   $biblio[$dstname] = Build::transformDoc($dom, $theme."biblio.xsl", null, array('name' => $dstname));
   
-  $main = Build::transformDoc($dom, $theme."document.xsl");
+  $main = Build::transformDoc($dom, $theme."document.xsl", null, array('filename' => $dstname, 'locorum' => $indexes['locorum']));
   file_put_contents($dstfile, str_replace("%main%", $main, $template));
   // data
+  $place = Build::transformDoc($dom, $theme."place.xsl", null, array('filename' => $dstname, 'locorum' => $indexes['locorum']));
+  fwrite($fwplace, $place);
   $pers = Build::transformDoc($dom, $theme."pers.xsl", null, array('filename' => $dstname));
   fwrite($fwpers, $pers);
   $tech = Build::transformDoc($dom, $theme."tech.xsl", null, array('filename' => $dstname));
@@ -77,7 +99,7 @@ foreach ($biblio as $key => $value) {
 }
 $html[] = "</div>";
 
-file_put_contents($home."biblio.html", str_replace("%main%", implode("\n", $html), $template));
+file_put_contents($home."site/biblio.html", str_replace("%main%", implode("\n", $html), $template));
 
 
 class Merveilles17
