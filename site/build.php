@@ -1,10 +1,9 @@
 <?php
 
-$home = dirname(dirname(__FILE__)).'/';
-$theme = $home.'site/theme/';
-$tmpdir = sys_get_temp_dir()."/";
+Merveilles17::init();
 
-$template = file_get_contents($theme."template.html");
+
+/*
 
 foreach (glob($home."site/pages/*.html") as $srcfile) {
   $dstfile = $home."site/".basename($srcfile);
@@ -14,22 +13,6 @@ foreach (glob($home."site/pages/*.html") as $srcfile) {
   file_put_contents($dstfile, $html);
 }
 
-// convert indexes to flat xml
-$indexes = array();
-foreach (array($home."index/locorum.tsv") as $srcfile) {
-  $dstname = basename($srcfile, ".tsv");
-  $indexes[$dstname] = $tmpdir."merveilles17-".$dstname.".xml";
-  $xml = '<index xml:id="'.$dstname.'">'."\n";
-  $handle = fopen($srcfile, "r");
-  fgets($handle); // jump first line
-  while ($line = fgets($handle)) {
-    list($key, $value) = explode("\t", $line);
-    $xml .= '<term xml:id="'.$key.'">'.$value."</term>\n";
-  }
-  $xml .= "</index>"."\n";
-  file_put_contents($indexes[$dstname], $xml);
-}
-print_r($indexes);
 
 
 $fwpers = fopen($home."index/pers.tsv", "w");
@@ -40,13 +23,6 @@ $fwtech = fopen($home."index/tech.tsv", "w");
 fwrite($fwtech, "@type\ttech\tfichier\n");
 $biblio = array();
 
-$fwreadme = fopen(dirname(dirname(__FILE__))."/README.md", "w");
-fwrite($fwreadme, "
-# Merveilles de la Cour, les textes
-
-[Documentation du schema](https://fetes17.github.io/merveilles17/merveilles17.html)
-
-");
 
 
 foreach (glob($home."xml/*.xml") as $srcfile) {
@@ -100,32 +76,167 @@ foreach ($biblio as $key => $value) {
 $html[] = "</div>";
 
 file_put_contents($home."site/biblio.html", str_replace("%main%", implode("\n", $html), $template));
-
+*/
 
 class Merveilles17
 {
-  /** SQLite link, maybe useful outside */
+  /** SQLite link */
   static public $pdo;
-  /** La base de données */
-  static private $sqlfile = "labymots.sqlite";
-
+  /** Home directory of project, absolute */
+  static $home;
+  /** Database absolute path */
+  static private $sqlfile;
+  /** get a temp dir */
+  static $tmpdir;
+  /** SQL to create database */
   static private $create = "
 PRAGMA encoding = 'UTF-8';
 PRAGMA page_size = 8192;
 
-CREATE table pers (
-  -- une personne
-  id          INTEGER,        -- ! rowid auto
-  text        TEXT NOT NULL,  -- ! forme dans le texte
-  key         TEXT,           -- ! clé
-  role        TEXT,           -- ! role
-  filename    TEXT NOT NULL,  -- ! nom du fichier source
-  anchor      TEXT NOT NULL,  -- ! ancre dans le ficheir source
+CREATE TABLE doc (
+  -- répertoire des documents
+  id             INTEGER,               -- ! rowid auto
+  code           TEXT UNIQUE NOT NULL,  -- ! code unique
+  type           INTEGER,               -- ! type de document
+  title          TEXT NOT NULL,         -- ! titre text brut
+  bibl           TEXT NOT NULL,         -- ! référence bibliographique (html)
   PRIMARY KEY(id ASC)
 );
-CREATE INDEX pers_role ON pers(role, key, text);
+
+CREATE TABLE lieu (
+  -- répertoire des lieux
+  id             INTEGER,               -- ! rowid auto
+  code           TEXT UNIQUE NOT NULL,  -- ! code unique
+  term           TEXT NOT NULL,         -- ! forme de référence
+  alt            TEXT,                  -- ? forme alternative, pour recherche
+  locality       TEXT,                  -- ? commune, pour recherche
+  coord          TEXT,                  -- ? coordonnées carto
+  docs           INTEGER,               -- ! number of documents, calculated, for sorting
+  occs           INTEGER,               -- ! number of occurrences, calculated, for sorting
+  PRIMARY KEY(id ASC)
+);
+
+CREATE TABLE lieu_doc (
+  -- Occurences d’un lieu dans un document
+  id             INTEGER,               -- ! rowid auto
+  lieu           INTEGER,               -- ! lieu.id obtenu avec par lieu.code
+  lieu_code      TEXT NOT NULL,         -- ! lieu.code
+  doc            INTEGER,               -- ! doc.id obtenu avec par doc.code
+  doc_code       TEXT NOT NULL,         -- ! sera obtenu avec par doc.code
+  anchor         TEXT NOT NULL,         -- ! ancre dans le fichier source
+  text           TEXT NOT NULL,         -- ! forme dans le texte
+  desc           TEXT,                  -- ? description, à tirer du contexte
+  PRIMARY KEY(id ASC)
+);
+
+CREATE TABLE technique (
+  -- répertoire des techniques
+  id             INTEGER,               -- ! rowid auto
+  code           TEXT UNIQUE NOT NULL,  -- ! code unique
+  term           TEXT NOT NULL,         -- ! forme d’autorité
+  PRIMARY KEY(id ASC)
+);
+
+CREATE TABLE technique_doc (
+  -- Occurences d’un technique dans un document
+  id             INTEGER,               -- ! rowid auto
+  technique      INTEGER,               -- ! technique.id obtenu avec par technique.code
+  technique_code TEXT NOT NULL,         -- ! technique.code
+  doc            INTEGER,               -- ! doc.id obtenu avec par doc.code
+  doc_code       TEXT NOT NULL,         -- ! sera obtenu avec par doc.code
+  anchor         TEXT NOT NULL,         -- ! ancre dans le fichier source
+  text           TEXT NOT NULL,         -- ! forme dans le texte
+  PRIMARY KEY(id ASC)
+);
+
+CREATE TABLE personne (
+  -- répertoire des personnes
+  id             INTEGER,               -- ! rowid auto
+  code           TEXT UNIQUE NOT NULL,  -- ! code unique
+  term           TEXT NOT NULL,         -- ! forme dans le texte
+  PRIMARY KEY(id ASC)
+);
+
+CREATE TABLE personne_doc (
+  -- Occurences d’un nom de personne dans un document
+  id             INTEGER,              -- ! rowid auto
+  personne       INTEGER,              -- ! personne.id obtenu avec par personne.code
+  personne_code  TEXT NOT NULL,        -- ! personne.code
+  doc            INTEGER,              -- ! doc.id obtenu avec par doc.code
+  doc_code       TEXT NOT NULL,        -- ! sera obtenu avec par doc.code
+  anchor         TEXT NOT NULL,        -- ! ancre dans le ficheir source
+  text           TEXT NOT NULL,        -- ! forme dans le texte
+  role           TEXT,                 -- ? @role
+  PRIMARY KEY(id ASC)
+);
+
 
   ";
+  
+  public static function init()
+  {
+    self::$home = dirname(dirname(__FILE__)).'/';
+    self::$sqlfile = self::$home."site/merveilles17.sqlite";
+    self::$pdo = Build::sqlite(self::$sqlfile, self::$create);
+    self::$tmpdir = sys_get_temp_dir()."/";
+    // self::$template = file_get_contents($theme."template.html");
+  }
+  
+  /**
+   * Load dictionaries in database
+   */
+  public static function load()
+  {
+    $srcfile = $home."index/lieu.tsv";
+    $handle = fopen($srcfile, "r");
+    $sql = "INSERT INTO lieu (code, term, alt, locality, coord) VALUES (:code, :term, :alt, :locality, :coord);";
+    $stmt = self::$pdo->prepare($sql);
+    $stmt->bindParam('code', $code);
+    $stmt->bindParam('term', $term);
+    $stmt->bindParam('alt', $alt);
+    $stmt->bindParam('locality', $locality);
+    $stmt->bindParam('coord', $coord);
+    fgets($handle); // jump first line    
+    while ($line = fgets($handle)) {
+      list($code, $term, $alt, $locality, $country, $coord) = explode("\t", $line);
+      $stmt->execute();
+    }
+    return;
+    
+    // loop on all xml files, and do lots of work
+    
+    $readme = "
+# Merveilles de la Cour, les textes
+
+[Documentation du schema](https://fetes17.github.io/merveilles17/merveilles17.html)
+
+";
+    $tech_doc = "code\tlieu_code\toccurrence\tfichier\n";
+    
+    foreach (glob($home."xml/*.xml") as $srcfile) {
+      echo basename($srcfile),"\n";
+      $dom = Build::dom($srcfile);
+      
+      $readme .= "* [".basename($srcfile)."](https://fetes17.github.io/merveilles17/xml/".basename($srcfile).")\n";
+
+      $dstname = basename($srcfile, ".xml");
+      $dstfile = self::$home."site/".$dstname.".html";
+      
+      $biblio[$dstname] = Build::transformDoc($dom, $theme."biblio.xsl", null, array('name' => $dstname));
+
+      /*      
+      $main = Build::transformDoc($dom, $theme."document.xsl", null, array('filename' => $dstname, 'locorum' => $indexes['locorum']));
+      file_put_contents($dstfile, str_replace("%main%", $main, $template));
+      // data
+      $place = Build::transformDoc($dom, $theme."place.xsl", null, array('filename' => $dstname, 'locorum' => $indexes['locorum']));
+      fwrite($fwplace, $place);
+      $pers = Build::transformDoc($dom, $theme."pers.xsl", null, array('filename' => $dstname));
+      fwrite($fwpers, $pers);
+      $tech = Build::transformDoc($dom, $theme."tech.xsl", null, array('filename' => $dstname));
+      fwrite($fwtech, $tech);
+      */
+    }
+  }
 
 }
 
@@ -134,6 +245,41 @@ class Build
   /** XSLTProcessors */
   private static $transcache = array();
 
+  
+  public function __construct($conf)
+  {
+  
+  }
+  
+  /**
+   * get a pdo link to an sqlite database with good options
+   */
+  static function sqlite($file, $sql)
+  {
+    $dsn = "sqlite:".$file;
+    // if not exists, create
+    if (!file_exists($file)) {
+      if (!file_exists($dir = dirname($file))) {
+        mkdir($dir, 0775, true);
+        @chmod($dir, 0775);  // let @, if www-data is not owner but allowed to write
+      }
+      $pdo = new PDO($dsn);
+      @chmod($sqlite, 0775);
+      $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+      $pdo->exec($sql);
+    }
+    else {
+      $pdo = new PDO($dsn);
+      $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    }
+    // temp table in memory
+    $pdo->exec("PRAGMA temp_store = 2;");
+    return $pdo;
+  }
+
+  /**
+   * Get a DOM document with best options
+   */
   static function dom($xmlfile) {
     $dom = new DOMDocument();
     $dom->preserveWhiteSpace = false;
