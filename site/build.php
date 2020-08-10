@@ -1,60 +1,12 @@
 <?php
 
 Merveilles17::init();
+Merveilles17::load();
 
 
 /*
 
-foreach (glob($home."site/pages/*.html") as $srcfile) {
-  $dstfile = $home."site/".basename($srcfile);
-  echo "$dstfile\n";
-  $main = file_get_contents($srcfile);
-  $html = str_replace("%main%", $main, $template);
-  file_put_contents($dstfile, $html);
-}
 
-
-
-$fwpers = fopen($home."index/pers.tsv", "w");
-fwrite($fwpers, "@key\t@role\tpersName\tfichier\n");
-$fwplace = fopen($home."index/place.tsv", "w");
-fwrite($fwplace, "clé\tentrée\toccurrence\tfichier\n");
-$fwtech = fopen($home."index/tech.tsv", "w");
-fwrite($fwtech, "@type\ttech\tfichier\n");
-$biblio = array();
-
-
-
-foreach (glob($home."xml/*.xml") as $srcfile) {
-  $dstname = basename($srcfile, ".xml");
-  fwrite($fwreadme, "* [".basename($srcfile)."](https://fetes17.github.io/merveilles17/xml/".basename($srcfile).")\n");
-
-  
-  $dstfile = $home."site/".$dstname.".html";
-  echo basename($srcfile),"\n";
-  $dom = Build::dom($srcfile);
-  
-  $biblio[$dstname] = Build::transformDoc($dom, $theme."biblio.xsl", null, array('name' => $dstname));
-  
-  $main = Build::transformDoc($dom, $theme."document.xsl", null, array('filename' => $dstname, 'locorum' => $indexes['locorum']));
-  file_put_contents($dstfile, str_replace("%main%", $main, $template));
-  // data
-  $place = Build::transformDoc($dom, $theme."place.xsl", null, array('filename' => $dstname, 'locorum' => $indexes['locorum']));
-  fwrite($fwplace, $place);
-  $pers = Build::transformDoc($dom, $theme."pers.xsl", null, array('filename' => $dstname));
-  fwrite($fwpers, $pers);
-  $tech = Build::transformDoc($dom, $theme."tech.xsl", null, array('filename' => $dstname));
-  fwrite($fwtech, $tech);
-}
-
-
-$doctype = array(
-  "arc" => "Archives",
-  "gr" => "Gravures",
-  "i" => "Imprimés",
-  "ms" => "Manuscrits",
-  "p" => "Périodiques",
-);
 
 $html = array();
 $last = null;
@@ -98,7 +50,6 @@ CREATE TABLE doc (
   id             INTEGER,               -- ! rowid auto
   code           TEXT UNIQUE NOT NULL,  -- ! code unique
   type           INTEGER,               -- ! type de document
-  title          TEXT NOT NULL,         -- ! titre text brut
   bibl           TEXT NOT NULL,         -- ! référence bibliographique (html)
   PRIMARY KEY(id ASC)
 );
@@ -108,11 +59,11 @@ CREATE TABLE lieu (
   id             INTEGER,               -- ! rowid auto
   code           TEXT UNIQUE NOT NULL,  -- ! code unique
   term           TEXT NOT NULL,         -- ! forme de référence
-  alt            TEXT,                  -- ? forme alternative, pour recherche
-  locality       TEXT,                  -- ? commune, pour recherche
   coord          TEXT,                  -- ? coordonnées carto
-  docs           INTEGER,               -- ! number of documents, calculated, for sorting
-  occs           INTEGER,               -- ! number of occurrences, calculated, for sorting
+  locality       TEXT,                  -- ? commune, pour recherche
+  alt            TEXT,                  -- ? forme alternative, pour recherche
+  docs           INTEGER,               -- ! nombre de documents,  calculé, pour tri
+  occs           INTEGER,               -- ! nombre d’occurrences, calculé, pour tri
   PRIMARY KEY(id ASC)
 );
 
@@ -124,7 +75,7 @@ CREATE TABLE lieu_doc (
   doc            INTEGER,               -- ! doc.id obtenu avec par doc.code
   doc_code       TEXT NOT NULL,         -- ! sera obtenu avec par doc.code
   anchor         TEXT NOT NULL,         -- ! ancre dans le fichier source
-  text           TEXT NOT NULL,         -- ! forme dans le texte
+  occurrence     TEXT NOT NULL,         -- ! forme dans le texte
   desc           TEXT,                  -- ? description, à tirer du contexte
   PRIMARY KEY(id ASC)
 );
@@ -134,6 +85,8 @@ CREATE TABLE technique (
   id             INTEGER,               -- ! rowid auto
   code           TEXT UNIQUE NOT NULL,  -- ! code unique
   term           TEXT NOT NULL,         -- ! forme d’autorité
+  docs           INTEGER,               -- ! nombre de documents,  calculé, pour tri
+  occs           INTEGER,               -- ! nombre d’occurrences, calculé, pour tri
   PRIMARY KEY(id ASC)
 );
 
@@ -145,7 +98,7 @@ CREATE TABLE technique_doc (
   doc            INTEGER,               -- ! doc.id obtenu avec par doc.code
   doc_code       TEXT NOT NULL,         -- ! sera obtenu avec par doc.code
   anchor         TEXT NOT NULL,         -- ! ancre dans le fichier source
-  text           TEXT NOT NULL,         -- ! forme dans le texte
+  occurrence     TEXT NOT NULL,         -- ! forme dans le texte
   PRIMARY KEY(id ASC)
 );
 
@@ -154,30 +107,42 @@ CREATE TABLE personne (
   id             INTEGER,               -- ! rowid auto
   code           TEXT UNIQUE NOT NULL,  -- ! code unique
   term           TEXT NOT NULL,         -- ! forme dans le texte
+  docs           INTEGER,               -- ! nombre de documents,  calculé, pour tri
+  occs           INTEGER,               -- ! nombre d’occurrences, calculé, pour tri
   PRIMARY KEY(id ASC)
 );
 
 CREATE TABLE personne_doc (
   -- Occurences d’un nom de personne dans un document
-  id             INTEGER,              -- ! rowid auto
-  personne       INTEGER,              -- ! personne.id obtenu avec par personne.code
-  personne_code  TEXT NOT NULL,        -- ! personne.code
-  doc            INTEGER,              -- ! doc.id obtenu avec par doc.code
-  doc_code       TEXT NOT NULL,        -- ! sera obtenu avec par doc.code
-  anchor         TEXT NOT NULL,        -- ! ancre dans le ficheir source
-  text           TEXT NOT NULL,        -- ! forme dans le texte
-  role           TEXT,                 -- ? @role
+  id             INTEGER,               -- ! rowid auto
+  personne       INTEGER,               -- ! personne.id obtenu avec par personne.code
+  personne_code  TEXT NOT NULL,         -- ! personne.code
+  doc            INTEGER,               -- ! doc.id obtenu avec par doc.code
+  doc_code       TEXT NOT NULL,         -- ! sera obtenu avec par doc.code
+  anchor         TEXT NOT NULL,         -- ! ancre dans le ficheir source
+  occurrence     TEXT NOT NULL,         -- ! forme dans le texte
+  role           TEXT,                  -- ? @role
   PRIMARY KEY(id ASC)
 );
 
 
   ";
+  static private $doctype = array(
+      "arc" => "Archives",
+      "gr" => "Gravures",
+      "i" => "Imprimés",
+      "image" => "Images",
+      "ms" => "Manuscrits",
+      "p" => "Périodiques",
+    );
+
   
   public static function init()
   {
     self::$home = dirname(dirname(__FILE__)).'/';
     self::$sqlfile = self::$home."site/merveilles17.sqlite";
-    self::$pdo = Build::sqlite(self::$sqlfile, self::$create);
+    // recreate sqlite base on each call
+    self::$pdo = Build::sqlcreate(self::$sqlfile, self::$create);
     self::$tmpdir = sys_get_temp_dir()."/";
     // self::$template = file_get_contents($theme."template.html");
   }
@@ -187,32 +152,22 @@ CREATE TABLE personne_doc (
    */
   public static function load()
   {
-    $srcfile = $home."index/lieu.tsv";
-    $handle = fopen($srcfile, "r");
-    $sql = "INSERT INTO lieu (code, term, alt, locality, coord) VALUES (:code, :term, :alt, :locality, :coord);";
-    $stmt = self::$pdo->prepare($sql);
-    $stmt->bindParam('code', $code);
-    $stmt->bindParam('term', $term);
-    $stmt->bindParam('alt', $alt);
-    $stmt->bindParam('locality', $locality);
-    $stmt->bindParam('coord', $coord);
-    fgets($handle); // jump first line    
-    while ($line = fgets($handle)) {
-      list($code, $term, $alt, $locality, $country, $coord) = explode("\t", $line);
-      $stmt->execute();
-    }
+    self::tsv_insert("lieu", array("code", "term", "coord", "locality", "alt"), file_get_contents(self::$home."index/lieu.tsv"));
     return;
     
-    // loop on all xml files, and do lots of work
-    
+    // different generated files    
     $readme = "
 # Merveilles de la Cour, les textes
 
 [Documentation du schema](https://fetes17.github.io/merveilles17/merveilles17.html)
 
 ";
-    $tech_doc = "code\tlieu_code\toccurrence\tfichier\n";
+    $biblio = array();
+    $lieu_doc =           "lieu_code\tdoc_code\tanchor\toccurrence\tdesc\n";
+    $technique_doc = "technique_code\tdoc_code\tanchor\toccurrence\n";
+    $personne_doc =   "personne_code\tdoc_code\tanchor\toccurrence\trole\n";
     
+    // loop on all xml files, and do lots of work
     foreach (glob($home."xml/*.xml") as $srcfile) {
       echo basename($srcfile),"\n";
       $dom = Build::dom($srcfile);
@@ -222,13 +177,13 @@ CREATE TABLE personne_doc (
       $dstname = basename($srcfile, ".xml");
       $dstfile = self::$home."site/".$dstname.".html";
       
-      $biblio[$dstname] = Build::transformDoc($dom, $theme."biblio.xsl", null, array('name' => $dstname));
-
+      $biblio[$dstname] = Build::transformDoc($dom, $home."site/xsl/doc.xsl", null, array('name' => $dstname));
+      $lieu_doc .= Build::transformDoc($dom, $home."site/xsl/lieu_doc.xsl", null, array('filename' => $dstname));
+      
       /*      
       $main = Build::transformDoc($dom, $theme."document.xsl", null, array('filename' => $dstname, 'locorum' => $indexes['locorum']));
       file_put_contents($dstfile, str_replace("%main%", $main, $template));
       // data
-      $place = Build::transformDoc($dom, $theme."place.xsl", null, array('filename' => $dstname, 'locorum' => $indexes['locorum']));
       fwrite($fwplace, $place);
       $pers = Build::transformDoc($dom, $theme."pers.xsl", null, array('filename' => $dstname));
       fwrite($fwpers, $pers);
@@ -236,6 +191,55 @@ CREATE TABLE personne_doc (
       fwrite($fwtech, $tech);
       */
     }
+    file_put_contents($home."README.md", $readme);
+    
+    // fill biblio
+    $sql = "INSERT INTO doc (code, type, bibl) VALUES (:code, :type, :bibl);";
+        $stmt = self::$pdo->prepare($sql);
+    $stmt->bindParam('code', $code);
+    $stmt->bindParam('type', $type);
+    $stmt->bindParam('bibl', $type);
+    self::$pdo->beginTransaction();
+    foreach ($biblio as $code => $bibl) {
+      $type = explode('_', $code)[1];
+    }
+    self::$pdo->commit();
+
+    
+    
+    file_put_contents($home."index/lieu_doc.tsv", $lieu_doc);
+    $sql = "INSERT INTO lieu_doc (lieu_code, doc_code, anchor, occurrence, desc) VALUES (:lieu_code, :doc_code, :anchor, :occurrence, :desc);";
+    $stmt = self::$pdo->prepare($sql);
+    $stmt->bindParam('lieu_code', $lieu_code);
+    $stmt->bindParam('doc_code', $doc_code);
+    $stmt->bindParam('anchor', $anchor);
+    $stmt->bindParam('locality', $locality);
+    $stmt->bindParam('coord', $coord);
+
+    
+    
+  }
+  
+  private static function tsv_insert($table, $cols, $lines)
+  {
+    $count = count($cols);
+    $sql = "INSERT INTO ".$table." (".implode(", ", $cols).") VALUES (?".str_repeat (', ?', $count - 1).");";
+    
+    
+    $stmt = self::$pdo->prepare($sql);
+    $first = true;
+    self::$pdo->beginTransaction();
+    foreach (explode("\n", $lines) as $l){
+      if (!$l) continue;
+      if ($first) { // skip first line
+        $first = false;
+        continue;
+      }
+      $values = array_slice(explode("\t", $l), 0, $count);
+      print_r($values);
+      $stmt->execute($values);
+    }
+    self::$pdo->commit();
   }
 
 }
@@ -254,26 +258,39 @@ class Build
   /**
    * get a pdo link to an sqlite database with good options
    */
-  static function sqlite($file, $sql)
+  static function pdo($file, $sql)
   {
     $dsn = "sqlite:".$file;
     // if not exists, create
-    if (!file_exists($file)) {
-      if (!file_exists($dir = dirname($file))) {
-        mkdir($dir, 0775, true);
-        @chmod($dir, 0775);  // let @, if www-data is not owner but allowed to write
-      }
-      $pdo = new PDO($dsn);
-      @chmod($sqlite, 0775);
-      $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-      $pdo->exec($sql);
-    }
-    else {
-      $pdo = new PDO($dsn);
-      $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    }
-    // temp table in memory
+    if (!file_exists($file)) return self::sqlcreate($file, $sql);
+    else return self::sqlopen($file, $sql);
+  }
+  
+  /**
+   * Open a pdo link
+   */
+  static private function sqlopen($file)
+  {
+    $dsn = "sqlite:".$file;
+    $pdo = new PDO($dsn);
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     $pdo->exec("PRAGMA temp_store = 2;");
+    return $pdo;
+  }
+  
+  /**
+   * Renew a database with an SQL script to create tables
+   */
+  static function sqlcreate($file, $sql)
+  {
+    if (file_exists($file)) unlink($file);
+    if (!file_exists($dir = dirname($file))) {
+      mkdir($dir, 0775, true);
+      @chmod($dir, 0775);  // let @, if www-data is not owner but allowed to write
+    }
+    $pdo = self::sqlopen($file);
+    @chmod($sqlite, 0775);
+    $pdo->exec($sql);
     return $pdo;
   }
 

@@ -402,12 +402,12 @@
         <ref name="pb"/>
       </optional>
       <zeroOrMore>
-        <ref name="head"/>
-      </zeroOrMore>
-      <zeroOrMore>
         <choice>
           <ref name="byline"/>
           <ref name="dateline"/>
+          <ref name="figure"/>
+          <ref name="head"/>
+          <ref name="pb"/>
         </choice>
       </zeroOrMore>
       <zeroOrMore>
@@ -418,6 +418,8 @@
         <choice>
           <ref name="byline"/>
           <ref name="dateline"/>
+          <ref name="figure"/>
+          <ref name="pb"/>
           <ref name="trailer"/>
         </choice>
       </zeroOrMore>
@@ -475,6 +477,7 @@
     <a:documentation>Blocs (niveau paragraphe)</a:documentation>
     <define name="block">
       <choice>
+        <ref name="figure"/>
         <ref name="l"/>
         <ref name="lg"/>
         <ref name="label"/>
@@ -503,6 +506,8 @@
         <zeroOrMore>
           <choice>
             <ref name="p"/>
+            <ref name="l"/>
+            <ref name="label"/>
           </choice>
         </zeroOrMore>
       </element>
@@ -676,7 +681,12 @@
             <ref name="to"/>
           </group>
         </choice>
-        <text/>
+        <zeroOrMore>
+          <choice>
+            <text/>
+            <ref name="sup"/>
+          </choice>
+        </zeroOrMore>
       </element>
     </define>
     <define name="emph">
@@ -695,7 +705,9 @@
     <define name="foreign">
       <element name="foreign">
         <a:documentation>Mot, expression, ou proposition dans une langue différente du contexte, le code de la languedoit être précisée dans l’attribut obligatoire <a:att>xml:lang</a:att>, avec éventuellement une note contenant la traduction</a:documentation>
-        <ref name="xml.lang"/>
+        <optional>
+          <ref name="xml.lang"/>
+        </optional>
         <optional>
           <ref name="ana"/>
         </optional>
@@ -763,7 +775,9 @@
     <define name="pb">
       <element name="pb">
         <a:documentation>Saut de page, “page break”, à placer avant le début du texte de la page, avec le numéro</a:documentation>
-        <attribute name="n"/>
+        <optional>
+          <attribute name="n"/>
+        </optional>
         <optional>
           <attribute name="facs"/>
         </optional>
@@ -892,20 +906,22 @@
         <optional>
           <attribute name="type">
             <choice>
-              <value>construction</value>
-              <value>décor</value>
-              <value>costume</value>
               <value>animal</value>
-              <value>machine-volante</value>
-              <value>machine-terrestre</value>
-              <value>machine-aquatique</value>
-              <value>machine-musicale</value>
-              <value>machine-du-temps</value>
-              <value>trappe</value>
               <value>bruitage</value>
-              <value>éclairage</value>
-              <value>jeux-d'eau</value>
-              <value>feux-d'artifice</value>
+              <value>construction</value>
+              <value>costume</value>
+              <value>decor</value>
+              <value>eaux</value>
+              <value>feu-artifice</value>
+              <value>lumieres</value>
+              <value>machine</value>
+              <value>machine_vol</value>
+              <value>machine_terre</value>
+              <value>machine_eau</value>
+              <value>machine_musique</value>
+              <value>machine_temps</value>
+              <value>musique</value>
+              <value>trappe</value>
             </choice>
           </attribute>
         </optional>
