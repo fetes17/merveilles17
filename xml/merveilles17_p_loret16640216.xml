@@ -54,7 +54,7 @@
       <pb n="164" xml:id="p164"/>
       <head>LETTRE SEPTIÉME <lb/><date when="1664-02-16">Du [samedi] seize Février.</date>
         <lb/>HAZARDÉE </head>
-      <l>MADAME, quoi que peu sçavant,</l>
+      <l><persName key="marie_nemours" role="destinataire">MADAME</persName>, quoi que peu sçavant,</l>
       <l>Il faut, dans l’Article suivant,</l>
       <l>Que d’un beau sujet je discoure,</l>
       <l>Ou du moins, que je le parcoure ;</l>
@@ -75,7 +75,7 @@
       <l>Agréable par excélence,</l>
       <l>Avec grande magnificence,</l>
       <l>Au <placeName key="paris_palais_royal">Palais Royal</placeName> fut dansé,</l>
-      <l>Où le <persName>Commandant, Charnassé</persName>,</l>
+      <l>Où le <persName key="jacques_philippe_girard_charnassé">Commandant, Charnassé</persName>,</l>
       <l>Gentil-homme digne d’estime,</l>
       <l>À la priére d’un intime,</l>
       <l>Qui l’en requit obligeamment,</l>
@@ -105,26 +105,26 @@
       <l>Enfin, ne pouvant s’acorder,</l>
       <l><name>Mercure</name>, sans rien décider,</l>
       <l>Leur fait accepter pour Arbitre</l>
-      <l><persName>Louis</persName>, qui mérite le titre</l>
-      <l>Du <persName>Roy</persName> qui le plus judicieux</l>
+      <l><persName key="louisxiv" role="participant">Louis</persName>, qui mérite le titre</l>
+      <l>Du <persName key="louisxiv">Roy</persName> qui le plus judicieux</l>
       <l>Qui soit sous la rondeur des Cieux,</l>
-      <l><persName>Roy</persName>, qui dans la fleur de son âge</l>
+      <l><persName key="louisxiv">Roy</persName>, qui dans la fleur de son âge</l>
       <l>Est aussi charmant qu’il est sage,</l>
       <l>Et dont ces trois Divinitez</l>
       <l>Prônans les hautes qualitez,</l>
       <l>A son honneur cent chozes dizent</l>
       <l>Et ses Vertus immortalizent.</l>
-      <l>L’excélent Acteur, <persName>Floridor</persName>,</l>
+      <l>L’excélent Acteur, <persName key="floridor" role="acteur">Floridor</persName>,</l>
       <l>Qui vaut mieux que son pézant d’or,</l>
       <l>Dans son héroïque figure,</l>
       <l>Réprezenta le Dieu <name>Mercure</name>.</l>
-      <l><persName>Mademoiselle Des-Oeillets</persName>,</l>
+      <l><persName key="mlle_des_oeillets" role="acteur">Mademoiselle Des-Oeillets</persName>,</l>
       <l>Qui dans ses Rolles, ou Rollets,</l>
       <l>A paru toûjours admirable,</l>
       <l>(D’autres dizent incomparable)</l>
       <l>Ayant, et lance et coutelas,</l>
       <l>Faizoit <name>la Guerriére Pallas</name>,</l>
-      <l>Et du <persName>sieur Monfleury la Fille</persName>,</l>
+      <l>Et du <persName key="mlle_d_ennebault" role="acteur">sieur Monfleury la Fille</persName>,</l>
       <l>Qui d’un air assez charmant brille,</l>
       <l>Et mieux que ses riches atours,</l>
       <l>Étoit la <name>Mére des Amours</name>,</l>
@@ -134,16 +134,16 @@
       <p>
         <pb n="165" xml:id="p165"/>
       </p>
-      <l>Où nôtre <persName>Monarque</persName> dansa</l>
+      <l>Où nôtre <persName key="louisxiv" role="participant">Monarque</persName> dansa</l>
       <l>Avec cette grace Royale</l>
       <l>Qui dans l’Europe est sans égale.</l>
-      <l>Aprés luy, <persName>Monsieur d’Orleans</persName>,</l>
+      <l>Aprés luy, <persName key="monsieur" role="participant">Monsieur d’Orleans</persName>,</l>
       <l>Fut le plus Galant de léans,</l>
       <l>Montrant une si noble adresse,</l>
       <l>Que par le bel air et justesse,</l>
       <l>Dont ses pas êtoient animez,</l>
       <l>Pluzieurs beaux yeux furent charmez.</l>
-      <l><persName>Maint Prince, Duc et Pair de France</persName>,</l>
+      <l><persName role="participant">Maint Prince, Duc et Pair de France</persName>,</l>
       <l>Qui sçavent aussi bien la dance,</l>
       <l>Que le Mêtier de guerroyer,</l>
       <l>Lors que Mars veut les employer,</l>
@@ -153,12 +153,12 @@
       <l>Mais qui plus, qui moins, toutefois,</l>
       <l>Enfin, mainte Personne illustre</l>
       <l>Parut, illec, dans tout son lustre.</l>
-      <l><persName>La jeune Reine</persName> mesmement,</l>
+      <l><persName key="marie_therese" role="participant">La jeune Reine</persName> mesmement,</l>
       <l>De la Cour le cher Ornement,</l>
       <l>De mille graces assortie,</l>
       <l>Voulut être de la partie,</l>
       <l>Avec cette douce fierté,</l>
-      <l>Naturelle à Sa Majesté,</l>
+      <l>Naturelle à <persName key="marie_therese" role="participant">Sa Majesté</persName>,</l>
       <l>Qui marque sa naissance Auguste,</l>
       <l>Y dansa fort bien et fort juste.</l>
       <l>Pluzieurs autres nobles Objets,</l>
@@ -179,8 +179,8 @@
       <l>Comme ils viendront à l’improviste,</l>
       <l>Sans y chercher d’autre façon ;</l>
       <l>On m’a donné cette leçon.</l>
-      <l><foreign>Primo</foreign>, cette <persName>aimable Princesse,</persName></l>
-      <l><persName>Qui de Soissons est la Comtesse</persName>,</l>
+      <l><foreign>Primo</foreign>, cette <persName key="olympe_mancini">aimable Princesse,</persName></l>
+      <l><persName key="olympe_macini">Qui de Soissons est la Comtesse</persName>,</l>
       <l>Un des beaux Esprits de la Cour,</l>
       <l>Digne d’honneur, digne d’amour,</l>
       <l>Et (ce qui vaut mieux qu’un Domaine)</l>
