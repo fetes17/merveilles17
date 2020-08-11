@@ -1,7 +1,8 @@
 <?php
 
 Merveilles17::init();
-Merveilles17::load();
+Merveilles17::copy();
+// Merveilles17::load();
 
 
 /*
@@ -177,15 +178,15 @@ CREATE TABLE personne_doc (
       $dstname = basename($srcfile, ".xml");
       $dstfile = self::$home."site/".$dstname.".html";
       
-      $biblio[$dstname] = Build::transformDoc($dom, $home."site/xsl/doc.xsl", null, array('name' => $dstname));
-      $lieu_doc .= Build::transformDoc($dom, $home."site/xsl/lieu_doc.xsl", null, array('filename' => $dstname));
+      $biblio[$dstname] = Build::transformDoc($dom, $home."build/xsl/doc.xsl", null, array('name' => $dstname));
+      $lieu_doc .= Build::transformDoc($dom, $home."build/xsl/lieu_doc.xsl", null, array('filename' => $dstname));
+      $personne_doc .= Build::transformDoc($dom, $home."build/xsl/personne_doc.xsl", null, array('filename' => $dstname));
       
       /*      
       $main = Build::transformDoc($dom, $theme."document.xsl", null, array('filename' => $dstname, 'locorum' => $indexes['locorum']));
       file_put_contents($dstfile, str_replace("%main%", $main, $template));
       // data
       fwrite($fwplace, $place);
-      $pers = Build::transformDoc($dom, $theme."pers.xsl", null, array('filename' => $dstname));
       fwrite($fwpers, $pers);
       $tech = Build::transformDoc($dom, $theme."tech.xsl", null, array('filename' => $dstname));
       fwrite($fwtech, $tech);
@@ -202,21 +203,14 @@ CREATE TABLE personne_doc (
     self::$pdo->beginTransaction();
     foreach ($biblio as $code => $bibl) {
       $type = explode('_', $code)[1];
+      $stmt->execute();
     }
     self::$pdo->commit();
 
     
     
     file_put_contents($home."index/lieu_doc.tsv", $lieu_doc);
-    $sql = "INSERT INTO lieu_doc (lieu_code, doc_code, anchor, occurrence, desc) VALUES (:lieu_code, :doc_code, :anchor, :occurrence, :desc);";
-    $stmt = self::$pdo->prepare($sql);
-    $stmt->bindParam('lieu_code', $lieu_code);
-    $stmt->bindParam('doc_code', $doc_code);
-    $stmt->bindParam('anchor', $anchor);
-    $stmt->bindParam('locality', $locality);
-    $stmt->bindParam('coord', $coord);
-
-    
+    self::tsv_insert("lieu", array("lieu_code", "doc_code", "anchor", "occurrence", "desc"), $lieu_doc);
     
   }
   
@@ -240,6 +234,19 @@ CREATE TABLE personne_doc (
       $stmt->execute($values);
     }
     self::$pdo->commit();
+  }
+  
+  /**
+   * Copy ressources to site
+   */
+  public static function copy()
+  {
+    $dstdir = self::$home."site/images"; // prudence
+    Build::rmdir($dstdir);
+    Build::rcopy(self::$home."build/images", $dstdir);
+    $dstdir = self::$home."site/theme"; // prudence
+    Build::rmdir($dstdir);
+    Build::rcopy(self::$home."build/theme", $dstdir);
   }
 
 }
@@ -265,7 +272,7 @@ class Build
     if (!file_exists($file)) return self::sqlcreate($file, $sql);
     else return self::sqlopen($file, $sql);
   }
-  
+    
   /**
    * Open a pdo link
    */
@@ -284,10 +291,7 @@ class Build
   static function sqlcreate($file, $sql)
   {
     if (file_exists($file)) unlink($file);
-    if (!file_exists($dir = dirname($file))) {
-      mkdir($dir, 0775, true);
-      @chmod($dir, 0775);  // let @, if www-data is not owner but allowed to write
-    }
+    self::mkdir(dirname($file));
     $pdo = self::sqlopen($file);
     @chmod($sqlite, 0775);
     $pdo->exec($sql);
@@ -361,10 +365,7 @@ class Build
       $ret = $trans->transformToDoc($dom);
     }
     else if ($dst != '') {
-      if (!is_dir(dirname($dst))) {
-        if (!@mkdir(dirname($dst), 0775, true)) exit(dirname($dst)." impossible à créer.\n");
-        @chmod(dirname($dst), 0775);  // let @, if www-data is not owner but allowed to write
-      }
+      self::mkdir(dirname($dst));
       $trans->transformToURI($dom, $dst);
       $ret = $dst;
     }
@@ -378,6 +379,53 @@ class Build
     }
     return $ret;
   }
+  
+  /**
+   * A safe mkdir dealing with rights
+   */
+  static function mkdir($dir)
+  {
+    if (is_dir($dir)) return false;
+    if (!mkdir($dir, 0775, true)) throw new Exception("Directory not created: ".$dir);
+    @chmod(dirname($dst), 0775);  // let @, if www-data is not owner but allowed to write
+  } 
+
+  /**
+   * Recursive deletion of a directory
+   */
+  static function rmdir($dir) {
+    $dir = rtrim($dir, "/\\").DIRECTORY_SEPARATOR;
+    if (!is_dir($dir)) return false; // maybe deleted
+    if(!($handle = opendir($dir))) throw new Exception("Read impossible ".$file);
+    while(false !== ($filename = readdir($handle))) {
+      if ($filename == "." || $filename == "..") continue;
+      $file = $dir.$filename;
+      if (is_link($file)) throw new Exception("Delete a link? ".$file);
+      else if (is_dir($file)) self::rmdir($file);
+      else unlink($file);
+     }
+    closedir($handle);
+    rmdir($dir);
+  }
+  
+  
+  /**
+   * Recursive copy of folder
+   */
+  static function rcopy($srcdir, $dstdir) {
+    $srcdir = rtrim($srcdir, "/\\").DIRECTORY_SEPARATOR;
+    $dstdir = rtrim($dstdir, "/\\").DIRECTORY_SEPARATOR;
+    self::mkdir($dstdir);
+    $dir = opendir($srcdir);
+    while(false !== ($filename = readdir($dir))) {
+      if ($filename[0] == '.') continue;
+      $srcfile = $srcdir.$filename;
+      if (is_dir($srcfile)) self::rcopy($srcfile, $dstdir.$filename);
+      else copy($srcfile, $dstdir.$filename);
+    }
+    closedir($dir);
+  }
+
 }
 
 

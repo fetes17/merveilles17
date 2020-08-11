@@ -1,0 +1,179 @@
+html, body {
+  height: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+main {
+  min-height: 70%;
+}
+#main > .container {
+  position: relative;
+}
+#partners img.logo {
+  width: 7rem;
+}
+#partners a {
+  display: block;
+}
+/*  
+.headnav {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.headnav a {
+  text-decoration: none;
+  color: #000;
+}
+
+.headnav ul {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+.headnav ul li {
+  list-style: none;
+  white-space: nowrap;
+}
+.headnav ul li a {
+  border-bottom: 1px solid #CCC;
+  display: block;
+  padding: 0 15px;
+}
+.headnav ul li a:hover {
+  border-bottom: 1px solid #000;
+}
+.headnav li.nav-selected a, .headnav li.nav-path-selected a {
+  border-bottom: 1px solid #CCC;
+}
+
+.headnav ul li a {
+  display: block;
+  padding: 10px 10px;
+}
+*/
+a.pb {
+  width: auto;
+  right: -170px;
+}
+a.pb img {
+  display: block;
+}
+
+/** Page d’accueil */
+.home section {
+  padding: 0;
+  margin: 0;
+}
+
+.carousel-item {
+  background: #000;
+}
+.carousel-inner img {
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card-deck.doctype {
+  margin-left: 0;
+  margin-right: 0;
+}
+.card.doctype {
+  width : 16.6%;
+  margin: 0;
+}
+.card.doctype .card-body {
+  background: rgba(255, 255, 255, 0.3);
+  padding: 0.5rem 0;
+  text-align: center;
+  font-size: 0.7rem;
+  color:black;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.card.doctype:hover .card-body {
+  background: rgba(255, 255, 255, 1);
+}
+.card.doctype:hover img {
+  opacity: 0.5;
+}
+.card-deck.pers {
+  margin-left: 0;
+  margin-right: 0;
+}
+.card.pers {
+  width : 16.6%;
+  margin: 0;
+}
+.card.pers img {
+  border-radius: 50%;
+}
+.card.pers .card-body {
+  /* 
+  padding: 0.5rem 1rem;
+  height: 4rem;
+  */ 
+  text-align: center;
+}
+
+.card-deck.tech {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.card.tech {
+  flex: none;
+  width: 50%;
+  margin-left: 0;
+  margin-right: 0;
+}
+.card.tech .card-body {
+  padding-top: 0;
+  padding-bottom: 0;
+  align-self: center;
+}
+.card.tech img {
+   width: 5rem;
+   float:left;
+}
+
+.card-deck.place {
+  margin-left: 0;
+  margin-right: 0;
+}
+.card.place {
+  width: 16.6%;
+  margin: 0;
+}
+.card.place .card-body {
+  padding: 0.5rem 0;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #FFFFFF;
+  position: absolute;
+  bottom: 45%;
+  width: 100%;
+}
+.card.place:hover .card-body {
+  color: #000000;
+}
+.card.place:hover img {
+  opacity: 0.5;
+}
+.card-deck.divers {
+  margin-left: 0;
+  margin-right: 0;
+}
+.card.divers {
+  width: 16.6%;
+  margin: 0;
+}
+.card.divers .card-body {
+  padding: 0.5rem;
+}
