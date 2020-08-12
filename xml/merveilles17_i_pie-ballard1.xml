@@ -1220,46 +1220,46 @@ Balisage ?-->Hymen y
           <pb n="11"/>
           <p><name>Dix-huit Pages de la Petite-Escurie</name>, pour seruir à Table les Dames.</p>
           <list>
-            <item><persName>Boquebec</persName>,</item>
-            <item><persName>Sandricourt</persName>,</item>
-            <item><persName>Gassion</persName>,</item>
-            <item><persName>D’Herouual</persName>,</item>
-            <item><persName>Brusleuert</persName>,</item>
-            <item><persName>Bitry</persName>,</item>
-            <item><persName>Fauigent</persName>,</item>
-            <item><persName>Colambert</persName>,</item>
-            <item><persName>Loubie</persName>,</item>
-            <item><persName>Ste. Maure</persName>,</item>
-            <item><persName>Despaux</persName>,</item>
-            <item><persName>La Couderelle</persName>,</item>
-            <item><persName>Danucourt</persName>,</item>
-            <item><persName>Du Plessis</persName>,</item>
-            <item><persName>Brion</persName>,</item>
-            <item><persName>Caliauet</persName>,</item>
-            <item><persName>Angeruille</persName>,</item>
-            <item><persName>Patriere</persName>.</item>
+            <item><persName role="organisation">Boquebec</persName>,</item>
+            <item><persName role="organisation">Sandricourt</persName>,</item>
+            <item><persName role="organisation">Gassion</persName>,</item>
+            <item><persName role="organisation">D’Herouual</persName>,</item>
+            <item><persName role="organisation">Brusleuert</persName>,</item>
+            <item><persName role="organisation">Bitry</persName>,</item>
+            <item><persName role="organisation">Fauigent</persName>,</item>
+            <item><persName role="organisation">Colambert</persName>,</item>
+            <item><persName role="organisation">Loubie</persName>,</item>
+            <item><persName role="organisation">Ste. Maure</persName>,</item>
+            <item><persName role="organisation">Despaux</persName>,</item>
+            <item><persName role="organisation">La Couderelle</persName>,</item>
+            <item><persName role="organisation">Danucourt</persName>,</item>
+            <item><persName role="organisation">Du Plessis</persName>,</item>
+            <item><persName role="organisation">Brion</persName>,</item>
+            <item><persName role="organisation">Caliauet</persName>,</item>
+            <item><persName role="organisation">Angeruille</persName>,</item>
+            <item><persName role="organisation">Patriere</persName>.</item>
           </list>
-          <p><name>Huict Officiers du Gobelet du Roy, &amp; de la Reyne</name>, representant les
+          <p><persName role="organisation">Huict Officiers du Gobelet du Roy, &amp; de la Reyne</persName>, representant les
             Plaisirs, les Ieux, les Ris, &amp; les Delices, pour garder les quatres Tables des
             quatre Saison, &amp; descharger les Bassins que porteront les suittes desdites quatre
             Saisons.</p>
           <list>
-            <item><persName>Mortier</persName>,</item>
-            <item><persName>Francisque</persName>,</item>
-            <item><persName>Du Pille l’aisné</persName>,</item>
-            <item><persName>Du Pille le cadet</persName>,</item>
-            <item><persName>Bigot le fils</persName>,</item>
-            <item><persName>De Briare</persName>,</item>
-            <item><persName>De Nier</persName>,</item>
-            <item><persName>Ste. Fontaine le fils</persName>.</item>
+            <item><persName role="organisation">Mortier</persName>,</item>
+            <item><persName role="organisation">Francisque</persName>,</item>
+            <item><persName role="organisation">Du Pille l’aisné</persName>,</item>
+            <item><persName role="organisation">Du Pille le cadet</persName>,</item>
+            <item><persName role="organisation">Bigot le fils</persName>,</item>
+            <item><persName role="organisation">De Briare</persName>,</item>
+            <item><persName role="organisation">De Nier</persName>,</item>
+            <item><persName role="organisation">Ste. Fontaine le fils</persName>.</item>
           </list>
-          <p><name>Messieurs les Controlleurs Generaux</name>.</p>
+          <p><persName role="organisation">Messieurs les Controlleurs Generaux</persName>.</p>
           <list>
-            <item><persName>Monsieur de la Marche Coquet</persName>.
+            <item><persName role="acteur">Monsieur de la Marche Coquet</persName>.
               <name>L’Abondance</name>.</item>
-            <item><persName>Monsieur Parfait Père</persName>. <name>La Ioye</name>.</item>
-            <item><persName>Monsieur Parfait Fils</persName>. <name>La Propreté</name>.</item>
-            <item><persName>Monsieur Parfait Frere</persName>. <name>La bonne-chere</name>.</item>
+            <item><persName role="acteur">Monsieur Parfait Père</persName>. <name>La Ioye</name>.</item>
+            <item><persName role="acteur">Monsieur Parfait Fils</persName>. <name>La Propreté</name>.</item>
+            <item><persName role="acteur">Monsieur Parfait Frere</persName>. <name>La bonne-chere</name>.</item>
           </list>
           <pb n="12"/>
         </div>
@@ -1267,151 +1267,151 @@ Balisage ?-->Hymen y
           <head>SECONDE IOVRNÉE.</head>
           <p>La Comedie de Moliere, Musique &amp; Entrée de Ballet.</p>
           <p><name>L’AVRORE</name>.</p>
-          <p><persName>Madlle. Hilaire</persName>.</p>
+          <p><persName key="hilaire_dupuis" role="acteur">Madlle. Hilaire</persName>.</p>
           <p><name>Quatre Valets de Chiens</name>, qui doiuent chanter.</p>
           <list>
-            <item><persName>Estual</persName>.</item>
-            <item><persName>Don</persName>.</item>
-            <item><persName>Blondel</persName>.</item>
-            <item><persName>Molliere</persName>.</item>
+            <item><persName key="estival" role="acteur chanteur">Estual</persName>.</item>
+            <item><persName key="louis_don" role="acteur chanteur">Don</persName>.</item>
+            <item><persName key="francois_blondel" role="acteur chanteur">Blondel</persName>.</item>
+            <item><persName key="molliere" role="acteur chanteur">Molliere</persName>.</item>
           </list>
           <p><name>Six autres Valets de Chiens</name>, qui doiuent danser.</p>
           <list>
-            <item><persName>Paysan</persName>.</item>
-            <item><persName>S André</persName>.</item>
-            <item><persName>Noblet</persName>.</item>
-            <item><persName>Pesan</persName>.</item>
-            <item><persName>Bonard</persName>,</item>
-            <item><persName>La Pierre</persName>,</item>
+            <item><persName key="paysan" role="danseur">Paysan</persName>.</item>
+            <item><persName key="saint_andre" role="danseur">S André</persName>.</item>
+            <item><persName key="noblet" role="danseur">Noblet</persName>.</item>
+            <item><persName key="pesan" role="danseur">Pesan</persName>.</item>
+            <item><persName key="bonard" role="danseur">Bonard</persName>,</item>
+            <item><persName key="la_pierre" role="danseur">La Pierre</persName>,</item>
           </list>
           <p><name>Deux Ours</name>.</p>
           <list>
-            <item><persName>Mercier</persName>.</item>
-            <item><persName>Vagnard</persName>.</item>
+            <item><persName key="mercier" role="acteur">Mercier</persName>.</item>
+            <item><persName key="vagnard" role="acteur">Vagnard</persName>.</item>
           </list>
           <p><name>Huict Paysans</name>.</p>
           <list>
-            <item><persName>Paysan</persName>.</item>
-            <item><persName>Baltazard</persName>.</item>
-            <item><persName>Noblet</persName>.</item>
-            <item><persName>Bonard</persName>.</item>
-            <item><persName>Chicanneau</persName>.</item>
-            <item><persName>Mançeau</persName>.</item>
-            <item><persName>Magny</persName>,</item>
-            <item><persName>La Pierre</persName>.</item>
+            <item><persName key="paysan" role="acteur">Paysan</persName>.</item>
+            <item><persName key="balthazard_martinot" role="acteur">Baltazard</persName>.</item>
+            <item><persName key="noblet" role="acteur">Noblet</persName>.</item>
+            <item><persName key="bonard" role="acteur">Bonard</persName>.</item>
+            <item><persName key="chicanneau" role="acteur">Chicanneau</persName>.</item>
+            <item><persName key="manceau" role="acteur">Mançeau</persName>.</item>
+            <item><persName key="magny" role="acteur">Magny</persName>,</item>
+            <item><persName key="la_pierre" role="acteur">La Pierre</persName>.</item>
           </list>
           <pb n="13"/>
           <p><name>Un Satyre</name>.</p>
-          <p><persName>Estiual</persName>.</p>
+          <p><persName key="estival" role="acteur">Estiual</persName>.</p>
           <p><name>Deux Pastres</name>.</p>
           <list>
-            <item><persName>Le Gros</persName>.</item>
-            <item><persName>Blondel</persName>.</item>
+            <item><persName key="le_gros" role="acteur">Le Gros</persName>.</item>
+            <item><persName key="francois_blondel" role="acteur">Blondel</persName>.</item>
           </list>
           <p><name>Deux Bergeres</name> Heroïques.</p>
           <list>
-            <item><persName>Madlle. La Barre</persName>.</item>
-            <item><persName>Madlle. Hilaire</persName>.</item>
+            <item><persName key="mlle_la_barre" role="acteur">Madlle. La Barre</persName>.</item>
+            <item><persName key="hilaire_dupuis" role="acteur">Madlle. Hilaire</persName>.</item>
           </list>
           <p><name>Deux Bergers</name> Heroïques.</p>
           <list>
-            <item><persName>Don</persName>.</item>
-            <item><persName>Estyual</persName>.</item>
+            <item><persName key="louis_don" role="acteur">Don</persName>.</item>
+            <item><persName key="estival" role="acteur">Estyual</persName>.</item>
           </list>
           <p><name>Seize Faunes</name>.</p>
           <p>FLVTTES.</p>
           <list>
-            <item><persName>Piesche</persName>.</item>
-            <item><persName>Descouteaux</persName>.</item>
-            <item><persName>Destouche</persName>.</item>
-            <item><persName>Marin Hottere</persName>,</item>
-            <item><persName>Louis Hottere</persName>.</item>
-            <item><persName>Iean Hottere</persName>.</item>
-            <item><persName>Nicolas Hottere</persName>, ou <persName>le Roy</persName>.</item>
-            <item><persName>Paisible</persName>.</item>
+            <item><persName key="piesche" role="musicien">Piesche</persName>.</item>
+            <item><persName key="descouteaux" role="musicien">Descouteaux</persName>.</item>
+            <item><persName key="destouches" role="musicien">Destouche</persName>.</item>
+            <item><persName key="martin_hottere" role="musicien">Marin Hottere</persName>,</item>
+            <item><persName key="louis_hottere" role="musicien">Louis Hottere</persName>.</item>
+            <item><persName key="jean_hottere" role="musicien">Iean Hottere</persName>.</item>
+            <item><persName key="nicolas_hottere" role="musicien">Nicolas Hottere</persName>, ou <persName key="le_roy" role="musicien">le Roy</persName>.</item>
+            <item><persName key="paisible" role="musicien">Paisible</persName>.</item>
           </list>
           <p>Petits Violons.</p>
           <list>
             <item>Marchand.</item>
-            <item><persName>La Caisse</persName>.</item>
-            <item><persName>Besson</persName>.</item>
-            <item><persName>Magny</persName>.</item>
-            <item><persName>Charlot</persName>.</item>
-            <item><persName>Alais</persName>.</item>
-            <item><persName>Huguenet</persName>.</item>
-            <item><persName>La Fontaine</persName>.</item>
+            <item><persName key="la_caisse" role="musicien">La Caisse</persName>.</item>
+            <item><persName key="besson" role="musicien">Besson</persName>.</item>
+            <item><persName key="magny" role="musicien">Magny</persName>.</item>
+            <item><persName key="charlot" role="musicien">Charlot</persName>.</item>
+            <item><persName key="alais" role="musicien">Alais</persName>.</item>
+            <item><persName key="huguenet" role="musicien">Huguenet</persName>.</item>
+            <item><persName key="la_fontaine" role="musicien">La Fontaine</persName>.</item>
           </list>
           <pb n="14"/>
           <p><name>Quatre Bergers</name>, &amp; <name>quatre Bergeres</name>.</p>
           <p><name>Bergers</name>.</p>
           <list>
-            <item><persName>Chicanneau</persName>.</item>
-            <item><persName>Du Pron</persName>.</item>
-            <item><persName>Noblet</persName>.</item>
-            <item><persName>La Pierre</persName>.</item>
+            <item><persName key="chicanneau" role="acteur">Chicanneau</persName>.</item>
+            <item><persName key="du_pron" role="acteur">Du Pron</persName>.</item>
+            <item><persName key="noblet" role="acteur">Noblet</persName>.</item>
+            <item><persName key="la_pierre" role="acteur">La Pierre</persName>.</item>
           </list>
           <p><name>Bergeres</name>.</p>
           <list>
-            <item><persName>Baltasar</persName>.</item>
-            <item><persName>Magny</persName>.</item>
-            <item><persName>Arnarld</persName>.</item>
-            <item><persName>Bonard</persName>.</item>
+            <item><persName key="balthazard_martinot" role="acteur">Baltasar</persName>.</item>
+            <item><persName key="magny" role="acteur">Magny</persName>.</item>
+            <item><persName key="arnald" role="acteur">Arnarld</persName>.</item>
+            <item><persName key="bonard" role="acteur">Bonard</persName>.</item>
           </list>
-          <p><persName>Concertans de l’Orchestre</persName>,</p>
+          <p><persName role="musicien">Concertans de l’Orchestre</persName>,</p>
           <list>
-            <item><persName>D’Anglebert</persName>.</item>
-            <item><persName>Richard</persName>.</item>
-            <item><persName>Ittier</persName>.</item>
-            <item><persName>La Barre le Cadet</persName>.</item>
-            <item><persName>Tissu</persName>.</item>
-            <item><persName>Le Moine</persName>.</item>
+            <item><persName key="d_anglebert" role="musicien">D’Anglebert</persName>.</item>
+            <item><persName key="richard" role="musicien">Richard</persName>.</item>
+            <item><persName key="ittier" role="musicien">Ittier</persName>.</item>
+            <item><persName key="la_barre_cadet" role="musicien">La Barre le Cadet</persName>.</item>
+            <item><persName key="tissu" role="musicien">Tissu</persName>.</item>
+            <item><persName key="le_moine" role="musicien">Le Moine</persName>.</item>
           </list>
           <p>Grands Violons.</p>
           <list>
-            <item><persName>Du Manoir</persName>,</item>
-            <item><persName>Leger</persName>,</item>
-            <item><persName>Mazuel</persName>,</item>
-            <item><persName>Fauier</persName>,</item>
-            <item><persName>Chaudron</persName>,</item>
-            <item><persName>Bruslard dessus</persName>,</item>
-            <item><persName>Bruslard basse</persName>,</item>
-            <item><persName>Broüard</persName>,</item>
-            <item><persName>Ioubert</persName>,</item>
-            <item><persName>Baslin</persName>,</item>
-            <item><persName>Artus</persName>,</item>
-            <item><persName>La Croix</persName>.</item>
-            <item><persName>Des-matins</persName>,</item>
-            <item><persName>Feugré</persName>,</item>
-            <item><persName>Du Pin</persName>,</item>
-            <item><persName>Lesperuier</persName>,</item>
-            <item><persName>Camille</persName>,</item>
-            <item><persName>Varin</persName>,</item>
-            <item><persName>Des Noyers</persName>,</item>
+            <item><persName key="du_manoir" role="musicien">Du Manoir</persName>,</item>
+            <item><persName key="leger" role="musicien">Leger</persName>,</item>
+            <item><persName key="mazuel" role="musicien">Mazuel</persName>,</item>
+            <item><persName key="favier" role="musicien">Fauier</persName>,</item>
+            <item><persName key="chaudron" role="musicien">Chaudron</persName>,</item>
+            <item><persName key="bruslard_dessus" role="musicien">Bruslard dessus</persName>,</item>
+            <item><persName key="bruslard_basse" role="musicien">Bruslard basse</persName>,</item>
+            <item><persName key="brouard" role="musicien">Broüard</persName>,</item>
+            <item><persName key="joubert" role="musicien">Ioubert</persName>,</item>
+            <item><persName key="baslin" role="musicien">Baslin</persName>,</item>
+            <item><persName key="artus" role="musicien">Artus</persName>,</item>
+            <item><persName key="la_croix" role="musicien">La Croix</persName>.</item>
+            <item><persName key="des_matins" role="musicien">Des-matins</persName>,</item>
+            <item><persName key="feugre" role="musicien">Feugré</persName>,</item>
+            <item><persName key="du_pin" role="musicien">Du Pin</persName>,</item>
+            <item><persName key="lesperviers" role="musicien">Lesperuier</persName>,</item>
+            <item><persName key="camille" role="musicien">Camille</persName>,</item>
+            <item><persName key="varin" role="musicien">Varin</persName>,</item>
+            <item><persName key="des_noyers" role="musicien">Des Noyers</persName>,</item>
           </list>
           <p>Petits Violons.</p>
           <list>
-            <item><persName>Martineau</persName>,</item>
-            <item><persName>Barry</persName>,</item>
-            <item><persName>Le Roux l’aisné</persName>,</item>
-            <item><persName>Le Roux le cadet</persName>,</item>
-            <item><persName>Broüart</persName>,</item>
-            <item><persName>Roulé</persName>,</item>
-            <item><persName>Le Grais</persName>,</item>
-            <item><persName>Heugé</persName>,</item>
-            <item><persName>Le Peintre</persName>,</item>
-            <item><persName>Guenin</persName>,</item>
-            <item><persName>La Riuiere</persName>.</item>
+            <item><persName key="martineau" role="musicien">Martineau</persName>,</item>
+            <item><persName key="barry" role="musicien">Barry</persName>,</item>
+            <item><persName key="le_roux_aine" role="musicien">Le Roux l’aisné</persName>,</item>
+            <item><persName key="le_roux_cadet" role="musicien">Le Roux le cadet</persName>,</item>
+            <item><persName key="brouard" role="musicien">Broüart</persName>,</item>
+            <item><persName key="roule" role="musicien">Roulé</persName>,</item>
+            <item><persName key="le_grais" role="musicien">Le Grais</persName>,</item>
+            <item><persName key="huege" role="musicien">Heugé</persName>,</item>
+            <item><persName key="le_peintre" role="musicien">Le Peintre</persName>,</item>
+            <item><persName key="guenin" role="musicien">Guenin</persName>,</item>
+            <item><persName key="la_riviere" role="musicien">La Riuiere</persName>.</item>
           </list>
         </div>
         <div>
           <pb n="15"/>
           <head>TROISIESME IOVRNÉE.</head>
           <p><name>Alcine</name> sur <tech type="machine_eau">vne Machine</tech>, qui vient au bord de l’eau.</p>
-          <p><persName>Madlle. du Parc</persName>. <name>Alcine</name>.</p>
+          <p><persName key="therese_duparc" role="acteur">Madlle. du Parc</persName>. <name>Alcine</name>.</p>
           <p><name>Deux Nymhes</name> de mesme.</p>
           <list>
-            <item><persName>Madlle. de Brie</persName>, <name>Celie</name>.</item>
-            <item><persName>Madlle. Moliere</persName>. <name>Dircé</name>.</item>
+            <item><persName key="mlle_de_brie" role="acteur">Madlle. de Brie</persName>, <name>Celie</name>.</item>
+            <item><persName key="armande_bejart" role="acteur">Madlle. Moliere</persName>. <name>Dircé</name>.</item>
           </list>
           <p>Ballet du Palais d’<name>Alcine</name>.</p>
           <label type="head">PREMIERE ENTRÉE.</label>
@@ -1420,14 +1420,14 @@ Balisage ?-->Hymen y
             <name>Geants</name>
           </p>
           <list>
-            <item><persName>Vagnard</persName>,</item>
-            <item><persName>Pesan</persName>,</item>
-            <item><persName>Mançeau</persName>,</item>
-            <item><persName>Ioubert</persName>.</item>
-            <item><persName>Petits Garçons</persName>.</item>
-            <item><persName>Les deux petits Des-Airs</persName>,</item>
-            <item><persName>Le petit Vagnard</persName>.</item>
-            <item><persName>Le petit Tutin</persName>.</item>
+            <item><persName key="vagnard" role="acteur">Vagnard</persName>,</item>
+            <item><persName key="pesan" role="acteur">Pesan</persName>,</item>
+            <item><persName key="manceau" role="acteur">Mançeau</persName>,</item>
+            <item><persName key="joubert" role="acteur">Ioubert</persName>.</item>
+            <item><persName key="petits_gardcons" role="acteur">Petits Garçons</persName>.</item>
+            <item><persName key="des_airs_fils1 des_airs_fils2" role="acteur">Les deux petits Des-Airs</persName>,</item>
+            <item><persName key="vagnard_fils" role="acteur">Le petit Vagnard</persName>.</item>
+            <item><persName key="tutin_fils" role="acteur">Le petit Tutin</persName>.</item>
           </list>
           <label type="head">DEVXIESME ENTRÉE.</label>
           <p>
