@@ -2,7 +2,8 @@
 
 Merveilles17::init();
 Merveilles17::copy();
-// Merveilles17::load();
+Merveilles17::load();
+// Merveilles17::lieux();
 
 
 /*
@@ -39,8 +40,8 @@ class Merveilles17
   static $home;
   /** Database absolute path */
   static private $sqlfile;
-  /** get a temp dir */
-  static $tmpdir;
+  /** HTML template */
+  static private $template;
   /** SQL to create database */
   static private $create = "
 PRAGMA encoding = 'UTF-8';
@@ -50,10 +51,15 @@ CREATE TABLE doc (
   -- répertoire des documents
   id             INTEGER,               -- ! rowid auto
   code           TEXT UNIQUE NOT NULL,  -- ! code unique
-  type           INTEGER,               -- ! type de document
+  type           TEXT,                  -- ! type de document
   bibl           TEXT NOT NULL,         -- ! référence bibliographique (html)
+  length         INTEGER,               -- ! taille en caractères
+  personne_count INTEGER,               -- ! nombre de personnes citées
+  lieu_count     INTEGER,               -- ! nombre de lieux
+  tech_count     INTEGER,               -- ! nombre de techniques
   PRIMARY KEY(id ASC)
 );
+CREATE INDEX doc_type ON doc(type, code);
 
 CREATE TABLE lieu (
   -- répertoire des lieux
@@ -67,6 +73,8 @@ CREATE TABLE lieu (
   occs           INTEGER,               -- ! nombre d’occurrences, calculé, pour tri
   PRIMARY KEY(id ASC)
 );
+CREATE INDEX lieu_occs ON lieu(occs, code);
+CREATE INDEX lieu_docs ON lieu(docs, code);
 
 CREATE TABLE lieu_doc (
   -- Occurences d’un lieu dans un document
@@ -80,6 +88,9 @@ CREATE TABLE lieu_doc (
   desc           TEXT,                  -- ? description, à tirer du contexte
   PRIMARY KEY(id ASC)
 );
+CREATE INDEX lieu_doc_doc ON lieu_doc(doc);
+CREATE INDEX lieu_doc_lieu ON lieu_doc(lieu);
+
 
 CREATE TABLE technique (
   -- répertoire des techniques
@@ -90,6 +101,8 @@ CREATE TABLE technique (
   occs           INTEGER,               -- ! nombre d’occurrences, calculé, pour tri
   PRIMARY KEY(id ASC)
 );
+CREATE INDEX technique_occs ON technique(occs, code);
+CREATE INDEX technique_docs ON technique(docs, code);
 
 CREATE TABLE technique_doc (
   -- Occurences d’un technique dans un document
@@ -102,6 +115,9 @@ CREATE TABLE technique_doc (
   occurrence     TEXT NOT NULL,         -- ! forme dans le texte
   PRIMARY KEY(id ASC)
 );
+CREATE INDEX technique_doc_doc ON technique_doc(doc);
+CREATE INDEX technique_doc_technique ON technique_doc(technique);
+
 
 CREATE TABLE personne (
   -- répertoire des personnes
@@ -112,6 +128,8 @@ CREATE TABLE personne (
   occs           INTEGER,               -- ! nombre d’occurrences, calculé, pour tri
   PRIMARY KEY(id ASC)
 );
+CREATE INDEX personne_occs ON personne(occs, code);
+CREATE INDEX personne_docs ON personne(docs, code);
 
 CREATE TABLE personne_doc (
   -- Occurences d’un nom de personne dans un document
@@ -125,6 +143,8 @@ CREATE TABLE personne_doc (
   role           TEXT,                  -- ? @role
   PRIMARY KEY(id ASC)
 );
+CREATE INDEX personne_doc_personne ON personne_doc(personne);
+CREATE INDEX personne_doc_doc ON personne_doc(doc);
 
 
   ";
@@ -144,8 +164,7 @@ CREATE TABLE personne_doc (
     self::$sqlfile = self::$home."site/merveilles17.sqlite";
     // recreate sqlite base on each call
     self::$pdo = Build::sqlcreate(self::$sqlfile, self::$create);
-    self::$tmpdir = sys_get_temp_dir()."/";
-    // self::$template = file_get_contents($theme."template.html");
+    self::$template = file_get_contents(self::$home."build/template.html");
   }
   
   /**
@@ -154,7 +173,6 @@ CREATE TABLE personne_doc (
   public static function load()
   {
     self::tsv_insert("lieu", array("code", "term", "coord", "locality", "alt"), file_get_contents(self::$home."index/lieu.tsv"));
-    return;
     
     // different generated files    
     $readme = "
@@ -164,12 +182,11 @@ CREATE TABLE personne_doc (
 
 ";
     $biblio = array();
-    $lieu_doc =           "lieu_code\tdoc_code\tanchor\toccurrence\tdesc\n";
-    $technique_doc = "technique_code\tdoc_code\tanchor\toccurrence\n";
-    $personne_doc =   "personne_code\tdoc_code\tanchor\toccurrence\trole\n";
-    
+    $lieu_doc =           "lieu_code\tdoc_code\tanchor\toccurrence\tdesc\n";
+    $technique_doc = "technique_code\tdoc_code\tanchor\toccurrence\n";
+    $personne_doc =   "personne_code\tdoc_code\tanchor\toccurrence\trole\n";
     // loop on all xml files, and do lots of work
-    foreach (glob($home."xml/*.xml") as $srcfile) {
+    foreach (glob(self::$home."xml/*.xml") as $srcfile) {
       echo basename($srcfile),"\n";
       $dom = Build::dom($srcfile);
       
@@ -178,9 +195,9 @@ CREATE TABLE personne_doc (
       $dstname = basename($srcfile, ".xml");
       $dstfile = self::$home."site/".$dstname.".html";
       
-      $biblio[$dstname] = Build::transformDoc($dom, $home."build/xsl/doc.xsl", null, array('name' => $dstname));
-      $lieu_doc .= Build::transformDoc($dom, $home."build/xsl/lieu_doc.xsl", null, array('filename' => $dstname));
-      $personne_doc .= Build::transformDoc($dom, $home."build/xsl/personne_doc.xsl", null, array('filename' => $dstname));
+      $biblio[$dstname] = Build::transformDoc($dom, self::$home."build/xsl/doc.xsl", null, array('name' => $dstname));
+      $lieu_doc .= Build::transformDoc($dom, self::$home."build/xsl/lieu_doc.xsl", null, array('filename' => $dstname));
+      $personne_doc .= Build::transformDoc($dom, self::$home."build/xsl/personne_doc.xsl", null, array('filename' => $dstname));
       
       /*      
       $main = Build::transformDoc($dom, $theme."document.xsl", null, array('filename' => $dstname, 'locorum' => $indexes['locorum']));
@@ -192,7 +209,9 @@ CREATE TABLE personne_doc (
       fwrite($fwtech, $tech);
       */
     }
-    file_put_contents($home."README.md", $readme);
+    file_put_contents(self::$home."README.md", $readme);
+
+    return;
     
     // fill biblio
     $sql = "INSERT INTO doc (code, type, bibl) VALUES (:code, :type, :bibl);";
@@ -210,10 +229,66 @@ CREATE TABLE personne_doc (
     
     
     file_put_contents($home."index/lieu_doc.tsv", $lieu_doc);
-    self::tsv_insert("lieu", array("lieu_code", "doc_code", "anchor", "occurrence", "desc"), $lieu_doc);
+    self::tsv_insert("lieu_doc", array("lieu_code", "doc_code", "anchor", "occurrence", "desc"), $lieu_doc);
+    self::$pdo->exec("
+      UPDATE lieu_doc SET
+        lieu=(SELECT id FROM lieu WHERE code=lieu_doc.lieu_code),
+        doc=(SELECT id FROM doc WHERE code=lieu_doc.doc_code)
+      ;
+    ");
+    /*
+    self::$pdo->exec("
+      UPDATE lieu SET
+        occs=(SELECT id FROM doc WHERE code=lieu_doc.doc_code),
+        docs=(SELECT count(*) FROM lieu_doc WHERE person=person.id AND writes = 1)
+      ;
+    ");
+    */
+    file_put_contents($home."index/technique_doc.tsv", $technique_doc);
+    self::tsv_insert("technique_doc", array("technique_code", "doc_code", "anchor", "occurrence"), $technique_doc);
+    self::$pdo->exec("
+      UPDATE technique_doc SET
+        technique=(SELECT id FROM technique WHERE code=technique_doc.technique_code),
+        doc=(SELECT id FROM doc WHERE code=technique_doc.doc_code)
+      ;
+    ");
+
+    file_put_contents($home."index/personne_doc.tsv", $personne_doc);
+    self::tsv_insert("personne_doc", array("personne_code", "doc_code", "anchor", "occurrence", "role"), $personne_doc);
+    self::$pdo->exec("
+      UPDATE personne_doc SET
+        personne=(SELECT id FROM personne WHERE code=personne_doc.personne_code),
+        doc=(SELECT id FROM doc WHERE code=personne_doc.doc_code)
+      ;
+    ");
     
   }
   
+  /**
+   * Générer les pages lieux
+   */
+  public static function lieux()
+  {
+    // boucler sur tous les lieux
+    $sth = $dbh->prepare("SELECT * FROM lieu ORDER BY code");
+    $sth->execute();
+    
+    
+    file_put_contents($home."site/biblio.html", str_replace("%main%", implode("\n", $html), $template));
+    $html =
+'
+<div class="row align-items-start">
+  <div class="col-9">
+  </div>
+  <div class="col-3">
+  </div>
+</div>
+';
+  }
+
+  /**
+   * Charger une table avec des lignes tsv
+   */  
   private static function tsv_insert($table, $cols, $lines)
   {
     $count = count($cols);
@@ -230,7 +305,6 @@ CREATE TABLE personne_doc (
         continue;
       }
       $values = array_slice(explode("\t", $l), 0, $count);
-      print_r($values);
       $stmt->execute($values);
     }
     self::$pdo->commit();
@@ -251,16 +325,16 @@ CREATE TABLE personne_doc (
 
 }
 
+/**
+ * Different tools to build html sites
+ */
 class Build
 {
   /** XSLTProcessors */
   private static $transcache = array();
+  /** get a temp dir */
+  private static $tmpdir;
 
-  
-  public function __construct($conf)
-  {
-  
-  }
   
   /**
    * get a pdo link to an sqlite database with good options
