@@ -599,31 +599,31 @@ Balisage ?-->Hymen y
         <p><persName key="estival" role="acteur">M. Estiual</persName>.</p>
         <pb n="4"/>
         <p><name>Deux Pastres</name>.</p>
-        <p><persName>Messieurs Le Gros</persName>, &amp; <persName>Blondel</persName>.</p>
+        <p><persName key="claude_le_gros">Messieurs Le Gros</persName>, &amp; <persName key="francois_blondel">Blondel</persName>.</p>
         <p><name>Deux Bergeres</name> Heroïques.</p>
-        <p><persName>Madlle La Barre</persName>. <persName>Madlle Hilaire</persName>.</p>
+        <p><persName key="mlle_de_la_barre">Madlle La Barre</persName>. <persName key="hilaire_dupuis">Madlle Hilaire</persName>.</p>
         <p><name>Deux Bergers</name> Heroïques.</p>
-        <p><persName>Messieurs Don</persName>, &amp; <persName>Estyual</persName>.</p>
+        <p><persName key="louis_don">Messieurs Don</persName>, &amp; <persName key="estival">Estyual</persName>.</p>
         <p>
           <name>Seize Faunes</name>
         </p>
         <p>FLVTTES.</p>
-        <p><persName>Les Sieurs Piesche</persName>, <persName>Descousteaux</persName>,
-            <persName>Destouche</persName>, <persName>Martin Hottere</persName>, <persName>Louis
-            Hottere</persName>, <persName>Iean Hottere</persName>, <persName>Nicolas
-            Hottere</persName>, ou <persName>le Roy</persName>, &amp;
-          <persName>Paisible</persName>.</p>
+        <p><persName key="piesche" role="musicien">Les Sieurs Piesche</persName>, <persName key="descousteaux" role="musicien">Descousteaux</persName>,
+            <persName key="destouches" role="musicien">Destouche</persName>, <persName key="martin_hottere" role="musicien">Martin Hottere</persName>, <persName key="louis_hottere" role="musicien">Louis
+            Hottere</persName>, <persName key="jean_hottere" role="musicien">Iean Hottere</persName>, <persName key="nicolas_hottere" role="musicien">Nicolas
+            Hottere</persName>, ou <persName key="louisxiv" role="musicien">le Roy</persName>, &amp;
+          <persName key="paisible" role="musicien">Paisible</persName>.</p>
         <p>Petits Violons.</p>
-        <p><persName>Les Sieurs Marchand</persName>, <persName>La Caisse</persName>,
-            <persName>Besson</persName>, <persName>Magny</persName>, <persName>Charlot</persName>,
-            <persName>Alais</persName>, <persName>Huguenet</persName>, &amp; <persName>La
+        <p><persName key="marchand" role="musicien">Les Sieurs Marchand</persName>, <persName key="la_caisse" role="musicien">La Caisse</persName>,
+            <persName key="besson" role="musicien">Besson</persName>, <persName key="magny" role="musicien">Magny</persName>, <persName key="charlot" role="musicien">Charlot</persName>,
+            <persName key="alais" role="musicien">Alais</persName>, <persName key="huguenet" role="musicien">Huguenet</persName>, &amp; <persName key="la_fontaine" role="musicien">La
             Fontaine</persName>.</p>
         <p><name>Quatre Bergers</name>, &amp; <name>quatre Bergeres</name>.</p>
-        <p><name>Bergers</name>. <persName>Les Sieurs Chicanneau</persName>, <persName>Du
-            Pron</persName>, <persName>Noblet</persName>, &amp; <persName>La Pierre</persName>.</p>
-        <p><name>Bergeres</name>. <persName>Les Sieurs Baltasar</persName>,
-            <persName>Magny</persName>, <persName>Arnald</persName>, &amp;
-            <persName>Bonard</persName>.</p>
+        <p><name>Bergers</name>. <persName key="chicanneau">Les Sieurs Chicanneau</persName>, <persName key="du_pron">Du
+            Pron</persName>, <persName key="noblet">Noblet</persName>, &amp; <persName key="la_pierre">La Pierre</persName>.</p>
+        <p><name>Bergeres</name>. <persName key="balthazard_martinot">Les Sieurs Baltasar</persName>,
+            <persName key="magny">Magny</persName>, <persName key="arnald">Arnald</persName>, &amp;
+            <persName key="bonard">Bonard</persName>.</p>
         <p>FIN DE LA SECONDE IOVRNÉE.</p>
         <pb n="1"/>
       </div>
@@ -638,8 +638,8 @@ Balisage ?-->Hymen y
             &amp; des <pb n="2"/>songes, qui luy presagent son malheur prochain : En cette
             inquietude elle vient <placeName key="versailles_jardins_bassin_apollon">aux bords du Lac</placeName> portée par vn
               <tech type="machine_eau">Monstre Marin</tech>, accompagnée de <name>deux de ses Nymphes</name> ; &amp;
-            mesle à des plaintes de l’estat ou elle se trouue, les louanges de la<persName> Reyne
-              Mere</persName> du <persName>Roy</persName> par des Vers.</p>
+            mesle à des plaintes de l’estat ou elle se trouue, les louanges de la<persName key="anne_d_autriche" role="destinataire"> Reyne
+              Mere</persName> du <persName key="louisxiv">Roy</persName> par des Vers.</p>
           <p>ALCINE, CELIE, DIRCÉ.</p>
           <label type="speaker">ALCINE.</label>
           <l>VOus à qui je fis part de ma felicité,</l>
@@ -696,9 +696,9 @@ Balisage ?-->Hymen y
           <l>Helas ! de nos malheurs qui peut encor douter.</l>
           <label type="speaker">CELIE.</label>
           <l>I'y vois vn grand remede, &amp; facile à tenter ;</l>
-          <l>Vne <persName>Reyne</persName> paroist, dont le secours propice</l>
+          <l>Vne <persName key="anne_d_autriche">Reyne</persName> paroist, dont le secours propice</l>
           <l>Nous sçaura guarentir des efforts de <name>Melisse</name> :</l>
-          <l>Par tout de cette <persName>Reyne</persName> on vante la bonté.</l>
+          <l>Par tout de cette <persName key="anne_d_autriche">Reyne</persName> on vante la bonté.</l>
           <l>Et l’on dit que son coeur, de qui la fermeté,</l>
           <l>Des flots les plus mutins méprisa l’insolence,</l>
           <l>Contre les voeux des siens est toûjours sans defense.</l>
@@ -736,7 +736,7 @@ Balisage ?-->Hymen y
           <l>Enfin, faisons parler nos soûpirs &amp; nos pleurs</l>
           <l>Pour la rendre sensible à nos viues douleurs,</l>
           <l>Et nous pourrons trouuer au fort de nostre peine</l>
-          <l>Vn refuge paisible aux pieds de cette <persName>Reyne</persName>.</l>
+          <l>Vn refuge paisible aux pieds de cette <persName key="anne_d_autriche">Reyne</persName>.</l>
           <label type="speaker">DIRCÉ.</label>
           <l>Ie sçais bien que son coeur noblement genereux,</l>
           <l>Ecoute auec plaisir la voix des mal-heureux :</l>
@@ -761,13 +761,13 @@ Balisage ?-->Hymen y
           <l>Dans nostre desespoir cherchons nostre deffense,</l>
           <l>Et ne nous rendons pas au moins sans resistance.</l>
           <list>
-            <item><name>Alcine</name>. <persName>Madlle du Parc</persName>.</item>
-            <item><name>Celie</name>. <persName>Madlle de Brie</persName>.</item>
-            <item><name>Dircé</name>. <persName>Madlle Moliere</persName>.</item>
+            <item><name>Alcine</name>. <persName key="therese_duparc" role="acteur">Madlle du Parc</persName>.</item>
+            <item><name>Celie</name>. <persName key="mlle_de_brie" role="acteur">Madlle de Brie</persName>.</item>
+            <item><name>Dircé</name>. <persName key="armande_bejart" role="acteur">Madlle Moliere</persName>.</item>
           </list>
           <p>VN Chœur de plusieurs instrumans se fait entendre de toutes parts, sur <tech type="decor">deux
               Isles</tech> situées aux deux costez du <tech type="construction">Palais d’Alcine</tech> il paroist vn
-              <persName>grand nombre de Musiciens</persName> qui font vne charmante Harmonie ;
+              <persName role="musicien">grand nombre de Musiciens</persName> qui font vne charmante Harmonie ;
             pendant que le <tech type="construction">Frontispice du Palais</tech> venant à s’ouurir, il en sort
               <name>quatre Geants</name>
             <seg ana="description">d’vne hauteur prodigieuse</seg>, commis à la garde d’vn lieu si
@@ -776,21 +776,21 @@ Balisage ?-->Hymen y
         <div>
           <head>PREMIERE ENTRÉE.</head>
           <p><name>Quatre Geants</name>, et <name>quatre Nains</name>.</p>
-          <p><name>Geants</name>. <persName>Les Sieurs Mançeau</persName>,
-              <persName>Vagnard</persName>, <persName>Pesan</persName>, &amp;
-              <persName>Ioubert</persName>.</p>
-          <p><name>Nains</name>. <persName>Les deux petits Des-Airs</persName>, <persName>Le petit
-              Vagnard</persName>, &amp; <persName>Le petit Tutin</persName>.</p>
+          <p><name>Geants</name>. <persName key="manceau">Les Sieurs Mançeau</persName>,
+              <persName key="vagnard">Vagnard</persName>, <persName key="pesan">Pesan</persName>, &amp;
+              <persName key="joubert">Ioubert</persName>.</p>
+          <p><name>Nains</name>. <persName key="des_airs_fils1 des_airs_fils2">Les deux petits Des-Airs</persName>, <persName key="vagnard_fils">Le petit
+              Vagnard</persName>, &amp; <persName key="tutin_fils">Le petit Tutin</persName>.</p>
         </div>
         <div>
           <pb n="8"/>
           <head>II. ENTRÉE.</head>
           <p><name>HVit Maures</name> chargez par <name>Alcine</name> de la garde du dedans, en font
             vne exacte visite, auec chacun <tech type="lumieres">deux flambeaux</tech>.</p>
-          <p><name>Maures</name>. <persName>Messieurs d’Heureux</persName>,
-              <persName>Beauchamp</persName>, <persName>Molier</persName>, <persName>La
-              Marre</persName>, <persName>Les Sieurs Le Chantre</persName>, <persName>De
-              Gan</persName>, <persName>Du Pron</persName>, &amp; <persName>Mercier</persName>.</p>
+          <p><name>Maures</name>. <persName key="d_heureux">Messieurs d’Heureux</persName>,
+              <persName key="beauchamp">Beauchamp</persName>, <persName key="molier">Molier</persName>, <persName key="la_marre">La
+              Marre</persName>, <persName key="le_chantre">Les Sieurs Le Chantre</persName>, <persName key="de_gan">De
+              Gan</persName>, <persName key="du_pron">Du Pron</persName>, &amp; <persName key="mercier">Mercier</persName>.</p>
         </div>
         <div>
           <head>III. ENTRÉE.</head>
@@ -800,13 +800,13 @@ Balisage ?-->Hymen y
             desespoir, ils sont vaincus, apres vn grand combat, par autant de <name>Monstres</name>
             qui les attaquent.</p>
           <p><name>Six Cheualiers</name>, &amp; <name>six Monstres</name>.</p>
-          <p><name>Cheualiers</name>. <persName>Messieurs de Souuille</persName>,
-              <persName>Raynal</persName>, <persName>Des-Airs l’aisné</persName>, <persName>Des-Airs
-              le second</persName>, <persName>De Lorge</persName>, &amp;
-              <persName>Balthasard</persName>.</p>
-          <p><name>Monstres</name>. <persName>Les Sieurs Chicanneau</persName>,
-              <persName>Noblet</persName>, <persName>Arnald</persName>,
-              <persName>Desbrosses</persName>, <persName>Desonets</persName>, &amp;<persName> La
+          <p><name>Cheualiers</name>. <persName key="de_souville">Messieurs de Souuille</persName>,
+              <persName key="raynal">Raynal</persName>, <persName key="des_airs_l_aine">Des-Airs l’aisné</persName>, <persName key="des_airs_le_second">Des-Airs
+              le second</persName>, <persName key="de_lorge">De Lorge</persName>, &amp;
+              <persName key="balthazrd_martinot">Balthasard</persName>.</p>
+          <p><name>Monstres</name>. <persName key="chicanneau">Les Sieurs Chicanneau</persName>,
+              <persName key="noblet">Noblet</persName>, <persName key="arnald">Arnald</persName>,
+              <persName key="desbrosses">Desbrosses</persName>, <persName key="desonets">Desonets</persName>, &amp;<persName key="la_pierre"> La
               Pierre</persName>.</p>
         </div>
         <div>
@@ -816,15 +816,15 @@ Balisage ?-->Hymen y
               Esprits</name>, &amp; leur demande secours : Il s’en presente deux à elle, qui font
             des sauts auec vne force, &amp; vne agilité merueilleuses.</p>
           <p><name>Demons agilles</name>.</p>
-          <p><persName>Les Sieurs S. André</persName>, &amp; <persName>Magny</persName>.</p>
+          <p><persName key="saint_andre">Les Sieurs S. André</persName>, &amp; <persName key="magny">Magny</persName>.</p>
         </div>
         <div>
           <head>V. ENTRÉE.</head>
           <p>D'Autres <name>Demons</name> viennent encore, &amp; semblent asseurer la
               <name>Magicienne</name> qu’ils n’oublieront rien pour son repos.</p>
           <p>Autres <name>Demons Sauteurs</name>.</p>
-          <p><persName>Les Sieurs Tutin</persName>, <persName>La Brodiere</persName>,
-              <persName>Pesan</persName>, &amp; <persName>Bureau</persName>.</p>
+          <p><persName key="tutin">Les Sieurs Tutin</persName>, <persName key="la_brodiere">La Brodiere</persName>,
+              <persName key="pesan">Pesan</persName>, &amp; <persName key="bureau">Bureau</persName>.</p>
           <pb n="10"/>
           <p>Mais à peine commence-t’elle à se rasseurer, qu’elle voit paroistre aupres de
               <name>Roger</name>, &amp; de quelques <name>Cheualiers</name> de sa suitte, la sage
@@ -836,16 +836,16 @@ Balisage ?-->Hymen y
               <tech type="feu-artifice">Feu d’artifice</tech>, qui met fin à cette auanture, &amp; aux diuertissemens de
             l’Isle Enchantée.</p>
           <list>
-            <item><name>Alcine</name>. <persName>Madlle du Parc</persName>.</item>
-            <item><name>Melisse</name>. <persName>De Lotge</persName>.</item>
-            <item><name>Roger.</name><persName>M. Beauchamp</persName>.</item>
+            <item><name>Alcine</name>. <persName key="therese_duparc" role="acteur">Madlle du Parc</persName>.</item>
+            <item><name>Melisse</name>. <persName key="durfort_de_lorge">De Lotge</persName>.</item>
+            <item><name>Roger.</name><persName key="beauchamp">M. Beauchamp</persName>.</item>
           </list>
-          <p><name>Cheualiers</name>. <persName>Messieurs d’Heureux</persName>,
-              <persName>Raynal</persName>, <persName>Du Pron</persName>, &amp;
-              <persName>Desbrosses</persName>.</p>
-          <p><name>Escuyers</name>. <persName>Messieurs La Marre</persName>, <persName>Le
-              Chantre</persName>, <persName>De Gan</persName>, &amp;
-            <persName>Mercier</persName>.</p>
+          <p><name>Cheualiers</name>. <persName key="d_heureux">Messieurs d’Heureux</persName>,
+              <persName key="raynal">Raynal</persName>, <persName key="du_pron">Du Pron</persName>, &amp;
+              <persName key="desbrosses">Desbrosses</persName>.</p>
+          <p><name>Escuyers</name>. <persName key="la_marre">Messieurs La Marre</persName>, <persName key="le_chantre">Le
+              Chantre</persName>, <persName key="de_gan">De Gan</persName>, &amp;
+            <persName key="mercier">Mercier</persName>.</p>
           <p>FIN.</p>
         </div>
       </div>
@@ -856,85 +856,85 @@ Balisage ?-->Hymen y
           <head>PREMIERE IOVNÉE.</head>
           <p>Ce qui paroist de jour :</p>
           <p><name>VN HERAVT D’ARMES</name>.</p>
-          <p><persName>Mr Des-Bardins</persName>.</p>
-          <p><persName>Artagnan</persName><name>Page</name> du <persName>Roy</persName>, accompagné
-            de <persName>Gonualin</persName>
-            <name>Page</name> de <persName>Monsieur le Duc de S. Aignan</persName>, &amp; de
-              <persName>Ceton</persName>
-            <name>Page</name> de <persName>Monsieur le Duc de Noailles</persName>.</p>
+          <p><persName key="desbardins" role="acteur">Mr Des-Bardins</persName>.</p>
+          <p><persName key="artagnan" role="acteur">Artagnan</persName><name>Page</name> du <persName key="louisxiv">Roy</persName>, accompagné
+            de <persName key="gonualin" role="acteur">Gonualin</persName>
+            <name>Page</name> de <persName key="saint_aignan">Monsieur le Duc de S. Aignan</persName>, &amp; de
+              <persName key="ceton" role="acteur">Ceton</persName>
+            <name>Page</name> de <persName key="anne_de_noailles">Monsieur le Duc de Noailles</persName>.</p>
           <pb n="2"/>
-          <p><persName>Quatre Trompettes</persName>, &amp; <persName>deux
+          <p><persName role="musicien">Quatre Trompettes</persName>, &amp; <persName role="musicien">deux
             Tymballiers</persName>.</p>
           <p>Trompettes.</p>
           <list>
-            <item><persName>Beaulieu</persName>.</item>
-            <item><persName>La Marche</persName>.</item>
-            <item><persName>Orleans</persName>.</item>
-            <item><persName>La Fleur</persName>.</item>
+            <item><persName key="beaulieu" role="musicien">Beaulieu</persName>.</item>
+            <item><persName key="la_marche" role="musicien">La Marche</persName>.</item>
+            <item><persName key="orleans" role="musicien">Orleans</persName>.</item>
+            <item><persName key="la_fleur" role="musicien">La Fleur</persName>.</item>
           </list>
           <p>Tymballiers.</p>
           <list>
-            <item><persName>Louis Desore</persName>.</item>
-            <item><persName>Saint-Iean</persName>.</item>
+            <item><persName key="louis_desore" role="musicien">Louis Desore</persName>.</item>
+            <item><persName key="saint_jean" role="musicien">Saint-Iean</persName>.</item>
           </list>
           <p><name>Vn Mareschal de Camp</name>.</p>
-          <p><persName>Monsieur le Duc de S. Aignan</persName>. <name>Guidon le Sauuage</name>.</p>
+          <p><persName key="saint_aignan" role="acteur">Monsieur le Duc de S. Aignan</persName>. <name>Guidon le Sauuage</name>.</p>
           <p><seg ana="description">Couleur blanc, &amp; or, les galands incarnat &amp;
             noir</seg>.</p>
-          <p><persName>Huit Trompettes</persName>, et <persName>deux Tymballiers</persName>.</p>
+          <p><persName role="musicien">Huit Trompettes</persName>, et <persName role="musicien">deux Tymballiers</persName>.</p>
           <p>Trompettes.</p>
           <list>
-            <item><persName>Rhodes</persName>.</item>
-            <item><persName>La Chapelle</persName>.</item>
-            <item><persName>Du Pré</persName>.</item>
-            <item><persName>La Salle</persName>.</item>
-            <item><persName>Leger</persName>.</item>
-            <item><persName>La Plaine</persName>.</item>
-            <item><persName>Champagne</persName>.</item>
-            <item><persName>Beaulis</persName>.</item>
+            <item><persName key="rhodes" role="musicien">Rhodes</persName>.</item>
+            <item><persName key="la_chapelle" role="musicien">La Chapelle</persName>.</item>
+            <item><persName key="du_pre" role="musicien">Du Pré</persName>.</item>
+            <item><persName key="la_salle" role="musicien">La Salle</persName>.</item>
+            <item><persName key="leger" role="musicien">Leger</persName>.</item>
+            <item><persName key="la_plaine" role="musicien">La Plaine</persName>.</item>
+            <item><persName key="champagne" role="musicien">Champagne</persName>.</item>
+            <item><persName key="beaulis" role="musicien">Beaulis</persName>.</item>
           </list>
           <p>Tymballiers.</p>
           <list>
-            <item><persName>Beaupré</persName>.</item>
-            <item><persName>Iolicoeur</persName>.</item>
+            <item><persName key="beaupre" role="musicien">Beaupré</persName>.</item>
+            <item><persName key="jolicoeur" role="musicien">Iolicoeur</persName>.</item>
           </list>
-          <p><persName>LE ROY</persName>, Representant <name>Roger</name>.</p>
+          <p><persName key="louisxiv" role="acteur">LE ROY</persName>, Representant <name>Roger</name>.</p>
           <p>Chef de la Quadrille, <seg ana="description">couleur de feu, or &amp; argent</seg>.</p>
           <p><name>Vn Iuge des Courses</name>.</p>
-          <p><persName>Monsieur le Duc de Noailles</persName>. <name>Oger le Danois</name>.</p>
+          <p><persName key="anne_de_noailles" role="acteur">Monsieur le Duc de Noailles</persName>. <name>Oger le Danois</name>.</p>
           <p><seg ana="description">Couleur de feu, noir &amp; argent</seg>.</p>
           <pb n="3"/>
           <p><name>Cheualiers</name>, &amp; leurs couleurs.</p>
-          <p><persName>Monsieur le Duc</persName>. <name>Roland</name>.</p>
+          <p><persName key="hj_bourbon_conde" role="acteur">Monsieur le Duc</persName>. <name>Roland</name>.</p>
           <p><seg ana="description">Couleur de feu blanc &amp; argent</seg>.</p>
-          <p><persName>Monsieur le Duc de Guise</persName>. <name>Aquilant le noir</name>.</p>
+          <p><persName key="henri_ii_de_guise" role="acteur">Monsieur le Duc de Guise</persName>. <name>Aquilant le noir</name>.</p>
           <p><seg ana="description">Couleur noir &amp; or</seg>.</p>
-          <p><persName>Monsieur le Comte d’Armagnac</persName>. <name>Griffon le blanc</name>.</p>
+          <p><persName key="henri_de_lorraine" role="acteur">Monsieur le Comte d’Armagnac</persName>. <name>Griffon le blanc</name>.</p>
           <p><seg ana="description">Couleur argent &amp; blanc</seg>.</p>
-          <p><persName>Monsieur le Duc de Foix</persName>. <name>Renaut</name>.</p>
+          <p><persName key="jb_gaston_foix_candale" role="acteur">Monsieur le Duc de Foix</persName>. <name>Renaut</name>.</p>
           <p><seg ana="description">Couleur incarnat, or &amp; argent</seg>.</p>
-          <p><persName>Monsieur le Duc de Coaslin</persName>. <name>Dudon</name>.</p>
+          <p><persName key="armand_du_cambout" role="acteur">Monsieur le Duc de Coaslin</persName>. <name>Dudon</name>.</p>
           <p><seg ana="description">Couleur vert, blanc, &amp; argent</seg>.</p>
-          <p><persName>Monsieur le Comte du Lude</persName>. <name>Astolphe</name>.</p>
+          <p><persName key="henri_de_daillon" role="acteur">Monsieur le Comte du Lude</persName>. <name>Astolphe</name>.</p>
           <p><seg ana="description">Couleur incarnat, blanc, &amp; argent</seg>.</p>
-          <p><persName>Monsieur le Marquis de Soyecourt</persName>. <name>Oliuier</name>.</p>
+          <p><persName key="cm_de_belleforiere" role="acteur">Monsieur le Marquis de Soyecourt</persName>. <name>Oliuier</name>.</p>
           <p><seg ana="description">Couleur bleu, blanc, &amp; argent</seg>.</p>
-          <p><persName>Monsieur le Marquis de Villequiert</persName>. <name>Richardet</name>.</p>
+          <p><persName key="louis_marie_aumont_rochebaron" role="acteur">Monsieur le Marquis de Villequiert</persName>. <name>Richardet</name>.</p>
           <p><seg ana="description">Couleur bleu, or &amp; argent</seg>.</p>
           <pb n="4"/>
-          <p><persName>Monsieur le Marquis d’Humieres</persName>. <name>Ariodant</name>.</p>
+          <p><persName key="louis_crevant" role="acteur">Monsieur le Marquis d’Humieres</persName>. <name>Ariodant</name>.</p>
           <p><seg ana="description">Couleur de chair, blanc, &amp; argent</seg>.</p>
-          <p><persName>Monsieur le Marquis de la Valliere</persName>. <name>Zerbin</name>.</p>
+          <p><persName key="jf_de_labaume" role="acteur">Monsieur le Marquis de la Valliere</persName>. <name>Zerbin</name>.</p>
           <p><seg ana="description">Couleur gris de Lin, blanc &amp; argent</seg>.</p>
-          <p><name>APOLLON</name>, sur <tech>vn Char</tech>. <persName>La Grange</persName>.</p>
+          <p><name>APOLLON</name>, sur <tech>vn Char</tech>. <persName key="la_grange" role="acteur">La Grange</persName>.</p>
           <p><name>LE TEMPS</name>, menant <tech>le Char</tech> d’<name>Apollon</name>.
-              <persName>Millet</persName>.</p>
+              <persName key="millet" role="acteur">Millet</persName>.</p>
           <p><name>Les quatre Siecles</name>.</p>
           <list>
-            <item><name>Siecle d’Airain</name>. <persName>Madlle de Brie</persName>.</item>
-            <item><name>Siecle d’Or</name>. <persName>Madlle de Moliere</persName>.</item>
-            <item><name>Siecle d’Argent</name>. <persName>Hubert</persName>.</item>
-            <item><name>Siecle de Fer</name>. <persName>Du Croisy</persName>.</item>
+            <item><name>Siecle d’Airain</name>. <persName key="mlle_de_brie" role="acteur">Madlle de Brie</persName>.</item>
+            <item><name>Siecle d’Or</name>. <persName key="armande_bejart" role="acteur">Madlle de Moliere</persName>.</item>
+            <item><name>Siecle d’Argent</name>. <persName key="hubert" role="acteur">Hubert</persName>.</item>
+            <item><name>Siecle de Fer</name>. <persName key="du_croisy" role="acteur">Du Croisy</persName>.</item>
           </list>
           <p><name>Les douze Heures</name>.</p>
           <list>
