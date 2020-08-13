@@ -5,11 +5,14 @@
   <xsl:output indent="yes" encoding="UTF-8" method="text" omit-xml-declaration="yes"/>
   <xsl:template match="/">
     <xsl:for-each select="/tei:TEI/tei:text//tei:tech">
-      <xsl:value-of select="normalize-space(@type)"/>
-      <xsl:value-of select="$tab"/>
-      <xsl:value-of select="normalize-space(.)"/>
+      <xsl:variable name="key" select="normalize-space(@type)"/>
+      <xsl:value-of select="$key"/>
       <xsl:value-of select="$tab"/>
       <xsl:value-of select="$filename"/>
+      <xsl:value-of select="$tab"/>
+      <xsl:call-template name="id"/>
+      <xsl:value-of select="$tab"/>
+      <xsl:value-of select="normalize-space(.)"/>
       <xsl:value-of select="$lf"/>
     </xsl:for-each>
   </xsl:template>

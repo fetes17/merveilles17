@@ -3,7 +3,7 @@
 Merveilles17::init();
 Merveilles17::copy();
 Merveilles17::load();
-// Merveilles17::lieux();
+Merveilles17::lieux();
 
 
 /*
@@ -47,7 +47,7 @@ class Merveilles17
 PRAGMA encoding = 'UTF-8';
 PRAGMA page_size = 8192;
 
-CREATE TABLE doc (
+CREATE TABLE document (
   -- répertoire des documents
   id             INTEGER,               -- ! rowid auto
   code           TEXT UNIQUE NOT NULL,  -- ! code unique
@@ -59,7 +59,7 @@ CREATE TABLE doc (
   tech_count     INTEGER,               -- ! nombre de techniques
   PRIMARY KEY(id ASC)
 );
-CREATE INDEX doc_type ON doc(type, code);
+CREATE INDEX document_type ON document(type, code);
 
 CREATE TABLE lieu (
   -- répertoire des lieux
@@ -76,20 +76,20 @@ CREATE TABLE lieu (
 CREATE INDEX lieu_occs ON lieu(occs, code);
 CREATE INDEX lieu_docs ON lieu(docs, code);
 
-CREATE TABLE lieu_doc (
+CREATE TABLE lieu_document (
   -- Occurences d’un lieu dans un document
   id             INTEGER,               -- ! rowid auto
   lieu           INTEGER,               -- ! lieu.id obtenu avec par lieu.code
   lieu_code      TEXT NOT NULL,         -- ! lieu.code
-  doc            INTEGER,               -- ! doc.id obtenu avec par doc.code
-  doc_code       TEXT NOT NULL,         -- ! sera obtenu avec par doc.code
+  document       INTEGER,               -- ! document.id obtenu avec par document.code
+  document_code  TEXT NOT NULL,         -- ! sera obtenu avec par document.code
   anchor         TEXT NOT NULL,         -- ! ancre dans le fichier source
   occurrence     TEXT NOT NULL,         -- ! forme dans le texte
   desc           TEXT,                  -- ? description, à tirer du contexte
   PRIMARY KEY(id ASC)
 );
-CREATE INDEX lieu_doc_doc ON lieu_doc(doc);
-CREATE INDEX lieu_doc_lieu ON lieu_doc(lieu);
+CREATE INDEX lieu_document_document ON lieu_document(document);
+CREATE INDEX lieu_document_lieu ON lieu_document(lieu);
 
 
 CREATE TABLE technique (
@@ -104,19 +104,19 @@ CREATE TABLE technique (
 CREATE INDEX technique_occs ON technique(occs, code);
 CREATE INDEX technique_docs ON technique(docs, code);
 
-CREATE TABLE technique_doc (
+CREATE TABLE technique_document (
   -- Occurences d’un technique dans un document
   id             INTEGER,               -- ! rowid auto
   technique      INTEGER,               -- ! technique.id obtenu avec par technique.code
   technique_code TEXT NOT NULL,         -- ! technique.code
-  doc            INTEGER,               -- ! doc.id obtenu avec par doc.code
-  doc_code       TEXT NOT NULL,         -- ! sera obtenu avec par doc.code
+  document       INTEGER,               -- ! document.id obtenu avec par document.code
+  document_code  TEXT NOT NULL,         -- ! sera obtenu avec par document.code
   anchor         TEXT NOT NULL,         -- ! ancre dans le fichier source
   occurrence     TEXT NOT NULL,         -- ! forme dans le texte
   PRIMARY KEY(id ASC)
 );
-CREATE INDEX technique_doc_doc ON technique_doc(doc);
-CREATE INDEX technique_doc_technique ON technique_doc(technique);
+CREATE INDEX technique_document_document ON technique_document(document);
+CREATE INDEX technique_document_technique ON technique_document(technique);
 
 
 CREATE TABLE personne (
@@ -131,31 +131,31 @@ CREATE TABLE personne (
 CREATE INDEX personne_occs ON personne(occs, code);
 CREATE INDEX personne_docs ON personne(docs, code);
 
-CREATE TABLE personne_doc (
+CREATE TABLE personne_document (
   -- Occurences d’un nom de personne dans un document
   id             INTEGER,               -- ! rowid auto
   personne       INTEGER,               -- ! personne.id obtenu avec par personne.code
   personne_code  TEXT NOT NULL,         -- ! personne.code
-  doc            INTEGER,               -- ! doc.id obtenu avec par doc.code
-  doc_code       TEXT NOT NULL,         -- ! sera obtenu avec par doc.code
+  document       INTEGER,               -- ! document.id obtenu avec par document.code
+  document_code  TEXT NOT NULL,         -- ! sera obtenu avec par document.code
   anchor         TEXT NOT NULL,         -- ! ancre dans le ficheir source
   occurrence     TEXT NOT NULL,         -- ! forme dans le texte
   role           TEXT,                  -- ? @role
   PRIMARY KEY(id ASC)
 );
-CREATE INDEX personne_doc_personne ON personne_doc(personne);
-CREATE INDEX personne_doc_doc ON personne_doc(doc);
+CREATE INDEX personne_document_personne ON personne_document(personne);
+CREATE INDEX personne_document_document ON personne_document(document);
 
 
   ";
   static private $doctype = array(
-      "arc" => "Archives",
-      "gr" => "Gravures",
-      "i" => "Imprimés",
-      "image" => "Images",
-      "ms" => "Manuscrits",
-      "p" => "Périodiques",
-    );
+    "arc" => "Archives",
+    "gr" => "Gravures",
+    "i" => "Imprimés",
+    "image" => "Images",
+    "ms" => "Manuscrits",
+    "p" => "Périodiques",
+  );
 
   
   public static function init()
@@ -182,9 +182,9 @@ CREATE INDEX personne_doc_doc ON personne_doc(doc);
 
 ";
     $biblio = array();
-    $lieu_doc =           "lieu_code\tdoc_code\tanchor\toccurrence\tdesc\n";
-    $technique_doc = "technique_code\tdoc_code\tanchor\toccurrence\n";
-    $personne_doc =   "personne_code\tdoc_code\tanchor\toccurrence\trole\n";
+    $lieu_document =           "lieu_code\tdocument_code\tanchor\toccurrence\tdesc\n";
+    $technique_document = "technique_code\tdocument_code\tanchor\toccurrence\n";
+    $personne_document =   "personne_code\tdocument_code\tanchor\toccurrence\trole\n";
     // loop on all xml files, and do lots of work
     foreach (glob(self::$home."xml/*.xml") as $srcfile) {
       echo basename($srcfile),"\n";
@@ -195,30 +195,25 @@ CREATE INDEX personne_doc_doc ON personne_doc(doc);
       $dstname = basename($srcfile, ".xml");
       $dstfile = self::$home."site/".$dstname.".html";
       
-      $biblio[$dstname] = Build::transformDoc($dom, self::$home."build/xsl/doc.xsl", null, array('name' => $dstname));
-      $lieu_doc .= Build::transformDoc($dom, self::$home."build/xsl/lieu_doc.xsl", null, array('filename' => $dstname));
-      $personne_doc .= Build::transformDoc($dom, self::$home."build/xsl/personne_doc.xsl", null, array('filename' => $dstname));
+      $biblio[$dstname] = Build::transformDoc($dom, self::$home."build/xsl/document.xsl", null, array('name' => $dstname));
+      $lieu_document .= Build::transformDoc($dom, self::$home."build/xsl/lieu_document.xsl", null, array('filename' => $dstname));
+      $personne_document .= Build::transformDoc($dom, self::$home."build/xsl/personne_document.xsl", null, array('filename' => $dstname));
+      $technique_document .= Build::transformDoc($dom, self::$home."build/xsl/technique_document.xsl", null, array('filename' => $dstname));
       
       /*      
       $main = Build::transformDoc($dom, $theme."document.xsl", null, array('filename' => $dstname, 'locorum' => $indexes['locorum']));
       file_put_contents($dstfile, str_replace("%main%", $main, $template));
-      // data
-      fwrite($fwplace, $place);
-      fwrite($fwpers, $pers);
-      $tech = Build::transformDoc($dom, $theme."tech.xsl", null, array('filename' => $dstname));
-      fwrite($fwtech, $tech);
       */
     }
     file_put_contents(self::$home."README.md", $readme);
 
-    return;
     
     // fill biblio
-    $sql = "INSERT INTO doc (code, type, bibl) VALUES (:code, :type, :bibl);";
+    $sql = "INSERT INTO document (code, type, bibl) VALUES (:code, :type, :bibl);";
         $stmt = self::$pdo->prepare($sql);
     $stmt->bindParam('code', $code);
     $stmt->bindParam('type', $type);
-    $stmt->bindParam('bibl', $type);
+    $stmt->bindParam('bibl', $bibl);
     self::$pdo->beginTransaction();
     foreach ($biblio as $code => $bibl) {
       $type = explode('_', $code)[1];
@@ -226,42 +221,49 @@ CREATE INDEX personne_doc_doc ON personne_doc(doc);
     }
     self::$pdo->commit();
 
-    
-    
-    file_put_contents($home."index/lieu_doc.tsv", $lieu_doc);
-    self::tsv_insert("lieu_doc", array("lieu_code", "doc_code", "anchor", "occurrence", "desc"), $lieu_doc);
+    // enregistrer fichiers tsv 
+    file_put_contents(self::$home."index/lieu_document.tsv", $lieu_document);
+    file_put_contents(self::$home."index/technique_document.tsv", $technique_document);
+    file_put_contents(self::$home."index/personne_document.tsv", $personne_document);
+
+    // charger les tsv en base
+    self::tsv_insert("lieu_document", array("lieu_code", "document_code", "anchor", "occurrence", "desc"), $lieu_document);
+    self::tsv_insert("technique_document", array("technique_code", "document_code", "anchor", "occurrence"), $technique_document);
+    self::tsv_insert("personne_document", array("personne_code", "document_code", "anchor", "occurrence", "role"), $personne_document);
+
+    // mise à jour des index 
     self::$pdo->exec("
-      UPDATE lieu_doc SET
-        lieu=(SELECT id FROM lieu WHERE code=lieu_doc.lieu_code),
-        doc=(SELECT id FROM doc WHERE code=lieu_doc.doc_code)
+      UPDATE lieu_document SET
+        lieu=(SELECT id FROM lieu WHERE code=lieu_document.lieu_code),
+        document=(SELECT id FROM document WHERE code=lieu_document.document_code)
+      ;
+      UPDATE technique_document SET
+        technique=(SELECT id FROM technique WHERE code=technique_document.technique_code),
+        document=(SELECT id FROM document WHERE code=technique_document.document_code)
+      ;
+      UPDATE personne_document SET
+        personne=(SELECT id FROM personne WHERE code=personne_document.personne_code),
+        document=(SELECT id FROM document WHERE code=personne_document.document_code)
       ;
     ");
-    /*
+    
+
+    // différents comptes (autre transaction)
     self::$pdo->exec("
       UPDATE lieu SET
-        occs=(SELECT id FROM doc WHERE code=lieu_doc.doc_code),
-        docs=(SELECT count(*) FROM lieu_doc WHERE person=person.id AND writes = 1)
+        occs=(SELECT COUNT(*) FROM lieu_document WHERE lieu=lieu.id),
+        docs=(SELECT COUNT(DISTINCT document) FROM lieu_document WHERE lieu=lieu.id)
       ;
-    ");
-    */
-    file_put_contents($home."index/technique_doc.tsv", $technique_doc);
-    self::tsv_insert("technique_doc", array("technique_code", "doc_code", "anchor", "occurrence"), $technique_doc);
-    self::$pdo->exec("
-      UPDATE technique_doc SET
-        technique=(SELECT id FROM technique WHERE code=technique_doc.technique_code),
-        doc=(SELECT id FROM doc WHERE code=technique_doc.doc_code)
+      UPDATE technique SET
+        occs=(SELECT COUNT(*) FROM technique_document WHERE technique=technique.id),
+        docs=(SELECT COUNT(DISTINCT document) FROM technique_document WHERE technique=technique.id)
+      ;
+      UPDATE personne SET
+        occs=(SELECT COUNT(*) FROM personne_document WHERE personne=personne.id),
+        docs=(SELECT COUNT(DISTINCT document) FROM personne_document WHERE personne=personne.id)
       ;
     ");
 
-    file_put_contents($home."index/personne_doc.tsv", $personne_doc);
-    self::tsv_insert("personne_doc", array("personne_code", "doc_code", "anchor", "occurrence", "role"), $personne_doc);
-    self::$pdo->exec("
-      UPDATE personne_doc SET
-        personne=(SELECT id FROM personne WHERE code=personne_doc.personne_code),
-        doc=(SELECT id FROM doc WHERE code=personne_doc.doc_code)
-      ;
-    ");
-    
   }
   
   /**
@@ -269,21 +271,89 @@ CREATE INDEX personne_doc_doc ON personne_doc(doc);
    */
   public static function lieux()
   {
-    // boucler sur tous les lieux
-    $sth = $dbh->prepare("SELECT * FROM lieu ORDER BY code");
-    $sth->execute();
-    
-    
-    file_put_contents($home."site/biblio.html", str_replace("%main%", implode("\n", $html), $template));
-    $html =
-'
-<div class="row align-items-start">
-  <div class="col-9">
-  </div>
-  <div class="col-3">
-  </div>
-</div>
+    Build::rmdir(self::$home."site/lieu/");
+    Build::mkdir(self::$home."site/lieu/");
+    $page = str_replace("%relpath%", "../", self::$template);
+    $lieux = '<table class="sortable">
+  <thead>
+    <tr>
+      <th class="term">Lieu</th>
+      <th class="docs" title="Nombre de documents">documents</th>
+      <th class="occs" title="Nombre d’occurrences">occurrences</th>
+    </tr>
+  </thead>    
+  <tbody>
 ';
+    // boucler sur tous les lieux
+    $stmt = self::$pdo->prepare("SELECT * FROM lieu ORDER BY docs DESC, code ");
+    $stmt->execute();
+    
+    while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
+      $href = "lieu/".$row['code'].".html";
+      $lieux .= '
+    <tr>
+      <td class="term"><a href="'.$href.'">'.$row['term'].'</a></td>
+      <td class="docs">'.$row['docs'].'</td>
+      <td class="occs">'.$row['occs'].'</td>
+    </tr>
+';
+      $html = '';
+      $html .= '<div class="row align-items-start">'."\n";
+      $html .= '  <div class="col-9">'."\n";
+      $html .= '    <h1>'.$row['term'].'</h1>'."\n";
+      if ($row['coord']) {
+        $place = "";
+        if ($row['locality']) $place .= $row['locality'].", ";
+        if ($row['alt']) $place .= $row['alt'];
+        else $place .= $row['term'];
+        $html .= '    <div><a target="_blank" href="https://www.google.com/maps/search/'.$place.'/@'.$row['coord'].'z">'.$row['coord'].'</a></div>'."\n";
+      }
+      $html .= '      <section>'."\n";
+      $html .= '        <h2>Documents liés</h2>'."\n";
+      $html .= self::uldocs($row['id']);
+      $html .= '      </section>'."\n";
+      
+      $html .= '    </div>'."\n";
+      $html .= '    <div class="col-3">'."\n";
+      $html .= '    </div>'."\n";
+      $html .= '</div>'."\n";
+      file_put_contents(self::$home."site/".$href, str_replace("%main%", $html, $page));
+    }
+    $stmt = null;
+    
+    $lieux .= '
+  </tbody>
+</table>
+    ';
+    $page = str_replace("%relpath%", "", self::$template);
+    file_put_contents(self::$home."site/lieux.html", str_replace("%main%", $lieux, $page));
+    
+
+  }
+  
+  private static function uldocs($idres)
+  {
+    $relpath = "../";
+    $sql = "SELECT DISTINCT document.* FROM document, lieu_document WHERE lieu_document.lieu = ? AND lieu_document.document = document.id ORDER BY type, code;";
+    $stmt = self::$pdo->prepare($sql);
+    $stmt->bindParam(1, $idres, PDO::PARAM_INT);
+    $stmt->execute();
+    $type = "";
+    $html = "";
+    while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
+      if ($type != $row['type']) {
+        if($type) $html .= "</ul></div>\n";
+        $html .= '<div class="doctype">'."\n";
+        if (isset(self::$doctype[$row['type']])) $h4 = self::$doctype[$row['type']];
+        else $h4 = $row['type'];
+        $html .= '<h4>'.$h4.'</h4>'."\n";
+        $html .= "<ul>\n";
+        $type =  $row['type'];
+      }
+      $html .= '<li><a href="'.$relpath.'document/'.$row['code'].'.html">'.$row['bibl'].'</a></li>'."\n";
+    }
+    if($html) $html .= "</ul></div>\n";
+    return $html;
   }
 
   /**
