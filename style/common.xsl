@@ -317,6 +317,9 @@ Gobal TEI parameters and variables are divided in different categories
   <xsl:variable name="els-unique"> editorialDecl licence projectDesc revisionDesc samplingDecl sourceDesc TEI teiHeader </xsl:variable>
   <!-- A bar of non breaking spaces, used for indentation -->
   <xsl:variable name="nbsp">                                                                                         </xsl:variable>
+  <xsl:variable name="cr">
+    <xsl:text>&#13;</xsl:text>
+  </xsl:variable>
   <xsl:variable name="lf">
     <xsl:text>&#10;</xsl:text>
   </xsl:variable>

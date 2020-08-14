@@ -4,33 +4,11 @@ Merveilles17::init();
 Merveilles17::copy();
 Merveilles17::load();
 Merveilles17::lieux();
+Merveilles17::techniques();
+Merveilles17::documents();
 
 
-/*
 
-
-
-$html = array();
-$last = null;
-$first = true;
-foreach ($biblio as $key => $value) {
-  $type = explode('_', $key)[1];
-  if ($type != $last) {
-    if ($first) $first = false;
-    else $html[] = "</div>";
-    $html[] = "<div>";
-    $html[] = "<h2>";
-    if (isset($doctype[$type])) $html[] = $doctype[$type];
-    else $html[] = $type;
-    $html[] = "</h2>";
-    $last = $type;
-  }
-  $html[] = $value;
-}
-$html[] = "</div>";
-
-file_put_contents($home."site/biblio.html", str_replace("%main%", implode("\n", $html), $template));
-*/
 
 class Merveilles17
 {
@@ -123,7 +101,7 @@ CREATE TABLE personne (
   -- répertoire des personnes
   id             INTEGER,               -- ! rowid auto
   code           TEXT UNIQUE NOT NULL,  -- ! code unique
-  term           TEXT NOT NULL,         -- ! forme dans le texte
+  term           TEXT NOT NULL,         -- ! forme d’autorité
   docs           INTEGER,               -- ! nombre de documents,  calculé, pour tri
   occs           INTEGER,               -- ! nombre d’occurrences, calculé, pour tri
   PRIMARY KEY(id ASC)
@@ -173,6 +151,7 @@ CREATE INDEX personne_document_document ON personne_document(document);
   public static function load()
   {
     self::tsv_insert("lieu", array("code", "term", "coord", "locality", "alt"), file_get_contents(self::$home."index/lieu.tsv"));
+    self::tsv_insert("technique", array("code", "term"), file_get_contents(self::$home."index/technique.tsv"));
     
     // different generated files    
     $readme = "
@@ -181,7 +160,7 @@ CREATE INDEX personne_document_document ON personne_document(document);
 [Documentation du schema](https://fetes17.github.io/merveilles17/merveilles17.html)
 
 ";
-    $biblio = array();
+    $document = "document_code\ttype\tbibl\tlength\n";
     $lieu_document =           "lieu_code\tdocument_code\tanchor\toccurrence\tdesc\n";
     $technique_document = "technique_code\tdocument_code\tanchor\toccurrence\n";
     $personne_document =   "personne_code\tdocument_code\tanchor\toccurrence\trole\n";
@@ -195,38 +174,29 @@ CREATE INDEX personne_document_document ON personne_document(document);
       $dstname = basename($srcfile, ".xml");
       $dstfile = self::$home."site/".$dstname.".html";
       
-      $biblio[$dstname] = Build::transformDoc($dom, self::$home."build/xsl/document.xsl", null, array('name' => $dstname));
-      $lieu_document .= Build::transformDoc($dom, self::$home."build/xsl/lieu_document.xsl", null, array('filename' => $dstname));
+      
+      $line = Build::transformDoc($dom, self::$home."build/xsl/document.xsl", null, array('filename' => $dstname));
+      $line = str_replace(' xmlns="http://www.w3.org/1999/xhtml"', '', $line);
+      $document .= $line;
+      
       $personne_document .= Build::transformDoc($dom, self::$home."build/xsl/personne_document.xsl", null, array('filename' => $dstname));
       $technique_document .= Build::transformDoc($dom, self::$home."build/xsl/technique_document.xsl", null, array('filename' => $dstname));
+      $lieu_document .= Build::transformDoc($dom, self::$home."build/xsl/lieu_document.xsl", null, array('filename' => $dstname));
       
       /*      
-      $main = Build::transformDoc($dom, $theme."document.xsl", null, array('filename' => $dstname, 'locorum' => $indexes['locorum']));
+      
       file_put_contents($dstfile, str_replace("%main%", $main, $template));
       */
     }
     file_put_contents(self::$home."README.md", $readme);
 
-    
-    // fill biblio
-    $sql = "INSERT INTO document (code, type, bibl) VALUES (:code, :type, :bibl);";
-        $stmt = self::$pdo->prepare($sql);
-    $stmt->bindParam('code', $code);
-    $stmt->bindParam('type', $type);
-    $stmt->bindParam('bibl', $bibl);
-    self::$pdo->beginTransaction();
-    foreach ($biblio as $code => $bibl) {
-      $type = explode('_', $code)[1];
-      $stmt->execute();
-    }
-    self::$pdo->commit();
-
     // enregistrer fichiers tsv 
+    file_put_contents(self::$home."index/document.tsv", $document);
     file_put_contents(self::$home."index/lieu_document.tsv", $lieu_document);
     file_put_contents(self::$home."index/technique_document.tsv", $technique_document);
-    file_put_contents(self::$home."index/personne_document.tsv", $personne_document);
 
     // charger les tsv en base
+    self::tsv_insert("document", array("code", "type", "bibl", "length"), $document);
     self::tsv_insert("lieu_document", array("lieu_code", "document_code", "anchor", "occurrence", "desc"), $lieu_document);
     self::tsv_insert("technique_document", array("technique_code", "document_code", "anchor", "occurrence"), $technique_document);
     self::tsv_insert("personne_document", array("personne_code", "document_code", "anchor", "occurrence", "role"), $personne_document);
@@ -263,8 +233,124 @@ CREATE INDEX personne_document_document ON personne_document(document);
         docs=(SELECT COUNT(DISTINCT document) FROM personne_document WHERE personne=personne.id)
       ;
     ");
+    
+    /*
+    // Index de contrôle
+    $stmt = self::$pdo->prepare("SELECT document_code FROM personne_document, personne WHERE personne_document=personne.id ORDER BY document_code, personne_code");
+    $stmt->execute();
+    $tsv = "document_code\tpersonne_code\tpersonne_\toccurrence\trole\n";;
+    while ($row = $stmt->fetch(PDO::FETCH_NUM)) {
+    
+    }
+    
+    */
+    
 
   }
+
+  public static function documents()
+  {
+    Build::rmdir(self::$home."site/document/");
+    Build::mkdir(self::$home."site/document/");
+    $template = str_replace("%relpath%", "../", self::$template);
+    $index = self::uldocs(null, null, "");
+    file_put_contents(self::$home."site/document/index.html", str_replace("%main%", $index, $template));
+    
+    $qid = self::$pdo->prepare("SELECT id FROM document WHERE code = ?");
+    
+    $qlieux = self::$pdo->prepare("SELECT lieu.id, lieu.code, lieu.term, COUNT(document_code) AS count FROM lieu, lieu_document WHERE document_code = ? AND lieu_document.lieu = lieu.id GROUP BY lieu ORDER BY count DESC");
+    $qtechniques = self::$pdo->prepare("SELECT technique.id, technique.code, technique.term, COUNT(document_code) AS count FROM technique, technique_document WHERE document_code = ? AND technique_document.technique = technique.id GROUP BY technique ORDER BY count DESC");
+    
+    foreach (glob(self::$home."xml/*.xml") as $srcfile) {
+      $document_code = basename($srcfile, ".xml");
+      $qid->execute(array($document_code));
+      list($docid) = $qid->fetch();
+      $dom = Build::dom($srcfile);
+      $page = Build::transformDoc($dom, self::$home."build/xsl/page_document.xsl", null, array('filename' => $document_code));
+      
+      // liste de lieux
+      $qlieux->execute(array($document_code));
+      $lieux = '<div id="lieux"><h2>Lieux</h2><ul>'."\n";
+      $count = 0;
+      while ($row = $qlieux->fetch(PDO::FETCH_ASSOC)) {
+        $lieux .= '<li><a href="../lieu/'.$row['code'].'.html">'.$row['term'].'</a> ('.$row['count'].')</li>'."\n";
+        $count++;
+      }
+      $lieux .= '</ul></div>'."\n";
+      if ($count) $page = str_replace("%lieux%", $lieux, $page);
+      
+      // liste de techniques
+      $qtechniques->execute(array($document_code));
+      $techniques = '<div id="techniques"><h2>Techniques</h2><ul>'."\n";
+      $count = 0;
+      while ($row = $qtechniques->fetch(PDO::FETCH_ASSOC)) {
+        $techniques .= '<li><a href="../technique/'.$row['code'].'.html">'.$row['term'].'</a> ('.$row['count'].')</li>'."\n";
+        $count++;
+      }
+      $techniques .= '</ul></div>'."\n";
+      if ($count) $page = str_replace("%techniques%", $techniques, $page);
+      
+      
+      file_put_contents(self::$home.'site/document/'.$document_code.'.html', str_replace('%main%', $page, $template));
+    }
+
+  
+  }
+
+  /**
+   * Générer les pages techniques
+   */
+  public static function techniques()
+  {
+    Build::rmdir(self::$home."site/technique/");
+    Build::mkdir(self::$home."site/technique/");
+    $template = str_replace("%relpath%", "../", self::$template);
+    $index = '<table class="sortable">
+  <thead>
+    <tr>
+      <th class="term">Technique</th>
+      <th class="docs" title="Nombre de documents">documents</th>
+      <th class="occs" title="Nombre d’occurrences">occurrences</th>
+    </tr>
+  </thead>    
+  <tbody>
+';
+    // boucler sur tous les termes
+    $stmt = self::$pdo->prepare("SELECT * FROM technique ORDER BY docs DESC, code ");
+    $stmt->execute();
+    while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
+      $href = "technique/".$row['code'].".html";
+      $index .= '
+    <tr>
+      <td class="term"><a href="'.$row['code'].'.html">'.$row['term'].'</a></td>
+      <td class="docs">'.$row['docs'].'</td>
+      <td class="occs">'.$row['occs'].'</td>
+    </tr>
+';
+      $page = '';
+      $page .= '<div class="row align-items-start">'."\n";
+      $page .= '  <div class="col-9">'."\n";
+      $page .= '    <h1>'.$row['term'].'</h1>'."\n";
+      $page .= '      <section>'."\n";
+      $page .= '        <h2>Documents liés</h2>'."\n";
+      $page .= self::uldocs("technique", $row['id']);
+      $page .= '      </section>'."\n";
+      
+      $page .= '    </div>'."\n";
+      $page .= '    <div class="col-3">'."\n";
+      $page .= '    </div>'."\n";
+      $page .= '</div>'."\n";
+      file_put_contents(self::$home."site/".$href, str_replace("%main%", $page, $template));
+    }
+    $stmt = null;    
+    $index .= '
+  </tbody>
+</table>
+    ';
+    file_put_contents(self::$home."site/technique/index.html", str_replace("%main%", $index, $template));
+
+  }
+
   
   /**
    * Générer les pages lieux
@@ -273,8 +359,8 @@ CREATE INDEX personne_document_document ON personne_document(document);
   {
     Build::rmdir(self::$home."site/lieu/");
     Build::mkdir(self::$home."site/lieu/");
-    $page = str_replace("%relpath%", "../", self::$template);
-    $lieux = '<table class="sortable">
+    $template = str_replace("%relpath%", "../", self::$template);
+    $index = '<table class="sortable">
   <thead>
     <tr>
       <th class="term">Lieu</th>
@@ -284,59 +370,65 @@ CREATE INDEX personne_document_document ON personne_document(document);
   </thead>    
   <tbody>
 ';
-    // boucler sur tous les lieux
+    // boucler sur tous les termes
     $stmt = self::$pdo->prepare("SELECT * FROM lieu ORDER BY docs DESC, code ");
     $stmt->execute();
     
     while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
       $href = "lieu/".$row['code'].".html";
-      $lieux .= '
+      $index .= '
     <tr>
       <td class="term"><a href="'.$href.'">'.$row['term'].'</a></td>
       <td class="docs">'.$row['docs'].'</td>
       <td class="occs">'.$row['occs'].'</td>
     </tr>
 ';
-      $html = '';
-      $html .= '<div class="row align-items-start">'."\n";
-      $html .= '  <div class="col-9">'."\n";
-      $html .= '    <h1>'.$row['term'].'</h1>'."\n";
+      $page = '';
+      $page .= '<div class="row align-items-start">'."\n";
+      $page .= '  <div class="col-9">'."\n";
+      $page .= '    <h1>'.$row['term'].'</h1>'."\n";
       if ($row['coord']) {
         $place = "";
         if ($row['locality']) $place .= $row['locality'].", ";
         if ($row['alt']) $place .= $row['alt'];
         else $place .= $row['term'];
-        $html .= '    <div><a target="_blank" href="https://www.google.com/maps/search/'.$place.'/@'.$row['coord'].'z">'.$row['coord'].'</a></div>'."\n";
+        $page .= '    <div><a target="_blank" href="https://www.google.com/maps/search/'.$place.'/@'.$row['coord'].'z">'.$row['coord'].'</a></div>'."\n";
       }
-      $html .= '      <section>'."\n";
-      $html .= '        <h2>Documents liés</h2>'."\n";
-      $html .= self::uldocs($row['id']);
-      $html .= '      </section>'."\n";
+      $page .= '      <section>'."\n";
+      $page .= '        <h2>Documents liés</h2>'."\n";
+      $page .= self::uldocs("lieu", $row['id']);
+      $page .= '      </section>'."\n";
       
-      $html .= '    </div>'."\n";
-      $html .= '    <div class="col-3">'."\n";
-      $html .= '    </div>'."\n";
-      $html .= '</div>'."\n";
-      file_put_contents(self::$home."site/".$href, str_replace("%main%", $html, $page));
+      $page .= '    </div>'."\n";
+      $page .= '    <div class="col-3">'."\n";
+      $page .= '    </div>'."\n";
+      $page .= '</div>'."\n";
+      file_put_contents(self::$home."site/".$href, str_replace("%main%", $page, $template));
     }
     $stmt = null;
     
-    $lieux .= '
+    $index .= '
   </tbody>
 </table>
     ';
-    $page = str_replace("%relpath%", "", self::$template);
-    file_put_contents(self::$home."site/lieux.html", str_replace("%main%", $lieux, $page));
+    file_put_contents(self::$home."site/lieu/index.html", str_replace("%main%", $index, $template));
     
 
   }
   
-  private static function uldocs($idres)
+  private static function uldocs($table=null, $id=null, $relpath = "../document/")
   {
-    $relpath = "../";
-    $sql = "SELECT DISTINCT document.* FROM document, lieu_document WHERE lieu_document.lieu = ? AND lieu_document.document = document.id ORDER BY type, code;";
-    $stmt = self::$pdo->prepare($sql);
-    $stmt->bindParam(1, $idres, PDO::PARAM_INT);
+    if($table) {
+      $sql = "SELECT DISTINCT document.* FROM document, %table%_document WHERE %table%_document.%table% = ? AND %table%_document.document = document.id ORDER BY type, code;";
+      $sql = str_replace('%table%', $table, $sql);
+      $stmt = self::$pdo->prepare($sql);
+      $stmt->bindParam(1, $id, PDO::PARAM_INT);
+    }
+    else {
+      $sql = "SELECT * FROM document ORDER BY type, code;";
+      $stmt = self::$pdo->prepare($sql);
+    }
+    
     $stmt->execute();
     $type = "";
     $html = "";
@@ -350,7 +442,7 @@ CREATE INDEX personne_document_document ON personne_document(document);
         $html .= "<ul>\n";
         $type =  $row['type'];
       }
-      $html .= '<li><a href="'.$relpath.'document/'.$row['code'].'.html">'.$row['bibl'].'</a></li>'."\n";
+      $html .= '<li><a href="'.$relpath.$row['code'].'.html">'.$row['bibl'].'</a></li>'."\n";
     }
     if($html) $html .= "</ul></div>\n";
     return $html;
@@ -391,6 +483,12 @@ CREATE INDEX personne_document_document ON personne_document(document);
     $dstdir = self::$home."site/theme"; // prudence
     Build::rmdir($dstdir);
     Build::rcopy(self::$home."build/theme", $dstdir);
+    $template = str_replace("%relpath%", "", self::$template);
+    // copy static page
+    foreach (glob(self::$home."build/pages/*.html") as $srcfile) {
+      file_put_contents(self::$home."site/".basename($srcfile), str_replace("%main%", file_get_contents($srcfile), $template));
+    }
+
   }
 
 }
@@ -536,8 +634,9 @@ class Build
 
   /**
    * Recursive deletion of a directory
+   * If $keep = true, keep directory with its acl
    */
-  static function rmdir($dir) {
+  static function rmdir($dir, $keep = false) {
     $dir = rtrim($dir, "/\\").DIRECTORY_SEPARATOR;
     if (!is_dir($dir)) return false; // maybe deleted
     if(!($handle = opendir($dir))) throw new Exception("Read impossible ".$file);
@@ -549,7 +648,7 @@ class Build
       else unlink($file);
      }
     closedir($handle);
-    rmdir($dir);
+    if (!$keep) rmdir($dir);
   }
   
   
