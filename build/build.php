@@ -6,6 +6,7 @@ Merveilles17::load();
 Merveilles17::lieux();
 Merveilles17::techniques();
 Merveilles17::documents();
+Merveilles17::control();
 
 
 
@@ -140,8 +141,6 @@ CREATE INDEX personne_document_document ON personne_document(document);
   {
     self::$home = dirname(dirname(__FILE__)).'/';
     self::$sqlfile = self::$home."site/merveilles17.sqlite";
-    // recreate sqlite base on each call
-    self::$pdo = Build::sqlcreate(self::$sqlfile, self::$create);
     self::$template = file_get_contents(self::$home."build/template.html");
   }
   
@@ -191,9 +190,9 @@ CREATE INDEX personne_document_document ON personne_document(document);
     file_put_contents(self::$home."README.md", $readme);
 
     // enregistrer fichiers tsv 
-    file_put_contents(self::$home."index/document.tsv", $document);
-    file_put_contents(self::$home."index/lieu_document.tsv", $lieu_document);
-    file_put_contents(self::$home."index/technique_document.tsv", $technique_document);
+    file_put_contents(self::$home."site/tsv/document.tsv", $document);
+    file_put_contents(self::$home."site/tsv/lieu_document.tsv", $lieu_document);
+    file_put_contents(self::$home."site/tsv/technique_document.tsv", $technique_document);
 
     // charger les tsv en base
     self::tsv_insert("document", array("code", "type", "bibl", "length"), $document);
@@ -234,18 +233,19 @@ CREATE INDEX personne_document_document ON personne_document(document);
       ;
     ");
     
-    /*
-    // Index de contrôle
-    $stmt = self::$pdo->prepare("SELECT document_code FROM personne_document, personne WHERE personne_document=personne.id ORDER BY document_code, personne_code");
-    $stmt->execute();
-    $tsv = "document_code\tpersonne_code\tpersonne_\toccurrence\trole\n";;
-    while ($row = $stmt->fetch(PDO::FETCH_NUM)) {
-    
-    }
-    
-    */
-    
 
+  }
+  
+  public static function control()
+  {
+    // Index de contrôle
+    $stmt = self::$pdo->prepare("SELECT document_code, lieu_code, occurrence FROM lieu_document WHERE lieu IS NULL");
+    $stmt->execute();
+    $tsv = "document_code\tlieu_code\toccurrence\n";
+    while ($row = $stmt->fetch(PDO::FETCH_NUM)) {
+      $tsv .= implode("\t", $row)."\n";
+    }
+    file_put_contents(self::$home."site/tsv/lieu_orphelins.tsv", $tsv);    
   }
 
   public static function documents()
@@ -477,18 +477,17 @@ CREATE INDEX personne_document_document ON personne_document(document);
    */
   public static function copy()
   {
-    $dstdir = self::$home."site/images"; // prudence
-    Build::rmdir($dstdir);
-    Build::rcopy(self::$home."build/images", $dstdir);
-    $dstdir = self::$home."site/theme"; // prudence
-    Build::rmdir($dstdir);
-    Build::rcopy(self::$home."build/theme", $dstdir);
+    Build::rmdir(self::$home."site", true);
+    Build::rcopy(self::$home."build/images", self::$home."site/images");
+    Build::rcopy(self::$home."build/theme", self::$home."site/theme");
     $template = str_replace("%relpath%", "", self::$template);
     // copy static page
     foreach (glob(self::$home."build/pages/*.html") as $srcfile) {
       file_put_contents(self::$home."site/".basename($srcfile), str_replace("%main%", file_get_contents($srcfile), $template));
     }
-
+    // recreate sqlite base on each call
+    self::$pdo = Build::sqlcreate(self::$sqlfile, self::$create);
+    Build::mkdir(self::$home."site/tsv");
   }
 
 }
