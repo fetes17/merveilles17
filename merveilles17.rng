@@ -604,6 +604,11 @@
           <ref name="ana"/>
         </optional>
         <optional>
+          <attribute name="rend">
+            <ref name="rend.font"/>
+          </attribute>
+        </optional>
+        <optional>
           <ref name="head"/>
         </optional>
         <oneOrMore>
@@ -652,6 +657,7 @@
           <ref name="emph"/>
           <ref name="foreign"/>
           <ref name="name"/>
+          <ref name="note"/>
           <ref name="persName"/>
           <ref name="pb"/>
           <ref name="placeName"/>
@@ -757,6 +763,14 @@
     <define name="note">
       <element name="note">
         <a:documentation>Une note, encodée dans le flux du texte, au point de l’appel</a:documentation>
+        <optional>
+          <attribute name="place">
+             <choice>
+               <value>bottom</value>
+               <value>margin</value>
+             </choice>
+          </attribute>
+        </optional>
         <choice>
           <oneOrMore>
             <choice>
@@ -823,6 +837,7 @@
           <choice>
             <text/>
             <ref name="orgName"/>
+            <ref name="persName"/>
             <ref name="sc"/>
             <ref name="sup"/>
           </choice>
@@ -912,7 +927,7 @@
               <value>costume</value>
               <value>decor</value>
               <value>eaux</value>
-              <value>feu-artifice</value>
+              <value>feux-artifice</value>
               <value>lumieres</value>
               <value>machine</value>
               <value>machine_vol</value>
