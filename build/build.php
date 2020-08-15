@@ -190,9 +190,9 @@ CREATE INDEX personne_document_document ON personne_document(document);
     file_put_contents(self::$home."README.md", $readme);
 
     // enregistrer fichiers tsv 
-    file_put_contents(self::$home."site/tsv/document.tsv", $document);
-    file_put_contents(self::$home."site/tsv/lieu_document.tsv", $lieu_document);
-    file_put_contents(self::$home."site/tsv/technique_document.tsv", $technique_document);
+    file_put_contents(self::$home."site/data/document.tsv", $document);
+    file_put_contents(self::$home."site/data/lieu_document.tsv", $lieu_document);
+    file_put_contents(self::$home."site/data/technique_document.tsv", $technique_document);
 
     // charger les tsv en base
     self::tsv_insert("document", array("code", "type", "bibl", "length"), $document);
@@ -245,7 +245,7 @@ CREATE INDEX personne_document_document ON personne_document(document);
     while ($row = $stmt->fetch(PDO::FETCH_NUM)) {
       $tsv .= implode("\t", $row)."\n";
     }
-    file_put_contents(self::$home."site/tsv/lieu_orphelins.tsv", $tsv);    
+    file_put_contents(self::$home."site/data/lieu_orphelins.tsv", $tsv);    
   }
 
   public static function documents()
@@ -487,7 +487,7 @@ CREATE INDEX personne_document_document ON personne_document(document);
     }
     // recreate sqlite base on each call
     self::$pdo = Build::sqlcreate(self::$sqlfile, self::$create);
-    Build::mkdir(self::$home."site/tsv");
+    Build::mkdir(self::$home."site/data");
   }
 
 }
