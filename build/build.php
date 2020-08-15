@@ -375,10 +375,9 @@ CREATE INDEX personne_document_document ON personne_document(document);
     $stmt->execute();
     
     while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
-      $href = "lieu/".$row['code'].".html";
       $index .= '
     <tr>
-      <td class="term"><a href="'.$href.'">'.$row['term'].'</a></td>
+      <td class="term"><a href="'.$row['code'].'.html">'.$row['term'].'</a></td>
       <td class="docs">'.$row['docs'].'</td>
       <td class="occs">'.$row['occs'].'</td>
     </tr>
@@ -403,7 +402,7 @@ CREATE INDEX personne_document_document ON personne_document(document);
       $page .= '    <div class="col-3">'."\n";
       $page .= '    </div>'."\n";
       $page .= '</div>'."\n";
-      file_put_contents(self::$home."site/".$href, str_replace("%main%", $page, $template));
+      file_put_contents(self::$home."site/lieu/".$row['code'].'.html', str_replace("%main%", $page, $template));
     }
     $stmt = null;
     
