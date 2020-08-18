@@ -103,6 +103,12 @@ CREATE TABLE personne (
   id             INTEGER,               -- ! rowid auto
   code           TEXT UNIQUE NOT NULL,  -- ! code unique
   term           TEXT NOT NULL,         -- ! forme d’autorité
+  gender         TEXT,                  -- M male, F femme
+  birth          TEXT,                  -- date de naissance
+  death          TEXT,                  -- date de mort
+  databnf        TEXT,                  -- autorité BNF
+  wikipedia      TEXT,                  -- URL wikipedia
+  isni           TEXT,                  -- code ISNI
   docs           INTEGER,               -- ! nombre de documents,  calculé, pour tri
   occs           INTEGER,               -- ! nombre d’occurrences, calculé, pour tri
   PRIMARY KEY(id ASC)
@@ -151,6 +157,7 @@ CREATE INDEX personne_document_document ON personne_document(document);
   {
     self::tsv_insert("lieu", array("code", "term", "coord", "locality", "alt"), file_get_contents(self::$home."index/lieu.tsv"));
     self::tsv_insert("technique", array("code", "term"), file_get_contents(self::$home."index/technique.tsv"));
+    self::tsv_insert("personne", array("code", "term", "gender", "birth", "death", "databnf", "wikipedia", "isni"), file_get_contents(self::$home."index/personne.tsv"));
     
     // different generated files    
     $readme = "
@@ -193,6 +200,7 @@ CREATE INDEX personne_document_document ON personne_document(document);
     file_put_contents(self::$home."site/data/document.tsv", $document);
     file_put_contents(self::$home."site/data/lieu_document.tsv", $lieu_document);
     file_put_contents(self::$home."site/data/technique_document.tsv", $technique_document);
+    file_put_contents(self::$home."site/data/personne_document.tsv", $personne_document);
 
     // charger les tsv en base
     self::tsv_insert("document", array("code", "type", "bibl", "length"), $document);
@@ -246,6 +254,14 @@ CREATE INDEX personne_document_document ON personne_document(document);
       $tsv .= implode("\t", $row)."\n";
     }
     file_put_contents(self::$home."site/data/lieu_orphelins.tsv", $tsv);    
+
+    $stmt = self::$pdo->prepare("SELECT document_code, personne_code, occurrence FROM personne_document WHERE personne IS NULL");
+    $stmt->execute();
+    $tsv = "document_code\tpersonne_code\toccurrence\n";
+    while ($row = $stmt->fetch(PDO::FETCH_NUM)) {
+      $tsv .= implode("\t", $row)."\n";
+    }
+    file_put_contents(self::$home."site/data/personne_orphelins.tsv", $tsv);    
   }
 
   public static function documents()
