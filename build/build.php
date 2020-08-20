@@ -131,6 +131,29 @@ CREATE TABLE personne_document (
 CREATE INDEX personne_document_personne ON personne_document(personne);
 CREATE INDEX personne_document_document ON personne_document(document);
 
+CREATE TABLE date (
+  -- chronologie
+  id             INTEGER,               -- ! rowid auto
+  code           TEXT UNIQUE NOT NULL,  -- ! code unique
+  docs           INTEGER,               -- ! nombre de documents,  calculé, pour tri
+  occs           INTEGER,               -- ! nombre d’occurrences, calculé, pour tri
+  PRIMARY KEY(id ASC)
+);
+
+CREATE TABLE date_document (
+  -- Occurences d’une date dans un document
+  id             INTEGER,               -- ! rowid auto
+  date           INTEGER,               -- ! personne.id obtenu avec par personne.code
+  date_code      TEXT NOT NULL,         -- ! personne.code
+  document       INTEGER,               -- ! document.id obtenu avec par document.code
+  document_code  TEXT NOT NULL,         -- ! sera obtenu avec par document.code
+  anchor         TEXT NOT NULL,         -- ! ancre dans le ficheir source
+  occurrence     TEXT NOT NULL,         -- ! forme dans le texte
+  PRIMARY KEY(id ASC)
+);
+CREATE INDEX date_document_date ON date_document(date);
+CREATE INDEX date_document_document ON date_document(document);
+
 
   ";
   static private $doctype = array(
@@ -364,6 +387,76 @@ CREATE INDEX personne_document_document ON personne_document(document);
 </table>
     ';
     file_put_contents(self::$home."site/technique/index.html", str_replace("%main%", $index, $template));
+
+  }
+
+  /**
+   * Générer les pages personnes
+   */
+  public static function personnes()
+  {
+    Build::rmdir(self::$home."site/personne/");
+    Build::mkdir(self::$home."site/personne/");
+    $template = str_replace("%relpath%", "../", self::$template);
+    $index = '<table class="sortable">
+  <thead>
+    <tr>
+      <th class="term">Personne</th>
+      <th class="birth" title="Date de naissance">Naissance</th>
+      <th class="death" title="Date de mort">Mort</th>
+      <th class="docs" title="Nombre de documents">documents</th>
+      <th class="occs" title="Nombre d’occurrences">occurrences</th>
+    </tr>
+  </thead>    
+  <tbody>
+';
+    // boucler sur tous les termes
+    $stmt = self::$pdo->prepare("SELECT * FROM personne ORDER BY docs DESC, code ");
+    $stmt->execute();
+    while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
+      $href = "personne/".$row['code'].".html";
+      $index .= '
+    <tr>
+      <td class="term"><a href="'.$row['code'].'.html">'.$row['term'].'</a></td>
+      <td class="birth">'.$row['birth'].'</td>
+      <td class="death">'.$row['death'].'</td>
+      <td class="docs">'.$row['docs'].'</td>
+      <td class="occs">'.$row['occs'].'</td>
+    </tr>
+';
+      $page .= ''."\n";
+      $page .= '<div class="row align-items-start">'."\n";
+      $page .= '  <div class="col-9">'."\n";
+      $dates = '';
+      if ($row['birth'] && $row['death']) $dates = ' ('.$row['birth'].' – '.$row['death'].')';
+      else if ($row['birth']) $dates = ' ('.$row['birth'].' – ?)';
+      else if ($row['death']) $dates = ' (? – '.$row['death'].')';
+      $page .= '    <h1>'.$row['term'].$dates.'</h1>'."\n";
+      $page .= '<p>Courte notice ? à ajouter à personne.csv</p>'."\n";
+      if ($row['wikipedia'] || $row['databnf'] || $row['isni']) {
+        $page .= '<ul>'."\n";
+        if ($row['wikipedia']) $page .= '  <li><a href="'.$row['wikipedia'].'">'.wikipedia.'</a></li>'."\n";
+        if ($row['databnf']) $page .= '  <li><a href="'.$row['databnf'].'">'.databnf.'</a></li>'."\n";
+        if ($row['isni']) $page .= '  <li>ISNI : <a href="http://isni.org/isni/'.strtr($row['isni'], ' ', '').'">'.$row['isni'].'</a></li>'."\n";
+        $page .= '</ul>'."\n";
+      }
+      $page .= '      <section>'."\n";
+      $page .= '        <h2>Documents liés</h2>'."\n";
+      $page .= self::uldocs("personne", $row['id']);
+      $page .= '      </section>'."\n";
+      
+      $page .= '    </div>'."\n";
+      $page .= '    <div class="col-3">'."\n";
+      $page .= '    </div>'."\n";
+      $page .= '</div>'."\n";
+      file_put_contents(self::$home."site/".$href, str_replace("%main%", $page, $template));
+    }
+    $stmt = null;    
+    $index .= '
+  </tbody>
+</table>
+    ';
+    file_put_contents(self::$home."site/personne/index.html", str_replace("%main%", $index, $template));
 
   }
 
