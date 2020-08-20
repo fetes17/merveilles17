@@ -3,9 +3,9 @@ name: Site
 on:
   push:
     paths:
-      - 'build/*'
+      - 'build/**'
       - '.github/workflows/*'
-
+      - 'xml/*'
 jobs:
   build:
     name: Site
@@ -13,10 +13,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Echo, oh, oh, oh
+      - name: Build
         run: |
-          echo "${{ github.event.inputs.name }}"
-          echo "vous êtes ici : ${{ github.event.inputs.home }}!"
+          php build/build.php
       - name: Commit and push
         run: |
           date > build/action-test.txt
