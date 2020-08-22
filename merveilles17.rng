@@ -754,6 +754,7 @@
         <zeroOrMore>
           <choice>
             <text/>
+            <ref name="name"/>
             <ref name="sc"/>
             <ref name="sup"/>
           </choice>
