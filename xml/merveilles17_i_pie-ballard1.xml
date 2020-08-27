@@ -94,7 +94,7 @@
             <name>celuy d’Oger le Danois</name>, Iuge des Courses, portans les Lances &amp; les
           Escus de leurs Maistres.</p>
         <pb n="7"/>
-        <p><persName role="musicien">Quatre Trompettes</persName>, &amp; <persName role="musicien"
+        <p><persName key="trompettes" role="musicien">Quatre Trompettes</persName>, &amp; <persName key="timbales" role="musicien"
             >deux Tymballiers</persName>.</p>
         <p>LE <persName key="saint_aignan" role="acteur">Duc de Saint-Aignan</persName>,
           representant <name>Guidon le Sauuage</name>, Mareschal de Camp, ayant pour Deuise vn
@@ -121,7 +121,7 @@
         <l>C’est auoir sur les bras deux étranges querelles,</l>
         <l>Qui sort à son honneur de double combat</l>
         <l>Doit estre ce me semble vn terrible Soldat.</l>
-        <p><persName role="musicien">Huit Trompettes</persName>, &amp; <persName role="musicien"
+        <p><persName key="trompettes" role="musicien">Huit Trompettes</persName>, &amp; <persName key="timbales" role="musicien"
             >deux Tymballiers</persName>.</p>
         <p><persName key="louisxiv" role="acteur">LE ROY</persName>, representant
             <name>Roger</name>, ayant pour Deuise vn Soleil auec ces mots.</p>
@@ -431,7 +431,7 @@ Balisage ?-->Hymen y
         <p>APres le recit d’<name>Apollon</name> &amp; <name>des Siecles</name>, la course de
             Bague se fait, &amp; la nuit suruenant, les enuivrons de l’Isle enchantée
           brillent d’<tech type="lumieres">vn nombre infiny de lumieres</tech>, &amp; l’on voit entrer dans la mesme
-            place<persName role="musicien"> trente-quatre concertans</persName> marchant deuant <name>les quatre
+            place<persName key="concertants" role="musicien"> trente-quatre concertans</persName> marchant deuant <name>les quatre
             Saison</name>.</p>
         <pb n="20"/>
         <list>
@@ -767,7 +767,7 @@ Balisage ?-->Hymen y
           </list>
           <p>VN Chœur de plusieurs instrumans se fait entendre de toutes parts, sur <tech type="decor">deux
               Isles</tech> situées aux deux costez du <tech type="construction">Palais d’Alcine</tech> il paroist vn
-              <persName role="musicien">grand nombre de Musiciens</persName> qui font vne charmante Harmonie ;
+              <persName key="musiciens" role="musicien">grand nombre de Musiciens</persName> qui font vne charmante Harmonie ;
             pendant que le <tech type="construction">Frontispice du Palais</tech> venant à s’ouurir, il en sort
               <name>quatre Geants</name>
             <seg ana="description">d’vne hauteur prodigieuse</seg>, commis à la garde d’vn lieu si
@@ -863,7 +863,7 @@ Balisage ?-->Hymen y
               <persName key="ceton" role="acteur">Ceton</persName>
             <name>Page</name> de <persName key="anne_de_noailles">Monsieur le Duc de Noailles</persName>.</p>
           <pb n="2"/>
-          <p><persName role="musicien">Quatre Trompettes</persName>, &amp; <persName role="musicien">deux
+          <p><persName key="trompettes" role="musicien">Quatre Trompettes</persName>, &amp; <persName key="timbales" role="musicien">deux
             Tymballiers</persName>.</p>
           <p>Trompettes.</p>
           <list>
@@ -881,7 +881,7 @@ Balisage ?-->Hymen y
           <p><persName key="saint_aignan" role="acteur">Monsieur le Duc de S. Aignan</persName>. <name>Guidon le Sauuage</name>.</p>
           <p><seg ana="description">Couleur blanc, &amp; or, les galands incarnat &amp;
             noir</seg>.</p>
-          <p><persName role="musicien">Huit Trompettes</persName>, et <persName role="musicien">deux Tymballiers</persName>.</p>
+          <p><persName key="trompettes" role="musicien">Huit Trompettes</persName>, et <persName key="timbales" role="musicien">deux Tymballiers</persName>.</p>
           <p>Trompettes.</p>
           <list>
             <item><persName key="rhodes" role="musicien">Rhodes</persName>.</item>
@@ -1114,7 +1114,7 @@ Balisage ?-->Hymen y
             <item><persName key="chasteau_neuf" role="organisation">Chasteau neuf</persName>.</item>
           </list>
           <pb n="9"/>
-          <p><persName role="musicien">Trente-Quatre Concertans</persName> des <name>quatre Saison</name>, tant
+          <p><persName key="concertants" role="musicien">Trente-Quatre Concertans</persName> des <name>quatre Saison</name>, tant
             Grands, que Petits Violons.</p>
           <p>Grands Violons.</p>
           <list>
@@ -1156,7 +1156,7 @@ Balisage ?-->Hymen y
             <item><persName key="heuge" role="musicien">Heugé</persName>.</item>
             <item><persName key="la_riviere" role="musicien">La Riuiere</persName>.</item>
           </list>
-          <p><persName role="musicien">Quatorze Concertants</persName> de <name>Pan</name>, &amp; de
+          <p><persName key="concertants" role="musicien">Quatorze Concertants</persName> de <name>Pan</name>, &amp; de
               <name>Diane</name>.</p>
           <p>Fluttes.</p>
           <list>
@@ -1239,7 +1239,7 @@ Balisage ?-->Hymen y
             <item><persName key="angerville" role="organisation">Angeruille</persName>,</item>
             <item><persName key="patriere" role="organisation">Patriere</persName>.</item>
           </list>
-          <p><persName role="organisation">Huict Officiers du Gobelet du Roy, &amp; de la Reyne</persName>, representant les
+          <p><persName key="officiers" role="organisation">Huict Officiers du Gobelet du Roy, &amp; de la Reyne</persName>, representant les
             Plaisirs, les Ieux, les Ris, &amp; les Delices, pour garder les quatres Tables des
             quatre Saison, &amp; descharger les Bassins que porteront les suittes desdites quatre
             Saisons.</p>
@@ -1253,7 +1253,7 @@ Balisage ?-->Hymen y
             <item><persName key="de_nier" role="organisation">De Nier</persName>,</item>
             <item><persName key="saint_fontaine_fils" role="organisation">Ste. Fontaine le fils</persName>.</item>
           </list>
-          <p><persName role="organisation">Messieurs les Controlleurs Generaux</persName>.</p>
+          <p><persName key="marche_coquet parfait_pere parfait_fils parfait_frere" role="organisation">Messieurs les Controlleurs Generaux</persName>.</p>
           <list>
             <item><persName key="marche_coquet" role="acteur">Monsieur de la Marche Coquet</persName>.
               <name>L’Abondance</name>.</item>
@@ -1357,7 +1357,7 @@ Balisage ?-->Hymen y
             <item><persName key="arnald" role="acteur">Arnarld</persName>.</item>
             <item><persName key="bonard" role="acteur">Bonard</persName>.</item>
           </list>
-          <p><persName role="musicien">Concertans de l’Orchestre</persName>,</p>
+          <p><persName key="concertants" role="musicien">Concertans de l’Orchestre</persName>,</p>
           <list>
             <item><persName key="d_anglebert" role="musicien">D’Anglebert</persName>.</item>
             <item><persName key="richard" role="musicien">Richard</persName>.</item>
@@ -1498,7 +1498,7 @@ Balisage ?-->Hymen y
             <item><persName key="mercier" role="acteur">Mercier</persName>,</item>
           </list>
           <p>A vn des costez du <tech type="construction">Palais d’Alcine</tech> sur vn <tech type="construction">Eschaffaut</tech>, seront
-            <persName role="musicien">les Trompettes</persName>, et <persName role="musicien">Tymballes</persName>.</p>
+            <persName key="trompettes" role="musicien">les Trompettes</persName>, et <persName role="musicien">Tymballes</persName>.</p>
           <p>TROMPETTES.</p>
           <list>
             <item><persName key="rhodes" role="musicien">Rhodes</persName>,</item>
