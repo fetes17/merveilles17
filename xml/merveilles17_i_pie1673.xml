@@ -19,6 +19,10 @@
           <name>Mathilde Nicolas</name>
           <resp>Transcription et balisage</resp>
         </respStmt>
+        <respStmt>
+          <name>Marion Ignace</name>
+          <resp>Balisage</resp>
+        </respStmt>
       </editionStmt>
       <publicationStmt>
         <publisher>Université d’Artois - Lille, MESHS</publisher>
@@ -102,18 +106,18 @@
         <p>Il prit pour Sujet le Palais d’Alcine, qui donna lieu au Titre des Plaisirs de l’Isle
           enchantée ; puis que, selon <persName key="arioste">l’Arioste</persName>, le brave</p>
         <pb n="5" xml:id="p5"/>
-        <p><name>Roger </name>&amp; plusieurs autres bons <name>Chevaliers</name> y furent retenus
+        <p><name key="roger" corresp="louisxiv">Roger </name>&amp; plusieurs autres bons <name>Chevaliers</name> y furent retenus
           par les doubles charmes de la beauté, quoi-qu’empruntée, &amp; du sçavoir de cette
-            <name>Magicienne</name>, &amp; en furent delivrez, après beaucoup de temps consommé dans
+            <name key="alcine" corresp="therese_duparc">Magicienne</name>, &amp; en furent delivrez, après beaucoup de temps consommé dans
           les délices, par la bague qui détruisoit les enchantemens. C’estoit celle
             d’<name>Angelique</name>, que <name>Melisse</name>, sous la forme du vieux
-            <name>Atlas</name>, mit en-fin au doigt de <name>Roger</name>.</p>
+            <name>Atlas</name>, mit en-fin au doigt de <name key="roger" corresp="louisxiv">Roger</name>.</p>
         <p>On dit fonc en peu de jours orner <tech type="decor">un Rond</tech>, où quatre grandes allées aboutissent entre de
             <tech type="construction">hautes palissages</tech> ; de <tech type="construction">quatre Portique</tech>, de <seg
             ana="description">trente-cinq pieds d’élevation, &amp; de vingt-d’or, &amp; de diverses
             peintures, avec les Armes de Sa Majesté</seg>.</p>
         <p>Toute la Cour s’y estant placée <date when="1664-05-07">le septiéme</date>, il entre dans
-          la place sur six heures du soir un <name>Heraut d’Armes</name>, representé par
+          la place sur six heures du soir un <name key="heraut_d_armes" corresp="desbardins">Heraut d’Armes</name>, representé par
             <persName key="desbardins" role="acteur">M. des Bardins</persName>, <tech type="costume">vestu d’un habit à l’antique</tech>, <seg
             ana="description">couleur de feu en broderie d’argent</seg>, &amp; fort bien monté.</p>
         <p>Il estoit suivi de trois Pages. Celuy du <persName key="louisxiv">Roy</persName>, <name>M.
@@ -150,9 +154,9 @@
             à la Grecque</tech>, <seg ana="description">d’une cuirasse de toile d’argent couverte de
             petites écailles d’or, aussi-bien que son bas de saye, &amp; son Casque estoit orné d’un
             Dragon, &amp; d’un grand nombre de plumes blanches, mêlées d’incarnat &amp; de
-            noir</seg>. Il montoit un <tech type="animal">cheval blanc, bardé de mesme</tech>, &amp; representoit <name>Guidon
+            noir</seg>. Il montoit un <tech type="animal">cheval blanc, bardé de mesme</tech>, &amp; representoit <name key="guidon_le_sauvage" corresp="saint_aignan">Guidon
             le Sauvage</name>.</p>
-        <p>Pour le <persName key="saint_aignan" role="acteur">DUC DE SAINT AIGNAN</persName>, Representant <name>GUIDON LE
+        <p>Pour le <persName key="saint_aignan" role="acteur">DUC DE SAINT AIGNAN</persName>, Representant <name key="guidon_le_sauvage" corresp="saint_aignan">GUIDON LE
             SAUVAGE</name>.</p>
         <l>Les combats que j’ay faits en l’Isle dangereuse,</l>
         <l>Quand de tant de Guerriers je demeuray vainqueur,</l>
@@ -170,7 +174,7 @@
         <l>Doit estre, ce me semble, un terrible Soldat.</l>
         <p><persName key="trompettes timbales" role="musicien">Huit trompette &amp; deux Tymballiers</persName>, <seg ana="description">vestus
             comme les premiers</seg>, marchoient après le Maréchal de Camp.</p>
-        <p><persName key="louisxiv" role="acteur">LE ROY</persName>, representant <name>Roger</name>, les suivoit, montant <tech type="animal">un des
+        <p><persName key="louisxiv" role="acteur">LE ROY</persName>, representant <name key="roger" corresp="louisxiv">Roger</name>, les suivoit, montant <tech type="animal">un des
           plus beaux chevaux du monde</tech>, dont <seg ana="description">le harnois, couleur de</seg></p>
         <pb n="7" xml:id="p7"/>
         <p><seg ana="description">feu, éclatoit d’or, d’argent &amp; de pierreries</seg>.
@@ -181,7 +185,7 @@
             couvert de plumes couleur de feu</tech></seg>, avoit une grace incomparable : &amp; jamais un
           air plus libre, ni plus guerrier, n’a mis un mortel au dessus des autres hommes.</p>
         <p>Pour <persName key="louisxiv" role="acteur">LE ROY</persName></p>
-        <p>Representant <name>Roger</name>.</p>
+        <p>Representant <name key="roger" corresp="louisxiv">Roger</name>.</p>
         <p>SONNET.</p>
         <l>Quelle taille, quel port a ce fier Conquérant ?</l>
         <l>Sa personne éblouit quiconque l’examine ;</l>
@@ -202,27 +206,27 @@
             feu</seg> aussi-bien que tout le reste de son équipage, estoient de cette mesme
           livrée.</p>
         <p>Pour le <persName key="anne_de_noailles" role="acteur">DUC DE NOAILLES</persName>,</p>
-        <p>Representant<name> OGER LE DANOIS</name>, Juge du Camp.</p>
+        <p>Representant<name key="oger_le_danois" corresp="anne_de_noailles"> OGER LE DANOIS</name>, Juge du Camp.</p>
         <l>Ce Paladin s’applique à cette seule affaire,</l>
         <l>De servir dignement le plus puissant des Rois.</l>
         <l>Comme pour bien juger, il faut sçavoir bien faire ;</l>
         <l>Je doute que personne appelle de sa voix.</l>
         <pb n="8" xml:id="p8"/>
         <p>Le <persName key="henri_ii_de_guise" role="acteur">Duc de Guise</persName> &amp; le <persName key="henri_de_lorraine" role="acteur">Comte d’Armagnac</persName>
-          marchoient ensemble après luy. Le premier, portant le nom d’<name>Aquilant le Noir</name>,
+          marchoient ensemble après luy. Le premier, portant le nom d’<name key="aquilant" corresp="henri_ii_de_guise">Aquilant le Noir</name>,
           avoit <seg ana="description"><tech type="costume">un habit de cette couleur en broderie d’or &amp; de
             geais</tech></seg>. <seg ana="description">Ses plusmes, son cheval, &amp; sa lance
-            assortissoient à sa livrée</seg>. Et l’autre, represetant <name>Griffon le Blanc</name>,
+              assortissoient à sa livrée</seg>. Et l’autre, represetant <name key="griffon_le_blanc" corresp="henri_de_lorraine">Griffon le Blanc</name>,
           portoit sur <seg ana="description">un habit de toile d’argent plusieurs rubis, &amp;
             montoit un cheval blanc bardé de la mesme couleur</seg>.</p>
         <p>Pour le <persName key="henri_ii_de_guise" role="acteur">DUC DE GUISE</persName>,</p>
-        <p>Representant <name>AQUILANT LE NOIR</name>.</p>
+        <p>Representant <name key="aquilant" corresp="henri_ii_de_guise">AQUILANT LE NOIR</name>.</p>
         <l>LA Nuit a ses beautez de mesme que le jour :</l>
         <l>Le Noir est ma couleur, je l’ay toujours aimée :</l>
         <l>Et st l’obscurité convient à mon Amour,</l>
         <l>Elle ne s’étend pas jusqu’à ma Renommée.</l>
         <p>Pour le <persName key="henri_de_lorraine" role="acteur">COMTE D’ARMAGNAC</persName>,</p>
-        <p>Representant <name>GRIFFON LE BLANC</name>.</p>
+        <p>Representant <name key="griffon_le_blanc" corresp="henri_de_lorraine">GRIFFON LE BLANC</name>.</p>
         <l>VOYEZ quelle candeur en moy le Ciel a mis ;</l>
         <l>Aussi nulle beauté tíe s’en verra trompée :</l>
         <l>Et quand il sera temps d’aller aux ennemis,</l>
@@ -232,13 +236,13 @@
             argent, &amp; l’autre de vert, blanc et argent </seg>; toute leur livrée et leurs
           cheuaux estant dignes du reste de leur équipage.</p>
         <p>Pour le <persName key="jb_gaston_foix_candale" role="acteur">DUC DE FOIX</persName>,</p>
-        <p>Representant <name>RENAUD</name>.</p>
+        <p>Representant <name key="renaud" corresp="jb_gaston_foix_candale">RENAUD</name>.</p>
         <l>Il porte un nom celebre, il est jeune, il est sage.</l>
         <l>A vous dire le vray, c’est pour aller bien haut ;</l>
         <l>Et c’est un grand bonheur, que d’avoir à son âge,</l>
         <l>La chaleur necessaire, &amp; le flegme qu’il faut.</l>
         <p>Pour le <persName key="armand_du_cambout" role="acteur">DUC DE COASLIN</persName>,</p>
-        <p>Representant <name>DUDON</name>.</p>
+        <p>Representant <name key="dudon" corresp="armand_du_cambout">DUDON</name>.</p>
         <l>Trop auant dans la Gloire on ne peut s’engager :</l>
         <l>J'auray vaincu sept Rois, &amp; par mon grand courage</l>
         <l>Les verray tous soûmis au pouvoir de ROGER,</l>
@@ -250,13 +254,13 @@
             blanc; &amp; l’autre de jaune, blanc &amp; noir ; enrichis de broderie d’argent, leur
             livrée de mesme</seg>, &amp; fort bien montez.</p>
         <p>Pour le <persName key="henri_de_daillon" role="acteur">COMTE DE LUDE</persName>,</p>
-        <p>Representant <name>ASTOLPHE</name>.</p>
+        <p>Representant <name key="astolphe" corresp="henri_de_daillon">ASTOLPHE</name>.</p>
         <l>DE tous les Paladins qui sont dans l’Univers</l>
         <l>Aucun n’a pour l’Amour l’ame plus échaufée,</l>
         <l>Entreprenant toujours mille projets divers,</l>
         <l>Et toujours enchanté par quelque jeune Fée.</l>
         <p>Pour le <persName key="francois_vii_de_la_rochefoucauld" role="acteur">PRINCE DE MARSILLAC</persName>,</p>
-        <p>Representant <name>BRANDIMART</name>.</p>
+        <p>Representant <name key="brandimart" corresp="francois_vii_de_la_rochefoucauld">BRANDIMART</name>.</p>
         <l>MES voeux seront contents, mes souhaits accomplis,</l>
         <l>Et ma bonne fortune à son comble arrivée,</l>
         <l>Quand vous sçaurez mon Zele, aimable FLEUR-DE-LIS,</l>
@@ -267,13 +271,13 @@
             harnois de leurs chevaux estoient de la mesme couleur, &amp; d’une pareille
             richesse</seg>.</p>
         <p>Pour le <persName key="louis_marie_aumont_rochebaron" role="acteur">MARQUIS DE VILLEQUIER</persName>,</p>
-        <p>Representant <name>RICHARDET</name>.</p>
+        <p>Representant <name key="richardet" corresp="louis_marie_aumont_rochebaron">RICHARDET</name>.</p>
         <l>PERSONNE comme moy n’est sorti galamment</l>
         <l>D'une intrigue où sans doute il falloit quelque adresse ;</l>
         <l>Personne, à mon avis, plus agréablement</l>
         <l>N'est demeuré fidelle en trompant sa Maistresse.</l>
         <p>Pour le <persName key="cm_de_belleforiere" role="acteur">MARQUIS DE SOYECOURT</persName>,</p>
-        <p>Representant <name>OLIVIER</name>.</p>
+        <p>Representant <name key="olivier" corresp="cm_de_belleforiere">OLIVIER</name>.</p>
         <l>VOICY l’honneur du Siécle, auprés de qui nous sommes,</l>
         <l>Et mesme les Géants, de mediocres Hommes,</l>
         <l>Et ce franc Chevalier à tout venant tout prest,</l>
@@ -284,7 +288,7 @@
             &amp; la mieux assortie du monde</seg>.</p>
         <pb n="10" xml:id="p10"/>
         <p>Pour le <persName key="louis_crevant" role="acteur">MARQUIS D’HUMIERES</persName>,</p>
-        <p>Representant <name>ARIODANT</name>.</p>
+        <p>Representant <name key="ariodant" corresp="louis_crevant">ARIODANT</name>.</p>
         <l>JE tremble dans l’accés de l’amoureuse fiévre ;</l>
         <l>Ailleurs sans vanité je ne tremblai jamais :</l>
         <l>Et ce charmant objet, l’adorable
@@ -292,7 +296,7 @@
 Quel balisage ?-->GENEVRE,</l>
         <l>Est l’unique vainqueur à qui je mis soûmets.</l>
         <p>Pour le <persName key="jf_de_labaume" role="acteur">MARQUIS DE LA VALLIERE</persName>,</p>
-        <p>Representant <name>ZERBIN</name>.</p>
+        <p>Representant <name key="zerbin" corresp="jf_de_labaume">ZERBIN</name>.</p>
         <l>QUELQUES beaux sentimens que ta gloire nous donne,</l>
         <l>Quand on est amoureux au souverain degré,</l>
         <l>Mourir entre les bras d’une bette Personne,</l>
@@ -302,8 +306,8 @@ Quel balisage ?-->GENEVRE,</l>
             attachez sur la magnifique broderie, dont sa cuirasse &amp; son bas de saye estoient
             couverts ; son casque &amp; le harnois de son cheval en estant aussi enrichis</seg>.</p>
         <p>Pour <persName key="hj_bourbon_conde" role="acteur">Monsieur le DUC</persName>,</p>
-        <p>Representant <name>ROLAND</name>.</p>
-        <l><name>ROLAND</name> fera bien loin son grand nom retentir :</l>
+        <p>Representant <name key="roland" corresp="hj_bourbon_conde">ROLAND</name>.</p>
+        <l><name key="roland" corresp="hj_bourbon_conde">ROLAND</name> fera bien loin son grand nom retentir :</l>
         <l>La Gloire deviendra sa fidelle compagne.</l>
         <l>Il est sorti du sang qui brusle de sortir,</l>
         <l>Quand il est question de se mettre en campagne,</l>
@@ -322,7 +326,7 @@ Quel balisage ?-->GENEVRE,</l>
           <seg ana="description">orné de ce précieux rnetail estoit encore paré de diverses
             Fleurs</seg>, qui faisoient un des principaux ornemens de cét heureux Age.</p>
         <pb n="11" xml:id="p11"/>
-        <p>Ceux d<name>'Argent </name>et d’<name>Airain</name> avoient aussi leurs remarques
+        <p>Ceux d<name>'Argent </name>et d’<name key="le_siecle_d_airain" corresp="mlle_de_brie">Airain</name> avoient aussi leurs remarques
           particuliéres.</p>
         <p>Et celuy de <name>Fer</name> estoit <seg ana="description">representé par un Guerrier
             d’un regard terrible, portant d’une main l’épée, &amp; de l’autre le bouclier</seg>.</p>
@@ -332,7 +336,7 @@ Quel balisage ?-->GENEVRE,</l>
 Est‑ce des personnages ?-->Monstres Celestes,
           le Serpent Python, Daphné, Hyacinte, &amp; les autres Figures qui conviennent à
             <name>Apollon</name>, avec un Atlas portant le Globe du Monde, y estoient aussi relevez
-          d’une agréable sculpture. <name>Le Temps</name> representé par le <persName key="millet" role="acteur">sieur
+          d’une agréable sculpture. <name key="le_temps" corresp="millet">Le Temps</name> representé par le <persName key="millet" role="acteur">sieur
             Millet</persName>, avec <seg ana="description">sa faux, ses aisles, &amp; cette
             vieillesse décrepite</seg>, dont on le peint toûjours accablé, en estoit le conducteur.
             <seg ana="description"><tech type="animal">Quatre chevaux d’une taille et d’une beauté peu communes,
@@ -345,38 +349,38 @@ Est‑ce des personnages ?-->Monstres Celestes,
             <persName key="hj_bourbon_conde">Monsieur le Duc</persName>, <seg ana="description">fort proprement vestus de
             leurs livrées, avec quantité de plumes</seg>, portant leurs lances &amp; les Escus de
           leurs Devises.</p>
-        <p>Le <persName key="henri_ii_de_guise" role="acteur">Duc de Guise</persName>, representant <name>Aquilant le Noir</name>, ayant
+        <p>Le <persName key="henri_ii_de_guise" role="acteur">Duc de Guise</persName>, representant <name key="aquilant" corresp="henri_ii_de_guise">Aquilant le Noir</name>, ayant
           pour Devise, un Lion qui dort, avec ces mots :</p>
         <p><foreign xml:lang="la">Et quizscente pavescunt</foreign>.</p>
-        <p>Le <persName key="henri_de_lorraine" role="acteur">Comte d’Armagnac</persName>, representant <name>Griffon le Blanc</name>,
+        <p>Le <persName key="henri_de_lorraine" role="acteur">Comte d’Armagnac</persName>, representant <name key="griffon_le_blanc" corresp="henri_de_lorraine">Griffon le Blanc</name>,
           ayant pour Devise une Hermine, avec ces mots :</p>
         <p><foreign xml:lang="la">Ex candore decus</foreign>.</p>
-        <p>Le <persName key="jb_gaston_foix_candale" role="acteur">Duc de Foix</persName>, representant <name>Renaud</name>, ayant pour Devise
+        <p>Le <persName key="jb_gaston_foix_candale" role="acteur">Duc de Foix</persName>, representant <name key="renaud" corresp="jb_gaston_foix_candale">Renaud</name>, ayant pour Devise
           un Vaisseau dans la Mer, avec ces mots :</p>
         <p><foreign xml:lang="la">Longè levis aura feret</foreign>.</p>
-        <p>Le <persName key="armand_du_cambout" role="acteur">duc de Coaslin</persName>, representant <name>Dudon</name>, ayant pour
+        <p>Le <persName key="armand_du_cambout" role="acteur">duc de Coaslin</persName>, representant <name key="dudon" corresp="armand_du_cambout">Dudon</name>, ayant pour
           Devise un Soleil, &amp; l’Heliotrope ou Tournesol, avec ces mots :</p>
         <p><foreign xml:lang="la">Splendor ab obsequio</foreign>.</p>
-        <p>Le <persName key="henri_de_daillon" role="acteur">Comte du Lude</persName>, representant <name>Astolphe</name>, ayant pour
+        <p>Le <persName key="henri_de_daillon" role="acteur">Comte du Lude</persName>, representant <name key="astolphe" corresp="henri_de_daillon">Astolphe</name>, ayant pour
           Devise un chiffre en forme de nœud, avec ces mots :</p>
         <p><foreign xml:lang="la">Non fia mai sciolto</foreign>.</p>
         <pb n="12" xml:id="p12"/>
-        <p>Le <persName key="francois_vii_de_la_rochefoucauld" role="acteur">Prince de Marsillac</persName>, representant <name>Bandimart</name>, ayant
+        <p>Le <persName key="francois_vii_de_la_rochefoucauld" role="acteur">Prince de Marsillac</persName>, representant <name key="brandimart" corresp="francois_vii_de_la_rochefoucauld">Bandimart</name>, ayant
           pour Devise une Montre en relief, dont on voit tous les ressorts, avec ces mots :</p>
         <p><foreign xml:lang="la">Chieto fuor, commoto dentro</foreign>.</p>
-        <p>Le <persName key="louis_marie_aumont_rochebaron" role="acteur">Marquis de Villequier</persName>, representant <name>Richardet</name>, ayant
+        <p>Le <persName key="louis_marie_aumont_rochebaron" role="acteur">Marquis de Villequier</persName>, representant <name key="richardet" corresp="louis_marie_aumont_rochebaron">Richardet</name>, ayant
           pour Devise un Aigle pour plane devant le Soleil, avec ces mots :</p>
         <p><foreign xml:lang="la">Uni militat Astro</foreign>.</p>
-        <p>Le <persName key="cm_de_belleforiere" role="acteur">Marquis de Soyecourt</persName>, representant <name>Olivier</name>, ayant
+        <p>Le <persName key="cm_de_belleforiere" role="acteur">Marquis de Soyecourt</persName>, representant <name key="olivier" corresp="cm_de_belleforiere">Olivier</name>, ayant
           pour Devise la Massuë d’Hercule, avec ces mots :</p>
         <p><foreign xml:lang="la">Vix aequat fama labores</foreign>.</p>
-        <p>La <persName key="louis_crevant" role="acteur">Marquis d’Humiéres</persName>, representant <name>Ariodant</name>, ayant
+        <p>La <persName key="louis_crevant" role="acteur">Marquis d’Humiéres</persName>, representant <name key="ariodant" corresp="louis_crevant">Ariodant</name>, ayant
           pour Devise toutes sortes de Couronnes, avec ces mots :</p>
         <p><foreign xml:lang="la">No quiero menos</foreign>.</p>
-        <p>Le <persName key="jf_de_labaume" role="acteur">Marquis de la Valliére</persName>, representant <name>Zerbin</name>, ayant
+        <p>Le <persName key="jf_de_labaume" role="acteur">Marquis de la Valliére</persName>, representant <name key="zerbin" corresp="jf_de_labaume">Zerbin</name>, ayant
           pour Devise un Phenix sur un bûcher allumé par le Soleil, avec ces mots :</p>
         <p><foreign xml:lang="la">Hoc juvat uri</foreign>.</p>
-        <p><persName key="hj_bourbon_conde" role="acteur">Monsieur le DUC</persName>, representant <name>Roland</name>, ayant pour Devise
+        <p><persName key="hj_bourbon_conde" role="acteur">Monsieur le DUC</persName>, representant <name key="roland" corresp="hj_bourbon_conde">Roland</name>, ayant pour Devise
           un Dard entorillé de Lauriers, avec ces mots :</p>
         <p><foreign xml:lang="la">Certò ferit</foreign>.</p>
         <p><name>VINGT Pasteurs</name> chargez des diverses piéces de la Barrière, qui devoit estre
@@ -396,9 +400,9 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <pb n="13" xml:id="p13"/>
         <p>Lors qu’on eût fait alte en cét estat, un profond silence causé tout ensemble par
           l’attention &amp; par le respect, donna le moyen à <persName key="mlle_de_brie" role="acteur">Madelle de Brie</persName>,
-          qui representoit <name>le Siécle d’Airain</name>, de commencer ces vers à la loüange de
+          qui representoit <name key="le_siecle_d_airain" corresp="mlle_de_brie">le Siécle d’Airain</name>, de commencer ces vers à la loüange de
             <persName key="marie_therese" role="destinataire">la Reine</persName>, adressez à <name>Apollon</name>.</p>
-        <label type="speaker">LE SIECLE D’AIRAIN à <name>Apollon</name>.</label>
+        <label type="speaker"><name key="le_siecle_d_airain" corresp="mlle_de_brie">LE SIECLE D’AIRAIN</name> à <name>Apollon</name>.</label>
         <l>BRILLANT Pere du jour, Toy de qui la puissance</l>
         <l>Par ses divers aspect nous donna la naissance ;</l>
         <l>Toy t’espoir de la Terre, &amp; l’ornement des Cieux;</l>
@@ -485,23 +489,23 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <p>La nuit vint cependant à la fin des Courses, par la justesse qu’on avoit eû
           à les commencer ; &amp; <tech type="lumieres">un nombre infini de lumiéres</tech> ayant éclairé tout ce
           beau lieu, l’on vit entrer dans la même place <persName key="concertants" role="musicien">trente-quatre
-            Concertans</persName> fort bien vestus, qui devoient préceder <name>les Saisons</name>,
+            Concertans</persName> fort bien vestus, qui devoient préceder <name key="le_printemps" corresp="therese_duparc"><name key="l_ete" corresp="gros_rene"><name key="l_automne" corresp="la_thorilliere"><name key="l_hiver" corresp="louis_bejart">les Saisons</name></name></name></name>,
           &amp; faisoient le plus agréable concert du monde.</p>
-        <p>Pendant que <name>les Saisons</name> se chargeoient des mets délicieux qu’elles devoient
+        <p>Pendant que <name key="le_printemps" corresp="therese_duparc"><name key="l_ete" corresp="gros_rene"><name key="l_automne" corresp="la_thorilliere"><name key="l_hiver" corresp="louis_bejart">les Saisons</name></name></name></name> se chargeoient des mets délicieux qu’elles devoient
           porter, pour servir deuant <persName key="louisxiv marie_therese anne_d_autriche">leurs Majestez</persName> la magnifique
             collation qui estoit préparée, <name>les douze Signes du Zodiaque</name>,
-          &amp; <name>les quatre Saisons</name> danserent dans le rond une des plus belles entrées
+          &amp; <name key="le_printemps" corresp="therese_duparc"><name key="l_ete" corresp="gros_rene"><name key="l_automne" corresp="la_thorilliere"><name key="l_hiver" corresp="louis_bejart">les quatre Saisons</name></name></name></name> danserent dans le rond une des plus belles entrées
           de Ballet qu’on eût encore veûë.</p>
-        <p><name>Le Printemps</name> parut en suite sur <tech type="animal">un cheval d’Espagne</tech>, représenté par
+        <p><name key="le_printemps" corresp="therese_duparc">Le Printemps</name> parut en suite sur <tech type="animal">un cheval d’Espagne</tech>, représenté par
             <persName key="therese_duparc" role="acteur">Madelle du Parc</persName>, qui avec le sexe et les avantages d’une femme,
           faisoit voir l’adresse d’un homme. <seg ana="description">Son habit estoit vert en
             broderie d’argent, &amp; de fleurs au naturel</seg>.</p>
-        <p><name>L'Esté</name> le suivoit, représenté par le <persName key="gros_rene" role="acteur">Sieur du Parc</persName>, sur
+        <p><name key="l_ete" corresp="gros_rene">L'Esté</name> le suivoit, représenté par le <persName key="gros_rene" role="acteur">Sieur du Parc</persName>, sur
           <tech type="animal">un Eléphant, <seg ana="description">couvert d’une riche housse</seg></tech>.</p>
-        <p><name>L'Automne</name><seg ana="description">aussi advantageusement vestuë</seg>,
+        <p><name key="l_automne" corresp="la_thorilliere">L'Automne</name><seg ana="description">aussi advantageusement vestuë</seg>,
           representée par le <persName key="la_thorilliere" role="acteur">Sieur de la Thorilliére</persName>, venoit aprés monté sur <tech type="animal">un
           Chameau.</tech></p>
-        <p><name>L'Hyver </name>suivoit sur <tech type="animal">un Ours</tech>, représenté par le <persName key="louis_bejart" role="acteur">Sieur
+        <p><name key="l_hiver" corresp="louis_bejart">L'Hyver </name>suivoit sur <tech type="animal">un Ours</tech>, représenté par le <persName key="louis_bejart" role="acteur">Sieur
             Béjar</persName>.</p>
         <p>Leur suite estoit composée de <persName key="personnes" role="organisation">quarante-huit personnes</persName>, qui portoient
           toutes sur leurs testes de grands bassins pour la collation.</p>
@@ -514,16 +518,16 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <p>Douze autres, comme Moissonneurs, <seg ana="description">vestus d’habits
             conformes à cette profession, mais fort riches, portoient des bassins de cette couleur
             incarnate</seg>, qu’on remarque au Soleil Levant, &amp; suivoient
-          l’<name>Esté</name>.</p>
+          l’<name key="l_ete" corresp="gros_rene">Esté</name>.</p>
         <p>Douze vestus en vendangeurs, <seg ana="description">estoient couverts de
             feüilles de vignes &amp; de grappes de raisins, &amp; portoient dans des paniers
             feüille-morte, remplis de petits bassins de cette même couleur, divers autres fruits
-            &amp; confitures</seg> à la suite de l<name>'Automne</name>.</p>
+            &amp; confitures</seg> à la suite de l<name key="l_automne" corresp="la_thorilliere">'Automne</name>.</p>
         <p>Les douzes derniers, estoient des Vieillards gelez, <seg ana="description"
             >dont les fourrures et la démarche marquoient la froideur et la foiblesse, portant dans
             des bassins couverts d’une glace &amp; d’une neige si bien contrefaites</seg>, qu’on les
           eust pris pour la chose même, ce qu’ils devoient contribuër à la</p>
-        <p>Collation, &amp; suivoient l’<name>Hyver</name>.</p>
+        <p>Collation, &amp; suivoient l’<name key="l_hiver" corresp="louis_bejart">Hyver</name>.</p>
         <p><persName key="concertants" role="musicien">Quatorze Concertans</persName> de <name>Pan</name> &amp; de <name>Diane</name>
           précedoient ces deux Diuinitez, avec une agréable Harmonie de Flûtes &amp; de
           Musettes.</p>
@@ -536,9 +540,9 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <p><name>Dix-huit Pages du Roy</name><seg ana="description">fort richement vestus</seg>, qui
           devoient servir <persName key="dames" role="convive">les Dames</persName> à Table, faisoient</p>
         <p>les derniers de cette troupe; laquelle estant rangée, <name>Pan</name>,
-            <name>Diane</name> &amp; <name>les Saisons</name> se presentant devant <persName key="marie_therese">la
-            Reine</persName>, <name>le Printemps</name> luy adressa le premier ces Vers.</p>
-        <label type="speaker">LE PRINTEMPS A LA <persName key="marie_therese" role="destinataire">REINE</persName>.</label>
+          <name>Diane</name> &amp; <name key="le_printemps" corresp="therese_duparc"><name key="l_ete" corresp="gros_rene"><name key="l_automne" corresp="la_thorilliere"><name key="l_hiver" corresp="louis_bejart">les Saisons</name></name></name></name> se presentant devant <persName key="marie_therese">la
+            Reine</persName>, <name key="le_printemps" corresp="therese_duparc">le Printemps</name> luy adressa le premier ces Vers.</p>
+        <label type="speaker"><name key="le_printemps" corresp="therese_duparc">LE PRINTEMPS</name> A LA <persName key="marie_therese" role="destinataire">REINE</persName>.</label>
         <l>ENTRE toutes les fleurs nouvellement écloses,</l>
         <l>Dont mes Jardins sont embellis,</l>
         <l>Méprisant les jasmins, les oeillets &amp; les roses,</l>
@@ -549,15 +553,15 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <pb n="17" xml:id="p17"/>
         <l>Mais leur regne est plus doux &amp; plus puissant encore,</l>
         <l>Quand ils brillent sur vostre teint.</l>
-        <label type="speaker">L’ESTE.</label>
+        <label type="speaker"><name key="l_ete" corresp="gros_rene">L’ESTE</name>.</label>
         <l>Surpris un peu trop promptement,</l>
         <l>J'apporte a cette Feste un leger ornement :</l>
         <l>Mats avant que ma saison passe,</l>
         <l>Je feray faire à vos Guerriers,</l>
         <l>Dans les campagnes de la Thrace,</l>
         <l>Une ample moisson de Lauriers.</l>
-        <label type="speaker">L'AUTOMNE A LA <persName key="marie_therese" role="destinataire">REINE</persName>.</label>
-        <l>Le Printemps orgueïlleux de la beauté des fleurs</l>
+        <label type="speaker"><name key="l_automne" corresp="la_thorilliere">L'AUTOMNE</name> A LA <persName key="marie_therese" role="destinataire">REINE</persName>.</label>
+        <l><name key="le_printemps" corresp="therese_duparc">Le Printemps</name> orgueïlleux de la beauté des fleurs</l>
         <l>Qui luy tombèrent en partage,</l>
         <l>Prétend de cette Feste avoir tout l’avantage,</l>
         <l>Et nous croit obscurcir pas ses vives couleurs :</l>
@@ -565,14 +569,14 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <l>De ce fruit précieux qu’a produit ma saison,</l>
         <l>Et qui croist dans vostre maison,</l>
         <l>Pour faire quelque jour les délices du Monde.</l>
-        <label type="speaker">L'HYVER.</label>
+        <label type="speaker"><name key="l_hiver" corresp="louis_bejart">L'HYVER</name>.</label>
         <l>La neige, les glaçons que j’apporte en ces lieux,</l>
         <l>Sont les mets les moins précieux :</l>
         <l>Mais ils sont des plus nécessaires,</l>
         <l>Dans une Festen où mille objets charmans,</l>
         <l>De leurs oeillades meurtriéres,</l>
         <l>Font naître tant d’embrazemens.</l>
-        <label type="speaker">DIANE A LA <persName key="marie_therese" role="destinataire">REINE</persName>.</label>
+        <label type="speaker"><name>DIANE</name> A LA <persName key="marie_therese" role="destinataire">REINE</persName>.</label>
         <l>Nos bois, nos rochers, nos montagnes,</l>
         <l>Tous nos chasseurs, &amp; mes compagnes,</l>
         <l>Qui m’ont toûjours rendu des honneurs souverains,</l>
@@ -587,7 +591,7 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <pb n="18" xml:id="p18"/>
         <l>Amour, dont vous avez la grace &amp; le visage,</l>
         <l>A le même secret que vous.</l>
-        <label type="speaker">PAN A <persName key="marie_therese" role="destinataire">LA REINE</persName>.</label>
+        <label type="speaker"><name>PAN</name> A <persName key="marie_therese" role="destinataire">LA REINE</persName>.</label>
         <l>Jeune Divnité, ne vous étonnez pas,</l>
         <l>Lors que nous vous offrons en ce fameux repas</l>
         <l>L'élite de nos bergeries :</l>
@@ -683,9 +687,9 @@ Est‑ce des personnages ?-->Monstres Celestes,
             Majestez</persName> se rendirent dans <tech type="construction">vn autre rond environné de palissades</tech> comme le
           premier, &amp; sur la mesme ligne, s’avançant toûjours vers <placeName key="versailles_jardins_bassin_apollon">le Lac</placeName>,
           où l’on feignoit que le <tech type="construction">Palais d’Alcine</tech> estoit basti.</p>
-        <p>Le dessein de cette seconde Feste, estoit que <name>Roger</name> &amp; <name>les
+        <p>Le dessein de cette seconde Feste, estoit que <name key="roger" corresp="louisxiv">Roger</name> &amp; <name>les
             Chevaliers</name> de sa Quadrille, aprés avoir fait des merveilles aux Courses, que par
-          l’ordre de la belle <name>Magicienne</name> ils avoient faites en faveur de <persName key="marie_therese" role="destinataire">la
+          l’ordre de la belle <name key="alcine" corresp="therese_duparc">Magicienne</name> ils avoient faites en faveur de <persName key="marie_therese" role="destinataire">la
             Reine</persName>, continuoient en ce mesme dessein pour le divertissement suivant; &amp;
           que</p>
         <p>l’isle flotante n’ayant point éloigné le rivage de la <placeName key="france">France</placeName>, ils
@@ -696,12 +700,12 @@ Est‑ce des personnages ?-->Monstres Celestes,
             <tech type="lumieres">grand nombre de Flambeaux &amp; de Bougies</tech> qui devoient éclairer <tech type="construction">le
           Theatre</tech>, dont la décoration estoit fort agréable. Aussi-tost qu’on eût tiré la toille, un
           grand Concert de plusieurs Instrumens se fit entendre; &amp;
-            l’<name>Aurore</name>, représentée par <persName key="hilaire_dupuis" role="acteur">Mademoiselle Hilaire</persName>, ouvrit
+            <name key="l_aurore" corresp="hilaire_dupuis">l'Aurore</name>, représentée par <persName key="hilaire_dupuis" role="acteur">Mademoiselle Hilaire</persName>, ouvrit
           la Scene, &amp; chanta ce Recit.</p>
         <pb n="22" xml:id="p22"/>
         <label type="head">PREMIER INTERMEDE.</label>
         <label type="head">SCENE PREMIERE.</label>
-        <label type="head">RECIT DE L'AURORE.</label>
+        <label type="head">RECIT DE <name key="l_aurore" corresp="hilaire_dupuis">L'AURORE</name>.</label>
         <l>QUAND l’Amour à vos yeux offre un choix agréable,</l>
         <l>Jeunes beautez, laissez vous enflâmer :</l>
         <l>Moquez-vous d’affecter cet orgueïl indomtable,</l>
@@ -715,14 +719,14 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <l>Dans le temps où l’on est belle,</l>
         <l>Rien n’est si beau que d’aimer.</l>
         <label type="head">SCENE DEUXIEME.</label>
-        <p>PENDANT que l’<name>Aurore</name> chantoit ce Recit, <name>quatre Valets de Chiens</name>
-          estoient couchez sur l’herbe, dont l’un, sous la figure de <name>Lyciscas</name>,
+        <p>PENDANT que l’<name key="l_aurore" corresp="hilaire_dupuis">Aurore</name> chantoit ce Recit, <name>quatre Valets de Chiens</name>
+          estoient couchez sur l’herbe, dont l’un, sous la figure de <name key="lyciscas" corresp="moliere">Lyciscas</name>,
           représenté par le <persName key="moliere" role="acteur">Sieur de Moliére</persName>, excellent Acteur, de l’invention
           duquel estoient les Vers &amp; toute ta piéce, se trouvoit au milieu de deux, &amp; un
           autre à ses pieds ; qui estoient les <persName key="estival" role="chanteur">Sieurs Estival</persName>,
             <persName key="louis_don" role="chanteur">Don</persName>, &amp; <persName key="francois_blondel" role="chanteur">Blondel</persName>, de la Musique du Roy, dont
           les voix estoient admirables.</p>
-        <p>Ceux-cy en se reéveillant à l’arrivée de l’<name>Aurore</name>, si-tost qu’elle eût
+        <p>Ceux-cy en se reéveillant à l’arrivée de l’<name key="l_aurore" corresp="hilaire_dupuis">Aurore</name>, si-tost qu’elle eût
           chanté, s’écriérent en Concert :</p>
         <l>Hola? hola? debout, debout, debout :</l>
         <l>Pour la Chasse ordonnée il faut préparer tout :</l>
@@ -737,73 +741,73 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <l>Et leurs petits concerts retentissent par tout.</l>
         <label type="speaker">TOUS ENSEMBLE.</label>
         <l>Sus, sus debout, visite debout.</l>
-        <l>Qu'est-cecy, Lyciscas ? Quoy, tu ronfles encore,</l>
+        <l>Qu'est-cecy, <name key="lyciscas" corresp="moliere">Lyciscas</name> ? Quoy, tu ronfles encore,</l>
         <l>Toy qui promettois tant de devancer l’Aurore?</l>
         <l>Allons debout, viste debout :</l>
         <l>Pour la Chasse ordonnée il faut préparer tout :</l>
         <l>Debout, viste debout, dépeschons, debout.</l>
-        <label type="speaker">LYCISCAS en s’éveillant.</label>
+        <label type="speaker"><name key="lyciscas" corresp="moliere">LYCISCAS</name> en s’éveillant.</label>
         <l>Par la morbleu, vous estes de grands braillars vous autres ;</l>
         <l>&amp; vous avez la gueule ouverte de bon matin.</l>
         <label type="speaker">MUSICIENS.</label>
         <l>Ne vois-tu pas le jour qui se répand par tout?</l>
-        <l>Allons debout, Lyciscas, debout.</l>
-        <label type="speaker">LYCISCAS.</label>
+        <l>Allons debout, <name key="lyciscas" corresp="moliere">Lyciscas</name>, debout.</l>
+        <label type="speaker"><name key="lyciscas" corresp="moliere">LYCISCAS</name>.</label>
         <p>Hé ! laissez-moy dormir encore un peu, je vous conjure.</p>
         <label type="speaker">MUSICIENS.</label>
-        <p>Non, non, debout, Lyciscas, debout.</p>
-        <label type="speaker">LYCISCAS.</label>
+        <p>Non, non, debout, <name key="lyciscas" corresp="moliere">Lyciscas</name>, debout.</p>
+        <label type="speaker"><name key="lyciscas" corresp="moliere">LYCISCAS</name>.</label>
         <p>Je ne vous demande plus qu’un petit quart-d’heure.</p>
         <label type="speaker">MUSICIENS.</label>
         <p>Point, point, debout, viste debout.</p>
-        <label type="speaker">LYCISCAS</label>
+        <label type="speaker"><name key="lyciscas" corresp="moliere">LYCISCAS</name></label>
         <p>Hé ! je vous prie.</p>
         <p>24</p>
         <label type="speaker">MUSICIENS.</label>
         <p>Debout.</p>
-        <label type="speaker">LYCISCAS.</label>
+        <label type="speaker"><name key="lyciscas" corresp="moliere">LYCISCAS</name>.</label>
         <p>Un moment.</p>
         <label type="speaker">MUSICIENS.</label>
         <p>Debout.</p>
-        <label type="speaker">LYCISCAS.</label>
+        <label type="speaker"><name key="lyciscas" corresp="moliere">LYCISCAS</name>.</label>
         <p>De grace.</p>
         <label type="speaker">MUSICIENS.</label>
         <p>Debout.</p>
-        <label type="speaker">LYCISCAS.</label>
+        <label type="speaker"><name key="lyciscas" corresp="moliere">LYCISCAS</name>.</label>
         <p>Eh.</p>
         <label type="speaker">MUSICIENS.</label>
         <p>Debout.</p>
-        <label type="speaker">LYCISCAS.</label>
+        <label type="speaker"><name key="lyciscas" corresp="moliere">LYCISCAS</name>.</label>
         <p>Je….</p>
         <label type="speaker">MUSICIENS.</label>
         <p>Debout.</p>
-        <label type="speaker">LYCISCAS.</label>
+        <label type="speaker"><name key="lyciscas" corresp="moliere">LYCISCAS</name>.</label>
         <p>J'auray fait incontinent.</p>
         <label type="speaker">MUSICIENS.</label>
-        <l>Non, non, debout, Lyciscas debout :</l>
+        <l>Non, non, debout, <name key="lyciscas" corresp="moliere">Lyciscas</name> debout :</l>
         <l>Pour la Chasse ordonnée il faut préparer tout :</l>
         <l>Viste debout, dépeschons, debout.</l>
-        <label type="speaker">LYCISCAS.</label>
+        <label type="speaker"><name key="lyciscas" corresp="moliere">LYCISCAS</name>.</label>
         <p>Et bien laissez-moy, je vais me lever. Vous estes d’estranges gens de me tourmenter
           comme</p>
         <p>Cela. Vous serez cause que je ne me porteray pas bien de toute la journée : car,
           voyez-vous, le sommeil est necessaire à l’homme; &amp; lors qu’on ne dort pas sa
           réfection, il arrive… que… on est…</p>
         <p>I.</p>
-        <p>Lyciscas.</p>
+        <p><name key="lyciscas" corresp="moliere">Lyciscas</name>.</p>
         <p>II.</p>
-        <p>Lyciscas.</p>
+        <p><name key="lyciscas" corresp="moliere">Lyciscas</name>.</p>
         <p>III.</p>
-        <p>Lyciscas.</p>
+        <p><name key="lyciscas" corresp="moliere">Lyciscas</name>.</p>
         <pb n="25" xml:id="p25"/>
         <label type="speaker">TOUS ENSEMBLE.</label>
-        <p>Lyciscas.</p>
-        <label type="speaker">LYCISCAS.</label>
+        <p><name key="lyciscas" corresp="moliere">Lyciscas</name>.</p>
+        <label type="speaker"><name key="lyciscas" corresp="moliere">LYCISCAS</name>.</label>
         <p>Diable soit des brailleurs. Je voudrois que vous eussiez la gueule pleine de bouïllie
           bien chaude.</p>
         <label type="speaker">MUSICIENS.</label>
         <p>Debout, debout, viste debout, dépeschons, debout.</p>
-        <label type="speaker">LYCISCAS.</label>
+        <label type="speaker"><name key="lyciscas" corresp="moliere">LYCISCAS</name>.</label>
         <p>Ah ! quelle fatigue de ne pas dormir son saoul.</p>
         <p>I.</p>
         <p>Hola? oh.</p>
@@ -813,40 +817,40 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <p>Hola? oh.</p>
         <label type="speaker">TOUS ENSEMBLE.</label>
         <p>Oh! oh! oh! oh ! oh !</p>
-        <label type="speaker">LYCISCAS.</label>
+        <label type="speaker"><name key="lyciscas" corresp="moliere">LYCISCAS</name>.</label>
         <p>Oh! oh ! oh ! oh ! La peste soit des gens avec leurs chiens de hurlemens. Je me donne au
           Diable si je ne vous assomme. Mais voyez un peu quel diable d’entousiasme il leur prend,
           de me venir chanter aux oreilles comme cela. Je……</p>
         <label type="speaker">MUSICIENS.</label>
         <p>Debout.</p>
-        <label type="speaker">LYCISCAS.</label>
+        <label type="speaker"><name key="lyciscas" corresp="moliere">LYCISCAS</name>.</label>
         <p>Encore.</p>
         <label type="speaker">MUSICIENS.</label>
         <p>Debout.</p>
-        <label type="speaker">LYCISCAS.</label>
+        <label type="speaker"><name key="lyciscas" corresp="moliere">LYCISCAS</name>.</label>
         <p>Le Diable vous emporte.</p>
         <p>MUSICIENS.</p>
         <p>Debout.</p>
-        <label type="speaker">LYCISCAS.</label>
+        <label type="speaker"><name key="lyciscas" corresp="moliere">LYCISCAS</name>.</label>
         <p>Quoy, toûjours ? A-t-on jamais veû une pareille furie de chanter.</p>
         <pb n="26" xml:id="p26"/>
         <p>Par le sang bleu j’enrage : puisque me voila evesllé, il faut que j’éveille les autres,
           &amp; que je les tourmente comme on m’a fait. Allons ho? Messieurs, debout, debout, viste,
           c’est trop dormir. Je vais faire un bruit de diable par tout : debout, debout, debout.
           Allons viste, ho, ho, ho? Debout, debout ; pour la Chasse ordonnée, il faut préparer
-          tout ; debout, debout, Lyciscas, debout? ho ! ho ! ho ! ho ! ho !</p>
-        <p>Lyciscas s’estant levé avec toutes les peines du monde, &amp; s’estant mis à crier de
+          tout ; debout, debout, <name key="lyciscas" corresp="moliere">Lyciscas</name>, debout? ho ! ho ! ho ! ho ! ho !</p>
+        <p><name key="lyciscas" corresp="moliere">Lyciscas</name> s’estant levé avec toutes les peines du monde, &amp; s’estant mis à crier de
           toute sa force,</p>
         <p>plusieurs Cors et Trompes de Chasse se firent entendre, &amp; concertées avec les
           Violons, commencerent l’air d’une entrée, sur laquelle six Valets de Chiens danserent avec
           beaucoup de justesse &amp; de disposition, reprenant à certaines cadences le son de leurs
-          Cors &amp; Trompes. C’étoient les Sieurs Paysan, Chicanneau, Noblet, Pesan, Bonard, &amp;
-          la Pierre.</p>
+          Cors &amp; Trompes. C’étoient les Sieurs <persName key="paysan" role="musicien">Paysan</persName>, <persName key="chicanneau" role="musicien">Chicanneau</persName>, <persName key="noblet" role="musicien">Noblet</persName>, <persName key="pesan" role="musicien">Pesan</persName>, <persName key="bonard" role="musicien">Bonard</persName>, &amp;
+          <persName key="la_pierre" role="musicien">la Pierre</persName>.</p>
         <label type="head">NOMS DES ACTEURS de la Comedie.</label>
         <list>
-          <item><name>LA PRINCESSE D'ELIDE</name>. <persName key="armande_bejart" role="acteur">Mademoiselle de
+          <item><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE D'ELIDE</name>. <persName key="armande_bejart" role="acteur">Mademoiselle de
             Moliére</persName>.</item>
-          <item><name>AGLANTE</name>, Cousine de la Princesse. <persName key="therese_duparc" role="chanteur">Mademoiselle du
+          <item><name key="aglante" corresp="there_duparc">AGLANTE</name>, Cousine de la Princesse. <persName key="therese_duparc" role="chanteur">Mademoiselle du
               Parc</persName>.</item>
           <item><name>CINTHIE</name>, Cousine de la Princesse. <persName key="mlle_de_brie" role="chanteur">Mademoiselle de
               Brie</persName>.</item>
