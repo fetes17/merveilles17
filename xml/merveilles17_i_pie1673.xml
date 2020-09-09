@@ -852,42 +852,42 @@ Est‑ce des personnages ?-->Monstres Celestes,
             Moliére</persName>.</item>
           <item><name key="aglante" corresp="there_duparc">AGLANTE</name>, Cousine de la Princesse. <persName key="therese_duparc" role="chanteur">Mademoiselle du
               Parc</persName>.</item>
-          <item><name>CINTHIE</name>, Cousine de la Princesse. <persName key="mlle_de_brie" role="chanteur">Mademoiselle de
+          <item><name key="cinthie" corresp="mlle_de_brie">CINTHIE</name>, Cousine de la Princesse. <persName key="mlle_de_brie" role="chanteur">Mademoiselle de
               Brie</persName>.</item>
-          <item><name>PHILIS</name>, Suivante de la Princesse. <persName key="madeleine_bejart" role="chanteur">Mademoiselle
+          <item><name key="philis" corresp="madeleine_bejart">PHILIS</name>, Suivante de la Princesse. <persName key="madeleine_bejart" role="chanteur">Mademoiselle
               Béjar</persName>.</item>
-          <item><name>IPHITAS</name>, Pere de la Princesse. <persName key="andre_hubert" role="chanteur">Le Sieur
+          <item><name key="iphitas" corresp="andre_hubert">IPHITAS</name>, Pere de la Princesse. <persName key="andre_hubert" role="chanteur">Le Sieur
             Hubert</persName>.</item>
-          <item><name>EURIALE</name>, ou le Prince d’Ithaque. <persName key="la_grange" role="chanteur">Le Sieur de la
+          <item><name key="euriale" corresp="la_grange">EURIALE</name>, ou le Prince d’Ithaque. <persName key="la_grange" role="chanteur">Le Sieur de la
               Grange</persName>.</item>
-          <item><name>ARISTOMENE</name>, ou le Prince de Messene. <persName key="du_croisy" role="chanteur">Le Sieur du
+          <item><name key="aristomene" corresp="du_croisy">ARISTOMENE</name>, ou le Prince de Messene. <persName key="du_croisy" role="chanteur">Le Sieur du
               Croisy</persName>.</item>
-          <item><name>THEOCLE</name>, ou le Prince de Pyle. <persName key="louis_bejart" role="chanteur">Le Sieur
+          <item><name key="theocle" corresp="louis_bejart">THEOCLE</name>, ou le Prince de Pyle. <persName key="louis_bejart" role="chanteur">Le Sieur
             Bejart</persName>.</item>
-          <item><name>ARBATE</name>, Gouverneur du Prince d’Ithaque. <persName key="la_thorilliere" role="chanteur">Le Sieur de la
+          <item><name key="arbate" corresp="la_thorilliere">ARBATE</name>, Gouverneur du Prince d’Ithaque. <persName key="la_thorilliere" role="chanteur">Le Sieur de la
               Thorilliére</persName>.</item>
-          <item><name>MORON</name>, Plaisant de la Princesse. <persName key="moliere" role="chanteur">Le Sieur de
+          <item><name key="moron" corresp="moliere">MORON</name>, Plaisant de la Princesse. <persName key="moliere" role="chanteur">Le Sieur de
               Moliére</persName>.</item>
-          <item><name>Un suivant</name>. <persName key="marin_prevost" role="chanteur">Le Sieur Prevost</persName>,</item>
+          <item><name key="un_suivant" corresp="marin_prevost">Un suivant</name>. <persName key="marin_prevost" role="chanteur">Le Sieur Prevost</persName>,</item>
         </list>
         <label type="head">ACTE PREMIER.</label>
         <label type="head">ARGUMENT.</label>
-        <p>CETTE Chasse, qui se préparoit ainsi, estoit celle d’un <name>Prince d’Elide</name>,
+        <p>CETTE Chasse, qui se préparoit ainsi, estoit celle d’un <name key="iphitas" corresp="andre_hubert">Prince d’Elide</name>,
           lequel étant</p>
-        <p>d’humeur galante &amp; magnifique, &amp; souhaitant que la <name>Princesse</name> sa
+        <p>d’humeur galante &amp; magnifique, &amp; souhaitant que la <name key="princesse_d_elide" corresp="armande_bejart">Princesse</name> sa
           fille se résolust à aimer &amp; à penser au mariage, qui estoit fort contre son
           inclination,</p>
         <pb n="27" xml:id="p27"/>
-        <p>avoit fait venir en sa Cour <name>les Princes d’Ithaque</name>, <name>de Messene</name>
-          &amp; <name>de Pyle</name>, afin que dans l’exercice de la Chasse qu’elle aimoit fort,
+        <p>avoit fait venir en sa Cour <name key="euriale" corresp="la_grange">les Princes d’Ithaque</name>, <name key="aristomene" corresp="du_croisy">de Messene</name>
+          &amp; <name key="theocle" corresp="louis_bejart">de Pyle</name>, afin que dans l’exercice de la Chasse qu’elle aimoit fort,
           &amp; dans d’autres jeux, comme des Courses de Chars, &amp; semblables
           magnificences, quelqu’un de ces Princes pûst luy plaire, &amp; devenir son époux.</p>
         <label type="head">SCENE PREMIERE.</label>
-        <p><name>EURIALE</name> Prince d’Ithaque, amoureux de la <name>Princesse d’Elide</name>,
-          &amp; Arbate son Gouverneur, lequel indulgent à la passion du Prince, le loüa de son
+        <p><name key="euriale" corresp="la_grange">EURIALE</name> Prince d’Ithaque, amoureux de la <name key="princesse_d_elide" corresp="armande_bejart">Princesse d’Elide</name>,
+          &amp; <name key="arbate" corresp="la_thorilliere">Arbate</name> son Gouverneur, lequel indulgent à la passion du <name key="euriale" corresp="la_grange">Prince</name>, le loüa de son
           amour, au lieu de l’en blâmer, en des termes fort galants.</p>
-        <p><name>EURIALE</name>. <name>ARBATE</name>.</p>
-        <label type="speaker">ARBATE.</label>
+        <p><name key="euriale" corresp="la_grange">EURIALE</name>. <name key="arbate" corresp="la_thorilliere">ARBATE</name>.</p>
+        <label type="speaker"><name key="arbate" corresp="la_thorilliere">ARBATE</name>.</label>
         <l>CE silence reéveur, dont la sombre habitude</l>
         <l>Vous fait à tous momens chercher la solitude,</l>
         <l>Ces longs soûpirs que laisse échapper vostre coeur,</l>
@@ -896,14 +896,14 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <l>Et je pense, Seigneur, entendre ce langage :</l>
         <l>Mais sans vostre congé, de peur de trop risquer,</l>
         <l>Je n’ose m’enhardir jusques à l’expliquer.</l>
-        <label type="speaker">EURIALE.</label>
-        <l>Explique, explique Arbate, avec toute licence,</l>
+        <label type="speaker"><name key="euriale" corresp="la_grange">EURIALE</name>.</label>
+        <l>Explique, explique <name key="arbate" corresp="la_thorilliere">Arbate</name>, avec toute licence,</l>
         <l>Ces soûpirs, ces regards, &amp; ce morne silence:</l>
         <l>Je te permets icy de dire que l’Amour</l>
         <l>M'a rangé sous ses loix, &amp; me brave à son tour ;</l>
         <l>Et je consens encor que tu me fasses honte</l>
         <l>Des foiblesses d’un coeur qui souffre qu’on le dompte.</l>
-        <label type="speaker">ARBATE.</label>
+        <label type="speaker"><name key="arbate" corresp="la_thorilliere">ARBATE</name>.</label>
         <l>Moy vous blâmer, Seigneur, des tendres mouvemens,</l>
         <l>Où je vois qu’aujourd|huy panchent vos sentimens !</l>
         <l>Le chagrin des vieux jours ne peut aigrir mon ame</l>
@@ -935,13 +935,13 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <l>Nous montrent que vostre ame à ses traits est sensible,</l>
         <l>Je triomphe, &amp; mon coeur d’allegresse rempli</l>
         <l>Vous regarde à present comme un Prince accompli.</l>
-        <label type="speaker">EURIALE.</label>
+        <label type="speaker"><name key="euriale" corresp="la_grange">EURIALE</name>.</label>
         <l>Si de l’amour un temps j’ay, bravé la puissance,</l>
-        <l>Helas ! mon cher Arbate, il en prend bien vengeance :</l>
+        <l>Helas ! mon cher <name key="arbate" corresp="la_thorilliere">Arbate</name>, il en prend bien vengeance :</l>
         <l>Et sçaçhant dans quels maux mon coeur s’est abimé,</l>
         <l>Toy-même, tu voudrois qu’il n’eust jamais aimé.</l>
         <l>Car enfin voy le sort où mon Astre me guide :</l>
-        <l>J’aime, j’aime ardemment la Princesse d’Elide ;</l>
+        <l>J’aime, j’aime ardemment la <name key="princesse_d_elide" corresp="armande_bejart">Princesse d’Elide</name> ;</l>
         <l>Et tu sçais quel orgueil sous des traits si charmans</l>
         <l>Arme contre l’Amour ses jeunes sentimens;</l>
         <l>Et comment elle fuit en cette illustre feste,</l>
@@ -951,7 +951,7 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <l>Et qu’un premier coup d’oeil allume en nous les flâmes</l>
         <l>Où le Ciel en naissant a destiné nos ames.</l>
         <l>A mon retour d’Argos je passay dans ces lieux,</l>
-        <l>Et ce passage offrit la Princesse à mes yeux.</l>
+        <l>Et ce passage offrit <name key="princesse_d_elide" corresp="armande_bejart">la Princesse</name> à mes yeux.</l>
         <l>Je vis tous les appas dont elle est revestuë ;</l>
         <l>Mais de l’oeil dont on voit une belle Statuë.</l>
         <pb n="29" xml:id="p29"/>
@@ -985,12 +985,12 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <l>J'ay d’Ithaque en ces lieux fait voile en diligence ;</l>
         <l>Et je couvre un effet de mes voeux enflamez</l>
         <l>Du desir de paroistre à ces jeux renommez,</l>
-        <l>Où l’Illustre Iphitas, pere de la Princesse,</l>
+        <l>Où l’Illustre <name key="iphitas" corresp="andre_hubert">Iphitas, pere de la Princesse</name>,</l>
         <l>Assemble la pluspart des Princes de la Grece.</l>
-        <label type="speaker">ARBATE.</label>
+        <label type="speaker"><name key="arbate" corresp="la_thorilliere">ARBATE</name>.</label>
         <l>Mais à quoy bon, Seigneur, les soins que vous prenez?</l>
         <l>Et pourquoy ce secret où vous vous obstinez?</l>
-        <l>Vous aimez, dites-vous, cette illustre Princesse,</l>
+        <l>Vous aimez, dites-vous, cette illustre <name key="princesse_d_elide" corresp="armande_bejart">Princesse</name>,</l>
         <l>Et venez à ses yeux signaler vostre adresse,</l>
         <l>Et nuls empressemens, paroles, ny soûpirs</l>
         <l>Ne l’ont instruite encore de vos brûlans desirs.</l>
@@ -999,12 +999,12 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <pb n="30" xml:id="p30"/>
         <l>Et je ne sçay quel fruit peut prétendre un amour,</l>
         <l>Qui fuit tous les moyens de se produire au jour.</l>
-        <label type="speaker">EURIALE.</label>
-        <l>Et que feray-je, Arbate, en déclarant ma peine,</l>
+        <label type="speaker"><name key="euriale" corresp="la_grange">EURIALE</name>.</label>
+        <l>Et que feray-je, <name key="arbate" corresp="la_thorilliere">Arbate</name>, en déclarant ma peine,</l>
         <l>Qu'attirer les dédains de cette ame hautaine,</l>
         <l>Et me jetter au rang de ces Princes soûmis,</l>
         <l>Que le titre d’amans luy peint en ennemis?</l>
-        <l>Tu vois les Souverains de Messene &amp; de Pyle</l>
+        <l>Tu vois les <name key="aristomene" corresp="du_croisy">Souverains de Messene</name> &amp; <name key="theocle" corresp="louis_bejart">de Pyle</name></l>
         <l>Luy faire de leurs coeurs un hommage inutile,</l>
         <l>Et de l’éctat pompeux des plus hautes vertus,</l>
         <l>En appuyer en vain les respects assidus.</l>
@@ -1012,7 +1012,7 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <l>Retient de mon amour toute la violence ;</l>
         <l>Je me tiens condamné dans ces Rivaux fameux,</l>
         <l>Et je lis mon arrest au mépris qu’on fait d’eux.</l>
-        <label type="speaker">ARBATE.</label>
+        <label type="speaker"><name key="arbate" corresp="la_thorilliere">ARBATE</name>.</label>
         <l>Et c’est dans ce mépris, &amp; dans cette humeur fiére,</l>
         <l>Que vostre ame à ses voeux doit voir plus de lumiére,</l>
         <l>Puisque le sort vous donne à conquerir un cœur,</l>
@@ -1033,29 +1033,29 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <l>Ne vous fait éprouver un destin plus propice,</l>
         <l>Au moins est-ce un bonheur en ces extrémitez</l>
         <l>Que de voir avec soy ses riuaux rebutez.</l>
-        <label type="speaker">EURIALE.</label>
+        <label type="speaker"><name key="euriale" corresp="la_grange">EURIALE</name>.</label>
         <l>J'ayme à te voir presser cét aueu de ma flâme.</l>
         <l>Combattant mes raisons, tu chatouïlles mon ame ;</l>
         <pb n="31" xml:id="p31"/>
         <l>Et par ce que j’ay dit, je voulois présentir,</l>
         <l>Si de ce que j’ay fait tu pourrois m’applaudir.</l>
         <l>Car, enfin, puis qu’il faut t’en faire confidence,</l>
-        <l>On doit à la Princesse expliquer mon silence ;</l>
+        <l>On doit à la <name key="princesse_d_elide" corresp="armande_bejart">Princesse</name> expliquer mon silence ;</l>
         <l>Et peut-estre au moment que je t’en parle icy,</l>
-        <l>Le secret de mon coeur, Arbate, est éclaircy.</l>
+        <l>Le secret de mon coeur, <name key="arbate" corresp="la_thorilliere">Arbate</name>, est éclaircy.</l>
         <l>Cette Chasse où, pour fuïr la foule qui l’adore,</l>
         <l>Tu sçais qu’elle est allée au lever de l’Aurore,</l>
-        <l>Est le temps que Moron, pour déclarer mon feu,</l>
+        <l>Est le temps que <name key="moron" corresp="moliere">Moron</name>, pour déclarer mon feu,</l>
         <l>A pris….</l>
-        <label type="speaker">ARBATE.</label>
-        <l>Moron, Seigneur?</l>
-        <label type="speaker">EURIALE.</label>
+        <label type="speaker"><name key="arbate" corresp="la_thorilliere">ARBATE</name>.</label>
+        <l><name key="moron" corresp="moliere">Moron</name>, Seigneur?</l>
+        <label type="speaker"><name key="euriale" corresp="la_grange">EURIALE</name>.</label>
         <l>Ce choix t’étonne un peu.</l>
         <l>Par son titre de fou tu crois le bien connoistre :</l>
         <l>Mais sçache qu’il l’est moins qu’il le veut paroistre,</l>
         <l>Et que malgré l’employ qu’il exerce aujourd’huy,</l>
         <l>II a plus de bon sens que tel qui rit de luy.</l>
-        <l>La Princesse se plaist à ses bouffonneries ;</l>
+        <l><name key="princesse_d_elide" corresp="armande_bejart">La Princesse</name> se plaist à ses bouffonneries ;</l>
         <l>Il s’en est fait aimer par cent plaisanteries,</l>
         <l>Et peut dans cét accés dire &amp; persuader</l>
         <l>Ce que d’autres que luy n’oseroient hazarder.</l>
@@ -1065,37 +1065,37 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <l>Contre tous mes Rivaux appuyer mon amour.</l>
         <l>Quelque argent mis en main pour soûtenir ce zele….</l>
         <label type="head">SCENE DEUXIEME.</label>
-        <p><name>MORON</name>, representé par le <persName key="moliere" role="chanteur">Sieur de Moliére</persName>, arrive ;
+        <p><name key="moron" corresp="moliere">MORON</name>, representé par le <persName key="moliere" role="chanteur">Sieur de Moliére</persName>, arrive ;
           &amp; ayant le souvenir d’un furieux Sanglier, devant lequel il avoit fui à la Chasse,
           demande secours ; et rencontrant <name>Euriale</name> &amp; <name>Arbate</name>, se met au
           milieu d’eux pour plus de seûreté, aprés leur avoir témoigné sa peur, &amp; leur disant
           cent choses plaisantes sur son peu de bravoure.</p>
-        <p><name>MORON</name>. <name>ARBATE</name>. <name>EURIALE</name>.</p>
-        <label type="speaker">MORON sans estre veû.</label>
+        <p><name key="moron" corresp="moliere">MORON</name>. <name key="arbate" corresp="la_thorilliere">ARBATE</name>. <name key="euriale" corresp="la_grange">EURIALE</name>.</p>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name> sans estre veû.</label>
         <p>AU secours ! sauvez-moy de la beste cruelle !</p>
         <p>32</p>
-        <label type="speaker">EURIALE.</label>
+        <label type="speaker"><name key="euriale" corresp="la_grange">EURIALE</name>.</label>
         <p>Je pense ouïr sa voix ?</p>
-        <label type="speaker">MORON sans estre veû.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name> sans estre veû.</label>
         <p>A moy de grace, à moy.</p>
-        <label type="speaker">EURIALE.</label>
+        <label type="speaker"><name key="euriale" corresp="la_grange">EURIALE</name>.</label>
         <p>C'est luy-mesme ; où court-il avec un tel effroy?</p>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <l>Où pourray-je évier ce Sanglier redoutable?</l>
         <l>Grands Dieux, preservez-moy de sa dent effroyable :</l>
         <l>Je vous promets, pourveu qu’il ne m’attrape pas,</l>
         <l>Quatre livres d’encens, &amp; deux veaux des plus gras.</l>
         <l>Ha! je suis mort.</l>
-        <label type="speaker">EURIALE.</label>
+        <label type="speaker"><name key="euriale" corresp="la_grange">EURIALE</name>.</label>
         <p>Qu'as-tu?</p>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <l>Je vous croyois la beste,</l>
         <l>Dont à me diffamer j’ay veû la gueule preste,</l>
         <l>Seigneur ; &amp; je ne puis revcnir de ma peur.</l>
-        <label type="speaker">EURIALE.</label>
+        <label type="speaker"><name key="euriale" corresp="la_grange">EURIALE</name>.</label>
         <p>Qu'est-ce?</p>
-        <label type="speaker">MORON.</label>
-        <l>O ! que la Princesse est d’une étrange humeur,</l>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
+        <l>O ! que <name key="princesse_d_elide" corresp="armande_bejart">la Princesse</name> est d’une étrange humeur,</l>
         <l>Et qu’à suivre la Chasse &amp; ses extravagances,</l>
         <l>Il nous faut essuyer de sotes complaisances !</l>
         <l>Quel diable de plaisir trouvent tous les Chasseurs,</l>
@@ -1109,11 +1109,11 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <l>Et qui courent les gens qui les veulent courir,</l>
         <l>C’est un sot passe-temps, que je ne puis souffrir.</l>
         <pb n="33" xml:id="p33"/>
-        <label type="speaker">EVRIALE.</label>
+        <label type="speaker"><name key="euriale" corresp="la_grange">EVRIALE</name>.</label>
         <p>Dy-nous donc ce que c’est ?</p>
-        <label type="speaker">MORON, en se tournant.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>, en se tournant.</label>
         <l>Le penible exercice,</l>
-        <l>Où de nostre Princesse a volé le caprice!....</l>
+        <l>Où de nostre <name key="princesse_d_elide" corresp="armande_bejart">Princesse</name> a volé le caprice!....</l>
         <l>J'en aurois bien juré qu’elle auroit fait le tour ;</l>
         <l>Et la course des Chars se faisant en ce jour,</l>
         <l>II falloit affecter ce contre-temps de Chasse,</l>
@@ -1121,9 +1121,9 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <l>Et faire voir... Mais chut, achevons mon recit,</l>
         <l>Et reprenons le fil de ce que j’avois dit.</l>
         <l>Qu'ay-je dit?</l>
-        <label type="speaker">EURIALE.</label>
+        <label type="speaker"><name key="euriale" corresp="la_grange">EURIALE</name>.</label>
         <p>Tu parlois d’exercice penible.</p>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <l>Ah ! oüy. Succombant donc à ce travail horrible ;</l>
         <l>Car en Chasseur fameux j’estois enharnaché,</l>
         <l>Et dés le point du jour je m’estois découché ;</l>
@@ -1135,9 +1135,9 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <l>Et j’ay d’un vieux buisson de la forest touffuë</l>
         <l>Veû sortir un Sanglier d’une énorme grandeur,</l>
         <l>Pour...</l>
-        <label type="speaker">EURIALE.</label>
+        <label type="speaker"><name key="euriale" corresp="la_grange">EURIALE</name>.</label>
         <p>Qu'est-ce?</p>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <l>Ce n’est rien ; n’ayez point de frayeur :</l>
         <l>Mais laissez-moy passer entre vous deux pour cause,</l>
         <l>Je seray mieux en main pour vous conter la chose.</l>
@@ -1151,45 +1151,45 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <l>A ce terrible aspect j’ay ramassé mes armes;</l>
         <l>Mais le faux animal, sans en prendre d’allarmes,</l>
         <l>Est venu droit à moy, qui ne luy disois mot.</l>
-        <label type="speaker">ARBATE.</label>
+        <label type="speaker"><name key="arbate" corresp="la_thorilliere">ARBATE</name>.</label>
         <p>Et tu l’as de pied ferme attendu ?</p>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>Quelque sot;</p>
         <p>J’ay jetté tout par terre, &amp; couru comme quatre.</p>
-        <label type="speaker">ARBATE.</label>
+        <label type="speaker"><name key="arbate" corresp="la_thorilliere">ARBATE</name>.</label>
         <p>Fuïr devant un Sanglier, ayant dequoy l’abbatre,</p>
-        <p>Cc trait, Moron, n’est pas génereux...</p>
-        <label type="speaker">MORON.</label>
+        <p>Cc trait, <name key="moron" corresp="moliere">Moron</name>, n’est pas génereux...</p>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>J’y consens :</p>
         <p>II n’est pas génereux, mais il est de bon sens.</p>
-        <label type="speaker">ARBATE.</label>
+        <label type="speaker"><name key="arbate" corresp="la_thorilliere">ARBATE</name>.</label>
         <p>Mais par quelques exploits, si l’on ne s’éternise……</p>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <l>Je suis vostre valet : &amp; j’ayme mieux qu’on dise,</l>
         <l>C'est icy qu’en fuyant, sans se faire prier,</l>
-        <l>Moron sauva ses jours des fureurs d’un Sanglier ;</l>
+        <l><name key="moron" corresp="moliere">Moron</name> sauva ses jours des fureurs d’un Sanglier ;</l>
         <l>Que si l’on y disoit, Voilà l’illustre place,</l>
-        <l>Où le brave Moron, d’une héroïque audace,</l>
+        <l>Où le brave <name key="moron" corresp="moliere">Moron</name>, d’une héroïque audace,</l>
         <l>Affrontant d’un Sanglier l’impetueux effort,</l>
         <l>Par un coup de ses dents vit terminer son sort.</l>
-        <label type="speaker">EURIALE.</label>
+        <label type="speaker"><name key="euriale" corresp="la_grange">EURIALE</name>.</label>
         <p>Fort bien….</p>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <l>Oüy, j’ayme mieux, n’en déplaise à la gloire,</l>
         <l>Vivre au monde deux jours, que mille ans dans l’histoire.</l>
-        <label type="speaker">EURIALE.</label>
+        <label type="speaker"><name key="euriale" corresp="la_grange">EURIALE</name>.</label>
         <l>En effet, ton trépas fâcheroit tes amis.</l>
         <l>Mais si de ta frayeur ton esprit est remis,</l>
         <l>Puis-je te demander si du feu qui me brûle…..</l>
         <pb n="35" xml:id="p35"/>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <l>II ne faut point, Seigneur, que je vous dissimule,</l>
         <l>Je n’ay rien fait encor, &amp; n’ay point rencontré</l>
         <l>De temps pour luy parler qui fût selon mon gré.</l>
         <l>L'office de bouffon a des prérogatives;</l>
         <l>Mais souuent on rabat nos libres tentatives.</l>
         <l>Le discours de vos feux est un peu délicat,</l>
-        <l>Et c’est chez la Princesse une affaire d’état.</l>
+        <l>Et c’est chez <name key="princesse_d_elide" corresp="armande_bejart">la Princesse</name> une affaire d’état.</l>
         <l>Vous sçavez de quel titre elle se glorifie,</l>
         <l>Et qu’elle a dans la teste une Philosophie</l>
         <l>Qui déclare la guerre au conjugal lien,</l>
@@ -1213,24 +1213,24 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <l>Et que durant ce temps il avoit l’avantage</l>
         <l>De se voir salüé de tous ceux du village.</l>
         <l>Baste, quoy qu’il en soit, je veux par mes travaux….</l>
-        <l>Mais voicy la Princesse, &amp; deux de vos Rivaux.</l>
+        <l>Mais voicy <name key="princesse_d_elide" corresp="armande_bejart">la Princesse</name>, &amp; deux de vos Rivaux.</l>
         <pb n="36" xml:id="p36"/>
         <label type="head">SCENE TROISIEME.</label>
-        <p>LA <name>Princesse d’Elide</name> parut en suite, avec les <name>Princes de
-            Messene</name> &amp; <name>de Pyle</name>, lesquels firent</p>
-        <p>remarquer en eux des caracteres bien differens de celuy du <name>Prince d’Ithaque</name>,
-          et luy cederent dans le coeur de la <name>Princesse</name> tous les avantages qu’il y
-          pouvoit desirer. Cette aimable <name>Princesse</name> ne témoigna pas pourtant que le
+        <p>LA <name key="princesse_d_elide" corresp="armande_bejart">Princesse d’Elide</name> parut en suite, avec les <name key="aristomene" corresp="du_croisy">Princes de
+          Messene</name> &amp; <name key="theocle" corresp="louis_bejart">de Pyle</name>, lesquels firent</p>
+        <p>remarquer en eux des caracteres bien differens de celuy du <name key="euriale" corresp="la_grange">Prince d’Ithaque</name>,
+          et luy cederent dans le coeur de la <name key="princesse_d_elide" corresp="armande_bejart">Princesse</name> tous les avantages qu’il y
+          pouvoit desirer. Cette aimable <name key="princesse_d_elide" corresp="armande_bejart">Princesse</name> ne témoigna pas pourtant que le
           merite de ce Prince eust fait aucune impression sur son esprit, &amp; qu’elle l’eust quasi
           remarqué. Elle témoigna toûjours, comme une autre Diane, n’aimer que la Chasse &amp; les
-          Forests ; &amp; lors que le <name>Prince de Messene</name> voulut luy faire valoir le
+          Forests ; &amp; lors que le <name key="aristomene" corresp="du_croisy">Prince de Messene</name> voulut luy faire valoir le
           service qu’il luy avoit rendu, en la défaisant d’un fort grand Sanglier qui l’avoit
           attaquée, elle luy dit, que sans rien diminüer de sa reconnaissance, elle trouvoit son
           secours d’autant moins considerable, qu’elle en avoit tué toute seule d’aussi furieux,
           &amp; fût peut-estre bien encore venuë à bout de celuy-cy.</p>
-        <p><name>LA PRINCESSE &amp; sa suite.ARISTOMENE</name>. <name>THEOCLE</name>.</p>
-        <p><name>EURIALE</name>. <name>ARBATE</name>. <name>MORON</name>.</p>
-        <label type="speaker">ARISTOMENE.</label>
+        <p><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name> &amp; sa suite.<name key="aristomene" corresp="du_croisy">ARISTOMENE</name>. <name key="theocle" corresp="louis_bejart">THEOCLE</name>.</p>
+        <p><name key="euriale" corresp="la_grange">EURIALE</name>. <name key="arbate" corresp="la_thorilliere">ARBATE</name>. <name key="moron" corresp="moliere">MORON</name>.</p>
+        <label type="speaker"><name key="aristomene" corresp="du_croisy">ARISTOMENE</name>.</label>
         <l>REPROCHEZ-vous, Madame, à nos justes allarmes</l>
         <l>Ce peril dont tous deux avons sauvé vos charmes ?</l>
         <l>J'aurois pensé pour moy, qu’abbatre sous nos coups</l>
@@ -1241,7 +1241,7 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <l>Que je dois concevoir un autre sentiment,</l>
         <l>Et quereller du sort la fatalle puissance,</l>
         <l>Qui me fait avoir part à ce qui vous offense.</l>
-        <label type="speaker">THEOCLE.</label>
+        <label type="speaker"><name key="theocle" corresp="louis_bejart">THEOCLE</name>.</label>
         <l>Pour moy je tiens, Madame, à sensible bonheur</l>
         <l>L'action où pour vous a volé tout mon coeur,</l>
         <l>Et ne puis consentir, malgré vostre murmure,</l>
@@ -1251,7 +1251,7 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <l>Mais deût vostre couroux estre plus grand qu’il n’est,</l>
         <l>C'est extrême plaisir, quand l’amour est extrême,</l>
         <l>De pouvoir d’un peril affranchir ce qu’on aime.</l>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <l>Et pensez-vous, Seigneur, puisqu’il me faut parler,</l>
         <l>Qu'il eût en ce peril dequoy tant m’ébranler ?</l>
         <l>Que l’arc, &amp; que le dard, pour moy si pleins de charmes,</l>
@@ -1270,9 +1270,9 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <l>Et me faites tous deux cette grace de croire,</l>
         <l>Seigneurs, que quel que fût le Sanglier d’aujourd’huy,</l>
         <l>J'en ay mis bas, sans vous, de plus méchans que luy.</l>
-        <label type="speaker">THEOCLE.</label>
+        <label type="speaker"><name key="theocle" corresp="louis_bejart">THEOCLE</name>.</label>
         <l>Mais, Madame...</l>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <l>Et bien soit. je voy que vostre envie,</l>
         <l>Est de persuader que je vous dois la vie.</l>
         <l>J'y consens. Oüy, sans vous c’estoit fait de mes jours :</l>
@@ -1281,22 +1281,22 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <l>Les bontez que pour moy vostre amour vous inspire.</l>
         <pb n="38" xml:id="p38"/>
         <label type="head">SCENE QUATRIEME.</label>
-        <p><name>EURIALE</name>. <name>MORON</name>. <name>ARBATE.</name></p>
-        <label type="speaker">MORON.</label>
+        <p><name key="euriale" corresp="la_grange">EURIALE</name>. <name key="moron" corresp="moliere">MORON</name>. <name>ARBATE.</name></p>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <l>HEU ! a-t-on jamais veû de plus farouche esprit?</l>
         <l>De ce vilain Sanglier l’heureux trépas l’aigrit:</l>
         <l>O comme volontiers j’aurois d’un beau salaire</l>
         <l>Récompensé tantost qui m’en eût sceû défaire !</l>
-        <label type="speaker">ARBATE.</label>
+        <label type="speaker"><name>ARBATE</name>.</label>
         <l>Je vous voy tout pensif, Seigneur, de ses dédains;</l>
         <l>Mais ils n’ont rien qui doive empescher vos desseins :</l>
         <l>Son heure doit venir, &amp; c’est à vous possible,</l>
         <l>Qu'est reservé l’honneur de la rendre sensible.</l>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <l>II faut qu’avant la course elle apprenne vos feux ;</l>
         <l>Et je...</l>
-        <label type="speaker">EURIALE.</label>
-        <l>Non, ce n’est plus, Moron, ce que je veux.</l>
+        <label type="speaker"><name key="euriale" corresp="la_grange">EURIALE</name>.</label>
+        <l>Non, ce n’est plus, <name key="moron" corresp="moliere">Moron</name>, ce que je veux.</l>
         <l>Garde-toy de rien dire, &amp; me laisse un peu faire ;</l>
         <l>J'ay resolu de prendre un chemin tout contraire.</l>
         <l>Je voy trop que son coeur s’obstine à dédaigner</l>
@@ -1305,15 +1305,15 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <l>M'inspire pour la vaincre une adresse nouvelle.</l>
         <l>Oüy, c’est luy d’où me vient ce soudain mouvement,</l>
         <l>Et j’en attens de luy l’heurcux évenement.</l>
-        <label type="speaker">ARBATE.</label>
+        <label type="speaker"><name>ARBATE</name>.</label>
         <l>Peut-on sçavoir, Seigneur, par où vostre esperance?</l>
-        <label type="speaker">EURIALE.</label>
+        <label type="speaker"><name key="euriale" corresp="la_grange">EURIALE</name>.</label>
         <l>Tu le vas voir : allons, &amp; garde le silence.</l>
         <p>Fin du premier Acte.</p>
         <pb n="39" xml:id="p39"/>
         <label type="head">DEUXIE’ME INTERMEDE.</label>
         <label type="head">ARGUMENT.</label>
-        <p>L’AGREABLE <name>Moron</name> laissa aller <name>le Prince</name>, pour parler de sa
+        <p>L’AGREABLE <name key="moron" corresp="moliere">Moron</name> laissa aller <name>le Prince</name>, pour parler de sa
           passion naissante aux bois &amp; aux rochers ; &amp; faisant retentir par tout le beau nom
           de sa Bergere <name>Philis</name>, un Echo ridicule luy répondant bizarement, il y prit si
           grand plaisir, que riant en cent maniéres, il fit répondre autant de fois cét Echo, sans
@@ -1327,12 +1327,12 @@ Est‑ce des personnages ?-->Monstres Celestes,
           du premier. II se fit un Combat qui finit par la mort d’<tech type="animal">un des Ours</tech>, &amp; par la fuite de
           l’autre.</p>
         <label type="head">SCENE PREMIERE.</label>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>JUSQU’AU revoir. Pour moy je reste icy, &amp; j’ay une petite conversation à faire avec
           ces arbres et ces rochers.</p>
         <l>Bois, prez, fontaines, fleurs, qui voyez mon teint blesme,</l>
         <l>Si vous ne le sçavez, je vous apprens que j’aime.</l>
-        <l>Philis est l’objet charmant,</l>
+        <l><name>Philis</name> est l’objet charmant,</l>
         <l>Qui tient mon coeur à l’attache,</l>
         <l>Et je deuins son amant,</l>
         <l>La voyant traire une Vache.</l>
@@ -1341,13 +1341,13 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <l>Ouf ! cette idée est capable</l>
         <l>De me réduire aux abois.</l>
         <pb n="40" xml:id="p40"/>
-        <p>Ah ! Philis, Philis, Philis.</p>
+        <p>Ah ! <name>Philis</name>, <name>Philis</name>, <name>Philis</name>.</p>
         <p>Ah ! hem. ah ah ah ! hi hi hi hi. oh oh oh oh.</p>
         <p>Voilà un echo qui est boufon. Hom hom hom. ha ha ha ha.</p>
         <p>uh uh uh. Voilà un echo qui est boufon.</p>
         <label type="head">SCENE DEUXIEME.</label>
-        <p><name>UN OURS.MORON</name>.</p>
-        <label type="speaker">MORON.</label>
+        <p><name>UN OURS</name>.<name key="moron" corresp="moliere">MORON</name>.</p>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>AH! <name>Monsieur l’Ours</name>, je suis vostre serviteur de tout mon cœur. De grace,
           épargnez-moy. Je vous asseûre que je ne vaux rien du tout à manger. Je n’ay que la peau
           &amp; les os ; &amp; je voy de certaines gens la-bas qui seroient bien mieux vostre
@@ -1357,7 +1357,7 @@ Est‑ce des personnages ?-->Monstres Celestes,
           poil ! belle teste ! beaux yeux brillans &amp; bien fendus ! ah beau petit nez ! belle
           petite bouche ! petites quenotes jolies ! ah belle gorge ! belles petites menottes !
           petits ongles bien faits ! A l’aide, au secours, je suis mort, misericorde ; pauvre
-            <name>Moron</name>, ah mon Dieu ! &amp; viste, à moy, à moy, je suis perdu. Eh,
+          <name key="moron" corresp="moliere">Moron</name>, ah mon Dieu ! &amp; viste, à moy, à moy, je suis perdu. Eh,
           Messieurs, ayez pitié de moy. Bon, Messieurs, tuez-moy ce vilain animal-là. O Ciel !
           daigne les assister. Bon le voilà qui fuït ; le voilà qui s’arreste, &amp; qui se jette
           sur eux. Bon, en voila un qui vient de luy donner un coup dans la gueule. Les voilà tous à
@@ -1367,7 +1367,7 @@ Est‑ce des personnages ?-->Monstres Celestes,
           beste : maintenant que vous l’avez tuée je m’en vais l’achever, &amp; en triompher avec
           vous.</p>
         <p>Ces heureux chasseurs, n’eûrent pas plûtost remporté cette victoire, que
-            <name>Moron</name>, devenu brave par l’éloignement du peril, voulut aller donner mille
+          <name key="moron" corresp="moliere">Moron</name>, devenu brave par l’éloignement du peril, voulut aller donner mille
           coups à la beste, qui n’estoit plus en estat de se defendre, &amp; fit tout ce qu’un
           fanfaron, qui n’auroit pas esté trop hardy, eust pû faire en cette occasion; &amp; les
           Chasseurs, pour témoigner leur joye, danserent une fort belle Entrée. C’estoient les
@@ -1377,7 +1377,7 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <pb n="41" xml:id="p41"/>
         <label type="head">ACTE DEUXIEME.</label>
         <label type="head">ARGUMENT.</label>
-        <p><name>LE Prince d’Ithaque</name> &amp; <name>la Princesse</name> eûrent une conversation
+        <p><name>LE Prince d’Ithaque</name> &amp; <name key="princesse_d_elide" corresp="armande_bejart">la Princesse</name> eûrent une conversation
           fort galante sur la Course des Chars qui se préparoit. Elle avoit dit auparavant à une des
           Princesses ses Parentes, que l’insensibilité du <name>Prince d’Ithaque</name> luy donnoit
           de la peine, et luy estoit honteuse ; qu’encore qu’elle ne voutust rien aimer, il estoit
@@ -1387,8 +1387,8 @@ Est‑ce des personnages ?-->Monstres Celestes,
           de ce Prince produisoit son effet ordinaire ; que ses belles qualitez avoient touché ce
           coeur superbe, &amp; commencé à fondre une partie de cette glace qui avoit résisté jusques
           alors à toutes les ardeurs de l’Amour : &amp; plus il affectoit (par le conseil de
-            <name>Moron</name> qu’il avoit gagné, &amp; qui connoissoit fort le cœur de la
-          Princesse) de paroistre insensible, quoy-qu’il ne fût que trop amoureux, plus la Princesse
+          <name key="moron" corresp="moliere">Moron</name> qu’il avoit gagné, &amp; qui connoissoit fort le cœur de <name key="princesse_d_elide" corresp="armande_bejart">la
+            Princesse</name>) de paroistre insensible, quoy-qu’il ne fût que trop amoureux, plus <name key="princesse_d_elide" corresp="armande_bejart">la Princesse</name>
           se mettoit dans la teste de l’engager, quoy-qu’elle n’eust pas fait le dessein de
           s’engager elle-mesme. <name>Les Princes de Messene</name> &amp; <name>de Pyle</name>
           prirent lors congé d’elle pour s’aller préparer aux Courses, &amp; luy parlant de
@@ -1398,8 +1398,8 @@ Est‑ce des personnages ?-->Monstres Celestes,
           l’engagea à vouloir soûmettre un coeur déjà assez soûmis, mais qui sçavoit déguiser ses
           sentimens le mieux du monde.</p>
         <label type="head">SCENE PREMIERE.</label>
-        <p><name>LA PRINCESSE.AGLANTE</name>. <name>CINTHIE</name>.</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <p><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.<name>AGLANTE</name>. <name>CINTHIE</name>.</p>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <l>OUY, j’aime à demeurer dans ces paisibles lieux :</l>
         <l>On n’y découvre rien qui n’enchante les yeux ;</l>
         <l>Et de tous nos Palais la sçavante structure</l>
@@ -1407,7 +1407,7 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <pb n="42" xml:id="p42"/>
         <l>Ces Arbres, ces Rochers, cette Eau, ces Gazons frais</l>
         <l>Ont pour moy des appas à ne lasser jamais.</l>
-        <label type="speaker">AGLANTE.</label>
+        <label type="speaker"><name>AGLANTE</name>.</label>
         <l>Je cheris comme vous ces retraites tranquilles,</l>
         <l>Où l’on se vient sauver de l’embarras des Villes :</l>
         <l>De mille objets charmans ces lieux sont embellis;</l>
@@ -1420,14 +1420,14 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <l>Que chaque Prince a fait pour la feste publique.</l>
         <l>Ce spectacle pompeux de la course des Chars</l>
         <l>Devroit bien meriter l’honneur de vos regards.</l>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <l>Quel droit ont-ils chacun d’y vouloir ma présence,</l>
         <l>Et que dois-je aprés tout à leur magnificence?</l>
         <l>Ce sont soins que produit l’ardeur de m’aquerir,</l>
         <l>Et mon coeur est le prix qu’ils veulent tous courir:</l>
         <l>Mais quelque espoir qui flate un projet de la sorte,</l>
         <l>Je me tromperay fort, si pas un d’eux l’emporte.</l>
-        <label type="speaker">CINTHIE.</label>
+        <label type="speaker"><name>CINTHIE</name>.</label>
         <l>Jusques-à-quand ce coeur veut-il s’effaroucher</l>
         <l>Des innocens desseins qu’on a de le toucher,</l>
         <l>Et regarder les soins que pour vous on se donne ;</l>
@@ -1450,11 +1450,11 @@ Est‑ce des personnages ?-->Monstres Celestes,
             Comédie : mais un commandement du <persName key="louisxiv" role="commanditaire">Roy</persName> qui pressa cette
           affaire, l’obligea d’achever tout le reste en prose, &amp; de passer legerement sur
           plusieurs Scenes, qu’il auroit étenduës davantage, s’il avoit eû plus de loisir.</p>
-        <label type="speaker">AGLANTE.</label>
+        <label type="speaker"><name>AGLANTE</name>.</label>
         <p>Pour moy, je tiens que cette passion est la plus agréable affaire de la vie ; qu’il est
           nécessaire d’aimer, pour vivre heureusement ; &amp; que tous les plaisirs sont fades, s’il
           ne s’y mesle un peu d’amour.</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>Pouvez-vous bien toutes deux, estant ce que vous estes, prononcer ces paroles ? Et ne
           devez-</p>
         <p>vous pas rougir d’appuyer une passion qui n’est qu’erreur, que foiblesse, &amp;
@@ -1469,43 +1469,43 @@ Est‑ce des personnages ?-->Monstres Celestes,
           personnes sur qui elle étend sa puissance ; je sens tout mon coeur qui s’émeut ; &amp; je
           ne puis souffrir qu’une ame qui fait profession d’un peu de fierté, ne trouve pas une
           honte horrible à de telles foiblesses.</p>
-        <label type="speaker">CINTHIE.</label>
+        <label type="speaker"><name>CINTHIE</name>.</label>
         <p>Eh ! Madame, il est de certaines foiblesses qui ne sont point honteuses, &amp; qu’il est
           beau mesme d’avoir dans les plus hauts degrez de gloire. J'espere que vous changerez un
           jour de pensée ; &amp; s’il plaist au Ciel, nous verrons vostre coeur avant qu’il soit
           peu….</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>Arrestez, n’achevez pas ce souhait étrange : j’ay une horreur trop invincible pour ces
           sortes d’abbaissemens ; &amp; si jamais</p>
         <pb n="44" xml:id="p44"/>
         <p>j’estois capable d’y descendre, je serois personne sans doute à ne me le point
           pardonner.</p>
-        <label type="speaker">AGLANTE.</label>
+        <label type="speaker"><name>AGLANTE</name>.</label>
         <p>Prenez garde, Madame : l’Amour sçait se venger des mépris que l’on fait de luy, &amp;
           peut-estre...</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>Non, non, je brave tous ses traits ; &amp; le grand pouvoir qu’on luy donne, n’est rien
           qu’une chi- mere, qu’une excuse des foibles cœurs, qui le font invincible, pour authoriser
           leur foiblesse.</p>
-        <label type="speaker">CINTHIE.</label>
+        <label type="speaker"><name>CINTHIE</name>.</label>
         <p>Mais enfin toute la terre reconnoist sa puissance ; &amp; vous voyez que les Dieux mesmes
           sont</p>
         <p>assujettis à son empire. On nous fait voir que Jupiter n’a pas aimé pour une fois; &amp;
           que Diane mesme, dont vous affectez tant l’exemple, n’a pas rougi de pousser des soûpirs
           d’amour.</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>Les croyances publiques sont toûjours meslées d’erreur. Les Dieux ne sont point faits
           comme se les fait le vulgaire ; et c’est leur manquer de respect que de leur attribuer les
           foiblesses des hommes.</p>
         <label type="head">SCENE DEUXIEME.</label>
-        <p><name>MORON</name>. <name>LA PRINCESSE.AGLANTE</name>. <name>CINTHIE</name>.
+        <p><name key="moron" corresp="moliere">MORON</name>. <name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.<name>AGLANTE</name>. <name>CINTHIE</name>.
             <name>PHILIS</name>.</p>
-        <label type="speaker">AGLANTE.</label>
-        <p>VIEN, approche Moron ; vien nous aider à défendre l’Amour contre les sentimens de la
-          Princesse.</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name>AGLANTE</name>.</label>
+        <p>VIEN, approche <name key="moron" corresp="moliere">Moron</name> ; vien nous aider à défendre l’Amour contre les sentimens de <name key="princesse_d_elide" corresp="armande_bejart">la
+          Princesse</name>.</p>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>Voila vostre party fortifié d’un grand défenseur.</p>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>Ma foy, Madame, je croy qu’aprés mon exemple il n’y a plus rien à dire, &amp; qu’il ne
           faut plus mettre en doute le pouvoir</p>
         <pb n="45" xml:id="p45"/>
@@ -1513,33 +1513,33 @@ Est‑ce des personnages ?-->Monstres Celestes,
           autre; mais enfin ma fierté a baissé l’oreille, &amp; vous avez une traîtresse qui m’a
           rendu plus doux qu’un Agneau. Aprés cela, on ne doit plus faire aucun scrupule d’aimer ;
           &amp; puisque j’ay bien passé par là, il peut bien y en passer d’autres.</p>
-        <label type="speaker">CINTHIE.</label>
-        <p>Quoy ! Moron se mesle d’aimer?</p>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name>CINTHIE</name>.</label>
+        <p>Quoy ! <name key="moron" corresp="moliere">Moron</name> se mesle d’aimer?</p>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>Fort bien.</p>
-        <label type="speaker">CINTHIE.</label>
+        <label type="speaker"><name>CINTHIE</name>.</label>
         <p>Et de vouloir estre aimé?</p>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>Et pourquoy non? Est-ce qu’on n’est pas assez bien fait pour cela? Je pense que ce visage
           est</p>
         <p>assez passable ; et que pour le bel air, Dieu mercy, nous ne le cedons à personne.</p>
-        <label type="speaker">CINTHIE.</label>
+        <label type="speaker"><name>CINTHIE</name>.</label>
         <p>Sans doute ; on auroit tort…..</p>
         <label type="head">SCENE TROISIEME.</label>
-        <p><name>LYCAS</name>. <name>LA PRINCESSE.AGLANTE</name>. <name>CINTHIE</name>.
-            <name>PHILIS</name>. <name>MORON</name>.</p>
-        <label type="speaker">LYCAS.</label>
-        <p>MADAME, le Prince vostre Pere vient vous trouver icy, &amp; conduit avec luy les Princes
-          de Pyle, &amp; d’Ithaque, &amp; celuy de Messene.</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <p><name>LYCAS</name>. <name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.<name>AGLANTE</name>. <name>CINTHIE</name>.
+          <name>PHILIS</name>. <name key="moron" corresp="moliere">MORON</name>.</p>
+        <label type="speaker"><name>LYCAS</name>.</label>
+        <p>MADAME, <name>le Prince</name> vostre Pere vient vous trouver icy, &amp; conduit avec luy les <name>Princes
+          de Pyle</name>, &amp; <name>d’Ithaque</name>, &amp; celuy <name>de Messene</name>.</p>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>O Ciel ! que prétend-il faire en me les amenant? Auroit-il résolu ma perte, &amp;
           voudroit-il bien me forcer au choix de quelqu’un d’eux?</p>
         <pb n="46" xml:id="p46"/>
         <label type="head">SCENE QUATRIEME.</label>
-        <p><name>LE PRINCE.EURIALE</name>. <name>ARISTOMENE</name>. <name>THEOCLE</name>. <name>LA
-            PRINCESSE.AGLANTE</name>. <name>CINTHIE</name>. <name>PHILIS</name>.
-          <name>MORON</name>.</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <p><name>LE PRINCE</name>.<name key="euriale" corresp="la_grange">EURIALE</name>. <name key="aristomene" corresp="du_croisy">ARISTOMENE</name>. <name key="theocle" corresp="louis_bejart">THEOCLE</name>. <name key="princesse_d_elide" corresp="armande_bejart">LA
+            PRINCESSE</name>.<name>AGLANTE</name>. <name>CINTHIE</name>. <name>PHILIS</name>.
+          <name key="moron" corresp="moliere">MORON</name>.</p>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>SEIGNEUR, je vous demande la licence de prévenir par deux paroles, la déclaration des
           pensées que vous pouvez avoir. II y a deux veritez, Seigneur, aussi constantes l’une que
           l’autre, &amp; dont je puis vous asseûrer également. L'une, que vous avez un absolu
@@ -1549,7 +1549,7 @@ Est‑ce des personnages ?-->Monstres Celestes,
           mort, c’est une mesme chose : mais vostre volonté va la premiére, &amp; mon obeïssance
           m’est bien plus chere que ma vie. Aprés cela parlez, Seigneur, prononcez librement ce que
           vous voulez.</p>
-        <label type="speaker">LE PRINCE.</label>
+        <label type="speaker"><name>LE PRINCE</name>.</label>
         <p>Ma Fille, tu as tort de prendre de telles allarmes, &amp; je me plains de toy qui peux
           mettre dans ta pensée que je sois assez mauuais Père pour vouloir faire violence à tes
           sentimens, &amp; me servir tiranniquement de la puissance que le Ciel me donne sur toy. Je
@@ -1570,96 +1570,96 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <p>ta froideur. Traite ces Princes avec l’estime que tu leur dois ; reçois avec
           reconnoissance les témoignages de leur zele ; &amp; viens voir cette Course où leur
           adresse va paroistre.</p>
-        <label type="speaker">THEOCLE.</label>
+        <label type="speaker"><name>THEOCLE</name>.</label>
         <p>Tout le monde va faire des efforts pour emporter le prix de cette Course : mais, à vous
           dire vrai, j’ay peu d’ardeur pour la victoire, puisque ce n’est pas vostre coeur qu’on y
           doit disputer.</p>
-        <label type="speaker">ARISTOMENE.</label>
+        <label type="speaker"><name key="aristomene" corresp="du_croisy">ARISTOMENE</name>.</label>
         <p>Pour moy, Madame, vous estes le seul prix que je me propose par tout. C'est vous que je
           croy disputer dans ces combats d’adresse ; &amp; je n’aspire maintenant à remporter
           l’honneur de cette Course, que pour obtenir un degré de gloire qui m’approche de vostre
           coeur.</p>
-        <label type="speaker">EURIALE.</label>
+        <label type="speaker"><name key="euriale" corresp="la_grange">EURIALE</name>.</label>
         <p>Pour moy, Madame, je n’y vais point du tout avec cette pensée. Comme j’ay fait toute ma
           vie profession de ne rien aimer, tous les soins que je prens ne vont point où tendent les
           autres. Je n’ay aucune prétention sur vostre cœur ; &amp; le seul honneur de la Course est
           tout l’avantage où j’aspire.</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>D'où sort cette fierté, où l’on ne s’attendoit point? Princesses, que dites-vous de ce
           jeune Prince? Avez-vous remarqué de quel ton il l’a pris ?</p>
-        <label type="speaker">AGLANTE.</label>
+        <label type="speaker"><name>AGLANTE</name>.</label>
         <p>II est vrai que cela est un peu fier.</p>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>Ah ! quelle brave botte il vient là de luy porter !</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>Ne trouvez-vous pas qu’il y auroit plaisir d’abbaisser son orgueil, &amp; de soûmettre un
           peu ce coeur qui tranche tant du brave ?</p>
-        <label type="speaker">CINTHIE.</label>
+        <label type="speaker"><name>CINTHIE</name>.</label>
         <p>Comme vous estes accoustumée à ne jamais</p>
         <p>recevoir que des</p>
         <pb n="48" xml:id="p48"/>
         <p>hommages &amp; des adorations de tout le monde, un compliment pareil au sien doit vous
           surprendre à la vérité.</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>Je vous avouë que cela m’a donné de l’émotion, &amp; que je souhaiterois fort de trouver
           les moyens de chastier cette hauteur. Ie n’avois pas beaucoup d’envie de me trouuer à
           cette Course; mais j’y veux aller exprés, &amp; employer toute chose pour luy donner de
           l’amour.</p>
-        <label type="speaker">CINTHIE.</label>
+        <label type="speaker"><name>CINTHIE</name>.</label>
         <p>Prenez garde, Madame ; l’entreprise est perilleuse : &amp; lors qu’on veut donner de
           l’amour, on court risque d’en recevoir.</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>Ah ! n’apprehendez rien, je vous prie ; allons, je vous répons de moy.</p>
         <p>Fin du deuxiéme Acte.</p>
         <pb n="49" xml:id="p49"/>
         <label type="head">TROISIEME INTERMEDE</label>
         <label type="head">SCENE PREMIERE.</label>
-        <p><name>MORON</name>. <name>PHILIS</name>.</p>
-        <label type="speaker">MORON.</label>
-        <p>PHILIS, demeure icy.</p>
-        <label type="speaker">PHILIS.</label>
+        <p><name key="moron" corresp="moliere">MORON</name>. <name>PHILIS</name>.</p>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
+        <p><name>PHILIS</name>, demeure icy.</p>
+        <label type="speaker"><name>PHILIS</name>.</label>
         <p>Non ; laisse-moy suivre les autres.</p>
-        <label type="speaker">MORON.</label>
-        <p>Ah, cruelle ! si c’estoit Tircis qui t’en priast, tu demeurerois bien viste.</p>
-        <label type="speaker">PHILIS.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
+        <p>Ah, cruelle ! si c’estoit <name>Tircis</name> qui t’en priast, tu demeurerois bien viste.</p>
+        <label type="speaker"><name>PHILIS</name>.</label>
         <p>Cela se pourroit faire ; &amp; je demeure d’accord que je trouve bien mieux mon conte
           avec l’un qu’avec l’autre : car il me divertit avec sa voix ; &amp; toy, tu m’étourdis de
           ton caquet. Lors que tu chanteras aussi-bien que luy, je te promets de t’écouter.</p>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>Eh ! demeure un peu.</p>
-        <label type="speaker">PHILIS.</label>
+        <label type="speaker"><name>PHILIS</name>.</label>
         <p>Je ne sçaurois.</p>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>De grace.</p>
-        <label type="speaker">PHILIS.</label>
+        <label type="speaker"><name>PHILIS</name>.</label>
         <p>Point, te dis-je.</p>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>Je ne te laisseray point aller.</p>
-        <label type="speaker">PHILIS.</label>
+        <label type="speaker"><name>PHILIS</name>.</label>
         <p>Ah ! que de façons.</p>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>Je ne te demande qu’un moment à estre avec toy.</p>
         <pb n="50" xml:id="p50"/>
-        <label type="speaker">PHILIS.</label>
+        <label type="speaker"><name>PHILIS</name>.</label>
         <p>Et bien, oüy ; j’y demeureray, pourveû que tu me promette une chose.</p>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>Et quelle?</p>
-        <label type="speaker">PHILIS.</label>
+        <label type="speaker"><name>PHILIS</name>.</label>
         <p>De ne me point parler du tout.</p>
-        <label type="speaker">MORON.</label>
-        <p>Eh ! Philis.</p>
-        <label type="speaker">PHILIS.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
+        <p>Eh ! <name>Philis</name>.</p>
+        <label type="speaker"><name>PHILIS</name>.</label>
         <p>A moins que de cela, je ne demeureray point avec toy.</p>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>Veux-tu me…..</p>
-        <label type="speaker">PHILIS.</label>
+        <label type="speaker"><name>PHILIS</name>.</label>
         <p>Laisse-moy aller.</p>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>Et bien, oüy ; demeure, je ne ted iray mot.</p>
-        <label type="speaker">PHILIS.</label>
+        <label type="speaker"><name>PHILIS</name>.</label>
         <p>Prens-y bien garde au moins; car à la moindre parole, je prends la fuite.</p>
-        <label type="speaker">MORON.</label>
-        <p>Soit. Ah ! Philis…. Eh…. Elle s’enfuit, &amp; je ne sçaurois l’attraper. Voilà ce que
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
+        <p>Soit. Ah ! <name>Philis</name>…. Eh…. Elle s’enfuit, &amp; je ne sçaurois l’attraper. Voilà ce que
           c’est. Si je sçavois chanter, j’en ferois bien mieux mes affaires. La pluspart des Femmes
           aujourd’huy se laissent prendre par les oreilles. Elles sont cause que tout le monde se
           mesle de Musique ; &amp; l’on ne réussit auprés d’elles, que par les petites chansons,
@@ -1667,33 +1667,33 @@ Est‑ce des personnages ?-->Monstres Celestes,
           faire comme les autres. Bon, voicy justement mon homme.</p>
         <pb n="51" xml:id="p51"/>
         <label type="head">SCENE DEUXIEME.</label>
-        <p><name>SATYRE</name>. <name>MORON</name>.</p>
-        <label type="speaker">SATYRE.</label>
+        <p><name>SATYRE</name>. <name key="moron" corresp="moliere">MORON</name>.</p>
+        <label type="speaker"><name>SATYRE</name>.</label>
         <p>LA, la, la.</p>
-        <label type="speaker">MORON.</label>
-        <p>Ah ! Satyre mon ami, tu sçais bien ce que tu m’as promis il y a long-temps; apprens-moy à
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
+        <p>Ah ! <name>Satyre</name> mon ami, tu sçais bien ce que tu m’as promis il y a long-temps; apprens-moy à
           chanter, je te prie.</p>
-        <label type="speaker">SATYRE.</label>
+        <label type="speaker"><name>SATYRE</name>.</label>
         <p>Je le veux; mais auparavant écoute ine chanson que je viens de faire.</p>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>II est si accoûtumé à chanter, qu’il ne sçauroit parler d’autre façon. Allons, chante ;
           j’écoute.</p>
-        <label type="speaker">SATYRE.</label>
+        <label type="speaker"><name>SATYRE</name>.</label>
         <p>Je portois….</p>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>Une chanson, dis-tu?</p>
-        <label type="speaker">SATYRE.</label>
+        <label type="speaker"><name>SATYRE</name>.</label>
         <p>Je port….</p>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>Une chanson à chanter?</p>
-        <label type="speaker">SATYRE.</label>
+        <label type="speaker"><name>SATYRE</name>.</label>
         <p>Je port….</p>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>Chanson amoureuse, peste.</p>
-        <label type="speaker">SATYRE.</label>
+        <label type="speaker"><name>SATYRE</name>.</label>
         <l>JE portois dans une cage</l>
         <l>Deux moinéaux que j’avois pris,</l>
-        <l>Lors que la jeune Cloris</l>
+        <l>Lors que la jeune <name>Cloris</name></l>
         <l>Fit dans un sombre bocage</l>
         <l>Briller, à mes yeux surpris,</l>
         <l>Les fleurs de son beau visage.</l>
@@ -1702,8 +1702,8 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <l>De ses yeux si sçavans à faire des conquestes :</l>
         <l>Consolez-vous, pauvres petites bestes,</l>
         <l>Celuy qui vous a pris, est bien plus pris que vous.</l>
-        <p><name>Moron</name> ne fut pas satisfait de cette Chanson, quoy-qu’il la trouvast jolie :
-          il en demanda une plus passionnée ; &amp; priant le Satyre de luy dire celle qu’il lui
+        <p><name key="moron" corresp="moliere">Moron</name> ne fut pas satisfait de cette Chanson, quoy-qu’il la trouvast jolie :
+          il en demanda une plus passionnée ; &amp; priant le <name>Satyre</name> de luy dire celle qu’il lui
           avoit oüy chanter quelques jours auparavant, il continua ainsi.</p>
         <l>DANS vos chants si doux,</l>
         <l>Chantez à ma belle,</l>
@@ -1715,16 +1715,16 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <l>Des maux que je sens pour elle :</l>
         <l>Oiseaux, taisez-vous.</l>
         <l>Oiseaux, taisez-vous.</l>
-        <p>Cette seconde Chanson ayant touché <name>Moron</name> fort sensiblement, il pria le
-          Satyre de luy apprendre à chanter, &amp; luy dit :</p>
+        <p>Cette seconde Chanson ayant touché <name key="moron" corresp="moliere">Moron</name> fort sensiblement, il pria <name>le
+          Satyre</name> de luy apprendre à chanter, &amp; luy dit :</p>
         <p>Ah, qu’elle est belle ! apprens-là moy.</p>
-        <label type="speaker">SATYRE.</label>
+        <label type="speaker"><name>SATYRE</name>.</label>
         <p>La, la, la, la.</p>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>La, la, la, la.</p>
-        <label type="speaker">SATYRE.</label>
+        <label type="speaker"><name>SATYRE</name>.</label>
         <p>Fa, Fa, Fa, Fa.</p>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>Fa, toy-mesme.</p>
         <p><name>Le Satyre</name> s’en mit en colere ; &amp; peu à peu se mettant en posture d’en
           venir à des coups de poing, les Violons reprirent vn Air, sur lequel ils danserent une
@@ -1732,34 +1732,34 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <pb n="53" xml:id="p53"/>
         <label type="head">ACTE TROISIESME</label>
         <label type="head">ARGUMENT</label>
-        <p><name>La Princesse d’Elide</name> estoit cependant dans d’étranges inquiétudes. <name>Le
+        <p><name key="princesse_d_elide" corresp="armande_bejart">La Princesse d’Elide</name> estoit cependant dans d’étranges inquiétudes. <name>Le
             Prince d’Ithaque</name> avoit gagné le prix des Courses. Elle avoit dans la suite de ce
           divertissement fait des merveilles à chanter &amp; à la danse, sans qu’il parust que ces
-          dons de la nature &amp; de l’art eussent esté quasi remarquez par le Prince d’Ithaque.
+          dons de la nature &amp; de l’art eussent esté quasi remarquez par <name>le Prince d’Ithaque</name>.
           Elle en fit de grandes plaintes à la Princesse sa parente. Elle en parla à
-            <name>Moron</name>, qui fit passer cét insensible pour un brutal. Et enfin, le voyant
+          <name key="moron" corresp="moliere">Moron</name>, qui fit passer cét insensible pour un brutal. Et enfin, le voyant
           arriver luy-mesme, elle ne pût s’empescher de luy en toucher fort serieusement quelque
           chose. II luy répondit ingenument qu’il n’aimoit rien ; &amp; que, hors l’amour de sa
           liberté, &amp; les plaisirs qu’elle trouvoit si agréables de la solitude &amp; de la
           Chasse, rien ne le touchoit.</p>
         <label type="head">SCENE PREMIERE.</label>
-        <p><name>LA PRINCESSE.AGLANTE</name>. <name>CINTHIE</name>. <name>PHILIS</name>.</p>
-        <label type="speaker">CINTHIE.</label>
+        <p><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.<name>AGLANTE</name>. <name>CINTHIE</name>. <name>PHILIS</name>.</p>
+        <label type="speaker"><name>CINTHIE</name>.</label>
         <p>IL est vray, Madame, que ce jeune Prince a fait voir une adresse non commune ; &amp; que
           l’air dont il a paru a esté quelque chose de surprenant. Il sort vainqueur de cette
           course ; mais je doute fort qu’il en sorte avec le mesme coeur qu’il y a porté. Car enfin,
           vous luy avez tiré des traits dont il est difficile de se défendre ; &amp; sans parler de
           tout le reste, la grace de vostre danse, &amp; la douceur de vostre voix ont eû des
           charmes aujourd’huy à toucher les plus insensibles.</p>
-        <label type="speaker">LA PRINCESSE.</label>
-        <p>Le voicy qui s’entretient avec Moron; nous sçaurons un peu de quoy il luy parle. Ne
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
+        <p>Le voicy qui s’entretient avec <name key="moron" corresp="moliere">Moron</name>; nous sçaurons un peu de quoy il luy parle. Ne
           rompons point encore leur entretien, &amp; prenons cette route, pour reuenir à leur
           rencontre.</p>
         <pb n="54" xml:id="p54"/>
         <label type="head">SCENE DEUXIEME.</label>
-        <p><name>EURIALE</name>. <name>MORON</name>. <name>ARBATE</name>.</p>
-        <label type="speaker">EURIALE.</label>
-        <p>AH ! Moron, je te l’avouë, j’ay esté enchanté, &amp; jamais tant de charmes n’ont frappé
+        <p><name key="euriale" corresp="la_grange">EURIALE</name>. <name key="moron" corresp="moliere">MORON</name>. <name>ARBATE</name>.</p>
+        <label type="speaker"><name key="euriale" corresp="la_grange">EURIALE</name>.</label>
+        <p>AH ! <name key="moron" corresp="moliere">Moron</name>, je te l’avouë, j’ay esté enchanté, &amp; jamais tant de charmes n’ont frappé
           tout ensemble mes yeux &amp; mes oreilles. Elle est adorable en tout temps, il est vray :
           mais ce moment l’a emporté sur tous les autres, &amp; des graces nouuelles ont redoublé
           l’éclat de ses beautez. Jamais son visage ne s’est paré de plus vives couleurs, ny ses
@@ -1773,91 +1773,91 @@ Est‑ce des personnages ?-->Monstres Celestes,
           les mouvemens de l’harmonie. Enfin, jamais ame n’a eû de plus puissantes émotions que la
           mienne, &amp; j’ay pense plus de vingt fois oublier ma résolution, pour me jetter à ses
           pieds, &amp; luy faire un aveu sincere de l’ardeur que je sens pour elle.</p>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>Donnez-vous en bien de garde, Seigneur, si vous m’en voulez croire. Vous auez trouvé la
           meilleure invention du monde ; &amp; je me trompe fort, si elle ne vous réüssit. Les
           femmes sont des animaux d’un naturel bizarre : nous les gastons par nos douceurs ; &amp;
           je croy tout de bon que nous les verrions nous courir, sans tous ces respects, &amp; ces
           soûmissions, où les hommes les acoquinent.</p>
-        <label type="speaker">ARBATE.</label>
-        <p>Seigneur, voicy la Princesse, qui s’est un peu éloignée de sa suite.</p>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name>ARBATE</name>.</label>
+        <p>Seigneur, voicy <name key="princesse_d_elide" corresp="armande_bejart">la Princesse</name>, qui s’est un peu éloignée de sa suite.</p>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>Demeurez ferme, au moins, dans le chemin que vous auez pris. Je m’en vais voir ce qu’elle
           me dira. Cependant promenez-</p>
         <pb n="55" xml:id="p55"/>
         <p>vous icy dans ces petites routes, sans faire aucun semblant d’avoir envie de la joindre ;
           &amp; si vous l’abordez, demeurez acec elle le moins qu’il vous sera possible.</p>
         <label type="head">SCENE TROISIEME.</label>
-        <p><name>LA PRINCESSE.MORON</name>.</p>
-        <label type="speaker">LA PRINCESSE.</label>
-        <p>TU as donc familiarité, Moron, avec le Prince d’Ithaque ?</p>
-        <label type="speaker">MORON.</label>
+        <p><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.<name key="moron" corresp="moliere">MORON</name>.</p>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
+        <p>TU as donc familiarité, <name key="moron" corresp="moliere">Moron</name>, avec <name>le Prince d’Ithaque</name> ?</p>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>Ah ! Madame, il y a long-temps que nous nous connoissons.</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>D'où vient qu’il n’est pas venu jusqu’icy, &amp; qu’il a pris cette autre route quand il
           m’a veûë?</p>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>C'est un homme bizarre qui ne se plaist qu’à entretenir ses pensées.</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>Estois-tu tantost au compliment qu’il m’a fait?</p>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>Oüy, Madame, j’y estois ; &amp; je l’ay trouué un peu impertinent, n’en déplaise à sa
           Principauté.</p>
-        <label type="speaker">LA PRINCESSE.</label>
-        <p>Pour moy je le confesse, Moron : cette fuite m’a choquée ; &amp; j’ay toutes les envies
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
+        <p>Pour moy je le confesse, <name>Moron</name> : cette fuite m’a choquée ; &amp; j’ay toutes les envies
           du monde de l’engager, pour rabbatre un peu son orgueïl.</p>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>Ma foy, Madame, vous ne feriez pas mal ; il le meriteroit bien : mais, à vous dire vray,
           je doute fort que vous y puissiez réüssir.</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>Comment ?</p>
         <pb n="56" xml:id="p56"/>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>Comment ? c’est le plus orgueïlleux petit vilain que vous ayez jamais veû. Il luy semble
           qu’il n’y a personne au monde qui le merite, &amp; que la terre n’est pas digne de le
           porter.</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>Mais encore, ne t’a-t-il point parlé de moy?</p>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>Luy ? non.</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>II ne t’a rien dit de ma voix, &amp; de ma danse ?</p>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>Pas le moindre mot.</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>Certes, ce mépris est choquant ; &amp; je ne puis souffrir cette hauteur étrange de ne
           rien estimer.</p>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>II n’estime &amp; n’aime que luy.</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>Il n’y a rien que je ne fasse, pour le soûmettre comme il faut.</p>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>Nous n’avons point de marbre dans nos montagnes qui soit plus dur, &amp; plus insensible
           que luy.</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>Le voilà.</p>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>Voyez-vous comme il passe sans prendre garde à vous?</p>
-        <label type="speaker">LA PRINCESSE.</label>
-        <p>De grace, Moron, va le faire aviser que je suis icy, &amp; l’oblige à me venir
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
+        <p>De grace, <name>Moron</name>, va le faire aviser que je suis icy, &amp; l’oblige à me venir
           aborder.</p>
         <pb n="57" xml:id="p57"/>
         <label type="head">SCENE QUATRIEME.</label>
-        <p><name>LA PRINCESSE.EURIALE</name>. <name>MORON</name>. <name>ARBATE</name>.</p>
-        <label type="speaker">MORON.</label>
-        <p>SEIGNEUR, je vous donne avis que tout va bien. La Princesse souhaite que vous
+        <p><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.<name key="euriale" corresp="la_grange">EURIALE</name>. <name key="moron" corresp="moliere">MORON</name>. <name>ARBATE</name>.</p>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
+        <p>SEIGNEUR, je vous donne avis que tout va bien. <name>La Princesse</name> souhaite que vous
           l’abordiez:</p>
         <p>mais songez bien à continüer vostre rôle ; &amp; de peur de l’oublier, ne soyez pas
           longtemps avec elle.</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>Vous estes bien solitaire, Seigneur ; &amp; c’est une humeur bien extraordinaire que la
           vostre, de renoncer ainsi à nostre sexe, &amp; de fuïr, à vostre âge, cette galanterie,
           dont se piquent tous vos pareils.</p>
-        <label type="speaker">EURIALE.</label>
+        <label type="speaker"><name key="euriale" corresp="la_grange">EURIALE</name>.</label>
         <p>Cette humeur, Madame, n’est pas si extraordinaire, qu’on n’en trouvast des exemples sans
           aller loin d’icy ; &amp; vous ne sçauriez condamner la résolution que j’ay prise de
           n’aimer jamais rien, sans condamner aussi vos sentimens.</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>II y a grande différence ; &amp; ce qui sied bien à un sexe, ne sied pas bien à l’autre.
           II est beau</p>
         <p>qu’une femme soit insensible, &amp; conserve son coeur exempt des fiâmes de l’amour, mais
@@ -1865,30 +1865,30 @@ Est‑ce des personnages ?-->Monstres Celestes,
           partage de nostre sexe, vous ne sçauriez ne nous point aimer, sans nous dérober les
           hommages qui nous sont deûs, &amp; commettre une offense, dont nous devons toutes nous
           ressentir.</p>
-        <label type="speaker">EURIALE.</label>
+        <label type="speaker"><name key="euriale" corresp="la_grange">EURIALE</name>.</label>
         <p>Je ne voy pas, Madame, que celles qui ne veulent point aimer, doivent prendre aucun
           interest à ces sortes d’offenses.</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>Ce n’est pas une raison, Seigneur ; &amp; sans vouloir aimer, on est toujours bien-aise
           d’estre aimée.</p>
         <pb n="58" xml:id="p58"/>
-        <label type="speaker">EURIALE.</label>
+        <label type="speaker"><name key="euriale" corresp="la_grange">EURIALE</name>.</label>
         <p>Pour moy je ne suis pas de mesme ; et dans le dessein où je suis, de ne rien aimer, je
           serois</p>
         <p>fâché d’estre aimé.</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>Et la raison?</p>
-        <label type="speaker">EURIALE.</label>
+        <label type="speaker"><name key="euriale" corresp="la_grange">EURIALE</name>.</label>
         <p>C'est qu’on a obligation à ceux qui nous aiment, &amp; que je serois fâché d’estre
           ingrat.</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>Si bien donc, que pour fuïr l’ingratitude, vous aimeriez qui vous aimeroit?</p>
-        <label type="speaker">EURIALE.</label>
+        <label type="speaker"><name key="euriale" corresp="la_grange">EURIALE</name>.</label>
         <p>Moy, Madame, point du tout. Je dis bien que je serois fâché d’estre ingrat ; mais je me
           résoudrois plûtost de l’estre, que d’aimer.</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>Telle personne vous aimeroit peut-estre, que vostre cœur….</p>
-        <label type="speaker">EURIALE.</label>
+        <label type="speaker"><name key="euriale" corresp="la_grange">EURIALE</name>.</label>
         <p>Non, Madame, rien n’est capable de toucher mon cœur. Ma liberté est la seule maistresse
           à</p>
         <p>qui je consacre mes vœux ; &amp; quand le Ciel employeroit ses soins à composer une
@@ -1897,66 +1897,66 @@ Est‑ce des personnages ?-->Monstres Celestes,
           d’adresse, &amp; de beauté, &amp; que</p>
         <p>cette personne m’aimeroit avec toutes les tendresses imaginables : je vous l’avoûë
           franchement, je ne l’aimerois pas.</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>A-t-on jamais rien veû de tel ?</p>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>Peste soit du petit brutal ; j’aurois bien envie de luy bailler un coup de poing.</p>
-        <label type="speaker">LA PRINCESSE, parlant en soy.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>, parlant en soy.</label>
         <p>Cét orgueïl me confond ; &amp; j’ay un tel dépit, que je ne me sens pas.</p>
         <pb n="59" xml:id="p59"/>
-        <label type="speaker">MORON, parlant au Prince.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>, parlant au <name>Prince</name>.</label>
         <p>Bon, courage, Seigneur ; voilà que va le mieux du monde.</p>
-        <label type="speaker">EURIALE.</label>
-        <p>Ah ! Moron, je n’en puis plus, &amp; je me suis fait des efforts étranges.</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="euriale" corresp="la_grange">EURIALE</name>.</label>
+        <p>Ah ! <name key="moron" corresp="moliere">Moron</name>, je n’en puis plus, &amp; je me suis fait des efforts étranges.</p>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>C'est avoir une insensibilité bien grande, que de parler comme vous faites.</p>
-        <label type="speaker">EURIALE.</label>
+        <label type="speaker"><name key="euriale" corresp="la_grange">EURIALE</name>.</label>
         <p>Le Ciel ne m’a pas fait d’une autre humeur. Mais, Madame, j’interromps vostre promenade,
           &amp; mon respect doit m’avertir que vous aimez la solitude.</p>
         <label type="head">SCENE CINQUIEME.</label>
-        <p><name>LA PRINCESSE.MORON</name>. <name>PHILIS</name>. <name>TIRCIS</name>.</p>
-        <label type="speaker">MORON.</label>
+        <p><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.<name key="moron" corresp="moliere">MORON</name>. <name>PHILIS</name>. <name>TIRCIS</name>.</p>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>IL ne vous en doit rien, Madame, en dureté de coeur.</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>Je donnerois volontiers tout ce que j’ay au monde, pour avoir l’avantage d’en
           triompher.</p>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>Je le croy.</p>
-        <label type="speaker">LA PRINCESSE.</label>
-        <p>Ne pourrois-tu, Moron, me servir dans un tel dessein?</p>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
+        <p>Ne pourrois-tu, <name key="moron" corresp="moliere">Moron</name>, me servir dans un tel dessein?</p>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>Vous sçauez bien, Madame, que je suis tout à vostre service.</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>Parle-luy de moy dans tes entretiens ; vante-luy adroitement ma personne, &amp; les
           avantages de ma naissance ; &amp; tâche d’ébranler</p>
         <pb n="60" xml:id="p60"/>
         <p>ses sentimens, par la douceur de quelque espoir. Je te permets de dire tout ce que tu
           voudras, pour tâcher à me l’engager.</p>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>Laissez-moy faire.</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>C'est une chose qui me tient au cœur ; je souhaite ardemment qu’il m’aime.</p>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>Il est bien fait, oüy, ce petit pendart-là. II a bon air, bonne phisionomie ; &amp; je
           croy qu’il seroit assez le fait d’une jeune Princesse.</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>Enfin, tu peux tout esperer de moy, si tu trouves moyen d’enflâmer pour moy son
           coeur.</p>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>Il n’y a rien qui ne se puisse faire. Mais, Madame, s’il venoit à vous aimer, que
           feriez-vous,</p>
         <p>s’il vous plaist?</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>Ah! ce secroit lors que je prendrois plaisir à triompher pleinement de sa vanité, à punir
           son mépris par mes froideurs, &amp; à exercer sur luy toutes les cruautez que je pourrois
           imaginer.</p>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>II ne se rendra jamais.</p>
-        <label type="speaker">LA PRINCESSE.</label>
-        <p>Ah ! Moron, il faut faire en sorte qu’il se rende.</p>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
+        <p>Ah ! <name key="moron" corresp="moliere">Moron</name>, il faut faire en sorte qu’il se rende.</p>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>Non, il n’en fera rien ; je le connois, ma peine serait inutile.</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>Si faut-il pourtant tenter toute chose, &amp; éprouver si son ame est entiérement
           insensible. Allons, je veux luy parler, &amp; suivre une pensée qui vient de me venir.</p>
         <p>Fin du troisiéme Acte.</p>
@@ -1964,123 +1964,123 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <label type="head">QUATRIEME INTERMEDE.</label>
         <label type="head">SCENE PREMIERE.</label>
         <p><name>PHILIS</name>, <name>TIRCIS</name>.</p>
-        <label type="speaker">PHILIS.</label>
-        <p>VIEN, Tircis, laissons-les aller, &amp; me dis un peu ton martyre de la façon que tu
+        <label type="speaker"><name>PHILIS</name>.</label>
+        <p>VIEN, <name>Tircis</name>, laissons-les aller, &amp; me dis un peu ton martyre de la façon que tu
           sçais faire. II y a long-temps que tes yeux me parlent; mais je suis plus aise d’ouïr ta
           voix.</p>
-        <label type="speaker">TIRCIS en chantant.</label>
+        <label type="speaker"><name>TIRCIS</name> en chantant.</label>
         <l>TU m’écoutes, helas ! dans ma triste langueur;</l>
         <l>Mais je n’en suis pas mieux, ô beauté sans pareille!</l>
         <l>Et je touche ton oreille,</l>
         <l>Sans que je touche ton coeur.</l>
-        <label type="speaker">PHILIS.</label>
+        <label type="speaker"><name>PHILIS</name>.</label>
         <p>Va, va, c’est déja quelque chose que de toucher l’oreille, &amp; le temps amene tout.
           Chante-moy cependant quelque plainte nouvelle que tu ayes composée pour moy.</p>
         <label type="head">SCENE DEUXIEME.</label>
-        <p><name>MORON</name>. <name>PHILIS</name>. <name>TIRCIS</name>.</p>
-        <label type="speaker">MORON.</label>
+        <p><name key="moron" corresp="moliere">MORON</name>. <name>PHILIS</name>. <name>TIRCIS</name>.</p>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>AH ! ah ! je vous y prens, cruelle; vous vous écartez des autres, pour ouïr mon
           rival?</p>
-        <label type="speaker">PHILIS.</label>
+        <label type="speaker"><name>PHILIS</name>.</label>
         <p>Ouï, je m’écarte pour cela; je te le dis encore. Je me plais avec luy, &amp; l’on écoute
           volontiers</p>
         <p>les amans, lors qu’ils se plaignent aussi agréablement qu’il fait. Que ne chantes-tu
           comme</p>
         <p>luy? je prendrois plaisir à t’écouter.</p>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>Si je ne sçay chanter, je sçay faire autre chose ; &amp; quand....</p>
         <pb n="62" xml:id="p62"/>
-        <label type="speaker">PHILIS.</label>
-        <p>Tais-toy ; je veux l’entendre. Dis, Tircis, ce que tu voudras.</p>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name>PHILIS</name>.</label>
+        <p>Tais-toy ; je veux l’entendre. Dis, <name>Tircis</name>, ce que tu voudras.</p>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>Ah ! cruelle….</p>
-        <label type="speaker">PHILIS.</label>
+        <label type="speaker"><name>PHILIS</name>.</label>
         <p>Silence, dis-je, ou je me mettray en colere.</p>
-        <label type="speaker">TIRCIS.</label>
+        <label type="speaker"><name>TIRCIS</name>.</label>
         <l>ARBRES épais, &amp; vous prez émaillez :</l>
         <l>La beauté dont l’Hiver vous avoit dépouïllez,</l>
         <l>Par le Printemps vous est renduë :</l>
         <l>Vous reprenez tous vos appas;</l>
         <l>Mais mon ame ne reprend pas</l>
         <l>La joye, helas ! que j’ay perduë.</l>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>Morbleu, que n’ay-je de la voix. Ah ! nature marastre, pourquoy ne m’as-tu pas donné de
           quoy chanter comme à un autre?</p>
-        <label type="speaker">PHILIS.</label>
-        <p>En vérité, Tircis, il ne se peut rien de plus agréable ; &amp; tu l’emportes sur tous les
+        <label type="speaker"><name>PHILIS</name>.</label>
+        <p>En vérité, <name>Tircis</name>, il ne se peut rien de plus agréable ; &amp; tu l’emportes sur tous les
           rivaux que tu as.</p>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>Mais pourquoy est-ce que je ne puis pas chanter? N'ay-je pas un estomach, un gosier,
           &amp; une langue comme un autre? Ouï, ouï ; allons, je veux chanter aussi, &amp; te
           montrer que l’Amour fait faire toutes choses. Voicy une chanson que j’ay faite pour
           toy.</p>
-        <label type="speaker">PHILIS.</label>
+        <label type="speaker"><name>PHILIS</name>.</label>
         <p>Ouï, dis ; je veux bien t’écouter pour la rareté du fait.</p>
-        <label type="speaker">MORON.</label>
-        <p>Courage, Moron ; il n’y a qu’à avoir de la hardiesse.</p>
-        <label type="speaker">MORON chante.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
+        <p>Courage, <name key="moron" corresp="moliere">Moron</name> ; il n’y a qu’à avoir de la hardiesse.</p>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name> chante.</label>
         <l>TON extrême rigueur</l>
         <l>S'acharne sur mon cœur ;</l>
-        <l>Ah! Philis, je trépasse :</l>
+        <l>Ah! <name>Philis</name>, je trépasse :</l>
         <l>Daignes me secourir ;</l>
         <l>En seras-tu plus grasse</l>
         <l>De m’avoir fait mourir?</l>
-        <l>Vivat, Moron.</l>
+        <l>Vivat, <name key="moron" corresp="moliere">Moron</name>.</l>
         <pb n="63" xml:id="p63"/>
-        <label type="speaker">PHILIS.</label>
-        <p>Voilà qui est le mieux du monde. Mais, Moron, je souhaiterois bien d’avoir la gloire, que
+        <label type="speaker"><name>PHILIS</name>.</label>
+        <p>Voilà qui est le mieux du monde. Mais, <name key="moron" corresp="moliere">Moron</name>, je souhaiterois bien d’avoir la gloire, que
           quelque Amant fût mort pour moy. C'est un avantage dont je n’ay pas encore jouï ; &amp; je
           trouve que j’aimerois de tout mon coeur une personne, qui m’aimeroit assez pour se donner
           la mort.</p>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>Tu aimerois une personne qui se tuëroit pour toy?</p>
-        <label type="speaker">PHILIS.</label>
+        <label type="speaker"><name>PHILIS</name>.</label>
         <p>Ouï.</p>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>II ne faut que cela pour te plaire?</p>
-        <label type="speaker">PHILIS.</label>
+        <label type="speaker"><name>PHILIS</name>.</label>
         <p>Non.</p>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>Voilà qui est fait ; je te veux montrer que je me sçay tuër quand je veux.</p>
-        <label type="speaker">TIRCIS chante.</label>
+        <label type="speaker"><name>TIRCIS</name> chante.</label>
         <l>Ah ! quelle douceur extréme,</l>
         <l>De mourir pour ce qu’on aime.</l>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>C’est un plaisir que vous aurez quand vous voudrez.</p>
-        <label type="speaker">TIRCIS chante.</label>
-        <l>Courage, Moron ; meurs promtement</l>
+        <label type="speaker"><name>TIRCIS</name> chante.</label>
+        <l>Courage, <name key="moron" corresp="moliere">Moron</name> ; meurs promtement</l>
         <l>En génereux Amant.</l>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>Je vous prie de vous mesler de vos affaires, &amp; de me laisser tuër à ma fantaisie.
           Allons, je vais faire honte à tous les Amans. Tien, je ne suis pas homme à faire tant de
           façons. Voy ce poignard ; prens bien garde comme je vais me percer le cœur. Je suis vostre
           serviteur ; quelque niais.</p>
-        <label type="speaker">PHILIS.</label>
-        <p>Allons, Tircis ; viens-t’en me redire à l’écho ce que tu m’as chanté.</p>
+        <label type="speaker"><name>PHILIS</name>.</label>
+        <p>Allons, <name>Tircis</name> ; viens-t’en me redire à l’écho ce que tu m’as chanté.</p>
         <pb n="64" xml:id="p64"/>
         <label type="head">ACTE QUATRIEME.</label>
         <label type="head">ARGUMENT.</label>
-        <p><name>LA Princesse</name> esperant par une feinte, pouvoir découvrir les sentimens du
+        <p><name key="princesse_d_elide" corresp="armande_bejart">LA Princesse</name> esperant par une feinte, pouvoir découvrir les sentimens du
             <name>Prince d’Itaque</name>, elle luy fit confidence qu’elle aimoit le <name>Prince de
             Messene</name>. Au lieu d’en paroistre affligé, il luy rendit la pareille, &amp; luy fit
           connoistre que la Princesse sa parente luy avoit donné dans la veûë, &amp; qu’il la
           demanderoit en mariage au Roy <name>son Père</name>. A cette atteinte impréveuë cette
-            <name>Princesse </name>perdit toute sa constance; &amp; quoy-qu’elle essaiast à se
+          <name key="princesse_d_elide" corresp="armande_bejart">Princesse</name> perdit toute sa constance; &amp; quoy-qu’elle essaiast à se
           contraindre devant luy, aussitost qu’il fut sorti, elle demanda avec tant d’empressement à
-            <name>sa Cousine</name> de ne recevoir point les services de ce Prince, &amp; de ne
+          <name>sa Cousine</name> de ne recevoir point les services de <name>ce Prince</name>, &amp; de ne
           l’épouser jamais, qu’elle ne pût le luy refuser. Elle s’en plaignit mesme à
-            <name>Moron</name>, qui luy ayant dit assez franchement qu’elle l’aimoit donc, en fut
+          <name key="moron" corresp="moliere">Moron</name>, qui luy ayant dit assez franchement qu’elle l’aimoit donc, en fut
           chassé de sa presence.</p>
         <label type="head">SCENE PREMIERE.</label>
-        <p><name>EURIALE</name>. <name>LA PRINCESSE.MORON</name>.</p>
-        <label type="speaker">LA PRINCESSE.</label>
-        <p>PRINCE, comme jusques-icy nous avons fait paroistre une conformité de sentimens, &amp;
+        <p><name key="euriale" corresp="la_grange">EURIALE</name>. <name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.<name key="moron" corresp="moliere">MORON</name>.</p>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
+        <p><name>PRINCE</name>, comme jusques-icy nous avons fait paroistre une conformité de sentimens, &amp;
           que le Ciel a semblé mettre en nous mesmes attachemens pour nostre liberté, &amp; mesme
           aversion pour l’Amour; je suis bien-aise de vous ouvrir mon coeur, &amp; de vous faire
           confidence d’un changement dont vous serez surpris. J'ay toujours regardé l’Hymen comme
           une chose affreuse ; &amp; j’avois fait serment d’abandonner plûtost la vie, que de me
           résoudre jamais à perdre cette liberté pour qui j’avois des tendresses si grandes. Mais
-          enfin, un moment a dissipé toutes ces résolutions. Le merite d’un Prince m’a frappé
+          enfin, un moment a dissipé toutes ces résolutions. Le merite d’<name>un Prince</name> m’a frappé
           aujourd’huy les yeux ; &amp; mon ame tout d’un coup, comme par un miracle, est devenuë
           sensible aux traits de cette passion que j’avois toûjours méprisée. J'ay trouvé d’abord
           des raisons, pour authoriser ce changement ; &amp; je puis l’appuyer de la volonté de
@@ -2089,42 +2089,42 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <p>mais, à vous dire vray, je suis en peine du jugement que vous ferez de moy, &amp; je
           voudrois sçavoir si vous condamnerez, ou non, le dessein que j’ay de me donner un
           Epoux.</p>
-        <label type="speaker">EURIALE.</label>
+        <label type="speaker"><name key="euriale" corresp="la_grange">EURIALE</name>.</label>
         <p>Vous pourriez faire un tel choix, Madame, que je l’approuverois sans doute.</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>Qui croyez-vous, à vostre avis, que je veuïlle choisir?</p>
-        <label type="speaker">EURIALE.</label>
+        <label type="speaker"><name key="euriale" corresp="la_grange">EURIALE</name>.</label>
         <p>Si j’estois dans vostre cœur, je pourrois vous le dire : mais comme je n’y suis pas, je
           n’ay garde de vous répondre.</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>Devinez, pour voir, &amp; nommez quelqu’un.</p>
-        <label type="speaker">EVRIALE.</label>
+        <label type="speaker"><name key="euriale" corresp="la_grange">EVRIALE</name>.</label>
         <p>J'aurois trop peur de me tromper.</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>Mais encore, pour qui souhaiteriez-vous que je me déclarasse ?</p>
-        <label type="speaker">EURIALE.</label>
+        <label type="speaker"><name key="euriale" corresp="la_grange">EURIALE</name>.</label>
         <p>Je sçay bien, à vous dire vray, pour qui je le souhaiterois : mais avant que de
           m’expliquer, je dois sçavoir vostre pensée.</p>
-        <label type="speaker">LA PRINCESSE.</label>
-        <p>Et bien, Prince, je veux bien vous la découvrir : je suis seûre que vous allez aprouver
-          mon choix ; &amp; pour ne vous point tenir en suspens davantage, le Prince de Messene est
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
+        <p>Et bien, <name key="euriale" corresp="la_grange">Prince</name>, je veux bien vous la découvrir : je suis seûre que vous allez aprouver
+          mon choix ; &amp; pour ne vous point tenir en suspens davantage, <name>le Prince de Messene</name> est
           celuy de qui le merite s’est attiré mes voeux.</p>
-        <label type="speaker">EURIALE.</label>
+        <label type="speaker"><name key="euriale" corresp="la_grange">EURIALE</name>.</label>
         <p>O Ciel!</p>
-        <label type="speaker">LA PRINCESSE.</label>
-        <p>Mon invention a réussi, Moron ; le voilà qui se trouble.</p>
-        <label type="speaker">MORON, parlant à la Princesse, au Prince, à la Princesse, au
-          Prince.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
+        <p>Mon invention a réussi, <name key="moron" corresp="moliere">Moron</name> ; le voilà qui se trouble.</p>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>, parlant à <name key="princesse_d_elide" corresp="armande_bejart">la Princesse</name>, au <name key="euriale" corresp="la_grange">Prince</name>, à <name key="princesse_d_elide" corresp="armande_bejart">la Princesse</name>, au
+          <name key="euriale" corresp="la_grange">Prince</name>.</label>
         <p>Bon, Madame. Courage, Seigneur. II en tient. Ne vous défaites pas.</p>
         <pb n="66" xml:id="p66"/>
-        <label type="speaker">LA PRINCESSE.</label>
-        <p>Ne trouvez-vous pas que j’ay raison, &amp; que ce Prince a tout le merite qu’on peut
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
+        <p>Ne trouvez-vous pas que j’ay raison, &amp; que <name>ce Prince</name> a tout le merite qu’on peut
           avoir?</p>
-        <label type="speaker">MORON au Prince.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name> au <name>Prince</name>.</label>
         <p>Remettez-vous, &amp; songez à répondre.</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>D'où vient, Prince, que vous ne dites mot, &amp; semblez interdit?</p>
-        <label type="speaker">EURIALE.</label>
+        <label type="speaker"><name key="euriale" corresp="la_grange">EURIALE</name>.</label>
         <p>Je le suis à la vérité : &amp; j’admire, Madame, comme le Ciel a pû former deux ames
           aussi semblables en tout que les nostres ; deux ames en qui l’on ait veû une plus grande
           conformité de sentimens, qui ayent fait éclater dans le mesme temps une résolution à
@@ -2132,106 +2132,106 @@ Est‑ce des personnages ?-->Monstres Celestes,
           égale facilité à perdre le nom</p>
         <p>d’insensibles. Car enfin, Madame, puis que vostre exemple m’autorise, je ne feindrai
           point de vous dire que l’Amour aujourd’hui s’est rendu maistre de mon coeur, &amp; qu’une
-          des Princesses, vos cousines, l’aimable &amp; belle Aglante, a renversé d’un coup d’oeil
+          des Princesses, vos cousines, l’aimable &amp; belle <name>Aglante</name>, a renversé d’un coup d’oeil
           tous les projets de ma fierté. Je suis ravi, Madame, que par cette égalité de défaite,
           nous n’ayons rien à nous reprocher l’un et l’autre; &amp; je ne doute point, que comme je
           vous louë infiniment de vostre choix, vous n’aprouviez aussi le mien. II faut que ce
           miracle éclate aux yeux de tout le monde, &amp; nous ne devons point differer à nous
           rendre tous deux contens. Pour moy, Madame, je vous sollicite de vos suffrages, pour
           obtenir celle que je souhaite, &amp; vous trouverez bon que j’aille de ce pas en faire la
-          demande au Prince vostre Pere.</p>
-        <label type="speaker">MORON.</label>
+          demande au <name>Prince vostre Pere</name>.</p>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>Ah digne ! ah brave coeur !</p>
         <label type="head">SCENE DEUXIEME.</label>
-        <p><name>LA PRINCESSE.MORON</name>.</p>
-        <label type="speaker">LA PRINCESSE.</label>
-        <p>AH ! Moron, je n’en puis plus ; &amp; ce coup, que je n’attendois pas, triomphe
+        <p><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.<name key="moron" corresp="moliere">MORON</name>.</p>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
+        <p>AH ! <name key="moron" corresp="moliere">Moron</name>, je n’en puis plus ; &amp; ce coup, que je n’attendois pas, triomphe
           absolument de toute ma fermeté.</p>
         <pb n="67" xml:id="p67"/>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>II est vray que le coup est surprenant ; &amp; j’avois crû d’abord que vostre stratageme
           avoit fait son effet.</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>Ah ! ce m’est un dépit à me desesperer, qu’une autre ait l’avantage de soûmettre ce cœur
           que je voulois soûmettre.</p>
         <label type="head">SCENE TROISIEME.</label>
-        <p><name>LA PRINCESSE.AGLANTE</name>. <name>MORON</name>.</p>
-        <label type="speaker">LA PRINCESSE.</label>
-        <p>PRINCESSE, j’ay à vous prier d’une chose, qu’il faut absolument que vous m’accordiez : Le
-          Prince d’Ithaque vous aime, &amp; veut vous demander au Prince mon Pere.</p>
-        <label type="speaker">AGLANTE.</label>
-        <p>Le Prince d’Ithaque, Madame !</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <p><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.<name>AGLANTE</name>. <name key="moron" corresp="moliere">MORON</name>.</p>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
+        <p><name>PRINCESSE</name>, j’ay à vous prier d’une chose, qu’il faut absolument que vous m’accordiez : <name>Le
+          Prince d’Ithaque</name> vous aime, &amp; veut vous demander au <name>Prince mon Pere</name>.</p>
+        <label type="speaker"><name>AGLANTE</name>.</label>
+        <p><name>Le Prince d’Ithaque</name>, Madame !</p>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>Ouï ; il vient de m’en asseûrer luy-mesme, &amp; m’a demandé mon suffrage pour vous
           obtenir : mais je vous conjure de rejetter cette proposition, &amp; de ne point prester
           l’oreille à tout ce qu’il pourra vous dire.</p>
-        <label type="speaker">AGLANTE.</label>
-        <p>Mais, Madame, s’il estoit vray que ce Prince m’aimast effectivement, pourquoy n’ayant
+        <label type="speaker"><name>AGLANTE</name>.</label>
+        <p>Mais, Madame, s’il estoit vray que <name>ce Prince</name> m’aimast effectivement, pourquoy n’ayant
           aucun dessein de vous engager, ne voudriez-vous pas soufrir….</p>
-        <label type="speaker">LA PRINCESSE.</label>
-        <p>Non, Aglante, je vous le demande ; faites-moy ce plaisir, je vous prie, &amp; trouvez bon
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
+        <p>Non, <name>Aglante</name>, je vous le demande ; faites-moy ce plaisir, je vous prie, &amp; trouvez bon
           que n’ayant pû avoir l’avantage de le soûmettre, je luy dérobe la joye de vous
           obtenir.</p>
-        <label type="speaker">AGLANTE.</label>
+        <label type="speaker"><name>AGLANTE</name>.</label>
         <p>Madame, il faut vous obéir ; mais je croirois que la conqueste d’un tel cœur ne seroit
           pas une victoire à dédaigner.</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>Non, non, il n’aura pas la joye de me braver entiérement.</p>
         <pb n="68" xml:id="p68"/>
         <label type="head">SCENE QUATRIEME.</label>
-        <p><name>ARISTOMENE</name>. <name>MORON</name>. <name>LA PRINCESSE.AGLANTE</name>.</p>
-        <label type="speaker">ARISTOMENE.</label>
+        <p><name key="aristomene" corresp="du_croisy">ARISTOMENE</name>. <name key="moron" corresp="moliere">MORON</name>. <name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.<name>AGLANTE</name>.</p>
+        <label type="speaker"><name key="aristomene" corresp="du_croisy">ARISTOMENE</name>.</label>
         <p>MADAME, je viens à vos pieds rendre grace à l’Amour de mes heureux destins, &amp; vous
           témoigner avec mes transports, le ressentiment où je suis, des bontez surprenantes dont
           vous daignez favoriser le plus soûmis de vos captifs.</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>Comment?</p>
-        <label type="speaker">ARISTOMENE.</label>
-        <p>Le prince d’Ithaque, Madame, vient de m’asseûrer tout à l’heure que vostre coeur avoit eû
+        <label type="speaker"><name key="aristomene" corresp="du_croisy">ARISTOMENE</name>.</label>
+        <p><name>Le prince d’Ithaque</name>, Madame, vient de m’asseûrer tout à l’heure que vostre coeur avoit eû
           la bonté de s’expliquer en ma faveur, sur ce celebre choix qu’attend toute la Grece.</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>II vous a dit qu’il tenoit cela de ma bouche?</p>
-        <label type="speaker">ARISTOMENE.</label>
+        <label type="speaker"><name key="aristomene" corresp="du_croisy">ARISTOMENE</name>.</label>
         <p>Ouï, Madame.</p>
-        <label type="speaker">LA PRINCESSE.</label>
-        <p>C'est un étourdy ; &amp; vous estes un peu trop credule, Prince, d’ajoûter foy si
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
+        <p>C'est un étourdy ; &amp; vous estes un peu trop credule, <name>Prince</name>, d’ajoûter foy si
           promtement à ce qu’il vous a dit. Une pareille nouvelle meriteroit bien, ce me semble,
           qu’on en doutast un peu de temps ; &amp; c’est tout ce que vous pourriez faire de la
           croire, si je vous l’avois dite moy-mesme.</p>
-        <label type="speaker">ARISTOMENE.</label>
+        <label type="speaker"><name key="aristomene" corresp="du_croisy">ARISTOMENE</name>.</label>
         <p>Madame, si j’ay esté trop promt à me persuader….</p>
-        <label type="speaker">LA PRINCESSE.</label>
-        <p>De grace, Prince, brisons-là ce discours ; &amp; si vous voulez m’obliger, souffrez que
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
+        <p>De grace, <name>Prince</name>, brisons-là ce discours ; &amp; si vous voulez m’obliger, souffrez que
           je puisse jouïr de deux momens de solitude.</p>
         <pb n="69" xml:id="p69"/>
         <label type="head">SCENE CINQUIEME.</label>
-        <p><name>LA PRINCESSE.AGLANTE</name>. <name>MORON</name>.</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <p><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.<name>AGLANTE</name>. <name key="moron" corresp="moliere">MORON</name>.</p>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>AH ! qu’en cette avanture, le Ciel me traite avec une rigueur étrange ! Au moins,
-          Princesse, souvenez-vous de la priére que je vous ay faite.</p>
-        <label type="speaker">AGLANTE.</label>
+        <name>Princesse</name>, souvenez-vous de la priére que je vous ay faite.</p>
+        <label type="speaker"><name>AGLANTE</name>.</label>
         <p>Je vous l’ay dit déja, Madame ; il faut vous obéïr.</p>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>Mais, Madame, s’il vous aimoit vous n’en voudriez point ; &amp; cependant vous ne voulez
           pas qu’il soit à un autre. C'est faire justement comme le chien du Jardinier.</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>Non, je ne puis souffrir qu’il soit heureux avec une autre ; &amp; si la chose estoit, je
           croy que j’en mourrois de déplaisir.</p>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>Ma foy, Madame, avüons la dette : vous voudriez qu’il fût à vous ; &amp; dans toutes vos
           actions, il est aisé de voir que vous aimez un peu, ce jeune Prince.</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>Moy, je l’aime ? O Ciel ! je l’aime ? Avez-vous l’insolence de prononcer ces paroles ?
           Sortez de ma veûë, impudent, &amp; ne vous presentez jamais devant moy.</p>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>Madame….</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>Retirez-vous d’icy, vous dis-je, ou je vous en feray retirer d’une autre maniére.</p>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>Ma foy son coeur en a sa provision, &amp;….</p>
         <pb n="70" xml:id="p70"/>
         <label type="head">SCENE SIXIEME.</label>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>DE quelle émotion inconnuë sens-je mon coeur atteint ? &amp; quelle inquiétude secrette
           est venu troubler tout d’un coup la tranquillité de mon ame? Ne seroit-ce point aussi, ce
           qu’on vient de me dire, &amp; sans en rien sçavoir, n’aymerois-je point ce jeune Prince?
@@ -2253,42 +2253,42 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <pb n="71" xml:id="p71"/>
         <label type="head">CINQIEME INTERMEDE.</label>
         <p><name>CLIMENE</name>. <name>PHILIS</name>.</p>
-        <label type="speaker">CLIMENE.</label>
-        <l>CHERE Philis, dis-moy, que crois-tu de l’Amour?</l>
-        <label type="speaker">PHILIS.</label>
+        <label type="speaker"><name>CLIMENE</name>.</label>
+        <l>CHERE <name>Philis</name>, dis-moy, que crois-tu de l’Amour?</l>
+        <label type="speaker"><name>PHILIS</name>.</label>
         <l>Toy-mesme, qu’en crois-tu, ma compagne fidelle?</l>
-        <label type="speaker">CLIMENE.</label>
+        <label type="speaker"><name>CLIMENE</name>.</label>
         <l>On m’a dit que sa flâme est pire qu’un Vautour ;</l>
         <l>Et qu’on souffre en aimant une peine cruelle.</l>
-        <label type="speaker">PHILIS.</label>
+        <label type="speaker"><name>PHILIS</name>.</label>
         <l>On m’a dit qu’il n’est point de passion plus belle ;</l>
         <l>Et que ne pas aimer, c’est renoncer au jour.</l>
-        <label type="speaker">CLIMENE.</label>
+        <label type="speaker"><name>CLIMENE</name>.</label>
         <l>A qui des deux donnerons-nous victoire?</l>
-        <label type="speaker">PHILIS.</label>
+        <label type="speaker"><name>PHILIS</name>.</label>
         <l>Qu'en croirons-nous, ou le mal, ou le bien?</l>
-        <label type="speaker">CLIMENE &amp; PHILIS, ensemble.</label>
+        <label type="speaker"><name>CLIMENE</name> &amp; <name>PHILIS</name>, ensemble.</label>
         <l>Aimons : c’est le vray moyen</l>
         <l>De sçavoir ce qu’on en doit croire.</l>
-        <label type="speaker">PHILIS.</label>
+        <label type="speaker"><name>PHILIS</name>.</label>
         <l>Cloris vante par tout l’Amour &amp; ses ardeurs.</l>
-        <label type="speaker">CLIMENE.</label>
+        <label type="speaker"><name>CLIMENE</name>.</label>
         <l>Amarante pour luy verse en tous lieux des larmes.</l>
-        <label type="speaker">PHILIS.</label>
+        <label type="speaker"><name>PHILIS</name>.</label>
         <l>Si de tant de tourmens il accable les coeurs,</l>
         <l>D'où vient qu’on aime à luy rendre les armes?</l>
         <pb n="72" xml:id="p72"/>
-        <label type="speaker">CLIMENE.</label>
-        <l>Si sa flâme, Philis, est si pleine de charmes,</l>
+        <label type="speaker"><name>CLIMENE</name>.</label>
+        <l>Si sa flâme, <name>Philis</name>, est si pleine de charmes,</l>
         <l>Pourquoy nous défend-on d’en goûter les douceurs?</l>
-        <label type="speaker">PHILIS.</label>
+        <label type="speaker"><name>PHILIS</name>.</label>
         <l>A qui des deux donnerons-nous victoire?</l>
-        <label type="speaker">CLIMENE.</label>
+        <label type="speaker"><name>CLIMENE</name>.</label>
         <l>Qu'en croirons-nous, ou le mal, ou le bien ?</l>
-        <label type="speaker">TOUTES DEUX ENSEMBLE.</label>
+        <label type="speaker"><name>TOUTES DEUX ENSEMBLE</name>.</label>
         <l>Aimons : c’est le vray moyen</l>
         <l>De sçavoir ce qu’on en doit croire.</l>
-        <p>LA Princesse les interrompit en cét endroit, &amp; leur dit :</p>
+        <p><name key="princesse_d_elide" corresp="armande_bejart">LA Princesse</name> les interrompit en cét endroit, &amp; leur dit :</p>
         <p>Achevez seules si vous voulez, je ne sçaurois demeurer en repos ; et quelque douceur
           qu’ayent vos chants, ils ne font que redoubler mon inquiétude.</p>
         <pb n="73" xml:id="p73"/>
@@ -2296,7 +2296,7 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <label type="head">ARGUMENT.</label>
         <p>IL se passoit dans le coeur du <name>Prince de Messene</name> des choses bien
           differentes. La joie que luy avoit donné le <name>Prince d’Ithaque</name>, en luy
-          apprenant malicieusement qu’il estoit aimé de la Princesse, l’avoit obligé de l’aller
+          apprenant malicieusement qu’il estoit aimé de <name key="princesse_d_elide" corresp="armande_bejart">la Princesse</name>, l’avoit obligé de l’aller
           trouver avec une inconsideration, que rien qu’une extréme amour, ne pouvoit excuser; mais
           il en avoit esté receû d’une maniére bien differente à ce qu’il esperoit. Elle luy
           demanda, qui luy avoit appris cette nouvelle. Et quand elle eût sceû que ç’avoit esté le
@@ -2304,7 +2304,7 @@ Est‑ce des personnages ?-->Monstres Celestes,
           fit dire, à demi desesperée, c’est un étourdi; &amp; ce mot étourdit si fort le
             <name>Prince de Messene</name>, qu’il sortit tout confus, sans luy</p>
         <p>pouvoir répondre.</p>
-        <p><name>La Princesse</name> d’un autre costé alla trouver le Roy <name>son Pere</name>, qui
+        <p><name key="princesse_d_elide" corresp="armande_bejart">La Princesse</name> d’un autre costé alla trouver <name>le Roy son Pere</name>, qui
           venoit de paroistre avec <name>le Prince d’Ithaque</name>, &amp; qui luy témoignoit,
           non-seulement la joie qu’il auroit eûë de le voir entrer dans son alliance, mais mesme
           l’opinion qu’il commençoit d’avoir que sa fille ne le haïssoit pas. Elle ne fut pas
@@ -2315,7 +2315,7 @@ Est‑ce des personnages ?-->Monstres Celestes,
           luy répondit, il ne le voudroit pas; mais d’une maniére si passionnée, qu’il estoit aisé
           de connoistre les sentimens de son coeur. Alors <name>le Prince</name>, quittant toute
           sorte de feinte, luy confessa son amour, &amp; le stratageme dont il s’estoit servi, pour
-          venir au point où il se voyoit alors, par la connoissance de son humeur. <name>La
+          venir au point où il se voyoit alors, par la connoissance de son humeur. <name key="princesse_d_elide" corresp="armande_bejart">La
             Princesse</name> luy donnant la main, le Roy se tourna vers les deux <name>Princes de
             Messene</name> &amp; <name>de Pyle</name>, &amp; leur demanda si ses deux parentes, dont
           le merite n’estoit pas moindre que la qualité, ne seroient point capables de les consoler
@@ -2324,31 +2324,31 @@ Est‑ce des personnages ?-->Monstres Celestes,
           dans le Palais, qu’elle se répandit par tous les environs.</p>
         <pb n="74" xml:id="p74"/>
         <label type="head">SCENE PREMIERE.</label>
-        <p><name>LE PRINCE.EURIALE</name>. <name>MORON</name>. <name>AGLANTE</name>.
+        <p><name>LE PRINCE</name>.<name key="euriale" corresp="la_grange">EURIALE</name>. <name key="moron" corresp="moliere">MORON</name>. <name>AGLANTE</name>.
             <name>CINTHIE</name>.</p>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>Ouï, Seigneur, ce n’est point raillerie, j’en suis ce qu’on appelle disgracié. II m’a
           falu tirer mes chausses au plus viste ; &amp; jamais vous n’avez veû un en emportement
           plus brusque que le sien.</p>
-        <label type="speaker">LE PRINCE.</label>
+        <label type="speaker"><name>LE PRINCE</name>.</label>
         <p>Ah ! Prince, que je devrai de graces à ce stratageme amoureux, s’il faut qu’il ait trouvé
           le secret de toucher son coeur.</p>
-        <label type="speaker">EURIALE.</label>
+        <label type="speaker"><name key="euriale" corresp="la_grange">EURIALE</name>.</label>
         <p>Quelque chose, Seigneur, que l’on vienne de vous en dire, je n’ose encore, pour moy, me
           flatter de ce doux espoir : mais enfin, si ce n’est pas à moy trop de temerité, que d’oser
           aspirer a l’honneur de vostre alliance ; si ma personne, &amp; mes Estats...</p>
-        <label type="speaker">LE PRINCE.</label>
+        <label type="speaker"><name>LE PRINCE</name>.</label>
         <p>Prince, n’entrons point dans ces complimens. Je trouve en vous dequoy remplir tous les
           souhaits d’un père ; &amp; si vous avez le coeur de ma fille, il ne vous manque rien.</p>
         <label type="head">SCENE DEUXIEME.</label>
-        <p><name>LA PRINCESSE.LE PRINCE.EURIALE</name>. <name>AGLANTE</name>. <name>CINTHIE</name>.
-            <name>MORON</name>.</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <p><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.<name>LE PRINCE</name>.<name key="euriale" corresp="la_grange">EURIALE</name>. <name>AGLANTE</name>. <name>CINTHIE</name>.
+          <name key="moron" corresp="moliere">MORON</name>.</p>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>O Ciel ! que vois-je icy ?</p>
-        <label type="speaker">LE PRINCE.</label>
+        <label type="speaker"><name>LE PRINCE</name>.</label>
         <p>Ouï, l’honneur de vostre alliance m’est d’un prix tres-considerable ; &amp; je souscris
           aisément de tous mes suffrages à la demande que vous me faites.</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>Seigneur, je me jette à vos pieds, pour vous demander une grace. Vous m’avez toujours
           témoigné une tendresse extréme ;</p>
         <pb n="75" xml:id="p75"/>
@@ -2357,65 +2357,65 @@ Est‑ce des personnages ?-->Monstres Celestes,
           demande aujourd’hui la plus sensible preuve que vous me puissiez accorder; c’est de
           n’écouter point, Seigneur, la demande de ce Prince, &amp; de ne pas souffrir que la
           Princesse Aglante soit unie avec luy.</p>
-        <label type="speaker">LE PRINCE.</label>
+        <label type="speaker"><name>LE PRINCE</name>.</label>
         <p>Et par quelle raison, ma Fille, voudrois-tu t’opposer à cette union ?</p>
-        <label type="speaker">LA PRINCESSE.</label>
-        <p>Par la raison, que je hais ce Prince ; &amp; que je veux, si je puis, traverser ses
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
+        <p>Par la raison, que je hais <name>ce Prince</name> ; &amp; que je veux, si je puis, traverser ses
           desseins.</p>
-        <label type="speaker">LE PRINCE.</label>
+        <label type="speaker"><name>LE PRINCE</name>.</label>
         <p>Tu le hais, ma Fille?</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>Ouï, &amp; de tout mon coeur, je vous l’avouë.</p>
-        <label type="speaker">LE PRINCE.</label>
+        <label type="speaker"><name>LE PRINCE</name>.</label>
         <p>Et que ta-t-il fait?</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>Il m’a méprisée.</p>
-        <label type="speaker">LE PRINCE-</label>
+        <label type="speaker"><name>LE PRINCE</name>.</label>
         <p>Et comment?</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>II ne m’a pas trouvée assez bien faite, pour m’adresser ses voeux.</p>
-        <label type="speaker">LE PRINCE.</label>
+        <label type="speaker"><name>LE PRINCE</name>.</label>
         <p>Et quelle offense te fait cela ? Tu ne veux accepter personne ?</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>N'importe, il me devoit aimer comme les autres, &amp; me laisser, au moins, la gloire de
           le refuser. Sa déclaration me fait un affront ; &amp; ce m’est une honte sensible, qu’à
           mes yeux, &amp; au milieu de vostre Cour, il a recherché une autre que moy.</p>
-        <label type="speaker">LE PRINCE.</label>
+        <label type="speaker"><name>LE PRINCE</name>.</label>
         <p>Mais quel interest dois-tu prendre à luy?</p>
         <pb n="76" xml:id="p76"/>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>J'en prens, Seigneur, à me venger de son mépris ; &amp; comme je sçay bien qu’il aime
-          Aglante avec beaucoup d’ardeur, je veux empescher, s’il vous plaist, qu’il ne soit heureux
+        <name>Aglante</name> avec beaucoup d’ardeur, je veux empescher, s’il vous plaist, qu’il ne soit heureux
           avec elle.</p>
-        <label type="speaker">LE PRINCE.</label>
+        <label type="speaker"><name>LE PRINCE</name>.</label>
         <p>Cela te tient donc bien au coeur?</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>Ouï, Seigneur, sans doute ; et s’il obtient ce qu’il demande, vous me verrez expirer à
           vos yeux.</p>
-        <label type="speaker">LE PRINCE.</label>
-        <p>Va, va, ma Fille, avouë franchement la chose. Le merite de ce Prince t’a fait ouvrir les
+        <label type="speaker"><name>LE PRINCE</name>.</label>
+        <p>Va, va, ma Fille, avouë franchement la chose. Le merite de <name>ce Prince</name> t’a fait ouvrir les
           yeux ; &amp; tu l’aimes enfin, quoy-que tu puisses dire.</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>Moy, Seigneur !</p>
-        <label type="speaker">LE PRINCE.</label>
+        <label type="speaker"><name>LE PRINCE</name>.</label>
         <p>Ouï, tu l’aimes.</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>Je l’aime, dites-vous, et vous m’imputez cette lâcheté? O Ciel ! quelle est mon
           infortune ? Puis-je bien, sans mourir, entendre ces paroles ; &amp; faut-il que je sois si
           malheureuse, qu’on me soupçonne de l’aimer? Ah ! si c’estoit un autre que vous, Seigneur,
           qui me tint ce discours, je ne sçay pas ce que je ne ferois point.</p>
-        <label type="speaker">LE PRINCE.</label>
+        <label type="speaker"><name>LE PRINCE</name>.</label>
         <p>Et bien, ouï, tu ne l’aimes pas. Tu le hais, j’y consens ; &amp; je veux bien, pour te
-          contenter, qu’il n’épouse pas la Princesse Aglante.</p>
-        <label type="speaker">LA PRINCESSE.</label>
+          contenter, qu’il n’épouse pas <name>la Princesse Aglante</name>.</p>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>Ah ! Seigneur, vous me donnez la vie.</p>
-        <label type="speaker">LE PRINCE.</label>
+        <label type="speaker"><name>LE PRINCE</name>.</label>
         <p>Mais, afin d’empescher qu’il ne puisse jamais estre à elle, il faut que tu le prennes
           pour toy.</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>Vous vous mocquez, Seigneur, et ce n’est pas ce qu’il demande.</p>
         <pb n="77" xml:id="p77"/>
-        <label type="speaker">EURIALE.</label>
+        <label type="speaker"><name key="euriale" corresp="la_grange">EURIALE</name>.</label>
         <p>Pardonnez-moy, Madame : je suis assez temeraire pour cela ; &amp; je prens à témoin le
           Prince vostre Pere, si ce n’est pas vous que j’ay demandée. C'est trop vous tenir dans
           l’erreur ; il faut</p>
@@ -2430,43 +2430,43 @@ Est‑ce des personnages ?-->Monstres Celestes,
           à la mienne. Que si cette feinte, Madame, a quelque chose qui vous offence, je suis tout
           prest de mourir pour vous en venger. Vous n’avez qu’à parler, &amp; ma main sur le champ
           fera gloire d’exécuter l’Arrest que vous prononcerez.</p>
-        <label type="speaker">LA PRINCESSE.</label>
-        <p>Non, non, Prince, je ne vous sçay pas mauvais gré de m’avoir abusée ; &amp; tout ce que
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
+        <p>Non, non, <name>Prince</name>, je ne vous sçay pas mauvais gré de m’avoir abusée ; &amp; tout ce que
           vous m’avez dit, je l’aime bien mieux une feinte, que non pas une vérité.</p>
-        <label type="speaker">LE PRINCE.</label>
+        <label type="speaker"><name>LE PRINCE</name>.</label>
         <p>Si bien donc, ma fille, que tu veux bien accepter ce Prince pour époux?</p>
-        <label type="speaker">LA PRINCESSE.</label>
+        <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>.</label>
         <p>Seigneur, je ne sçay pas encore ce que je veux. Donnez-moy le temps d’y songer, je vous
           prie, &amp; m’épargnez un peu la confusion où je suis.</p>
-        <label type="speaker">LE PRINCE.</label>
-        <p>Vous jugez, Prince, ce que cela veut dire, &amp; vous vous pouvez fonder là-dessus.</p>
-        <label type="speaker">EURIALE.</label>
+        <label type="speaker"><name>LE PRINCE</name>.</label>
+        <p>Vous jugez, <name>Prince</name>, ce que cela veut dire, &amp; vous vous pouvez fonder là-dessus.</p>
+        <label type="speaker"><name key="euriale" corresp="la_grange">EURIALE</name>.</label>
         <p>Je l’attendrai tant qu’il vous plaira, Madame, cét arrest de ma destinée ; &amp; s’il me
           condamne à la mort, je le suivray sans murmure.</p>
         <pb n="78" xml:id="p78"/>
-        <label type="speaker">LE PRINCE.</label>
-        <p>Vien, Moron, c’est icy un jour de paix ; &amp; je te remets en grace avec la
-          Princesse.</p>
-        <label type="speaker">MORON.</label>
+        <label type="speaker"><name>LE PRINCE</name>.</label>
+        <p>Vien, <name key="moron" corresp="moliere">Moron</name>, c’est icy un jour de paix ; &amp; je te remets en grace avec <name key="princesse_d_elide" corresp="armande_bejart">la
+          Princesse</name>.</p>
+        <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
         <p>Seigneur, je serai meilleur Courtisan une autre fois ; &amp; je me garderay bien de dire
           ce que je pense.</p>
         <p>SCENE TROISIEME.</p>
-        <p><name>ARISTOMENE</name>. <name>THEOCLES</name>. <name>LE PRINCE.LA
-            PRINCESSE.AGLANTE</name>. <name>CINTHIE</name>. <name>MORON</name>.</p>
-        <label type="speaker">LE PRINCE.</label>
-        <p>JE crains bien, Prince, que le choix de ma fille ne soit pas en vostre faveur; mais voilà
+        <p><name key="aristomene" corresp="du_croisy">ARISTOMENE</name>. <name>THEOCLES</name>. <name>LE PRINCE</name>.<name key="princesse_d_elide" corresp="armande_bejart">LA
+          PRINCESSE</name>.<name>AGLANTE</name>. <name>CINTHIE</name>. <name key="moron" corresp="moliere">MORON</name>.</p>
+        <label type="speaker"><name>LE PRINCE</name>.</label>
+        <p>JE crains bien, <name>Prince</name>, que le choix de ma fille ne soit pas en vostre faveur; mais voilà
           deux Princesses qui peuvent bien vous consoler de ce petit malheur.</p>
-        <label type="speaker">ARISTOMENE.</label>
+        <label type="speaker"><name key="aristomene" corresp="du_croisy">ARISTOMENE</name>.</label>
         <p>Seigneur, nous sçavons prendre nostre parti, &amp; si ces aimables Princesses n’ont point
           trop de mépris pour les coeurs qu’on a rebutez, nous pouvons revenir par elles, à
           l’honneur de vostre alliance.</p>
         <label type="head">SCENE QUATRIEME.</label>
-        <p><name>PHILIS</name>. <name>ARISTOMENE</name>.<name>THEOCLE</name>. <name>LE
-          PRINCE</name>. <name>LA PRINCESSE</name>. <name>AGLANTE</name>. <name>CINTHIE</name>.
-            <name>MORON</name>.</p>
-        <p>PHILIS.</p>
-        <p>SEIGNEUR, la Déesse Venus vient d’annoncer par tout le changement du coeur de la
-          Princesse. Tous les Pasteurs &amp; toutes les Bergeres en témoignent leur joie par des
+        <p><name>PHILIS</name>. <name key="aristomene" corresp="du_croisy">ARISTOMENE</name>.<name>THEOCLE</name>. <name>LE
+          PRINCE</name>. <name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE</name>. <name>AGLANTE</name>. <name>CINTHIE</name>.
+          <name key="moron" corresp="moliere">MORON</name>.</p>
+        <p><name>PHILIS</name>.</p>
+        <p>SEIGNEUR, la Déesse Venus vient d’annoncer par tout le changement du coeur de <name key="princesse_d_elide" corresp="armande_bejart">la
+          Princesse</name>. Tous les Pasteurs &amp; toutes les Bergeres en témoignent leur joie par des
           danses et des chansons ; et si ce n’est point un spectacle que vous méprisiez, vous allez
           voir l’allegresse publique se répandre jusques-icy.</p>
         <label type="head">Fin du cinquiésme Acte.</label>
@@ -2563,13 +2563,13 @@ Personne ou machine ?--><tech type="machine_eau">Monstre Marin d’une
             <name>Alcine</name> commença des Vers, ausquels ses Compagnes répondirent, &amp; qui
           furent à la loüange de la <persName key="anne_d_autriche" role="destinataire">Reine Mere</persName> du Roy.</p>
         <p><name>ALCINE</name>. <name>CELIE</name>. <name>DIRCE</name>.</p>
-        <label type="speaker">ALCINE.</label>
+        <label type="speaker"><name>ALCINE</name>.</label>
         <l>VOUS, à qui je fis part de ma felicité,</l>
         <l>Pleuresz avecque moy dans cette extrémité.</l>
-        <label type="speaker">CELIE.</label>
+        <label type="speaker"><name>CELIE</name>.</label>
         <l>Quel est donc le sujet des soudaines alarmes</l>
         <l>Qui de vos yeux charmans font couler tant de larmes?</l>
-        <label type="speaker">ALCINE.</label>
+        <label type="speaker"><name>ALCINE</name>.</label>
         <l>Si je pense en parler, ce n’est qu’en fremissant.</l>
         <l>Dans les sombres horreurs d’un songe menaçant,</l>
         <l>Un spectre m’avertit, d’une voix éperduë,</l>
@@ -2601,7 +2601,7 @@ Personne ou machine ?--><tech type="machine_eau">Monstre Marin d’une
         <l>Dans le juste dessein de venger leurs outrages ;</l>
         <l>Et je croy voir enfin mon aimable Roger</l>
         <l>De mes fers méprisez, prest à se dégager.</l>
-        <label type="speaker">CELIE.</label>
+        <label type="speaker"><name>CELIE</name>.</label>
         <l>La crainte en vostre esprit s’est acquis trop d’empire.</l>
         <l>Vous regnez seule icy, pour vous seule on soûpire;</l>
         <l>Rien n’interrompt le cours de vos contentemens,</l>
@@ -2610,12 +2610,12 @@ Personne ou machine ?--><tech type="machine_eau">Monstre Marin d’une
         <l>Tremblent encor de peur, cachez dans leurs montagnes;</l>
         <l>Et le nom de Melisse, en ces lieux inconnu,</l>
         <l>Par vos augures seuls jusqu’à nous est venu.</l>
-        <label type="speaker">DIRCE.</label>
+        <label type="speaker"><name>DIRCE</name>.</label>
         <l>Ah ! ne nous flatons point, ce fantôme effroyable</l>
         <l>M’a tenu cette nuit un discours tout semblable.</l>
-        <label type="speaker">ALCINE.</label>
+        <label type="speaker"><name>ALCINE</name>.</label>
         <l>Helas ! de nos malheurs, qui peut encor douter ?</l>
-        <label type="speaker">CELIE.</label>
+        <label type="speaker"><name>CELIE</name>.</label>
         <l>J'y vois un grand remede, et facile à tenter :</l>
         <l>Une Reine paroist, dont le secours propice,</l>
         <l>Nous sçaura garantir des efforts de Melisse.</l>
@@ -2624,7 +2624,7 @@ Personne ou machine ?--><tech type="machine_eau">Monstre Marin d’une
         <l>Des flots les plus mutins méprisa l’insolence,</l>
         <l>Contre les voeux des siens est toûjours sans défense.</l>
         <pb n="84" xml:id="p84"/>
-        <label type="speaker">ALCINE.</label>
+        <label type="speaker"><name>ALCINE</name>.</label>
         <l>Il est vray, je la vois : en ce pressant danger,</l>
         <l>A nous donner secours, tâchons de l’engager.</l>
         <l>Disons-luy qu’en tous lieux la voix publique étale</l>
@@ -2657,7 +2657,7 @@ Personne ou machine ?--><tech type="machine_eau">Monstre Marin d’une
         <l>Pour la rendre sensible à nos vives douleurs ;</l>
         <l>Et nous pourrons trouver au fort de nostre peine,</l>
         <l>Un refuge paisible aux pieds de cette Reine.</l>
-        <label type="speaker">DIRCE.</label>
+        <label type="speaker"><name>DIRCE</name>.</label>
         <l>Je sçais bien que son coeur, noblement génereux,</l>
         <l>Ecoute avec plaisir la voix des malheureux :</l>
         <l>Mais on ne voit jamais éclater sa puissance,</l>
@@ -2671,7 +2671,7 @@ Personne ou machine ?--><tech type="machine_eau">Monstre Marin d’une
         <l>Doit rendre à sa vertu nos respects odieux ;</l>
         <l>Et loin qu’à son abord son effroy diminuë,</l>
         <l>Malgré-moy je le sens qui redouble à sa veuë.</l>
-        <label type="speaker">ALCINE.</label>
+        <label type="speaker"><name>ALCINE</name>.</label>
         <l>Ah ! ma propre frayeur suffit pour m’affliger.</l>
         <l>Loin d’aigrir mon ennuï, cherche à le soulager ;</l>
         <l>Et tâche de fournir à mon ame oppressée,</l>
@@ -2685,7 +2685,7 @@ Personne ou machine ?--><tech type="machine_eau">Monstre Marin d’une
           <item><name>CELIE</name>, <persName key="mlle_de_brie" role="acteur">Mademoiselle de Brie</persName>.</item>
           <item><name>DIRCE</name>, <persName key="armande_bejart" role="acteur">Mademoiselle Moliére</persName>.</item>
         </list>
-        <p>LORS qu’ils furent achevez, &amp; qu’<name>Alcine </name>se fut retirée, pour aller
+        <p>LORS qu’ils furent achevez, &amp; qu’<name>Alcine</name> se fut retirée, pour aller
           redoubler les Gardes du Palais, le concert des Violons se fit entendre;
           pendant que le Frontispice du Palais venant à s’ouvrir avec un merveilleux 
             artifice, &amp; des Tours à s’élever à veûë d’œil, <name>quatre Géants</name>
