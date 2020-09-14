@@ -65,7 +65,7 @@
         <p>On dit fonc en peu de Iours orner vn rond, où quatre grandes allées aboutissent entre de <tech type="construction">hautes palissades</tech>, de <tech type="construction">quatre portiques</tech>
           <seg ana="description">de trente cinq pieds d’elevation, et de vingt deux en quarré, et de diuerses peintures auec les armes de Sa Majesté</seg>.</p>
         <p>Toute la Cour s’estant placée <date when="1664-05-07">le septiéme</date>, il entra dans la place <name key="heraut_d_armes" corresp="desbardins">vn Heraut d’armes</name>, representé par <persName key="desbardins" role="acteur">Mr. des Bardins</persName>, <tech type="costume">vestu d’vn habit à l’antique</tech>, <seg ana="description">couleur de feu en broderie d’argent</seg>, et fort bien monté.</p>
-        <p>Il estoit suiuy de <name>trois pages</name> : celuy du <persName key="louisxiv">Roy</persName>, <persName key="artagnan" role="acteur">Mr. d’Artagnan</persName>, marchoit à la teste de deux autres, <seg ana="description">fort richement habillé de couleur de feu</seg>, liurée de <persName key="louisxiv">sa Majesté</persName>, portant sa lance, et son Escu, dans le quel brilloit vn Soleil de pierreries, auec ces mots.</p>
+        <p>Il estoit suiuy de <name>trois pages</name> : celuy du <persName key="louisxiv">Roy</persName>, <persName key="artagnan" role="acteur">Mr. d’Artagnan</persName><!--ici d'Artagnan est encodé comme un persName, dans pie1673 il est encodé comme un name-->, marchoit à la teste de deux autres, <seg ana="description">fort richement habillé de couleur de feu</seg>, liurée de <persName key="louisxiv">sa Majesté</persName>, portant sa lance, et son Escu, dans le quel brilloit vn Soleil de pierreries, auec ces mots.</p>
         <p><foreign>Nec cesso, nec Erro</foreign>.</p>
         <p>Faisant allusion à l’attachement de <persName key="louisxiv">sa Majesté</persName> aux affaires de son Estat, et la maniere auec la quelle il agit. Ce qui estoit encore represente par ces quatre Vers du <persName key="perigny" role="auteur">Président de Perigny</persName>, Autheur de la mesme Devise.</p>
         <l>Ce n’est pas sans raison que la terre et les Cieux,</l>
@@ -453,8 +453,9 @@
           <item><name key="theocle" corresp="la_thorilliere">Theocle</name>, ou le Prince de Pyle <persName key="la_thorilliere" role="acteur">Le Sieur de la Torilliere</persName></item>
           <item><name key="aristomene" corresp="du_croisy">Aristomene</name>, ou le Prince de Messene <persName key="du_croisy" role="acteur">Le Sieur de Croissy</persName></item>
           <item><name key="arbate" corresp="louis_bejart">Arbate</name>, Gouuerneur du Prince d’Ithaque <persName key="louis_bejart" role="acteur">Le Sieur Bejar</persName></item>
+          <!--Attention, ici l'acteur "la_thorilliere" est associé au rôle de Théocle et l'acteur "louis_bejart" au rôle d'Arbate. Dans i_pie1673, c'est l'inverse : "la_thorilliere" incarne Arbate et "louis_bejart" Théocle, voir les sources : https://gallica.bnf.fr/ark:/12148/bpt6k2072108/f60.item et https://gallica.bnf.fr/ark:/12148/btv1b8626216h/f57.item.-->
           <item><name key="moron" corresp="moliere">Moron</name> Plaisant de la Princesse <persName key="moliere" role="acteur">Le Sieur de Moliere</persName>.</item>
-          <item><name key="un_suivant" corresp="prevert">Vn Suiuant</name>, <persName key="prevert" role="acteur">Le Sieur Preuertz</persName>.</item>
+          <item><name key="un_suivant" corresp="prevert"><!--Ici un_suivant est associé au persName "prevert", alors que dans pie1673, il est associé à "marin_prevost"-->Vn Suiuant</name>, <persName key="prevert" role="acteur">Le Sieur Preuertz</persName>.</item>
         </list>
         <pb n="66" xml:id="p66"/>
         <label type="head">Acte Premier.</label>
