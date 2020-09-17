@@ -557,8 +557,8 @@ Balisage ?-->Hymen y
           plaisir de la Comedie ; comme ils auoient entrepris les Courses
           sous le nom des Ieux Pythiens, &amp; <tech type="costume">armez à la Grecques</tech>, ils ne sortent
           point de leur premier dessein, lors que la scene <pb n="2"/>est en
-            <placeName key="elide">Elide</placeName> : C’est là qu’vn <name>Prince</name> d’humeur magnifique
-          &amp; galante, ayant <name>vne Fille</name> aussi naturellement ennemie de l’amour,
+          <placeName key="elide">Elide</placeName> : C’est là qu’vn <name key="iphitas" corresp="andre_hubert">Prince</name> d’humeur magnifique
+          &amp; galante, ayant <name key="princesse_d_elide" corresp="armande_bejart">vne Fille</name> aussi naturellement ennemie de l’amour,
           qu’ornée de tous les dons qui la rendent aymable, propose des Ieux d’exercices, des
           Courses de Chariots, &amp; des Chasses, croyant que la magnificence des premiers, &amp; le
           diuertissement de l’autre, ou l’adresse &amp; le courage se font remarquer, feront choisir
@@ -570,7 +570,7 @@ Balisage ?-->Hymen y
         <p>Noms de ceux qui jouënt la Comedie.</p>
         <list>
           <item><name key="iphitas" corresp="andre_hubert">Le Prince d’Elide</name>. <persName key="andre_hubert" role="acteur">Hubert</persName>.</item>
-          <item><name key="princesse_d_elide" corresp="armande_bejart">La Princesse d’Elide</name>, &amp; deux autres <name>ses parents</name>.
+          <item><name key="princesse_d_elide" corresp="armande_bejart">La Princesse d’Elide</name>, &amp; deux autres <name key="aglante" corresp="there_duparc"><name key="cinthie" corresp="mlle_de_brie">ses parents</name></name>.
               <persName key="mlle_de_brie" role="acteur">Mesdlles de Brie</persName>. <persName key="moliere" role="acteur">Moliere</persName>, <persName key="therese_duparc" role="acteur">du
               Parc</persName>.</item>
           <item><name key="philis" corresp="madeleine_bejart">Philis</name>. <persName key="madeleine_bejart" role="acteur">Madlle Bejart</persName>.</item>
@@ -623,10 +623,10 @@ Balisage ?-->Hymen y
             <persName key="besson" role="musicien">Besson</persName>, <persName key="magny" role="musicien">Magny</persName>, <persName key="charlot" role="musicien">Charlot</persName>,
             <persName key="alais" role="musicien">Alais</persName>, <persName key="huguenet" role="musicien">Huguenet</persName>, &amp; <persName key="la_fontaine" role="musicien">La
             Fontaine</persName>.</p>
-        <p><name>Quatre Bergers</name>, &amp; <name>quatre Bergeres</name>.</p>
-        <p><name>Bergers</name>. <persName key="chicanneau">Les Sieurs Chicanneau</persName>, <persName key="du_pron">Du
+        <p> <name key="bergers_sixieme_intermede" corresp="chicanneau"><name key="bergers_sixieme_intermede" corresp="du_pron"><name key="bergers_sixieme_intermede" corresp="noblet"><name key="bergers_sixieme_intermede" corresp="la_pierre">Quatre Bergers</name></name></name></name>, &amp; <name key="bergeres_sixieme_intermede" corresp="balthazard_martinot"><name key="bergeres_sixieme_intermede" corresp="magny"><name key="bergeres_sixieme_intermede" corresp="arnald"><name key="bergeres_sixieme_intermede" corresp="bonard">quatre Bergeres</name></name></name></name>.</p>
+        <p><name key="bergers_sixieme_intermede" corresp="chicanneau"><name key="bergers_sixieme_intermede" corresp="du_pron"><name key="bergers_sixieme_intermede" corresp="noblet"><name key="bergers_sixieme_intermede" corresp="la_pierre">Bergers</name></name></name></name>. <persName key="chicanneau">Les Sieurs Chicanneau</persName>, <persName key="du_pron">Du
             Pron</persName>, <persName key="noblet">Noblet</persName>, &amp; <persName key="la_pierre">La Pierre</persName>.</p>
-        <p><name>Bergeres</name>. <persName key="balthazard_martinot">Les Sieurs Baltasar</persName>,
+        <p><name key="bergeres_sixieme_intermede" corresp="balthazard_martinot"><name key="bergeres_sixieme_intermede" corresp="magny"><name key="bergeres_sixieme_intermede" corresp="arnald"><name key="bergeres_sixieme_intermede" corresp="bonard">Bergeres</name></name></name></name>. <persName key="balthazard_martinot">Les Sieurs Baltasar</persName>,
             <persName key="magny">Magny</persName>, <persName key="arnald">Arnald</persName>, &amp;
             <persName key="bonard">Bonard</persName>.</p>
         <p>FIN DE LA SECONDE IOVRNÉE.</p>
@@ -642,17 +642,17 @@ Balisage ?-->Hymen y
             ruïne de son Palais, cette belle <name key="alcine" corresp="therese_duparc">Magicienne</name> est troublée par des prodiges
             &amp; des <pb n="2"/>songes, qui luy presagent son malheur prochain : En cette
             inquietude elle vient <placeName key="versailles_jardins_bassin_apollon">aux bords du Lac</placeName> portée par vn
-              <tech type="machine_eau">Monstre Marin</tech>, accompagnée de <name>deux de ses Nymphes</name> ; &amp;
+            <tech type="machine_eau">Monstre Marin</tech>, accompagnée de <name key="celie" corresp="mlle_de_brie"><name key="dirce" corresp="armande_bejart">deux de ses Nymphes</name></name> ; &amp;
             mesle à des plaintes de l’estat ou elle se trouue, les louanges de la<persName key="anne_d_autriche" role="destinataire"> Reyne
               Mere</persName> du <persName key="louisxiv">Roy</persName> par des Vers.</p>
-          <p><name key="alcine" corresp="therese_duparc">ALCINE</name>, <name>CELIE</name>, <name>DIRCÉ</name>.</p>
-          <label type="speaker"><name>ALCINE</name>.</label>
+          <p><name key="alcine" corresp="therese_duparc">ALCINE</name>, <name key="celie" corresp="mlle_de_brie">CELIE</name>, <name key="dirce" corresp="armande_bejart">DIRCÉ</name>.</p>
+          <label type="speaker"><name key="alcine" corresp="therese_duparc">ALCINE</name>.</label>
           <l>VOus à qui je fis part de ma felicité,</l>
           <l>Pleurez auec que moy dans cette extremité.</l>
-          <label type="speaker"><name>CELIE</name>.</label>
+          <label type="speaker"><name key="celie" corresp="mlle_de_brie">CELIE</name>.</label>
           <l>Quel est donc le sujet des soudaines alarmes</l>
           <l>Qui de vos yeux charmans font couler tant de larmes ?</l>
-          <label type="speaker"><name>ALCINE</name>.</label>
+          <label type="speaker"><name key="alcine" corresp="therese_duparc">ALCINE</name>.</label>
           <l>Si je pense en parler, ce n’est qu’en fremissant.</l>
           <l>Dans les sombres horreurs d’vn songe menassant,</l>
           <l>Vn spectre m’auertit, d’vne voix esperduë,</l>
@@ -682,10 +682,10 @@ Balisage ?-->Hymen y
           <l>D'vne égale fureur à ma perte animez ;</l>
           <l>Quitter en mesme temps leurs troncs &amp; leurs feuïllages,</l>
           <l>Dans le juste dessein de vanger leurs outrages,</l>
-          <l>Et je croy voir, enfin, mon aymable <name>Roger</name></l>
+          <l>Et je croy voir, enfin, mon aymable <name key="roger" corresp="louisxiv">Roger</name></l>
           <l>De mes fers méprisez, prest à se desgager.</l>
           <pb n="4"/>
-          <label type="speaker"><name>CELIE</name>.</label>
+          <label type="speaker"><name key="celie" corresp="mlle_de_brie">CELIE</name>.</label>
           <l>La crainte en vostre esprit s’est acquis trop d’empire,</l>
           <l>Vous regnez seule icy, pour vous seule on soûpire;</l>
           <l>Rien n’interrompt le cours de vos contentemens,</l>
@@ -694,12 +694,12 @@ Balisage ?-->Hymen y
           <l>Tremblent encor de peur, cachez dans leurs montagnes;</l>
           <l>Et le nom de <name>Melisse</name>, en ces lieux inconnu,</l>
           <l>Par vos augures seuls jusqu’à nous est venu.</l>
-          <label type="speaker"><name>DIRCÉ</name>.</label>
+          <label type="speaker"><name key="dirce" corresp="armande_bejart">DIRCÉ</name>.</label>
           <l>Ah ! ne nous flatons point, ce fantosme effroyable</l>
           <l>M’a tenu cette nuit vn discours tout semblable.</l>
-          <label type="speaker"><name>ALCINE</name>.</label>
+          <label type="speaker"><name key="alcine" corresp="therese_duparc">ALCINE</name>.</label>
           <l>Helas ! de nos malheurs qui peut encor douter.</l>
-          <label type="speaker"><name>CELIE</name>.</label>
+          <label type="speaker"><name key="celie" corresp="mlle_de_brie">CELIE</name>.</label>
           <l>I'y vois vn grand remede, &amp; facile à tenter ;</l>
           <l>Vne <persName key="anne_d_autriche">Reyne</persName> paroist, dont le secours propice</l>
           <l>Nous sçaura guarentir des efforts de <name>Melisse</name> :</l>
@@ -707,7 +707,7 @@ Balisage ?-->Hymen y
           <l>Et l’on dit que son coeur, de qui la fermeté,</l>
           <l>Des flots les plus mutins méprisa l’insolence,</l>
           <l>Contre les voeux des siens est toûjours sans defense.</l>
-          <label type="speaker"><name>ALCINE</name>.</label>
+          <label type="speaker"><name key="alcine" corresp="therese_duparc">ALCINE</name>.</label>
           <l>Il est vray je la vois, en ce pressant danger</l>
           <pb n="5"/>
           <l>A nous donner secours taschons de l’engager ;</l>
@@ -742,7 +742,7 @@ Balisage ?-->Hymen y
           <l>Pour la rendre sensible à nos viues douleurs,</l>
           <l>Et nous pourrons trouuer au fort de nostre peine</l>
           <l>Vn refuge paisible aux pieds de cette <persName key="anne_d_autriche">Reyne</persName>.</l>
-          <label type="speaker"><name>DIRCÉ</name>.</label>
+          <label type="speaker"><name key="dirce" corresp="armande_bejart">DIRCÉ</name>.</label>
           <l>Ie sçais bien que son coeur noblement genereux,</l>
           <l>Ecoute auec plaisir la voix des mal-heureux :</l>
           <l>Mais on ne voit jamais éclater sa puissance</l>
@@ -755,7 +755,7 @@ Balisage ?-->Hymen y
           <l>Doit rendre à sa vertu nos respects odieux,</l>
           <l>Et loin qu’à son abord mon effroy diminuë,</l>
           <l>Malgré-moy je le sens qui redouble à sa veuë.</l>
-          <label type="speaker"><name>ALCINE</name>.</label>
+          <label type="speaker"><name key="alcine" corresp="therese_duparc">ALCINE</name>.</label>
           <l>Ah ! ma propre frayeur suffit pour m’affliger !</l>
           <l>Loin d’aigrir mon ennuy, cherche à le soulager,</l>
           <l>Et tasche de fournir, à mon ame oppressée</l>
@@ -766,50 +766,50 @@ Balisage ?-->Hymen y
           <l>Dans nostre desespoir cherchons nostre deffense,</l>
           <l>Et ne nous rendons pas au moins sans resistance.</l>
           <list>
-            <item><name>Alcine</name>. <persName key="therese_duparc" role="acteur">Madlle du Parc</persName>.</item>
-            <item><name>Celie</name>. <persName key="mlle_de_brie" role="acteur">Madlle de Brie</persName>.</item>
-            <item><name>Dircé</name>. <persName key="armande_bejart" role="acteur">Madlle Moliere</persName>.</item>
+            <item><name key="alcine" corresp="therese_duparc">Alcine</name>. <persName key="therese_duparc" role="acteur">Madlle du Parc</persName>.</item>
+            <item><name key="celie" corresp="mlle_de_brie">Celie</name>. <persName key="mlle_de_brie" role="acteur">Madlle de Brie</persName>.</item>
+            <item><name key="dirce" corresp="armande_bejart">Dircé</name>. <persName key="armande_bejart" role="acteur">Madlle Moliere</persName>.</item>
           </list>
           <p>VN Chœur de plusieurs instrumans se fait entendre de toutes parts, sur <tech type="decor">deux
               Isles</tech> situées aux deux costez du <tech type="construction">Palais d’Alcine</tech> il paroist vn
               <persName key="musiciens" role="musicien">grand nombre de Musiciens</persName> qui font vne charmante Harmonie ;
             pendant que le <tech type="construction">Frontispice du Palais</tech> venant à s’ouurir, il en sort
-              <name>quatre Geants</name>
+            <name key="geants" corresp="manceau"><name key="geants" corresp="vagnard"><name key="geants" corresp="pesan"><name key="geants" corresp="joubert">quatre Geants</name></name></name></name>
             <seg ana="description">d’vne hauteur prodigieuse</seg>, commis à la garde d’vn lieu si
             considerable par sa situation, &amp; par sa force.</p>
         </div>
         <div>
           <head>PREMIERE ENTRÉE.</head>
-          <p><name>Quatre Geants</name>, et <name>quatre Nains</name>.</p>
-          <p><name>Geants</name>. <persName key="manceau">Les Sieurs Mançeau</persName>,
+          <p><name key="geants" corresp="manceau"><name key="geants" corresp="vagnard"><name key="geants" corresp="pesan"><name key="geants" corresp="joubert">Quatre Geants</name></name></name></name>, et <name key="nains" corresp="des_airs_fils1 des_airs_fils2"><name key="nains" corresp="vagnard_fils"><name key="nains" corresp="tutin_fils">quatre Nains</name></name></name>.</p>
+          <p><name key="geants" corresp="manceau"><name key="geants" corresp="vagnard"><name key="geants" corresp="pesan"><name key="geants" corresp="joubert">Geants</name></name></name></name>. <persName key="manceau">Les Sieurs Mançeau</persName>,
               <persName key="vagnard">Vagnard</persName>, <persName key="pesan">Pesan</persName>, &amp;
               <persName key="joubert">Ioubert</persName>.</p>
-          <p><name>Nains</name>. <persName key="des_airs_fils1 des_airs_fils2">Les deux petits Des-Airs</persName>, <persName key="vagnard_fils">Le petit
+          <p><name key="nains" corresp="des_airs_fils1 des_airs_fils2"><name key="nains" corresp="vagnard_fils"><name key="nains" corresp="tutin_fils">Nains</name></name></name>. <persName key="des_airs_fils1 des_airs_fils2">Les deux petits Des-Airs</persName>, <persName key="vagnard_fils">Le petit
               Vagnard</persName>, &amp; <persName key="tutin_fils">Le petit Tutin</persName>.</p>
         </div>
         <div>
           <pb n="8"/>
           <head>II. ENTRÉE.</head>
-          <p><name>HVit Maures</name> chargez par <name>Alcine</name> de la garde du dedans, en font
+          <p><name key="mores" corresp="d_heureux"><name key="mores" corresp="beauchamp"><name key="mores" corresp="molier"><name key="mores" corresp="la_marre"><name key="mores" corresp="le_chantre"><name key="mores" corresp="de_gan"><name key="mores" corresp="du_pron"><name key="mores" corresp="mercier">HVit Maures</name></name></name></name></name></name></name></name> chargez par <name key="alcine" corresp="therese_duparc">Alcine</name> de la garde du dedans, en font
             vne exacte visite, auec chacun <tech type="lumieres">deux flambeaux</tech>.</p>
-          <p><name>Maures</name>. <persName key="d_heureux">Messieurs d’Heureux</persName>,
+          <p><name key="mores" corresp="d_heureux"><name key="mores" corresp="beauchamp"><name key="mores" corresp="molier"><name key="mores" corresp="la_marre"><name key="mores" corresp="le_chantre"><name key="mores" corresp="de_gan"><name key="mores" corresp="du_pron"><name key="mores" corresp="mercier">Maures</name></name></name></name></name></name></name></name>. <persName key="d_heureux">Messieurs d’Heureux</persName>,
               <persName key="beauchamp">Beauchamp</persName>, <persName key="molier">Molier</persName>, <persName key="la_marre">La
               Marre</persName>, <persName key="le_chantre">Les Sieurs Le Chantre</persName>, <persName key="de_gan">De
               Gan</persName>, <persName key="du_pron">Du Pron</persName>, &amp; <persName key="mercier">Mercier</persName>.</p>
         </div>
         <div>
           <head>III. ENTRÉE.</head>
-          <p>CEpendant vn despit amoureux oblige <name>six des Cheualiers</name>
-              qu’<name>Alcine</name> retenoit aupres d’elle, à tenter la sortie de <tech type="construction">ce
+          <p>CEpendant vn despit amoureux oblige <name key="six_chevaliers" corresp="de_souville"><name key="six_chevaliers" corresp="raynal"><name key="six_chevaliers" corresp="des_airs_l_aine"><name key="six_chevaliers" corresp="des_airs_le_second"><name key="six_chevaliers" corresp="de_lorge"><name key="six_chevaliers" corresp="balthazard_martinot">six des Cheualiers</name></name></name></name></name></name>
+            qu’<name key="alcine" corresp="therese_duparc">Alcine</name> retenoit aupres d’elle, à tenter la sortie de <tech type="construction">ce
               Palais</tech> ; mais la fortune ne secondant pas les efforts qu’ils font dans leur
-            desespoir, ils sont vaincus, apres vn grand combat, par autant de <name>Monstres</name>
+            desespoir, ils sont vaincus, apres vn grand combat, par autant de <name key="monstres" corresp="chicanneau"><name key="monstres" corresp="noblet"><name key="monstres" corresp="arnald"><name key="monstres" corresp="desbrosses"><name key="monstres" corresp="desonnets"><name key="monstres" corresp="la_pierre">Monstres</name></name></name></name></name></name>
             qui les attaquent.</p>
           <p><name>Six Cheualiers</name>, &amp; <name>six Monstres</name>.</p>
-          <p><name>Cheualiers</name>. <persName key="de_souville">Messieurs de Souuille</persName>,
+          <p><name key="six_chevaliers" corresp="de_souville"><name key="six_chevaliers" corresp="raynal"><name key="six_chevaliers" corresp="des_airs_l_aine"><name key="six_chevaliers" corresp="des_airs_le_second"><name key="six_chevaliers" corresp="de_lorge"><name key="six_chevaliers" corresp="balthazard_martinot">Cheualiers</name></name></name></name></name></name>. <persName key="de_souville">Messieurs de Souuille</persName>,
               <persName key="raynal">Raynal</persName>, <persName key="des_airs_l_aine">Des-Airs l’aisné</persName>, <persName key="des_airs_le_second">Des-Airs
               le second</persName>, <persName key="de_lorge">De Lorge</persName>, &amp;
               <persName key="balthazrd_martinot">Balthasard</persName>.</p>
-          <p><name>Monstres</name>. <persName key="chicanneau">Les Sieurs Chicanneau</persName>,
+          <p><name key="monstres" corresp="chicanneau"><name key="monstres" corresp="noblet"><name key="monstres" corresp="arnald"><name key="monstres" corresp="desbrosses"><name key="monstres" corresp="desonnets"><name key="monstres" corresp="la_pierre">Monstres</name></name></name></name></name></name>. <persName key="chicanneau">Les Sieurs Chicanneau</persName>,
               <persName key="noblet">Noblet</persName>, <persName key="arnald">Arnald</persName>,
               <persName key="desbrosses">Desbrosses</persName>, <persName key="desonets">Desonets</persName>, &amp;<persName key="la_pierre"> La
               Pierre</persName>.</p>
@@ -817,38 +817,38 @@ Balisage ?-->Hymen y
         <div>
           <pb n="9"/>
           <head>IV. ENTRÉE.</head>
-          <p><name>ALcine</name> allarmée de cét accident, inuoque de nouueau tous<name> ses
+          <p><name key="alcine" corresp="therese_duparc">ALcine</name> allarmée de cét accident, inuoque de nouueau tous<name> ses
               Esprits</name>, &amp; leur demande secours : Il s’en presente deux à elle, qui font
             des sauts auec vne force, &amp; vne agilité merueilleuses.</p>
-          <p><name>Demons agilles</name>.</p>
+          <p><name key="demons_agiles" corresp="saint_andre"><name key="demons_agiles" corresp="magny">Demons agilles</name></name>.</p>
           <p><persName key="saint_andre">Les Sieurs S. André</persName>, &amp; <persName key="magny">Magny</persName>.</p>
         </div>
         <div>
           <head>V. ENTRÉE.</head>
-          <p>D'Autres <name>Demons</name> viennent encore, &amp; semblent asseurer la
+          <p>D'Autres <name key="demons_sauteurs" corresp="tutin"><name key="demons_sauteurs" corresp="la_brodiere"><name key="demons_sauteurs" corresp="pesan"><name key="demons_sauteurs" corresp="bureau">Demons</name></name></name></name> viennent encore, &amp; semblent asseurer la
             <name key="alcine" corresp="therese_duparc">Magicienne</name> qu’ils n’oublieront rien pour son repos.</p>
-          <p>Autres <name>Demons Sauteurs</name>.</p>
+          <p>Autres <name key="demons_sauteurs" corresp="tutin"><name key="demons_sauteurs" corresp="la_brodiere"><name key="demons_sauteurs" corresp="pesan"><name key="demons_sauteurs" corresp="bureau">Demons Sauteurs</name></name></name></name>.</p>
           <p><persName key="tutin">Les Sieurs Tutin</persName>, <persName key="la_brodiere">La Brodiere</persName>,
               <persName key="pesan">Pesan</persName>, &amp; <persName key="bureau">Bureau</persName>.</p>
           <pb n="10"/>
           <p>Mais à peine commence-t’elle à se rasseurer, qu’elle voit paroistre aupres de
-              <name>Roger</name>, &amp; de quelques <name>Cheualiers</name> de sa suitte, la sage
+            <name key="roger" corresp="beauchamp">Roger</name>, &amp; de quelques <name key="chevaliers" corresp="d_heureux"><name key="chevaliers" corresp="raynal"><name key="chevaliers" corresp="du_pron"><name key="chevaliers" corresp="desbrosses">Cheualiers</name></name></name></name> de sa suitte, la sage
               <name>Melisse</name>, sous la forme d’<name>Atlas</name>; elle court aussi-tost pour
-            empescher l’effet de son intention; mais elle arriue trop tard : <name>Melisse</name> a
-            déja mis au doigt de ce braue <name>Cheualier</name> la fameuse bague qui destruit les
+            empescher l’effet de son intention; mais elle arriue trop tard : <name key="melisse" corresp="durfort_de_lorge">Melisse</name> a
+            déja mis au doigt de ce braue <name key="roger" corresp="beauchamp">Cheualier</name> la fameuse bague qui destruit les
             enchantemens ; lors <tech type="bruitage">vn coup de Tonnerre</tech>, suiui de <tech type="lumieres">plusieurs esclairs</tech>, marque la
             destruction du <tech type="construction">Palais</tech>, qui est aussi-tost reduit en cendres par vn
               <tech type="feux-artifice">Feu d’artifice</tech>, qui met fin à cette auanture, &amp; aux diuertissemens de
             l’Isle Enchantée.</p>
           <list>
-            <item><name>Alcine</name>. <persName key="therese_duparc" role="acteur">Madlle du Parc</persName>.</item>
-            <item><name>Melisse</name>. <persName key="durfort_de_lorge">De Lotge</persName>.</item>
-            <item><name>Roger.</name><persName key="beauchamp">M. Beauchamp</persName>.</item>
+            <item><name key="alcine" corresp="therese_duparc">Alcine</name>. <persName key="therese_duparc" role="acteur">Madlle du Parc</persName>.</item>
+            <item><name key="melisse" corresp="durfort_de_lorge">Melisse</name>. <persName key="durfort_de_lorge">De Lotge</persName>.</item>
+            <item><name key="roger" corresp="beauchamp">Roger.</name><persName key="beauchamp">M. Beauchamp</persName>.</item>
           </list>
-          <p><name>Cheualiers</name>. <persName key="d_heureux">Messieurs d’Heureux</persName>,
+          <p><name key="chevaliers" corresp="d_heureux"><name key="chevaliers" corresp="raynal"><name key="chevaliers" corresp="du_pron"><name key="chevaliers" corresp="desbrosses">Cheualiers</name></name></name></name>. <persName key="d_heureux">Messieurs d’Heureux</persName>,
               <persName key="raynal">Raynal</persName>, <persName key="du_pron">Du Pron</persName>, &amp;
               <persName key="desbrosses">Desbrosses</persName>.</p>
-          <p><name>Escuyers</name>. <persName key="la_marre">Messieurs La Marre</persName>, <persName key="le_chantre">Le
+          <p><name key="ecuyers" corresp="la_marre"><name key="ecuyers" corresp="le_chantre"><name key="ecuyers" corresp="de_gan"><name key="ecuyers" corresp="mercier">Escuyers</name></name></name></name>. <persName key="la_marre">Messieurs La Marre</persName>, <persName key="le_chantre">Le
               Chantre</persName>, <persName key="de_gan">De Gan</persName>, &amp;
             <persName key="mercier">Mercier</persName>.</p>
           <p>FIN.</p>
@@ -860,13 +860,13 @@ Balisage ?-->Hymen y
         <div>
           <head>PREMIERE IOVNÉE.</head>
           <p>Ce qui paroist de jour :</p>
-          <p><name>VN HERAVT D’ARMES</name>.</p>
+          <p><name key="heraut_d_armes" corresp="desbardins">VN HERAVT D’ARMES</name>.</p>
           <p><persName key="desbardins" role="acteur">Mr Des-Bardins</persName>.</p>
-          <p><persName key="artagnan" role="acteur">Artagnan</persName><name>Page</name> du <persName key="louisxiv">Roy</persName>, accompagné
+          <p><persName key="artagnan" role="acteur">Artagnan</persName><name key="page_du_roi" corresp="artagnan">Page</name> du <persName key="louisxiv">Roy</persName>, accompagné
             de <persName key="gonualin" role="acteur">Gonualin</persName>
-            <name>Page</name> de <persName key="saint_aignan">Monsieur le Duc de S. Aignan</persName>, &amp; de
+            <name key="page" corresp="gonualin">Page</name> de <persName key="saint_aignan">Monsieur le Duc de S. Aignan</persName>, &amp; de
               <persName key="ceton" role="acteur">Ceton</persName>
-            <name>Page</name> de <persName key="anne_de_noailles">Monsieur le Duc de Noailles</persName>.</p>
+            <name key="page" corresp="ceton">Page</name> de <persName key="anne_de_noailles">Monsieur le Duc de Noailles</persName>.</p>
           <pb n="2"/>
           <p><persName key="trompettes" role="musicien">Quatre Trompettes</persName>, &amp; <persName key="timbales" role="musicien">deux
             Tymballiers</persName>.</p>
@@ -903,7 +903,7 @@ Balisage ?-->Hymen y
             <item><persName key="beaupre" role="musicien">Beaupré</persName>.</item>
             <item><persName key="jolicoeur" role="musicien">Iolicoeur</persName>.</item>
           </list>
-          <p><persName key="louisxiv" role="acteur">LE ROY</persName>, Representant <name>Roger</name>.</p>
+          <p><persName key="louisxiv" role="acteur">LE ROY</persName>, Representant <name key="roger" corresp="louisxiv">Roger</name>.</p>
           <p>Chef de la Quadrille, <seg ana="description">couleur de feu, or &amp; argent</seg>.</p>
           <p><name>Vn Iuge des Courses</name>.</p>
           <p><persName key="anne_de_noailles" role="acteur">Monsieur le Duc de Noailles</persName>. <name key="oger_le_danois" corresp="anne_de_noailles">Oger le Danois</name>.</p>
