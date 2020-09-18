@@ -910,38 +910,38 @@ Balisage ?-->Hymen y
           <p><seg ana="description">Couleur de feu, noir &amp; argent</seg>.</p>
           <pb n="3"/>
           <p><name>Cheualiers</name>, &amp; leurs couleurs.</p>
-          <p><persName key="hj_bourbon_conde" role="acteur">Monsieur le Duc</persName>. <name>Roland</name>.</p>
+          <p><persName key="hj_bourbon_conde" role="acteur">Monsieur le Duc</persName>. <name key="roland" corresp="hj_bourbon_conde">Roland</name>.</p>
           <p><seg ana="description">Couleur de feu blanc &amp; argent</seg>.</p>
-          <p><persName key="henri_ii_de_guise" role="acteur">Monsieur le Duc de Guise</persName>. <name>Aquilant le noir</name>.</p>
+          <p><persName key="henri_ii_de_guise" role="acteur">Monsieur le Duc de Guise</persName>. <name key="aquilant" corresp="henri_ii_de_guise">Aquilant le noir</name>.</p>
           <p><seg ana="description">Couleur noir &amp; or</seg>.</p>
-          <p><persName key="henri_de_lorraine" role="acteur">Monsieur le Comte d’Armagnac</persName>. <name>Griffon le blanc</name>.</p>
+          <p><persName key="henri_de_lorraine" role="acteur">Monsieur le Comte d’Armagnac</persName>. <name key="griffon_le_blanc" corresp="henri_de_lorraine">Griffon le blanc</name>.</p>
           <p><seg ana="description">Couleur argent &amp; blanc</seg>.</p>
-          <p><persName key="jb_gaston_foix_candale" role="acteur">Monsieur le Duc de Foix</persName>. <name>Renaut</name>.</p>
+          <p><persName key="jb_gaston_foix_candale" role="acteur">Monsieur le Duc de Foix</persName>. <name key="renaud" corresp="jb_gaston_foix_candale">Renaut</name>.</p>
           <p><seg ana="description">Couleur incarnat, or &amp; argent</seg>.</p>
-          <p><persName key="armand_du_cambout" role="acteur">Monsieur le Duc de Coaslin</persName>. <name>Dudon</name>.</p>
+          <p><persName key="armand_du_cambout" role="acteur">Monsieur le Duc de Coaslin</persName>. <name key="dudon" corresp="armand_du_cambout">Dudon</name>.</p>
           <p><seg ana="description">Couleur vert, blanc, &amp; argent</seg>.</p>
-          <p><persName key="henri_de_daillon" role="acteur">Monsieur le Comte du Lude</persName>. <name>Astolphe</name>.</p>
+          <p><persName key="henri_de_daillon" role="acteur">Monsieur le Comte du Lude</persName>. <name key="astolphe" corresp="henri_de_daillon">Astolphe</name>.</p>
           <p><seg ana="description">Couleur incarnat, blanc, &amp; argent</seg>.</p>
-          <p><persName key="cm_de_belleforiere" role="acteur">Monsieur le Marquis de Soyecourt</persName>. <name>Oliuier</name>.</p>
+          <p><persName key="cm_de_belleforiere" role="acteur">Monsieur le Marquis de Soyecourt</persName>. <name key="olivier" corresp="cm_de_belleforiere">Oliuier</name>.</p>
           <p><seg ana="description">Couleur bleu, blanc, &amp; argent</seg>.</p>
-          <p><persName key="louis_marie_aumont_rochebaron" role="acteur">Monsieur le Marquis de Villequiert</persName>. <name>Richardet</name>.</p>
+          <p><persName key="louis_marie_aumont_rochebaron" role="acteur">Monsieur le Marquis de Villequiert</persName>. <name key="richardet" corresp="louis_marie_aumont_rochebaron">Richardet</name>.</p>
           <p><seg ana="description">Couleur bleu, or &amp; argent</seg>.</p>
           <pb n="4"/>
-          <p><persName key="louis_crevant" role="acteur">Monsieur le Marquis d’Humieres</persName>. <name>Ariodant</name>.</p>
+          <p><persName key="louis_crevant" role="acteur">Monsieur le Marquis d’Humieres</persName>. <name key="ariodant" corresp="louis_crevant">Ariodant</name>.</p>
           <p><seg ana="description">Couleur de chair, blanc, &amp; argent</seg>.</p>
-          <p><persName key="jf_de_labaume" role="acteur">Monsieur le Marquis de la Valliere</persName>. <name>Zerbin</name>.</p>
+          <p><persName key="jf_de_labaume" role="acteur">Monsieur le Marquis de la Valliere</persName>. <name key="zerbin" corresp="jf_de_labaume">Zerbin</name>.</p>
           <p><seg ana="description">Couleur gris de Lin, blanc &amp; argent</seg>.</p>
-          <p><name>APOLLON</name>, sur <tech>vn Char</tech>. <persName key="la_grange" role="acteur">La Grange</persName>.</p>
-          <p><name>LE TEMPS</name>, menant <tech>le Char</tech> d’<name>Apollon</name>.
+          <p><name key="apollon" corresp="la_grange">APOLLON</name>, sur <tech>vn Char</tech>. <persName key="la_grange" role="acteur">La Grange</persName>.</p>
+          <p><name key="le_temps" corresp="millet">LE TEMPS</name>, menant <tech>le Char</tech> d’<name key="zerbin" corresp="jf_de_labaume">Apollon</name>.
               <persName key="millet" role="acteur">Millet</persName>.</p>
-          <p><name>Les quatre Siecles</name>.</p>
+          <p><name key="le_siecle_d_airain" corresp="mlle_de_brie"><name key="le_siecle_d_or" corresp="armande_bejart"><name key="le_siecle_d_argent" corresp="andre_hubert"><name key="le_siecle_de_fer" corresp="du_croisy">Les quatre Siecles</name></name></name></name>.</p>
           <list>
-            <item><name>Siecle d’Airain</name>. <persName key="mlle_de_brie" role="acteur">Madlle de Brie</persName>.</item>
-            <item><name>Siecle d’Or</name>. <persName key="armande_bejart" role="acteur">Madlle de Moliere</persName>.</item>
-            <item><name>Siecle d’Argent</name>. <persName key="hubert" role="acteur">Hubert</persName>.</item>
-            <item><name>Siecle de Fer</name>. <persName key="du_croisy" role="acteur">Du Croisy</persName>.</item>
+            <item><name key="le_siecle_d_airain" corresp="mlle_de_brie">Siecle d’Airain</name>. <persName key="mlle_de_brie" role="acteur">Madlle de Brie</persName>.</item>
+            <item><name key="le_siecle_d_or" corresp="armande_bejart">Siecle d’Or</name>. <persName key="armande_bejart" role="acteur">Madlle de Moliere</persName>.</item>
+            <item><name key="le_siecle_d_argent" corresp="andre_hubert">Siecle d’Argent</name>. <persName key="hubert" role="acteur">Hubert</persName>.</item>
+            <item><name key="le_siecle_de_fer" corresp="du_croisy">Siecle de Fer</name>. <persName key="du_croisy" role="acteur">Du Croisy</persName>.</item>
           </list>
-          <p><name>Les douze Heures</name>.</p>
+          <p><name key="douze_heures">Les douze Heures</name>.</p>
           <list>
             <item><persName key="de_souville" role="acteur">Souuille</persName>.</item>
             <item><persName key="paysan" role="acteur">Paysan</persName>.</item>
