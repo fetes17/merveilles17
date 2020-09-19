@@ -27,6 +27,10 @@
           <name>Mathilde Nicolas</name>
           <resp>Transcription et balisage</resp>
         </respStmt>
+        <respStmt>
+          <name>Marion Ignace</name>
+          <resp>Balisage</resp>
+        </respStmt>
       </editionStmt>
       <publicationStmt>
         <publisher>Université d’Artois - Lille, MESHS</publisher>
@@ -466,7 +470,7 @@
             role="acteur">Mlle. de Brie</persName>, qui representoit le <name key="age_airain"
             corresp="mlle_de_brie">Siecle d’Airain</name>, de commencer ces Vers à la loüange de la
             <persName key="marie_therese">Reyne</persName>, addressez à Apollon.</p>
-        <label type="speaker"><name key="age_airain" corresp="mlle_de_brie">LE SIECLE
+        <label type="speaker"><name key="le_siecle_d_airain" corresp="mlle_de_brie">LE SIECLE
             D'AIRAIN</name> à <name key="apollon">Apollon</name>.</label>
         <l rend="i">Brillant Pere du jour, Toy de qui la puissance</l>
         <l rend="i">Par ses diuers aspects nous donna la naissance;</l>
@@ -506,10 +510,10 @@
         <l rend="i">Qui l’esleue plus haut, qui lui plaist d'auantage;</l>
         <l rend="i">Vn nom qui tient en soy les plus grands noms vnis,</l>
         <l rend="i">C'est le nom glorieux d’Espouse de LOVIS.</l>
-        <label type="speaker"><name key="age_argent">LE SIECLE D'ARGENT</name>.</label>
+        <label type="speaker"><name key="le_siecle_d_argent">LE SIECLE D'ARGENT</name>.</label>
         <l rend="i">Quel Destin fait briller auec tant d’injustice</l>
         <l rend="i">Dans le siecle de fer vn Astre si propice?</l>
-        <label type="speaker"><name key="age_or">LE SIECLE D'OR</name>.</label>
+        <label type="speaker"><name key="le_siecle_d_or">LE SIECLE D'OR</name>.</label>
         <l rend="i">Ah! ne murmure point contre l’ordre des Dieux,</l>
         <l rend="i">Loin de s’en orgueillir, d’vn don si precieux,</l>
         <l rend="i">Ce siecle qui du Ciel a merité la haine</l>
@@ -525,7 +529,7 @@
         <l rend="i">A chasser les horreurs d’vn siecle si barbare,</l>
         <l rend="i">Et me faire reuiure avec tous les plaisirs,</l>
         <l rend="i">Qui peuuent contenter les innocents desirs.</l>
-        <label type="speaker"><name key="age_fer">LE SIECLE DE FER</name>.</label>
+        <label type="speaker"><name key="le_siecle_de_fer">LE SIECLE DE FER</name>.</label>
         <l rend="i">Ie sçais quels ennemis ont entrepris ma perte,</l>
         <l rend="i">Leurs desseins sont connus, leur trasme est descouuerte;</l>
         <l rend="i">Mais mon coeur n’en est pas à tel point abatu...</l>
@@ -557,29 +561,26 @@
           commencer : Et <tech type="lumieres">vn nombre infiny de lumieres</tech> ayant esclairé tout ce
             beau lieu; l’on vis entrer dans la mesme place.</p>
         <p>Trente-quatre Concertans fort bien vestus, qui deuoient <pb n="16"
-            facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f24"/> preceder <name
-            key="saisons" corresp="therese_duparc gros_rene la_thorillere louis_bejart">les
-            Saisons</name>; &amp; faisoient le plus agreable concert du monde.</p>
-        <p>Pendant que les <name key="saisons"
-            corresp="therese_duparc gros_rene la_thorillere louis_bejart">Saisons</name> se
+          facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f24"/> preceder <name key="le_printemps" corresp="therese_duparc"><name key="le_ete" corresp="gros_rene"><name key="l_automne" corresp="la_thorilliere"><name key="l_hiver" corresp="louis_bejart">les
+            Saisons</name></name></name></name>; &amp; faisoient le plus agreable concert du monde.</p>
+        <p>Pendant que les <name key="le_printemps" corresp="therese_duparc"><name key="l_ete" corresp="gros_rene"><name key="l_automne" corresp="la_thorilliere"><name key="l_hiver" corresp="louis_bejart">Saisons</name></name></name></name> se
           chargeoient des mets delicieux qu’elles deuoient porter, pour seruir deuant <persName
             key="louisxiv marie_therese anne_d_autriche">leurs Majestez</persName> la magnifique
           collation qui estoit préparée: Les douze <name key="zodiaque">Signes du Zodiaque</name>,
-          &amp; <name key="saisons"
-            corresp="therese_duparc gros_rene la_thorillere louis_bejart">les quatre
-            Saisons</name> danserent dans le rond vne des plus belles entrées de Ballet, qu’on eust
+          &amp; <name key="le_printemps" corresp="therese_duparc"><name key="l_ete" corresp="gros_rene"><name key="l_automne" corresp="la_thorilliere"><name key="l_hiver" corresp="louis_bejart">les quatre
+            Saisons</name></name></name></name> danserent dans le rond vne des plus belles entrées de Ballet, qu’on eust
           encore veuë.</p>
-        <p><name key="printemps" corresp="therese_duparc">Le Printemps</name> parut en suite sur
+        <p><name key="le_printemps" corresp="therese_duparc">Le Printemps</name> parut en suite sur
           <tech type="animal">vn Cheual d’Espagne</tech>, representé par <persName key="therese_duparc" role="acteur">Mlle. du
             Parc</persName>; qui auec le sexe et les aduantages d’vne femme, faisoit voir l’addresse
           d’vn homme: <tech type="costume">Son habit estoit vert en broderie d’argent, &amp; de fleurs au naturel</tech>.</p>
-        <p>L’<name key="ete" corresp="gros_rene">Esté</name> le suiuoit, representé par le
+        <p>L’<name key="l_ete" corresp="gros_rene">Esté</name> le suiuoit, representé par le
             <persName key="gros_rene" role="acteur">Sieur du Parc</persName>, sur <tech type="animal">vn Elephant</tech>,
           couuert d’vne riche housse.</p>
-        <p>L’<name key="automne" corresp="la_thorilliere">Automne</name> aussi duantageusement
+        <p>L’<name key="l_automne" corresp="la_thorilliere">Automne</name> aussi duantageusement
           vestuë, representée par le <persName key="la_thorilliere" role="acteur">Sieur de la
             Thorilliere</persName>, venoit apres monté sur <tech type="animal">vn Chameau</tech>.</p>
-        <p>L’<name key="hiver" corresp="louis_bejart">Hyuer</name> suiuoit sur <tech type="animal">vn Ours</tech>, representé
+        <p>L’<name key="l_hiver" corresp="louis_bejart">Hyuer</name> suiuoit sur <tech type="animal">vn Ours</tech>, representé
           par le <persName key="louis_bejart" role="acteur">Sieur Bejard</persName>.</p>
         <p>Leur suite estoit composée de quarante-huit personnes, qui portoient toutes sur leurs
           testes de grands bassins pour la collation.</p>
@@ -590,7 +591,7 @@
           cét agreable faix.</p>
         <p>Douze autres, comme Moissonneurs, <tech type="costume">vestus d’habits conformes à cette profession, mais fort
           riches</tech>, portoient des bassins de cette couleur incarnate, qu’on remarque au Soleil Leuant,
-          &amp; suiuoient l’<name key="ete" corresp="gros_rene">Esté</name>.</p>
+          &amp; suiuoient l’<name key="l_ete" corresp="gros_rene">Esté</name>.</p>
         <p>Douze vestus en Vandangeurs, estoient couuerts de feuilles de vignes &amp; de grappes de
           raisins; &amp; portoient dans des paniers feuille-morte, remplis de petits bassins de
           cette mesme couleur, diuers autres fruits &amp; confitures, à la suite de l’<name
@@ -599,7 +600,7 @@
           marquoient la froideur &amp; la foiblesse portant, dans des bassins couuerts d’vne glace
           &amp; <pb n="17" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f25"/> d’vne neige
           si bien contrefaites, qu’on les eust pris pour la chose mrsme, ce qu’ils deuoient
-          contribüer à la Collation, &amp; suiuoient l’<name key="hiver" corresp="louis_bejart"
+          contribüer à la Collation, &amp; suiuoient l’<name key="l_hiver" corresp="louis_bejart"
             >Hyuer</name>.</p>
         <p>Quatorze Concertans de <name key="pan" corresp="moliere">Pan</name> &amp; de <name
             key="diane" corresp="madeleine_bejart">Diane</name> precedoient ces deux Diuinitez,
@@ -613,11 +614,10 @@
             corresp="madeleine_bejart">Diane</name>.</p>
         <p>Dix-huit Pages du Roy, <tech type="costume">fort richement vestus</tech>, qui deuoient seruir les Dames à Table,
           faisoient les derniers de cette Troupe ; laquelle estant rangée, <name key="pan"
-            >Pan</name>, <name key="diane">Diane</name> &amp; les <name key="saisons"
-            corresp="therese_duparc gros_rene la_thorillere louis_bejart">Saisons</name> se
+            >Pan</name>, <name key="diane">Diane</name> &amp; les <name key="le_printemps" corresp="therese_duparc"><name key="le_ete" corresp="gros_rene"><name key="l_automne" corresp="la_thorilliere"><name key="l_hiver" corresp="louis_bejart">Saisons</name></name></name></name> se
           presentant deuant <persName key="marie_therese">la Reyne</persName>: <name
             key="printemps">Le Printemps</name> luy addressa le premier ces Vers.</p>
-        <label type="speaker"><name key="printemps" corresp="therese_duparc">LE
+        <label type="speaker"><name key="le_printemps" corresp="therese_duparc">LE
           PRINTEMPS</name>.</label>
         <stage>A <persName key="marie_therese">LA REYNE</persName>.</stage>
         <lg type="madrigal?">
@@ -627,13 +627,13 @@
           <l rend="i">Méprisant les jasmins, les oeillets &amp; les roses,</l>
           <l rend="i">Pour payer mon tribut j’ay fait choix de ces lys,</l>
           <l rend="i">Que de vos premiers ans vous auez tant cheris:</l>
-          <l rend="i"><name key="louisxiv">LOVIS</name> les fait briller du couchant à
+          <l rend="i"><persName key="louisxiv">LOVIS</persName> les fait briller du couchant à
             l’aurore,</l>
           <l rend="i">Tout l’Vnivers charmé les respecte et les craint;</l>
           <l rend="i">Mais leur regne est plus doux &amp; plus puissant encore,</l>
           <l rend="i">Quand ils brillent sur vostre teint.</l>
         </lg>
-        <label type="speaker"><name key="ete" corresp="gros_rene">L'ESTÉ</name>.</label>
+        <label type="speaker"><name key="l_ete" corresp="gros_rene">L'ESTÉ</name>.</label>
         <lg>
           <!-- forme poétique à vérifier -->
           <l rend="i">Surpris vn peu trop promptement,</l>
@@ -644,7 +644,7 @@
           <l rend="i">Vne ample moisson de Lauriers.</l>
         </lg>
         <pb n="18" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f26"/>
-        <label type="speaker"><name key="automne" corresp="la_thorilliere"
+        <label type="speaker"><name key="l_automne" corresp="la_thorilliere"
           >L'AUTOMNE</name>.</label>
         <lg>
           <!-- forme poétique à vérifier -->
@@ -658,7 +658,7 @@
           <l rend="i">Et qui croist dans vostre maison,</l>
           <l rend="i">Pour faire quelque jour les delices du Monde.</l>
         </lg>
-        <label type="speaker"><name key="hiver" corresp="louis_bejart">L'HYVER</name></label>
+        <label type="speaker"><name key="l_hiver" corresp="louis_bejart">L'HYVER</name></label>
         <lg>
           <!--forme poétique à vérifier-->
           <l rend="i">La neige, les glaçons que j’apporte en ces lieux,</l>
@@ -702,9 +702,9 @@
           deuoit couurir &amp; garnir de fleurs de celuy où elle estoit creuze, vint à se
           decouurir.</p>
         <p>Trente-six Viollons <tech type="costume">tres bien vestus</tech>, parurent derriere sur <tech type="construction">vn petit Theatre</tech>; pendant que
-          Messieurs de la Marche, &amp; Parfait Pere, Frere, &amp; Fils <!-- à identifier -->
-          Controlleurs Generaux, sous les noms de l’Abondance, de la Ioye, de la Propreté, &amp; de
-          la Bonne-Chere; l'a firent couurir par <name key="plaisirs">les Plaisirs</name>, par
+          <persName key="marche_coquet">Messieurs de la Marche</persName>, &amp; <persName key="parfait_pere">Parfait Pere</persName>, <persName key="parfait_frere">Frere</persName>, &amp; <persName key="parfait_fils">Fils</persName> <!-- à identifier -->
+          Controlleurs Generaux, sous les noms de <name key="abondance" corresp="marche_coquet">l’Abondance</name>, de <name key="joie" corresp="parfait_pere">la Ioye</name>, de <name key="proprete" corresp="parfait_frere">la Propreté</name>, &amp; de
+          <name key="bonne_chere" corresp="parfait_fils">la Bonne-Chere</name>; l'a firent couurir par <name key="plaisirs">les Plaisirs</name>, par
             <name key="jeux">les Ieux</name>, par <name key="ris">les Ris</name> &amp; par <name
             key="délices">les Delices</name>.</p>
         <p><persName key="louisxiv marie_therese anne_d_autriche" role="convive">Leurs Majestez</persName> s’y
@@ -815,7 +815,7 @@
           <tech type="construction">le Theatre</tech>, dont <tech type="decor">la decoration estoit
             fort agreable</tech>.</p>
         <p>Aussi-tost qu’on eut tiré la toille, vn grand Concert de plusieurs
-            instruments se fit entendre: Et <name key="laurore" corresp="mlle_hilaire"
+            instruments se fit entendre: Et <name key="l_aurore" corresp="mlle_hilaire"
             >l’Aurore</name> representée par <persName key="hilaire_dupuis" role="acteur">Mademoiselle Hilaire</persName>, ouurit la
           Scene, &amp; chanta ce Recit.</p>
         <pb n="22" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f30"/>
@@ -843,16 +843,15 @@
           <div>
             <head>SCENE DEVXIESME.</head>
             <p>Valets de chiens, &amp; Musiciens.</p>
-            <p>PEndant que <name key="l-aurore" corresp="mlle_hilaire">l’Aurore</name> chantoit ce
-              Recit, quatre Valets de Chiens estoient couchez sur l’Herbe, dont l’vn (sous la figure
-              de <persName key="moliere" role="acteur"><name key="lyciscas"
-                  corresp="moliere">Liciscas, representé par le Sieur de Moliere, excellent Acteur,
-                  de l’inuention duquel estoient les Vers &amp; toute la piece</name></persName>) se
-              trouuoit au milieu de deux, &amp; vn autre à ses pieds : Qui estoient <name
-                key="valets-de-chiens musiciens" corresp="estival louis_don blondel">les
-                Sieurs Estiual, Don, &amp; Blondel de <orgName key="musique">la
-                  Musique du Roy</orgName></name>, dont les voix estoient admirables.</p>
-            <p>Ceux-cy en se reueillant à l’arriuée de <name key="l-aurore" corresp="mlle_hilaire"
+            <p>PEndant que <name key="l_aurore" corresp="mlle_hilaire">l’Aurore</name> chantoit ce
+              Recit, <name key="lyciscas" corresp="moliere"><name key="valets_de_chien" corresp="louis_don"><name key="valets_de_chien" corresp="estival"><name key="valets_de_chien" corresp="francois_blondel">quatre Valets de Chiens</name></name></name></name> estoient couchez sur l’Herbe, dont l’vn (sous la figure
+              de <name key="lyciscas"
+                corresp="moliere">Liciscas</name>, representé par <persName key="moliere" role="acteur">le Sieur de Moliere</persName>, excellent Acteur,
+                  de l’inuention duquel estoient les Vers &amp; toute la piece) se
+              trouuoit au milieu de deux, &amp; vn autre à ses pieds : Qui estoient les
+              <persName key="estival" role="chanteur">Sieurs Estiual</persName>,  <persName key="louis_don" role="chanteur">Don</persName>, &amp; <persName key="francois_blondel" role="chanteur">Blondel</persName> de <orgName key="musique">la
+                  Musique du Roy</orgName>, dont les voix estoient admirables.</p>
+            <p>Ceux-cy en se reueillant à l’arriuée de <name key="l_aurore" corresp="mlle_hilaire"
                 >l’Aurore</name>, si-tost qu’elle eut chanté, s’ecrierent en Concert.</p>
             <lg>
               <l rend="i">Hola ? hola ? debout, debout, debout : </l>
@@ -860,24 +859,23 @@
               <l rend="i">Hola ? ho debout, viste debout.</l>
             </lg>
             <pb n="23" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f31"/>
-            <label type="speaker">Ier.</label>
+            <label type="speaker"><name>Ier</name>.</label>
             <l rend="i">Iusqu'aux plus sombres lieux le jour se communique,</l>
-            <label type="speaker">IIme.</label>
+            <label type="speaker"><name>IIme</name>.</label>
             <l rend="i">L'air sur les fleurs en perles se resout.</l>
-            <label type="speaker">IIIme.</label>
+            <label type="speaker"><name>IIIme</name>.</label>
             <lg>
               <l rend="i">Les Rossignols commencent leur Musique,</l>
               <l rend="i">Et leurs petits concerts retentissent par tout.</l>
             </lg>
-            <label type="speaker"><name key="valets-de-chiens musiciens"
-                corresp="estival louis_don blondel">TOVS ENSEMBLE</name>.</label>
+            <label type="speaker"><name key="valets_de_chien" corresp="louis_don"><name key="valets_de_chien" corresp="estival"><name key="valets_de_chien" corresp="francois_blondel">TOVS ENSEMBLE</name></name></name>.</label>
             <stage>Parlant à <name key="lyciscas" corresp="moliere">Lyciscas</name>, qui
               dormoit.</stage>
             <lg>
               <l rend="i">Sus; sus debout, viste debout ?</l>
               <l rend="i">Qu'est-cecy, <name key="lyciscas" corresp="moliere">Liciscas</name>,
                 quoy ? tu romfles encore,</l>
-              <l rend="i">Toi qui promettois tant de devancer <name key="l-aurore"
+              <l rend="i">Toi qui promettois tant de devancer <name key="l_aurore"
                   corresp="mlle hilaire">l'Aurore</name> ?</l>
               <l rend="i">Allons debout, viste debout,</l>
               <l rend="i">Pour la Chasse ordonnée il faut preparer tout,</l>
@@ -887,8 +885,7 @@
             <stage> en s'esueillant.</stage>
             <l rend="i">Par la morbleu vous estes de grands braillars vous autres,</l>
             <l rend="i">Et vous auez la gueule ouuerte de bon matin ?</l>
-            <label type="speaker"><name key="valets-de-chiens musiciens"
-                corresp="estival louis_don blondel">MVSICIENS</name>.</label>
+            <label type="speaker">MVSICIENS.</label>
             <lg>
               <l rend="i">Ne vois-tu pas le jour qui se respand par tout?</l>
               <l rend="i">Allons debout, <name key="lyciscas" corresp="moliere">Lyciscas</name>
@@ -896,45 +893,37 @@
             </lg>
             <label type="speaker"><name key="lyciscas" corresp="moliere">LYCISCAS</name>.</label>
             <p rend="i">Hé ! laissez-moi dormir encore vn peu je vous conjure.</p>
-            <label type="speaker"><name key="valets-de-chiens musiciens"
-                corresp="estival louis_don blondel">MVSICIENS</name>.</label>
+            <label type="speaker">MVSICIENS.</label>
             <p rend="i">Non, non debout, <name key="lyciscas" corresp="moliere">Lyciscas</name>
               debout.</p>
             <label type="speaker"><name key="lyciscas" corresp="moliere">LYCISCAS</name>.</label>
             <p rend="i">Je ne vous demande plus qu'vn petit quart d'heure.</p>
-            <label type="speaker"><name key="valets-de-chiens musiciens"
-                corresp="estival louis_don blondel">MVSICIENS</name>.</label>
+            <label type="speaker">MVSICIENS.</label>
             <p rend="i">Point, point debout, viste debout.</p>
             <label type="speaker"><name key="lyciscas" corresp="moliere">LYCISCAS</name>.</label>
             <p rend="i">Hé ! je vous prie ?</p>
             <pb n="24" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f32"/>
-            <label type="speaker"><name key="valets-de-chiens musiciens"
-                corresp="estival louis_don blondel">MVSICIENS</name>.</label>
+            <label type="speaker">MVSICIENS.</label>
             <p rend="i">Debout.</p>
             <label type="speaker"><name key="lyciscas" corresp="moliere">LYCISCAS</name>.</label>
             <p rend="i">Vn moment.</p>
-            <label type="speaker"><name key="valets-de-chiens musiciens"
-                corresp="estival louis_don blondel">MVSICIENS</name>.</label>
+            <label type="speaker">MVSICIENS.</label>
             <p rend="i">Debout.</p>
             <label type="speaker"><name key="lyciscas" corresp="moliere">LYCISCAS</name>.</label>
             <p rend="i">De grace.</p>
-            <label type="speaker"><name key="valets-de-chiens musiciens"
-                corresp="estival louis_don blondel">MVSICIENS</name>.</label>
+            <label type="speaker">MVSICIENS.</label>
             <p rend="i">Debout.</p>
             <label type="speaker"><name key="lyciscas" corresp="moliere">LYCISCAS</name>.</label>
             <p rend="i">Eh.</p>
-            <label type="speaker"><name key="valets-de-chiens musiciens"
-                corresp="estival louis_don blondel">MVSICIENS</name>.</label>
+            <label type="speaker">MVSICIENS.</label>
             <p rend="i">Debout.</p>
             <label type="speaker"><name key="lyciscas" corresp="moliere">LYCISCAS</name>.</label>
             <p rend="i">Je...</p>
-            <label type="speaker"><name key="valets-de-chiens musiciens"
-                corresp="estival louis_don blondel">MVSICIENS</name>.</label>
+            <label type="speaker">MVSICIENS.</label>
             <p rend="i">Debout.</p>
             <label type="speaker"><name key="lyciscas" corresp="moliere">LYCISCAS</name>.</label>
             <p rend="i">J'auray fait incontinent.</p>
-            <label type="speaker"><name key="valets-de-chiens musiciens"
-                corresp="estival louis_don blondel">MVSICIENS</name>.</label>
+            <label type="speaker">MVSICIENS.</label>
             <lg>
               <l rend="i">Non, non debout, <name key="lyciscas" corresp="moliere">Lyciscas</name>
                 debout :</l>
@@ -946,49 +935,43 @@
               tourmenter comme cela : Vous serez cause que je ne me porteray pas bien de toute la
               journée ; car voyez-vous, le sommeil est necessaire à l'homme, &amp; lors qu'on ne
               dort pas sa refection, il arriue... que... on est ... </p>
-            <label type="speaker">Ier.</label>
+            <label type="speaker"><name>Ier</name>.</label>
             <p rend="i"><name key="lyciscas" corresp="moliere">Lyciscas</name>.</p>
-            <label type="speaker">IIme.</label>
+            <label type="speaker"><name>IIme</name>.</label>
             <p rend="i"><name key="lyciscas" corresp="moliere">Lyciscas</name>.</p>
-            <label type="speaker">IIIme.</label>
+            <label type="speaker"><name>IIIme</name>.</label>
             <p rend="i"><name key="lyciscas" corresp="moliere">Lyciscas</name>.</p>
-            <label type="speaker"><name key="valets-de-chiens musiciens"
-                corresp="estival louis_don blondel">TOVS ENSEMBLE</name>.</label>
+            <label type="speaker"><name key="valets_de_chien" corresp="louis_don"><name key="valets_de_chien" corresp="estival"><name key="valets_de_chien" corresp="francois_blondel">TOVS ENSEMBLE</name></name></name>.</label>
             <p rend="i"><name key="lyciscas" corresp="moliere">Lyciscas</name></p>
             <label type="speaker"><name key="lyciscas" corresp="moliere">LYCISCAS</name>.</label>
             <p rend="i">Diable soit les brailleurs, je voudrois que vous eussiez la gueulle pleine
               de bouillie bien chaude.</p>
-            <label type="speaker"><name key="valets-de-chiens musiciens"
-                corresp="estival louis_don blondel">MVSICIENS</name>.</label>
+            <label type="speaker">MVSICIENS.</label>
             <p rend="i">Debout, debout viste debout, despeschons debout.</p>
             <label type="speaker"><name key="lyciscas" corresp="moliere">LYCISCAS</name>.</label>
             <p rend="i">Ah ! qu'elle fatigue de ne pas dormir son sou.</p>
-            <label type="speaker">Ier.</label>
+            <label type="speaker"><name>Ier</name>.</label>
             <p rend="i">Hola ? oh.</p>
-            <label type="speaker">IIme.</label>
+            <label type="speaker"><name>IIme</name>.</label>
             <p rend="i">Hola ? oh.</p>
-            <label type="speaker">IIIme.</label>
+            <label type="speaker"><name>IIIme</name>.</label>
             <p rend="i">Hola ? oh.</p>
-            <label type="speaker"><name key="valets-de-chiens musiciens"
-                corresp="estival louis_don blondel">TOVS ENSEMBLE</name>.</label>
+            <label type="speaker"><name key="valets_de_chien" corresp="louis_don"><name key="valets_de_chien" corresp="estival"><name key="valets_de_chien" corresp="francois_blondel">TOVS ENSEMBLE</name></name></name>.</label>
             <p rend="i">Oh ! oh ! oh ! oh ! oh.</p>
             <label type="speaker"><name key="lyciscas" corresp="moliere">LYCISCAS</name>.</label>
             <p rend="i">Oh ! oh ! oh ! oh ! oh. La peste soit des gens avec leurs chiens de
               hurlemens, je me donne au Diable si je ne vous assomme : Mais voyez vn peu quel diable
               d'entousiasme il leur prend, de me venir chanter aux oreilles comme cela,
               je.......</p>
-            <label type="speaker"><name key="valets-de-chiens musiciens"
-                corresp="estival louis_don blondel">MVSICIENS</name>.</label>
+            <label type="speaker">MVSICIENS.</label>
             <p rend="i">Debout.</p>
             <label type="speaker"><name key="lyciscas" corresp="moliere">LYCISCAS</name>.</label>
             <p rend="i">Encore.</p>
-            <label type="speaker"><name key="valets-de-chiens musiciens"
-                corresp="estival louis_don blondel">MVSICIENS</name>.</label>
+            <label type="speaker">MVSICIENS.</label>
             <p rend="i">Debout.</p>
             <label type="speaker"><name key="lyciscas" corresp="moliere">LYCISCAS</name>.</label>
             <p rend="i">Le diable vous emporte.</p>
-            <label type="speaker"><name key="valets-de-chiens musiciens"
-                corresp="estival louis_don blondel">MVSICIENS</name>.</label>
+            <label type="speaker">MVSICIENS.</label>
             <p rend="i">Debout.</p>
             <pb n="26" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f34"/>
             <label type="speaker"><name key="lyciscas" corresp="moliere">LYCISCAS</name>.</label>
@@ -1019,27 +1002,27 @@
         <div>
           <list>
             <head>NOMS DES ACTEVRS de la Comedie</head>
-            <item><name>LA PRINCESSE D'ELIDE</name>. <persName key="armande_bejart">Mademoiselle de
+            <item><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE D'ELIDE</name>. <persName key="armande_bejart">Mademoiselle de
                 Moliere</persName>.</item>
-            <item><name>AGLANTE, cousine de la Princesse</name>. <persName key="therese_duparc"
+            <item><name key="aglante" corresp="there_duparc">AGLANTE, cousine de la Princesse</name>. <persName key="therese_duparc"
                 >Mademoiselle du Parc</persName>.</item>
-            <item><name>CINTHIE, Cousine de la Princesse</name>. <persName key="mlle_de_brie"
+            <item><name key="cinthie" corresp="mlle_de_brie">CINTHIE, Cousine de la Princesse</name>. <persName key="mlle_de_brie"
                 >Mademoiselle de Brie</persName>.</item>
-            <item><name>PHILIS, suiuante de la Princesse</name>. <persName key="madeleine_bejart"
+            <item><name key="philis" corresp="madeleine_bejart">PHILIS, suiuante de la Princesse</name>. <persName key="madeleine_bejart"
                 >Mademoiselle Bejart</persName>.</item>
-            <item><name>IPHITAS, Pere de la Princesse</name>. <persName key="hubert">Le
+            <item><name key="iphitas" corresp="andre_hubert">IPHITAS, Pere de la Princesse</name>. <persName key="andre_hubert">Le
                 Sieur Hubert</persName>.</item>
-            <item><name>EVRIALE, ou le Prince d'Ithaque</name>. <persName key="la_grange">Le Sieur
+            <item><name key="euriale" corresp="la_grange">EVRIALE, ou le Prince d'Ithaque</name>. <persName key="la_grange">Le Sieur
                 la Grange</persName>.</item>
-            <item><name>ARISTOMENE, ou le Prince de Messene.</name>. <persName key="du_croisy">Le
+            <item><name key="aristomene" corresp="du_croisy">ARISTOMENE, ou le Prince de Messene.</name>. <persName key="du_croisy">Le
                 Sieur du Croisy</persName>.</item>
-            <item><name>THEOCLE, ou le Prince de Pyle.</name>. <persName key="louis_bejart">Le
+            <item><name key="theocle" corresp="louis_bejart">THEOCLE, ou le Prince de Pyle.</name>. <persName key="louis_bejart">Le
                 Sieur Bejart</persName>.</item>
-            <item><name>ARBATE, Gouuerneur du Prince d'Ithaque.</name>. <persName
-                key="la_thorilliere">Le Sieur de La Thorilliere</persName>.</item>
-            <item><name>Moron, plaisant de la Princesse.</name>. <persName key="moliere">Le Sieur
+            <item><name key="arbate" corresp="la_thorilliere">ARBATE, Gouuerneur du Prince d'Ithaque.</name>. <persName
+              key="la_thorilliere">Le Sieur de La Thorilliere</persName>. <!--Attention, dans ms_piephilidor, c'est l'inverse : "la_thorilliere" incarne Théocle et "louis_bejart" Arbate. Voir la note ligne 868 du document "i_pie1673".--> </item>
+            <item><name key="moron" corresp="moliere">Moron, plaisant de la Princesse.</name>. <persName key="moliere">Le Sieur
                 de Moliere</persName>.</item>
-            <item><name>Vn suivant.</name>. <persName key="marin_prevost">Le Sieur
+            <item><name key="un_suivant" corresp="marin_prevost">Vn suivant.</name>. <persName key="marin_prevost">Le Sieur
                 Preuost</persName>.</item>
           </list>
         </div>
@@ -2856,10 +2839,10 @@
           <l rend="i">Et ne nous rendons pas au moins sans resistance.</l>
         </lg>
         <list>
-          <item><name>Alcine</name>. <persName key="therese_duparc">Madlle. du
+          <item><name key="alcine" corresp="therese_duparc">Alcine</name>. <persName key="therese_duparc">Madlle. du
             Parc</persName>.</item>
-          <item><name>Celie</name>. <persName key="mlle_de_brie">Madlle. de Brie</persName>.</item>
-          <item><name>Dircé</name>. <persName key="armande_bejart">Madlle.
+          <item><name key="celie" corresp="mlle_de_brie">Celie</name>. <persName key="mlle_de_brie">Madlle. de Brie</persName>.</item>
+          <item><name key="dirce" corresp="armande_bejart">Dircé</name>. <persName key="armande_bejart">Madlle.
             Moliere</persName>.</item>
         </list>
         <p>LOrs qu’ils furent acheuez, &amp; qu’<name key="alcine" corresp="therese_duparc"
@@ -2875,15 +2858,14 @@
         <label type="head"><title>BALLET DV PALAIS D'ALCINE</title></label>
         <div>
           <head>PREMIERE ENTRÉE</head>
-          <stage><name key="geants" corresp="manceau vagnard pesan joubert">QVatre
-              Geants</name>, &amp; <name key="nains"
-              corresp="des_airs_fils1 des_airs_fils2 vagnard_fils tutin_fils">quatre
-              Nains</name>.</stage>
+          <stage><name key="geants" corresp="manceau"><name key="geants" corresp="vagnard"><name key="geants" corresp="pesan"><name key="geants" corresp="joubert">QVatre
+            Geants</name></name></name></name>, &amp; <name key="nains" corresp="des_airs_fils1 des_airs_fils2"><name key="nains" corresp="vagnard_fils"><name key="nains" corresp="tutin_fils">quatre
+              Nains</name></name></name>.</stage>
           <list>
-            <item><name>Geants</name>. Les Sieurs <persName key="manceau">Mançeau</persName>,
+            <item><name key="geants" corresp="manceau"><name key="geants" corresp="vagnard"><name key="geants" corresp="pesan"><name key="geants" corresp="joubert">Geants</name></name></name></name>. Les Sieurs <persName key="manceau">Mançeau</persName>,
                 <persName key="vagnard">Vagnard</persName>, <persName key="pesan"
               >Pesan</persName>, &amp; <persName key="joubert">Ioubert</persName>.</item>
-            <item><name>Nains</name>. Les <persName key="des_airs_fils1 des_airs_fils2">deux
+            <item><name key="nains" corresp="des_airs_fils1 des_airs_fils2"><name key="nains" corresp="vagnard_fils"><name key="nains" corresp="tutin_fils">Nains</name></name></name>. Les <persName key="des_airs_fils1 des_airs_fils2">deux
                 petits Des-Airs</persName>, le <persName key="vagnard_fils">petit
                 Vagnard</persName>, &amp; le <persName key="tutin_fils">petit
               Tutin</persName>.</item>
@@ -2891,13 +2873,11 @@
         </div>
         <div>
           <head>II. ENTRÉE</head>
-          <stage><name key="maures"
-              corresp="d_heureux beauchamp molier la_marre le_chantre de_gan du_pron mercier"
-              >HVit Maures</name> chargez par <name key="alcine" corresp="therese_duparc"
+          <stage><name key="mores" corresp="d_heureux"><name key="mores" corresp="beauchamp"><name key="mores" corresp="molier"><name key="mores" corresp="la_marre"><name key="mores" corresp="le_chantre"><name key="mores" corresp="de_gan"><name key="mores" corresp="du_pron"><name key="mores" corresp="mercier">HVit Maures</name></name></name></name></name></name></name></name> chargez par <name key="alcine" corresp="therese_duparc"
               >Alcine</name> de la garde du dedans, en font vne exacte visite, auec chacun deux
             flambeaux.</stage>
           <list>
-            <item><name>Maures</name>. Messieurs <persName key="d_heureux">d’Heureux</persName>,
+            <item><name key="mores" corresp="d_heureux"><name key="mores" corresp="beauchamp"><name key="mores" corresp="molier"><name key="mores" corresp="la_marre"><name key="mores" corresp="le_chantre"><name key="mores" corresp="de_gan"><name key="mores" corresp="du_pron"><name key="mores" corresp="mercier">Maures</name></name></name></name></name></name></name></name>. Messieurs <persName key="d_heureux">d’Heureux</persName>,
                 <persName key="beauchamp">Beauchamp</persName>, <persName key="molier"
                 >Molier</persName>, <persName key="la_marre">La Marre</persName>, Les Sieurs
                 <persName key="le_chantre">Le Chantre</persName>, <persName key="de_gan">de
@@ -2907,28 +2887,22 @@
         </div>
         <div>
           <head>III. ENTRÉE</head>
-          <p>CEpendant vn despit amoureux oblige <name key="chevaliers"
-              corresp="de_souville raynal des_airs_l_aine des_airs_le_second de_lorge balthazard_martinot"
-              >six Cheualiers</name> qu’<name key="alcine" corresp="therese_duparc">Alcine</name>
+          <p>CEpendant vn despit amoureux oblige <name key="six_chevaliers" corresp="de_souville"><name key="six_chevaliers" corresp="raynal"><name key="six_chevaliers" corresp="des_airs_l_aine"><name key="six_chevaliers" corresp="des_airs_le_second"><name key="six_chevaliers" corresp="de_lorge"><name key="six_chevaliers" corresp="balthazard_martinot">six Cheualiers</name></name></name></name></name></name> qu’<name key="alcine" corresp="therese_duparc">Alcine</name>
             retenoit aupres d’elle, à tenter la sortie de ce Palais; mais la fortune ne secondant
             pas les efforts qu’ils font dans leur desespoir, ils sont vaincus apres vn grand combat,
-            par autant de <name key="monstres"
-              corresp="chicanneau noblet arnald desbrosses desonets la_pierre">Monstres</name>
+            par autant de <name key="monstres" corresp="chicanneau"><name key="monstres" corresp="noblet"><name key="monstres" corresp="arnald"><name key="monstres" corresp="desbrosses"><name key="monstres" corresp="desonnets"><name key="monstres" corresp="la_pierre">Monstres</name></name></name></name></name></name>
             qui les attaquent.</p>
           <p>
-            <name key="chevaliers"
-              corresp="de_souville raynal des_airs_l_aine des_airs_le_second de_lorge balthazard_martinot"
-              >Six Cheualiers</name>, &amp; <name key="monstres"
-              corresp="chicanneau noblet arnald desbrosses desonets la_pierre">six
-              Monstres</name>.</p>
+            <name key="six_chevaliers" corresp="de_souville"><name key="six_chevaliers" corresp="raynal"><name key="six_chevaliers" corresp="des_airs_l_aine"><name key="six_chevaliers" corresp="des_airs_le_second"><name key="six_chevaliers" corresp="de_lorge"><name key="six_chevaliers" corresp="balthazard_martinot">Six Cheualiers</name></name></name></name></name></name>, &amp; <name key="monstres" corresp="chicanneau"><name key="monstres" corresp="noblet"><name key="monstres" corresp="arnald"><name key="monstres" corresp="desbrosses"><name key="monstres" corresp="desonnets"><name key="monstres" corresp="la_pierre">six
+              Monstres</name></name></name></name></name></name>.</p>
           <list>
-            <item><name>Cheualiers</name>. Messieurs <persName key="de_souville">de
+            <item><name key="six_chevaliers" corresp="de_souville"><name key="six_chevaliers" corresp="raynal"><name key="six_chevaliers" corresp="des_airs_l_aine"><name key="six_chevaliers" corresp="des_airs_le_second"><name key="six_chevaliers" corresp="de_lorge"><name key="six_chevaliers" corresp="balthazard_martinot">Cheualiers</name></name></name></name></name></name>. Messieurs <persName key="de_souville">de
                 Souuille</persName>, <persName key="raynal">Raynal</persName>, <persName
                 key="des_airs_l_aine">Des-Airs l’aisné</persName>, <persName
                 key="des_airs_le_second">Des-Airs le second</persName>, <persName key="de_lorge"
                 >De Lorge</persName>, &amp; <persName key="balthazard_martinot"
               >Balthasard</persName>.</item>
-            <item><name>Monstres</name>. les Sieurs <persName key="chicanneau"
+            <item><name key="monstres" corresp="chicanneau"><name key="monstres" corresp="noblet"><name key="monstres" corresp="arnald"><name key="monstres" corresp="desbrosses"><name key="monstres" corresp="desonnets"><name key="monstres" corresp="la_pierre">Monstres</name></name></name></name></name></name>. les Sieurs <persName key="chicanneau"
                 >Chicanneau</persName>, <persName key="noblet">Noblet</persName>, <persName
                 key="arnald">Arnald</persName>, <persName key="desbrosses">Desbrosses</persName>,
                 <persName key="desonnets">Desonets</persName>, &amp; <persName key="la_pierre">la
@@ -2940,22 +2914,20 @@
           <head>IV. ENTRÉE</head>
           <stage><name key="alcine" corresp="therese_duparc">Alcine</name> allarmée de cét
             accident, inuoque de nouueau tous ses <name key="demons">Esprits</name>, &amp; leur
-            demande secours: il s’en presente <name key="demons_agiles"
-              corresp="saint_andre mmagny">deux à elle, qui font des sauts auec vne force, &amp;
-              vne agilité merueilleuses</name>.</stage>
+            demande secours: il s’en presente deux à elle, qui font des sauts auec vne force, &amp;
+              vne agilité merueilleuses.</stage>
           <list>
-            <item><name>Demons agilles</name>. Les Sieurs <persName key="saint_andre">S.
+            <item><name key="demons_agiles" corresp="saint_andre"><name key="demons_agiles" corresp="magny">Demons agilles</name></name>. Les Sieurs <persName key="saint_andre">S.
                 André</persName>, &amp; <persName key="magny">Magny</persName>.</item>
           </list>
         </div>
         <div>
           <head>V. ENTRÉE</head>
-          <stage>D’Autres <name key="demons_sauteurs" corresp="tutin brodiere peson bureau"
-              >Demons</name> viennent encore, &amp; semblent asseurer <name key="alcine"
+          <stage>D’Autres <name key="demons_sauteurs" corresp="tutin"><name key="demons_sauteurs" corresp="la_brodiere"><name key="demons_sauteurs" corresp="pesan"><name key="demons_sauteurs" corresp="bureau">Demons</name></name></name></name> viennent encore, &amp; semblent asseurer <name key="alcine"
               corresp="therese_duparc">la Magicienne</name> qu’ils n’oublieront rien pour son
             repos.</stage>
           <list>
-            <item><name>Autres Demons Sauteurs</name>. Les Sieurs <persName key="tutin"
+            <item><name key="demons_sauteurs" corresp="tutin"><name key="demons_sauteurs" corresp="la_brodiere"><name key="demons_sauteurs" corresp="pesan"><name key="demons_sauteurs" corresp="bureau">Autres Demons Sauteurs</name></name></name></name>. Les Sieurs <persName key="tutin"
                 >Tutin</persName>, <persName key="la_brodiere">La Brodiere</persName>, <persName
                 key="pesan">Pesan</persName>,&amp; <persName key="bureau"
               >Bureau</persName>.</item>
@@ -2975,15 +2947,15 @@
               aussi-tost reduit en cendres par vn <tech type="feux-artifice">Feu d’artifice</tech>, qui met fin à cette avanture,
               &amp; aux diuertissemens de l’Isle Enchantée.</stage>
           <list>
-            <item><name>Alcine</name>. <persName key="therese_duparc">Madlle. du
+            <item><name key="alcine" corresp="therese_duparc">Alcine</name>. <persName key="therese_duparc">Madlle. du
               Parc</persName>.</item>
-            <item><name>Melisse</name>. <persName key="durfort_de_lorge">De Lorge</persName>.</item>
-            <item><name>Roger</name>. <persName key="beauchamp">M. Beauchamp</persName>.</item>
-            <item><name>Cheualiers</name>. Messieurs <persName key="d_heureux"
+            <item><name key="melisse" corresp="durfort_de_lorge">Melisse</name>. <persName key="durfort_de_lorge">De Lorge</persName>.</item>
+            <item><name key="roger" corresp="beauchamp">Roger</name>. <persName key="beauchamp">M. Beauchamp</persName>.</item>
+            <item><name key="chevaliers" corresp="d_heureux"><name key="chevaliers" corresp="raynal"><name key="chevaliers" corresp="du_pron"><name key="chevaliers" corresp="desbrosses">Cheualiers</name></name></name></name>. Messieurs <persName key="d_heureux"
               >d’Heureux</persName>, <persName key="raynal">Raynal</persName>, <persName
                 key="du_pron">Du Pron</persName>, &amp; <persName key="desbrosses"
                 >Desbrosses</persName>.</item>
-            <item><name>Escuyers</name>. Messieurs <persName key="la_marre">La Marre</persName>,
+            <item><name key="ecuyers" corresp="la_marre"><name key="ecuyers" corresp="le_chantre"><name key="ecuyers" corresp="de_gan"><name key="ecuyers" corresp="mercier">Escuyers</name></name></name></name>. Messieurs <persName key="la_marre">La Marre</persName>,
                 <persName key="le_chantre">Le Chantre</persName>, <persName key="de_gan">De
                 Gan</persName>, &amp; <persName key="mercier">Mercier</persName>.</item>
           </list>
