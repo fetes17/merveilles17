@@ -15,6 +15,10 @@
         <respStmt>
           <name> Mathilde Nicolas. </name>
         </respStmt>
+        <respStmt>
+          <name>Marion Ignace</name>
+          <resp>Balisage</resp>
+        </respStmt>
       </editionStmt>
       <publicationStmt>
         <publisher>Université d’Artois - Lille, MESHS</publisher>
@@ -161,7 +165,7 @@
         </p>
         <p>Le <persName key="anne_de_noailles" role="acteur">Duc de Noailles</persName>. <name key="oger_le_danois" corresp="anne_de_noailles">Oger
             le Danois</name> Iuge du Camp.</p>
-        <l><name>CE Paladin</name> s’applique a cette seule affaire</l>
+        <l><name key="oger_le_danois" corresp="anne_de_noailles">CE Paladin</name> s’applique a cette seule affaire</l>
         <l>De seruir dignement le plus puissant des Rois,</l>
         <l>Comme pour bien juger il faut sçavoir bien faire</l>
         <l>Ie doute que personne appelle de sa voix.</l>
@@ -274,7 +278,7 @@
         <pb n="14"/>
         <l>VOicy l’honneur du Siecle, aupres de qui nous sommes,</l>
         <l>Et mesme les <name>Geants</name>, de mediocres Hommes,</l>
-        <l>Et ce franc <name>Cheualier</name>, à tout venant tout prest</l>
+        <l>Et ce franc <name key="olivier" corresp="cm_de_belleforiere">Cheualier</name>, à tout venant tout prest</l>
         <l>Toûjours pour quelque Iouste a la lance en arrest.</l>
         <p><persName key="louis_crevant" role="acteur">Les Marquis d’Humieres</persName>, &amp;
             <persName key="jf_de_labaume" role="acteur">de la Valliere</persName>.</p>
@@ -319,7 +323,7 @@ Balisage ?-->GENÉVRE</l>
         <l>Quand il est question de se mettre en campagne,</l>
         <l>Et pour ne vous en point mentir</l>
         <l>C’est le pur sang de <name key="charlemagne">Charlemagne</name>.</l>
-        <p><name>APollon</name> paroist sur <tech type="machine_temps">vn Char</tech>, conduit par <name key="le_temps" corresp="millet">le
+        <p><name key="apollon" corresp="la_grange">APollon</name> paroist sur <tech type="machine_temps">vn Char</tech>, conduit par <name key="le_temps" corresp="millet">le
           Temps</name> ; ayant à ses pieds <name key="le_siecle_d_airain" corresp="mlle_de_brie"><name key="le_siecle_d_or" corresp="armande_bejart"><name 
             key="le_siecle_d_argent" corresp="andre_hubert"><name key="le_siecle_de_fer" corresp="du_croisy">les quatre Siecles</name></name></name></name>, enuironné <name key="douze_heures" corresp="de_souville"><name key="douze_heures" corresp="paysan"><name key="douze_heures" corresp="la_marre"><name key="douze_heures" corresp="pesan"><name key="douze_heures" corresp="durfort_de_lorge"><name key="douze_heures" corresp="de_gan"><name key="douze_heures" corresp="magny"><name key="douze_heures" corresp="manceau"><name key="douze_heures" corresp="joubert"><name key="douze_heures" corresp="noblet"><name key="douze_heures" corresp="arnald"><name key="douze_heures" corresp="desonnets">des
               douze heures du jour</name></name></name></name></name></name></name></name></name></name></name></name>, &amp; <name key="douze_zodiaque" corresp="beauchamp"><name key="douze_zodiaque" corresp="d_heureux"><name key="douze_zodiaque" corresp="raynal"><name key="douze_zodiaque" corresp="des_airs_l_aine"><name key="douze_zodiaque" corresp="chicanneau"><name key="douze_zodiaque" corresp="le_chantre"><name key="douze_zodiaque" corresp="des_airs_le_second"><name key="douze_zodiaque" corresp="du_pron"><name key="douze_zodiaque" corresp="mercier"><name key="douze_zodiaque" corresp="balthazard_martinot"><name key="douze_zodiaque" corresp="saint_andre"><name key="douze_zodiaque" corresp="desbrosses">des douze Signes du Zodiaque</name></name></name></name></name></name></name></name></name></name></name></name>.</p>
@@ -665,7 +669,7 @@ Balisage ?-->Hymen y
           <l>Et tout ce que mon art m’a predit de malheurs,</l>
           <l>En ce songe fut peint de si viues couleurs,</l>
           <l>Qu'à mes yeux éueillez sans cesse il represente</l>
-          <l>Le pouuoir de <name>Melisse</name>, &amp; l’heur de <name>Bradamante</name>.</l>
+          <l>Le pouuoir de <name key="melisse" corresp="durfort_de_lorge">Melisse</name>, &amp; l’heur de <name>Bradamante</name>.</l>
           <l>I’avois preueu ces maux, mais les charmans plaisirs,</l>
           <l>Qui sembloient en ces lieux preuenir nos desirs ;</l>
           <l>Nos superbes palais, nos jardins, nos campagnes,</l>
@@ -692,7 +696,7 @@ Balisage ?-->Hymen y
           <l>Que les accens plaintifs de vos tristes amans:</l>
           <l>Logistile, &amp; ses gens chassez de nos campagnes</l>
           <l>Tremblent encor de peur, cachez dans leurs montagnes;</l>
-          <l>Et le nom de <name>Melisse</name>, en ces lieux inconnu,</l>
+          <l>Et le nom de <name key="melisse" corresp="durfort_de_lorge">Melisse</name>, en ces lieux inconnu,</l>
           <l>Par vos augures seuls jusqu’à nous est venu.</l>
           <label type="speaker"><name key="dirce" corresp="armande_bejart">DIRCÉ</name>.</label>
           <l>Ah ! ne nous flatons point, ce fantosme effroyable</l>
@@ -702,7 +706,7 @@ Balisage ?-->Hymen y
           <label type="speaker"><name key="celie" corresp="mlle_de_brie">CELIE</name>.</label>
           <l>I'y vois vn grand remede, &amp; facile à tenter ;</l>
           <l>Vne <persName key="anne_d_autriche">Reyne</persName> paroist, dont le secours propice</l>
-          <l>Nous sçaura guarentir des efforts de <name>Melisse</name> :</l>
+          <l>Nous sçaura guarentir des efforts de <name key="melisse" corresp="durfort_de_lorge">Melisse</name> :</l>
           <l>Par tout de cette <persName key="anne_d_autriche">Reyne</persName> on vante la bonté.</l>
           <l>Et l’on dit que son coeur, de qui la fermeté,</l>
           <l>Des flots les plus mutins méprisa l’insolence,</l>
@@ -833,7 +837,7 @@ Balisage ?-->Hymen y
           <pb n="10"/>
           <p>Mais à peine commence-t’elle à se rasseurer, qu’elle voit paroistre aupres de
             <name key="roger" corresp="beauchamp">Roger</name>, &amp; de quelques <name key="chevaliers" corresp="d_heureux"><name key="chevaliers" corresp="raynal"><name key="chevaliers" corresp="du_pron"><name key="chevaliers" corresp="desbrosses">Cheualiers</name></name></name></name> de sa suitte, la sage
-              <name>Melisse</name>, sous la forme d’<name>Atlas</name>; elle court aussi-tost pour
+            <name key="melisse" corresp="durfort_de_lorge">Melisse</name>, sous la forme d’<name>Atlas</name>; elle court aussi-tost pour
             empescher l’effet de son intention; mais elle arriue trop tard : <name key="melisse" corresp="durfort_de_lorge">Melisse</name> a
             déja mis au doigt de ce braue <name key="roger" corresp="beauchamp">Cheualier</name> la fameuse bague qui destruit les
             enchantemens ; lors <tech type="bruitage">vn coup de Tonnerre</tech>, suiui de <tech type="lumieres">plusieurs esclairs</tech>, marque la
@@ -909,7 +913,7 @@ Balisage ?-->Hymen y
           <p><persName key="anne_de_noailles" role="acteur">Monsieur le Duc de Noailles</persName>. <name key="oger_le_danois" corresp="anne_de_noailles">Oger le Danois</name>.</p>
           <p><seg ana="description">Couleur de feu, noir &amp; argent</seg>.</p>
           <pb n="3"/>
-          <p><name>Cheualiers</name>, &amp; leurs couleurs.</p>
+          <p><name key="roland" corresp="hj_bourbon_conde"><name key="aquilant" corresp="henri_ii_de_guise"><name key="griffon_le_blanc" corresp="henri_de_lorraine"><name key="renaud" corresp="jb_gaston_foix_candale"><name key="dudon" corresp="armand_du_cambout"><name key="astolphe" corresp="henri_de_daillon"><name key="olivier" corresp="cm_de_belleforiere"><name key="richardet" corresp="louis_marie_aumont_rochebaron"><name key="ariodant" corresp="louis_crevant"><name key="zerbin" corresp="jf_de_labaume">Cheualiers</name></name></name></name></name></name></name></name></name></name>, &amp; leurs couleurs.</p>
           <p><persName key="hj_bourbon_conde" role="acteur">Monsieur le Duc</persName>. <name key="roland" corresp="hj_bourbon_conde">Roland</name>.</p>
           <p><seg ana="description">Couleur de feu blanc &amp; argent</seg>.</p>
           <p><persName key="henri_ii_de_guise" role="acteur">Monsieur le Duc de Guise</persName>. <name key="aquilant" corresp="henri_ii_de_guise">Aquilant le noir</name>.</p>
@@ -1190,7 +1194,7 @@ Balisage ?-->Hymen y
             <item><persName key="madeleine_bejart" role="acteur">Madlle. Bejart</persName>. <name key="diane" corresp="madeleine_bejart">Diane</name>.</item>
           </list>
           <p>Vingt-huit de leur suite.</p>
-          <p><name>Officiers de la bouche</name>.</p>
+          <p><name key="officiers_bouche" corresp="baudoin"><name key="officiers_bouche" corresp="benoist"><name key="officiers_bouche" corresp="du_moustier"><name key="officiers_bouche" corresp="gaspard_harsent"><name key="officiers_bouche" corresp="gaspard_de_mouet"><name key="officiers_bouche" corresp="irieux_magontier"><name key="officiers_bouche" corresp="jean_magontier"><name key="officiers_bouche" corresp="magontier_garde_vaisselle"><name key="officiers_bouche" corresp="suisses"><name key="officiers_bouche" corresp="castel"><name key="officiers_bouche" corresp="francois_moussu"><name key="officiers_bouche" corresp="jacques_moussu"><name key="officiers_bouche" corresp="turbau"><name key="officiers_bouche" corresp="faure"><name key="officiers_bouche" corresp="bailly"><name key="officiers_bouche" corresp="jean_moran"><name key="officiers_bouche" corresp="antoine_moran"><name key="officiers_bouche" corresp="claude_brochet"><name key="officiers_bouche" corresp="dominique_brochet"><name key="officiers_bouche" corresp="bresler"><name key="officiers_bouche" corresp="elie"><name key="officiers_bouche" corresp="pidou"><name key="officiers_bouche" corresp="robbe"><name key="officiers_bouche" corresp="tours_quintener"><name key="officiers_bouche" corresp="victor_herck"><name key="officiers_bouche" corresp="samufin"><name key="officiers_bouche" corresp="sudan"><name key="officiers_bouche" corresp="riemer"><name key="officiers_bouche" corresp="humberk">Officiers de la bouche</name></name></name></name></name></name></name></name></name></name></name></name></name></name></name></name></name></name></name></name></name></name></name></name></name></name></name></name></name>.</p>
           <list>
             <item><persName key="baudouin" role="organisation">Baudoüin</persName>.</item>
             <item><persName key="benoist" role="organisation">Benoist</persName>.</item>
