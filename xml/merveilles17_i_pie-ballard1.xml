@@ -1277,7 +1277,7 @@ Balisage ?-->Hymen y
           <p>La Comedie de Moliere, Musique &amp; Entrée de Ballet.</p>
           <p><name key="l_aurore" corresp="hilaire_dupuis">L’AVRORE</name>.</p>
           <p><persName key="hilaire_dupuis" role="acteur">Madlle. Hilaire</persName>.</p>
-          <p><name>Quatre Valets de Chiens</name>, qui doiuent chanter.</p>
+          <p><name key="valets_de_chien" corresp="estival"><name key="valets_de_chien" corresp="louis_don"><name key="valets_de_chien" corresp="francois_blondel"><name key="valets_de_chien" corresp="molliere">Quatre Valets de Chiens</name></name></name></name>, qui doiuent chanter.</p>
           <list>
             <item><persName key="estival" role="acteur chanteur">Estual</persName>.</item>
             <item><persName key="louis_don" role="acteur chanteur">Don</persName>.</item>
@@ -1472,13 +1472,13 @@ Balisage ?-->Hymen y
             <item><persName key="la_pierre" role="acteur">La Pierre</persName>.</item>
           </list>
           <label type="head">IV. ENTRÉE.</label>
-          <p><name>Demons Agilles</name>.</p>
+          <p><name key="demons_agiles" corresp="saint_andre"><name key="demons_agiles" corresp="tartas">Demons Agilles</name></name>.</p>
           <list>
             <item><persName key="tartas" role="acteur">Tartas</persName>.</item>
             <item><persName key="saint_andre" role="acteur">S. André</persName>.</item>
           </list>
           <label type="head">V. ENTRÉE.</label>
-          <p>Autres <name>Demons Sauteurs</name>.</p>
+          <p>Autres <name key="demons_sauteurs" corresp="tutin"><name key="demons_sauteurs" corresp="la_brodiere"><name key="demons_sauteurs" corresp="pesan"><name key="demons_sauteurs" corresp="bureau">Demons Sauteurs</name></name></name></name>.</p>
           <list>
             <item><persName key="tutin" role="acteur">Tutin</persName>.</item>
             <item><persName key="la_brodiere" role="acteur">La Brodiere</persName>.</item>
@@ -1487,14 +1487,14 @@ Balisage ?-->Hymen y
           </list>
           <pb n="17"/>
           <label type="head">VI ET DERNIERE ENTRÉE.</label>
-          <p><name>Alcine</name>, <name>Melisse</name>, <name>Roger</name>.</p>
+          <p><name key="alcine" corresp="therese_duparc">Alcine</name>, <name key="melisse" corresp="durfort_de_lorge">Melisse</name>, <name key="roger" corresp="beauchamp">Roger</name>.</p>
           <p><name>Quatre Cheualiers</name>, &amp; <name>quatre Escuyers</name>.</p>
           <list>
-            <item><persName key="therese_duparc" role="acteur">Madlle. du Parc</persName>. <name>Alcine</name>.</item>
-            <item><persName key="durfort_de_lorge" role="acteur">De Lorge</persName>. <name>Melisse</name>.</item>
-            <item><persName key="beauchamp" role="acteur">Beauchamp</persName>. <name>Roger</name>.</item>
+            <item><persName key="therese_duparc" role="acteur">Madlle. du Parc</persName>. <name key="alcine" corresp="therese_duparc">Alcine</name>.</item>
+            <item><persName key="durfort_de_lorge" role="acteur">De Lorge</persName>. <name key="melisse" corresp="durfort_de_lorge">Melisse</name>.</item>
+            <item><persName key="beauchamp" role="acteur">Beauchamp</persName>. <name key="roger" corresp="beauchamp">Roger</name>.</item>
           </list>
-          <p><name>Cheualiers</name>.</p>
+          <p><name key="chevaliers" corresp="d_heureux"><name key="chevaliers" corresp="raynal"><name key="chevaliers" corresp="du_pron"><name key="chevaliers" corresp="desbrosses"><name key="chevaliers" corresp="escuyers"><name key="chevaliers" corresp="la_marre"><name key="chevaliers" corresp="le_chantre"><name key="chevaliers" corresp="de_gan"><name key="chevaliers" corresp="mercier">Cheualiers</name></name></name></name></name></name></name></name></name>.</p>
           <list>
             <item><persName key="d_heureux" role="acteur">D’Heureux</persName>,</item>
             <item><persName key="raynal" role="acteur">Raynal</persName>,</item>
