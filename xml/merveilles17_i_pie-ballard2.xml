@@ -449,7 +449,7 @@
           entortillé de Lauriers, auec ces mots.</p>
         <l ana="devise" xml:lang="la" rend="i">Certo ferit.</l>
         <p><pb n="13" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f21"/>
-          <name>VIngt Pasteurs</name>, chargez des diuers pieces de la Barrière, qui deuoit estre
+          <name key="pasteur">VIngt Pasteurs</name>, chargez des diuers pieces de la Barrière, qui deuoit estre
           dressée pour la Course de Bague<!-- encoder divertissement -->, formoient la derniere
           Troupe qui entra dans la Lice. Ils portoient <tech type="costume">des vestes couleur de feu enrichie d’argent,
           &amp; des coiffures de mesmes.</tech></p>
@@ -842,7 +842,7 @@
           </div>
           <div>
             <head>SCENE DEVXIESME.</head>
-            <p>Valets de chiens, &amp; Musiciens.</p>
+            <p><name key="lyciscas" corresp="moliere"><name key="valets_de_chien" corresp="louis_don"><name key="valets_de_chien" corresp="estival"><name key="valets_de_chien" corresp="francois_blondel">Valets de chiens</name></name></name></name>, &amp; <name key="musiciens">Musiciens</name>.</p>
             <p>PEndant que <name key="l_aurore" corresp="mlle_hilaire">l’Aurore</name> chantoit ce
               Recit, <name key="lyciscas" corresp="moliere"><name key="valets_de_chien" corresp="louis_don"><name key="valets_de_chien" corresp="estival"><name key="valets_de_chien" corresp="francois_blondel">quatre Valets de Chiens</name></name></name></name> estoient couchez sur l’Herbe, dont l’vn (sous la figure
               de <name key="lyciscas"
@@ -859,11 +859,11 @@
               <l rend="i">Hola ? ho debout, viste debout.</l>
             </lg>
             <pb n="23" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f31"/>
-            <label type="speaker"><name>Ier</name>.</label>
+            <label type="speaker"><name key="valets_de_chien">Ier</name>.</label>
             <l rend="i">Iusqu'aux plus sombres lieux le jour se communique,</l>
-            <label type="speaker"><name>IIme</name>.</label>
+            <label type="speaker"><name key="valets_de_chien">IIme</name>.</label>
             <l rend="i">L'air sur les fleurs en perles se resout.</l>
-            <label type="speaker"><name>IIIme</name>.</label>
+            <label type="speaker"><name key="valets_de_chien">IIIme</name>.</label>
             <lg>
               <l rend="i">Les Rossignols commencent leur Musique,</l>
               <l rend="i">Et leurs petits concerts retentissent par tout.</l>
@@ -885,7 +885,7 @@
             <stage> en s'esueillant.</stage>
             <l rend="i">Par la morbleu vous estes de grands braillars vous autres,</l>
             <l rend="i">Et vous auez la gueule ouuerte de bon matin ?</l>
-            <label type="speaker">MVSICIENS.</label>
+            <label type="speaker"><name key="musiciens">MVSICIENS</name>.</label>
             <lg>
               <l rend="i">Ne vois-tu pas le jour qui se respand par tout?</l>
               <l rend="i">Allons debout, <name key="lyciscas" corresp="moliere">Lyciscas</name>
@@ -893,37 +893,37 @@
             </lg>
             <label type="speaker"><name key="lyciscas" corresp="moliere">LYCISCAS</name>.</label>
             <p rend="i">Hé ! laissez-moi dormir encore vn peu je vous conjure.</p>
-            <label type="speaker">MVSICIENS.</label>
+            <label type="speaker"><name key="musiciens">MVSICIENS</name>.</label>
             <p rend="i">Non, non debout, <name key="lyciscas" corresp="moliere">Lyciscas</name>
               debout.</p>
             <label type="speaker"><name key="lyciscas" corresp="moliere">LYCISCAS</name>.</label>
             <p rend="i">Je ne vous demande plus qu'vn petit quart d'heure.</p>
-            <label type="speaker">MVSICIENS.</label>
+            <label type="speaker"><name key="musiciens">MVSICIENS</name>.</label>
             <p rend="i">Point, point debout, viste debout.</p>
             <label type="speaker"><name key="lyciscas" corresp="moliere">LYCISCAS</name>.</label>
             <p rend="i">Hé ! je vous prie ?</p>
             <pb n="24" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f32"/>
-            <label type="speaker">MVSICIENS.</label>
+            <label type="speaker"><name key="musiciens">MVSICIENS</name>.</label>
             <p rend="i">Debout.</p>
             <label type="speaker"><name key="lyciscas" corresp="moliere">LYCISCAS</name>.</label>
             <p rend="i">Vn moment.</p>
-            <label type="speaker">MVSICIENS.</label>
+            <label type="speaker"><name key="musiciens">MVSICIENS</name>.</label>
             <p rend="i">Debout.</p>
             <label type="speaker"><name key="lyciscas" corresp="moliere">LYCISCAS</name>.</label>
             <p rend="i">De grace.</p>
-            <label type="speaker">MVSICIENS.</label>
+            <label type="speaker"><name key="musiciens">MVSICIENS</name>.</label>
             <p rend="i">Debout.</p>
             <label type="speaker"><name key="lyciscas" corresp="moliere">LYCISCAS</name>.</label>
             <p rend="i">Eh.</p>
-            <label type="speaker">MVSICIENS.</label>
+            <label type="speaker"><name key="musiciens">MVSICIENS</name>.</label>
             <p rend="i">Debout.</p>
             <label type="speaker"><name key="lyciscas" corresp="moliere">LYCISCAS</name>.</label>
             <p rend="i">Je...</p>
-            <label type="speaker">MVSICIENS.</label>
+            <label type="speaker"><name key="musiciens">MVSICIENS</name>.</label>
             <p rend="i">Debout.</p>
             <label type="speaker"><name key="lyciscas" corresp="moliere">LYCISCAS</name>.</label>
             <p rend="i">J'auray fait incontinent.</p>
-            <label type="speaker">MVSICIENS.</label>
+            <label type="speaker"><name key="musiciens">MVSICIENS</name>.</label>
             <lg>
               <l rend="i">Non, non debout, <name key="lyciscas" corresp="moliere">Lyciscas</name>
                 debout :</l>
@@ -935,26 +935,26 @@
               tourmenter comme cela : Vous serez cause que je ne me porteray pas bien de toute la
               journée ; car voyez-vous, le sommeil est necessaire à l'homme, &amp; lors qu'on ne
               dort pas sa refection, il arriue... que... on est ... </p>
-            <label type="speaker"><name>Ier</name>.</label>
+            <label type="speaker"><name key="valets_de_chien">Ier</name>.</label>
             <p rend="i"><name key="lyciscas" corresp="moliere">Lyciscas</name>.</p>
-            <label type="speaker"><name>IIme</name>.</label>
+            <label type="speaker"><name key="valets_de_chien">IIme</name>.</label>
             <p rend="i"><name key="lyciscas" corresp="moliere">Lyciscas</name>.</p>
-            <label type="speaker"><name>IIIme</name>.</label>
+            <label type="speaker"><name key="valets_de_chien">IIIme</name>.</label>
             <p rend="i"><name key="lyciscas" corresp="moliere">Lyciscas</name>.</p>
             <label type="speaker"><name key="valets_de_chien" corresp="louis_don"><name key="valets_de_chien" corresp="estival"><name key="valets_de_chien" corresp="francois_blondel">TOVS ENSEMBLE</name></name></name>.</label>
             <p rend="i"><name key="lyciscas" corresp="moliere">Lyciscas</name></p>
             <label type="speaker"><name key="lyciscas" corresp="moliere">LYCISCAS</name>.</label>
             <p rend="i">Diable soit les brailleurs, je voudrois que vous eussiez la gueulle pleine
               de bouillie bien chaude.</p>
-            <label type="speaker">MVSICIENS.</label>
+            <label type="speaker"><name key="musiciens">MVSICIENS</name>.</label>
             <p rend="i">Debout, debout viste debout, despeschons debout.</p>
             <label type="speaker"><name key="lyciscas" corresp="moliere">LYCISCAS</name>.</label>
             <p rend="i">Ah ! qu'elle fatigue de ne pas dormir son sou.</p>
-            <label type="speaker"><name>Ier</name>.</label>
+            <label type="speaker"><name key="valets_de_chien">Ier</name>.</label>
             <p rend="i">Hola ? oh.</p>
-            <label type="speaker"><name>IIme</name>.</label>
+            <label type="speaker"><name key="valets_de_chien">IIme</name>.</label>
             <p rend="i">Hola ? oh.</p>
-            <label type="speaker"><name>IIIme</name>.</label>
+            <label type="speaker"><name key="valets_de_chien">IIIme</name>.</label>
             <p rend="i">Hola ? oh.</p>
             <label type="speaker"><name key="valets_de_chien" corresp="louis_don"><name key="valets_de_chien" corresp="estival"><name key="valets_de_chien" corresp="francois_blondel">TOVS ENSEMBLE</name></name></name>.</label>
             <p rend="i">Oh ! oh ! oh ! oh ! oh.</p>
@@ -963,15 +963,15 @@
               hurlemens, je me donne au Diable si je ne vous assomme : Mais voyez vn peu quel diable
               d'entousiasme il leur prend, de me venir chanter aux oreilles comme cela,
               je.......</p>
-            <label type="speaker">MVSICIENS.</label>
+            <label type="speaker"><name key="musiciens">MVSICIENS</name>.</label>
             <p rend="i">Debout.</p>
             <label type="speaker"><name key="lyciscas" corresp="moliere">LYCISCAS</name>.</label>
             <p rend="i">Encore.</p>
-            <label type="speaker">MVSICIENS.</label>
+            <label type="speaker"><name key="musiciens">MVSICIENS</name>.</label>
             <p rend="i">Debout.</p>
             <label type="speaker"><name key="lyciscas" corresp="moliere">LYCISCAS</name>.</label>
             <p rend="i">Le diable vous emporte.</p>
-            <label type="speaker">MVSICIENS.</label>
+            <label type="speaker"><name key="musiciens">MVSICIENS</name>.</label>
             <p rend="i">Debout.</p>
             <pb n="26" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f34"/>
             <label type="speaker"><name key="lyciscas" corresp="moliere">LYCISCAS</name>.</label>
@@ -989,14 +989,12 @@
                 corresp="paysan chicanneau noblet pesan bonard la_pierre">six Valets de
                 chiens</name> danserent auec beaucoup de justesse &amp; disposition; reprenant à
               certaines cadances le son de leurs Cors &amp; Trompes : C’estoient les <persName
-                key="paysan" role="danseur" corresp="valet_de_chiens"><orgName key="danse"/>Sieurs
-                Paysan</persName>, <persName key="chicanneau" role="danseur" corresp="valet_de_chiens"><orgName
-                  key="danse"/>Chicanneau</persName>, <persName key="nobet" role="danseur"
-                corresp="valet_de_chiens"><orgName key="danse"/>Noblet</persName>, <persName
-                key="pesan" role="danseur" corresp="valet_de_chiens"><orgName key="danse"/>Pesan</persName>,
-                <persName key="bonard" role="danseur" corresp="valet_de_chiens"><orgName key="danse"
-                />Bonard</persName> &amp; <persName key="la_pierre" role="danseur" corresp="valet_de_chiens"
-                  ><orgName key="danse"/>la Pierre</persName>.</stage>
+                key="paysan" role="danseur"><orgName key="danse"/>Sieurs
+                Paysan</persName>, <persName key="chicanneau" role="danseur"><orgName
+                  key="danse"/>Chicanneau</persName>, <persName key="nobet" role="danseur"><orgName key="danse"/>Noblet</persName>, <persName
+                key="pesan" role="danseur"><orgName key="danse"/>Pesan</persName>,
+                <persName key="bonard" role="danseur"><orgName key="danse"
+                />Bonard</persName> &amp; <persName key="la_pierre" role="danseur"><orgName key="danse"/>la Pierre</persName>.</stage>
           </div>
         </div>
         <div>
@@ -2913,7 +2911,7 @@
           <pb n="np" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f99"/>
           <head>IV. ENTRÉE</head>
           <stage><name key="alcine" corresp="therese_duparc">Alcine</name> allarmée de cét
-            accident, inuoque de nouueau tous ses <name key="demons">Esprits</name>, &amp; leur
+            accident, inuoque de nouueau tous ses <name key="demons_agiles"><name key="demons_sauteurs">Esprits</name></name>, &amp; leur
             demande secours: il s’en presente deux à elle, qui font des sauts auec vne force, &amp;
               vne agilité merueilleuses.</stage>
           <list>
