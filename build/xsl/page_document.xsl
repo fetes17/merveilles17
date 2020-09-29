@@ -15,6 +15,7 @@
         <p>
           <xsl:apply-templates select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:bibl"/>
         </p>
+        <xsl:apply-templates select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:notesStmt"/>
         <xsl:choose>
           <xsl:when test="/tei:TEI/tei:sourceDoc">
             <xsl:apply-templates select="/tei:TEI/tei:sourceDoc"/>
