@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:transform version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml" xmlns:tei="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="tei">
-  <!--
   <xsl:import href="../../style/flow.xsl"/>
-  -->
   <xsl:output indent="yes" encoding="UTF-8" method="xml" omit-xml-declaration="yes"/>
   <xsl:param name="locorum"/>
   <xsl:variable name="place" select="document($locorum)/*/*"/>
@@ -17,18 +15,25 @@
         <p>
           <xsl:apply-templates select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:bibl"/>
         </p>
-        <div class="content">
-          <p/>
-          <p>
-            <xsl:call-template name="ellipse">
-              <xsl:with-param name="node" select="/tei:TEI/tei:text/tei:body"/>
-              <xsl:with-param name="length" select="300"/>
-            </xsl:call-template>
-          </p>
-        </div>
+        <xsl:choose>
+          <xsl:when test="/tei:TEI/tei:sourceDoc">
+            <xsl:apply-templates select="/tei:TEI/tei:sourceDoc"/>
+          </xsl:when>
+          <xsl:otherwise>
+            <div class="content">
+              <p/>
+              <p>
+                <xsl:call-template name="ellipse">
+                  <xsl:with-param name="node" select="/tei:TEI/tei:text/tei:body"/>
+                  <xsl:with-param name="length" select="300"/>
+                </xsl:call-template>
+              </p>
+            </div>
+          </xsl:otherwise>
+        </xsl:choose>
         <div class="writing">
           <h2>Techniques d’écriture</h2>
-          <xsl:for-each select="//*[@ana][count(. | key('ana', normalize-space(@ana))[1]) = 1]">
+          <xsl:for-each select="//*[@ana][@ana != 'description'][count(. | key('ana', normalize-space(@ana))[1]) = 1]">
             <xsl:sort select="normalize-space(@ana)"/>
             <xsl:variable name="key" select="normalize-space(@ana)"/>
             <div>
@@ -78,10 +83,10 @@
         </div>
       </div>
       <div class="col-3">
-        <div>
+        <div id="dates">
           <h2>Dates</h2>
           <ul>
-            <xsl:for-each select="/tei:TEI/tei:text//tei:date">
+            <xsl:for-each select="/tei:TEI/tei:text//tei:date | /tei:TEI/tei:sourceDoc//tei:date">
               <xsl:sort select="@when"/>
               <li>
                 <xsl:choose>
@@ -100,33 +105,18 @@
             </xsl:for-each>
           </ul>
         </div>
-        %lieux%
-        <div>
-          <h2>Personnes</h2>
-          <p>indexation en cours</p>
-          <!-- Grouper par clé -->
-          <!--
-          <xsl:for-each select="/tei:TEI/tei:text//tei:persName[count(. | key('persName', normalize-space(@key))[1]) = 1]">
-            <xsl:sort select="normalize-space(@key)"/>
-            <xsl:variable name="key" select="normalize-space(@key)"/>
-            <div>
-              <h3>
-                <xsl:choose>
-                  <xsl:when test="@key">
-                    <xsl:value-of select="@key"/>
-                  </xsl:when>
-                  <xsl:otherwise>@key ?</xsl:otherwise>
-                </xsl:choose>
-              </h3>
-              <xsl:for-each select="key('persName', $key)">
-                <xsl:if test="position() != 1">, </xsl:if>
-                <xsl:value-of select="."/>
-              </xsl:for-each>
-            </div>
-          </xsl:for-each>
-          -->
+        <div id="lieux">
+          <h2>Lieux</h2>
+          %lieux%
         </div>
-        %techniques%
+        <div id="personnes">
+          <h2>Personnes</h2>
+          %personnes%
+        </div>
+        <div id="techniques">
+          <h2>Techniques</h2>
+          %techniques%
+        </div>
       </div>
     </div>
   </xsl:template>
@@ -194,4 +184,44 @@
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
+
+  <!--
+  <xsl:template match="tei:bibl">
+    <div class="bibl">
+      <xsl:apply-templates/>
+    </div>
+  </xsl:template>
+
+  <xsl:template match="tei:title">
+    <cite class="title">
+      <xsl:apply-templates/>
+    </cite>
+  </xsl:template>
+
+  <xsl:template match="tei:figure">
+    <figure>
+      <xsl:apply-templates/>
+    </figure>
+  </xsl:template>
+
+  <xsl:template match="tei:figDesc">
+    <figcaption>
+      <xsl:apply-templates/>
+    </figcaption>
+  </xsl:template>
+
+  <xsl:template match="tei:graphic">
+    <img src="{@url}"/>
+  </xsl:template>
+
+  <xsl:template match="*">
+    <xsl:text>&lt;</xsl:text>
+    <xsl:value-of select="name()"/>
+    <xsl:text>&gt;</xsl:text>
+    <xsl:apply-templates/>
+    <xsl:text>&lt;/</xsl:text>
+    <xsl:value-of select="name()"/>
+    <xsl:text>&gt;</xsl:text>
+  </xsl:template>
+  -->
 </xsl:transform>

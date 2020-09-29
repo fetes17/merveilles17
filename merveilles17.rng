@@ -505,9 +505,10 @@
         </optional>
         <zeroOrMore>
           <choice>
-            <ref name="p"/>
             <ref name="l"/>
             <ref name="label"/>
+            <ref name="lg"/>
+            <ref name="p"/>
           </choice>
         </zeroOrMore>
       </element>

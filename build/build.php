@@ -45,7 +45,7 @@ CREATE TABLE lieu (
   -- répertoire des lieux
   id             INTEGER,               -- ! rowid auto
   code           TEXT UNIQUE NOT NULL,  -- ! code unique
-  label           TEXT NOT NULL,         -- ! forme de référence
+  label          TEXT NOT NULL,         -- ! forme de référence
   coord          TEXT,                  -- ? coordonnées carto
   locality       TEXT,                  -- ? commune, pour recherche
   alt            TEXT,                  -- ? forme alternative, pour recherche
@@ -103,7 +103,7 @@ CREATE TABLE personne (
   -- répertoire des personnes
   id             INTEGER,               -- ! rowid auto
   code           TEXT UNIQUE NOT NULL,  -- ! code unique
-  label           TEXT NOT NULL,         -- ! forme d’autorité
+  label          TEXT NOT NULL,         -- ! forme d’autorité
   gender         TEXT,                  -- M male, F femme
   birth          TEXT,                  -- date de naissance
   death          TEXT,                  -- date de mort
@@ -195,9 +195,10 @@ CREATE INDEX date_document_document ON date_document(document);
     $technique_document = "technique_code\tdocument_code\tanchor\toccurrence\n";
     $personne_document =   "personne_code\tdocument_code\tanchor\toccurrence\trole\n";
     $date_document =   "date_code\tdocument_code\tanchor\toccurrence\n";
+    
     // loop on all xml files, and do lots of work
     foreach (glob(self::$home."xml/*.xml") as $srcfile) {
-      echo basename($srcfile),"\n";
+      echo "  -- ".basename($srcfile),"\n";
       $dom = Build::dom($srcfile);
       
       $readme .= "* [".basename($srcfile)."](https://fetes17.github.io/merveilles17/xml/".basename($srcfile).")\n";
@@ -210,7 +211,10 @@ CREATE INDEX date_document_document ON date_document(document);
       $line = str_replace(' xmlns="http://www.w3.org/1999/xhtml"', '', $line);
       $document .= $line;
       
-      $personne_document .= Build::transformDoc($dom, self::$home."build/xsl/personne_document.xsl", null, array('filename' => $dstname));
+      // extract index terms from document by xsl s tsv lines to insert in database
+      // could be one day in xpath
+      $lines = Build::transformDoc($dom, self::$home."build/xsl/personne_document.xsl", null, array('filename' => $dstname));
+      $personne_document .= $lines;
       $technique_document .= Build::transformDoc($dom, self::$home."build/xsl/technique_document.xsl", null, array('filename' => $dstname));
       $lieu_document .= Build::transformDoc($dom, self::$home."build/xsl/lieu_document.xsl", null, array('filename' => $dstname));
       $date_document .= Build::transformDoc($dom, self::$home."build/xsl/date_document.xsl", null, array('filename' => $dstname));
@@ -300,8 +304,15 @@ CREATE INDEX date_document_document ON date_document(document);
     
     $qid = self::$pdo->prepare("SELECT id FROM document WHERE code = ?");
     
-    $qlieux = self::$pdo->prepare("SELECT lieu.id, lieu.code, lieu.label, COUNT(document_code) AS count FROM lieu, lieu_document WHERE document_code = ? AND lieu_document.lieu = lieu.id GROUP BY lieu ORDER BY count DESC");
+    $q_lieu_doc = self::$pdo->prepare("SELECT lieu, lieu_code, COUNT(document_code) AS count FROM lieu_document WHERE document_code = ? GROUP BY lieu ORDER BY count DESC");
+    $q_lieu = self::$pdo->prepare("SELECT label FROM lieu WHERE id = ?");
+    
     $qtechniques = self::$pdo->prepare("SELECT technique.id, technique.code, technique.label, COUNT(document_code) AS count FROM technique, technique_document WHERE document_code = ? AND technique_document.technique = technique.id GROUP BY technique ORDER BY count DESC");
+    
+    
+    $q_pers_doc = self::$pdo->prepare("SELECT personne, personne_code, COUNT(document_code) AS count FROM personne_document  WHERE document_code = ? GROUP BY personne ORDER BY count DESC");
+    $q_pers = self::$pdo->prepare("SELECT label FROM personne WHERE id = ?");
+    // $qpersonnes = self::$pdo->prepare("SELECT personne.id, personne.code, personne.label, COUNT(document_code) AS count FROM personne, personne_document WHERE document_code = ? AND personne_document.personne = personne.id GROUP BY personne ORDER BY count DESC");
     
     foreach (glob(self::$home."xml/*.xml") as $srcfile) {
       $document_code = basename($srcfile, ".xml");
@@ -309,28 +320,49 @@ CREATE INDEX date_document_document ON date_document(document);
       list($docid) = $qid->fetch();
       $dom = Build::dom($srcfile);
       $page = Build::transformDoc($dom, self::$home."build/xsl/page_document.xsl", null, array('filename' => $document_code));
-      
-      // liste de lieux
-      $qlieux->execute(array($document_code));
-      $lieux = '<div id="lieux"><h2>Lieux</h2><ul>'."\n";
+
+      // liste de personnes citées
+      $q_pers_doc->execute(array($document_code));
+      $personnes = '<ul>'."\n";
       $count = 0;
-      while ($row = $qlieux->fetch(PDO::FETCH_ASSOC)) {
-        $lieux .= '<li><a href="../lieu/'.$row['code'].'.html">'.$row['label'].'</a> ('.$row['count'].')</li>'."\n";
+      while ($row = $q_pers_doc->fetch(PDO::FETCH_ASSOC)) {
+        $q_pers->execute(array($row['personne']));
+        list($label) = $q_pers->fetch();
+        if (!$label) $label = '<i>['.$row['personne_code'].']</i>';
+        $personnes .= '<li><a href="../personne/'.$row['personne_code'].'.html">'.$label.'</a> ('.$row['count'].')</li>'."\n";
         $count++;
       }
-      $lieux .= '</ul></div>'."\n";
-      if ($count) $page = str_replace("%lieux%", $lieux, $page);
+      $personnes .= '</ul>'."\n";
+      if (!$count) $personnes = "";
+      $page = str_replace("%personnes%", $personnes, $page);
+
+      
+      // liste de lieux
+      $q_lieu_doc->execute(array($document_code));
+      $lieux = '<ul>'."\n";
+      $count = 0;
+      while ($row = $q_lieu_doc->fetch(PDO::FETCH_ASSOC)) {
+        $q_lieu->execute(array($row['lieu']));
+        list($label) = $q_lieu->fetch();
+        if (!$label) $label = '<i>['.$row['lieu_code'].']</i>';
+        $lieux .= '<li><a href="../lieu/'.$row['lieu_code'].'.html">'.$label.'</a> ('.$row['count'].')</li>'."\n";
+        $count++;
+      }
+      $lieux .= '</ul>'."\n";
+      if (!$count) $lieux = "";
+      $page = str_replace("%lieux%", $lieux, $page);
       
       // liste de techniques
       $qtechniques->execute(array($document_code));
-      $techniques = '<div id="techniques"><h2>Techniques</h2><ul>'."\n";
+      $techniques = '<ul>'."\n";
       $count = 0;
       while ($row = $qtechniques->fetch(PDO::FETCH_ASSOC)) {
         $techniques .= '<li><a href="../technique/'.$row['code'].'.html">'.$row['label'].'</a> ('.$row['count'].')</li>'."\n";
         $count++;
       }
-      $techniques .= '</ul></div>'."\n";
-      if ($count) $page = str_replace("%techniques%", $techniques, $page);
+      $techniques .= '</ul>'."\n";
+      if (!$count) $techniques = "";
+      $page = str_replace("%techniques%", $techniques, $page);
       
       
       file_put_contents(self::$home.'site/document/'.$document_code.'.html', str_replace('%main%', $page, $template));

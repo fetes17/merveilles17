@@ -4,7 +4,7 @@
   <xsl:param name="filename"/>
   <xsl:output indent="yes" encoding="UTF-8" method="text" omit-xml-declaration="yes"/>
   <xsl:template match="/">
-    <xsl:for-each select="/tei:TEI/tei:text//tei:placeName">
+    <xsl:for-each select="/tei:TEI/tei:text//tei:placeName | /tei:TEI/tei:sourceDoc//tei:placeName">
       <xsl:variable name="key" select="normalize-space(@key)"/>
       <xsl:value-of select="$key"/>
       <xsl:value-of select="$tab"/>
