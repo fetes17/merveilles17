@@ -2,6 +2,7 @@
 <xsl:transform version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml" xmlns:tei="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="tei">
   <xsl:import href="style/flow.xsl"/>
   <xsl:import href="style/toc.xsl"/>
+  <xsl:import href="style/teiHeader.xsl"/>
   <xsl:key name="persName" match="tei:persName" use="normalize-space(@key)"/>
   <xsl:key name="placeName" match="tei:placeName" use="normalize-space(@key)"/>
   <xsl:key name="tech" match="tei:tech" use="normalize-space(@type)"/>
