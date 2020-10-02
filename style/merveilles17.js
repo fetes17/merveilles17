@@ -1,27 +1,56 @@
+'use strict';
+
+
 var splitH = Split(['#aside', '#main'], { sizes: [30, 70], gutterSize: 3, });
 var aside = document.getElementById('aside');
+var main = document.getElementById('main');
+
 if (aside) {
-  var as = aside.getElementsByTagName('a');
-  for (var i = 0, max = as.length; i < max; i++) {
-    var a = as[i];
-    a.addEventListener("click", function(){
-      if (document.lastAsideA) document.lastAsideA.classList.remove('active');
-      this.classList.add('active');
-      document.lastAsideA = this;
+  let els = aside.getElementsByTagName('details');
+  for (let i = 0, max = els.length; i < max; i++) {
+    let el = els[i];
+    el.addEventListener("toggle", function(evt){
+      if(el.open) {
+        main.classList.add(el.id);
+      } else {
+        main.classList.remove(el.id);
+      }
+    }, false);
+  }
+  
+  els = aside.getElementsByTagName('a');
+  for (let i = 0, max = els.length; i < max; i++) {
+    let el = els[i];
+    el.addEventListener("click", function(event){
+      let terms = main.querySelectorAll('.'+el.id);
+      if (el.classList.contains('active')) {
+        for (let z = 0, max = terms.length; z < max; z++) {
+          terms[z].classList.remove('active');
+        }
+        el.classList.remove('active');
+        event.preventDefault();
+        return false;
+      }
+      else {
+        el.classList.add('active');
+        for (let z = 0, max = terms.length; z < max; z++) {
+          terms[z].classList.add('active');
+        }
+      }
     });
   }
 }
-var main = document.getElementById('main');
+
 if(main) {
-  classes = ["persName", "tech", "name"];
+  let classes = ["persName", "tech", "name"];
   for (const cls of classes) {
     let matches = main.querySelectorAll("."+cls);
-    for (var i = 0, max = matches.length; i < max; i++) {
-      var el = matches[i];
+    for (let i = 0, max = matches.length; i < max; i++) {
+      let el = matches[i];
       el.addEventListener("click", function(){
         let key = this.getAttribute("data-key");
         if (!key) key = cls+"nokey";
-        var newHash = '#'+key;
+        let newHash = '#'+key;
         if (location.hash == newHash) return; // do no repeat
         location.hash = newHash;
       });
@@ -57,7 +86,7 @@ function propaghi(hash)
   const scrollable = getScrollParent(el);
   if (!scrollable) return;
   if (scrollable.lastScroll == scrollable.scrollTop) return;
-  var newScroll = scrollable.scrollTop - 100;
+  let newScroll = scrollable.scrollTop - 100;
   scrollable.scrollTop = newScroll;
   scrollable.lastScroll = newScroll;
 }

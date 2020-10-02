@@ -497,7 +497,7 @@ Interpret TEI header as html.
       </div>
     </xsl:if>
   </xsl:template>
-  <xsl:template match="tei:author | tei:biblFull | tei:biblScope | tei:collation | tei:collection | tei:country | tei:dim | tei:editor | tei:edition | tei:extent | tei:funder | tei:institution | tei:name | tei:persName | tei:biblFull/tei:publicationStmt | tei:publisher | tei:pubPlace | tei:repository | tei:settlement | tei:stamp  | tei:biblFull/tei:seriesStmt | tei:biblFull/tei:titleStmt | tei:biblFull/tei:titleStmt/tei:title">
+  <xsl:template match="tei:teiHeader//tei:author | tei:teiHeader//tei:biblFull | tei:teiHeader//tei:biblScope | tei:teiHeader//tei:collation | tei:teiHeader//tei:collection | tei:teiHeader//tei:country | tei:teiHeader//tei:dim | tei:teiHeader//tei:editor | tei:teiHeader//tei:edition | tei:teiHeader//tei:extent | tei:teiHeader//tei:funder | tei:teiHeader//tei:institution | tei:teiHeader//tei:name | tei:teiHeader//tei:persName | tei:teiHeader//tei:biblFull/tei:publicationStmt | tei:teiHeader//tei:publisher | tei:teiHeader//tei:pubPlace | tei:teiHeader//tei:repository | tei:teiHeader//tei:settlement | tei:teiHeader//tei:stamp  | tei:teiHeader//tei:biblFull/tei:seriesStmt | tei:teiHeader//tei:biblFull/tei:titleStmt | tei:teiHeader//tei:biblFull/tei:titleStmt/tei:title">
     <xsl:variable name="element">
       <xsl:choose>
         <xsl:when test="self::title">cite</xsl:when>

@@ -1,10 +1,24 @@
+
+:root {
+  --persName: rgba(0, 0, 128, 1);
+  --persNameLite: rgba(0, 0, 128, 0.1);
+  --name: rgba(0, 128, 0, 1);
+  --nameLite: rgba(0, 128, 0, 0.1);
+  --placeName: rgba(192, 64, 64, 1);
+  --placeNameLite:  rgba(192, 64, 64, 0.1);
+  --tech: rgba(255, 192, 0, 1);
+  --techLite: rgba(255, 192, 0, 0.1);
+}
+
+
 html, body {
   position: relative;
   height: 100%;
 }
 
 body {
-  background: #FFFFFF;  
+  background: #fff;
+  line-height: 1.7;
 }
 
 main, h1, h2, h3, h4, h5, h6 {
@@ -35,8 +49,10 @@ a.pb img {
   overflow: auto;
 }
 
-#main {
+main {
   padding: 2rem;
+  background-color: #fff;
+  color: #000;
 }
 
 #aside {
@@ -46,6 +62,7 @@ a.pb img {
 }
 
 #navaside {
+  display: none;
   top: 0;
   left: 0;
   position: fixed;
@@ -163,6 +180,17 @@ a.pb img {
   content: '▲';
 }
 
+#aside a {
+  text-decoration: none;
+}
+
+#aside summary {
+  line-height: 1.5;
+  padding: 5px;
+  /* text-align: right; */
+  direction: rtl;
+}
+
 #aside ul {
  list-style: inside;
  padding-left: 0;
@@ -171,52 +199,100 @@ a.pb img {
  padding-left: 1rem;
 }
 
-#aside > * {
-  padding: 0.1rem 1rem;
+#aside {
+  background: #fafafa;
 }
 
-#aside a:hover {
-  background: #FFFFFF;
+main.placeName,
+main.name,
+main.tech,
+main.persName {
+  color: #999;
 }
 
-#personnes,
-.persName {
-  background-color: rgba(0, 0, 128, 0.1);
-}
-
-#personnes a.active,
-.persName:target {
-  background-color: rgba(0, 0, 128, 1);
-  color: white;
-}
-
+.placeName,
 .persName,
 .tech,
 .name {
   cursor: pointer;
 }
 
-#techniques,
-.tech {
-  background-color: rgba(128, 0, 0, 0.1);
+
+
+#persName summary,
+#persName a:hover,
+main.persName .persName {
+  background-color: var(--persNameLite);
+  color: #000;
 }
 
-#techniques a.active,
-.tech:target {
-  background-color: rgba(128, 0, 0, 1);
-  color: white;
+#persName a.active,
+main .persName.active {
+  background-color: var(--persName) !important;
+  color: #fff !important;
 }
 
-#personnages,
-.name {
-  background-color: rgba(255, 192, 0, 0.1);
+#name summary,
+#name a:hover,
+main.name .name {
+  background-color: var(--nameLite);
+  color: #000;
 }
 
-#personnages a.active,
-.name:target {
-  background-color: rgba(255, 192, 0, 1);
-  color: white;
+#name a.active,
+main .name.active {
+  background-color: var(--name) !important;
+  color: #fff !important;
 }
+
+#placeName summary,
+#placeName a:hover,
+main.placeName .placeName {
+  background-color: var(--placeNameLite);
+  color: #000;
+}
+
+#placeName a.active,
+main .placeName.active {
+  background-color: var(--placeName) !important;
+  color: #fff !important;
+}
+
+#tech summary,
+#tech a:hover,
+main.tech .tech {
+  background-color: var(--techLite);
+  color: #000;
+}
+
+#tech a.active,
+main .tech.active {
+  background-color: var(--tech) !important;
+  color: #fff !important;
+}
+
+
+table.sortable {
+  margin-top: 0;
+  width: 100%;
+}
+
+td.term {
+  padding: 0;
+}
+
+td.nb {
+  text-align: right;
+}
+
+
+table.sortable a {
+  color: #666;
+  display: block;
+  padding: 5px 1rem;
+  line-height: 1.1;
+}
+
 
 #aside li:target {
   background-color: #FFFFFF;
