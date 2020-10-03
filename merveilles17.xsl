@@ -78,6 +78,9 @@
             <xsl:apply-templates select="/tei:TEI/tei:sourceDoc"/>
           </main>
         </div>
+        <div id="bookmarks">
+          <mark class="toclone"/>
+        </div>
         <script src="{$theme}split.js">//</script>
         <script src="{$theme}merveilles17.js">//</script>
         <script src="{$theme}sortable.js">//</script>
@@ -187,6 +190,9 @@
                 <xsl:value-of select="concat($tag, $nokey)"/>
               </xsl:otherwise>
             </xsl:choose>
+          </xsl:attribute>
+          <xsl:attribute name="data-tag">
+            <xsl:value-of select="$tag"/>
           </xsl:attribute>
           <xsl:if test="$count = 1">
             <xsl:attribute name="href">

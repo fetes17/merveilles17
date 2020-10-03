@@ -19,13 +19,27 @@ if (aside) {
   }
   
   els = aside.getElementsByTagName('a');
+  let bookmarks = document.getElementById('bookmarks');
+  let mark2clone;
+  if (bookmarks) { // hack to avoid create element from browser xslt 
+    mark2clone = bookmarks.querySelector(".toclone");
+  }
   for (let i = 0, max = els.length; i < max; i++) {
     let el = els[i];
     el.addEventListener("click", function(event){
+      let height= main.scrollHeight; // known only when document loaded
+      let tag = this.getAttribute("data-tag");
       let terms = main.querySelectorAll('.'+el.id);
       if (el.classList.contains('active')) {
         for (let z = 0, max = terms.length; z < max; z++) {
           terms[z].classList.remove('active');
+        }
+        if(bookmarks) {
+          let marks = bookmarks.querySelectorAll('mark.'+el.id);
+          for (let z = 0, max = marks.length; z < max; z++) {
+            console.log(marks[z]);
+            marks[z].remove();
+          }
         }
         el.classList.remove('active');
         event.preventDefault();
@@ -35,6 +49,15 @@ if (aside) {
         el.classList.add('active');
         for (let z = 0, max = terms.length; z < max; z++) {
           terms[z].classList.add('active');
+          if (mark2clone) {
+            let mark = mark2clone.cloneNode(true); // hack for xsl transform in browser
+            mark.className = tag+" "+el.id;
+            mark.setAttribute("data-offsetTop", terms[z].offsetTop);
+            mark.addEventListener("click", Merveilles17.mark);
+            let top = (Math.round(1000*(terms[z].offsetTop) / height) / 10)+'%';
+            mark.style.top = top;
+            bookmarks.appendChild(mark);
+          }
         }
       }
     });
@@ -101,4 +124,11 @@ function hitoks(form, style)
   let matches = document.querySelectorAll("a."+form);
 }
 
+class Merveilles17 {
+  static mark(e)
+  {
+    let scroll = this.getAttribute("data-offsetTop") - 20;
+    main.scrollTo(0, scroll);
+  }
+}
 

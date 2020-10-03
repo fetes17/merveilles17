@@ -1,5 +1,6 @@
 
 :root {
+  --creme: #fafafa;
   --persName: rgba(0, 0, 128, 1);
   --persNameLite: rgba(0, 0, 128, 0.1);
   --name: rgba(0, 128, 0, 1);
@@ -83,7 +84,32 @@ main {
   display: block;
 }
 
+#aside {
+  background-color: var(--creme);
+}
 
+#bookmarks {
+  width: 1px;
+  border: 1px solid #999;
+  position: fixed;
+  right: 18px;
+  top: 0;
+  bottom: 0;
+}
+
+.toclone {
+  display: none !important;
+}
+
+#bookmarks mark {
+  width: 15px;
+  height: 10px;
+  border-radius: 3px;
+  border: 1px dotted;
+  position: absolute;
+  left:-9px;
+  background-color: violet;
+}
 
 /** The split gutters */
 .gutter-horizontal {
@@ -202,10 +228,6 @@ main {
  padding-left: 1rem;
 }
 
-#aside {
-  background: #fafafa;
-}
-
 main.ana,
 main.placeName,
 main.name,
@@ -225,6 +247,10 @@ main.persName img {
   float: right;
 }
 
+mark.placeName,
+mark.persName,
+mark.tech,
+mark.name,
 span.placeName,
 span.persName,
 span.tech,
@@ -237,8 +263,10 @@ span.name {
 #persName thead,
 #persName summary,
 #persName a:hover,
+#bookmarks mark.persName,
 main.persName .persName {
   background-color: var(--persNameLite);
+  border-color: var(--persName);
   color: #000;
 }
 
@@ -251,8 +279,10 @@ main .persName.active {
 #name thead,
 #name summary,
 #name a:hover,
+#bookmarks mark.name,
 main.name .name {
   background-color: var(--nameLite);
+  border-color: var(--name);
   color: #000;
 }
 
@@ -265,8 +295,10 @@ main .name.active {
 #placeName thead,
 #placeName summary,
 #placeName a:hover,
+#bookmarks mark.placeName,
 main.placeName .placeName {
   background-color: var(--placeNameLite);
+  border-color: var(--placeName);
   color: #000;
 }
 
@@ -279,8 +311,10 @@ main .placeName.active {
 #tech thead,
 #tech summary,
 #tech a:hover,
+#bookmarks mark.tech,
 main.tech .tech {
   background-color: var(--techLite);
+  border-color: var(--tech);
   color: #000;
 }
 
@@ -293,8 +327,10 @@ main .tech.active {
 #ana thead,
 #ana summary,
 #ana a:hover,
+#bookmarks mark.ana,
 main.ana .ana {
   background-color: var(--anaLite);
+  border-color: var(--ana);
   color: #000;
 }
 
