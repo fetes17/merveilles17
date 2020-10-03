@@ -345,9 +345,9 @@ Gobal TEI parameters and variables are divided in different categories
   <!-- Lower case letters with diacritics, for translate() -->
   <xsl:variable name="lc">abcdefghijklmnopqrstuvwxyzæœçàáâãäåèéêëìíîïòóôõöùúûüý</xsl:variable>
   <!-- To produce a normalised id without diacritics translate("Déjà vu, 4", $idfrom, $idto) = "dejavu4"  To produce a normalised id -->
-  <xsl:variable name="idfrom">ABCDEFGHIJKLMNOPQRSTUVWXYZÀÂÄÉÈÊÏÎÔÖÛÜÇàâäéèêëïîöôüû ,.'’_ #</xsl:variable>
+  <xsl:variable name="idfrom">ABCDEFGHIJKLMNOPQRSTUVWXYZÀÂÄÉÈÊÏÎÔÖÛÜÇàâäéèêëïîöôüû_ ,.'’ #</xsl:variable>
+  <xsl:variable name="idto"  >abcdefghijklmnopqrstuvwxyzaaaeeeiioouucaaaeeeeiioouu_</xsl:variable>
   <!-- Lower case without diacritics -->
-    <xsl:variable name="idto">abcdefghijklmnopqrstuvwxyzaaaeeeiioouucaaaeeeeiioouu</xsl:variable>
   <!-- A normalized bibliographic reference -->
   <xsl:variable name="bibl">
     <xsl:if test="$byline != ''">
@@ -535,10 +535,10 @@ Gobal TEI parameters and variables are divided in different categories
   <xsl:template name="id">
     <xsl:apply-templates select="." mode="id"/>
   </xsl:template>
-  
+    
   <xsl:template match="tei:persName" mode="id">
     <xsl:variable name="id0"> '":,; /\</xsl:variable>
-    <xsl:choose>
+   <xsl:choose>
       <xsl:when test="@xml:id">
         <xsl:value-of select="translate(@xml:id, $id0, '')"/>
       </xsl:when>
@@ -778,7 +778,7 @@ résoudre les césures, ou les alternatives éditoriales.
       <xsl:when test="self::tei:titlePage">
         <xsl:call-template name="message"/>
       </xsl:when>
-      <xsl:when test="tei:head[not(@type='sub')]">
+      <xsl:when test="tei:head[not(@type='sub')][not(@type='subtitle')][not(@type='kicker')]">
         <xsl:variable name="byline">
           <xsl:choose>
             <xsl:when test="tei:byline">
@@ -815,7 +815,11 @@ résoudre les césures, ou les alternatives éditoriales.
           </xsl:choose>
         </xsl:variable>
         <xsl:variable name="title">
-          <xsl:for-each select="tei:head[not(@type='sub')]">
+          <xsl:if test="@n">
+            <xsl:value-of select="@n"/>
+            <xsl:text> </xsl:text>
+          </xsl:if>
+          <xsl:for-each select="tei:head[not(@type='sub')][not(@type='subtitle')][not(@type='kicker')]">
             <xsl:apply-templates mode="title" select="."/>
             <xsl:if test="position() != last()">
               <!-- test if title end by ponctuation -->
@@ -990,19 +994,48 @@ résoudre les césures, ou les alternatives éditoriales.
   <xsl:template match="tei:pb" mode="title">
     <xsl:text> </xsl:text>
   </xsl:template>
-  <xsl:template match="tei:lb" mode="title">
-    <xsl:variable name="prev" select="preceding-sibling::node()[1]"/>
-    <xsl:variable name="norm" select="normalize-space( $prev )"/>
-    <xsl:variable name="lastchar" select="substring($norm, string-length($norm))"/>
+  <xsl:template match="text()" mode="title">
+    <xsl:variable name="text" select="translate(., ' ', '')"/>
+    <xsl:if test="translate(substring($text, 1,1), concat(' ', $lf, $cr, $tab), '') = ''">
+      <xsl:text> </xsl:text>
+    </xsl:if>
+    <xsl:value-of select="normalize-space($text)"/>
     <xsl:choose>
-      <xsl:when test="contains(',.;:—–-', $lastchar)">
+      <!-- do not append space before line break -->
+      <xsl:when test="following-sibling::node()[1][self::tei:lb]"/>
+      <!-- si text node last ? be careful on that <head>This <title>title </title>is badly tagged</head> -->
+      <xsl:when test="ancestor::tei:head and count(.|ancestor::tei:head/node()[position() = last()])"/>
+      <xsl:when test="translate(substring($text, string-length($text)), concat(' ', $lf, $cr, $tab), '') = ''">
         <xsl:text> </xsl:text>
       </xsl:when>
+    </xsl:choose>
+  </xsl:template>
+  
+  <xsl:template match="tei:lb" mode="title">
+    <xsl:variable name="prev" select="preceding-sibling::node()[1]"/>
+    <xsl:variable name="next" select="following-sibling::node()[1]"/>
+    <xsl:variable name="norm" select="normalize-space( $prev )"/>
+    <xsl:variable name="lastchar" select="substring($norm, string-length($norm))"/>
+    <xsl:variable name="nextchar" select="substring(normalize-space($next), 1, 1)"/>
+    <xsl:choose>
+      <xsl:when test="contains(',.;:—–-)?!»&quot;', $lastchar)">
+        <xsl:text> </xsl:text>
+      </xsl:when>
+      <xsl:when test="contains($uc, $nextchar)">
+        <xsl:text>. </xsl:text>
+      </xsl:when>
+      <xsl:when test="not(contains(concat($prev, $next), ','))">
+        <xsl:text>, </xsl:text>
+      </xsl:when>
+      <!-- last char should be a letter and not a space if we append a dot -->
       <xsl:when test="string-length($prev) = string-length($norm)">
         <xsl:text>. </xsl:text>
       </xsl:when>
       <xsl:otherwise>
+        <xsl:text>. </xsl:text>
+        <!--
         <xsl:text> – </xsl:text>
+        -->
       </xsl:otherwise>
     </xsl:choose>
     <xsl:text> </xsl:text>
@@ -1029,17 +1062,6 @@ résoudre les césures, ou les alternatives éditoriales.
   <!-- default, cross all, keep only text -->
   <xsl:template match="*" mode="title" priority="-2">
     <xsl:apply-templates mode="title"/>
-  </xsl:template>
-  <!-- Suppress line breaks -->
-  <xsl:template match="text()" mode="title">
-    <xsl:variable name="text" select="translate(., ' ', '')"/>
-    <xsl:if test="translate(substring($text, 1,1), concat(' ', $lf, $cr, $tab), '') = ''">
-      <xsl:text> </xsl:text>
-    </xsl:if>
-    <xsl:value-of select="normalize-space($text)"/>
-    <xsl:if test="translate(substring($text, string-length($text)), concat(' ', $lf, $cr, $tab), '') = ''">
-      <xsl:text> </xsl:text>
-    </xsl:if>
   </xsl:template>
 
   <!-- Keep text from some element with possible values in attributes -->

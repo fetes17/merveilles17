@@ -42,7 +42,7 @@ if (aside) {
 }
 
 if(main) {
-  let classes = ["persName", "tech", "name"];
+  let classes = ["persName", "tech", "name", "placeName"];
   for (const cls of classes) {
     let matches = main.querySelectorAll("."+cls);
     for (let i = 0, max = matches.length; i < max; i++) {
@@ -50,9 +50,12 @@ if(main) {
       el.addEventListener("click", function(){
         let key = this.getAttribute("data-key");
         if (!key) key = cls+"nokey";
+        let target = document.getElementById(key);
+        if (!target) return;
         let newHash = '#'+key;
-        if (location.hash == newHash) return; // do no repeat
+        // if (location.hash == newHash) return; // we can repeat
         location.hash = newHash;
+        target.click();
       });
     }
   }

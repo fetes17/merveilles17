@@ -8,11 +8,11 @@
   <xsl:import href="style/flow.xsl"/>
   <xsl:import href="style/toc.xsl"/>
   <xsl:import href="style/teiHeader.xsl"/>
-  <xsl:key name="persName" match="tei:persName" use="normalize-space(@key)"/>
-  <xsl:key name="placeName" match="tei:placeName" use="normalize-space(@key)"/>
-  <xsl:key name="tech" match="tei:tech" use="normalize-space(@type)"/>
-  <xsl:key name="name" match="tei:name" use="normalize-space(@key)"/>
-  <xsl:key name="ana" match="*[@ana]" use="normalize-space(@ana)"/>
+  <xsl:key name="persName" match="tei:persName[not(ancestor::tei:teiHeader)]" use="normalize-space(@key)"/>
+  <xsl:key name="placeName" match="tei:placeName[not(ancestor::tei:teiHeader)]" use="normalize-space(@key)"/>
+  <xsl:key name="tech" match="tei:tech[not(ancestor::tei:teiHeader)]" use="normalize-space(@type)"/>
+  <xsl:key name="name" match="tei:name[not(ancestor::tei:teiHeader)]" use="normalize-space(@key)"/>
+  <xsl:key name="ana" match="*[@ana][@ana != 'description']" use="normalize-space(@ana)"/>
   <xsl:output indent="yes" encoding="UTF-8" method="xml" omit-xml-declaration="no"/>
   <!-- https://fetes17.github.io/files/ -->
   <xsl:variable name="theme">../style/</xsl:variable>
@@ -66,155 +66,10 @@
               <xsl:with-param name="tag">tech</xsl:with-param>
               <xsl:with-param name="label">Techniques</xsl:with-param>
             </xsl:call-template>
-            <!--
-            <details id="placeName" class="terms">
-              <summary>Lieux</summary>
-              <table class="sortable" data-sort="1">
-                <thead>
-                  <tr>
-                    <th>Lieux</th>
-                    <th title="Occurrences">nb</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <xsl:for-each select="//tei:placeName[count(. | key('placeName', normalize-space(@key))[1]) = 1][not(ancestor::tei:teiHeader)]">
-                    <xsl:variable name="key" select="normalize-space(@key)"/>
-                    <tr>
-                      <td class="term">
-                        <a>
-                          <xsl:attribute name="id">
-                        <xsl:choose>
-                          <xsl:when test="$key != ''">
-                            <xsl:value-of select="translate($key, $idfrom, $idto)"/>
-                          </xsl:when>
-                          <xsl:otherwise>technokey</xsl:otherwise>
-                        </xsl:choose>
-                      </xsl:attribute>
-                      <b>
-                        <xsl:choose>
-                          <xsl:when test="@key">
-                            <xsl:value-of select="@key"/>
-                          </xsl:when>
-                          <xsl:otherwise>
-                            <text>@key ?</text>
-                          </xsl:otherwise>
-                        </xsl:choose>
-                      </b>
-                      <xsl:text> : </xsl:text>
-                      <xsl:for-each select="key('placeName', $key)">
-                        <xsl:if test="position() != 1">, </xsl:if>
-                        <a>
-                          <xsl:attribute name="href">
-                            <xsl:call-template name="href"/>
-                          </xsl:attribute>
-                          <xsl:choose>
-                            <xsl:when test="normalize-space(.) != ''">
-                              <xsl:value-of select="normalize-space(.)"/>
-                            </xsl:when>
-                            <xsl:otherwise>
-                              <i>[vide]</i>
-                            </xsl:otherwise>
-                          </xsl:choose>
-                        </a>
-                      </xsl:for-each>
-                      <xsl:text>.</xsl:text>
-                    </li>
-                  </xsl:for-each>
-                 
-            </details>
-            <div id="techniques">
-              <h2>Techniques</h2>
-              <ul>
-                <xsl:for-each select="//tei:tech[count(. | key('tech', normalize-space(@type))[1]) = 1][not(ancestor::tei:teiHeader)]">
-                  <xsl:variable name="key" select="normalize-space(@type)"/>
-                  <li>
-                    <xsl:attribute name="id">
-                      <xsl:choose>
-                        <xsl:when test="$key != ''">
-                          <xsl:value-of select="translate($key, $idfrom, $idto)"/>
-                        </xsl:when>
-                        <xsl:otherwise>technokey</xsl:otherwise>
-                      </xsl:choose>
-                    </xsl:attribute>
-                    <b>
-                      <xsl:choose>
-                        <xsl:when test="@type">
-                          <xsl:value-of select="@type"/>
-                        </xsl:when>
-                        <xsl:otherwise>
-                          <text>@key ?</text>
-                        </xsl:otherwise>
-                      </xsl:choose>
-                    </b>
-                    <xsl:text> : </xsl:text>
-                    <xsl:for-each select="key('tech', $key)">
-                      <xsl:if test="position() != 1">, </xsl:if>
-                      <a>
-                        <xsl:attribute name="href">
-                          <xsl:call-template name="href"/>
-                        </xsl:attribute>
-                        <xsl:choose>
-                          <xsl:when test="normalize-space(.) != ''">
-                            <xsl:value-of select="normalize-space(.)"/>
-                          </xsl:when>
-                          <xsl:otherwise>
-                            <i>[vide]</i>
-                          </xsl:otherwise>
-                        </xsl:choose>
-                      </a>
-                    </xsl:for-each>
-                    <xsl:text>.</xsl:text>
-                  </li>
-                </xsl:for-each>
-              </ul>
-            </div>
-            <div id="personnages">
-              <h2>Personnages</h2>
-              <ul>
-                <xsl:for-each select="//tei:name[count(. | key('name', normalize-space(@key))[1]) = 1][not(ancestor::tei:teiHeader)] ">
-                  <xsl:variable name="key" select="normalize-space(@key)"/>
-                  <li>
-                    <xsl:attribute name="id">
-                      <xsl:choose>
-                        <xsl:when test="$key != ''">
-                          <xsl:value-of select="translate($key, $idfrom, $idto)"/>
-                        </xsl:when>
-                        <xsl:otherwise>namenokey</xsl:otherwise>
-                      </xsl:choose>
-                    </xsl:attribute>
-                    <b>
-                      <xsl:choose>
-                        <xsl:when test="@key">
-                          <xsl:value-of select="@key"/>
-                        </xsl:when>
-                        <xsl:otherwise>
-                          <text>@key ?</text>
-                        </xsl:otherwise>
-                      </xsl:choose>
-                    </b>
-                    <xsl:text> : </xsl:text>
-                    <xsl:for-each select="key('name', $key)">
-                      <xsl:if test="position() != 1">, </xsl:if>
-                      <a>
-                        <xsl:attribute name="href">
-                          <xsl:call-template name="href"/>
-                        </xsl:attribute>
-                        <xsl:choose>
-                          <xsl:when test="normalize-space(.) != ''">
-                            <xsl:value-of select="normalize-space(.)"/>
-                          </xsl:when>
-                          <xsl:otherwise>
-                            <i>[vide]</i>
-                          </xsl:otherwise>
-                        </xsl:choose>
-                      </a>
-                    </xsl:for-each>
-                    <xsl:text>.</xsl:text>
-                  </li>
-                </xsl:for-each>
-              </ul>
-            </div>
-            -->
+            <xsl:call-template name="taglist">
+              <xsl:with-param name="tag">ana</xsl:with-param>
+              <xsl:with-param name="label">Écriture</xsl:with-param>
+            </xsl:call-template>
             <p> </p>
           </aside>
           <main id="main">
@@ -233,74 +88,132 @@
   <xsl:template name="taglist">
     <xsl:param name="tag"/>
     <xsl:param name="label"/>
-    <details id="{$tag}" class="terms">
-      <summary>
-        <xsl:value-of select="$label"/>
-        <!--
-        <a class="persName">
-          <xsl:attribute name="href">
-            <xsl:for-each select="//tei:persName[1][not(ancestor::tei:teiHeader)]">
-              <xsl:call-template name="href"/>
-            </xsl:for-each>
-          </xsl:attribute>
-        </a>
-          -->
-      </summary>
-      <table class="sortable" data-sort="1">
-        <thead>
-          <tr>
-            <th>
-              <xsl:value-of select="$label"/>
-            </th>
-            <th title="Occurrences">nb</th>
-          </tr>
-        </thead>
-        <tbody>
+    <xsl:variable name="rows">
+      <xsl:choose>
+        <xsl:when test="$tag = 'ana'">
+          <xsl:for-each select="//*[@ana][@ana != 'description'][count(. | key($tag, normalize-space(@ana))[1]) = 1][not(ancestor::tei:teiHeader)]">
+            <xsl:sort select="normalize-space(@ana)"/>
+            <xsl:call-template name="tr">
+              <xsl:with-param name="tag" select="$tag"/>
+              <xsl:with-param name="key" select="normalize-space(@ana)"/>
+            </xsl:call-template>
+          </xsl:for-each>
+        </xsl:when>
+        <xsl:otherwise>
           <xsl:for-each select="//*[name() = $tag][count(. | key($tag, normalize-space(@key|@type))[1]) = 1][not(ancestor::tei:teiHeader)]">
             <xsl:sort select="normalize-space(@key|@type)"/>
-            <xsl:variable name="key" select="normalize-space(@key|@type)"/>
-            <tr>
-              <td class="term">
-                <a>
-                  <xsl:attribute name="id">
-                    <xsl:choose>
-                      <xsl:when test="$key != ''">
-                        <xsl:value-of select="translate($key, $idfrom, $idto)"/>
-                      </xsl:when>
-                      <xsl:otherwise>
-                        <xsl:value-of select="concat($tag, 'No')"/>
-                      </xsl:otherwise>
-                    </xsl:choose>
-                  </xsl:attribute>
-                  <!-- pas de lien
-                  <xsl:attribute name="href">
-                    <xsl:call-template name="href"/>
-                  </xsl:attribute>
-                  -->
-                  <xsl:choose>
-                    <xsl:when test="$key != ''">
-                      <xsl:value-of select="$key"/>
-                    </xsl:when>
-                    <xsl:otherwise>
-                      <text>clé ?</text>
-                    </xsl:otherwise>
-                  </xsl:choose>
-                </a>
-              </td>
-              <td class="nb">
-                <xsl:value-of select="count(key($tag, $key))"/>
-              </td>
-            </tr>
+            <xsl:call-template name="tr">
+              <xsl:with-param name="tag" select="$tag"/>
+              <xsl:with-param name="key" select="normalize-space(@key|@type)"/>
+            </xsl:call-template>
           </xsl:for-each>
-        </tbody>
-      </table>
-    </details>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
+    <xsl:if test="$rows != ''">
+      <details id="{$tag}" class="terms">
+        <summary>
+          <xsl:value-of select="$label"/>
+          <!--
+          <a class="persName">
+            <xsl:attribute name="href">
+              <xsl:for-each select="//tei:persName[1][not(ancestor::tei:teiHeader)]">
+                <xsl:call-template name="href"/>
+              </xsl:for-each>
+            </xsl:attribute>
+          </a>
+            -->
+        </summary>
+        <table class="sortable" data-sort="1">
+          <thead>
+            <tr>
+              <th>
+                <xsl:value-of select="$label"/>
+              </th>
+              <th title="Occurrences">nb</th>
+            </tr>
+          </thead>
+          <tbody>
+            <xsl:copy-of select="$rows"/>
+          </tbody>
+        </table>
+      </details>
+    </xsl:if>
+  </xsl:template>
+  
+  <!-- 
+  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f17/full/full/0/native.jpg"/>
+  -->
+  <xsl:template match="tei:graphic">
+    <xsl:choose>
+      <xsl:when test="contains(@url, '/iiif/')">
+        <picture>
+          <xsl:variable name="src">
+            <xsl:value-of select="substring-before(@url, '/full/0/')"/>
+            <xsl:text>/500,/0/</xsl:text>
+            <xsl:value-of select="substring-after(@url, '/full/0/')"/>
+          </xsl:variable>
+          <img src="{$src}"/>
+        </picture>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:apply-imports/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+  
+  <xsl:template name="tr">
+    <xsl:param name="tag"/>
+    <xsl:param name="key"/>
+    <xsl:variable name="count">
+      <xsl:choose>
+        <xsl:when test="$tag = 'placeName'">
+          <xsl:value-of select="count(//tei:placeName[@key][@key != ''][starts-with(@key, $key)][not(ancestor::tei:teiHeader)])"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="count(key($tag, $key))"/>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>   
+    <tr>
+      <td class="term">
+        <a>
+          <xsl:attribute name="id">
+            <xsl:choose>
+              <xsl:when test="$key != ''">
+                <xsl:value-of select="translate($key, $idfrom, $idto)"/>
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:value-of select="concat($tag, $nokey)"/>
+              </xsl:otherwise>
+            </xsl:choose>
+          </xsl:attribute>
+          <xsl:if test="$count = 1">
+            <xsl:attribute name="href">
+              <xsl:call-template name="href"/>
+            </xsl:attribute>
+          </xsl:if>
+          <xsl:choose>
+            <xsl:when test="$key != ''">
+              <xsl:value-of select="$key"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <text>???</text>
+            </xsl:otherwise>
+          </xsl:choose>
+        </a>
+      </td>
+      <td class="nb">
+        <xsl:value-of select="$count"/>
+      </td>
+    </tr>
+
   </xsl:template>
   
   <xsl:template match="tei:pb" name="pb">
     <xsl:variable name="facs" select="@facs"/>
     <xsl:choose>
-      <xsl:when test="normalize-space($facs) != ''">
+      <xsl:when test="false() and normalize-space($facs) != ''">
         <!-- https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f104.image -->
         <a class="pb" href="{$facs}" target="_blank">
           <span>

@@ -8,6 +8,8 @@
   --placeNameLite:  rgba(192, 64, 64, 0.1);
   --tech: rgba(255, 192, 0, 1);
   --techLite: rgba(255, 192, 0, 0.1);
+  --ana: rgba(128, 128, 128, 1);
+  --anaLite: rgba(128, 128, 128, 0.1);
 }
 
 
@@ -182,6 +184,7 @@ main {
 
 #aside a {
   text-decoration: none;
+  cursor: pointer;
 }
 
 #aside summary {
@@ -203,6 +206,7 @@ main {
   background: #fafafa;
 }
 
+main.ana,
 main.placeName,
 main.name,
 main.tech,
@@ -210,15 +214,27 @@ main.persName {
   color: #999;
 }
 
-.placeName,
-.persName,
-.tech,
-.name {
+main.ana img,
+main.placeName img,
+main.name img,
+main.tech img,
+main.persName img {
+  object-fit: scale-down;
+  width:230px;
+  height:230px;
+  float: right;
+}
+
+span.placeName,
+span.persName,
+span.tech,
+span.name {
   cursor: pointer;
 }
 
 
 
+#persName thead,
 #persName summary,
 #persName a:hover,
 main.persName .persName {
@@ -232,6 +248,7 @@ main .persName.active {
   color: #fff !important;
 }
 
+#name thead,
 #name summary,
 #name a:hover,
 main.name .name {
@@ -245,6 +262,7 @@ main .name.active {
   color: #fff !important;
 }
 
+#placeName thead,
 #placeName summary,
 #placeName a:hover,
 main.placeName .placeName {
@@ -258,6 +276,7 @@ main .placeName.active {
   color: #fff !important;
 }
 
+#tech thead,
 #tech summary,
 #tech a:hover,
 main.tech .tech {
@@ -268,6 +287,20 @@ main.tech .tech {
 #tech a.active,
 main .tech.active {
   background-color: var(--tech) !important;
+  color: #fff !important;
+}
+
+#ana thead,
+#ana summary,
+#ana a:hover,
+main.ana .ana {
+  background-color: var(--anaLite);
+  color: #000;
+}
+
+#ana a.active,
+main .ana.active {
+  background-color: var(--ana) !important;
   color: #fff !important;
 }
 
@@ -293,8 +326,4 @@ table.sortable a {
   line-height: 1.1;
 }
 
-
-#aside li:target {
-  background-color: #FFFFFF;
-}
 
