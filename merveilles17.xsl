@@ -216,6 +216,13 @@
 
   </xsl:template>
   
+  <xsl:template match="tei:note">
+    <aside>
+      <xsl:call-template name="atts"/>
+      <xsl:apply-templates/>
+    </aside>
+  </xsl:template>
+  
   <xsl:template match="tei:pb" name="pb">
     <xsl:variable name="facs" select="@facs"/>
     <xsl:choose>

@@ -32,6 +32,13 @@ main, h1, h2, h3, h4, h5, h6 {
   font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 }
 
+aside.note.margin {
+  float: right;
+  width: 15rem;
+  border: 1px dotted #ccc;
+  margin-left: 1rem;
+}
+
 .pb {
   width: auto;
   position: relative;
