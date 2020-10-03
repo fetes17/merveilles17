@@ -37,7 +37,6 @@ if (aside) {
         if(bookmarks) {
           let marks = bookmarks.querySelectorAll('mark.'+el.id);
           for (let z = 0, max = marks.length; z < max; z++) {
-            console.log(marks[z]);
             marks[z].remove();
           }
         }

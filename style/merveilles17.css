@@ -53,7 +53,7 @@ a.pb img {
 }
 
 main {
-  padding: 2rem;
+  padding: 4rem 4rem 5rem 2rem;
   background-color: #fff;
   color: #000;
 }
@@ -92,7 +92,7 @@ main {
   width: 1px;
   border: 1px solid #999;
   position: fixed;
-  right: 18px;
+  right: 2rem;
   top: 0;
   bottom: 0;
 }
@@ -105,7 +105,7 @@ main {
   width: 15px;
   height: 10px;
   border-radius: 3px;
-  border: 1px dotted;
+  border: 1px solid;
   position: absolute;
   left:-9px;
   background-color: violet;
