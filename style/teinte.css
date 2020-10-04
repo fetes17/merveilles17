@@ -78,7 +78,6 @@ div.stage {
 }
 
 /* html5 default, in alphabetic order */
-/*
 a:target,
 mark:target,
 b.mark:target {
@@ -107,7 +106,6 @@ section:target {
   background: transparent !important;
   border-left: none;
 }
-*/
 
 article a {
   background-color: transparent;
@@ -591,10 +589,6 @@ section {
   clear: both;
 }
 
-select {
-  padding: 0 0.25rem;
-}
-
 small {
   font-weight: normal;
   font-size: 80%;
@@ -624,7 +618,6 @@ svg:not(:root) {
 button,
 input,
 optgroup,
-select,
 textarea {
   font-size: inherit;
   margin: 0;
@@ -634,8 +627,7 @@ button {
   overflow: visible;
 }
 
-button,
-select {
+button {
   text-transform: none;
 }
 
@@ -1482,10 +1474,6 @@ p.speaker {
   margin-top: 1rem;
   margin-bottom: 0.25rem;
   font-weight: normal;
-  text-transform: uppercase;
-  font-size: 0.9rem;
-  text-indent: 3rem;
-  text-indent: 3rem;
   line-height: 120%;
 }
 

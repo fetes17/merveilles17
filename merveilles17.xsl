@@ -21,6 +21,7 @@
       <xsl:call-template name="att-lang"/>
       <head>
         <meta charset="UTF-8"/>
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400;1,600&amp;family=Roboto:ital,wght@0,400;1,300&amp;display=swap" rel="stylesheet"/>
         <link rel="stylesheet" type="text/css" href="{$theme}teinte.css"/>
         <link rel="stylesheet" type="text/css" href="{$theme}sortable.css"/>
         <link rel="stylesheet" type="text/css" href="{$theme}merveilles17.css"/>
