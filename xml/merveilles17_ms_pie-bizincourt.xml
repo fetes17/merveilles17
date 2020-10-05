@@ -81,15 +81,15 @@
           url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f7/full/full/0/native.jpg"/>
         <figDesc>Un paysage représentant à l'arrière plan un château élevé au milieu d'une île. Au
           premier plan sur un bloc de marbre est inscrit le titre du manuscrit</figDesc>
-        <p>LES PLAISIRS DE L’ISLE ENCHANTÉE ORDONNEZ PAR <persName key="louisxiv"
+        <label type="head">LES PLAISIRS DE L’ISLE ENCHANTÉE ORDONNEZ PAR <persName key="louisxiv"
             role="commanditaire">LOVIS XIV</persName> ROY DE FRANCE ET DE NAVARRE. A <placeName
             key="versailles">Versailles</placeName> le <date when="1664-05-06">6 May
-          1664</date>.</p>
+          1664</date>.</label>
       </figure>
 
       <pb n="2" xml:id="fol2r"
         facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f9/full/full/0/native.jpg"/>
-      <p>AV ROY.</p>
+      <label type="head">AV ROY.</label>
       <p>SIRE</p>
       <p><persName key="louisxiv">VOSTRE MAIESTÉ</persName> a étably dans son Royaume vne Paix si
         profonde, que ceux de ses sujets que leur Naissance, &amp; leur Condition destinent à la
@@ -130,8 +130,8 @@
           url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f13/full/full/0/native.jpg"/>
         <figDesc>Un rouleau déployé orné des fleurs de lys et d'hermine sur lequel est écrit
           :</figDesc>
-        <p>AV<persName key="louisxiv" role="destinataire"> ROY</persName>.</p>
-        <label type="head">SONNET.</label>
+        <label type="head">AV<persName key="louisxiv" role="destinataire"> ROY</persName>.</label>
+        <p>SONNET.</p>
         <lg ana="sonnet">
           <l><persName key="louisxiv">GRAND ROY</persName>, dont le mâle Courage</l>
           <l>Fait si grand bruit de toutes parts,</l>
@@ -170,8 +170,9 @@
         <graphic
           url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f17/full/full/0/native.jpg"/>
         <figDesc>Un rouleau déployé orné d'hermine sur lequel est écrit :</figDesc>
-        <p>A LA <persName key="anne_d_autriche" role="destinataire">REYNE MERE</persName>.</p>
-        <label type="head">MADRIGAL.</label>
+        <label type="head">A LA <persName key="anne_d_autriche" role="destinataire">REYNE
+            MERE</persName>.</label>
+        <p>MADRIGAL.</p>
         <lg ana="madrigal">
           <l><persName key="anne_d_autriche">REYNE</persName> que l’Vnivers admire,</l>
           <l>Et qu’il a sujet d’amirer ;</l>
@@ -192,8 +193,8 @@
         <graphic
           url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f19/full/full/0/native.jpg"/>
         <figDesc/>
-        <p>A LA <persName key="marie_therese">REYNE</persName>.</p>
-        <label type="head">EPIGRAMME.</label>
+        <label type="head">A LA <persName key="marie_therese">REYNE</persName>.</label>
+        <p>EPIGRAMME.</p>
         <lg ana="epigramme">
           <l>Quoy que vótre beauté répande des lumieres</l>
           <l>Capables d’éblouïr <persName key="louisxiv">le Soleil de la Cour</persName>,</l>
@@ -213,9 +214,9 @@
       <figure>
         <graphic
           url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f21/full/full/0/native.jpg"/>
-        <figDesc>Allégorie de la France, vêtue d'un long manteau fleurdelisé bordé d'hermine tient
-          dans la main droite un sceptre avec les chiffres du roi et de la reine et dans la main
-          gauche un phylactère sur lequel est inscrit : "<persName key="louisxiv">LOVIS DE
+        <figDesc>L'allégorie de la France, vêtue d'un long manteau fleurdelisé bordé d'hermine,
+          tient dans la main droite un sceptre avec les chiffres du roi et de la reine et dans la
+          main gauche un phylactère sur lequel est inscrit : "<persName key="louisxiv">LOVIS DE
             BOVRBON</persName>
           <persName key="marie_therese">MARIE THERESE</persName>"</figDesc>
         <lg ana="quatrain">
@@ -223,13 +224,12 @@
           <l>Le beau Nom de <persName key="marie_therese">Therese</persName> &amp; du <persName
               key="louisxiv">Dieu de nos LIS</persName>,</l>
           <l>Sinon que comme ils font étroittement vnis,</l>
-          <l>Leurs cœur étoittement seront vnis ensemble.</l>
+          <l>Leurs cœurs étroittement seront vnis ensemble.</l>
         </lg>
       </figure>
-      <p>
-        <pb n="9" xml:id="p9"
-          facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f23/full/full/0/native.jpg"/>
-      </p>
+
+      <pb n="9" xml:id="p9"
+        facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f23/full/full/0/native.jpg"/>
       <label type="head">AVANT-PROPOS.</label>
       <p>Les charmes d’<name key="alcine">Alcine</name>, qui n'auoit pas moins de beauté que de
         sçavoir, retenant auprés d’elle, par vn double enchantement, le braue <name key="roger"
@@ -257,12 +257,12 @@
           <name key="chevaliers">onze de ses Chevaliers</name> de se préparer pour cet effet,
         lesquels commencerent ces diuertissemens par la Course de bague &amp; entrerent dans le
         Champ dans cet ordre.</p>
-      <p>
-        <pb n="10" xml:id="p10"
-          facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f25/full/full/0/native.jpg"/>
-        <label type="head">LA MARCHE DES <name key="chevaliers">CHEVALIERS</name> DANS LA
-          LICE.</label>
-        <name key="heraut_d_armes">Vn Héraut d’Armes</name> accompagné du <name key="page">Page de
+
+      <pb n="10" xml:id="p10"
+        facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f25/full/full/0/native.jpg"/>
+      <label type="head">LA MARCHE DES <name key="chevaliers">CHEVALIERS</name> DANS LA
+        LICE.</label>
+      <p><name key="heraut_d_armes">Vn Héraut d’Armes</name> accompagné du <name key="page">Page de
           Roger</name>, Chef de la Quadrille, portant la lance &amp; l’écu de sa deuise, entra dans
         le Champ suivy de <name key="page">deux autres Pages, de celuy de Guidon le sauuage,
           Maréchal de Camp, &amp; de celuy d’Oger le Danois</name>, Iuge des Courses, portans les
@@ -346,291 +346,413 @@ Balisons nous les trompettes et les timballiers comme des personnes ou comme des
           Plaisirs</name>, <name key="les_jeux">les Ieux</name>, <name key="les_ris">les Ris</name>
         &amp; <name key="les_delices">les Delices</name>, ce qui finit les diuertissemens de l’Île
         enchantée pour ce premier jour.</p>
-      
-      
-        <pb n="12" xml:id="p12"/>
+
+
+      <pb n="12" xml:id="p12"/>
       <figure>
         <graphic
           url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f29/full/full/0/native.jpg"/>
-        <figDesc>Une allégorie de la victoire survolant le monde tient de la main droite les armes de France et de la main gauche une trompette avec une bannière portant cette incription :</figDesc>
+        <figDesc>Une allégorie de la victoire survolant le monde tient de la main droite les armes
+          de France et de la main gauche une trompette avec une bannière portant cette incription
+          :</figDesc>
         <p><foreign>VICTRICIBVS ARMIS</foreign>
-      </p>
-      <p>
-        <foreign>LODOICI</foreign>
-      </p>
-      <p>
-        <foreign>FRANCORVM IMPERATORIS.</foreign>
-      </p>
-      <p>
-        <foreign>LVDOVICVS XIV. foelicitati Nationum datus, Regum decus, humanae Gentis delitiae,
-          hostium terror, suorum desiderium, omnium admiratio.</foreign>
-      </p></figure>
-     
-        <pb n="13" xml:id="p13"/>
+        </p>
+        <p>
+          <foreign>LODOICI</foreign>
+        </p>
+        <p>
+          <foreign>FRANCORVM IMPERATORIS.</foreign>
+        </p>
+        <p>
+          <foreign>LVDOVICVS XIV. foelicitati Nationum datus, Regum decus, humanae Gentis delitiae,
+            hostium terror, suorum desiderium, omnium admiratio.</foreign>
+        </p>
+      </figure>
+
+      <pb n="13" xml:id="p13"/>
       <figure>
         <graphic
           url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f31/full/full/0/native.jpg"/>
         <figDesc>Un cartouche avec cette inscription :</figDesc>
-      <p>
-        <foreign>LVDOVICVS XIIII.</foreign>
-      </p>
-      <p>
-        <foreign>FRANCORVM IMPERATOR AUGVSTISSIMVS.</foreign>
-      </p>
-      <p>
-        <foreign>Aduersariis mari terraque deuictis, latè prolatis finibus, firmatis vbique terrarum
-          sociis, pace suis legibus orbi sancita.</foreign>
-      </p>
-      <p>
-        <foreign>NE QVID CESSARET HEROICA VIRTVS PALESTRICAM VICTORIAM NON DEDIGNATVR.</foreign>
-      </p></figure>
-      
-        <pb n="14" xml:id="p14"/>
+        <p>
+          <foreign>LVDOVICVS XIIII.</foreign>
+        </p>
+        <p>
+          <foreign>FRANCORVM IMPERATOR AUGVSTISSIMVS.</foreign>
+        </p>
+        <p>
+          <foreign>Aduersariis mari terraque deuictis, latè prolatis finibus, firmatis vbique
+            terrarum sociis, pace suis legibus orbi sancita.</foreign>
+        </p>
+        <p>
+          <foreign>NE QVID CESSARET HEROICA VIRTVS PALESTRICAM VICTORIAM NON DEDIGNATVR.</foreign>
+        </p>
+      </figure>
+
+      <pb n="14" xml:id="p14"/>
       <figure>
         <graphic
           url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f33/full/full/0/native.jpg"/>
-        <figDesc></figDesc></figure>
-      <p>
-        <pb n="15" xml:id="p15"/>
-      </p>
-      <p>A <persName key="saint_aignan" role="destinataire">MONSIEVR LE DVC DE ST.
-        AIGNAN</persName>.</p>
-      <label type="head">EPIGRAMME.</label>
-      <l>Par tout où paroist ce grand Homme</l>
-      <l>Il s’y fait toujours admirer ;</l>
-      <l>S’il eust êté du temps de Rome</l>
-      <l>Rome l’auroit fait adorer ;</l>
-      <l>Il est cent Dieux dedans l’Histoire</l>
-      <l>Dont elle a celebré la gloire</l>
-      <l>Qu’on connoist encore aujourdhuy,</l>
-      <l>Qui ne meritoient pas d’être Dieux comme luy.</l>
-      <p>
-        <pb n="16" xml:id="p16"/>
-      </p>
-      <p><persName key="saint_aignan">FRANÇOIS DE BEAUVVILLIER</persName>.</p>
-      <p>François de Beauuillier Duc de S<hi rend="sup">t</hi>. Aignan, Cheualier des Ordres du Roy,
-        Duc &amp; Pair de France, Gouuerneur de Tourraine, ville &amp; Casteau de Loches, &amp;
-        Premier Gentilhomme de la Chambre du Roy.</p>
-      <p>
-        <pb n="17" xml:id="p17"/>
-      </p>
-      <p><foreign>DE MIS GOLPES MIRVIDO</foreign>.</p>
-      <p><name key="guidon_le_sauvage" corresp="saint_aignan">GVIDON LE SAVVAGE</name>.</p>
-      <l>Les Combats que j’ay faits dans l’Isle dangereuse</l>
-      <l>Quand de tant de Guerriers je demeuray vainqueur,</l>
-      <l>Suiuis d’une épreuue amoureuse,</l>
-      <l>Ont signalé ma force aussi bien que mon cœur.</l>
-      <l>La vigueur qui fait mon estime,</l>
-      <l>Soit qu’elle embrase vn party legitime,</l>
-      <l>Ou qu’elle vienne à s’échapper ;</l>
-      <l>Fait dire pour ma gloire aux deux bouts de la Terre,</l>
-      <l>Qu’on n’en voit point en toute Guerre,</l>
-      <l>Ny plus souuent, ny mieux frapper.</l>
-      <p>
-        <pb n="18" xml:id="p18"/>
-      </p>
-      <p>AV <persName key="louisxiv" role="destinataire">ROY</persName>.</p>
-      <p>EPIGRAMME.</p>
-      <l>SI <name key="roger" corresp="louisxiv">Roger</name> s’acquît de la gloire</l>
-      <l>Parmy les braues de son temps,</l>
-      <l>Par quelques Exploits éclattans</l>
-      <l>Que nous raconte son Histoire ;</l>
-      <l>Que ne doit-on pas croire vn jour</l>
-      <l>De ce bel Astre de la Cour,</l>
-      <l><persName key="louisxiv">LOVIS</persName>, le plus grand Roy du Monde,</l>
-      <l>Puis qu’il a fait luy seul plus d’illustres Exploits</l>
-      <l>Que tous ces Preux, errant sur la Terre &amp; sur l’Onde.</l>
-      <l>Et plus que deuant luy n’ont fait soixante Roys.</l>
-      <p>
-        <pb n="19" xml:id="p19"/>
-      </p>
-      <p>
-        <foreign>NEC CESSO, NEC ERRO.</foreign>
-      </p>
-      <p><name key="roger" corresp="louisxiv">ROGER</name>.</p>
-      <l>Ce n’est pas sans raison que la Terre &amp; les Cieux,</l>
-      <l>On tant d’étonnement pour vn Objet si rare ;</l>
-      <l>Qui dans son cour penible autant que glorieux,</l>
-      <l>Iamais ne se repose, &amp; jamais ne s’égare.</l>
-      <p>
-        <pb n="20" xml:id="p20"/>
-      </p>
-      <p><persName key="louisxiv">LOVIS XIV</persName>.</p>
-      <p>DIEV-DONNE’, Roy de France &amp; de Nauarre, Chef &amp; Souuerain Grand Maistre de l’Ordre
-        du S<hi rend="sup">t</hi>. Esprit, Fils de <persName key="louisxiii">Louis le Iuste
-          13</persName>. du Nom aussi Roy de France &amp; de Navarre, &amp; de la <persName
-          key="anne_d_autriche">Reyne</persName>, Fille de <persName key="felipeiii">Philippe 3. Roy
-          d’Espagne</persName>.</p>
-      <p>
-        <pb n="21" xml:id="p21"/>
-      </p>
-      <p>A <persName key="anne_de_noailles" role="destinataire">MONSIEVR LE DVC DE
-          NOAILLE</persName>.</p>
-      <label type="head">SONNET.</label>
-      <l>Il est aussy vaillant que son Ame est fidelle,</l>
-      <l>Il ose &amp; tente tout pour bien seruir son <persName key="louisxiv">Roy</persName>,</l>
-      <l>De ses ordres frequens il s’en fait vne loy,</l>
-      <l>Qu’en faisant observer, il observe auec zele.</l>
-      <l>Tout ce qui peut donner une gloire immortelle,</l>
-      <l>Ce genereux Seigneur le possede dans soy,</l>
-      <l>La Cour en est charmée, &amp; l’on sçait comme moy</l>
-      <l>Qu’il est de ses vertus vn illustre Modelle.</l>
-      <l>Il est propre au Conseil, à la Plume, au Combat</l>
-      <l>Souz le faix des trauaux jamais il ne s’abat,</l>
-      <l>Il est actif en Paix, il est actif en guerre.</l>
-      <l>Et si de nos Heros on en faisoit des Dieux</l>
-      <l><persName key="anne_de_noailles">NOAILLE</persName> auroit bientôt plus d’Autels sur la
-        Terre,</l>
-      <l>Qu’on ne voit d’icy bas d’étoilles dans les Cieux.</l>
-      <p>
-        <pb n="22" xml:id="p22"/>
-      </p>
-      <p><persName key="anne_de_noailles">ANNE DE NOAILLE</persName>.</p>
-      <p>Comte d’Ayent, Marquis de Montelar, &amp; de Chambrés, Baron de Malemore, &amp;
-        Charbonnieres, Duc &amp; Pair de France, Cheualier des Ordres du Roy ; Premier Capitaine des
-        Gardes du Corps de Sa Majesté, Gouuerneur &amp; Lieutenant general pour Sa Majesté des
-        Comtez de Roussillon, de Constans, &amp; partie de Sardaigne, Capitaine general desdits
-        Pays.</p>
-      <p>
-        <pb n="23" xml:id="p23"/>
-      </p>
-      <p>
-        <foreign>FIDELIS ET AUDAX.</foreign>
-      </p>
-      <p>
-        <name key="oger_le_danois" corresp="anne_de_noailles">OGER LE DANOIS.</name>
-      </p>
-      <l><name key="oger_le_danois" corresp="anne_de_noailles">Ce Paladin</name> s’applique à cette
-        seule affaire</l>
-      <l>De seruir dignement le plus puissant des Roys,</l>
-      <l>Comme pour bien juger il faut sçavoir bien faire,</l>
-      <l>Le doute que personne appelle de sa voix.</l>
-      <p>
-        <pb n="24" xml:id="p24"/>
-      </p>
-      <p>A <persName key="hj_bourbon_conde" role="destinataire">MONSIEVR LE DVC</persName></p>
-      <label type="head">EPIGRAMME</label>
-      <l>Dedans le poste où je le vois</l>
-      <l>Aupres du plus grand de nos Roys</l>
-      <l>Et l’esperance qu’il nous donne</l>
-      <l>Estant bien fait de sa personne</l>
-      <l>Brûlant de si noble chaleur</l>
-      <l>Qu’il paroist la mesme valeur,</l>
-      <l>Vn oracle secret m’anime &amp; me suggere</l>
-      <l>De dire dans ces vers que ce jeune Vainqueur</l>
-      <l>Dans le Mestier de Mars supassera son Pere.</l>
-      <p>
-        <pb n="25" xml:id="p25"/>
-      </p>
-      <p><persName key="hj_bourbon_conde">LOVIS IVLES DE BOVRBON</persName>.</p>
-      <p>Duc d’Anguien, Prince de Sang, Grand Maistre de France, &amp; Chevalier des Ordres du
-        Roy.</p>
-      <p>
-        <pb n="26" xml:id="p26"/>
-      </p>
-      <p>
-        <foreign>CERTÒ FERIT.</foreign>
-      </p>
-      <l><name key="roland" corresp="hj_bourbon_conde">Roland </name>sera bien loin son grand Nom
-        retentir,</l>
-      <l>La gloire deuiendra sa fidele Compagne,</l>
-      <l>Il est sorty d’vn Sang qui brûle de Sortir</l>
-      <l>Quand il est question de se mettre en Campagne,</l>
-      <l>Et pour ne vous en point mentir,</l>
-      <l>C’est le pur Sang de <name>Charlemagne</name>.</l>
-      <p>
-        <pb n="27" xml:id="p27"/>
-      </p>
-      <p>
-        <pb n="28" xml:id="p28"/>
-      </p>
-      <p>A <persName key="henri_ii_de_guise" role="destinataire">MONSIEVR LE DVC DE
-        GVISE</persName>.</p>
-      <label type="head">EPIGRAMME.</label>
-      <l>Quand dedans le champ des combats</l>
-      <l>Il estoit besoin de combattre.</l>
-      <l>Comme son bras en valloit quatre</l>
-      <l>Il en mettoit plusieurs à bas ;</l>
-      <l>Et lorsque dans vne carrière</l>
-      <l>Il falloit battre la poussiere</l>
-      <l>Il y tromphoit des premiers ;</l>
-      <l>Ainsy se rendant necessaire,</l>
-      <l>Pourueu qu’il s’agit de Lauriers,</l>
-      <l>Il étoit vn Prince à tout faire.</l>
-      <p>
-        <pb n="29" xml:id="p29"/>
-      </p>
-      <p><persName key="henri_ii_de_guise">HENRI DE LORRAINE</persName>.</p>
-      <p>Duc de Guise, Pair de France.</p>
-      <p>
-        <pb n="30" xml:id="p30"/>
-      </p>
-      <p><foreign>ET QVIENSCENTE PAVESCVNT</foreign>.</p>
-      <p><name key="aquilant" corresp="henri_ii_de_guise">AQVILANT LE NOIR</name>.</p>
-      <l>La Nuit a ses beautez de mesme que le Iour,</l>
-      <l>Le noir est ma couleur, je l’ay toûjours aimée</l>
-      <l>Et si l’obscurité conuient à mon amour,</l>
-      <l>Elle ne s’estend pas jusqu’à ma renommée.</l>
-      <p>
-        <pb n="31" xml:id="p31"/>
-      </p>
-      <p>A <persName key="henri_de_lorraine" role="destinataire">MONSIEVR LE COMTE
-          D’ARMAGNAC</persName>.</p>
-      <label type="head">EPIGRAMME.</label>
-      <l>Vit-on dedans l’Antiquité,</l>
-      <l>Vn Heros qui luy fût semblable,</l>
-      <l>Mars dans vn grand combat seroit moins redoutable,</l>
-      <l>Et n’auroit pas l’activité</l>
-      <l>Qu’en cette Course incompable</l>
-      <l>Il fait voir à <persName key="louisxiv">sa Masjesté</persName>.</l>
-      <p>
-        <pb n="32" xml:id="p32"/>
-      </p>
-      <p><persName key="henri_de_lorraine">LOVIS DE LORRAINE</persName>.</p>
-      <p>Comte d’Armagnac, pourueu en suirvivance de la charge de Grand Escuier de France &amp; du
-        gouuernement d’Anjou.</p>
-      <p>
-        <pb n="33" xml:id="p33"/>
-      </p>
-      <p><foreign>EX CANDORE DECVS</foreign>.</p>
-      <p><name key="griffon_le_blanc" corresp="henri_de_lorraine">GRIFFON LE BLANC</name>.</p>
-      <l>Voyez quelle candeur en moy le Ciel a mis,</l>
-      <l>Aussi nulle beauté ne s’en verra trompée,</l>
-      <l>Et quand il sera temps d’aller aux ennemis,</l>
-      <l>C’est où je me feray tout blanc de mon espée.</l>
-      <p>
-        <pb n="34" xml:id="p34"/>
-      </p>
-      <p>A <persName key="jb_gaston_foix_candale" role="destinataire">MONSIEVR LE DVC DE
-          FOIX</persName>.</p>
-      <label type="head">EPIGRAMME.</label>
-      <l>Tes nobles Qualitez &amp; ta haute Naissance</l>
-      <l>Ne te font pas aimer seulement de la Cour,</l>
-      <l>Il n’est point de grand cœur dans le sein de la France</l>
-      <l>Qui ne joigne pour toy le respect à l’amour</l>
-      <l>Mais surtout ce qui te doit à l’amour</l>
-      <l>C’est que <persName key="louisxiv">LOVS</persName> te considere ;</l>
-      <l>Auantage pour toy cent fois plus glorieux ;</l>
-      <l>Puisque dans le Siecle où nous sommes</l>
-      <l>C’est peu d’être estime des Hommes,</l>
-      <l>Au prix d’être estimé des Dieux.</l>
-      <p>
-        <pb n="35" xml:id="p35"/>
-      </p>
+        <figDesc><placeName key="versailles_jardins"/><name key="chevaliers"/><tech type="animal"
+            /><tech type="construction"/><tech type="costume"/></figDesc>
+      </figure>
+
+      <pb n="15" xml:id="p15"/>
+      <figure>
+        <graphic
+          url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f35/full/full/0/native.jpg"/>
+        <figDesc/>
+        <label type="head">A <persName key="saint_aignan" role="destinataire">MONSIEVR LE DVC DE
+              S.<hi rend="sup">T</hi> AIGNAN</persName>.</label>
+        <p>EPIGRAMME.</p>
+        <lg ana="epigramme">
+          <l>Par tout où paroist ce grand Homme</l>
+          <l>Il s’y fait toujours admirer ;</l>
+          <l>S’il eust êté du temps de Rome</l>
+          <l>Rome l’auroit fait adorer ;</l>
+          <l>Il est cent Dieux dedans l’Histoire</l>
+          <l>Dont elle a celebré la gloire</l>
+          <l>Qu’on connoist encore aujourdhuy,</l>
+          <l>Qui ne meritoient pas d’être Dieux comme luy.</l>
+        </lg>
+      </figure>
+
+      <pb n="16" xml:id="p16"/>
+      <figure>
+        <graphic
+          url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f37/full/full/0/native.jpg"/>
+        <figDesc/>
+        <label type="head"><persName key="saint_aignan">FRANÇOIS DE BEAUVVILLIER</persName>.</label>
+        <p>François de Beauuillier Duc de S<hi rend="sup">t</hi>. Aignan, Cheualier des Ordres du
+          Roy, Duc &amp; Pair de France, Gouuerneur de Tourraine, ville &amp; Chasteau de Loches,
+          &amp; Premier Gentilhomme de la Chambre du Roy.</p>
+      </figure>
+
+      <pb n="17" xml:id="p17"/>
+      <figure>
+        <graphic
+          url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f39/full/full/0/native.jpg"/>
+        <figDesc>Une devise avec une inscription sur un phylactère et une cloche dans un
+          médaillon</figDesc>
+        <label ana="devise"><foreign>DE MIS GOLPES MI RVIDO</foreign>.</label>
+        <label type="head"><name key="guidon_le_sauvage" corresp="saint_aignan">GVIDON LE
+            SAVVAGE</name>.</label>
+        <lg ana="vers">
+          <l>Les Combats que j’ay faits dans l’Isle dangereuse</l>
+          <l>Quand de tant de Guerriers je demeuray vainqueur,</l>
+          <l>Suiuis d’une épreuue amoureuse,</l>
+          <l>Ont signalé ma force aussi bien que mon cœur.</l>
+          <l>La vigueur qui fait mon estime,</l>
+          <l>Soit qu’elle embrasse vn party legitime,</l>
+          <l>Ou qu’elle vienne à s’échapper ;</l>
+          <l>Fait dire pour ma gloire aux deux bouts de la Terre,</l>
+          <l>Qu’on n’en voit point en toute Guerre,</l>
+          <l>Ny plus souuent, ny mieux frapper.</l>
+        </lg>
+      </figure>
+
+      <pb n="18" xml:id="p18"/>
+      <figure>
+        <graphic
+          url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f41/full/full/0/native.jpg"/>
+        <figDesc/>
+        <label type="head">AV <persName key="louisxiv" role="destinataire">ROY</persName>.</label>
+        <p>EPIGRAMME.</p>
+        <lg ana="epigramme">
+          <l>SI <name key="roger" corresp="louisxiv">Roger</name> s’acquît de la gloire</l>
+          <l>Parmy les braues de son temps,</l>
+          <l>Par quelques Exploits éclattans</l>
+          <l>Que nous raconte son Histoire ;</l>
+          <l>Que ne doit-on pas croire vn jour</l>
+          <l>De ce bel Astre de la Cour,</l>
+          <l><persName key="louisxiv">LOVIS</persName>, le plus grand Roy du Monde,</l>
+          <l>Puis qu’il a fait luy seul plus d’illustres Exploits</l>
+          <l>Que tous ces Preux, errans sur la Terre &amp; sur l’Onde.</l>
+          <l>Et plus que deuant luy n’ont fait soixante Roys.</l>
+        </lg>
+      </figure>
+
+      <pb n="19" xml:id="p19"/>
+      <figure>
+        <graphic
+          url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f43/full/full/0/native.jpg"/>
+        <figDesc>Une devise avec une inscription sur un phylactère et un soleil dans un
+          médaillon</figDesc>
+        <label ana="devise"><foreign>NEC CESSO, NEC ERRO.</foreign>.</label>
+        <label type="head"><name key="roger" corresp="louisxiv">ROGER</name>.</label>
+        <lg ana="quatrain">
+          <l>Ce n’est pas sans raison, que la Terre &amp; les Cieux,</l>
+          <l>On tant d’étonnement pour vn Objet si rare ;</l>
+          <l>Qui dans son cours penible autant que glorieux,</l>
+          <l>Iamais ne se repose, &amp; jamais ne s’égare.</l>
+        </lg>
+      </figure>
+
+      <pb n="20" xml:id="p20"/>
+      <figure>
+        <graphic
+          url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f45/full/full/0/native.jpg"/>
+        <figDesc/>
+        <label type="head"><persName key="louisxiv">LOVIS XIV</persName>.</label>
+        <p>DIEV-DONNÉ, Roy de France &amp; de Nauarre, Chef &amp; Souuerain Grand Maistre de l’Ordre
+          du S.<hi rend="sup">t</hi> Esprit, Fils de <persName key="louisxiii">Louis le Iuste
+            13.</persName> du Nom aussi Roy de France &amp; de Navarre, &amp; de la <persName
+            key="anne_d_autriche">Reyne</persName>, Fille de <persName key="felipeiii">Philippe 3.
+            Roy d’Espagne</persName>.</p>
+      </figure>
+
+      <pb n="21" xml:id="p21"/>
+      <figure>
+        <graphic
+          url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f47/full/full/0/native.jpg"/>
+        <figDesc/>
+        <label type="head">A <persName key="anne_de_noailles" role="destinataire">MONSIEVR LE DVC DE
+            NOAILLE</persName>.</label>
+        <p>SONNET.</p>
+        <lg ana="sonnet">
+          <l>Il est aussy vaillant que son Ame est fidelle,</l>
+          <l>Il ose &amp; tente tout pour bien seruir son <persName key="louisxiv"
+            >Roy</persName>,</l>
+          <l>De ses ordres frequens il s’en fait vne loy,</l>
+          <l>Qu’en faisant observer, il observe auec zele.</l>
+          <l>Tout ce qui peut donner une gloire immortelle,</l>
+          <l>Ce genereux Seigneur le possede dans soy,</l>
+          <l>La Cour en est charmée, &amp; l’on sçait comme moy</l>
+          <l>Qu’il est de ses vertus vn illustre Modelle.</l>
+          <l>Il est propre au Conseil, à la Plume, au Combat</l>
+          <l>Souz le faix des trauaux jamais il ne s’abat,</l>
+          <l>Il est actif en Paix, il est actif en guerre.</l>
+          <l>Et si de nos Heros on en faisoit des Dieux</l>
+          <l><persName key="anne_de_noailles">NOAILLE</persName> auroit bientôt plus d’Autels sur la
+            Terre,</l>
+          <l>Qu’on ne voit d’icy bas d’étoilles dans les Cieux.</l>
+        </lg>
+      </figure>
+
+      <pb n="22" xml:id="p22"/>
+      <figure>
+        <graphic
+          url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f49/full/full/0/native.jpg"/>
+        <figDesc/>
+        <label type="head">
+          <persName key="anne_de_noailles">ANNE DE NOAILLE</persName>.</label>
+        <p>Comte d’Ayent, Marquis de Montelar, &amp; de Chambrés, Baron de Malemore, &amp;
+          Charbonnieres, Duc &amp; Pair de France, Cheualier des Ordres du Roy ; Premier Capitaine
+          des Gardes du Corps de Sa Majesté, Gouuerneur &amp; Lieutenant general pour Sa Majesté des
+          Comtez de Roussillon, de Conflans, &amp; partie de Sardaigne, Capitaine general desdits
+          Pays.</p>
+      </figure>
+
+      <pb n="23" xml:id="p23"/>
+      <figure>
+        <graphic
+          url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f51/full/full/0/native.jpg"/>
+        <figDesc>Une devise avec une inscription sur un phylactère et un aigle regardant le
+          soleil</figDesc>
+        <label ana="devise">
+          <foreign>FIDELIS ET AUDAX.</foreign></label>
+        <label type="head"><name key="oger_le_danois" corresp="anne_de_noailles">OGER LE
+            DANOIS.</name>
+        </label>
+        <lg ana="quatrain">
+          <l><name key="oger_le_danois" corresp="anne_de_noailles">Ce Paladin</name> s’applique à
+            cette seule affaire</l>
+          <l>De seruir dignement le plus puissant des Roys,</l>
+          <l>Comme pour bien juger il faut sçavoir bien faire,</l>
+          <l>Ie doute que personne appelle de sa voix.</l>
+        </lg>
+      </figure>
+
+      <pb n="24" xml:id="p24"/>
+      <figure>
+        <graphic
+          url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f53/full/full/0/native.jpg"/>
+        <figDesc/>
+        <label type="head"> A <persName key="hj_bourbon_conde" role="destinataire">MONSIEVR LE
+            DVC</persName></label>
+        <p>EPIGRAMME</p>
+        <lg ana="epigramme">
+          <l>Dedans le poste où je le vois</l>
+          <l>Aupres du plus grand de nos Roys</l>
+          <l>Et l’esperance qu’il nous donne</l>
+          <l>Estant bien fait de sa personne</l>
+          <l>Brûlant de si noble chaleur</l>
+          <l>Qu’il paroist la mesme valeur,</l>
+          <l>Vn oracle secret m’anime &amp; me suggere</l>
+          <l>De dire dans ces vers que ce jeune Vainqueur</l>
+          <l>Dans le Mestier de Mars supassera son Pere.</l>
+        </lg>
+      </figure>
+
+      <pb n="25" xml:id="p25"/>
+      <figure>
+        <graphic
+          url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f55/full/full/0/native.jpg"/>
+        <figDesc/>
+        <label type="head"><persName key="hj_bourbon_conde">LOVIS IVLES DE
+          BOVRBON</persName>.</label>
+        <p>Duc d’Anguien, Prince de Sang, Grand Maistre de France, &amp; Chevalier des Ordres du
+          Roy.</p>
+      </figure>
+
+      <pb n="26" xml:id="p26"/>
+      <figure>
+        <graphic
+          url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f57/full/full/0/native.jpg"/>
+        <figDesc>Une devise avec une inscription sur un phylactère et une flèche entourée de
+          lauriers</figDesc>
+        <label ana="devise"><foreign>CERTÒ FERIT.</foreign></label>
+        <label type="head"><name key="roland" corresp="hj_bourbon_conde">ROLAND</name></label>
+        <lg ana="vers">
+          <l><name key="roland" corresp="hj_bourbon_conde">Roland </name>fera bien loin son grand
+            Nom retentir,</l>
+          <l>La gloire deuiendra sa fidele Compagne,</l>
+          <l>Il est sorty d’vn Sang qui brûle de sortir</l>
+          <l>Quand il est question de se mettre en Campagne,</l>
+          <l>Et pour ne vous en point mentir,</l>
+          <l>C’est le pur Sang de <name key="charlemagne">Charlemagne</name>.</l>
+        </lg>
+      </figure>
+
+      <pb n="27" xml:id="p27"/>
+      <figure>
+        <graphic
+          url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f59/full/full/0/native.jpg"/>
+        <figDesc>Deux chevaliers<name key="chevaliers"/><tech type="animal"/><tech type="costume"
+          /></figDesc>
+      </figure>
+
+      <pb n="28" xml:id="p28"/>
+      <figure>
+        <graphic
+          url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f61/full/full/0/native.jpg"/>
+        <figDesc/>
+        <label type="head">A <persName key="henri_ii_de_guise" role="destinataire">MONSIEVR LE DVC
+            DE GVISE</persName>.</label>
+        <p>EPIGRAMME.</p>
+        <lg ana="epigramme">
+          <l>Quand dedans le champ des combats</l>
+          <l>Il estoit besoin de combattre,</l>
+          <l>Comme son bras en valloit quatre</l>
+          <l>Il en mettoit plusieurs à bas ;</l>
+          <l>Et lorsque dans vne carrière</l>
+          <l>Il falloit battre la poussiere</l>
+          <l>Il y tromphoit des premiers ;</l>
+          <l>Ainsy se rendant necessaire,</l>
+          <l>Pourueu qu’il s’agit de Lauriers,</l>
+          <l>Il étoit vn Prince à tout faire.</l>
+        </lg>
+      </figure>
+
+      <pb n="29" xml:id="p29"/>
+      <figure>
+        <graphic
+          url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f63/full/full/0/native.jpg"/>
+        <figDesc/>
+        <label type="head"><persName key="henri_ii_de_guise">HENRI DE LORRAINE</persName>.</label>
+        <p>Duc de Guise, Pair de France.</p>
+      </figure>
+
+      <pb n="30" xml:id="p30"/>
+      <figure>
+        <graphic
+          url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f65/full/full/0/native.jpg"/>
+        <figDesc>Une devise avec une inscription sur un phylactère et un lion endormi</figDesc>
+        <label ana="devise">
+          <foreign>ET QVIENSCENTE PAVESCVNT</foreign>.</label>
+        <label type="head"><name key="aquilant" corresp="henri_ii_de_guise">AQVILANT LE
+          NOIR</name>.</label>
+        <lg ana="quatrain">
+          <l>La Nuit a ses beautez de mesme que le Iour,</l>
+          <l>Le noir est ma couleur, je l’ay toûjours aimée</l>
+          <l>Et si l’obscurité conuient à mon amour,</l>
+          <l>Elle ne s’estend pas jusqu’à ma renommée.</l>
+        </lg>
+      </figure>
+
+      <pb n="31" xml:id="p31"/>
+      <figure>
+        <graphic
+          url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f67/full/full/0/native.jpg"/>
+        <figDesc/>
+        <label type="head">A <persName key="henri_de_lorraine" role="destinataire">MONSIEVR LE COMTE
+            D’ARMAGNAC</persName>.</label>
+        <p>EPIGRAMME.</p>
+        <lg ana="epigramme">
+          <l>Vit-on dedans l’Antiquité,</l>
+          <l>Vn Heros qui luy fût semblable,</l>
+          <l>Mars dans vn grand combat seroit moins redoutable,</l>
+          <l>Et n’auroit pas l’activité</l>
+          <l>Qu’en cette Course incompable</l>
+          <l>Il fait voir à <persName key="louisxiv">sa Masjesté</persName>.</l>
+        </lg>
+      </figure>
+
+      <pb n="32" xml:id="p32"/>
+      <figure>
+        <graphic
+          url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f69/full/full/0/native.jpg"/>
+        <figDesc/>
+        <label type="head">
+          <persName key="henri_de_lorraine">LOVIS DE LORRAINE</persName>.</label>
+        <p>Comte d’Armagnac, pourueu en suruiuance de la charge de Grand Escuier de France &amp; du
+          gouuernement d’Anjou.</p>
+      </figure>
+
+      <pb n="33" xml:id="p33"/>
+      <figure>
+        <graphic
+          url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f71/full/full/0/native.jpg"/>
+        <figDesc>Une devise avec une inscription sur un phylactère et une hermine</figDesc>
+        <label ana="devise"><foreign>EX CANDORE DECVS</foreign>.</label>
+        <label type="head"><name key="griffon_le_blanc" corresp="henri_de_lorraine">GRIFFON LE
+            BLANC</name>.</label>
+        <lg ana="quatrain">
+          <l>Voyez quelle candeur en moy le Ciel a mis,</l>
+          <l>Aussi nulle beauté ne s’en verra trompée,</l>
+          <l>Et quand il sera temps d’aller aux ennemis,</l>
+          <l>C’est où je me feray tout blanc de mon espée.</l>
+        </lg>
+      </figure>
+
+      <pb n="34" xml:id="p34"/>
+      <figure>
+        <graphic
+          url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f73/full/full/0/native.jpg"/>
+        <figDesc/>
+        <label type="head">A <persName key="jb_gaston_foix_candale" role="destinataire">MONSIEVR LE
+            DVC DE FOIX</persName>.</label>
+        <p>EPIGRAMME.</p>
+        <lg ana="epigramme">
+          <l>Tes nobles Qualitez &amp; ta haute Naissance</l>
+          <l>Ne te font pas aimer seulement de la Cour,</l>
+          <l>Il n’est point de grand cœur dans le sein de la France</l>
+          <l>Qui ne joigne pour toy le respect à l’amour</l>
+          <l>Mais surtout ce qui te doit plaire</l>
+          <l>C’est que <persName key="louisxiv">LOVS</persName> te considere ;</l>
+          <l>Auantage pour toy cent fois plus glorieux ;</l>
+          <l>Puisque dans le Siecle où nous sommes</l>
+          <l>C’est peu d’être estimé des Hommes,</l>
+          <l>Au prix d’être estimé des Dieux.</l>
+        </lg>
+      </figure>
+
+      <pb n="35" xml:id="p35"/>
+
       <p><persName key="jb_gaston_foix_candale">GASTON DE FOIX</persName>.</p>
       <p>Comte de Foix &amp; de Candale.</p>
-      <p>
+     
         <pb n="36" xml:id="p36"/>
-      </p>
+      
       <p><foreign>LONGÈ LEVIS AVRA FERET</foreign>.</p>
       <p><name key="renaud" corresp="jb_gaston_foix_candale">RENAVD</name>.</p>
       <l>Il porte vn Nom celebre, il est jeune, il est sage,</l>
       <l>A vous dire le vray c’est pour aller bien haut,</l>
       <l>Et c’est vn grand bonbheur que d’auoir à son âge</l>
       <l>La chaleur necessaire, &amp; le flegme qu’il faut.</l>
-      <p>
+      
         <pb n="37" xml:id="p37"/>
-      </p>
+      
       <p>A <persName key="armand_du_cambout" role="destinataire">MONSIEVR LE DVC DE
           COISLIN</persName>.</p>
       <label type="head">EPIGRAMME.</label>
@@ -644,9 +766,9 @@ Balisons nous les trompettes et les timballiers comme des personnes ou comme des
       <l>Ce ne sont icy que des Ieux,</l>
       <l>Cependant il y fait ce qu’vn Foudre de guerre</l>
       <l>A peine pourroit faire en vn choc perilleux.</l>
-      <p>
+      
         <pb n="38" xml:id="p38"/>
-      </p>
+     
       <p><persName key="armand_du_cambout">ARMAND DV CAMBOVLT</persName>.</p>
       <p>Chevalier Duc de Coislin, Baron de Pont-chasteau, &amp; de la Rochebernal, Comte de Cresy,
         du Cambout, &amp; autres lieux, Pair de France, Conseiller du Roy en ses Conseils,
