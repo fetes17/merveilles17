@@ -20,6 +20,10 @@
           <name>Marion Ignace</name>
           <resp>Balisage</resp>
         </respStmt>
+        <respStmt>
+          <name>Gaëlle Lafage</name>
+          <resp>Balisage, relecture et corrections</resp>
+        </respStmt>
       </editionStmt>
       <publicationStmt>
         <publisher>Université d’Artois - Lille, MESHS</publisher>
@@ -79,8 +83,7 @@
       <figure>
         <graphic
           url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f7/full/full/0/native.jpg"/>
-        <figDesc>Un paysage représentant à l'arrière plan un château élevé au milieu d'une île. Au
-          premier plan sur un bloc de marbre est inscrit le titre du manuscrit</figDesc>
+        <figDesc/>
         <label type="head">LES PLAISIRS DE L’ISLE ENCHANTÉE ORDONNEZ PAR <persName key="louisxiv"
             role="commanditaire">LOVIS XIV</persName> ROY DE FRANCE ET DE NAVARRE. A <placeName
             key="versailles">Versailles</placeName> le <date when="1664-05-06">6 May
@@ -112,13 +115,14 @@
           Dames</persName> dont elle est composée ne les engagent dans vn nouuel esclauage qui leur
         soit plus fácheux que le premier, parceque l’adresse &amp; la galanterie de <persName
           key="louisxiv">V. MAIESTÉ</persName>, estant infiniment au dessus de la leur, ils n’auront
-        pas la consolation d’y passer comme ils feroient dans le Palais d’Alcine pour des captifs
-        les plus adroits &amp; les plus galants du monde : mais comme je considere dauantage le
-        diuertissement de <persName key="louisxiv">V. Majesté</persName>, que leur interest, je ne
-        laisse pas de les produire aujourdhuy contre leur gré, pour luy seruir de Lustre, &amp; afin
-        que cette inegalité augmente sa gloire : l’impuissance dans laquelle je me vois d’y
-        contribuer dans les grandes choses, m’oblige a recourir auec soin aux petites pour témoigner
-        auec combien d’attachement &amp; de respect je suis.</p>
+        pas la consolation d’y passer comme ils feroient dans le Palais d’<name key="alcine"
+          >Alcine</name> pour des captifs les plus adroits &amp; les plus galants du monde : mais
+        comme je considere dauantage le diuertissement de <persName key="louisxiv">V.
+          Majesté</persName>, que leur interest, je ne laisse pas de les produire aujourdhuy contre
+        leur gré, pour luy seruir de Lustre, &amp; afin que cette inegalité augmente sa gloire :
+        l’impuissance dans laquelle je me vois d’y contribuer dans les grandes choses, m’oblige a
+        recourir auec soin aux petites pour témoigner auec combien d’attachement &amp; de respect je
+        suis.</p>
       <p>SIRE</p>
       <p>DE VOSTRE MAIESTÉ.</p>
       <p>Le tres-humble tres-obeïssant &amp; tres fidel serviteur &amp; sujet.</p>
@@ -128,17 +132,16 @@
       <figure>
         <graphic
           url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f13/full/full/0/native.jpg"/>
-        <figDesc>Un rouleau déployé orné des fleurs de lys et d'hermine sur lequel est écrit
-          :</figDesc>
+        <figDesc/>
         <label type="head">AV<persName key="louisxiv" role="destinataire"> ROY</persName>.</label>
-        <p>SONNET.</p>
+        <label type="head">SONNET.</label>
         <lg ana="sonnet">
           <l><persName key="louisxiv">GRAND ROY</persName>, dont le mâle Courage</l>
           <l>Fait si grand bruit de toutes parts,</l>
           <l>Que celuy des douzes Cesars</l>
           <l>En a moins fait durant leur âge.</l>
           <l>Si je vous offre cét Ouurage</l>
-          <l>Où vous éclattez comme vn Mars,</l>
+          <l>Où vous éclattez comme vn <name key="mars">Mars</name>,</l>
           <l>Qui regarde tous les hazards</l>
           <l>Sans jamais changer de visage.</l>
           <l>Par vn noble trait de bonté</l>
@@ -154,11 +157,9 @@
       <figure>
         <graphic
           url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f15/full/full/0/native.jpg"/>
-        <figDesc>La Renommée, volant au-dessus du monde, tient le portrait de Louis XIV dans sa main
-          droite et une trompette dans sa main gauche avec une bannière portant cette inscription
-            :<persName key="louisxiv"/></figDesc>
+        <figDesc><persName key="louisxiv"/><name key="renommee"/></figDesc>
         <lg ana="quatrain">
-          <l>Que la Nimphe a cent voix, fasse éclatter la vie.</l>
+          <l>Que <name key="renommee">la Nimphe a cent voix</name>, fasse éclatter la vie.</l>
           <l>Et monstre à nos nepueux, ce portrait sans egal,</l>
           <l>S’ils s’estiment heureux, d’avoir une coppie</l>
           <l>Nostre heur est bien plus grand d’auoir l’original.</l>
@@ -172,7 +173,7 @@
         <figDesc>Un rouleau déployé orné d'hermine sur lequel est écrit :</figDesc>
         <label type="head">A LA <persName key="anne_d_autriche" role="destinataire">REYNE
             MERE</persName>.</label>
-        <p>MADRIGAL.</p>
+        <label type="head">MADRIGAL.</label>
         <lg ana="madrigal">
           <l><persName key="anne_d_autriche">REYNE</persName> que l’Vnivers admire,</l>
           <l>Et qu’il a sujet d’amirer ;</l>
@@ -194,7 +195,7 @@
           url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f19/full/full/0/native.jpg"/>
         <figDesc/>
         <label type="head">A LA <persName key="marie_therese">REYNE</persName>.</label>
-        <p>EPIGRAMME.</p>
+        <label type="head">EPIGRAMME.</label>
         <lg ana="epigramme">
           <l>Quoy que vótre beauté répande des lumieres</l>
           <l>Capables d’éblouïr <persName key="louisxiv">le Soleil de la Cour</persName>,</l>
@@ -214,10 +215,7 @@
       <figure>
         <graphic
           url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f21/full/full/0/native.jpg"/>
-        <figDesc>L'allégorie de la France, vêtue d'un long manteau fleurdelisé bordé d'hermine,
-          tient dans la main droite un sceptre avec les chiffres du roi et de la reine et dans la
-          main gauche un phylactère sur lequel est inscrit : "<persName key="louisxiv">LOVIS DE
-            BOVRBON</persName>
+        <figDesc><name key="la_france"/><persName key="louisxiv">LOVIS DE BOVRBON</persName>
           <persName key="marie_therese">MARIE THERESE</persName>"</figDesc>
         <lg ana="quatrain">
           <l>Que nous marque ce Chiffre en qui l’Amour assemble</l>
@@ -352,20 +350,19 @@ Balisons nous les trompettes et les timballiers comme des personnes ou comme des
       <figure>
         <graphic
           url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f29/full/full/0/native.jpg"/>
-        <figDesc>Une allégorie de la victoire survolant le monde tient de la main droite les armes
-          de France et de la main gauche une trompette avec une bannière portant cette incription
-          :</figDesc>
+        <figDesc><name key="victoire"/></figDesc>
         <p><foreign>VICTRICIBVS ARMIS</foreign>
         </p>
         <p>
-          <foreign>LODOICI</foreign>
+          <foreign><persName key="louisxiv">LODOICI</persName></foreign>
         </p>
         <p>
           <foreign>FRANCORVM IMPERATORIS.</foreign>
         </p>
         <p>
-          <foreign>LVDOVICVS XIV. foelicitati Nationum datus, Regum decus, humanae Gentis delitiae,
-            hostium terror, suorum desiderium, omnium admiratio.</foreign>
+          <foreign><persName key="louisxiv">LVDOVICVS XIV</persName>. foelicitati Nationum datus,
+            Regum decus, humanae Gentis delitiae, hostium terror, suorum desiderium, omnium
+            admiratio.</foreign>
         </p>
       </figure>
 
@@ -373,9 +370,9 @@ Balisons nous les trompettes et les timballiers comme des personnes ou comme des
       <figure>
         <graphic
           url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f31/full/full/0/native.jpg"/>
-        <figDesc>Un cartouche avec cette inscription :</figDesc>
+        <figDesc/>
         <p>
-          <foreign>LVDOVICVS XIIII.</foreign>
+          <foreign><persName key="louisxiv">LVDOVICVS XIIII</persName>.</foreign>
         </p>
         <p>
           <foreign>FRANCORVM IMPERATOR AUGVSTISSIMVS.</foreign>
@@ -404,7 +401,7 @@ Balisons nous les trompettes et les timballiers comme des personnes ou comme des
         <figDesc/>
         <label type="head">A <persName key="saint_aignan" role="destinataire">MONSIEVR LE DVC DE
               S.<hi rend="sup">T</hi> AIGNAN</persName>.</label>
-        <p>EPIGRAMME.</p>
+        <label type="head">EPIGRAMME.</label>
         <lg ana="epigramme">
           <l>Par tout où paroist ce grand Homme</l>
           <l>Il s’y fait toujours admirer ;</l>
@@ -456,7 +453,7 @@ Balisons nous les trompettes et les timballiers comme des personnes ou comme des
           url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f41/full/full/0/native.jpg"/>
         <figDesc/>
         <label type="head">AV <persName key="louisxiv" role="destinataire">ROY</persName>.</label>
-        <p>EPIGRAMME.</p>
+        <label type="head">EPIGRAMME.</label>
         <lg ana="epigramme">
           <l>SI <name key="roger" corresp="louisxiv">Roger</name> s’acquît de la gloire</l>
           <l>Parmy les braues de son temps,</l>
@@ -506,7 +503,7 @@ Balisons nous les trompettes et les timballiers comme des personnes ou comme des
         <figDesc/>
         <label type="head">A <persName key="anne_de_noailles" role="destinataire">MONSIEVR LE DVC DE
             NOAILLE</persName>.</label>
-        <p>SONNET.</p>
+        <label type="head">SONNET.</label>
         <lg ana="sonnet">
           <l>Il est aussy vaillant que son Ame est fidelle,</l>
           <l>Il ose &amp; tente tout pour bien seruir son <persName key="louisxiv"
@@ -567,7 +564,7 @@ Balisons nous les trompettes et les timballiers comme des personnes ou comme des
         <figDesc/>
         <label type="head"> A <persName key="hj_bourbon_conde" role="destinataire">MONSIEVR LE
             DVC</persName></label>
-        <p>EPIGRAMME</p>
+        <label type="head">EPIGRAMME</label>
         <lg ana="epigramme">
           <l>Dedans le poste où je le vois</l>
           <l>Aupres du plus grand de nos Roys</l>
@@ -625,7 +622,7 @@ Balisons nous les trompettes et les timballiers comme des personnes ou comme des
         <figDesc/>
         <label type="head">A <persName key="henri_ii_de_guise" role="destinataire">MONSIEVR LE DVC
             DE GVISE</persName>.</label>
-        <p>EPIGRAMME.</p>
+        <label type="head">EPIGRAMME.</label>
         <lg ana="epigramme">
           <l>Quand dedans le champ des combats</l>
           <l>Il estoit besoin de combattre,</l>
@@ -673,7 +670,7 @@ Balisons nous les trompettes et les timballiers comme des personnes ou comme des
         <figDesc/>
         <label type="head">A <persName key="henri_de_lorraine" role="destinataire">MONSIEVR LE COMTE
             D’ARMAGNAC</persName>.</label>
-        <p>EPIGRAMME.</p>
+        <label type="head">EPIGRAMME.</label>
         <lg ana="epigramme">
           <l>Vit-on dedans l’Antiquité,</l>
           <l>Vn Heros qui luy fût semblable,</l>
@@ -718,7 +715,7 @@ Balisons nous les trompettes et les timballiers comme des personnes ou comme des
         <figDesc/>
         <label type="head">A <persName key="jb_gaston_foix_candale" role="destinataire">MONSIEVR LE
             DVC DE FOIX</persName>.</label>
-        <p>EPIGRAMME.</p>
+        <label type="head">EPIGRAMME.</label>
         <lg ana="epigramme">
           <l>Tes nobles Qualitez &amp; ta haute Naissance</l>
           <l>Ne te font pas aimer seulement de la Cour,</l>
@@ -765,7 +762,7 @@ Balisons nous les trompettes et les timballiers comme des personnes ou comme des
         <figDesc/>
         <label type="head">A <persName key="armand_du_cambout" role="destinataire">MONSIEVR LE DVC
             DE COISLIN</persName>.</label>
-        <p>EPIGRAMME.</p>
+        <label type="head">EPIGRAMME.</label>
         <lg ana="epigramme">
           <l>De la maniere qu’il s’y prend</l>
           <l>Ce Duc que le France reuere,</l>
@@ -814,7 +811,7 @@ Balisons nous les trompettes et les timballiers comme des personnes ou comme des
         <figDesc/>
         <label type="head">A <persName key="henri_de_daillon" role="destinataire">MONSIEVR LE COMTE
             DV LVDE</persName>.</label>
-        <p>EPIGRAMME.</p>
+        <label type="head">EPIGRAMME.</label>
         <lg ana="epigramme">
           <l>Ce Nom d’vn Braue qu’on te donne</l>
           <l>Fut cent fois moins braue que toy,</l>
@@ -863,7 +860,7 @@ Balisons nous les trompettes et les timballiers comme des personnes ou comme des
         <figDesc/>
         <label type="head">A <persName key="francois_vii_de_la_rochefoucauld" role="destinataire"
             >MONSIEVR LE PRINCE DE MARSILLAC</persName></label>
-        <p>EPIGRAMME.</p>
+        <label type="head">EPIGRAMME.</label>
         <lg ana="epigramme">
           <l>Tel qu’il triomphe glorieux</l>
           <l>Dans cette fameuse Carriere,</l>
@@ -913,7 +910,7 @@ Balisons nous les trompettes et les timballiers comme des personnes ou comme des
         <figDesc/>
         <label type="head">A <persName key="louis_marie_aumont_rochebaron" role="destinataire"
             >MONSIEVR LE MARQVIS DE VILLEQVIER</persName></label>
-        <p>EPIGRAMME.</p>
+        <label type="head">EPIGRAMME.</label>
         <lg ana="epigramme">
           <l>Fort peu de Seigneurs aujourd’huy</l>
           <l>Ont autant d’adresse que luy,</l>
@@ -956,489 +953,726 @@ Balisons nous les trompettes et les timballiers comme des personnes ou comme des
           <l>N’est demeuré fidelle en trompant sa Maistresse.</l>
         </lg>
       </figure>
-      
-        <pb n="49" xml:id="p49"/>
+
+      <pb n="49" xml:id="p49"/>
       <figure>
         <graphic
           url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f103/full/full/0/native.jpg"/>
         <figDesc/>
-      <label type="head">A <persName key="cm_de_belleforiere" role="destinataire">MONSIEVR LE MARQVIS DE
-          SOYECOURT</persName>.</label>
-      <p>EPIGRAMME.</p>
-      <lg ana="epigramme"><l>Ce n’est pas sans raison que sa force connuë</l>
-      <l>Prend pour Deuise vne Massuë,</l>
-      <l><name key="hercule">Hercule</name>, s’il regnoit n’en seroit point jaloux ;</l>
-      <l>Ce Marquis est doüé de Qualitez aimables,</l>
-      <l>Et l’on sçait entre nous</l>
-        <l>Qu’il n’est point de Heros, qui n’aiment leurs semblables.</l></lg>
+        <label type="head">A <persName key="cm_de_belleforiere" role="destinataire">MONSIEVR LE
+            MARQVIS DE SOYECOURT</persName>.</label>
+        <label type="head">EPIGRAMME.</label>
+        <lg ana="epigramme">
+          <l>Ce n’est pas sans raison que sa force connuë</l>
+          <l>Prend pour Deuise vne Massuë,</l>
+          <l><name key="hercule">Hercule</name>, s’il regnoit n’en seroit point jaloux ;</l>
+          <l>Ce Marquis est doüé de Qualitez aimables,</l>
+          <l>Et l’on sçait entre nous</l>
+          <l>Qu’il n’est point de Heros, qui n’aiment leurs semblables.</l>
+        </lg>
       </figure>
-      
-        <pb n="50" xml:id="p50"/>
-      
-      <p><persName key="cm_de_belleforiere">MAXIMILIEN ANTOINE DE BELLEFORIERE</persName>.</p>
-      <p>Marquis de Soyecourt, de Roye, &amp; de Guerbigny, Comte de Thissaulon, &amp; de Tupigny,
-        Baron de la Neuuilleroy, d’Hytre &amp; d’Hyron, Seigneur de Carpuy, Conchy, Saucourt,
-        &amp;c. Chevalier des Ordres du Roy, Conseiller en tous ses Conseils, &amp; Grand Maistre de
-        la Garderobe du Roy.</p>
-      <p>
-        <pb n="51" xml:id="p51"/>
-      </p>
-      <p><foreign>VIX AEQVAT FAMA LABORES</foreign>.</p>
-      <p><name key="olivier" corresp="cm_de_belleforiere">OLIVIER</name>.</p>
-      <l>Voicy l’honneur du Siecle, auprés de qui nous sommes,</l>
-      <l>Et mesme les Geants, de mediocres Hommes,</l>
-      <l>Et ce franc Cheualier, à tout venant tout prest</l>
-      <l>Toûjours pour quelque jouxte a la lance en arrest.</l>
-      <p>
-        <pb n="52" xml:id="p52"/>
-      </p>
-      <p>A <persName key="louis_crevant" role="destinataire">MONSIEVR LE MARQVIS
-          D’HVMIERES</persName>.</p>
-      <label type="head">EPIGRAMME.</label>
-      <l>Quand ton bras aussy fort que ton adresse est forte</l>
-      <l>Agit dans vn Combat ou dedans vn Tournoy,</l>
-      <l>Braue Marquis, on dit de toy</l>
-      <l>Ce Guerrier est vaillant comme l’acier qu’il porte.</l>
-      <p>
-        <pb n="53" xml:id="p53"/>
-      </p>
-      <p><persName key="louis_crevant">LOVIS DE CREVANT DHVUMIERES</persName>.</p>
-      <p>Marquis d’Humieres &amp; de Mouchy, Vicomte de Brigueil, premier Baron de Touraine,
-        Conseiller du Roy en ses Conseils, Capitaine des Cents Gentilshommes de sa Majesté,
-        Gouuerneur &amp; Lieutenant general pour sadite Majesté en la Prouince de Bourbonnois,
-        Gouuerneur particulier de Moulins, &amp; des ville &amp; chasteau de Compiegne, &amp;
-        Lieutenant general en ses Armées.</p>
-      <p>
-        <pb n="54" xml:id="p54"/>
-      </p>
-      <p><foreign>NO QVIERO MENOS</foreign>.</p>
-      <p><name key="ariodant" corresp="louis_crevant">ARIODAN</name>.</p>
-      <l>Ie tremble dans l’accez de l’amoureuse fiévre ;</l>
-      <l>Ailleurs sans vanité je ne tremblay jamais,</l>
-      <l>Et ce charmant objet l’adorable
-        <!-- Windows User : 2020-02-24T13:32:00.93
-Comment baliser ?
--->Genéure</l>
-      <l>Est l’unique vainqueur à qui je me soumets.</l>
-      <p>
-        <pb n="55" xml:id="p55"/>
-      </p>
-      <p>A <persName key="jf_de_labaume" role="destinataire">MONSIEVR LE MARQ. DE LA
-          VALLIERE</persName>.</p>
-      <label type="head">EPIGRAMME.</label>
-      <l>Qui se doit étonner si ce braue Marquis.</l>
-      <l>Dans cette Course illustre est couronné de gloire ?</l>
-      <l>Par sa Valeur il s’est acquis</l>
-      <l>Tant d’estime chez la Victoire</l>
-      <l>Qu’elle l’aime comme son Fils.</l>
-      <p>
-        <pb n="56" xml:id="p56"/>
-      </p>
-      <p>A <persName key="jf_de_labaume" role="destinataire">MONSIEVR LE MARQVIS DE LA
-          VALLIERE</persName>.</p>
-      <p>VICTORIEVX DANS CETTE LICE.</p>
-      <label type="head">SONNET.</label>
-      <l>Qvelques fameux Lauriers que dispense la Gloire</l>
-      <l>Elle n’en a pas vn digne de tes Exploits,</l>
-      <l>Et tout ce qu’elle peut, c’est d’employer sa voix</l>
-      <l>A publier par tout ton illustre victoire.</l>
-      <l>Ces glorieux Heros qui viuent dans l’Histoire</l>
-      <l>Pour auoir triomphé dans les anciens Tournois</l>
-      <l>Epris de ta valeur digne d’vn cœur François</l>
-      <l>T’abandonnent leur place au Temple de mémoire.</l>
-      <l>Mais illustre Heros, si ces braues Guerriers</l>
-      <l>Te cedent les honneurs, te cedent les Lauriers,</l>
-      <l>Pour vn premier essay que la Cour t’a veu faire.</l>
-      <l>Quand tu suiuras <persName key="louisxiv">LOVIS</persName> dans les plus grands combats</l>
-      <l>Où ton bras quelque jour luy sera necessaire,</l>
-      <l>Charmez de tes trauaux que ne seront-ils pas ?</l>
-      <p>
-        <pb n="57" xml:id="p57"/>
-      </p>
-      <label type="head">EPIGRAMME.</label>
-      <l>Si la France brûle d’amour</l>
-      <l>Pour ce Nom qu’elle veut eterniser un jour,</l>
-      <l>Si <name>Bellone</name> &amp; <name>l’Amour</name>, <name>Mars</name> &amp; la
-          <name>Renommée</name></l>
-      <l>Déja dans l’Vnivers ont sa gloire semée,</l>
-      <l>Et le couronnant tour a tour</l>
-      <l>Animent le Tambour, la Trompette, &amp; le Fifre ;</l>
-      <l>C’est qu’ils sçauent bien qu’à la Cour</l>
-      <l>Ce Nom n’est pas vn Nom en chiffre.</l>
-      <p><persName key="jf_de_labaume">IEAN FRANÇOIS DE LA BAVME LE BLANC</persName>.</p>
-      <p>Chevalier, Seigneur, Marquis de la Valliere, de Reugny &amp; de Boissé ; Baron de la
-        Papelardiere &amp; autres lieux ; Cornette &amp; Commandant les Chevaux legers de
-        Monseigneur le Dauphin, Lieutenant pour le Roy au Gouuernement d’Amboise.</p>
-      <p>
-        <pb n="58" xml:id="p58"/>
-      </p>
-      <p><foreign>HOC IVVAT VRI</foreign>.</p>
-      <p><name key="zerbin" corresp="jf_de_labaume">ZERBIN</name>.</p>
-      <l>Quelques beaux sentimens que la gloire nous donne,</l>
-      <l>Quand on est amoureux au souuerain degré,</l>
-      <l>Mourir entre les bras d’vne belle Personne,</l>
-      <l>Est de toutes les morts la plux douce à mon gré.</l>
-      <p>
-        <pb n="59" xml:id="p59"/>
-      </p>
-      <p>
-        <pb n="60" xml:id="p60"/>
-      </p>
-      <label type="head">VERS D’<name>APOLLON</name> ET DES <name>QVATRE SIECLES</name> A LA
-          <persName key="marie_therese" role="destinataire">REYNE</persName> . </label>
-      <label type="speaker">LE SIECLE D’AIRAIN À <name>APOLLON</name>.</label>
-      <l>Brillant Pere du jour, toy de qui la puissance</l>
-      <l>Par ses diuers aspects nous donna la naissance ;</l>
-      <l>Toy l’espoir de la Terre, &amp; l’ornement des Cieux;</l>
-      <l>Toy le plus necessaire &amp; le plus beau des Dieux;</l>
-      <l>Toy dont l’actiuité, dont la bonté suprême</l>
-      <l>Se fait voir &amp; sentir en tous lieux par soy-même :</l>
-      <l>Dis-nous par quel destin, ou par quel nouueau choix</l>
-      <l>Tu celebres tes Ieux aux riuages François.</l>
+
+      <pb n="50" xml:id="p50"/>
+      <figure>
+        <graphic
+          url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f105/full/full/0/native.jpg"/>
+        <figDesc/>
+        <label type="head"><persName key="cm_de_belleforiere">MAXIMILIEN ANTOINE DE
+            BELLEFORIERE</persName>.</label>
+        <p>Marquis de Soyecourt, de Roye, &amp; de Guerbigny, Comte de Thissaulon, &amp; de Tupigny,
+          Baron de la Neuuilleroy, d’Hytre &amp; d’Hyron, Seigneur de Carpuy, Conchy, Saucourt,
+          &amp;c. Chevalier des Ordres du Roy, Conseiller en tous ses Conseils, &amp; Grand Maistre
+          de la Garderobe du Roy.</p>
+      </figure>
+
+      <pb n="51" xml:id="p51"/>
+      <figure>
+        <graphic
+          url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f107/full/full/0/native.jpg"/>
+        <figDesc/>
+        <label ana="devise"><foreign>VIX AEQVAT FAMA LABORES</foreign>.</label>
+        <label type="head"><name key="olivier" corresp="cm_de_belleforiere">OLIVIER</name>.</label>
+        <lg ana="quatrain">
+          <l>Voicy l’honneur du Siecle, auprés de qui nous sommes,</l>
+          <l>Et mesme les Geants, de mediocres Hommes,</l>
+          <l>Et ce franc Cheualier, à tout venant tout prest</l>
+          <l>Toûjours pour quelque jouxte a la lance en arrest.</l>
+        </lg>
+      </figure>
+
+      <pb n="52" xml:id="p52"/>
+      <figure>
+        <graphic
+          url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f109/full/full/0/native.jpg"/>
+        <figDesc/>
+        <label type="head">A <persName key="louis_crevant" role="destinataire">MONSIEVR LE MARQVIS
+            D’HVMIERES</persName>.</label>
+        <label type="head">EPIGRAMME.</label>
+        <lg ana="epigramme">
+          <l>Quand ton bras aussy fort que ton adresse est forte</l>
+          <l>Agit dans vn Combat ou dedans vn Tournoy,</l>
+          <l>Braue Marquis, on dit de toy</l>
+          <l>Ce Guerrier est vaillant comme l’acier qu’il porte.</l>
+        </lg>
+      </figure>
+
+      <pb n="53" xml:id="p53"/>
+      <figure>
+        <graphic
+          url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f111/full/full/0/native.jpg"/>
+        <figDesc/>
+        <label type="head"><persName key="louis_crevant">LOVIS DE CREVANT
+          DHVUMIERES</persName>.</label>
+        <p>Marquis d’Humieres &amp; de Mouchy, Vicomte de Brigueil, premier Baron de Touraine,
+          Conseiller du Roy en ses Conseils, Capitaine des Cent Gentilshommes de sa Majesté,
+          Gouuerneur &amp; Lieutenant general pour sadite Majesté en la Prouince de Bourbonnois,
+          Gouuerneur particulier de Moulins, &amp; des ville &amp; chasteau de Compiegne, &amp;
+          Lieutenant general en ses Armées.</p>
+      </figure>
+
+      <pb n="54" xml:id="p54"/>
+      <figure>
+        <graphic
+          url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f113/full/full/0/native.jpg"/>
+        <figDesc/>
+        <label ana="devise"><foreign>NO QVIERO MENOS</foreign>.</label>
+        <label type="head"><name key="ariodant" corresp="louis_crevant">ARIODAN</name>.</label>
+        <lg ana="quatrain">
+          <l>Ie tremble dans l’accez de l’amoureuse fiévre ;</l>
+          <l>Ailleurs sans vanité je ne tremblay jamais,</l>
+          <l>Et ce charmant objet l’adorable Généure</l>
+          <l>Est l’unique vainqueur à qui je me soumets.</l>
+        </lg>
+      </figure>
+
+      <pb n="55" xml:id="p55"/>
+      <figure>
+        <graphic
+          url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f115/full/full/0/native.jpg"/>
+        <figDesc/>
+        <label type="head">A <persName key="jf_de_labaume" role="destinataire">MONSIEVR LE MARQ. DE
+            LAVALLIERE</persName>.</label>
+        <label type="head">EPIGRAMME.</label>
+        <lg ana="epigramme">
+          <l>Qui se doit étonner si ce braue Marquis.</l>
+          <l>Dans cette Course illustre est couronné de gloire ?</l>
+          <l>Par sa Valeur il s’est acquis</l>
+          <l>Tant d’estime chez la Victoire</l>
+          <l>Qu’elle l’aime comme son Fils.</l>
+        </lg>
+      </figure>
+
+      <pb n="56" xml:id="p56"/>
+      <figure>
+        <graphic
+          url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f117/full/full/0/native.jpg"/>
+        <figDesc/>
+        <label type="head">A <persName key="jf_de_labaume" role="destinataire">MONSIEVR LE MARQVIS
+            DE LA VALLIERE</persName>.</label>
+        <p>VICTORIEVX DANS CETTE LICE.</p>
+        <label type="head">SONNET.</label>
+        <lg ana="sonnet">
+          <l>Qvelques fameux Lauriers que dispense la Gloire</l>
+          <l>Elle n’en a pas vn digne de tes Exploits,</l>
+          <l>Et tout ce qu’elle peut, c’est d’employer sa voix</l>
+          <l>A publier par tout ton illustre victoire.</l>
+
+          <l>Ces glorieux Heros qui viuent dans l’Histoire</l>
+          <l>Pour auoir triomphé dans les anciens Tournois</l>
+          <l>Epris de ta valeur digne d’vn cœur François</l>
+          <l>T’abandonnent leur place au Temple de mémoire.</l>
+
+          <l>Mais illustre Heros, si ces braues Gueriers</l>
+          <l>Te cedent les honneurs, te cedent les Lauriers,</l>
+          <l>Pour vn premier essay que la Cour t’a veu faire.</l>
+
+          <l>Quand tu suiuras <persName key="louisxiv">LOVIS</persName> dans les plus grands
+            combats</l>
+          <l>Où ton bras quelque jour luy sera necessaire,</l>
+          <l>Charmez de tes trauaux que ne seront-ils pas ?</l>
+        </lg>
+      </figure>
+
+      <pb n="57" xml:id="p57"/>
+      <figure>
+        <graphic
+          url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f119/full/full/0/native.jpg"/>
+        <figDesc/>
+        <label type="head">EPIGRAMME.</label>
+        <lg ana="epigramme">
+          <l>Si la France brûle d’amour</l>
+          <l>Pour ce Nom qu’elle veut eterniser un jour,</l>
+          <l>Si <name key="bellone">Bellone</name> &amp; <name key="amour">l’Amour</name>, <name
+              key="mars">Mars</name> &amp; la <name key="renommee">Renommée</name></l>
+          <l>Déja dans l’Vnivers ont sa gloire semée,</l>
+          <l>Et le couronnant tour a tour</l>
+          <l>Animent le Tambour, la Trompette, &amp; le Fifre ;</l>
+          <l>C’est qu’ils sçauent bien qu’à la Cour</l>
+          <l>Ce Nom n’est pas vn Nom en chiffre.</l>
+        </lg>
+
+        <label type="head"><persName key="jf_de_labaume">IEAN FRANÇOIS DE LA BAVME LE
+            BLANC</persName>.</label>
+        <p>Chevalier, Seigneur, Marquis de la Valliere, de Reugny &amp; de Boissé ; Baron de la
+          Papelardiere &amp; autres lieux ; Cornette &amp; Commandant les Chevaux legers de
+          Monseigneur le Dauphin, Lieutenant pour le Roy au Gouuernement d’Amboise.</p>
+      </figure>
+
+      <pb n="58" xml:id="p58"/>
+      <figure>
+        <graphic
+          url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f121/full/full/0/native.jpg"/>
+        <figDesc/>
+        <label ana="devise"><foreign>HOC IVVAT VRI</foreign>.</label>
+        <label type="head"><name key="zerbin" corresp="jf_de_labaume">ZERBIN</name>.</label>
+        <lg ana="quatrain">
+          <l>Quelques beaux sentimens que la gloire nous donne,</l>
+          <l>Quand on est amoureux au souuerain degré,</l>
+          <l>Mourir entre les bras d’vne belle Personne,</l>
+          <l>Est de toutes les morts la plux douce à mon gré.</l>
+        </lg>
+      </figure>
+
+      <pb n="59" xml:id="p59"/>
+      <figure>
+        <graphic
+          url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f123/full/full/0/native.jpg"/>
+        <figDesc><placeName key="versailles_jardins"/><name key="musiciens"/><name key="apollon"
+            /><name key="le_temps"/><name key="quatre_siecles"/><name key="douze_heures"><name
+              key="douze_zodiaque"/></name><tech type="animal"/><tech type="machine_terre"/><tech
+            type="costume"/><tech type="costume"/><tech type="musique"/></figDesc>
+      </figure>
+
+      <pb n="60" xml:id="p60"/>
+      <figure>
+        <graphic
+          url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f125/full/full/0/native.jpg"/>
+        <figDesc/>
+        <label type="head">VERS D’<name key="apollon">APOLLON</name> ET DES <name
+            key="quatre_siecles">QVATRE SIECLES</name> A LA <persName key="marie_therese"
+            role="destinataire">REYNE</persName> . </label>
+        <label type="speaker"><name key="le_siecle_d_airain"/>LE SIECLE D’AIRAIN À <name
+            key="apollon">APOLLON</name>.</label>
+        <lg ana="vers">
+          <l>Brillant Pere du jour, toy de qui la puissance</l>
+          <l>Par ses diuers aspects nous donna la naissance ;</l>
+          <l>Toy l’espoir de la Terre, &amp; l’ornement des Cieux;</l>
+          <l>Toy le plus necessaire &amp; le plus beau des Dieux;</l>
+          <l>Toy dont l’actiuité, dont la bonté suprême</l>
+          <l>Se fait voir &amp; sentir en tous lieux par soy-même :</l>
+          <l>Dis-nous par quel destin, ou par quel nouueau choix</l>
+          <l>Tu celebres tes Ieux aux riuages François.</l>
+        </lg>
+      </figure>
+
       <pb n="61" xml:id="p61"/>
-      <label type="speaker">REPONCE D’APOLLON.</label>
-      <l>Si ces lieux fortunez ont tout ce qu’eut la <placeName key="grece">Grece</placeName></l>
-      <l>De gloire, de valeur, de merite et d’adresse;</l>
-      <l>Ce n’est pas sans raison qu’on y voit transferez</l>
-      <l>Ces Ieux, qu’à mon honneur la Terre a consacrez.</l>
-      <l>I'ay toujours pris plaisir à verser sur la <placeName key="france">France</placeName></l>
-      <l>De mes plus doux rayons la benigne influence :</l>
-      <l>Mais le charmant objet qu’Himen y fait regner,</l>
-      <l>Pour elle maintenant me fait tout dédaigner.</l>
-      <l>Depuis vn si long temps que pour le bien du Monde</l>
-      <l>Ie fais l’immense tour de la Terre &amp; de l’Onde,</l>
-      <l>Iamais je n’ay rien veu si digne de mes feux,</l>
-      <l>Iamais vn Sang si noble, vn coeur si genereux,</l>
-      <l>Iamais tant de lumiere auec tant d’innocence ;</l>
-      <l>Iamais tant de jeunesse auec tant de prudence;</l>
-      <l>Iamais tant de grandeur auec tant de bonté;</l>
-      <l>Iamais tant de sagesse auec tant de beauté.</l>
-      <l>Mille Climats diuers qu’on vit souz la puissance</l>
-      <l>De tous les demy-Dieux dont elle prit naissance,</l>
-      <l>Cedant à son merite autant qu’à leur devoir,</l>
-      <l>Se trouueront vn jour vnis sous son pouuoir.</l>
-      <l>Ce qu’eurent de grandeurs &amp; la <placeName key="france">France</placeName>, &amp;
-          l’<placeName key="france">Espagne</placeName>,</l>
-      <l>Les droits de <name>Charles Quint</name>, les droits <name>Charlemagne</name>,</l>
-      <l>En Elle auec leur Sang heureusement transmis,</l>
-      <l>Rendront tout l’Vnivers à son Throne soûmis :</l>
-      <l>Mais vn Titre plus grand, vn plus noble partage</l>
-      <l>Qui l’éleve plus haut, qui luy plaist davantage,</l>
-      <l>Vn Nom qui tient en soy les plus grands noms vnis,</l>
-      <l>C'est le Nom glorieux d’Epouse de<persName key="louisxiv"> LOVIS</persName>.</l>
+      <figure>
+        <graphic
+          url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f127/full/full/0/native.jpg"/>
+        <figDesc/>
+        <label type="speaker">REPONCE D’<name key="apollon">APOLLON</name>.</label>
+        <lg ana="vers">
+          <l>Si ces lieux fortunez ont tout ce qu’eut la <placeName key="grece"
+            >Grece</placeName></l>
+          <l>De gloire, de valeur, de merite et d’adresse;</l>
+          <l>Ce n’est pas sans raison qu’on y voit transferez</l>
+          <l>Ces Ieux, qu’à mon honneur la Terre a consacrez.</l>
+
+          <l>I'ay toujours pris plaisir à verser sur la <placeName key="france"
+            >France</placeName></l>
+          <l>De mes plus doux rayons la benigne influence :</l>
+          <l>Mais le charmant objet qu’<name key="hymene">Himen</name> y fait regner,</l>
+          <l>Pour elle maintenant me fait tout dédaigner.</l>
+
+          <l>Depuis vn si long temps que pour le bien du Monde</l>
+          <l>Ie fais l’immense tour de la Terre &amp; de l’Onde,</l>
+          <l>Iamais je n’ay rien veu si digne de mes feux,</l>
+          <l>Iamais vn Sang si noble, vn coeur si genereux,</l>
+          <l>Iamais tant de lumiere auec tant d’innocence ;</l>
+          <l>Iamais tant de jeunesse auec tant de prudence;</l>
+          <l>Iamais tant de grandeur auec tant de bonté;</l>
+          <l>Iamais tant de sagesse auec tant de beauté.</l>
+
+          <l>Mille Climats diuers qu’on vit souz la puissance</l>
+          <l>De tous les demy-Dieux dont elle prit naissance,</l>
+          <l>Cedant à son merite autant qu’à leur deuoir,</l>
+          <l>Se trouueront vn jour vnis sous son pouuoir.</l>
+
+          <l>Ce qu’eurent de grandeurs &amp; la <placeName key="france">France</placeName>, &amp;
+              l’<placeName key="espagne">Espagne</placeName>,</l>
+          <l>Les droits de <name key="charles_quint">Charles Quint</name>, les droits <name
+              key="charlemagne">Charlemagne</name>,</l>
+          <l>En Elle auec leur Sang heureusement transmis,</l>
+          <l>Rendront tout l’Vnivers à son Throne soumis :</l>
+          <l>Mais vn Titre plus grand, vn plus noble partage</l>
+          <l>Qui l’éleue plus haut, qui luy plaist davantage,</l>
+          <l>Vn Nom qui tient en soy les plus grands noms vnis,</l>
+          <l>C'est le Nom glorieux d’Epouse de<persName key="louisxiv"> LOVIS</persName>.</l>
+        </lg>
+      </figure>
+
       <pb n="62" xml:id="p62"/>
-      <label type="speaker">LE SIECLE D'ARGENT AV <name>SIECLE D’OR</name>.</label>
-      <l>Quel destin fait briller auec tant d’injustice</l>
-      <l>Dans le Siecle de fer un Astre si propice.</l>
-      <label type="speaker">RÉPONCE DV SIECLE D'OR.</label>
-      <l>Ah ! ne murmure point contre l’ordre des Dieux.</l>
-      <l>Loin de s’enorgueIllir d’vn don si precieux,</l>
-      <l>Ce Siecle, qui du Ciel a merité la haine</l>
-      <l>En déuroit augurer sa ruine prochaine,</l>
-      <l>Et voir qu’vne vertu qu’il ne peut suborner,</l>
-      <l>Vient moins pour l’anoblir que pour l’exterminer.</l>
-      <l>Si tôt qu’elle paroist dans cette heureuse Terre,</l>
-      <l>Voy comme elle en banit les fureurs de la guerre :</l>
-      <l>Comment depuis ce jour d’infatigables mains</l>
-      <l>Trauaillent sans reláche au bonheur des Humains;</l>
-      <l>Par quels secrets ressorts vn Heros se prépare,</l>
-      <l>A chasser les horreurs d’un Siecle st barbare,</l>
-      <l>Et me faire reuiure auec tous les plaisirs,</l>
-      <l>Qui peuuent contenter les innocens desirs.</l>
+      <figure>
+        <graphic
+          url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f129/full/full/0/native.jpg"/>
+        <figDesc/>
+        <label type="speaker"><name key="le_siecle_d_argent">LE SIECLE D'ARGENT</name> AV <name
+            key="le_siecle_d_or">SIECLE D’OR</name>.</label>
+        <lg ana="vers">
+          <l>Quel destin fait briller auec tant d’injustice</l>
+          <l>Dans le Siecle de fer un Astre si propice.</l>
+        </lg>
+        <label type="speaker">RÉPONCE DV <name key="le_siecle_d_or">SIECLE D'OR</name>.</label>
+        <lg ana="vers">
+          <l>Ah ! ne murmure point contre l’ordre des Dieux.</l>
+          <l>Loin de s’enorgueIllir d’vn don si precieux,</l>
+          <l>Ce Siecle, qui du Ciel a merité la haine</l>
+          <l>En déuroit augurer sa ruine prochaine,</l>
+          <l>Et voir qu’vne vertu qu’il ne peut suborner,</l>
+          <l>Vient moins pour l’anoblir que pour l’exterminer.</l>
+
+          <l>Si tôt qu’elle paroist dans cette heureuse Terre,</l>
+          <l>Voy comme elle en bannit les fureurs de la guerre :</l>
+          <l>Comment depuis ce jour d’infatigables mains</l>
+          <l>Trauaillent sans reláche au bonheur des Humains;</l>
+          <l>Par quels secrets ressorts vn Heros se prépare,</l>
+          <l>A chasser les horreurs d’un Siecle si barbare,</l>
+          <l>Et me faire reuiure auec tous les plaisirs,</l>
+          <l>Qui peuuent contenter les innocens desirs.</l>
+        </lg>
+      </figure>
+
       <pb n="63" xml:id="p63"/>
-      <label type="speaker">LE SIECLE DE FER À <name>APOLLON</name>.</label>
-      <l>Ie sçay quels ennemis ont entrepris ma perte,</l>
-      <l>Leurs desseins sont connus, leur trame est découuerte,</l>
-      <l>Mais mon cœur n’en est pas à tel point abbatu.</l>
-      <label type="speaker">RÉPONCE D’APOLLON.</label>
-      <l>Contre tant de grandeur, contre tant de vertu,</l>
-      <l>Tous les Monstres d’Enfer vnis pour ta deffence</l>
-      <l>Ne feroient qu’vne foible &amp; vaine resistance,</l>
-      <l>L’Vnivers opprimé de ton joug rigoureux,</l>
-      <l>Va goûter par ta suitte un destin plus heureux ;</l>
-      <l>Il est temps de ceder à la loy souueraine,</l>
-      <l>Que t’imposent les voeux de cette auguste <persName key="marie_therese"
-        >Reyne</persName>;</l>
-      <l>Il est temps de ceder aux trauaux glorieux</l>
-      <l>D'vn <persName key="louisxiv">Roy</persName> fauorisé de la Terre et des Cieux ;</l>
-      <l>Mais icy trop long temps ce different m’arrête,</l>
-      <l>A de plus doux combats cette Lice s’apprête,</l>
-      <l>Allons la faire ouurir, &amp; ployons des Lauriers,</l>
-      <l>Pour couronner le front de nos fameux Guerriers.</l>
+      <figure>
+        <graphic
+          url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f131/full/full/0/native.jpg"/>
+        <figDesc/>
+        <label type="speaker"><name key="le_siecle_de_fer">LE SIECLE DE FER</name> À <name
+            key="apollon">APOLLON</name>.</label>
+        <lg ana="vers">
+          <l>Ie sçay quels ennemis ont entrepris ma perte,</l>
+          <l>Leurs desseins sont connus, leur trame est découuerte,</l>
+          <l>Mais mon cœur n’en est pas à tel point abbatu.</l>
+        </lg>
+
+        <label type="speaker">RÉPONCE D’<name key="apollon">APOLLON</name>.</label>
+        <lg ana="vers">
+          <l>Contre tant de grandeur, contre tant de vertu,</l>
+          <l>Tous les Monstres d’Enfer vnis pour ta deffence</l>
+          <l>Ne feroient qu’vne foible &amp; vaine resistance,</l>
+          <l>L’Vnivers opprimé de ton joug rigoureux,</l>
+          <l>Va goûter par ta suitte un destin plus heureux ;</l>
+          <l>Il est temps de ceder à la loy souueraine,</l>
+          <l>Que t’imposent les voeux de cette auguste <persName key="marie_therese"
+              >Reyne</persName>;</l>
+          <l>Il est temps de ceder aux trauaux glorieux</l>
+          <l>D'vn <persName key="louisxiv">Roy</persName> fauorisé de la Terre et des Cieux ;</l>
+          <l>Mais icy trop long temps ce different m’arrête,</l>
+          <l>À de plus doux combats cette Lice s’apprête,</l>
+          <l>Allons la faire ouurir, &amp; ployons des Lauriers,</l>
+          <l>Pour couronner le front de nos fameux Guerriers.</l>
+        </lg>
+      </figure>
+
       <pb n="64" xml:id="p64"/>
+      <figure>
+        <graphic
+          url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f133/full/full/0/native.jpg"/>
+        <figDesc><placeName key="versailles_jardins"/><name key="musiciens"/><name
+            key="le_printemps"/><name key="l_ete"/><name key="l_automne"/><name key="l_hiver"/><name
+            key="jardiniers"/><name key="moisonneurs"/><name key="vendangeurs"/><name
+            key="vieillards"/><tech type="musique"/><tech type="costume"/><tech type="animal"
+          /></figDesc>
+      </figure>
+
       <pb n="65" xml:id="p65"/>
-      <label type="head">VERS DES <name>QVATRE SAISONS</name> À LA <persName key="louisxiv"
-          role="destinataire">REYNE</persName> . </label>
-      <label type="speaker">LE PRINTEMS.</label>
-      <l>Entre toutes les fleurs nouuellement écloses,</l>
-      <l>Dont mes jardins sont embellis,</l>
-      <l>Méprisant les jasmins, les oeillets &amp; les roses,</l>
-      <l>Pour payer mon tribut j’ay fait choix de ces LIS,</l>
-      <l>Que de vos premiers ans vous auez tant cheris ;</l>
-      <l><persName key="louisxiv">LOVIS </persName>les fait briller du Couchant à l’'Aurore,</l>
-      <l>Tout l’Vnivers charmé les respecte &amp; les craint;</l>
-      <l>Mais leur Regne est plus doux &amp; plus puissant encore,</l>
-      <l>Quand ils brillent sur vótre teint.</l>
-      <label type="speaker">L’ÊTÉ.</label>
-      <l>Surpris vn peu trop promptement,</l>
-      <l>I'apporte à cette Fête vn leger ornement ;</l>
-      <l>Mais auant que ma Saison passe,</l>
-      <l>Ie feroy faire à vos Guerriers,</l>
-      <l>Dans les campagnes de la <placeName key="thrace">Thrace</placeName>,</l>
-      <l>Vne ample moisson de Lauriers.</l>
-      <p>
-        <pb n="66" xml:id="p66"/>
-      </p>
-      <label type="speaker">L'AVTOMNE.</label>
-      <l><name>Le Printemps</name> orgueïlleux de la beauté des fleurs</l>
-      <l>Qui luy tomberent en partage,</l>
-      <l>Prétend de cette Fête auoir tout l’auantage,</l>
-      <l>Et nous croit obscurcir pas ses viues couleurs ;</l>
-      <l>Mais vous vous souuiendrez, Princesse sans seconde,</l>
-      <l>De ce Fruit precieux qu’a produit ma Saison,</l>
-      <l>Et qui croist dans vótre maison,</l>
-      <l>Pour faire quelque jour les delices du Monde.</l>
-      <label type="speaker">L'HYVER.</label>
-      <l>La neige, les glaçons que j’apporte en ces lieux,</l>
-      <l>Sont des mets les moins precieux,</l>
-      <l>Mais ils sont des plus necessaires,</l>
-      <l>Dans une Fête où mille objets charmans,</l>
-      <l>De leurs oeillades meurtrieres,</l>
-      <l>Font naître tant d’embrazemens.</l>
-      <p>
-        <pb n="67" xml:id="p67"/>
-      </p>
-      <p>
-        <pb n="68" xml:id="p68"/>
-      </p>
-      <label type="head">VERS DE <name>PAN</name> ET DE <name>DIANE</name> À <persName
-          key="marie_therese">LA REYNE</persName> . </label>
-      <label type="speaker">DIANE.</label>
-      <l>Nos Bois, nos Rochers, nos Montagnes,</l>
-      <l>Tous nos Chasseurs, &amp; mes Compagnes,</l>
-      <l>Qui m’ont toujours rendu des honneurs souuerains ;</l>
-      <l>Depuis que parmy nous ils vous ont veu paroistre,</l>
-      <l>Ne veulent plus me reconnoistre,</l>
-      <l>Et chargez de presens viennent auecque moy</l>
-      <l>Vous porter ce tribut pour marque de leur foy.</l>
-      <l>Les Habitans legers de cet heureux bócage,</l>
-      <l>De tomber dans vos rets font leur sort le plus doux,</l>
-      <l>Et n’estiment rien davantage,</l>
-      <l>Que l’heur de perir de vos coups ;</l>
-      <l>Amour dont vous auez la grace &amp; le visage,</l>
-      <l>A le même secret que vous.</l>
-      <label type="speaker">PAN.</label>
-      <l>Ieune Divnité, ne vous étonnez pas,</l>
-      <l>Lorsque nous vous offrons en ce fameux repas</l>
-      <l>L'élite de nos bergeries :</l>
-      <l>Si nos troupeaux goûtent en paix</l>
-      <l>Les herbages de nos prairies,</l>
-      <l>Nous deuons ce bonheur à vos divins attraits.</l>
-      <p>
-        <pb n="69" xml:id="p69"/>
-      </p>
-      <p>
-        <pb n="70" xml:id="p70"/>
-      </p>
-      <label type="head">LES PLAISIRS DE L’ÎLE ENCHANTÉE </label>
-      <label type="head">Du second &amp; troisiéme Iour.</label>
-      <p>
-        <pb n="71" xml:id="p71"/>
-      </p>
-      <label type="head">AVANT-PROPOS.</label>
-      <p>Le braue <name key="roger" corresp="louisxiv">Roger</name>, &amp; <name>les fameux
-          Guerriers de sa Quadrille</name> auoient trop bien reüssy aux Courses qu’ils auoient
-        faittes dans l’Île enchantée ; &amp; <name>la Magicienne</name> qui les auoit conuiez à en
-        diuertir vne grande <persName key="marie_therese">Reyne</persName>, auoit receu trop de
-        satisfaction de cette galanterie, pour n’en desirer pas la continuation : ces Cheualiers luy
-        donnent donc le plaisir de la Comedie : comme ils auoient entrepris les Courses souz le nom
-        des Ieux Pythiens &amp; <tech type="costume">armez à la Grecques</tech>, ils ne sortent pas
-        de leur premier dessein, lorsque la Scene est en <placeName key="elide">Elide</placeName>,
-        c’est-là qu’vn Prince d’humeur magnifique &amp; galante, ayant vne Fille aussy naturellement
-        ennemie de l’amour, qu’ornée de tous les dons qui la rendent aimable, propose des Ieux
-        d’exercices, des courses de chariots, &amp; des chasses, croyant que la magnificence des
-        premiers, &amp; le diuertissement de l’autre, où l’adresse &amp; le courage se font
-        remarquer, feront choisir parmy les diuers Princes qu’il y auoit conuiez vn Amant à sa
-        Fille, qui soit digne d’elle. Il y reüssit heureusement, &amp; l’intrigue de la Comedie
-        estant de soy fort galante, est encore augmentée par des concerts, des recits, &amp; des
-        entrées de ballet, qui entrent bien dans le sujet, &amp; le rendent fort agreable, ce qui
-        fit le diuertissement du second jour.</p>
-      <p>Mais le Ciel ayant resolu de donner la liberté à tant de braues Guerriers retenus dans
-        l’Île enchantée d’<name>Alcine</name>, par la fin de ses charmes &amp; la ruine de <tech
-          type="construction">son Palais</tech>, cette <name>belle Magicienne</name> est troublée
-        par des prodiges &amp; des songes, qui luy presagent son malheur prochain : en cette
-        inquietude elle vient au bas du Lac portée par <name>vn Monstre marin</name> accompagnée de
-          <name>deux de ses Nymphes</name>, &amp; mêle à des plaintes de l’état où elle se trouue
-        les loüanges de la <persName key="anne_d_autriche">Reyne Mere</persName> par des vers
-        qu’elle luy dit.</p>
-      <p>72</p>
-      <p>Cependant vn Chœur de plusieurs Instrumens se fait entendre sur <tech type="decor">deux
-          Îles sutucés aux deux cotez du Palais d’Alcine</tech>. Vn <persName key="musiciens"
-          role="musicien">nombre de Musiciens</persName> paroist qui font vne charmantte armonie,
-        cependant que <tech type="construction">le Palais</tech> s’ouure, duquel sortent
-          <name>quatre Geans</name> &amp; <name>quatre Nains</name> commis à la garde de ce lieu
-        considerable par sa situation &amp; sa force, ce qui fait la premiere entrée du Ballet :
-        laquelle finie<name> huit Maures</name> chargez par <name>Alcine</name> de la garde du
-        dedans paroissent en vne exacte visite auec chacun <tech type="lumieres">deux
-          flambeaux</tech> à la main, ce qui fait la seconde entrée. La troisiéme entrée fait
-        proistre <name>six Cheualiers</name> qu’<name>Alcine</name> retenoit auprés d’elle, tenter
-        par vn depit amoureux la sortie de ce <tech type="construction">Palais</tech>, mais il sont
-        vaincus après vn rude combat par <name>autant de Monstres</name>. Dequoy <name>Alcine</name>
-        alarmée de cet accident, inuoque de nouueau tous <name>ses Esprits</name>, &amp; leur
-        demande secours : il s’en presente deux pour la
-          <!-- Windows User : 2020-02-24T13:56:00.95
-Faut‑il résoudre les abréviations ?
--->quatri<hi
-          rend="sup">e</hi> entrée, qui font des sauts auec vne force &amp; agilité merueilleuse.
-          <name>Six autres Demons</name> dans la cinquiéme entrtée viennent encore asseurer la
-          <name>Magicienne</name> qu’ils n’oubliront rien pour son repos. Mais à peine
-        commence-t-elle à se r’asseurer qu’elle voit paroistre auprés de <name key="roger"
-          corresp="louisxiv">Roger</name>
-        <name>la sage Melisse</name> souz la forme d’<name>Atlas</name> ; elle court pour empécher
-        l’effet de son intention, mais elle arrive trop tard : <name>Mélisse</name> a déjà mis au
-        doigt de ce braue Chevalier la fameuse bague qui détruit les enchantemens ; lors vn coup de
-        tonnerre, suiuy de plusieurs éclairs, marque la destruction du <tech type="construction"
-          >Palais</tech>, qui s’est aussy tôt reduit en cendre par vn <tech type="feux-artifice">feu
-          d’artifice</tech>, qui finit cette sixiéme entrée &amp; met fin à cette avanture &amp; aux
-        diuertissemens de l’Île enchantée.</p>
-      <p>
-        <pb n="73" xml:id="p73"/>
-      </p>
-      <p>
-        <pb n="74" xml:id="p74"/>
-      </p>
-      <div>
-        <head>VERS D’<name>ALCINE</name>, DE <name>CELIE</name> ET DE <name>DIRCÉ</name> A LA
-            <persName key="anne_d_autriche" role="destinataire">REYNE MERE</persName>.</head>
-        <label type="speaker">ALCINE À <name>CELIE</name> ET <name>DIRCÉ</name>.</label>
-        <l>Vous à qui je fis part de ma felicité,</l>
-        <l>Pleurez auecque moy dans cette extremité.</l>
-        <label type="speaker">CELIE.</label>
-        <l>Quel est donc le sujet des soudaines alarmes,</l>
-        <l>Qui de vos yeux charmans font couler tant de larmes.</l>
-        <label type="speaker">ALCINE.</label>
-        <l>Si je pense en parler, ce n’est qu’en fremissant.</l>
-        <l>Dans les sombres horreurs d’vn songe menaçant,</l>
-        <l>Vn spectre m’auertit, d’vne voix éperduë,</l>
-        <l>Que pour moy des Enfers la force est suspenduë ;</l>
-        <l>Qu'vn celeste pouuoir arrête leur secours,</l>
-        <p>
-          <pb n="75" xml:id="p75"/>
-        </p>
-        <l>Et que ce jour sera le dernier de mes jours.</l>
-        <l>Ce que versa de triste au point de ma naissance</l>
-        <l>Des Astres ennemis, la maligne influence,</l>
-        <l>Et tout ce que mon Art m’a prédit de malheurs,</l>
-        <l>En ce songe fus peint de si viues couleurs,</l>
-        <l>Qu'à mes yeux éueillez sans cesse il represente</l>
-        <l>Le pouuoir de <name>Melisse</name> &amp; l’heur de <name>Bradamante</name>.</l>
-        <l>I’avois preueu ces maux, mais les charmans plaisirs,</l>
-        <l>Qui sembloient en ces lieux preuenir nos desirs ;</l>
-        <l>Nos superbes Palais, nos Iardins, nos Campagnes,</l>
-        <l>Agreable entretien de nos cheres Compagnes,</l>
-        <l>Nos jeux &amp; nos chansons, les concerts des oiseaux,</l>
-        <l>Le parfum des zephirs, le murmure des eaux,</l>
-        <l>De nos tendres amours les douces auantures,</l>
-        <l>M'auoient fait oublier ces funestes augures ;</l>
-        <l>Quand le Songe cruel, dont je me sens troubler,</l>
-        <l>Auec tant de fureur les vint renouueller.</l>
-        <l>Chaque instant je crois voir mes forces terrassées,</l>
-        <l>Mes Gardes égorgez &amp; mes prisons forcées ;</l>
-        <l>Ie crois voir mille Amans, par mon Art tranformez,</l>
-        <l>D'vne égale fureur à ma perte animez :</l>
-        <l>Quitter en même temps leurs troncs et leurs feuïllages,</l>
-        <l>Dans le juste dessein de vanger leurs outrages,</l>
-        <l>Et je crois voir enfin mon aimable Roger</l>
-        <l>De mes fers méprisez, prest à se dégager.</l>
-        <label type="speaker">CELIE.</label>
-        <l>La crainte en vostre esprit s’est acquis trop d’empire.</l>
-        <l>Vous regnez seule icy, pour vous seule on soupire;</l>
-        <l>Rien n’interrompt le cours de vos contentemens.</l>
-        <l>Que les accens plaintifs de vos tristes Amans:</l>
-        <l>Logistile, &amp; ses Gens chassez de nos campagnes,</l>
-        <l>Tremblent encor de peur, cachez dans leurs montagnes;</l>
-        <p>
-          <pb n="76" xml:id="p76"/>
-        </p>
-        <l>Et le nom de <name>Melisse</name>, en ces lieux inconnu,</l>
-        <l>Par vos augures seuls jusqu’à nous est venu.</l>
-        <label type="speaker">DIRCÉ.</label>
-        <l>Ah ! ne nous flattons point ce Phantóme effroyable</l>
-        <l>M’a tenu cette nuit vn discours tout semblable.</l>
-        <label type="speaker">ALCINE.</label>
+      <figure>
+        <graphic
+          url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f135/full/full/0/native.jpg"/>
+        <figDesc/>
+        <label type="head">VERS DES <name key="quatre_saisons">QVATRE SAISONS</name> À LA <persName
+            key="marie_therese" role="destinataire">REYNE</persName> . </label>
+        <label type="speaker"><name key="le_printemps">LE PRINTEMS</name>.</label>
+        <lg ana="vers">
+          <l>Entre toutes les Fleurs nouuellement écloses,</l>
+          <l>Dont mes jardins sont embellis,</l>
+          <l>Méprisant les jasmins, les oeillets &amp; les roses,</l>
+          <l>Pour payer mon tribut j’ay fait choix de ces LIS,</l>
+          <l>Que de vos premiers ans vous auez tant cheris ;</l>
+          <l><persName key="louisxiv">LOVIS </persName>les fait briller du Couchant à l'Aurore,</l>
+          <l>Tout l’Vnivers charmé les respecte &amp; les craint;</l>
+          <l>Mais leur Regne est plus doux &amp; plus puissant encore,</l>
+          <l>Quand ils brillent sur vótre teint.</l>
+        </lg>
+
+        <label type="speaker"><name key="l_ete">L’ÊTÉ</name>.</label>
+        <lg ana="vers">
+          <l>Surpris vn peu trop promptement,</l>
+          <l>I'apporte à cette Fête vn leger ornement ;</l>
+          <l>Mais auant que ma Saison passe,</l>
+          <l>Ie feray faire à vos Guerriers,</l>
+          <l>Dans les campagnes de la <placeName key="thrace">Thrace</placeName>,</l>
+          <l>Vne ample moisson de Lauriers.</l>
+        </lg>
+      </figure>
+
+      <pb n="66" xml:id="p66"/>
+      <figure>
+        <graphic
+          url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f137/full/full/0/native.jpg"/>
+        <figDesc/>
+        <label type="speaker"><name key="l_automne">L'AVTOMNE</name>.</label>
+        <lg ana="vers">
+          <l><name key="le_printemps">Le Printemps</name> orgueïlleux de la beauté des fleurs</l>
+          <l>Qui luy tomberent en partage,</l>
+          <l>Prétend de cette Fête auoir tout l’auantage,</l>
+          <l>Et nous croit obscurcir pas ses viues couleurs ;</l>
+          <l>Mais vous vous souuiendrez, Princesse sans seconde,</l>
+          <l>De ce Fruit precieux qu’a produit ma Saison,</l>
+          <l>Et qui croist dans vótre maison,</l>
+          <l>Pour faire quelque jour les delices du Monde.</l>
+        </lg>
+
+        <label type="speaker"><name key="l_hiver">L'HYVER</name>.</label>
+        <lg ana="vers">
+          <l>La neige, les glaçons que j’apporte en ces lieux,</l>
+          <l>Sont des mets les moins precieux,</l>
+          <l>Mais ils sont des plus necessaires,</l>
+          <l>Dans une Fête où mille objets charmans,</l>
+          <l>De leurs oeillades meurtrieres,</l>
+          <l>Font naître tant d’embrazemens.</l>
+        </lg>
+      </figure>
+
+      <pb n="67" xml:id="p67"/>
+      <figure>
+        <graphic
+          url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f139/full/full/0/native.jpg"/>
+        <figDesc><placeName key="versailles_jardins"/><name key="pan"/><name key="diane"/><name
+            key="musiciens"/><tech type="costume"/><tech type="musique"/><tech type="machine_vol"
+          /></figDesc>
+      </figure>
+
+      <pb n="68" xml:id="p68"/>
+      <figure>
+        <graphic
+          url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f141/full/full/0/native.jpg"/>
+        <figDesc/>
+        <label type="head">VERS DE <name key="pan">PAN</name> ET DE <name key="diane">DIANE</name> À
+            <persName key="marie_therese">LA REYNE</persName>.</label>
+        <label type="speaker"><name key="diane">DIANE</name>.</label>
+        <lg ana="vers">
+          <l>Nos Bois, nos Rochers, nos Montagnes,</l>
+          <l>Tous nos Chasseurs, &amp; mes Compagnes,</l>
+          <l>Qui m’ont toujours rendu des honneurs souuerains ;</l>
+          <l>Depuis que parmy nous ils vous ont veu paroistre,</l>
+          <l>Ne veulent plus me reconnoistre,</l>
+          <l>Et chargez de presens viennent auecque moy</l>
+          <l>Vous porter ce tribut pour marque de leur foy.</l>
+
+          <l>Les Habitans legers de cet heureux bócage,</l>
+          <l>De tomber dans vos rets font leur sort le plus doux,</l>
+          <l>Et n’estiment rien davantage,</l>
+          <l>Que l’heur de perir de vos coups ;</l>
+          <l><name key="amour">Amour</name> dont vous auez la grace &amp; le visage,</l>
+          <l>A le même secret que vous.</l>
+        </lg>
+
+        <label type="speaker"><name key="pan">PAN</name>.</label>
+        <lg ana="vers">
+          <l>Ieune Divnité, ne vous étonnez pas,</l>
+          <l>Lorsque nous vous offrons en ce fameux repas</l>
+          <l>L'élite de nos bergeries :</l>
+          <l>Si nos troupeaux goûtent en paix</l>
+          <l>Les herbages de nos prairies,</l>
+          <l>Nous deuons ce bonheur à vos divins attraits.</l>
+        </lg>
+      </figure>
+
+      <pb n="69" xml:id="p69"/>
+
+      <pb n="70" xml:id="p70"/>
+      <figure>
+        <graphic
+          url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f145/full/full/0/native.jpg"/>
+        <figDesc><placeName key="versailles_jardins"/><tech type="construction"/><tech
+            type="feux-artifice"/></figDesc>
+        <label type="head">LES PLAISIRS DE L’ÎLE ENCHANTÉE </label>
+        <label type="head">Du second &amp; troisiéme Iour.</label>
+      </figure>
+
+      <pb n="71" xml:id="p71"/>
+      <figure>
+        <graphic
+          url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f147/full/full/0/native.jpg"/>
+        <figDesc/>
+        <label type="head">AVANT-PROPOS.</label>
+        <p>Le braue <name key="roger">Roger</name>, &amp; <name key="chevaliers">les fameux
+            Guerriers de sa Quadrille</name> auoient trop bien reüssy aux Courses qu’ils auoient
+          faittes dans l’Île enchantée ; &amp; <name key="alcine">la Magicienne</name> qui les auoit
+          conuiez à en diuertir vne grande <persName key="marie_therese">Reyne</persName>, auoit
+          receu trop de satisfaction de cette galanterie, pour n’en desirer pas la continuation :
+          ces <name key="chevaliers">Cheualiers</name> luy donnent donc le plaisir de la Comedie :
+          comme ils auoient entrepris les Courses souz le nom des Ieux Pythiens &amp; <tech
+            type="costume">armez à la Grecques</tech>, ils ne sortent pas de leur premier dessein,
+          lorsque la Scene est en <placeName key="elide">Elide</placeName>, c’est-là qu’<name
+            key="iphitas">vn Prince d’humeur magnifique &amp; galante</name>, ayant <name
+            key="princesse_d_elide">vne Fille</name> aussy naturellement ennemie de l’amour,
+          qu’ornée de tous les dons qui la rendent aimable, propose des Ieux d’exercices, des
+          courses de chariots, &amp; des chasses, croyant que la magnificence des premiers, &amp; le
+          diuertissement de l’autre, où l’adresse &amp; le courage se font remarquer, feront choisir
+          parmy les diuers Princes qu’il y auoit conuiez vn Amant à sa Fille, qui soit digne d’elle.
+          Il y reüssit heureusement, &amp; l’intrigue de la Comedie estant de soy fort galante, est
+          encore augmentée par des <tech type="musique">concerts</tech>, des recits, &amp; des
+          entrées de ballet, qui entrent bien dans le sujet, &amp; le rendent fort agreable, ce qui
+          fit le diuertissement du second jour.</p>
+        <p>Mais le Ciel ayant resolu de donner la liberté à tant de braues <name key="chevaliers"
+            >Guerriers</name> retenus dans l’Île enchantée d’<name key="alcine">Alcine</name>, par
+          la fin de ses charmes &amp; la ruine de son Palais, cette <name key="alcine">belle
+            Magicienne</name> est troublée par des prodiges &amp; des songes, qui luy presagent son
+          malheur prochain : en cette inquietude elle vient au bas du Lac portée par <tech
+            type="animal">vn Monstre marin</tech> accompagnée de deux de ses Nymphes, &amp; mêle à
+          des plaintes de l’état où elle se trouue les loüanges de la <persName
+            key="anne_d_autriche">Reyne Mere</persName> par des vers qu’elle luy dit.</p>
+      </figure>
+
+      <pb n="72" xml:id="p72"/>
+      <figure>
+        <graphic
+          url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f149/full/full/0/native.jpg"/>
+        <figDesc/>
+        <p>Cependant <tech type="musique">vn Chœur de plusieurs Instrumens se fait entendre</tech>
+          sur <tech type="decor">deux Îles situées aux deux cotez du Palais d’<name key="alcine"
+              >Alcine</name></tech>. Vn <persName key="musiciens" role="musicien">nombre de
+            Musiciens</persName> paroist qui font <tech type="musique">vne charmantte
+          armonie</tech>, cependant que <tech type="construction">le Palais</tech> s’ouure, duquel
+          sortent <name key="geant">quatre Geans</name> &amp; <name key="nain">quatre Nains</name>
+          commis à la garde de ce lieu considerable par sa situation &amp; sa force, ce qui fait la
+          premiere entrée du Ballet : laquelle finie <name key="maures">huit Maures</name> chargez
+          par <name key="alcine">Alcine</name> de la garde du dedans paroissent en faire vne exacte
+          visite auec chacun <tech type="lumieres">deux flambeaux</tech> à la main, ce qui fait la
+          seconde entrée. La troisiéme entrée fait proistre <name key="chevaliers">six
+            Cheualiers</name> qu’<name key="alcine">Alcine</name> retenoit auprés d’elle, tenter par
+          vn depit amoureux la sortie de ce <tech type="construction">Palais</tech>, mais il sont
+          vaincus après vn rude combat par <name key="monstre">autant de Monstres</name>. Dequoy
+            <name key="alcine">Alcine</name> alarmée de cet accident, inuoque de nouueau tous ses
+          Espris, &amp; leur demande secours : il s’en presente deux pour la quatri<hi rend="sup"
+            >e</hi> entrée, qui font des sauts auec vne force &amp; agilité merueilleuse. <name
+            key="demon">Six autres Demons</name> dans la cinquiéme entrée viennent encore asseurer
+          la <name key="alcine">Magicienne</name> qu’ils n’oubliront rien pour son repos. Mais à
+          peine commence-t-elle à se r’asseurer qu’elle voit paroistre auprés de <name key="roger"
+            >Roger</name><name key="melisse">la sage Melisse</name> souz la forme d’<name
+            key="atlas">Atlas</name> ; elle court pour empécher l’effet de son intention, mais elle
+          arrive trop tard : <name key="melisse">Mélisse</name> a déjà mis au doigt de ce braue
+          Chevalier la fameuse bague qui détruit les enchantemens ; lors <tech type="bruitage">vn
+            coup de tonnerre</tech>, suiuy de <tech type="feux-artifice">plusieurs éclairs</tech>,
+          marque la destruction du <tech type="construction">Palais</tech>, qui s’est aussy tôt
+          reduit en cendre par vn <tech type="feux-artifice">feu d’artifice</tech>, qui finit cette
+          sixiéme entrée &amp; met fin à cette avanture &amp; aux diuertissemens de l’Île
+          enchantée.</p>
+      </figure>
+
+      <pb n="73" xml:id="p73"/>
+      <figure>
+        <graphic
+          url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f151/full/full/0/native.jpg"/>
+        <figDesc><placeName key="versailles_jardins"/>
+          <name key="alcine"/><name key="celie"/><name key="dirce"/><name key="musiciens"/><tech
+            type="musique"/><tech type="construction"/><tech type="animal"/><tech type="costume"
+            /><tech type="eaux"/></figDesc>
+      </figure>
+
+      <pb n="74" xml:id="p74"/>
+      <figure>
+        <graphic
+          url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f153/full/full/0/native.jpg"/>
+        <figDesc/>
+        <label type="head">VERS D’<name key="alcine">ALCINE</name>, DE <name key="celie"
+            >CELIE</name> ET DE <name key="dirce">DIRCÉ</name> A LA <persName key="anne_d_autriche"
+            role="destinataire">REYNE MERE</persName>.</label>
+        <label type="speaker"><name key="alcine">ALCINE</name> À <name key="celie">CELIE</name> ET
+            <name key="dirce">DIRCÉ</name>.</label>
+        <lg ana="vers">
+          <l>Vous à qui je fis part de ma felicité,</l>
+          <l>Pleurez auecque moy dans cette extremité.</l>
+        </lg>
+
+        <label type="speaker"><name key="celie">CELIE</name>.</label>
+        <lg ana="vers">
+          <l>Quel est donc le sujet des soudaines alarmes,</l>
+          <l>Qui de vos yeux charmans font couler tant de larmes.</l>
+        </lg>
+        <label type="speaker"><name key="alcine">ALCINE</name>.</label>
+        <lg ana="vers">
+          <l>Si je pense en parler, ce n’est qu’en fremissant.</l>
+          <l>Dans les sombres horreurs d’vn songe menaçant,</l>
+          <l>Vn spectre m’auertit, d’vne voix éperduë,</l>
+          <l>Que pour moy des Enfers la force est suspenduë ;</l>
+          <l>Qu'vn celeste pouuoir arrête leur secours,</l>
+        </lg>
+      </figure>
+
+      <pb n="75" xml:id="p75"/>
+      <figure>
+        <graphic
+          url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f155/full/full/0/native.jpg"/>
+        <figDesc/>
+        <lg ana="vers">
+          <l>Et que ce jour sera le dernier de mes jours.</l>
+          <l>Ce que versa de triste au point de ma naissance</l>
+          <l>Des Astres ennemis, la maligne influence,</l>
+          <l>Et tout ce que mon Art m’a prédit de malheurs,</l>
+          <l>En ce songe fut peint de si viues couleurs,</l>
+          <l>Qu'à mes yeux éueillez sans cesse il represente</l>
+          <l>Le pouuoir de <name key="melisse">Melisse</name> &amp; l’heur de <name key="bradamante"
+              >Bradamante</name>.</l>
+
+          <l>I’avois preueu ces maux, mais les charmans plaisirs,</l>
+          <l>Qui sembloient en ces lieux preuenir nos desirs ;</l>
+          <l>Nos superbes Palais, nos Iardins, nos Campagnes,</l>
+          <l>Agreable entretien de nos cheres Compagnes,</l>
+          <l>Nos jeux &amp; nos chansons, les concerts des oiseaux,</l>
+          <l>Le parfum des zephirs, le murmure des eaux,</l>
+          <l>De nos tendres amours les douces auantures,</l>
+          <l>M'auoient fait oublier ces funestes augures ;</l>
+          <l>Quand le Songe cruel, dont je me sens troubler,</l>
+          <l>Auec tant de fureur les vint renouueller.</l>
+
+          <l>Chaque instant je crois voir mes forces terrassées,</l>
+          <l>Mes Gardes égorgez &amp; mes prisons forcées ;</l>
+          <l>Ie crois voir mille Amans, par mon Art tranformez,</l>
+          <l>D'vne égale fureur à ma perte animez :</l>
+          <l>Quitter en même temps leurs troncs et leurs feuïllages,</l>
+          <l>Dans le juste dessein de vanger leurs outrages,</l>
+          <l>Et je crois voir enfin mon aimable <name key="roger">Roger</name></l>
+          <l>De mes fers méprisez, prest à se dégager.</l>
+        </lg>
+        <label type="speaker"><name key="celie">CELIE</name>.</label>
+        <lg ana="vers">
+          <l>La crainte en vostre esprit s’est acquis trop d’empire.</l>
+          <l>Vous regnez seule icy, pour vous seule on soupire;</l>
+          <l>Rien n’interrompt le cours de vos contentemens.</l>
+          <l>Que les accens plaintifs de vos tristes Amans:</l>
+          <l>Logistile, &amp; ses Gens chassez de nos campagnes,</l>
+          <l>Tremblent encor de peur, cachez dans leurs montagnes;</l>
+        </lg>
+      </figure>
+
+      <pb n="76" xml:id="p76"/>
+      <figure>
+        <graphic
+          url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f157/full/full/0/native.jpg"/>
+        <figDesc/>
+        <lg ana="vers">
+          <l>Et le nom de <name key="melisse">Melisse</name>, en ces lieux inconnu,</l>
+          <l>Par vos augures seuls jusqu’à nous est venu.</l>
+        </lg>
+
+        <label type="speaker"><name key="dirce">DIRCÉ</name>.</label>
+        <lg ana="vers">
+          <l>Ah ! ne nous flattons point ce Phantóme effroyable</l>
+          <l>M’a tenu cette nuit vn discours tout semblable.</l>
+        </lg>
+
+        <label type="speaker"><name key="alcine">ALCINE</name>.</label>
         <l>Helas ! de nos malheurs qui peut encor douter.</l>
-        <label type="speaker">CELIE.</label>
-        <l>I'y vois vn grand remede &amp; facile à tenter :</l>
-        <l>Vne <persName key="anne_d_autriche">Reyne</persName> paroist, dont le secours
-          propice,</l>
-        <l>Nous sçaura garantir des efforts de Melisse ;</l>
-        <l>Par tout de cette <persName key="anne_d_autriche">Reyne</persName> on vante la bonté.</l>
-        <l>Et l’on dit que son coeur, de qui la fermete,</l>
-        <l>Des flots les plus mutins meprisa l’insolence,</l>
-        <l>Contre les voeux des siens est toujours sans deffense.</l>
-        <label type="speaker">ALCINE.</label>
-        <l>Il est vray je la vois, en ce pressant danger</l>
-        <l>À nous donner secours tachons de l’engager :</l>
-        <l>Disons luy qu’en tous lieux la voix publique étale</l>
-        <l>Les charmantes beautez de son Ame Royale ;</l>
-        <l>Disons que sa vertu plus haute que son Rang</l>
-        <l>Sçait releuer l’éclat de son auguste Sang,</l>
-        <l>Et que de nostre Sexe elle a porté la gloire</l>
-        <p>
-          <pb n="77" xml:id="p77"/>
-        </p>
-        <l>Si loin, que l’auenir aura peine à le croire;</l>
-        <l>Que du bonheur public son grand coeur amoureux</l>
-        <l>Fit toujours des perils un mépris génereux;</l>
-        <l>Que de ses propres maux, son Ame à peine atteinte,</l>
-        <l>Pour les maux de l’État garda toute sa crainte ;</l>
-        <l>Disons que ses bienfaits versez à pleines mains</l>
-        <l>Luy gagnent le respect &amp; l’amour des Humains,</l>
-        <l>Et qu’au moindre danger dont elle est menacée</l>
-        <l>Toute la Terre en deuïl se montre interessée :</l>
-        <l>Disons qu’au plus haut point de l’absolu pouuoir,</l>
-        <l>Sans faste &amp; sans orgueil sa grandeur s’est fait voir;</l>
-        <l>Qu'aux temps les plus fácheux, sa sagesse constante,</l>
-        <l>Sans crainte a soutenu l’autorité penchante;</l>
-        <l>Et dans le calme heureux, par ses trauaux acquis,</l>
-        <l>Sans regret la remit dans les mains de son Fils.</l>
-        <l>Disons par quels respects, par quelle complaisance,</l>
-        <l>De ce Fils glorieux, l’amour la récompense;</l>
-        <l>Vantons les longs trauaux, vantons les justes loix,</l>
-        <l>De ce Fils reconnu pour le plus grand des Roys;</l>
-        <l>Et comment cette Mere heureusement seconde,</l>
-        <l>Ne donnant que deux fois a donné tant au Monde.</l>
-        <l>Enfin faisons parler nos soupirs &amp; nos pleurs</l>
-        <l>Pour la rendre sensible à nos viues douleurs,</l>
-        <l>Et nous pourrons trouuer au fort de notre peine</l>
-        <l>Vn refuge paisible aux pieds de cette <persName key="anne_d_autriche"
-          >Reyne</persName>.</l>
-        <label type="speaker">DIRCÉ.</label>
-        <l>Ie sçay bien que son coeur noblement genereux,</l>
-        <l>Ecoute auec plaisir la voix des malheureux ;</l>
-        <l>Mais on ne voit jamais éclatter sa puissance</l>
-        <l>Qu’à repousser le tort qu’on fait à l’innocence ;</l>
-        <l>Ie sçay qu’elle peut tout, mais je n’ose penser,</l>
-        <l>Que jusqu’à nous deffendre on la vit s’abaisser,</l>
-        <l>De nos douces erreurs elle peut être instruitte,</l>
-        <l>Et rien n’est plus contraire à sa rare Conduite,</l>
-        <l>Son zele si connu pour le culte des Dieux</l>
-        <p>
-          <pb n="78" xml:id="p78"/>
-        </p>
-        <l>Doit rendre à sa vertu nos respects odieux,</l>
-        <l>Et loin qu’à son abord mon effroy diminuë</l>
-        <l>Malgré moy je le sens qui redouble à sa veuë.</l>
-        <label type="speaker">ALCINE.</label>
-        <l>Ah ! ma propre frayeur suffit pour m’affliger :</l>
-        <l>Loin d’aigrir mon ennuy, cherche à le soulager,</l>
-        <l>Et tâche de fournir, à mon Ame oppressée,</l>
-        <l>Dequoy parer aux maux dont elle est menacée.</l>
-        <l>Redoublons cependant les Gardes du Palais,</l>
-        <l>Et s’il n’est point pour nous d’azile desormais,</l>
-        <l>Dans nótre desespoir cherchons nótre défense,</l>
-        <l>Et ne nous rendons pas au moins sans resistance.</l>
-      </div>
+
+        <label type="speaker"><name key="celie">CELIE</name>.</label>
+        <lg ana="vers">
+          <l>I'y vois vn grand remede &amp; facile à tenter :</l>
+          <l>Vne <persName key="anne_d_autriche">Reyne</persName> paroist, dont le secours
+            propice,</l>
+          <l>Nous sçaura garantir des efforts de <name key="melisse">Melisse</name> ;</l>
+          <l>Par tout de cette <persName key="anne_d_autriche">Reyne</persName> on vante la
+            bonté.</l>
+          <l>Et l’on dit que son coeur, de qui la fermeté,</l>
+          <l>Des flots les plus mutins meprisa l’insolence,</l>
+          <l>Contre les voeux des siens est toujours sans deffense.</l>
+        </lg>
+
+        <label type="speaker"><name key="alcine">ALCINE</name>.</label>
+        <lg ana="vers">
+          <l>Il est vray je la vois, en ce pressant danger</l>
+          <l>À nous donner secours tachons de l’engager :</l>
+          <l>Disons luy qu’en tous lieux la voix publique étale</l>
+          <l>Les charmantes beautez de son Ame Royale ;</l>
+          <l>Disons que sa vertu plus haute que son Rang</l>
+          <l>Sçait releuer l’éclat de son auguste Sang,</l>
+          <l>Et que de nostre Sexe elle a porté la gloire</l>
+        </lg>
+
+      </figure>
+
+      <pb n="77" xml:id="p77"/>
+      <figure>
+        <graphic
+          url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f159/full/full/0/native.jpg"/>
+        <figDesc/>
+        <lg ana="vers">
+          <l>Si loin, que l’auenir aura peine à le croire;</l>
+          <l>Que du bonheur public son grand coeur amoureux</l>
+          <l>Fit toujours des perils un mépris génereux;</l>
+          <l>Que de ses propres maux, son Ame à peine atteinte,</l>
+          <l>Pour les maux de l’État garda toute sa crainte ;</l>
+          <l>Disons que ses bienfaits versez à pleines mains</l>
+          <l>Luy gagnent le respect &amp; l’amour des Humains,</l>
+          <l>Et qu’au moindre danger dont elle est menacée</l>
+          <l>Toute la Terre en deuïl se montre interessée :</l>
+          <l>Disons qu’au plus haut point de l’absolu pouuoir,</l>
+          <l>Sans faste &amp; sans orgueil sa grandeur s’est fait voir;</l>
+          <l>Qu'aux temps les plus fácheux, sa sagesse constante,</l>
+          <l>Sans crainte a soutenu l’autorité penchante;</l>
+          <l>Et dans le calme heureux, par ses trauaux acquis,</l>
+          <l>Sans regret la remit dans les mains de son Fils.</l>
+          <l>Disons par quels respects, par quelle complaisance,</l>
+          <l>De ce <name key="louisxiv">Fils glorieux</name>, l’amour la récompense;</l>
+          <l>Vantons les longs trauaux, vantons les justes loix,</l>
+          <l>De ce Fils reconnu pour le plus grand des Roys;</l>
+          <l>Et comment cette Mere heureusement feconde,</l>
+          <l>Ne donnant que deux fois a donné tout au Monde.</l>
+          <l>Enfin faisons parler nos soupirs &amp; nos pleurs</l>
+          <l>Pour la rendre sensible à nos viues douleurs,</l>
+          <l>Et nous pourrons trouuer au fort de notre peine</l>
+          <l>Vn refuge paisible aux pieds de cette <persName key="anne_d_autriche"
+            >Reyne</persName>.</l>
+
+        </lg>
+        <label type="speaker"><name key="dirce">DIRCÉ</name>.</label>
+        <lg ana="vers">
+          <l>Ie sçay bien que son coeur noblement genereux,</l>
+          <l>Ecoute auec plaisir la voix des malheureux ;</l>
+          <l>Mais on ne voit jamais éclatter sa puissance</l>
+          <l>Qu’à repousser le tort qu’on fait à l’innocence ;</l>
+          <l>Ie sçay qu’elle peut tout, mais je n’ose penser,</l>
+          <l>Que jusqu’à nous deffendre on la vit s’abaisser,</l>
+          <l>De nos douces erreurs elle peut être instruitte,</l>
+          <l>Et rien n’est plus contraire à sa rare Conduite,</l>
+          <l>Son zele si connu pour le culte des Dieux</l>
+        </lg>
+      </figure>
+
+      <pb n="78" xml:id="p78"/>
+      <figure>
+        <graphic
+          url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f161/full/full/0/native.jpg"/>
+        <figDesc/>
+        <lg ana="vers">
+          <l>Doit rendre à sa vertu nos respects odieux,</l>
+          <l>Et loin qu’à son abord mon effroy diminuë</l>
+          <l>Malgré moy je le sens qui redouble à sa veuë.</l>
+
+          <label type="speaker"><name key="alcine">ALCINE</name>.</label>
+          <l>Ah ! ma propre frayeur suffit pour m’affliger :</l>
+          <l>Loin d’aigrir mon ennuy, cherche à le soulager,</l>
+          <l>Et tâche de fournir, à mon Ame oppressée,</l>
+          <l>Dequoy parer aux maux dont elle est menacée.</l>
+
+          <l>Redoublons cependant les Gardes du Palais,</l>
+          <l>Et s’il n’est point pour nous d’azile desormais,</l>
+          <l>Dans nótre desespoir cherchons nótre deffense,</l>
+          <l>Et ne nous rendons pas au moins sans resistance.</l>
+        </lg>
+      </figure>
     </body>
   </text>
 </TEI>
