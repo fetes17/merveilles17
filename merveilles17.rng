@@ -403,8 +403,6 @@
       </optional>
       <zeroOrMore>
         <choice>
-          <ref name="byline"/>
-          <ref name="dateline"/>
           <ref name="figure"/>
           <ref name="head"/>
           <ref name="pb"/>
@@ -416,9 +414,6 @@
       <!-- Conclusion -->
       <zeroOrMore>
         <choice>
-          <ref name="byline"/>
-          <ref name="dateline"/>
-          <ref name="figure"/>
           <ref name="pb"/>
           <ref name="trailer"/>
         </choice>
@@ -477,6 +472,8 @@
     <a:documentation>Blocs (niveau paragraphe)</a:documentation>
     <define name="block">
       <choice>
+        <ref name="byline"/>
+        <ref name="dateline"/>
         <ref name="figure"/>
         <ref name="l"/>
         <ref name="lg"/>
@@ -557,11 +554,9 @@
         <optional>
           <ref name="rend.block"/>
         </optional>
-        <optional>
-          <ref name="label"/>
-        </optional>
         <oneOrMore>
           <choice>
+          <ref name="label"/>
             <ref name="l"/>
             <ref name="pb"/>
           </choice>
@@ -638,6 +633,18 @@
         <ref name="chars"/>
       </element>
     </define>
+    <define name="signed">
+      <element name="signed">
+        <a:documentation>Signature, formule finale</a:documentation>
+        <optional>
+          <ref name="rend.block"/>
+        </optional>
+        <optional>
+          <ref name="xml.lang"/>
+        </optional>
+        <ref name="chars"/>
+      </element>
+    </define>
     <define name="stage">
       <element name="stage">
         <a:documentation>Didascalie</a:documentation>
@@ -659,6 +666,7 @@
           <ref name="foreign"/>
           <ref name="name"/>
           <ref name="note"/>
+          <ref name="lb"/>
           <ref name="persName"/>
           <ref name="pb"/>
           <ref name="placeName"/>
@@ -967,9 +975,11 @@
             <choice>
               <value>description</value>
               <value>devise</value>
+              <value>epigramme</value>
               <value>madrigal</value>
-              <value>sonnet</value>
               <value>quatrain</value>
+              <value>sonnet</value>
+              <value>vers</value>
             </choice>
           </zeroOrMore>
         </list>
@@ -988,6 +998,7 @@
             <choice>
               <ref name="rend.font"/>
               <ref name="rend.align"/>
+              <value>dropcap</value>
             </choice>
           </oneOrMore>
         </list>

@@ -122,21 +122,22 @@
         leur gré, pour luy seruir de Lustre, &amp; afin que cette inegalité augmente sa gloire :
         l’impuissance dans laquelle je me vois d’y contribuer dans les grandes choses, m’oblige a
         recourir auec soin aux petites pour témoigner auec combien d’attachement &amp; de respect je
-        suis.</p>
-      <p>SIRE</p>
-      <p>DE VOSTRE MAIESTÉ.</p>
-      <p>Le tres-humble tres-obeïssant &amp; tres fidel serviteur &amp; sujet.</p>
-      <p><persName key="bizincourt">DE BIZINCOVRT</persName>.</p>
+        suis<!-- [FG] Je n’ai pas vu de point dans l’orginal, la phrse ne continue pas ? -->
+      <lb/>SIRE
+      <lb/>DE VOSTRE MAIESTÉ.</p>
+      <byline>Le tres-humble tres-obeïssant 
+        <lb/>&amp; tres fidel serviteur &amp; sujet.
+        <lb/><persName rend="sc" key="bizincourt">De Bizincovrt</persName>.</byline>
 
       <pb n="4" xml:id="fol4r"/>
       <figure>
         <graphic
           url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f13/full/full/0/native.jpg"/>
         <figDesc/>
-        <label type="head">AV<persName key="louisxiv" role="destinataire"> ROY</persName>.</label>
+        <label type="head">AV <persName key="louisxiv" role="destinataire"> ROY</persName>.</label>
         <label type="head">SONNET.</label>
         <lg ana="sonnet">
-          <l><persName key="louisxiv">GRAND ROY</persName>, dont le mâle Courage</l>
+          <l rend="dropcap"><persName key="louisxiv">GRAND ROY</persName>, dont le mâle Courage</l>
           <l>Fait si grand bruit de toutes parts,</l>
           <l>Que celuy des douzes Cesars</l>
           <l>En a moins fait durant leur âge.</l>
@@ -351,19 +352,12 @@ Balisons nous les trompettes et les timballiers comme des personnes ou comme des
         <graphic
           url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f29/full/full/0/native.jpg"/>
         <figDesc><name key="victoire"/></figDesc>
-        <p><foreign>VICTRICIBVS ARMIS</foreign>
-        </p>
-        <p>
-          <foreign><persName key="louisxiv">LODOICI</persName></foreign>
-        </p>
-        <p>
-          <foreign>FRANCORVM IMPERATORIS.</foreign>
-        </p>
-        <p>
-          <foreign><persName key="louisxiv">LVDOVICVS XIV</persName>. foelicitati Nationum datus,
+        <p xml:lang="la">VICTRICIBVS ARMIS
+        <lb/><persName key="louisxiv">LODOICI</persName>
+          <lb/>FRANCORVM IMPERATORIS.</p>
+        <p xml:lang="la"><persName key="louisxiv">LVDOVICVS XIV</persName>. foelicitati Nationum datus,
             Regum decus, humanae Gentis delitiae, hostium terror, suorum desiderium, omnium
-            admiratio.</foreign>
-        </p>
+            admiratio.</p>
       </figure>
 
       <pb n="13" xml:id="p13"/>
@@ -371,19 +365,14 @@ Balisons nous les trompettes et les timballiers comme des personnes ou comme des
         <graphic
           url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f31/full/full/0/native.jpg"/>
         <figDesc/>
-        <p>
-          <foreign><persName key="louisxiv">LVDOVICVS XIIII</persName>.</foreign>
-        </p>
-        <p>
-          <foreign>FRANCORVM IMPERATOR AUGVSTISSIMVS.</foreign>
-        </p>
-        <p>
-          <foreign>Aduersariis mari terraque deuictis, latè prolatis finibus, firmatis vbique
-            terrarum sociis, pace suis legibus orbi sancita.</foreign>
-        </p>
-        <p>
-          <foreign>NE QVID CESSARET HEROICA VIRTVS PALESTRICAM VICTORIAM NON DEDIGNATVR.</foreign>
-        </p>
+        <!-- il ne s’agit pas d’une forme stylistique ? -->
+        <p xml:lang="la">
+          <persName key="louisxiv">LVDOVICVS XIIII</persName>.
+          <lb/>FRANCORVM IMPERATOR
+          <lb/>AUGVSTISSIMVS.</p>
+        <p xml:lang="la">Aduersariis mari terraque deuictis, latè prolatis finibus, firmatis vbique
+            terrarum sociis, pace suis legibus orbi sancita.</p>
+        <p xml:lang="la">NE QVID CESSARET HEROICA VIRTVS PALESTRICAM VICTORIAM NON DEDIGNATVR.</p>
       </figure>
 
       <pb n="14" xml:id="p14"/>
