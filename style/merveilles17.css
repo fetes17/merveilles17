@@ -1,5 +1,7 @@
 
 :root {
+  --rose: #c07b78;
+  --gris: rgba(242, 242, 242, 0.2);
   --creme: #fafafa;
   --persName: rgba(0, 0, 128, 1);
   --persName5: rgba(0, 0, 128, 0.3);
@@ -421,7 +423,7 @@ div.l {
 }
 
 p.autofirst {
-  text-indent: 1.5rem;
+  /* text-indent: 1.5rem; */
 }
 
 .p.dropcap,

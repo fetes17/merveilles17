@@ -3,486 +3,444 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>Merveilles17</title>
-    <link rel="stylesheet" type="text/css" href="../theme/sortable.css" />
-    <link rel="stylesheet" type="text/css" href="../theme/teinte.css" />
+        <link href="https://fonts.googleapis.com/css2?Playfair+Display:ital,wght@0,400;0,600;1,400;1,600&amp;family=Titillium+Web:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&amp;display=swap" rel="stylesheet"/>
     <link rel="stylesheet" type="text/css" href="../theme/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../theme/teinte.css" />
+    <link rel="stylesheet" type="text/css" href="../theme/sortable.css" />
     <link rel="stylesheet" type="text/css" href="../theme/merveilles17.css" />
   </head>
   <body>
-    <header id="header" class="bg-primary text-white pb-3 pt-3">
+    <header id="header" class="bg-black pb-3 pt-3">
       <div class="container">
-        <div class="row align-items-start">
-          <div class="col-2" id="logo">
-            <a href=".">
-              <img src="../images/logo_merveilles17.jpg" alt="Merveilles 17"/>
-            </a>
-          </div>
-          <div class="col-8 text-center">
-            <h1>Merveilles de la cour</h1>
-            <p>Techniques, esthétiques et politiques des divertissements de cour au XVII<sup>e</sup> siècle</p>
-          </div>
-          <div class="col-2" id="search">
-            <form>
-              <input name="q" />
-            </form>
-          </div>
-        </div>
-        <div class="row align-items-end">
-          <nav class="navbar navbar-expand-lg navbar-light" id="headnav">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headnavBoot" aria-controls="headnavBoot" aria-expanded="false" aria-label="Navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="headnavBoot">
-              <ul class="navbar-nav">
-                <!--
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">Accueil</a>
-                </li>
-                -->
-                <!--
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="headnavBiblio" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Bibliothèque</a>
-                  <div class="dropdown-menu" aria-labelledby="headnavBiblio">
-                    <a class="dropdown-item" href="biblio.html#">Manuscrits</a>
-                    <a class="dropdown-item" href="biblio.html#">Imprimés</a>
-                    <a class="dropdown-item" href="biblio.html#">Images</a>
-                  </div>
-                </li>
-                -->
-                <li class="nav-item">
-                  <a class="nav-link" href="../document/index.html">Bibliothèque</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../personne/index.html">Personnes</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../technique/index.html">Techniques</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../lieu/index.html">Lieux</a>
-                </li>
-                <!--
-                <li class="nav-item">
-                  <a class="nav-link" href="../chrono.html">Chronologie</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="https://merveilles17.hypotheses.org/">Carnet</a>
-                </li>
-                -->
-              </ul>
-            </div>
-          </nav>
-        </div>
+        <nav>
+          <a href="../" id="logo">
+            <img src="../images/logo_merveilles17.png" alt="Merveilles 17"/>
+          </a>
+          <a class="nav-link" href="../document/index.html">Bibliothèque</a>
+          <a class="nav-link" href="../personne/index.html">Personnes</a>
+          <a class="nav-link" href="../technique/index.html">Techniques</a>
+          <a class="nav-link" href="../lieu/index.html">Lieux</a>
+          <a class="nav-link" href="../chrono.html">Chronologie</a>
+          <a class="nav-link" href="https://merveilles17.hypotheses.org/">Carnet</a>
+        </nav>
+        <p class="moto">Techniques, esthétiques et politiques des divertissements de cour au XVII<sup>e</sup> siècle</p>
+        <!--
+        <form>
+          <input name="q" />
+          
+        </form>
+        -->
       </div>
     </header>
-    <main id="main" class="pt-5 pb-5 bg-white">
-      <div class="container">
-        <table class="sortable">
-  <thead>
-    <tr>
-      <th class="label">Lieu</th>
-      <th class="docs" title="Nombre de documents">documents</th>
-      <th class="occs" title="Nombre d’occurrences">occurrences</th>
-    </tr>
-  </thead>    
-  <tbody>
-
-    <tr>
-      <td class="label"><a href="versailles.html">Versailles</a></td>
-      <td class="docs">21</td>
-      <td class="occs">32</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="versailles_chateau.html">Versailles, Château de Versailles</a></td>
-      <td class="docs">11</td>
-      <td class="occs">44</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="paris.html">Paris</a></td>
-      <td class="docs">9</td>
-      <td class="occs">17</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="versailles_jardins_bassin_apollon.html">Versailles, Bassin des Cygnes/Lac d'Alcine</a></td>
-      <td class="docs">8</td>
-      <td class="occs">18</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="fontainebleau.html">Fontainebleau</a></td>
-      <td class="docs">7</td>
-      <td class="occs">8</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="france.html">France</a></td>
-      <td class="docs">7</td>
-      <td class="occs">14</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="versailles_jardins.html">Versailles, Jardins de Versailles</a></td>
-      <td class="docs">6</td>
-      <td class="occs">32</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="espagne.html">Espagne</a></td>
-      <td class="docs">4</td>
-      <td class="occs">4</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="grece.html">Grèce</a></td>
-      <td class="docs">4</td>
-      <td class="occs">4</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="elide.html">Elide</a></td>
-      <td class="docs">3</td>
-      <td class="occs">3</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="paris_palais_royal.html">Paris, Palais Royal</a></td>
-      <td class="docs">3</td>
-      <td class="occs">3</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="versailles_jardins_menagerie.html">Versailles, Ménagerie</a></td>
-      <td class="docs">3</td>
-      <td class="occs">6</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="versailles_jardins_petit_parc.html">Versailles, Petit Parc de Versailles</a></td>
-      <td class="docs">3</td>
-      <td class="occs">10</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="fontainebleau_chateau.html">Fontainebleau, Château de Fontainebleau</a></td>
-      <td class="docs">2</td>
-      <td class="occs">4</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="paris_arsenal.html">Paris, Arsenal</a></td>
-      <td class="docs">2</td>
-      <td class="occs">2</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="paris_louvre.html">Paris, Louvre</a></td>
-      <td class="docs">2</td>
-      <td class="occs">4</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="thrace.html">Thrace</a></td>
-      <td class="docs">2</td>
-      <td class="occs">2</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="versailles_cour.html">Versailles, Cour de Versailles</a></td>
-      <td class="docs">2</td>
-      <td class="occs">4</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="versailles_jardins_dragon.html">Versailles, Allée et fontaine du Dragon</a></td>
-      <td class="docs">2</td>
-      <td class="occs">4</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="versailles_jardins_grande_allee.html">Versailles, Grande Allée de Versailles</a></td>
-      <td class="docs">2</td>
-      <td class="occs">2</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="allemagne.html">Allemagne</a></td>
-      <td class="docs">1</td>
-      <td class="occs">1</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="europe.html">Europe</a></td>
-      <td class="docs">1</td>
-      <td class="occs">2</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="fontainebleau_chapelle.html">Fontainebleau, Chapelle de Fréminet</a></td>
-      <td class="docs">1</td>
-      <td class="occs">1</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="fontainebleau_hotel_albret.html">Fontainebleau, Hôtel d'Albret</a></td>
-      <td class="docs">1</td>
-      <td class="occs">1</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="franche_comte.html">Franche-Comté</a></td>
-      <td class="docs">1</td>
-      <td class="occs">1</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="italie.html">Italie</a></td>
-      <td class="docs">1</td>
-      <td class="occs">1</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="paris_chaillot_couvent.html">Paris, Couvent des Visitandines de Chaillot</a></td>
-      <td class="docs">1</td>
-      <td class="occs">1</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="paris_hotel_de_bourgogne.html">Paris, Hôtel de Bourgogne</a></td>
-      <td class="docs">1</td>
-      <td class="occs">1</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="paris_hotel_vendome.html">Paris, Hôtel de Vendôme</a></td>
-      <td class="docs">1</td>
-      <td class="occs">2</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="paris_palais_royal_theatre.html">Paris, Théâtre du Palais-Royal</a></td>
-      <td class="docs">1</td>
-      <td class="occs">1</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="paris_place_des_vosges.html">Paris, Place Royale</a></td>
-      <td class="docs">1</td>
-      <td class="occs">2</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="paris_place_tuileries.html">Paris, Place des Tuileries</a></td>
-      <td class="docs">1</td>
-      <td class="occs">6</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="paris_rue_honore.html">Paris, Rue Saint-Honoré</a></td>
-      <td class="docs">1</td>
-      <td class="occs">2</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="paris_rue_nicaise.html">Rue Saint-Niçaise</a></td>
-      <td class="docs">1</td>
-      <td class="occs">1</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="paris_rue_richelieu.html">Paris, Rue de Richelieu</a></td>
-      <td class="docs">1</td>
-      <td class="occs">1</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="paris_saint_germain_l_auxerrois.html">Paris, Paroisse Saint-Germain l'Auxerrois</a></td>
-      <td class="docs">1</td>
-      <td class="occs">1</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="paris_saint_louis_des_jesuites.html">Paris, Église Saint Louis des Jésuites</a></td>
-      <td class="docs">1</td>
-      <td class="occs">1</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="paris_saint_paul.html">Paris, Église Saint Paul des Champs</a></td>
-      <td class="docs">1</td>
-      <td class="occs">1</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="paris_saint_roch.html">Paris, Paroisse Saint-Roch</a></td>
-      <td class="docs">1</td>
-      <td class="occs">1</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="paris_sainte_anne.html">Paris, Rue Sainte-Anne</a></td>
-      <td class="docs">1</td>
-      <td class="occs">1</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="paris_tuileries_chateau.html">Paris, Palais des Tuileries</a></td>
-      <td class="docs">1</td>
-      <td class="occs">2</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="rue_saint_jacques.html">Paris, Rue Saint Jacques </a></td>
-      <td class="docs">1</td>
-      <td class="occs">1</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="saint_cloud_chateau.html">Saint-Cloud, Château de Saint-Cloud</a></td>
-      <td class="docs">1</td>
-      <td class="occs">1</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="saint_cloud_jardins.html">Saint-Cloud, Jardins du château de Saint-Cloud</a></td>
-      <td class="docs">1</td>
-      <td class="occs">1</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="saint_cloud_ursulines.html">Saint-Cloud, Monastère des Ursulines de Saint-Cloud</a></td>
-      <td class="docs">1</td>
-      <td class="occs">1</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="saint_germain.html">Saint-Germain-en-Laye</a></td>
-      <td class="docs">1</td>
-      <td class="occs">2</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="savoie.html">Savoie</a></td>
-      <td class="docs">1</td>
-      <td class="occs">1</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="suresne_mont_valerien.html">Suresne, Mont Valérien</a></td>
-      <td class="docs">1</td>
-      <td class="occs">1</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="versailles_canal.html">Versailles, Canal de Versailles</a></td>
-      <td class="docs">1</td>
-      <td class="occs">21</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="versailles_etang_clagny.html">Versailles, Rue des réservoirs</a></td>
-      <td class="docs">1</td>
-      <td class="occs">5</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="versailles_grand_parc.html">Versailles, Grand parc de Versailles</a></td>
-      <td class="docs">1</td>
-      <td class="occs">2</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="versailles_jardins_allee_des_prés.html">Versailles, Allée des prés, Allée de Cérès et de Flore</a></td>
-      <td class="docs">1</td>
-      <td class="occs">2</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="versailles_jardins_allee_du_roi.html">Versailles, Allée du Roi, Allée de Bacchus et de Saturne</a></td>
-      <td class="docs">1</td>
-      <td class="occs">2</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="versailles_jardins_allee_royale.html">Versailles, Allée Royale du château de Versailles, le Tapis Vert</a></td>
-      <td class="docs">1</td>
-      <td class="occs">2</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="versailles_jardins_avenues.html">Versailles, Avenues du Parc de Versailles</a></td>
-      <td class="docs">1</td>
-      <td class="occs">1</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="versailles_jardins_bassin_de_ceres.html">Versailles, La Salle de bal</a></td>
-      <td class="docs">1</td>
-      <td class="occs">1</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="versailles_jardins_bassin_de_flore.html">Versailles, Le Buffet, la Grotte</a></td>
-      <td class="docs">1</td>
-      <td class="occs">1</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="versailles_jardins_grande_terrasse.html">Versailles, Grande Terrasse de Versailles</a></td>
-      <td class="docs">1</td>
-      <td class="occs">1</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="versailles_jardins_grotte_thetis.html">Versailles, Grotte de Thetis</a></td>
-      <td class="docs">1</td>
-      <td class="occs">2</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="versailles_jardins_obelisque.html">Versailles, Bosquet de la salle du Conseil</a></td>
-      <td class="docs">1</td>
-      <td class="occs">1</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="versailles_jardins_parterre_de_latone.html">Versailles, Parterre de Latone</a></td>
-      <td class="docs">1</td>
-      <td class="occs">5</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="versailles_orangerie.html">Versailles, L'Orangerie</a></td>
-      <td class="docs">1</td>
-      <td class="occs">1</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="versailles_trianon.html">Versailles, Trianon</a></td>
-      <td class="docs">1</td>
-      <td class="occs">6</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="vincennes_chateau.html">Vincennes, Château de Vincennes</a></td>
-      <td class="docs">1</td>
-      <td class="occs">1</td>
-    </tr>
-
-    <tr>
-      <td class="label"><a href="parie_rue_antoine.html">Paris, Rue Saint-Antoine</a></td>
-      <td class="docs">0</td>
-      <td class="occs">0</td>
-    </tr>
-
-  </tbody>
-</table>
+    <main id="main">
+      
+<div class="container">
+  <table class="sortable">
+    <thead>
+      <tr>
+        <th class="label">Lieu</th>
+        <th class="docs" title="Nombre de documents">documents</th>
+        <th class="occs" title="Nombre d’occurrences">occurrences</th>
+      </tr>
+    </thead>    
+    <tbody>
+
+      <tr>
+        <td class="label"><a href="versailles.html">Versailles</a></td>
+        <td class="docs">21</td>
+        <td class="occs">32</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="versailles_chateau.html">Versailles, Château de Versailles</a></td>
+        <td class="docs">11</td>
+        <td class="occs">44</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="paris.html">Paris</a></td>
+        <td class="docs">9</td>
+        <td class="occs">17</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="versailles_jardins_bassin_apollon.html">Versailles, Bassin des Cygnes/Lac d'Alcine</a></td>
+        <td class="docs">8</td>
+        <td class="occs">18</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="fontainebleau.html">Fontainebleau</a></td>
+        <td class="docs">7</td>
+        <td class="occs">8</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="france.html">France</a></td>
+        <td class="docs">7</td>
+        <td class="occs">14</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="versailles_jardins.html">Versailles, Jardins de Versailles</a></td>
+        <td class="docs">6</td>
+        <td class="occs">32</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="espagne.html">Espagne</a></td>
+        <td class="docs">4</td>
+        <td class="occs">4</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="grece.html">Grèce</a></td>
+        <td class="docs">4</td>
+        <td class="occs">4</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="elide.html">Elide</a></td>
+        <td class="docs">3</td>
+        <td class="occs">3</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="paris_palais_royal.html">Paris, Palais Royal</a></td>
+        <td class="docs">3</td>
+        <td class="occs">3</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="versailles_jardins_menagerie.html">Versailles, Ménagerie</a></td>
+        <td class="docs">3</td>
+        <td class="occs">6</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="versailles_jardins_petit_parc.html">Versailles, Petit Parc de Versailles</a></td>
+        <td class="docs">3</td>
+        <td class="occs">10</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="fontainebleau_chateau.html">Fontainebleau, Château de Fontainebleau</a></td>
+        <td class="docs">2</td>
+        <td class="occs">4</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="paris_arsenal.html">Paris, Arsenal</a></td>
+        <td class="docs">2</td>
+        <td class="occs">2</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="paris_louvre.html">Paris, Louvre</a></td>
+        <td class="docs">2</td>
+        <td class="occs">4</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="thrace.html">Thrace</a></td>
+        <td class="docs">2</td>
+        <td class="occs">2</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="versailles_cour.html">Versailles, Cour de Versailles</a></td>
+        <td class="docs">2</td>
+        <td class="occs">4</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="versailles_jardins_dragon.html">Versailles, Allée et fontaine du Dragon</a></td>
+        <td class="docs">2</td>
+        <td class="occs">4</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="versailles_jardins_grande_allee.html">Versailles, Grande Allée de Versailles</a></td>
+        <td class="docs">2</td>
+        <td class="occs">2</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="allemagne.html">Allemagne</a></td>
+        <td class="docs">1</td>
+        <td class="occs">1</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="europe.html">Europe</a></td>
+        <td class="docs">1</td>
+        <td class="occs">2</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="fontainebleau_chapelle.html">Fontainebleau, Chapelle de Fréminet</a></td>
+        <td class="docs">1</td>
+        <td class="occs">1</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="fontainebleau_hotel_albret.html">Fontainebleau, Hôtel d'Albret</a></td>
+        <td class="docs">1</td>
+        <td class="occs">1</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="franche_comte.html">Franche-Comté</a></td>
+        <td class="docs">1</td>
+        <td class="occs">1</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="italie.html">Italie</a></td>
+        <td class="docs">1</td>
+        <td class="occs">1</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="paris_chaillot_couvent.html">Paris, Couvent des Visitandines de Chaillot</a></td>
+        <td class="docs">1</td>
+        <td class="occs">1</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="paris_hotel_de_bourgogne.html">Paris, Hôtel de Bourgogne</a></td>
+        <td class="docs">1</td>
+        <td class="occs">1</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="paris_hotel_vendome.html">Paris, Hôtel de Vendôme</a></td>
+        <td class="docs">1</td>
+        <td class="occs">2</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="paris_palais_royal_theatre.html">Paris, Théâtre du Palais-Royal</a></td>
+        <td class="docs">1</td>
+        <td class="occs">1</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="paris_place_des_vosges.html">Paris, Place Royale</a></td>
+        <td class="docs">1</td>
+        <td class="occs">2</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="paris_place_tuileries.html">Paris, Place des Tuileries</a></td>
+        <td class="docs">1</td>
+        <td class="occs">6</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="paris_rue_honore.html">Paris, Rue Saint-Honoré</a></td>
+        <td class="docs">1</td>
+        <td class="occs">2</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="paris_rue_nicaise.html">Rue Saint-Niçaise</a></td>
+        <td class="docs">1</td>
+        <td class="occs">1</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="paris_rue_richelieu.html">Paris, Rue de Richelieu</a></td>
+        <td class="docs">1</td>
+        <td class="occs">1</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="paris_saint_germain_l_auxerrois.html">Paris, Paroisse Saint-Germain l'Auxerrois</a></td>
+        <td class="docs">1</td>
+        <td class="occs">1</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="paris_saint_louis_des_jesuites.html">Paris, Église Saint Louis des Jésuites</a></td>
+        <td class="docs">1</td>
+        <td class="occs">1</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="paris_saint_paul.html">Paris, Église Saint Paul des Champs</a></td>
+        <td class="docs">1</td>
+        <td class="occs">1</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="paris_saint_roch.html">Paris, Paroisse Saint-Roch</a></td>
+        <td class="docs">1</td>
+        <td class="occs">1</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="paris_sainte_anne.html">Paris, Rue Sainte-Anne</a></td>
+        <td class="docs">1</td>
+        <td class="occs">1</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="paris_tuileries_chateau.html">Paris, Palais des Tuileries</a></td>
+        <td class="docs">1</td>
+        <td class="occs">2</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="rue_saint_jacques.html">Paris, Rue Saint Jacques </a></td>
+        <td class="docs">1</td>
+        <td class="occs">1</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="saint_cloud_chateau.html">Saint-Cloud, Château de Saint-Cloud</a></td>
+        <td class="docs">1</td>
+        <td class="occs">1</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="saint_cloud_jardins.html">Saint-Cloud, Jardins du château de Saint-Cloud</a></td>
+        <td class="docs">1</td>
+        <td class="occs">1</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="saint_cloud_ursulines.html">Saint-Cloud, Monastère des Ursulines de Saint-Cloud</a></td>
+        <td class="docs">1</td>
+        <td class="occs">1</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="saint_germain.html">Saint-Germain-en-Laye</a></td>
+        <td class="docs">1</td>
+        <td class="occs">2</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="savoie.html">Savoie</a></td>
+        <td class="docs">1</td>
+        <td class="occs">1</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="suresne_mont_valerien.html">Suresne, Mont Valérien</a></td>
+        <td class="docs">1</td>
+        <td class="occs">1</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="versailles_canal.html">Versailles, Canal de Versailles</a></td>
+        <td class="docs">1</td>
+        <td class="occs">21</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="versailles_etang_clagny.html">Versailles, Rue des réservoirs</a></td>
+        <td class="docs">1</td>
+        <td class="occs">5</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="versailles_grand_parc.html">Versailles, Grand parc de Versailles</a></td>
+        <td class="docs">1</td>
+        <td class="occs">2</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="versailles_jardins_allee_des_prés.html">Versailles, Allée des prés, Allée de Cérès et de Flore</a></td>
+        <td class="docs">1</td>
+        <td class="occs">2</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="versailles_jardins_allee_du_roi.html">Versailles, Allée du Roi, Allée de Bacchus et de Saturne</a></td>
+        <td class="docs">1</td>
+        <td class="occs">2</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="versailles_jardins_allee_royale.html">Versailles, Allée Royale du château de Versailles, le Tapis Vert</a></td>
+        <td class="docs">1</td>
+        <td class="occs">2</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="versailles_jardins_avenues.html">Versailles, Avenues du Parc de Versailles</a></td>
+        <td class="docs">1</td>
+        <td class="occs">1</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="versailles_jardins_bassin_de_ceres.html">Versailles, La Salle de bal</a></td>
+        <td class="docs">1</td>
+        <td class="occs">1</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="versailles_jardins_bassin_de_flore.html">Versailles, Le Buffet, la Grotte</a></td>
+        <td class="docs">1</td>
+        <td class="occs">1</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="versailles_jardins_grande_terrasse.html">Versailles, Grande Terrasse de Versailles</a></td>
+        <td class="docs">1</td>
+        <td class="occs">1</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="versailles_jardins_grotte_thetis.html">Versailles, Grotte de Thetis</a></td>
+        <td class="docs">1</td>
+        <td class="occs">2</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="versailles_jardins_obelisque.html">Versailles, Bosquet de la salle du Conseil</a></td>
+        <td class="docs">1</td>
+        <td class="occs">1</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="versailles_jardins_parterre_de_latone.html">Versailles, Parterre de Latone</a></td>
+        <td class="docs">1</td>
+        <td class="occs">5</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="versailles_orangerie.html">Versailles, L'Orangerie</a></td>
+        <td class="docs">1</td>
+        <td class="occs">1</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="versailles_trianon.html">Versailles, Trianon</a></td>
+        <td class="docs">1</td>
+        <td class="occs">6</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="vincennes_chateau.html">Vincennes, Château de Vincennes</a></td>
+        <td class="docs">1</td>
+        <td class="occs">1</td>
+      </tr>
+
+      <tr>
+        <td class="label"><a href="parie_rue_antoine.html">Paris, Rue Saint-Antoine</a></td>
+        <td class="docs">0</td>
+        <td class="occs">0</td>
+      </tr>
+
+    </tbody>
+  </table>
+</div>
     
-      </div>
     </main>
-    <footer id="footer" class="bg-dark text-white pt-5 pb-5">
+    <footer id="footer" class="bg-black pt-5 pb-5">
       <div class="container">
         <div class="row">
           <div class="col" id="partners">

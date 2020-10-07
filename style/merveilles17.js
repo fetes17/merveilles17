@@ -51,10 +51,10 @@ if (aside) {
           if (mark2clone) {
             let mark = mark2clone.cloneNode(true); // hack for xsl transform in browser
             mark.className = tag+" "+el.id;
-            mark.setAttribute("data-offsetTop", terms[z].offsetTop);
+            let top = Merveilles17.top(terms[z]);
+            mark.setAttribute("data-offsetTop", top);
             mark.addEventListener("click", Merveilles17.mark);
-            let top = (Math.round(1000*(terms[z].offsetTop) / height) / 10)+'%';
-            mark.style.top = top;
+            mark.style.top = (Math.round(1000*(top) / height) / 10)+'%';
             bookmarks.appendChild(mark);
           }
         }
@@ -129,5 +129,15 @@ class Merveilles17 {
     let scroll = this.getAttribute("data-offsetTop") - 20;
     main.scrollTo(0, scroll);
   }
+  static top(node)
+  {
+    var top = 0;
+    do {
+      top += node.offsetTop;
+      node = node.offsetParent;
+    } while(node && node.tagName.toLowerCase() != 'body');
+    return top;
+  }
+
 }
 

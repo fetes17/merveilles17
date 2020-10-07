@@ -299,7 +299,7 @@ CREATE INDEX date_document_document ON date_document(document);
     Build::rmdir(self::$home."site/document/");
     Build::mkdir(self::$home."site/document/");
     $template = str_replace("%relpath%", "../", self::$template);
-    $index = self::uldocs(null, null, "");
+    $index = '<div class="container">'.self::uldocs(null, null, "").'</div>';
     file_put_contents(self::$home."site/document/index.html", str_replace("%main%", $index, $template));
     
     $qid = self::$pdo->prepare("SELECT id FROM document WHERE code = ?");
@@ -379,15 +379,17 @@ CREATE INDEX date_document_document ON date_document(document);
     Build::rmdir(self::$home."site/technique/");
     Build::mkdir(self::$home."site/technique/");
     $template = str_replace("%relpath%", "../", self::$template);
-    $index = '<table class="sortable">
-  <thead>
-    <tr>
-      <th class="label">Technique</th>
-      <th class="docs" title="Nombre de documents">documents</th>
-      <th class="occs" title="Nombre d’occurrences">occurrences</th>
-    </tr>
-  </thead>    
-  <tbody>
+    $index = '
+<div class="container">
+  <table class="sortable">
+    <thead>
+      <tr>
+        <th class="label">Technique</th>
+        <th class="docs" title="Nombre de documents">documents</th>
+        <th class="occs" title="Nombre d’occurrences">occurrences</th>
+      </tr>
+    </thead>    
+    <tbody>
 ';
     // boucler sur tous les termes
     $stmt = self::$pdo->prepare("SELECT * FROM technique ORDER BY docs DESC, code ");
@@ -401,10 +403,10 @@ CREATE INDEX date_document_document ON date_document(document);
       <td class="occs">'.$row['occs'].'</td>
     </tr>
 ';
-      $page = '';
-      $page .= '<div class="row align-items-start">'."\n";
-      $page .= '  <div class="col-9">'."\n";
-      $page .= '    <h1>'.$row['label'].'</h1>'."\n";
+      $page = '<div class="container">';
+      $page .= '  <div class="row align-items-start">'."\n";
+      $page .= '    <div class="col-9">'."\n";
+      $page .= '      <h1>'.$row['label'].'</h1>'."\n";
       $page .= '      <section>'."\n";
       $page .= '        <h2>Documents liés</h2>'."\n";
       $page .= self::uldocs("technique", $row['id']);
@@ -413,13 +415,15 @@ CREATE INDEX date_document_document ON date_document(document);
       $page .= '    </div>'."\n";
       $page .= '    <div class="col-3">'."\n";
       $page .= '    </div>'."\n";
+      $page .= '  </div>'."\n";
       $page .= '</div>'."\n";
       file_put_contents(self::$home."site/".$href, str_replace("%main%", $page, $template));
     }
     $stmt = null;    
     $index .= '
-  </tbody>
-</table>
+    </tbody>
+  </table>
+</div>
     ';
     file_put_contents(self::$home."site/technique/index.html", str_replace("%main%", $index, $template));
 
@@ -433,17 +437,19 @@ CREATE INDEX date_document_document ON date_document(document);
     Build::rmdir(self::$home."site/personne/");
     Build::mkdir(self::$home."site/personne/");
     $template = str_replace("%relpath%", "../", self::$template);
-    $index = '<table class="sortable">
-  <thead>
-    <tr>
-      <th class="label">Personne</th>
-      <th class="birth" title="Date de naissance">Naissance</th>
-      <th class="death" title="Date de mort">Mort</th>
-      <th class="docs" title="Nombre de documents">documents</th>
-      <th class="occs" title="Nombre d’occurrences">occurrences</th>
-    </tr>
-  </thead>    
-  <tbody>
+    $index = '
+<div class="container">
+  <table class="sortable">
+    <thead>
+      <tr>
+        <th class="label">Personne</th>
+        <th class="birth" title="Date de naissance">Naissance</th>
+        <th class="death" title="Date de mort">Mort</th>
+        <th class="docs" title="Nombre de documents">documents</th>
+        <th class="occs" title="Nombre d’occurrences">occurrences</th>
+      </tr>
+    </thead>    
+    <tbody>
 ';
     // boucler sur tous les termes
     $stmt = self::$pdo->prepare("SELECT * FROM personne ORDER BY docs DESC, code ");
@@ -452,17 +458,17 @@ CREATE INDEX date_document_document ON date_document(document);
       $href = "personne/".$row['code'].".html";
       if (!$row['label']) $row['label'] = '[<i>'.$row['code'].'</i>]';
       $index .= '
-    <tr>
-      <td class="label"><a href="'.$row['code'].'.html">'.$row['label'].'</a></td>
-      <td class="birth">'.$row['birth'].'</td>
-      <td class="death">'.$row['death'].'</td>
-      <td class="docs">'.$row['docs'].'</td>
-      <td class="occs">'.$row['occs'].'</td>
-    </tr>
+      <tr>
+        <td class="label"><a href="'.$row['code'].'.html">'.$row['label'].'</a></td>
+        <td class="birth">'.$row['birth'].'</td>
+        <td class="death">'.$row['death'].'</td>
+        <td class="docs">'.$row['docs'].'</td>
+        <td class="occs">'.$row['occs'].'</td>
+      </tr>
 ';
-      $page = '';
-      $page .= '<div class="row align-items-start">'."\n";
-      $page .= '  <div class="col-9">'."\n";
+      $page = '<div class="container">';
+      $page .= '  <div class="row align-items-start">'."\n";
+      $page .= '    <div class="col-9">'."\n";
       $dates = '';
       if ($row['birth'] && $row['death']) $dates = ' ('.$row['birth'].' – '.$row['death'].')';
       else if ($row['birth']) $dates = ' ('.$row['birth'].' – ?)';
@@ -485,13 +491,15 @@ CREATE INDEX date_document_document ON date_document(document);
       $page .= '    </div>'."\n";
       $page .= '    <div class="col-3">'."\n";
       $page .= '    </div>'."\n";
+      $page .= '  </div>'."\n";
       $page .= '</div>'."\n";
       file_put_contents(self::$home."site/".$href, str_replace("%main%", $page, $template));
     }
     $stmt = null;    
     $index .= '
-  </tbody>
-</table>
+    </tbody>
+  </table>
+</div>
     ';
     file_put_contents(self::$home."site/personne/index.html", str_replace("%main%", $index, $template));
 
@@ -506,15 +514,17 @@ CREATE INDEX date_document_document ON date_document(document);
     Build::rmdir(self::$home."site/lieu/");
     Build::mkdir(self::$home."site/lieu/");
     $template = str_replace("%relpath%", "../", self::$template);
-    $index = '<table class="sortable">
-  <thead>
-    <tr>
-      <th class="label">Lieu</th>
-      <th class="docs" title="Nombre de documents">documents</th>
-      <th class="occs" title="Nombre d’occurrences">occurrences</th>
-    </tr>
-  </thead>    
-  <tbody>
+    $index = '
+<div class="container">
+  <table class="sortable">
+    <thead>
+      <tr>
+        <th class="label">Lieu</th>
+        <th class="docs" title="Nombre de documents">documents</th>
+        <th class="occs" title="Nombre d’occurrences">occurrences</th>
+      </tr>
+    </thead>    
+    <tbody>
 ';
     // boucler sur tous les termes
     $stmt = self::$pdo->prepare("SELECT * FROM lieu ORDER BY docs DESC, code ");
@@ -522,11 +532,11 @@ CREATE INDEX date_document_document ON date_document(document);
     
     while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
       $index .= '
-    <tr>
-      <td class="label"><a href="'.$row['code'].'.html">'.$row['label'].'</a></td>
-      <td class="docs">'.$row['docs'].'</td>
-      <td class="occs">'.$row['occs'].'</td>
-    </tr>
+      <tr>
+        <td class="label"><a href="'.$row['code'].'.html">'.$row['label'].'</a></td>
+        <td class="docs">'.$row['docs'].'</td>
+        <td class="occs">'.$row['occs'].'</td>
+      </tr>
 ';
       $page = '';
       $page .= '<div class="row align-items-start">'."\n";
@@ -553,8 +563,9 @@ CREATE INDEX date_document_document ON date_document(document);
     $stmt = null;
     
     $index .= '
-  </tbody>
-</table>
+    </tbody>
+  </table>
+</div>
     ';
     file_put_contents(self::$home."site/lieu/index.html", str_replace("%main%", $index, $template));
     
