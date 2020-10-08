@@ -591,7 +591,7 @@ CREATE INDEX date_document_document ON date_document(document);
     while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
       if ($type != $row['type']) {
         if($type) $html .= "</ul></div>\n";
-        $html .= '<div class="doctype">'."\n";
+        $html .= '<div class="doctype" id="'.$row['type'].'">'."\n";
         if (isset(self::$doctype[$row['type']])) $h4 = self::$doctype[$row['type']];
         else $h4 = $row['type'];
         $html .= '<h4>'.$h4.'</h4>'."\n";
@@ -639,7 +639,13 @@ CREATE INDEX date_document_document ON date_document(document);
     $template = str_replace("%relpath%", "", self::$template);
     // copy static page
     foreach (glob(self::$home."build/pages/*.html") as $srcfile) {
-      file_put_contents(self::$home."site/".basename($srcfile), str_replace("%main%", file_get_contents($srcfile), $template));
+      $html = file_get_contents($srcfile);
+      $basename = basename($srcfile);
+      if ($basename == 'index.html') {
+        $chrono = Build::transform(self::$home."index/chrono.xml", self::$home."build/xsl/chrono.xsl");
+        $html = str_replace("%chrono%", $chrono, $html);
+      }
+      file_put_contents(self::$home."site/".$basename, str_replace("%main%", $html, $template));
     }
     // recreate sqlite base on each call
     self::$pdo = Build::sqlcreate(self::$sqlfile, self::$create);

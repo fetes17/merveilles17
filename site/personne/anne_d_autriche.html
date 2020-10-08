@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>Merveilles17</title>
-        <link href="https://fonts.googleapis.com/css2?Playfair+Display:ital,wght@0,400;0,600;1,400;1,600&amp;family=Titillium+Web:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&amp;display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?Playfair+Display:ital,wght@0,400;0,600;1,400;1,600&amp;family=Titillium+Web:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,600&amp;display=swap" rel="stylesheet"/>
     <link rel="stylesheet" type="text/css" href="../theme/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="../theme/teinte.css" />
     <link rel="stylesheet" type="text/css" href="../theme/sortable.css" />
@@ -12,18 +12,18 @@
   <body>
     <header id="header" class="bg-black pb-3 pt-3">
       <div class="container">
-        <nav>
-          <a href="../" id="logo">
-            <img src="../images/logo_merveilles17.png" alt="Merveilles 17"/>
+        <nav class="navbar">
+          <a href="../" class="logo">
+            <img class="logo" src="../images/logo_merveilles17.png" alt="Merveilles 17"/>
           </a>
-          <a class="nav-link" href="../document/index.html">Bibliothèque</a>
-          <a class="nav-link" href="../personne/index.html">Personnes</a>
-          <a class="nav-link" href="../technique/index.html">Techniques</a>
-          <a class="nav-link" href="../lieu/index.html">Lieux</a>
-          <a class="nav-link" href="../chrono.html">Chronologie</a>
-          <a class="nav-link" href="https://merveilles17.hypotheses.org/">Carnet</a>
+          <a href="../document/index.html">Bibliothèque</a>
+          <a href="../personne/index.html">Personnes</a>
+          <a href="../technique/index.html">Techniques</a>
+          <a href="../lieu/index.html">Lieux</a>
+          <a href="../chrono.html">Chronologie</a>
+          <a href="https://merveilles17.hypotheses.org/">Carnet</a>
         </nav>
-        <p class="moto">Techniques, esthétiques et politiques des divertissements de cour au XVII<sup>e</sup> siècle</p>
+        <div class="moto">Techniques, esthétiques et politiques des divertissements de cour au XVII<sup>e</sup> siècle</div>
         <!--
         <form>
           <input name="q" />
@@ -43,13 +43,13 @@
 </ul>
       <section>
         <h2>Documents liés</h2>
-<div class="doctype">
+<div class="doctype" id="arc">
 <h4>Archives</h4>
 <ul>
 <li><a href="../document/merveilles17_arc_acflagrange_002.html">Varlet Charles, sieur de La Grange, <cite class="title">Registre de La Grange (1658-1685) : précédé d’une notice biographique / publié par les soins de la Comédie-Française...[par Edouard Thierry]</cite>, Paris, J. Claye, 1876.</a></li>
 <li><a href="../document/merveilles17_arc_bnfmsfr6143.html">Paul Fréart de Chantelou, Mémoire du traitement fait par la Maison du Roi à Monsieur le Cardinal Chigi, 1664, <a href="https://journals-openedition-org.distant.bu.univ-rennes2.fr/mefrim/629">https://journals-openedition-org.distant.bu.univ-rennes2.fr/mefrim/629</a>.</a></li>
 </ul></div>
-<div class="doctype">
+<div class="doctype" id="i">
 <h4>Imprimés</h4>
 <ul>
 <li><a href="../document/merveilles17_i_ctb-perrault1670.html">Charles Perrault, François Chauveau et Henri Gissey, Courses de testes et de bagues faites par le roy et par les princes et seigneurs en l’<span class="date" datetime="1662">année 1662</span>, Paris, <span class="date" datetime="1670">1670</span>.</a></li>
@@ -58,13 +58,13 @@
 <li><a href="../document/merveilles17_i_pie1673.html">Benserade Isaac de,Poquelin Jean-Baptiste, dit Molière, Chauveau François et Silvestre, Israël, <cite class="title">Les plaisirs de l’isle enchantée. Course de bague; collation ornée de machines; comedie, meslée de danse et de musique; ballet du palais d’Alcine; feu d’artifice; et autres festes galantes et magnifiques faites par le Roy a Versailles le VII. May M.DC.LXIV. et continuées plusieurs autres jours</cite>, Paris, imprimerie royale, 1673.</a></li>
 <li><a href="../document/merveilles17_i_pieguignard1668_001.html">d’Aligre Michel, <cite class="title">Les Plaisirs de l’isle enchantée, ou la Princesse d’Élide, comédie de M. Molière</cite>, J. Guignard, Paris, 1668.</a></li>
 </ul></div>
-<div class="doctype">
+<div class="doctype" id="ms">
 <h4>Manuscrits</h4>
 <ul>
 <li><a href="../document/merveilles17_ms_pie-bizincourt.html">De Bizincourt, <cite class="title">Les plaisirs de l’isle enchantée, ordonnéz par Louis XIV, roy de France et de Navarre, à Versailles, le 6 may 1664</cite></a></li>
 <li><a href="../document/merveilles17_ms_piephilidor_001.html">Philidor André, <cite class="title">Les Plaisirs De L'Isle Enchantée Festes Galantes, et Magnifiques, faites par Le Roy à Versailles, le 7e May 1664. Copié par Philidor L'aisné</cite>, 1690.</a></li>
 </ul></div>
-<div class="doctype">
+<div class="doctype" id="p">
 <h4>Périodiques</h4>
 <ul>
 <li><a href="../document/merveilles17_p_gazette16640216.html">Renaudot Théophraste, <cite class="title">Recueil des gazettes nouvelles, ordinaires et extraordinaires. Relations et récits des choses avenues tant en ce royaume qu’ailleurs, pendant l’année mil six cent soixante-quatre.</cite>, Paris, Bureau d’adresse, 1664.</a></li>
@@ -84,28 +84,33 @@
 </div>
 
     </main>
-    <footer id="footer" class="bg-black pt-5 pb-5">
+    <footer id="footer" class="bg-black">
       <div class="container">
         <div class="row">
-          <div class="col" id="partners">
-            <h4>Partenaires</h4>
+          <div class="col-3 logo">
+            <a href="../" class="logo">
+              <img class="logo" src="../images/logo_merveilles17.png" alt="Merveilles 17"/>
+            </a>
+          </div>
+          <div class="col-6 partenaires">
+            <h2>Partenaires</h2>
             <a href="https://www.meshs.fr/page/accueil">
-              <img class="logo" src="../images/logo_meshs.png" alt="MESHS Maison Européenne des Sciences de l’Homme et la Société (Lille)" />
-              MESHS
+              <img src="../images/logo_meshs.png" alt="MESHS Maison Européenne des Sciences de l’Homme et la Société (Lille)" />
             </a>
             <a href="https://www.hautsdefrance.fr/">
-              <img class="logo" src="../images/logo_hdf.png" alt="Région Hauts-de-France" />
-              Région Hautsde-France
+              <img src="../images/logo_hdf.png" alt="Région Hauts-de-France" />
             </a>
           </div>
-          <div class="col">
-            <h4>Contact</h4>
-          </div>
-          <div class="col">
-            <h4>License</h4>
-            <p>Sauf indication contraire, les contenus de ce site sont publiés sous une license <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative commons CC-BY-SA, 4.0</a>.</p>
+          <div class="col-3 contact">
+            <h2>Contact</h2>
+            <div>
+            <b>Marine Roussillon</b>
+            <br/>MCF Littérature française
+            <br/>Université d’Artois
+            </div>
           </div>
         </div>
+        <div class="license">Sauf indication contraire, les contenus de ce site sont publiés sous une license <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative commons CC-BY-SA, 4.0</a>.</div>
       </div>
     </footer>
     <script src="../theme/jquery.min.js"></script>
