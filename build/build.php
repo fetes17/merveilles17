@@ -649,7 +649,7 @@ CREATE INDEX date_document_document ON date_document(document);
       $html = file_get_contents($srcfile);
       $basename = basename($srcfile);
       if ($basename == 'index.html') {
-        $chrono = Build::transform(self::$home."index/chrono.xml", self::$home."build/xsl/chrono.xsl");
+        $chrono = Build::transform(self::$home."index/chronologie.xml", self::$home."build/xsl/chrono.xsl");
         $html = str_replace("%chrono%", $chrono, $html);
       }
       file_put_contents(self::$home."site/".$basename, str_replace("%main%", $html, $template));

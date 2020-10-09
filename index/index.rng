@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <grammar xmlns="http://relaxng.org/ns/structure/1.0" ns="http://www.tei-c.org/ns/1.0" xml:lang="fr" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <start>
-    <ref name="listEvent"/>
+    <choice>
+      <ref name="listEvent"/>
+      <ref name="list.term"/>
+    </choice>
   </start>
   <define name="listEvent">
     <element name="listEvent">
@@ -34,6 +37,36 @@
       <attribute name="target"/>
     </element>
   </define>
+  <define name="xml.lang">
+    <attribute name="xml:lang">
+      <a:documentation>Code normalisé de langue</a:documentation>
+      <choice>
+        <value>fr</value>
+      </choice>
+    </attribute>
+  </define>
+  <define name="list.term">
+    <element name="list">
+      <ref name="xml.lang"/>
+      <attribute name="type">
+        <value>term</value>
+      </attribute>
+      <oneOrMore>
+        <ref name="item.term"/>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="item.term">
+    <element name="item">
+      <ref name="xml.id"/>
+      <ref name="term"/>
+    </element>
+  </define>
+  <define name="term">
+    <element name="term">
+      <text/>
+    </element>
+  </define>
   <define name="xml.id">
     <attribute name="xml:id">
       <a:documentation>Identifiant, au moins unique pour le document</a:documentation>
@@ -45,12 +78,5 @@
       <param name="pattern">([0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?)?</param>
     </data>
   </define>
-  <define name="xml.lang">
-    <attribute name="xml:lang">
-      <a:documentation>Code normalisé de langue</a:documentation>
-      <choice>
-        <value>fr</value>
-      </choice>
-    </attribute>
-  </define>
+
 </grammar>

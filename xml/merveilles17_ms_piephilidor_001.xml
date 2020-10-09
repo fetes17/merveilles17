@@ -70,10 +70,12 @@
         <p>Il estoit suiuy de <name>trois pages</name> : celuy du <persName key="louisxiv">Roy</persName>, <persName key="artagnan" role="acteur">Mr. d’Artagnan</persName><!--ici d'Artagnan est encodé comme un persName, dans pie1673 il est encodé comme un name-->, marchoit à la teste de deux autres, <seg ana="description">fort richement habillé de couleur de feu</seg>, liurée de <persName key="louisxiv">sa Majesté</persName>, portant sa lance, et son Escu, dans le quel brilloit vn Soleil de pierreries, auec ces mots.</p>
         <p><foreign>Nec cesso, nec Erro</foreign>.</p>
         <p>Faisant allusion à l’attachement de <persName key="louisxiv">sa Majesté</persName> aux affaires de son Estat, et la maniere auec la quelle il agit. Ce qui estoit encore represente par ces quatre Vers du <persName key="perigny" role="auteur">Président de Perigny</persName>, Autheur de la mesme Devise.</p>
-        <l>Ce n’est pas sans raison que la terre et les Cieux,</l>
-        <l>Ont tant d’étonnement pour vn Objet si rare ;</l>
-        <l>Qui dans son cours penible, autant que glorieux,</l>
-        <l>Iamais ne se repose, et Iamais ne s’Egare.</l>
+        <lg ana="vers">
+          <l>Ce n’est pas sans raison que la terre et les Cieux,</l>
+          <l>Ont tant d’étonnement pour vn Objet si rare ;</l>
+          <l>Qui dans son cours penible, autant que glorieux,</l>
+          <l>Iamais ne se repose, et Iamais ne s’Egare.</l>
+        </lg>
         <p>Les <name>deux autres Pages</name> estoient aux <persName key="saint_aignan">Ducs de St. Aignan</persName>, et <persName key="anne_de_noailles">de Noailles</persName>, le Premier, Mareschal de Camp, et l’autre, Iuge des Courses. Celuy du <persName key="saint_aignan">Duc de</persName></p>
         <pb n="6" xml:id="p6"/>
         <p><persName key="saint_aignan">St. Aignant</persName> portoit l’Escu de sa Deuise, et <seg ana="description">estoit habillé de sa liurée de toile d’argent enrichie d’or, auec des plumes Incarnates, et noires, et les rubans de mesme</seg>. Sa Devise estoit vn Timbre d’Orloge, auec ces Mots.</p>
@@ -84,105 +86,142 @@
         <p><persName key="trompettes" role="musicien">Quatre Trompettes</persName>, et <persName key="timbales" role="musicien">deux Tymballiers</persName> marchoient apres <name>ces Pages</name>, <seg ana="description">habillez de satin couleur de feu, et argent, leurs plumes de la mesme liurée, et les caparaçons de leurs chevaux couuerts d’vne pareille broderie, auec des Soleils d’or fort éclattans aux banderoles des Trompettes, et aux couuertures des Timbales</seg>.</p>
         <p>Le <persName key="saint_aignan" role="acteur">Duc de St. Aignan</persName> Mareschal de Camp marchoit apres eux, <tech type="costume">armé à la Grecque</tech>, <seg ana="description">d’vne cuirasse de toile d’argent couuertes de petites écailles d’or, aussibien que son bas de saye, et son casque estoit orné d’vn dragon, et d’vn grand nombre de plumes blances, meslées d’Incarnat, et de noir</seg>. Il montoit vn cheval blanc, bardé de mesme, et representoit <name key="guidon_le_sauvage" corresp="saint_aignan">Guidon le Sauuage</name></p>
         <p>Pour le <persName key="saint_aignan" role="destinataire">Duc de St. Aignant</persName>, representant <name key="guidon_le_sauvage" corresp="saint_aignan">Guidon Le Sauuage</name>.</p>
-        <p>Madrigal</p>
-        <l>Les combats que I’ay faits en l’Isle dangereuse</l>
-        <l>Quand de tant de Guerriers je demeuray Vainqueur,</l>
-        <l>Suiuis d’vne épreuue amoureuse</l>
-        <l>Ont signalez ma force aussi bien que mon cœur.</l>
-        <l>La Vigueur qui fait mon estime</l>
-        <l>Soit qu’elle embrasse vn party legitime,</l>
-        <l>Ou qu’elle vienne à s’échapper,</l>
-        <l>Fait dire pour ma gloire aux deux bouts de la terre,</l>
-        <l>Qu’on n’en vid point en toute guerre</l>
-        <l>Ny plus souvent ny mieux frapper.</l>
-        <p>Pour Le Mesme</p>
-        <l>Seul contre dix Guerriers, seul contre dix Pucelles</l>
-        <l>C’est auoir sur les bras deux Etranges querelles.</l>
-        <l>Qui sort à son honneur de ce double combat</l>
-        <l>Doit estre ce me semble vn terrible Soldat.</l>
+        <lg ana="madrigal">
+          <label>Madrigal</label>
+          <l>Les combats que I’ay faits en l’Isle dangereuse</l>
+          <l>Quand de tant de Guerriers je demeuray Vainqueur,</l>
+          <l>Suiuis d’vne épreuue amoureuse</l>
+          <l>Ont signalez ma force aussi bien que mon cœur.</l>
+          <l>La Vigueur qui fait mon estime</l>
+          <l>Soit qu’elle embrasse vn party legitime,</l>
+          <l>Ou qu’elle vienne à s’échapper,</l>
+          <l>Fait dire pour ma gloire aux deux bouts de la terre,</l>
+          <l>Qu’on n’en vid point en toute guerre</l>
+          <l>Ny plus souvent ny mieux frapper.</l>
+          <label>Pour Le Mesme</label>
+          <l>Seul contre dix Guerriers, seul contre dix Pucelles</l>
+          <l>C’est auoir sur les bras deux Etranges querelles.</l>
+          <l>Qui sort à son honneur de ce double combat</l>
+          <l>Doit estre ce me semble vn terrible Soldat.</l>
+        </lg>
         <p><persName key="trompettes" role="musicien">Huict Trompettes</persName> et <persName key="timbales" role="musicien">2 Tymbaliers</persName> vestus comme les autres, marchoient apres le Mareschal de Camp.</p>
         <pb n="7" xml:id="p7"/>
         <p>Le <persName key="louisxiv" role="acteur">Roy</persName> representant <name key="roger" corresp="louisxiv">Roger</name> les suiuoit, montant vn des plus beaux cheuaux du monde, dont <seg ana="description">le harnois couleur de feu, éclattoit d’or, d’argent et de pierreries</seg>. <persName key="louisxiv" role="acteur">Sa Majesté</persName> estoit <tech type="costume">armée à la façon des Grecs</tech>, comme tous ceux de sa Quadrille, et <seg ana="description">portoit vne cuirasse de lames d’argent, couuerte d’vne riche broderie d’or, et de diamans</seg>. Son port, et toute son action estoient dignes de son rang. <seg ana="description">Son casque tout couuert de plumes couleur de feu</seg> auoit vn grace Incomparable, et Iamais vn air plus libre, ny plus guerrier n’a mis vn mortel au dessus des autres Hommes.</p>
-        <p>Sonnet</p>
-        <l>Pour le <persName key="louisxiv" role="destinataire">Roy</persName> representant <name key="roger" corresp="louisxiv">Roger</name></l>
-        <l>Quelle taille ! quel port ! a ce fier conquerant !</l>
-        <l>Sa personne ébloüit quiconque l’examine ;</l>
-        <l>Et quoyque par son poste Il soit déjà si grand</l>
-        <l>Quelque-chose de plus éclatte dans sa mine</l>
-        <l>Son front de ses destins est l’auguste garant </l>
-        <l>Par de là ses ayeux sa Vertu l’achemine.</l>
-        <l>Il fait qu’on les oublie ; et de l’air qu’il s’y prend,</l>
-        <l>Bien loin derriere luy laisse son Origine.</l>
-        <l>De ce cœur genereux, C’est l’ordinaire employ</l>
-        <l>D’agir plus Volontiers pour autruy que pour soy </l>
-        <l>Là principalement sa force est occupée</l>
-        <l>Il efface l’éclat des Heros enciens ;</l>
-        <l>N’a que l’honneur en veuë, et ne tire l’Espée</l>
-        <l>Que pour des Interests qui ne sont pas les siens.</l>
+        <lg ana="sonnet">
+          <head>Sonnet</head>
+          <label>Pour le <persName key="louisxiv" role="destinataire">Roy</persName> representant <name key="roger" corresp="louisxiv">Roger</name></label>
+          <lg>
+            <l>Quelle taille ! quel port ! a ce fier conquerant !</l>
+            <l>Sa personne ébloüit quiconque l’examine ;</l>
+            <l>Et quoyque par son poste Il soit déjà si grand</l>
+            <l>Quelque-chose de plus éclatte dans sa mine</l>
+          </lg>
+          <lg>
+            <l>Son front de ses destins est l’auguste garant </l>
+            <l>Par de là ses ayeux sa Vertu l’achemine.</l>
+            <l>Il fait qu’on les oublie ; et de l’air qu’il s’y prend,</l>
+            <l>Bien loin derriere luy laisse son Origine.</l>
+          </lg>
+          <lg>
+            <l>De ce cœur genereux, C’est l’ordinaire employ</l>
+            <l>D’agir plus Volontiers pour autruy que pour soy </l>
+            <l>Là principalement sa force est occupée</l>
+          </lg>
+          <lg>
+            <l>Il efface l’éclat des Heros enciens ;</l>
+            <l>N’a que l’honneur en veuë, et ne tire l’Espée</l>
+            <l>Que pour des Interests qui ne sont pas les siens.</l>
+          </lg>
+        </lg>
         <p>Le <persName key="anne_de_noailles" role="acteur">Duc de Noailles</persName> Iuge du Camp sous le nom d’<name key="oger_le_danois" corresp="anne_de_noailles">Ogier Le Danois</name>, marchoit apres le <persName key="louisxiv">Roy</persName>, <seg ana="description">portant la couleur de feu, et le noir, sous vne riche broderie d’argent, et ses plumes</seg>, aussibien que tout le reste de son Equipage, estoient de cette mesme liurée.</p>
-        <l>Le <persName key="anne_de_noailles" role="acteur">Duc de Noailles</persName>
-          <name key="oger_le_danois" corresp="anne_de_noailles">Oger le Danois</name></l>
-        <l>Ce Paladin s’applique à cette seule affaire</l>
-        <l>De seruir dignement le plus puissant des Rois</l>
-        <l>Comme pour bien Iuger, il faut sçauoir bien faire </l>
-        <l>Ie doute que personne appelle de sa Voix</l>
+        <lg ana="vers">
+          <label type="speaker">Le <persName key="anne_de_noailles" role="acteur">Duc de Noailles</persName>
+          <name key="oger_le_danois" corresp="anne_de_noailles">Oger le Danois</name></label>
+          <l>Ce Paladin s’applique à cette seule affaire</l>
+          <l>De seruir dignement le plus puissant des Rois</l>
+          <l>Comme pour bien Iuger, il faut sçauoir bien faire </l>
+          <l>Ie doute que personne appelle de sa Voix</l>
+        </lg>
         <pb n="8" xml:id="p8"/>
         <p>Le <persName key="henri_ii_de_guise" role="acteur">Duc de Guise</persName>, et le <persName key="henri_de_lorraine" role="acteur">Comte d’Armagnac</persName> marchoient ensemble apres luy, le premier portoit le nom d’<name key="aquilant" corresp="henri_ii_de_guise">Aquilan le Noir</name>, <seg ana="description">auoit vn habit de cette couleur en broderie d’or, et de geaix. ses plumes, son cheval, et sa lance assortissoient à sa liurée</seg> ; Et l’autre represetant <name key="griffon_le_blanc" corresp="henri_de_lorraine">Griffon le Blanc</name>
           <seg ana="description">portoit sur vn habit de toile d’argent plusieurs rubis, et montoit vn cheval blanc, bardé de la mesme couleur</seg>.</p>
-        <p>Le <persName key="henri_ii_de_guise" role="acteur">Duc de Guise</persName>
-          <name key="aquilant" corresp="henri_ii_de_guise">Aquilant le Noir</name>.</p>
-        <l>La nuict a ses beautez de mesme que le Iour</l>
-        <l>Le Noir est ma couleur, Ie l’ay toujours aimée </l>
-        <l>Et st l’obscurité conuient à mon Amour</l>
-        <l>Elle ne s’étend pas Iusqu’à ma Renommée.</l>
-        <p>Le <persName key="henri_de_lorraine" role="acteur">Comte d’Armagnac</persName>
-          <name key="griffon_le_blanc" corresp="henri_de_lorraine">Griffon le Blanc</name></p>
-        <l>Voyez quelle candeur en moy le ciel a mis </l>
-        <l>Aussi nulle beauté tíe s’en verra trompée </l>
-        <l>Et quand il sera temps d’aller aux ennemis</l>
-        <l>C'est où je me feray tout blanc de mon épée</l>
+        <lg ana="vers">
+          <label type="speaker">Le <persName key="henri_ii_de_guise" role="acteur">Duc de Guise</persName>
+            <name key="aquilant" corresp="henri_ii_de_guise">Aquilant le Noir</name>.</label>
+          <l>La nuict a ses beautez de mesme que le Iour</l>
+          <l>Le Noir est ma couleur, Ie l’ay toujours aimée </l>
+          <l>Et st l’obscurité conuient à mon Amour</l>
+          <l>Elle ne s’étend pas Iusqu’à ma Renommée.</l>
+        </lg>
+        <lg ana="vers">
+          <label type="speaker">Le <persName key="henri_de_lorraine" role="acteur">Comte d’Armagnac</persName>
+            <name key="griffon_le_blanc" corresp="henri_de_lorraine">Griffon le Blanc</name></label>
+          <l>Voyez quelle candeur en moy le ciel a mis </l>
+          <l>Aussi nulle beauté tíe s’en verra trompée </l>
+          <l>Et quand il sera temps d’aller aux ennemis</l>
+          <l>C'est où je me feray tout blanc de mon épée</l>
+        </lg>
         <p>Les <persName key="jb_gaston_foix_candale" role="acteur">Ducs de Foix</persName>, et <persName key="armand_du_cambout" role="acteur">de Coaslin</persName> qui paroissoient en suitte <seg ana="description">estoient vetus, l’vn d’Incarnat or, et argent, et l’autre de Vert blanc, et argent</seg>, Toute leur liurée et leurs cheuaux estant dignes du reste de leur Equipage.</p>
-        <p>Pour le <persName key="jb_gaston_foix_candale" role="acteur">Duc de Foix</persName>. <name key="renaud" corresp="jb_gaston_foix_candale">Renaut</name></p>
-        <l>Il porte vn nom celebre, il est Ieune, il est sage.</l>
-        <l>A vous dire le vray, c’est pour aller bien haut </l>
-        <l>Et c’est vn grand bonheur, que d’auoir à son age</l>
-        <l>La chaleur necessaire, et le flegme qu’il faut.</l>
-        <p>Le <persName key="armand_du_cambout" role="acteur">Duc de Coaslin</persName>, <name key="dudon" corresp="armand_du_cambout">Dudon</name></p>
-        <l>Trop auant dans la Gloire on ne peut s’engager </l>
-        <l>I'auray vaincu sept Rois, et par mon grand courage,</l>
-        <l>Les verray tous soumis au pouuoir de <name key="roger" corresp="louisxiv">Roger</name>,</l>
-        <l>Que je ne seray pas content de mon Ouurage.</l>
+        <lg ana="vers">
+          <label type="speaker">Pour le <persName key="jb_gaston_foix_candale" role="acteur">Duc de Foix</persName>. <name key="renaud" corresp="jb_gaston_foix_candale">Renaut</name></label>
+          <l>Il porte vn nom celebre, il est Ieune, il est sage.</l>
+          <l>A vous dire le vray, c’est pour aller bien haut </l>
+          <l>Et c’est vn grand bonheur, que d’auoir à son age</l>
+          <l>La chaleur necessaire, et le flegme qu’il faut.</l>
+        </lg>
+        <lg ana="vers">
+          <label ana="vers">Le <persName key="armand_du_cambout" role="acteur">Duc de Coaslin</persName>, <name key="dudon" corresp="armand_du_cambout">Dudon</name></label>
+          <l>Trop auant dans la Gloire on ne peut s’engager </l>
+          <l>I'auray vaincu sept Rois, et par mon grand courage,</l>
+          <l>Les verray tous soumis au pouuoir de <name key="roger" corresp="louisxiv">Roger</name>,</l>
+          <l>Que je ne seray pas content de mon Ouurage.</l>
+        </lg>
         <p>Apres eux marchoient le <persName key="henri_de_daillon" role="acteur">Comte du Lude</persName>, et le <persName key="francois_vii_de_la_rochefoucauld" role="acteur">Prince de  Marsillac</persName>, le premier <seg ana="description">vetu d’Incarnat, et blanc, et l’autre de jaune blanc et noir, enrichis de broderie d’argent, leur liurée de mesme</seg>, et fort bien montez.</p>
         <pb n="9" xml:id="p9"/>
-        <p>Le <persName key="henri_de_daillon" role="acteur">Comte du Lude</persName>, <name key="astolphe" corresp="henri_de_daillon">Astolphe</name>.</p>
-        <l>De tous les Paladins qui sont dans l’Vnivers</l>
-        <l>Aucun n’a pour l’Amour l’ame plus échauffée,</l>
-        <l>Entreprenant toujours mille projets diuers,</l>
-        <l>Et toujours enchanté par quelque Jeune Fée.</l>
-        <p>Le <persName key="francois_vii_de_la_rochefoucauld" role="acteur">Prince de Marsillac</persName>, <name key="brandimart" corresp="francois_vii_de_la_rochefoucauld">Brandimart</name></p>
-        <l>Mes voeux seront contents, mes souhaits accomplis,</l>
-        <l>Et ma bonne fortune à son comble arriuée,</l>
-        <l>Quand vous sçaurez mon Zele, aimable <name>Fleur de Lys</name>,</l>
-        <l>Au milieu de mon coeur profondement grauée.</l>
+        <lg ana="vers">
+          <label type="speaker">Le <persName key="henri_de_daillon" role="acteur">Comte du Lude</persName>, <name key="astolphe" corresp="henri_de_daillon">Astolphe</name>.</label>
+          <l>De tous les Paladins qui sont dans l’Vnivers</l>
+          <l>Aucun n’a pour l’Amour l’ame plus échauffée,</l>
+          <l>Entreprenant toujours mille projets diuers,</l>
+          <l>Et toujours enchanté par quelque Jeune Fée.</l>
+        </lg>
+        
+        <lg ana="vers">
+          <label type="speaker">Le <persName key="francois_vii_de_la_rochefoucauld" role="acteur">Prince de Marsillac</persName>, <name key="brandimart" corresp="francois_vii_de_la_rochefoucauld">Brandimart</name></label>
+          <l>Mes voeux seront contents, mes souhaits accomplis,</l>
+          <l>Et ma bonne fortune à son comble arriuée,</l>
+          <l>Quand vous sçaurez mon Zele, aimable <name>Fleur de Lys</name>,</l>
+          <l>Au milieu de mon coeur profondement grauée.</l>
+        </lg>
+        
         <p>Les <persName key="louis_marie_aumont_rochebaron" role="acteur">Marquis de Villequier</persName>, et <persName key="cm_de_belleforiere" role="acteur">de Soyecourt</persName>, marchoient en suitte, <seg ana="description">l’vn portoit le bleu, et argent, et l’autre le bleu, blanc, et noir auec or, et argent, leurs plumes, et les harnois de leur chevaux estoient de la mesme couleur, et d’vne pareille richesse</seg>.</p>
-        <p>Le <persName key="louis_marie_aumont_rochebaron" role="acteur">Marquis de Villequier</persName>. <name key="richardet" corresp="louis_marie_aumont_rochebaron">Richardet</name></p>
-        <l>Personne comme moy n’est sorti galament</l>
-        <l>D'vne Intrigue où sans doute il falloit de l’adresse,</l>
-        <l>Personne à mon auis plus agréablement</l>
-        <l>N'est demeuré fidelle en trompant sa Maitresse.</l>
-        <p>Le <persName key="cm_de_belleforiere" role="acteur">Marquis de Soyecourt</persName>
-          <name key="olivier" corresp="cm_de_belleforiere">Oliuier</name>.</p>
-        <l>Voicy l’honneur du Siecle aupres de qui nous sommes</l>
-        <l>Et mesme <name>les Geants</name>, de mediocres Hommes,</l>
-        <l>Et ce franc <name>Cheualier</name> à tous venans tout prest</l>
-        <l>Toûjours pour quelque Iouste a la lance en arrest.</l>
+        
+        <lg ana="vers">
+          <label type="speaker">Le <persName key="louis_marie_aumont_rochebaron" role="acteur">Marquis de Villequier</persName>. <name key="richardet" corresp="louis_marie_aumont_rochebaron">Richardet</name></label>
+          <l>Personne comme moy n’est sorti galament</l>
+          <l>D'vne Intrigue où sans doute il falloit de l’adresse,</l>
+          <l>Personne à mon auis plus agréablement</l>
+          <l>N'est demeuré fidelle en trompant sa Maitresse.</l>
+        </lg>
+
+        <lg ana="vers">
+          <label type="speaker">Le <persName key="cm_de_belleforiere" role="acteur">Marquis de Soyecourt</persName>
+            <name key="olivier" corresp="cm_de_belleforiere">Oliuier</name>.</label>
+          <l>Voicy l’honneur du Siecle aupres de qui nous sommes</l>
+          <l>Et mesme <name>les Geants</name>, de mediocres Hommes,</l>
+          <l>Et ce franc <name>Cheualier</name> à tous venans tout prest</l>
+          <l>Toûjours pour quelque Iouste a la lance en arrest.</l>
+        </lg>
         <p>Les <persName key="louis_crevant" role="acteur">Marquis d’Humieres</persName> et <persName key="jf_de_labaume" role="acteur">de la Valliere</persName> les suivoient. <seg ana="description">Ce premier portant la couleur de chair, et argent, et l’autre gris de lin, blanc, et argent, toute leur liurée estant plus riche, et la mieux assortie du monde</seg>.</p>
-        <p>Le <persName key="louis_crevant" role="acteur">Marquis d’Humieres</persName>
-          <name key="ariodant" corresp="louis_crevant">Ariodant</name>.</p>
-        <l>Je tremble dans l’accez de l’amoureuse fiéure</l>
-        <l>Ailleurs sans vanité je ne tremblay Iamais.</l>
-        <l>Et ce charmant objet l’adorable <name>Genéure</name>,</l>
-        <l>Est l’vnique Vainqueur à qui je me soumets.</l>
+        
+        <lg ana="vers">
+          <label ana="vers">Le <persName key="louis_crevant" role="acteur">Marquis d’Humieres</persName>
+            <name key="ariodant" corresp="louis_crevant">Ariodant</name>.</label>
+          <l>Je tremble dans l’accez de l’amoureuse fiéure</l>
+          <l>Ailleurs sans vanité je ne tremblay Iamais.</l>
+          <l>Et ce charmant objet l’adorable <name>Genéure</name>,</l>
+          <l>Est l’vnique Vainqueur à qui je me soumets.</l>
+        </lg>
         <pb n="10" xml:id="p10"/>
         <p>Le <persName key="jf_de_labaume" role="acteur">Marquis de la Valliere</persName>
           <name key="zerbin" corresp="jf_de_labaume">Zerbin</name>.</p>

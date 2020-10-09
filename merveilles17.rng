@@ -576,13 +576,29 @@
         <optional>
           <ref name="rend.block"/>
         </optional>
-        <oneOrMore>
-          <choice>
-          <ref name="label"/>
-            <ref name="l"/>
-            <ref name="pb"/>
-          </choice>
-        </oneOrMore>
+        <zeroOrMore>
+          <ref name="head"/>
+        </zeroOrMore>
+        <choice>
+          <oneOrMore>
+            <choice>
+              <ref name="label"/>
+              <ref name="l"/>
+              <ref name="pb"/>
+            </choice>
+          </oneOrMore>
+          <oneOrMore>
+            <choice>
+              <ref name="label"/>
+              <element name="lg">
+                <oneOrMore>
+                  <ref name="l"/>
+                </oneOrMore>
+              </element>
+              <ref name="pb"/>
+            </choice>
+          </oneOrMore>
+        </choice>
       </element>
     </define>
     <define name="label">
