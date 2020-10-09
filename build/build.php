@@ -538,10 +538,10 @@ CREATE INDEX date_document_document ON date_document(document);
         <td class="occs">'.$row['occs'].'</td>
       </tr>
 ';
-      $page = '';
-      $page .= '<div class="row align-items-start">'."\n";
-      $page .= '  <div class="col-9">'."\n";
-      $page .= '    <h1>'.$row['label'].'</h1>'."\n";
+      $page  = '<div class="container">'."\n";
+      $page .= '  <div class="row align-items-start">'."\n";
+      $page .= '    <div class="col-9">'."\n";
+      $page .= '      <h1>'.$row['label'].'</h1>'."\n";
       if ($row['coord']) {
         $place = "";
         if ($row['locality']) $place .= $row['locality'].", ";
@@ -557,6 +557,7 @@ CREATE INDEX date_document_document ON date_document(document);
       $page .= '    </div>'."\n";
       $page .= '    <div class="col-3">'."\n";
       $page .= '    </div>'."\n";
+      $page .= '  </div>'."\n";
       $page .= '</div>'."\n";
       file_put_contents(self::$home."site/lieu/".$row['code'].'.html', str_replace("%main%", $page, $template));
     }
