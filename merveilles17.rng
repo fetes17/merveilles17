@@ -92,7 +92,10 @@
             <a:documentation>Titre (! obligatoire) et auteurs (* optionnel et répétable) du document</a:documentation>
             <ref name="title"/>
             <zeroOrMore>
-              <ref name="author"/>
+              <choice>
+                <ref name="author"/>
+                <ref name="editor"/>
+              </choice>
             </zeroOrMore>
           </element>
           <element name="editionStmt">
@@ -140,6 +143,13 @@
             <optional>
               <ref name="msDesc"/>
             </optional>
+            <element name="idno">
+              <a:documentation>Lien vers une source numérique</a:documentation>
+              <attribute name="type">
+                <value>application/pdf</value>
+              </attribute>
+              <text/>
+            </element>
           </element>
         </element>
         <element name="profileDesc">
@@ -174,10 +184,22 @@
     </define>
     <define name="author">
       <element name="author">
-        <a:documentation>Auteur du document, avec forme normalisée dans l’attribut <a:att>key</a:att>.</a:documentation>
+        <a:documentation>Auteur du document, avec son code identifiant dans l’attribut <a:att>key</a:att></a:documentation>
         <a:example>
-          <author key="Poquelin, Jean-Baptiste (1622-1673) dit Molière">Molière</author>
+          <author>Molière</author>
         </a:example>
+        <attribute name="key"/>
+        <text/>
+      </element>
+    </define>
+    <define name="editor">
+      <element name="editor">
+        <a:documentation>Contributeur secondaire au document, avec définition de son rôle dans l’attribut <a:att>role</a:att>, et son code identifiant dans <a:att>key</a:att>.</a:documentation>
+        <a:example>
+          <editor role="copié par">Philidor L'aisné</editor>
+        </a:example>
+        <attribute name="key"/>
+        <attribute name="role"/>
         <text/>
       </element>
     </define>

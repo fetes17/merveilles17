@@ -1,6 +1,7 @@
 /* Couleurs et fontes */
 :root {
   --rose: #c07b78;
+  --lien: #5c7877;
   --gris: rgba(242, 242, 242, 0.2);
   --grege: #f1eeeb;
   --creme: #fafafa;
@@ -46,6 +47,10 @@ h2 {
 }
 
 /* html défaut */
+a {
+  color: var(--lien);
+}
+
 html {
   height: 100%;
 }
@@ -59,6 +64,15 @@ body {
 main {
   flex: 1;
 }
+
+h1 {
+  text-align: left;
+  color: var(--rose);
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 21px;
+}
+
 
 h2 {
   text-align: left;
@@ -85,9 +99,25 @@ h2::after {
   border-bottom: 1px solid var(--rose);
 }
 
-h1 {
-  text-align: center;
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
+
+ul li::before {
+  content: "\2022";
+  font-family: sans-serif;
+  color: var(--rose);
+  display: inline-block;
+  width: 1em;
+}
+
+sup {
+  text-transform: none;
+}
+
+/** Layout */
 
 #main>.container {
   position: relative;
@@ -118,10 +148,6 @@ header a {}
 .moto {
   text-transform: uppercase;
   font-weight: bold;
-}
-
-.moto sup {
-  text-transform: none;
 }
 
 img.logo {
@@ -451,4 +477,32 @@ a.pb img {
 td.term a {
   display: block;
   text-decoration: none;
+}
+
+/** page document */
+#doc_bibl {
+  background-color: var(--grege);
+}
+
+div.author {
+  font-size: 22px;
+}
+
+time.date {
+  font-size: 18px;
+  font-weight: bold;
+  disèplay: block;
+}
+
+.blurb {
+  margin: 2rem 0;
+}
+
+.download {
+  text-transform: uppercase;
+  text-align: right;
+}
+
+a.download {
+
 }

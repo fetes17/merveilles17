@@ -296,8 +296,13 @@ CREATE INDEX date_document_document ON date_document(document);
 
   public static function documents()
   {
-    Build::rmdir(self::$home."site/document/");
-    Build::mkdir(self::$home."site/document/");
+    $dstdir = self::$home."site/document/";
+    Build::rmdir($dstdir);
+    Build::mkdir($dstdir);
+    foreach (glob(self::$home."vignettes/*.jpg") as $srcfile) {
+      copy($srcfile, $dstdir.'/'.basename($srcfile));
+    }
+    
     $template = str_replace("%relpath%", "../", self::$template);
     $index = '<div class="container">'.self::uldocs(null, null, "").'</div>';
     file_put_contents(self::$home."site/document/index.html", str_replace("%main%", $index, $template));
@@ -320,6 +325,7 @@ CREATE INDEX date_document_document ON date_document(document);
       list($docid) = $qid->fetch();
       $dom = Build::dom($srcfile);
       $page = Build::transformDoc($dom, self::$home."build/xsl/page_document.xsl", null, array('filename' => $document_code));
+      $page = str_replace(" § ", "\n<br/>", $page);
 
       // liste de personnes citées
       $q_pers_doc->execute(array($document_code));
