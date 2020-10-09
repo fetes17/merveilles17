@@ -3,8 +3,13 @@
   <xsl:import href="../../style/teiHeader.xsl"/>
   <xsl:import href="../../style/flow.xsl"/>
   <xsl:output indent="yes" encoding="UTF-8" method="xml" omit-xml-declaration="yes"/>
+  <xsl:key name="name" match="tei:name[not(ancestor::tei:teiHeader)]" use="normalize-space(@key)"/>
+
+  <!--
   <xsl:param name="locorum"/>
   <xsl:variable name="place" select="document($locorum)/*/*"/>
+  -->
+  <xsl:variable name="ana" select="document('../../index/ana.xml')/*/*"/>
   <xsl:key name="placeName" match="tei:placeName" use="normalize-space(@key)"/>
   <xsl:key name="persName" match="tei:persName" use="normalize-space(@key)"/>
   <xsl:key name="tech" match="tei:tech" use="normalize-space(@type)"/>
@@ -35,7 +40,7 @@
                 </div>
               </div>
               <xsl:for-each select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:idno">
-                <div>
+                <div class="download">
                   <a class="download">
                     <xsl:attribute name="href">
                       <xsl:value-of select="."/>
@@ -56,58 +61,45 @@
           <div class="col-9">
             <div class="doc_ana">
               <h2>Techniques d’écriture</h2>
-              <xsl:for-each select="//*[@ana][@ana != 'description'][count(. | key('ana', normalize-space(@ana))[1]) = 1]">
-                <xsl:sort select="normalize-space(@ana)"/>
-                <xsl:variable name="key" select="normalize-space(@ana)"/>
-                <div>
-                  <h3>
-                    <xsl:value-of select="@ana"/>
-                  </h3>
-                  <xsl:for-each select="key('ana', $key)">
-                    <p>
-                      <xsl:call-template name="ellipse">
-                        <xsl:with-param name="node" select="."/>
-                        <xsl:with-param name="length" select="100"/>
-                      </xsl:call-template>
-                    </p>
-                  </xsl:for-each>
-                </div>
-              </xsl:for-each>
-            </div>
-            <div>
-              <h2>Documents liés</h2> 
-              <p>Sur quoi lier ?</p>
-            </div>
-            <div>
-              <h2>Thèmes</h2>
-              <xsl:variable name="names">
-                <xsl:for-each select="//*[@ana][count(. | key('ana', normalize-space(@ana))[1]) = 1]">
-                  <xsl:sort select="normalize-space(@ana)"/>
-                  <xsl:variable name="key" select="normalize-space(@ana)"/>
-                  <div>
-                    <h3>
-                      <xsl:value-of select="@ana"/>
-                    </h3>
-                    <xsl:for-each select="key('ana', $key)">
-                      <p>
-                        <xsl:call-template name="ellipse">
-                          <xsl:with-param name="node" select="."/>
-                          <xsl:with-param name="length" select="100"/>
-                        </xsl:call-template>
-                      </p>
-                    </xsl:for-each>
-                  </div>
-                </xsl:for-each>
-              </xsl:variable>
               <ul>
-                <li>Personnages fictifs ?</li>
-                <li>Nuage de mots ? Attention, ne va pas du tout réagir de la même manière sur les documents longs ou courts.</li>
+                <xsl:for-each select="//*[@ana][@ana != 'description'][count(. | key('ana', normalize-space(@ana))[1]) = 1]">
+                  <xsl:sort select="count(key('ana', @ana))" order="descending"/>
+                  <xsl:variable name="key" select="@ana"/>
+                  <li>
+                    <xsl:value-of select="$ana[@xml:id = $key]/tei:term"/>
+                    <xsl:text> </xsl:text>
+                    <b>
+                      <xsl:text>(</xsl:text>
+                      <xsl:value-of select="count(key('ana', $key))"/>
+                      <xsl:text>)</xsl:text>
+                    </b>
+                  </li>
+                </xsl:for-each>
               </ul>
+            </div>
+            <div>
+              <h2>Documents liés</h2>
+            </div>
+            <div id="doc_theme">
+              <h2>Thèmes</h2>
+              <xsl:variable name="tag">name</xsl:variable>
+              <xsl:for-each select="//*[name() = $tag][count(. | key($tag, normalize-space(@key|@type))[1]) = 1][not(ancestor::tei:teiHeader)]">
+                <xsl:sort select="count(key($tag, @key|@type))" order="descending"/>
+                <xsl:choose>
+                  <xsl:when test="position() &gt; 40"/>
+                  <xsl:when test="@key">
+                    <a href="#" class="theme">
+                      <xsl:value-of select="@key"/>
+                    </a>
+                    <xsl:text> </xsl:text>
+                  </xsl:when>
+                </xsl:choose>
+              </xsl:for-each>
             </div>
           </div>
           <div class="col-3">
             <div id="doc_chrono">
-              <h2>Dates</h2>
+              <h2>Événements liés</h2>
               <ul>
                 <xsl:for-each select="/tei:TEI/tei:text//tei:date | /tei:TEI/tei:sourceDoc//tei:date">
                   <xsl:sort select="@when"/>
