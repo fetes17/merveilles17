@@ -309,7 +309,7 @@ CREATE INDEX date_document_document ON date_document(document);
     $dstdir = self::$home."site/document/";
     Build::rmdir($dstdir);
     Build::mkdir($dstdir);
-    foreach (glob(self::$home."vignettes/*.jpg") as $srcfile) {
+    foreach (glob(self::$home."couv/*.jpg") as $srcfile) {
       copy($srcfile, $dstdir.'/'.basename($srcfile));
     }
     
