@@ -321,16 +321,6 @@ Sections
         <xsl:apply-templates select="node()[local-name()!='pb']">
           <xsl:with-param name="from" select="$from"/>
         </xsl:apply-templates>
-        <xsl:if test="not(following-sibling::*[1][self::tei:head]) and $format != $epub2 and $format != $epub3">
-          <a class="bookmark">
-            <xsl:attribute name="href">
-              <xsl:for-each select="ancestor::tei:div[1]">
-                <xsl:call-template name="href"/>
-              </xsl:for-each>
-            </xsl:attribute>
-            <xsl:text> §</xsl:text>
-          </a>
-        </xsl:if>
       </xsl:element>
     </xsl:if>
   </xsl:template>
@@ -1618,20 +1608,24 @@ Tables
         <xsl:call-template name="id"/>
       </xsl:attribute>
       <xsl:call-template name="atts"/>
-      <!-- ?
-      <a class="bookmark">
-        <xsl:attribute name="href">
-          <xsl:call-template name="href"/>
-        </xsl:attribute>
-        <xsl:text> §</xsl:text>
-      </a>
-      -->
       <xsl:apply-templates>
         <xsl:with-param name="from" select="$from"/>
       </xsl:apply-templates>
     </xsl:element>
   </xsl:template>
-  <xsl:template match="tei:figure/tei:figDesc | tei:figure/tei:desc | tei:figure/tei:head">
+  <xsl:template match="tei:figure/tei:head | tei:lg/tei:head">
+    <xsl:if test=". != ''">
+      <h5>
+        <xsl:call-template name="atts">
+          <xsl:with-param name="class">
+            <xsl:value-of select="local-name(..)"/>
+          </xsl:with-param>
+        </xsl:call-template>
+        <xsl:apply-templates/>
+      </h5>
+    </xsl:if>
+  </xsl:template>
+  <xsl:template match="tei:figure/tei:figDesc | tei:figure/tei:desc">
     <xsl:param name="from"/>
     <xsl:choose>
       <xsl:when test=".=''"/>

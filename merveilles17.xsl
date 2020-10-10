@@ -15,7 +15,7 @@
   <xsl:key name="ana" match="*[@ana][@ana != 'description']" use="normalize-space(@ana)"/>
   <xsl:output indent="yes" encoding="UTF-8" method="xml" omit-xml-declaration="no"/>
   <!-- https://fetes17.github.io/files/ -->
-  <xsl:variable name="theme">../style/</xsl:variable>
+  <xsl:variable name="theme">../build/theme/</xsl:variable>
   <xsl:template match="/">
     <html>
       <xsl:call-template name="att-lang"/>
@@ -24,6 +24,7 @@
         <link href="https://fonts.googleapis.com/css2?Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&amp;family=Titillium+Web:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&amp;display=swap" rel="stylesheet"/>
         <link rel="stylesheet" type="text/css" href="{$theme}teinte.css"/>
         <link rel="stylesheet" type="text/css" href="{$theme}sortable.css"/>
+        <link rel="stylesheet" type="text/css" href="{$theme}split.css"/>
         <link rel="stylesheet" type="text/css" href="{$theme}merveilles17.css"/>
       </head>
       <body>

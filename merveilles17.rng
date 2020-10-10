@@ -554,22 +554,22 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
     <define name="figure">
       <element name="figure">
         <a:documentation>Document image, avec lien oligatoire à une version numérique de l’image <a:el>graphic</a:el>, et une description contenant les termes indexés <a:el>figDesc</a:el></a:documentation>
-        <ref name="graphic"/>
-        <element name="figDesc">
-          <a:documentation>Description de l’image (texte de l’éditeur)</a:documentation>
-          <ref name="chars"/>
-        </element>
-        <optional>
-          <ref name="head"/>
-        </optional>
-        <zeroOrMore>
-          <choice>
-            <ref name="l"/>
-            <ref name="label"/>
-            <ref name="lg"/>
-            <ref name="p"/>
-          </choice>
-        </zeroOrMore>
+        <interleave>
+          <ref name="graphic"/>
+          <element name="figDesc">
+            <a:documentation>Description de l’image (texte de l’éditeur)</a:documentation>
+            <ref name="chars"/>
+          </element>
+          <zeroOrMore>
+            <choice>
+            <ref name="head"/>
+              <ref name="l"/>
+              <ref name="label"/>
+              <ref name="lg"/>
+              <ref name="p"/>
+            </choice>
+          </zeroOrMore>
+        </interleave>
       </element>
     </define>
     <define name="head">

@@ -2,34 +2,42 @@
   font-family: sans-serif;
   line-height: 1.3em;
   border: 1px solid;
-  border-color: #CCCCCC;
+  border-color: #ccc;
   margin-top: 1rem;
   margin-bottom: 2em;
   border-spacing: 0;
 }
 
 .sortable caption {
-  background-color: #F5F3EB;
+  background-color: #f5f3eb;
   padding: 7px 1ex 5px 1ex;
   font-size: 16px;
-  border-top: #FFFFFF 1px solid;
-  border-left: #FFFFFF 1px solid;
-  border-right: #FFFFFF 1px solid;
+  border-top: #fff 1px solid;
+  border-left: #fff 1px solid;
+  border-right: #fff 1px solid;
   color: #666;
   font-weight: bold;
   line-height: 1.2em;
 }
 
+/* not for chrome
 .sortable thead {
   position: sticky;
   top: 0;
-  background-color: #FFF;
+  background-color: #fff;
 }
+*/
+.sortable thead tr:nth-child(1) th{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
 
 .sortable td {
   vertical-align: top;
-  border-left: #BBD 1px solid;
-  border-right: #BBD 1px solid;
+  border-left: #bbd 1px solid;
+  border-right: #bbd 1px solid;
   padding: 1px 1ex 1px 1ex;
   color: #333;
 }
@@ -47,9 +55,7 @@
   vertical-align: middle;
   text-align: left;
   padding: 5px 1ex 5px 1ex;
-  background-color: #FFFFFF;
-  border-top: 2px solid #CCCCCC;
-  border-bottom: 1px solid #666;
+  background-color: transparent;
   box-shadow: 0 4px 2px -2px #BBB;
 }
 
@@ -59,20 +65,22 @@
 
 .sortable .sorting {
   cursor: pointer;
-  padding-left: 1.2em;
-  background: url(data:image/gif;base64,R0lGODlhCwALAJEAAAAAAP///xUVFf///yH5BAEAAAMALAAAAAALAAsAAAIUnC2nKLnT4or00PvyrQwrPzUZshQAOw==) no-repeat center left;
+  padding-right: 16px;
+  background-image: url(data:image/gif;base64,R0lGODlhCwALAJEAAAAAAP///xUVFf///yH5BAEAAAMALAAAAAALAAsAAAIUnC2nKLnT4or00PvyrQwrPzUZshQAOw==);
+  background-repeat: no-repeat;
+  background-position: center right;
 }
 
 .sortable .sorting:hover {
-  background-color: #FFFFFF;
+  background-color: #fff;
 }
 
 .sortable .sorting.desc {
-  background: url(data:image/gif;base64,R0lGODlhCwALAJEAAAAAAP///xUVFf///yH5BAEAAAMALAAAAAALAAsAAAIRnC2nKLnT4or00Puy3rx7VQAAOw==) no-repeat center left;
+  background-image: url(data:image/gif;base64,R0lGODlhCwALAJEAAAAAAP///xUVFf///yH5BAEAAAMALAAAAAALAAsAAAIRnC2nKLnT4or00Puy3rx7VQAAOw==);
 }
 
 .sortable .sorting.asc {
-  background: url(data:image/gif;base64,R0lGODlhCwALAJEAAAAAAP///xUVFf///yH5BAEAAAMALAAAAAALAAsAAAIPnI+py+0/hJzz0IruwjsVADs=) no-repeat center left;
+  background-image: url(data:image/gif;base64,R0lGODlhCwALAJEAAAAAAP///xUVFf///yH5BAEAAAMALAAAAAALAAsAAAIPnI+py+0/hJzz0IruwjsVADs=);
 }
 
 tr.even th, tr.odd th {
@@ -82,20 +90,20 @@ tr.even th, tr.odd th {
 .sortable tr td {
   border-bottom: solid 1px transparent;
   border-top: solid 1px transparent;
-  border-right: 1px #CCC solid;
+  border-right: 1px #ccc solid;
   border-left: none;
 }
 
 .sortable tr.mod1 td {
-  border-bottom-color: #FFF;
+  border-bottom-color: #fff;
 }
 
 .sortable tr.mod5 td {
-  border-top: solid 1px #FFF;
+  border-top: solid 1px #fff;
 }
 
 .sortable tr.mod3 {
-  background: #FFFFFF;
+  background-color: #fff;
 }
 
 .sortable tr.mod5 td {
@@ -108,7 +116,7 @@ tr.even th, tr.odd th {
 }
 
 .sortable tbody tr:hover {
-  background: #FFFFFF;
+  background-color: #fff;
 }
 
 .sortable tbody tr:hover td {
@@ -132,12 +140,14 @@ tr.even th, tr.odd th {
 }
 
 .sortable a:hover {
-  background: #FFFFFF;
+  background-color: #fff;
+  /*
   box-shadow: 0px 0px 20px #AAAAAA;
+  */
 }
 
 .sortable th a:hover {
-  background-color: #FFFFFF;
+  background-color: #fff;
   border: none
 }
 

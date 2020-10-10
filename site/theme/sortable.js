@@ -12,7 +12,7 @@
  *
  */
 /**
-<h1>Sorting tables, short and fast.</h1>
+<h1>Sort big tables, fast.</h1>
 
 Examples
 <ul>
@@ -47,6 +47,8 @@ Credit :
   <li><a href="http://www.kryogenix.org/code/browser/sorttable/">http://www.kryogenix.org/code/browser/sorttable/</a></li>
 </ul>
 */
+'use strict';
+
 if (!document.createElementNS) document.createElementNS = function(uri, name) {
   return document.createElement(name);
 };
@@ -61,9 +63,9 @@ var Sortable = {
   {
     // Find all tables with class sortable and make them sortable
     if (!document.getElementsByTagName) return;
-    tables = document.getElementsByTagName("table");
-    for (var i=tables.length - 1; i >= 0; i--) {
-      table = tables[i];
+    let tables = document.getElementsByTagName("table");
+    for (let i=tables.length - 1; i >= 0; i--) {
+      let table = tables[i];
       if (((' ' + table.className.toLowerCase() + ' ').indexOf("sortable") != -1)) {
         Sortable.create(table);
       }
@@ -76,17 +78,17 @@ var Sortable = {
    */
   sort: function(table, col, desc)
   {
-    var tbody = table.tBodies[0],
+    let tbody = table.tBodies[0],
     arr = Array.prototype.slice.call(tbody.rows, 0),
     ret = (desc)?-1:1;
     arr.sort(function(rowA, rowB) {
-      a = rowA.keys[col];
-      b = rowB.keys[col];
+      let a = rowA.keys[col];
+      let b = rowB.keys[col];
       if (a > b) return ret;
       else if (a == b) return 0;
       else return -ret;
     });
-    for(var i = 0, len = arr.length; i < len; i++) {
+    for(let i = 0, len = arr.length; i < len; i++) {
       tbody.appendChild(arr[i]);
     }
     // zebra the table after sort
@@ -155,29 +157,32 @@ var Sortable = {
     // not enough rows, go away
     if (table.rows.length < 2) return false;
     // if no tHead, create it with first row
+    let tbody;
     if (!table.tHead) {
       table.createTHead().appendChild(table.rows[0]);
     }
     if (!table.tBodies) {
       tbody = table.createTBody();
-      for (var i = 1, len = table.rows.length; i < len; i++) tbody.appendChild(table.rows[i]);
+      for (let i = 1, len = table.rows.length; i < len; i++) tbody.appendChild(table.rows[i]);
     }
-    else tbody = table.tBodies[0];
+    else {
+      tbody = table.tBodies[0];
+    }
     // We have a first row: assume it's the header, and make its contents clickable links
-    firstRow = table.tHead.rows[0];
+    let firstRow = table.tHead.rows[0];
     // get type of each col
-    var types = [];
-    var row = tbody.rows[0];
-    for (var i = 0, len2 = row.cells.length; i < len2 ; i++) {
-      var key = Sortable.key(row.cells[i]);
+    let types = [];
+    let row = tbody.rows[0];
+    for (let i = 0, len2 = row.cells.length; i < len2 ; i++) {
+      let key = Sortable.key(row.cells[i]);
       if (isNaN(key)) types[i] = false;
       else types[i] = true;
     }
 
-    var i = firstRow.cells.length;
+    let i = firstRow.cells.length;
     while (--i >= 0) (function (i) { // hack to localize i
-      var cell = firstRow.cells[i];
-      var text = cell.innerHTML.replace(/<.+>/g, '');
+      let cell = firstRow.cells[i];
+      let text = cell.innerHTML.replace(/<.+>/g, '');
       if (cell.className.indexOf("unsort") != -1 || cell.className.indexOf("nosort") != -1 || Sortable.trim(text) == '') return;
       cell.className = cell.className+' sorting';
       if (types[i]) cell.desc = true;
@@ -189,17 +194,21 @@ var Sortable = {
       });
     }(i));
     // for each line, prepare a key to use for sorting
-    for (var i = 0, len = tbody.rows.length; i < len; i++) {
-      var row = tbody.rows[i];
+    for (let i = 0, len = tbody.rows.length; i < len; i++) {
+      let row = tbody.rows[i];
       Sortable.paint(row, i+1);
       row.keys = [];
       // prepare the key
-      for (var j = 0, len2 = row.cells.length; j < len2 ; j++) {
+      for (let j = 0, len2 = row.cells.length; j < len2 ; j++) {
         row.keys[j] = Sortable.key(row.cells[j]);
       }
     }
     // do it one time
     table.sortable=true;
+    if (table.hasAttribute("data-sort")) {
+      let i = table.getAttribute("data-sort");
+      if (firstRow.cells[i]) firstRow.cells[i].click();
+    }
     return true;
   },
   /**
@@ -216,7 +225,7 @@ var Sortable = {
     // innerText could be very slow (infers CSS visibility)
     text=Sortable.trim(text);
     // num
-    n=parseFloat(text.replace(/,/g, '.').replace(/[  x×/]/g, ''));
+    let n=parseFloat(text.replace(/,/g, '.').replace(/[  x×/]/g, ''));
     // text
     if (isNaN(n)) {
       text=text.toLowerCase().replace(/’/, "'").replace(/^(d'|de |le |les |la |l')/, '').replace(/œ/g, 'oe').replace(/æ/g, 'ae').replace(/ç/g, 'c').replace(/ñ/g, 'n').replace(/[éèêë]/g, 'e').replace(/[áàâä]/g, 'a').replace(/[íìîï]/g, 'i').replace(/úùûü/, 'u').replace(/\W/g, '') ;
@@ -232,10 +241,10 @@ var Sortable = {
    */
   zebra: function (table)
   {
-    var n = 1;
-    for (var i = 0; i < table.tBodies.length; i++) {
-      for (var j=0, len = table.tBodies[i].rows.length; j < len; j++) {
-        var row = table.tBodies[i].rows[j];
+    let n = 1;
+    for (let i = 0; i < table.tBodies.length; i++) {
+      for (let j=0, len = table.tBodies[i].rows.length; j < len; j++) {
+        let row = table.tBodies[i].rows[j];
         if (row.style.display == "none") continue;
         this.paint(row, n);
         n++;
@@ -261,7 +270,7 @@ var Sortable = {
    */
   trim : function (s)
   {
-    var start = -1,
+    let start = -1,
     end = s.length;
     while(s.charCodeAt(--end) < 33);
     while(s.charCodeAt(++start) < 33);
@@ -273,17 +282,17 @@ var Sortable = {
   csv2table: function(srcid, dstid)
   {
     if (srcid.contentWindow && srcid.contentWindow.document) {
-      var txt = srcid.contentWindow.document.body.childNodes[0].innerHTML;
+      let txt = srcid.contentWindow.document.body.childNodes[0].innerHTML;
     }
     if (!txt) return;
-    var dst = document.getElementById(dstid);
+    let dst = document.getElementById(dstid);
     if (!dst) return;
-    var html = [];
+    let html = [];
     html[0] = '<table class="sortable">';
     txt = txt.replace("\r\n", "\n").replace("\r", "\n");
-    var lines = txt.split("\n");
-    var cells;
-    for (var i = 0; i < lines.length; i++) {
+    let lines = txt.split("\n");
+    let cells;
+    for (let i = 0; i < lines.length; i++) {
       cells = lines[i].split(/"?\t"?/);
       // header line
       if (0 == i) {

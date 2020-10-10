@@ -339,7 +339,10 @@ CREATE INDEX date_document_document ON date_document(document);
 
       // liste de personnes citées
       $q_pers_doc->execute(array($document_code));
-      $personnes = '<ul>'."\n";
+      $personnes = '
+<section id="doc_pers">
+  <h2>Personnes</h2>
+  <ul>';
       $count = 0;
       while ($row = $q_pers_doc->fetch(PDO::FETCH_ASSOC)) {
         $q_pers->execute(array($row['personne']));
@@ -348,14 +351,21 @@ CREATE INDEX date_document_document ON date_document(document);
         $personnes .= '<li><a href="../personne/'.$row['personne_code'].self::$_html.'">'.$label.'</a> ('.$row['count'].')</li>'."\n";
         $count++;
       }
-      $personnes .= '</ul>'."\n";
-      if (!$count) $personnes = "";
+      $personnes .= '
+  </ul>
+</section>
+';
+      if (!$count) $personnes= '';
       $page = str_replace("%personnes%", $personnes, $page);
 
       
       // liste de lieux
       $q_lieu_doc->execute(array($document_code));
-      $lieux = '<ul>'."\n";
+      $lieux = '
+<section id="doc_place">
+  <h2>Lieux</h2>
+  <ul>
+      ';
       $count = 0;
       while ($row = $q_lieu_doc->fetch(PDO::FETCH_ASSOC)) {
         $q_lieu->execute(array($row['lieu']));
@@ -364,19 +374,29 @@ CREATE INDEX date_document_document ON date_document(document);
         $lieux .= '<li><a href="../lieu/'.$row['lieu_code'].self::$_html.'">'.$label.'</a> ('.$row['count'].')</li>'."\n";
         $count++;
       }
-      $lieux .= '</ul>'."\n";
-      if (!$count) $lieux = "";
+      $lieux .= '
+  </ul>
+</section>
+';
+      if (!$count) $lieux = '';
       $page = str_replace("%lieux%", $lieux, $page);
       
       // liste de techniques
       $qtechniques->execute(array($document_code));
-      $techniques = '<ul>'."\n";
+      $techniques = '
+<section id="doc_tech">
+  <h2>Techniques</h2>
+  <ul>
+';
       $count = 0;
       while ($row = $qtechniques->fetch(PDO::FETCH_ASSOC)) {
         $techniques .= '<li><a href="../technique/'.$row['code'].self::$_html.'">'.$row['label'].'</a> ('.$row['count'].')</li>'."\n";
         $count++;
       }
-      $techniques .= '</ul>'."\n";
+      $techniques .= '
+  </ul>
+</section>
+';
       if (!$count) $techniques = "";
       $page = str_replace("%techniques%", $techniques, $page);
       

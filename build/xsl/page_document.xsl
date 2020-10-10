@@ -4,7 +4,6 @@
   <xsl:import href="../../style/flow.xsl"/>
   <xsl:output indent="yes" encoding="UTF-8" method="xml" omit-xml-declaration="yes"/>
   <xsl:key name="name" match="tei:name[not(ancestor::tei:teiHeader)]" use="normalize-space(@key)"/>
-
   <!--
   <xsl:param name="locorum"/>
   <xsl:variable name="place" select="document($locorum)/*/*"/>
@@ -15,68 +14,73 @@
   <xsl:key name="tech" match="tei:tech" use="normalize-space(@type)"/>
   <xsl:key name="ana" match="*[@ana]" use="normalize-space(@ana)"/>
   <xsl:variable name="lf" select="'&#10;'"/>
+  <xsl:variable name="type" select="substring-before(substring-after($filename, '_'), '_')"/>
   <xsl:template match="/">
     <article class="document">
       <div id="doc_bibl">
         <div class="container">
-          <div class="row">
-            <div class="col-9">
+          <xsl:choose>
+            <xsl:when test="/tei:TEI/tei:sourceDoc">
               <xsl:apply-templates select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt"/>
+              <xsl:apply-templates select="/tei:TEI/tei:sourceDoc"/>
               <xsl:apply-templates select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:notesStmt"/>
-              <div class="blurb">
-                <xsl:choose>
-                  <xsl:when test="/tei:TEI/tei:sourceDoc">
-                    <xsl:apply-templates select="/tei:TEI/tei:sourceDoc"/>
-                  </xsl:when>
-                  <xsl:otherwise>
+            </xsl:when>
+            <xsl:otherwise>
+              <div class="row">
+                <div class="col-9">
+                  <xsl:apply-templates select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt"/>
+                  <xsl:apply-templates select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:notesStmt"/>
+                  <div class="blurb">
                     <xsl:call-template name="ellipse">
                       <xsl:with-param name="node" select="/tei:TEI/tei:text/tei:body"/>
                       <xsl:with-param name="length" select="300"/>
                     </xsl:call-template>
-                  </xsl:otherwise>
-                </xsl:choose>
-                <div>
-                  <a class="texte" href="#">Accéder au texte intégral</a>
+                    <div>
+                      <a class="texte" href="#">Accéder au texte intégral</a>
+                    </div>
+                  </div>
+                  <xsl:for-each select="(/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc//tei:ptr)[1]">
+                    <div class="download">
+                      <a class="download">
+                        <xsl:attribute name="href">
+                          <xsl:value-of select="@target"/>
+                        </xsl:attribute>
+                        <xsl:text>Document source</xsl:text>
+                      </a>
+                    </div>
+                  </xsl:for-each>
+                </div>
+                <div class="col-3">
+                  <img src="{$filename}.jpg"/>
                 </div>
               </div>
-              <xsl:for-each select="(/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc//tei:ptr)[1]">
-                <div class="download">
-                  <a class="download">
-                    <xsl:attribute name="href">
-                      <xsl:value-of select="@target"/>
-                    </xsl:attribute>
-                    <xsl:text>Document source</xsl:text>
-                  </a>
-                </div>
-              </xsl:for-each>
-            </div>
-            <div class="col-3">
-              <img src="{$filename}.jpg"/>
-            </div>
-          </div>
+            </xsl:otherwise>
+          </xsl:choose>
         </div>
       </div>
       <div class="container">
         <div class="row">
           <div class="col-9">
-            <div class="doc_ana">
-              <h2>Techniques d’écriture</h2>
-              <ul>
-                <xsl:for-each select="//*[@ana][@ana != 'description'][count(. | key('ana', normalize-space(@ana))[1]) = 1]">
-                  <xsl:sort select="count(key('ana', @ana))" order="descending"/>
-                  <xsl:variable name="key" select="@ana"/>
-                  <li>
-                    <xsl:value-of select="$ana[@xml:id = $key]/tei:term"/>
-                    <xsl:text> </xsl:text>
-                    <b>
-                      <xsl:text>(</xsl:text>
-                      <xsl:value-of select="count(key('ana', $key))"/>
-                      <xsl:text>)</xsl:text>
-                    </b>
-                  </li>
-                </xsl:for-each>
-              </ul>
-            </div>
+            <xsl:if test="//*[@ana][@ana != 'description']">
+              <div class="doc_ana">
+                <h2>Techniques d’écriture</h2>
+                <ul>
+                  <xsl:for-each select="//*[@ana][@ana != 'description'][count(. | key('ana', normalize-space(@ana))[1]) = 1]">
+                    <xsl:sort select="count(key('ana', @ana))" order="descending"/>
+                    <xsl:variable name="key" select="@ana"/>
+                    <li>
+                      <xsl:value-of select="$ana[@xml:id = $key]/tei:term"/>
+                      <xsl:text> </xsl:text>
+                      <b>
+                        <xsl:text>(</xsl:text>
+                        <xsl:value-of select="count(key('ana', $key))"/>
+                        <xsl:text>)</xsl:text>
+                      </b>
+                    </li>
+                  </xsl:for-each>
+                </ul>
+              </div>
+            </xsl:if>
             <div>
               <h2>Documents liés</h2>
             </div>
@@ -120,18 +124,9 @@
                 </xsl:for-each>
               </ul>
             </div>
-            <div id="doc_place">
-              <h2>Lieux</h2>
-              %lieux%
-            </div>
-            <div id="doc_pers">
-              <h2>Personnes</h2>
-              %personnes%
-            </div>
-            <div id="doc_tech">
-              <h2>Techniques</h2>
-              %techniques%
-            </div>
+            %lieux%
+            %personnes%
+            %techniques%
           </div>
         </div>
       </div>
@@ -220,6 +215,24 @@
           <xsl:value-of select="@n"/>
           <xsl:text>]</xsl:text>
         </span>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+  
+  <xsl:template match="tei:graphic">
+    <xsl:choose>
+      <xsl:when test="contains(@url, '/iiif/')">
+        <a href="{@url}" target="_blank" class="modal">
+          <xsl:variable name="src">
+            <xsl:value-of select="substring-before(@url, '/full/0/')"/>
+            <xsl:text>/1140,/0/</xsl:text>
+            <xsl:value-of select="substring-after(@url, '/full/0/')"/>
+          </xsl:variable>
+          <img src="{$src}"/>
+        </a>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:apply-imports/>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>

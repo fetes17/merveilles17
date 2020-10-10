@@ -36,10 +36,12 @@ body {
   color: #fff;
 }
 
+figcaption,
 body {
   font-family: 'Titillium Web', sans-serif;
 }
 
+figure,
 .event,
 .moto,
 h2,
@@ -261,7 +263,6 @@ a.pb img {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: green;
 }
 
 .carousel-controls {
@@ -380,7 +381,7 @@ a.pb img {
 
 
 
-#personnes {
+#accueil_pers {
   background-color: var(--grege);
   margin: 2rem 0 1rem -500px;
   padding: 1rem 1rem 1rem 500px;
@@ -417,7 +418,7 @@ a.pb img {
   text-align: center;
 }
 
-#tech {
+#accueil_tech {
   padding-top: 30px;
   padding-bottom: 60px;
 }
@@ -450,7 +451,7 @@ a.pb img {
   font-weight: 400;
 }
 
-#lieu {
+#accueil_lieu {
   background-image: url('../images/accueil/lieu_bg.jpg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -519,6 +520,11 @@ a.document .publication {
 }
 
 /** page document */
+
+article.document {
+  margin-bottom: 2rem;
+}
+
 #doc_bibl {
   background-color: var(--grege);
   padding: 2rem 0;
@@ -553,3 +559,281 @@ a.theme {
   font-weight: bold;
   border: 1px solid #ccc;
 }
+
+/** page liseuse */
+
+#body {
+  line-height: 1.7;
+  max-width: 70ex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+aside.note.margin {
+  float: right;
+  width: 15rem;
+  border: 1px dotted #ccc;
+  margin-left: 1rem;
+}
+
+.pb {
+  width: auto;
+  position: relative;
+  float: right;
+  right:0;
+}
+a.pb img {
+  display: block;
+}
+
+/*
+main {
+  padding: 4rem 4rem 5rem 2rem;
+  background-color: #fff;
+  color: #000;
+}
+main li {
+  list-style: none;
+}
+*/
+
+#aside {
+  top: 2rem;
+  bottom: 0;
+  padding-bottom: 5rem;
+}
+
+#navaside {
+  display: none;
+  top: 0;
+  left: 0;
+  position: fixed;
+  padding: 2px 1rem !important;
+  background: #FFFFFF;
+  border-bottom: 1px solid #CCC;
+}
+
+#aside {
+  background-color: var(--creme);
+}
+
+#bookmarks {
+  width: 15px;
+  position: fixed;
+  right: 2rem;
+  top: 0;
+  bottom: 0;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+.toclone {
+  display: none !important;
+}
+
+#bookmarks mark {
+  width: 15px;
+  height: 10px;
+  position: absolute;
+  background-color: violet;
+  cursor: pointer;
+}
+
+#aside a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#aside summary {
+  line-height: 1.5;
+  padding: 5px;
+  /* text-align: right; */
+  direction: rtl;
+}
+
+#aside ul {
+ list-style: inside;
+ padding-left: 0;
+}
+#aside ul ul {
+ padding-left: 1rem;
+}
+
+main.ana,
+main.placeName,
+main.name,
+main.tech,
+main.persName {
+  color: #999;
+}
+
+main.ana img,
+main.placeName img,
+main.name img,
+main.tech img,
+main.persName img {
+  object-fit: scale-down;
+  width:230px;
+  height:230px;
+  float: right;
+}
+
+mark.placeName,
+mark.persName,
+mark.tech,
+mark.name,
+span.placeName,
+span.persName,
+span.tech,
+span.name {
+  cursor: pointer;
+}
+
+
+
+#persName thead,
+#persName summary,
+#persName a:hover,
+main.persName .persName {
+  background-color: var(--persNameLite);
+  border-color: var(--persName);
+  color: #000;
+}
+
+#bookmarks mark.persName {
+  background-color: var(--persName5);
+}
+
+#persName a.active,
+main .persName.active {
+  background-color: var(--persName) !important;
+  color: #fff !important;
+}
+
+#name thead,
+#name summary,
+#name a:hover,
+main.name .name {
+  background-color: var(--nameLite);
+  border-color: var(--name);
+  color: #000;
+}
+
+#bookmarks mark.name {
+  background-color: var(--name5);
+}
+
+
+#name a.active,
+main .name.active {
+  background-color: var(--name) !important;
+  color: #fff !important;
+}
+
+#placeName thead,
+#placeName summary,
+#placeName a:hover,
+main.placeName .placeName {
+  background-color: var(--placeNameLite);
+  border-color: var(--placeName);
+  color: #000;
+}
+
+#bookmarks mark.placeName {
+  background-color: var(--placeName5);
+}
+
+#placeName a.active,
+main .placeName.active {
+  background-color: var(--placeName) !important;
+  color: #fff !important;
+}
+
+#tech thead,
+#tech summary,
+#tech a:hover,
+main.tech .tech {
+  background-color: var(--techLite);
+  border-color: var(--tech);
+  color: #000;
+}
+
+#bookmarks mark.tech {
+  background-color: var(--tech5);
+}
+
+#tech a.active,
+main .tech.active {
+  background-color: var(--tech) !important;
+  color: #fff !important;
+}
+
+#ana thead,
+#ana summary,
+#ana a:hover,
+main.ana .ana {
+  background-color: var(--anaLite);
+  border-color: var(--ana);
+  color: #000;
+}
+
+#bookmarks mark.ana {
+  background-color: var(--ana5);
+}
+
+#ana a.active,
+main .ana.active {
+  background-color: var(--ana) !important;
+  color: #fff !important;
+}
+
+
+table.sortable {
+  margin-top: 0;
+  width: 100%;
+}
+
+td.term {
+  padding: 0;
+}
+
+td.nb {
+  text-align: right;
+}
+
+
+table.sortable a {
+  color: #666;
+  display: block;
+  padding: 5px 1rem;
+  line-height: 1.1;
+}
+
+.devise {
+  text-align: center;
+  font-size: 150%;
+  font-style: italic;
+}
+
+div.l {
+  text-indent: 0;
+  padding-left: 0;
+}
+
+.speaker {
+  font-style: normal;
+}
+
+.speaker .name,
+.speaker .persName {
+  font-variant: small-caps;
+  letter-spacing: .2em;
+}
+
+/*
+.figDesc {
+  display: none;
+}
+*/
+
+
