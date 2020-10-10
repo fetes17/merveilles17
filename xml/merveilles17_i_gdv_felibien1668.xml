@@ -13,7 +13,7 @@
         <edition> Merveilles17 </edition>
         <respStmt>
           <name> Marion Ignace </name>
-          <resp> transcription,stylage et encodage </resp>
+          <resp> Transcription, stylage et balisage. </resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -49,17 +49,20 @@
     </fileDesc>
   </teiHeader>
   <text>
-    <body>
+    <front>
       <pb n="1" xml:id="p1"/>
-      <head> Relation de la Feste de <placeName key="versailles_chateau">Versailles</placeName>.</head>
-      <head>Du <date when="1668-07-18">dix-huitième juillet mil six cens soixante-huit</date>.</head>
-      <p>A <placeName key="paris">PARIS</placeName>,</p>
-      <p>Chez PIERRE LE PETIT , Imprimeur &amp; Librairie ordinaire</p>
-      <p>Du <persName key="louisxiv" role="destinataire">Roy</persName>, <placeName key="rue_saint_jacques">ruë S. Jacques, à la Croix d’Or</placeName>.</p>
-      <p><date when="1668-07-18">M. DC. LXVIII.</date>.</p>
+      <titlePage>
+      <docTitle>
+        <titlePart>Relation de la feste de Versailles. Du dix-huitiéme Iuillet mil six cens soixante-huit.</titlePart>
+      </docTitle>
+        <docImprint>A Paris, Chez PIERRE LE PETIT, Imprimeur &amp; Librairie ordinaire du Roy, ruë S. Jacques, à la Croix d'Or.</docImprint>
+        <docDate>M. DC. LXVIII.</docDate>
+    </titlePage>
+    </front>
+    <body>
       <pb n="2" xml:id="p2"/>
       <pb n="3" xml:id="p3"/>
-      <p> Relation de la Feste de <placeName key="versailles">Versailles</placeName>.</p>
+      <head> Relation de la Feste de <placeName key="versailles">Versailles</placeName>.</head>
       <p>Du <date when="1668-07-18">dix-huitième juillet mil six cens soixante-huit</date>.</p>
       <p><persName key="louisxiv" role="destinataire">LE Roy</persName> ayant accordé la Paix aux instances de ses Alliez &amp; aux vœux de toute <placeName key="europe">l’Europe</placeName>, &amp; donné des marques d’une modération &amp; d’une bonté sans exemple, mesme dans le plus fort de ses conquestes, ne pensoit plus qu’à s’appliquer aux affaires de son <placeName key="france">Royaume</placeName>, lors que pour reparer en quelque sorte ce que la Cour avoit perdu dans le Carnaval pendant <pb n="4" xml:id="p4"/>son absence, il resolut de faire une Feste dans les <placeName key="versailles_jardins">jardins de Versailles</placeName> où parmy les plaisirs que l’on trouve dans un sejour si délicieux, l’esprit fust encore touché de ces beautez surprenantes &amp; extraordinaires dont ce grand <persName key="louisxiv" role="destinataire">Prince</persName> sçait si bien assaisonner tous ses divertissements.</p>
       <p ana="description">Pour cet effet voulant donner la Comedie ensuite d’une colation, &amp; souper aprés la Comedie qui fust suivy d’un bal &amp; d’un <tech type="feux-artifice">feu d’artifice</tech> ; il jetta les yeux sur les personnes qu’il jugea les plus capables pour disposer toutes les choses propres à cela. Il leur marqua lui-mesme les endroits où la disposition du lieu pouvoit par sa beauté naturelle contribuër davantage à leur <tech type="decor">decoration</tech>. Et parce que l’un des plus beaux ornemens de cette Maison est la quantité des <tech type="eaux">eaux</tech> que l’art y a conduites malgré la nature qui les luy avoit refusées, <persName key="louisxiv" role="commanditaire">sa Majesté</persName> leur ordonna de s’en servir le plus qu’ils pourroient à l’embellissement de ces lieux, &amp; mesme leur ouvrit les moyens de les employer &amp; d’en tirer les effets qu’elles peuvent faire. </p>
