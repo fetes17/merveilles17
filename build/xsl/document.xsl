@@ -19,7 +19,7 @@
     <!-- title -->
     <xsl:value-of select="$tab"/>
     <xsl:variable name="title">
-      <xsl:apply-templates select="(/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc//tei:title)[1]/node()"/>
+      <xsl:apply-templates select="(/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title)[1]/node()"/>
     </xsl:variable>
     <xsl:choose>
       <xsl:when test="normalize-space($title) != ''">
