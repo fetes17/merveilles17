@@ -139,17 +139,38 @@
             </element>
           </optional>
           <element name="sourceDesc">
-            <ref name="bibl"/>
+            <element name="bibl">
+              <interleave>
+                <text/>
+                <ref name="title"/>
+                <element name="ptr">
+                  <a:documentation>Lien vers une source numérique</a:documentation>
+                  <attribute name="target"/>
+                  <empty/>
+                </element>
+                <choice>
+                  <element name="date">
+                    <text/>
+                  </element>
+                  <element name="idno">
+                    <text/>
+                  </element>
+                </choice>
+                <ref name="pubPlace"/>
+                <optional>
+                  <ref name="publisher"/>
+                </optional>
+                <zeroOrMore>
+                  <choice>
+                    <ref name="emph"/>
+                    <ref name="sc"/>
+                  </choice>
+                </zeroOrMore>
+              </interleave>
+            </element>
             <optional>
               <ref name="msDesc"/>
             </optional>
-            <element name="idno">
-              <a:documentation>Lien vers une source numérique</a:documentation>
-              <attribute name="type">
-                <value>application/pdf</value>
-              </attribute>
-              <text/>
-            </element>
           </element>
         </element>
         <element name="profileDesc">
@@ -200,6 +221,18 @@
         </a:example>
         <attribute name="key"/>
         <attribute name="role"/>
+        <text/>
+      </element>
+    </define>
+    <define name="pubPlace">
+      <element name="pubPlace">
+        <a:documentation>Lieu de publication dans une référence bibliographique</a:documentation>
+        <text/>
+      </element>
+    </define>
+    <define name="publisher">
+      <element name="publisher">
+        <a:documentation>Éditeur, imprimeur, libraire, ou autre organisation responsable de de la publication</a:documentation>
         <text/>
       </element>
     </define>
@@ -813,10 +846,10 @@
         <a:documentation>Une note, encodée dans le flux du texte, au point de l’appel</a:documentation>
         <optional>
           <attribute name="place">
-             <choice>
-               <value>bottom</value>
-               <value>margin</value>
-             </choice>
+            <choice>
+              <value>bottom</value>
+              <value>margin</value>
+            </choice>
           </attribute>
         </optional>
         <choice>

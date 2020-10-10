@@ -14,6 +14,8 @@ Merveilles17::control();
 
 class Merveilles17
 {
+  /** extension for links */
+  static $_html = '.html';
   /** SQLite link */
   static public $pdo;
   /** Home directory of project, absolute */
@@ -30,13 +32,19 @@ PRAGMA page_size = 8192;
 CREATE TABLE document (
   -- répertoire des documents
   id             INTEGER,               -- ! rowid auto
-  code           TEXT UNIQUE NOT NULL,  -- ! code unique
   type           TEXT,                  -- ! type de document
+  code           TEXT UNIQUE NOT NULL,  -- ! code unique
+  length         INTEGER,               -- ! taille en caractères (auto)
+  title          TEXT NOT NULL,         -- ! titre
+  pubdate        TEXT,                  -- ? date de publication (pas pour les archives)
+  pubplace       TEXT NOT NULL,         -- ! lieu de publication (ou de conservation)
+  publisher      TEXT,                  -- ? éditeur (pas pour les archives)
+  idno           TEXT,                  -- ? cote (pour les archives)
+  ptr            TEXT NOT NULL,         -- ! url de la source numérique
   bibl           TEXT NOT NULL,         -- ! référence bibliographique (html)
-  length         INTEGER,               -- ! taille en caractères
-  personne_count INTEGER,               -- ! nombre de personnes citées
-  lieu_count     INTEGER,               -- ! nombre de lieux
-  tech_count     INTEGER,               -- ! nombre de techniques
+  personne_count INTEGER,               -- ! nombre de personnes citées (auto)
+  lieu_count     INTEGER,               -- ! nombre de lieux (auto)
+  tech_count     INTEGER,               -- ! nombre de techniques (auto)
   PRIMARY KEY(id ASC)
 );
 CREATE INDEX document_type ON document(type, code);
@@ -183,6 +191,8 @@ CREATE INDEX date_document_document ON date_document(document);
     self::tsv_insert("technique", array("code", "label"), file_get_contents(self::$home."index/technique.tsv"));
     self::tsv_insert("personne", array("code", "label", "gender", "birth", "death", "databnf", "wikipedia", "isni"), file_get_contents(self::$home."index/personne.tsv"));
     
+    $document_cols = array("type", "code", "length", "title", "pubdate", "pubplace", "publisher", "idno", "ptr", "bibl");
+    
     // different generated files    
     $readme = "
 # Merveilles de la Cour, les textes
@@ -190,7 +200,7 @@ CREATE INDEX date_document_document ON date_document(document);
 [Documentation du schema](https://fetes17.github.io/merveilles17/merveilles17.html)
 
 ";
-    $document = "document_code\ttype\tbibl\tlength\n";
+    $document = implode("\t", $document_cols)."\n";
     $lieu_document =           "lieu_code\tdocument_code\tanchor\toccurrence\tdesc\n";
     $technique_document = "technique_code\tdocument_code\tanchor\toccurrence\n";
     $personne_document =   "personne_code\tdocument_code\tanchor\toccurrence\trole\n";
@@ -204,7 +214,7 @@ CREATE INDEX date_document_document ON date_document(document);
       $readme .= "* [".basename($srcfile)."](https://fetes17.github.io/merveilles17/xml/".basename($srcfile).")\n";
 
       $dstname = basename($srcfile, ".xml");
-      $dstfile = self::$home."site/".$dstname.".html";
+      $dstfile = self::$home."site/".$dstname.self::$_html;
       
       
       $line = Build::transformDoc($dom, self::$home."build/xsl/document.xsl", null, array('filename' => $dstname));
@@ -229,7 +239,7 @@ CREATE INDEX date_document_document ON date_document(document);
     file_put_contents(self::$home."site/data/date_document.tsv", $date_document);
 
     // charger les tsv en base
-    self::tsv_insert("document", array("code", "type", "bibl", "length"), $document);
+    self::tsv_insert("document", $document_cols, $document);
     self::tsv_insert("lieu_document", array("lieu_code", "document_code", "anchor", "occurrence", "desc"), $lieu_document);
     self::tsv_insert("technique_document", array("technique_code", "document_code", "anchor", "occurrence"), $technique_document);
     self::tsv_insert("personne_document", array("personne_code", "document_code", "anchor", "occurrence", "role"), $personne_document);
@@ -305,7 +315,7 @@ CREATE INDEX date_document_document ON date_document(document);
     
     $template = str_replace("%relpath%", "../", self::$template);
     $index = '<div class="container">'.self::uldocs(null, null, "").'</div>';
-    file_put_contents(self::$home."site/document/index.html", str_replace("%main%", $index, $template));
+    file_put_contents(self::$home."site/document/index".self::$_html, str_replace("%main%", $index, $template));
     
     $qid = self::$pdo->prepare("SELECT id FROM document WHERE code = ?");
     
@@ -335,7 +345,7 @@ CREATE INDEX date_document_document ON date_document(document);
         $q_pers->execute(array($row['personne']));
         list($label) = $q_pers->fetch();
         if (!$label) $label = '<i>['.$row['personne_code'].']</i>';
-        $personnes .= '<li><a href="../personne/'.$row['personne_code'].'.html">'.$label.'</a> ('.$row['count'].')</li>'."\n";
+        $personnes .= '<li><a href="../personne/'.$row['personne_code'].self::$_html.'">'.$label.'</a> ('.$row['count'].')</li>'."\n";
         $count++;
       }
       $personnes .= '</ul>'."\n";
@@ -351,7 +361,7 @@ CREATE INDEX date_document_document ON date_document(document);
         $q_lieu->execute(array($row['lieu']));
         list($label) = $q_lieu->fetch();
         if (!$label) $label = '<i>['.$row['lieu_code'].']</i>';
-        $lieux .= '<li><a href="../lieu/'.$row['lieu_code'].'.html">'.$label.'</a> ('.$row['count'].')</li>'."\n";
+        $lieux .= '<li><a href="../lieu/'.$row['lieu_code'].self::$_html.'">'.$label.'</a> ('.$row['count'].')</li>'."\n";
         $count++;
       }
       $lieux .= '</ul>'."\n";
@@ -363,7 +373,7 @@ CREATE INDEX date_document_document ON date_document(document);
       $techniques = '<ul>'."\n";
       $count = 0;
       while ($row = $qtechniques->fetch(PDO::FETCH_ASSOC)) {
-        $techniques .= '<li><a href="../technique/'.$row['code'].'.html">'.$row['label'].'</a> ('.$row['count'].')</li>'."\n";
+        $techniques .= '<li><a href="../technique/'.$row['code'].self::$_html.'">'.$row['label'].'</a> ('.$row['count'].')</li>'."\n";
         $count++;
       }
       $techniques .= '</ul>'."\n";
@@ -371,7 +381,7 @@ CREATE INDEX date_document_document ON date_document(document);
       $page = str_replace("%techniques%", $techniques, $page);
       
       
-      file_put_contents(self::$home.'site/document/'.$document_code.'.html', str_replace('%main%', $page, $template));
+      file_put_contents(self::$home.'site/document/'.$document_code.self::$_html, str_replace('%main%', $page, $template));
     }
 
   
@@ -401,10 +411,10 @@ CREATE INDEX date_document_document ON date_document(document);
     $stmt = self::$pdo->prepare("SELECT * FROM technique ORDER BY docs DESC, code ");
     $stmt->execute();
     while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
-      $href = "technique/".$row['code'].".html";
+      $href = "technique/".$row['code'].self::$_html;
       $index .= '
     <tr>
-      <td class="label"><a href="'.$row['code'].'.html">'.$row['label'].'</a></td>
+      <td class="label"><a href="'.$row['code'].self::$_html.'">'.$row['label'].'</a></td>
       <td class="docs">'.$row['docs'].'</td>
       <td class="occs">'.$row['occs'].'</td>
     </tr>
@@ -461,11 +471,11 @@ CREATE INDEX date_document_document ON date_document(document);
     $stmt = self::$pdo->prepare("SELECT * FROM personne ORDER BY docs DESC, code ");
     $stmt->execute();
     while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
-      $href = "personne/".$row['code'].".html";
+      $href = "personne/".$row['code'].self::$_html;
       if (!$row['label']) $row['label'] = '[<i>'.$row['code'].'</i>]';
       $index .= '
       <tr>
-        <td class="label"><a href="'.$row['code'].'.html">'.$row['label'].'</a></td>
+        <td class="label"><a href="'.$row['code'].self::$_html.'">'.$row['label'].'</a></td>
         <td class="birth">'.$row['birth'].'</td>
         <td class="death">'.$row['death'].'</td>
         <td class="docs">'.$row['docs'].'</td>
@@ -539,7 +549,7 @@ CREATE INDEX date_document_document ON date_document(document);
     while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
       $index .= '
       <tr>
-        <td class="label"><a href="'.$row['code'].'.html">'.$row['label'].'</a></td>
+        <td class="label"><a href="'.$row['code'].self::$_html.'">'.$row['label'].'</a></td>
         <td class="docs">'.$row['docs'].'</td>
         <td class="occs">'.$row['occs'].'</td>
       </tr>
@@ -597,17 +607,28 @@ CREATE INDEX date_document_document ON date_document(document);
     $html = "";
     while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
       if ($type != $row['type']) {
-        if($type) $html .= "</ul></div>\n";
-        $html .= '<div class="doctype" id="'.$row['type'].'">'."\n";
+        if($type) $html .= "</section>\n";
+        $html .= '<section class="doctype" id="'.$row['type'].'">'."\n";
         if (isset(self::$doctype[$row['type']])) $h4 = self::$doctype[$row['type']];
         else $h4 = $row['type'];
-        $html .= '<h4>'.$h4.'</h4>'."\n";
-        $html .= "<ul>\n";
-        $type =  $row['type'];
+        $html .= '<h3>'.$h4.'</h3>'."\n";
+        $type = $row['type'];
       }
-      $html .= '<li><a href="'.$relpath.$row['code'].'.html">'.$row['bibl'].'</a></li>'."\n";
+      $html .= '<a class="document" href="'.$relpath.$row['code'].self::$_html.'">'."\n";
+      $html .= '  <img src="'.$relpath.$row['code'].'.jpg"/>'."\n";
+      $html .= '  <div>'."\n";
+      $html .= '    <div class="title">'.$row['title'].'</div>'."\n";
+      $html .= '    <div class="publication">';
+      $html .= $row['pubplace'];
+      if ($row['publisher']) $html .= ', '.$row['publisher'];
+      $html .= ' – ';
+      if ($row['pubdate']) $html .= $row['pubdate'];
+      else $html .= $row['idno'];
+      $html .= '</div>'."\n";
+      $html .= '  </div>'."\n";
+      $html .= '</a>'."\n";
     }
-    if($html) $html .= "</ul></div>\n";
+    if($html) $html .= "</section>\n";
     return $html;
   }
 

@@ -3,18 +3,27 @@
   <xsl:import href="../../style/flow.xsl"/>
   <xsl:param name="filename"/>
   <xsl:output indent="yes" encoding="UTF-8" method="xml" omit-xml-declaration="yes"/>
+  <!--
+  type	code	length	title	pubdate	pubplace	publisher	idno	ptr	bibl
+  -->
   <xsl:template match="/">
-    <xsl:value-of select="$filename"/>
-    <xsl:value-of select="$tab"/>
+    <!-- type -->
     <xsl:variable name="type" select="substring-before(substring-after($filename, '_'), '_')"/>
     <xsl:value-of select="$type"/>
+    <!-- code -->
     <xsl:value-of select="$tab"/>
-    <xsl:variable name="bibl">
-      <xsl:apply-templates select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:bibl[1]/node()"/>
+    <xsl:value-of select="$filename"/>
+    <!-- length -->
+    <xsl:value-of select="$tab"/>
+    <xsl:value-of select="string-length(normalize-space(/tei:TEI/tei:text|/tei:TEI/tei:sourceDoc))"/>
+    <!-- title -->
+    <xsl:value-of select="$tab"/>
+    <xsl:variable name="title">
+      <xsl:apply-templates select="(/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc//tei:title)[1]/node()"/>
     </xsl:variable>
     <xsl:choose>
-      <xsl:when test="normalize-space($bibl) != ''">
-        <xsl:copy-of select="$bibl"/>
+      <xsl:when test="normalize-space($title) != ''">
+        <xsl:copy-of select="$title"/>
       </xsl:when>
       <xsl:otherwise>
         <xsl:text>[</xsl:text>
@@ -22,9 +31,27 @@
         <xsl:text>]</xsl:text>
       </xsl:otherwise>
     </xsl:choose>
+    <!-- pubdate -->
     <xsl:value-of select="$tab"/>
-    <xsl:value-of select="string-length(normalize-space(/tei:TEI/tei:text))"/>
+    <xsl:value-of select="normalize-space((/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc//tei:date)[1])"/>
+    <!-- pubplace -->
+    <xsl:value-of select="$tab"/>
+    <xsl:value-of select="normalize-space((/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc//tei:pubPlace)[1])"/>
+    <!-- publisher -->
+    <xsl:value-of select="$tab"/>
+    <xsl:value-of select="normalize-space((/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc//tei:publisher)[1])"/>
+    <!-- idno -->
+    <xsl:value-of select="$tab"/>
+    <xsl:value-of select="normalize-space((/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc//tei:idno)[1])"/>
+    <!-- ptr -->
+    <xsl:value-of select="$tab"/>
+    <xsl:value-of select="normalize-space((/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc//tei:ptr)[1]/@target)"/>
+    <!-- bibl -->
+    <xsl:value-of select="$tab"/>
+    <xsl:apply-templates select="(/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:bibl)[1]/node()"/>
   </xsl:template>
+  
+  <!-- sortir les sauts de lignes du texte brut -->
   <xsl:template match="text()">
     <xsl:variable name="text" select="translate(., ' ', '')"/>
     <xsl:if test="translate(substring($text, 1,1), concat(' ', $lf, $cr, $tab), '') = ''">

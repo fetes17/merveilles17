@@ -39,11 +39,11 @@
                   <a class="texte" href="#">Accéder au texte intégral</a>
                 </div>
               </div>
-              <xsl:for-each select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:idno">
+              <xsl:for-each select="(/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc//tei:ptr)[1]">
                 <div class="download">
                   <a class="download">
                     <xsl:attribute name="href">
-                      <xsl:value-of select="."/>
+                      <xsl:value-of select="@target"/>
                     </xsl:attribute>
                     <xsl:text>Document source</xsl:text>
                   </a>
