@@ -1,9 +1,44 @@
 'use strict';
+// for bottom script only
 
+// instancier le viewer sur des images
+let els = document.querySelectorAll('.iiif');
+for (let i = 0, max = els.length; i < max; i++) {
+  let a = els[i];
+  a.addEventListener("click",function(e){
+    e.preventDefault();
+  },false);
+  new Viewer(a, {
+    inline: false,
+    navbar: false,
+    url(image) {
+      return a.href;
+    },
+    toolbar: {
+      zoomIn: 4,
+      zoomOut: 4,
+      oneToOne: 4,
+      reset: 4,
+      prev: 0,
+      play: {
+        show: 0,
+        size: 'large',
+      },
+      next: 0,
+      rotateLeft: 0,
+      rotateRight: 0,
+      flipHorizontal: 0,
+      flipVertical: 0,
+    },
+  });
+}
 
-var splitH = Split(['#aside', '#main'], { sizes: [30, 70], gutterSize: 3, });
-var aside = document.getElementById('aside');
-var main = document.getElementById('main');
+/* TODO meilleur tests */
+if (typeof Split !== 'undefined') {
+  var splitH = Split(['#aside', '#main'], { sizes: [30, 70], gutterSize: 3, });
+  var aside = document.getElementById('aside');
+  var main = document.getElementById('main');
+}
 
 if (aside) {
   let els = aside.getElementsByTagName('details');

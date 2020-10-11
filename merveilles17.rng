@@ -562,11 +562,14 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
           </element>
           <zeroOrMore>
             <choice>
-            <ref name="head"/>
+              <ref name="byline"/>
+              <ref name="dateline"/>
+              <ref name="head"/>
               <ref name="l"/>
               <ref name="label"/>
               <ref name="lg"/>
               <ref name="p"/>
+              <ref name="signed"/>
             </choice>
           </zeroOrMore>
         </interleave>

@@ -24,6 +24,7 @@
               <xsl:apply-templates select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt"/>
               <xsl:apply-templates select="/tei:TEI/tei:sourceDoc"/>
               <xsl:apply-templates select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:notesStmt"/>
+              <xsl:call-template name="download"/>
             </xsl:when>
             <xsl:otherwise>
               <div class="row">
@@ -39,16 +40,7 @@
                       <a class="texte" href="#">Accéder au texte intégral</a>
                     </div>
                   </div>
-                  <xsl:for-each select="(/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc//tei:ptr)[1]">
-                    <div class="download">
-                      <a class="download">
-                        <xsl:attribute name="href">
-                          <xsl:value-of select="@target"/>
-                        </xsl:attribute>
-                        <xsl:text>Document source</xsl:text>
-                      </a>
-                    </div>
-                  </xsl:for-each>
+                  <xsl:call-template name="download"/>
                 </div>
                 <div class="col-3">
                   <img src="{$filename}.jpg"/>
@@ -131,6 +123,18 @@
         </div>
       </div>
     </article>
+  </xsl:template>
+  <xsl:template name="download">
+    <xsl:for-each select="(/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc//tei:ptr)[1]">
+      <div class="download">
+        <a class="download" target="_blank">
+          <xsl:attribute name="href">
+            <xsl:value-of select="@target"/>
+          </xsl:attribute>
+          <xsl:text>Document source</xsl:text>
+        </a>
+      </div>
+    </xsl:for-each>
   </xsl:template>
   <xsl:template match="tei:titleStmt">
     <h1>
@@ -222,13 +226,24 @@
   <xsl:template match="tei:graphic">
     <xsl:choose>
       <xsl:when test="contains(@url, '/iiif/')">
-        <a href="{@url}" target="_blank" class="modal">
+        <a href="{@url}" target="_blank" class="iiif">
           <xsl:variable name="src">
             <xsl:value-of select="substring-before(@url, '/full/0/')"/>
             <xsl:text>/1140,/0/</xsl:text>
             <xsl:value-of select="substring-after(@url, '/full/0/')"/>
           </xsl:variable>
-          <img src="{$src}"/>
+          <img src="{$src}" alt="{$doctitle}">
+            <xsl:attribute name="alt">
+              <xsl:choose>
+                <xsl:when test="ancestor::tei:sourceDoc">
+                  <xsl:value-of select="normalize-space($doctitle)"/>
+                </xsl:when>
+                <xsl:otherwise>
+                  <xsl:value-of select="normalize-space(../tei:figDesc)"/>
+                </xsl:otherwise>
+              </xsl:choose>
+            </xsl:attribute>
+          </img>
         </a>
       </xsl:when>
       <xsl:otherwise>
