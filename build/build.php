@@ -138,7 +138,7 @@ CREATE TABLE personne_document (
   PRIMARY KEY(id ASC)
 );
 CREATE INDEX personne_document_personne ON personne_document(personne);
-CREATE INDEX personne_document_document ON personne_document(document);
+CREATE INDEX personne_document_document ON personne_document(document, personne_code);
 
 CREATE TABLE date (
   -- chronologie
@@ -324,8 +324,8 @@ CREATE INDEX date_document_document ON date_document(document);
     
     $qtechniques = self::$pdo->prepare("SELECT technique.id, technique.code, technique.label, COUNT(document_code) AS count FROM technique, technique_document WHERE document_code = ? AND technique_document.technique = technique.id GROUP BY technique ORDER BY count DESC");
     
-    
-    $q_pers_doc = self::$pdo->prepare("SELECT personne, personne_code, COUNT(document_code) AS count FROM personne_document  WHERE document_code = ? GROUP BY personne ORDER BY count DESC");
+    // group by personne_code for unknown personne
+    $q_pers_doc = self::$pdo->prepare("SELECT personne, personne_code, COUNT(*) AS count FROM personne_document  WHERE document_code = ? GROUP BY personne_code ORDER BY count DESC, personne_code");
     $q_pers = self::$pdo->prepare("SELECT label FROM personne WHERE id = ?");
     // $qpersonnes = self::$pdo->prepare("SELECT personne.id, personne.code, personne.label, COUNT(document_code) AS count FROM personne, personne_document WHERE document_code = ? AND personne_document.personne = personne.id GROUP BY personne ORDER BY count DESC");
     

@@ -157,6 +157,11 @@
     <time class="date">
       <xsl:value-of select="/tei:TEI/tei:teiHeader/tei:profileDesc/tei:creation/tei:date"/>
     </time>
+    <xsl:for-each select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:bibl/tei:note">
+      <div class="note">
+        <xsl:apply-templates />
+      </div>
+    </xsl:for-each>
   </xsl:template>
   <xsl:template name="ellipse">
     <xsl:param name="node"/>

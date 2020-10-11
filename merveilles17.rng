@@ -136,7 +136,8 @@
           </optional>
           <element name="sourceDesc">
             <element name="bibl">
-              <a:documentation>Ligne bibliographique librement ponctuée, avec plusieurs composants à baliser</a:documentation>
+              <a:documentation>Ligne bibliographique librement ponctuée, avec plusieurs composants balisables.</a:documentation>
+              <!--
               <h:div xmlns="http://www.w3.org/1999/xhtml">
 Note : la sémantique de certains éléments a été assouplie pour simplifier la validation et l’extraction.
 <ul>
@@ -147,33 +148,36 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
   <li><a:el>publisher</a:el> : optionnel, éditeur pour les imprimés (ou dépôt pour les pièces d’archive)</li>
 </ul>
               </h:div>
-              <interleave>
-                <text/>
-                <ref name="title"/>
-                <element name="ptr">
-                  <a:documentation>Lien vers une source numérique</a:documentation>
-                  <attribute name="target"/>
-                  <empty/>
-                </element>
+              -->
+              <zeroOrMore>
                 <choice>
-                  <element name="date">
-                    <text/>
+                  <text/>
+                  <ref name="bibl.date"/>
+                  <ref name="emph"/>
+                  <ref name="bibl.idno"/>
+                  <element name="note">
+                    <zeroOrMore>
+                      <choice>
+                        <text/>
+                        <ref name="bibl.date"/>
+                        <ref name="bibl.idno"/>
+                        <ref name="publisher"/>
+                        <ref name="pubPlace"/>
+                        <ref name="sc"/>
+                      </choice>
+                    </zeroOrMore>
                   </element>
-                  <element name="idno">
-                    <text/>
-                  </element>
-                </choice>
-                <ref name="pubPlace"/>
-                <optional>
                   <ref name="publisher"/>
-                </optional>
-                <zeroOrMore>
-                  <choice>
-                    <ref name="emph"/>
-                    <ref name="sc"/>
-                  </choice>
-                </zeroOrMore>
-              </interleave>
+                  <ref name="pubPlace"/>
+                  <ref name="sc"/>
+                  <ref name="title"/>
+                </choice>
+              </zeroOrMore>
+              <element name="ptr">
+                <a:documentation>Lien vers une source numérique</a:documentation>
+                <attribute name="target"/>
+                <empty/>
+              </element>
             </element>
             <optional>
               <ref name="msDesc"/>
@@ -208,6 +212,16 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
             </optional>
           </interleave>
         </element>
+      </element>
+    </define>
+    <define name="bibl.date">
+      <element name="date">
+        <text/>
+      </element>
+    </define>
+    <define name="bibl.idno">
+      <element name="idno">
+        <text/>
       </element>
     </define>
     <define name="author">
