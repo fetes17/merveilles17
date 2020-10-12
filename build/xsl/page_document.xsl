@@ -13,6 +13,7 @@
   <xsl:key name="persName" match="tei:persName" use="normalize-space(@key)"/>
   <xsl:key name="tech" match="tei:tech" use="normalize-space(@type)"/>
   <xsl:key name="ana" match="*[@ana]" use="normalize-space(@ana)"/>
+  <xsl:key name="when" match="tei:date[@when]" use="normalize-space(@when)"/>
   <xsl:variable name="lf" select="'&#10;'"/>
   <xsl:variable name="type" select="substring-before(substring-after($filename, '_'), '_')"/>
   <xsl:template match="/">
@@ -36,9 +37,9 @@
                       <xsl:with-param name="node" select="/tei:TEI/tei:text/tei:body"/>
                       <xsl:with-param name="length" select="300"/>
                     </xsl:call-template>
-                    <div>
-                      <a class="texte" href="#">Accéder au texte intégral</a>
-                    </div>
+                  </div>
+                  <div>
+                    <a class="texte" href="#">Accéder au texte intégral</a>
                   </div>
                   <xsl:call-template name="download"/>
                 </div>
@@ -52,77 +53,126 @@
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-9">
-            <xsl:if test="//*[@ana][@ana != 'description']">
-              <div class="doc_ana">
-                <h2>Techniques d’écriture</h2>
-                <ul>
-                  <xsl:for-each select="//*[@ana][@ana != 'description'][count(. | key('ana', normalize-space(@ana))[1]) = 1]">
-                    <xsl:sort select="count(key('ana', @ana))" order="descending"/>
-                    <xsl:variable name="key" select="@ana"/>
-                    <li>
-                      <xsl:value-of select="$ana[@xml:id = $key]/tei:term"/>
-                      <xsl:text> </xsl:text>
-                      <b>
-                        <xsl:text>(</xsl:text>
-                        <xsl:value-of select="count(key('ana', $key))"/>
-                        <xsl:text>)</xsl:text>
-                      </b>
-                    </li>
-                  </xsl:for-each>
-                </ul>
-              </div>
-            </xsl:if>
-            <div>
-              <h2>Documents liés</h2>
-            </div>
-            <div id="doc_theme">
-              <h2>Thèmes</h2>
-              <xsl:variable name="tag">name</xsl:variable>
-              <xsl:for-each select="//*[name() = $tag][count(. | key($tag, normalize-space(@key|@type))[1]) = 1][not(ancestor::tei:teiHeader)]">
-                <xsl:sort select="count(key($tag, @key|@type))" order="descending"/>
-                <xsl:choose>
-                  <xsl:when test="position() &gt; 40"/>
-                  <xsl:when test="@key">
-                    <a href="#" class="theme">
-                      <xsl:value-of select="@key"/>
-                    </a>
-                    <xsl:text> </xsl:text>
-                  </xsl:when>
-                </xsl:choose>
-              </xsl:for-each>
-            </div>
+          <div class="col-9 doc_ventre"> 
+            %lieux% 
+            %personnes% 
           </div>
           <div class="col-3">
-            <div id="doc_chrono">
-              <h2>Événements liés</h2>
-              <ul>
-                <xsl:for-each select="/tei:TEI/tei:text//tei:date | /tei:TEI/tei:sourceDoc//tei:date">
-                  <xsl:sort select="@when"/>
-                  <li>
-                    <xsl:choose>
-                      <xsl:when test="@when">
-                        <xsl:value-of select="@when"/>
-                      </xsl:when>
-                      <xsl:otherwise>
-                        <xsl:for-each select="@*">
-                          <xsl:value-of select="name()"/>
-                          <xsl:text>=</xsl:text>
-                          <xsl:value-of select="."/>
-                        </xsl:for-each>
-                      </xsl:otherwise>
-                    </xsl:choose>
-                  </li>
-                </xsl:for-each>
-              </ul>
-            </div>
-            %lieux%
-            %personnes%
-            %techniques%
+            <xsl:call-template name="events"/>
+          </div>
+        </div>
+        <div class="row techs">
+          <div class="col-9 doc_ventre"> 
+            <xsl:call-template name="themes"/>
+          </div>
+          <div class="col-3">
+            %techniques% 
+            <xsl:call-template name="anas"/>
           </div>
         </div>
       </div>
+      <div class="bg-gray">
+        <div class="container">
+          <xsl:call-template name="relations"/>
+        </div>
+      </div>
     </article>
+  </xsl:template>
+  <xsl:template name="relations">
+    <h2>Documents liés</h2>
+    <p><small>Documents pris au hasard, non signficatifs</small></p>
+    <h3>Inclusions</h3>
+    <a class="document" href="merveilles17_image_pie1-comparse.html">
+      <img src="merveilles17_image_pie1-comparse.jpg"/>
+      <div>
+        <div class="title">Première journée. Comparse du Roy et de ses chevaliers, auec toutes leurs suittes, dans le Camp de la course de bague, pendant l'Ouuerture : de la feste faite par les recits d'Apollon et des quatre siecles, assis sur un grand char de triomphe</div>
+        <div class="publication">Paris – RESERVE QB-201 (46)-FOL, Hennin, 4209</div>
+      </div>
+    </a>
+    <a class="document" href="merveilles17_image_pie1festin.html">
+      <img src="merveilles17_image_pie1festin.jpg"/>
+      <div>
+        <div class="title">Première journée. Festin du Roy, et des Reynes auec plusieurs Princesses et Dames serui de tous les mets et presens faits par les Dieux et les quatre saisons</div>
+        <div class="publication"> – RESERVE QB-201 (46)-FOL, Hennin, 4212</div>
+      </div>
+    </a>
+    <h3>Même événement</h3>
+    <a class="document" href="merveilles17_i_pie1673.html">
+      <img src="merveilles17_i_pie1673.jpg"/>
+      <div>
+        <div class="title">Les plaisirs de l’isle enchantée. Course de bague; collation ornée de machines; comedie, meslée de danse et de musique; ballet du palais d’Alcine; feu d’artifice; et autres festes galantes et magnifiques faites par le Roy a Versailles le VII. May M.DC.LXIV. et continuées plusieurs autres jours</div>
+        <div class="publication">Paris, imprimerie royale – 1673</div>
+      </div>
+    </a>
+    <a class="document" href="merveilles17_i_gdv_felibien1668.html">
+      <img src="merveilles17_i_gdv_felibien1668.jpg"/>
+      <div>
+        <div class="title"> Relation de la feste de Versailles. Du dix-huitième juillet mil six cens soixante-huit. Par André Félibien. </div>
+        <div class="publication">Paris, Pierre le Petit – 1668</div>
+      </div>
+    </a>
+  </xsl:template>
+  <!-- Techniques d’écriture -->
+  <xsl:template name="anas">
+    <xsl:if test="//*[@ana][@ana != 'description']">
+      <div class="doc_ana">
+        <h2>Techniques d’écriture</h2>
+        <ul>
+          <xsl:for-each select="//*[@ana][@ana != 'description'][count(. | key('ana', normalize-space(@ana))[1]) = 1]">
+            <xsl:sort select="count(key('ana', @ana))" order="descending"/>
+            <xsl:variable name="key" select="@ana"/>
+            <li>
+              <xsl:value-of select="$ana[@xml:id = $key]/tei:term"/>
+              <xsl:text> </xsl:text>
+              <b>
+                <xsl:text>(</xsl:text>
+                <xsl:value-of select="count(key('ana', $key))"/>
+                <xsl:text>)</xsl:text>
+              </b>
+            </li>
+          </xsl:for-each>
+        </ul>
+      </div>
+    </xsl:if>
+  </xsl:template>
+  <xsl:template name="themes">
+    <div id="doc_theme">
+      <h2>Thèmes</h2>
+      <xsl:variable name="tag">name</xsl:variable>
+      <xsl:for-each select="//*[name() = $tag][count(. | key($tag, normalize-space(@key|@type))[1]) = 1][not(ancestor::tei:teiHeader)]">
+        <xsl:sort select="count(key($tag, @key|@type))" order="descending"/>
+        <xsl:choose>
+          <xsl:when test="position() &gt; 200"/>
+          <xsl:when test="@key">
+            <a href="#" class="theme">
+              <xsl:value-of select="@key"/>
+            </a>
+            <xsl:text> </xsl:text>
+          </xsl:when>
+        </xsl:choose>
+      </xsl:for-each>
+    </div>
+  </xsl:template>
+  <xsl:template name="events">
+    <div id="doc_chrono">
+      <h2>Événements liés</h2>
+      <ul>
+        <xsl:for-each select="//tei:date[count(. | key('when', normalize-space(@when))[1]) = 1][not(ancestor::tei:teiHeader)]">
+          <xsl:sort select="@when"/>
+          <li class="event">
+            <span class="year">
+              <xsl:value-of select="substring(@when, 1, 4)"/>
+            </span>
+            <span class="day">
+              <xsl:value-of select="number(substring(@when, 9, 2))"/>
+            </span>
+            <span class="month">
+              <xsl:call-template name="month"/>
+            </span>
+          </li>
+        </xsl:for-each>
+      </ul>
+    </div>
   </xsl:template>
   <xsl:template name="download">
     <xsl:for-each select="(/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc//tei:ptr)[1]">
@@ -140,12 +190,12 @@
     <h1>
       <xsl:apply-templates select="tei:title/node()"/>
     </h1>
-    <xsl:for-each select="tei:author">
+    <xsl:for-each select="tei:author[normalize-space(.) != '']">
       <div class="author">
         <xsl:apply-templates/>
       </div>
     </xsl:for-each>
-    <xsl:for-each select="tei:editor">
+    <xsl:for-each select="tei:editor[normalize-space(.) != '']">
       <div class="editor">
         <xsl:value-of select="@role"/>
         <xsl:text> </xsl:text>
@@ -159,7 +209,7 @@
     </time>
     <xsl:for-each select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:bibl/tei:note">
       <div class="note">
-        <xsl:apply-templates />
+        <xsl:apply-templates/>
       </div>
     </xsl:for-each>
   </xsl:template>
@@ -227,7 +277,6 @@
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
-  
   <xsl:template match="tei:graphic">
     <xsl:choose>
       <xsl:when test="contains(@url, '/iiif/')">
@@ -256,7 +305,6 @@
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
-
   <!--
   <xsl:template match="tei:bibl">
     <div class="bibl">

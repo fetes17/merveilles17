@@ -392,6 +392,25 @@ Gobal TEI parameters and variables are divided in different categories
       </xsl:when>
     </xsl:choose>
   </xsl:template>
+  <!-- Get a month name -->
+  <xsl:template name="month">
+    <xsl:param name="when" select="@when"/>
+    <xsl:param name="num" select="number(substring($when, 6, 2))"/>
+    <xsl:choose>
+      <xsl:when test="$num = 1">janvier</xsl:when>
+      <xsl:when test="$num = 2">février</xsl:when>
+      <xsl:when test="$num = 3">mars</xsl:when>
+      <xsl:when test="$num = 4">avril</xsl:when>
+      <xsl:when test="$num = 5">mai</xsl:when>
+      <xsl:when test="$num = 6">juin</xsl:when>
+      <xsl:when test="$num = 7">juillet</xsl:when>
+      <xsl:when test="$num = 8">août</xsl:when>
+      <xsl:when test="$num = 9">septembre</xsl:when>
+      <xsl:when test="$num = 10">octobre</xsl:when>
+      <xsl:when test="$num = 11">novembre</xsl:when>
+      <xsl:when test="$num = 12">décembre</xsl:when>
+    </xsl:choose>
+  </xsl:template>
   <!-- Get a year from a date tag with different possible attributes -->
   <xsl:template match="*" mode="year" name="year">
     <xsl:choose>

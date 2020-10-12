@@ -2,7 +2,7 @@
 :root {
   --rose: #c07b78;
   --lien: #5c7877;
-  --gris: rgba(242, 242, 242, 0.2);
+  --gris: rgba(242, 242, 242, 0.8);
   --grege: #f1eeeb;
   --creme: #fafafa;
   --persName: rgba(0, 0, 128, 1);
@@ -25,6 +25,10 @@
 h2 a,
 body {
   color: #000;
+}
+
+.bg-gray {
+   background-color: var(--gris);
 }
 
 .bg-black {
@@ -120,6 +124,11 @@ h3 {
 
 main {
   flex: 1;
+}
+
+section {
+  padding: 0;
+  margin: 0;
 }
 
 sup {
@@ -529,13 +538,26 @@ a.document .publication {
 
 /** page document */
 
-article.document {
-  margin-bottom: 2rem;
+article.document .row,
+article.document .bg-gray {
+  padding-bottom: 2rem;
 }
 
 #doc_bibl {
   background-color: var(--grege);
   padding: 2rem 0;
+}
+
+.doc_ventre li {
+  display: inline-block;
+}
+
+.row.techs {
+  border-top: 1px solid #ccc;
+}
+
+li.event::before {
+  display: none;
 }
 
 div.author {

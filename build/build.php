@@ -348,7 +348,9 @@ CREATE INDEX date_document_document ON date_document(document);
         $q_pers->execute(array($row['personne']));
         list($label) = $q_pers->fetch();
         if (!$label) $label = '<i>['.$row['personne_code'].']</i>';
-        $personnes .= '<li><a href="../personne/'.$row['personne_code'].self::$_html.'">'.$label.'</a> ('.$row['count'].')</li>'."\n";
+        $personnes .= '<li><a href="../personne/'.$row['personne_code'].self::$_html.'">'.$label.'</a>';
+        if ($row['count'] > 1) $personnes .= ' ('.$row['count'].')';
+        $personnes .= '</li>'."\n";
         $count++;
       }
       $personnes .= '
