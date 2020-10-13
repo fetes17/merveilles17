@@ -31,6 +31,18 @@
         <xsl:text>]</xsl:text>
       </xsl:otherwise>
     </xsl:choose>
+    <!-- bibnote -->
+    <xsl:value-of select="$tab"/>
+    <xsl:apply-templates select="(/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:bibl)[1]//tei:note/node()"/>
+    <!-- ptr -->
+    <xsl:value-of select="$tab"/>
+    <xsl:value-of select="normalize-space((/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc//tei:ptr)[1]/@target)"/>
+    <!-- bibl -->
+    <xsl:value-of select="$tab"/>
+    <xsl:apply-templates select="(/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:bibl)[1]/node()"/>
+  </xsl:template>
+  
+  <xsl:template name="old">
     <!-- pubdate -->
     <xsl:value-of select="$tab"/>
     <xsl:value-of select="normalize-space((/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc//tei:date)[1])"/>
@@ -43,12 +55,7 @@
     <!-- idno -->
     <xsl:value-of select="$tab"/>
     <xsl:value-of select="normalize-space((/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc//tei:idno)[1])"/>
-    <!-- ptr -->
-    <xsl:value-of select="$tab"/>
-    <xsl:value-of select="normalize-space((/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc//tei:ptr)[1]/@target)"/>
-    <!-- bibl -->
-    <xsl:value-of select="$tab"/>
-    <xsl:apply-templates select="(/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:bibl)[1]/node()"/>
+
   </xsl:template>
   
   <!-- sortir les sauts de lignes du texte brut -->

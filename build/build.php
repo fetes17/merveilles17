@@ -36,10 +36,7 @@ CREATE TABLE document (
   code           TEXT UNIQUE NOT NULL,  -- ! code unique
   length         INTEGER,               -- ! taille en caractères (auto)
   title          TEXT NOT NULL,         -- ! titre
-  pubdate        TEXT,                  -- ? date de publication (pas pour les archives)
-  pubplace       TEXT NOT NULL,         -- ! lieu de publication (ou de conservation)
-  publisher      TEXT,                  -- ? éditeur (pas pour les archives)
-  idno           TEXT,                  -- ? cote (pour les archives)
+  publine        TEXT,                  -- ! complément bibliographique au titre
   ptr            TEXT NOT NULL,         -- ! url de la source numérique
   bibl           TEXT NOT NULL,         -- ! référence bibliographique (html)
   personne_count INTEGER,               -- ! nombre de personnes citées (auto)
@@ -191,7 +188,7 @@ CREATE INDEX date_document_document ON date_document(document);
     self::tsv_insert("technique", array("code", "label"), file_get_contents(self::$home."index/technique.tsv"));
     self::tsv_insert("personne", array("code", "label", "gender", "birth", "death", "databnf", "wikipedia", "isni"), file_get_contents(self::$home."index/personne.tsv"));
     
-    $document_cols = array("type", "code", "length", "title", "pubdate", "pubplace", "publisher", "idno", "ptr", "bibl");
+    $document_cols = array("type", "code", "length", "title", "publine", "ptr", "bibl");
     
     // different generated files    
     $readme = "
@@ -640,12 +637,15 @@ CREATE INDEX date_document_document ON date_document(document);
       $html .= '  <img src="'.$relpath.$row['code'].'.jpg"/>'."\n";
       $html .= '  <div>'."\n";
       $html .= '    <div class="title">'.$row['title'].'</div>'."\n";
-      $html .= '    <div class="publication">';
+      $html .= '    <div class="publine">';
+      /*
       $html .= $row['pubplace'];
       if ($row['publisher']) $html .= ', '.$row['publisher'];
       $html .= ' – ';
       if ($row['pubdate']) $html .= $row['pubdate'];
       else $html .= $row['idno'];
+      */
+      $html .= $row['publine'];
       $html .= '</div>'."\n";
       $html .= '  </div>'."\n";
       $html .= '</a>'."\n";
