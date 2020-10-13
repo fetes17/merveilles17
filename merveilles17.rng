@@ -445,13 +445,9 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
     <define name="front">
       <element name="front">
         <a:documentation>Avant-texte, optionnel, pour page de titre</a:documentation>
-        <zeroOrMore>
-          <ref name="pb"/>
-        </zeroOrMore>
+        <ref name="point"/>
         <ref name="titlePage"/>
-        <zeroOrMore>
-          <ref name="pb"/>
-        </zeroOrMore>
+        <ref name="point"/>
       </element>
     </define>
     <define name="div">
@@ -542,12 +538,48 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
     </define>
   </div>
   <div>
+    <a:documentation>“Points” (insérables entre des caractères, entre des paragraphes)</a:documentation>
+    <define name="pb">
+      <element name="pb">
+        <a:documentation>Saut de page, “page break”, à placer avant le début du texte de la page, avec le numéro</a:documentation>
+        <optional>
+          <attribute name="n"/>
+        </optional>
+        <optional>
+          <attribute name="facs"/>
+        </optional>
+        <optional>
+          <ref name="xml.id"/>
+        </optional>
+      </element>
+    </define>
+    <define name="include">
+      <element name="ptr">
+        <a:documentation>Pointeur, principalement utilisé pour des inclusions</a:documentation>
+        <attribute name="target"/>
+        <attribute name="type">
+          <value>include</value>
+        </attribute>
+      </element>
+    </define>
+    <define name="point">
+      <zeroOrMore>
+        <choice>
+          <ref name="pb"/>
+          <ref name="include"/>
+        </choice>
+      </zeroOrMore>
+    </define>
+
+  </div>
+  <div>
     <a:documentation>Blocs (niveau paragraphe)</a:documentation>
     <define name="block">
       <choice>
         <ref name="byline"/>
         <ref name="dateline"/>
         <ref name="figure"/>
+        <ref name="include"/>
         <ref name="l"/>
         <ref name="lg"/>
         <ref name="label"/>
@@ -565,6 +597,9 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
     <define name="figure">
       <element name="figure">
         <a:documentation>Document image, avec lien oligatoire à une version numérique de l’image <a:el>graphic</a:el>, et une description contenant les termes indexés <a:el>figDesc</a:el></a:documentation>
+        <optional>
+          <ref name="xml.id"/>
+        </optional>
         <interleave>
           <ref name="graphic"/>
           <element name="figDesc">
@@ -623,6 +658,9 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
         <a:documentation>Strophe de vers [?] Est-ce qu’une strophe a toujours un type (quatrain, madrigal, sonnet…) ? Est-ce qu’il y a une liste close de types ? Quel fonctionnalité est attendue dans le site sur cette information ? Est-ce que cela ne relève pas des techniques littéraires ?</a:documentation>
         <optional>
           <ref name="xml.lang"/>
+        </optional>
+        <optional>
+          <ref name="xml.id"/>
         </optional>
         <optional>
           <ref name="ana"/>
@@ -690,6 +728,9 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
         <a:documentation>Listes, &lt;html5:ul> &lt;html5:ol> [?] quels types de listes ? type obligatoire ?</a:documentation>
         <optional>
           <ref name="ana"/>
+        </optional>
+        <optional>
+          <ref name="xml.id"/>
         </optional>
         <optional>
           <attribute name="rend">
@@ -886,20 +927,6 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
             </choice>
           </oneOrMore>
         </choice>
-      </element>
-    </define>
-    <define name="pb">
-      <element name="pb">
-        <a:documentation>Saut de page, “page break”, à placer avant le début du texte de la page, avec le numéro</a:documentation>
-        <optional>
-          <attribute name="n"/>
-        </optional>
-        <optional>
-          <attribute name="facs"/>
-        </optional>
-        <optional>
-          <ref name="xml.id"/>
-        </optional>
       </element>
     </define>
     <define name="persName">

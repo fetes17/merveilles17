@@ -1579,6 +1579,24 @@ Tables
       <xsl:value-of select="@target"/>
     </a>
   </xsl:template>
+  <xsl:template match="tei:ptr[@type='include']">
+    <!--
+      <ptr target="merveilles17_image_piefront.xml#piefront" type="include"/>
+    -->
+    <xsl:variable name="doc" select="document(substring-before(concat(@target, '#'), '#'), .)"/>
+    <xsl:variable name="anchor" select="normalize-space(substring-after(@target, '#'))"/>
+    <xsl:choose>
+      <xsl:when test="$anchor = ''">
+        <xsl:apply-templates select="$doc"/>
+      </xsl:when>
+      <xsl:when test="$doc//*[@xml:id = $anchor]">
+        <xsl:apply-templates select="$doc//*[@xml:id = $anchor]"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:apply-templates select="$doc"/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
   <!-- Quelque chose à faire ?
 
 <figure>
