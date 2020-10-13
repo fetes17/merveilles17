@@ -34,7 +34,9 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>De Bizincourt, <title>Les plaisirs de l’isle enchantée, ordonnéz par Louis XIV, roy de
-            France et de Navarre, à Versailles, le 6 may 1664</title></bibl>
+            France et de Navarre, à Versailles, le 6 may 1664.</title><note>Manuscrit relié aux
+            armes du roi, Paris, BNF, Manuscrits, Ms. Français 7834</note>.<ptr
+            target="https://gallica.bnf.fr/ark:/12148/btv1b10527887j.r"/></bibl>
         <msDesc>
           <msIdentifier>
             <country>France</country>
@@ -121,13 +123,10 @@
           Majesté</persName>, que leur interest, je ne laisse pas de les produire aujourdhuy contre
         leur gré, pour luy seruir de Lustre, &amp; afin que cette inegalité augmente sa gloire :
         l’impuissance dans laquelle je me vois d’y contribuer dans les grandes choses, m’oblige a
-        recourir auec soin aux petites pour témoigner auec combien d’attachement &amp; de respect je
-        suis<!-- [FG] Je n’ai pas vu de point dans l’orginal, la phrse ne continue pas ? -->
-      <lb/>SIRE
-      <lb/>DE VOSTRE MAIESTÉ.</p>
-      <byline>Le tres-humble tres-obeïssant 
-        <lb/>&amp; tres fidel serviteur &amp; sujet.
-        <lb/><persName rend="sc" key="bizincourt">De Bizincovrt</persName>.</byline>
+        recourir auec soin aux petites pour témoigner auec combien d’attachement &amp; de respect je suis<!-- [FG] Je n’ai pas vu de point dans l’orginal, la phrse ne continue pas ? -->
+        <lb/>SIRE <lb/>DE VOSTRE MAIESTÉ.</p>
+      <byline>Le tres-humble tres-obeïssant <lb/>&amp; tres fidel serviteur &amp; sujet.
+          <lb/><persName rend="sc" key="bizincourt">De Bizincovrt</persName>.</byline>
 
       <pb n="4" xml:id="fol4r"/>
       <figure>
@@ -235,8 +234,8 @@
           >Roger</name>, &amp; <name key="chevaliers">plusieurs autres vaillans Chevaliers</name> :
         toutes ses pensées ne s’occuperent plus qu’à empescher leur fuitte, pour faire durer ses
         plaisirs : elle joignit à la force, &amp; à la situanon de son Palais, le pouuoir de ses
-          <name>Demons</name>, la fierté de ses <name>Geans</name> &amp; celle de ses <name>bestes
-          farouches</name>, mais elle n’eut pas moins de confiance aux diuertissemens des
+          <name key="demons">Demons</name>, la fierté de ses <name key="geants">Geans</name> &amp; celle de ses <name>bestes
+          farouches</name><!-- GL voir comment encoder ce name -->, mais elle n’eut pas moins de confiance aux diuertissemens des
         promenades, de la dance, des tournois, des festins, de la comedie &amp; de la <tech
           type="musique"> musique</tech>. Et comme elle auoit autant d’Amans que de Captifs, &amp;
         qu’ils ne pensoient tous qu’à luy plaire ; ces illustres <name key="chevaliers"
@@ -250,7 +249,7 @@
           key="chevaliers">Cheualiers</name> a rendu son Île flottante : &amp; après auoir visité
         plusieurs Climats, elle la fait aborder en <placeName key="france">France</placeName>, où
         par le respect &amp; l’admiration que luy causent les rares Qualitez de la <persName
-          key="marie_therese">Reyne</persName> ; elle ordonne à ces <name>Guerriers</name> de faire
+          key="marie_therese">Reyne</persName> ; elle ordonne à ces <name key="chevaliers">Guerriers</name> de faire
         en faueur de <persName key="louisxiv">sa Majesté</persName>, tout ce qu’ils auront pû
         inuenter pour luy plaire par leur adresse, &amp; par leur magnificence : elle ordonne à
           <name key="chevaliers">onze de ses Chevaliers</name> de se préparer pour cet effet,
@@ -352,12 +351,11 @@ Balisons nous les trompettes et les timballiers comme des personnes ou comme des
         <graphic
           url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f29/full/full/0/native.jpg"/>
         <figDesc><name key="victoire"/></figDesc>
-        <p xml:lang="la">VICTRICIBVS ARMIS
-        <lb/><persName key="louisxiv">LODOICI</persName>
+        <p xml:lang="la">VICTRICIBVS ARMIS <lb/><persName key="louisxiv">LODOICI</persName>
           <lb/>FRANCORVM IMPERATORIS.</p>
-        <p xml:lang="la"><persName key="louisxiv">LVDOVICVS XIV</persName>. foelicitati Nationum datus,
-            Regum decus, humanae Gentis delitiae, hostium terror, suorum desiderium, omnium
-            admiratio.</p>
+        <p xml:lang="la"><persName key="louisxiv">LVDOVICVS XIV</persName>. foelicitati Nationum
+          datus, Regum decus, humanae Gentis delitiae, hostium terror, suorum desiderium, omnium
+          admiratio.</p>
       </figure>
 
       <pb n="13" xml:id="p13"/>
@@ -367,11 +365,10 @@ Balisons nous les trompettes et les timballiers comme des personnes ou comme des
         <figDesc/>
         <!-- il ne s’agit pas d’une forme stylistique ? -->
         <p xml:lang="la">
-          <persName key="louisxiv">LVDOVICVS XIIII</persName>.
-          <lb/>FRANCORVM IMPERATOR
+          <persName key="louisxiv">LVDOVICVS XIIII</persName>. <lb/>FRANCORVM IMPERATOR
           <lb/>AUGVSTISSIMVS.</p>
         <p xml:lang="la">Aduersariis mari terraque deuictis, latè prolatis finibus, firmatis vbique
-            terrarum sociis, pace suis legibus orbi sancita.</p>
+          terrarum sociis, pace suis legibus orbi sancita.</p>
         <p xml:lang="la">NE QVID CESSARET HEROICA VIRTVS PALESTRICAM VICTORIAM NON DEDIGNATVR.</p>
       </figure>
 
@@ -835,7 +832,7 @@ Balisons nous les trompettes et les timballiers comme des personnes ou comme des
         <label ana="devise"><foreign>NON FIA MAI SCIOLTO</foreign>.</label>
         <label type="head"><name key="astolphe" corresp="henri_de_daillon">ASTOLPHE</name>.</label>
         <lg ana="quatrain">
-          <l>De tous <name>les Paladins</name> qui sont dans l’Vnivers,</l>
+          <l>De tous les Paladins qui sont dans l’Vnivers,</l>
           <l>Aucun n’a pour l’amour l’ame plus échauffée</l>
           <l>Entreprenant toûjours mille projets divers,</l>
           <l>Et toûjours enchanté par quelque jeune Fée.</l>

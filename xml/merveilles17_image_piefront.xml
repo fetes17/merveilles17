@@ -18,6 +18,10 @@
                     <name>Mathilde Nicolas</name>
                     <resp>Encodage</resp>
                 </respStmt>
+                <respStmt>
+                    <name>Gaëlle Lafage</name>
+                    <resp>Encodage et corrections</resp>
+                </respStmt>
             </editionStmt>
             <publicationStmt>
                 <publisher>Université d’Artois - Lille, MESHS</publisher>
@@ -27,15 +31,17 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note>Cette estampe se trouve également reliée dans <ref target="URI">le livre de la
-                        fête publié en 1673 par l'imprimerie royale</ref></note>
+                <note>Cette estampe est la première planche du <ref
+                        target="merveilles17_i_pie1673.xml">livre de la fête publié en 1673 par
+                        l'imprimerie royale</ref>. La collection Levesque aux Archives nationales
+                    conserve <ref target="merveilles17_image_ano13239_081.xml">un dessin
+                        reproduisant cette estampe</ref>.</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>Jean Lepautre et Israël Silvestre, <title>Les plaisirs de l'Isle enchantée, ou
-                        les festes, et diuertissements du Roy, à Versailles, Diuisez en trois
-                        journées, et commencéz le 7me. jour de may de l'année
-                        1664</title>.<note>Estampe, 28 x 42,3 cm, Paris, BNF, Estampes, RESERVE QB-201 (46)-FOL,
-                            Hennin 4207.</note><ptr target="https://gallica.bnf.fr/ark:/12148/btv1b8404784d"/>
+                <bibl>Jean Lepautre et Israël Silvestre, <title>Les Plaisirs de l'île enchantée.
+                        Première planche servant de frontispice</title>.<note>Estampe, 28 x 42,3 cm,
+                        Paris, BNF, Estampes, RESERVE QB-201 (46)-FOL, Hennin 4207.</note><ptr
+                        target="https://gallica.bnf.fr/ark:/12148/btv1b8404784d"/>
                 </bibl>
                 <msDesc>
                     <msIdentifier>
@@ -79,22 +85,38 @@
     <sourceDoc>
         <figure>
             <graphic
-                url="//f1/full/full/0/native.jpg
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8404784d//f1/full/full/0/native.jpg
             "/>
-            <figDesc>Un riche décor composé de rideaux, de feuillées et de fruits, laissent
-                entrevoir la scène. En haut du décor, deux anges tenant les armes du roi de France.
-                En bas, les devises des chevaliers entourant la légende. Au centre, le château de
-                Versailles et ses jardins se dévoilent. En contrebas, de nombreux cavaliers ainsi
-                qu'un carosse se dirigent vers la gauche.<placeName key="versailles"/><persName
-                    key="chevaliers"/></figDesc>
+            <figDesc>Un riche décor composé de rideaux, de guirlandes de fleurs et de fruits tenus
+                par des putti encadre un vaste paysage. Il est bordé, en haut, de deux figures
+                ailées tenant les armes du roi de France et en bas, d'un vaste cartouche comprenant
+                des devises avec au centre le titre de la fête. Le paysage représente au centre, le
+                château de Versailles et ses jardins. En contrebas, de nombreux cavaliers ainsi
+                qu'un carosse se dirigent vers la gauche.<placeName key="versailles_jardins"
+                    /><placeName key="versailles_chateau"/><persName key="chevaliers"/></figDesc>
             <p>VEUE DV <placeName key="versailles_chateau">CHASTEAV DE VERSAILLE</placeName></p>
             <p>Les plaisirs de l'Isle enchantée, ou les festes, et diuertissements du <persName
                     key="louisxiv">Roy</persName>, à <placeName key="versailles"
                     >Versailles</placeName>, Diuisez en trois journées, et commencéz le <date
                     when="1664-05-07">7me. jour de may de l'année 1664</date>.</p>
             <p>Ces Escus chargés de deuises sont icy placés selon le rang que les cheualiers
-                tenoient dans la marche, et non pas suiuant leurs qualitez.<persName
-                    key="isilvestre" role="auteur">Israel Siluestre</persName>, <foreign
+                tenoient dans la marche, et non pas suiuant leurs qualitez. </p>
+            <p><label ana="devise"><foreign>Longe leuis aura feret</foreign>.</label>
+                <label ana="devise"><foreign>Et quiescente paues cunt</foreign>.</label>
+                <label ana="devise"><foreign>De mis glopes mi Ruido</foreign>.</label>
+                <label ana="devise"><foreign>Nec Cesso, nec Erro</foreign>.</label>
+                <label ana="devise"><foreign>Fidelis &amp; audax</foreign>.</label>
+                <label ana="devise"><foreign>Et candore decus</foreign>.</label>
+                <label ana="devise"><foreign>Splendor ab absequio</foreign>.</label>
+                <lb/><label ana="devise"><foreign>Non fia mai sciolto</foreign>.</label>
+                <label ana="devise"><foreign>Vni militat Astro</foreign>.</label>
+                <label ana="devise"><foreign>Ne quiero menos</foreign>.</label> 
+                <label ana="devise"><foreign>Certo ferit</foreign>.</label>
+                <label ana="devise"><foreign>Hoc juuat vri</foreign>.</label> 
+                <label ana="devise"><foreign>Vix aequat fama labores</foreign>.</label> 
+                <label ana="devise"><foreign>Chieto fuor commoto dentro</foreign>.</label>
+            </p>
+            <p><persName key="isilvestre" role="auteur">Israel Siluestre</persName>, <foreign
                     xml:lang="la">del, et scul. parisis</foreign>.</p>
         </figure>
     </sourceDoc>
