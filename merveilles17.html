@@ -3,7 +3,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-type" content="text/html; charset=UTF-8"/>
-    <style type="text/css"> /* keep file XML valid, maybe included by xsl:document() */
+    <style type="text/css">
+
+/* keep file XML valid, maybe included by xsl:document() */
 /*
 
 Copyright © 2004-2017 Frédéric Glorieux
@@ -25,156 +27,663 @@ limitations under the License.
 /*
 Classes for documented XML files by xmldoc transformations
 */
+section, nav, article, aside, hgroup, header, footer, figure, figcaption {
+  display: block;
+}
 
-section, nav, article, aside, hgroup, header, footer, figure, figcaption { display:block; }
-* {-moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+* {
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
 /** Fonts */
+body.xmldoc, table.facs caption {
+  background: #FFFFFF;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  margin: 0;
+}
 
-body.xmldoc, table.facs caption { background: #FFFFFF; font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; margin: 0;}
-body.item {padding: 2em;}
-body.nav{padding: 0; margin: 1ex;}
-body.xmldoc #nav, body.xmldoc #header {font-family: Arial, sans-serif; font-size: smaller; }
+body.item {
+  padding: 2em;
+}
+
+body.nav {
+  padding: 0;
+  margin: 1ex;
+}
+
+body.xmldoc #nav, body.xmldoc #header {
+  font-family: Arial, sans-serif;
+  font-size: smaller;
+}
 
 /** simple HTML, with body class protection if css imported (in html tagname order) */
+body.xmldoc a {
+  color: #226;
+  text-decoration: none;
+}
 
-body.xmldoc a {color:#226; text-decoration:none;}
-body.xmldoc a:hover { text-decoration:underline;}
-body.xmldoc fieldset { margin:1em 0 1ex 0; padding:0 1ex 0 1ex; border:1px dotted #363; -moz-border-radius:1ex; -webkit-border-radius:1ex; white-space:normal;}
+body.xmldoc a:hover {
+  text-decoration: underline;
+}
+
+body.xmldoc fieldset {
+  margin: 1em 0 1ex 0;
+  padding: 0 1ex 0 1ex;
+  border: 1px dotted #363;
+  -moz-border-radius: 1ex;
+  -webkit-border-radius: 1ex;
+  white-space: normal;
+}
+
 body.xmldoc p {}
-body.xmldoc h1 {text-align:center; line-height:105%;}
-body.xmldoc h3 {border-bottom:1px solid #336699; padding-left: 1em; margin-top:2em; margin-bottom:1em;}
-body.xmldoc table {font-size:inherit;}
+
+body.xmldoc h1 {
+  text-align: center;
+  line-height: 105%;
+}
+
+body.xmldoc h3 {
+  border-bottom: 1px solid #336699;
+  padding-left: 1em;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+body.xmldoc table {
+  font-size: inherit;
+}
 
 /* Global layout */
-html{height:100%;}
-body.xmldoc{position:relative;}
-body.xmldoc #article { padding:0; margin:3ex 5em 5em 30%; min-height:500px;}
-body.xmldoc #header {position:absolute; top:0; left:0; right:0; padding:0 1ex;}
-body.xmldoc #footer {position:absolute; bottom:-1px; left:0; right:0; padding:0 1ex;} /* need container with position :relative */
-body.xmldoc #footer img {margin:-4px;}
-body.xmldoc #nav { top:0; position:fixed; padding:0 3px 2em 11px; height:100%; overflow:auto; width:27%; color:black; margin:0 0 0 0; border-right:solid 1px #b3b3b3; }
-body.xmldoc #nav header, body.nav header { padding:1ex 0;font-style:normal; font-weight:bold;}
-.index div {line-height:100%;margin:0.8ex 0;}
+html {
+  height: 100%;
+}
+
+body.xmldoc {
+  position: relative;
+}
+
+body.xmldoc #article {
+  padding: 0;
+  margin: 3ex 5em 5em 30%;
+  min-height: 500px;
+}
+
+body.xmldoc #header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0 1ex;
+}
+
+body.xmldoc #footer {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  padding: 0 1ex;
+}
+
+/* need container with position :relative */
+body.xmldoc #footer img {
+  margin: -4px;
+}
+
+body.xmldoc #nav {
+  top: 0;
+  position: fixed;
+  padding: 0 3px 2em 11px;
+  height: 100%;
+  overflow: auto;
+  width: 27%;
+  color: black;
+  margin: 0 0 0 0;
+  border-right: solid 1px #b3b3b3;
+}
+
+body.xmldoc #nav header, body.nav header {
+  padding: 1ex 0;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.index div {
+  line-height: 100%;
+  margin: 0.8ex 0;
+}
 
 /** generic classes */
-.pre {white-space: pre-wrap;}
-.tree ul { padding:0; margin:0; padding-left:1em; }
-body.xmldoc ul.tree ul { padding-left:1ex; margin-left:1em;}
+.pre {
+  white-space: pre-wrap;
+}
+
+.tree ul {
+  padding: 0;
+  margin: 0;
+  padding-left: 1em;
+}
+
+body.xmldoc ul.tree ul {
+  padding-left: 1ex;
+  margin-left: 1em;
+}
 
 /* xml2html.xsl, documented XML source */
+.example {
+  background-color: #FFFFFF;
+  background-image: -webkit-gradient(linear, left top, right top, from(#FFFFFF), to(#F8F8F8));
+  background-image: -webkit-linear-gradient(left, #FFFFFF, #F8F8F8);
+  background-image: -moz-linear-gradient(left, #FFFFFF, #F8F8F8);
+  background-image: -ms-linear-gradient(left, #FFFFFF, #F8F8F8);
+  background-image: -o-linear-gradient(left, #FFFFFF, #F8F8F8);
+  background-image: linear-gradient(left, #FFFFFF, #F8F8F8);
+  border-left: 1px dotted #808080;
+  padding: 1ex 1em;
+  margin: 0;
+}
 
-.example { background-color: #FFFFFF; background-image: -webkit-gradient(linear, left top, right top,from(#FFFFFF),to(#F8F8F8)); background-image: -webkit-linear-gradient(left, #FFFFFF, #F8F8F8); background-image: -moz-linear-gradient(left, #FFFFFF, #F8F8F8); background-image: -ms-linear-gradient(left, #FFFFFF, #F8F8F8); background-image:      -o-linear-gradient(left, #FFFFFF, #F8F8F8); background-image: linear-gradient(left, #FFFFFF, #F8F8F8); border-left:1px dotted #808080; padding:1ex 1em; margin:0;}
-.xml { line-height:105%; text-align:left;}
-.xml  a { text-decoration:none; border-bottom:none; border:none; padding:0;}
-.xml a.val { color:#0000FF; }
-.xml a.val:hover { text-decoration:underline; border:none; }
-a.xsl  { color:#669966; font-weight:100;}
-a:hover.xsl, a:hover.rdf { background:#0000FF; color:white; }
-a.html, a.dc { color:#FF0000; font-weight:bold;}
-a:hover.html, a:hover.dc, a:hover.template { background:red; color:white; }
-a.template { font-family: Verdana, arial, sans-serif; font-weight:bold; }
-.xml .el, .xml  a.el { font-weight:bold; font-family: "Lucida Console", Courier, "MS Courier New", monospace; text-decoration:none; color:#040; border:none; }
-.xml a:hover.el, .xml a:hover.att { background:#8080FF; color:#FFFFFF; }
-.xml .att { font-family:Arial, sans-serif; font-weight:100; }
-.xml a.att { font-family:Arial, sans-serif; color:#444;}
-.xml .open, .xml .close, .xml .tag { margin:0; font-family:monospace, sans-serif; color:#383; }
-.xml .fold {color:#666666; }
-.xml .pi { color:#008000; font-weight: bold; }
-.xml .val, .xml .cdata { font-weight:normal; margin:0; padding:0; }
-.xml .comment, .xml .comment code { font-size:12px; line-height:125%; background:#FFE; color:#666; }
-.xml  pre.comment { margin:0; padding:0 1em;}
-.xml .comment { font-family:monospace; color:#000; }
-fieldset.comment pre {color:#008;}
-div.comment {white-space: normal;}
-dd.code { margin:0 !important; padding:0 !important; padding-left:1em !important; border-left: 1px dotted #808080;}
-.pre .text { background:#EEF; font-family:serif; color:#000;}
-.xml span.text, .xml .val, .xml .cdata { color:#444;}
-.xml .cdata { color:red}
-.xml .ns { color:#000080; font-weight:100;}
-dt { font-weight:bold;}
-dl.xml { margin:0; padding:0;}
-dl.xml dt { font-weight:normal; }
-details.source { margin-left:1em; float:right; max-width:60%; background:#FFFFFF;}
-details.source summary { float:right; display:inline; text-align:right;}
-details &gt; * { display:none;}
-details.minus &gt; * { display:block;}
+.xml {
+  line-height: 105%;
+  text-align: left;
+}
+
+.xml a {
+  text-decoration: none;
+  border-bottom: none;
+  border: none;
+  padding: 0;
+}
+
+.xml a.val {
+  color: #0000FF;
+}
+
+.xml a.val:hover {
+  text-decoration: underline;
+  border: none;
+}
+
+a.xsl {
+  color: #669966;
+  font-weight: 100;
+}
+
+a:hover.xsl, a:hover.rdf {
+  background: #0000FF;
+  color: white;
+}
+
+a.html, a.dc {
+  color: #FF0000;
+  font-weight: bold;
+}
+
+a:hover.html, a:hover.dc, a:hover.template {
+  background: red;
+  color: white;
+}
+
+a.template {
+  font-family: Verdana, arial, sans-serif;
+  font-weight: bold;
+}
+
+.xml .el, .xml a.el {
+  font-weight: bold;
+  font-family: "Lucida Console", Courier, "MS Courier New", monospace;
+  text-decoration: none;
+  color: #040;
+  border: none;
+}
+
+.xml a:hover.el, .xml a:hover.att {
+  background: #8080FF;
+  color: #FFFFFF;
+}
+
+.xml .att {
+  font-family: Arial, sans-serif;
+  font-weight: 100;
+}
+
+.xml a.att {
+  font-family: Arial, sans-serif;
+  color: #444;
+}
+
+.xml .open, .xml .close, .xml .tag {
+  margin: 0;
+  font-family: monospace, sans-serif;
+  color: #383;
+}
+
+.xml .fold {
+  color: #666666;
+}
+
+.xml .pi {
+  color: #008000;
+  font-weight: bold;
+}
+
+.xml .val, .xml .cdata {
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.xmlcomment, .xmlcomment code {
+  font-size: 12px;
+  line-height: 125%;
+  background: #FFE;
+  color: #666;
+}
+
+pre.xmlcomment {
+  margin: 0;
+  padding: 0 1em;
+}
+
+.xmlcomment {
+  font-family: monospace;
+  color: #000;
+}
+
+fieldset.xmlcomment pre {
+  color: #008;
+}
+
+div.xmlcomment {
+  white-space: normal;
+}
+
+dd.xmlcode {
+  margin: 0 !important;
+  padding: 0 !important;
+  padding-left: 1em !important;
+  border-left: 1px dotted #808080;
+}
+
+.pre .xmltext {
+  background: #EEF;
+  font-family: serif;
+  color: #000;
+}
+
+.xml, .xml .val, .xml .cdata {
+  color: #444;
+}
+
+.xml .cdata {
+  color: red
+}
+
+.xml .ns {
+  color: #000080;
+  font-weight: 100;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dl.xml {
+  margin: 0;
+  padding: 0;
+}
+
+dl.xml dt {
+  font-weight: normal;
+}
+
+details.source {
+  margin-left: 1em;
+  float: right;
+  max-width: 60%;
+  background: #FFFFFF;
+}
+
+details.source summary {
+  float: right;
+  display: inline;
+  text-align: right;
+}
+
+details&gt;* {
+  display: none;
+}
+
+details.minus&gt;* {
+  display: block;
+}
 
 /** Relax-NG */
+section.attribute {
+  margin-top: 1em;
+}
 
-section.attribute { margin-top:1em; }
-section.define, section.element { margin-top:2em; }
-section.rng { margin:2em 0 0 0;}
-section.rng section.rng header { padding-left:2em;}
-section.rng section.rng section.rng header { padding-left:4em;}
-section.rng section.rng section.rng section.rng header { padding-left:6em;}
-header.rng { font-size:110%; margin-bottom:1ex; padding:0; border:none;}
-header.rng a { color:#77A; font-weight:bold;}
-header.attribute { color:#666;}
+section.define, section.element {
+  margin-top: 2em;
+}
+
+section.rng {
+  margin: 2em 0 0 0;
+}
+
+section.rng section.rng header {
+  padding-left: 2em;
+}
+
+section.rng section.rng section.rng header {
+  padding-left: 4em;
+}
+
+section.rng section.rng section.rng section.rng header {
+  padding-left: 6em;
+}
+
+header.rng {
+  font-size: 110%;
+  margin-bottom: 1ex;
+  padding: 0;
+  border: none;
+}
+
+header.rng a {
+  color: #77A;
+  font-weight: bold;
+}
+
+header.attribute {
+  color: #666;
+}
+
 /* entry in a table */
-table.grammar { background-color:#F8F8F8; background-image: -webkit-gradient(linear, left top, right top,from(#FFFFFF),to(#F8F8F8)); background-image: -webkit-linear-gradient(left, #FFFFFF, #F8F8F8); background-image: -moz-linear-gradient(left, #FFFFFF, #F8F8F8); background-image: -ms-linear-gradient(left, #FFFFFF, #F8F8F8); background-image: -o-linear-gradient(left, #FFFFFF, #F8F8F8); background-image: linear-gradient(left, #FFFFFF, #F8F8F8); border-collapse:collapse; width:100%; line-height:105%; border-left:1px dotted #808080;margin-bottom:1em;}
-table.grammar tt, table.grammar em {color:#000;}
-table.grammar td { padding:0.5ex 1ex; line-height:1.1em; border-bottom:1px dotted #999999;vertical-align:top;}
-table.grammar th { font-family:Helvetica, Arial, "DejaVu Sans Light ", sans-serif; font-size:12px; width:10ex; vertical-align:top; padding:0.5ex 1ex; background:#DADADA; border-bottom:1px solid #FFFFFF; font-weight:normal;}
-table.attributes td {padding:0 0.2ex;line-height:100%;border:none;}
-table.attributes td.name {text-align:right;}
-.xmldoc a.required {color:#000;font-weight:bold;}
-.grammar a { font-family:Helvetica, Arial, "DejaVu Sans Light ", sans-serif; color:#315BA7; border:none;}
-.grammar a.define, .grammar a.ref { color:#000; font-style:italic; font-family:serif;}
-td.children div, td.usage div {display:inline}
-p.cf {margin-top:0;}
+table.grammar {
+  background-color: #F8F8F8;
+  background-image: -webkit-gradient(linear, left top, right top, from(#FFFFFF), to(#F8F8F8));
+  background-image: -webkit-linear-gradient(left, #FFFFFF, #F8F8F8);
+  background-image: -moz-linear-gradient(left, #FFFFFF, #F8F8F8);
+  background-image: -ms-linear-gradient(left, #FFFFFF, #F8F8F8);
+  background-image: -o-linear-gradient(left, #FFFFFF, #F8F8F8);
+  background-image: linear-gradient(left, #FFFFFF, #F8F8F8);
+  border-collapse: collapse;
+  width: 100%;
+  line-height: 105%;
+  border-left: 1px dotted #808080;
+  margin-bottom: 1em;
+}
+
+table.grammar tt, table.grammar em {
+  color: #000;
+}
+
+table.grammar td {
+  padding: 0.5ex 1ex;
+  line-height: 1.1em;
+  border-bottom: 1px dotted #999999;
+  vertical-align: top;
+}
+
+table.grammar th {
+  font-family: Helvetica, Arial, "DejaVu Sans Light ", sans-serif;
+  font-size: 12px;
+  width: 10ex;
+  vertical-align: top;
+  padding: 0.5ex 1ex;
+  background: #DADADA;
+  border-bottom: 1px solid #FFFFFF;
+  font-weight: normal;
+}
+
+table.attributes td {
+  padding: 0 0.2ex;
+  line-height: 100%;
+  border: none;
+}
+
+table.attributes td.name {
+  text-align: right;
+}
+
+.xmldoc a.required {
+  color: #000;
+  font-weight: bold;
+}
+
+.grammar a {
+  font-family: Helvetica, Arial, "DejaVu Sans Light ", sans-serif;
+  color: #315BA7;
+  border: none;
+}
+
+.grammar a.define, .grammar a.ref {
+  color: #000;
+  font-style: italic;
+  font-family: serif;
+}
+
+td.children div, td.usage div {
+  display: inline
+}
+
+p.cf {
+  margin-top: 0;
+}
+
 /* att values */
-ul.values {  margin-top:0; margin-bottom:0; padding-top:0; margin-bottom:0;}
-.value{color:#000;}
-.value div.documentation {font-style:italic}
+ul.values {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  margin-bottom: 0;
+}
+
+.value {
+  color: #000;
+}
+
+.value div.documentation {
+  font-style: italic
+}
+
 /* hide/show macro compact view */
-.grammar a.toggle { color:#000; cursor:pointer;}
-a.toggle:hover { text-decoration:none !important; background:#336699; color:#FFFFFF;}
-span.more span.refin { display:none;}
-span.less span.refin {display:block;}
-span.less span.more span.refin {display:none;}
-span.refin { margin-left:0.5ex; border-left:1px dotted #888; padding-left:2ex;}
-div.compact {padding-left:1ex;}
-div.compact ul { margin-top:0; margin-bottom:0; padding-top:0; padding-bottom:0;}
+.grammar a.toggle {
+  color: #000;
+  cursor: pointer;
+}
+
+a.toggle:hover {
+  text-decoration: none !important;
+  background: #336699;
+  color: #FFFFFF;
+}
+
+span.more span.refin {
+  display: none;
+}
+
+span.less span.refin {
+  display: block;
+}
+
+span.less span.more span.refin {
+  display: none;
+}
+
+span.refin {
+  margin-left: 0.5ex;
+  border-left: 1px dotted #888;
+  padding-left: 2ex;
+}
+
+div.compact {
+  padding-left: 1ex;
+}
+
+div.compact ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 /* image example */
-table.facs { font-family:serif; margin-top:2em; margin-bottom:2em; border:1px dotted #808080; padding-left:2em; padding-right:2em;}
-table.facs td { vertical-align:top;}
-table.facs caption { background:#DADADA;}
-table.facs p { margin-top:2ex; margin-bottom:2ex;}
+table.facs {
+  font-family: serif;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  border: 1px dotted #808080;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+table.facs td {
+  vertical-align: top;
+}
+
+table.facs caption {
+  background: #DADADA;
+}
+
+table.facs p {
+  margin-top: 2ex;
+  margin-bottom: 2ex;
+}
 
 /** xsl2html.xsl, documented transformation */
-.transform a {border:none;}
-.match p, .result p { text-indent:1em; line-height:110%; margin:0 0 0.5ex 0; }
-.xsl-var { margin-top:1ex;}
-.output { color:#961716; font-family: "Lucida Console", Courier, "MS Courier New", monospace; font-size:13px; line-height:110%; text-indent:0; text-align:left;}
-.template { margin: 1em 0 0 0; clear:both;}
-.template header { border:none; padding:0; border-bottom:#888 1px solid;}
+.transform a {
+  border: none;
+}
+
+.match p, .result p {
+  text-indent: 1em;
+  line-height: 110%;
+  margin: 0 0 0.5ex 0;
+}
+
+.xsl-var {
+  margin-top: 1ex;
+}
+
+.output {
+  color: #961716;
+  font-family: "Lucida Console", Courier, "MS Courier New", monospace;
+  font-size: 13px;
+  line-height: 110%;
+  text-indent: 0;
+  text-align: left;
+}
+
+.template {
+  margin: 1em 0 0 0;
+  clear: both;
+}
+
+.template header {
+  border: none;
+  padding: 0;
+  border-bottom: #888 1px solid;
+}
 
 /* PHP code */
-a.function, .php b.construct, .php var {font-family:Frutiger,"Deja Vu Sans",Helvetica,sans-serif; }
-pre.php { white-space: pre-wrap; font-size:14px; color:red; }
-code.function {color:#A82C37; }
-span.function { font-family:Frutiger,"Deja Vu Sans",Helvetica,sans-serif; color:#000;}
-a.function:hover {text-decoration:underline; }
-.php b.construct { color:#000; }
-code.string { color:#060; }
-code.integer { color:#FF0000; font-weight:bold; }
-code.php-tag { color:#FF0000; }
-code.numeric { color:#FF0000; font-weight:bold; }
-code.constant { color:#000000; }
-tt.op { background:none repeat scroll 0 0 #EEEEEE; color:#000000; }
-code.defined { color:red; }
-code.whitespace { white-space:pre; }
-code.curly { background:none repeat scroll 0 0 #FFAAAA;}
-code.parenthese { background:none repeat scroll 0 0 #AAFFAA; }
-code.square { background:none repeat scroll 0 0 #AAAAFF; }
-code.error-control { background:none repeat scroll 0 0 #FF0000; font-weight:bold; }
+a.function, .php b.construct, .php var {
+  font-family: Frutiger, "Deja Vu Sans", Helvetica, sans-serif;
+}
+
+pre.php {
+  white-space: pre-wrap;
+  font-size: 14px;
+  color: red;
+}
+
+code.function {
+  color: #A82C37;
+}
+
+span.function {
+  font-family: Frutiger, "Deja Vu Sans", Helvetica, sans-serif;
+  color: #000;
+}
+
+a.function:hover {
+  text-decoration: underline;
+}
+
+.php b.construct {
+  color: #000;
+}
+
+code.string {
+  color: #060;
+}
+
+code.integer {
+  color: #FF0000;
+  font-weight: bold;
+}
+
+code.php-tag {
+  color: #FF0000;
+}
+
+code.numeric {
+  color: #FF0000;
+  font-weight: bold;
+}
+
+code.constant {
+  color: #000000;
+}
+
+tt.op {
+  background: none repeat scroll 0 0 #EEEEEE;
+  color: #000000;
+}
+
+code.defined {
+  color: red;
+}
+
+code.whitespace {
+  white-space: pre;
+}
+
+code.curly {
+  background: none repeat scroll 0 0 #FFAAAA;
+}
+
+code.parenthese {
+  background: none repeat scroll 0 0 #AAFFAA;
+}
+
+code.square {
+  background: none repeat scroll 0 0 #AAAAFF;
+}
+
+code.error-control {
+  background: none repeat scroll 0 0 #FF0000;
+  font-weight: bold;
+}
 
 @media print {
-  #nav {display:none;}
-  #article {margin:0px !important; padding:0px; }
-  table.grammar  td, table.grammar  th { border:1px dotted #808080; }
+  #nav {
+    display: none;
+  }
+
+  #article {
+    margin: 0px !important;
+    padding: 0px;
+  }
+
+  table.grammar td, table.grammar th {
+    border: 1px dotted #808080;
+  }
 }
+
 /* keep file XML valid, maybe included by xsl:document() */
 </style>
   </head>
@@ -186,21 +695,21 @@ code.error-control { background:none repeat scroll 0 0 #FF0000; font-weight:bold
         <div style="margin-left:1em;">
           <a style="font-weight:bold; color:#000000;" href="#idm4">Structure</a>
         </div>
-        <div><a href="#el_TEI">&lt;TEI&gt;</a> <a href="#el_text">&lt;text&gt;</a> <a href="#el_sourceDoc">&lt;sourceDoc&gt;</a> <a href="#el_teiHeader">&lt;teiHeader&gt;</a> <a href="#el_author">&lt;author&gt;</a> <a href="#el_editor">&lt;editor&gt;</a> <a href="#el_pubPlace">&lt;pubPlace&gt;</a> <a href="#el_publisher_2">&lt;publisher&gt;</a> <a href="#el_msDesc">&lt;msDesc&gt;</a> <a href="#el_msIdentifier">&lt;msIdentifier&gt;</a> <a href="#el_msContents">&lt;msContents&gt;</a> <a href="#el_physDesc">&lt;physDesc&gt;</a> <a href="#el_textClass">&lt;textClass&gt;</a> <a href="#el_abstract">&lt;abstract&gt;</a> <a href="#el_body">&lt;body&gt;</a> <a href="#el_front">&lt;front&gt;</a> <a href="#el_div">&lt;div&gt;</a> <a href="#el_byline">&lt;byline&gt;</a> <a href="#el_dateline">&lt;dateline&gt;</a> <a href="#el_titlePage">&lt;titlePage&gt;</a> <a href="#el_trailer">&lt;trailer&gt;</a> </div>
+        <div><a href="#el_TEI">&lt;TEI&gt;</a> <a href="#el_text">&lt;text&gt;</a> <a href="#el_sourceDoc">&lt;sourceDoc&gt;</a> <a href="#el_teiHeader">&lt;teiHeader&gt;</a> <a href="#el_date">&lt;date&gt;</a> <a href="#el_idno">&lt;idno&gt;</a> <a href="#el_author">&lt;author&gt;</a> <a href="#el_editor">&lt;editor&gt;</a> <a href="#el_pubPlace">&lt;pubPlace&gt;</a> <a href="#el_publisher_2">&lt;publisher&gt;</a> <a href="#el_msDesc">&lt;msDesc&gt;</a> <a href="#el_msIdentifier">&lt;msIdentifier&gt;</a> <a href="#el_msContents">&lt;msContents&gt;</a> <a href="#el_physDesc">&lt;physDesc&gt;</a> <a href="#el_textClass">&lt;textClass&gt;</a> <a href="#el_abstract">&lt;abstract&gt;</a> <a href="#el_body">&lt;body&gt;</a> <a href="#el_front">&lt;front&gt;</a> <a href="#el_div">&lt;div&gt;</a> <a href="#el_byline">&lt;byline&gt;</a> <a href="#el_dateline">&lt;dateline&gt;</a> <a href="#el_titlePage">&lt;titlePage&gt;</a> <a href="#el_trailer">&lt;trailer&gt;</a> </div>
         <div style="margin-left:1em;">
-          <a style="font-weight:bold; color:#000000;" href="#idm339">Blocs (niveau paragraphe)</a>
+          <a style="font-weight:bold; color:#000000;" href="#idm337">Blocs (niveau paragraphe)</a>
         </div>
         <div><a href="#el_bibl_2">&lt;bibl&gt;</a> <a href="#el_figure">&lt;figure&gt;</a> <a href="#el_head">&lt;head&gt;</a> <a href="#el_l">&lt;l&gt;</a> <a href="#el_lg">&lt;lg&gt;</a> <a href="#el_label">&lt;label&gt;</a> <a href="#el_list">&lt;list&gt;</a> <a href="#el_p">&lt;p&gt;</a> <a href="#el_signed">&lt;signed&gt;</a> <a href="#el_stage">&lt;stage&gt;</a> </div>
         <div style="margin-left:1em;">
-          <a style="font-weight:bold; color:#000000;" href="#idm480">Segments (niveau caractère)</a>
+          <a style="font-weight:bold; color:#000000;" href="#idm481">Segments (niveau caractère)</a>
         </div>
-        <div><a href="#el_date_2">&lt;date&gt;</a> <a href="#el_emph">&lt;emph&gt;</a> <a href="#el_foreign">&lt;foreign&gt;</a> <a href="#el_graphic">&lt;graphic&gt;</a> <a href="#el_lb">&lt;lb&gt;</a> <a href="#el_name">&lt;name&gt;</a> <a href="#el_note">&lt;note&gt;</a> <a href="#el_pb">&lt;pb&gt;</a> <a href="#el_persName">&lt;persName&gt;</a> <a href="#el_placeName">&lt;placeName&gt;</a> <a href="#el_ref">&lt;ref&gt;</a> <a href="#el_orgName">&lt;orgName&gt;</a> <a href="#el_seg">&lt;seg&gt;</a> <a href="#el_hi">&lt;hi<small class="att"> rend="sup"</small>&gt;</a> <a href="#el_hi_2">&lt;hi<small class="att"> rend="sc"</small>&gt;</a> <a href="#el_title">&lt;title&gt;</a> <a href="#el_tech">&lt;tech&gt;</a> </div>
+        <div><a href="#el_date_2">&lt;date&gt;</a> <a href="#el_emph">&lt;emph&gt;</a> <a href="#el_foreign">&lt;foreign&gt;</a> <a href="#el_graphic">&lt;graphic&gt;</a> <a href="#el_lb">&lt;lb&gt;</a> <a href="#el_name">&lt;name&gt;</a> <a href="#el_note_2">&lt;note&gt;</a> <a href="#el_pb">&lt;pb&gt;</a> <a href="#el_persName">&lt;persName&gt;</a> <a href="#el_placeName">&lt;placeName&gt;</a> <a href="#el_ref">&lt;ref&gt;</a> <a href="#el_orgName">&lt;orgName&gt;</a> <a href="#el_seg">&lt;seg&gt;</a> <a href="#el_hi">&lt;hi<small class="att"> rend="sup"</small>&gt;</a> <a href="#el_hi_2">&lt;hi<small class="att"> rend="sc"</small>&gt;</a> <a href="#el_title">&lt;title&gt;</a> <a href="#el_tech">&lt;tech&gt;</a> </div>
         <div style="margin-left:1em;">
-          <a style="font-weight:bold; color:#000000;" href="#idm695">Attributs et types de données</a>
+          <a style="font-weight:bold; color:#000000;" href="#idm696">Attributs et types de données</a>
         </div>
         <div/>
       </section>
-      <section class="index"><header>Éléments (95)</header><div><b>A</b>. &lt;<a href="#el_abstract">abstract</a>&gt; &lt;<a href="#el_author">author</a>&gt; &lt;<a href="#el_availability">availability<small class="att"> status="restricted"</small></a>&gt;  </div> <div><b>B</b>. &lt;<a href="#el_bibl">bibl</a>&gt; &lt;<a href="#el_bibl_2">bibl</a>&gt; &lt;<a href="#el_body">body</a>&gt; &lt;<a href="#el_byline">byline</a>&gt;  </div> <div><b>C</b>. &lt;<a href="#el_classCode">classCode</a>&gt; &lt;<a href="#el_collection">collection</a>&gt; &lt;<a href="#el_country">country</a>&gt; &lt;<a href="#el_creation">creation</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_date">date</a>&gt; &lt;<a href="#el_date_2">date</a>&gt; &lt;<a href="#el_dateline">dateline</a>&gt; &lt;<a href="#el_depth">depth</a>&gt; &lt;<a href="#el_dimensions">dimensions</a>&gt; &lt;<a href="#el_div">div</a>&gt; &lt;<a href="#el_docDate">docDate</a>&gt; &lt;<a href="#el_docImprint">docImprint</a>&gt; &lt;<a href="#el_docTitle">docTitle</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_edition">edition="Merveilles17"</a>&gt; &lt;<a href="#el_editionStmt">editionStmt</a>&gt; &lt;<a href="#el_editor">editor</a>&gt; &lt;<a href="#el_emph">emph</a>&gt; &lt;<a href="#el_event">event</a>&gt; &lt;<a href="#el_extent">extent</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_figDesc">figDesc</a>&gt; &lt;<a href="#el_figure">figure</a>&gt; &lt;<a href="#el_fileDesc">fileDesc</a>&gt; &lt;<a href="#el_foreign">foreign</a>&gt; &lt;<a href="#el_front">front</a>&gt;  </div> <div><b>G</b>. &lt;<a href="#el_graphic">graphic</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_head">head</a>&gt; &lt;<a href="#el_height">height</a>&gt; &lt;<a href="#el_hi">hi<small class="att"> rend="sup"</small></a>&gt; &lt;<a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a>&gt;  </div> <div><b>I</b>. &lt;<a href="#el_idno">idno</a>&gt; &lt;<a href="#el_idno_2">idno</a>&gt; &lt;<a href="#el_imprimatur">imprimatur</a>&gt; &lt;<a href="#el_institution">institution</a>&gt; &lt;<a href="#el_item">item</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt; &lt;<a href="#el_langUsage">langUsage</a>&gt; &lt;<a href="#el_language">language</a>&gt; &lt;<a href="#el_lb">lb</a>&gt; &lt;<a href="#el_lg">lg</a>&gt; &lt;<a href="#el_lg_2">lg</a>&gt; &lt;<a href="#el_licence">licence</a>&gt; &lt;<a href="#el_list">list</a>&gt; &lt;<a href="#el_listEvent">listEvent</a>&gt; &lt;<a href="#el_locus">locus</a>&gt;  </div> <div><b>M</b>. &lt;<a href="#el_msContents">msContents</a>&gt; &lt;<a href="#el_msDesc">msDesc</a>&gt; &lt;<a href="#el_msIdentifier">msIdentifier</a>&gt; &lt;<a href="#el_msItem">msItem</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt; &lt;<a href="#el_note">note</a>&gt; &lt;<a href="#el_notesStmt">notesStmt</a>&gt;  </div> <div><b>O</b>. &lt;<a href="#el_objectDesc">objectDesc</a>&gt; &lt;<a href="#el_orgName">orgName</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt; &lt;<a href="#el_pb">pb</a>&gt; &lt;<a href="#el_persName">persName</a>&gt; &lt;<a href="#el_physDesc">physDesc</a>&gt; &lt;<a href="#el_placeName">placeName</a>&gt; &lt;<a href="#el_profileDesc">profileDesc</a>&gt; &lt;<a href="#el_ptr">ptr</a>&gt; &lt;<a href="#el_pubPlace">pubPlace</a>&gt; &lt;<a href="#el_publicationStmt">publicationStmt</a>&gt; &lt;<a href="#el_publisher">publisher</a>&gt; &lt;<a href="#el_publisher_2">publisher</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt; &lt;<a href="#el_repository">repository</a>&gt; &lt;<a href="#el_resp">resp</a>&gt; &lt;<a href="#el_respStmt">respStmt</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt; &lt;<a href="#el_settlement">settlement</a>&gt; &lt;<a href="#el_signed">signed</a>&gt; &lt;<a href="#el_sourceDesc">sourceDesc</a>&gt; &lt;<a href="#el_sourceDoc">sourceDoc</a>&gt; &lt;<a href="#el_stage">stage</a>&gt; &lt;<a href="#el_support">support</a>&gt; &lt;<a href="#el_supportDesc">supportDesc</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_TEI">TEI</a>&gt; &lt;<a href="#el_tech">tech</a>&gt; &lt;<a href="#el_teiHeader">teiHeader</a>&gt; &lt;<a href="#el_text">text</a>&gt; &lt;<a href="#el_textClass">textClass</a>&gt; &lt;<a href="#el_title">title</a>&gt; &lt;<a href="#el_titlePage">titlePage</a>&gt; &lt;<a href="#el_titlePart">titlePart</a>&gt; &lt;<a href="#el_titleStmt">titleStmt</a>&gt; &lt;<a href="#el_trailer">trailer</a>&gt;  </div> <div><b>W</b>. &lt;<a href="#el_width">width</a>&gt;  </div> </section>
+      <section class="index"><header>Éléments (96)</header><div><b>A</b>. &lt;<a href="#el_abstract">abstract</a>&gt; &lt;<a href="#el_author">author</a>&gt; &lt;<a href="#el_availability">availability<small class="att"> status="restricted"</small></a>&gt;  </div> <div><b>B</b>. &lt;<a href="#el_bibl">bibl</a>&gt; &lt;<a href="#el_bibl_2">bibl</a>&gt; &lt;<a href="#el_body">body</a>&gt; &lt;<a href="#el_byline">byline</a>&gt;  </div> <div><b>C</b>. &lt;<a href="#el_classCode">classCode</a>&gt; &lt;<a href="#el_collection">collection</a>&gt; &lt;<a href="#el_country">country</a>&gt; &lt;<a href="#el_creation">creation</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_date">date</a>&gt; &lt;<a href="#el_date_2">date</a>&gt; &lt;<a href="#el_dateline">dateline</a>&gt; &lt;<a href="#el_depth">depth</a>&gt; &lt;<a href="#el_dimensions">dimensions</a>&gt; &lt;<a href="#el_div">div</a>&gt; &lt;<a href="#el_docDate">docDate</a>&gt; &lt;<a href="#el_docImprint">docImprint</a>&gt; &lt;<a href="#el_docTitle">docTitle</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_edition">edition="Merveilles17"</a>&gt; &lt;<a href="#el_editionStmt">editionStmt</a>&gt; &lt;<a href="#el_editor">editor</a>&gt; &lt;<a href="#el_emph">emph</a>&gt; &lt;<a href="#el_event">event</a>&gt; &lt;<a href="#el_extent">extent</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_figDesc">figDesc</a>&gt; &lt;<a href="#el_figure">figure</a>&gt; &lt;<a href="#el_fileDesc">fileDesc</a>&gt; &lt;<a href="#el_foreign">foreign</a>&gt; &lt;<a href="#el_front">front</a>&gt;  </div> <div><b>G</b>. &lt;<a href="#el_graphic">graphic</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_head">head</a>&gt; &lt;<a href="#el_height">height</a>&gt; &lt;<a href="#el_hi">hi<small class="att"> rend="sup"</small></a>&gt; &lt;<a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a>&gt;  </div> <div><b>I</b>. &lt;<a href="#el_idno">idno</a>&gt; &lt;<a href="#el_idno_2">idno</a>&gt; &lt;<a href="#el_imprimatur">imprimatur</a>&gt; &lt;<a href="#el_institution">institution</a>&gt; &lt;<a href="#el_item">item</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt; &lt;<a href="#el_langUsage">langUsage</a>&gt; &lt;<a href="#el_language">language</a>&gt; &lt;<a href="#el_lb">lb</a>&gt; &lt;<a href="#el_lg">lg</a>&gt; &lt;<a href="#el_lg_2">lg</a>&gt; &lt;<a href="#el_licence">licence</a>&gt; &lt;<a href="#el_list">list</a>&gt; &lt;<a href="#el_listEvent">listEvent</a>&gt; &lt;<a href="#el_locus">locus</a>&gt;  </div> <div><b>M</b>. &lt;<a href="#el_msContents">msContents</a>&gt; &lt;<a href="#el_msDesc">msDesc</a>&gt; &lt;<a href="#el_msIdentifier">msIdentifier</a>&gt; &lt;<a href="#el_msItem">msItem</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt; &lt;<a href="#el_note">note</a>&gt; &lt;<a href="#el_note_2">note</a>&gt; &lt;<a href="#el_notesStmt">notesStmt</a>&gt;  </div> <div><b>O</b>. &lt;<a href="#el_objectDesc">objectDesc</a>&gt; &lt;<a href="#el_orgName">orgName</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt; &lt;<a href="#el_pb">pb</a>&gt; &lt;<a href="#el_persName">persName</a>&gt; &lt;<a href="#el_physDesc">physDesc</a>&gt; &lt;<a href="#el_placeName">placeName</a>&gt; &lt;<a href="#el_profileDesc">profileDesc</a>&gt; &lt;<a href="#el_ptr">ptr</a>&gt; &lt;<a href="#el_pubPlace">pubPlace</a>&gt; &lt;<a href="#el_publicationStmt">publicationStmt</a>&gt; &lt;<a href="#el_publisher">publisher</a>&gt; &lt;<a href="#el_publisher_2">publisher</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt; &lt;<a href="#el_repository">repository</a>&gt; &lt;<a href="#el_resp">resp</a>&gt; &lt;<a href="#el_respStmt">respStmt</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt; &lt;<a href="#el_settlement">settlement</a>&gt; &lt;<a href="#el_signed">signed</a>&gt; &lt;<a href="#el_sourceDesc">sourceDesc</a>&gt; &lt;<a href="#el_sourceDoc">sourceDoc</a>&gt; &lt;<a href="#el_stage">stage</a>&gt; &lt;<a href="#el_support">support</a>&gt; &lt;<a href="#el_supportDesc">supportDesc</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_TEI">TEI</a>&gt; &lt;<a href="#el_tech">tech</a>&gt; &lt;<a href="#el_teiHeader">teiHeader</a>&gt; &lt;<a href="#el_text">text</a>&gt; &lt;<a href="#el_textClass">textClass</a>&gt; &lt;<a href="#el_title">title</a>&gt; &lt;<a href="#el_titlePage">titlePage</a>&gt; &lt;<a href="#el_titlePart">titlePart</a>&gt; &lt;<a href="#el_titleStmt">titleStmt</a>&gt; &lt;<a href="#el_trailer">trailer</a>&gt;  </div> <div><b>W</b>. &lt;<a href="#el_width">width</a>&gt;  </div> </section>
       <section class="index"><header>Attributs</header><div><b>A</b>. @<a href="#att_ana">ana</a>  </div> <div><b>F</b>. @<a href="#att_from">from</a>  </div> <div><b>K</b>. @<a href="#att_key">key</a>  </div> <div><b>N</b>. @<a href="#att_notAfter">notAfter</a> @<a href="#att_notBefore">notBefore</a>  </div> <div><b>R</b>. @<a href="#att_rend">rend</a> @<a href="#att_rend_2">rend</a>  </div> <div><b>T</b>. @<a href="#att_to">to</a>  </div> <div><b>W</b>. @<a href="#att_when">when</a>  </div> <div><b>X</b>. @<a href="#att_xml-id">xml:id</a> @<a href="#att_xml-lang">xml:lang</a>  </div> </section>
       <section class="index"><header>Macros</header><div><b>C</b>. <a href="#def_chars">chars</a>()  </div> <div><b>D</b>. <a href="#def_date.type">date.type</a>() <a href="#def_div.content">div.content</a>()  </div> <div><b>R</b>. <a href="#def_rend.font">rend.font</a>()  </div> </section>
       <p> </p>
@@ -278,68 +787,36 @@ code.error-control { background:none repeat scroll 0 0 #FF0000; font-weight:bold
         <figure class="xml example" id="ex_1">
           <dl class="xml ">
             <dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="#el_teiHeader">teiHeader</a>&gt;</dt>
-            <dd class="code">
+            <dd class="xmlcode">
               <dl class="xml ">
                 <dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="#el_fileDesc">fileDesc</a>&gt;</dt>
-                <dd class="code">
+                <dd class="xmlcode">
                   <dl class="xml ">
                     <dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="#el_titleStmt">titleStmt</a>&gt;</dt>
-                    <dd class="code">
-                      <div class="">
-                        <span class="open">&lt;<a class="el" href="#el_title">title</a>&gt;</span>
-                        <span class="text">Les Plaisirs de l'île enchantée</span>
-                        <span class="close">&lt;/<a class="el" href="#el_title">title</a>&gt;</span>
-                      </div>
-                      <div class="">
-                        <span class="open">&lt;<a class="el" href="#el_author">author</a> <b class="att">key</b>="<code class="val">code (cf. /index/personne.tsv)</code>"&gt;</span>
-                        <span class="text">Auteur du texte</span>
-                        <span class="close">&lt;/<a class="el" href="#el_author">author</a>&gt;</span>
-                      </div>
-                      <div class="">
-                        <span class="open">&lt;<a class="el" href="#el_editor">editor</a> <b class="att">key</b>="<code class="val">code (cf. /index/personne.tsv)</code>"&gt;</span>
-                        <span class="text">Autre contributeur</span>
-                        <span class="close">&lt;/<a class="el" href="#el_editor">editor</a>&gt;</span>
-                      </div>
+                    <dd class="xmlcode">
+                      <div class="xmlblock "><span class="open">&lt;<a class="el" href="#el_title">title</a>&gt;</span>Les Plaisirs de l'île enchantée<span class="close">&lt;/<a class="el" href="#el_title">title</a>&gt;</span></div>
+                      <div class="xmlblock "><span class="open">&lt;<a class="el" href="#el_author">author</a> <b class="att">key</b>="<code class="val">code (cf. /index/personne.tsv)</code>"&gt;</span>Auteur du texte<span class="close">&lt;/<a class="el" href="#el_author">author</a>&gt;</span></div>
+                      <div class="xmlblock "><span class="open">&lt;<a class="el" href="#el_editor">editor</a> <b class="att">key</b>="<code class="val">code (cf. /index/personne.tsv)</code>"&gt;</span>Autre contributeur<span class="close">&lt;/<a class="el" href="#el_editor">editor</a>&gt;</span></div>
                     </dd>
                     <dt class="close">&lt;/<a class="el" href="#el_titleStmt">titleStmt</a>&gt;</dt>
                   </dl>
                   <dl class="xml ">
                     <dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="#el_editionStmt">editionStmt</a>&gt;</dt>
-                    <dd class="code">
-                      <div class="">
-                        <span class="open">&lt;<a class="el" href="#el_edition">edition</a>&gt;</span>
-                        <span class="text">Merveilles17</span>
-                        <span class="close">&lt;/<a class="el" href="#el_edition">edition</a>&gt;</span>
-                      </div>
+                    <dd class="xmlcode">
+                      <div class="xmlblock "><span class="open">&lt;<a class="el" href="#el_edition">edition</a>&gt;</span>Merveilles17<span class="close">&lt;/<a class="el" href="#el_edition">edition</a>&gt;</span></div>
                       <dl class="xml ">
                         <dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="#el_respStmt">respStmt</a>&gt;</dt>
-                        <dd class="code">
-                          <div class="">
-                            <span class="open">&lt;<a class="el" href="#el_name">name</a>&gt;</span>
-                            <span class="text">Marine Roussillon</span>
-                            <span class="close">&lt;/<a class="el" href="#el_name">name</a>&gt;</span>
-                          </div>
-                          <div class="">
-                            <span class="open">&lt;<a class="el" href="#el_resp">resp</a>&gt;</span>
-                            <span class="text">Transcription</span>
-                            <span class="close">&lt;/<a class="el" href="#el_resp">resp</a>&gt;</span>
-                          </div>
+                        <dd class="xmlcode">
+                          <div class="xmlblock "><span class="open">&lt;<a class="el" href="#el_name">name</a>&gt;</span>Marine Roussillon<span class="close">&lt;/<a class="el" href="#el_name">name</a>&gt;</span></div>
+                          <div class="xmlblock "><span class="open">&lt;<a class="el" href="#el_resp">resp</a>&gt;</span>Transcription<span class="close">&lt;/<a class="el" href="#el_resp">resp</a>&gt;</span></div>
                         </dd>
                         <dt class="close">&lt;/<a class="el" href="#el_respStmt">respStmt</a>&gt;</dt>
                       </dl>
                       <dl class="xml ">
                         <dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="#el_respStmt">respStmt</a>&gt;</dt>
-                        <dd class="code">
-                          <div class="">
-                            <span class="open">&lt;<a class="el" href="#el_name">name</a>&gt;</span>
-                            <span class="text">Yohann Deguin</span>
-                            <span class="close">&lt;/<a class="el" href="#el_name">name</a>&gt;</span>
-                          </div>
-                          <div class="">
-                            <span class="open">&lt;<a class="el" href="#el_resp">resp</a>&gt;</span>
-                            <span class="text">Balisage</span>
-                            <span class="close">&lt;/<a class="el" href="#el_resp">resp</a>&gt;</span>
-                          </div>
+                        <dd class="xmlcode">
+                          <div class="xmlblock "><span class="open">&lt;<a class="el" href="#el_name">name</a>&gt;</span>Yohann Deguin<span class="close">&lt;/<a class="el" href="#el_name">name</a>&gt;</span></div>
+                          <div class="xmlblock "><span class="open">&lt;<a class="el" href="#el_resp">resp</a>&gt;</span>Balisage<span class="close">&lt;/<a class="el" href="#el_resp">resp</a>&gt;</span></div>
                         </dd>
                         <dt class="close">&lt;/<a class="el" href="#el_respStmt">respStmt</a>&gt;</dt>
                       </dl>
@@ -348,20 +825,12 @@ code.error-control { background:none repeat scroll 0 0 #FF0000; font-weight:bold
                   </dl>
                   <dl class="xml ">
                     <dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="#el_publicationStmt">publicationStmt</a>&gt;</dt>
-                    <dd class="code">
-                      <div class="">
-                        <span class="open">&lt;<a class="el" href="#el_publisher">publisher</a>&gt;</span>
-                        <span class="text">Université d’Artois - Lille, MESHS</span>
-                        <span class="close">&lt;/<a class="el" href="#el_publisher">publisher</a>&gt;</span>
-                      </div>
-                      <div class="">
-                        <span class="open">&lt;<a class="el" href="#el_date">date</a> <b class="att">when</b>="<code class="val">2019</code>"&gt;</span>
-                        <span class="text">2019</span>
-                        <span class="close">&lt;/<a class="el" href="#el_date">date</a>&gt;</span>
-                      </div>
+                    <dd class="xmlcode">
+                      <div class="xmlblock "><span class="open">&lt;<a class="el" href="#el_publisher">publisher</a>&gt;</span>Université d’Artois - Lille, MESHS<span class="close">&lt;/<a class="el" href="#el_publisher">publisher</a>&gt;</span></div>
+                      <div class="xmlblock "><span class="open">&lt;<a class="el" href="#el_date">date</a> <b class="att">when</b>="<code class="val">2019</code>"&gt;</span>2019<span class="close">&lt;/<a class="el" href="#el_date">date</a>&gt;</span></div>
                       <dl class="xml ">
                         <dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="#el_availability">availability</a> <b class="att">status</b>="<code class="val">restricted</code>"&gt;</dt>
-                        <dd class="code">
+                        <dd class="xmlcode">
                           <div class="open ">&lt;<a class="el" href="#el_licence">licence</a> <b class="att">target</b>="<div class="val">https://creativecommons.org/licenses/by-sa/4.0/deed.fr</div>"/&gt;</div>
                         </dd>
                         <dt class="close">&lt;/<a class="el" href="#el_availability">availability</a>&gt;</dt>
@@ -371,62 +840,23 @@ code.error-control { background:none repeat scroll 0 0 #FF0000; font-weight:bold
                   </dl>
                   <dl class="xml ">
                     <dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="#el_sourceDesc">sourceDesc</a>&gt;</dt>
-                    <dd class="code">
-                      <dl class="xml ">
-                        <dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="#el_bibl">bibl</a>&gt;</dt>
-                        <dd class="code">
-                          <div class="comment">&lt;!--<code> La ligne bibliographique peut être ponctuée librement </code>--&gt;</div>
-                          <div class="comment">&lt;!--<code> obligatoire </code>--&gt;</div>
-                          <div class="">
-                            <span class="open">&lt;<a class="el" href="#el_title">title</a>&gt;</span>
-                            <span class="text">Les Plaisirs de l'île enchantée : Course de bague, collation ornée de machines, comédie mêlée de danse et de musique, ballet du palais d'Alcine, feu d'artifice, et autres fêtes galantes et magnifiques, faites par le roi à Versailles, le 7 mai 1664.</span>
-                            <span class="close">&lt;/<a class="el" href="#el_title">title</a>&gt;</span>
-                          </div>
-                          <div class="open ">&lt;<a class="el" href="#el_ptr">ptr</a> <b class="att">target</b>="<code class="val">http://source.numérique</code>"/&gt;</div>
-                          <div class="comment">&lt;!--<code> obligatoire pour un imprimé </code>--&gt;</div>
-                          <div class="">
-                            <span class="open">&lt;<a class="el" href="#el_pubPlace">pubPlace</a>&gt;</span>
-                            <span class="text">Paris</span>
-                            <span class="close">&lt;/<a class="el" href="#el_pubPlace">pubPlace</a>&gt;</span>
-                          </div>
-                          <div class="">
-                            <span class="open">&lt;<a class="el" href="#el_publisher">publisher</a>&gt;</span>
-                            <span class="text">Ballard</span>
-                            <span class="close">&lt;/<a class="el" href="#el_publisher">publisher</a>&gt;</span>
-                          </div>
-                          <div class="">
-                            <span class="open">&lt;<a class="el" href="#el_date">date</a>&gt;</span>
-                            <span class="text">1664</span>
-                            <span class="close">&lt;/<a class="el" href="#el_date">date</a>&gt;</span>
-                          </div>
-                          <div class="comment">&lt;!--<code> obligatoire pour une pièce d’archives </code>--&gt;</div>
-                          <div class="">
-                            <span class="open">&lt;<a class="el" href="#el_pubPlace">pubPlace</a>&gt;</span>
-                            <span class="text">Paris (ville de conservation)</span>
-                            <span class="close">&lt;/<a class="el" href="#el_pubPlace">pubPlace</a>&gt;</span>
-                          </div>
-                          <div class="">
-                            <span class="open">&lt;<a class="el" href="#el_idno">idno</a>&gt;</span>
-                            <span class="text">cote</span>
-                            <span class="close">&lt;/<a class="el" href="#el_idno">idno</a>&gt;</span>
-                          </div>
-                        </dd>
-                        <dt class="close">&lt;/<a class="el" href="#el_bibl">bibl</a>&gt;</dt>
-                      </dl>
+                    <dd class="xmlcode">
+                      <div class="xmlblock ">
+                        <span class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="#el_bibl">bibl</a>&gt;</span>
+                        <span class="xmlmix"><div class="xmlcomment">&lt;!--<code> La ligne bibliographique peut être ponctuée librement, elle doit comporter au moins un élément &lt;note&gt;, utilisé dans l’interface comme complément  bibliographique au titre. </code>--&gt;</div><span class=""><span class="open">&lt;<a class="el" href="#el_title">title</a>&gt;</span>Les Plaisirs de l'île enchantée : Course de bague, collation ornée de machines, comédie mêlée de danse et de musique, ballet du palais d'Alcine, feu d'artifice, et autres fêtes galantes et magnifiques, faites par le roi à Versailles, le 7 mai 1664<span class="close">&lt;/<a class="el" href="#el_title">title</a>&gt;</span></span>.
+              <div class="xmlcomment">&lt;!--<code> Complément bibliographique libre (obligatoire, non répétable), pour une pièce d’archive </code>--&gt;</div><span class=""><span class="open">&lt;<a class="el" href="#el_note">note</a>&gt;</span>Estampe, 27,6x42,3cm, Paris, BNF, Estampes, RESERVE QB-201 (46)-FOL, Hennin, 4209.<span class="close">&lt;/<a class="el" href="#el_note">note</a>&gt;</span></span><div class="xmlcomment">&lt;!--<code> Imprimé (balisage facultatif) </code>--&gt;</div><span class=""><span class="open">&lt;<a class="el" href="#el_note">note</a>&gt;</span><span class=""><span class="open">&lt;<a class="el" href="#el_pubPlace">pubPlace</a>&gt;</span>Paris<span class="close">&lt;/<a class="el" href="#el_pubPlace">pubPlace</a>&gt;</span></span>, <span class=""><span class="open">&lt;<a class="el" href="#el_publisher">publisher</a>&gt;</span>Ballard<span class="close">&lt;/<a class="el" href="#el_publisher">publisher</a>&gt;</span></span> – <span class=""><span class="open">&lt;<a class="el" href="#el_date">date</a>&gt;</span>1664<span class="close">&lt;/<a class="el" href="#el_date">date</a>&gt;</span></span>.<span class="close">&lt;/<a class="el" href="#el_note">note</a>&gt;</span></span><div class="xmlcomment">&lt;!--<code> Pointeur vers un original numérique (obligatoire, non répétable) </code>--&gt;</div><span class="open ">&lt;<a class="el" href="#el_ptr">ptr</a> <b class="att">target</b>="<code class="val">http://source.numérique</code>"/&gt;</span></span>
+                        <span class="close">&lt;/<a class="el" href="#el_bibl">bibl</a>&gt;</span>
+                      </div>
                     </dd>
                     <dt class="close">&lt;/<a class="el" href="#el_sourceDesc">sourceDesc</a>&gt;</dt>
                   </dl>
                   <dl class="xml ">
                     <dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="#el_profileDesc">profileDesc</a>&gt;</dt>
-                    <dd class="code">
+                    <dd class="xmlcode">
                       <dl class="xml ">
                         <dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="#el_creation">creation</a>&gt;</dt>
-                        <dd class="code">
-                          <div class="">
-                            <span class="open">&lt;<a class="el" href="#el_date">date</a> <b class="att">when</b>="<code class="val">1673</code>"&gt;</span>
-                            <span class="text">1673</span>
-                            <span class="close">&lt;/<a class="el" href="#el_date">date</a>&gt;</span>
-                          </div>
+                        <dd class="xmlcode">
+                          <div class="xmlblock "><span class="open">&lt;<a class="el" href="#el_date">date</a> <b class="att">when</b>="<code class="val">1673</code>"&gt;</span>1673<span class="close">&lt;/<a class="el" href="#el_date">date</a>&gt;</span></div>
                         </dd>
                         <dt class="close">&lt;/<a class="el" href="#el_creation">creation</a>&gt;</dt>
                       </dl>
@@ -640,11 +1070,11 @@ code.error-control { background:none repeat scroll 0 0 #FF0000; font-weight:bold
               <table class="grammar">
                 <tr>
                   <th>Enfants</th>
-                  <td class="children"><div><b>N</b>. &lt;<a href="#el_note">note</a>&gt;  </div> </td>
+                  <td class="children"><div><b>N</b>. &lt;<a href="#el_note_2">note</a>&gt;  </div> </td>
                 </tr>
                 <tr>
                   <th>Modèle</th>
-                  <td class="model"><a href="#el_note">note</a> + </td>
+                  <td class="model"><a href="#el_note_2">note</a> + </td>
                 </tr>
                 <tr>
                   <th>Parents</th>
@@ -671,16 +1101,16 @@ code.error-control { background:none repeat scroll 0 0 #FF0000; font-weight:bold
                 </tr>
               </table>
               <section class="element rng" id="el_bibl">
-                <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-bibl.html" target="TEI">bibl</a>&gt; Ligne bibliographique librement ponctuée, avec plusieurs composants à baliser</header>
+                <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-bibl.html" target="TEI">bibl</a>&gt; Ligne bibliographique librement ponctuée, avec plusieurs composants balisables.</header>
                 <table class="grammar">
                   <tr>
                     <th>Enfants</th>
-                    <td class="children"><div><b>D</b>. &lt;<a href="#el_date">date</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_emph">emph</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a>&gt;  </div> <div><b>I</b>. &lt;<a href="#el_idno">idno</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_ptr">ptr</a>&gt; &lt;<a href="#el_pubPlace">pubPlace</a>&gt; &lt;<a href="#el_publisher_2">publisher</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_title">title</a>&gt;  </div> </td>
+                    <td class="children"><div><b>D</b>. &lt;<a href="#el_date">date</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_emph">emph</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a>&gt;  </div> <div><b>I</b>. &lt;<a href="#el_idno">idno</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_note">note</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_ptr">ptr</a>&gt; &lt;<a href="#el_pubPlace">pubPlace</a>&gt; &lt;<a href="#el_publisher_2">publisher</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_title">title</a>&gt;  </div> </td>
                   </tr>
                   <tr>
                     <th>Modèle</th>
                     <td class="model">
-                      <span class="compact interleave">( <i>{text}</i> - <a href="#el_title">title</a> - <a href="#el_ptr">ptr</a><span class="compact choice"> - ( <a href="#el_date">date</a> | <a href="#el_idno">idno</a> )</span> - <a href="#el_pubPlace">pubPlace</a> - <a href="#el_publisher_2">publisher</a> ? <span class="compact choice"> - ( <a href="#el_emph">emph</a> | <a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a> ) * </span> )</span>
+                      <span class="compact element"><span class="compact choice">( <i>{text}</i> | <a href="#el_date">date</a> | <a href="#el_emph">emph</a> | <a href="#el_idno">idno</a> | <a href="#el_note">note</a> | <a href="#el_publisher_2">publisher</a> | <a href="#el_pubPlace">pubPlace</a> | <a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a> | <a href="#el_title">title</a> ) * </span> <a href="#el_ptr">ptr</a></span>
                     </td>
                   </tr>
                   <tr>
@@ -688,10 +1118,25 @@ code.error-control { background:none repeat scroll 0 0 #FF0000; font-weight:bold
                     <td class="usage"><div><b>S</b>. &lt;<a href="#el_sourceDesc">sourceDesc</a>&gt;  </div> </td>
                   </tr>
                 </table>
-                <h:div xmlns:h="http://www.w3.org/1999/xhtml">
-Note : la sémantique de certains éléments a été assouplie pour simplifier la validation et l’extraction.
-<ul><li>&lt;<a class="el" href="#el_ptr">ptr</a>&gt; : obligatoire, lien vers source numérique</li><li>&lt;<a class="el" href="#el_date">date</a>&gt; : obligatoire pour les imprimés, date d’édition</li><li>&lt;<a class="el" href="#el_idno">idno</a>&gt; : obligatoire pour les pièces d’archive, cote</li><li>&lt;<a class="el" href="#el_pubPlace">pubPlace</a>&gt; : obligatoire, lieu de publication pour les imprimés (ou de conservation pour les pièces d’archive)</li><li>&lt;<a class="el" href="#el_publisher">publisher</a>&gt; : optionnel, éditeur pour les imprimés (ou dépôt pour les pièces d’archive)</li></ul>
-              </h:div>
+                <section class="element rng" id="el_note">
+                  <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-note.html" target="TEI">note</a>&gt; </header>
+                  <table class="grammar">
+                    <tr>
+                      <th>Enfants</th>
+                      <td class="children"><div><b>D</b>. &lt;<a href="#el_date">date</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a>&gt;  </div> <div><b>I</b>. &lt;<a href="#el_idno">idno</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_pubPlace">pubPlace</a>&gt; &lt;<a href="#el_publisher_2">publisher</a>&gt;  </div> </td>
+                    </tr>
+                    <tr>
+                      <th>Modèle</th>
+                      <td class="model">
+                        <span class="compact choice">( <i>{text}</i> | <a href="#el_date">date</a> | <a href="#el_idno">idno</a> | <a href="#el_publisher_2">publisher</a> | <a href="#el_pubPlace">pubPlace</a> | <a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a> ) * </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>Parents</th>
+                      <td class="usage"><div><b>B</b>. &lt;<a href="#el_bibl">bibl</a>&gt;  </div> </td>
+                    </tr>
+                  </table>
+                </section>
                 <section class="element rng" id="el_ptr">
                   <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-ptr.html" target="TEI">ptr</a>&gt; Lien vers une source numérique</header>
                   <table class="grammar">
@@ -805,6 +1250,36 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
             </section>
           </section>
         </section>
+        <section class="element rng" id="el_date">
+          <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-date.html" target="TEI">date</a>&gt; </header>
+          <table class="grammar">
+            <tr>
+              <th>Modèle</th>
+              <td class="model">
+                <i>{text}</i>
+              </td>
+            </tr>
+            <tr>
+              <th>Parents</th>
+              <td class="usage"><div><b>B</b>. &lt;<a href="#el_bibl">bibl</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_note">note</a>&gt;  </div> </td>
+            </tr>
+          </table>
+        </section>
+        <section class="element rng" id="el_idno">
+          <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-idno.html" target="TEI">idno</a>&gt; </header>
+          <table class="grammar">
+            <tr>
+              <th>Modèle</th>
+              <td class="model">
+                <i>{text}</i>
+              </td>
+            </tr>
+            <tr>
+              <th>Parents</th>
+              <td class="usage"><div><b>B</b>. &lt;<a href="#el_bibl">bibl</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_note">note</a>&gt;  </div> </td>
+            </tr>
+          </table>
+        </section>
         <section class="element rng" id="el_author">
           <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-author.html" target="TEI">author</a>&gt; Auteur du document, avec son code identifiant dans l’attribut @<a class="att" href="#att_key">key</a></header>
           <table class="grammar">
@@ -834,11 +1309,7 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
             </tr>
           </table>
           <figure class="xml example" id="ex_2">
-            <div class="">
-              <span class="open">&lt;<a class="el" href="#el_author">author</a>&gt;</span>
-              <span class="text">Molière</span>
-              <span class="close">&lt;/<a class="el" href="#el_author">author</a>&gt;</span>
-            </div>
+            <div class="xmlblock "><span class="open">&lt;<a class="el" href="#el_author">author</a>&gt;</span>Molière<span class="close">&lt;/<a class="el" href="#el_author">author</a>&gt;</span></div>
           </figure>
         </section>
         <section class="element rng" id="el_editor">
@@ -875,11 +1346,7 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
             </tr>
           </table>
           <figure class="xml example" id="ex_3">
-            <div class="">
-              <span class="open">&lt;<a class="el" href="#el_editor">editor</a> <b class="att">role</b>="<code class="val">copié par</code>"&gt;</span>
-              <span class="text">Philidor L'aisné</span>
-              <span class="close">&lt;/<a class="el" href="#el_editor">editor</a>&gt;</span>
-            </div>
+            <div class="xmlblock "><span class="open">&lt;<a class="el" href="#el_editor">editor</a> <b class="att">role</b>="<code class="val">copié par</code>"&gt;</span>Philidor L'aisné<span class="close">&lt;/<a class="el" href="#el_editor">editor</a>&gt;</span></div>
           </figure>
         </section>
         <section class="element rng" id="el_pubPlace">
@@ -893,7 +1360,7 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
             </tr>
             <tr>
               <th>Parents</th>
-              <td class="usage"><div><b>B</b>. &lt;<a href="#el_bibl">bibl</a>&gt;  </div> </td>
+              <td class="usage"><div><b>B</b>. &lt;<a href="#el_bibl">bibl</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_note">note</a>&gt;  </div> </td>
             </tr>
           </table>
         </section>
@@ -908,7 +1375,7 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
             </tr>
             <tr>
               <th>Parents</th>
-              <td class="usage"><div><b>B</b>. &lt;<a href="#el_bibl">bibl</a>&gt;  </div> </td>
+              <td class="usage"><div><b>B</b>. &lt;<a href="#el_bibl">bibl</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_note">note</a>&gt;  </div> </td>
             </tr>
           </table>
         </section>
@@ -1123,34 +1590,22 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
           <figure class="xml example" id="ex_4">
             <dl class="xml ">
               <dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="#el_physDesc">physDesc</a>&gt;</dt>
-              <dd class="code">
-                <div class="">
-                  <span class="open">&lt;<a class="el" href="#el_p">p</a>&gt;</span>
-                  <span class="text">Dessin à la plume, à l'encre brune et au lavis brun</span>
-                  <span class="close">&lt;/<a class="el" href="#el_p">p</a>&gt;</span>
-                </div>
+              <dd class="xmlcode">
+                <div class="xmlblock "><span class="open">&lt;<a class="el" href="#el_p">p</a>&gt;</span>Dessin à la plume, à l'encre brune et au lavis brun<span class="close">&lt;/<a class="el" href="#el_p">p</a>&gt;</span></div>
                 <dl class="xml ">
                   <dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="#el_objectDesc">objectDesc</a> <b class="att">form</b>="<code class="val">dessin</code>"&gt;</dt>
-                  <dd class="code">
+                  <dd class="xmlcode">
                     <dl class="xml ">
                       <dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="#el_supportDesc">supportDesc</a>&gt;</dt>
-                      <dd class="code">
+                      <dd class="xmlcode">
                         <dl class="xml ">
                           <dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="#el_extent">extent</a>&gt;</dt>
-                          <dd class="code">
+                          <dd class="xmlcode">
                             <dl class="xml ">
                               <dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="#el_dimensions">dimensions</a> <b class="att">unit</b>="<code class="val">cm</code>"&gt;</dt>
-                              <dd class="code">
-                                <div class="">
-                                  <span class="open">&lt;<a class="el" href="#el_height">height</a>&gt;</span>
-                                  <span class="text">31,8</span>
-                                  <span class="close">&lt;/<a class="el" href="#el_height">height</a>&gt;</span>
-                                </div>
-                                <div class="">
-                                  <span class="open">&lt;<a class="el" href="#el_width">width</a>&gt;</span>
-                                  <span class="text">22</span>
-                                  <span class="close">&lt;/<a class="el" href="#el_width">width</a>&gt;</span>
-                                </div>
+                              <dd class="xmlcode">
+                                <div class="xmlblock "><span class="open">&lt;<a class="el" href="#el_height">height</a>&gt;</span>31,8<span class="close">&lt;/<a class="el" href="#el_height">height</a>&gt;</span></div>
+                                <div class="xmlblock "><span class="open">&lt;<a class="el" href="#el_width">width</a>&gt;</span>22<span class="close">&lt;/<a class="el" href="#el_width">width</a>&gt;</span></div>
                               </dd>
                               <dt class="close">&lt;/<a class="el" href="#el_dimensions">dimensions</a>&gt;</dt>
                             </dl>
@@ -1400,17 +1855,17 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
           <table class="grammar">
             <tr>
               <th>Enfants</th>
-              <td class="children"><div><b>D</b>. &lt;<a href="#el_date_2">date</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_emph">emph</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_foreign">foreign</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_hi">hi<small class="att"> rend="sup"</small></a>&gt; &lt;<a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_lb">lb</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt; &lt;<a href="#el_note">note</a>&gt;  </div> <div><b>O</b>. &lt;<a href="#el_orgName">orgName</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_pb">pb</a>&gt; &lt;<a href="#el_persName">persName</a>&gt; &lt;<a href="#el_placeName">placeName</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_tech">tech</a>&gt; &lt;<a href="#el_title">title</a>&gt;  </div> </td>
+              <td class="children"><div><b>D</b>. &lt;<a href="#el_date_2">date</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_emph">emph</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_foreign">foreign</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_hi">hi<small class="att"> rend="sup"</small></a>&gt; &lt;<a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_lb">lb</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt; &lt;<a href="#el_note_2">note</a>&gt;  </div> <div><b>O</b>. &lt;<a href="#el_orgName">orgName</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_pb">pb</a>&gt; &lt;<a href="#el_persName">persName</a>&gt; &lt;<a href="#el_placeName">placeName</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_tech">tech</a>&gt; &lt;<a href="#el_title">title</a>&gt;  </div> </td>
             </tr>
             <tr>
               <th>Modèle</th>
               <td class="model">
-                <span class="compact choice">( <span class="more"><a class="ref" href="#def_chars">chars</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <i>{text}</i> | <a href="#el_date_2">date</a> | <a href="#el_emph">emph</a> | <a href="#el_foreign">foreign</a> | <a href="#el_name">name</a> | <a href="#el_note">note</a> | <a href="#el_lb">lb</a> | <a href="#el_persName">persName</a> | <a href="#el_pb">pb</a> | <a href="#el_placeName">placeName</a> | <a href="#el_orgName">orgName</a> | <a href="#el_ref">ref</a> | <a href="#el_seg">seg</a> | <a href="#el_hi">hi<small class="att"> rend="sup"</small></a> | <a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a> | <a href="#el_tech">tech</a> | <a href="#el_title">title</a> ) * </span></span>)</span> | <a href="#el_lb">lb</a> ) * </span>
+                <span class="compact choice">( <span class="more"><a class="ref" href="#def_chars">chars</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <i>{text}</i> | <a href="#el_date_2">date</a> | <a href="#el_emph">emph</a> | <a href="#el_foreign">foreign</a> | <a href="#el_name">name</a> | <a href="#el_note_2">note</a> | <a href="#el_lb">lb</a> | <a href="#el_persName">persName</a> | <a href="#el_pb">pb</a> | <a href="#el_placeName">placeName</a> | <a href="#el_orgName">orgName</a> | <a href="#el_ref">ref</a> | <a href="#el_seg">seg</a> | <a href="#el_hi">hi<small class="att"> rend="sup"</small></a> | <a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a> | <a href="#el_tech">tech</a> | <a href="#el_title">title</a> ) * </span></span>)</span> | <a href="#el_lb">lb</a> ) * </span>
               </td>
             </tr>
             <tr>
               <th>Parents</th>
-              <td class="usage"><div><b>B</b>. &lt;<a href="#el_body">body</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_div">div</a>&gt;  </div> </td>
+              <td class="usage"><div><b>B</b>. &lt;<a href="#el_body">body</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_div">div</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_figure">figure</a>&gt;  </div> </td>
             </tr>
           </table>
         </section>
@@ -1419,17 +1874,17 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
           <table class="grammar">
             <tr>
               <th>Enfants</th>
-              <td class="children"><div><b>D</b>. &lt;<a href="#el_date_2">date</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_emph">emph</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_foreign">foreign</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_hi">hi<small class="att"> rend="sup"</small></a>&gt; &lt;<a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_lb">lb</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt; &lt;<a href="#el_note">note</a>&gt;  </div> <div><b>O</b>. &lt;<a href="#el_orgName">orgName</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_pb">pb</a>&gt; &lt;<a href="#el_persName">persName</a>&gt; &lt;<a href="#el_placeName">placeName</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_tech">tech</a>&gt; &lt;<a href="#el_title">title</a>&gt;  </div> </td>
+              <td class="children"><div><b>D</b>. &lt;<a href="#el_date_2">date</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_emph">emph</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_foreign">foreign</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_hi">hi<small class="att"> rend="sup"</small></a>&gt; &lt;<a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_lb">lb</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt; &lt;<a href="#el_note_2">note</a>&gt;  </div> <div><b>O</b>. &lt;<a href="#el_orgName">orgName</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_pb">pb</a>&gt; &lt;<a href="#el_persName">persName</a>&gt; &lt;<a href="#el_placeName">placeName</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_tech">tech</a>&gt; &lt;<a href="#el_title">title</a>&gt;  </div> </td>
             </tr>
             <tr>
               <th>Modèle</th>
               <td class="model">
-                <span class="more"><a class="ref" href="#def_chars">chars</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <i>{text}</i> | <a href="#el_date_2">date</a> | <a href="#el_emph">emph</a> | <a href="#el_foreign">foreign</a> | <a href="#el_name">name</a> | <a href="#el_note">note</a> | <a href="#el_lb">lb</a> | <a href="#el_persName">persName</a> | <a href="#el_pb">pb</a> | <a href="#el_placeName">placeName</a> | <a href="#el_orgName">orgName</a> | <a href="#el_ref">ref</a> | <a href="#el_seg">seg</a> | <a href="#el_hi">hi<small class="att"> rend="sup"</small></a> | <a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a> | <a href="#el_tech">tech</a> | <a href="#el_title">title</a> ) * </span></span>)</span>
+                <span class="more"><a class="ref" href="#def_chars">chars</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <i>{text}</i> | <a href="#el_date_2">date</a> | <a href="#el_emph">emph</a> | <a href="#el_foreign">foreign</a> | <a href="#el_name">name</a> | <a href="#el_note_2">note</a> | <a href="#el_lb">lb</a> | <a href="#el_persName">persName</a> | <a href="#el_pb">pb</a> | <a href="#el_placeName">placeName</a> | <a href="#el_orgName">orgName</a> | <a href="#el_ref">ref</a> | <a href="#el_seg">seg</a> | <a href="#el_hi">hi<small class="att"> rend="sup"</small></a> | <a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a> | <a href="#el_tech">tech</a> | <a href="#el_title">title</a> ) * </span></span>)</span>
               </td>
             </tr>
             <tr>
               <th>Parents</th>
-              <td class="usage"><div><b>B</b>. &lt;<a href="#el_body">body</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_div">div</a>&gt;  </div> </td>
+              <td class="usage"><div><b>B</b>. &lt;<a href="#el_body">body</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_div">div</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_figure">figure</a>&gt;  </div> </td>
             </tr>
           </table>
         </section>
@@ -1472,12 +1927,12 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
               <table class="grammar">
                 <tr>
                   <th>Enfants</th>
-                  <td class="children"><div><b>D</b>. &lt;<a href="#el_date_2">date</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_emph">emph</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_foreign">foreign</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_hi">hi<small class="att"> rend="sup"</small></a>&gt; &lt;<a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_lb">lb</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt; &lt;<a href="#el_note">note</a>&gt;  </div> <div><b>O</b>. &lt;<a href="#el_orgName">orgName</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_pb">pb</a>&gt; &lt;<a href="#el_persName">persName</a>&gt; &lt;<a href="#el_placeName">placeName</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_tech">tech</a>&gt; &lt;<a href="#el_title">title</a>&gt;  </div> </td>
+                  <td class="children"><div><b>D</b>. &lt;<a href="#el_date_2">date</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_emph">emph</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_foreign">foreign</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_hi">hi<small class="att"> rend="sup"</small></a>&gt; &lt;<a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_lb">lb</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt; &lt;<a href="#el_note_2">note</a>&gt;  </div> <div><b>O</b>. &lt;<a href="#el_orgName">orgName</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_pb">pb</a>&gt; &lt;<a href="#el_persName">persName</a>&gt; &lt;<a href="#el_placeName">placeName</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_tech">tech</a>&gt; &lt;<a href="#el_title">title</a>&gt;  </div> </td>
                 </tr>
                 <tr>
                   <th>Modèle</th>
                   <td class="model">
-                    <span class="more"><a class="ref" href="#def_chars">chars</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <i>{text}</i> | <a href="#el_date_2">date</a> | <a href="#el_emph">emph</a> | <a href="#el_foreign">foreign</a> | <a href="#el_name">name</a> | <a href="#el_note">note</a> | <a href="#el_lb">lb</a> | <a href="#el_persName">persName</a> | <a href="#el_pb">pb</a> | <a href="#el_placeName">placeName</a> | <a href="#el_orgName">orgName</a> | <a href="#el_ref">ref</a> | <a href="#el_seg">seg</a> | <a href="#el_hi">hi<small class="att"> rend="sup"</small></a> | <a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a> | <a href="#el_tech">tech</a> | <a href="#el_title">title</a> ) * </span></span>)</span>
+                    <span class="more"><a class="ref" href="#def_chars">chars</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <i>{text}</i> | <a href="#el_date_2">date</a> | <a href="#el_emph">emph</a> | <a href="#el_foreign">foreign</a> | <a href="#el_name">name</a> | <a href="#el_note_2">note</a> | <a href="#el_lb">lb</a> | <a href="#el_persName">persName</a> | <a href="#el_pb">pb</a> | <a href="#el_placeName">placeName</a> | <a href="#el_orgName">orgName</a> | <a href="#el_ref">ref</a> | <a href="#el_seg">seg</a> | <a href="#el_hi">hi<small class="att"> rend="sup"</small></a> | <a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a> | <a href="#el_tech">tech</a> | <a href="#el_title">title</a> ) * </span></span>)</span>
                   </td>
                 </tr>
                 <tr>
@@ -1492,12 +1947,12 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
             <table class="grammar">
               <tr>
                 <th>Enfants</th>
-                <td class="children"><div><b>D</b>. &lt;<a href="#el_date_2">date</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_emph">emph</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_foreign">foreign</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_hi">hi<small class="att"> rend="sup"</small></a>&gt; &lt;<a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_lb">lb</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt; &lt;<a href="#el_note">note</a>&gt;  </div> <div><b>O</b>. &lt;<a href="#el_orgName">orgName</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_pb">pb</a>&gt; &lt;<a href="#el_persName">persName</a>&gt; &lt;<a href="#el_placeName">placeName</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_tech">tech</a>&gt; &lt;<a href="#el_title">title</a>&gt;  </div> </td>
+                <td class="children"><div><b>D</b>. &lt;<a href="#el_date_2">date</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_emph">emph</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_foreign">foreign</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_hi">hi<small class="att"> rend="sup"</small></a>&gt; &lt;<a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_lb">lb</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt; &lt;<a href="#el_note_2">note</a>&gt;  </div> <div><b>O</b>. &lt;<a href="#el_orgName">orgName</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_pb">pb</a>&gt; &lt;<a href="#el_persName">persName</a>&gt; &lt;<a href="#el_placeName">placeName</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_tech">tech</a>&gt; &lt;<a href="#el_title">title</a>&gt;  </div> </td>
               </tr>
               <tr>
                 <th>Modèle</th>
                 <td class="model">
-                  <span class="more"><a class="ref" href="#def_chars">chars</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <i>{text}</i> | <a href="#el_date_2">date</a> | <a href="#el_emph">emph</a> | <a href="#el_foreign">foreign</a> | <a href="#el_name">name</a> | <a href="#el_note">note</a> | <a href="#el_lb">lb</a> | <a href="#el_persName">persName</a> | <a href="#el_pb">pb</a> | <a href="#el_placeName">placeName</a> | <a href="#el_orgName">orgName</a> | <a href="#el_ref">ref</a> | <a href="#el_seg">seg</a> | <a href="#el_hi">hi<small class="att"> rend="sup"</small></a> | <a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a> | <a href="#el_tech">tech</a> | <a href="#el_title">title</a> ) * </span></span>)</span>
+                  <span class="more"><a class="ref" href="#def_chars">chars</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <i>{text}</i> | <a href="#el_date_2">date</a> | <a href="#el_emph">emph</a> | <a href="#el_foreign">foreign</a> | <a href="#el_name">name</a> | <a href="#el_note_2">note</a> | <a href="#el_lb">lb</a> | <a href="#el_persName">persName</a> | <a href="#el_pb">pb</a> | <a href="#el_placeName">placeName</a> | <a href="#el_orgName">orgName</a> | <a href="#el_ref">ref</a> | <a href="#el_seg">seg</a> | <a href="#el_hi">hi<small class="att"> rend="sup"</small></a> | <a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a> | <a href="#el_tech">tech</a> | <a href="#el_title">title</a> ) * </span></span>)</span>
                 </td>
               </tr>
               <tr>
@@ -1511,12 +1966,12 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
             <table class="grammar">
               <tr>
                 <th>Enfants</th>
-                <td class="children"><div><b>D</b>. &lt;<a href="#el_date_2">date</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_emph">emph</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_foreign">foreign</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_hi">hi<small class="att"> rend="sup"</small></a>&gt; &lt;<a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_lb">lb</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt; &lt;<a href="#el_note">note</a>&gt;  </div> <div><b>O</b>. &lt;<a href="#el_orgName">orgName</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_pb">pb</a>&gt; &lt;<a href="#el_persName">persName</a>&gt; &lt;<a href="#el_placeName">placeName</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_tech">tech</a>&gt; &lt;<a href="#el_title">title</a>&gt;  </div> </td>
+                <td class="children"><div><b>D</b>. &lt;<a href="#el_date_2">date</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_emph">emph</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_foreign">foreign</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_hi">hi<small class="att"> rend="sup"</small></a>&gt; &lt;<a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_lb">lb</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt; &lt;<a href="#el_note_2">note</a>&gt;  </div> <div><b>O</b>. &lt;<a href="#el_orgName">orgName</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_pb">pb</a>&gt; &lt;<a href="#el_persName">persName</a>&gt; &lt;<a href="#el_placeName">placeName</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_tech">tech</a>&gt; &lt;<a href="#el_title">title</a>&gt;  </div> </td>
               </tr>
               <tr>
                 <th>Modèle</th>
                 <td class="model">
-                  <span class="more"><a class="ref" href="#def_chars">chars</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <i>{text}</i> | <a href="#el_date_2">date</a> | <a href="#el_emph">emph</a> | <a href="#el_foreign">foreign</a> | <a href="#el_name">name</a> | <a href="#el_note">note</a> | <a href="#el_lb">lb</a> | <a href="#el_persName">persName</a> | <a href="#el_pb">pb</a> | <a href="#el_placeName">placeName</a> | <a href="#el_orgName">orgName</a> | <a href="#el_ref">ref</a> | <a href="#el_seg">seg</a> | <a href="#el_hi">hi<small class="att"> rend="sup"</small></a> | <a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a> | <a href="#el_tech">tech</a> | <a href="#el_title">title</a> ) * </span></span>)</span>
+                  <span class="more"><a class="ref" href="#def_chars">chars</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <i>{text}</i> | <a href="#el_date_2">date</a> | <a href="#el_emph">emph</a> | <a href="#el_foreign">foreign</a> | <a href="#el_name">name</a> | <a href="#el_note_2">note</a> | <a href="#el_lb">lb</a> | <a href="#el_persName">persName</a> | <a href="#el_pb">pb</a> | <a href="#el_placeName">placeName</a> | <a href="#el_orgName">orgName</a> | <a href="#el_ref">ref</a> | <a href="#el_seg">seg</a> | <a href="#el_hi">hi<small class="att"> rend="sup"</small></a> | <a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a> | <a href="#el_tech">tech</a> | <a href="#el_title">title</a> ) * </span></span>)</span>
                 </td>
               </tr>
               <tr>
@@ -1530,12 +1985,12 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
             <table class="grammar">
               <tr>
                 <th>Enfants</th>
-                <td class="children"><div><b>D</b>. &lt;<a href="#el_date_2">date</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_emph">emph</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_foreign">foreign</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_hi">hi<small class="att"> rend="sup"</small></a>&gt; &lt;<a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_lb">lb</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt; &lt;<a href="#el_note">note</a>&gt;  </div> <div><b>O</b>. &lt;<a href="#el_orgName">orgName</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_pb">pb</a>&gt; &lt;<a href="#el_persName">persName</a>&gt; &lt;<a href="#el_placeName">placeName</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_tech">tech</a>&gt; &lt;<a href="#el_title">title</a>&gt;  </div> </td>
+                <td class="children"><div><b>D</b>. &lt;<a href="#el_date_2">date</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_emph">emph</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_foreign">foreign</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_hi">hi<small class="att"> rend="sup"</small></a>&gt; &lt;<a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_lb">lb</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt; &lt;<a href="#el_note_2">note</a>&gt;  </div> <div><b>O</b>. &lt;<a href="#el_orgName">orgName</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_pb">pb</a>&gt; &lt;<a href="#el_persName">persName</a>&gt; &lt;<a href="#el_placeName">placeName</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_tech">tech</a>&gt; &lt;<a href="#el_title">title</a>&gt;  </div> </td>
               </tr>
               <tr>
                 <th>Modèle</th>
                 <td class="model">
-                  <span class="more"><a class="ref" href="#def_chars">chars</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <i>{text}</i> | <a href="#el_date_2">date</a> | <a href="#el_emph">emph</a> | <a href="#el_foreign">foreign</a> | <a href="#el_name">name</a> | <a href="#el_note">note</a> | <a href="#el_lb">lb</a> | <a href="#el_persName">persName</a> | <a href="#el_pb">pb</a> | <a href="#el_placeName">placeName</a> | <a href="#el_orgName">orgName</a> | <a href="#el_ref">ref</a> | <a href="#el_seg">seg</a> | <a href="#el_hi">hi<small class="att"> rend="sup"</small></a> | <a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a> | <a href="#el_tech">tech</a> | <a href="#el_title">title</a> ) * </span></span>)</span>
+                  <span class="more"><a class="ref" href="#def_chars">chars</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <i>{text}</i> | <a href="#el_date_2">date</a> | <a href="#el_emph">emph</a> | <a href="#el_foreign">foreign</a> | <a href="#el_name">name</a> | <a href="#el_note_2">note</a> | <a href="#el_lb">lb</a> | <a href="#el_persName">persName</a> | <a href="#el_pb">pb</a> | <a href="#el_placeName">placeName</a> | <a href="#el_orgName">orgName</a> | <a href="#el_ref">ref</a> | <a href="#el_seg">seg</a> | <a href="#el_hi">hi<small class="att"> rend="sup"</small></a> | <a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a> | <a href="#el_tech">tech</a> | <a href="#el_title">title</a> ) * </span></span>)</span>
                 </td>
               </tr>
               <tr>
@@ -1550,12 +2005,12 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
           <table class="grammar">
             <tr>
               <th>Enfants</th>
-              <td class="children"><div><b>D</b>. &lt;<a href="#el_date_2">date</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_emph">emph</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_foreign">foreign</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_hi">hi<small class="att"> rend="sup"</small></a>&gt; &lt;<a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_lb">lb</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt; &lt;<a href="#el_note">note</a>&gt;  </div> <div><b>O</b>. &lt;<a href="#el_orgName">orgName</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_pb">pb</a>&gt; &lt;<a href="#el_persName">persName</a>&gt; &lt;<a href="#el_placeName">placeName</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_tech">tech</a>&gt; &lt;<a href="#el_title">title</a>&gt;  </div> </td>
+              <td class="children"><div><b>D</b>. &lt;<a href="#el_date_2">date</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_emph">emph</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_foreign">foreign</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_hi">hi<small class="att"> rend="sup"</small></a>&gt; &lt;<a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_lb">lb</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt; &lt;<a href="#el_note_2">note</a>&gt;  </div> <div><b>O</b>. &lt;<a href="#el_orgName">orgName</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_pb">pb</a>&gt; &lt;<a href="#el_persName">persName</a>&gt; &lt;<a href="#el_placeName">placeName</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_tech">tech</a>&gt; &lt;<a href="#el_title">title</a>&gt;  </div> </td>
             </tr>
             <tr>
               <th>Modèle</th>
               <td class="model">
-                <span class="more"><a class="ref" href="#def_chars">chars</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <i>{text}</i> | <a href="#el_date_2">date</a> | <a href="#el_emph">emph</a> | <a href="#el_foreign">foreign</a> | <a href="#el_name">name</a> | <a href="#el_note">note</a> | <a href="#el_lb">lb</a> | <a href="#el_persName">persName</a> | <a href="#el_pb">pb</a> | <a href="#el_placeName">placeName</a> | <a href="#el_orgName">orgName</a> | <a href="#el_ref">ref</a> | <a href="#el_seg">seg</a> | <a href="#el_hi">hi<small class="att"> rend="sup"</small></a> | <a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a> | <a href="#el_tech">tech</a> | <a href="#el_title">title</a> ) * </span></span>)</span>
+                <span class="more"><a class="ref" href="#def_chars">chars</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <i>{text}</i> | <a href="#el_date_2">date</a> | <a href="#el_emph">emph</a> | <a href="#el_foreign">foreign</a> | <a href="#el_name">name</a> | <a href="#el_note_2">note</a> | <a href="#el_lb">lb</a> | <a href="#el_persName">persName</a> | <a href="#el_pb">pb</a> | <a href="#el_placeName">placeName</a> | <a href="#el_orgName">orgName</a> | <a href="#el_ref">ref</a> | <a href="#el_seg">seg</a> | <a href="#el_hi">hi<small class="att"> rend="sup"</small></a> | <a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a> | <a href="#el_tech">tech</a> | <a href="#el_title">title</a> ) * </span></span>)</span>
               </td>
             </tr>
             <tr>
@@ -1565,19 +2020,19 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
           </table>
         </section>
       </section>
-      <section class="div" id="idm339">
+      <section class="div" id="idm337">
         <h2>Blocs (niveau paragraphe)</h2>
         <section class="element rng" id="el_bibl_2">
           <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-bibl.html" target="TEI">bibl</a>&gt; </header>
           <table class="grammar">
             <tr>
               <th>Enfants</th>
-              <td class="children"><div><b>D</b>. &lt;<a href="#el_date_2">date</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_emph">emph</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_foreign">foreign</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_hi">hi<small class="att"> rend="sup"</small></a>&gt; &lt;<a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_lb">lb</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt; &lt;<a href="#el_note">note</a>&gt;  </div> <div><b>O</b>. &lt;<a href="#el_orgName">orgName</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_pb">pb</a>&gt; &lt;<a href="#el_persName">persName</a>&gt; &lt;<a href="#el_placeName">placeName</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_tech">tech</a>&gt; &lt;<a href="#el_title">title</a>&gt;  </div> </td>
+              <td class="children"><div><b>D</b>. &lt;<a href="#el_date_2">date</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_emph">emph</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_foreign">foreign</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_hi">hi<small class="att"> rend="sup"</small></a>&gt; &lt;<a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_lb">lb</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt; &lt;<a href="#el_note_2">note</a>&gt;  </div> <div><b>O</b>. &lt;<a href="#el_orgName">orgName</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_pb">pb</a>&gt; &lt;<a href="#el_persName">persName</a>&gt; &lt;<a href="#el_placeName">placeName</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_tech">tech</a>&gt; &lt;<a href="#el_title">title</a>&gt;  </div> </td>
             </tr>
             <tr>
               <th>Modèle</th>
               <td class="model">
-                <span class="more"><a class="ref" href="#def_chars">chars</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <i>{text}</i> | <a href="#el_date_2">date</a> | <a href="#el_emph">emph</a> | <a href="#el_foreign">foreign</a> | <a href="#el_name">name</a> | <a href="#el_note">note</a> | <a href="#el_lb">lb</a> | <a href="#el_persName">persName</a> | <a href="#el_pb">pb</a> | <a href="#el_placeName">placeName</a> | <a href="#el_orgName">orgName</a> | <a href="#el_ref">ref</a> | <a href="#el_seg">seg</a> | <a href="#el_hi">hi<small class="att"> rend="sup"</small></a> | <a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a> | <a href="#el_tech">tech</a> | <a href="#el_title">title</a> ) * </span></span>)</span>
+                <span class="more"><a class="ref" href="#def_chars">chars</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <i>{text}</i> | <a href="#el_date_2">date</a> | <a href="#el_emph">emph</a> | <a href="#el_foreign">foreign</a> | <a href="#el_name">name</a> | <a href="#el_note_2">note</a> | <a href="#el_lb">lb</a> | <a href="#el_persName">persName</a> | <a href="#el_pb">pb</a> | <a href="#el_placeName">placeName</a> | <a href="#el_orgName">orgName</a> | <a href="#el_ref">ref</a> | <a href="#el_seg">seg</a> | <a href="#el_hi">hi<small class="att"> rend="sup"</small></a> | <a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a> | <a href="#el_tech">tech</a> | <a href="#el_title">title</a> ) * </span></span>)</span>
               </td>
             </tr>
             <tr>
@@ -1591,12 +2046,12 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
           <table class="grammar">
             <tr>
               <th>Enfants</th>
-              <td class="children"><div><b>F</b>. &lt;<a href="#el_figDesc">figDesc</a>&gt;  </div> <div><b>G</b>. &lt;<a href="#el_graphic">graphic</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_head">head</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt; &lt;<a href="#el_lg">lg</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt;  </div> </td>
+              <td class="children"><div><b>B</b>. &lt;<a href="#el_byline">byline</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_dateline">dateline</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_figDesc">figDesc</a>&gt;  </div> <div><b>G</b>. &lt;<a href="#el_graphic">graphic</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_head">head</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt; &lt;<a href="#el_lg">lg</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_signed">signed</a>&gt;  </div> </td>
             </tr>
             <tr>
               <th>Modèle</th>
               <td class="model">
-                <span class="compact element"><a href="#el_graphic">graphic</a> <a href="#el_figDesc">figDesc</a> <a href="#el_head">head</a> ? <span class="compact choice"> ( <a href="#el_l">l</a> | <a href="#el_label">label</a> | <a href="#el_lg">lg</a> | <a href="#el_p">p</a> ) * </span></span>
+                <span class="compact interleave">( <a href="#el_graphic">graphic</a> - <a href="#el_figDesc">figDesc</a><span class="compact choice"> - ( <a href="#el_byline">byline</a> | <a href="#el_dateline">dateline</a> | <a href="#el_head">head</a> | <a href="#el_l">l</a> | <a href="#el_label">label</a> | <a href="#el_lg">lg</a> | <a href="#el_p">p</a> | <a href="#el_signed">signed</a> ) * </span> )</span>
               </td>
             </tr>
             <tr>
@@ -1609,12 +2064,12 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
             <table class="grammar">
               <tr>
                 <th>Enfants</th>
-                <td class="children"><div><b>D</b>. &lt;<a href="#el_date_2">date</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_emph">emph</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_foreign">foreign</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_hi">hi<small class="att"> rend="sup"</small></a>&gt; &lt;<a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_lb">lb</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt; &lt;<a href="#el_note">note</a>&gt;  </div> <div><b>O</b>. &lt;<a href="#el_orgName">orgName</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_pb">pb</a>&gt; &lt;<a href="#el_persName">persName</a>&gt; &lt;<a href="#el_placeName">placeName</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_tech">tech</a>&gt; &lt;<a href="#el_title">title</a>&gt;  </div> </td>
+                <td class="children"><div><b>D</b>. &lt;<a href="#el_date_2">date</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_emph">emph</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_foreign">foreign</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_hi">hi<small class="att"> rend="sup"</small></a>&gt; &lt;<a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_lb">lb</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt; &lt;<a href="#el_note_2">note</a>&gt;  </div> <div><b>O</b>. &lt;<a href="#el_orgName">orgName</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_pb">pb</a>&gt; &lt;<a href="#el_persName">persName</a>&gt; &lt;<a href="#el_placeName">placeName</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_tech">tech</a>&gt; &lt;<a href="#el_title">title</a>&gt;  </div> </td>
               </tr>
               <tr>
                 <th>Modèle</th>
                 <td class="model">
-                  <span class="more"><a class="ref" href="#def_chars">chars</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <i>{text}</i> | <a href="#el_date_2">date</a> | <a href="#el_emph">emph</a> | <a href="#el_foreign">foreign</a> | <a href="#el_name">name</a> | <a href="#el_note">note</a> | <a href="#el_lb">lb</a> | <a href="#el_persName">persName</a> | <a href="#el_pb">pb</a> | <a href="#el_placeName">placeName</a> | <a href="#el_orgName">orgName</a> | <a href="#el_ref">ref</a> | <a href="#el_seg">seg</a> | <a href="#el_hi">hi<small class="att"> rend="sup"</small></a> | <a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a> | <a href="#el_tech">tech</a> | <a href="#el_title">title</a> ) * </span></span>)</span>
+                  <span class="more"><a class="ref" href="#def_chars">chars</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <i>{text}</i> | <a href="#el_date_2">date</a> | <a href="#el_emph">emph</a> | <a href="#el_foreign">foreign</a> | <a href="#el_name">name</a> | <a href="#el_note_2">note</a> | <a href="#el_lb">lb</a> | <a href="#el_persName">persName</a> | <a href="#el_pb">pb</a> | <a href="#el_placeName">placeName</a> | <a href="#el_orgName">orgName</a> | <a href="#el_ref">ref</a> | <a href="#el_seg">seg</a> | <a href="#el_hi">hi<small class="att"> rend="sup"</small></a> | <a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a> | <a href="#el_tech">tech</a> | <a href="#el_title">title</a> ) * </span></span>)</span>
                 </td>
               </tr>
               <tr>
@@ -1646,13 +2101,13 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
             </tr>
             <tr>
               <th>Enfants</th>
-              <td class="children"><div><b>D</b>. &lt;<a href="#el_date_2">date</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_emph">emph</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_foreign">foreign</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_hi">hi<small class="att"> rend="sup"</small></a>&gt; &lt;<a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_lb">lb</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt; &lt;<a href="#el_note">note</a>&gt;  </div> <div><b>O</b>. &lt;<a href="#el_orgName">orgName</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_pb">pb</a>&gt; &lt;<a href="#el_persName">persName</a>&gt; &lt;<a href="#el_placeName">placeName</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_tech">tech</a>&gt; &lt;<a href="#el_title">title</a>&gt;  </div> </td>
+              <td class="children"><div><b>D</b>. &lt;<a href="#el_date_2">date</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_emph">emph</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_foreign">foreign</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_hi">hi<small class="att"> rend="sup"</small></a>&gt; &lt;<a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_lb">lb</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt; &lt;<a href="#el_note_2">note</a>&gt;  </div> <div><b>O</b>. &lt;<a href="#el_orgName">orgName</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_pb">pb</a>&gt; &lt;<a href="#el_persName">persName</a>&gt; &lt;<a href="#el_placeName">placeName</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_tech">tech</a>&gt; &lt;<a href="#el_title">title</a>&gt;  </div> </td>
             </tr>
             <tr>
               <th>Modèle</th>
               <td class="model">
                 <span class="compact element">
-                  <span class="compact choice"> ( <span class="more"><a class="ref" href="#def_chars">chars</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <i>{text}</i> | <a href="#el_date_2">date</a> | <a href="#el_emph">emph</a> | <a href="#el_foreign">foreign</a> | <a href="#el_name">name</a> | <a href="#el_note">note</a> | <a href="#el_lb">lb</a> | <a href="#el_persName">persName</a> | <a href="#el_pb">pb</a> | <a href="#el_placeName">placeName</a> | <a href="#el_orgName">orgName</a> | <a href="#el_ref">ref</a> | <a href="#el_seg">seg</a> | <a href="#el_hi">hi<small class="att"> rend="sup"</small></a> | <a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a> | <a href="#el_tech">tech</a> | <a href="#el_title">title</a> ) * </span></span>)</span> | <a href="#el_lb">lb</a> ) * </span>
+                  <span class="compact choice"> ( <span class="more"><a class="ref" href="#def_chars">chars</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <i>{text}</i> | <a href="#el_date_2">date</a> | <a href="#el_emph">emph</a> | <a href="#el_foreign">foreign</a> | <a href="#el_name">name</a> | <a href="#el_note_2">note</a> | <a href="#el_lb">lb</a> | <a href="#el_persName">persName</a> | <a href="#el_pb">pb</a> | <a href="#el_placeName">placeName</a> | <a href="#el_orgName">orgName</a> | <a href="#el_ref">ref</a> | <a href="#el_seg">seg</a> | <a href="#el_hi">hi<small class="att"> rend="sup"</small></a> | <a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a> | <a href="#el_tech">tech</a> | <a href="#el_title">title</a> ) * </span></span>)</span> | <a href="#el_lb">lb</a> ) * </span>
                 </span>
               </td>
             </tr>
@@ -1689,19 +2144,19 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
             </tr>
             <tr>
               <th>Enfants</th>
-              <td class="children"><div><b>D</b>. &lt;<a href="#el_date_2">date</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_emph">emph</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_foreign">foreign</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_hi">hi<small class="att"> rend="sup"</small></a>&gt; &lt;<a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_lb">lb</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt; &lt;<a href="#el_note">note</a>&gt;  </div> <div><b>O</b>. &lt;<a href="#el_orgName">orgName</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_pb">pb</a>&gt; &lt;<a href="#el_persName">persName</a>&gt; &lt;<a href="#el_placeName">placeName</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_tech">tech</a>&gt; &lt;<a href="#el_title">title</a>&gt;  </div> </td>
+              <td class="children"><div><b>D</b>. &lt;<a href="#el_date_2">date</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_emph">emph</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_foreign">foreign</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_hi">hi<small class="att"> rend="sup"</small></a>&gt; &lt;<a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_lb">lb</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt; &lt;<a href="#el_note_2">note</a>&gt;  </div> <div><b>O</b>. &lt;<a href="#el_orgName">orgName</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_pb">pb</a>&gt; &lt;<a href="#el_persName">persName</a>&gt; &lt;<a href="#el_placeName">placeName</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_tech">tech</a>&gt; &lt;<a href="#el_title">title</a>&gt;  </div> </td>
             </tr>
             <tr>
               <th>Modèle</th>
               <td class="model">
                 <span class="compact element">
-                  <span class="more"> <a class="ref" href="#def_chars">chars</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <i>{text}</i> | <a href="#el_date_2">date</a> | <a href="#el_emph">emph</a> | <a href="#el_foreign">foreign</a> | <a href="#el_name">name</a> | <a href="#el_note">note</a> | <a href="#el_lb">lb</a> | <a href="#el_persName">persName</a> | <a href="#el_pb">pb</a> | <a href="#el_placeName">placeName</a> | <a href="#el_orgName">orgName</a> | <a href="#el_ref">ref</a> | <a href="#el_seg">seg</a> | <a href="#el_hi">hi<small class="att"> rend="sup"</small></a> | <a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a> | <a href="#el_tech">tech</a> | <a href="#el_title">title</a> ) * </span></span>)</span>
+                  <span class="more"> <a class="ref" href="#def_chars">chars</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <i>{text}</i> | <a href="#el_date_2">date</a> | <a href="#el_emph">emph</a> | <a href="#el_foreign">foreign</a> | <a href="#el_name">name</a> | <a href="#el_note_2">note</a> | <a href="#el_lb">lb</a> | <a href="#el_persName">persName</a> | <a href="#el_pb">pb</a> | <a href="#el_placeName">placeName</a> | <a href="#el_orgName">orgName</a> | <a href="#el_ref">ref</a> | <a href="#el_seg">seg</a> | <a href="#el_hi">hi<small class="att"> rend="sup"</small></a> | <a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a> | <a href="#el_tech">tech</a> | <a href="#el_title">title</a> ) * </span></span>)</span>
                 </span>
               </td>
             </tr>
             <tr>
               <th>Parents</th>
-              <td class="usage"><div><b>B</b>. &lt;<a href="#el_body">body</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_div">div</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_figure">figure</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_lg">lg</a>&gt; &lt;<a href="#el_lg_2">lg</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_note">note</a>&gt;  </div> </td>
+              <td class="usage"><div><b>B</b>. &lt;<a href="#el_body">body</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_div">div</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_figure">figure</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_lg">lg</a>&gt; &lt;<a href="#el_lg_2">lg</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_note_2">note</a>&gt;  </div> </td>
             </tr>
           </table>
         </section>
@@ -1798,13 +2253,13 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
             </tr>
             <tr>
               <th>Enfants</th>
-              <td class="children"><div><b>D</b>. &lt;<a href="#el_date_2">date</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_emph">emph</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_foreign">foreign</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_hi">hi<small class="att"> rend="sup"</small></a>&gt; &lt;<a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_lb">lb</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt; &lt;<a href="#el_note">note</a>&gt;  </div> <div><b>O</b>. &lt;<a href="#el_orgName">orgName</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_pb">pb</a>&gt; &lt;<a href="#el_persName">persName</a>&gt; &lt;<a href="#el_placeName">placeName</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_tech">tech</a>&gt; &lt;<a href="#el_title">title</a>&gt;  </div> </td>
+              <td class="children"><div><b>D</b>. &lt;<a href="#el_date_2">date</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_emph">emph</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_foreign">foreign</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_hi">hi<small class="att"> rend="sup"</small></a>&gt; &lt;<a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_lb">lb</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt; &lt;<a href="#el_note_2">note</a>&gt;  </div> <div><b>O</b>. &lt;<a href="#el_orgName">orgName</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_pb">pb</a>&gt; &lt;<a href="#el_persName">persName</a>&gt; &lt;<a href="#el_placeName">placeName</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_tech">tech</a>&gt; &lt;<a href="#el_title">title</a>&gt;  </div> </td>
             </tr>
             <tr>
               <th>Modèle</th>
               <td class="model">
                 <span class="compact element">
-                  <span class="compact choice"> ( <span class="more"><a class="ref" href="#def_chars">chars</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <i>{text}</i> | <a href="#el_date_2">date</a> | <a href="#el_emph">emph</a> | <a href="#el_foreign">foreign</a> | <a href="#el_name">name</a> | <a href="#el_note">note</a> | <a href="#el_lb">lb</a> | <a href="#el_persName">persName</a> | <a href="#el_pb">pb</a> | <a href="#el_placeName">placeName</a> | <a href="#el_orgName">orgName</a> | <a href="#el_ref">ref</a> | <a href="#el_seg">seg</a> | <a href="#el_hi">hi<small class="att"> rend="sup"</small></a> | <a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a> | <a href="#el_tech">tech</a> | <a href="#el_title">title</a> ) * </span></span>)</span> | <a href="#el_lb">lb</a> ) * </span>
+                  <span class="compact choice"> ( <span class="more"><a class="ref" href="#def_chars">chars</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <i>{text}</i> | <a href="#el_date_2">date</a> | <a href="#el_emph">emph</a> | <a href="#el_foreign">foreign</a> | <a href="#el_name">name</a> | <a href="#el_note_2">note</a> | <a href="#el_lb">lb</a> | <a href="#el_persName">persName</a> | <a href="#el_pb">pb</a> | <a href="#el_placeName">placeName</a> | <a href="#el_orgName">orgName</a> | <a href="#el_ref">ref</a> | <a href="#el_seg">seg</a> | <a href="#el_hi">hi<small class="att"> rend="sup"</small></a> | <a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a> | <a href="#el_tech">tech</a> | <a href="#el_title">title</a> ) * </span></span>)</span> | <a href="#el_lb">lb</a> ) * </span>
                 </span>
               </td>
             </tr>
@@ -1857,12 +2312,12 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
             <table class="grammar">
               <tr>
                 <th>Enfants</th>
-                <td class="children"><div><b>D</b>. &lt;<a href="#el_date_2">date</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_emph">emph</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_foreign">foreign</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_hi">hi<small class="att"> rend="sup"</small></a>&gt; &lt;<a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_lb">lb</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt; &lt;<a href="#el_note">note</a>&gt;  </div> <div><b>O</b>. &lt;<a href="#el_orgName">orgName</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_pb">pb</a>&gt; &lt;<a href="#el_persName">persName</a>&gt; &lt;<a href="#el_placeName">placeName</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_tech">tech</a>&gt; &lt;<a href="#el_title">title</a>&gt;  </div> </td>
+                <td class="children"><div><b>D</b>. &lt;<a href="#el_date_2">date</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_emph">emph</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_foreign">foreign</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_hi">hi<small class="att"> rend="sup"</small></a>&gt; &lt;<a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_lb">lb</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt; &lt;<a href="#el_note_2">note</a>&gt;  </div> <div><b>O</b>. &lt;<a href="#el_orgName">orgName</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_pb">pb</a>&gt; &lt;<a href="#el_persName">persName</a>&gt; &lt;<a href="#el_placeName">placeName</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_tech">tech</a>&gt; &lt;<a href="#el_title">title</a>&gt;  </div> </td>
               </tr>
               <tr>
                 <th>Modèle</th>
                 <td class="model">
-                  <span class="more"><a class="ref" href="#def_chars">chars</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <i>{text}</i> | <a href="#el_date_2">date</a> | <a href="#el_emph">emph</a> | <a href="#el_foreign">foreign</a> | <a href="#el_name">name</a> | <a href="#el_note">note</a> | <a href="#el_lb">lb</a> | <a href="#el_persName">persName</a> | <a href="#el_pb">pb</a> | <a href="#el_placeName">placeName</a> | <a href="#el_orgName">orgName</a> | <a href="#el_ref">ref</a> | <a href="#el_seg">seg</a> | <a href="#el_hi">hi<small class="att"> rend="sup"</small></a> | <a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a> | <a href="#el_tech">tech</a> | <a href="#el_title">title</a> ) * </span></span>)</span>
+                  <span class="more"><a class="ref" href="#def_chars">chars</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <i>{text}</i> | <a href="#el_date_2">date</a> | <a href="#el_emph">emph</a> | <a href="#el_foreign">foreign</a> | <a href="#el_name">name</a> | <a href="#el_note_2">note</a> | <a href="#el_lb">lb</a> | <a href="#el_persName">persName</a> | <a href="#el_pb">pb</a> | <a href="#el_placeName">placeName</a> | <a href="#el_orgName">orgName</a> | <a href="#el_ref">ref</a> | <a href="#el_seg">seg</a> | <a href="#el_hi">hi<small class="att"> rend="sup"</small></a> | <a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a> | <a href="#el_tech">tech</a> | <a href="#el_title">title</a> ) * </span></span>)</span>
                 </td>
               </tr>
               <tr>
@@ -1899,19 +2354,19 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
             </tr>
             <tr>
               <th>Enfants</th>
-              <td class="children"><div><b>D</b>. &lt;<a href="#el_date_2">date</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_emph">emph</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_foreign">foreign</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_hi">hi<small class="att"> rend="sup"</small></a>&gt; &lt;<a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_lb">lb</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt; &lt;<a href="#el_note">note</a>&gt;  </div> <div><b>O</b>. &lt;<a href="#el_orgName">orgName</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_pb">pb</a>&gt; &lt;<a href="#el_persName">persName</a>&gt; &lt;<a href="#el_placeName">placeName</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_tech">tech</a>&gt; &lt;<a href="#el_title">title</a>&gt;  </div> </td>
+              <td class="children"><div><b>D</b>. &lt;<a href="#el_date_2">date</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_emph">emph</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_foreign">foreign</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_hi">hi<small class="att"> rend="sup"</small></a>&gt; &lt;<a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_lb">lb</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt; &lt;<a href="#el_note_2">note</a>&gt;  </div> <div><b>O</b>. &lt;<a href="#el_orgName">orgName</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_pb">pb</a>&gt; &lt;<a href="#el_persName">persName</a>&gt; &lt;<a href="#el_placeName">placeName</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_tech">tech</a>&gt; &lt;<a href="#el_title">title</a>&gt;  </div> </td>
             </tr>
             <tr>
               <th>Modèle</th>
               <td class="model">
                 <span class="compact element">
-                  <span class="more"> <a class="ref" href="#def_chars">chars</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <i>{text}</i> | <a href="#el_date_2">date</a> | <a href="#el_emph">emph</a> | <a href="#el_foreign">foreign</a> | <a href="#el_name">name</a> | <a href="#el_note">note</a> | <a href="#el_lb">lb</a> | <a href="#el_persName">persName</a> | <a href="#el_pb">pb</a> | <a href="#el_placeName">placeName</a> | <a href="#el_orgName">orgName</a> | <a href="#el_ref">ref</a> | <a href="#el_seg">seg</a> | <a href="#el_hi">hi<small class="att"> rend="sup"</small></a> | <a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a> | <a href="#el_tech">tech</a> | <a href="#el_title">title</a> ) * </span></span>)</span>
+                  <span class="more"> <a class="ref" href="#def_chars">chars</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <i>{text}</i> | <a href="#el_date_2">date</a> | <a href="#el_emph">emph</a> | <a href="#el_foreign">foreign</a> | <a href="#el_name">name</a> | <a href="#el_note_2">note</a> | <a href="#el_lb">lb</a> | <a href="#el_persName">persName</a> | <a href="#el_pb">pb</a> | <a href="#el_placeName">placeName</a> | <a href="#el_orgName">orgName</a> | <a href="#el_ref">ref</a> | <a href="#el_seg">seg</a> | <a href="#el_hi">hi<small class="att"> rend="sup"</small></a> | <a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a> | <a href="#el_tech">tech</a> | <a href="#el_title">title</a> ) * </span></span>)</span>
                 </span>
               </td>
             </tr>
             <tr>
               <th>Parents</th>
-              <td class="usage"><div><b>B</b>. &lt;<a href="#el_body">body</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_div">div</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_figure">figure</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_note">note</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_physDesc">physDesc</a>&gt;  </div> </td>
+              <td class="usage"><div><b>B</b>. &lt;<a href="#el_body">body</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_div">div</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_figure">figure</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_note_2">note</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_physDesc">physDesc</a>&gt;  </div> </td>
             </tr>
           </table>
         </section>
@@ -1937,19 +2392,19 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
             </tr>
             <tr>
               <th>Enfants</th>
-              <td class="children"><div><b>D</b>. &lt;<a href="#el_date_2">date</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_emph">emph</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_foreign">foreign</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_hi">hi<small class="att"> rend="sup"</small></a>&gt; &lt;<a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_lb">lb</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt; &lt;<a href="#el_note">note</a>&gt;  </div> <div><b>O</b>. &lt;<a href="#el_orgName">orgName</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_pb">pb</a>&gt; &lt;<a href="#el_persName">persName</a>&gt; &lt;<a href="#el_placeName">placeName</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_tech">tech</a>&gt; &lt;<a href="#el_title">title</a>&gt;  </div> </td>
+              <td class="children"><div><b>D</b>. &lt;<a href="#el_date_2">date</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_emph">emph</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_foreign">foreign</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_hi">hi<small class="att"> rend="sup"</small></a>&gt; &lt;<a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_lb">lb</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt; &lt;<a href="#el_note_2">note</a>&gt;  </div> <div><b>O</b>. &lt;<a href="#el_orgName">orgName</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_pb">pb</a>&gt; &lt;<a href="#el_persName">persName</a>&gt; &lt;<a href="#el_placeName">placeName</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_tech">tech</a>&gt; &lt;<a href="#el_title">title</a>&gt;  </div> </td>
             </tr>
             <tr>
               <th>Modèle</th>
               <td class="model">
                 <span class="compact element">
-                  <span class="more"> <a class="ref" href="#def_chars">chars</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <i>{text}</i> | <a href="#el_date_2">date</a> | <a href="#el_emph">emph</a> | <a href="#el_foreign">foreign</a> | <a href="#el_name">name</a> | <a href="#el_note">note</a> | <a href="#el_lb">lb</a> | <a href="#el_persName">persName</a> | <a href="#el_pb">pb</a> | <a href="#el_placeName">placeName</a> | <a href="#el_orgName">orgName</a> | <a href="#el_ref">ref</a> | <a href="#el_seg">seg</a> | <a href="#el_hi">hi<small class="att"> rend="sup"</small></a> | <a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a> | <a href="#el_tech">tech</a> | <a href="#el_title">title</a> ) * </span></span>)</span>
+                  <span class="more"> <a class="ref" href="#def_chars">chars</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <i>{text}</i> | <a href="#el_date_2">date</a> | <a href="#el_emph">emph</a> | <a href="#el_foreign">foreign</a> | <a href="#el_name">name</a> | <a href="#el_note_2">note</a> | <a href="#el_lb">lb</a> | <a href="#el_persName">persName</a> | <a href="#el_pb">pb</a> | <a href="#el_placeName">placeName</a> | <a href="#el_orgName">orgName</a> | <a href="#el_ref">ref</a> | <a href="#el_seg">seg</a> | <a href="#el_hi">hi<small class="att"> rend="sup"</small></a> | <a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a> | <a href="#el_tech">tech</a> | <a href="#el_title">title</a> ) * </span></span>)</span>
                 </span>
               </td>
             </tr>
             <tr>
               <th>Parents</th>
-              <td class="usage">Inutilisé</td>
+              <td class="usage"><div><b>F</b>. &lt;<a href="#el_figure">figure</a>&gt;  </div> </td>
             </tr>
           </table>
         </section>
@@ -1970,13 +2425,13 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
             </tr>
             <tr>
               <th>Enfants</th>
-              <td class="children"><div><b>D</b>. &lt;<a href="#el_date_2">date</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_emph">emph</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_foreign">foreign</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_hi">hi<small class="att"> rend="sup"</small></a>&gt; &lt;<a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_lb">lb</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt; &lt;<a href="#el_note">note</a>&gt;  </div> <div><b>O</b>. &lt;<a href="#el_orgName">orgName</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_pb">pb</a>&gt; &lt;<a href="#el_persName">persName</a>&gt; &lt;<a href="#el_placeName">placeName</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_tech">tech</a>&gt; &lt;<a href="#el_title">title</a>&gt;  </div> </td>
+              <td class="children"><div><b>D</b>. &lt;<a href="#el_date_2">date</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_emph">emph</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_foreign">foreign</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_hi">hi<small class="att"> rend="sup"</small></a>&gt; &lt;<a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_lb">lb</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt; &lt;<a href="#el_note_2">note</a>&gt;  </div> <div><b>O</b>. &lt;<a href="#el_orgName">orgName</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_pb">pb</a>&gt; &lt;<a href="#el_persName">persName</a>&gt; &lt;<a href="#el_placeName">placeName</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_tech">tech</a>&gt; &lt;<a href="#el_title">title</a>&gt;  </div> </td>
             </tr>
             <tr>
               <th>Modèle</th>
               <td class="model">
                 <span class="compact element">
-                  <span class="more"> <a class="ref" href="#def_chars">chars</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <i>{text}</i> | <a href="#el_date_2">date</a> | <a href="#el_emph">emph</a> | <a href="#el_foreign">foreign</a> | <a href="#el_name">name</a> | <a href="#el_note">note</a> | <a href="#el_lb">lb</a> | <a href="#el_persName">persName</a> | <a href="#el_pb">pb</a> | <a href="#el_placeName">placeName</a> | <a href="#el_orgName">orgName</a> | <a href="#el_ref">ref</a> | <a href="#el_seg">seg</a> | <a href="#el_hi">hi<small class="att"> rend="sup"</small></a> | <a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a> | <a href="#el_tech">tech</a> | <a href="#el_title">title</a> ) * </span></span>)</span>
+                  <span class="more"> <a class="ref" href="#def_chars">chars</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <i>{text}</i> | <a href="#el_date_2">date</a> | <a href="#el_emph">emph</a> | <a href="#el_foreign">foreign</a> | <a href="#el_name">name</a> | <a href="#el_note_2">note</a> | <a href="#el_lb">lb</a> | <a href="#el_persName">persName</a> | <a href="#el_pb">pb</a> | <a href="#el_placeName">placeName</a> | <a href="#el_orgName">orgName</a> | <a href="#el_ref">ref</a> | <a href="#el_seg">seg</a> | <a href="#el_hi">hi<small class="att"> rend="sup"</small></a> | <a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a> | <a href="#el_tech">tech</a> | <a href="#el_title">title</a> ) * </span></span>)</span>
                 </span>
               </td>
             </tr>
@@ -1987,7 +2442,7 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
           </table>
         </section>
       </section>
-      <section class="div" id="idm480">
+      <section class="div" id="idm481">
         <h2>Segments (niveau caractère)</h2>
         <section class="define rng" id="def_chars">
           <header class="define rng">
@@ -1997,12 +2452,12 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
             <tr>
               <th>Contenu</th>
               <td>
-                <span class="compact choice">( <i>{text}</i> | <a href="#el_date_2">date</a> | <a href="#el_emph">emph</a> | <a href="#el_foreign">foreign</a> | <a href="#el_name">name</a> | <a href="#el_note">note</a> | <a href="#el_lb">lb</a> | <a href="#el_persName">persName</a> | <a href="#el_pb">pb</a> | <a href="#el_placeName">placeName</a> | <a href="#el_orgName">orgName</a> | <a href="#el_ref">ref</a> | <a href="#el_seg">seg</a> | <a href="#el_hi">hi<small class="att"> rend="sup"</small></a> | <a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a> | <a href="#el_tech">tech</a> | <a href="#el_title">title</a> ) * </span>
+                <span class="compact choice">( <i>{text}</i> | <a href="#el_date_2">date</a> | <a href="#el_emph">emph</a> | <a href="#el_foreign">foreign</a> | <a href="#el_name">name</a> | <a href="#el_note_2">note</a> | <a href="#el_lb">lb</a> | <a href="#el_persName">persName</a> | <a href="#el_pb">pb</a> | <a href="#el_placeName">placeName</a> | <a href="#el_orgName">orgName</a> | <a href="#el_ref">ref</a> | <a href="#el_seg">seg</a> | <a href="#el_hi">hi<small class="att"> rend="sup"</small></a> | <a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a> | <a href="#el_tech">tech</a> | <a href="#el_title">title</a> ) * </span>
               </td>
             </tr>
             <tr>
               <th>Usage</th>
-              <td><div><b>B</b>. &lt;<a href="#el_bibl_2">bibl</a>&gt; &lt;<a href="#el_byline">byline</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_dateline">dateline</a>&gt; &lt;<a href="#el_docDate">docDate</a>&gt; &lt;<a href="#el_docImprint">docImprint</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_figDesc">figDesc</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_head">head</a>&gt;  </div> <div><b>I</b>. &lt;<a href="#el_imprimatur">imprimatur</a>&gt; &lt;<a href="#el_item">item</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_note">note</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt; &lt;<a href="#el_signed">signed</a>&gt; &lt;<a href="#el_stage">stage</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_titlePart">titlePart</a>&gt; &lt;<a href="#el_trailer">trailer</a>&gt;  </div> </td>
+              <td><div><b>B</b>. &lt;<a href="#el_bibl_2">bibl</a>&gt; &lt;<a href="#el_byline">byline</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_dateline">dateline</a>&gt; &lt;<a href="#el_docDate">docDate</a>&gt; &lt;<a href="#el_docImprint">docImprint</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_figDesc">figDesc</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_head">head</a>&gt;  </div> <div><b>I</b>. &lt;<a href="#el_imprimatur">imprimatur</a>&gt; &lt;<a href="#el_item">item</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_note_2">note</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt; &lt;<a href="#el_signed">signed</a>&gt; &lt;<a href="#el_stage">stage</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_titlePart">titlePart</a>&gt; &lt;<a href="#el_trailer">trailer</a>&gt;  </div> </td>
             </tr>
           </table>
         </section>
@@ -2070,7 +2525,7 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
             </tr>
             <tr>
               <th>Parents</th>
-              <td class="usage"><div><b>B</b>. &lt;<a href="#el_bibl_2">bibl</a>&gt; &lt;<a href="#el_byline">byline</a>&gt;  </div> <div><b>C</b>. &lt;<a href="#el_creation">creation</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_dateline">dateline</a>&gt; &lt;<a href="#el_docDate">docDate</a>&gt; &lt;<a href="#el_docImprint">docImprint</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_emph">emph</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_figDesc">figDesc</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_head">head</a>&gt;  </div> <div><b>I</b>. &lt;<a href="#el_imprimatur">imprimatur</a>&gt; &lt;<a href="#el_item">item</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_note">note</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt; &lt;<a href="#el_publicationStmt">publicationStmt</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt; &lt;<a href="#el_signed">signed</a>&gt; &lt;<a href="#el_stage">stage</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_titlePart">titlePart</a>&gt; &lt;<a href="#el_trailer">trailer</a>&gt;  </div> </td>
+              <td class="usage"><div><b>B</b>. &lt;<a href="#el_bibl_2">bibl</a>&gt; &lt;<a href="#el_byline">byline</a>&gt;  </div> <div><b>C</b>. &lt;<a href="#el_creation">creation</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_dateline">dateline</a>&gt; &lt;<a href="#el_docDate">docDate</a>&gt; &lt;<a href="#el_docImprint">docImprint</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_emph">emph</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_figDesc">figDesc</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_head">head</a>&gt;  </div> <div><b>I</b>. &lt;<a href="#el_imprimatur">imprimatur</a>&gt; &lt;<a href="#el_item">item</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_note_2">note</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt; &lt;<a href="#el_publicationStmt">publicationStmt</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt; &lt;<a href="#el_signed">signed</a>&gt; &lt;<a href="#el_stage">stage</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_titlePart">titlePart</a>&gt; &lt;<a href="#el_trailer">trailer</a>&gt;  </div> </td>
             </tr>
           </table>
           <div class="group"/>
@@ -2091,7 +2546,7 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
             </tr>
             <tr>
               <th>Parents</th>
-              <td class="usage"><div><b>B</b>. &lt;<a href="#el_bibl">bibl</a>&gt; &lt;<a href="#el_bibl_2">bibl</a>&gt; &lt;<a href="#el_byline">byline</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_dateline">dateline</a>&gt; &lt;<a href="#el_docDate">docDate</a>&gt; &lt;<a href="#el_docImprint">docImprint</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_figDesc">figDesc</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_head">head</a>&gt;  </div> <div><b>I</b>. &lt;<a href="#el_imprimatur">imprimatur</a>&gt; &lt;<a href="#el_item">item</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_note">note</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt; &lt;<a href="#el_signed">signed</a>&gt; &lt;<a href="#el_stage">stage</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_titlePart">titlePart</a>&gt; &lt;<a href="#el_trailer">trailer</a>&gt;  </div> </td>
+              <td class="usage"><div><b>B</b>. &lt;<a href="#el_bibl">bibl</a>&gt; &lt;<a href="#el_bibl_2">bibl</a>&gt; &lt;<a href="#el_byline">byline</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_dateline">dateline</a>&gt; &lt;<a href="#el_docDate">docDate</a>&gt; &lt;<a href="#el_docImprint">docImprint</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_figDesc">figDesc</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_head">head</a>&gt;  </div> <div><b>I</b>. &lt;<a href="#el_imprimatur">imprimatur</a>&gt; &lt;<a href="#el_item">item</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_note_2">note</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt; &lt;<a href="#el_signed">signed</a>&gt; &lt;<a href="#el_stage">stage</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_titlePart">titlePart</a>&gt; &lt;<a href="#el_trailer">trailer</a>&gt;  </div> </td>
             </tr>
           </table>
         </section>
@@ -2117,17 +2572,17 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
             </tr>
             <tr>
               <th>Enfants</th>
-              <td class="children"><div><b>N</b>. &lt;<a href="#el_note">note</a>&gt;  </div> </td>
+              <td class="children"><div><b>N</b>. &lt;<a href="#el_note_2">note</a>&gt;  </div> </td>
             </tr>
             <tr>
               <th>Modèle</th>
               <td class="model">
-                <span class="compact element"><i>{text}</i> <a href="#el_note">note</a> ? </span>
+                <span class="compact element"><i>{text}</i> <a href="#el_note_2">note</a> ? </span>
               </td>
             </tr>
             <tr>
               <th>Parents</th>
-              <td class="usage"><div><b>B</b>. &lt;<a href="#el_bibl_2">bibl</a>&gt; &lt;<a href="#el_byline">byline</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_dateline">dateline</a>&gt; &lt;<a href="#el_docDate">docDate</a>&gt; &lt;<a href="#el_docImprint">docImprint</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_figDesc">figDesc</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_head">head</a>&gt;  </div> <div><b>I</b>. &lt;<a href="#el_imprimatur">imprimatur</a>&gt; &lt;<a href="#el_item">item</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_note">note</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt; &lt;<a href="#el_signed">signed</a>&gt; &lt;<a href="#el_stage">stage</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_titlePart">titlePart</a>&gt; &lt;<a href="#el_trailer">trailer</a>&gt;  </div> </td>
+              <td class="usage"><div><b>B</b>. &lt;<a href="#el_bibl_2">bibl</a>&gt; &lt;<a href="#el_byline">byline</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_dateline">dateline</a>&gt; &lt;<a href="#el_docDate">docDate</a>&gt; &lt;<a href="#el_docImprint">docImprint</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_figDesc">figDesc</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_head">head</a>&gt;  </div> <div><b>I</b>. &lt;<a href="#el_imprimatur">imprimatur</a>&gt; &lt;<a href="#el_item">item</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_note_2">note</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt; &lt;<a href="#el_signed">signed</a>&gt; &lt;<a href="#el_stage">stage</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_titlePart">titlePart</a>&gt; &lt;<a href="#el_trailer">trailer</a>&gt;  </div> </td>
             </tr>
           </table>
         </section>
@@ -2165,7 +2620,7 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
             </tr>
             <tr>
               <th>Parents</th>
-              <td class="usage"><div><b>B</b>. &lt;<a href="#el_bibl_2">bibl</a>&gt; &lt;<a href="#el_byline">byline</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_dateline">dateline</a>&gt; &lt;<a href="#el_docDate">docDate</a>&gt; &lt;<a href="#el_docImprint">docImprint</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_figDesc">figDesc</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_head">head</a>&gt;  </div> <div><b>I</b>. &lt;<a href="#el_imprimatur">imprimatur</a>&gt; &lt;<a href="#el_item">item</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_note">note</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt; &lt;<a href="#el_signed">signed</a>&gt; &lt;<a href="#el_stage">stage</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_titlePart">titlePart</a>&gt; &lt;<a href="#el_trailer">trailer</a>&gt;  </div> </td>
+              <td class="usage"><div><b>B</b>. &lt;<a href="#el_bibl_2">bibl</a>&gt; &lt;<a href="#el_byline">byline</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_dateline">dateline</a>&gt; &lt;<a href="#el_docDate">docDate</a>&gt; &lt;<a href="#el_docImprint">docImprint</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_figDesc">figDesc</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_head">head</a>&gt;  </div> <div><b>I</b>. &lt;<a href="#el_imprimatur">imprimatur</a>&gt; &lt;<a href="#el_item">item</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_note_2">note</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt; &lt;<a href="#el_signed">signed</a>&gt; &lt;<a href="#el_stage">stage</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_titlePart">titlePart</a>&gt; &lt;<a href="#el_trailer">trailer</a>&gt;  </div> </td>
             </tr>
           </table>
         </section>
@@ -2213,11 +2668,11 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
             </tr>
             <tr>
               <th>Parents</th>
-              <td class="usage"><div><b>B</b>. &lt;<a href="#el_bibl_2">bibl</a>&gt; &lt;<a href="#el_byline">byline</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_dateline">dateline</a>&gt; &lt;<a href="#el_docDate">docDate</a>&gt; &lt;<a href="#el_docImprint">docImprint</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_figDesc">figDesc</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_head">head</a>&gt;  </div> <div><b>I</b>. &lt;<a href="#el_imprimatur">imprimatur</a>&gt; &lt;<a href="#el_item">item</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt; &lt;<a href="#el_note">note</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt; &lt;<a href="#el_respStmt">respStmt</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt; &lt;<a href="#el_signed">signed</a>&gt; &lt;<a href="#el_stage">stage</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_tech">tech</a>&gt; &lt;<a href="#el_titlePart">titlePart</a>&gt; &lt;<a href="#el_trailer">trailer</a>&gt;  </div> </td>
+              <td class="usage"><div><b>B</b>. &lt;<a href="#el_bibl_2">bibl</a>&gt; &lt;<a href="#el_byline">byline</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_dateline">dateline</a>&gt; &lt;<a href="#el_docDate">docDate</a>&gt; &lt;<a href="#el_docImprint">docImprint</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_figDesc">figDesc</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_head">head</a>&gt;  </div> <div><b>I</b>. &lt;<a href="#el_imprimatur">imprimatur</a>&gt; &lt;<a href="#el_item">item</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt; &lt;<a href="#el_note_2">note</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt; &lt;<a href="#el_respStmt">respStmt</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt; &lt;<a href="#el_signed">signed</a>&gt; &lt;<a href="#el_stage">stage</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_tech">tech</a>&gt; &lt;<a href="#el_titlePart">titlePart</a>&gt; &lt;<a href="#el_trailer">trailer</a>&gt;  </div> </td>
             </tr>
           </table>
         </section>
-        <section class="element rng" id="el_note">
+        <section class="element rng" id="el_note_2">
           <header class="element rng">&lt;<a href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-note.html" target="TEI">note</a>&gt; Une note, encodée dans le flux du texte, au point de l’appel</header>
           <table class="grammar">
             <tr>
@@ -2237,19 +2692,19 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
             </tr>
             <tr>
               <th>Enfants</th>
-              <td class="children"><div><b>D</b>. &lt;<a href="#el_date_2">date</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_emph">emph</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_foreign">foreign</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_hi">hi<small class="att"> rend="sup"</small></a>&gt; &lt;<a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_lb">lb</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt; &lt;<a href="#el_note">note</a>&gt;  </div> <div><b>O</b>. &lt;<a href="#el_orgName">orgName</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt; &lt;<a href="#el_pb">pb</a>&gt; &lt;<a href="#el_persName">persName</a>&gt; &lt;<a href="#el_placeName">placeName</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_tech">tech</a>&gt; &lt;<a href="#el_title">title</a>&gt;  </div> </td>
+              <td class="children"><div><b>D</b>. &lt;<a href="#el_date_2">date</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_emph">emph</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_foreign">foreign</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_hi">hi<small class="att"> rend="sup"</small></a>&gt; &lt;<a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_lb">lb</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt; &lt;<a href="#el_note_2">note</a>&gt;  </div> <div><b>O</b>. &lt;<a href="#el_orgName">orgName</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt; &lt;<a href="#el_pb">pb</a>&gt; &lt;<a href="#el_persName">persName</a>&gt; &lt;<a href="#el_placeName">placeName</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_tech">tech</a>&gt; &lt;<a href="#el_title">title</a>&gt;  </div> </td>
             </tr>
             <tr>
               <th>Modèle</th>
               <td class="model">
                 <span class="compact element">
-                  <span class="compact choice"> ( <span class="more"><a class="ref" href="#def_chars">chars</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <i>{text}</i> | <a href="#el_date_2">date</a> | <a href="#el_emph">emph</a> | <a href="#el_foreign">foreign</a> | <a href="#el_name">name</a> | <a href="#el_note">note</a> | <a href="#el_lb">lb</a> | <a href="#el_persName">persName</a> | <a href="#el_pb">pb</a> | <a href="#el_placeName">placeName</a> | <a href="#el_orgName">orgName</a> | <a href="#el_ref">ref</a> | <a href="#el_seg">seg</a> | <a href="#el_hi">hi<small class="att"> rend="sup"</small></a> | <a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a> | <a href="#el_tech">tech</a> | <a href="#el_title">title</a> ) * </span></span>)</span> + <span class="compact choice"> | ( <a href="#el_p">p</a> | <a href="#el_l">l</a> ) + </span> )</span>
+                  <span class="compact choice"> ( <span class="more"><a class="ref" href="#def_chars">chars</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <i>{text}</i> | <a href="#el_date_2">date</a> | <a href="#el_emph">emph</a> | <a href="#el_foreign">foreign</a> | <a href="#el_name">name</a> | <a href="#el_note_2">note</a> | <a href="#el_lb">lb</a> | <a href="#el_persName">persName</a> | <a href="#el_pb">pb</a> | <a href="#el_placeName">placeName</a> | <a href="#el_orgName">orgName</a> | <a href="#el_ref">ref</a> | <a href="#el_seg">seg</a> | <a href="#el_hi">hi<small class="att"> rend="sup"</small></a> | <a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a> | <a href="#el_tech">tech</a> | <a href="#el_title">title</a> ) * </span></span>)</span> + <span class="compact choice"> | ( <a href="#el_p">p</a> | <a href="#el_l">l</a> ) + </span> )</span>
                 </span>
               </td>
             </tr>
             <tr>
               <th>Parents</th>
-              <td class="usage"><div><b>B</b>. &lt;<a href="#el_bibl_2">bibl</a>&gt; &lt;<a href="#el_byline">byline</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_dateline">dateline</a>&gt; &lt;<a href="#el_docDate">docDate</a>&gt; &lt;<a href="#el_docImprint">docImprint</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_figDesc">figDesc</a>&gt; &lt;<a href="#el_foreign">foreign</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_head">head</a>&gt;  </div> <div><b>I</b>. &lt;<a href="#el_imprimatur">imprimatur</a>&gt; &lt;<a href="#el_item">item</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_note">note</a>&gt; &lt;<a href="#el_notesStmt">notesStmt</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt; &lt;<a href="#el_signed">signed</a>&gt; &lt;<a href="#el_stage">stage</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_titlePart">titlePart</a>&gt; &lt;<a href="#el_trailer">trailer</a>&gt;  </div> </td>
+              <td class="usage"><div><b>B</b>. &lt;<a href="#el_bibl_2">bibl</a>&gt; &lt;<a href="#el_byline">byline</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_dateline">dateline</a>&gt; &lt;<a href="#el_docDate">docDate</a>&gt; &lt;<a href="#el_docImprint">docImprint</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_figDesc">figDesc</a>&gt; &lt;<a href="#el_foreign">foreign</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_head">head</a>&gt;  </div> <div><b>I</b>. &lt;<a href="#el_imprimatur">imprimatur</a>&gt; &lt;<a href="#el_item">item</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_note_2">note</a>&gt; &lt;<a href="#el_notesStmt">notesStmt</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt; &lt;<a href="#el_signed">signed</a>&gt; &lt;<a href="#el_stage">stage</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_titlePart">titlePart</a>&gt; &lt;<a href="#el_trailer">trailer</a>&gt;  </div> </td>
             </tr>
           </table>
         </section>
@@ -2284,7 +2739,7 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
             </tr>
             <tr>
               <th>Parents</th>
-              <td class="usage"><div><b>B</b>. &lt;<a href="#el_bibl_2">bibl</a>&gt; &lt;<a href="#el_body">body</a>&gt; &lt;<a href="#el_byline">byline</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_dateline">dateline</a>&gt; &lt;<a href="#el_div">div</a>&gt; &lt;<a href="#el_docDate">docDate</a>&gt; &lt;<a href="#el_docImprint">docImprint</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_figDesc">figDesc</a>&gt; &lt;<a href="#el_front">front</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_head">head</a>&gt;  </div> <div><b>I</b>. &lt;<a href="#el_imprimatur">imprimatur</a>&gt; &lt;<a href="#el_item">item</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt; &lt;<a href="#el_lg">lg</a>&gt; &lt;<a href="#el_list">list</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_note">note</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt; &lt;<a href="#el_signed">signed</a>&gt; &lt;<a href="#el_stage">stage</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_tech">tech</a>&gt; &lt;<a href="#el_titlePart">titlePart</a>&gt; &lt;<a href="#el_trailer">trailer</a>&gt;  </div> </td>
+              <td class="usage"><div><b>B</b>. &lt;<a href="#el_bibl_2">bibl</a>&gt; &lt;<a href="#el_body">body</a>&gt; &lt;<a href="#el_byline">byline</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_dateline">dateline</a>&gt; &lt;<a href="#el_div">div</a>&gt; &lt;<a href="#el_docDate">docDate</a>&gt; &lt;<a href="#el_docImprint">docImprint</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_figDesc">figDesc</a>&gt; &lt;<a href="#el_front">front</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_head">head</a>&gt;  </div> <div><b>I</b>. &lt;<a href="#el_imprimatur">imprimatur</a>&gt; &lt;<a href="#el_item">item</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt; &lt;<a href="#el_lg">lg</a>&gt; &lt;<a href="#el_list">list</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_note_2">note</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt; &lt;<a href="#el_signed">signed</a>&gt; &lt;<a href="#el_stage">stage</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_tech">tech</a>&gt; &lt;<a href="#el_titlePart">titlePart</a>&gt; &lt;<a href="#el_trailer">trailer</a>&gt;  </div> </td>
             </tr>
           </table>
         </section>
@@ -2330,7 +2785,7 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
             </tr>
             <tr>
               <th>Parents</th>
-              <td class="usage"><div><b>B</b>. &lt;<a href="#el_bibl_2">bibl</a>&gt; &lt;<a href="#el_byline">byline</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_dateline">dateline</a>&gt; &lt;<a href="#el_docDate">docDate</a>&gt; &lt;<a href="#el_docImprint">docImprint</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_figDesc">figDesc</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_head">head</a>&gt;  </div> <div><b>I</b>. &lt;<a href="#el_imprimatur">imprimatur</a>&gt; &lt;<a href="#el_item">item</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_note">note</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt; &lt;<a href="#el_persName">persName</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt; &lt;<a href="#el_signed">signed</a>&gt; &lt;<a href="#el_stage">stage</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_titlePart">titlePart</a>&gt; &lt;<a href="#el_trailer">trailer</a>&gt;  </div> </td>
+              <td class="usage"><div><b>B</b>. &lt;<a href="#el_bibl_2">bibl</a>&gt; &lt;<a href="#el_byline">byline</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_dateline">dateline</a>&gt; &lt;<a href="#el_docDate">docDate</a>&gt; &lt;<a href="#el_docImprint">docImprint</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_figDesc">figDesc</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_head">head</a>&gt;  </div> <div><b>I</b>. &lt;<a href="#el_imprimatur">imprimatur</a>&gt; &lt;<a href="#el_item">item</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_note_2">note</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt; &lt;<a href="#el_persName">persName</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt; &lt;<a href="#el_signed">signed</a>&gt; &lt;<a href="#el_stage">stage</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_titlePart">titlePart</a>&gt; &lt;<a href="#el_trailer">trailer</a>&gt;  </div> </td>
             </tr>
           </table>
         </section>
@@ -2364,7 +2819,7 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
             </tr>
             <tr>
               <th>Parents</th>
-              <td class="usage"><div><b>B</b>. &lt;<a href="#el_bibl_2">bibl</a>&gt; &lt;<a href="#el_byline">byline</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_dateline">dateline</a>&gt; &lt;<a href="#el_docDate">docDate</a>&gt; &lt;<a href="#el_docImprint">docImprint</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_event">event</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_figDesc">figDesc</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_head">head</a>&gt;  </div> <div><b>I</b>. &lt;<a href="#el_imprimatur">imprimatur</a>&gt; &lt;<a href="#el_item">item</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_note">note</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt; &lt;<a href="#el_signed">signed</a>&gt; &lt;<a href="#el_stage">stage</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_titlePart">titlePart</a>&gt; &lt;<a href="#el_trailer">trailer</a>&gt;  </div> </td>
+              <td class="usage"><div><b>B</b>. &lt;<a href="#el_bibl_2">bibl</a>&gt; &lt;<a href="#el_byline">byline</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_dateline">dateline</a>&gt; &lt;<a href="#el_docDate">docDate</a>&gt; &lt;<a href="#el_docImprint">docImprint</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_event">event</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_figDesc">figDesc</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_head">head</a>&gt;  </div> <div><b>I</b>. &lt;<a href="#el_imprimatur">imprimatur</a>&gt; &lt;<a href="#el_item">item</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_note_2">note</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt; &lt;<a href="#el_signed">signed</a>&gt; &lt;<a href="#el_stage">stage</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_titlePart">titlePart</a>&gt; &lt;<a href="#el_trailer">trailer</a>&gt;  </div> </td>
             </tr>
           </table>
         </section>
@@ -2388,19 +2843,19 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
             </tr>
             <tr>
               <th>Enfants</th>
-              <td class="children"><div><b>D</b>. &lt;<a href="#el_date_2">date</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_emph">emph</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_foreign">foreign</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_hi">hi<small class="att"> rend="sup"</small></a>&gt; &lt;<a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_lb">lb</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt; &lt;<a href="#el_note">note</a>&gt;  </div> <div><b>O</b>. &lt;<a href="#el_orgName">orgName</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_pb">pb</a>&gt; &lt;<a href="#el_persName">persName</a>&gt; &lt;<a href="#el_placeName">placeName</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_tech">tech</a>&gt; &lt;<a href="#el_title">title</a>&gt;  </div> </td>
+              <td class="children"><div><b>D</b>. &lt;<a href="#el_date_2">date</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_emph">emph</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_foreign">foreign</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_hi">hi<small class="att"> rend="sup"</small></a>&gt; &lt;<a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_lb">lb</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt; &lt;<a href="#el_note_2">note</a>&gt;  </div> <div><b>O</b>. &lt;<a href="#el_orgName">orgName</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_pb">pb</a>&gt; &lt;<a href="#el_persName">persName</a>&gt; &lt;<a href="#el_placeName">placeName</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_tech">tech</a>&gt; &lt;<a href="#el_title">title</a>&gt;  </div> </td>
             </tr>
             <tr>
               <th>Modèle</th>
               <td class="model">
                 <span class="compact element">
-                  <span class="more"><a class="ref" href="#def_chars">chars</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <i>{text}</i> | <a href="#el_date_2">date</a> | <a href="#el_emph">emph</a> | <a href="#el_foreign">foreign</a> | <a href="#el_name">name</a> | <a href="#el_note">note</a> | <a href="#el_lb">lb</a> | <a href="#el_persName">persName</a> | <a href="#el_pb">pb</a> | <a href="#el_placeName">placeName</a> | <a href="#el_orgName">orgName</a> | <a href="#el_ref">ref</a> | <a href="#el_seg">seg</a> | <a href="#el_hi">hi<small class="att"> rend="sup"</small></a> | <a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a> | <a href="#el_tech">tech</a> | <a href="#el_title">title</a> ) * </span></span>)</span>
+                  <span class="more"><a class="ref" href="#def_chars">chars</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <i>{text}</i> | <a href="#el_date_2">date</a> | <a href="#el_emph">emph</a> | <a href="#el_foreign">foreign</a> | <a href="#el_name">name</a> | <a href="#el_note_2">note</a> | <a href="#el_lb">lb</a> | <a href="#el_persName">persName</a> | <a href="#el_pb">pb</a> | <a href="#el_placeName">placeName</a> | <a href="#el_orgName">orgName</a> | <a href="#el_ref">ref</a> | <a href="#el_seg">seg</a> | <a href="#el_hi">hi<small class="att"> rend="sup"</small></a> | <a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a> | <a href="#el_tech">tech</a> | <a href="#el_title">title</a> ) * </span></span>)</span>
                 </span>
               </td>
             </tr>
             <tr>
               <th>Parents</th>
-              <td class="usage"><div><b>B</b>. &lt;<a href="#el_bibl_2">bibl</a>&gt; &lt;<a href="#el_byline">byline</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_dateline">dateline</a>&gt; &lt;<a href="#el_docDate">docDate</a>&gt; &lt;<a href="#el_docImprint">docImprint</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_figDesc">figDesc</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_head">head</a>&gt;  </div> <div><b>I</b>. &lt;<a href="#el_imprimatur">imprimatur</a>&gt; &lt;<a href="#el_item">item</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_note">note</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt; &lt;<a href="#el_signed">signed</a>&gt; &lt;<a href="#el_stage">stage</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_titlePart">titlePart</a>&gt; &lt;<a href="#el_trailer">trailer</a>&gt;  </div> </td>
+              <td class="usage"><div><b>B</b>. &lt;<a href="#el_bibl_2">bibl</a>&gt; &lt;<a href="#el_byline">byline</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_dateline">dateline</a>&gt; &lt;<a href="#el_docDate">docDate</a>&gt; &lt;<a href="#el_docImprint">docImprint</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_figDesc">figDesc</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_head">head</a>&gt;  </div> <div><b>I</b>. &lt;<a href="#el_imprimatur">imprimatur</a>&gt; &lt;<a href="#el_item">item</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_note_2">note</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt; &lt;<a href="#el_signed">signed</a>&gt; &lt;<a href="#el_stage">stage</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_titlePart">titlePart</a>&gt; &lt;<a href="#el_trailer">trailer</a>&gt;  </div> </td>
             </tr>
           </table>
         </section>
@@ -2429,7 +2884,7 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
             </tr>
             <tr>
               <th>Parents</th>
-              <td class="usage"><div><b>B</b>. &lt;<a href="#el_bibl_2">bibl</a>&gt; &lt;<a href="#el_byline">byline</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_dateline">dateline</a>&gt; &lt;<a href="#el_docDate">docDate</a>&gt; &lt;<a href="#el_docImprint">docImprint</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_figDesc">figDesc</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_head">head</a>&gt;  </div> <div><b>I</b>. &lt;<a href="#el_imprimatur">imprimatur</a>&gt; &lt;<a href="#el_item">item</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_note">note</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt; &lt;<a href="#el_persName">persName</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt; &lt;<a href="#el_signed">signed</a>&gt; &lt;<a href="#el_stage">stage</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_titlePart">titlePart</a>&gt; &lt;<a href="#el_trailer">trailer</a>&gt;  </div> </td>
+              <td class="usage"><div><b>B</b>. &lt;<a href="#el_bibl_2">bibl</a>&gt; &lt;<a href="#el_byline">byline</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_dateline">dateline</a>&gt; &lt;<a href="#el_docDate">docDate</a>&gt; &lt;<a href="#el_docImprint">docImprint</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_figDesc">figDesc</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_head">head</a>&gt;  </div> <div><b>I</b>. &lt;<a href="#el_imprimatur">imprimatur</a>&gt; &lt;<a href="#el_item">item</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_note_2">note</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt; &lt;<a href="#el_persName">persName</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt; &lt;<a href="#el_signed">signed</a>&gt; &lt;<a href="#el_stage">stage</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_titlePart">titlePart</a>&gt; &lt;<a href="#el_trailer">trailer</a>&gt;  </div> </td>
             </tr>
           </table>
         </section>
@@ -2455,19 +2910,19 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
             </tr>
             <tr>
               <th>Enfants</th>
-              <td class="children"><div><b>D</b>. &lt;<a href="#el_date_2">date</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_emph">emph</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_foreign">foreign</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_hi">hi<small class="att"> rend="sup"</small></a>&gt; &lt;<a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_lb">lb</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt; &lt;<a href="#el_note">note</a>&gt;  </div> <div><b>O</b>. &lt;<a href="#el_orgName">orgName</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_pb">pb</a>&gt; &lt;<a href="#el_persName">persName</a>&gt; &lt;<a href="#el_placeName">placeName</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_tech">tech</a>&gt; &lt;<a href="#el_title">title</a>&gt;  </div> </td>
+              <td class="children"><div><b>D</b>. &lt;<a href="#el_date_2">date</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_emph">emph</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_foreign">foreign</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_hi">hi<small class="att"> rend="sup"</small></a>&gt; &lt;<a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_lb">lb</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt; &lt;<a href="#el_note_2">note</a>&gt;  </div> <div><b>O</b>. &lt;<a href="#el_orgName">orgName</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_pb">pb</a>&gt; &lt;<a href="#el_persName">persName</a>&gt; &lt;<a href="#el_placeName">placeName</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_tech">tech</a>&gt; &lt;<a href="#el_title">title</a>&gt;  </div> </td>
             </tr>
             <tr>
               <th>Modèle</th>
               <td class="model">
                 <span class="compact element">
-                  <span class="more"> <a class="ref" href="#def_chars">chars</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <i>{text}</i> | <a href="#el_date_2">date</a> | <a href="#el_emph">emph</a> | <a href="#el_foreign">foreign</a> | <a href="#el_name">name</a> | <a href="#el_note">note</a> | <a href="#el_lb">lb</a> | <a href="#el_persName">persName</a> | <a href="#el_pb">pb</a> | <a href="#el_placeName">placeName</a> | <a href="#el_orgName">orgName</a> | <a href="#el_ref">ref</a> | <a href="#el_seg">seg</a> | <a href="#el_hi">hi<small class="att"> rend="sup"</small></a> | <a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a> | <a href="#el_tech">tech</a> | <a href="#el_title">title</a> ) * </span></span>)</span>
+                  <span class="more"> <a class="ref" href="#def_chars">chars</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <i>{text}</i> | <a href="#el_date_2">date</a> | <a href="#el_emph">emph</a> | <a href="#el_foreign">foreign</a> | <a href="#el_name">name</a> | <a href="#el_note_2">note</a> | <a href="#el_lb">lb</a> | <a href="#el_persName">persName</a> | <a href="#el_pb">pb</a> | <a href="#el_placeName">placeName</a> | <a href="#el_orgName">orgName</a> | <a href="#el_ref">ref</a> | <a href="#el_seg">seg</a> | <a href="#el_hi">hi<small class="att"> rend="sup"</small></a> | <a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a> | <a href="#el_tech">tech</a> | <a href="#el_title">title</a> ) * </span></span>)</span>
                 </span>
               </td>
             </tr>
             <tr>
               <th>Parents</th>
-              <td class="usage"><div><b>B</b>. &lt;<a href="#el_bibl_2">bibl</a>&gt; &lt;<a href="#el_byline">byline</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_dateline">dateline</a>&gt; &lt;<a href="#el_docDate">docDate</a>&gt; &lt;<a href="#el_docImprint">docImprint</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_emph">emph</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_figDesc">figDesc</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_head">head</a>&gt;  </div> <div><b>I</b>. &lt;<a href="#el_imprimatur">imprimatur</a>&gt; &lt;<a href="#el_item">item</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_note">note</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt; &lt;<a href="#el_signed">signed</a>&gt; &lt;<a href="#el_stage">stage</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_titlePart">titlePart</a>&gt; &lt;<a href="#el_trailer">trailer</a>&gt;  </div> </td>
+              <td class="usage"><div><b>B</b>. &lt;<a href="#el_bibl_2">bibl</a>&gt; &lt;<a href="#el_byline">byline</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_dateline">dateline</a>&gt; &lt;<a href="#el_docDate">docDate</a>&gt; &lt;<a href="#el_docImprint">docImprint</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_emph">emph</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_figDesc">figDesc</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_head">head</a>&gt;  </div> <div><b>I</b>. &lt;<a href="#el_imprimatur">imprimatur</a>&gt; &lt;<a href="#el_item">item</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_note_2">note</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt; &lt;<a href="#el_signed">signed</a>&gt; &lt;<a href="#el_stage">stage</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_titlePart">titlePart</a>&gt; &lt;<a href="#el_trailer">trailer</a>&gt;  </div> </td>
             </tr>
           </table>
         </section>
@@ -2499,7 +2954,7 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
             </tr>
             <tr>
               <th>Parents</th>
-              <td class="usage"><div><b>B</b>. &lt;<a href="#el_bibl_2">bibl</a>&gt; &lt;<a href="#el_byline">byline</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_date_2">date</a>&gt; &lt;<a href="#el_dateline">dateline</a>&gt; &lt;<a href="#el_docDate">docDate</a>&gt; &lt;<a href="#el_docImprint">docImprint</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_emph">emph</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_figDesc">figDesc</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_head">head</a>&gt; &lt;<a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a>&gt;  </div> <div><b>I</b>. &lt;<a href="#el_imprimatur">imprimatur</a>&gt; &lt;<a href="#el_item">item</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt; &lt;<a href="#el_note">note</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt; &lt;<a href="#el_persName">persName</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt; &lt;<a href="#el_signed">signed</a>&gt; &lt;<a href="#el_stage">stage</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_title">title</a>&gt; &lt;<a href="#el_titlePart">titlePart</a>&gt; &lt;<a href="#el_trailer">trailer</a>&gt;  </div> </td>
+              <td class="usage"><div><b>B</b>. &lt;<a href="#el_bibl_2">bibl</a>&gt; &lt;<a href="#el_byline">byline</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_date_2">date</a>&gt; &lt;<a href="#el_dateline">dateline</a>&gt; &lt;<a href="#el_docDate">docDate</a>&gt; &lt;<a href="#el_docImprint">docImprint</a>&gt;  </div> <div><b>E</b>. &lt;<a href="#el_emph">emph</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_figDesc">figDesc</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_head">head</a>&gt; &lt;<a href="#el_hi_2">hi<small class="att"> rend="sc"</small></a>&gt;  </div> <div><b>I</b>. &lt;<a href="#el_imprimatur">imprimatur</a>&gt; &lt;<a href="#el_item">item</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt; &lt;<a href="#el_note_2">note</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt; &lt;<a href="#el_persName">persName</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt; &lt;<a href="#el_signed">signed</a>&gt; &lt;<a href="#el_stage">stage</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_title">title</a>&gt; &lt;<a href="#el_titlePart">titlePart</a>&gt; &lt;<a href="#el_trailer">trailer</a>&gt;  </div> </td>
             </tr>
           </table>
         </section>
@@ -2535,7 +2990,7 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
             </tr>
             <tr>
               <th>Parents</th>
-              <td class="usage"><div><b>B</b>. &lt;<a href="#el_bibl">bibl</a>&gt; &lt;<a href="#el_bibl_2">bibl</a>&gt; &lt;<a href="#el_byline">byline</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_dateline">dateline</a>&gt; &lt;<a href="#el_docDate">docDate</a>&gt; &lt;<a href="#el_docImprint">docImprint</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_figDesc">figDesc</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_head">head</a>&gt;  </div> <div><b>I</b>. &lt;<a href="#el_imprimatur">imprimatur</a>&gt; &lt;<a href="#el_item">item</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt; &lt;<a href="#el_note">note</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt; &lt;<a href="#el_persName">persName</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt; &lt;<a href="#el_signed">signed</a>&gt; &lt;<a href="#el_stage">stage</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_titlePart">titlePart</a>&gt; &lt;<a href="#el_trailer">trailer</a>&gt;  </div> </td>
+              <td class="usage"><div><b>B</b>. &lt;<a href="#el_bibl">bibl</a>&gt; &lt;<a href="#el_bibl_2">bibl</a>&gt; &lt;<a href="#el_byline">byline</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_dateline">dateline</a>&gt; &lt;<a href="#el_docDate">docDate</a>&gt; &lt;<a href="#el_docImprint">docImprint</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_figDesc">figDesc</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_head">head</a>&gt;  </div> <div><b>I</b>. &lt;<a href="#el_imprimatur">imprimatur</a>&gt; &lt;<a href="#el_item">item</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_name">name</a>&gt; &lt;<a href="#el_note">note</a>&gt; &lt;<a href="#el_note_2">note</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt; &lt;<a href="#el_persName">persName</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt; &lt;<a href="#el_signed">signed</a>&gt; &lt;<a href="#el_stage">stage</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_titlePart">titlePart</a>&gt; &lt;<a href="#el_trailer">trailer</a>&gt;  </div> </td>
             </tr>
           </table>
         </section>
@@ -2554,7 +3009,7 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
             </tr>
             <tr>
               <th>Parents</th>
-              <td class="usage"><div><b>B</b>. &lt;<a href="#el_bibl">bibl</a>&gt; &lt;<a href="#el_bibl_2">bibl</a>&gt; &lt;<a href="#el_byline">byline</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_dateline">dateline</a>&gt; &lt;<a href="#el_docDate">docDate</a>&gt; &lt;<a href="#el_docImprint">docImprint</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_figDesc">figDesc</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_head">head</a>&gt;  </div> <div><b>I</b>. &lt;<a href="#el_imprimatur">imprimatur</a>&gt; &lt;<a href="#el_item">item</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt;  </div> <div><b>M</b>. &lt;<a href="#el_msItem">msItem</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_note">note</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt; &lt;<a href="#el_signed">signed</a>&gt; &lt;<a href="#el_stage">stage</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_title">title</a>&gt; &lt;<a href="#el_titlePart">titlePart</a>&gt; &lt;<a href="#el_titleStmt">titleStmt</a>&gt; &lt;<a href="#el_trailer">trailer</a>&gt;  </div> </td>
+              <td class="usage"><div><b>B</b>. &lt;<a href="#el_bibl">bibl</a>&gt; &lt;<a href="#el_bibl_2">bibl</a>&gt; &lt;<a href="#el_byline">byline</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_dateline">dateline</a>&gt; &lt;<a href="#el_docDate">docDate</a>&gt; &lt;<a href="#el_docImprint">docImprint</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_figDesc">figDesc</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_head">head</a>&gt;  </div> <div><b>I</b>. &lt;<a href="#el_imprimatur">imprimatur</a>&gt; &lt;<a href="#el_item">item</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt;  </div> <div><b>M</b>. &lt;<a href="#el_msItem">msItem</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_note_2">note</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt; &lt;<a href="#el_signed">signed</a>&gt; &lt;<a href="#el_stage">stage</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_title">title</a>&gt; &lt;<a href="#el_titlePart">titlePart</a>&gt; &lt;<a href="#el_titleStmt">titleStmt</a>&gt; &lt;<a href="#el_trailer">trailer</a>&gt;  </div> </td>
             </tr>
           </table>
         </section>
@@ -2590,12 +3045,12 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
             </tr>
             <tr>
               <th>Parents</th>
-              <td class="usage"><div><b>B</b>. &lt;<a href="#el_bibl_2">bibl</a>&gt; &lt;<a href="#el_byline">byline</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_dateline">dateline</a>&gt; &lt;<a href="#el_docDate">docDate</a>&gt; &lt;<a href="#el_docImprint">docImprint</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_figDesc">figDesc</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_head">head</a>&gt;  </div> <div><b>I</b>. &lt;<a href="#el_imprimatur">imprimatur</a>&gt; &lt;<a href="#el_item">item</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_note">note</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt; &lt;<a href="#el_signed">signed</a>&gt; &lt;<a href="#el_stage">stage</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_titlePart">titlePart</a>&gt; &lt;<a href="#el_trailer">trailer</a>&gt;  </div> </td>
+              <td class="usage"><div><b>B</b>. &lt;<a href="#el_bibl_2">bibl</a>&gt; &lt;<a href="#el_byline">byline</a>&gt;  </div> <div><b>D</b>. &lt;<a href="#el_dateline">dateline</a>&gt; &lt;<a href="#el_docDate">docDate</a>&gt; &lt;<a href="#el_docImprint">docImprint</a>&gt;  </div> <div><b>F</b>. &lt;<a href="#el_figDesc">figDesc</a>&gt;  </div> <div><b>H</b>. &lt;<a href="#el_head">head</a>&gt;  </div> <div><b>I</b>. &lt;<a href="#el_imprimatur">imprimatur</a>&gt; &lt;<a href="#el_item">item</a>&gt;  </div> <div><b>L</b>. &lt;<a href="#el_l">l</a>&gt; &lt;<a href="#el_label">label</a>&gt;  </div> <div><b>N</b>. &lt;<a href="#el_note_2">note</a>&gt;  </div> <div><b>P</b>. &lt;<a href="#el_p">p</a>&gt;  </div> <div><b>R</b>. &lt;<a href="#el_ref">ref</a>&gt;  </div> <div><b>S</b>. &lt;<a href="#el_seg">seg</a>&gt; &lt;<a href="#el_signed">signed</a>&gt; &lt;<a href="#el_stage">stage</a>&gt;  </div> <div><b>T</b>. &lt;<a href="#el_titlePart">titlePart</a>&gt; &lt;<a href="#el_trailer">trailer</a>&gt;  </div> </td>
             </tr>
           </table>
         </section>
       </section>
-      <section class="div" id="idm695">
+      <section class="div" id="idm696">
         <h2>Attributs et types de données</h2>
         <section class="define rng" id="def_date.type">
           <header class="define rng">
