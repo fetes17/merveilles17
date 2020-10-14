@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>Merveilles17</title>
-        <link href="https://fonts.googleapis.com/css2?Playfair+Display:ital,wght@0,400;0,600;1,400;1,600&amp;family=Titillium+Web:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600&amp;display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&amp;family=Titillium+Web:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600&amp;display=swap" rel="stylesheet"/>
     <link rel="stylesheet" type="text/css" href="../theme/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="../theme/teinte.css" />
     <link rel="stylesheet" type="text/css" href="../theme/sortable.css" />
@@ -34,8 +34,7 @@
       </div>
     </header>
     <main id="main">
-      <?xml version="1.0" encoding="UTF-8"?>
-<article xmlns="http://www.w3.org/1999/xhtml" class="liseuse">
+      <article xmlns="http://www.w3.org/1999/xhtml" class="liseuse">
   <div class="container">
     <div class="row">
       <div class="col-4" id="explorer">
@@ -44,8 +43,8 @@
           <table class="sortable" data-sort="1">
             <thead>
               <tr>
-                <th title="Occurrences">nb</th>
-                <th>Personnes</th>
+                <th class="nb" title="Occurrences">nb</th>
+                <th class="term">Personnes</th>
               </tr>
             </thead>
             <tbody>
@@ -56,27 +55,15 @@
                 </td>
               </tr>
               <tr>
-                <td class="nb">2</td>
-                <td class="term">
-                  <a id="monsieur" data-tag="persName">monsieur</a>
-                </td>
-              </tr>
-              <tr>
-                <td class="nb">2</td>
-                <td class="term">
-                  <a id="anne_d_autriche" data-tag="persName">anne_d_autriche</a>
-                </td>
-              </tr>
-              <tr>
-                <td class="nb">2</td>
-                <td class="term">
-                  <a id="dames" data-tag="persName">dames</a>
-                </td>
-              </tr>
-              <tr>
                 <td class="nb">1</td>
                 <td class="term">
                   <a id="louis_grand_dauphin" data-tag="persName" href="#pers2">louis_grand_dauphin</a>
+                </td>
+              </tr>
+              <tr>
+                <td class="nb">2</td>
+                <td class="term">
+                  <a id="monsieur" data-tag="persName">monsieur</a>
                 </td>
               </tr>
               <tr>
@@ -86,9 +73,21 @@
                 </td>
               </tr>
               <tr>
+                <td class="nb">2</td>
+                <td class="term">
+                  <a id="anne_d_autriche" data-tag="persName">anne_d_autriche</a>
+                </td>
+              </tr>
+              <tr>
                 <td class="nb">1</td>
                 <td class="term">
                   <a id="marie_thereseanne_d_autriche" data-tag="persName" href="#pers6">marie_therese anne_d_autriche</a>
+                </td>
+              </tr>
+              <tr>
+                <td class="nb">2</td>
+                <td class="term">
+                  <a id="dames" data-tag="persName">dames</a>
                 </td>
               </tr>
               <tr>
@@ -124,8 +123,8 @@
           <table class="sortable" data-sort="1">
             <thead>
               <tr>
-                <th title="Occurrences">nb</th>
-                <th>Lieux</th>
+                <th class="nb" title="Occurrences">nb</th>
+                <th class="term">Lieux</th>
               </tr>
             </thead>
             <tbody>
@@ -174,8 +173,8 @@
           <table class="sortable" data-sort="1">
             <thead>
               <tr>
-                <th title="Occurrences">nb</th>
-                <th>Techniques</th>
+                <th class="nb" title="Occurrences">nb</th>
+                <th class="term">Techniques</th>
               </tr>
             </thead>
             <tbody>
@@ -197,44 +196,44 @@
         </details>
         <p> </p>
       </div>
-      <div class="col-8" id="body">
+      <div class="col-8" id="explorable">
         <section class="body" id="body">
           <span class="pb">[p. 456]</span>
-          <p class="p autofirst"><span class="date" title="1664">Le premier du Courant</span>, <span class="persName louisxivmarie_thereseanne_d_autriche" data-key="louisxivmarie_thereseanne_d_autriche" id="pers1">Leurs Majestez</span>,
-        avec lesquelles estoyent <span class="persName louis_grand_dauphin" data-key="louis_grand_dauphin" id="pers2">Monseigneur le Dauphin</span>,
-          <span class="persName monsieur" data-key="monsieur" id="pers3">Monsieur</span>, &amp; <span class="persName madame" data-key="madame" id="pers4">Madame</span>, arrivérent sur les 6
-        heures à <span class="placeName saint_cloud_chateau" data-key="saint_cloud_chateau" id="placeName1">S. Cloud</span> : la <span class="persName anne_d_autriche" data-key="anne_d_autriche" id="pers5">Reyne
-          Mére</span> ayant oüi Vespres au <span class="placeName paris_chaillot_couvent" data-key="paris_chaillot_couvent" id="placeName2">Couvent des
+          <p class="p autofirst"><span class="date" title="1664">Le premier du Courant</span>, <span class="persName louisxivmarie_thereseanne_d_autriche indexable" data-key="louisxivmarie_thereseanne_d_autriche" id="pers1">Leurs Majestez</span>,
+        avec lesquelles estoyent <span class="persName louis_grand_dauphin indexable" data-key="louis_grand_dauphin" id="pers2">Monseigneur le Dauphin</span>,
+          <span class="persName monsieur indexable" data-key="monsieur" id="pers3">Monsieur</span>, &amp; <span class="persName madame indexable" data-key="madame" id="pers4">Madame</span>, arrivérent sur les 6
+        heures à <span class="placeName saint_cloud_chateau indexable" data-key="saint_cloud_chateau" id="placeName1">S. Cloud</span> : la <span class="persName anne_d_autriche indexable" data-key="anne_d_autriche" id="pers5">Reyne
+          Mére</span> ayant oüi Vespres au <span class="placeName paris_chaillot_couvent indexable" data-key="paris_chaillot_couvent" id="placeName2">Couvent des
           Religieuses de Challiot</span>.</p>
           <p class="p"><span class="date" title="1664">Le 2</span>, la Cour prit le divertissement de la
-          Promenade dans le délicieux <span class="placeName saint_cloud_jardins" data-key="saint_cloud_jardins" id="placeName3">Iardin de cette
-          belle Maison</span> : <span class="persName marie_thereseanne_d_autriche" data-key="marie_thereseanne_d_autriche" id="pers6">les Reynes</span> en chaise, &amp;
-          <span class="persName dames" data-key="dames" id="pers7">les Dames</span> en Caléche.</p>
-          <p class="p"><span class="date" title="1664">Le 3</span>, ces <span class="persName princesses" data-key="princesses" id="pers8">Princesses</span>, accompagnées de
-          <span class="persName monsieur" data-key="monsieur" id="pers9">Monsieur</span>, allérent oüir Messe au <span class="placeName suresne_mont_valerien" data-key="suresne_mont_valerien" id="placeName4">Mont
+          Promenade dans le délicieux <span class="placeName saint_cloud_jardins indexable" data-key="saint_cloud_jardins" id="placeName3">Iardin de cette
+          belle Maison</span> : <span class="persName marie_thereseanne_d_autriche indexable" data-key="marie_thereseanne_d_autriche" id="pers6">les Reynes</span> en chaise, &amp;
+          <span class="persName dames indexable" data-key="dames" id="pers7">les Dames</span> en Caléche.</p>
+          <p class="p"><span class="date" title="1664">Le 3</span>, ces <span class="persName princesses indexable" data-key="princesses" id="pers8">Princesses</span>, accompagnées de
+          <span class="persName monsieur indexable" data-key="monsieur" id="pers9">Monsieur</span>, allérent oüir Messe au <span class="placeName suresne_mont_valerien indexable" data-key="suresne_mont_valerien" id="placeName4">Mont
           Valérien</span>, à cause de la Feste de l’Invention de Sainte Croix: &amp; le
         lendemain, <span class="date" title="1664">premier Dimanche du mois</span>, Elles firent leurs
-        dévotions au <span class="placeName saint_cloud_ursulines" data-key="saint_cloud_ursulines" id="placeName5">Monastére des Vrsulines de S.
+        dévotions au <span class="placeName saint_cloud_ursulines indexable" data-key="saint_cloud_ursulines" id="placeName5">Monastére des Vrsulines de S.
           Cloud</span>.</p>
-          <p class="p"><span class="date" title="1664">Le 4</span>, <span class="persName spectateur louisxivmarie_thereseanne_d_autriche" data-key="louisxivmarie_thereseanne_d_autriche" id="pers10">Leurs Majestez</span> furent diverties
-        par la Comédie Françoise: &amp; <span class="persName louisxiv" data-key="louisxiv" id="pers11">le Roy</span> ayant ces jours là
-        , traité toute la Cour, avec vne magnificence singuliére, Elles en partirent <span class="date" title="1664">le 5</span>, pour aller à <span class="placeName versailles" data-key="versailles" id="placeName6">Versailles</span>, prendre les divertissemens qui leur y estoyent préparez sous le
+          <p class="p"><span class="date" title="1664">Le 4</span>, <span class="persName spectateur louisxivmarie_thereseanne_d_autriche indexable" data-key="louisxivmarie_thereseanne_d_autriche" id="pers10">Leurs Majestez</span> furent diverties
+        par la Comédie Françoise: &amp; <span class="persName louisxiv indexable" data-key="louisxiv" id="pers11">le Roy</span> ayant ces jours là
+        , traité toute la Cour, avec vne magnificence singuliére, Elles en partirent <span class="date" title="1664">le 5</span>, pour aller à <span class="placeName versailles indexable" data-key="versailles" id="placeName6">Versailles</span>, prendre les divertissemens qui leur y estoyent préparez sous le
         titre des Plaisir de l’Isle enchantée, &amp; qu’on avoit partagez en trois Iournées.</p>
           <p class="p">Le premier, qui estoit vne Course de Bague, se donna <span class="date" title="1664">le 7</span>, sur
-        les six heures du soir : &amp; <span class="persName participant chevaliers" data-key="chevaliers" id="pers12">tous les Chevaliers</span> s’y estans signalez,
-        le <span class="persName participant jf_de_labaume" data-key="jf_de_labaume" id="pers13">Marquis de la Valliére</span> l’emporta, &amp; eut l’honneur d’en recevoir
-        le Prix des mains de <span class="persName anne_d_autriche" data-key="anne_d_autriche" id="pers14">la Reyne Mére</span>, qui estoit vne Epée enrichie de
-        Diamans. La nuit estant survenuë, il parut <span class="tech lumieres lumieres" data-key="lumieres" id="tech1">plus de deux mille lumiéres</span>, à la
+        les six heures du soir : &amp; <span class="persName participant chevaliers indexable" data-key="chevaliers" id="pers12">tous les Chevaliers</span> s’y estans signalez,
+        le <span class="persName participant jf_de_labaume indexable" data-key="jf_de_labaume" id="pers13">Marquis de la Valliére</span> l’emporta, &amp; eut l’honneur d’en recevoir
+        le Prix des mains de <span class="persName anne_d_autriche indexable" data-key="anne_d_autriche" id="pers14">la Reyne Mére</span>, qui estoit vne Epée enrichie de
+        Diamans. La nuit estant survenuë, il parut <span class="tech lumieres lumieres indexable" data-key="lumieres" id="tech1">plus de deux mille lumiéres</span>, à la
         clarté desquel1es on servit vn superbe Festin de plus de
         40
-        Bassins de viande, &amp; d’autant de Pyramides : <span class="persName convive louisxivmarie_thereseanne_d_autriche" data-key="louisxivmarie_thereseanne_d_autriche" id="pers15">Leurs Majestez</span> estans
-        accompagnées à Table, de grand nombre des <span class="persName convive dames" data-key="dames" id="pers16">principales Dames </span>fort bien
+        Bassins de viande, &amp; d’autant de Pyramides : <span class="persName convive louisxivmarie_thereseanne_d_autriche indexable" data-key="louisxivmarie_thereseanne_d_autriche" id="pers15">Leurs Majestez</span> estans
+        accompagnées à Table, de grand nombre des <span class="persName convive dames indexable" data-key="dames" id="pers16">principales Dames </span>fort bien
         parées.</p>
           <p class="p"><span class="date" title="1664">Le 8</span>, il y eut pour la seconde Journée, Comédie Françoise,
         entremeslée de Concerts, de Récits, &amp; d’Entrées de
           Balet, ainsi que vous verrez ailleurs, dans le détail de tous ces agréables
         divertissemens, qui se terminérent hier, par vn Balet sur l’eau, &amp; vn tres
-        beau <span class="tech feux-artifice feux-artifice" data-key="feux-artifice" id="tech2">feu d’Artifice</span>.</p>
+        beau <span class="tech feux-artifice feux-artifice indexable" data-key="feux-artifice" id="tech2">feu d’Artifice</span>.</p>
           <div class="byline">A Paris, du Bureau d’Adresse, aux Galleries du .Louvre,</div>
           <div class="byline">devant la ruë S.Thomas, le <span class="date" title="1664">10 May 1664</span>.</div>
           <div class="byline">Avec Privilége.</div>

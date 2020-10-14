@@ -1,7 +1,8 @@
-.sortable {
+table.sortable {
   line-height: 1.3em;
-  border: 1px solid;
-  border-color: #ccc;
+  border-bottom: 2px solid #ccc;
+  border-right: 2px solid #ccc;
+  border-left: 2px solid #ccc;
   margin-top: 1rem;
   margin-bottom: 2em;
   border-spacing: 0;
@@ -73,6 +74,11 @@
   background-color: #fff;
 }
 
+.sortable th a:hover {
+  background-color: #fff;
+  border: none
+}
+
 .sortable .sorting.desc {
   background-image: url(data:image/gif;base64,R0lGODlhCwALAJEAAAAAAP///xUVFf///yH5BAEAAAMALAAAAAALAAsAAAIRnC2nKLnT4or00Puy3rx7VQAAOw==);
 }
@@ -96,9 +102,11 @@ tr.even th, tr.odd th {
   border-bottom-color: #fff;
 }
 
+/*
 .sortable tr.mod5 td {
   border-top: solid 1px #fff;
 }
+*/
 
 .sortable tr.mod3 {
   background-color: #fff;
@@ -113,21 +121,18 @@ tr.even th, tr.odd th {
   box-shadow: 0 2px 2px -2px rgba(171, 170, 164, 0.8);
 }
 
+/*
 .sortable tbody tr:hover {
   background-color: #fff;
 }
 
 .sortable tbody tr:hover td {
   border-bottom-color: #000;
-  border-top: solid 1px #000;
   color: black;
   border-left-color: transparent;
   border-right-color: transparent;
 }
-
-.sortable tbody tr:hover a {
-  color: black;
-}
+*/
 
 .sortable a {
   text-decoration: none;
@@ -135,18 +140,6 @@ tr.even th, tr.odd th {
 
 .sortable th a {
   display: block;
-}
-
-.sortable a:hover {
-  background-color: #fff;
-  /*
-  box-shadow: 0px 0px 20px #AAAAAA;
-  */
-}
-
-.sortable th a:hover {
-  background-color: #fff;
-  border: none
 }
 
 .sortable th.num {

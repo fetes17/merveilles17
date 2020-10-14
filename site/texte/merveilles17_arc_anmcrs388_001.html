@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>Merveilles17</title>
-        <link href="https://fonts.googleapis.com/css2?Playfair+Display:ital,wght@0,400;0,600;1,400;1,600&amp;family=Titillium+Web:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600&amp;display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&amp;family=Titillium+Web:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600&amp;display=swap" rel="stylesheet"/>
     <link rel="stylesheet" type="text/css" href="../theme/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="../theme/teinte.css" />
     <link rel="stylesheet" type="text/css" href="../theme/sortable.css" />
@@ -34,8 +34,7 @@
       </div>
     </header>
     <main id="main">
-      <?xml version="1.0" encoding="UTF-8"?>
-<article xmlns="http://www.w3.org/1999/xhtml" class="liseuse">
+      <article xmlns="http://www.w3.org/1999/xhtml" class="liseuse">
   <div class="container">
     <div class="row">
       <div class="col-4" id="explorer">
@@ -44,8 +43,8 @@
           <table class="sortable" data-sort="1">
             <thead>
               <tr>
-                <th title="Occurrences">nb</th>
-                <th>Personnes</th>
+                <th class="nb" title="Occurrences">nb</th>
+                <th class="term">Personnes</th>
               </tr>
             </thead>
             <tbody>
@@ -82,8 +81,8 @@
           <table class="sortable" data-sort="1">
             <thead>
               <tr>
-                <th title="Occurrences">nb</th>
-                <th>Lieux</th>
+                <th class="nb" title="Occurrences">nb</th>
+                <th class="term">Lieux</th>
               </tr>
             </thead>
             <tbody>
@@ -91,18 +90,6 @@
                 <td class="nb">7</td>
                 <td class="term">
                   <a id="paris" data-tag="placeName">paris</a>
-                </td>
-              </tr>
-              <tr>
-                <td class="nb">2</td>
-                <td class="term">
-                  <a id="paris_louvre" data-tag="placeName">paris_louvre</a>
-                </td>
-              </tr>
-              <tr>
-                <td class="nb">2</td>
-                <td class="term">
-                  <a id="versailles" data-tag="placeName">versailles</a>
                 </td>
               </tr>
               <tr>
@@ -118,9 +105,21 @@
                 </td>
               </tr>
               <tr>
+                <td class="nb">2</td>
+                <td class="term">
+                  <a id="paris_louvre" data-tag="placeName">paris_louvre</a>
+                </td>
+              </tr>
+              <tr>
                 <td class="nb">1</td>
                 <td class="term">
                   <a id="paris_saint_germain_l_auxerrois" data-tag="placeName" href="#placeName5">paris_saint_germain_l_auxerrois</a>
+                </td>
+              </tr>
+              <tr>
+                <td class="nb">2</td>
+                <td class="term">
+                  <a id="versailles" data-tag="placeName">versailles</a>
                 </td>
               </tr>
             </tbody>
@@ -132,8 +131,8 @@
           <table class="sortable" data-sort="1">
             <thead>
               <tr>
-                <th title="Occurrences">nb</th>
-                <th>Techniques</th>
+                <th class="nb" title="Occurrences">nb</th>
+                <th class="term">Techniques</th>
               </tr>
             </thead>
             <tbody>
@@ -155,16 +154,16 @@
         </details>
         <p> </p>
       </div>
-      <div class="col-8" id="body">
+      <div class="col-8" id="explorable">
         <section class="body" id="body">
           <span class="pb">[p. 386]</span>
-          <p class="p autofirst">Fut present <span class="persName fournisseur antoine_petit" data-key="antoine_petit" id="pers1">Anthoine Petit</span>, maistre charpentier à
-          <span class="placeName paris" data-key="paris" id="placeName1">Paris</span>, demeurant <span class="placeName paris_sainte_anne" data-key="paris_sainte_anne" id="placeName2">rue Saincte-Anne</span>,
-          <span class="placeName paris_saint_roch" data-key="paris_saint_roch" id="placeName3">parroisse Sainct-Roch</span>, lequel a faict marché, promis et promect à
-          <span class="persName organisation vigarani" data-key="vigarani" id="pers2">Maistre Charles de Vigarany</span>, gentilhomme modenois, demeurant dans
-          <span class="placeName paris_louvre" data-key="paris_louvre" id="placeName4">les galleryes du Louvre</span>, <span class="placeName paris_saint_germain_l_auxerrois" data-key="paris_saint_germain_l_auxerrois" id="placeName5">parroisse
+          <p class="p autofirst">Fut present <span class="persName fournisseur antoine_petit indexable" data-key="antoine_petit" id="pers1">Anthoine Petit</span>, maistre charpentier à
+          <span class="placeName paris indexable" data-key="paris" id="placeName1">Paris</span>, demeurant <span class="placeName paris_sainte_anne indexable" data-key="paris_sainte_anne" id="placeName2">rue Saincte-Anne</span>,
+          <span class="placeName paris_saint_roch indexable" data-key="paris_saint_roch" id="placeName3">parroisse Sainct-Roch</span>, lequel a faict marché, promis et promect à
+          <span class="persName organisation vigarani indexable" data-key="vigarani" id="pers2">Maistre Charles de Vigarany</span>, gentilhomme modenois, demeurant dans
+          <span class="placeName paris_louvre indexable" data-key="paris_louvre" id="placeName4">les galleryes du Louvre</span>, <span class="placeName paris_saint_germain_l_auxerrois indexable" data-key="paris_saint_germain_l_auxerrois" id="placeName5">parroisse
           Sainct-Germainl’Auxerrois</span>, à ce present et acceptant, de luy fournir et livrer
-        à <span class="placeName versailles" data-key="versailles" id="placeName6">Versailles</span> quinze jours après l’ordre que ledict <span class="persName organisation vigarani" data-key="vigarani" id="pers3">sieur
+        à <span class="placeName versailles indexable" data-key="versailles" id="placeName6">Versailles</span> quinze jours après l’ordre que ledict <span class="persName organisation vigarani indexable" data-key="vigarani" id="pers3">sieur
           Vigarany</span> luy aura donné, les bois cy-après declarés, iceux faconnez et possez.
         Premierement, vingt-huict pieces de bois, scavoir quatre de vingt-sept pieds de long sur
         cinq à sept poulces d’espoisseur, quatre autres de vingt-cinq pieds de long, le tout de bois
@@ -175,43 +174,43 @@
         les douze susdictes, huict autres solives de vingt-deux pieds pour les chassis, unze solives
         de seize pieds pour les potteaux et dehors et pour la piece du millieu, quatorze solives de
         seize pieds pour les potteaux des coulices, douze autres solives pour les poteaux du reste
-        du <span class="tech construction construction" data-key="construction" id="tech1">theatre</span>, le tout de bois de sapin et aussy de pareille espoisseur que
+        du <span class="tech construction construction indexable" data-key="construction" id="tech1">theatre</span>, le tout de bois de sapin et aussy de pareille espoisseur que
         susdict, douze premieres solives, soixante planches de bastau de dix-huict pieds de long
-        pour toutes les escharpes du <span class="tech construction construction" data-key="construction" id="tech2">theatre</span>, pour faire le <span class="tech construction construction" data-key="construction" id="tech3">pont de
-          derriere</span> et aux <span class="tech construction construction" data-key="construction" id="tech4">deux de devant</span> et pour les <span class="tech decor decor" data-key="decor" id="tech5">quatre
-        rochers</span>. Fournira aussy ledict <span class="persName fournisseur antoine_petit" data-key="antoine_petit" id="pers4">Petit</span> ainsy que dessus est dit
-        douze solives pour le <span class="tech construction construction" data-key="construction" id="tech6">pont de derriere</span>, cinq autres solives pour les six
-        traiteaux, trente-deux solives pour les <span class="tech construction construction" data-key="construction" id="tech7">ponts de devant</span>, vingt-huict solives
-        pour les<span class="tech decor decor" data-key="decor" id="tech8"> petits rochers</span>, le tout de bois de sapin de pareille grosseur que
+        pour toutes les escharpes du <span class="tech construction construction indexable" data-key="construction" id="tech2">theatre</span>, pour faire le <span class="tech construction construction indexable" data-key="construction" id="tech3">pont de
+          derriere</span> et aux <span class="tech construction construction indexable" data-key="construction" id="tech4">deux de devant</span> et pour les <span class="tech decor decor indexable" data-key="decor" id="tech5">quatre
+        rochers</span>. Fournira aussy ledict <span class="persName fournisseur antoine_petit indexable" data-key="antoine_petit" id="pers4">Petit</span> ainsy que dessus est dit
+        douze solives pour le <span class="tech construction construction indexable" data-key="construction" id="tech6">pont de derriere</span>, cinq autres solives pour les six
+        traiteaux, trente-deux solives pour les <span class="tech construction construction indexable" data-key="construction" id="tech7">ponts de devant</span>, vingt-huict solives
+        pour les<span class="tech decor decor indexable" data-key="decor" id="tech8"> petits rochers</span>, le tout de bois de sapin de pareille grosseur que
         celles cy-</p>
           <span class="pb">[p. 387]</span>
           <p class="p">dessus et des longueurs convenables et cent vingt-trois planches de basteau de dix-huict
         pieds de long; tout ledict bois cy-dessus declaré bon, loyal et marchand, bien faconné et
         possé, comme dict est. Ce present marché ainsy faict moyennant la somme de quinze cens
-        livres tournois sur laquelle ledict <span class="persName fournisseur antoine_petit" data-key="antoine_petit" id="pers5">Petit</span> a confessé avoir eu et receu
-        dudict <span class="persName organisation vigarani" data-key="vigarani" id="pers6">sieur Vigarany</span> la somme de cinq cens livres tournois dont etc
-        quictant etc, et pour les mil livres restans ledict <span class="persName organisation vigarani" data-key="vigarani" id="pers7">sieur Vigarany</span> a
-        promis et promect les payer audict <span class="persName fournisseur antoine_petit" data-key="antoine_petit" id="pers8">Petit</span> ou au porteur au fur et à
+        livres tournois sur laquelle ledict <span class="persName fournisseur antoine_petit indexable" data-key="antoine_petit" id="pers5">Petit</span> a confessé avoir eu et receu
+        dudict <span class="persName organisation vigarani indexable" data-key="vigarani" id="pers6">sieur Vigarany</span> la somme de cinq cens livres tournois dont etc
+        quictant etc, et pour les mil livres restans ledict <span class="persName organisation vigarani indexable" data-key="vigarani" id="pers7">sieur Vigarany</span> a
+        promis et promect les payer audict <span class="persName fournisseur antoine_petit indexable" data-key="antoine_petit" id="pers8">Petit</span> ou au porteur au fur et à
         mesure que ledict bois se fassonnera et posera, auquel bois ledict
-        <span class="persName fournisseur antoine_petit" data-key="antoine_petit" id="pers9">Petit</span> promect aussy faire tous les trous et chevilles necessaires,
-        lesquels bois cy-dessus ledict <span class="persName organisation vigarani" data-key="vigarani" id="pers10">sieur Vigarany</span> sera tenu de faire à ses
-        frais et despens conduire de cette ville audict <span class="placeName versailles" data-key="versailles" id="placeName7">Versailles</span>, comme
+        <span class="persName fournisseur antoine_petit indexable" data-key="antoine_petit" id="pers9">Petit</span> promect aussy faire tous les trous et chevilles necessaires,
+        lesquels bois cy-dessus ledict <span class="persName organisation vigarani indexable" data-key="vigarani" id="pers10">sieur Vigarany</span> sera tenu de faire à ses
+        frais et despens conduire de cette ville audict <span class="placeName versailles indexable" data-key="versailles" id="placeName7">Versailles</span>, comme
         ladicte voiture n’estant comprise au present marché. Promectant etc, obligeant chacun en
         droit soy. Renonceant etc.</p>
-          <p class="p">Faict et passé à <span class="placeName paris" data-key="paris" id="placeName8">Paris</span> ausdictes <span class="placeName paris_louvre" data-key="paris_louvre" id="placeName9">galleryes du
+          <p class="p">Faict et passé à <span class="placeName paris indexable" data-key="paris" id="placeName8">Paris</span> ausdictes <span class="placeName paris_louvre indexable" data-key="paris_louvre" id="placeName9">galleryes du
           Louvre</span>, l’an <span class="date" title="1664">mil six cens soixante et quatre le vingtiesme jour de mars
         </span>et ont signé</p>
           <p class="p">
-            <span class="persName organisation vigarani" data-key="vigarani" id="pers11">VIGARANY</span>
+            <span class="persName organisation vigarani indexable" data-key="vigarani" id="pers11">VIGARANY</span>
           </p>
           <p class="p">
-            <span class="persName fournisseur antoine_petit" data-key="antoine_petit" id="pers12">A. PETIT</span>
+            <span class="persName fournisseur antoine_petit indexable" data-key="antoine_petit" id="pers12">A. PETIT</span>
           </p>
           <p class="p">
-            <span class="persName simon_chuppin" data-key="simon_chuppin" id="pers13">CHUPPIN</span>
+            <span class="persName simon_chuppin indexable" data-key="simon_chuppin" id="pers13">CHUPPIN</span>
           </p>
           <p class="p">
-            <span class="persName louis_lenormand" data-key="louis_lenormand" id="pers14">LENORMAND</span>
+            <span class="persName louis_lenormand indexable" data-key="louis_lenormand" id="pers14">LENORMAND</span>
           </p>
         </section>
       </div>

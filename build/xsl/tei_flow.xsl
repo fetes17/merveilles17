@@ -2229,6 +2229,20 @@ Elements block or inline level
   <!-- Termes with possible normal form -->
   <xsl:template match="tei:addName | tei:affiliation | tei:author | tei:authority | tei:country | tei:foreign | tei:forename | tei:genName | tei:geogFeat | tei:geogName | tei:name | tei:origPlace | tei:orgName | tei:persName | tei:placeName | tei:repository | tei:roleName | tei:rs | tei:settlement | tei:surname | tei:term | tei:tech">
     <xsl:param name="from"/>
+    <xsl:variable name="key">
+      <xsl:choose>
+        <xsl:when test="normalize-space(@key) != ''">
+          <xsl:value-of select="normalize-space(@key)"/>
+        </xsl:when>
+        <xsl:when test="normalize-space(@type) != ''">
+          <xsl:value-of select="normalize-space(@type)"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="local-name()"/>
+          <xsl:value-of select="$nokey"/>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
     <xsl:choose>
       <!-- empty -->
       <xsl:when test="normalize-space(.) = ''">
@@ -2257,7 +2271,12 @@ Elements block or inline level
       <xsl:when test="@ref or @xml:base">
         <a>
           <!-- linking policy will be resolved from the "linking" template, matched by @ref attribute -->
-          <xsl:call-template name="atts"/>
+          <xsl:call-template name="atts">
+            <xsl:with-param name="class">
+              <xsl:value-of select="translate($key, $idfrom, $idto)"/>
+              <xsl:text> indexable</xsl:text>
+            </xsl:with-param>
+          </xsl:call-template>
           <!-- Make an exception here for @xml:base ? -->
           <xsl:choose>
             <xsl:when test="self::tei:persName">
@@ -2276,24 +2295,11 @@ Elements block or inline level
         </a>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:variable name="key">
-          <xsl:choose>
-            <xsl:when test="normalize-space(@key) != ''">
-              <xsl:value-of select="normalize-space(@key)"/>
-            </xsl:when>
-            <xsl:when test="normalize-space(@type) != ''">
-              <xsl:value-of select="normalize-space(@type)"/>
-            </xsl:when>
-            <xsl:otherwise>
-              <xsl:value-of select="local-name()"/>
-              <xsl:value-of select="$nokey"/>
-            </xsl:otherwise>
-          </xsl:choose>
-        </xsl:variable>
         <span>
           <xsl:call-template name="atts">
             <xsl:with-param name="class">
               <xsl:value-of select="translate($key, $idfrom, $idto)"/>
+              <xsl:text> indexable</xsl:text>
             </xsl:with-param>
           </xsl:call-template>
           <xsl:attribute name="data-key">

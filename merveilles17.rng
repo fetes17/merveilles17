@@ -454,6 +454,11 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
       <element name="div">
         <a:documentation>Section structurante du texte comme un chapitre ou une section, &lt;html5:section>.</a:documentation>
         <optional>
+          <attribute name="n">
+            <a:documentation>Numérotation ou titre court forgé</a:documentation>
+          </attribute>
+        </optional>
+        <optional>
           <attribute name="type">
             <choice>
               <value>chapitre</value>

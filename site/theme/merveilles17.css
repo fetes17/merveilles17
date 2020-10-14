@@ -1,11 +1,12 @@
 /* Couleurs et fontes */
 :root {
   --rose: #c07b78;
-  --lien: #5c7877;
+  --bleu: #5a787a;
   --gris: rgba(242, 242, 242, 0.8);
   --grege: #f1eeeb;
   --creme: #fafafa;
 }
+
 
 h2 a,
 body {
@@ -44,7 +45,7 @@ h3 {
 /* html défaut */
 
 a {
-  color: var(--lien);
+  color: var(--bleu);
 }
 
 body {
@@ -606,11 +607,20 @@ figure h5 {
   padding-right: 0;
 }
 
-#body {
+#explorable {
   line-height: 1.7;
   max-width: 70ex;
   margin-left: auto;
   margin-right: auto;
+}
+
+.dropcap::first-letter {
+  color: var(--rose);
+}
+
+.label {
+  color: var(--bleu);
+  font-weight: 500 !important;
 }
 
 .note {
@@ -662,10 +672,6 @@ main li {
   border-bottom: 1px solid #CCC;
 }
 
-#aside {
-  background-color: var(--creme);
-}
-
 #bookmarks {
   width: 15px;
   position: fixed;
@@ -688,53 +694,54 @@ main li {
   cursor: pointer;
 }
 
-#aside a {
+#explorer a {
   text-decoration: none;
   cursor: pointer;
 }
 
-#aside summary {
-  line-height: 1.5;
-  padding: 5px;
-  /* text-align: right; */
-  direction: rtl;
+#explorer a:hover {
+  color: #000;
 }
 
-#aside ul {
- list-style: inside;
- padding-left: 0;
+#explorer ul {
+  padding-left: 0;
 }
-#aside ul ul {
- padding-left: 1rem;
-}
-
-main.ana,
-main.placeName,
-main.name,
-main.tech,
-main.persName {
-  color: #999;
+#explorer ul ul {
+  padding-left: 1rem;
 }
 
-main.ana img,
-main.placeName img,
-main.name img,
-main.tech img,
-main.persName img {
+summary::-webkit-details-marker,
+summary::marker {
+  /* color: #c07b78; */
+}
+
+#explorable .indexable {
+  border: 1px solid transparent;
+  border-bottom: 1px dotted #333;
+}
+#explorable .indexable .indexable {
+  border: none !important;
+  padding: 0 !important;
+}
+
+#explorable.ana img,
+#explorable.placeName img,
+#explorable.name img,
+#explorable.tech img,
+#explorable.persName img {
+  /*
   object-fit: scale-down;
   width:230px;
   height:230px;
   float: right;
+  */
 }
 
 mark.placeName,
 mark.persName,
 mark.tech,
 mark.name,
-span.placeName,
-span.persName,
-span.tech,
-span.name {
+span.indexable {
   cursor: pointer;
 }
 
@@ -742,124 +749,190 @@ thead {
   background: #fff;
 }
 
+/* personnes 
 
+  background-color: #f9f1f1;
+  border-color: #c07b78;
+  rgba(192,123,120,0.3)
+
+*/
 
 #persName th,
 #persName summary,
 #persName a:hover,
-main.persName .persName {
-  background-color: #e5e5f2;
-  border-color: rgba(0, 0, 128, 1);
-  color: #000;
+#explorable.persName .persName {
+  background-color: #f9f1f1;
 }
 
-#bookmarks mark.persName {
-  background-color: rgba(0, 0, 128, 0.3);
+#explorable.persName .persName {
+  padding: 0 0.5rem;
+}
+
+#explorable.persName .persName {
+  border: 1px solid #c07b78;
 }
 
 #persName a.active,
-main .persName.active {
-  background-color: rgba(0, 0, 128, 1) !important;
+#explorable .persName:hover,
+#explorable .persName.active {
+  background-color: #c07b78 !important;
   color: #fff !important;
 }
 
+#bookmarks mark.persName {
+  background-color: rgba(192,123,120,0.3);
+}
 
+
+/* Rôles */
 
 #name th,
 #name summary,
 #name a:hover,
-main.name .name {
-  border-color: rgba(0, 128, 0, 1);
-  background-color: #e5f2e5;
-  color: #000;
+#explorable.name .name {
+  background-color: #eef1f1;
+}
+
+#explorable .name.active,
+#explorable.name .name {
+  padding: 0 0.5rem;
+}
+
+#explorable .name.active,
+#explorable.name .name {
+  border: 1px solid #5a787a;
+}
+
+#name a.active,
+#explorable .name:hover,
+#explorable .name.active {
+  background-color: #5a787a !important;
+  color: #fff !important;
 }
 
 #bookmarks mark.name {
-  background-color: rgba(0, 128, 0, 0.3);
+  background-color: rgba(90,120,122, 0.3);
 }
 
 
-#name a.active,
-main .name.active {
-  background-color: rgba(0, 128, 0, 1) !important;
-  color: #fff !important;
-}
+/* lieux */
 
-
-
-#placeName th,
+#placeName a.active,
+.placeName.active,
 #placeName summary,
-#placeName a:hover,
-main.placeName .placeName {
-  background-color: #f9ebeb;
-  border-color: rgba(192, 64, 64, 1);
-  color: #000;
+#placeName th,
+#explorable.placeName .placeName:hover,
+#placeName a:hover {
+  background-color: #e5e5f2;
 }
 
-#bookmarks mark.placeName {
-  background-color:  rgba(192, 64, 64, 0.3);
+#explorable.placeName .placeName:hover {
+  padding: 0 0.5rem;
+}
+
+
+#explorable.placeName .placeName {
+  border: 1px solid #5a787a;
 }
 
 #placeName a.active,
-main .placeName.active {
-  background-color: rgba(192, 64, 64, 1) !important;
+#explorable .placeName:hover,
+#explorable .placeName.active {
+  background-color: rgba(0, 0, 128, 1) !important;
   color: #fff !important;
 }
 
+#bookmarks mark.placeName {
+  background-color: rgba(0, 0, 128, 0.3);
+}
+
+
+/* techniques */
 
 #tech th,
 #tech summary,
 #tech a:hover,
-main.tech .tech {
+#explorable.tech .tech {
   background-color: #fff9e5;
-  border-color: rgba(255, 192, 0, 1);
   color: #000;
 }
 
 #bookmarks mark.tech {
   background-color: rgba(255, 192, 0, 0.3);
 }
+/*  border-color: rgba(255, 192, 0, 1); */
 
 #tech a.active,
-main .tech.active {
+#explorable .tech:hover,
+#explorable .tech.active {
   background-color: rgba(255, 192, 0, 1) !important;
-  color: #fff !important;
+}
+
+/* écriture */
+
+#ana a {
+  border: 1px solid transparent;
 }
 
 #ana th,
 #ana summary,
 #ana a:hover,
-main.ana .ana {
-  background-color: #f2f2f2;
-  border-color: rgba(128, 128, 128, 1);
+#explorable.ana .ana {
+  background-color: #fff;
+  border: 1px solid rgba(128, 128, 128, 0.5);
+}
+
+#explorable.ana .ana {
+  padding: 0.5rem;
+  border: 1px solid rgba(128, 128, 128, 0.5);
   color: #000;
 }
 
-#bookmarks mark.ana {
-  background-color: rgba(128, 128, 128, 0.3);
+#explorable .ana {
+  cursor: pointer;
 }
 
 #ana a.active,
-main .ana.active {
-  background-color: rgba(128, 128, 128, 1) !important;
-  color: #fff !important;
+#explorable .ana:hover,
+#explorable .ana.active {
+  border-color: rgba(128, 128, 128, 1);
+  background: rgba(128, 128, 128, 0.1);
+}
+
+#bookmarks mark.ana {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  background: rgba(128, 128, 128, 0.3);
 }
 
 
 table.sortable {
   margin: 0;
   width: 100%;
-  border: 1px solid #000;
+}
+
+.sortable tr td {
+  border: none;
 }
 
 td.term {
   padding: 0;
+  border: none;
 }
 
-td.nb {
+th.term {
   text-align: right;
 }
 
+#explorer td.nb {
+  text-align: right;
+  width: 2rem;
+  padding: 0 0.3rem;
+  border-right: 1px solid #ccc;
+}
+
+#explorer summary {
+  padding-left: 0.5rem;
+}
 
 table.sortable a {
   color: #666;

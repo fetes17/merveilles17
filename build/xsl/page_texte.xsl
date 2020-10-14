@@ -8,7 +8,7 @@
   <xsl:key name="tech" match="tei:tech[not(ancestor::tei:teiHeader)]" use="normalize-space(@type)"/>
   <xsl:key name="name" match="tei:name[not(ancestor::tei:teiHeader)]" use="normalize-space(@key)"/>
   <xsl:key name="ana" match="*[@ana][@ana != 'description']" use="normalize-space(@ana)"/>
-  <xsl:output indent="yes" encoding="UTF-8" method="xml" omit-xml-declaration="no"/>
+  <xsl:output indent="yes" encoding="UTF-8" method="xml" omit-xml-declaration="yes"/>
   
   <xsl:template match="/">
     <article class="liseuse">
@@ -17,7 +17,7 @@
           <div class="col-4" id="explorer">
             <xsl:call-template name="explorer"/>
           </div>
-          <div class="col-8" id="body">
+          <div class="col-8" id="explorable">
             <xsl:apply-templates select="/tei:TEI/tei:text"/>
           </div>
         </div>
@@ -57,12 +57,12 @@
       <xsl:with-param name="label">Personnes</xsl:with-param>
     </xsl:call-template>
     <xsl:call-template name="taglist">
-      <xsl:with-param name="tag">placeName</xsl:with-param>
-      <xsl:with-param name="label">Lieux</xsl:with-param>
+      <xsl:with-param name="tag">name</xsl:with-param>
+      <xsl:with-param name="label">Rôles</xsl:with-param>
     </xsl:call-template>
     <xsl:call-template name="taglist">
-      <xsl:with-param name="tag">name</xsl:with-param>
-      <xsl:with-param name="label">Personnages</xsl:with-param>
+      <xsl:with-param name="tag">placeName</xsl:with-param>
+      <xsl:with-param name="label">Lieux</xsl:with-param>
     </xsl:call-template>
     <xsl:call-template name="taglist">
       <xsl:with-param name="tag">tech</xsl:with-param>
@@ -90,7 +90,6 @@
         </xsl:when>
         <xsl:otherwise>
           <xsl:for-each select="//*[name() = $tag][count(. | key($tag, normalize-space(@key|@type))[1]) = 1][not(ancestor::tei:teiHeader)]">
-            <xsl:sort select="count(key($tag, @key|@type))" order="descending"/>
             <xsl:call-template name="tr">
               <xsl:with-param name="tag" select="$tag"/>
               <xsl:with-param name="key" select="normalize-space(@key|@type)"/>
@@ -116,8 +115,8 @@
         <table class="sortable" data-sort="1">
           <thead>
             <tr>
-              <th title="Occurrences">nb</th>
-              <th>
+              <th class="nb" title="Occurrences">nb</th>
+              <th class="term">
                 <xsl:value-of select="$label"/>
               </th>
             </tr>

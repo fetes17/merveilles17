@@ -49,10 +49,10 @@ class Merveilles17 {
   static init()
   {
     Merveilles17.initImages();
-    Merveilles17.body = document.getElementById('body');
-    Merveilles17.scroller = Merveilles17.getScrollMother(Merveilles17.body);
-    if(!Merveilles17.body) return;
-    Merveilles17.initBody();
+    Merveilles17.explorable = document.getElementById('explorable');
+    Merveilles17.scroller = Merveilles17.getScrollMother(Merveilles17.explorable);
+    if(!Merveilles17.explorable) return;
+    Merveilles17.initExplorable();
     Merveilles17.explorer = document.getElementById('explorer');
     if (Merveilles17.explorer) Merveilles17.initExplorer();
   }
@@ -92,22 +92,37 @@ class Merveilles17 {
     }
   }
   
-  static initBody(id)
+  static initExplorable(id)
   {
-    let classes = ["persName", "tech", "name", "placeName"];
+    let classes = ["persName", "tech", "name", "placeName", "ana"];
     for (const cls of classes) {
-      let matches = Merveilles17.body.querySelectorAll("."+cls);
+      let matches = Merveilles17.explorable.querySelectorAll("."+cls);
       for (let i = 0, max = matches.length; i < max; i++) {
         let el = matches[i];
-        el.addEventListener("click", function(){
+        el.addEventListener("click", function() {
           let key = this.getAttribute("data-key");
           if (!key) key = cls+"nokey";
           let target = document.getElementById(key);
           if (!target) return;
-          let newHash = '#'+key;
+          // no hash
+          // let newHash = '#'+key;
           // if (location.hash == newHash) return; // we can repeat
-          location.hash = newHash;
+          // location.hash = newHash;
+          // if (!Merveilles17.isInView(target)) target.scrollIntoView();
+          
+          // get parent <details> and open it
+          let parent = target.parentNode;
+          while (parent != null) {
+            if (parent.tagName.toLowerCase() != 'details') {
+              parent = parent.parentNode;
+              continue;
+            }
+            if (!parent.open) parent.open = true;
+            break;
+          }
+          if (!Merveilles17.isInView(target)) target.scrollIntoView();
           target.click();
+          
         });
       }
     }
@@ -120,9 +135,9 @@ class Merveilles17 {
       let el = els[i];
       el.addEventListener("toggle", function(evt){
         if(el.open) {
-          Merveilles17.body.classList.add(el.id);
+          Merveilles17.explorable.classList.add(el.id);
         } else {
-          Merveilles17.body.classList.remove(el.id);
+          Merveilles17.explorable.classList.remove(el.id);
         }
       }, false);
     }
@@ -135,10 +150,11 @@ class Merveilles17 {
     }
     for (let i = 0, max = els.length; i < max; i++) {
       let el = els[i];
-      el.addEventListener("click", function(event){
-        let height= Merveilles17.body.scrollHeight; // known only when document loaded
+      if (!el.id) continue; // sommaire ?
+      el.addEventListener("click", function(event) {
+        let height= Merveilles17.explorable.scrollHeight; // known only when document loaded
         let tag = this.getAttribute("data-tag");
-        let terms = Merveilles17.body.querySelectorAll('.'+el.id);
+        let terms = Merveilles17.explorable.querySelectorAll('.'+el.id);
         if (el.classList.contains('active')) {
           for (let z = 0, max = terms.length; z < max; z++) {
             terms[z].classList.remove('active');
@@ -150,8 +166,6 @@ class Merveilles17 {
             }
           }
           el.classList.remove('active');
-          event.preventDefault();
-          return false;
         }
         else {
           el.classList.add('active');
@@ -167,11 +181,27 @@ class Merveilles17 {
               bookmarks.appendChild(mark);
             }
           }
+          if (terms.length == 1) {
+            if (!Merveilles17.isInView(terms[0])) terms[0].scrollIntoView();
+          }
         }
+        event.preventDefault();
+        return false;
       });
     }
   }
   
+  static isInView(elem)
+  {
+    var bounding = elem.getBoundingClientRect();
+    return (
+      bounding.top >= 0
+      && bounding.left >= 0
+      && bounding.bottom <= (window.innerHeight || document.documentElement.clientHeight)
+      && bounding.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+  }
+
   
   static mark(e)
   {
