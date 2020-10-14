@@ -22,7 +22,7 @@ XSLT 1.0 is compatible browser, PHP, Python, Java…
   exclude-result-prefixes="eg tei epub"
   >
   <!-- Import shared templates -->
-  <xsl:import href="common.xsl"/>
+  <xsl:import href="tei_common.xsl"/>
   <xsl:output encoding="UTF-8" indent="yes" method="xml" omit-xml-declaration="yes"/>
   <!-- What kind of root element to output ? html, div, article -->
   <xsl:param name="root" select="$html"/>

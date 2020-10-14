@@ -214,17 +214,17 @@ CREATE INDEX date_document_document ON date_document(document);
       $dstfile = self::$home."site/".$dstname.self::$_html;
       
       
-      $line = Build::transformDoc($dom, self::$home."build/xsl/document.xsl", null, array('filename' => $dstname));
+      $line = Build::transformDoc($dom, self::$home."build/xsl/tsv_document.xsl", null, array('filename' => $dstname));
       $line = str_replace(' xmlns="http://www.w3.org/1999/xhtml"', '', $line);
       $document .= $line;
       
       // extract index terms from document by xsl s tsv lines to insert in database
       // could be one day in xpath
-      $lines = Build::transformDoc($dom, self::$home."build/xsl/personne_document.xsl", null, array('filename' => $dstname));
+      $lines = Build::transformDoc($dom, self::$home."build/xsl/tsv_personne_document.xsl", null, array('filename' => $dstname));
       $personne_document .= $lines;
-      $technique_document .= Build::transformDoc($dom, self::$home."build/xsl/technique_document.xsl", null, array('filename' => $dstname));
-      $lieu_document .= Build::transformDoc($dom, self::$home."build/xsl/lieu_document.xsl", null, array('filename' => $dstname));
-      $date_document .= Build::transformDoc($dom, self::$home."build/xsl/date_document.xsl", null, array('filename' => $dstname));
+      $technique_document .= Build::transformDoc($dom, self::$home."build/xsl/tsv_technique_document.xsl", null, array('filename' => $dstname));
+      $lieu_document .= Build::transformDoc($dom, self::$home."build/xsl/tsv_lieu_document.xsl", null, array('filename' => $dstname));
+      $date_document .= Build::transformDoc($dom, self::$home."build/xsl/tsv_date_document.xsl", null, array('filename' => $dstname));
     }
     file_put_contents(self::$home."README.md", $readme);
 
@@ -303,11 +303,10 @@ CREATE INDEX date_document_document ON date_document(document);
 
   public static function documents()
   {
-    $dstdir = self::$home."site/document/";
-    Build::rmdir($dstdir);
-    Build::mkdir($dstdir);
+    Build::mkdir(Build::rmdir(self::$home."site/document/"));
+    Build::mkdir(Build::rmdir(self::$home."site/texte/"));
     foreach (glob(self::$home."couv/*.jpg") as $srcfile) {
-      copy($srcfile, $dstdir.'/'.basename($srcfile));
+      copy($srcfile, self::$home.'site/document/'.basename($srcfile));
     }
     
     $template = str_replace("%relpath%", "../", self::$template);
@@ -331,6 +330,10 @@ CREATE INDEX date_document_document ON date_document(document);
       $qid->execute(array($document_code));
       list($docid) = $qid->fetch();
       $dom = Build::dom($srcfile);
+      /* liseuse */
+      $page = Build::transformDoc($dom, self::$home."build/xsl/page_texte.xsl", null, array('filename' => $document_code));      
+      file_put_contents(self::$home.'site/texte/'.$document_code.self::$_html, str_replace('%main%', $page, $template));
+      /* notice de document */
       $page = Build::transformDoc($dom, self::$home."build/xsl/page_document.xsl", null, array('filename' => $document_code));
       $page = str_replace(" § ", "\n<br/>", $page);
 
@@ -838,9 +841,10 @@ class Build
    */
   static function mkdir($dir)
   {
-    if (is_dir($dir)) return false;
+    if (is_dir($dir)) return $dir;
     if (!mkdir($dir, 0775, true)) throw new Exception("Directory not created: ".$dir);
-    @chmod(dirname($dst), 0775);  // let @, if www-data is not owner but allowed to write
+    @chmod(dirname($dir), 0775);  // let @, if www-data is not owner but allowed to write
+    return $dir;
   } 
 
   /**
@@ -849,7 +853,7 @@ class Build
    */
   static function rmdir($dir, $keep = false) {
     $dir = rtrim($dir, "/\\").DIRECTORY_SEPARATOR;
-    if (!is_dir($dir)) return false; // maybe deleted
+    if (!is_dir($dir)) return $dir; // maybe deleted
     if(!($handle = opendir($dir))) throw new Exception("Read impossible ".$file);
     while(false !== ($filename = readdir($handle))) {
       if ($filename == "." || $filename == "..") continue;
@@ -857,9 +861,10 @@ class Build
       if (is_link($file)) throw new Exception("Delete a link? ".$file);
       else if (is_dir($file)) self::rmdir($file);
       else unlink($file);
-     }
+    }
     closedir($handle);
     if (!$keep) rmdir($dir);
+    return $dir;
   }
   
   

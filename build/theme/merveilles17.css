@@ -5,21 +5,6 @@
   --gris: rgba(242, 242, 242, 0.8);
   --grege: #f1eeeb;
   --creme: #fafafa;
-  --persName: rgba(0, 0, 128, 1);
-  --persName5: rgba(0, 0, 128, 0.3);
-  --persNameLite: rgba(0, 0, 128, 0.1);
-  --name: rgba(0, 128, 0, 1);
-  --name5: rgba(0, 128, 0, 0.3);
-  --nameLite: rgba(0, 128, 0, 0.1);
-  --placeName: rgba(192, 64, 64, 1);
-  --placeName5: rgba(192, 64, 64, 0.3);
-  --placeNameLite: rgba(192, 64, 64, 0.1);
-  --tech: rgba(255, 192, 0, 1);
-  --tech5: rgba(255, 192, 0, 0.3);
-  --techLite: rgba(255, 192, 0, 0.1);
-  --ana: rgba(128, 128, 128, 1);
-  --ana5: rgba(128, 128, 128, 0.3);
-  --anaLite: rgba(128, 128, 128, 0.1);
 }
 
 h2 a,
@@ -46,6 +31,7 @@ body {
   line-height: 1.3;
 }
 
+#body,
 figure,
 .event,
 .moto,
@@ -186,8 +172,8 @@ img.logo {
   width: 220px;
 }
 
-#footer {
-  padding-top: 2rem;
+#footer .container {
+  padding: 2rem 0;
 }
 
 #footer h2 {
@@ -212,9 +198,8 @@ img.logo {
 }
 
 #footer .license {
-  padding-top: 3rem;
+  padding: 0.5rem 0;
   text-align: center;
-  padding-bottom: 0.5rem;
   margin: 0;
   background-color: #343434;
 }
@@ -605,6 +590,22 @@ figure h5 {
 
 /** page liseuse */
 
+#explorer {
+  /* old browsers */
+  position: fixed;
+  position: -webkit-sticky;
+  position: sticky;
+  height: 100vh;
+  top: 0;
+  /*
+  order: -1;
+  height: calc(100vh - 48px);
+  */
+  overflow-y: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+
 #body {
   line-height: 1.7;
   max-width: 70ex;
@@ -737,108 +738,118 @@ span.name {
   cursor: pointer;
 }
 
+thead {
+  background: #fff;
+}
 
 
-#persName thead,
+
+#persName th,
 #persName summary,
 #persName a:hover,
 main.persName .persName {
-  background-color: var(--persNameLite);
-  border-color: var(--persName);
+  background-color: #e5e5f2;
+  border-color: rgba(0, 0, 128, 1);
   color: #000;
 }
 
 #bookmarks mark.persName {
-  background-color: var(--persName5);
+  background-color: rgba(0, 0, 128, 0.3);
 }
 
 #persName a.active,
 main .persName.active {
-  background-color: var(--persName) !important;
+  background-color: rgba(0, 0, 128, 1) !important;
   color: #fff !important;
 }
 
-#name thead,
+
+
+#name th,
 #name summary,
 #name a:hover,
 main.name .name {
-  background-color: var(--nameLite);
-  border-color: var(--name);
+  border-color: rgba(0, 128, 0, 1);
+  background-color: #e5f2e5;
   color: #000;
 }
 
 #bookmarks mark.name {
-  background-color: var(--name5);
+  background-color: rgba(0, 128, 0, 0.3);
 }
 
 
 #name a.active,
 main .name.active {
-  background-color: var(--name) !important;
+  background-color: rgba(0, 128, 0, 1) !important;
   color: #fff !important;
 }
 
-#placeName thead,
+
+
+#placeName th,
 #placeName summary,
 #placeName a:hover,
 main.placeName .placeName {
-  background-color: var(--placeNameLite);
-  border-color: var(--placeName);
+  background-color: #f9ebeb;
+  border-color: rgba(192, 64, 64, 1);
   color: #000;
 }
 
 #bookmarks mark.placeName {
-  background-color: var(--placeName5);
+  background-color:  rgba(192, 64, 64, 0.3);
 }
 
 #placeName a.active,
 main .placeName.active {
-  background-color: var(--placeName) !important;
+  background-color: rgba(192, 64, 64, 1) !important;
   color: #fff !important;
 }
 
-#tech thead,
+
+#tech th,
 #tech summary,
 #tech a:hover,
 main.tech .tech {
-  background-color: var(--techLite);
-  border-color: var(--tech);
+  background-color: #fff9e5;
+  border-color: rgba(255, 192, 0, 1);
   color: #000;
 }
 
 #bookmarks mark.tech {
-  background-color: var(--tech5);
+  background-color: rgba(255, 192, 0, 0.3);
 }
 
 #tech a.active,
 main .tech.active {
-  background-color: var(--tech) !important;
+  background-color: rgba(255, 192, 0, 1) !important;
   color: #fff !important;
 }
 
-#ana thead,
+#ana th,
 #ana summary,
 #ana a:hover,
 main.ana .ana {
-  background-color: var(--anaLite);
-  border-color: var(--ana);
+  background-color: #f2f2f2;
+  border-color: rgba(128, 128, 128, 1);
   color: #000;
 }
 
 #bookmarks mark.ana {
-  background-color: var(--ana5);
+  background-color: rgba(128, 128, 128, 0.3);
 }
 
 #ana a.active,
 main .ana.active {
-  background-color: var(--ana) !important;
+  background-color: rgba(128, 128, 128, 1) !important;
   color: #fff !important;
 }
 
 
 table.sortable {
-  margin-top: 0;
+  margin: 0;
   width: 100%;
+  border: 1px solid #000;
 }
 
 td.term {
@@ -853,7 +864,7 @@ td.nb {
 table.sortable a {
   color: #666;
   display: block;
-  padding: 5px 1rem;
+  padding: 2px 1rem;
   line-height: 1.1;
 }
 
@@ -884,4 +895,7 @@ div.l {
 }
 */
 
+.titlePart {
+  font-size: 120%;
+}
 

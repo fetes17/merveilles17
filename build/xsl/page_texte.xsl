@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:transform version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml" xmlns:tei="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="tei">
-  <xsl:import href="flow.xsl"/>
-  <xsl:import href="toc.xsl"/>
-  <xsl:import href="teiHeader.xsl"/>
+  <xsl:import href="tei_flow.xsl"/>
+  <xsl:import href="tei_toc.xsl"/>
+  <xsl:import href="tei_header.xsl"/>
   <xsl:key name="persName" match="tei:persName[not(ancestor::tei:teiHeader)]" use="normalize-space(@key)"/>
   <xsl:key name="placeName" match="tei:placeName[not(ancestor::tei:teiHeader)]" use="normalize-space(@key)"/>
   <xsl:key name="tech" match="tei:tech[not(ancestor::tei:teiHeader)]" use="normalize-space(@type)"/>
@@ -14,11 +14,10 @@
     <article class="liseuse">
       <div class="container">
         <div class="row">
-          <div class="col-3">
+          <div class="col-4" id="explorer">
             <xsl:call-template name="explorer"/>
           </div>
-          <div class="col-9">
-            <xsl:apply-templates select="/tei:TEI/tei:teiHeader"/>
+          <div class="col-8" id="body">
             <xsl:apply-templates select="/tei:TEI/tei:text"/>
           </div>
         </div>
@@ -91,7 +90,7 @@
         </xsl:when>
         <xsl:otherwise>
           <xsl:for-each select="//*[name() = $tag][count(. | key($tag, normalize-space(@key|@type))[1]) = 1][not(ancestor::tei:teiHeader)]">
-            <xsl:sort select="normalize-space(@key|@type)"/>
+            <xsl:sort select="count(key($tag, @key|@type))" order="descending"/>
             <xsl:call-template name="tr">
               <xsl:with-param name="tag" select="$tag"/>
               <xsl:with-param name="key" select="normalize-space(@key|@type)"/>
@@ -117,16 +116,17 @@
         <table class="sortable" data-sort="1">
           <thead>
             <tr>
+              <th title="Occurrences">nb</th>
               <th>
                 <xsl:value-of select="$label"/>
               </th>
-              <th title="Occurrences">nb</th>
             </tr>
           </thead>
           <tbody>
             <xsl:copy-of select="$rows"/>
           </tbody>
         </table>
+        <p> </p>
       </details>
     </xsl:if>
   </xsl:template>
@@ -164,6 +164,9 @@
       </xsl:choose>
     </xsl:variable>
     <tr>
+      <td class="nb">
+        <xsl:value-of select="$count"/>
+      </td>
       <td class="term">
         <a>
           <xsl:attribute name="id">
@@ -193,9 +196,6 @@
             </xsl:otherwise>
           </xsl:choose>
         </a>
-      </td>
-      <td class="nb">
-        <xsl:value-of select="$count"/>
       </td>
     </tr>
   </xsl:template>

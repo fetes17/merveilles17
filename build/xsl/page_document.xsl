@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:transform version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml" xmlns:tei="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="tei">
-  <xsl:import href="teiHeader.xsl"/>
-  <xsl:import href="flow.xsl"/>
+  <xsl:import href="tei_header.xsl"/>
+  <xsl:import href="tei_flow.xsl"/>
   <xsl:output indent="yes" encoding="UTF-8" method="xml" omit-xml-declaration="yes"/>
   <xsl:key name="name" match="tei:name[not(ancestor::tei:teiHeader)]" use="normalize-space(@key)"/>
   <!--
@@ -35,7 +35,7 @@
                   <div class="blurb">
                     <xsl:call-template name="ellipse">
                       <xsl:with-param name="node" select="/tei:TEI/tei:text/tei:body"/>
-                      <xsl:with-param name="length" select="300"/>
+                      <xsl:with-param name="length" select="600"/>
                     </xsl:call-template>
                   </div>
                   <div>
