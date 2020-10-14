@@ -717,11 +717,12 @@ summary::marker {
 
 #explorable .indexable {
   border: 1px solid transparent;
-  border-bottom: 1px dotted #333;
+  border-bottom: 1px dashed #999;
 }
 #explorable .indexable .indexable {
   border: none !important;
   padding: 0 !important;
+  background: transparent !important;
 }
 
 #explorable.ana img,

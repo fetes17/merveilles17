@@ -120,7 +120,18 @@ class Merveilles17 {
             if (!parent.open) parent.open = true;
             break;
           }
-          if (!Merveilles17.isInView(target)) target.scrollIntoView();
+          // ensure scroll into view
+          if (!Merveilles17.isInView(target)) {
+            let targetY = target.offsetTop;
+            let mother = Merveilles17.getScrollMother(target);
+            // if (hereY < toc.clientHeight + toc.scrollTop) return;
+            console.log(target.offsetTop);
+          }
+          /*
+          var hereY = here.offsetTop;
+          if (hereY < toc.clientHeight + toc.scrollTop) return;
+          toc.scrollTop = hereY + 100;
+          */
           target.click();
           
         });
