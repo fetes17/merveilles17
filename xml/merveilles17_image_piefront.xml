@@ -9,8 +9,8 @@
                 <title>Les plaisirs de l'Isle enchantée, ou les festes, et diuertissements du Roy, à
                     Versailles, Diuisez en trois journées, et commencéz le 7me. jour de may de
                     l'année 1664</title>
-                <author>Lepautre, Jean</author>
-                <author>Silvestre, Israël</author>
+                <author key="lepautre">Lepautre, Jean</author>
+                <author key="isilvestre">Silvestre, Israël</author>
             </titleStmt>
             <editionStmt>
                 <edition>Merveilles17</edition>
@@ -53,8 +53,8 @@
                     </msIdentifier>
                     <msContents>
                         <msItem>
-                            <author>Lepautre Jean</author>
-                            <author>Silvestre Israël</author>
+                            <author key="lepautre">Lepautre Jean</author>
+                            <author key="isilvestre">Silvestre Israël</author>
                             <title>Les plaisirs de l'Isle enchantée, ou les festes, et
                                 diuertissements du Roy, à Versailles, Diuisez en trois journées, et
                                 commencéz le 7me. jour de may de l'année 1664.</title>
@@ -90,7 +90,7 @@
             <figDesc>Un riche décor composé de rideaux, de guirlandes de fleurs et de fruits tenus
                 par des putti encadre un vaste paysage. Il est bordé, en haut, de deux figures
                 ailées tenant les armes du roi de France et en bas, d'un vaste cartouche comprenant
-                des devises avec au centre le titre de la fête. Le paysage représente au centre, le
+                des devises sur des écus avec au centre le titre de la fête. Le paysage représente le
                 château de Versailles et ses jardins. En contrebas, de nombreux cavaliers ainsi
                 qu'un carosse se dirigent vers la gauche.<placeName key="versailles_jardins"
                     /><placeName key="versailles_chateau"/><persName key="chevaliers"/></figDesc>
@@ -101,21 +101,22 @@
                     when="1664-05-07">7me. jour de may de l'année 1664</date>.</p>
             <p>Ces Escus chargés de deuises sont icy placés selon le rang que les cheualiers
                 tenoient dans la marche, et non pas suiuant leurs qualitez. </p>
-            <p><label ana="devise"><foreign>Longe leuis aura feret</foreign>.</label>
-                <label ana="devise"><foreign>Et quiescente paues cunt</foreign>.</label>
-                <label ana="devise"><foreign>De mis glopes mi Ruido</foreign>.</label>
-                <label ana="devise"><foreign>Nec Cesso, nec Erro</foreign>.</label>
-                <label ana="devise"><foreign>Fidelis &amp; audax</foreign>.</label>
-                <label ana="devise"><foreign>Et candore decus</foreign>.</label>
-                <label ana="devise"><foreign>Splendor ab absequio</foreign>.</label>
-                <lb/><label ana="devise"><foreign>Non fia mai sciolto</foreign>.</label>
-                <label ana="devise"><foreign>Vni militat Astro</foreign>.</label>
-                <label ana="devise"><foreign>Ne quiero menos</foreign>.</label> 
-                <label ana="devise"><foreign>Certo ferit</foreign>.</label>
-                <label ana="devise"><foreign>Hoc juuat vri</foreign>.</label> 
-                <label ana="devise"><foreign>Vix aequat fama labores</foreign>.</label> 
-                <label ana="devise"><foreign>Chieto fuor commoto dentro</foreign>.</label>
-            </p>
+            
+            <l ana="devise" xml:lang="la">Longe leuis aura feret.</l>
+            <l ana="devise" xml:lang="la">Et quiescente paues cunt.</l>
+            <l ana="devise" xml:lang="es">De mis glopes mi Ruido.</l>
+            <l ana="devise" xml:lang="la">Nec Cesso, nec Erro.</l>
+            <l ana="devise" xml:lang="la">Fidelis &amp; audax.</l>
+            <l ana="devise" xml:lang="la">Et candore decus.</l>
+            <l ana="devise" xml:lang="la">Splendor ab absequio.</l>
+            <l ana="devise" xml:lang="it">Non fia mai sciolto.</l>
+            <l ana="devise" xml:lang="la">Vni militat Astro.</l>
+            <l ana="devise" xml:lang="es">Ne quiero menos.</l>
+            <l ana="devise" xml:lang="la">Certo ferit.</l>
+            <l ana="devise" xml:lang="la">Hoc juuat vri.</l>
+            <l ana="devise" xml:lang="la">Vix aequat fama labores.</l>
+            <l ana="devise" xml:lang="it">Chieto fuor commoto dentro.</l>
+
             <p><persName key="isilvestre" role="auteur">Israel Siluestre</persName>, <foreign
                     xml:lang="la">del, et scul. parisis</foreign>.</p>
         </figure>
