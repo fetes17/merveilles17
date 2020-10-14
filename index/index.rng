@@ -16,15 +16,28 @@
   </define>
   <define name="event">
     <element name="event">
-      <attribute name="when">
-        <ref name="date.type"/>
-      </attribute>
+      <choice>
+        <attribute name="when">
+          <ref name="date.type"/>
+        </attribute>
+        <group>
+          <attribute name="from">
+            <ref name="date.type"/>
+          </attribute>
+          <attribute name="to">
+            <ref name="date.type"/>
+          </attribute>
+        </group>
+      </choice>
       <attribute name="where"/>
       <ref name="xml.id"/>
       <ref name="label"/>
-      <oneOrMore>
+      <zeroOrMore>
         <ref name="ref"/>
-      </oneOrMore>
+      </zeroOrMore>
+      <zeroOrMore>
+        <ref name="event"/>
+      </zeroOrMore>
     </element>
   </define>
   <define name="label">

@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="index.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listEvent xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
-  <event xml:id="code" when="1664-05-06" where="versailles">
-    <label>Les plaisirs de l’isle enchantée</label>
-    <!-- une description ? -->
+  <event from="1664-05-07" to="1664-05-13" where="versailles" xml:id="pie">
+    <label>Les Plaisirs de l’Isle enchantée</label>
     <ref target="../xml/merveilles17_ms_pie-bizincourt.xml"/>
     <ref target="../xml/merveilles17_i_pie-ballard1.xml"/>
     <ref target="../xml/merveilles17_i_pie-ballard2.xml"/>
+    <ref target="../xml/"/>
+    <event xml:id="pie1" when="1664-05-07">
+      <label>Plaisirs de l’Isle enchantée, première journée</label>
+      <ref target="../xml/merveilles17_image_piefront.xml"/>
+    </event>
   </event>
 </listEvent>
