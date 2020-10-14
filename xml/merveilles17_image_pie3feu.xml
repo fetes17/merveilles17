@@ -8,14 +8,18 @@
             <titleStmt>
                 <title>Troisiesme journée. Rupture du Palais et des enchantemens de l'Isle
                     representé par vn feu d'Artifice</title>
-                <author>Lepautre, Jean</author>
-                <author>Silvestre, Israël</author>
+                <author key="lepautre">Lepautre, Jean</author>
+                <author key="isilvestre">Silvestre, Israël</author>
             </titleStmt>
             <editionStmt>
                 <edition>Merveilles17</edition>
                 <respStmt>
                     <name>Mathilde Nicolas</name>
                     <resp>Encodage</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Gaëlle Lafage</name>
+                    <resp>Encodage et corrections</resp>
                 </respStmt>
             </editionStmt>
             <publicationStmt>
@@ -26,14 +30,16 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note>Cette estampe se trouve également reliée dans <ref target="URI"
-                        >le livre de la fête publié en 1673 par l'imprimerie royale</ref></note>
+                <note>Cette estampe se trouve également reliée dans <ref
+                        target="merveilles17_i_pie1673.xml">le livre de la fête publié en 1673 par
+                        l'imprimerie royale</ref></note>
             </notesStmt>
             <sourceDesc>
-                <bibl>Jean Lepautre et Israël Silvestre, <title>Troisiesme journée.
-                        Rupture du Palais et des enchantemens de l'Isle representé par vn feu
-                        d'Artifice</title>, estampe, Paris, BNF, Estampes, RESERVE QB-201 (46)-FOL,
-                    Hennin, 4215</bibl>
+                <bibl>Jean Lepautre et Israël Silvestre, <title>Troisième journée des Plaisirs de
+                        l'île enchantée. Feu d'artifice avec la destruction du palais
+                        d'Alcine</title>. <note>Estampe, 28,2 x 42,9 cm, Paris, BNF, Estampes,
+                        RESERVE QB-201 (46)-FOL, Hennin 4215</note><ptr
+                        target="https://gallica.bnf.fr/ark:/12148/btv1b8404792z"/></bibl>
                 <msDesc>
                     <msIdentifier>
                         <country>France</country>
@@ -44,8 +50,8 @@
                     </msIdentifier>
                     <msContents>
                         <msItem>
-                            <author>Lepautre Jean</author>
-                            <author>Silvestre Israël</author>
+                            <author key="lepautre">Lepautre, Jean</author>
+                            <author key="isilvestre">Silvestre, Israël</author>
                             <title>Troisiesme journée. Rupture du Palais et des enchantemens de
                                 l'Isle representé par vn feu d'Artifice.</title>
                         </msItem>
@@ -73,18 +79,18 @@
         </profileDesc>
     </teiHeader>
     <sourceDoc>
-    <figure>
-        <graphic
-            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8404792z//f1/full/full/0/native.jpg"/>
-        <figDesc>Les spectateurs admirent l'imposant feu d'artifice tiré au dessus d'un bassin
-            d'eau. Il semble détruire le batîment que l'on aperçoit au centre du bassin.<tech
-                type="decor"/><tech type="feux-artifice"/></figDesc>
-        <!-- encodage bassin d'eau ? -->
-        <head><date when="1664-05-09">Troisiesme journée</date>.</head>
-        <p>Rupture du <tech type="decor">Palais</tech> et des enchantemens de l'Isle representé par
-            vn <tech type="feux-artifice">feu d'Artifice</tech>.</p>
-        <p><persName key="isilvestre" role="auteur">Israel Siluestre</persName>, <foreign
-                xml:lang="la">del, et sculps</foreign>.</p>
-    </figure>
+        <figure xml:id="pie3feu">
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8404792z//f1/full/full/0/native.jpg"/>
+            <figDesc>Les spectateurs admirent l'imposant feu d'artifice tiré au dessus d'un bassin
+                d'eau. Il semble détruire le batîment que l'on aperçoit au centre du bassin.<tech
+                    type="decor"/><tech type="feux-artifice"/></figDesc>
+            <!-- encodage bassin d'eau ? -->
+            <head><date when="1664-05-09">Troisiesme journée</date>.</head>
+            <p>Rupture du <tech type="decor">Palais</tech> et des enchantemens de l'Isle representé
+                par vn <tech type="feux-artifice">feu d'Artifice</tech>.</p>
+            <p><persName key="isilvestre" role="auteur">Israel Siluestre</persName>, <foreign
+                    xml:lang="la">del, et sculps</foreign>.</p>
+        </figure>
     </sourceDoc>
 </TEI>

@@ -10,8 +10,8 @@
                     suittes, dans le Camp de la course de bague, pendant l'Ouuerture : de la feste
                     faite par les recits d'Apollon et des quatre siecles, assis sur un grand char de
                     triomphe</title>
-                <author>Lepautre, Jean</author>
-                <author>Silvestre, Israël</author>
+                <author key="lepautre">Lepautre, Jean</author>
+                <author key="isilvestre">Silvestre, Israël</author>
             </titleStmt>
             <editionStmt>
                 <edition>Merveilles17</edition>
@@ -28,20 +28,18 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note>Cette estampe se trouve également reliée dans <ref target="URI">le livre de la
-                        fête publié en 1673 par l'imprimerie royale</ref>. Le cuivre de cette
-                    estampe est conservé à la Chalcographie du Musée du Louvre, n°3920 C <ref
-                        target="http://arts-graphiques.louvre.fr/detail/oeuvres/82/535971-Comparse-du-roi-et-de-ses-chevaliers"
-                    /></note>
+                <note>Cette estampe se trouve également reliée dans <ref
+                        target="merveilles17_i_pie1673.xml">le livre de la fête publié en 1673 par
+                        l'imprimerie royale</ref>. Le cuivre de cette estampe est conservé à la
+                    Chalcographie du Musée du Louvre, n°3920 C</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>Jean Lepautre et Israël Silvestre, <title>Première journée. Comparse du Roy et
-                        de ses chevaliers, auec toutes leurs suittes, dans le Camp de la course de
-                        bague, pendant l'Ouuerture : de la feste faite par les recits d'Apollon et
-                        des quatre siecles, assis sur un grand char de triomphe</title>. 
-                  <note>Estampe, 27,6x42,3cm,
-                    <pubPlace>Paris</pubPlace>, BNF, Estampes, RESERVE QB-201 (46)-FOL, Hennin, 4209.</note>
-                <ptr target="https://gallica.bnf.fr/ark:/12148/btv1b84047867"/></bibl>
+                <bibl>Jean Lepautre et Israël Silvestre, <title>Première journée des Plaisirs de
+                        l'île enchantée. Le roi et ses chevaliers dans l'arène écoutant les recits
+                        d'Apollon et des quatre Siècles</title>.<note>Estampe, 27,6x42,3cm,
+                            <pubPlace>Paris</pubPlace>, BNF, Estampes, RESERVE QB-201 (46)-FOL,
+                        Hennin, 4209.</note>
+                    <ptr target="https://gallica.bnf.fr/ark:/12148/btv1b84047867"/></bibl>
                 <msDesc>
                     <msIdentifier>
                         <country>France</country>
@@ -53,8 +51,8 @@
                     </msIdentifier>
                     <msContents>
                         <msItem>
-                            <author>Lepautre Jean</author>
-                            <author>Silvestre Israël</author>
+                            <author key="lepautre">Lepautre Jean</author>
+                            <author key="isilvestre">Silvestre Israël</author>
                             <title>Première journée. Comparse du Roy et de ses chevaliers, auec
                                 toutes leurs suittes, dans le Camp de la course de bague, pendant
                                 l'Ouuerture : de la feste faite par les recits d'Apollon et des
@@ -83,19 +81,11 @@
         </profileDesc>
     </teiHeader>
     <sourceDoc>
-        <figure>
+        <figure xml:id="pie1-comparse">
             <graphic
                 url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84047867/f1/full/full/0/native.jpg"/>
 
-            <head><date when="1664-05-06">Première journée</date>.</head>
-            <p>Comparse du <persName key="louisxiv">Roy</persName> et de ses <name key="chevaliers"
-                    >chevaliers</name>, auec toutes leurs suittes, dans le <tech type="decor"
-                    >Camp</tech> de la course de bague, pendant l'Ouuerture : de la feste faite par
-                les recits d'<name key="apollon">Apollon</name> et des <name key="quatre siecles"
-                    >quatre siecles</name>, assis sur un grand <tech type="machine_terre">char de
-                    triomphe</tech>.</p>
-            <byline><persName key="isilvestre" role="auteur">Israel Siluestre</persName>, <foreign
-                    xml:lang="la">deline, et sculpsit Parisiis</foreign>.</byline>
+
             <figDesc>Dans une grande arène entourée de feuillées et ouverte par trois portes ornées,
                 les participants du spectacle se présentent aux spectateurs. Le roi, au centre est
                 entouré des chevaliers, des trompettes et des tymbaliers. Derrière lui, le char
@@ -107,6 +97,15 @@
                     key="temps"/><name key="quatre_siecles"/><name key="age_airain"/><name
                     key="age_fer"/><name key="age_argent"/><name key="age_or"/><name key="heures"
                     /><name key="zodiaque"/></figDesc>
+            <head><date when="1664-05-07">Première journée</date>.</head>
+            <p>Comparse du <persName key="louisxiv">Roy</persName> et de ses <name key="chevaliers"
+                    >chevaliers</name>, auec toutes leurs suittes, dans le <tech type="decor"
+                    >Camp</tech> de la course de bague, pendant l'Ouuerture : de la feste faite par
+                les recits d'<name key="apollon">Apollon</name> et des <name key="quatre siecles"
+                    >quatre siecles</name>, assis sur un grand <tech type="machine_terre">char de
+                    triomphe</tech>.</p>
+            <byline><persName key="isilvestre" role="auteur">Israel Siluestre</persName>, <foreign
+                    xml:lang="la">deline, et sculpsit Parisiis</foreign>.</byline>
         </figure>
     </sourceDoc>
 </TEI>

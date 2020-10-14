@@ -13,7 +13,7 @@
         <author key="benserade">Benserade Isaac de (1613-1691)</author>
         <author key="moliere">Poquelin Jean-Baptiste, dit Molière</author>
         <author key="chauveau">Chauveau François</author>
-           <author key="isilvestre">Silvestre, Israël (1621-1691).</author>
+        <author key="isilvestre">Silvestre, Israël (1621-1691).</author>
       </titleStmt>
       <editionStmt>
         <edition>Merveilles17</edition>
@@ -25,6 +25,10 @@
           <name>Marion Ignace</name>
           <resp>Balisage</resp>
         </respStmt>
+        <respStmt>
+          <name>Gaëlle Lafage</name>
+          <resp>Encodage et corrections</resp>
+        </respStmt>
       </editionStmt>
       <publicationStmt>
         <publisher>Université d’Artois - Lille, MESHS</publisher>
@@ -34,12 +38,14 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl>Isaac de Benserade, Jean-Baptiste Poquelin, dit Molière, François Chauveau et
-          Israël Silvestre, <title>Les plaisirs de l’isle enchantée. Course de bague; collation
-            ornée de machines; comedie, meslée de danse et de musique; ballet du palais d’Alcine;
-            feu d’artifice; et autres festes galantes et magnifiques faites par le Roy a Versailles
-            le VII. May M.DC.LXIV. et continuées plusieurs autres jours</title>, <note><pubPlace>Paris</pubPlace>, <publisher>imprimerie
-              royale</publisher>, <date>1673</date>, Paris, BNF, Tolbiac, RES-V-498.</note><ptr target="https://gallica.bnf.fr/ark:/12148/btv1b8626216h"/></bibl>
+        <bibl>Isaac de Benserade, Jean-Baptiste Poquelin, dit Molière, François Chauveau et Israël
+          Silvestre, <title>Les plaisirs de l’isle enchantée. Course de bague; collation ornée de
+            machines; comedie, meslée de danse et de musique; ballet du palais d’Alcine; feu
+            d’artifice; et autres festes galantes et magnifiques faites par le Roy a Versailles le
+            VII. May M.DC.LXIV. et continuées plusieurs autres jours</title>,
+              <note><pubPlace>Paris</pubPlace>, <publisher>imprimerie royale</publisher>,
+              <date>1673</date>, Paris, BNF, Tolbiac, RES-V-498.</note><ptr
+            target="https://gallica.bnf.fr/ark:/12148/btv1b8626216h"/></bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -70,7 +76,7 @@
           AUTRES FESTES GALANTES ET MAGNIFIQUES, FAITES PAR LE ROY A VERSAILLES, LE VII. MAY M. DC.
           LXIV. ET CONTINUÉES PLUSIEURS AUTRES JOURS.</head>
         <pb n="np"/>
-                 <ptr target="merveilles17_image_piefront.xml#piefront" type="include"/>
+        <ptr target="merveilles17_image_piefront.xml#piefront" type="include"/>
         <pb n="4" xml:id="p4"/>
         <p><persName key="louisxiv" role="commanditaire">LE ROY</persName>, voulant donner <persName
             key="marie_therese anne_d_autriche" role="destinataire">aux Reines</persName> &amp; à
@@ -114,10 +120,22 @@
           liaison &amp; avec ordre : de-sorte qu’elles ne pouvoient manquer de bien réüssir.</p>
         <p>Il prit pour Sujet le Palais d’Alcine, qui donna lieu au Titre des Plaisirs de l’Isle
           enchantée ; puis que, selon <persName key="arioste">l’Arioste</persName>, le brave</p>
-        
+
         <pb n="np"/>
-        <ptr target="merveilles17_image_pie1marche.xml#pie1front" type="include"/>
-        
+        <ptr target="merveilles17_image_pie1marche.xml#pie1marche" type="include"/>
+
+        <pb n="np"/>
+        <ptr target="merveilles17_image_pie1-comparse.xml#pie1-comparse" type="include"/>
+
+        <pb n="np"/>
+        <ptr target="merveilles17_image_pie1course.xml#pie1course" type="include"/>
+
+        <pb n="np"/>
+        <ptr target="merveilles17_image_pie1saisons.xml#pie1saisons" type="include"/>
+
+        <pb n="np"/>
+        <ptr target="merveilles17_image_pie1festin.xml#pie1festin" type="include"/>
+
         <pb n="5" xml:id="p5"/>
         <p><name key="roger" corresp="louisxiv">Roger </name>&amp; plusieurs autres bons <name
             key="chevaliers">Chevaliers</name> y furent retenus par les doubles charmes de la
@@ -139,11 +157,10 @@
             Bardins</persName>, <tech type="costume">vestu d’un habit à l’antique</tech>, <seg
             ana="description">couleur de feu en broderie d’argent</seg>, &amp; fort bien monté.</p>
         <p>Il estoit suivi de trois Pages. Celuy du <persName key="louisxiv">Roy</persName>,
-            <persName key="artagnan">M. d’Artagnan</persName>
-          <!--ici d'Artagnan est encodé comme un name, dans ms_piephilidor il est encodé comme un persName-->,
-          marchoit à la teste des deux autres, <seg ana="description">fort richement habillé de
-            couelur de feu</seg>, livrée de <persName key="louisxiv">Sa Majesté</persName>, portant
-          sa Lance &amp; son Escu, dans lequel brilloit un Soleil de pierreries, avec ces mots :</p>
+            <persName key="artagnan">M. d’Artagnan</persName>, marchoit à la teste des deux autres,
+            <seg ana="description">fort richement habillé de couelur de feu</seg>, livrée de
+            <persName key="louisxiv">Sa Majesté</persName>, portant sa Lance &amp; son Escu, dans
+          lequel brilloit un Soleil de pierreries, avec ces mots :</p>
         <p><foreign xml:lang="la">Nec cesso, nec erro</foreign>.</p>
         <p>Faisant allusion à l’attachement de <persName key="louisxiv">Sa majesté</persName> aux
           affaires de son Estat, &amp; la maniére avec laquelle il agit. Ce qui estoit encore
@@ -182,20 +199,24 @@
         <p>Pour le <persName key="saint_aignan" role="acteur">DUC DE SAINT AIGNAN</persName>,
           Representant <name key="guidon_le_sauvage" corresp="saint_aignan">GUIDON LE
           SAUVAGE</name>.</p>
-        <l>Les combats que j’ay faits en l’Isle dangereuse,</l>
-        <l>Quand de tant de Guerriers je demeuray vainqueur,</l>
-        <l>Suivis d’une épreuve amoureuse,</l>
-        <l>Ont signalé ma force aussi-bien que mon cœur.</l>
-        <l>Soit qu’elle embrasse un parti legitime,</l>
-        <l>Ou qu’elle vienne à s’échapper ;</l>
-        <l>Fait dire, pour ma gloire, aux deux bouts de la Terre,</l>
-        <l>Qu’on n’en voit point en toute guerre,</l>
-        <l>Ni plus souvent, ni mieux frapper.</l>
+        <lg>
+          <l>Les combats que j’ay faits en l’Isle dangereuse,</l>
+          <l>Quand de tant de Guerriers je demeuray vainqueur,</l>
+          <l>Suivis d’une épreuve amoureuse,</l>
+          <l>Ont signalé ma force aussi-bien que mon cœur.</l>
+          <l>Soit qu’elle embrasse un parti legitime,</l>
+          <l>Ou qu’elle vienne à s’échapper ;</l>
+          <l>Fait dire, pour ma gloire, aux deux bouts de la Terre,</l>
+          <l>Qu’on n’en voit point en toute guerre,</l>
+          <l>Ni plus souvent, ni mieux frapper.</l>
+        </lg>
         <p>POUR LE MESME</p>
-        <l>SEUL contre dix Guerriers, seul contre dix Pucelles,</l>
-        <l>C’est avoir sur les bras deux étranges querelles :</l>
-        <l>Qui sort à son honneur de ce double combat</l>
-        <l>Doit estre, ce me semble, un terrible Soldat.</l>
+        <lg ana="quatrain">
+          <l>SEUL contre dix Guerriers, seul contre dix Pucelles,</l>
+          <l>C’est avoir sur les bras deux étranges querelles :</l>
+          <l>Qui sort à son honneur de ce double combat</l>
+          <l>Doit estre, ce me semble, un terrible Soldat.</l>
+        </lg>
         <p><persName key="trompettes timbales" role="musicien">Huit trompette &amp; deux
             Tymballiers</persName>, <seg ana="description">vestus comme les premiers</seg>,
           marchoient après le Maréchal de Camp.</p>
@@ -215,7 +236,7 @@
         <p>Pour <persName key="louisxiv" role="acteur">LE ROY</persName></p>
         <p>Representant <name key="roger" corresp="louisxiv">Roger</name>.</p>
         <p>SONNET.</p>
-        <l>Quelle taille, quel port a ce fier Conquérant ?</l>
+        <lg ana="sonnet"><l>Quelle taille, quel port a ce fier Conquérant ?</l>
         <l>Sa personne éblouit quiconque l’examine ;</l>
         <l>Et quoi-que par son poste il soit déjà si grand,</l>
         <l>Quelque chose de plus éclate dans sa mine.</l>
@@ -228,7 +249,7 @@
         <l>Là principalement sa force est occupée.</l>
         <l>Il efface l’éclat des Héros Anciens ;</l>
         <l>N’a que l’honneur en veûë, &amp; ne tire l’épée</l>
-        <l>Que pour des interests qui ne font pas les siens.</l>
+        <l>Que pour des interests qui ne font pas les siens.</l></lg>
         <p>Le <persName key="anne_de_noailles" role="acteur">Duc de Noailles</persName>, Juge du
           Camp sous le nom d’Oger le Danois, marchoit après le <persName key="louisxiv"
             >Roy</persName>, portant <seg ana="description">la couleur de feu</seg> aussi-bien que
@@ -819,7 +840,12 @@ Est‑ce des personnages ?-->Monstres Celestes,
             key="versailles_chateau">Chasteau</placeName>.</p>
         <trailer>Fin de la premiére Journée.</trailer>
       </div>
+      
+      
       <div>
+        <pb n="np"/>
+        <ptr target="merveilles17_image_pie2comedie.xml#pie2comedie" type="include"/>
+        
         <pb n="21" xml:id="p21"/>
         <head><date when="1664-05-08">SECONDE JOURNÉE</date> DES PLAISIRS DE L’ISLE
           ENCHANTÉE.</head>
@@ -2866,12 +2892,14 @@ Est‑ce des personnages ?-->Monstres Celestes,
             >MORON</name>.</p>
         <label type="speaker"><name key="iphitas" corresp="andre_hubert">LE PRINCE</name>.</label>
         <p>JE crains bien, <name key="aristomene" corresp="du_croisy">Prince</name>, que le choix de
-          ma fille ne soit pas en vostre faveur; mais voilà <name key="aglante" corresp="there_duparc"><name key="cinthie" corresp="mlle_de_brie">deux Princesses</name></name> qui peuvent bien vous
-          consoler de ce petit malheur.</p>
+          ma fille ne soit pas en vostre faveur; mais voilà <name key="aglante"
+            corresp="there_duparc"><name key="cinthie" corresp="mlle_de_brie">deux
+            Princesses</name></name> qui peuvent bien vous consoler de ce petit malheur.</p>
         <label type="speaker"><name key="aristomene" corresp="du_croisy">ARISTOMENE</name>.</label>
-        <p>Seigneur, nous sçavons prendre nostre parti, &amp; si ces aimables <name key="aglante" corresp="there_duparc"><name key="cinthie" corresp="mlle_de_brie">Princesses</name></name> n’ont point
-          trop de mépris pour les coeurs qu’on a rebutez, nous pouvons revenir par elles, à
-          l’honneur de vostre alliance.</p>
+        <p>Seigneur, nous sçavons prendre nostre parti, &amp; si ces aimables <name key="aglante"
+            corresp="there_duparc"><name key="cinthie" corresp="mlle_de_brie"
+            >Princesses</name></name> n’ont point trop de mépris pour les coeurs qu’on a rebutez,
+          nous pouvons revenir par elles, à l’honneur de vostre alliance.</p>
         <label type="head">SCENE QUATRIEME.</label>
         <p><name key="philis" corresp="madeleine_bejart">PHILIS</name>. <name key="aristomene"
             corresp="du_croisy">ARISTOMENE</name>.<name key="theocle" corresp="louis_bejart"
@@ -2882,10 +2910,10 @@ Est‑ce des personnages ?-->Monstres Celestes,
           >MORON</name>.</p>
         <p><name key="philis" corresp="madeleine_bejart">PHILIS</name>.</p>
         <p>SEIGNEUR, la Déesse Venus vient d’annoncer par tout le changement du coeur de <name
-          key="princesse_d_elide" corresp="armande_bejart">la Princesse</name>. Tous les <name key="pasteurs">Pasteurs</name>
-          &amp; toutes <name key="bergeres">les Bergeres</name> en témoignent leur joie par des danses et des chansons ; et si
-          ce n’est point un spectacle que vous méprisiez, vous allez voir l’allegresse publique se
-          répandre jusques-icy.</p>
+            key="princesse_d_elide" corresp="armande_bejart">la Princesse</name>. Tous les <name
+            key="pasteurs">Pasteurs</name> &amp; toutes <name key="bergeres">les Bergeres</name> en
+          témoignent leur joie par des danses et des chansons ; et si ce n’est point un spectacle
+          que vous méprisiez, vous allez voir l’allegresse publique se répandre jusques-icy.</p>
         <label type="head">Fin du cinquiésme Acte.</label>
         <pb n="79" xml:id="p79"/>
         <label type="head">SIXIEME INTERMEDE.</label>
@@ -2973,6 +3001,11 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <trailer>Fin de la seconde journée.</trailer>
       </div>
       <div>
+        <pb n="np"/>
+        <ptr target="merveilles17_image_pie3theatre.xml#pie3theatre" type="include"/>
+        <pb n="np"/>
+        <ptr target="merveilles17_image_pie3feu.xml#pie3feu" type="include"/>
+        
         <pb n="81" xml:id="p81"/>
         <head><date when="1664-05-09">TROISIÉME JOURNÉE</date> DES PLAISIRS DE L'ISLE
           ENCHANTÉE.</head>

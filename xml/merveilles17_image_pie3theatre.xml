@@ -11,14 +11,18 @@
                     dans lequel fut dancé vn Ballet de plusieurs entrées, et apres quoy ce Palais
                     fut consumé, par vn feu d'artifice representant la rupture de l'enchantement
                     après la fuite de Roger</title>
-                <author>Lepautre, Jean</author>
-                <author>Silvestre, Israël</author>
+                <author key="lepautre">Lepautre, Jean</author>
+                <author key="isilvestre">Silvestre, Israël</author>
             </titleStmt>
             <editionStmt>
                 <edition>Merveilles17</edition>
                 <respStmt>
                     <name>Mathilde Nicolas</name>
                     <resp>Encodage</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Gaëlle Lafage</name>
+                    <resp>Encodage et corrections</resp>
                 </respStmt>
             </editionStmt>
             <publicationStmt>
@@ -29,19 +33,18 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note>Un dessin conservé aux Archives nationales <ref target="URI"/>
-                    pourrait être préparatoire à cette estampe. Cette dernière se trouve aussi
-                    reliée dans <ref target="URI">le livre de la fête publié en 1673
-                        par l'imprimerie royale</ref></note>
+                <note>Cette estampe est insérée dans <ref target="merveilles17_i_pie1673.xml">le
+                        livre de la fête publié en 1673 par l'imprimerie royale</ref>. La collection
+                    Levesque aux Archives nationales conserve <ref
+                        target="merveilles17_image_ano13242a_089.xml">un dessin reproduisant cette
+                        estampe</ref></note>
             </notesStmt>
             <sourceDesc>
-                <bibl>Jean Lepautre et Israël Silvestre, <title>Troisiesme journée.
-                        Theatre dressé au milieu du grand Estang representant l'Isle d'Alcine, ou
-                        paroissoit son Palais enchanté sortant d'vn petit Rocher dans lequel fut
-                        dancé vn Ballet de plusieurs entrées, et apres quoy ce Palais fut consumé,
-                        par vn feu d'artifice representant la rupture de l'enchantement après la
-                        fuite de Roger</title>, estampe, Paris, BNF, Estampe, RESERVE QB-201 (46)-FOL,
-                    Hennin, 4214</bibl>
+                <bibl>Jean Lepautre et Israël Silvestre, <title>Troisième journée des PLaisirs de
+                        l'île enchantée. Alcine devant son palais dressé sur le bassin des
+                        cygnes</title>. <note>Estampe, 27,1 x 42,4 cm, Paris, BNF, Estampes, RESERVE
+                        QB-201 (46)-FOL, Hennin 4214.</note><ptr
+                        target="https://gallica.bnf.fr/ark:/12148/btv1b8404791j"/></bibl>
                 <msDesc>
                     <msIdentifier>
                         <country>France</country>
@@ -52,8 +55,8 @@
                     </msIdentifier>
                     <msContents>
                         <msItem>
-                            <author>Lepautre Jean</author>
-                            <author>Silvestre Israël</author>
+                            <author key="lepautre">Lepautre, Jean</author>
+                            <author key="isilvestre">Silvestre, Israël</author>
                             <title>Troisiesme journée. Theatre dressé au milieu du grand Estang
                                 representant l'Isle d'Alcine, ou paroissoit son Palais enchanté
                                 sortant d'vn petit Rocher dans lequel fut dancé vn Ballet de
@@ -85,17 +88,16 @@
         </profileDesc>
     </teiHeader>
     <sourceDoc>
-        <figure>
+        <figure xml:id="pie3theatre">
             <graphic
                 url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8404791j//f1/full/full/0/native.jpg
             "/>
-            <figDesc>Les spectateurs observent le spectacle se déroulant sur le bassin d'eau.
-                Celui-ci est entouré de deux panneaux. Sur l'avant du bassin, trois monstres marins,
-                chacun monté par une femme. En son centre, un bâtiment posé sur un rocher,
-                représente le Palais d'Alcine,où plusieurs danseurs réalisent un ballet.<tech
-                    type="decor"/><tech type="construction"/><tech type="machine_eau"/><name
-                    key="alcine"/><name key="celie"/><name key="dirce"/><placeName
-                    key="versailles_jardins_bassin_apollon"/></figDesc>
+            <figDesc>La cour regarde le spectacle se déroulant sur le bassin d'eau où trois figures
+                sur des monstres marins (Alcine et ses compagnes) sont entourées d'un décor d'îles remplies de musiciens sur
+                les côtés. Sur l'île centrale, à l'arrière, se dresse la palais d'Alcine où
+                plusieurs danseurs exécutent un ballet.<tech type="decor"/><tech type="construction"
+                    /><tech type="machine_eau"/><tech type="animal"></tech><name key="alcine"/><name key="celie"/><name
+                    key="dirce"/><placeName key="versailles_jardins_bassin_apollon"/></figDesc>
             <head><date when="1664-05-09">Troisiesme journée</date>.</head>
             <p><tech type="decor">Theatre</tech> dressé au milieu du <placeName
                     key="versailles_jardins_bassin_apollon">grand Estang</placeName> representant

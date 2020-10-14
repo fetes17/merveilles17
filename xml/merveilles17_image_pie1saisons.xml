@@ -10,14 +10,18 @@
                     concertans, et de porteurs de presens, et la machine de Pan, et de Diane, auec
                     leur suitte de concertans, et de bergers portans les plats pendant le recit des
                     vns et des autres deuant le Roy, et les Reynes</title>
-                <author>Lepautre, Jean</author>
-                <author>Silvestre, Israël</author>
+                <author key="lepautre">Lepautre, Jean</author>
+                <author key="isilvestre">Silvestre, Israël</author>
             </titleStmt>
             <editionStmt>
                 <edition>Merveilles17</edition>
                 <respStmt>
                     <name>Mathilde Nicolas</name>
                     <resp>Encodage</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Gaëlle Lafage</name>
+                    <resp>Encodage et corrections</resp>
                 </respStmt>
             </editionStmt>
             <publicationStmt>
@@ -28,16 +32,16 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note>Cette estampe se trouve également reliée dans <ref target="URI">le livre de la
-                        fête publié en 1673 par l'imprimerie royale</ref></note>
+                <note>Cette estampe se trouve également reliée dans <ref
+                        target="merveilles17_i_pie1673.xml">le livre de la fête publié en 1673 par
+                        l'imprimerie royale</ref></note>
             </notesStmt>
             <sourceDesc>
-                <bibl>Jean Lepautre et Israël Silvestre, <title>Première journée. Comparse des
-                        quatre saisons, auec leur suitte de concertans, et de porteurs de presens,
-                        et la machine de Pan, et de Diane, auec leur suitte de concertans, et de
-                        bergers portans les plats pendant le recit des vns et des autres deuant le
-                        Roy, et les Reynes</title>estampe, Paris, BNF, Estampes, RESERVE FOL-QB-201
-                    (46), Hennin 4211</bibl>
+                <bibl>Jean Lepautre et Israël Silvestre, <title>Première journée. Les quatre
+                        Saisons, Pan et Diane auec leur suite de portent les plats en s'adressant au
+                        roi et aux reines</title>. <note>Estampe, 27,6 x 42,2 cm, Paris, BNF,
+                        Estampes, RESERVE FOL-QB-201 (46), Hennin 4211</note><ptr
+                        target="https://gallica.bnf.fr/ark:/12148/btv1b84315569.r"/></bibl>
                 <msDesc>
                     <msIdentifier>
                         <country>France</country>
@@ -48,8 +52,8 @@
                     </msIdentifier>
                     <msContents>
                         <msItem>
-                            <author>Lepautre Jean</author>
-                            <author>Silvestre Israël</author>
+                            <author key="lepautre">Lepautre Jean</author>
+                            <author key="isilvestre">Silvestre Israël</author>
                             <title>Première journée. Comparse des quatre saisons, auec leur suitte
                                 de concertans, et de porteurs de presens, et la machine de Pan, et
                                 de Diane, auec leur suitte de concertans, et de bergers portans les
@@ -80,25 +84,25 @@
         </profileDesc>
     </teiHeader>
     <sourceDoc>
-        <figure>
+        <figure xml:id="pie1saisons">
             <graphic
                 url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84047882//f1/full/full/0/native.jpg
             "/>
             <figDesc>Dans une grande arène entourée de feuillées et ouverte par trois portes ornées,
                 les participants du spectacle se présentent aux spectateurs. Au premier plan, on
-                peut voir les concertans. Derrière eux, les quatre saisons : le printemps et son
-                cheval, l'été et son éléphant, l'automne et son chameau, l'hiver et son ours. Ils
+                peut voir les musiciens. Derrière eux, les quatre Saisons : le Printemps et son
+                cheval, l'Eté et son éléphant, l'Automne et son chameau, l'Hiver et son ours. Ils
                 sont suivis par leurs porteurs de présents. Au centre, la machine de Pan et de
-                Diane. <tech type="decor"/><tech type="machine_terre"/><tech type="animal"
-                    /><name key="quatre_saisons"/><name key="printemps"/><name key="ete"/><name
+                Diane. <tech type="decor"/><tech type="machine_terre"/><tech type="animal"/><name
+                    key="quatre_saisons"/><name key="printemps"/><name key="ete"/><name
                     key="automne"/><name key="hiver"/><name key="pan"/><name key="diane"/><persName
                     role="musicien"/></figDesc>
             <head><date when="1664-05-07">Première journée</date>.</head>
             <p>Comparse des <name key="quatre_saisons">quatre saisons</name>, auec leur suitte de
                     <persName role="musicien">concertans</persName>, et de porteurs de presens, et
-                la <tech type="machine_terre">machine de Pan, et de Diane</tech>, auec leur
-                suitte de <persName role="musicien">concertans</persName>, et de bergers portans les
-                plats pendant le recit des vns et des autres deuant le <persName key="louisxiv"
+                la <tech type="machine_terre">machine de Pan, et de Diane</tech>, auec leur suitte
+                de <persName role="musicien">concertans</persName>, et de bergers portans les plats
+                pendant le recit des vns et des autres deuant le <persName key="louisxiv"
                     role="spectateur">Roy</persName>, et les <persName
                     key="anne_d_autriche marie_therese" role="spectateur">Reynes</persName>.</p>
             <p><persName key="isilvestre" role="auteur">Israel Siluestre</persName>, <foreign

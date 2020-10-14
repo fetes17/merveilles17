@@ -9,14 +9,18 @@
                 <title>Première journée. Course de bague disputée par le Roy, et ses cheualiers,
                     representans Roger et les autres cheualiers enchantés dans l'Isle
                     d'Alcine</title>
-                <author>Lepautre, Jean</author>
-                <author>Silvestre, Israël</author>
+                <author key="lepautre">Lepautre, Jean</author>
+                <author key="isilvestre">Silvestre, Israël</author>
             </titleStmt>
             <editionStmt>
                 <edition>Merveilles17</edition>
                 <respStmt>
                     <name>Mathilde Nicolas</name>
                     <resp>Encodage</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Gaëlle Lafage</name>
+                    <resp>Encodage et corrections</resp>
                 </respStmt>
             </editionStmt>
             <publicationStmt>
@@ -27,14 +31,13 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note>Cette estampe se trouve également reliée dans <ref target="URI"
+                <note>Cette estampe se trouve également reliée dans <ref target="merveilles17_i_pie1673.xml"
                         >le livre de la fête publié en 1673 par l'imprimerie royale</ref></note>
             </notesStmt>
             <sourceDesc>
-                <bibl>Jean Lepautre et Israël Silvestre, <title>Première journée. Course
-                        de bague disputée par le Roy, et ses cheualiers, representans Roger et les
-                        autres cheualiers enchantés dans l'Isle d'Alcine</title>, estampe, Paris, BNF,
-                    Estampes, RESERVE QB-201 (46)-FOL, Hennin, 4210</bibl>
+                <bibl>Jean Lepautre et Israël Silvestre, <title>Première journée des Plaisirs de l'île enchantée. Course
+                        de bague disputée par le roi et ses cheualiers</title>. <note>Estampe, 27,6 x 42 cm, Paris, BNF,
+                            Estampes, RESERVE QB-201 (46)-FOL, Hennin 4210</note><ptr target="https://gallica.bnf.fr/ark:/12148/btv1b8431555w.r"/></bibl>
                 <msDesc>
                     <msIdentifier>
                         <country>France</country>
@@ -45,8 +48,8 @@
                     </msIdentifier>
                     <msContents>
                         <msItem>
-                            <author>Lepautre Jean</author>
-                            <author>Silvestre Israël</author>
+                            <author key="lapautre">Lepautre Jean</author>
+                            <author key="isilvestre">Silvestre Israël</author>
                             <title>Première journée. Course de bague disputée par le Roy, et ses
                                 cheualiers, representans Roger et les autres cheualiers enchantée
                                 dans l'Isle d'Alcine</title>
@@ -75,12 +78,12 @@
         </profileDesc>
     </teiHeader>
     <sourceDoc>
-        <figure>
+        <figure xml:id="pie1course">
             <graphic
                 url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8404787n//f1/full/full/0/native.jpg
             "/>
             <figDesc>Dans une grande arène entourée de feuillées et ouverte par trois portes ornées,
-                le Roy, representant Roger, dispute la course, devant les spectateurs. Des
+                le roi, représentant Roger, dispute la course, devant les spectateurs. Des
                 trompettistes et des timbaliers à cheval sont également présents.<tech type="decor"
                     /><tech type="construction"/><persName key="louisxiv" role="participant"/><name
                     key="roger"/><persName role="musicien"/></figDesc>

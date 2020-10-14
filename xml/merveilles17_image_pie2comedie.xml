@@ -8,14 +8,18 @@
             <titleStmt>
                 <title>Seconde Journée. Theatre fait dans la mesme allée, sur lequel la Comédie, et
                     le Ballet de la Princesse d'Elide furent representéz</title>
-                <author>Lepautre, Jean</author>
-                <author>Silvestre, Israël (d'après)</author>
+                <author key="lepautre">Lepautre, Jean</author>
+                <author key="isilvestre">Silvestre, Israël</author>
             </titleStmt>
             <editionStmt>
                 <edition>Merveilles17</edition>
                 <respStmt>
                     <name>Mathilde Nicolas</name>
                     <resp>Encodage</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Gaëlle Lafage</name>
+                    <resp>Encodage et corrections</resp>
                 </respStmt>
             </editionStmt>
             <publicationStmt>
@@ -26,14 +30,16 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note>Cette estampe se trouve également reliée dans <ref target="URI"
-                        >le livre de la fête publié en 1673 par l'imprimerie royale</ref></note>
+                <note>Cette estampe se trouve également reliée dans <ref
+                        target="merveilles17_i_pie1673.xml">le livre de la fête publié en 1673 par
+                        l'imprimerie royale</ref></note>
             </notesStmt>
             <sourceDesc>
-                <bibl>Jean Lepautre et Israël Silvestre, <title>Seconde Journée. Theatre
-                        fait dans la mesme allée, sur lequel la Comédie, et le Ballet de la
-                        Princesse d'Elide furent representéz</title>, estampe, Paris, Estampes, RESERVE
-                    QB-201 (46)-FOL, Hennin, 4213</bibl>
+                <bibl>Jean Lepautre et Israël Silvestre, <title>Seconde journée des Plaisirs de
+                        l'île enchantée. Représentation de la Princesse d'Elide dans les jardins de
+                        Versailles</title>. <note>Estampe, 28,2 x 42,8 cm, Paris, Estampes, RESERVE
+                        QB-201 (46)-FOL, Hennin 4213</note><ptr
+                        target="https://gallica.bnf.fr/ark:/12148/btv1b84047904"/></bibl>
                 <msDesc>
                     <msIdentifier>
                         <country>France</country>
@@ -44,8 +50,8 @@
                     </msIdentifier>
                     <msContents>
                         <msItem>
-                            <author>Lepautre Jean</author>
-                            <author>Silvestre Israël (d'après)</author>
+                            <author key="lepautre">Lepautre, Jean</author>
+                            <author key="isilvestre">Silvestre, Israël</author>
                             <title>Seconde Journée. Theatre fait dans la mesme allée, sur lequel la
                                 Comédie, et le Ballet de la Princesse d'Elide furent
                                 representéz.</title>
@@ -75,14 +81,15 @@
         </profileDesc>
     </teiHeader>
     <sourceDoc>
-        <figure>
+        <figure xml:id="pie2comedie">
             <graphic
                 url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84047904//f1/full/full/0/native.jpg"/>
 
             <figDesc>Un théâtre orné de décorations et de lustres est installé dans une longue
                 allée, bordée par des arbres. Sur la scène, de nombreux acteurs costumés jouent une
                 pièce devant les spectateurs.<tech type="decor"/><tech type="construction"/><tech
-                    type="costume"/><tech type="lumieres"/><persName role="acteur"/></figDesc>
+                    type="decor"/><tech type="costume"/><tech type="lumieres"/><persName
+                    role="acteur"/></figDesc>
             <head><date when="1664-05-08">Seconde journée</date>.</head>
             <p><tech type="construction">Theatre</tech> fait dans la mesme allée, sur lequel la
                 Comédie, et le Ballet de la Princesse d'Elide furent representéz.</p>

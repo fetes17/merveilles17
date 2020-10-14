@@ -9,14 +9,18 @@
                 <title>Première journée. Festin du Roy, et des Reynes auec plusieurs Princesses et
                     Dames serui de tous les mets et presens faits par les Dieux et les quatre
                     saisons</title>
-                <author>Lepautre, Jean</author>
-                <author>Silvestre, Israël</author>
+                <author key="lepautre">Lepautre, Jean</author>
+                <author key="isilvestre">Silvestre, Israël</author>
             </titleStmt>
             <editionStmt>
                 <edition>Merveilles17</edition>
                 <respStmt>
                     <name>Mathilde Nicolas</name>
                     <resp>Encodage</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Gaëlle Lafage</name>
+                    <resp>Encodage et corrections</resp>
                 </respStmt>
             </editionStmt>
             <publicationStmt>
@@ -27,14 +31,16 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note>Cette estampe se trouve également reliée dans <ref target="URI"
-                        >le livre de la fête publié en 1673 par l'imprimerie royale</ref></note>
+                <note>Cette estampe se trouve également reliée dans <ref
+                        target="merveilles17_i_pie1673.xml">le livre de la fête publié en 1673 par
+                        l'imprimerie royale</ref></note>
             </notesStmt>
             <sourceDesc>
-                <bibl>Jean Lepautre et Israël Silvestre, <title>Première journée. Festin
-                        du Roy, et des Reynes auec plusieurs Princesses et Dames serui de tous les
-                        mets et presens faits par les Dieux et les quatre saisons</title>, estampe,
-                    Paris, BNF, Estampes, RESERVE QB-201 (46)-FOL, Hennin, 4212</bibl>
+                <bibl>Jean Lepautre et Israël Silvestre, <title>Première journée des Plaisirs de
+                        l'île enchantée. Festin servi au roi, aux reines et à des dames de la
+                        cour</title>. <note>Estampe, 27,5 x 42,2 cm, Paris, BNF, Estampes, RESERVE
+                        QB-201 (46)-FOL, Hennin, 4212</note><ptr
+                        target="https://gallica.bnf.fr/ark:/12148/btv1b8404789g"/></bibl>
                 <msDesc>
                     <msIdentifier>
                         <country>France</country>
@@ -45,8 +51,8 @@
                     </msIdentifier>
                     <msContents>
                         <msItem>
-                            <author>Lepautre Jean</author>
-                            <author>Silvestre Israël</author>
+                            <author key="lepautre">Lepautre Jean</author>
+                            <author key="isilvestre">Silvestre Israël</author>
                             <title>Première journée. Festin du Roy, et des Reynes auec plusieurs
                                 Princesses et Dames serui de tous les mets et presens faits par les
                                 Dieux et les quatre saisons.</title>
@@ -75,17 +81,17 @@
         </profileDesc>
     </teiHeader>
     <sourceDoc>
-        <figure>
+        <figure xml:id="pie1festin">
             <graphic
                 url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8404789g//f1/full/full/0/native.jpg
             "/>
             <figDesc>Dans une grande arène entourée de feuillées et ouverte par trois portes ornées,
-                un grand festin se tient au fond de celle-ci, en présence du Roi, des Reines et de
-                plusieurs Dames et Princesses. Une rangée d'hommes tenant des flambeaux se tiennent
-                devant eux. Les porteurs des mets défilent devant les spectateurs avant de se
-                diriger vers la table. <tech type="decor"/><persName key="louisxiv" role="convive"
-                    /><persName key="anne_d_autriche marie_therese" role="convive"/><tech
-                    type="lumieres"/></figDesc>
+                un grand festin se tient au fond de celle-ci, en présence du roi, des reines et de
+                dames de la cour. Une rangée d'hommes tenant des flambeaux éclairent le lieu. Les
+                porteurs des mets défilent devant les spectateurs avant de se diriger vers la table.
+                    <tech type="decor"/><persName key="louisxiv" role="convive"/><persName
+                    key="anne_d_autriche" role="convive"/><persName key="marie_therese"
+                    role="convive"/><tech type="lumieres"/></figDesc>
             <head><date when="1664-05-07">Première journée</date>.</head>
             <p><tech>Festin</tech> du <persName key="louisxiv" role="convive">Roy</persName>, et des
                     <persName key="anne_d_autriche marie_therese" role="convive">Reynes</persName>
