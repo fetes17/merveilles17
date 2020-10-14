@@ -10,8 +10,10 @@
           comedie, meslée de danse et de musique; ballet du palais d’Alcine; feu d’artifice; et
           autres festes galantes et magnifiques faites par le Roy a Versailles le VII. May
           M.DC.LXIV. et continuées plusieurs autres jours</title>
-        <author>Benserade Isaac de (1613-1691), Poquelin Jean-Baptiste, dit Molière (1622-1673),
-          Chauveau François (1613-1676) et Silvestre, Israël (1621-1691).</author>
+        <author key="benserade">Benserade Isaac de (1613-1691)</author>
+        <author key="moliere">Poquelin Jean-Baptiste, dit Molière</author>
+        <author key="chauveau">Chauveau François</author>
+           <author key="isilvestre">Silvestre, Israël (1621-1691).</author>
       </titleStmt>
       <editionStmt>
         <edition>Merveilles17</edition>
@@ -32,8 +34,8 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl>Benserade Isaac de, Poquelin Jean-Baptiste, dit Molière, Chauveau François et
-          Silvestre, Israël, <title>Les plaisirs de l’isle enchantée. Course de bague; collation
+        <bibl>Isaac de Benserade, Jean-Baptiste Poquelin, dit Molière, François Chauveau et
+          Israël Silvestre, <title>Les plaisirs de l’isle enchantée. Course de bague; collation
             ornée de machines; comedie, meslée de danse et de musique; ballet du palais d’Alcine;
             feu d’artifice; et autres festes galantes et magnifiques faites par le Roy a Versailles
             le VII. May M.DC.LXIV. et continuées plusieurs autres jours</title>, <note><pubPlace>Paris</pubPlace>, <publisher>imprimerie
@@ -67,14 +69,8 @@
           COMEDIE, MESLÉE DE DANSE ET DE MUSIQUE ; BALLET DU PALAIS D’ALCINE ; FEU D’ARTIFICE : ET
           AUTRES FESTES GALANTES ET MAGNIFIQUES, FAITES PAR LE ROY A VERSAILLES, LE VII. MAY M. DC.
           LXIV. ET CONTINUÉES PLUSIEURS AUTRES JOURS.</head>
-        <pb n="np" xml:id="np"/>
-          <!--
-        <figure>
-          <graphic url="merveilles17_image_piefront.xml"></graphic>
-          <figDesc></figDesc>
-        </figure>
-        -->
-        <ptr target="merveilles17_image_piefront.xml#piefront" type="include"/>
+        <pb n="np"/>
+                 <ptr target="merveilles17_image_piefront.xml#piefront" type="include"/>
         <pb n="4" xml:id="p4"/>
         <p><persName key="louisxiv" role="commanditaire">LE ROY</persName>, voulant donner <persName
             key="marie_therese anne_d_autriche" role="destinataire">aux Reines</persName> &amp; à
@@ -118,6 +114,10 @@
           liaison &amp; avec ordre : de-sorte qu’elles ne pouvoient manquer de bien réüssir.</p>
         <p>Il prit pour Sujet le Palais d’Alcine, qui donna lieu au Titre des Plaisirs de l’Isle
           enchantée ; puis que, selon <persName key="arioste">l’Arioste</persName>, le brave</p>
+        
+        <pb n="np"/>
+        <ptr target="merveilles17_image_pie1marche.xml#pie1front" type="include"/>
+        
         <pb n="5" xml:id="p5"/>
         <p><name key="roger" corresp="louisxiv">Roger </name>&amp; plusieurs autres bons <name
             key="chevaliers">Chevaliers</name> y furent retenus par les doubles charmes de la
