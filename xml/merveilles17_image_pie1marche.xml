@@ -9,8 +9,8 @@
                 <title>Premiere journée. Marche du Roy, et de ses cheualiers, auec toutes leurs
                     suittes, au tour du Camp de la course de bague, representant Roger, et les
                     autres Cheualiers enchantez dans l'Isle d'Alcine</title>
-                <author>Lepautre, Jean</author>
-                <author>Silvestre, Israël</author>
+                <author key="lepatre">Lepautre, Jean</author>
+                <author key="isilvestre">Silvestre, Israël</author>
             </titleStmt>
             <editionStmt>
                 <edition>Merveilles17</edition>
@@ -27,15 +27,13 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note>Cette estampe se trouve également reliée dans <ref target="URI">le
-                    livre de la fête publié en 1673 par l'imprimerie royale</ref></note>
+                <note>Cette estampe se trouve également reliée dans <ref target="merveilles17_i_pie1673.xml">le
+                    livre de la fête publié en 1673 par l'imprimerie royale</ref>.</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>Jean Lepautre et Israël Silvestre, <title>Premiere journée. Marche
-                        du Roy, et de ses cheualiers, auec toutes leurs suittes, au tour du Camp de
-                        la course de bague, representant Roger, et les autres Cheualiers enchantez
-                        dans l'Isle d'Alcine</title>, estampe, Paris, BNF, Estampes, RESERVE QB-201
-                    (46)-FOL, Hennin, 4208</bibl>
+                <bibl>Jean Lepautre et Israël Silvestre, <title>Premiere journée des Plaisirs de l'ile enchantée. Marche
+                        du roi et de ses cheualiers</title>.<note>Estampe, 27,6 x 42,3 cm, Paris, BNF, Estampes, RESERVE QB-201
+                            (46)-FOL, Hennin 4208</note><ptr target="https://gallica.bnf.fr/ark:/12148/btv1b8404785t.r"/></bibl>
                 <msDesc>
                     <msIdentifier>
                         <country>France</country>
@@ -46,8 +44,8 @@
                     </msIdentifier>
                     <msContents>
                         <msItem>
-                            <author>Lepautre Jean</author>
-                            <author>Silvestre Israël</author>
+                            <author key="lepautre">Lepautre Jean</author>
+                            <author key="isilvestre">Silvestre Israël</author>
                             <title>Premiere journée. Marche du Roy, et de ses cheualiers, auec
                                 toutes leurs suittes, au tour du Camp de la course de bague,
                                 representant Roger, et les autres Cheualiers enchantez dans l'Isle
@@ -77,7 +75,7 @@
         </profileDesc>
     </teiHeader>
     <sourceDoc>
-    <figure>
+    <figure xml:id="pie1marche">
         <graphic
             url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8404785t//f1/full/full/0/native.jpg"/>
 
