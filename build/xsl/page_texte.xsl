@@ -196,7 +196,7 @@
     <xsl:choose>
       <xsl:when test="contains($facs, 'gallica.bnf.fr/ark:/')">
         <!-- https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f104.image -->
-        <a class="pb facs" href="{$facs}" target="_blank">
+        <a class="pb facs" href="{$facs}" target="_blank" id="{@xml:id}">
           <span class="n">
             <xsl:if test="translate(@n, '1234567890', '') = ''">p. </xsl:if>
             <xsl:value-of select="@n"/>
