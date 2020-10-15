@@ -663,6 +663,10 @@ a.facs img {
   width: 150px;
 }
 
+a.facs.bigger {
+  z-index: 2;
+}
+
 a.facs.bigger img {
   width: auto;
   max-width: 50vw;

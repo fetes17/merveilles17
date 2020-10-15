@@ -14,12 +14,12 @@
         <link rel="stylesheet" type="text/css" href="{$theme}merveilles17.css"/>
       </head>
       <body>
-        <div style="width: 1200px; margin-left: auto; margin-right: auto; display: flex;">
-          <aside id="explorer" style="flex: 0 0 33%;">
+        <div style="display: flex;">
+          <aside id="explorer" style="flex: 0 0 250px;">
             <xsl:call-template name="explorer"/>
           </aside>
-          <div id="explorable" style="flex: 0 0 66%;">
-            <xsl:apply-templates select="/tei:TEI/tei:text"/>
+          <div id="explorable" style="flex: 0 0 75ex; position: relative; ">
+            <xsl:apply-templates select="/tei:TEI/*"/>
           </div>
         </div>
         <div id="bookmarks">

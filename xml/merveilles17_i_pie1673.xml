@@ -74,7 +74,7 @@
         <pb n="np"/>
         <ptr target="merveilles17_image_piefront.xml#piefront" type="include"/>
         
-        <pb n="3" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626216h/f16"/>
+        <pb n="3" xml:id="p3" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626216h/f16"/>
         <head>LES PLAISIRS DE L’ISLE ENCHANTÉ. COURSE DE BAGUE ; COLLATION ORNÉE DE MACHINES ;
           COMEDIE, MESLÉE DE DANSE ET DE MUSIQUE ; BALLET DU PALAIS D’ALCINE ; FEU D’ARTIFICE : ET
           AUTRES FESTES GALANTES ET MAGNIFIQUES, FAITES PAR LE ROY A VERSAILLES, LE VII. MAY M. DC.
@@ -84,7 +84,8 @@
           toute sa Cour le plaisir de quelques Festes peu communes, dans un lieu orné de tous les
           agrémens qui peuvent faire admirer une Maison de Campagne, choisit <placeName
             key="versailles">Versailles</placeName>, à quatre lieuës de Paris. C’est un Chasteau
-          qu’on peut nommer un Palais enchanté, tant les ajustemens de <pb n="4" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626216h/f17"/> l’art
+          qu’on peut nommer un Palais enchanté, tant les ajustemens de
+          <pb xml:id="p4" n="4" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626216h/f17"/> l’art
           ont bien secondé les soins que la Nature a pris pour le rendre parfait. Il charme en
           toutes maniéres. Tout y rit dehors &amp; dedans. <seg ana="description">L’or &amp; le
             marbre y disputent de beauté &amp; d’éclat. Et quoy-qu’il n’ait pas cette grande étenduë
@@ -137,7 +138,7 @@
         <pb n="np"/>
         <ptr target="merveilles17_image_pie1festin.xml#pie1festin" type="include"/>
 
-        <pb n="5" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626216h/f33"/>
+        <pb xml:id="p5" n="5" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626216h/f33"/>
         <p><name key="roger" corresp="louisxiv">Roger</name> &amp; plusieurs autres bons <name
             key="chevaliers">Chevaliers</name> y furent retenus par les doubles charmes de la
           beauté, quoi-qu’empruntée, &amp; du sçavoir de cette <name key="alcine"
@@ -167,8 +168,8 @@
           affaires de son Estat, &amp; la maniére avec laquelle il agit. Ce qui estoit encore
           representé par ces quatre vers du <persName key="perigny" role="auteur">Président de
             Perigny</persName>, auteur de la mesme Devise.</p>
-        <lg rend="dropcap">
-          <l>CE n’est passans raison que la Terre &amp; les Cieux,</l>
+        <lg rend="i">
+          <l rend="dropcap">CE n’est passans raison que la Terre &amp; les Cieux,</l>
           <l>Ont tant d’étonnement pour un Objet si rare ;</l>
           <l>Qui dans son cours penible, autant que glorieux,</l>
           <l>Jamais ne se repose, et hamais ne s’égare.</l>
@@ -182,8 +183,9 @@
           Sa Devise estoit telle. Un Tymbre d’Horloge, avec ces mots :</p>
         <l ana="devise" xml:lang="la">De mis golpes mi ruido.</l>
         <p>Le <name key="page">page</name> du <persName key="anne_de_noailles">Duc de
-            Noailles</persName> estoit vestu de <seg ana="description">couleur de <pb n="6"
-               facs="https://gallica.bnf.fr/ark:/12148/btv1b8626216h/f34"/> Feu, argent &amp; noir ; &amp; le reste de la livrée semblable</seg>. La
+            Noailles</persName> estoit vestu de <seg ana="description">couleur de 
+         <pb xml:id="p6" n="6" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626216h/f34"/> 
+              Feu, argent &amp; noir ; &amp; le reste de la livrée semblable</seg>. La
           Devise qu’il portoit dans son Escu, estoit un Aigle avec ces mots :</p>
         <l ana="devise" xml:lang="la">Fidelis &amp; audax.</l>
         <p><persName key="trompettes timbales" role="musicien">Quatre Trompettes &amp; deux
@@ -228,7 +230,7 @@
             corresp="louisxiv">Roger</name>, les suivoit, montant <tech type="animal">un des plus
             beaux chevaux du monde</tech>, dont <seg ana="description">le harnois, couleur
           de</seg></p>
-        <pb n="7" xml:id="p7"/>
+        <pb n="7" xml:id="p7" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626216h/f35"/>
         <p><seg ana="description">feu, éclatoit d’or, d’argent &amp; de pierreries</seg>. <persName
             key="louisxiv" role="acteur">Sa Majesté</persName> estoit <tech type="costume">armée à
             la façon des Grecs</tech>, comme tous ceux de sa Quadrille, &amp; portoit <seg
@@ -277,7 +279,7 @@
           <l>Comme pour bien juger, il faut sçavoir bien faire ;</l>
           <l>Je doute que personne appelle de sa voix.</l>
         </lg>
-        <pb n="8" xml:id="p8"/>
+        <pb n="8" xml:id="p8" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626216h/f36"/>
         <p>Le <persName key="henri_ii_de_guise" role="acteur">Duc de Guise</persName> &amp; le
             <persName key="henri_de_lorraine" role="acteur">Comte d’Armagnac</persName> marchoient
           ensemble après luy. Le premier, portant le nom d’<name key="aquilant"
@@ -330,7 +332,7 @@
         <p>Aprés eux marchoient le <persName key="henri_de_daillon" role="acteur">Comte du
             Lude</persName> &amp; le <persName key="francois_vii_de_la_rochefoucauld" role="acteur"
             >Prince de </persName></p>
-        <pb n="9" xml:id="p9"/>
+        <pb n="9" xml:id="p9" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626216h/f37"/>
         <p><persName key="francois_vii_de_la_rochefoucauld" role="acteur">Marsillac</persName> ;
             <seg ana="description">le premier vestu d’incarnat &amp; blanc; &amp; l’autre de jaune,
             blanc &amp; noir ; enrichis de broderie d’argent, leur livrée de mesme</seg>, &amp; fort
@@ -389,7 +391,7 @@
             <seg ana="description">ce premier portant la couleur de chair &amp; argent; &amp;
             l’autre, gris-de-lin, blanc &amp; argent : toute leur livrée estant la plus riche, &amp;
             la mieux assortie du monde</seg>.</p>
-        <pb n="10" xml:id="p10"/>
+        <pb n="10" xml:id="p10" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626216h/f38"/>
         
         <lg>
           <label>Pour le <persName key="louis_crevant" role="acteur">Marquis d’Humieres</persName>,</label>
@@ -443,7 +445,7 @@
         <p>Le <name key="le_siecle_d_or">Siécle d’Or</name>
           <seg ana="description">orné de ce précieux rnetail estoit encore paré de diverses
             Fleurs</seg>, qui faisoient un des principaux ornemens de cét heureux Age.</p>
-        <pb n="11" xml:id="p11"/>
+        <pb n="11" xml:id="p11" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626216h/f39"/>
         <p>Ceux d'<name key="le_siecle_d_argent">Argent</name> et d’<name key="le_siecle_d_airain"
             corresp="mlle_de_brie">Airain</name> avoient aussi leurs remarques particuliéres.</p>
         <p>Et celuy de <name key="le_siecle_de_fer">Fer</name> estoit <seg ana="description"
@@ -490,7 +492,7 @@ Est‑ce des personnages ?-->Monstres Celestes,
             <name key="astolphe" corresp="henri_de_daillon">Astolphe</name>, ayant pour Devise un
           chiffre en forme de nœud, avec ces mots :</p>
         <l ana="devise" xml:lang="la">Non fia mai sciolto.</l>
-        <pb n="12" xml:id="p12"/>
+        <pb n="12" xml:id="p12" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626216h/f40"/>
         <p>Le <persName key="francois_vii_de_la_rochefoucauld" role="acteur">Prince de
             Marsillac</persName>, representant <name key="brandimart"
             corresp="francois_vii_de_la_rochefoucauld">Bandimart</name>, ayant pour Devise une
@@ -534,7 +536,7 @@ Est‑ce des personnages ?-->Monstres Celestes,
           du <tech type="machine_terre">Char</tech>. <name key="page">Leurs Pages</name> au mesme
           Ordre derriére eux. <name key="douze_zodiaque">Les Signes</name> &amp; <name
             key="douze_heures">les Heures</name> comme ils estoient entrez.</p>
-        <pb n="13" xml:id="p13"/>
+        <pb n="13" xml:id="p13" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626216h/f41"/>
         <p>Lors qu’on eût fait alte en cét estat, un profond silence causé tout ensemble par
           l’attention &amp; par le respect, donna le moyen à <persName key="mlle_de_brie"
             role="acteur">Madelle de Brie</persName>, qui representoit <name
@@ -576,7 +578,7 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <l>Les droits de Chartes-Quint, les droits Charle-Magne,</l>
         <l>En elle, avec leur sang heureusement transmis,</l>
         <l>Rendront tout l’Univers à son Trône soûmis :</l>
-        <pb n="14" xml:id="p14"/>
+        <pb n="14" xml:id="p14" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626216h/f42"/>
         <l>Mais un titre plus grand, un plus noble partage,</l>
         <l>Qui l’éleve plus haut, qui luy plaist davantage ;</l>
         <l>Un Nom qui tient en soy les plus grands noms unis,</l>
@@ -615,7 +617,7 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <l>D'un Roy favorisé de la Terre et des Cieux.</l>
         <l>Mais icy trop tong-temps ce differend m’arreste :</l>
         <l>A de plus doux combats cette Lice s’apreste ;</l>
-        <pb n="15" xml:id="p15"/>
+        <pb n="15" xml:id="p15" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626216h/f43"/>
         <l>Allons la faire ouvrir, &amp; ployons des Lauriers,</l>
         <l>Pour couronner le front de nos fameux Guerriers.</l>
         <p>TOUS ces Recits achevez, la Course de Bague commença ; en laquelle aprés que <persName
@@ -669,7 +671,7 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <p>Les douze premiers <seg ana="description">couverts de fleurs</seg>, portoient , comme des
           Jardiniers, <seg ana="description">des Corbeilles peintes de vert &amp; d’argent, garnies
             d’un grand nombre de porcelaines, si remplies de confitures</seg></p>
-        <pb n="16" xml:id="p16"/>
+        <pb n="16" xml:id="p16" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626216h/f44"/>
         <p><seg ana="description">&amp; d’autres choses délicieuses de la Saison</seg>, qu’ils
           estoient courbez sous cét agréable faix.</p>
         <p>Douze autres, comme Moissonneurs, <seg ana="description">vestus d’habits conformes à
@@ -714,7 +716,7 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <l>Que de vos premiers ans vous auez tant cheris.</l>
         <l>LOUÏS les fait briller du couchant à l’'aurore :</l>
         <l>Tout l’Univers charmé les respecte et les craint;</l>
-        <pb n="17" xml:id="p17"/>
+        <pb n="17" xml:id="p17" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626216h/f45"/>
         <l>Mais leur regne est plus doux &amp; plus puissant encore,</l>
         <l>Quand ils brillent sur vostre teint.</l>
         <label type="speaker"><name key="l_ete" corresp="gros_rene">L’ESTE</name>.</label>
@@ -755,7 +757,7 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <l>De tomber dans vos rets font leur sort le plus doux,</l>
         <l>Et n’estiment rien davantage,</l>
         <l>Que l’heur de périr de vos coups :</l>
-        <pb n="18" xml:id="p18"/>
+        <pb n="18" xml:id="p18" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626216h/f46"/>
         <l>Amour, dont vous avez la grace &amp; le visage,</l>
         <l>A le même secret que vous.</l>
         <label type="speaker"><name key="pan">PAN</name> A <persName key="marie_therese"
@@ -813,7 +815,7 @@ Est‑ce des personnages ?-->Monstres Celestes,
           <item><persName key="marie_brancas" role="convive">Mademoiselle de
             Brancas</persName>.</item>
         </list>
-        <pb n="19" xml:id="p19"/>
+        <pb n="19" xml:id="p19" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626216h/f47"/>
         <list>
           <item><persName key="marguerite_cambout_armagnac" role="convive">Madame
               d’Armagnac</persName>.</item>
@@ -879,7 +881,7 @@ Est‑ce des personnages ?-->Monstres Celestes,
               differentes couleurs, &amp; leurs habits de la Course</tech></seg>, estoient appuyez
           sur la Barriére; &amp; ce <name key="chevaliers">grand nombre d’Officiers</name>
           <seg ana="description">richement vestus</seg>, qui servoient, en</p>
-        <pb n="20" xml:id="p20"/>
+        <pb n="20" xml:id="p20" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626216h/f48"/>
         <p>augmentoîent encore la beauté, &amp; rendoient ce rond une chose enchantée, duquel, aprés
           la Collation, <persName key="louisxiv marie_therese anne_d_autriche">leurs
             Majestez</persName> &amp; toute la Cour, sortirent par le Portique opposé à la Barriére,
@@ -893,7 +895,7 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <pb n="np"/>
         <ptr target="merveilles17_image_pie2comedie.xml#pie2comedie" type="include"/>
         
-        <pb n="21" xml:id="p21"/>
+        <pb n="21" xml:id="p21" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626216h/f52"/>
         <head><date when="1664-05-08">SECONDE JOURNÉE</date> DES PLAISIRS DE L’ISLE
           ENCHANTÉE.</head>
         <p>LORS que la nuit du second jour fut venuë, <persName
@@ -920,7 +922,7 @@ Est‑ce des personnages ?-->Monstres Celestes,
           entendre; &amp; <name key="l_aurore" corresp="hilaire_dupuis">l'Aurore</name>, représentée
           par <persName key="hilaire_dupuis" role="acteur">Mademoiselle Hilaire</persName>, ouvrit
           la Scene, &amp; chanta ce Recit.</p>
-        <pb n="22" xml:id="p22"/>
+        <pb n="22" xml:id="p22" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626216h/f53"/>
         <label type="head">PREMIER INTERMEDE.</label>
         <label type="head">SCENE PREMIERE.</label>
         <label type="head">RECIT DE <name key="l_aurore" corresp="hilaire_dupuis"
@@ -955,7 +957,7 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <l>Hola? hola? debout, debout, debout :</l>
         <l>Pour la Chasse ordonnée il faut préparer tout :</l>
         <l>Hola? ho debout, viste debout.</l>
-        <pb n="23" xml:id="p23"/>
+        <pb n="23" xml:id="p23" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626216h/f54"/>
         <p><name key="valets_de_chien">I</name>.</p>
         <l>Jusqu’aux plus sombres lieux le jour se communique.</l>
         <p><name key="valets_de_chien">II</name>.</p>
@@ -991,7 +993,7 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <p>Point, point, debout, viste debout.</p>
         <label type="speaker"><name key="lyciscas" corresp="moliere">LYCISCAS</name></label>
         <p>Hé ! je vous prie.</p>
-        <p>24</p>
+        <pb n="24" xml:id="p24" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626216h/f55"/>
         <label type="speaker"><name key="musiciens">MUSICIENS</name>.</label>
         <p>Debout.</p>
         <label type="speaker"><name key="lyciscas" corresp="moliere">LYCISCAS</name>.</label>
@@ -1028,7 +1030,7 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <p><name key="lyciscas" corresp="moliere">Lyciscas</name>.</p>
         <label type="speaker"><name key="valets_de_chien">III</name>.</label>
         <p><name key="lyciscas" corresp="moliere">Lyciscas</name>.</p>
-        <pb n="25" xml:id="p25"/>
+        <pb n="25" xml:id="p25" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626216h/f56"/>
         <label type="speaker"><name key="valets_de_chien" corresp="louis_don"><name
               key="valets_de_chien" corresp="estival"><name key="valets_de_chien"
                 corresp="francois_blondel">TOUS ENSEMBLE</name></name></name>.</label>
@@ -1066,7 +1068,7 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <p>Debout.</p>
         <label type="speaker"><name key="lyciscas" corresp="moliere">LYCISCAS</name>.</label>
         <p>Quoy, toûjours ? A-t-on jamais veû une pareille furie de chanter.</p>
-        <pb n="26" xml:id="p26"/>
+        <pb n="26" xml:id="p26" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626216h/f57"/>
         <p>Par le sang bleu j’enrage : puisque me voila evesllé, il faut que j’éveille les autres,
           &amp; que je les tourmente comme on m’a fait. Allons ho? Messieurs, debout, debout, viste,
           c’est trop dormir. Je vais faire un bruit de diable par tout : debout, debout, debout.
@@ -1127,7 +1129,7 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <p>d’humeur galante &amp; magnifique, &amp; souhaitant que la <name key="princesse_d_elide"
             corresp="armande_bejart">Princesse</name> sa fille se résolust à aimer &amp; à penser au
           mariage, qui estoit fort contre son inclination,</p>
-        <pb n="27" xml:id="p27"/>
+        <pb n="27" xml:id="p27" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626216h/f58"/>
         <p>avoit fait venir en sa Cour <name key="euriale" corresp="la_grange">les Princes
             d’Ithaque</name>, <name key="aristomene" corresp="du_croisy">de Messene</name> &amp;
             <name key="theocle" corresp="louis_bejart">de Pyle</name>, afin que dans l’exercice de
@@ -1168,7 +1170,7 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <l>Je diray que l’Amour sied bien a vos pareils ;</l>
         <l>Que ce tribut qu’on rend aux traits d’un beau visage</l>
         <l>De la beauté d’une ame est un clair témoignage ;</l>
-        <pb n="28" xml:id="p28"/>
+        <pb n="28" xml:id="p28" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626216h/f59"/>
         <l>Et qu’il est mal-aisé que sans estre amoureux</l>
         <l>Un jeune Prince soit &amp; grand &amp; génereux.</l>
         <l>C'est une qualité que j’aime en un Monarque :</l>
@@ -1213,7 +1215,7 @@ Est‑ce des personnages ?-->Monstres Celestes,
             Princesse</name> à mes yeux.</l>
         <l>Je vis tous les appas dont elle est revestuë ;</l>
         <l>Mais de l’oeil dont on voit une belle Statuë.</l>
-        <pb n="29" xml:id="p29"/>
+        <pb n="29" xml:id="p29"  facs="https://gallica.bnf.fr/ark:/12148/btv1b8626216h/f60"/>
         <l>Leur brillante jeunesse observée à loisir</l>
         <l>Ne porta dans mon ame aucun secret desir ;</l>
         <l>Et d’Ithaque en repos je revis le rivage,</l>
@@ -1257,7 +1259,7 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <l>Ne l’ont instruite encore de vos brûlans desirs.</l>
         <l>Pour moy je n’entens rien à cette politique,</l>
         <l>Qui ne veut point souffrir que vostre cœur s’explique ;</l>
-        <pb n="30" xml:id="p30"/>
+        <pb n="30" xml:id="p30" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626216h/f61"/>
         <l>Et je ne sçay quel fruit peut prétendre un amour,</l>
         <l>Qui fuit tous les moyens de se produire au jour.</l>
         <label type="speaker"><name key="euriale" corresp="la_grange">EURIALE</name>.</label>

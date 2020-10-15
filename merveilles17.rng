@@ -549,15 +549,18 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
     <define name="pb">
       <element name="pb">
         <a:documentation>Saut de page, “page break”, à placer avant le début du texte de la page, avec le numéro</a:documentation>
-        <optional>
-          <attribute name="n"/>
-        </optional>
-        <optional>
-          <attribute name="facs"/>
-        </optional>
-        <optional>
-          <ref name="xml.id"/>
-        </optional>
+        <attribute name="n"/>
+        <choice>
+          <group>
+            <attribute name="facs"/>
+            <ref name="xml.id"/>
+          </group>
+          <group>
+            <optional>
+              <ref name="xml.id"/>
+            </optional>
+          </group>
+        </choice>
       </element>
     </define>
     <define name="include">

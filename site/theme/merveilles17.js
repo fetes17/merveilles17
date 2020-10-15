@@ -88,6 +88,7 @@ class Merveilles17 {
   
   static initViewer()
   {
+    if (typeof Viewer === 'undefined') return;
     // instancier le viewer sur des images
     let els = document.querySelectorAll('.iiif');
     for (let i = 0, max = els.length; i < max; i++) {
