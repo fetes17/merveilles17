@@ -1,17 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:transform version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml"  xmlns:tei="http://www.tei-c.org/ns/1.0"  exclude-result-prefixes="tei">
-  <xsl:import href="flow.xsl"/>
-  <xsl:output indent="yes" encoding="UTF-8" method="xml" omit-xml-declaration="yes"/>
-  <xsl:template match="/">
-    <article>
-      <header>
-        <xsl:apply-templates select="/tei:TEI/tei:teiHeader"/>
-      </header>
-      <xsl:apply-templates select="/tei:TEI/tei:text"/>
-    </article>
+  <xsl:import href="tei_common.xsl"/>
+  <xsl:template match="tei:titleStmt">
+    <h1>
+      <xsl:apply-templates select="tei:title/node()"/>
+    </h1>
+    <xsl:for-each select="tei:author[normalize-space(.) != '']">
+      <div class="author">
+        <xsl:apply-templates/>
+      </div>
+    </xsl:for-each>
+    <xsl:for-each select="tei:editor[normalize-space(.) != '']">
+      <div class="editor">
+        <xsl:value-of select="@role"/>
+        <xsl:text> </xsl:text>
+        <a href="../personne/{@key}{$_html}">
+          <xsl:apply-templates/>
+        </a>
+      </div>
+    </xsl:for-each>
+    <time class="date">
+      <xsl:value-of select="/tei:TEI/tei:teiHeader/tei:profileDesc/tei:creation/tei:date"/>
+    </time>
+    <xsl:for-each select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:bibl/tei:note">
+      <div class="publine">
+        <xsl:apply-templates/>
+      </div>
+    </xsl:for-each>
   </xsl:template>
-  
-  <xsl:template match="tei:pb" name="pb">
+
+  <xsl:template match="tei:graphic">
+    <xsl:variable name="id">
+      <xsl:call-template name="id"/>
+    </xsl:variable>
+    <xsl:choose>
+      <xsl:when test="contains(@url, '/iiif/')">
+        <xsl:variable name="width">
+          <xsl:choose>
+            <xsl:when test="ancestor::sourceDoc">1140</xsl:when>
+            <xsl:otherwise>600</xsl:otherwise>
+          </xsl:choose>
+        </xsl:variable>       
+        <a href="{@url}" target="_blank" class="iiif">
+          <xsl:variable name="src">
+            <xsl:value-of select="substring-before(@url, '/full/0/')"/>
+            <xsl:text>/1140,/0/</xsl:text>
+            <xsl:value-of select="substring-after(@url, '/full/0/')"/>
+          </xsl:variable>
+          <img src="{$src}" id="{$id}">
+            <xsl:attribute name="alt">
+              <xsl:choose>
+                <xsl:when test="ancestor::tei:sourceDoc">
+                  <xsl:value-of select="normalize-space($doctitle)"/>
+                </xsl:when>
+                <xsl:otherwise>
+                  <xsl:value-of select="normalize-space(../tei:figDesc)"/>
+                </xsl:otherwise>
+              </xsl:choose>
+            </xsl:attribute>
+          </img>
+        </a>
+      </xsl:when>
+      <xsl:otherwise>
+        <img src="{$images}{@url}" alt="{normalize-space(.)}" id="{$id}">
+          <xsl:if test="@style|@scale">
+            <xsl:variable name="style">
+              <xsl:if test="@scale &gt; 0 and @scale &lt; 1">
+                <xsl:text>width: </xsl:text>
+                <xsl:value-of select="floor(@scale * 100)"/>
+                <xsl:text>%; </xsl:text>
+              </xsl:if>
+              <xsl:value-of select="@style"/>
+            </xsl:variable>
+            <xsl:attribute name="style">
+              <xsl:value-of select="normalize-space($style)"/>
+            </xsl:attribute>
+          </xsl:if>
+          <xsl:if test="@rend">
+            <xsl:attribute name="class">
+              <xsl:value-of select="@rend"/>
+            </xsl:attribute>
+          </xsl:if>
+        </img>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+
+  <xsl:template match="tei:pb_NO" name="pb">
     <xsl:variable name="facs" select="@facs"/>
     <xsl:choose>
       <xsl:when test="normalize-space($facs) != ''">

@@ -3,6 +3,7 @@
   <xsl:import href="tei_flow.xsl"/>
   <xsl:import href="tei_toc.xsl"/>
   <xsl:import href="tei_header.xsl"/>
+  <xsl:import href="page.xsl"/>
   <xsl:key name="persName" match="tei:persName[not(ancestor::tei:teiHeader)]" use="normalize-space(@key)"/>
   <xsl:key name="placeName" match="tei:placeName[not(ancestor::tei:teiHeader)]" use="normalize-space(@key)"/>
   <xsl:key name="tech" match="tei:tech[not(ancestor::tei:teiHeader)]" use="normalize-space(@type)"/>
@@ -17,8 +18,16 @@
           <div class="col-4" id="explorer">
             <xsl:call-template name="explorer"/>
           </div>
-          <div class="col-8" id="explorable">
-            <xsl:apply-templates select="/tei:TEI/tei:text"/>
+          <div class="col-8">
+            <div class="bg-gray cartouche">
+              <xsl:apply-templates select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt"/>
+              <div  class="textofiche">
+                <a href="../document/{$filename}{$_html}">◀ Notice</a>
+              </div>
+            </div>
+            <div id="explorable">
+              <xsl:apply-templates select="/tei:TEI/tei:text"/>
+            </div>
           </div>
         </div>
       </div>
@@ -129,26 +138,7 @@
       </details>
     </xsl:if>
   </xsl:template>
-  <!-- 
-  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f17/full/full/0/native.jpg"/>
-  -->
-  <xsl:template match="tei:graphic">
-    <xsl:choose>
-      <xsl:when test="contains(@url, '/iiif/')">
-        <picture>
-          <xsl:variable name="src">
-            <xsl:value-of select="substring-before(@url, '/full/0/')"/>
-            <xsl:text>/500,/0/</xsl:text>
-            <xsl:value-of select="substring-after(@url, '/full/0/')"/>
-          </xsl:variable>
-          <img src="{$src}"/>
-        </picture>
-      </xsl:when>
-      <xsl:otherwise>
-        <xsl:apply-imports/>
-      </xsl:otherwise>
-    </xsl:choose>
-  </xsl:template>
+
   <xsl:template name="tr">
     <xsl:param name="tag"/>
     <xsl:param name="key"/>

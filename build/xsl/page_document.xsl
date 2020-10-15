@@ -2,6 +2,7 @@
 <xsl:transform version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml" xmlns:tei="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="tei">
   <xsl:import href="tei_header.xsl"/>
   <xsl:import href="tei_flow.xsl"/>
+  <xsl:import href="page.xsl"/>
   <xsl:output indent="yes" encoding="UTF-8" method="xml" omit-xml-declaration="yes"/>
   <xsl:key name="name" match="tei:name[not(ancestor::tei:teiHeader)]" use="normalize-space(@key)"/>
   <!--
@@ -28,23 +29,50 @@
               <xsl:call-template name="download"/>
             </xsl:when>
             <xsl:otherwise>
+              <xsl:variable name="length" select="string-length(normalize-space(/tei:TEI/tei:text))"/>
               <div class="row">
                 <div class="col-9">
                   <xsl:apply-templates select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt"/>
-                  <xsl:apply-templates select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:notesStmt"/>
-                  <div class="blurb">
-                    <xsl:call-template name="ellipse">
-                      <xsl:with-param name="node" select="/tei:TEI/tei:text/tei:body"/>
-                      <xsl:with-param name="length" select="600"/>
-                    </xsl:call-template>
-                  </div>
-                  <div>
-                    <a class="texte" href="#">Accéder au texte intégral</a>
-                  </div>
                   <xsl:call-template name="download"/>
+                  <xsl:apply-templates select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:notesStmt"/>
+                  <xsl:choose>
+                    <xsl:when test="$length &lt; 700">
+                      <xsl:apply-templates select="/tei:TEI/tei:text"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                      <a href="../texte/{$filename}{$_html}" class="textofiche">
+                        <div class="blurb">
+                          <xsl:call-template name="ellipse">
+                            <xsl:with-param name="node" select="/tei:TEI/tei:text/tei:body"/>
+                            <xsl:with-param name="length" select="600"/>
+                          </xsl:call-template>
+                        </div>
+                        <div  class="textofiche">
+                          <span class="link">▶ Texte intégral</span>
+                        </div>
+                      </a>
+                    </xsl:otherwise>
+                  </xsl:choose>
                 </div>
                 <div class="col-3">
-                  <img src="{$filename}.jpg"/>
+                  <a>
+                    <xsl:choose>
+                      <xsl:when test="$length &gt; 650">
+                        <xsl:attribute name="href">
+                          <xsl:text>../texte/</xsl:text>
+                          <xsl:value-of select="$filename"/>
+                          <xsl:value-of select="$_html"/>
+                        </xsl:attribute>
+                      </xsl:when>
+                      <xsl:when test="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc//tei:ptr">
+                        <xsl:attribute name="href">
+                          <xsl:value-of select="(/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc//tei:ptr)[1]/@target"/>
+                        </xsl:attribute>
+                        <xsl:attribute name="target">_blank</xsl:attribute>
+                      </xsl:when>
+                    </xsl:choose>
+                    <img src="{$filename}.jpg"/>
+                  </a>
                 </div>
               </div>
             </xsl:otherwise>
@@ -181,35 +209,9 @@
           <xsl:attribute name="href">
             <xsl:value-of select="@target"/>
           </xsl:attribute>
+          <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
           <xsl:text>Document source</xsl:text>
         </a>
-      </div>
-    </xsl:for-each>
-  </xsl:template>
-  <xsl:template match="tei:titleStmt">
-    <h1>
-      <xsl:apply-templates select="tei:title/node()"/>
-    </h1>
-    <xsl:for-each select="tei:author[normalize-space(.) != '']">
-      <div class="author">
-        <xsl:apply-templates/>
-      </div>
-    </xsl:for-each>
-    <xsl:for-each select="tei:editor[normalize-space(.) != '']">
-      <div class="editor">
-        <xsl:value-of select="@role"/>
-        <xsl:text> </xsl:text>
-        <a href="../personne/{@key}{$_html}">
-          <xsl:apply-templates/>
-        </a>
-      </div>
-    </xsl:for-each>
-    <time class="date">
-      <xsl:value-of select="/tei:TEI/tei:teiHeader/tei:profileDesc/tei:creation/tei:date"/>
-    </time>
-    <xsl:for-each select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:bibl/tei:note">
-      <div class="publine">
-        <xsl:apply-templates/>
       </div>
     </xsl:for-each>
   </xsl:template>
@@ -274,34 +276,6 @@
           <xsl:value-of select="@n"/>
           <xsl:text>]</xsl:text>
         </span>
-      </xsl:otherwise>
-    </xsl:choose>
-  </xsl:template>
-  <xsl:template match="tei:graphic">
-    <xsl:choose>
-      <xsl:when test="contains(@url, '/iiif/')">
-        <a href="{@url}" target="_blank" class="iiif">
-          <xsl:variable name="src">
-            <xsl:value-of select="substring-before(@url, '/full/0/')"/>
-            <xsl:text>/1140,/0/</xsl:text>
-            <xsl:value-of select="substring-after(@url, '/full/0/')"/>
-          </xsl:variable>
-          <img src="{$src}" alt="{$doctitle}">
-            <xsl:attribute name="alt">
-              <xsl:choose>
-                <xsl:when test="ancestor::tei:sourceDoc">
-                  <xsl:value-of select="normalize-space($doctitle)"/>
-                </xsl:when>
-                <xsl:otherwise>
-                  <xsl:value-of select="normalize-space(../tei:figDesc)"/>
-                </xsl:otherwise>
-              </xsl:choose>
-            </xsl:attribute>
-          </img>
-        </a>
-      </xsl:when>
-      <xsl:otherwise>
-        <xsl:apply-imports/>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
