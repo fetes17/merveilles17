@@ -1111,127 +1111,73 @@ li.item {
   margin-bottom: 0.25rem;
 }
 
-div.l {
+.l {
+/* negative indent for long verse ?
   text-indent: -1.5rem;
   padding-left: 1.5rem;
   line-height: 150%;
+  */
+}
+
+.lg > .lg > .l:first-of-type {
+  text-indent: 1.5rem;
+}
+
+
+.lg > .lg:first-of-type > .l:first-of-type {
+  text-indent: 0;
 }
 
 .l.indent {
   text-indent: -1rem;
 }
 
-.l1 {
-  padding-left: 13rem;
-}
-
 /* metric */
-.l2 {
-  padding-left: 12rem;
-}
-
-.l3 {
-  padding-left: 11rem;
-}
-
-.l4 {
-  padding-left: 10rem;
-}
-
-.l5 {
-  padding-left: 9rem;
-}
-
-.l6 {
-  padding-left: 8rem;
-}
-
-.l7 {
-  padding-left: 7rem;
-}
-
-.l8 {
-  padding-left: 6rem;
-}
-
-.l9 {
-  padding-left: 5rem;
-}
-
-.l10 {
-  padding-left: 4rem;
-}
-
-.l11 {
-  padding-left: 3rem;
-}
-
-.l12 {
-  padding-left: 2rem;
-}
-
-.l13 {
-  padding-left: 1rem;
-}
-
-.l14 {
-  padding-left: 0rem;
-}
 
 .l.hendeca {
   margin-left: 0.5rem;
-  text-indent: 0;
-  padding-left: 0;
 }
 
+.l10,
 .l.deca {
   margin-left: 1.0rem;
-  text-indent: 0;
-  padding-left: 0;
 }
 
+.l9,
 .l.ennea {
   margin-left: 1.5rem;
-  text-indent: 0;
-  padding-left: 0;
 }
 
+.l8,
 .l.octo {
   margin-left: 2.0rem;
-  text-indent: 0;
-  padding-left: 0;
 }
 
 .l.hepta {
   margin-left: 2.5rem;
-  text-indent: 0;
-  padding-left: 0;
 }
 
+.l6,
 .l.hexa {
   margin-left: 3.0rem;
-  text-indent: 0;
-  padding-left: 0;
 }
 
+.l5,
 .l.penta {
   margin-left: 3.5rem;
-  text-indent: 0;
-  padding-left: 0;
 }
 
+.l4,
 .l.tetra {
   margin-left: 4.0rem;
-  text-indent: 0;
-  padding-left: 0;
 }
 
+.l3,
 .l.tri {
   margin-left: 4.5rem;
-  text-indent: 0;
-  padding-left: 0;
 }
 
+.l2,
 .l.dis {
   margin-left: 5.0rem;
   text-indent: 0;
@@ -2706,15 +2652,6 @@ dl.xml dt {
   ol {
     padding-left: 1rem;
     margin-left: 0;
-  }
-
-  div.l {
-    text-indent: -1rem;
-    padding-left: 1rem;
-  }
-
-  .l.indent {
-    text-indent: 0;
   }
 
   li {

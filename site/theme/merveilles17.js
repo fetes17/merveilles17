@@ -48,7 +48,8 @@ class Merveilles17 {
 
   static init()
   {
-    Merveilles17.initImages();
+    Merveilles17.initViewer();
+    Merveilles17.initFacs();
     Merveilles17.explorable = document.getElementById('explorable');
     Merveilles17.scroller = Merveilles17.getScrollMother(Merveilles17.explorable);
     if(!Merveilles17.explorable) return;
@@ -57,7 +58,35 @@ class Merveilles17 {
     if (Merveilles17.explorer) Merveilles17.initExplorer();
   }
   
-  static initImages()
+  static initFacs()
+  {
+    // instancier le viewer sur des images
+    let els = document.querySelectorAll('a.facs');
+    for (let i = 0, max = els.length; i < max; i++) {
+      let bigger = 'bigger';
+      let el = els[i];
+      el.addEventListener("click", function(e) {
+        e.preventDefault();
+        let img = el.querySelector("img");
+        if (el.classList.contains(bigger)) {
+          el.classList.remove(bigger);
+          if (img.oldsrc) {
+            img.src = img.oldsrc;
+            img.oldsrc = null;
+          }
+        } else {
+          el.classList.add(bigger);
+          let url = img.getAttribute("data-bigger");
+          if (url) {
+            img.oldsrc = img.src;
+            img.src = url;
+          }
+        }
+      }, false);
+    }
+  }
+  
+  static initViewer()
   {
     // instancier le viewer sur des images
     let els = document.querySelectorAll('.iiif');
@@ -80,7 +109,6 @@ class Merveilles17 {
           prev: 0,
           play: {
             show: 0,
-            size: 'large',
           },
           next: 0,
           rotateLeft: 0,

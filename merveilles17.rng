@@ -645,9 +645,24 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
     </define>
     <define name="l">
       <element name="l">
-        <a:documentation>Un vers, peut être contenu dans une strophe <a:el>lg</a:el></a:documentation>
+        <a:documentation>Un vers, verset ou ligne de texte sans rime mais qui n’est pas un paragraphe (ex : devise), 
+          peut être contenu dans une strophe <a:el>lg</a:el></a:documentation>
         <optional>
           <ref name="rend.block"/>
+        </optional>
+        <optional>
+          <attribute name="met">
+            <a:documentation>Indication de métrique (ex : octosyllabe), essentiellement à fin de présentation (alinéas) 
+              pour par exemple distinguer un octosyllabe dans une suite d’alexandrins</a:documentation>
+            <choice>
+              <a:documentation>octosyllabe</a:documentation>
+              <value>l8</value>
+              <a:documentation>décasyllabe</a:documentation>
+              <value>l10</value>
+              <a:documentation>alexandrin</a:documentation>
+              <value>l12</value>
+            </choice>
+          </attribute>
         </optional>
         <optional>
           <ref name="xml.lang"/>

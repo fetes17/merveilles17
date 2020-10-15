@@ -26,6 +26,8 @@ body {
   color: #fff;
 }
 
+.facs,
+.pb,
 figcaption,
 body {
   font-family: 'Titillium Web', sans-serif;
@@ -243,14 +245,6 @@ img.logo {
   padding: 10px 10px;
 }
 */
-a.pb {
-  width: auto;
-  right: -170px;
-}
-
-a.pb img {
-  display: block;
-}
 
 /** Page d’accueil */
 .home section {
@@ -640,7 +634,49 @@ figure h5 {
 
 /** page liseuse */
 
+article.liseuse {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#milieu {
+  max-width: 75ex;
+  position: relative;
+}
+
+a.facs {
+  left: 75ex; /* relatif à la largeur de #milieu */
+  display: block;
+  width: auto;
+  height: auto;
+  min-width: 150px;
+  float: none;
+  position: absolute;
+}
+a.facs .n {
+  white-space: nowrap;
+}
+
+a.facs img {
+  display: block;
+  width: 150px;
+}
+
+a.facs.bigger img {
+  width: auto;
+  max-width: 50vw;
+}
+
+.pb {
+  /* width: auto; */
+  position: relative;
+  float: right;
+  right:0;
+}
+
+
 #explorer {
+  width: 400px;
   /* old browsers */
   position: fixed;
   position: -webkit-sticky;
@@ -658,11 +694,7 @@ figure h5 {
 
 #explorable {
   line-height: 1.7;
-  max-width: 70ex;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 2rem;
 }
 
 figure {
@@ -694,16 +726,6 @@ aside.note.margin {
   width: 15rem;
   border: 1px dotted #ccc;
   margin-left: 1rem;
-}
-
-.pb {
-  width: auto;
-  position: relative;
-  float: right;
-  right:0;
-}
-a.pb img {
-  display: block;
 }
 
 /*
@@ -1009,7 +1031,11 @@ table.sortable a {
   font-style: italic;
 }
 
-div.l {
+figure .devise {
+  font-size: inherit;
+}
+
+.l {
   text-indent: 0;
   padding-left: 0;
 }
@@ -1018,6 +1044,8 @@ div.l {
   font-style: normal;
 }
 
+.lg .label .name,
+.lg .label .persName,
 .speaker .name,
 .speaker .persName {
   font-variant: small-caps;

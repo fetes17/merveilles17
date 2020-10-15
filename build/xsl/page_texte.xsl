@@ -13,22 +13,18 @@
   
   <xsl:template match="/">
     <article class="liseuse">
-      <div class="container">
-        <div class="row">
-          <div class="col-4" id="explorer">
-            <xsl:call-template name="explorer"/>
+      <div id="explorer">
+        <xsl:call-template name="explorer"/>
+      </div>
+      <div id="milieu">
+        <div class="bg-gray cartouche">
+          <xsl:apply-templates select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt"/>
+          <div  class="textofiche">
+            <a href="../document/{$filename}{$_html}">◀ Notice</a>
           </div>
-          <div class="col-8">
-            <div class="bg-gray cartouche">
-              <xsl:apply-templates select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt"/>
-              <div  class="textofiche">
-                <a href="../document/{$filename}{$_html}">◀ Notice</a>
-              </div>
-            </div>
-            <div id="explorable">
-              <xsl:apply-templates select="/tei:TEI/tei:text"/>
-            </div>
-          </div>
+        </div>
+        <div id="explorable">
+          <xsl:apply-templates select="/tei:TEI/tei:text"/>
         </div>
       </div>
       <nav id="bookmarks">
@@ -194,17 +190,18 @@
       <xsl:apply-templates/>
     </aside>
   </xsl:template>
+  
   <xsl:template match="tei:pb" name="pb">
     <xsl:variable name="facs" select="@facs"/>
     <xsl:choose>
-      <xsl:when test="false() and normalize-space($facs) != ''">
+      <xsl:when test="contains($facs, 'gallica.bnf.fr/ark:/')">
         <!-- https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f104.image -->
-        <a class="pb" href="{$facs}" target="_blank">
-          <span>
+        <a class="pb facs" href="{$facs}" target="_blank">
+          <span class="n">
             <xsl:if test="translate(@n, '1234567890', '') = ''">p. </xsl:if>
             <xsl:value-of select="@n"/>
           </span>
-          <img src="{substring-before($facs, '/ark:/')}/iiif/ark:/{substring-after(substring-before(concat($facs, '.image'), '.image'), '/ark:/')}/full/150,/0/native.jpg"/>
+          <img src="{substring-before($facs, '/ark:/')}/iiif/ark:/{substring-after(substring-before(concat($facs, '.image'), '.image'), '/ark:/')}/full/150,/0/native.jpg" data-bigger="{substring-before($facs, '/ark:/')}/iiif/ark:/{substring-after(substring-before(concat($facs, '.image'), '.image'), '/ark:/')}/full/700,/0/native.jpg"/>
         </a>
       </xsl:when>
       <xsl:otherwise>
