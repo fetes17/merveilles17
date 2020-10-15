@@ -438,7 +438,11 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
         <a:documentation>Texte principal</a:documentation>
         <ref name="div.content"/>
         <zeroOrMore>
-          <ref name="div"/>
+          <choice>
+            <ref name="div"/>
+            <ref name="include"/>
+            <ref name="pb"/>
+          </choice>
         </zeroOrMore>
       </element>
     </define>
@@ -472,14 +476,12 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
       </element>
     </define>
     <define name="div.content">
-      <optional>
-        <ref name="pb"/>
-      </optional>
       <zeroOrMore>
         <choice>
+          <ref name="pb"/>
+          <ref name="include"/>
           <ref name="figure"/>
           <ref name="head"/>
-          <ref name="pb"/>
         </choice>
       </zeroOrMore>
       <zeroOrMore>

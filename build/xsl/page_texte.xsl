@@ -13,7 +13,7 @@
   
   <xsl:template match="/">
     <article class="liseuse">
-      <div id="explorer">
+      <div id="explorer" class="explorer">
         <xsl:call-template name="explorer"/>
       </div>
       <div id="milieu">
@@ -23,7 +23,7 @@
             <a href="../document/{$filename}{$_html}">◀ Notice</a>
           </div>
         </div>
-        <div id="explorable">
+        <div class="explorable" id="explorable">
           <xsl:apply-templates select="/tei:TEI/tei:text"/>
         </div>
       </div>

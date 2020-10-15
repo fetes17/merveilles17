@@ -841,21 +841,20 @@ blockquote .bibl {
   margin-right: 15%;
 }
 
-div.byline {
+.byline {
   text-align: right;
-  margin-left: 45%;
+  margin-left: 2rem;
   margin-top: 2rem;
-  margin-bottom: 1rem;
   text-indent: 0;
 }
 
-aside div.byline {
+aside .byline {
   margin-top: 0;
   text-align: left;
   margin: 0 20% 0 0;
 }
 
-div.byline .docAuthor {
+.byline .docAuthor {
   font-variant: small-caps;
 }
 
@@ -1566,7 +1565,7 @@ i .title,
   padding-top: 0;
 }
 
-.titlePage div.byline {
+.titlePage .byline {
   margin-top: 4rem;
   margin-top: 4rem;
   margin-left: auto;
