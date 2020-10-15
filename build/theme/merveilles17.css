@@ -647,6 +647,7 @@ article.liseuse {
 
 a.facs {
   left: 75ex; /* relatif à la largeur de #milieu */
+  right: unset;
   display: block;
   width: auto;
   height: auto;
