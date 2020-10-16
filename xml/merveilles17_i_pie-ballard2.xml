@@ -65,7 +65,7 @@
   </teiHeader>
   <text>
     <front>
-      <pb n="np" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f9"/>
+      <pb xml:id="np1" n="np" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f9"/>
       <titlePage>
         <docTitle>
           <titlePart>LES PLAISIRS DE L'ISLE ENCHANTÉE. COVRSE DE BAGVE, Collation ornée de Machines, Comedie meslée de Danse &amp; de Musique, Ballet du Palais d’Alcine, Feu d’Artifice : Et autres festes galantes &amp; magnifiques; faites par le Roy à Versailles, le 7. may 1664. Et continuées plusieurs autres Iours</titlePart>
@@ -78,15 +78,15 @@
     </front>
     <body>
       <div>
-        <pb n="3" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f11"/>
+        <pb n="3" xml:id="p3" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f11"/>
         <head>LES PLAISIRS DE L'ISLE ENCHANTÉE. COVRSE DE BAGVE, Collation ornée de Machines, Comedie meslée de Danse et de Musique, Ballet du Palais d'Alcine, Feu d'Artifice : Et Autres Festes galantes &amp; magnifiques ; faites par le Roy à Versailles,le <date when="1664-05-07">7. May 1664</date>. Et continuées plusieurs autres Iours.</head>
-        <p rend="dropcap"><persName key="louisxiv" role="organisation">LE ROY</persName> voulant donner aux <persName key="marie_therese anne_d_autriche" role="spectateur">Reynes</persName>, &amp; à toute sa Cour le plaisir de quelques Festes peu communes, dans vn lieu orné de tous les agrements qui peuuent faire admirer vne Maison de Campagne, choisit <placeName key="versailles">Versailles</placeName>, à quatre lieuës de <placeName key="paris">Paris</placeName>. C’est vn Chasteau qu’on peut nommer vn Palais Enchanté, tant les adjustements de l’art ont bien secondé les soins que la Nature a pris pour le rendre parfait: Il charme en toutes manieres, tout y rit dehors &amp; dedans, l’or &amp; le marbre y disputent de beauté et d’esclat : Et quoy qu’il n’ayt pas cette grande estenduë qui se remarque en quelques autres Palais de <persName key="louisxiv" role="organisation">sa Majesté</persName>: Toutes choses y sont si polies, si bien entenduës <pb n="4" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f12"/> &amp; si acheuées, que rien ne le peut esgaler. Sa symetrie, la richesse de ses meubles, la beauté de ses promenades, &amp; le nombre infiny de ses fleurs, comme de ses orangers, rendent les enuirons de ce lieu dignes de sa rareté singuliere: La diuersité des bestes contenuës dans les deux Parcs, &amp; dans la Menagerie, ou plusieurs courts en Estoilles sont accompagnées de Viuiers pour les animaux aquatiques, auec de grands bastiments, joignent le plaisir auec la magnificence, &amp; en font vne maison accomplie.</p>
+        <p rend="dropcap"><persName key="louisxiv" role="organisation">LE ROY</persName> voulant donner aux <persName key="marie_therese anne_d_autriche" role="spectateur">Reynes</persName>, &amp; à toute sa Cour le plaisir de quelques Festes peu communes, dans vn lieu orné de tous les agrements qui peuuent faire admirer vne Maison de Campagne, choisit <placeName key="versailles">Versailles</placeName>, à quatre lieuës de <placeName key="paris">Paris</placeName>. C’est vn Chasteau qu’on peut nommer vn Palais Enchanté, tant les adjustements de l’art ont bien secondé les soins que la Nature a pris pour le rendre parfait: Il charme en toutes manieres, tout y rit dehors &amp; dedans, l’or &amp; le marbre y disputent de beauté et d’esclat : Et quoy qu’il n’ayt pas cette grande estenduë qui se remarque en quelques autres Palais de <persName key="louisxiv" role="organisation">sa Majesté</persName>: Toutes choses y sont si polies, si bien entenduës <pb n="4" xml:id="p4" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f12"/> &amp; si acheuées, que rien ne le peut esgaler. Sa symetrie, la richesse de ses meubles, la beauté de ses promenades, &amp; le nombre infiny de ses fleurs, comme de ses orangers, rendent les enuirons de ce lieu dignes de sa rareté singuliere: La diuersité des bestes contenuës dans les deux Parcs, &amp; dans la Menagerie, ou plusieurs courts en Estoilles sont accompagnées de Viuiers pour les animaux aquatiques, auec de grands bastiments, joignent le plaisir auec la magnificence, &amp; en font vne maison accomplie.</p>
         <p rend="dropcap">CE fut en ce beau lieu ou toute la Cour se rendit <date when="1664-05-05">le cinquiesme de May</date>, que <persName key="louisxiv" role="organisation">le Roy</persName> traitta plus de six cent personnes jusques au <date when="1664-05-14">quatorziesme</date>; outre vne infinité de gens necessaires à la <!-- à voir si on encode quand il s'agit de désignation générale ? -->
           <orgName key="danse">danse</orgName> &amp; à la <orgName key="comedie">Comedie</orgName>, &amp; d’Artisans de toutes sortes venus de Paris; si bien que cela paroissoit vne petite armée.</p>
         <p>Le Ciel mesme sembla fauoriser les desseins de <persName key="louisxiv" role="organisation">sa Majesté</persName>, puis qu’en vne saison presque toûjours pluuieuse on en fut quitte pour vn peu de vent, qui sembla n’auoir augmenté, qu'afin de faire voir que la preuoyance &amp; la puissance du <persName key="louisxiv" role="organisation">Roy</persName>, estoient à l’espreuve des plus grandes incommoditez; de <tech type="construction">hautes toilles</tech>, des <tech type="construction">bastimens de bois</tech> faits presque en vn instant, &amp; vn <tech type="lumieres">nombre prodigieux de flambeaux de cire blanche</tech>, pour suppléer à plus de quatre mille bougies chaque journée, resisterent à ce vent; qui par tout ailleurs eust rendu ces diuertissements comme impossibles à acheuer.</p>
         <p>
           <persName key="vigarani" role="auteur"><orgName key="menusplaisirs"/>Monsieur de Vigarini</persName>, Gentilhomme Modenois, fort sçauant en toutes ces choses, inuenta &amp; proposa celles-cy ; &amp; <persName key="louisxiv" role="organisation">le Roy</persName> commanda au <persName key="saint_aignan" role="auteur"><orgName key="chambre"/>Duc de S. Aignan</persName>, qui se trouua lors en fonction de <orgName key="chambre">premier Gentilhomme de sa Chambre</orgName>, &amp; qui auoit déjà donné plusieurs sujets de Ballet fort agreables; de faire vn dessein ou elles fussent toutes comprises auec liaison &amp; auec ordre; de sorte qu’elles ne pouuoient manquer de bien reussir.</p>
-        <p>Il prit pour sujet le <title>Palais d’Alcine</title>, qui donna lieu au Tiltre des <title>Plaisirs de l’Isle Enchantée</title>; puis que selon l’<persName key="arioste">Arioste</persName>, le braue <name key="roger">Roger</name> &amp; plusieurs autres bon Cheualliers y furent retenus par les doubles charmes de la beauté, quoy <pb n="5" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f13"/> qu'empruntée, &amp; du sçauoir de <name key="alcine">cette Magicienne</name>; &amp; en furent déliurez apres beaucoup de temps consommé dans les delices, par la bague qui destruisoit les enchantemens: C’estoit celle d’<name key="angelique">Angelique</name>, que <name key="melisse">Melisse</name> sous la forme du vieux <name key="atlas">Atlas</name>, mit enfin au doigt de <name key="roger">Roger</name>.</p>
+        <p>Il prit pour sujet le <title>Palais d’Alcine</title>, qui donna lieu au Tiltre des <title>Plaisirs de l’Isle Enchantée</title>; puis que selon l’<persName key="arioste">Arioste</persName>, le braue <name key="roger">Roger</name> &amp; plusieurs autres bon Cheualliers y furent retenus par les doubles charmes de la beauté, quoy <pb n="5" xml:id="p5" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f13"/> qu'empruntée, &amp; du sçauoir de <name key="alcine">cette Magicienne</name>; &amp; en furent déliurez apres beaucoup de temps consommé dans les delices, par la bague qui destruisoit les enchantemens: C’estoit celle d’<name key="angelique">Angelique</name>, que <name key="melisse">Melisse</name> sous la forme du vieux <name key="atlas">Atlas</name>, mit enfin au doigt de <name key="roger">Roger</name>.</p>
         <p>On fit donc en peu de jours <tech type="construction">orner vn Rond</tech>, ou quatre grandes allées aboutissent entre de <tech type="construction">hautes palissades; de quatre Portiques de trente-cinq pieds d’éleuation, &amp; de vingt-deux en quarré d’ouuerture; de plusieurs festons enrichis d’or, &amp; de diuerses peintures auec les armes de <persName key="louisxiv" role="organisation">sa Majesté</persName>.</tech></p>
       </div>
       <div n="[7 mai 1664]">
@@ -104,7 +104,7 @@
         <p>Les deux autres pages estoient aux Ducs de <persName key="saint_aignan">S. Aignan</persName> &amp; de <persName key="anne_de_noailles">Noailles</persName>; Le premier Mareschal de Camp, &amp; l’autre Iuge des Courses.</p>
         <p>Celuy du Duc de <persName key="saint_aignan">S. Aignan</persName> portoit l’Escu de sa Deuise, &amp; estoit <tech type="costume">habillé de sa liurée de toille d’argent enrichie d’or, auec les plumes incarnates &amp; noires &amp; les rubans de mesme</tech>: Sa Deuise estoit telle. Vn Tymbre d’Horloge, auec ces mots.</p>
         <l ana="devise" xml:lang="la">De mis golpes mi Ruido.</l>
-        <p><pb n="6" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f14"/> Le Page du Duc de <persName key="anne_de_noailles">Noailles</persName> estoit <tech type="costume">vestu de couleur de feu, argent &amp; noir; &amp; le reste de la liurée semblable</tech>: La Deuise qu’il portoit dans son Escu, estoit vn Aigle auec ces mots.</p>
+        <p><pb n="6" xml:id="p6" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f14"/> Le Page du Duc de <persName key="anne_de_noailles">Noailles</persName> estoit <tech type="costume">vestu de couleur de feu, argent &amp; noir; &amp; le reste de la liurée semblable</tech>: La Deuise qu’il portoit dans son Escu, estoit vn Aigle auec ces mots.</p>
         <l ana="devise" xml:lang="la">Fidelis &amp; audax.</l>
         <p>Quatre Trompettes &amp; deux Tymballiers, marchoient apres ces Pages, <tech type="costume">habillez de satin couleur de feu, &amp; argent; leurs plumes de la mesme liurée, &amp; les carapaçons de leurs cheuaux couuerts d’vne pareille broderie, auec des Soleils d’or fort esclatants aux banderolles des Trompettes, &amp; les couuertures des Tymballes</tech>.</p>
         <p><persName key="saint_aignan" role="acteur">Le Duc de S. Aignan</persName> Mareschal de Camp, marchoit apres eux <tech type="costume">armé à la Grecque, d’vne cuirasse de toille d’argent couuerte de petites escailles d’or; aussi bien que son bas de saye, &amp; son Casque estoit orné d’vn Dragon, &amp; d’vn grand nombre de plumes blanches, meslées d’incarnat &amp; de noir</tech>: Il montoit <tech type="animal">vn cheval blanc, bardé de mesme</tech>, &amp; representoit <name key="guidon_le_sauvage" corresp="saint_aignan">Guidon le Sauuage</name>. </p>
@@ -128,7 +128,7 @@
           <l>Qui sort à son honneur de ce double combat</l>
           <l>Doit estre ce me semble vn terrible Soldat.</l>
         </lg>
-        <p><pb n="7" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f15"/> Huit Trompettes &amp; deux Tymballiers, vestus comme les premiers, marchoient apres le Mareschal de Camp.</p>
+        <p><pb n="7" xml:id="p7" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f15"/> Huit Trompettes &amp; deux Tymballiers, vestus comme les premiers, marchoient apres le Mareschal de Camp.</p>
         <p><persName key="louisxiv" role="acteur">LE ROY</persName> representant <name key="roger" corresp="louisxiv">Roger</name>, les suiuoit, montant <tech type="animal">vn des plus beaux cheuaux du monde, dont le harnois couleur de feu esclattoit d’or, d’argent &amp; de pierreries</tech>: <persName key="louisxiv" role="acteur">Sa Majesté</persName>
           <tech type="costume">estoit armée à la façon des Grecs comme tous ceux de sa Quadrille, &amp; portoit vne cuirasse de lame d’argent, couuerte d’vne riche broderie d’or &amp; de diamans. Son port &amp; toute son action estoient dignes de son rang ; son Casque tout couuert de plumes couleur de feu</tech>, auoit vne grace incomparable ; &amp; jamais vn air plus libre, ny plus guerrier, n’a mis vn mortel au dessus des autres hommes.</p>
         <lg ana="sonnet">
@@ -160,7 +160,7 @@
         </lg>
         <p>
           <persName key="anne_de_noailles" role="acteur">Le Duc de Noailles</persName>, Iuge du Camp sous le nom d’ <name key="oger_le_danois" corresp="anne_de_noailles">Oger le Danois</name>, marchoit apres le Roy, <tech type="costume">portant la couleur de feu &amp; le noir sous vne riche broderie d’argent, &amp; ces plumes aussi bien que tout le reste de son esquipage estoient de cette mesme liurée</tech>.</p>
-        <pb n="8" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f16"/>
+        <pb n="8" xml:id="p8" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f16"/>
         <lg rend="i">
           <label type="speaker">
           <persName key="anne_de_noailles" role="acteur">Le duc de Noailles</persName>. 
@@ -197,7 +197,7 @@
           <l>Et c’est vn grand bonheur que d’auoir à son âge</l>
           <l>La chaleur necessaire, et le flegme qu’il faut.</l>
         </lg>
-        <pb n="9" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f17"/>
+        <pb n="9" xml:id="p9" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f17"/>
         <p>
           <persName key="armand_du_cambout" role="acteur">Le Duc de Coaslin</persName>. <name rend="i" key="dudon" corresp="henri_du_cambout">Dudon</name>.</p>
         <lg>
@@ -228,7 +228,7 @@
         <l>Et mesme les Geants, de mediocres Hommes,</l>
         <l>Et ce franc Cheualier à tout venant tout prest</l>
         <l>Toûjours pour quelque Iouste a la lance en arrest.</l>
-        <p><pb n="10" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f18"/> Les <persName key="louis_crevant" role="acteur">Marquis d’Humieres</persName> &amp; de <persName key="jf_de_labaume" role="acteur">la Valliere</persName> les suiuoient : Ce premier portant <tech type="costume">la couleur de chair &amp; argent; &amp; l’autre le gris de lin, blanc &amp; argent: toute leur liurée estant la plus riche, &amp; la mieux assortie du monde</tech>.</p>
+        <p><pb n="10" xml:id="p10" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f18"/> Les <persName key="louis_crevant" role="acteur">Marquis d’Humieres</persName> &amp; de <persName key="jf_de_labaume" role="acteur">la Valliere</persName> les suiuoient : Ce premier portant <tech type="costume">la couleur de chair &amp; argent; &amp; l’autre le gris de lin, blanc &amp; argent: toute leur liurée estant la plus riche, &amp; la mieux assortie du monde</tech>.</p>
         <p>Le <persName key="louis_crevant" role="acteur">Marquis d’Humieres</persName>. <name rend="i" key="ariodant" corresp="louis_crevant">Ariodant</name>.</p>
         <l>IE tremble dans l'accés de l'amoureuse fiéure,</l>
         <l>Ailleurs sans vanité je n etremblay jamais,</l>
@@ -247,7 +247,7 @@
         <l>Quand il est question de se mettre en campagne,</l>
         <l>Et pour ne vous en point mentir</l>
         <l>C’est le pur sang de <name key="charlemagne">Charlemagne</name>.</l>
-        <p><tech type="machine_temps">VN char de dix-huit pieds de haut, de vingt-quatre de long, &amp; de quinze de large; paroissoit en suite esclatant d’or &amp; de diuerses couleurs</tech>: Il representoit celui d’<name key="apollon">Apollon</name>, en l’honneur duquel se celebroient autrefois les Ieux Pythiens, que ces <name key="chevaliers">Cheualiers</name> s’estoient proposez d’imiter en leurs Courses &amp; en leur équipage: Cette Diuinité brillante de lumieres estoit assise au plus <pb n="11" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f19"/> haut du Char, ayant à ses pieds <name key="quatre_ages">les quatre Aages ou Siecles</name>, distinguez par de <tech type="costume">riches habits</tech>, &amp; par ce qu’ils portoient à la main.</p>
+        <p><tech type="machine_temps">VN char de dix-huit pieds de haut, de vingt-quatre de long, &amp; de quinze de large; paroissoit en suite esclatant d’or &amp; de diuerses couleurs</tech>: Il representoit celui d’<name key="apollon">Apollon</name>, en l’honneur duquel se celebroient autrefois les Ieux Pythiens, que ces <name key="chevaliers">Cheualiers</name> s’estoient proposez d’imiter en leurs Courses &amp; en leur équipage: Cette Diuinité brillante de lumieres estoit assise au plus <pb n="11" xml:id="p11" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f19"/> haut du Char, ayant à ses pieds <name key="quatre_ages">les quatre Aages ou Siecles</name>, distinguez par de <tech type="costume">riches habits</tech>, &amp; par ce qu’ils portoient à la main.</p>
         <p><name key="age_or">Le Siecle d’Or</name> orné de ce précieux metail, estoit encore paré des diuerses Fleurs, qui faisoient vn des principaux ornemens de cét heureux Aage.</p>
         <p>Ceux d’<name key="age_argent">Argent</name> et d’<name key="age_airain" corresp="mlle_de_brie">Airain</name>, auoient aussi leurs remarques particulieres.</p>
         <p>Et celuy de <name key="age_fer">Fer</name>, estoit représenté par vn Guerrier d’vn regard terrible, portant d’vne main l’espée, &amp; de l’autre le bouclier.</p>
@@ -258,7 +258,7 @@
         <p rend="i">Et quiescente pauescunt.</p>
         <p><persName key="henri_de_lorraine" role="acteur">Le Comte d’Armagnac</persName>, representant <name key="griffon_le_blanc" corresp="henri_de_lorraine">Griffon le Blanc</name>, ayant pour Deuise vne Hermine, auec ces mots.</p>
         <l rend="i" xml:lang="la">Ex candore decus.</l>
-        <p><pb n="12" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f20"/>
+        <p><pb n="12" xml:id="p12" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f20"/>
           <persName key="jb_gaston_foix_candale">Le Duc de Foix</persName>, representant <name key="renaud">Renaud</name>, ayant pour Deuise vn Vaisseau dans la Mer, auec ces mots.</p>
         <l ana="devise" xml:lang="la" rend="i">Longe leuis aura feret.</l>
         <p>Le <persName key="armand_du_cambout" role="acteur">Duc de Coaslin</persName>, representant <name key="dudon" corresp="henri_du_cambout">Dudon</name>, ayant pour Deuise vn Soleil, &amp; l’Heliotrope ou Tournesol, auec ces mots.</p>
@@ -277,7 +277,7 @@
         <l ana="devise" xml:lang="la" rend="i">Hoc juuat vri.</l>
         <p><persName key="hj_bourbon_conde" role="acteur">Monsieur le Dvc</persName>, representant <name key="roland" corresp="hj_bourbon_conde">Roland</name>, ayant pour Deuise vn Dard entortillé de Lauriers, auec ces mots.</p>
         <l ana="devise" xml:lang="la" rend="i">Certo ferit.</l>
-        <p><pb n="13" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f21"/>
+        <p><pb n="13" xml:id="p13" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f21"/>
           <name key="pasteur">VIngt Pasteurs</name>, chargez des diuers pieces de la Barrière, qui deuoit estre dressée pour la Course de Bague<!-- encoder divertissement -->, formoient la derniere Troupe qui entra dans la Lice. Ils portoient <tech type="costume">des vestes couleur de feu enrichie d’argent, &amp; des coiffures de mesmes.</tech></p>
         <p>Aussi-tost que ces Troupes furent entrées dans le Camp, elles en firent le tour, &amp; apres auoir salüé <persName key="marie_therese anne_d_autriche">les Reynes</persName>, elles se separerent, &amp; prirent chacun son poste: Les Pages de la teste, les Trompettes &amp; les Tymballiers se croisants, s’allerent poster sur les aisles: <persName key="louisxiv" role="acteur">Le Roy</persName> s’aduançant au milieu, prit sa place vis à vis du haut Dais: <persName key="hj_bourbon_conde" role="acteur">Monsieur le Duc</persName>, proche de <persName key="louisxiv" role="acteur">Sa Majesté</persName>: Les Ducs de <persName key="saint_aignan" role="acteur">S. Aignan</persName> &amp; de <persName key="anne_de_noailles" role="acteur">Noailles</persName> à droit &amp; à gauche: Les <name key="chevaliers">dix Cheualiers</name> en haye aux deux costéez du Char: Leurs Pages au mesme Ordre derriere eux: Les <name key="zodiaque">Signes</name> &amp; les <name key="heures">Heures</name>, comme ils estoient entrez.</p>
         <p>Lors qu’on eut fait alte en cet estat, vn profond silence causé tout ensemble par l’attention &amp; par le respect; donna le moyen à <persName key="mlle_de_brie" role="acteur">Mlle. de Brie</persName>, qui representoit le <name key="age_airain" corresp="mlle_de_brie">Siecle d’Airain</name>, de commencer ces Vers à la loüange de la <persName key="marie_therese">Reyne</persName>, addressez à <name key="apollon">Apollon</name>.</p>
@@ -295,7 +295,7 @@
         <l rend="i">De gloire, de valeur, de merite &amp; d’adresse;</l>
         <l rend="i">Ce n’est pas sans raison qu’on y voit transferez</l>
         <l rend="i">Ces jeux, qu’à mon honneur la terre a consacrez:</l>
-        <l rend="i"><pb n="14" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f22"/> I'ay toûjours pris plaisir a verser sur la France</l>
+        <l rend="i"><pb n="14" xml:id="p14" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f22"/> I'ay toûjours pris plaisir a verser sur la France</l>
         <l rend="i">De mes plus doux Rayons la benigne influence:</l>
         <l rend="i">Mais le charmant objet qu’Hymen y fait regner,</l>
         <l rend="i">Pour elle maintenant me fait tout desdaigner.</l>
@@ -332,7 +332,7 @@
         <l rend="i">Si-tost qu’elle paroist dans cette heureuse terre,</l>
         <l rend="i">Voy comme elle en banit les fureurs de la guerre:</l>
         <l rend="i">Comment depuis ce jour d’infatigables mains</l>
-        <l rend="i"><pb n="15" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f23"/> Trauaillent sans relâche au bon-heur des humains;</l>
+        <l rend="i"><pb n="15" xml:id="p15" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f23"/> Trauaillent sans relâche au bon-heur des humains;</l>
         <l rend="i">Par quels secrets ressors vn Heros se prepare</l>
         <l rend="i">A chasser les horreurs d’vn siecle si barbare,</l>
         <l rend="i">Et me faire reuiure avec tous les plaisirs,</l>
@@ -358,7 +358,7 @@
         <p>TOus ces Recits acheuez, la Course de bague commença, en laquelle apres que <persName key="louisxiv" role="acteur">le Roy</persName> eut fait admirer l’addresse &amp; la grace qu’il a en cét exercice, comme en tous les autres, &amp; plusieurs belles Courses ; &amp; de tous ces <name key="chevaliers">Cheualiers</name>, le <persName key="henri_ii_de_guise" role="acteur">Duc de Guise</persName>, les Marquis de <persName key="cm_de_belleforiere" role="acteur">Soyecourt</persName> &amp; de la <persName key="jf_de_labaume" role="acteur">Valliere</persName> demeurerent à la dispute, dont ce dernier emporta le prix; qui fut vne espée d’or enrichie de Diamans, auec des boucles de baudrier de grande valeur, que donna la Reyne Mere, &amp; dont elle l’honora de sa main.</p>
         <!-- voir comment endoder les divertissements -->
         <p>La nuit vint cependant à la fin des Courses, par la justesse qu’on auoit eu à les commencer : Et <tech type="lumieres">vn nombre infiny de lumieres</tech> ayant esclairé tout ce beau lieu; l’on vis entrer dans la mesme place.</p>
-        <p>Trente-quatre Concertans fort bien vestus, qui deuoient <pb n="16" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f24"/> preceder <name key="le_printemps" corresp="therese_duparc"><name key="le_ete" corresp="gros_rene"><name key="l_automne" corresp="la_thorilliere"><name key="l_hiver" corresp="louis_bejart">les Saisons</name></name></name></name>; &amp; faisoient le plus agreable concert du monde.</p>
+        <p>Trente-quatre Concertans fort bien vestus, qui deuoient <pb n="16" xml:id="p16" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f24"/> preceder <name key="le_printemps" corresp="therese_duparc"><name key="le_ete" corresp="gros_rene"><name key="l_automne" corresp="la_thorilliere"><name key="l_hiver" corresp="louis_bejart">les Saisons</name></name></name></name>; &amp; faisoient le plus agreable concert du monde.</p>
         <p>Pendant que les <name key="le_printemps" corresp="therese_duparc"><name key="l_ete" corresp="gros_rene"><name key="l_automne" corresp="la_thorilliere"><name key="l_hiver" corresp="louis_bejart">Saisons</name></name></name></name> se chargeoient des mets delicieux qu’elles deuoient porter, pour seruir deuant <persName key="louisxiv marie_therese anne_d_autriche">leurs Majestez</persName> la magnifique collation qui estoit préparée: Les douze <name key="zodiaque">Signes du Zodiaque</name>, &amp; <name key="le_printemps" corresp="therese_duparc"><name key="l_ete" corresp="gros_rene"><name key="l_automne" corresp="la_thorilliere"><name key="l_hiver" corresp="louis_bejart">les quatre Saisons</name></name></name></name> danserent dans le rond vne des plus belles entrées de Ballet, qu’on eust encore veuë.</p>
         <p><name key="le_printemps" corresp="therese_duparc">Le Printemps</name> parut en suite sur <tech type="animal">vn Cheual d’Espagne</tech>, representé par <persName key="therese_duparc" role="acteur">Mlle. du Parc</persName>; qui auec le sexe et les aduantages d’vne femme, faisoit voir l’addresse d’vn homme: <tech type="costume">Son habit estoit vert en broderie d’argent, &amp; de fleurs au naturel</tech>.</p>
         <p>L’<name key="l_ete" corresp="gros_rene">Esté</name> le suiuoit, representé par le <persName key="gros_rene" role="acteur">Sieur du Parc</persName>, sur <tech type="animal">vn Elephant</tech>, couuert d’vne riche housse.</p>
@@ -369,88 +369,88 @@
         <p>Les douze premiers couuerts de fleurs, portoient, comme des Iardiniers, des Corbeilles peintes de vert &amp; d’argent, garnies d’vn grand nombre de porcelaines, si remplies de confitures &amp; d’autres choses delicieuses de la Saison, qu’ils estoient courbez sous cét agreable faix.</p>
         <p>Douze autres, comme Moissonneurs, <tech type="costume">vestus d’habits conformes à cette profession, mais fort riches</tech>, portoient des bassins de cette couleur incarnate, qu’on remarque au Soleil Leuant, &amp; suiuoient l’<name key="l_ete" corresp="gros_rene">Esté</name>.</p>
         <p>Douze vestus en Vandangeurs, estoient couuerts de feuilles de vignes &amp; de grappes de raisins; &amp; portoient dans des paniers feuille-morte, remplis de petits bassins de cette mesme couleur, diuers autres fruits &amp; confitures, à la suite de l’<name key="automne" corresp="la_thorilliere">Automne</name>.</p>
-        <p>Les douze derniers, estoient des Vieillards gelez, dont les fourrures &amp; la desmarche marquoient la froideur &amp; la foiblesse portant, dans des bassins couuerts d’vne glace &amp; <pb n="17" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f25"/> d’vne neige si bien contrefaites, qu’on les eust pris pour la chose mrsme, ce qu’ils deuoient contribüer à la Collation, &amp; suiuoient l’<name key="l_hiver" corresp="louis_bejart">Hyuer</name>.</p>
+        <p>Les douze derniers, estoient des Vieillards gelez, dont les fourrures &amp; la desmarche marquoient la froideur &amp; la foiblesse portant, dans des bassins couuerts d’vne glace &amp; <pb n="17" xml:id="p17" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f25"/> d’vne neige si bien contrefaites, qu’on les eust pris pour la chose mrsme, ce qu’ils deuoient contribüer à la Collation, &amp; suiuoient l’<name key="l_hiver" corresp="louis_bejart">Hyuer</name>.</p>
         <p>Quatorze Concertans de <name key="pan" corresp="moliere">Pan</name> &amp; de <name key="diane" corresp="madeleine_bejart">Diane</name> precedoient ces deux Diuinitez, auec vne agreable Harmonie de Flustes &amp; de musettes.</p>
         <p>Elles venoient en suite sur vne <tech type="machine_vol">Machine fort ingenieuse en forme d’vne petite Montagne ou Roche ombragée de plusieurs arbres ; mais ce qui estoit plus surprenant, c’est qu’on la voyoit portée en l’air, sans que l’artifice qui la faisoit mouuoir se peust descouurir à la veuë.</tech>.</p>
         <p>Vingt autres personnes les suiuoient, portant des viandes de la Mesnagerie de <name key="pan" corresp="moliere">Pan</name>, &amp; de la chasse de <name key="diane" corresp="madeleine_bejart">Diane</name>.</p>
         <p>Dix-huit Pages du Roy, <tech type="costume">fort richement vestus</tech>, qui deuoient seruir les Dames à Table, faisoient les derniers de cette Troupe ; laquelle estant rangée, <name key="pan">Pan</name>, <name key="diane">Diane</name> &amp; les <name key="le_printemps" corresp="therese_duparc"><name key="le_ete" corresp="gros_rene"><name key="l_automne" corresp="la_thorilliere"><name key="l_hiver" corresp="louis_bejart">Saisons</name></name></name></name> se presentant deuant <persName key="marie_therese">la Reyne</persName>: <name key="printemps">Le Printemps</name> luy addressa le premier ces Vers.</p>
         <label type="speaker"><name key="le_printemps" corresp="therese_duparc">LE PRINTEMPS</name>.</label>
         <stage>A <persName key="marie_therese">LA REYNE</persName>.</stage>
-        <lg type="madrigal?">
+        <lg type="madrigal?" rend="i">
           <!-- forme poétique à vérifier -->
-          <l rend="i">ENtre toutes les fleurs nouuellement écloses,</l>
-          <l rend="i">Dont mes jardins sont embellis,</l>
-          <l rend="i">Méprisant les jasmins, les oeillets &amp; les roses,</l>
-          <l rend="i">Pour payer mon tribut j’ay fait choix de ces lys,</l>
-          <l rend="i">Que de vos premiers ans vous auez tant cheris:</l>
-          <l rend="i"><persName key="louisxiv">LOVIS</persName> les fait briller du couchant à l’aurore,</l>
-          <l rend="i">Tout l’Vnivers charmé les respecte et les craint;</l>
-          <l rend="i">Mais leur regne est plus doux &amp; plus puissant encore,</l>
-          <l rend="i">Quand ils brillent sur vostre teint.</l>
+          <l>ENtre toutes les fleurs nouuellement écloses,</l>
+          <l>Dont mes jardins sont embellis,</l>
+          <l>Méprisant les jasmins, les oeillets &amp; les roses,</l>
+          <l>Pour payer mon tribut j’ay fait choix de ces lys,</l>
+          <l>Que de vos premiers ans vous auez tant cheris:</l>
+          <l><persName key="louisxiv">LOVIS</persName> les fait briller du couchant à l’aurore,</l>
+          <l>Tout l’Vnivers charmé les respecte et les craint;</l>
+          <l>Mais leur regne est plus doux &amp; plus puissant encore,</l>
+          <l>Quand ils brillent sur vostre teint.</l>
         </lg>
         <label type="speaker"><name key="l_ete" corresp="gros_rene">L'ESTÉ</name>.</label>
-        <lg>
+        <lg rend="i">
           <!-- forme poétique à vérifier -->
-          <l rend="i">Surpris vn peu trop promptement,</l>
-          <l rend="i">I'apporte à cette Feste vn leger ornement;</l>
-          <l rend="i">Mais auant que ma saison passe,</l>
-          <l rend="i">Ie feray faire à vos Guerriers,</l>
-          <l rend="i">Dans les Campagnes de la Thrace,</l>
-          <l rend="i">Vne ample moisson de Lauriers.</l>
+          <l>Surpris vn peu trop promptement,</l>
+          <l>I'apporte à cette Feste vn leger ornement;</l>
+          <l>Mais auant que ma saison passe,</l>
+          <l>Ie feray faire à vos Guerriers,</l>
+          <l>Dans les Campagnes de la Thrace,</l>
+          <l>Vne ample moisson de Lauriers.</l>
         </lg>
-        <pb n="18" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f26"/>
+        <pb n="18" xml:id="p18" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f26"/>
         <label type="speaker"><name key="l_automne" corresp="la_thorilliere">L'AUTOMNE</name>.</label>
-        <lg>
+        <lg rend="i">
           <!-- forme poétique à vérifier -->
-          <l rend="i"><name key="le_printemps" corresp="therese_duparc">Le Printemps</name> orgueilleux de la beauté des fleurs</l>
-          <l rend="i">Qui luy tomberent en partage,</l>
-          <l rend="i">Pretend de cette Feste avoir tout l’auantage,</l>
-          <l rend="i">Et nous croit obscurcir par ses viues couleurs:</l>
-          <l rend="i">Mais vous vous souuiendrez, <persName key="marie_therese">Princesse</persName> sans seconde,</l>
-          <l rend="i">De ce fruict precieux qu’a produit ma saison,</l>
-          <l rend="i">Et qui croist dans vostre maison,</l>
-          <l rend="i">Pour faire quelque jour les delices du Monde.</l>
+          <l><name key="le_printemps" corresp="therese_duparc">Le Printemps</name> orgueilleux de la beauté des fleurs</l>
+          <l>Qui luy tomberent en partage,</l>
+          <l>Pretend de cette Feste avoir tout l’auantage,</l>
+          <l>Et nous croit obscurcir par ses viues couleurs:</l>
+          <l>Mais vous vous souuiendrez, <persName key="marie_therese">Princesse</persName> sans seconde,</l>
+          <l>De ce fruict precieux qu’a produit ma saison,</l>
+          <l>Et qui croist dans vostre maison,</l>
+          <l>Pour faire quelque jour les delices du Monde.</l>
         </lg>
         <label type="speaker"><name key="l_hiver" corresp="louis_bejart">L'HYVER</name></label>
-        <lg>
+        <lg rend="i">
           <!--forme poétique à vérifier-->
-          <l rend="i">La neige, les glaçons que j’apporte en ces lieux,</l>
-          <l rend="i">Sont des mets les moins precieux;</l>
-          <l rend="i">Mais ils sont des plus necessaires,</l>
-          <l rend="i">Dans une Feste où mille objets charmans,</l>
-          <l rend="i">De leurs oeillades meurtrieres,</l>
-          <l rend="i">Font naistre tant d’embrazemens.</l>
+          <l>La neige, les glaçons que j’apporte en ces lieux,</l>
+          <l>Sont des mets les moins precieux;</l>
+          <l>Mais ils sont des plus necessaires,</l>
+          <l>Dans une Feste où mille objets charmans,</l>
+          <l>De leurs oeillades meurtrieres,</l>
+          <l>Font naistre tant d’embrazemens.</l>
         </lg>
         <label type="speaker"><name key="diane" corresp="madeleine_bejart">DIANE</name>.</label>
         <stage><persName key="marie_therese">A LA REYNE</persName>.</stage>
-        <lg>
+        <lg rend="i">
           <!--forme poétique à vérifier-->
-          <l rend="i">Nos bois, nos rochers, nos montagnes,</l>
-          <l rend="i">Tous nos chasseurs, &amp; mes compagnes</l>
-          <l rend="i">Qui m’ont toûjours rendu des honneurs souverains;</l>
-          <l rend="i">Depuis que parmy nous ils vous ont veu paroistre,</l>
-          <l rend="i">Ne veulent plus me reconnoistre,</l>
-          <l rend="i">Et chargez de presens, viennent auec moy</l>
-          <l rend="i">Vous porter ce tribut pour marque de leur foy.</l>
-          <l rend="i">Les habitants legers de cét heureux boccage,</l>
-          <l rend="i">De tomber dans vos rets font leur sort le plus doux,</l>
-          <l rend="i">Et n’estiment rien dauantage,</l>
-          <l rend="i">Que l’heur de perir de vos coups:</l>
-          <l rend="i">Amour dont vous auez la grace &amp; le visage,</l>
-          <l rend="i">A le mesme secret que vous.</l>
+          <l>Nos bois, nos rochers, nos montagnes,</l>
+          <l>Tous nos chasseurs, &amp; mes compagnes</l>
+          <l>Qui m’ont toûjours rendu des honneurs souverains;</l>
+          <l>Depuis que parmy nous ils vous ont veu paroistre,</l>
+          <l>Ne veulent plus me reconnoistre,</l>
+          <l>Et chargez de presens, viennent auec moy</l>
+          <l>Vous porter ce tribut pour marque de leur foy.</l>
+          <l>Les habitants legers de cét heureux boccage,</l>
+          <l>De tomber dans vos rets font leur sort le plus doux,</l>
+          <l>Et n’estiment rien dauantage,</l>
+          <l>Que l’heur de perir de vos coups:</l>
+          <l>Amour dont vous auez la grace &amp; le visage,</l>
+          <l>A le mesme secret que vous.</l>
         </lg>
         <label type="speaker"><name key="pan" corresp="moliere">PAN</name>.</label>
-        <lg>
+        <lg rend="i">
           <!--forme poétique à vérifier-->
-          <l rend="i">Ieune Diuinité, ne vous estonnez pas,</l>
-          <l rend="i">Lors que nous vous offrons en ce fameux repas</l>
-          <l rend="i">L'eslite de nos bergeries:</l>
-          <l rend="i">Si nos troupeaux goustent en paix</l>
-          <l rend="i">Les herbages de nos prairies,</l>
-          <l rend="i">Nous deuons ce bon-heur à vos divins attraits.</l>
+          <l>Ieune Diuinité, ne vous estonnez pas,</l>
+          <l>Lors que nous vous offrons en ce fameux repas</l>
+          <l>L'eslite de nos bergeries:</l>
+          <l>Si nos troupeaux goustent en paix</l>
+          <l>Les herbages de nos prairies,</l>
+          <l>Nous deuons ce bon-heur à vos divins attraits.</l>
         </lg>
         <!-- encoder le divertissement - Collation -->
-        <pb n="19" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f27"/>
+        <pb n="19" xml:id="p19" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f27"/>
         <p>CEs Recits acheuez, vne grande Table en forme de Croissant, rond d’vn costé, ou l’on deuoit couurir &amp; garnir de fleurs de celuy où elle estoit creuze, vint à se decouurir.</p>
         <p>Trente-six Viollons <tech type="costume">tres bien vestus</tech>, parurent derriere sur <tech type="construction">vn petit Theatre</tech>; pendant que <persName key="marche_coquet">Messieurs de la Marche</persName>, &amp; <persName key="parfait_pere">Parfait Pere</persName>, <persName key="parfait_frere">Frere</persName>, &amp; <persName key="parfait_fils">Fils</persName>
           <!-- à identifier --> Controlleurs Generaux, sous les noms de <name key="abondance" corresp="marche_coquet">l’Abondance</name>, de <name key="joie" corresp="parfait_pere">la Ioye</name>, de <name key="proprete" corresp="parfait_frere">la Propreté</name>, &amp; de <name key="bonne_chere" corresp="parfait_fils">la Bonne-Chere</name>; l'a firent couurir par <name key="plaisirs">les Plaisirs</name>, par <name key="jeux">les Ieux</name>, par <name key="ris">les Ris</name> &amp; par <name key="délices">les Delices</name>.</p>
@@ -486,7 +486,7 @@
           <item><persName key="mme_de_brancas" role="convive">Madame de Brancas</persName>.</item>
           <!-- à identifier? -->
           <item><persName key="angelique_baudean_froulay" role="convive">Madame de Froulay.</persName></item>
-          <pb n="20" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f28"/>
+          <pb n="20" xml:id="p20" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f28"/>
           <item><persName key="baudean_parabere_navailles" role="convive">Madame la Duchesse de Nauailles.</persName></item>
           <item><persName key="mlle_d_ardennes" role="convive">Mademoiselle d’Ardennes</persName>.</item>
           <!-- à identifier? -->
@@ -516,7 +516,7 @@
         <trailer>Fin de la premiere Iournée.</trailer>
       </div>
       <div>
-        <pb n="21" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f29"/>
+        <pb n="21" xml:id="p21" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f29"/>
         <!-- Vignette - à encoder ? -->
         <head><date when="1664-05-08">SECONDE IOVRNÉE</date> DES PLAISIRS DE L’ISLE ENCHANTÉE.</head>
         <p>LORS que la nuit du second jour fut venuë, <persName key="louisxiv marie_therese anne_d_autriche">Leurs Majestez</persName> se rendirent dans <tech type="construction">vn autre rond enuironné de palissades</tech> comme le premier, &amp; sur la mesme ligne, s’auançant toûjours vers le Lac, où l’on feignoit que <tech type="construction">le Palais d’Alcine</tech> estoit basty.</p>
@@ -525,26 +525,26 @@
           <tech type="lumieres">le grand nombre de Flambeaux &amp; de Bougies qui deuoient esclairer</tech>
           <tech type="construction">le Theatre</tech>, dont <tech type="decor">la decoration estoit fort agreable</tech>.</p>
         <p>Aussi-tost qu’on eut tiré la toille, vn grand Concert de plusieurs instruments se fit entendre: Et <name key="l_aurore" corresp="mlle_hilaire">l’Aurore</name> representée par <persName key="hilaire_dupuis" role="acteur">Mademoiselle Hilaire</persName>, ouurit la Scene, &amp; chanta ce Recit.</p>
-        <pb n="22" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f30"/>
+        <pb n="22" xml:id="p22" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f30"/>
         <!-- doit on faire des div pour les différents intermèdes/scènes etc -->
         <div>
           <head>PREMIERE INTERMEDE.</head>
           <div>
             <head>SCENE PREMIERE.</head>
             <label type="speaker">RECIT DE <name key="l_aurore" corresp="mlle_hilaire">L'AVRORE</name>.</label>
-            <lg>
-              <l rend="i">QVand l’Amour à vos yeux offre vn choix agreable,</l>
-              <l rend="i">Ieunes beautez laissez-vous enflamer:</l>
-              <l rend="i">Mocquez-vous d’affecter cét orgueil indomptable,</l>
-              <l rend="i">Dont on vous dit qu’il est beau de s’armer :</l>
-              <l rend="i">Dans l’âge ou l’on est aymable</l>
-              <l rend="i">Rien n’est si beau que d’aymer.</l>
-              <l rend="i">Soûpirez librement pour vn amant fidelle,</l>
-              <l rend="i">Et brauez ceux qui voudroient vous blasmer;</l>
-              <l rend="i">Vn cœur tendre est aymable, &amp; le nom de cruelle</l>
-              <l rend="i">N’est pas vn nom à se faire estimer :</l>
-              <l rend="i">Dans le temps ou l’on est belle</l>
-              <l rend="i">Rien n’est si beau que d’aymer.</l>
+            <lg rend="i">
+              <l>QVand l’Amour à vos yeux offre vn choix agreable,</l>
+              <l>Ieunes beautez laissez-vous enflamer:</l>
+              <l>Mocquez-vous d’affecter cét orgueil indomptable,</l>
+              <l>Dont on vous dit qu’il est beau de s’armer :</l>
+              <l>Dans l’âge ou l’on est aymable</l>
+              <l>Rien n’est si beau que d’aymer.</l>
+              <l>Soûpirez librement pour vn amant fidelle,</l>
+              <l>Et brauez ceux qui voudroient vous blasmer;</l>
+              <l>Vn cœur tendre est aymable, &amp; le nom de cruelle</l>
+              <l>N’est pas vn nom à se faire estimer :</l>
+              <l>Dans le temps ou l’on est belle</l>
+              <l>Rien n’est si beau que d’aymer.</l>
             </lg>
           </div>
           <div>
@@ -552,39 +552,39 @@
             <p><name key="lyciscas" corresp="moliere"><name key="valets_de_chien" corresp="louis_don"><name key="valets_de_chien" corresp="estival"><name key="valets_de_chien" corresp="francois_blondel">Valets de chiens</name></name></name></name>, &amp; <name key="musiciens">Musiciens</name>.</p>
             <p>PEndant que <name key="l_aurore" corresp="mlle_hilaire">l’Aurore</name> chantoit ce Recit, <name key="lyciscas" corresp="moliere"><name key="valets_de_chien" corresp="louis_don"><name key="valets_de_chien" corresp="estival"><name key="valets_de_chien" corresp="francois_blondel">quatre Valets de Chiens</name></name></name></name> estoient couchez sur l’Herbe, dont l’vn (sous la figure de <name key="lyciscas" corresp="moliere">Liciscas</name>, representé par <persName key="moliere" role="acteur">le Sieur de Moliere</persName>, excellent Acteur, de l’inuention duquel estoient les Vers &amp; toute la piece) se trouuoit au milieu de deux, &amp; vn autre à ses pieds : Qui estoient les <persName key="estival" role="chanteur">Sieurs Estiual</persName>, <persName key="louis_don" role="chanteur">Don</persName>, &amp; <persName key="francois_blondel" role="chanteur">Blondel</persName> de <orgName key="musique">la Musique du Roy</orgName>, dont les voix estoient admirables.</p>
             <p>Ceux-cy en se reueillant à l’arriuée de <name key="l_aurore" corresp="mlle_hilaire">l’Aurore</name>, si-tost qu’elle eut chanté, s’ecrierent en Concert.</p>
-            <lg>
-              <l rend="i">Hola ? hola ? debout, debout, debout : </l>
-              <l rend="i">Pour la Chasse ordonnée il faut préparer tout:</l>
-              <l rend="i">Hola ? ho debout, viste debout.</l>
+            <lg rend="i">
+              <l>Hola ? hola ? debout, debout, debout : </l>
+              <l>Pour la Chasse ordonnée il faut préparer tout:</l>
+              <l>Hola ? ho debout, viste debout.</l>
             </lg>
-            <pb n="23" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f31"/>
+            <pb n="23" xml:id="p23" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f31"/>
             <label type="speaker"><name key="valets_de_chien">Ier</name>.</label>
             <l rend="i">Iusqu'aux plus sombres lieux le jour se communique,</l>
             <label type="speaker"><name key="valets_de_chien">IIme</name>.</label>
             <l rend="i">L'air sur les fleurs en perles se resout.</l>
             <label type="speaker"><name key="valets_de_chien">IIIme</name>.</label>
-            <lg>
-              <l rend="i">Les Rossignols commencent leur Musique,</l>
-              <l rend="i">Et leurs petits concerts retentissent par tout.</l>
+            <lg rend="i">
+              <l>Les Rossignols commencent leur Musique,</l>
+              <l>Et leurs petits concerts retentissent par tout.</l>
             </lg>
             <label type="speaker"><name key="valets_de_chien" corresp="louis_don"><name key="valets_de_chien" corresp="estival"><name key="valets_de_chien" corresp="francois_blondel">TOVS ENSEMBLE</name></name></name>.</label>
             <stage>Parlant à <name key="lyciscas" corresp="moliere">Lyciscas</name>, qui dormoit.</stage>
-            <lg>
-              <l rend="i">Sus; sus debout, viste debout ?</l>
-              <l rend="i">Qu'est-cecy, <name key="lyciscas" corresp="moliere">Liciscas</name>, quoy ? tu romfles encore,</l>
-              <l rend="i">Toi qui promettois tant de devancer <name key="l_aurore" corresp="mlle hilaire">l'Aurore</name> ?</l>
-              <l rend="i">Allons debout, viste debout,</l>
-              <l rend="i">Pour la Chasse ordonnée il faut preparer tout,</l>
-              <l rend="i">Debout, viste debout, despeschons, debout.</l>
+            <lg rend="i">
+              <l>Sus; sus debout, viste debout ?</l>
+              <l>Qu'est-cecy, <name key="lyciscas" corresp="moliere">Liciscas</name>, quoy ? tu romfles encore,</l>
+              <l>Toi qui promettois tant de devancer <name key="l_aurore" corresp="mlle hilaire">l'Aurore</name> ?</l>
+              <l>Allons debout, viste debout,</l>
+              <l>Pour la Chasse ordonnée il faut preparer tout,</l>
+              <l>Debout, viste debout, despeschons, debout.</l>
             </lg>
             <label type="speaker"><name key="lyciscas" corresp="moliere">LYCISCAS</name></label>
             <stage> en s'esueillant.</stage>
             <l rend="i">Par la morbleu vous estes de grands braillars vous autres,</l>
             <l rend="i">Et vous auez la gueule ouuerte de bon matin ?</l>
             <label type="speaker"><name key="musiciens">MVSICIENS</name>.</label>
-            <lg>
-              <l rend="i">Ne vois-tu pas le jour qui se respand par tout?</l>
-              <l rend="i">Allons debout, <name key="lyciscas" corresp="moliere">Lyciscas</name> debout.</l>
+            <lg rend="i">
+              <l>Ne vois-tu pas le jour qui se respand par tout?</l>
+              <l>Allons debout, <name key="lyciscas" corresp="moliere">Lyciscas</name> debout.</l>
             </lg>
             <label type="speaker"><name key="lyciscas" corresp="moliere">LYCISCAS</name>.</label>
             <p rend="i">Hé ! laissez-moi dormir encore vn peu je vous conjure.</p>
@@ -596,7 +596,7 @@
             <p rend="i">Point, point debout, viste debout.</p>
             <label type="speaker"><name key="lyciscas" corresp="moliere">LYCISCAS</name>.</label>
             <p rend="i">Hé ! je vous prie ?</p>
-            <pb n="24" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f32"/>
+            <pb n="24" xml:id="p24" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f32"/>
             <label type="speaker"><name key="musiciens">MVSICIENS</name>.</label>
             <p rend="i">Debout.</p>
             <label type="speaker"><name key="lyciscas" corresp="moliere">LYCISCAS</name>.</label>
@@ -618,10 +618,10 @@
             <label type="speaker"><name key="lyciscas" corresp="moliere">LYCISCAS</name>.</label>
             <p rend="i">J'auray fait incontinent.</p>
             <label type="speaker"><name key="musiciens">MVSICIENS</name>.</label>
-            <lg>
-              <l rend="i">Non, non debout, <name key="lyciscas" corresp="moliere">Lyciscas</name> debout :</l>
-              <l rend="i"> Pour la Chasse ordonnée il faut preparer tout ;</l>
-              <l rend="i"> Viste debout, despeschons, debout.</l>
+            <lg rend="i">
+              <l>Non, non debout, <name key="lyciscas" corresp="moliere">Lyciscas</name> debout :</l>
+              <l> Pour la Chasse ordonnée il faut preparer tout ;</l>
+              <l> Viste debout, despeschons, debout.</l>
             </lg>
             <label type="speaker"><name key="lyciscas" corresp="moliere">LYCISCAS</name>.</label>
             <p rend="i">Et bien laissez-moy, je vais me leuer : Vous estes d'estranges gens de me tourmenter comme cela : Vous serez cause que je ne me porteray pas bien de toute la journée ; car voyez-vous, le sommeil est necessaire à l'homme, &amp; lors qu'on ne dort pas sa refection, il arriue... que... on est ... </p>
@@ -659,7 +659,7 @@
             <p rend="i">Le diable vous emporte.</p>
             <label type="speaker"><name key="musiciens">MVSICIENS</name>.</label>
             <p rend="i">Debout.</p>
-            <pb n="26" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f34"/>
+            <pb n="26" xml:id="p26" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f34"/>
             <label type="speaker"><name key="lyciscas" corresp="moliere">LYCISCAS</name>.</label>
             <stage> en se leuant.</stage>
             <p rend="i"> Quoy toûjours ? A-t'on jamais veu vne pareille furie de chanter : par le sang bleu j'enrage, puisque me voila esueillé il faut que j'éueille les autres, et que je les tourmente comme on m'a fait. Allons ho ? Messieurs, debout, debout, viste c'est trop dormir. Ie vais faire vn bruit de Diable par tout, debout, debout, debout: Allons viste, ho, ho, ho ? Debout, debout, pour la Chasse ordonnée il faut preparer tout, debout, debout, <name key="lyciscas" corresp="moliere">Lyciscas</name> debout ? ho ! ho ! ho ! ho ! ho.</p>
@@ -684,7 +684,7 @@
           </list>
         </div>
         <div>
-          <pb n="27" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f35"/>
+          <pb n="27" xml:id="p27" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f35"/>
           <head>ACTE PREMIER</head>
           <head>ARGVMENT</head>
           <p>CEtte Chasse qui se preparoit ainsi, estoit celle d’vn <name key="iphitas" corresp="andre_hubert">Prince d’Elide</name>, lequel estant d’humeur galante &amp; magnifique, &amp; souhaittant que <name key="princesse_d_elide" corresp="armande_bejart">la Princesse sa fille</name> se resolust à aymer &amp; à penser au mariage, qui estoit fort contre son inclination, auoit fait venir en sa Cour <name key="euriale" corresp="la_grange">les Princes d’Ithaque</name>, de <name key="aristomene" corresp="du_croisy">Messene</name> et de <name key="theocle" corresp="louis_bejart">Pyle</name> ; afin que dans l’exercice de la Chasse qu’elle aymoit fort, &amp; dans d’autres jeux, comme des Courses de Chars &amp; semblables magnificences, quelqu’vn de ces <name key="euriale" corresp="la_grange"><name key="aristomene" corresp="du_croisy"><name key="theocle" corresp="louis_bejart">Princes</name></name></name> peust lui plaire &amp; deuenir son espoux.</p>
@@ -693,15 +693,15 @@
             <p><name key="euriale" corresp="la_grange">EVriale Prince d’Ithaque</name> amoureux de <name key="princesse_d_elide" corresp="armande_bejart">la Princesse d’Elide</name>, &amp; <name key="arbate" corresp="la_thorilliere">Arbate son Gouuerneur</name>, lequel indulgent à la passion du <name key="euriale" corresp="la_grange">Prince</name>, le loüa de son amour au lieu de l’en blasmer, en termes forts galands.</p>
             <stage><name key="euriale" corresp="la_grange">EVRIALE</name> <name key="arbate" corresp="la_thorilliere">arbate</name></stage>
             <label type="speaker"><name key="arbate" corresp="la_thorilliere">ARBATE</name>.</label>
-            <lg>
-              <l rend="i">CE silence rêveur dont la sombre habitude</l>
-              <l rend="i">Vous fait à tous momens chercher la solitude,</l>
-              <l rend="i">Ces longs soûpirs que laisse eschapper vostre coeur,</l>
-              <l rend="i">Et ces fixes regards si chargez de langueur,</l>
-              <l rend="i">Disent beaucoup sans doute à des gens de mon âge ;</l>
-              <l rend="i">Et je pense, Seigneur, entendre ce langage :</l>
-              <l rend="i">Mais sans vostre congé de peur de trop risquer</l>
-              <l rend="i">Ie n'ose m'enhardir jusques à l'expliquer.</l>
+            <lg rend="i">
+              <l>CE silence rêveur dont la sombre habitude</l>
+              <l>Vous fait à tous momens chercher la solitude,</l>
+              <l>Ces longs soûpirs que laisse eschapper vostre coeur,</l>
+              <l>Et ces fixes regards si chargez de langueur,</l>
+              <l>Disent beaucoup sans doute à des gens de mon âge ;</l>
+              <l>Et je pense, Seigneur, entendre ce langage :</l>
+              <l>Mais sans vostre congé de peur de trop risquer</l>
+              <l>Ie n'ose m'enhardir jusques à l'expliquer.</l>
             </lg>
             <label type="speaker"><name key="euriale" corresp="la_grange">EVRIALE</name>.</label>
             <l>Explique, explique <name key="arbate" corresp="la_thorilliere">arbate</name>, auec toute licence,</l>
@@ -1877,156 +1877,155 @@
           <p>Aussi fit-elle vne aduantageuse conclusion aux diuertissemens de ce jour, que toute la Cour ne loüa pas moins que celuy qui l’auoit precedé, se retirant auec vne satisfaction qui luy fit bien esperer de la suite d’vne Feste si complette.</p>
           <p><name key="berger" corresp="chicanneau"><name key="berger" corresp="du_pron"><name key="berger" corresp="noblet"><name key="berger" corresp="la_pierre">Les Bergers</name></name></name></name> estoient. Les Sieurs <persName key="chicanneau">Chicanneau</persName>, <persName key="du_pron">du Pron</persName>, <persName key="noblet">Noblet</persName>, &amp; <persName key="la_pierre">la Pierre</persName>.</p>
           <p>Et <name key="bergere" corresp="balthazard_martinot"><name key="bergere" corresp="magny"><name key="bergere" corresp="arnald"><name key="bergere" corresp="bonard">les Bergeres</name></name></name></name>. Les Sieurs <persName key="balthazard_martinot">Baltazard</persName>, <persName key="magny">Magny</persName>, <persName key="arnald">Arnald</persName>, &amp; <persName key="bonard">Bonnard</persName>.</p>
-          <p>[np]</p>
         </div>
       </div>
       <div>
-        <pb n="np" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f93"/>
+        <pb n="np" xml:id="f93" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f93"/>
         <!-- Vignette - à encoder ? -->
         <head><date when="1664-05-08">TROISIESME IOVRNÉE</date> DES PLAISIRS DE L’ISLE ENCHANTÉE.</head>
         <p>PLVS on s’auançoit vers <placeName key="versailles_jardins_bassin_apollon">le grand Rondeau</placeName> qui representoit le Lac, sur lequel estoit autresfois basty <tech type="construction">le Palais d’Alcine</tech>: Plus on s’approchoit de la fin des diuertissemens de l’Isle Enchantée, comme s’il n’eust pas été juste que tant de braues <name key="chevaliers">Cheualiers</name> demeurassent plus long-temps dans vne oysiueté qui eust fait tort à leur gloire.</p>
         <p>On feignoit donc, suiuant toûjours le premier dessein, que le Ciel ayant resolu de donner la liberté à <name key="chevaliers">ces Guerriers</name>; <name key="alcine" corresp="therese_duparc">Alcine</name> en eut des pressentimens qui la remplirent de terreur &amp; d’inquietudes: Elle voulut apporter tous les remedes possibles pour preuenir ce malheur, &amp; fortifier en toutes manieres vn lieu qui pût renfermer tout son repos &amp; sa joye.</p>
         <p>On fit paroistre sur <placeName key="versailles_jardins_bassin_apollon">ce Rondeau</placeName>, dont l’estenduë &amp; la forme sont extraordinaires, <tech type="construction">vn Rocher</tech> situé au milieu <tech type="decor">d’vne Isle couuerte de diuers animaux</tech>, comme s’ils eussent voulu en deffendre l’entrée.</p>
         <p><tech type="decor">Deux autres Isles plus longues, mais d’vne moindre largeur, paroissoient aux deux costez de la premiere</tech>, &amp; toutes trois aussi bien que les bords du Rondeau, estoient <tech type="lumieres">si fort esclairées, que ces lumieres faisoient naistre vn nouueau jour dans l’obscurité de la nuit</tech>.</p>
-        <p><persName key="louisxiv marie_therese anne_d_autriche" role="spectateur">Leurs Majestez</persName> estant arriuées, n’eurent pas plustost pris <pb n="np" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f94"/>leur place, que <tech type="musique">l’vne des deux Isles qui paroissoient aux costez de la premiere, fut toute couuerte de Violons fort bien vestus</tech>.</p>
+        <p><persName key="louisxiv marie_therese anne_d_autriche" role="spectateur">Leurs Majestez</persName> estant arriuées, n’eurent pas plustost pris <pb n="np" xml:id="f94" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f94"/>leur place, que <tech type="musique">l’vne des deux Isles qui paroissoient aux costez de la premiere, fut toute couuerte de Violons fort bien vestus</tech>.</p>
         <p><tech type="decor">L’autre qui luy estoit opposée</tech>, le fut en mesme temps de Trompettes &amp; de Tymballiers, dont les habits n’estoient pas moins riches.</p>
         <p>Mais ce qui surprit dauantge, fut de voir sortir <name key="alcine" corresp="therese_duparc">Alcine</name> de derriere <tech type="construction">le Rocher</tech>, portée par <tech type="machine_eau">vn Monstre-Marin d’vne grandeur prodigieuse</tech>.</p>
         <p>Deux des Nymphes de sa suite, sous les noms de <name key="celie" corresp="mlle_de_brie">Celie</name> et de <name key="dirce" corresp="armande_bejart">Dircé</name>, partirent au mesme temps à sa suite; &amp; se mettant à ses costez sur <tech type="machine_eau">de grandes Baleines</tech>, elles s’approcherent du bord du <tech type="construction">Rondeau</tech>, &amp; <name key="alcine" corresp="therese_duparc">Alcine</name> commença des Vers, ausquels ses Compagnes respondirent, &amp; qui furent à la loüange de la <persName key="anne_d_autriche" role="destinataire">Reyne Mere du Roy</persName>.</p>
         <stage><name key="alcine" corresp="therese_duparc">ALCINE</name>, <name key="celie" corresp="mlle_de_brie">CELIE</name>, <name key="dirce" corresp="armande_bejart">DIRCE</name>.</stage>
         <label type="speaker"><name key="alcine" corresp="therese_duparc">ALCINE</name>.</label>
-        <lg>
-          <l rend="i">VOus à qui je fis part de ma félicité,</l>
-          <l rend="i">Pleurez auec moy dans cette extremité.</l>
+        <lg rend="i">
+          <l>VOus à qui je fis part de ma félicité,</l>
+          <l>Pleurez auec moy dans cette extremité.</l>
         </lg>
         <label type="speaker"><name key="celie" corresp="mlle_de_brie">CÉLIE</name>.</label>
-        <lg>
-          <l rend="i">Quel est donc le sujet des soudaines alarmes</l>
-          <l rend="i">Qui de vos yeux charmans font couler tant de larmes ?</l>
+        <lg rend="i">
+          <l>Quel est donc le sujet des soudaines alarmes</l>
+          <l>Qui de vos yeux charmans font couler tant de larmes ?</l>
         </lg>
         <label type="speaker"><name key="alcine" corresp="therese_duparc">ALCINE</name>.</label>
-        <lg>
-          <l rend="i">Si je pense en parler, ce n’est qu’en fremissant.</l>
-          <l rend="i">Dans les sombres horreurs d’vn songe menassant,</l>
-          <l rend="i">Vn spectre m’auertit, d’vne voix esperduë,</l>
-          <l rend="i">Que pour moy des Enfers la force est suspenduë;</l>
-          <l rend="i">Qu’vn celeste pouuoir arreste leur secours,</l>
-          <l rend="i">Et que ce jour sera le dernier de mes jours.</l>
-          <l rend="i">Ce que versa de triste au poinct de ma naissance</l>
-          <l rend="i">Des Astres ennemis, la maligne influence,</l>
-          <l rend="i">Et tout ce que mon art m’a predit de malheurs,</l>
-          <l rend="i">En ce songe fut peint de si viues couleurs,</l>
-          <l rend="i">Qu’à mes yeux éueillez sans cesse il représente</l>
-          <pb n="np" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f95"/>
-          <l rend="i">Le pouuoir de <name key="melisse">Melisse</name>, &amp; l’heur de <name key="bradamante">Bradamante</name>.</l>
-          <l rend="i">I’auois preveu ces maux, mais les charmans plaisirs</l>
-          <l rend="i">Qui sembloient en ces lieux preuenir nos desirs;</l>
-          <l rend="i">Nos superbes palais, nos jardins, nos campagnes,</l>
-          <l rend="i">L’agreable entretien de nos cheres compagnes;</l>
-          <l rend="i">Nos jeux et nos chansons, les concerts des oyseaux,</l>
-          <l rend="i">Le parfum des Zephirs, le murmure des eaux,</l>
-          <l rend="i">De nos tendres amours les douces avantures,</l>
-          <l rend="i">M’auoient fait oublier ces funestes augures,</l>
-          <l rend="i">Quand le songe cruel dont je me sens troubler,</l>
-          <l rend="i">Auec tant de fureur les vint renouueller.</l>
-          <l rend="i">Chaque instant, je croy voir mes forces terrassées,</l>
-          <l rend="i">Mes gardes esgorgez, &amp; mes prisons forcées;</l>
-          <l rend="i">Ie croy voir mille amans, par mon art transformez,</l>
-          <l rend="i">D’vne égale fureur à ma perte animez;</l>
-          <l rend="i">Quitter en mesme temps leurs troncs &amp; leurs feuïllages,</l>
-          <l rend="i">Dans le juste dessein de vanger leurs outrages,</l>
-          <l rend="i">Et je croy voir, enfin, mon aymable <name key="roger">Roger</name></l>
-          <l rend="i">De mes fers méprisez, prest à se desgager.</l>
+        <lg rend="i">
+          <l>Si je pense en parler, ce n’est qu’en fremissant.</l>
+          <l>Dans les sombres horreurs d’vn songe menassant,</l>
+          <l>Vn spectre m’auertit, d’vne voix esperduë,</l>
+          <l>Que pour moy des Enfers la force est suspenduë;</l>
+          <l>Qu’vn celeste pouuoir arreste leur secours,</l>
+          <l>Et que ce jour sera le dernier de mes jours.</l>
+          <l>Ce que versa de triste au poinct de ma naissance</l>
+          <l>Des Astres ennemis, la maligne influence,</l>
+          <l>Et tout ce que mon art m’a predit de malheurs,</l>
+          <l>En ce songe fut peint de si viues couleurs,</l>
+          <l>Qu’à mes yeux éueillez sans cesse il représente</l>
+          <pb n="np" xml:id="f95" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f95"/>
+          <l>Le pouuoir de <name key="melisse">Melisse</name>, &amp; l’heur de <name key="bradamante">Bradamante</name>.</l>
+          <l>I’auois preveu ces maux, mais les charmans plaisirs</l>
+          <l>Qui sembloient en ces lieux preuenir nos desirs;</l>
+          <l>Nos superbes palais, nos jardins, nos campagnes,</l>
+          <l>L’agreable entretien de nos cheres compagnes;</l>
+          <l>Nos jeux et nos chansons, les concerts des oyseaux,</l>
+          <l>Le parfum des Zephirs, le murmure des eaux,</l>
+          <l>De nos tendres amours les douces avantures,</l>
+          <l>M’auoient fait oublier ces funestes augures,</l>
+          <l>Quand le songe cruel dont je me sens troubler,</l>
+          <l>Auec tant de fureur les vint renouueller.</l>
+          <l>Chaque instant, je croy voir mes forces terrassées,</l>
+          <l>Mes gardes esgorgez, &amp; mes prisons forcées;</l>
+          <l>Ie croy voir mille amans, par mon art transformez,</l>
+          <l>D’vne égale fureur à ma perte animez;</l>
+          <l>Quitter en mesme temps leurs troncs &amp; leurs feuïllages,</l>
+          <l>Dans le juste dessein de vanger leurs outrages,</l>
+          <l>Et je croy voir, enfin, mon aymable <name key="roger">Roger</name></l>
+          <l>De mes fers méprisez, prest à se desgager.</l>
         </lg>
         <label type="speaker"><name key="celie" corresp="mlle_de_brie">CELIE</name>.</label>
-        <lg>
-          <l rend="i">La crainte en vostre esprit s’est acquis trop d’empire,</l>
-          <l rend="i">Vous regnez seule icy, pour vous seule on soupire;</l>
-          <l rend="i">Rien n’interrompt le cours de vos contentemens</l>
-          <l rend="i">Que les accents plaintifs de vos tristes amans:</l>
-          <l rend="i"><name key="logistile">Logistile</name>, &amp; ses gens chassez de nos campagnes</l>
-          <l rend="i">Tremblent encor de peur, cachez dans leurs montagnes;</l>
-          <l rend="i">Et le nom de <name key="melisse">Melisse</name>, en ces lieux inconnu,</l>
-          <l rend="i">Par vos augures seuls jusqu’à nous est venu.</l>
+        <lg rend="i">
+          <l>La crainte en vostre esprit s’est acquis trop d’empire,</l>
+          <l>Vous regnez seule icy, pour vous seule on soupire;</l>
+          <l>Rien n’interrompt le cours de vos contentemens</l>
+          <l>Que les accents plaintifs de vos tristes amans:</l>
+          <l><name key="logistile">Logistile</name>, &amp; ses gens chassez de nos campagnes</l>
+          <l>Tremblent encor de peur, cachez dans leurs montagnes;</l>
+          <l>Et le nom de <name key="melisse">Melisse</name>, en ces lieux inconnu,</l>
+          <l>Par vos augures seuls jusqu’à nous est venu.</l>
         </lg>
         <label type="speaker"><name key="dirce" corresp="armande_bejart">DIRCÉ</name>.</label>
-        <lg>
-          <l rend="i">Ah ! ne nous flatons point, ce fantosme effroyable</l>
-          <l rend="i">M’a tenu cette nuit vn discours tout semblable.</l>
+        <lg rend="i">
+          <l>Ah ! ne nous flatons point, ce fantosme effroyable</l>
+          <l>M’a tenu cette nuit vn discours tout semblable.</l>
         </lg>
         <label type="speaker"><name key="alcine" corresp="therese_duparc">ALCINE</name>.</label>
         <l rend="i">Helas ! de nos malheurs qui peut encor douter.</l>
         <label type="speaker"><name key="celie" corresp="mlle_de_brie">CELIE</name>.</label>
-        <lg>
-          <l rend="i">I’y vois vn grand remede, et facile à tenter;</l>
-          <l rend="i">Vne <persName key="anne_d_autriche">Reyne</persName> paroist, dont le secours propice</l>
-          <l rend="i">Nous sçaura garentir des efforts de <name key="melisse">Melisse</name>:</l>
-          <pb n="np" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f96"/>
-          <l rend="i">Par tout de cette <persName key="anne_d_autriche">Reyne</persName> on vante la bonté,</l>
-          <l rend="i">Et l’on dit que son cœur, de qui la fermeté</l>
-          <l rend="i">Des flots les plus mutins méprisa l’insolence,</l>
-          <l rend="i">Contre les vœux des siens est toûjours sans defense.</l>
+        <lg rend="i">
+          <l>I’y vois vn grand remede, et facile à tenter;</l>
+          <l>Vne <persName key="anne_d_autriche">Reyne</persName> paroist, dont le secours propice</l>
+          <l>Nous sçaura garentir des efforts de <name key="melisse">Melisse</name>:</l>
+          <pb n="np" xml:id="f96" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f96"/>
+          <l>Par tout de cette <persName key="anne_d_autriche">Reyne</persName> on vante la bonté,</l>
+          <l>Et l’on dit que son cœur, de qui la fermeté</l>
+          <l>Des flots les plus mutins méprisa l’insolence,</l>
+          <l>Contre les vœux des siens est toûjours sans defense.</l>
         </lg>
         <label type="speaker"><name key="alcine" corresp="therese_duparc">ALCINE</name>.</label>
-        <lg>
-          <l rend="i">Il est vray, je la vois, en ce pressant danger</l>
-          <l rend="i">A nous donner secours taschons de l’engager;</l>
-          <l rend="i">Disons-luy qu’en tous lieux la voix publique estale</l>
-          <l rend="i">Les charmantes beautez de son ame Royale;</l>
-          <l rend="i">Disons que sa vertu, plus haute que son rang</l>
-          <l rend="i">Sçait releuer l’esclat de son auguste sang,</l>
-          <l rend="i">Et que de nostre sexe elle a porté la gloire</l>
-          <l rend="i">Si loin, que l’auenir aura peine à le croire;</l>
-          <l rend="i">Que du bon-heur public son grand cœur amoureux</l>
-          <l rend="i">Fit toûjours des perils un mépris genereux;</l>
-          <l rend="i">Que de ses propres maux, son ame à peine atteinte,</l>
-          <l rend="i">Pour les maux de l’Estat garda toute sa crainte:</l>
-          <l rend="i">Disons que ses bien-faits versez à pleines mains</l>
-          <l rend="i">Luy gaignent le respect et l’amour des humains,</l>
-          <l rend="i">Et qu’au moindre danger dont elle est menacée</l>
-          <l rend="i">Toute la terre en deüil se montre interessée:</l>
-          <l rend="i">Disons qu’au plus haut poinct de l’absolu pouuoir,</l>
-          <l rend="i">Sans faste &amp; sans orgueil sa grandeur s’est fait voir;</l>
-          <l rend="i">Qu’aux temps les plus fascheux, sa sagesse constante,</l>
-          <l rend="i">Sans crainte a soustenu l’autorité penchante;</l>
-          <l rend="i">Et dans le calme heureux, de ses trauaux acquis,</l>
-          <l rend="i">Sans regret la remit dans les mains de son <persName key="louisxiv">Fils</persName>.</l>
-          <l rend="i">Disons par quels respects, par quelle complaisance</l>
-          <l rend="i">De ce <persName key="louisxiv">Fils</persName> glorieux, l’amour la recompense;</l>
-          <l rend="i">Vantons les longs trauaux, vantons les justes loix</l>
-          <l rend="i">De ce <persName key="louisxiv">Fils</persName> reconnu pour le plus grand des Rois;</l>
-          <l rend="i">Et comment cette <persName key="anne_d_autriche">Mere</persName>, heureusement feconde,</l>
-          <l rend="i">Ne donnant que deux fois a donné tant au monde.</l>
-          <l rend="i">Enfin, faisons parler nos soûpirs &amp; nos pleurs</l>
-          <l rend="i">Pour la rendre sensible à nos viues douleurs,</l>
-          <l rend="i">Et nous pourrons trouuer au fort de nostre peine</l>
-          <l rend="i">Vn refuge paisible aux pieds de cette <persName key="anne_d_autriche">Reyne</persName>.</l>
+        <lg rend="i">
+          <l>Il est vray, je la vois, en ce pressant danger</l>
+          <l>A nous donner secours taschons de l’engager;</l>
+          <l>Disons-luy qu’en tous lieux la voix publique estale</l>
+          <l>Les charmantes beautez de son ame Royale;</l>
+          <l>Disons que sa vertu, plus haute que son rang</l>
+          <l>Sçait releuer l’esclat de son auguste sang,</l>
+          <l>Et que de nostre sexe elle a porté la gloire</l>
+          <l>Si loin, que l’auenir aura peine à le croire;</l>
+          <l>Que du bon-heur public son grand cœur amoureux</l>
+          <l>Fit toûjours des perils un mépris genereux;</l>
+          <l>Que de ses propres maux, son ame à peine atteinte,</l>
+          <l>Pour les maux de l’Estat garda toute sa crainte:</l>
+          <l>Disons que ses bien-faits versez à pleines mains</l>
+          <l>Luy gaignent le respect et l’amour des humains,</l>
+          <l>Et qu’au moindre danger dont elle est menacée</l>
+          <l>Toute la terre en deüil se montre interessée:</l>
+          <l>Disons qu’au plus haut poinct de l’absolu pouuoir,</l>
+          <l>Sans faste &amp; sans orgueil sa grandeur s’est fait voir;</l>
+          <l>Qu’aux temps les plus fascheux, sa sagesse constante,</l>
+          <l>Sans crainte a soustenu l’autorité penchante;</l>
+          <l>Et dans le calme heureux, de ses trauaux acquis,</l>
+          <l>Sans regret la remit dans les mains de son <persName key="louisxiv">Fils</persName>.</l>
+          <l>Disons par quels respects, par quelle complaisance</l>
+          <l>De ce <persName key="louisxiv">Fils</persName> glorieux, l’amour la recompense;</l>
+          <l>Vantons les longs trauaux, vantons les justes loix</l>
+          <l>De ce <persName key="louisxiv">Fils</persName> reconnu pour le plus grand des Rois;</l>
+          <l>Et comment cette <persName key="anne_d_autriche">Mere</persName>, heureusement feconde,</l>
+          <l>Ne donnant que deux fois a donné tant au monde.</l>
+          <l>Enfin, faisons parler nos soûpirs &amp; nos pleurs</l>
+          <l>Pour la rendre sensible à nos viues douleurs,</l>
+          <l>Et nous pourrons trouuer au fort de nostre peine</l>
+          <l>Vn refuge paisible aux pieds de cette <persName key="anne_d_autriche">Reyne</persName>.</l>
         </lg>
-        <pb n="np" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f97"/>
+        <pb n="np" xml:id="f97" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f97"/>
         <label type="speaker"><name key="dirce" corresp="armande_bejart">DIRCÉ</name></label>
-        <lg>
-          <l rend="i">Ie sçais bien que son cœur, noblement genereux,</l>
-          <l rend="i">Ecoute auec plaisir la voix des malheureux:</l>
-          <l rend="i">Mais on ne voit jamais éclater sa puissance</l>
-          <l rend="i">Qu’à repousser le tort qu’on fait à l’innocence;</l>
-          <l rend="i">Ie sçais qu’elle peut tout, mais je n’ose penser</l>
-          <l rend="i">Que jusqu’à nous deffendre on la vit s’abaisser.</l>
-          <l rend="i">De nos douces erreurs elle peut estre instruite,</l>
-          <l rend="i">Et rien n’est plus contraire à sa rare conduite;</l>
-          <l rend="i">Son Zele si connu pour le culte des Dieux</l>
-          <l rend="i">Doit rendre à sa vertu nos respects odieux,</l>
-          <l rend="i">Et loin qu’à son abord mon effroy diminuë</l>
-          <l rend="i">Malgré-moy je le sens qui redouble à sa veuë.</l>
+        <lg rend="i">
+          <l>Ie sçais bien que son cœur, noblement genereux,</l>
+          <l>Ecoute auec plaisir la voix des malheureux:</l>
+          <l>Mais on ne voit jamais éclater sa puissance</l>
+          <l>Qu’à repousser le tort qu’on fait à l’innocence;</l>
+          <l>Ie sçais qu’elle peut tout, mais je n’ose penser</l>
+          <l>Que jusqu’à nous deffendre on la vit s’abaisser.</l>
+          <l>De nos douces erreurs elle peut estre instruite,</l>
+          <l>Et rien n’est plus contraire à sa rare conduite;</l>
+          <l>Son Zele si connu pour le culte des Dieux</l>
+          <l>Doit rendre à sa vertu nos respects odieux,</l>
+          <l>Et loin qu’à son abord mon effroy diminuë</l>
+          <l>Malgré-moy je le sens qui redouble à sa veuë.</l>
         </lg>
         <label type="speaker"><name key="alcine" corresp="therese_duparc">ALCINE</name>.</label>
-        <lg>
-          <l rend="i">Ah ! ma propre frayeur suffit pour m’affliger!</l>
-          <l rend="i">Loin d’aigrir mon ennuy, cherche à le soulager,</l>
-          <l rend="i">Et tasche de fournir à mon ame oppressée</l>
-          <l rend="i">Dequoy parer aux maux dont elle est menacée.</l>
-          <l rend="i">Redoublons cependant les Gardes du Palais,</l>
-          <l rend="i">Et s’il n’est point pour nous d’azile desormais</l>
-          <l rend="i">Dans nostre desespoir cherchons nostre deffense,</l>
-          <l rend="i">Et ne nous rendons pas au moins sans resistance.</l>
+        <lg rend="i">
+          <l>Ah ! ma propre frayeur suffit pour m’affliger!</l>
+          <l>Loin d’aigrir mon ennuy, cherche à le soulager,</l>
+          <l>Et tasche de fournir à mon ame oppressée</l>
+          <l>Dequoy parer aux maux dont elle est menacée.</l>
+          <l>Redoublons cependant les Gardes du Palais,</l>
+          <l>Et s’il n’est point pour nous d’azile desormais</l>
+          <l>Dans nostre desespoir cherchons nostre deffense,</l>
+          <l>Et ne nous rendons pas au moins sans resistance.</l>
         </lg>
         <list>
           <item><name key="alcine" corresp="therese_duparc">Alcine</name>. <persName key="therese_duparc">Madlle. du Parc</persName>.</item>
@@ -2035,7 +2034,7 @@
         </list>
         <p>LOrs qu’ils furent acheuez, &amp; qu’<name key="alcine" corresp="therese_duparc">Alcine</name> se fut retirée pour aller redoubler les Gardes du Palais, le concert des Violons se fit entendre; pendant que le Frontispice du Palais venant à s’ouurir auec vn merueilleux artifice, &amp; des Tours à s’esleuer à veuë d’œil.</p>
         <p><name key="geants" corresp="manceau"><name key="geants" corresp="vagnard"><name key="geants" corresp="pesan"><name key="geants" corresp="joubert">Quatre Geants</name></name></name></name> d’vne grandeur desmesurée, vinrent à paroistre auec <name key="nains" corresp="des_airs_fils1 des_airs_fils2"><name key="nains" corresp="vagnard_fils"><name key="nains" corresp="tutin_fils">quatre Nains</name></name></name>; qui par l’opposition de leur petite taille, faisoient paroistre celle des <name key="geants" corresp="manceau"><name key="geants" corresp="vagnard"><name key="geants" corresp="pesan"><name key="geants" corresp="joubert">Geants</name></name></name></name> encore plus excessiue. Ces Colloses estoient commis à la garde du Palais, &amp; ce fut par eux que commença la premiere Entrée du Ballet.</p>
-        <pb n="np" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f98"/>
+        <pb n="np" xml:id="f98" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f98"/>
         <!-- voir comment encoder les types de divertissement -->
         <label type="head"><title>BALLET DV PALAIS D'ALCINE</title></label>
         <div>
@@ -2064,7 +2063,7 @@
           </list>
         </div>
         <div>
-          <pb n="np" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f99"/>
+          <pb n="np" xml:id="f99" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f99"/>
           <head>IV. ENTRÉE</head>
           <stage><name key="alcine" corresp="therese_duparc">Alcine</name> allarmée de cét accident, inuoque de nouueau tous ses <name key="demons_agiles"><name key="demons_sauteurs">Esprits</name></name>, &amp; leur demande secours: il s’en presente deux à elle, qui font des sauts auec vne force, &amp; vne agilité merueilleuses.</stage>
           <list>
@@ -2091,7 +2090,7 @@
           <trailer>FIN DV BALLET.</trailer>
         </div>
         <div>
-          <pb n="np" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f100"/>
+          <pb n="np" xml:id="f100" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f100"/>
           <p> IL sembloit que le Ciel, la Terre &amp; l’Eau fussent tous en feu, &amp; que la destruction du superbe <tech type="construction">Palais d’Alcine</tech>, comme la liberté des <name key="chevaliers">Cheualiers</name> qu’elle y retenoit en prison, ne se pût accomplir que par des prodiges &amp; des miracles: La hauteur &amp; le nombre des <tech type="machine_vol">fusées volantes</tech>, celles qui rouloient sur le riuage, &amp; celles qui ressortoient de l’eau apres s’y estre enfoncées, faisoient vn spectacle si grand &amp; si magnifique, que rien ne pouuoit mieux terminer les enchantemens qu’vn si beau <tech type="feux-artifice">Feu d’Artifice</tech>; lequel ayant enfin cessé apres <tech type="bruitage">vn bruit &amp; vne longueur extraordinaires</tech>, les coups de boëttes qui l’auoient commencé redoublerent encore.</p>
           <p>Alors toute la Cour se retirant, confessa qu’il ne se pouuoit rien voir de plus acheué que ces trois Festes: Et c’est assez aduoëer qu’il ne s’y pouuoit rien adjouster, que de dire que les trois Iournées ayant eu chacune ses partisans, comme chacun auoit eu ses beautez particuliers, on ne conuint pas du prix qu’elles deuoient emporter entre-elles; bien qu’on demeurast d’accord qu’elles pouuoient justement le disputer à toutes celles qu’on auoit veuës jusques alors, &amp; les surpasser peut-estre.</p>
           <p>Mais quoy que les Festes comprises dans le sujet des <title>Plaisirs de l’Isle Enchantée</title> fussent terminées, tous les diuertissemens de <placeName key="versailles">Versailles</placeName> ne l’estoient pas; &amp; la magnificence &amp; la galanterie du <persName key="louisxiv">Roy</persName>, en auoit encore réserué pour les autres jours, qui n’estoient pas moins agreables.</p>
@@ -2100,35 +2099,35 @@
       <div n="[10 mai 1664]">
         <p><date when="1664-05-10">Le Samedy dixiesme</date>
           <persName key="louisxiv" role="organisation">Sa Majesté</persName> voulut courir les testes; c’est vn exercice que peu de gens ignorent, &amp; dont l’vsage est venu d’Allemagne, fort bien inuenté, pour faire voir l’addresse d’vn Caualier; tant à bien mener son cheual dans les passades de guerre, qu’à bien se seruir d’vne lance, d’vn dard, &amp; d’vne espée. Si quelqu’vn ne les a point veu courre, il en trouuera icy la description, estant moins communes que la bague, &amp; seulement icy depuis peu d’années, &amp; ceux qui en ont eu le plaisir, ne s’ennuyent pas pourtant d’vne narration si peu estenduë.</p>
-        <p>Les <name key="chevaliers">Cheualiers</name> entrent l’vn apres l’autre dans la Lice la lance à la main, &amp; vn dard sous la cuisse droite; &amp; apres <pb n="np" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f101"/> que l’vn d’eux a couru &amp; emporté vne Teste de gros carton peinte, &amp; de la forme de celle d’vn Turc, il donne sa lance à vn Page, &amp; faisant la demy-volte il reuient à toute bride à la seconde Teste, qui a la couleur &amp; la forme d’vn Maure, l’emporte auec le dard qui luy jette en passant; puis reprenant vne jaueline, peu diferente de la forme du dard, dans vne troisiesme passade il la darde dans vn bouclier où est peinte vne teste de Meduse; &amp; acheuant sa demy-volte il tire l’espée, dont il emporte en passant toûjours à toute bride vne teste esleuée à vn demy pied de terre; puis faisant place à vn autre, celuy qui en ses courses en a emporté le plus, gagne le prix.</p>
+        <p>Les <name key="chevaliers">Cheualiers</name> entrent l’vn apres l’autre dans la Lice la lance à la main, &amp; vn dard sous la cuisse droite; &amp; apres <pb n="np" xml:id="f101" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f101"/> que l’vn d’eux a couru &amp; emporté vne Teste de gros carton peinte, &amp; de la forme de celle d’vn Turc, il donne sa lance à vn Page, &amp; faisant la demy-volte il reuient à toute bride à la seconde Teste, qui a la couleur &amp; la forme d’vn Maure, l’emporte auec le dard qui luy jette en passant; puis reprenant vne jaueline, peu diferente de la forme du dard, dans vne troisiesme passade il la darde dans vn bouclier où est peinte vne teste de Meduse; &amp; acheuant sa demy-volte il tire l’espée, dont il emporte en passant toûjours à toute bride vne teste esleuée à vn demy pied de terre; puis faisant place à vn autre, celuy qui en ses courses en a emporté le plus, gagne le prix.</p>
         <p>Toute la Cour s’estant placée sur vne balustrade de fer doré, qui regnoit autour de l’agreable maison de <placeName key="versailles">Versailles</placeName>, &amp; qui regarde sur le fossé, dans lequel on auoit dressé la Lice auec des barrieres.</p>
         <p>Le Roy s’y rendit suiuy des mesmes <name key="chevaliers">Cheualiers</name> qui auoient couru la bague: Les Ducs <persName key="saint_aignan" role="participant">de S. Aignan</persName> &amp; <persName key="anne_de_noailles" role="participant">de Noailles</persName> y continäns leurs premieres fonctions; l’vn de Mareschal de Camp, &amp; l’autre de Iuge des Courses: Il s’en fit plusieurs fort belles &amp; heureuses; mais l’addresse du <persName key="louisxiv" role="participant">Roy</persName> luy fit emporter hautement en suitte du prix de la Course des Dames, encore celuy que donnoit la <persName key="marie_therese">Reyne</persName>; c’estoit vne rose de Diamans de grand prix, que le <persName key="louisxiv" role="participant">Roy</persName>, apres l’auoir gagnée, redonna liberalement à courre aux autres <name key="chevaliers">Cheualiers</name>, &amp; que le <persName key="armand_du_cambout" role="participant">Marquis de Coaslin</persName> disputa contre le <persName key="charles_de_soyecourt" role="participant">Marquis de Soyecourt</persName>&amp; la gagna.</p>
       </div>
       <div n="[11 mai 1664]">
         <p><date when="1664-05-11">Le Dimanche</date> au leuer du <name key="louisxiv">Roy</name>, quasi toute la conuersation tourna sur les belles Courses du jour precedent, &amp; donna lieu à vn grand deffy entre le <persName key="saint_aignan" role="participant">Duc de S. Aignan</persName>, qui n’auoit point encore couru, &amp; le <persName key="charles_de_soyecourt" role="participant">Marquis de Soyecourt</persName>, qui fut remise au lendemain, pource que le <persName key="antoine_iii_de_gramont">Mareschal Duc de Grammont</persName>, qui parioit pour ce Marquis, estoit obligé de partir pour Paris, d’où il ne deuoit reuenir que le jour d’apres.</p>
-        <p>Le <persName key="louisxiv">Roy</persName> mena toute la Cour cette apresdinée à sa <placeName key="versailles_jardins_menagerie">Mesnagerie</placeName>, dont on admira les beautez particulieres, &amp; le nombre presque incroyable d’oyseaux de toutes sortes; parmy <pb n="np" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f102"/> lesquels il y en a beaucoup de fort rares. Il seroit inutile de parler de la collation qui suiuit ce diuertissement, puis que huit jours durant chaque repas pouuoit passer pour vn Festin des plus grands qu’on puisse faire.</p>
+        <p>Le <persName key="louisxiv">Roy</persName> mena toute la Cour cette apresdinée à sa <placeName key="versailles_jardins_menagerie">Mesnagerie</placeName>, dont on admira les beautez particulieres, &amp; le nombre presque incroyable d’oyseaux de toutes sortes; parmy <pb n="np" xml:id="f102" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f102"/> lesquels il y en a beaucoup de fort rares. Il seroit inutile de parler de la collation qui suiuit ce diuertissement, puis que huit jours durant chaque repas pouuoit passer pour vn Festin des plus grands qu’on puisse faire.</p>
         <p>Et le soir Sa Majesté, fit representer sur l’<tech type="construction">vn des theatres doubles de son Sallon</tech>, que son Esprit vniuersel a luy-mesme inuentez, la Comedie des <title>Fascheux</title> faite par le Sieur <persName key="moliere" role="auteur">de Moliere</persName>, meslée d’entrées de Ballet, &amp; fort ingenieuse.</p>
       </div>
       <div n="[12 mai 1664]">
         <p>Le bruit du deffy qui se deuoit courir le <date when="1664-05-12">Lundi douziesme</date>, fit faire vne infinité de gageures d’assez grande valeur; quoy que celle des deux <name key="chevaliers" corresp="charles_de_soyecourt"><name key="chevaliers" corresp="saint_aignan">Cheualiers</name></name> ne fut que de cent pistolles: Et comme le <persName key="saint_aignan" role="participant">Duc</persName> par vne heureuse audace donnoit vne Teste à ce <persName key="charles_de_soyecourt" role="participant">Marquis</persName> fort adroit, beaucoup tenoient pour ce dernier; qui s’estant rendu vn peu plus tard chez le <persName key="louisxiv">Roy</persName>, y trouua vn cartel pour le presser, lequel pour n’estre qu’en prose, on n’a point mis en ce discours.</p>
         <p>Le <persName key="saint_aignan" role="auteur">Duc de S. Aignan</persName>, auoit aussi fait voir à quelques vns de ses amis, comme vn heureux presage de sa victoire, ces quatre Vers.</p>
         <label type="head">AVX DAMES.</label>
-        <lg ana="quatrain">
-          <l rend="i">BElles, vous direz en ce jour</l>
-          <l rend="i">Si vos sentiments sont les nostres,</l>
-          <l rend="i">Qu'estre vainqueur du grand Soyecourt</l>
-          <l rend="i">C'est estre vainqueur de dix autres.</l>
+        <lg ana="quatrain" rend="i">
+          <l>BElles, vous direz en ce jour</l>
+          <l>Si vos sentiments sont les nostres,</l>
+          <l>Qu'estre vainqueur du grand Soyecourt</l>
+          <l>C'est estre vainqueur de dix autres.</l>
         </lg>
         <p>Faisant toûjours allusion à son nom de <name key="guidon_le_sauvage" corresp="saint_aignan">Guidon le Sauvage</name>, que l’aventure de l’île perilleuse rendit vainqueur de dix chevaliers.</p>
         <p>Aussi-tost que le <persName key="louisxiv">Roy</persName> eust disné, il conduisit <persName key="marie_therese anne_d_autriche">les Reynes</persName>, <persName key="monsieur">Monsieur</persName>, <persName key="madame">Madame</persName>, &amp; toutes les Dames dans vn lieu ou on deuoit tirer vne Loterie, afin que rien ne manquast à la galanterie de ces Festes; c’estoit des pierreries, des ameublemens, de l’argenterie &amp; autres choses semblables: Et quoyque le sort ait accoustumé de decider de ces presens, il s’accorda sans doute auec le desir de <persName key="louisxiv">S. M.</persName> quand il fit tomber le gros lot entre les mains de <persName key="marie_therese">la Reyne</persName>; chacun sortant de ce lieu là fort content, pour aller voir les Courses qui s’alloient commencer.</p>
-        <pb n="np" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f103"/>
+        <pb n="np" xml:id="f103" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f103"/>
         <p>Enfin <name key="guidon_le_sauvage" corresp="saint_aignan">Guidon</name> &amp; <name key="olivier" corresp="cm_de_belleforiere">Oliuier</name> parurent sur les rangs à cinq heures du soir, fort proprement vestus &amp; bien montez.</p>
         <p><persName key="louisxiv">Le Roy</persName> auec toute la Cour les honora de sa presence; &amp; <persName key="louisxiv">Sa Majesté</persName> leust mesme les Articles des Courses, afin qu’il n’y eust aucune contestation entre-eux. Le succés en fut heureux au <persName key="saint_aignan">Duc de S. Aignan</persName>, qui gagna le deffy.</p>
         <p>Le soir, <persName key="louisxiv" role="organisation">Sa Majesté</persName> fit joüer vne Comedie, nommée <title>Tartuffe</title>, que <persName key="moliere" role="auteur">le Sieur de Molliere</persName> auoit fait contre les Hypocrites; mais quoy qu’elle eut esté trouuée fort diuertissante, <persName key="louisxiv">le Roy</persName> connut tant de conformité entre ceux qu’vne veritable devotion met dans le chemin du Ciel, &amp; ceux qu’vne vaine ostentation des bonnes œuures n’empesche pas d’en commettre de mauuaises; que son extréme délicatesse pour les choses de la Religion, ne put souffrir cette ressemblance du vice auec la vertu, qui pouuoient estre prise l’vne pour l’autre: Et quoy qu’on ne doutast point des bonnes intentions de l’Autheur, il la deffendit pourtant en public, &amp; se priua soy-mesme de ce plaisir, pour n’en pas laisser abuser à d’autres, moins capables d’en faire vn juste discernement.</p>
       </div>
       <div n="[13 mai 1664]">
         <p><date when="1664-05-13">Le Mardy treiziesme</date>, <persName key="louisxiv" role="organisation">le Roy</persName> voulut encore courre les Testes, comme à vn jeu ordinaire que deuoit gagner celuy qui en feroit le plus: <persName key="louisxiv">Sa Majesté</persName> eut encore le prix de la Course des Dames, le <persName key="saint_aignan">Duc de S. Aignan</persName> celuy du jeu; &amp; ayant eu l’honneur d’entrer pour le second à la dispute auec <persName key="louisxiv">Sa Majesté</persName>: L’addresse incomparable du <persName key="louisxiv">Roy</persName> luy fit encore auoir ce prix, &amp; ce ne fut pas sans vn estonnement duquel on ne pouuoit se deffendre, qu’on en vit gagner quatre à <persName key="louisxiv">Sa Majesté</persName> en deux fois qu’elle auoit couru les testes.</p>
-        <p>On joäa le mesme soir la Comedie du <title>Mariage Forcé</title>, encore de la façon du mesme <persName key="moliere" role="auteur">Sieur de Molliere</persName>, meslée d’entrées de Balets, &amp; de Recits: Puis <persName key="louisxiv">le Roy</persName> prit le chemin de <placeName key="fontainebleau"/>Fontainebleau <date when="1664-05-14">le Mercredy quatorziesme</date>; toute la Cour se trouuant si satisfaite de ce qu’elle auoit veu, que chacun crut qu’on ne pouuoit se passer de le mettre par escrit, pour en donner connoissance à ceux qui n’auoient pû voir des Festes si diuersifiées &amp; si agreables; où l’on a pû admirer tout à la fois le projet auec le succés, la liberalité auec la politesse, le grand nombre auec l’ordre, &amp; la <pb n="np" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f104"/> satisfaction de tous: Où les soins infatigables de <persName key="colbert" role="organisation">Monsieur de Colbert</persName> s’employerent dans tous ces diuertissemens, malgré ses importantes affaires; où le <persName key="saint_aignan">Duc de S. Aignan</persName>, joignit l’action à l’inuention du dessein; où les beaux vers du <persName key="perigny" role="auteur">President de Perigny</persName> à la loüange des <persName key="marie_therese anne_d_autriche">Reynes</persName>, furent si justement pensez, si agreablement tournez, &amp; récitez auec tant d’Art; où ceux que <persName key="benserades" role="auteur">Monsieur de Bensserade</persName> fit pour les <name key="chevaliers">Cheualiers</name>, eurent vne approbation generalle; où la vigilance exacte de <persName key="bontemps" role="organisation">Monsieur Bontemps</persName>, &amp; l’application de <persName key="de_laynay" role="organisation">Monsieur de Launay</persName>, ne laisserent manquer d’aucune des choses necessaires: Enfin, où chacun à marquer si aduantageusement son dessein de plaire au <persName key="louisxiv">Roy</persName>; dans le temps où <persName key="louisxiv">Sa Majesté</persName> ne pensoit elle-mesme
+        <p>On joäa le mesme soir la Comedie du <title>Mariage Forcé</title>, encore de la façon du mesme <persName key="moliere" role="auteur">Sieur de Molliere</persName>, meslée d’entrées de Balets, &amp; de Recits: Puis <persName key="louisxiv">le Roy</persName> prit le chemin de <placeName key="fontainebleau"/>Fontainebleau <date when="1664-05-14">le Mercredy quatorziesme</date>; toute la Cour se trouuant si satisfaite de ce qu’elle auoit veu, que chacun crut qu’on ne pouuoit se passer de le mettre par escrit, pour en donner connoissance à ceux qui n’auoient pû voir des Festes si diuersifiées &amp; si agreables; où l’on a pû admirer tout à la fois le projet auec le succés, la liberalité auec la politesse, le grand nombre auec l’ordre, &amp; la <pb n="np" xml:id="f104" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f104"/> satisfaction de tous: Où les soins infatigables de <persName key="colbert" role="organisation">Monsieur de Colbert</persName> s’employerent dans tous ces diuertissemens, malgré ses importantes affaires; où le <persName key="saint_aignan">Duc de S. Aignan</persName>, joignit l’action à l’inuention du dessein; où les beaux vers du <persName key="perigny" role="auteur">President de Perigny</persName> à la loüange des <persName key="marie_therese anne_d_autriche">Reynes</persName>, furent si justement pensez, si agreablement tournez, &amp; récitez auec tant d’Art; où ceux que <persName key="benserades" role="auteur">Monsieur de Bensserade</persName> fit pour les <name key="chevaliers">Cheualiers</name>, eurent vne approbation generalle; où la vigilance exacte de <persName key="bontemps" role="organisation">Monsieur Bontemps</persName>, &amp; l’application de <persName key="de_laynay" role="organisation">Monsieur de Launay</persName>, ne laisserent manquer d’aucune des choses necessaires: Enfin, où chacun à marquer si aduantageusement son dessein de plaire au <persName key="louisxiv">Roy</persName>; dans le temps où <persName key="louisxiv">Sa Majesté</persName> ne pensoit elle-mesme
           qu’à plaire; &amp; où ce qu’on a veu ne sçauroit jamais se perdre dans la memoire des Spectateurs, quand on n’auroit pas pris le soin de conseruer par cét escrit le souuenir de toutes ces merueilles.</p>
         <trailer>FIN.</trailer>
       </div>

@@ -708,6 +708,9 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
             <choice>
               <ref name="label"/>
               <element name="lg">
+                <optional>
+                  <ref name="rend.block"/>
+                </optional>
                 <oneOrMore>
                   <ref name="l"/>
                 </oneOrMore>
@@ -1097,6 +1100,7 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
         <zeroOrMore>
           <choice>
             <text/>
+            <ref name="persName"/>
             <ref name="name"/>
             <ref name="pb"/>
           </choice>
