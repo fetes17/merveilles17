@@ -13,6 +13,11 @@
         <edition>Merveilles17</edition>
         <respStmt>
           <name>Mathilde Nicolas</name>
+          <resp>Transcription et encodage</resp>
+        </respStmt>
+        <respStmt>
+          <name>Gaëlle Lafage</name>
+          <resp>Encodage et corrections</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -23,12 +28,12 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl>Baldini Stefano, Relazione del viaggio fatto dall’ill.mo Sig.
-            Card.e Chigi, 1664,
-            <!-- Windows User : 2020-04-25T13:59:00.82
-Le lien est‑il bien mis ?--><ref
+        <bibl>Baldini Stefano, <title>Relazione del viaggio fatto dall’ill.mo Sig. Card.e
+            Chigi</title>. <note> Rome, Biblioteca Apostolica Vaticana, Manuscrit Chigi E.II.38, p.
+            257 recto – 258 verso, <date>1664</date>. Texte traduit par Tristan Alonge, en ligne
+            </note>.<ptr
             target="http://moliere.huma-num.fr/base.php?Stefano_Baldini%2C_Relazione_del_viaggio_fatto_dall’ill%2Emo_Sig%2E_Card%2Ee_Chigi"
-            >http://moliere.huma-num.fr/base.php?Stefano_Baldini%2C_Relazione_del_viaggio_fatto_dall%E2%80%99ill%2Emo_Sig%2E_Card%2Ee_Chigi</ref>.</bibl>
+          /></bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -42,32 +47,37 @@ Le lien est‑il bien mis ?--><ref
   </teiHeader>
   <text>
     <body>
-      <p><persName key="flavio_chigi">Le cardinal</persName> accompagna ensuite <persName key="louisxiv">le roi</persName> dans les
-        chambres et, après lui avoir fait la révérence, il se retira dans son appartement afin de se
-        préparer pour aller au divertissement d’une comédie française, puisqu’il y
-        avait en même temps des <persName key="acteurs_fr" role="acteur">acteurs français</persName>,
-          <persName key="acteurs_esp" role="acteur">espagnols</persName> et <persName key="acteurs_it" role="acteur">italiens</persName> divisés en <persName key="acteurs_troupe" role="acteur">trois
-          troupes</persName>, qui jouaient en alternance chaque jour […] La pièce fut
-        pleine de traits d’esprit et <tech type="musique">d’airs muscicaux</tech>, et de variétés et d’amours, relatant
-        l’histoire d’<name>une princesse</name> qui, afin d’apprivoiser l’arrogance d’<name>un
-          Prince</name>, fit en sorte de le faire tomber amoureux et finit par en tomber elle-même
-        amoureuse au même moment ; elle le prit pour mari. Il y eut de nombreux ballets
-        de <name>dormeurs</name>, de <name>nymphes</name> et de <name>bergers</name>, mais le
-        dernier surpassa tous les autres, puisqu’il y avait sur scène au même moment plus de
-          <name>cinquante personnages</name> à l’aide d’<tech type="machine_musique">une machine</tech>
+      <p><persName key="flavio_chigi">Le cardinal</persName> accompagna ensuite <persName
+          key="louisxiv">le roi</persName> dans les chambres et, après lui avoir fait la révérence,
+        il se retira dans son appartement afin de se préparer pour aller au divertissement d’une
+        comédie française, puisqu’il y avait en même temps des <persName key="acteurs_fr"
+          role="acteur">acteurs français</persName>, <persName key="acteurs_esp" role="acteur"
+          >espagnols</persName> et <persName key="acteurs_it" role="acteur">italiens</persName>
+        divisés en <persName key="acteurs_troupe" role="acteur">trois troupes</persName>, qui
+        jouaient en alternance chaque jour […] La pièce fut pleine de traits d’esprit et <tech
+          type="musique">d’airs muscicaux</tech>, et de variétés et d’amours, relatant l’histoire
+          d’<name>une princesse</name> qui, afin d’apprivoiser l’arrogance d’<name>un Prince</name>,
+        fit en sorte de le faire tomber amoureux et finit par en tomber elle-même amoureuse au même
+        moment ; elle le prit pour mari. Il y eut de nombreux ballets de <name>dormeurs</name>, de
+          <name>nymphes</name> et de <name>bergers</name>, mais le dernier surpassa tous les autres,
+        puisqu’il y avait sur scène au même moment plus de <name>cinquante personnages</name> à
+        l’aide d’<tech type="machine_musique">une machine</tech>
         <seg ana="description">qui avait la forme d’un grand vase, qui présentait sur les côtés deux
           escaliers remplis</seg>
-        <persName key="trompettes" role="musicien">de joueurs de trompettes</persName> et <persName key="violes" role="musicien">violes</persName> dans le vase et
-          <persName key="violons" role="musicien">de violons</persName> sur les escaliers déguisés en <name>satyres</name>, qui
-        descendirent sur scène et dansèrent avec <persName key="danseurs" role="danseur">douze autres danseurs</persName> déguisés
-        différemment ; et pour varier la danse, ils quittèrent les violons et prirent
-          <persName key="tambourins" role="musicien">des tambourins</persName>, avec lesquels il firent divers petits jeux au tempo
-        de la musique ; il y en avait <persName key="orchestre" role="musicien">plus de 40</persName> qui jouaient de <tech type="musique">la
-        contrebasse, de la viole, du violon et de la trompette et du tambourin</tech>. <tech type="machine_musique">La
-          machine</tech> avait un aspect semblable :</p>
+        <persName key="trompettes" role="musicien">de joueurs de trompettes</persName> et <persName
+          key="violes" role="musicien">violes</persName> dans le vase et <persName key="violons"
+          role="musicien">de violons</persName> sur les escaliers déguisés en <name>satyres</name>,
+        qui descendirent sur scène et dansèrent avec <persName key="danseurs" role="danseur">douze
+          autres danseurs</persName> déguisés différemment ; et pour varier la danse, ils quittèrent
+        les violons et prirent <persName key="tambourins" role="musicien">des tambourins</persName>,
+        avec lesquels il firent divers petits jeux au tempo de la musique ; il y en avait <persName
+          key="orchestre" role="musicien">plus de 40</persName> qui jouaient de <tech type="musique"
+          >la contrebasse, de la viole, du violon et de la trompette et du tambourin</tech>. <tech
+          type="machine_musique">La machine</tech> avait un aspect semblable :</p>
       <p>[croquis]</p>
-      <p>Et ici avec un amusement universel se termina la pièce sylvestre qui avait
-        déjà été représentée une autre fois devant <persName key="louisxiv" role="spectateur">S.M.</persName> dans une forêt</p>
+      <p>Et ici avec un amusement universel se termina la pièce sylvestre qui avait déjà été
+        représentée une autre fois devant <persName key="louisxiv" role="spectateur">S.M.</persName>
+        dans une forêt</p>
     </body>
   </text>
 </TEI>
