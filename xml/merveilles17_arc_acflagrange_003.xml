@@ -27,7 +27,9 @@
       <sourceDesc>
         <bibl>Varlet Charles, sieur de La Grange, <title>Registre de La Grange (1658-1685) : précédé
             d’une notice biographique / publié par les soins de la Comédie-Française...[par Edouard
-            Thierry]</title>. <note><pubPlace>Paris</pubPlace>, <publisher>J. Claye</publisher>, <date>1876</date>.</note></bibl>
+            Thierry]</title>. <note><pubPlace>Paris</pubPlace>, <publisher>J. Claye</publisher>,
+              <date>1876</date>.</note><ptr
+            target="https://gallica.bnf.fr/ark:/12148/bpt6k1462449/f162.item"/></bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -42,15 +44,18 @@
   <text>
     <body>
       <pb n="66" xml:id="p66"/>
-      <p><persName key="la_troupe">La Troupe</persName> est partie le <date when="1664-07-21">Lundy 21 Juillet</date> pour
-          <placeName key="fontainebleau">Fontainebleau</placeName>. On a joué 4 fois la Princesse d’Elide deuant
-          <persName key="flavio_chigi" role="spectateur">Monsieur le Legat</persName> et vne fois la Thebaïde.</p>
-      <p rend="right">Receu par ordre du <persName key="louisxiv" role="commanditaire">Roy</persName>. 3000lt</p>
+      <p><persName key="la_troupe">La Troupe</persName> est partie le <date when="1664-07-21">Lundy
+          21 Juillet</date> pour <placeName key="fontainebleau">Fontainebleau</placeName>. On a joué
+        4 fois la Princesse d’Elide deuant <persName key="flavio_chigi" role="spectateur">Monsieur
+          le Legat</persName> et vne fois la Thebaïde.</p>
+      <p rend="right">Receu par ordre du <persName key="louisxiv" role="commanditaire"
+          >Roy</persName>. 3000lt</p>
 
-      <p rend="right">Partagé &amp; faict 2 partz d’<persName key="auteurs" role="auteur">autheurs</persName> en seize et en
-        quartorze pars, 193lt.</p>
+      <p rend="right">Partagé &amp; faict 2 partz d’<persName key="auteurs" role="auteur"
+          >autheurs</persName> en seize et en quartorze pars, 193lt.</p>
 
-      <p><persName key="la_troupe">La Troupe</persName> est reuenue le <date when="1664-08-13">Mercredy 13 Aoust</date>.</p>
+      <p><persName key="la_troupe">La Troupe</persName> est reuenue le <date when="1664-08-13"
+          >Mercredy 13 Aoust</date>.</p>
     </body>
   </text>
 </TEI>

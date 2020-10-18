@@ -24,10 +24,10 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><title>Comptes des menus plaisirs de la chambre du roi</title>.<note> <date>1664</date>, Paris, Archives
-          nationales, KK 213, fol. 25v. Publié par Campardon, Nouvelles Pièces sur Molière, p. 40-41.</note><ptr
-              target="https://gallica.bnf.fr/ark:/12148/bpt6k205042w/f50.item"
-          /></bibl>
+        <bibl><title>Comptes des menus plaisirs de la chambre du roi</title>.<note>
+            <date>1664</date>, Paris, Archives nationales, KK 213, fol. 25v. Publié par Campardon,
+            Nouvelles Pièces sur Molière, p. 40-41.</note><ptr
+            target="https://gallica.bnf.fr/ark:/12148/bpt6k205042w/f50.item"/></bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -41,19 +41,29 @@
   </teiHeader>
   <text>
     <body>
-      <pb n="390" xml:id="p390"/>
-      <p>Role des parties et sommes de deniers ordonnées etre payées et delivrées comptant.</p>
-      <p>A <persName key="moliere">Jean Baptiste Pocquelin de Moliere</persName>, comedien de
-          <persName key="monsieur">Monsieur</persName>, frere unicque du roy, tant pour luy que pour
-          <persName key="la_troupe">la trouppe</persName>, pour les comedies qu’ilz ont representées
-        au <placeName key="versailles_chateau">chasteau de Versailles</placeName> et pour leur
-        sejour, la somme de...</p>
-      <p rend="right">4.000 l.</p>
-      <p>Audit <persName key="moliere" role="auteur">Jean-Baptiste Pocquelin de Moliere</persName>,
-        comedien de <persName key="monsieur">Monsieur</persName> frere unicque du roy, pour une
-        nouvelle comedie qu’il a faicte et qui a esté representée par <persName key="la_troupe">sa
-          trouppe</persName> à <placeName key="versailles">Versailles</placeName>...</p>
-      <p rend="right">2.000 l.</p>
+      <pb n="40" xml:id="p40"/>
+      <p>Role des parties et sommes de deniers ordonnées etre payées et délivrées comptant, de
+        l'ordonnance du <persName key="louisxiv" role="commanditaire">Roi</persName>, par <persName
+          key="michel_d_aligre" role="organisation">messire Michel d'Aligre</persName>, conseiller
+        de Sa Majesté et trésorier des menus plaisirs et affaires de sa chambre, pour gages,
+        appointemens et entretènement <pb n="41" xml:id="p41"/> d'officiers, chantres, postes et
+        chevaucheurs de son écurie, et autres dépenses ordinaires et extraordinaires, et ce tant
+        pour les menues nécessités de ladite chambre de <date when="1664">l'année mil six cent
+          soixante-quatre</date> qu'au <persName key="louisxiv">Roi</persName>, notre seigneur,
+        comptant en ses mains et aux ci-après dénommés, le tout et ainsi qu'il est contenu en chacun
+        article de ce présent rôle. </p>
+      <p> … </p>
+      <p>A <persName key="moliere">Jean Baptiste Pocquelin de Molière</persName>, comédien de
+          <persName key="monsieur">Monsieur</persName>, frère unique du Roi, tant pour lui que pour
+          <persName key="la_troupe">sa troupe</persName>, pour les comedies qu’ils ont représentées
+        au <placeName key="versailles_chateau">château de Versailles</placeName> et pour leur
+        sejour, la somme de quatre mil livres tournois.</p>
+      <p>Audit <persName key="moliere" role="auteur">Jean-Baptiste Pocquelin de Molière</persName>,
+        comedien de <persName key="monsieur">Monsieur</persName> frère unique du Roi, pour une
+        nouvelle comédie qu’il a faite et qui a été représentée par <persName key="la_troupe">sa
+          troupe</persName> à <placeName key="versailles">Versailles</placeName>, deux mille livres
+        tournois</p>
+
     </body>
   </text>
 </TEI>
