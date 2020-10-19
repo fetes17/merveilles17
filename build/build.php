@@ -32,7 +32,7 @@ PRAGMA page_size = 8192;
 CREATE TABLE document (
   -- répertoire des documents
   id             INTEGER,               -- ! rowid auto
-  type           TEXT,                  -- ! type de document
+  type           INTEGER,               -- ! type de document
   code           TEXT UNIQUE NOT NULL,  -- ! code unique
   length         INTEGER,               -- ! taille en caractères (auto)
   title          TEXT NOT NULL,         -- ! titre
@@ -163,12 +163,9 @@ CREATE INDEX date_document_document ON date_document(document);
 
   ";
   static private $doctype = array(
-    "arc" => "Archives",
-    "gr" => "Gravures",
-    "i" => "Imprimés",
-    "image" => "Images",
     "ms" => "Manuscrits",
-    "p" => "Périodiques",
+    "imp" => "Imprimés",
+    "img" => "Images",
   );
 
   
