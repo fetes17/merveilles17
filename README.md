@@ -64,6 +64,5 @@
 * [merveilles17_ms_bavmscheii38_257.xml](https://fetes17.github.io/merveilles17/xml/merveilles17_ms_bavmscheii38_257.xml)
 * [merveilles17_ms_bnfmscolbert268_038.xml](https://fetes17.github.io/merveilles17/xml/merveilles17_ms_bnfmscolbert268_038.xml)
 * [merveilles17_ms_bnfmsfr6143.xml](https://fetes17.github.io/merveilles17/xml/merveilles17_ms_bnfmsfr6143.xml)
-* [merveilles17_ms_pie-bizincourt1.xml](https://fetes17.github.io/merveilles17/xml/merveilles17_ms_pie-bizincourt1.xml)
 * [merveilles17_ms_pie-bizincourt_001.xml](https://fetes17.github.io/merveilles17/xml/merveilles17_ms_pie-bizincourt_001.xml)
 * [merveilles17_ms_pie-philidor.xml](https://fetes17.github.io/merveilles17/xml/merveilles17_ms_pie-philidor.xml)
