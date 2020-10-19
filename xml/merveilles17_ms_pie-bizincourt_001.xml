@@ -8,7 +8,9 @@
       <titleStmt>
         <title>« Les plaisirs de l’isle enchantée, ordonnéz par Louis XIV, roy de France et de
           Navarre, à Versailles, le 6 may 1664, » par DE BIZINCOURT.</title>
-        <author>De Bizincourt, Chauveau François (1613-1676) et Petitot Jean (1607-1691).</author>
+        <author key="bizincourt">De Bizincourt</author>
+        <author key="francois_chauveau">Chauveau François (1613-1676)</author> 
+        <author key="jean_petitot">Petitot Jean (1607-1691)</author>
       </titleStmt>
       <editionStmt>
         <edition>Merveilles17</edition>
@@ -47,9 +49,9 @@
           </msIdentifier>
           <msContents>
             <msItem>
-              <author>De Bizincourt</author>
-              <author>Chauveau François</author>
-              <author>Petitot Jean</author>
+              <author key="bizincourt">De Bizincourt</author>
+              <author key="francois_chauveau">Chauveau François</author>
+              <author key="jean_petitot">Petitot Jean</author>
               <title>« Les plaisirs de l’isle enchantée, ordonnéz par Louis XIV, roy de France et de
                 Navarre, à Versailles, le 6 may 1664 » par DE BIZINCOURT</title>
             </msItem>
@@ -234,8 +236,8 @@
           >Roger</name>, &amp; <name key="chevaliers">plusieurs autres vaillans Chevaliers</name> :
         toutes ses pensées ne s’occuperent plus qu’à empescher leur fuitte, pour faire durer ses
         plaisirs : elle joignit à la force, &amp; à la situanon de son Palais, le pouuoir de ses
-          <name key="demons">Demons</name>, la fierté de ses <name key="geants">Geans</name> &amp; celle de ses <name>bestes
-          farouches</name><!-- GL voir comment encoder ce name -->, mais elle n’eut pas moins de confiance aux diuertissemens des
+          <name key="demons">Demons</name>, la fierté de ses <name key="geants">Geans</name> &amp; celle de ses bestes
+          farouches, mais elle n’eut pas moins de confiance aux diuertissemens des
         promenades, de la dance, des tournois, des festins, de la comedie &amp; de la <tech
           type="musique"> musique</tech>. Et comme elle auoit autant d’Amans que de Captifs, &amp;
         qu’ils ne pensoient tous qu’à luy plaire ; ces illustres <name key="chevaliers"
@@ -260,7 +262,7 @@
         facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f25/full/full/0/native.jpg"/>
       <label type="head">LA MARCHE DES <name key="chevaliers">CHEVALIERS</name> DANS LA
         LICE.</label>
-      <p><name key="heraut_d_armes">Vn Héraut d’Armes</name> accompagné du <name key="page">Page de
+      <p>Vn Héraut d’Armes accompagné du <name key="page">Page de
           Roger</name>, Chef de la Quadrille, portant la lance &amp; l’écu de sa deuise, entra dans
         le Champ suivy de <name key="page">deux autres Pages, de celuy de Guidon le sauuage,
           Maréchal de Camp, &amp; de celuy d’Oger le Danois</name>, Iuge des Courses, portans les
@@ -309,8 +311,8 @@ Balisons nous les trompettes et les timballiers comme des personnes ou comme des
           key="le_temps">le Temps</name> ; ayant à ses pieds <name key="quatre_siecles">les quatre
           Siecles</name>, enuironné des <name key="douze_heures">douze heures du jour</name> &amp;
         des <name key="douze_zodiaque">douze Signes du Zodiaque</name>. En suitte marcherent les
-          <name key="pages">Pages des Cheualiers</name> portans leurs lances &amp; les ecus de leurs
-        deuisez <name key="pasteur">vingt Pasteurs</name> parurent chargez de diuerses pieces de la
+          <name key="page">Pages des Cheualiers</name> portans leurs lances &amp; les ecus de leurs
+        deuisez <name key="berger">vingt Pasteurs</name> parurent chargez de diuerses pieces de la
         Barriere, dont la Lice deuoit estre fermée pour la dresser en vn moment, ils entrerent <pb
           n="11" xml:id="p11"
           facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527887j//f27/full/full/0/native.jpg"
@@ -334,7 +336,7 @@ Balisons nous les trompettes et les timballiers comme des personnes ou comme des
           key="diane">Diane</name> parurent ensuitte sur <tech type="machine_vol">vne Machine portée
           en l’Air</tech> &amp; <tech type="musique">vn concert de Musique</tech> se fit entendre en
         même temps, puis suiuirent vingt quatre de leur suitte portant les viandes de la menagerie
-        &amp; les viandes de la chasse, puis <name key="pages">dix huit Pages</name> qui seruirent
+        &amp; les viandes de la chasse, puis <name key="page">dix huit Pages</name> qui seruirent
           <persName key="dames">les Dames</persName>
         <!-- GL doit on garder "dames" en persName" --> à la collation ; toute cette Trouppe rangée
           <name key="quatre_saisons"/>les quatre Saisons, <name key="pan">Pan</name> &amp; <name
@@ -422,14 +424,14 @@ Balisons nous les trompettes et les timballiers comme des personnes ou comme des
         <lg ana="vers">
           <l>Les Combats que j’ay faits dans l’Isle dangereuse</l>
           <l>Quand de tant de Guerriers je demeuray vainqueur,</l>
-          <l>Suiuis d’une épreuue amoureuse,</l>
+          <l met="l8">Suiuis d’une épreuue amoureuse,</l>
           <l>Ont signalé ma force aussi bien que mon cœur.</l>
-          <l>La vigueur qui fait mon estime,</l>
-          <l>Soit qu’elle embrasse vn party legitime,</l>
-          <l>Ou qu’elle vienne à s’échapper ;</l>
+          <l met="l8">La vigueur qui fait mon estime,</l>
+          <l met="l10">Soit qu’elle embrasse vn party legitime,</l>
+          <l met="l8">Ou qu’elle vienne à s’échapper ;</l>
           <l>Fait dire pour ma gloire aux deux bouts de la Terre,</l>
-          <l>Qu’on n’en voit point en toute Guerre,</l>
-          <l>Ny plus souuent, ny mieux frapper.</l>
+          <l met="l8">Qu’on n’en voit point en toute Guerre,</l>
+          <l met="l8">Ny plus souuent, ny mieux frapper.</l>
         </lg>
       </figure>
 
@@ -588,8 +590,8 @@ Balisons nous les trompettes et les timballiers comme des personnes ou comme des
           <l>La gloire deuiendra sa fidele Compagne,</l>
           <l>Il est sorty d’vn Sang qui brûle de sortir</l>
           <l>Quand il est question de se mettre en Campagne,</l>
-          <l>Et pour ne vous en point mentir,</l>
-          <l>C’est le pur Sang de <name key="charlemagne">Charlemagne</name>.</l>
+          <l met="l8">Et pour ne vous en point mentir,</l>
+          <l met="l8">C’est le pur Sang de <name key="charlemagne">Charlemagne</name>.</l>
         </lg>
       </figure>
 
@@ -1167,7 +1169,7 @@ Balisons nous les trompettes et les timballiers comme des personnes ou comme des
           <l>I'ay toujours pris plaisir à verser sur la <placeName key="france"
             >France</placeName></l>
           <l>De mes plus doux rayons la benigne influence :</l>
-          <l>Mais le charmant objet qu’<name key="hymene">Himen</name> y fait regner,</l>
+          <l>Mais le charmant objet qu’<name key="hymen">Himen</name> y fait regner,</l>
           <l>Pour elle maintenant me fait tout dédaigner.</l>
 
           <l>Depuis vn si long temps que pour le bien du Monde</l>
@@ -1322,11 +1324,11 @@ Balisons nous les trompettes et les timballiers comme des personnes ou comme des
         <label type="speaker"><name key="l_hiver">L'HYVER</name>.</label>
         <lg ana="vers">
           <l>La neige, les glaçons que j’apporte en ces lieux,</l>
-          <l>Sont des mets les moins precieux,</l>
-          <l>Mais ils sont des plus necessaires,</l>
-          <l>Dans une Fête où mille objets charmans,</l>
-          <l>De leurs oeillades meurtrieres,</l>
-          <l>Font naître tant d’embrazemens.</l>
+          <l met="l8">Sont des mets les moins precieux,</l>
+          <l met="l8">Mais ils sont des plus necessaires,</l>
+          <l met="l10">Dans une Fête où mille objets charmans,</l>
+          <l met="l8">De leurs oeillades meurtrieres,</l>
+          <l met="l8">Font naître tant d’embrazemens.</l>
         </lg>
       </figure>
 
@@ -1348,29 +1350,29 @@ Balisons nous les trompettes et les timballiers comme des personnes ou comme des
             <persName key="marie_therese">LA REYNE</persName>.</label>
         <label type="speaker"><name key="diane">DIANE</name>.</label>
         <lg ana="vers">
-          <l>Nos Bois, nos Rochers, nos Montagnes,</l>
-          <l>Tous nos Chasseurs, &amp; mes Compagnes,</l>
+          <l met="l8">Nos Bois, nos Rochers, nos Montagnes,</l>
+          <l met="l8">Tous nos Chasseurs, &amp; mes Compagnes,</l>
           <l>Qui m’ont toujours rendu des honneurs souuerains ;</l>
           <l>Depuis que parmy nous ils vous ont veu paroistre,</l>
-          <l>Ne veulent plus me reconnoistre,</l>
+          <l met="l8">Ne veulent plus me reconnoistre,</l>
           <l>Et chargez de presens viennent auecque moy</l>
           <l>Vous porter ce tribut pour marque de leur foy.</l>
 
           <l>Les Habitans legers de cet heureux bócage,</l>
           <l>De tomber dans vos rets font leur sort le plus doux,</l>
-          <l>Et n’estiment rien davantage,</l>
-          <l>Que l’heur de perir de vos coups ;</l>
+          <l met="l8">Et n’estiment rien davantage,</l>
+          <l met="l8">Que l’heur de perir de vos coups ;</l>
           <l><name key="amour">Amour</name> dont vous auez la grace &amp; le visage,</l>
-          <l>A le même secret que vous.</l>
+          <l met="l8">A le même secret que vous.</l>
         </lg>
 
         <label type="speaker"><name key="pan">PAN</name>.</label>
         <lg ana="vers">
           <l>Ieune Divnité, ne vous étonnez pas,</l>
           <l>Lorsque nous vous offrons en ce fameux repas</l>
-          <l>L'élite de nos bergeries :</l>
-          <l>Si nos troupeaux goûtent en paix</l>
-          <l>Les herbages de nos prairies,</l>
+          <l met="l8">L'élite de nos bergeries :</l>
+          <l met="l8">Si nos troupeaux goûtent en paix</l>
+          <l met="l8">Les herbages de nos prairies,</l>
           <l>Nous deuons ce bonheur à vos divins attraits.</l>
         </lg>
       </figure>
@@ -1432,7 +1434,7 @@ Balisons nous les trompettes et les timballiers comme des personnes ou comme des
               >Alcine</name></tech>. Vn <persName key="musiciens" role="musicien">nombre de
             Musiciens</persName> paroist qui font <tech type="musique">vne charmantte
           armonie</tech>, cependant que <tech type="construction">le Palais</tech> s’ouure, duquel
-          sortent <name key="geant">quatre Geans</name> &amp; <name key="nain">quatre Nains</name>
+          sortent <name key="geants">quatre Geans</name> &amp; <name key="nain">quatre Nains</name>
           commis à la garde de ce lieu considerable par sa situation &amp; sa force, ce qui fait la
           premiere entrée du Ballet : laquelle finie <name key="maures">huit Maures</name> chargez
           par <name key="alcine">Alcine</name> de la garde du dedans paroissent en faire vne exacte
