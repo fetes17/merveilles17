@@ -14,6 +14,7 @@
         <author key="moliere">Poquelin Jean-Baptiste, dit Molière (1622-1673)</author>
         <author key="lepautre">Lepautre, Jean (1618-1682)</author>
         <author key="isilvestre">Silvestre, Israël (1621-1691).</author>
+        <editor key="imprimerie_royale" role="">Imprimerie royale</editor>
       </titleStmt>
       <editionStmt>
         <edition>Merveilles17</edition>
@@ -68,41 +69,55 @@
     </profileDesc>
   </teiHeader>
   <text>
+    <front>
+      <pb xml:id="np1" n="np" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f9"/>
+      <titlePage>
+        <docTitle>
+          <titlePart>LES PLAISIRS DE L’ISLE ENCHANTÉE. COURSE DE BAGUE ; COLLATION ORNÉE DE
+            MACHINES ; COMEDIE, MESLÉE DE DANSE ET DE MUSIQUE ; BALLET DU PALAIS D’ALCINE ; FEU
+            D’ARTIFICE : ET AUTRES FESTES GALANTES ET MAGNIFIQUES, FAITES PAR LE ROY A VERSAILLES,
+            LE VII. MAY M. DC. LXIV. ET CONTINUÉES PLUSIEURS AUTRES JOURS.</titlePart>
+        </docTitle>
+        <docImprint>A PARIS. DE L'IMPRIMERIE ROYALE.</docImprint>
+        <docDate>M. DC. LXXIII.</docDate>
+      </titlePage>
+    </front>
     <body>
+
       <div>
-        
+
         <pb n="np"/>
         <ptr target="merveilles17_image_piefront.xml#piefront" type="include"/>
-        
+
         <pb n="3" xml:id="p3" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626216h/f16"/>
-        <head>LES PLAISIRS DE L’ISLE ENCHANTÉ. COURSE DE BAGUE ; COLLATION ORNÉE DE MACHINES ;
+        <head>LES PLAISIRS DE L’ISLE ENCHANTÉE. COURSE DE BAGUE ; COLLATION ORNÉE DE MACHINES ;
           COMEDIE, MESLÉE DE DANSE ET DE MUSIQUE ; BALLET DU PALAIS D’ALCINE ; FEU D’ARTIFICE : ET
           AUTRES FESTES GALANTES ET MAGNIFIQUES, FAITES PAR LE ROY A VERSAILLES, LE VII. MAY M. DC.
           LXIV. ET CONTINUÉES PLUSIEURS AUTRES JOURS.</head>
-        <p rend="dropcap"><persName key="louisxiv" role="commanditaire">LE ROY</persName>, voulant donner <persName
-            key="marie_therese anne_d_autriche" role="destinataire">aux Reines</persName> &amp; à
-          toute sa Cour le plaisir de quelques Festes peu communes, dans un lieu orné de tous les
-          agrémens qui peuvent faire admirer une Maison de Campagne, choisit <placeName
-            key="versailles">Versailles</placeName>, à quatre lieuës de Paris. C’est un Chasteau
-          qu’on peut nommer un Palais enchanté, tant les ajustemens de
-          <pb xml:id="p4" n="4" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626216h/f17"/> l’art
-          ont bien secondé les soins que la Nature a pris pour le rendre parfait. Il charme en
-          toutes maniéres. Tout y rit dehors &amp; dedans. <seg ana="description">L’or &amp; le
-            marbre y disputent de beauté &amp; d’éclat. Et quoy-qu’il n’ait pas cette grande étenduë
-            qui se remarque en quelques autres </seg>Palais de Sa Majesté<seg ana="description">,
-            toutes choses y sont si polies, si bien entenduës, &amp; si achevées, que rien ne le
-            peut égaler. Sa symetrie, la richesse de ses meubles, la beauté de ses promenades, &amp;
-            le nombre infini de ce lieu dignes de sa rareté singuliére. La diversité des Bestes
+        <p rend="dropcap"><persName key="louisxiv" role="commanditaire">LE ROY</persName>, voulant
+          donner <persName key="marie_therese anne_d_autriche" role="destinataire">aux
+            Reines</persName> &amp; à toute sa Cour le plaisir de quelques Festes peu communes, dans
+          un lieu orné de tous les agrémens qui peuvent faire admirer une Maison de Campagne,
+          choisit <placeName key="versailles">Versailles</placeName>, à quatre lieuës de Paris.
+          C’est un Chasteau qu’on peut nommer un Palais enchanté, tant les ajustemens de <pb
+            xml:id="p4" n="4" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626216h/f17"/> l’art ont
+          bien secondé les soins que la Nature a pris pour le rendre parfait. Il charme en toutes
+          maniéres. Tout y rit dehors &amp; dedans. <seg ana="description">L’or &amp; le marbre y
+            disputent de beauté &amp; d’éclat. Et quoy-qu’il n’ait pas cette grande étenduë qui se
+            remarque en quelques autres </seg>Palais de Sa Majesté<seg ana="description">, toutes
+            choses y sont si polies, si bien entenduës, &amp; si achevées, que rien ne le peut
+            égaler. Sa symetrie, la richesse de ses meubles, la beauté de ses promenades, &amp; le
+            nombre infini de ce lieu dignes de sa rareté singuliére. La diversité des Bestes
             contenuës dans les deux Parcs, &amp; dans la Mesnagerie, où plusieurs Cours en
             </seg><seg ana="description">Estoilles sont accompagnées de Viviers pour les animaux
             aquatiques, avec de grands Bastimens, joignent le plaisir avec la magnificence, &amp; en
             font une Maison accomplie. </seg></p>
-        <p rend="dropcap">CE fut en ce beau lieu, où toute la Cour se rendit <date when="1664-05-05">le cinquiéme
-            de May</date>; que <persName key="louisxiv" role="organisation">le Roy</persName> traita
-          plus de six cens personnes jusques au <date when="1664-05-14">quatorziéme</date> ; outre
-          une infinité de gens necessaires à la danse &amp; à la Comedie, &amp; d’Artisans de toutes
-          sortes venus de <placeName key="paris">Paris</placeName> : si-bien que cela paroissoit une
-          petite armée.</p>
+        <p rend="dropcap">CE fut en ce beau lieu, où toute la Cour se rendit <date when="1664-05-05"
+            >le cinquiéme de May</date>; que <persName key="louisxiv" role="organisation">le
+            Roy</persName> traita plus de six cens personnes jusques au <date when="1664-05-14"
+            >quatorziéme</date> ; outre une infinité de gens necessaires à la danse &amp; à la
+          Comedie, &amp; d’Artisans de toutes sortes venus de <placeName key="paris"
+            >Paris</placeName> : si-bien que cela paroissoit une petite armée.</p>
         <p>Le Ciel sembla favoriser les desseins de <persName key="louisxiv">Sa Majesté</persName>,
           puis qu’en une saison presque toûjours pluvieuse, on en fut quitte pour un peu de vent,
           qui sembla n’avoir augmenté, qu’afin de faire voir que la prévoyance &amp; la puissance du
@@ -183,10 +198,10 @@
           Sa Devise estoit telle. Un Tymbre d’Horloge, avec ces mots :</p>
         <l ana="devise" xml:lang="la">De mis golpes mi ruido.</l>
         <p>Le <name key="page">page</name> du <persName key="anne_de_noailles">Duc de
-            Noailles</persName> estoit vestu de <seg ana="description">couleur de 
-         <pb xml:id="p6" n="6" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626216h/f34"/> 
-              Feu, argent &amp; noir ; &amp; le reste de la livrée semblable</seg>. La
-          Devise qu’il portoit dans son Escu, estoit un Aigle avec ces mots :</p>
+            Noailles</persName> estoit vestu de <seg ana="description">couleur de <pb xml:id="p6"
+              n="6" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626216h/f34"/> Feu, argent &amp;
+            noir ; &amp; le reste de la livrée semblable</seg>. La Devise qu’il portoit dans son
+          Escu, estoit un Aigle avec ces mots :</p>
         <l ana="devise" xml:lang="la">Fidelis &amp; audax.</l>
         <p><persName key="trompettes timbales" role="musicien">Quatre Trompettes &amp; deux
             Tymbaliers</persName> marchoient après <name key="page">ces Pages</name>, <seg
@@ -202,9 +217,10 @@
             <tech type="animal">cheval blanc, bardé de mesme</tech>, &amp; representoit <name
             key="guidon_le_sauvage" corresp="saint_aignan">Guidon le Sauvage</name>.</p>
         <lg>
-          <label>Pour le <persName key="saint_aignan" role="acteur">Duc de Saint Aignan</persName>,</label>
+          <label>Pour le <persName key="saint_aignan" role="acteur">Duc de Saint
+            Aignan</persName>,</label>
           <label>Representant <name key="guidon_le_sauvage" corresp="saint_aignan">Guidon le
-          Sauvage</name>.</label>
+              Sauvage</name>.</label>
           <l rend="dropcap"><hi rend="sc">LEs</hi> combats que j’ay faits en l’Isle dangereuse,</l>
           <l>Quand de tant de Guerriers je demeuray vainqueur,</l>
           <l met="l8">Suivis d’une épreuve amoureuse,</l>
@@ -218,7 +234,8 @@
         </lg>
         <lg ana="quatrain">
           <label>Pour le mesme</label>
-          <l rend="dropcap"><hi rend="sc">SEul</hi> contre dix Guerriers, seul contre dix Pucelles,</l>
+          <l rend="dropcap"><hi rend="sc">SEul</hi> contre dix Guerriers, seul contre dix
+            Pucelles,</l>
           <l>C’est avoir sur les bras deux étranges querelles :</l>
           <l>Qui sort à son honneur de ce double combat</l>
           <l>Doit estre, ce me semble, un terrible Soldat.</l>
@@ -241,7 +258,7 @@
           plus guerrier, n’a mis un mortel au dessus des autres hommes.</p>
         <lg ana="sonnet">
           <label>Pour <persName key="louisxiv" role="acteur">LE ROY</persName>,</label>
-            <label>Representant <name key="roger" corresp="louisxiv">Roger</name>.</label>
+          <label>Representant <name key="roger" corresp="louisxiv">Roger</name>.</label>
           <label type="head">SONNET.</label>
           <lg>
             <l rend="dropcap"><hi rend="sc">QUelle</hi> taille, quel port a ce fier Conquérant ?</l>
@@ -271,9 +288,10 @@
             >Roy</persName>, portant <seg ana="description">la couleur de feu</seg> aussi-bien que
           tout le reste de son équipage, estoient de cette mesme livrée.</p>
         <lg>
-          <label>Pour le <persName key="anne_de_noailles" role="acteur">Duc de Noailles</persName>,</label>
-          <label>Representant <name key="oger_le_danois" corresp="anne_de_noailles">Oger le Danois</name>,
-            Juge du Camp.</label>
+          <label>Pour le <persName key="anne_de_noailles" role="acteur">Duc de
+            Noailles</persName>,</label>
+          <label>Representant <name key="oger_le_danois" corresp="anne_de_noailles">Oger le
+              Danois</name>, Juge du Camp.</label>
           <l rend="dropcap"><hi rend="sc">CE</hi> Paladin s’applique à cette seule affaire,</l>
           <l>De servir dignement le plus puissant des Rois.</l>
           <l>Comme pour bien juger, il faut sçavoir bien faire ;</l>
@@ -291,16 +309,18 @@
             >un habit de toile d’argent plusieurs rubis, &amp; montoit un cheval blanc bardé de la
             mesme couleur</seg>.</p>
         <lg>
-          <label>Pour le <persName key="henri_ii_de_guise" role="acteur">Duc de Guise</persName>,</label>
+          <label>Pour le <persName key="henri_ii_de_guise" role="acteur">Duc de
+            Guise</persName>,</label>
           <label>Representant <name key="aquilant" corresp="henri_ii_de_guise">Aquilant le
-            Noir</name>.</label>
+              Noir</name>.</label>
           <l rend="dropcap"><hi rend="sc">LA</hi> Nuit a ses beautez de mesme que le jour :</l>
           <l>Le Noir est ma couleur, je l’ay toujours aimée :</l>
           <l>Et st l’obscurité convient à mon Amour,</l>
           <l>Elle ne s’étend pas jusqu’à ma Renommée.</l>
         </lg>
         <lg>
-          <label>Pour le <persName key="henri_de_lorraine" role="acteur">Comte d’Armagnac</persName>,</label>
+          <label>Pour le <persName key="henri_de_lorraine" role="acteur">Comte
+            d’Armagnac</persName>,</label>
           <label>Representant <name key="griffon_le_blanc" corresp="henri_de_lorraine">Griffon le
               Blanc</name>.</label>
           <l rend="dropcap"><hi rend="sc">VOyez</hi> quelle candeur en moy le Ciel a mis ;</l>
@@ -314,15 +334,18 @@
             l’autre de vert, blanc et argent </seg>; toute leur livrée et leurs cheuaux estant
           dignes du reste de leur équipage.</p>
         <lg>
-          <label>Pour le <persName key="jb_gaston_foix_candale" role="acteur">Duc de Foix</persName>,</label>
-          <label>Representant <name key="renaud" corresp="jb_gaston_foix_candale">Renaud</name>.</label>
+          <label>Pour le <persName key="jb_gaston_foix_candale" role="acteur">Duc de
+            Foix</persName>,</label>
+          <label>Representant <name key="renaud" corresp="jb_gaston_foix_candale"
+            >Renaud</name>.</label>
           <l rend="dropcap">IL porte un nom celebre, il est jeune, il est sage.</l>
           <l>A vous dire le vray, c’est pour aller bien haut ;</l>
           <l>Et c’est un grand bonheur, que d’avoir à son âge,</l>
           <l>La chaleur necessaire, &amp; le flegme qu’il faut.</l>
         </lg>
         <lg>
-          <label>Pour le <persName key="armand_du_cambout" role="acteur">Duc de Coaslin</persName>,</label>
+          <label>Pour le <persName key="armand_du_cambout" role="acteur">Duc de
+            Coaslin</persName>,</label>
           <label>Representant <name key="dudon" corresp="armand_du_cambout">Dudon</name>.</label>
           <l rend="dropcap"><hi rend="sc">TRop</hi> auant dans la Gloire on ne peut s’engager :</l>
           <l>J'auray vaincu sept Rois, &amp; par mon grand courage</l>
@@ -338,105 +361,113 @@
             blanc &amp; noir ; enrichis de broderie d’argent, leur livrée de mesme</seg>, &amp; fort
           bien montez.</p>
         <lg>
-          <label>Pour le <persName key="henri_de_daillon" role="acteur">Comte de Lude</persName>,</label>
-          <label>Representant <name key="astolphe" corresp="henri_de_daillon">Astolphe</name>.</label>
+          <label>Pour le <persName key="henri_de_daillon" role="acteur">Comte de
+            Lude</persName>,</label>
+          <label>Representant <name key="astolphe" corresp="henri_de_daillon"
+            >Astolphe</name>.</label>
           <l>DE tous les Paladins qui sont dans l’Univers</l>
           <l>Aucun n’a pour l’Amour l’ame plus échaufée,</l>
           <l>Entreprenant toujours mille projets divers,</l>
           <l>Et toujours enchanté par quelque jeune Fée.</l>
         </lg>
-        
+
         <lg>
-           <label>Pour le <persName key="francois_vii_de_la_rochefoucauld" role="acteur">Prince de
+          <label>Pour le <persName key="francois_vii_de_la_rochefoucauld" role="acteur">Prince de
               Marsillac</persName>,</label>
-           <label>Representant <name key="brandimart" corresp="francois_vii_de_la_rochefoucauld"
+          <label>Representant <name key="brandimart" corresp="francois_vii_de_la_rochefoucauld"
               >Brandimart</name>.</label>
-          <l rend="dropcap"><hi rend="sc">MEs</hi> voeux seront contents, mes souhaits accomplis,</l>
+          <l rend="dropcap"><hi rend="sc">MEs</hi> voeux seront contents, mes souhaits
+            accomplis,</l>
           <l>Et ma bonne fortune à son comble arrivée,</l>
           <l>Quand vous sçaurez mon Zele, aimable FLEUR-DE-LIS,</l>
           <l>Au milieu de mon coeur profondément gravée.</l>
         </lg>
-        
+
         <p>Les <persName key="louis_marie_aumont_rochebaron" role="acteur">Marquis de
             Villequier</persName> &amp; <persName key="cm_de_belleforiere" role="acteur">de
             Soyecourt</persName>, marchoient en suite. <seg ana="description">L'un portoit le bleu
             &amp; argent : &amp; l’autre, le bleu, blanc, &amp; noir avec or &amp; argent : leurs
             plumes, &amp; les harnois de leurs chevaux estoient de la mesme couleur, &amp; d’une
             pareille richesse</seg>.</p>
-        
+
         <lg>
           <label>Pour le <persName key="louis_marie_aumont_rochebaron" role="acteur">MARQUIS DE
-      VILLEQUIER</persName>,</label>
+              VILLEQUIER</persName>,</label>
           <label>Representant <name key="richardet" corresp="louis_marie_aumont_rochebaron"
               >RICHARDET</name>.</label>
           <l rend="dropcap"><hi rend="sc">PErsonne</hi> comme moy n’est sorti galamment</l>
           <l>D'une intrigue où sans doute il falloit quelque adresse ;</l>
           <l>Personne, à mon avis, plus agréablement</l>
           <l>N'est demeuré fidelle en trompant sa Maistresse.</l>
-  
+
         </lg>
-        
+
         <lg>
           <label>Pour le <persName key="cm_de_belleforiere" role="acteur">Marquis de
-            Soyecourt</persName>,</label>
-          <label>Representant <name key="olivier" corresp="cm_de_belleforiere">Olivier</name>.</label>
-          <l rend="dropcap"><hi rend="sc">VOicy</hi> l’honneur du Siécle, auprés de qui nous sommes,</l>
+              Soyecourt</persName>,</label>
+          <label>Representant <name key="olivier" corresp="cm_de_belleforiere"
+            >Olivier</name>.</label>
+          <l rend="dropcap"><hi rend="sc">VOicy</hi> l’honneur du Siécle, auprés de qui nous
+            sommes,</l>
           <l>Et mesme les Géants, de mediocres Hommes,</l>
           <l>Et ce franc Chevalier à tout venant tout prest,</l>
           <l>Toûjours pour quelque jouste a la lance en arrest.</l>
         </lg>
-        
+
         <p>Les <persName key="louis_crevant" role="acteur">Marquis d’Humiéres</persName> &amp;
             <persName key="jf_de_labaume" role="acteur">de la Valliére</persName> les suivoient ;
             <seg ana="description">ce premier portant la couleur de chair &amp; argent; &amp;
             l’autre, gris-de-lin, blanc &amp; argent : toute leur livrée estant la plus riche, &amp;
             la mieux assortie du monde</seg>.</p>
         <pb n="10" xml:id="p10" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626216h/f38"/>
-        
+
         <lg>
-          <label>Pour le <persName key="louis_crevant" role="acteur">Marquis d’Humieres</persName>,</label>
+          <label>Pour le <persName key="louis_crevant" role="acteur">Marquis
+            d’Humieres</persName>,</label>
           <label>Representant <name key="ariodant" corresp="louis_crevant">Ariodant</name>.</label>
           <l rend="dropcap"><hi rend="sc">JE</hi> tremble dans l’accés de l’amoureuse fiévre ;</l>
           <l>Ailleurs sans vanité je ne tremblai jamais :</l>
           <l>Et ce charmant objet, l’adorable <name key="genevre">Genevre</name>,</l>
-          <l>Est l’unique vainqueur à qui je mis soûmets.</l>        
+          <l>Est l’unique vainqueur à qui je mis soûmets.</l>
         </lg>
 
         <lg>
           <label>Pour le <persName key="jf_de_labaume" role="acteur">Marquis de la
-            Valliere</persName>,</label>
+              Valliere</persName>,</label>
           <label>Representant <name key="zerbin" corresp="jf_de_labaume">Zerbin</name>.</label>
-          <l rend="dropcap"><hi rend="sc">QUelques</hi> beaux sentimens que ta gloire nous donne,</l>
+          <l rend="dropcap"><hi rend="sc">QUelques</hi> beaux sentimens que ta gloire nous
+            donne,</l>
           <l>Quand on est amoureux au souverain degré,</l>
           <l>Mourir entre les bras d’une bette Personne,</l>
           <l>Est de toutes les morts la plus douce à mon gré.</l>
         </lg>
-        
+
         <p><persName key="hj_bourbon_conde" role="acteur">Monsieur le DUC</persName> marchoit seul,
             <seg ana="description">portant pour sa livrée la couleur de feu, blanc &amp; argent. Un
             grand nombre de Diamans estoient attachez sur la magnifique broderie, dont sa cuirasse
             &amp; son bas de saye estoient couverts ; son casque &amp; le harnois de son cheval en
             estant aussi enrichis</seg>.</p>
-        
+
         <lg>
-          <label>Pour Monsieur le <persName key="hj_bourbon_conde" role="acteur">Duc</persName>,</label>
+          <label>Pour Monsieur le <persName key="hj_bourbon_conde" role="acteur"
+            >Duc</persName>,</label>
           <label>Representant <name key="roland" corresp="hj_bourbon_conde">Roland</name>.</label>
-          <l rend="dropcap"><name key="roland" corresp="hj_bourbon_conde">ROland</name> fera bien loin son grand nom
-            retentir :</l>
+          <l rend="dropcap"><name key="roland" corresp="hj_bourbon_conde">ROland</name> fera bien
+            loin son grand nom retentir :</l>
           <l>La Gloire deviendra sa fidelle compagne.</l>
           <l>Il est sorti du sang qui brusle de sortir,</l>
           <l>Quand il est question de se mettre en campagne,</l>
           <l met="l8">Et pour ne vous en point mentir,</l>
           <l met="l8">C'est le pur sang de Charlemagne.</l>
         </lg>
-        
-        <p rend="dropcap"><tech type="machine_terre">UN Char</tech> <seg ana="description">de dix-huit pieds de
-            haut, de vingt-quatre de long, &amp; de quinze de large</seg>, paroissoit en suite, <seg
-            ana="description">éclatant d’or &amp; de diverses couleurs</seg>: II representoit celuy
-            d’<name key="apollon">Apollon</name>, en l’honneur duquel se celebroient autrefois les
-          Jeux Pythiens, que ces <name key="chevaliers">Chevaliers </name>s’estoient proposez
-          d’imiter en leurs Courses &amp; en leur équipage. <name key="apollon">Cette
-            Divinité</name>
+
+        <p rend="dropcap"><tech type="machine_terre">UN Char</tech>
+          <seg ana="description">de dix-huit pieds de haut, de vingt-quatre de long, &amp; de quinze
+            de large</seg>, paroissoit en suite, <seg ana="description">éclatant d’or &amp; de
+            diverses couleurs</seg>: II representoit celuy d’<name key="apollon">Apollon</name>, en
+          l’honneur duquel se celebroient autrefois les Jeux Pythiens, que ces <name
+            key="chevaliers">Chevaliers </name>s’estoient proposez d’imiter en leurs Courses &amp;
+          en leur équipage. <name key="apollon">Cette Divinité</name>
           <tech type="lumieres">brillante de lumiéres</tech> estoit assise au plus haut du Char,
           ayant à ses pieds les <name key="le_siecle_de_fer"><name key="le_siecle_d_argent"><name
                 key="le_siecle_d_or"><name key="le_siecle_d_airain">quatre Ages ou
@@ -656,8 +687,7 @@ Est‑ce des personnages ?-->Monstres Celestes,
             estoit vert en broderie d’argent, &amp; de fleurs au naturel</seg>.</p>
         <p><name key="l_ete" corresp="gros_rene">L'Esté</name> le suivoit, représenté par le
             <persName key="gros_rene" role="acteur">Sieur du Parc</persName>, sur <tech
-            type="animal">un Eléphant, couvert d’une riche
-            housse</tech>.</p>
+            type="animal">un Eléphant, couvert d’une riche housse</tech>.</p>
         <p><name key="l_automne" corresp="la_thorilliere">L'Automne</name><seg ana="description"
             >aussi advantageusement vestuë</seg>, representée par le <persName key="la_thorilliere"
             role="acteur">Sieur de la Thorilliére</persName>, venoit aprés monté sur <tech
@@ -872,29 +902,29 @@ Est‑ce des personnages ?-->Monstres Celestes,
           l’abondance, que par la délicatesse des choses qui y furent servies. Elle faisoit aussi le
           plus bel objet qui puisse tomber sous les sens, puis que dans la nuit auprés de la verdeur
           de ces <tech type="construction">hautes palissades</tech>, <tech type="lumieres">un nombre
-            infini de Chandeliers peints de vert &amp; d’argent, portans
-              chacun vingt-quatre bougies</tech>, &amp; deux cens flambeaux <seg
-            ana="description">de cire blanche</seg>, tenus par autant de personnes <tech
-            type="costume">vestuës en Masques</tech>, rendoient une clarté, presque aussi grande
-          &amp; plus agréable que celle du jour. <name key="chevaliers">Tous les chevaliers</name>
+            infini de Chandeliers peints de vert &amp; d’argent, portans chacun vingt-quatre
+            bougies</tech>, &amp; deux cens flambeaux <seg ana="description">de cire blanche</seg>,
+          tenus par autant de personnes <tech type="costume">vestuës en Masques</tech>, rendoient
+          une clarté, presque aussi grande &amp; plus agréable que celle du jour. <name
+            key="chevaliers">Tous les chevaliers</name>
           <seg ana="description">avec leurs <tech type="costume">Casques couverts de plumes de
               differentes couleurs, &amp; leurs habits de la Course</tech></seg>, estoient appuyez
           sur la Barriére; &amp; ce <name key="chevaliers">grand nombre d’Officiers</name>
-          <seg ana="description">richement vestus</seg>, qui servoient, en
-        <pb n="20" xml:id="p20" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626216h/f48"/>
-        augmentoîent encore la beauté, &amp; rendoient ce rond une chose enchantée, duquel, aprés
-          la Collation, <persName key="louisxiv marie_therese anne_d_autriche">leurs
-            Majestez</persName> &amp; toute la Cour, sortirent par le Portique opposé à la Barriére,
-          &amp; dans un grand nombre de Calesches fort ajustées, reprirent le chemin du <placeName
-            key="versailles_chateau">Chasteau</placeName>.</p>
+          <seg ana="description">richement vestus</seg>, qui servoient, en <pb n="20" xml:id="p20"
+            facs="https://gallica.bnf.fr/ark:/12148/btv1b8626216h/f48"/> augmentoîent encore la
+          beauté, &amp; rendoient ce rond une chose enchantée, duquel, aprés la Collation, <persName
+            key="louisxiv marie_therese anne_d_autriche">leurs Majestez</persName> &amp; toute la
+          Cour, sortirent par le Portique opposé à la Barriére, &amp; dans un grand nombre de
+          Calesches fort ajustées, reprirent le chemin du <placeName key="versailles_chateau"
+            >Chasteau</placeName>.</p>
         <trailer>Fin de la premiére Journée.</trailer>
       </div>
-      
-      
+
+
       <div>
         <pb n="np"/>
         <ptr target="merveilles17_image_pie2comedie.xml#pie2comedie" type="include"/>
-        
+
         <pb n="21" xml:id="p21" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626216h/f52"/>
         <head><date when="1664-05-08">SECONDE JOURNÉE</date> DES PLAISIRS DE L’ISLE
           ENCHANTÉE.</head>
@@ -1215,7 +1245,7 @@ Est‑ce des personnages ?-->Monstres Celestes,
             Princesse</name> à mes yeux.</l>
         <l>Je vis tous les appas dont elle est revestuë ;</l>
         <l>Mais de l’oeil dont on voit une belle Statuë.</l>
-        <pb n="29" xml:id="p29"  facs="https://gallica.bnf.fr/ark:/12148/btv1b8626216h/f60"/>
+        <pb n="29" xml:id="p29" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626216h/f60"/>
         <l>Leur brillante jeunesse observée à loisir</l>
         <l>Ne porta dans mon ame aucun secret desir ;</l>
         <l>Et d’Ithaque en repos je revis le rivage,</l>
@@ -2968,22 +2998,21 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <label type="head">SIXIEME INTERMEDE.</label>
         <p>CHOEUR DE <name key="pasteur">PASTEURS</name> ET DE <name key="bergere"
             corresp="mlle_de_la_barre"><name key="bergere" corresp="hilaire_dupuis"
-              >BERGERES</name></name> qui dansent.</p>
-        <p><name key="berger" corresp="claude_le_gros"><name key="berger"
-              corresp="estival"><name key="berger" corresp="louis_don"><name
-                  key="francois_blondel">Quatre Bergers</name></name></name></name> &amp; <name
-            key="bergere" corresp="mlle_de_la_barre"><name key="bergere"
-              corresp="hilaire_dupuis">deux Bergeres</name></name> Héroïques, representez, les
-          premiers par les <persName key="claude_le_gros" role="chanteur danseur">Sieurs le
-            Gros</persName>, <persName key="estival" role="chanteur danseur">Estival</persName>,
-            <persName key="louis_don" role="chanteur danseur">Don</persName> &amp; <persName
-            key="francois_blondel" role="chanteur danseur">Blondel</persName>; &amp; les <name
-            key="bergere" corresp="mlle_de_la_barre"><name key="bergere"
-              corresp="hilaire_dupuis">deux Bergeres</name></name>, par <persName
-            key="mlle_de_la_barre" role="chanteur danseur">Madelle de la Barre</persName>, &amp;
-            <persName key="hilaire_dupuis" role="chanteur danseur">Madelle Hilaire</persName>, se
-          prenant par la main, chanterent cette Chanson à danser, à laquelle les autres
-          répondirent.</p>
+            >BERGERES</name></name> qui dansent.</p>
+        <p><name key="berger" corresp="claude_le_gros"><name key="berger" corresp="estival"><name
+                key="berger" corresp="louis_don"><name key="francois_blondel">Quatre
+                Bergers</name></name></name></name> &amp; <name key="bergere"
+            corresp="mlle_de_la_barre"><name key="bergere" corresp="hilaire_dupuis">deux
+              Bergeres</name></name> Héroïques, representez, les premiers par les <persName
+            key="claude_le_gros" role="chanteur danseur">Sieurs le Gros</persName>, <persName
+            key="estival" role="chanteur danseur">Estival</persName>, <persName key="louis_don"
+            role="chanteur danseur">Don</persName> &amp; <persName key="francois_blondel"
+            role="chanteur danseur">Blondel</persName>; &amp; les <name key="bergere"
+            corresp="mlle_de_la_barre"><name key="bergere" corresp="hilaire_dupuis">deux
+              Bergeres</name></name>, par <persName key="mlle_de_la_barre" role="chanteur danseur"
+            >Madelle de la Barre</persName>, &amp; <persName key="hilaire_dupuis"
+            role="chanteur danseur">Madelle Hilaire</persName>, se prenant par la main, chanterent
+          cette Chanson à danser, à laquelle les autres répondirent.</p>
         <p>CHANSON.</p>
         <l>USEZ mieux, ô beautez fiéres,</l>
         <l>Du pouvoir de tout charmer;</l>
@@ -3016,14 +3045,11 @@ Est‑ce des personnages ?-->Monstres Celestes,
             <persName key="tissu" role="musicien">Tissu</persName> &amp; <persName key="le_moine"
             role="musicien">le Moine</persName>.</p>
         <pb n="80" xml:id="p80"/>
-        <p>Et <name key="berger" corresp="chicanneau"><name
-              key="berger" corresp="du_pron"><name
-                key="berger" corresp="noblet"><name
-                  key="berger" corresp="la_pierre">quatre
-              Bergers</name></name></name></name>, &amp; <name key="bergere"
-            corresp="balthazard_martinot"><name key="bergere" corresp="magny"
-                ><name key="bergere" corresp="arnald"><name
-                  key="bergere" corresp="bonard">quatre
+        <p>Et <name key="berger" corresp="chicanneau"><name key="berger" corresp="du_pron"><name
+                key="berger" corresp="noblet"><name key="berger" corresp="la_pierre">quatre
+                  Bergers</name></name></name></name>, &amp; <name key="bergere"
+            corresp="balthazard_martinot"><name key="bergere" corresp="magny"><name key="bergere"
+                corresp="arnald"><name key="bergere" corresp="bonard">quatre
               Bergéres</name></name></name></name> vinrent danser une fort belle Entrée, à laquelle
             <name key="faunes">les Faunes</name> descendans de l’arbre se meslerent de temps en
           temps ; &amp; toute cette Scene fut si grande, si remplie &amp; si agréable, qu’il ne
@@ -3031,19 +3057,15 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <p>Aussi fit-elle une avantageuse conclusion aux divertissemens de ce jour, que toute la
           Cour ne loüa pas moins que celuy qui l’avoit précedé, se retirant avec une satisfaction
           qui luy fit bien esperer de la suite d’une Feste si complete.</p>
-        <p>Les <name key="berger" corresp="chicanneau"><name
-              key="berger" corresp="du_pron"><name
-                key="berger" corresp="noblet"><name
-                  key="berger" corresp="la_pierre"
-            >Bergers</name></name></name></name> étoient, <persName key="chicanneau" role="danseur"
-            >les Sieurs Chicanneau</persName>, <persName key="du_pron" role="danseur">du
-            Pron</persName>, <persName key="noblet" role="danseur">Noblet</persName>, &amp;
+        <p>Les <name key="berger" corresp="chicanneau"><name key="berger" corresp="du_pron"><name
+                key="berger" corresp="noblet"><name key="berger" corresp="la_pierre"
+                >Bergers</name></name></name></name> étoient, <persName key="chicanneau"
+            role="danseur">les Sieurs Chicanneau</persName>, <persName key="du_pron" role="danseur"
+            >du Pron</persName>, <persName key="noblet" role="danseur">Noblet</persName>, &amp;
             <persName key="la_pierre" role="danseur">la Pierre</persName>.</p>
-        <p>Et <name key="bergere" corresp="balthazard_martinot"><name
-              key="bergere" corresp="magny"><name
-                key="bergere" corresp="arnald"><name
-                  key="bergere" corresp="bonard">les
-              Bergéres</name></name></name></name>, <persName key="balthazard_martinot"
+        <p>Et <name key="bergere" corresp="balthazard_martinot"><name key="bergere" corresp="magny"
+                ><name key="bergere" corresp="arnald"><name key="bergere" corresp="bonard">les
+                  Bergéres</name></name></name></name>, <persName key="balthazard_martinot"
             role="danseur">les Sieurs Baltazard</persName>, <persName key="magny" role="danseur"
             >Magny</persName>, <persName key="arnald" role="danseur">Arnald</persName>, &amp;
             <persName key="bonard" role="danseur">Bonard</persName>.</p>
