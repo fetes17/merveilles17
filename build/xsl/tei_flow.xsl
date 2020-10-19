@@ -1615,21 +1615,21 @@ Tables
   -->
   <xsl:template match="tei:figure | tei:facsimile">
     <xsl:param name="from"/>
-    <xsl:param name="el">
-      <xsl:choose>
-        <xsl:when test="$format = 'html5'">figure</xsl:when>
-        <xsl:otherwise>div</xsl:otherwise>
-      </xsl:choose>
-    </xsl:param>
-    <xsl:element name="{$el}" namespace="http://www.w3.org/1999/xhtml">
-      <xsl:attribute name="id">
-        <xsl:call-template name="id"/>
-      </xsl:attribute>
-      <xsl:call-template name="atts"/>
-      <xsl:apply-templates>
-        <xsl:with-param name="from" select="$from"/>
-      </xsl:apply-templates>
-    </xsl:element>
+    <xsl:choose>
+      <!-- pad de <graphic/> -->
+      <xsl:when test="not(*)"/>
+      <xsl:otherwise>
+        <figure>
+          <xsl:attribute name="id">
+            <xsl:call-template name="id"/>
+          </xsl:attribute>
+          <xsl:call-template name="atts"/>
+          <xsl:apply-templates>
+            <xsl:with-param name="from" select="$from"/>
+          </xsl:apply-templates>
+        </figure>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
   <xsl:template match="tei:figure/tei:head | tei:lg/tei:head">
     <xsl:if test=". != ''">
