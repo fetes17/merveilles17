@@ -1,4 +1,4 @@
-
+home="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
 
 reduce() {
@@ -9,12 +9,46 @@ reduce() {
 }
 
 list() {
-  for srcfile in ../xml/*.xml
+  for srcfile in $home/../xml/*.xml
   do
     srcname="${srcfile##*/}"
     srcname="${srcname%.*}"
-    cp 0.jpg $srcname.jpg
+    dstfile="$home/$srcname.jpg"
+    if test -f "$dstfile"; then
+      # echo "$dstfile exists"
+      continue
+    fi
+    cp $home/0.jpg $dstfile
   done
-
 }
 
+vignettes() {
+  for srcfile in $home/*.jpg
+  do
+    srcname="${srcfile##*/}"
+    srcname="${srcname%.*}"
+    if [ "$srcname" = 0 ]; then
+      continue
+    fi
+    dstfile="$home/S/$srcname,S.jpg"
+    if [ "$srcfile" -ot "$dstfile" ]; then
+      continue
+    fi
+    echo $dstfile
+    reduce $srcfile 500x500 $dstfile
+  done
+
+  for srcfile in $home/S/*.jpg
+  do
+    srcname="${srcfile##*/}"
+    srcname="${srcname%,S.*}"
+    dstfile=$home/$srcname.jpg
+    if [ -f $dstfile ]; then
+      continue
+    fi
+    echo suppression de $srcfile
+    rm $srcfile
+  done
+}
+
+vignettes

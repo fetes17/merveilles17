@@ -304,9 +304,10 @@ CREATE INDEX date_document_document ON date_document(document);
   public static function documents()
   {
     Build::mkdir(Build::rmdir(self::$home."site/document/"));
+    Build::mkdir(Build::rmdir(self::$home."site/document/S/"));
     Build::mkdir(Build::rmdir(self::$home."site/texte/"));
-    foreach (glob(self::$home."couv/*.jpg") as $srcfile) {
-      copy($srcfile, self::$home.'site/document/'.basename($srcfile));
+    foreach (glob(self::$home."couv/S/*.jpg") as $srcfile) {
+      copy($srcfile, self::$home.'site/document/S/'.basename($srcfile));
     }
     
     $template = str_replace("%relpath%", "../", self::$template);
@@ -637,7 +638,7 @@ CREATE INDEX date_document_document ON date_document(document);
         $type = $row['type'];
       }
       $html .= '<a class="document" href="'.$relpath.$row['code'].self::$_html.'">'."\n";
-      $html .= '  <img src="'.$relpath.$row['code'].'.jpg"/>'."\n";
+      $html .= '  <img src="'.$relpath.'S/'.$row['code'].',S.jpg"/>'."\n";
       $html .= '  <div>'."\n";
       $html .= '    <div class="title">'.$row['title'].'</div>'."\n";
       $html .= '    <div class="publine">';
