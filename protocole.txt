@@ -164,7 +164,7 @@ Les listes des fonctions et des affiliations restent à mettre en place.
 Attention : l’attribut role renvoie aux catégories générales dans lesquelles s’inscrivent les personnes au sein de l’événement : organisateur, danseur, acteur, courtisan, auteur, etc. Il ne renvoie pas au rôle/personnage joué par la personne.
 
 La balise <name> sera complétée par un attribut « key » renvoyant à un index et, si nécessaire, par un attribut ana renvoyant à la personne qui incarne le personnage (si elle est mentionnée dans le texte à proximité de l’occurence balisée):
-<name key="#roger" ana="#louisxiv”>Roger</name> 
+<name key="#roger" corresp="#louisxiv”>Roger</name> 
 Pour les mentions de personnages historiques (Charlemagne) ou fictifs (Apollon) qui ne sont pas joués par un participant :
 <name key="#Charlemagne”>Charle Magne</name> 
 
@@ -190,8 +190,8 @@ Les divisions explicites du texte (chapitres, journées, parties), à l’intér
 
 Tout paragraphe est encadré par <p>…</p>. Quand le paragraphe est une description, la balise est assortie d’un attribut <p type="description">
 
-Les passages de vers doivent être encadrés par la balise <lg>  assortie d’un attribut type (quatrain, madrigal, devise…)
-        <lg type="quatrain">
+Les passages de vers doivent être encadrés par la balise <lg>  assortie d’un attribut ana (quatrain, madrigal, devise…)
+        <lg ana="quatrain">
         <l>Ce n’est pas sans raison que la Terre et les Cieux,</l>
         <l>Ont tant d’estonnement pour un objet si rare;</l>
         <l>Qui dans son cours pénible, autant que glorieux,</l>
