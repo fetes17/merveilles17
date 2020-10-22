@@ -6,14 +6,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Rôle des dépenses du Trésor royal des quartiers de janvier et avril (paiement à
-          Molière).</title>
+        <title>États de la dépense et recette du Trésor royal. Copies collationnées par des commis
+          du Trésor. 1664. Tome I : janvier-juin</title>
         <author/>
       </titleStmt>
       <editionStmt>
         <edition>Merveilles17</edition>
         <respStmt>
           <name>Mathilde Nicolas</name>
+          <resp>Transcription et balisage</resp>
+        </respStmt>
+        <respStmt>
+          <name>Gaëlle Lafage</name>
+          <resp>Encodage et corrections</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -24,13 +29,15 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><title>Rôle des dépenses du Trésor royal des quartiers de janvier et avril (paiement à
-            Molière)</title>, 1664.</bibl>
+        <bibl><title>États de la dépense et recette du Trésor royal. Copies collationnées par des
+            commis du Trésor. 1664. Tome I : janvier-juin</title>.<note> Paris, BNF, Manuscrits,
+            Mélanges Colbert 268, fol. 34-40.</note><ptr
+              target="https://gallica.bnf.fr/ark:/12148/btv1b100351266/f40"/></bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
       <creation>
-        <date when="1664">1664.</date>
+        <date when="1664">1664</date>
       </creation>
       <langUsage>
         <language ident="fr"/>
@@ -39,22 +46,25 @@
   </teiHeader>
   <text>
     <body>
-      <pb n="390" xml:id="p390"/>
-      <p>Audit <persName key="michel_d_aligre" role="organisation">d’Aligre</persName> [trésorier des menus plaisirs], la somme de quatre mil
-        livres que <persName key="louisxiv" role="commanditaire">Sa Majesté</persName> lui a ordonnée pour emploier au fait de sa
-        charge, mesmes icelle delivrer à <persName key="la_troupe">la troupe des comediens</persName> de
-          <persName key="philippe_orleans">Monseigneur le duc d’Orleans</persName> pour les comedies qu’ils
-        ont representées au <placeName key="versailles_chateau">chasteau de Versailles</placeName> et pour leur servir audit
-        lieu pendant les festes et rejouissances qui y ont esté faictes, cy...</p>
-      <p rend="right">4.000 l. comptant.</p>
-      <p>A luy [<persName key="michel_d_aligre" role="organisation">Michel d’Aligre</persName>], la somme de deux mil livres que <persName key="louisxiv" role="commanditaire">Sa
-          Majesté</persName> lui a ordonnée pour emploier au fait de sadicte charge, mesmes icelle
+      <pb n="38v" xml:id="f38v"/>
+      <p>Audit <persName key="michel_d_aligre" role="organisation">d’Aligre</persName>, la somme de
+        quatre mil livres que <persName key="louisxiv" role="commanditaire">Sa maiesté</persName>
+        lui a ordonnée pour emploier au fait de sa charge, mesmes icelle delivrer à <persName
+          key="la_troupe">la troupe des comediens</persName> de <persName key="philippe_orleans"
+            >mons.<hi rend="sup">r</hi> le duc d’Orleans</persName> pour les comedies qu’ils ont representées au
+          <placeName key="versailles_chateau">chasteau de Versailles</placeName> et pour leur servir
+        audit lieu pendant les festes et reiouïssances qui y ont esté faictes, cy...</p>
+      <p rend="right"><hi rend="sc">iiii</hi><hi rend="sup">9</hi>lt</p>
+      <p>A luy [<persName key="michel_d_aligre" role="organisation">Michel d’Aligre</persName>], la
+        somme de deux mil livres que <persName key="louisxiv" role="commanditaire">Sa
+          maiesté</persName> lui a ordonnée pour emploier au fait de sadicte charge, mesmes icelle
         delivrer à <persName key="moliere">Molieres</persName>, chef de la troupe des comediens de
-          <persName key="philippe_orleans">Monseigneur le duc d’Orleans</persName>, laquelle <persName key="louisxiv" role="commanditaire">Sa
-          Majesté</persName> lui a ordonnée pour une nouvelle comedie qu’il a faicte et
-        qui a esté representée par <persName key="la_troupe">la troupe</persName> pendant les festes et
-        rejouissances de <placeName key="versailles">Versailles</placeName>, cy...</p>
-      <p rend="right">2.000 l.</p>
+          <persName key="philippe_orleans">mons.<hi rend="sup">r</hi> le duc d’Orleans</persName>, laquelle
+          <persName key="louisxiv" role="commanditaire">Sa ma.<hi rend="sup">té</hi></persName> lui a ordonnée pour
+        une nouvelle comedie qu’il a faicte et qui a esté representée par <persName key="la_troupe"
+          >la troupe</persName> pendant les festes et reiouïssances de <placeName key="versailles"
+          >Versailles</placeName>, cy...</p>
+      <p rend="right"><hi rend="sc">ii</hi><hi rend="sup">9</hi>lt</p>
     </body>
   </text>
 </TEI>
