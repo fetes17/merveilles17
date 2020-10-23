@@ -8,8 +8,8 @@
       <titleStmt>
         <title>Les Plaisirs De L'Isle Enchantée Festes Galantes, et Magnifiques, faites par Le Roy à
           Versailles, le 7<hi rend="sup">e</hi> May 1664.</title>
-        <author>Jean-Baptiste Lully</author>
-        <editor role="Copié par">Philidor André (1652 ?-1730)</editor>
+        <author key="lully">Jean-Baptiste Lully</author>
+        <editor key="philidor" role="Copié par">Philidor André (1652 ?-1730)</editor>
       </titleStmt>
       <editionStmt>
         <edition>Merveilles17</edition>
@@ -20,6 +20,10 @@
         <respStmt>
           <name>Marion Ignace</name>
           <resp>Balisage</resp>
+        </respStmt>
+        <respStmt>
+          <name>Gaëlle Lafage</name>
+          <resp>Correction</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -33,7 +37,7 @@
 
         <bibl>Philidor André, <title>Les Plaisirs De L'Isle Enchantée Festes Galantes, et
             Magnifiques, faites par Le Roy à Versailles, le 7e May 1664. Copié par Philidor
-            L'aisné</title>, <date>1690</date>.<ptr
+            L'aisné</title><note><date>1690</date>, Paris, BNF, Musique, RES F-531</note>.<ptr
             target="https://gallica.bnf.fr/ark:/12148/bpt6k2072108"/></bibl>
       </sourceDesc>
     </fileDesc>
@@ -48,26 +52,24 @@
   </teiHeader>
   <text>
     <body>
-      <pb n="1" xml:id="p1"/>
+      <pb n="1" xml:id="p1" facs="https://gallica.bnf.fr/ark:/12148/bpt6k2072108/f1"/>
       <head>Les Plaisirs de L’Isle Enchantée</head>
+      <head>Festes Galantes, et Magnifiques, faites par Le Roy à Versailles, le <date
+          when="1664-05-07">7<hi rend="sup">e</hi> May 1664</date>.</head>
+      <p>Copié par Philidor L’aisné.</p>
+      <pb n="3" xml:id="p3" facs="https://gallica.bnf.fr/ark:/12148/bpt6k2072108/f2"/>
       <div>
-        <head>Festes Galantes, et Magnifiques, faites par Le Roy à Versailles, le <date
-            when="1664-05-07">7<hi rend="sup">e</hi> May 1664</date>.</head>
-        <p>Copié par Philidor L’aisné.</p>
-        <pb n="3" xml:id="p3"/>
-        <head>Les Plaisirs de L’Isle Enchantée</head>
-      </div>
-      <div>
+        <head>Les Plaisirs de l'Isle Enchantée</head>
         <head>Course de Bague, Collation ornée de Machines, Comedie de Moliere, Intitulée la
           Princesse d’Elide, meslée de danse, et de Musique, Ballet du Palais d’Alcine, Feu
           d’Artifice, et autres Festes galantes, et magnifiques, faites par le Roy à Versailles, le
             <date when="1664-05-07">7<hi rend="sup">e</hi> May 1664</date> et continuées plusieurs
           autres Iours.</head>
         <p><persName key="louisxiv" role="organisation">Le Roy</persName> voulant donner aux
-            <persName key="marie_therese anne_d_autriche" role="destinataire">Reines</persName>, et
-          à toute sa Cour le plaisir de quelques festes peu commvnes, dans vn lieu orné de tous les
-          agrémens qui peuuent</p>
-        <pb n="4" xml:id="p4"/>
+            <persName key="marie_therese" role="destinataire"><persName key="anne_d_autriche"
+              role="destinataire">Reines</persName></persName>, et à toute sa Cour le plaisir de
+          quelques festes peu commvnes, dans vn lieu orné de tous les agrémens qui peuuent</p>
+        <pb n="4" xml:id="p4" facs="https://gallica.bnf.fr/ark:/12148/bpt6k2072108/f3"/>
         <p>faire admirer vne Maison de Campagne, choisit <placeName key="versailles"
             >Versailles</placeName> à quatre lieuës de <placeName key="paris">Paris</placeName>.
           C’est vn chateau, qu’on peut nommer vn Palais Enchanté, tant les ajustemens de l’art ont
@@ -96,7 +98,7 @@
           l’épreuue de plus grandes Incommoditez. <tech type="construction">De hautes toiles, des
             bastimens de bois</tech>, faits presque en vn Instant, et <tech type="lumieres">vn
             nombre prodigieux de flambeaux de cire blanche</tech>, pour</p>
-        <pb n="5" xml:id="p5"/>
+        <pb n="5" xml:id="p5" facs="https://gallica.bnf.fr/ark:/12148/bpt6k2072108/f4"/>
         <p>suppléer à plus de <tech type="lumieres">quatre mille bougies</tech> chaque Iournée,
           resisterent à ce Vent qui par tout ailleurs eut rendu ces divertissemens comme Impossibles
           à acheuer.</p>
@@ -129,11 +131,11 @@
             feu en broderie d’argent</seg>, et fort bien monté.</p>
         <p>Il estoit suiuy de <name key="page">trois pages</name> : celuy du <persName
             key="louisxiv">Roy</persName>, <persName key="artagnan" role="acteur">Mr.
-            d’Artagnan</persName><!--ici d'Artagnan est encodé comme un persName, dans pie1673 il est encodé comme un name-->,
-          marchoit à la teste de deux autres, <seg ana="description">fort richement habillé de
-            couleur de feu</seg>, liurée de <persName key="louisxiv">sa Majesté</persName>, portant
-          sa lance, et son Escu, dans le quel brilloit vn Soleil de pierreries, auec ces mots.</p>
-        <p><foreign>Nec cesso, nec Erro</foreign>.</p>
+            d’Artagnan</persName>, marchoit à la teste de deux autres, <seg ana="description">fort
+            richement habillé de couleur de feu</seg>, liurée de <persName key="louisxiv">sa
+            Majesté</persName>, portant sa lance, et son Escu, dans le quel brilloit vn Soleil de
+          pierreries, auec ces mots.</p>
+        <l ana="devise" xml:lang="la">Nec cesso, nec Erro.</l>
         <p>Faisant allusion à l’attachement de <persName key="louisxiv">sa Majesté</persName> aux
           affaires de son Estat, et la maniere auec la quelle il agit. Ce qui estoit encore
           represente par ces quatre Vers du <persName key="perigny" role="auteur">Président de
@@ -148,36 +150,33 @@
             >Ducs de St. Aignan</persName>, et <persName key="anne_de_noailles">de
             Noailles</persName>, le Premier, Mareschal de Camp, et l’autre, Iuge des Courses. Celuy
           du <persName key="saint_aignan">Duc de</persName></p>
-        <pb n="6" xml:id="p6"/>
+        <pb n="6" xml:id="p6" facs="https://gallica.bnf.fr/ark:/12148/bpt6k2072108/f5"/>
         <p><persName key="saint_aignan">St. Aignant</persName> portoit l’Escu de sa Deuise, et <seg
             ana="description">estoit habillé de sa liurée de toile d’argent enrichie d’or, auec des
             plumes Incarnates, et noires, et les rubans de mesme</seg>. Sa Devise estoit vn Timbre
           d’Orloge, auec ces Mots.</p>
         <p><foreign>De mis golpes, mi Ruido</foreign>.</p>
-        <p>Le <name key="page">Page</name> du <persName key="anne_de_noailles">Duc de
-            Noailles</persName>
+        <p>Le Page du <persName key="anne_de_noailles">Duc de Noailles</persName>
           <seg ana="description">estoit Vêtu de couleur de feu, argent, et noir</seg>, et le reste
           de la liurée semblable : La Devise qu’il portoit dans son Escu estoit vn Aigle auec ces
           mots.</p>
-        <p><foreign>Fidelis, et audax</foreign>.</p>
-        <p><persName key="trompettes" role="musicien">Quatre Trompettes</persName>, et <persName
-            key="timbales" role="musicien">deux Tymballiers</persName> marchoient apres <name
-            key="page">ces Pages</name>, <seg ana="description">habillez de satin couleur de feu, et
-            argent, leurs plumes de la mesme liurée, et les caparaçons de leurs chevaux couuerts
-            d’vne pareille broderie, auec des Soleils d’or fort éclattans aux banderoles des
-            Trompettes, et aux couuertures des Timbales</seg>.</p>
+        <l ana="devise" xml:lang="la">Fidelis, et audax.</l>
+        <p>Quatre Trompettes, et deux Tymballiers marchoient apres ces Pages, <tech type="costume"
+            >habillez de satin couleur de feu, et argent, leurs plumes de la mesme liurée, et les
+            caparaçons de leurs chevaux couuerts d’vne pareille broderie, auec des Soleils d’or fort
+            éclattans aux banderoles des Trompettes, et aux couuertures des Timbales</tech>.</p>
         <p>Le <persName key="saint_aignan" role="acteur">Duc de St. Aignan</persName> Mareschal de
-          Camp marchoit apres eux, <tech type="costume">armé à la Grecque</tech>, <seg
-            ana="description">d’vne cuirasse de toile d’argent couuertes de petites écailles d’or,
-            aussibien que son bas de saye, et son casque estoit orné d’vn dragon, et d’vn grand
-            nombre de plumes blances, meslées d’Incarnat, et de noir</seg>. Il montoit vn cheval
-          blanc, bardé de mesme, et representoit <name key="guidon_le_sauvage"
-            corresp="saint_aignan">Guidon le Sauuage</name></p>
+          Camp marchoit apres eux, <tech type="costume">armé à la Grecque, d’vne cuirasse de toile
+            d’argent couuertes de petites écailles d’or, aussibien que son bas de saye, et son
+            casque estoit orné d’vn dragon, et d’vn grand nombre de plumes blances, meslées
+            d’Incarnat, et de noir</tech>. Il montoit <tech type="animal">vn cheval blanc</tech>,
+          bardé de mesme, et representoit <name key="guidon_le_sauvage" corresp="saint_aignan"
+            >Guidon le Sauuage</name></p>
         <p>Pour le <persName key="saint_aignan" role="destinataire">Duc de St. Aignant</persName>,
           representant <name key="guidon_le_sauvage" corresp="saint_aignan">Guidon Le
           Sauuage</name>.</p>
         <lg ana="madrigal">
-          <label>Madrigal</label>
+          <label type="head">Madrigal</label>
           <l>Les combats que I’ay faits en l’Isle dangereuse</l>
           <l>Quand de tant de Guerriers je demeuray Vainqueur,</l>
           <l>Suiuis d’vne épreuue amoureuse</l>
@@ -188,16 +187,17 @@
           <l>Fait dire pour ma gloire aux deux bouts de la terre,</l>
           <l>Qu’on n’en vid point en toute guerre</l>
           <l>Ny plus souvent ny mieux frapper.</l>
-          <label>Pour Le Mesme</label>
+        </lg>
+        <label type="head">Pour Le Mesme</label>
+        <lg ana="quatrain">
           <l>Seul contre dix Guerriers, seul contre dix Pucelles</l>
           <l>C’est auoir sur les bras deux Etranges querelles.</l>
-          <l>Qui sort à son honneur de ce double combat</l>
+          <l>Qui sort à son hame>onneur de ce double combat</l>
           <l>Doit estre ce me semble vn terrible Soldat.</l>
         </lg>
-        <p><persName key="trompettes" role="musicien">Huict Trompettes</persName> et <persName
-            key="timbales" role="musicien">2 Tymbaliers</persName> vestus comme les autres,
-          marchoient apres le Mareschal de Camp.</p>
-        <pb n="7" xml:id="p7"/>
+        <p>Huict Trompettes et 2 Tymbaliers vestus comme les autres, marchoient apres le Mareschal
+          de Camp.</p>
+        <pb n="7" xml:id="p7" facs="https://gallica.bnf.fr/ark:/12148/bpt6k2072108/f6"/>
         <p>Le <persName key="louisxiv" role="acteur">Roy</persName> representant <name key="roger"
             corresp="louisxiv">Roger</name> les suiuoit, montant vn des plus beaux cheuaux du monde,
           dont <seg ana="description">le harnois couleur de feu, éclattoit d’or, d’argent et de
@@ -205,7 +205,7 @@
             <tech type="costume">armée à la façon des Grecs</tech>, comme tous ceux de sa Quadrille,
           et <seg ana="description">portoit vne cuirasse de lames d’argent, couuerte d’vne riche
             broderie d’or, et de diamans</seg>. Son port, et toute son action estoient dignes de son
-          rang. <seg ana="description">Son casque tout couuert de plumes couleur de feu</seg> auoit
+          rang. <tech type="costume">Son casque tout couuert de plumes couleur de feu</tech> auoit
           vn grace Incomparable, et Iamais vn air plus libre, ny plus guerrier n’a mis vn mortel au
           dessus des autres Hommes.</p>
         <lg ana="sonnet">
@@ -237,12 +237,12 @@
         </lg>
         <p>Le <persName key="anne_de_noailles" role="acteur">Duc de Noailles</persName> Iuge du Camp
           sous le nom d’<name key="oger_le_danois" corresp="anne_de_noailles">Ogier Le
-          Danois</name>, marchoit apres le <persName key="louisxiv">Roy</persName>, <seg
-            ana="description">portant la couleur de feu, et le noir, sous vne riche broderie
-            d’argent, et ses plumes</seg>, aussibien que tout le reste de son Equipage, estoient de
-          cette mesme liurée.</p>
+          Danois</name>, marchoit apres le <persName key="louisxiv">Roy</persName>, <tech
+            type="costume">portant la couleur de feu, et le noir, sous vne riche broderie d’argent,
+            et ses plumes</tech>, aussibien que tout le reste de son Equipage, estoient de cette
+          mesme liurée.</p>
         <lg ana="vers">
-          <label type="speaker">Le <persName key="anne_de_noailles" role="acteur">Duc de
+          <label type="head">Le <persName key="anne_de_noailles" role="acteur">Duc de
               Noailles</persName>
             <name key="oger_le_danois" corresp="anne_de_noailles">Oger le Danois</name></label>
           <l>Ce Paladin s’applique à cette seule affaire</l>
@@ -250,7 +250,7 @@
           <l>Comme pour bien Iuger, il faut sçauoir bien faire </l>
           <l>Ie doute que personne appelle de sa Voix</l>
         </lg>
-        <pb n="8" xml:id="p8"/>
+        <pb n="8" xml:id="p8" facs="https://gallica.bnf.fr/ark:/12148/bpt6k2072108/f7"/>
         <p>Le <persName key="henri_ii_de_guise" role="acteur">Duc de Guise</persName>, et le
             <persName key="henri_de_lorraine" role="acteur">Comte d’Armagnac</persName> marchoient
           ensemble apres luy, le premier portoit le nom d’<name key="aquilant"
@@ -261,7 +261,7 @@
           <seg ana="description">portoit sur vn habit de toile d’argent plusieurs rubis, et montoit
             vn cheval blanc, bardé de la mesme couleur</seg>.</p>
         <lg ana="vers">
-          <label type="speaker">Le <persName key="henri_ii_de_guise" role="acteur">Duc de
+          <label type="head">Le <persName key="henri_ii_de_guise" role="acteur">Duc de
               Guise</persName>
             <name key="aquilant" corresp="henri_ii_de_guise">Aquilant le Noir</name>.</label>
           <l>La nuict a ses beautez de mesme que le Iour</l>
@@ -270,7 +270,7 @@
           <l>Elle ne s’étend pas Iusqu’à ma Renommée.</l>
         </lg>
         <lg ana="vers">
-          <label type="speaker">Le <persName key="henri_de_lorraine" role="acteur">Comte
+          <label type="head">Le <persName key="henri_de_lorraine" role="acteur">Comte
               d’Armagnac</persName>
             <name key="griffon_le_blanc" corresp="henri_de_lorraine">Griffon le Blanc</name></label>
           <l>Voyez quelle candeur en moy le ciel a mis </l>
@@ -284,7 +284,7 @@
             de Vert blanc, et argent</seg>, Toute leur liurée et leurs cheuaux estant dignes du
           reste de leur Equipage.</p>
         <lg ana="vers">
-          <label type="speaker">Pour le <persName key="jb_gaston_foix_candale" role="acteur">Duc de
+          <label type="head">Pour le <persName key="jb_gaston_foix_candale" role="acteur">Duc de
               Foix</persName>. <name key="renaud" corresp="jb_gaston_foix_candale"
             >Renaut</name></label>
           <l>Il porte vn nom celebre, il est Ieune, il est sage.</l>
@@ -293,7 +293,7 @@
           <l>La chaleur necessaire, et le flegme qu’il faut.</l>
         </lg>
         <lg ana="vers">
-          <label ana="vers">Le <persName key="armand_du_cambout" role="acteur">Duc de
+          <label type="head">Le <persName key="armand_du_cambout" role="acteur">Duc de
               Coaslin</persName>, <name key="dudon" corresp="armand_du_cambout">Dudon</name></label>
           <l>Trop auant dans la Gloire on ne peut s’engager </l>
           <l>I'auray vaincu sept Rois, et par mon grand courage,</l>
@@ -303,12 +303,12 @@
         </lg>
         <p>Apres eux marchoient le <persName key="henri_de_daillon" role="acteur">Comte du
             Lude</persName>, et le <persName key="francois_vii_de_la_rochefoucauld" role="acteur"
-            >Prince de  Marsillac</persName>, le premier <seg ana="description">vetu d’Incarnat, et
+            >Prince de  Marsillac</persName>, le premier <tech type="costume">vetu d’Incarnat, et
             blanc, et l’autre de jaune blanc et noir, enrichis de broderie d’argent, leur liurée de
-            mesme</seg>, et fort bien montez.</p>
-        <pb n="9" xml:id="p9"/>
+            mesme</tech>, et fort bien montez.</p>
+        <pb n="9" xml:id="p9" facs="https://gallica.bnf.fr/ark:/12148/bpt6k2072108/f8"/>
         <lg ana="vers">
-          <label type="speaker">Le <persName key="henri_de_daillon" role="acteur">Comte du
+          <label type="head">Le <persName key="henri_de_daillon" role="acteur">Comte du
               Lude</persName>, <name key="astolphe" corresp="henri_de_daillon"
             >Astolphe</name>.</label>
           <l>De tous les Paladins qui sont dans l’Vnivers</l>
@@ -318,7 +318,7 @@
         </lg>
 
         <lg ana="vers">
-          <label type="speaker">Le <persName key="francois_vii_de_la_rochefoucauld" role="acteur"
+          <label type="head">Le <persName key="francois_vii_de_la_rochefoucauld" role="acteur"
               >Prince de Marsillac</persName>, <name key="brandimart"
               corresp="francois_vii_de_la_rochefoucauld">Brandimart</name></label>
           <l>Mes voeux seront contents, mes souhaits accomplis,</l>
@@ -329,14 +329,14 @@
 
         <p>Les <persName key="louis_marie_aumont_rochebaron" role="acteur">Marquis de
             Villequier</persName>, et <persName key="cm_de_belleforiere" role="acteur">de
-            Soyecourt</persName>, marchoient en suitte, <seg ana="description">l’vn portoit le bleu,
+            Soyecourt</persName>, marchoient en suitte, <tech type="costume">l’vn portoit le bleu,
             et argent, et l’autre le bleu, blanc, et noir auec or, et argent, leurs plumes, et les
             harnois de leur chevaux estoient de la mesme couleur, et d’vne pareille
-          richesse</seg>.</p>
+          richesse</tech>.</p>
 
         <lg ana="vers">
-          <label type="speaker">Le <persName key="louis_marie_aumont_rochebaron" role="acteur"
-              >Marquis de Villequier</persName>. <name key="richardet"
+          <label type="head">Le <persName key="louis_marie_aumont_rochebaron" role="acteur">Marquis
+              de Villequier</persName>. <name key="richardet"
               corresp="louis_marie_aumont_rochebaron">Richardet</name></label>
           <l>Personne comme moy n’est sorti galament</l>
           <l>D'vne Intrigue où sans doute il falloit de l’adresse,</l>
@@ -345,7 +345,7 @@
         </lg>
 
         <lg ana="vers">
-          <label type="speaker">Le <persName key="cm_de_belleforiere" role="acteur">Marquis de
+          <label type="head">Le <persName key="cm_de_belleforiere" role="acteur">Marquis de
               Soyecourt</persName>
             <name key="olivier" corresp="cm_de_belleforiere">Oliuier</name>.</label>
           <l>Voicy l’honneur du Siecle aupres de qui nous sommes</l>
@@ -355,9 +355,9 @@
         </lg>
         <p>Les <persName key="louis_crevant" role="acteur">Marquis d’Humieres</persName> et
             <persName key="jf_de_labaume" role="acteur">de la Valliere</persName> les suivoient.
-            <seg ana="description">Ce premier portant la couleur de chair, et argent, et l’autre
-            gris de lin, blanc, et argent, toute leur liurée estant plus riche, et la mieux assortie
-            du monde</seg>.</p>
+            <tech type="costume">Ce premier portant la couleur de chair, et argent, et l’autre gris
+            de lin, blanc, et argent, toute leur liurée estant plus riche, et la mieux assortie du
+            monde</tech>.</p>
 
         <lg ana="vers">
           <label ana="vers">Le <persName key="louis_crevant" role="acteur">Marquis
@@ -368,7 +368,7 @@
           <l>Et ce charmant objet l’adorable <name>Genéure</name>,</l>
           <l>Est l’vnique Vainqueur à qui je me soumets.</l>
         </lg>
-        <pb n="10" xml:id="p10"/>
+        <pb n="10" xml:id="p10" facs="https://gallica.bnf.fr/ark:/12148/bpt6k2072108/f9"/>
         <p>Le <persName key="jf_de_labaume" role="acteur">Marquis de la Valliere</persName>
           <name key="zerbin" corresp="jf_de_labaume">Zerbin</name>.</p>
         <l>Quelques beaux sentiments que la gloire nous donne,</l>
@@ -412,7 +412,7 @@
         <p>Plusieurs autres grandes figures de relief paroient les côtez de ce <tech
             type="machine_temps">Char</tech> magnifique. Les <name key="monstres">Monstres
             celestes</name>, <name key="serpent_python">Le Serpent Python</name>,</p>
-        <pb n="11" xml:id="p11"/>
+        <pb n="11" xml:id="p11" facs="https://gallica.bnf.fr/ark:/12148/bpt6k2072108/f10"/>
         <p><name key="daphne">Daphné</name>, <name key="hyacinthe">Hyacinte</name>, et les autres
           figures qui conuiennent à <name key="apollon">Apollon</name>, auec vn <name key="atlas"
             >Atlas</name> portant le Globe du Monde y estoient aussi relevez d’vne agreable
@@ -455,7 +455,7 @@
         <p>Le <persName key="francois_vii_de_la_rochefoucauld" role="acteur">Prince de
             Marsillac</persName>, representant <name key="brandimart"
             corresp="francois_vii_de_la_rochefoucauld">Brandimart</name>, ayant pour</p>
-        <pb n="12" xml:id="p12"/>
+        <pb n="12" xml:id="p12" facs="https://gallica.bnf.fr/ark:/12148/bpt6k2072108/f11"/>
         <p>Deuise vne Montre en relief, dont on voit tous les ressorts, auec ces mots.</p>
         <p><foreign>Chieto fuor commoto dentro</foreign>.</p>
         <p>Le <persName key="louis_marie_aumont_rochebaron" role="acteur">Marquis de
@@ -495,7 +495,7 @@
           à Droit, et à gauche, les <name key="chevaliers">dix Cheualiers</name> en haye aux deux
           costez du <tech type="machine_temps">char</tech>, <name key="page">leurs Pages</name> au
           mesme ordre derriere eux,</p>
-        <pb n="13" xml:id="p13"/>
+        <pb n="13" xml:id="p13" facs="https://gallica.bnf.fr/ark:/12148/bpt6k2072108/f12"/>
         <p><name key="douze_zodiaque">Les Signes</name>, et <name key="douze_heures">les
             heures</name> comme Ils estoient entrez.</p>
         <p>Lorsque l’on eut fait alte en cet estat, vn profond silence causé tout ensemble par
@@ -516,7 +516,7 @@
         <l>Dis-nous par quel destin, ou par quel nouueau choix</l>
         <l>Tu celebre tes Ieux aux riuages François ?</l>
         <label type="speaker"><name key="apollon" corresp="la_grange">Apollon</name></label>
-        <l>Si ces lieux fortunez ont tout ce qu’eut la <place key="grece">Grece</place></l>
+        <l>Si ces lieux fortunez ont tout ce qu’eut la Grece</l>
         <l>De gloire, de valeur, de merite et d’adresse;</l>
         <l>Ce n’est pas sans raison qu’on y voit transferez</l>
         <l>Ces jeux, qu’à mon honneur la terre a consacrez.</l>
@@ -524,7 +524,7 @@
         <l>De mes plus doux rayons la benigne Influence</l>
         <l>Mais le charmant objet qu’<name key="hymene">Hymen</name> y fait regner,</l>
         <l>Pour elle maintenant me fait tout dédaigner.</l>
-        <pb n="14" xml:id="p14"/>
+        <pb n="14" xml:id="p14" facs="https://gallica.bnf.fr/ark:/12148/bpt6k2072108/f13"/>
         <l>Depuis vn si long-temps que pour le bien du monde</l>
         <l>Ie fais l’Immense tour de ta terre, et de l’onde</l>
         <l>Iamais je n’ay rien veu si digne de mes feux,</l>
@@ -559,7 +559,7 @@
         <l>Vient moins pour l’ennoblir que pour l’exterminer.</l>
         <l>Sitost qu’elle paroist dans cette heureuse terre,</l>
         <l>Voit comme elle en banit les fureurs de la guerre ?</l>
-        <pb n="15" xml:id="p15"/>
+        <pb n="15" xml:id="p15" facs="https://gallica.bnf.fr/ark:/12148/bpt6k2072108/f14"/>
         <l>Comment depuis ce jour d’infatigables mains</l>
         <l>Trauaillent sans relache au bon-heur des humains,</l>
         <l>Par quels secrets ressorts vn Heros se prepare</l>
@@ -590,7 +590,7 @@
           grace qu’il a en cet exercice, comme en tous les autres, et plusieurs belles Courses de
           tous <name key="chevaliers">ces Cheualiers</name>. Le <persName key="anne_de_noailles"
             role="participant">Duc de Guise</persName>,</p>
-        <pb n="16" xml:id="p16"/>
+        <pb n="16" xml:id="p16" facs="https://gallica.bnf.fr/ark:/12148/bpt6k2072108/f15"/>
         <p>et les <persName key="cm_de_belleforiere" role="participant">Marquis de
             Soye-court</persName>, et <persName key="jf_de_labaume" role="participant">de la
             Valliere</persName> demeurerent à la dispute, dont ce dernier emporta le prix, qui fut
@@ -629,7 +629,7 @@
           Vêtu, representé par <persName key="la_thorilliere" role="acteur">le Sieur de la
             Thorilliere</persName>, Venoit apres monté sur <tech type="animal">vn
           Chameau</tech>.</p>
-        <pb n="17" xml:id="p17"/>
+        <pb n="17" xml:id="p17" facs="https://gallica.bnf.fr/ark:/12148/bpt6k2072108/f16"/>
         <p><name key="l_hiver" corresp="louis_bejart">L'Hyver</name> suiuoit sur <tech type="animal"
             >vn Ours</tech>, representé par <persName key="louis_bejart" role="acteur">le Sieur
             Bejar</persName>.</p>
@@ -657,7 +657,7 @@
           Diuinitez, auec vne agréable Harmonie de flustes, et de Musettes.</p>
         <p>Elles Venoient en suitte sur <tech type="machine_terre">vne machine</tech> fort
           Ingenieuse,</p>
-        <pb n="18" xml:id="p18"/>
+        <pb n="18" xml:id="p18" facs="https://gallica.bnf.fr/ark:/12148/bpt6k2072108/f17"/>
         <p><seg ana="description">en forme d’vne Montagne, ou Roche ombragée de plusieurs arbres :
             Mais ce qui estoit plus surprenant, C'est qu’on la Voioit portée en l’air</seg>, sans
           que l’artifice qui la faisoit mouuoir se pust découurir à la Veuë.</p>
@@ -691,7 +691,7 @@
         <l>Je feray faire à vos Guerriers,</l>
         <l>Dans les campagnes de la Trace,</l>
         <l>vne ample moisson de lauriers.</l>
-        <pb n="19" xml:id="p19"/>
+        <pb n="19" xml:id="p19" facs="https://gallica.bnf.fr/ark:/12148/bpt6k2072108/f18"/>
         <label type="speaker"><name key="l_automne" corresp="la_thorilliere"
           >L’Automne.</name></label>
         <l><name key="le_printemps" corresp="therese_duparc">Le Printemps</name> orgueilleux de la
@@ -726,7 +726,7 @@
         <l>Que l’heur de perir de vos coups</l>
         <l>Amour dont vous auez la grace, et le Visage</l>
         <l>A le mesme secret que vous.</l>
-        <pb n="20" xml:id="p20"/>
+        <pb n="20" xml:id="p20" facs="https://gallica.bnf.fr/ark:/12148/bpt6k2072108/f19"/>
         <label type="speaker"><name key="pan">Pan.</name></label>
         <l>Jeune Diuinité, ne vous estonnez pas</l>
         <l>Lorsque nous vous offrons en ce fameux repas</l>
@@ -767,6 +767,7 @@
           <item><persName key="lansac_crequi" role="convive">Madame la Duchesse de
             Crequy</persName>.</item>
         </list>
+        <pb n="21" xml:id="p21" facs="https://gallica.bnf.fr/ark:/12148/bpt6k2072108/f20"/>
         <p>De l’autre costé estoient assises,</p>
         <list>
           <item><persName key="marie_therese" role="convive">LA REINE</persName>.</item>
@@ -813,28 +814,33 @@
           l’abondance, que pour la delicatesse de toutes choses qui y furent servies. Elle faisoit
           aussi le plus bel objet qui puisse tomber sous les sens, puisque dans la nuict, aupres de
           la Verdeur de ces <tech type="construction">hautes palissades</tech>,</p>
-        <pb n="22" xml:id="p22"/>
-        <p><tech type="lumieres">Vn nombre infiny de chandeliers <seg ana="description">peints de
-              vert, et d’argent, portant chacun vingt quatre bougies</seg>, et deux cens flambeaux
-              <seg ana="description">de cire blanche</seg></tech> tenus par autant de personnes
-          vestuës en masques, rendoient vn clarté, presqu’aussi grande, et plus agréable que celle
-          du Iour.</p>
+        <pb n="22" xml:id="p22" facs="https://gallica.bnf.fr/ark:/12148/bpt6k2072108/f21"/>
+        <p><tech type="lumieres">Vn nombre infiny de chandeliers peints de vert, et d’argent,
+            portant chacun vingt quatre bougies, et deux cens flambeaux de cire blanche</tech> tenus
+          par autant de personnes vestuës en masques, rendoient vn clarté, presqu’aussi grande, et
+          plus agréable que celle du Iour.</p>
         <p>Tous <name key="chevaliers">les cheualiers</name>
           <seg ana="description"><tech type="costume">auec leurs casques couuerts de plumes de
               differentes couleurs, et leurs habits de la Course</tech></seg> estoient appuyez sur
           la Barriere, et ce <name key="chevaliers">grand nombre d’Officiers</name>
           <seg ana="description">richement vestus</seg>, qui seruoient, en augmentoient encore la
           beauté, et rendoient ce rond vne chose enchantée, du quel, aprés la Collation, <persName
-            key="louisxiv marie_therese anne_d_autriche">leurs Matez</persName> et toute la Cour
-          sortirent par le Portique opposé à la Barriere, et dans vn grand nombre de Calesches fort
-          ajustées, reprirent le chemin du <placeName key="versailles_chateau"
-          >Chateau</placeName>.</p>
-        <p>
-          <pb n="23" xml:id="p23"/>
-        </p>
-        <pb n=" partition "/>
-        <pb n="64" xml:id="p64"/>
-        <pb n="65" xml:id="p65"/>
+            key="louisxiv"><persName key="anne_d_autriche"><persName key="marie_therese">leurs Ma<hi
+                  rend="sup">tez</hi></persName></persName></persName> et toute la Cour sortirent
+          par le Portique opposé à la Barriere, et dans vn grand nombre de Calesches fort ajustées,
+          reprirent le chemin du <placeName key="versailles_chateau">Chateau</placeName>.</p>
+
+        <pb n="23" xml:id="p23" facs="https://gallica.bnf.fr/ark:/12148/bpt6k2072108/f22"/>
+
+        <pb n="24" xml:id="p24" facs="https://gallica.bnf.fr/ark:/12148/bpt6k2072108/f23"/>
+
+        <pb n="25" xml:id="p25" facs="https://gallica.bnf.fr/ark:/12148/bpt6k2072108/f24"/>
+
+        <pb n="26" xml:id="p26" facs="https://gallica.bnf.fr/ark:/12148/bpt6k2072108/f25"/>
+
+        <pb n="27" xml:id="p27" facs="https://gallica.bnf.fr/ark:/12148/bpt6k2072108/f26"/>
+        <pb n="64" xml:id="p64" facs="https://gallica.bnf.fr/ark:/12148/bpt6k2072108/f59"/>
+        <pb n="65" xml:id="p65" facs="https://gallica.bnf.fr/ark:/12148/bpt6k2072108/f60"/>
         <p>Acteurs de la Comedie.</p>
         <list>
           <item><name key="princesse_d_elide" corresp="armande_bejart">La Princesse
@@ -2735,11 +2741,12 @@
             corresp="saint_aignan">Guidon le sauuage</name>, que l’avanture de l’Isle perilleuse
           rendit victorieux de <name key="chevaliers">dix cheualiers</name>. Aussitost que <persName
             key="louisxiv">le Roy</persName> eut disné, il conduisit <persName
-            key="marie_therese anne_d_autriche">les Reines</persName>, <persName key="philippe_orleans"
-            >Monsieur</persName>, <persName key="henriette_anne_angleterre">Madame</persName>, et toutes <persName
-            key="dames">les Dames</persName>, dans vn lieu où on deuoit tirer vne Lotterie, afin que
-          rien ne manquast à la galanterie de ces festes. C'estoit des pierreries, des ameublemens,
-          de l’argenterie, et autres choses semblables, et quoyque le sort ait accoutume de</p>
+            key="marie_therese anne_d_autriche">les Reines</persName>, <persName
+            key="philippe_orleans">Monsieur</persName>, <persName key="henriette_anne_angleterre"
+            >Madame</persName>, et toutes <persName key="dames">les Dames</persName>, dans vn lieu
+          où on deuoit tirer vne Lotterie, afin que rien ne manquast à la galanterie de ces festes.
+          C'estoit des pierreries, des ameublemens, de l’argenterie, et autres choses semblables, et
+          quoyque le sort ait accoutume de</p>
         <pb n="201" xml:id="p201"/>
         <p>décider de ces presens, Il s’accorda sans doute auec le desir de <persName key="louisxiv"
             >Sa Majesté</persName>, quand il fit tomber le gros lot entre les mains de <persName
