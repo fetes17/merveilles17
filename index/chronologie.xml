@@ -8,6 +8,9 @@
     <ref target="../xml/merveilles17_imp_pie-ballard2.xml"/>
     <ref target="../xml/merveilles17_ms_ankk213_025.xml"/>
     <ref target="../xml/merveilles17_ms_bnfmscolbert268_038.xml"/>
+    <ref target="../xml/merveilles17_ms_anmcrs388.xml"/>
+    <ref target="../xml/merveilles17_ms_pie-philidor.xml"/>
+    <ref target="../xml/merveilles17_img_ano13239_081.xml"/>
     <event xml:id="pie1" when="1664-05-07" where="versailles">
       <label>Plaisirs de l’île enchantée, première journée</label>
       <ref target="../xml/merveilles17_img_piefront.xml"/>
@@ -16,12 +19,34 @@
       <ref target="../xml/merveilles17_img_pie1festin.xml"/>
       <ref target="../xml/merveilles17_img_pie1marche.xml"/>
       <ref target="../xml/merveilles17_img_pie1saisons.xml"/>
+      <ref target="../xml/merveilles17_img_ano13238_015.xml"/>
+      <ref target="../xml/merveilles17_img_ano13241_077.xml"></ref>
+      <ref target="../xml/merveilles17_img_ano13242a_052.xml"/>
+      <ref target="../xml/merveilles17_img_ano13242a_088.xml"/>
+      <ref target="../xml/merveilles17_img_ano13242b_001.xml"/>
+      <ref target="../xml/merveilles17_img_bnfestampesoa37_001.xml"/>
+      <ref target="../xml/merveilles17_img_bnfestampesoa37_002.xml"/>
+      <ref target="../xml/merveilles17_img_bnfestampesoa37_003.xml"/>
+      <ref target="../xml/merveilles17_img_bnfestampesoa37_004.xml"/>
+      <ref target="../xml/merveilles17_img_bnfoperaea2_034.xml"/>
+      <ref target="../xml/merveilles17_img_bnfoperaea2_035.xml"/>
+      <ref target="../xml/merveilles17_img_stockp22_028.xml"/>
+      <ref target="../xml/merveilles17_img_stockp22_029.xml"/>
+      <ref target="../xml/merveilles17_img_stockp22_030.xml"/>
+      <ref target="../xml/merveilles17_img_stockp22_031.xml"/>
+      
       <event xml:id="pie2" when="1664-05-08" where="versailles">
         <label>Plaisirs de l’île enchantée, deuxième journée</label>
         <ref target="../xml/merveilles17_ms_acflagrange_002.xml"/>
+        <ref target="../xml/merveilles17_img_ano13239_057.xml"/>
+        <ref target="../xml/merveilles17_img_ano13242a_089.xml"/>
+        
         <event xml:id="pie3" when="1664-05-09" where="versailles">
           <label>Plaisirs de l’île enchantée, troisième journée</label>
-          <ref target=""/>
+          <ref target="../xml/merveilles17_img_ano13238_068.xml"/>
+         <ref target="../xml/merveilles17_img_ano13242b_002.xml"/> 
+          <ref target="../xml/merveilles17_img_verslamb2579.xml"/>
+          
           <event xml:id="pie4" when="1664-05-10" where="versailles">
             <label>Suite des Plaisirs de l’île enchantée, quatrième journée</label>
             <ref target=""/>
@@ -45,6 +70,8 @@
   <event when="1664-01-10" where="paris_palais_royal" xml:id="bradamante">
     <label>La Bradamante ridicule</label>
     <ref target="../xml/merveilles17_ms_acflagrange_001.xml"/>
+    <ref target="../xml/merveilles17_img_bradamante_001.xml"/>
+    <ref target="../xml/merveilles17_img_bradamante_002.xml"/>
   </event>
   <event when="1664-01-29" where="paris_louvre" xml:id="mariageforce1">
     <label>Le Mariage forcé, première représentation devant le roi</label>
@@ -58,6 +85,7 @@
     <label>Divertissements pour la réception du cardinal Chigi à Fontainebleau</label>
     <ref target="../xml/merveilles17_ms_acflagrange_003.xml"/>
     <ref target="../xml/merveilles17_ms_bavmscheii38_257.xml"/>
+    <ref target="../xml/merveilles17_ms_bnfmsfr6143.xml"/>
   </event>
   <event from="1664-07-13" to="1664-10-25" where="versailles" xml:id="theatreversaillesoct1664">
     <label>Divertissements pour la cour à Versailles (L'Impromptu de Versailles, L'Ecole des maris,
