@@ -49,7 +49,6 @@
 * [merveilles17_imp_loret16640802.xml](https://fetes17.github.io/merveilles17/xml/merveilles17_imp_loret16640802.xml)
 * [merveilles17_imp_loret16640809.xml](https://fetes17.github.io/merveilles17/xml/merveilles17_imp_loret16640809.xml)
 * [merveilles17_imp_ormessonmai1664.xml](https://fetes17.github.io/merveilles17/xml/merveilles17_imp_ormessonmai1664.xml)
-* [merveilles17_imp_pie-ballard1.xml](https://fetes17.github.io/merveilles17/xml/merveilles17_imp_pie-ballard1.xml)
 * [merveilles17_imp_pie-ballard2.xml](https://fetes17.github.io/merveilles17/xml/merveilles17_imp_pie-ballard2.xml)
 * [merveilles17_imp_pie-guignard1668.xml](https://fetes17.github.io/merveilles17/xml/merveilles17_imp_pie-guignard1668.xml)
 * [merveilles17_imp_pie-ir1673.xml](https://fetes17.github.io/merveilles17/xml/merveilles17_imp_pie-ir1673.xml)
