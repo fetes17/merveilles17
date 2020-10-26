@@ -8,8 +8,8 @@
       <titleStmt>
         <title>Les Plaisirs de l’isle enchantée, ou la Princesse d’Élide, comédie de M.
           Molière.</title>
-        <author>Poquelin Jean-Baptiste, dit Molière (1622-1673) et Benserade Isaac de (1613-1691).
-        </author>
+        <author key="moliere">Poquelin Jean-Baptiste, dit Molière (1622-1673). </author>
+        <author key="benserade">Benserade Isaac de (1613-1691).</author>
       </titleStmt>
       <editionStmt>
         <edition>Merveilles17</edition>
@@ -31,7 +31,8 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>d’Aligre Michel, <title>Les Plaisirs de l’isle enchantée, ou la Princesse d’Élide,
-            comédie de M. Molière</title>, J. Guignard, Paris, 1668.</bibl>
+            comédie de M. Molière</title>
+          <note>J. Guignard, Paris, 1668, Paris, BNF, Tolbiac, RES-YF-4192.</note><ptr target="https://gallica.bnf.fr/ark:/12148/bpt6k1280451j"/></bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -60,15 +61,15 @@
           d’Artifice : Et autres Festes galantes et magnifiques, faites par le Roy à Versailles, le
           7. May 1664. et continuées plusieurs autres iours.</head>
         <p><persName key="louisxiv" role="commanditaire">LE ROY</persName> voulant donner aux
-            <persName key="marie_therese" role="destinataire"><persName key="anne_d_autriche" role="destinataire">Reines</persName></persName>,
-          &amp; à toute sa Cour le plaisir de quelques Festes peu communes, dans vn lieu orné de
-          tous les agrémens qui peuvent faire admirer vne maison de Campagne, choisit <placeName
-            key="versailles">Versailles</placeName> à quatre lieuës de <placeName key="paris"
-            >Paris</placeName>. C’est vn chasteau qu’on peut nommer vn Palais enchanté, tant les
-          adiustemens de l’art ont bien secondé les soins que la Nature a pris pour le rendre
-          parfait : Il charme en toutes manieres, tout y rit dehors &amp; et dedans, <seg
-            ana="description">l’or &amp; le marbre y disputent de beauté &amp; d’éclat : Et quoy
-            qu’il n’ait pas cette grande</seg>
+            <persName key="marie_therese" role="destinataire"><persName key="anne_d_autriche"
+              role="destinataire">Reines</persName></persName>, &amp; à toute sa Cour le plaisir de
+          quelques Festes peu communes, dans vn lieu orné de tous les agrémens qui peuvent faire
+          admirer vne maison de Campagne, choisit <placeName key="versailles">Versailles</placeName>
+          à quatre lieuës de <placeName key="paris">Paris</placeName>. C’est vn chasteau qu’on peut
+          nommer vn Palais enchanté, tant les adiustemens de l’art ont bien secondé les soins que la
+          Nature a pris pour le rendre parfait : Il charme en toutes manieres, tout y rit dehors
+          &amp; et dedans, <seg ana="description">l’or &amp; le marbre y disputent de beauté &amp;
+            d’éclat : Et quoy qu’il n’ait pas cette grande</seg>
           <pb n="4" xml:id="p4"/><seg ana="description">estenduë qui se remarque en quelques
             autres</seg>
           <placeName key="versailles_chateau">Palais de sa Majesté</placeName> : <seg
@@ -152,12 +153,11 @@
           <seg ana="description">estoit <tech type="costume">vestu de couleur de feu, argent &amp;
               noir, &amp; le reste de la livrée semblable</tech> : la Devise qu’il portoit dans son
             Escu estoit vn Aigle, auec ces mots</seg> ; <foreign>Fidelis et audax</foreign>.</p>
-        <p>Quatre Trompettes &amp; 
-            deux Tymballiers marchoiẽt apres <name>ces
-            Pages</name>, <seg ana="description"><tech type="costume">habillez de satin couleur de
-              feu, &amp; argent ; leurs plumes de la mesme livrée, &amp; les caparaçons de leurs
-              chevaux couverts d’vne pareille broderie, avec des soleils d’or fort éclattans aux
-              banderoles des Trõpettes, &amp; les couvertures des tymbales</tech></seg>.</p>
+        <p>Quatre Trompettes &amp; deux Tymballiers marchoiẽt apres <name>ces Pages</name>, <seg
+            ana="description"><tech type="costume">habillez de satin couleur de feu, &amp; argent ;
+              leurs plumes de la mesme livrée, &amp; les caparaçons de leurs chevaux couverts d’vne
+              pareille broderie, avec des soleils d’or fort éclattans aux banderoles des Trõpettes,
+              &amp; les couvertures des tymbales</tech></seg>.</p>
         <p><persName key="saint_aignan" role="acteur">Le Duc de S.Aignan</persName>, Maréchal de
           Camp, marchoit apres eux, <tech type="costume">armé à la Grecque</tech>, <seg
             ana="description">d’vne cuirasse de toille d’argent couverte de petites écailles d’or,
@@ -184,9 +184,8 @@
         <l>C’est auoir sur les bras deux estranges querelles,</l>
         <l>Qui sort à son honneur de ce double combat</l>
         <l>Doit estre, ce me semble, vn terrible soldat.</l>
-        <p>Huict Trompettes &amp;
-            deux Tymbaliers, vestus comme les premiers,
-          marchoient apres le Mareschal de Camp.</p>
+        <p>Huict Trompettes &amp; deux Tymbaliers, vestus comme les premiers, marchoient apres le
+          Mareschal de Camp.</p>
         <p><persName key="louisxiv" role="acteur">LE ROY</persName> representant <name key="roger"
             corresp="louisxiv">Roger</name> les suivoit, montant <tech type="animal">vn des plus
             beaux chevaux du monde</tech>, dont <seg ana="description">le harnois couleur de feu
@@ -424,16 +423,15 @@
             ana="description">ils portoient <tech type="costume">des vestes couleur de feu enrichies
               d’argent, &amp; des coiffures de mesme</tech></seg>.</p>
         <p>Aussi-tost que ces Troupes furent entrées dans le Camp, elles en firent le tour, &amp;
-          apres avoir salüé <persName key="marie_therese" role="spectateur"><persName key="anne_d_autriche" role="spectateur">les
-            Reynes</persName></persName>, elles se separerent, &amp; prirent chacune leur poste : <name>Le
-            Page</name> a la teste, les
-            Trompettes, &amp; les
-            Tymballiers se croisants, s’allerent poster sur les aisles :<persName
-            key="louisxiv"> Le Roy</persName> s’advançant au milieu, prit sa place vis à vis du haut
-          Dais : <persName key="hj_bourbon_conde">Mr. le Duc</persName> proche de <persName
-            key="louisxiv">sa Majesté</persName> : <persName key="saint_aignan">les Ducs de S.
-            Aignan</persName> &amp; <persName key="anne_de_noailles">de Noailles</persName> à droit
-          &amp; à gauche : <name>Les dix Chevaliers</name> en haye aux deux costez du <tech
+          apres avoir salüé <persName key="marie_therese" role="spectateur"><persName
+              key="anne_d_autriche" role="spectateur">les Reynes</persName></persName>, elles se
+          separerent, &amp; prirent chacune leur poste : <name>Le Page</name> a la teste, les
+          Trompettes, &amp; les Tymballiers se croisants, s’allerent poster sur les
+            aisles :<persName key="louisxiv"> Le Roy</persName> s’advançant au milieu, prit sa place
+          vis à vis du haut Dais : <persName key="hj_bourbon_conde">Mr. le Duc</persName> proche de
+            <persName key="louisxiv">sa Majesté</persName> : <persName key="saint_aignan">les Ducs
+            de S. Aignan</persName> &amp; <persName key="anne_de_noailles">de Noailles</persName> à
+          droit &amp; à gauche : <name>Les dix Chevaliers</name> en haye aux deux costez du <tech
             type="machine_temps">Char</tech> : <name>leurs Pages</name> au mesme ordre derriere
           eux : <name>les Signes</name> &amp; <name>les Heures</name> comme ils estoient entrez.</p>
         <p>Lorsque l’on eut fait alte en cét estat, vn profond silence causé tout ensemble par
@@ -532,19 +530,19 @@
             Mere</persName>, &amp; dont elle l’honora de sa main.</p>
         <p>La nuict vint cependant à la fin des Courses, par la iustesse qu’on avoit eu à les
           commencer : Et <tech type="lumieres">vn nombre infiny de lumieres</tech> ayant esclairé
-          tout ce beau lieu, l’on vid entrer dans la mesme place 
-            34. Concertans
-          <seg ana="description">fort bien vestus</seg>, qui devoient preceder <name
-            key="le_printemps" corresp="therese_duparc"><name key="l_ete" corresp="gros_rene"><name
-                key="l_automne" corresp="la_thorilliere"><name key="l_hiver" corresp="louis_bejart"
-                  >les Saisons</name></name></name></name> ; &amp; faisoient le plus agreable
-          concert du monde.</p>
+          tout ce beau lieu, l’on vid entrer dans la mesme place 34. Concertans <seg
+            ana="description">fort bien vestus</seg>, qui devoient preceder <name key="le_printemps"
+            corresp="therese_duparc"><name key="l_ete" corresp="gros_rene"><name key="l_automne"
+                corresp="la_thorilliere"><name key="l_hiver" corresp="louis_bejart">les
+                  Saisons</name></name></name></name> ; &amp; faisoient le plus agreable concert du
+          monde.</p>
         <p>Pendant que <name key="le_printemps" corresp="therese_duparc"><name key="l_ete"
               corresp="gros_rene"><name key="l_automne" corresp="la_thorilliere"><name key="l_hiver"
                   corresp="louis_bejart">les saisons</name></name></name></name> se chargeoient des
-          mets delicieux qu’elles devoient porter, pour seruir devant <persName
-            key="louisxiv" role="convive"><persName key="marie_therese" role="convive"><persName key="anne_d_autriche" role="convive">leurs Majestez</persName></persName></persName> la
-          magnifique collation qui estoit préparée : <name>les douze signes du Zodiaque</name>,
+          mets delicieux qu’elles devoient porter, pour seruir devant <persName key="louisxiv"
+            role="convive"><persName key="marie_therese" role="convive"><persName
+                key="anne_d_autriche" role="convive">leurs Majestez</persName></persName></persName>
+          la magnifique collation qui estoit préparée : <name>les douze signes du Zodiaque</name>,
           &amp; <name key="le_printemps" corresp="therese_duparc"><name key="l_ete"
               corresp="gros_rene"><name key="l_automne" corresp="la_thorilliere"><name key="l_hiver"
                   corresp="louis_bejart">les quatre Saisons</name></name></name></name> danserent
@@ -566,9 +564,8 @@
         <p><name key="l_hiver" corresp="louis_bejart">L'Hyver</name> suivoit sur <tech type="animal"
             >vn Ours</tech>, representé par <persName key="louis_bejart" role="acteur">le Sieur
             Bejar</persName>.</p>
-        <p>Leur suite estoit composée de 
-            quarante-huict personnes, qui portoient toutes sur leurs testes de grands
-          bassins pour la collation.</p>
+        <p>Leur suite estoit composée de quarante-huict personnes, qui portoient toutes sur leurs
+          testes de grands bassins pour la collation.</p>
         <p>Les douze premiers <seg ana="description">couverts de fleurs</seg>, portoient, comme des
           Iardiniers, <seg ana="description">des Corbeilles peintes de vert, &amp; d’argent garnies
             d’vn grand nombre de porcelaines, si remplies de confitures, &amp; d’autres choses
@@ -586,9 +583,8 @@
             bassins couverts d’vne glace &amp; d’vne neige si bien contrefaites</seg>, qu’on les
           eust pris pour la chose mesme, ce qu’ils devoient contribuer à la Collation, &amp;
           suivoient <name key="l_hiver" corresp="louis_bejart">l’Hyver</name>.</p>
-        <p>Quatorze Concertans de
-            <name>Pan</name>, &amp; de <name>Diane</name> precedoient ces deux Divinitez, auec vne
-          agreable Harmonie de Flustes &amp; de Musettes.</p>
+        <p>Quatorze Concertans de <name>Pan</name>, &amp; de <name>Diane</name> precedoient ces deux
+          Divinitez, auec vne agreable Harmonie de Flustes &amp; de Musettes.</p>
         <p>Elles venoient en suite sur <tech type="machine_vol">vne Machine</tech> fort ingenieuse
             <seg ana="description">en forme d’vne petite Mõtagne ou</seg> Roche <pb n="18"
             xml:id="p18"/><seg ana="description">ombragée de plusieurs arbres : mais ce qui estoit
@@ -597,8 +593,8 @@
         <p>Vingt autres personnes les suivoient, portant des viandes de la Mesnagerie de
             <name>Pan</name>, &amp; de la Chasse de <name>Diane</name>.</p>
         <p><name>Dix-huict Pages</name> du <persName key="louisxiv">Roy</persName>
-          <seg ana="description">fort richement vestus</seg>, qui devoient servir 
-            les Dames à table, faisoient</p>
+          <seg ana="description">fort richement vestus</seg>, qui devoient servir les Dames à table,
+          faisoient</p>
         <p>les derniers de cette troupe ; laquelle estant rangée, <name>Pan</name>,
             <name>Diane</name>, &amp; <name key="le_printemps" corresp="therese_duparc"><name
               key="l_ete" corresp="gros_rene"><name key="l_automne" corresp="la_thorilliere"><name
@@ -668,20 +664,20 @@
         <p>CES Recits achevez, vne grande Table en forme de Croissant, rond d’vn costé, où l’on
           devoit couvrir &amp; garnir de fleurs celuy où elle estoit creuse, vint à se
           découvrir.</p>
-        <p>Trente-six Violons<seg
-            ana="description">tres-bien vestus</seg>, parurent derriere sur <tech
-            type="construction">vn petit Theatre</tech> : pendant que <persName key="marche_coquet"
-            role="acteur">Messieurs de la Marche</persName>, &amp; <persName key="parfaot_pere"
-            role="acteur">Parfait Pere</persName>, <persName key="parfait_frere" role="acteur"
-            >Frere</persName>, &amp; <persName key="parfait_fils" role="acteur">Fils</persName>
-          Controlleurs Generaux, sous les noms de <name key="abondance" corresp="marche_coquet"
-            >l’Abondance</name>, de <name key="joie" corresp="parfait_pere">la Ioye</name>, de <name
-            key="proprete" corresp="parfait_frere">la Propreté</name>, &amp; de <name
-            key="bonne_chere" corresp="parfait_fils">la Bonne Chere</name>, la firent couvrir par
-          les plaisirs, par les ieux, par les ris, &amp; par les delices.</p>
-        <p><persName key="louisxiv" role="convive"><persName key="marie_therese" role="convive"><persName key="anne_d_autriche" role="convive">Leurs
-            Majestez</persName></persName></persName> s’y mirent en cét ordre, qui prévint tous les embarras qui eussent
-          pû naistre pour les rangs.</p>
+        <p>Trente-six Violons<seg ana="description">tres-bien vestus</seg>, parurent derriere sur
+            <tech type="construction">vn petit Theatre</tech> : pendant que <persName
+            key="marche_coquet" role="acteur">Messieurs de la Marche</persName>, &amp; <persName
+            key="parfaot_pere" role="acteur">Parfait Pere</persName>, <persName key="parfait_frere"
+            role="acteur">Frere</persName>, &amp; <persName key="parfait_fils" role="acteur"
+            >Fils</persName> Controlleurs Generaux, sous les noms de <name key="abondance"
+            corresp="marche_coquet">l’Abondance</name>, de <name key="joie" corresp="parfait_pere"
+            >la Ioye</name>, de <name key="proprete" corresp="parfait_frere">la Propreté</name>,
+          &amp; de <name key="bonne_chere" corresp="parfait_fils">la Bonne Chere</name>, la firent
+          couvrir par les plaisirs, par les ieux, par les ris, &amp; par les delices.</p>
+        <p><persName key="louisxiv" role="convive"><persName key="marie_therese" role="convive"
+                ><persName key="anne_d_autriche" role="convive">Leurs
+            Majestez</persName></persName></persName> s’y mirent en cét ordre, qui prévint tous les
+          embarras qui eussent pû naistre pour les rangs.</p>
         <p><persName key="anne_d_autriche" role="convive">La Reine Mere</persName> estoit assise au
           milieu de la Table : &amp; avoit à sa main droite.</p>
         <list ana="noms">
@@ -776,21 +772,21 @@
           estoient appuyez sur la Barriere; &amp; ce <name>grand nombre d’Officiers</name>
           <seg ana="description">richement vestus</seg>, qui servoient, en augmentoient encore la
           beauté, &amp; rendoient ce rond vne chose enchantée, duquel, apres la Collation, <persName
-            key="louisxiv"><persName key="marie_therese"><persName key="anne_d_autriche">leurs Majestez</persName></persName></persName> &amp; toute la
-          Cour, sortirent par le Portique opposé à la Barriere ; &amp; dans vn grand nombre de
-          Galesches fort adjustées, reprirent le chemin du <placeName key="versailles_chateau"
-            >Chasteau</placeName>.</p>
+            key="louisxiv"><persName key="marie_therese"><persName key="anne_d_autriche">leurs
+                Majestez</persName></persName></persName> &amp; toute la Cour, sortirent par le
+          Portique opposé à la Barriere ; &amp; dans vn grand nombre de Galesches fort adjustées,
+          reprirent le chemin du <placeName key="versailles_chateau">Chasteau</placeName>.</p>
         <p>Fin de la premiere Iournée.</p>
       </div>
       <div>
         <head><date when="1664-05-08">SECONDE IOVRNÉE</date> DES PLAISIRS DE L’ISLE
           ENCHANTÉE.</head>
-        <p>LORS que la nuit du second jour fut venuë, <persName
-            key="louisxiv"><persName key="marie_therese"><persName key="anne_d_autriche">leurs Majestez</persName></persName></persName> se rendirent dans
-          vn autre rond environné de palissades comme le premier, &amp; sur la méme ligne,
-          s’avançant toûjours vers le <placeName key="versailles_jardins_bassin_apollon"
-            >Lac</placeName>, où l’on feignoit que <tech type="construction">le Palais
-            d’Alcine</tech> estoit basty.</p>
+        <p>LORS que la nuit du second jour fut venuë, <persName key="louisxiv"><persName
+              key="marie_therese"><persName key="anne_d_autriche">leurs
+              Majestez</persName></persName></persName> se rendirent dans vn autre rond environné de
+          palissades comme le premier, &amp; sur la méme ligne, s’avançant toûjours vers le
+            <placeName key="versailles_jardins_bassin_apollon">Lac</placeName>, où l’on feignoit que
+            <tech type="construction">le Palais d’Alcine</tech> estoit basty.</p>
         <p>Le dessein de cette seconde Feste, estoit que <name key="roger" corresp="louisxiv"
             >Roger</name> &amp; <name>les Chevaliers</name> de sa Quadrille, apres avoir fait des
           merveilles aux Courses, que par l’ordre de la belle <name key="alcine"
@@ -829,8 +825,7 @@
         <p><name key="valets_de_chien" corresp="moliere"><name key="valets_de_chien"
               corresp="louis_don"><name key="valets_de_chien" corresp="estival"><name
                   key="valets_de_chien" corresp="francois_blondel">Valets de
-              chiens</name></name></name></name>, &amp; 
-            Musiciens.</p>
+              chiens</name></name></name></name>, &amp; Musiciens.</p>
         <p>PEndant que <name key="l_aurore" corresp="hilaire_dupuis">l’Aurore</name> chantoit ce
           Recit, <name key="valets_de_chien" corresp="moliere"><name key="valets_de_chien"
               corresp="louis_don"><name key="valets_de_chien" corresp="estival"><name
@@ -957,16 +952,16 @@
             key="lyciscas" corresp="moliere">Lyciscas</name> debout, ho ! ho ! ho ! ho ! ho.</p>
         <p><name key="lyciscas" corresp="moliere">Lyciscas</name> s’estant levé avec toutes les
           peines du monde, et s’estant mis à crier de toute sa force,</p>
-        <p>plusieurs Cors et Trompes de chasse se firent entendre, et concertées avec 
-            les Violons, commencerent l’air d’vne entrée,
-          sur laquelle <name key="valets_de_chien" corresp="paysan"><name key="valets_de_chien"
-              corresp="chicanneau"><name key="valets_de_chien" corresp="noblet"><name
-                  key="valets_de_chien" corresp="pesan"><name key="valets_de_chien" corresp="bonard"
-                      ><name key="valets_de_chien" corresp="la_pierre">six valets de
-                    Chiens</name></name></name></name></name></name> danserent avec beaucoup de
-          iustesse et de disposition ; reprenant à certaines Cadences le son de leurs Cors et
-          Trompes : c’étoient <persName key="paysan" role="danseur">les sieurs Paysan</persName>,
-            <persName key="chicanneau" role="danseur">Chicanneau</persName>, <persName key="noblet"
+        <p>plusieurs Cors et Trompes de chasse se firent entendre, et concertées avec les Violons,
+          commencerent l’air d’vne entrée, sur laquelle <name key="valets_de_chien" corresp="paysan"
+              ><name key="valets_de_chien" corresp="chicanneau"><name key="valets_de_chien"
+                corresp="noblet"><name key="valets_de_chien" corresp="pesan"><name
+                    key="valets_de_chien" corresp="bonard"><name key="valets_de_chien"
+                      corresp="la_pierre">six valets de
+            Chiens</name></name></name></name></name></name> danserent avec beaucoup de iustesse et
+          de disposition ; reprenant à certaines Cadences le son de leurs Cors et Trompes :
+          c’étoient <persName key="paysan" role="danseur">les sieurs Paysan</persName>, <persName
+            key="chicanneau" role="danseur">Chicanneau</persName>, <persName key="noblet"
             role="danseur">Noblet</persName>, <persName key="pesan" role="danseur">Pesan</persName>,
             <persName key="bonard" role="danseur">Bonard</persName>, et <persName key="la_pierre"
             role="danseur">la Pierre</persName>.</p>
@@ -1818,8 +1813,8 @@
         <p>Fa, toy-mesme.</p>
         <pb n="55" xml:id="p55"/>
         <p><name>Le Satyre</name> s’en mit en colere, et peu à peu se mettant en posture d’en venir
-          à des coups de poing, les Violons
-          reprirent vn Air sur lequel ils danserent vne plaisante Entrée.</p>
+          à des coups de poing, les Violons reprirent vn Air sur lequel ils danserent vne plaisante
+          Entrée.</p>
         <label type="head">ACTE III.</label>
         <label type="head">ARGVMENT</label>
         <p><name>LA Princesse d’Elide</name> estoit cependant dans d’estranges inquietudes :
@@ -2576,9 +2571,8 @@
         <p>Pendant que ces aymables personnes dansoient, il sortit de dessous <tech>le Theatre la
             machine</tech> d’vn grand arbre chargé de <name>seize Faunes</name>, dont les huict
           joüerent de la Flûte, et les autres du Violon, avec <tech>vn concert</tech> le plus
-          agreable du monde. Trente Violons leur
-          répõdoient de l’Orchestre, avec six autres
-            concertans de Clavessins et de Thuorbes, qui estoient <persName
+          agreable du monde. Trente Violons leur répõdoient de l’Orchestre, avec six autres
+          concertans de Clavessins et de Thuorbes, qui estoient <persName
             key="jean_henri_d_anglebert" role="musicien">les Sieurs d’Anglebert</persName>,
             <persName key="richard" role="musicien">Richard</persName>, <persName
             key="leonard_itier">Itier</persName>, <persName key="la_barre_cadet" role="musicien">la
@@ -2634,14 +2628,13 @@
             ana="description">estoient si fort éclairées</seg>, que <tech type="lumieres">ces
             lumieres</tech> faisoient <pb n="85" xml:id="p85"/> naistre vn nouveau iour dans
           l’obscurité de la nuict.</p>
-        <p><persName key="louisxiv" role="spectateur"><persName key="marie_therese" role="convive"><persName key="anne_d_autriche" role="convive">Leurs
-            Majestez</persName></persName></persName> estant arrivées, n’eurent pas plûtost pris leur place, que l’<tech
-            type="decor">vne des deux Isles qui paroissoient aux costez de la premiere</tech>, fut
-          toute couverte de Violons
-          <seg ana="description">fort bien vestus</seg>. L'autre qui estoit opposée, le fut au mesme
-          temps de Trompettes &amp; de
-            Tymbaliers, <seg ana="description"
-            >dont les habits n’estoient pas moins riches</seg>.</p>
+        <p><persName key="louisxiv" role="spectateur"><persName key="marie_therese" role="convive"
+                ><persName key="anne_d_autriche" role="convive">Leurs
+            Majestez</persName></persName></persName> estant arrivées, n’eurent pas plûtost pris
+          leur place, que l’<tech type="decor">vne des deux Isles qui paroissoient aux costez de la
+            premiere</tech>, fut toute couverte de Violons <seg ana="description">fort bien
+            vestus</seg>. L'autre qui estoit opposée, le fut au mesme temps de Trompettes &amp; de
+          Tymbaliers, <seg ana="description">dont les habits n’estoient pas moins riches</seg>.</p>
         <p>Mais ce qui surprit davantage, fut de voir sortir <name key="alcine"
             corresp="therese_duparc">Alcine</name> de derriere <tech type="construction">le
             rocher</tech>, portée par vn <tech type="machine_eau">Monstre Marin d’vne grandeur
@@ -2785,13 +2778,13 @@
         <p><name key="dirce" corresp="armande_bejart">Dircé</name>. <persName key="armande_bejart"
             role="acteur">Mademoiselle Moliere</persName>.</p>
         <p>LOrsqu’ils furent achevé, &amp; qu’<name key="alcine" corresp="therese_duparc"
-            >Alcine</name> se fut retirée, pour aller redoubler les Gardes du Palais, le concert
-            des Violons se fit entendre; pendant
-          que le Frontispice du Palais venant à s’ouvrir avec vn merveilleux artifice, &amp; des
-          tours à s’éleuer à veûë d’œil. <name key="geants" corresp="manceau"><name key="geants"
-              corresp="vagnard"><name key="geants" corresp="pesan"><name key="geants"
-                  corresp="joubert">Quatre Geants</name></name></name></name> d’vne grandeur
-          démesurée, vinrent <pb n="89" xml:id="p89"/> à paroistre avec <name key="nains"
+            >Alcine</name> se fut retirée, pour aller redoubler les Gardes du Palais, le concert des
+          Violons se fit entendre; pendant que le Frontispice du Palais venant à s’ouvrir avec vn
+          merveilleux artifice, &amp; des tours à s’éleuer à veûë d’œil. <name key="geants"
+            corresp="manceau"><name key="geants" corresp="vagnard"><name key="geants"
+                corresp="pesan"><name key="geants" corresp="joubert">Quatre
+              Geants</name></name></name></name> d’vne grandeur démesurée, vinrent <pb n="89"
+            xml:id="p89"/> à paroistre avec <name key="nains"
             corresp="des_airs_fils1 des_airs_fils2"><name key="nains" corresp="vagnard_fils"><name
                 key="nains" corresp="tutin_fils">quatre Nains</name></name></name> ; qui par
           l’opposition de leur petite taille, faisoient paroistre celle des Geants encore plus
@@ -2812,10 +2805,10 @@
             role="danseur">Joubert</persName>.</p>
         <p><name key="nains" corresp="des_airs_fils1 des_airs_fils2"><name key="nains"
               corresp="vagnard_fils"><name key="nains" corresp="tutin_fils"
-            >Nains</name></name></name>. <persName key="des_airs_fils1"
-            role="danseur"><persName key="des_airs_fils2" role="danseur">Les deux petits Des-Airs</persName></persName>, <persName key="vagnard_fils"
-            role="danseur">le petit Vagnard</persName>, &amp; <persName key="tutin_fils"
-            role="danseur">le petit Tutin</persName>.</p>
+            >Nains</name></name></name>. <persName key="des_airs_fils1" role="danseur"><persName
+              key="des_airs_fils2" role="danseur">Les deux petits Des-Airs</persName></persName>,
+            <persName key="vagnard_fils" role="danseur">le petit Vagnard</persName>, &amp; <persName
+            key="tutin_fils" role="danseur">le petit Tutin</persName>.</p>
         <label type="head">II. ENTREE.</label>
         <p><name key="mores" corresp="d_heureux"><name key="mores" corresp="beauchamp"><name
                 key="mores" corresp="molier"><name key="mores" corresp="la_marre"><name key="mores"
@@ -3032,9 +3025,9 @@
           rendit victorieux de <name>dix Chevaliers</name>.</p>
         <p>Aussi tost que <persName key="louisxiv" role="commanditaire">le Roy</persName> eust dîné,
           il conduisit <persName key="marie_therese anne_d_autriche" role="participant">les
-            Reynes</persName>, <persName key="philippe_orleans" role="participant">Monsieur</persName>,
-            <persName key="henriette_anne_angleterre" role="participant">Madame</persName>, &amp; 
-            toutes les Dames dans vn lieu où l’on devoit tirer vne
+            Reynes</persName>, <persName key="philippe_orleans" role="participant"
+            >Monsieur</persName>, <persName key="henriette_anne_angleterre" role="participant"
+            >Madame</persName>, &amp; toutes les Dames dans vn lieu où l’on devoit tirer vne
           Loterie, afin que rien ne manquast à la galãterie de ces Festes ; c’estoit des pierreries,
           des ameublemens, de l’argenterie, &amp; autres choses semblables : Et quoy que le sort ait
           accoustumé de decider de ces presens, il s’accorda sans doute avec le desir de<persName
@@ -3087,18 +3080,19 @@
           divertissemens, malgré ses importantes affaires, où <persName key="saint_aignan"
             role="auteur">le Duc de S. Aignan</persName>, joignit l’action à l’invention du
           dessein ; où les beaux vers du <persName key="perigny" role="auteur">President de
-            Perigny</persName> à la loüange <persName key="marie_therese"
-            role="destinataire"><persName key="anne_d_autriche" role="destinataire">des Reynes</persName></persName>, furent si justemẽt pẽsez, si agreablemẽt
-          tournez, &amp; recitez avec tant d’Art ; où ceux que <persName key="benserades"
-            role="auteur">Mr. de Bẽsserade</persName> fit pour <name>les Chevaliers</name>, eurent
-          vne approbation generable, où la vigilance exacte de <persName key="bontemps"
-            role="organisation">Mr. Bontemps</persName>, &amp; l’application de <persName
-            key="de_launay" role="organisation">Mr de Launay</persName>, ne laisserent manquer
-          d’aucune des choses necessaires : Enfin où chacun a marqué si advantageusement son dessein
-          de plaire au <persName key="louisxiv">Roy</persName>, dans le temps où <persName
-            key="louisxiv">sa Majesté </persName>ne pensoit elle-mesme qu’à plaire ; &amp; où ce
-          qu’on a veu ne sçauroit iamais se perdre dans la memoire des spectateurs, quand on
-          n’auroit pas pris le soin de conserver par écrit le souvenir de toutes ces merveilles.</p>
+            Perigny</persName> à la loüange <persName key="marie_therese" role="destinataire"
+              ><persName key="anne_d_autriche" role="destinataire">des Reynes</persName></persName>,
+          furent si justemẽt pẽsez, si agreablemẽt tournez, &amp; recitez avec tant d’Art ; où ceux
+          que <persName key="benserades" role="auteur">Mr. de Bẽsserade</persName> fit pour
+            <name>les Chevaliers</name>, eurent vne approbation generable, où la vigilance exacte de
+            <persName key="bontemps" role="organisation">Mr. Bontemps</persName>, &amp;
+          l’application de <persName key="de_launay" role="organisation">Mr de Launay</persName>, ne
+          laisserent manquer d’aucune des choses necessaires : Enfin où chacun a marqué si
+          advantageusement son dessein de plaire au <persName key="louisxiv">Roy</persName>, dans le
+          temps où <persName key="louisxiv">sa Majesté </persName>ne pensoit elle-mesme qu’à
+          plaire ; &amp; où ce qu’on a veu ne sçauroit iamais se perdre dans la memoire des
+          spectateurs, quand on n’auroit pas pris le soin de conserver par écrit le souvenir de
+          toutes ces merveilles.</p>
         <p>FIN.</p>
       </div>
     </body>
