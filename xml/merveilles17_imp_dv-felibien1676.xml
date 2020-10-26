@@ -6,8 +6,9 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Les Divertissemens de Versailles, donnez par le Roy au retour de la conqueste de la Franche-Comté, en l’année 1674. [Par A. Félibien.].</title>
-        <author>Flélibien André (1619-1695)</author>
+        <title>Les Divertissemens de Versailles, donnez par le Roy au retour de la conqueste de la
+          Franche-Comté, en l’année 1674. [Par A. Félibien.].</title>
+        <author key="felibien">Félibien André (1619-1695)</author>
       </titleStmt>
       <editionStmt>
         <edition>Merveilles17</edition>
@@ -24,7 +25,10 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl>André Félibien, Les Divertissemens de Versailles, donnez par le Roy au retour de la conqueste de la Franche-Comté, en l’année 1674. [Par A. Félibien.], Imprimerie royale, Paris, 1676.</bibl>
+        <bibl>André Félibien, <title>Les Divertissemens de Versailles, donnez par le Roy au retour
+            de la conqueste de la Franche-Comté, en l’année 1674</title>. <note>[Par A. Félibien.],
+            Imprimerie royale, Paris, <date>1676</date>.</note><ptr
+            target="https://gallica.bnf.fr/ark:/12148/btv1b8626218b"/></bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -38,229 +42,1033 @@
   </teiHeader>
   <text>
     <body>
-      <head>LES DIVERTISSEMENS DE VERSAILLES DONNEZ PAR LE ROY A TOUTE SA COUR AU RETOUR DE LA CONQUESTE DE LA FRANCHE-COMTÉ EN l’ANNÉE M. DC. LXXIV.</head>
+      <head>LES DIVERTISSEMENS DE VERSAILLES DONNEZ PAR LE ROY A TOUTE SA COUR AU RETOUR DE LA
+        CONQUESTE DE LA FRANCHE-COMTÉ EN l’ANNÉE M. DC. LXXIV.</head>
       <figure/>
       <byline>A PARIS, DE L’IMPRIMERIE ROYALE.</byline>
       <byline>M. DC. LXXVI.</byline>
       <pb n="np"/>
       <figure/>
-      <label type="head">LES DIVERTISSEMENS DE VERSAILLES DONNEZ PAR LE ROY A TOVTE SA COVR au retour de la Conqueste de la Franche-Comté en l’<date when="1674">année 1674</date>.</label>
+      <label type="head">LES DIVERTISSEMENS DE VERSAILLES DONNEZ PAR LE ROY A TOVTE SA COVR au
+        retour de la Conqueste de la Franche-Comté en l’<date when="1674">année 1674</date>.</label>
       <label type="head">PREMIÉRE JOURNÉE.</label>
-      <p>&lt;figure&gt;<persName key="louisxiv" role="commanditaire">LE ROY</persName> après la réduction de la <placeName key="franche_comte">Franche-Comté</placeName> sous son obéïssance, pour donner à toute la Cour quelques momens de repos &amp; de plaisir, en suite des longues fatigues d’un voyage que la saison avoir rendu tres-penible, ordonna aussi-tost qu’il fut arrivé à <placeName key="versailles">VERSAILLES</placeName>, que l’on préparast des Festes &amp; des Réjouïssances, &amp; que de temps en temps il y eust quelques Divertissemens nouveaux.</p>
-      <p>Ceux de la premiére Journée commencerent par la Tragédie d’ALCESTE, qui est une piece en musique accompagnée <pb n="4" xml:id="p4"/> de <tech type="machine">Machines</tech>, que <persName key="louisxiv" role="commanditaire">Sa MAJESTÉ</persName> voulut estre representée dans <placeName key="versailles_cour">la cour du Chasteau</placeName>
+      <p>&lt;figure&gt;<persName key="louisxiv" role="commanditaire">LE ROY</persName> après la
+        réduction de la <placeName key="franche_comte">Franche-Comté</placeName> sous son
+        obéïssance, pour donner à toute la Cour quelques momens de repos &amp; de plaisir, en suite
+        des longues fatigues d’un voyage que la saison avoir rendu tres-penible, ordonna aussi-tost
+        qu’il fut arrivé à <placeName key="versailles">VERSAILLES</placeName>, que l’on préparast
+        des Festes &amp; des Réjouïssances, &amp; que de temps en temps il y eust quelques
+        Divertissemens nouveaux.</p>
+      <p>Ceux de la premiére Journée commencerent par la Tragédie d’ALCESTE, qui est une piece en
+        musique accompagnée <pb n="4" xml:id="p4"/> de <tech type="machine">Machines</tech>, que
+          <persName key="louisxiv" role="commanditaire">Sa MAJESTÉ</persName> voulut estre
+        representée dans <placeName key="versailles_cour">la cour du Chasteau</placeName>
         <date when="1674-07-04">le Mercredi quatriéme jour de juillet</date>.</p>
-      <p>Une des choses que l’on doit beaucoup considerer dans les Festes &amp; les Divertissemens dont <persName key="louisxiv" role="commanditaire">le Roy</persName> regale sa Cour, est la promptitude qui accompagne leur magnificence : car ses ordres sont exécutez avec tant de diligence par le soin &amp; l’application particuliére de Ceux qui en ont la principale Intendance, qu’il n’y a personne qui ne croye que tout s’y fait par miracle ; tant on est surpris de voir en un moment, &amp; sans qu’on s’en apperçoive, des <tech type="construction">Théatres</tech> élevez, <tech type="construction">des <tech>Bocages</tech>
-          <seg ana="description">ornez &amp; enrichis de fontaines &amp; de figures</seg></tech> ; des Collations dressées, &amp; mille autres choses qui semblent ne pouvoir se faire qu’avec un long-temps, &amp; dans l’embarras d’un nombre infini d’ouvriers. Cependant le plus souvent la Cour ne s’apperçoit point des préparatifs que l’on fait pour toutes ces sortes de Festes ; &amp; tant de personnes occupées à ces ouvrages, apportent si peu d’obstacle dans le lieu où on les dispose, qu’on ne les voit seulement pas.</p>
-      <p><persName key="louisxiv">Le ROY</persName> estant sorti du <placeName key="versailles_chateau">Chasteau</placeName> à quatre heures du soir pour prendre la promenade, alla au <placeName key="versailles_jardins">Marais</placeName> où la collation estoit préparée d’une maniére conforme à la situation de ce lieu. <seg ana="description">C’est un petit bois où il y a un grand quarré d’eau plus long que large, au milieu duquel est</seg>
+      <p>Une des choses que l’on doit beaucoup considerer dans les Festes &amp; les Divertissemens
+        dont <persName key="louisxiv" role="commanditaire">le Roy</persName> regale sa Cour, est la
+        promptitude qui accompagne leur magnificence : car ses ordres sont exécutez avec tant de
+        diligence par le soin &amp; l’application particuliére de Ceux qui en ont la principale
+        Intendance, qu’il n’y a personne qui ne croye que tout s’y fait par miracle ; tant on est
+        surpris de voir en un moment, &amp; sans qu’on s’en apperçoive, des <tech
+          type="construction">Théatres</tech> élevez, <tech type="construction">des Bocages ornez
+          &amp; enrichis de fontaines &amp; de figures</tech> ; des Collations dressées, &amp; mille
+        autres choses qui semblent ne pouvoir se faire qu’avec un long-temps, &amp; dans l’embarras
+        d’un nombre infini d’ouvriers. Cependant le plus souvent la Cour ne s’apperçoit point des
+        préparatifs que l’on fait pour toutes ces sortes de Festes ; &amp; tant de personnes
+        occupées à ces ouvrages, apportent si peu d’obstacle dans le lieu où on les dispose, qu’on
+        ne les voit seulement pas.</p>
+      <p><persName key="louisxiv">Le ROY</persName> estant sorti du <placeName
+          key="versailles_chateau">Chasteau</placeName> à quatre heures du soir pour prendre la
+        promenade, alla au <placeName key="versailles_jardins">Marais</placeName> où la collation
+        estoit préparée d’une maniére conforme à la situation de ce lieu. <seg ana="description"
+          >C’est un petit bois où il y a un grand quarré d’eau plus long que large, au milieu duquel
+          est</seg>
         <tech type="decor">un gros arbre</tech>
-        <seg ana="description">si ingénieusement fait qu’il paroist naturel.</seg> De l’extrémité de toutes ses branches sort une <tech type="eaux">infinité de jets d’eau</tech>, qui couvrent <placeName key="versailles_jardins">le Marais</placeName>. Outre ces <tech type="eaux">jets d’eau</tech>, il y en a encore <tech type="construction">un grand nombre d’autres</tech>, qui jalissent des roseaux qui bordent les costez de ce quarré. Aux deux bouts &amp; dans l’épaisseur des palissades sont deux enfoncemens de verdure, en maniére de cabinets, où l’on monte par deux marches de gazon. <seg ana="description">Dans chacun de ces enfoncemens il y a une grande table de marbre blanc, &amp; sur chaque table une corbeille de bronze doré remplie de fleurs au naturel</seg>, de laquelle sort <tech type="construction">un gros jet d’eau</tech>, qui retombe dedans, &amp; s’y perd sans mouïller la table. <seg ana="description">Au milieu des costez de ce quarré il y a aussi d’autres enfoncemens semblables à ceux des deux bouts, où sur des marches de gazon sont élevées de longues tables de marbre blanc &amp; rouge, avec des gradins pour servir de bufets.</seg> De ces gradins, il sort de l’eau par des <tech type="construction">ajutages</tech>
-        <seg ana="description">qui forment des aiguiéres, des verres, des caraffes</seg>, <pb n="5" xml:id="p5"/>
-        <seg ana="description">&amp; d’autres sortes de vases, qui semblent estre de crystal de roche garnis de vermeil doré.</seg></p>
-      <p>Aux beautez de ce lieu on avoit ajoûté mille autres embellissemens, tant par u<seg ana="description">n <tech type="decor">grand nombre d’orangers &amp; de pots de porcelaines remplis d’une infinité de diverses fleurs, que par des festons aussi de fleurs, disposez d’une maniére qui les faisoit beaucoup paroître parmi les arbres ausquels ils estoient attachez. Une infinité de jattes &amp; de cuvettes de porcelaine, pleines de toutes sortes de fruits, couvroient non seulement ces tables de marbre dont j’ay parlé, mais encore toutes les marches de gazon qui sont aux environs. Entre les jattes &amp; les cuvettes il y avoit des corbeilles remplies de pastes &amp; de fruits confits entremêlez de caraffes de crystal &amp; d’autres petites porcelaines, où l’on avoit mis toutes sortes de liqueurs</tech></seg>.</p>
-      <p>Les Officiers<seg ana="description">avoient aussi par une industrie toute particuliére, formé de grands vases de veritable glace, de figures differentes, &amp; de diverses grandeurs ; &amp; au travers de ces vases l’on voyoit paroître les fleurs &amp; les fruits qu’on y avoit mis</seg>.</p>
-      <p>Pendant la Collation, l’eau qui jallissoit de tous les endroits de cette place, faisoit un bruit qui s’accordoit agréablement au son des violons &amp; des hautbois.</p>
-      <p>Au sortir du Marais, environ sur les huit heures, <persName key="louisxiv">le ROY</persName> &amp; toute la Cour retournerent du costé du <placeName key="versailles_chateau">Chasteau</placeName>, où les croisées, tant de la petite cour que la grande, &amp; les balcons des faces estoient éclairez par <tech type="lumieres">deux rangs de bougies</tech> : l’Entablement estoit aussi éclairé <tech type="lumieres">d’autres lumiéres</tech>
+        <seg ana="description">si ingénieusement fait qu’il paroist naturel.</seg> De l’extrémité de
+        toutes ses branches sort une <tech type="eaux">infinité de jets d’eau</tech>, qui couvrent
+          <placeName key="versailles_jardins">le Marais</placeName>. Outre ces <tech type="eaux"
+          >jets d’eau</tech>, il y en a encore <tech type="construction">un grand nombre
+          d’autres</tech>, qui jalissent des roseaux qui bordent les costez de ce quarré. Aux deux
+        bouts &amp; dans l’épaisseur des palissades sont deux enfoncemens de verdure, en maniére de
+        cabinets, où l’on monte par deux marches de gazon. <seg ana="description">Dans chacun de ces
+          enfoncemens il y a une grande table de marbre blanc, &amp; sur chaque table une corbeille
+          de bronze doré remplie de fleurs au naturel</seg>, de laquelle sort <tech
+          type="construction">un gros jet d’eau</tech>, qui retombe dedans, &amp; s’y perd sans
+        mouïller la table. <seg ana="description">Au milieu des costez de ce quarré il y a aussi
+          d’autres enfoncemens semblables à ceux des deux bouts, où sur des marches de gazon sont
+          élevées de longues tables de marbre blanc &amp; rouge, avec des gradins pour servir de
+          bufets.</seg> De ces gradins, il sort de l’eau par des <tech type="construction"
+          >ajutages</tech>
+        <seg ana="description">qui forment des aiguiéres, des verres, des caraffes</seg>, <pb n="5"
+          xml:id="p5"/>
+        <seg ana="description">&amp; d’autres sortes de vases, qui semblent estre de crystal de
+          roche garnis de vermeil doré.</seg></p>
+      <p>Aux beautez de ce lieu on avoit ajoûté mille autres embellissemens, tant par u<seg
+          ana="description">n <tech type="decor">grand nombre d’orangers &amp; de pots de
+            porcelaines remplis d’une infinité de diverses fleurs, que par des festons aussi de
+            fleurs, disposez d’une maniére qui les faisoit beaucoup paroître parmi les arbres
+            ausquels ils estoient attachez. Une infinité de jattes &amp; de cuvettes de porcelaine,
+            pleines de toutes sortes de fruits, couvroient non seulement ces tables de marbre dont
+            j’ay parlé, mais encore toutes les marches de gazon qui sont aux environs. Entre les
+            jattes &amp; les cuvettes il y avoit des corbeilles remplies de pastes &amp; de fruits
+            confits entremêlez de caraffes de crystal &amp; d’autres petites porcelaines, où l’on
+            avoit mis toutes sortes de liqueurs</tech></seg>.</p>
+      <p>Les Officiers<seg ana="description">avoient aussi par une industrie toute particuliére,
+          formé de grands vases de veritable glace, de figures differentes, &amp; de diverses
+          grandeurs ; &amp; au travers de ces vases l’on voyoit paroître les fleurs &amp; les fruits
+          qu’on y avoit mis</seg>.</p>
+      <p>Pendant la Collation, l’eau qui jallissoit de tous les endroits de cette place, faisoit un
+        bruit qui s’accordoit agréablement au son des violons &amp; des hautbois.</p>
+      <p>Au sortir du Marais, environ sur les huit heures, <persName key="louisxiv">le
+          ROY</persName> &amp; toute la Cour retournerent du costé du <placeName
+          key="versailles_chateau">Chasteau</placeName>, où les croisées, tant de la petite cour que
+        la grande, &amp; les balcons des faces estoient éclairez par <tech type="lumieres">deux
+          rangs de bougies</tech> : l’Entablement estoit aussi éclairé <tech type="lumieres"
+          >d’autres lumiéres</tech>
         <seg ana="description">espacées à demi-pied l’une de l’autre</seg>.</p>
-      <p><tech type="construction">Le Théatre</tech> qui se trouva préparé pour la Tragédie contenoit toute <placeName key="versailles_cour">la petite cour</placeName> pavée de marbre. <seg ana="description">Les deux costez estoient ornez de douze caisses de grands orangers, qui se terminant dans le fond de la cour, laissoient voir en face dans le point de la perspective les huit colonnes de marbre qui portent la balcon doré, &amp; qui font l’entrée du Vestibule du corps de logis du milieu</seg>.</p>
-      <p>Entre ces caisses d’orangers il y avoit <tech type="construction">un pareil nombre de piedestaux de marbre</tech> d<seg ana="description">e cinq pieds de haut, portans des vases de porcelaine remplis de petits orangers. Devant chaque piedestal estoit un gueridon d’or &amp; d’azur, chargé de</seg>
-        <tech type="lumieres">girandoles</tech>
-        <seg ana="description">de crystal &amp; d’argent, allumées chacune de</seg>
-        <tech type="lumieres">dix bougies</tech>.</p>
-      <p><pb n="6" xml:id="p6"/>Derriére ces mesmes caisses s’élevoient encore <seg ana="description">vingt-quatre autres grands gueridons ornez de festons de fleurs, &amp; portans chacun</seg>
-        <tech type="lumieres">une girandole</tech><seg ana="description"> de crystal allumée comme les autres</seg>.</p>
-      <p>Comme les huit colonnes qui paroissoient au fond du <tech type="construction">Théatre</tech> sont accouplées, &amp; separent les trois portes du Vestibule, on voyoit au milieu de chaque porte <tech type="lumieres">un grand lustre</tech>
-        <seg ana="description">de crystal qui pendoit de dessous l’Architrave ; &amp; contre les trumeaux entre les colonnes, il y avoit des guéridons dorez chargez de girandoles, avec deux caisses d’orangers de chaque costé</seg>.</p>
-      <p>La Fontaine de marbre qui est au milieu de cette cour, estoit environnée de <tech type="lumieres">girandoles</tech> &amp; <seg ana="description">de vases pleins de fleurs ; &amp; dans le bassin mesme, six grands Vases de porcelaine remplis de fleurs recevoient l’eau de</seg>
-        <tech type="eaux">six differens jets</tech><seg ana="description"> qui sortent d’une corne d’</seg><name>Amalthée</name><seg ana="description">, que soûtiennent trois petits Tritons de bronze doré</seg>. Ces Vases estoient ainsi disposez pour empescher que l’eau ne tombast dans le bassin où elle auroit fait du bruit ; &amp; pour la mesme raison <seg ana="description">le groupe des Tritons estoit ornée d’une grande couronne de fleurs</seg>, qui recevoit aussi l’eau du gros bouillon que s’éleve au milieu des autres <tech type="eaux">jets d’eau</tech> : de sorte qu’à la clarté de <tech type="lumieres">tant de lumiéres</tech> l’on voyoit briller toutes ces eaux, sans que leur chûte pûst par son bruit interrompre la voix des Musiciens, &amp; la symphonie des Instrumens.</p>
-      <p>Ainsi l’Architecture de ces bastimens éclairez de <tech type="lumieres">tant de lumiéres</tech>, &amp; la disposition ingénieuse de <tech type="lumieres">tant de lustres</tech> &amp; de <tech type="lumieres">girandoles</tech><persName key="musiciens" role="musicien">Musiciens</persName>
-        <seg ana="description">entremeslez par l’agréable variété des arbres &amp; des fleurs</seg>, faisoit un riche ornement à <tech type="construction">ce Théatre</tech>.</p>
-      <p><persName key="louisxiv" role="spectateur">Le ROY</persName> estant placé, les Musiciens &amp; <persName key="acteurs" role="acteur">les autres Acteurs de l’Académie Royale de Musique</persName> representerent la Tragédie d’ALCESTE, dernier ouvrage du <persName key="philippe_quinault" role="auteur">sieur Quinaut</persName>, qui receût de toute la Cour la mesme approbation que cette excellente piéce en a toûjours eûë ; &amp; <tech type="musique">la Musique</tech> receût aussi les mesmes applaudissemens qu’on donne toûjours aux productions du <persName key="jb_lully" role="auteur">sieur de Lully</persName>.</p>
-      <p>En suite <persName key="louisxiv" role="convive"><persName key="marie_therese" role="convive">leurs Majestez</persName></persName> furent prendre le souper de la Media-Noche, préparé dans <placeName key="versailles_chateau">le Chasteau</placeName>.</p>
+      <p><tech type="construction">Le Théatre</tech> qui se trouva préparé pour la Tragédie
+        contenoit toute <placeName key="versailles_cour">la petite cour</placeName> pavée de marbre.
+          <seg ana="description">Les deux costez estoient ornez de douze caisses de grands orangers,
+          qui se terminant dans le fond de la cour, laissoient voir en face dans le point de la
+          perspective les huit colonnes de marbre qui portent la balcon doré, &amp; qui font
+          l’entrée du Vestibule du corps de logis du milieu</seg>.</p>
+      <p>Entre ces caisses d’orangers il y avoit <tech type="construction">un pareil nombre de
+          piedestaux de marbre</tech> d<seg ana="description">e cinq pieds de haut, portans des
+          vases de porcelaine remplis de petits orangers. Devant chaque piedestal estoit un gueridon
+          d’or &amp; d’azur, chargé de</seg>
+        <tech type="lumieres">girandoles de crystal &amp; d’argent, allumées chacune de dix
+          bougies</tech>.</p>
+      <p><pb n="6" xml:id="p6"/>Derriére ces mesmes caisses s’élevoient encore <seg
+          ana="description">vingt-quatre autres grands gueridons ornez de festons de fleurs, &amp;
+          portans chacun</seg>
+        <tech type="lumieres">une girandole de crystal allumée comme les autres</tech>.</p>
+      <p>Comme les huit colonnes qui paroissoient au fond du <tech type="construction"
+          >Théatre</tech> sont accouplées, &amp; separent les trois portes du Vestibule, on voyoit
+        au milieu de chaque porte <tech type="lumieres">un grand lustre de crystal qui pendoit de dessous l’Architrave ; &amp; contre les
+          trumeaux entre les colonnes, il y avoit des guéridons dorez chargez de girandoles </tech>, avec
+          deux caisses d’orangers de chaque costé.</p>
+      <p>La Fontaine de marbre qui est au milieu de cette cour, estoit environnée de <tech
+          type="lumieres">girandoles</tech> &amp; <seg ana="description">de vases pleins de fleurs ;
+          &amp; dans le bassin mesme, six grands Vases de porcelaine remplis de fleurs recevoient
+          l’eau de</seg>
+        <tech type="eaux">six differens jets</tech><seg ana="description"> qui sortent d’une corne
+          d’</seg><name>Amalthée</name><seg ana="description">, que soûtiennent trois petits Tritons
+          de bronze doré</seg>. Ces Vases estoient ainsi disposez pour empescher que l’eau ne
+        tombast dans le bassin où elle auroit fait du bruit ; &amp; pour la mesme raison <seg
+          ana="description">le groupe des Tritons estoit ornée d’une grande couronne de
+        fleurs</seg>, qui recevoit aussi l’eau du gros bouillon que s’éleve au milieu des autres
+          <tech type="eaux">jets d’eau</tech> : de sorte qu’à la clarté de <tech type="lumieres"
+          >tant de lumiéres</tech> l’on voyoit briller toutes ces eaux, sans que leur chûte pûst par
+        son bruit interrompre la voix des Musiciens, &amp; la symphonie des Instrumens.</p>
+      <p>Ainsi l’Architecture de ces bastimens éclairez de <tech type="lumieres">tant de
+          lumiéres</tech>, &amp; la disposition ingénieuse de <tech type="lumieres">tant de
+          lustres</tech> &amp; de <tech type="lumieres">girandoles</tech><persName key="musiciens"
+          role="musicien">Musiciens</persName>
+        <seg ana="description">entremeslez par l’agréable variété des arbres &amp; des fleurs</seg>,
+        faisoit un riche ornement à <tech type="construction">ce Théatre</tech>.</p>
+      <p><persName key="louisxiv" role="spectateur">Le ROY</persName> estant placé, les Musiciens
+        &amp; <persName key="acteurs" role="acteur">les autres Acteurs de l’Académie Royale de
+          Musique</persName> representerent la Tragédie d’ALCESTE, dernier ouvrage du <persName
+          key="philippe_quinault" role="auteur">sieur Quinaut</persName>, qui receût de toute la
+        Cour la mesme approbation que cette excellente piéce en a toûjours eûë ; &amp; <tech
+          type="musique">la Musique</tech> receût aussi les mesmes applaudissemens qu’on donne
+        toûjours aux productions du <persName key="jb_lully" role="auteur">sieur de
+        Lully</persName>.</p>
+      <p>En suite <persName key="louisxiv" role="convive"><persName key="marie_therese"
+            role="convive">leurs Majestez</persName></persName> furent prendre le souper de la
+        Media-Noche, préparé dans <placeName key="versailles_chateau">le Chasteau</placeName>.</p>
       <pb n="np"/>
       <figure/>
       <pb n="7" xml:id="p7"/>
       <label type="head">SECONDE JOURNÉE.</label>
-      <p>COMME dans <placeName key="versailles_chateau">le Chasteau</placeName> &amp; dans <placeName key="versailles_jardins">le Parc de VERSAILLES</placeName> il y a des lieux où chaque saison de l’année semble avoir établi une demeure particuliére, on peut dire que c’est à <placeName key="versailles_trianon">TRIANON</placeName> que l’on trouve toûjours le Printemps. Rien n’est plus agréable que la structure du Chasteau, ni plus délicat que les ornemens dont il est enrichi. Il semble estre le sejour ordinaire des Graces &amp; des Amours. Les Parterres &amp; les Jardins y sont toûjours verts. Tout ce qu’on y voit a des beautez particuliéres, &amp; l’air qu’on y respire est parfumé des fleurs les plus odoriferentes. <date when="1674-07-11">Le Mercredi onziéme juillet</date>
-        <persName key="louisxiv">le ROY</persName> continuant de regaler la Cour, choisit cét endroit pour y passer la soirée ; &amp; pour cét effet ordonna qu’on y préparast une place commode pour entendre l’EGLOGUE DE VERSAILLES.</p>
-      <p>Hors l’enclos du jardin de TRIANON, il y a un petit Bois enfermé dans <placeName key="versailles_jardins">le grand Parc</placeName>, dont les arbres hauts &amp; épais de feuïllages font un couvert admirable. La principale allée de ce Bois répond vis-à-vis le Palais, en sorte qu’en ouvrant une grille qui ferme le jardin, cette allée fait une perspective d’autant plus agréable, qu’on apperçoit un enfoncement d’arbres, &amp; une fontaine au bout, dont l’ombre &amp; la fraîcheur ont quelque chose de tres-délicieux.</p>
-      <p>C’est au bout de cette allée qu’on éleva <tech type="construction">un Salon de verdure</tech><seg ana="description"> de figure octogone, &amp; d’environ huit toiles de diamétre. Les six faces des costez avoient chacune trois Portiques, au-delà desquels estoient dressez</seg>
+      <p>COMME dans <placeName key="versailles_chateau">le Chasteau</placeName> &amp; dans
+          <placeName key="versailles_jardins">le Parc de VERSAILLES</placeName> il y a des lieux où
+        chaque saison de l’année semble avoir établi une demeure particuliére, on peut dire que
+        c’est à <placeName key="versailles_trianon">TRIANON</placeName> que l’on trouve toûjours le
+        Printemps. Rien n’est plus agréable que la structure du Chasteau, ni plus délicat que les
+        ornemens dont il est enrichi. Il semble estre le sejour ordinaire des Graces &amp; des
+        Amours. Les Parterres &amp; les Jardins y sont toûjours verts. Tout ce qu’on y voit a des
+        beautez particuliéres, &amp; l’air qu’on y respire est parfumé des fleurs les plus
+        odoriferentes. <date when="1674-07-11">Le Mercredi onziéme juillet</date>
+        <persName key="louisxiv">le ROY</persName> continuant de regaler la Cour, choisit cét
+        endroit pour y passer la soirée ; &amp; pour cét effet ordonna qu’on y préparast une place
+        commode pour entendre l’EGLOGUE DE VERSAILLES.</p>
+      <p>Hors l’enclos du jardin de TRIANON, il y a un petit Bois enfermé dans <placeName
+          key="versailles_jardins">le grand Parc</placeName>, dont les arbres hauts &amp; épais de
+        feuïllages font un couvert admirable. La principale allée de ce Bois répond vis-à-vis le
+        Palais, en sorte qu’en ouvrant une grille qui ferme le jardin, cette allée fait une
+        perspective d’autant plus agréable, qu’on apperçoit un enfoncement d’arbres, &amp; une
+        fontaine au bout, dont l’ombre &amp; la fraîcheur ont quelque chose de tres-délicieux.</p>
+      <p>C’est au bout de cette allée qu’on éleva <tech type="construction">un Salon de
+          verdure</tech><seg ana="description"> de figure octogone, &amp; d’environ huit toiles de
+          diamétre. Les six faces des costez avoient chacune trois Portiques, au-delà desquels
+          estoient dressez</seg>
         <tech type="construction">des Amphithéatres</tech>
         <seg ana="description">pour</seg>
-        <tech type="musique">la Musique</tech>. <seg ana="description">Le haut du Salon s’élevoit en Dôme, ayant dans son milieu une grande ouverture. Sur la corniche qui regnoit au-dessus des Portiques estoient arrangez des Vases de porcelaine remplis de fleurs ; &amp; du milieu des mesmes Portiques pendoient aussi de grands festons de fleurs attachez de part &amp; d’autre contre les pilastres</seg>.</p>
-      <p><tech type="construction">Ce Salon</tech><seg ana="description">avoit deux grandes portes : par l’une on y entroit ; &amp; par l’autre qui estoit vis-à-vis, on voyoit une longue allée formée des deux costez par de petites arcades ornées de pots de fleurs &amp; de festons. Au bout de cette allée</seg><pb n="8" xml:id="p8"/><seg ana="description"> estoit un bassin de fontaine environné de grands orangers &amp; de pots de fleurs, au milieu desquels on voyoit élever</seg><tech type="construction">un gros jet d’eau</tech>. <seg ana="description">Au-delà du bassin il y avoit une palissade qui formoit un demi-cercle, où dans cinq grandes niches paroissoient</seg><tech type="decor">cinq Figures de Satyres</tech><seg ana="description"> de marbre blanc, assises, &amp; joüant de divers Instrumens champestres.</seg></p>
-      <p><persName key="louisxiv">Le ROY </persName>estant arrivé dans <tech type="construction">ce Salon</tech> avec toute sa Cour, s’assit en un endroit qu’on luy avoit préparé vis-à-vis de l’allée &amp; de la Fontaine que je viens de dire, qui faisoient devant luy une décoration tres-agréable.</p>
-      <p>Après que <tech type="musique">la Musique</tech> eût chanté l’EGLOGUE, ce qui dura environ une heure &amp; demie, <persName key="louisxiv">Sa MAJESTÉ</persName> sortit de <placeName key="versailles_trianon">TRIANON</placeName> pour prendre le divertissement de <tech>la promenade</tech> jusqu’à neuf heures du soir qu’Elle entre dans cét endroit du <placeName key="versailles_jardins">petit Parc</placeName> qu’on nomme <placeName key="versailles_jardins_obelisque">la SALE DU CONSEIL</placeName>. <seg ana="description">C’est une place dans le bois, d’une fort grande étenduë. Sa figure est plus longue que large : le milieu est une Isle environnée de canaux, avec des ponts aux deux extrémitez</seg>, qui, par des <tech type="machine_eau">machines</tech> secretes, reculent ou avancent, pour fermer le passage, ou pour donner entrée. Quand les ponts sont retirez il y a <tech type="eaux">plusieurs jets d’eau</tech> qui forment comme une grille ; &amp; de plusieurs endroits il sort <tech type="eaux">soixante-treize jets d’eau</tech>
+        <tech type="musique">la Musique</tech>. <seg ana="description">Le haut du Salon s’élevoit en
+          Dôme, ayant dans son milieu une grande ouverture. Sur la corniche qui regnoit au-dessus
+          des Portiques estoient arrangez des Vases de porcelaine remplis de fleurs ; &amp; du
+          milieu des mesmes Portiques pendoient aussi de grands festons de fleurs attachez de part
+          &amp; d’autre contre les pilastres</seg>.</p>
+      <p><tech type="construction">Ce Salon</tech><seg ana="description">avoit deux grandes portes :
+          par l’une on y entroit ; &amp; par l’autre qui estoit vis-à-vis, on voyoit une longue
+          allée formée des deux costez par de petites arcades ornées de pots de fleurs &amp; de
+          festons. Au bout de cette allée</seg><pb n="8" xml:id="p8"/><seg ana="description"> estoit
+          un bassin de fontaine environné de grands orangers &amp; de pots de fleurs, au milieu
+          desquels on voyoit élever</seg><tech type="construction">un gros jet d’eau</tech>. <seg
+          ana="description">Au-delà du bassin il y avoit une palissade qui formoit un demi-cercle,
+          où dans cinq grandes niches paroissoient</seg><tech type="decor">cinq Figures de
+          Satyres</tech><seg ana="description"> de marbre blanc, assises, &amp; joüant de divers
+          Instrumens champestres.</seg></p>
+      <p><persName key="louisxiv">Le ROY </persName>estant arrivé dans <tech type="construction">ce
+          Salon</tech> avec toute sa Cour, s’assit en un endroit qu’on luy avoit préparé vis-à-vis
+        de l’allée &amp; de la Fontaine que je viens de dire, qui faisoient devant luy une
+        décoration tres-agréable.</p>
+      <p>Après que <tech type="musique">la Musique</tech> eût chanté l’EGLOGUE, ce qui dura environ
+        une heure &amp; demie, <persName key="louisxiv">Sa MAJESTÉ</persName> sortit de <placeName
+          key="versailles_trianon">TRIANON</placeName> pour prendre le divertissement de <tech>la
+          promenade</tech> jusqu’à neuf heures du soir qu’Elle entre dans cét endroit du <placeName
+          key="versailles_jardins">petit Parc</placeName> qu’on nomme <placeName
+          key="versailles_jardins_obelisque">la SALE DU CONSEIL</placeName>. <seg ana="description"
+          >C’est une place dans le bois, d’une fort grande étenduë. Sa figure est plus longue que
+          large : le milieu est une Isle environnée de canaux, avec des ponts aux deux
+          extrémitez</seg>, qui, par des <tech type="machine_eau">machines</tech> secretes, reculent
+        ou avancent, pour fermer le passage, ou pour donner entrée. Quand les ponts sont retirez il
+        y a <tech type="eaux">plusieurs jets d’eau</tech> qui forment comme une grille ; &amp; de
+        plusieurs endroits il sort <tech type="eaux">soixante-treize jets d’eau</tech>
         <seg ana="description">d’une égale hauteur</seg>.</p>
-      <p>Lors que <persName key="louisxiv">le ROY</persName> arriva dans cette place, il la trouva éclairée par <tech type="lumieres">plus de cent cinquante lustres</tech> attachez le long des palissades entre les arbres de la contr’allée. <seg ana="description">L’Isle estoit bordée de soixante-seize guéridons de fleurs portans</seg>
+      <p>Lors que <persName key="louisxiv">le ROY</persName> arriva dans cette place, il la trouva
+        éclairée par <tech type="lumieres">plus de cent cinquante lustres</tech> attachez le long
+        des palissades entre les arbres de la contr’allée. <seg ana="description">L’Isle estoit
+          bordée de soixante-seize guéridons de fleurs portans</seg>
         <tech type="lumieres">des girandoles</tech>
         <seg ana="description">de crystal allumées de</seg>
-        <tech type="lumieres">bougies</tech>. La table estoit dressée au milieu, &amp; décorée d’une façon toute singuliére. Une maniére d’Edifice occupoit presque tout l’espace de cette table, ne laissant qu’un large bord tout au tour pour les couverts &amp; le service des viandes. Cét Edifice estoit composé de <seg ana="description">toutes sortes de fruits ingenieusement arrangez dans cent douzaines de petites porcelaines</seg>, qui faisoient comme le corps solide de cét agréable bastiment. <seg ana="description">Il estoit divisé par seize arcades ; &amp; chaque arcade avoit quatre colonnes torses &amp; accouplées qui portoient la corniche. Ces colonnes estoient dorées &amp; garnies de fleurs de mesme que leurs bases &amp; leurs chapiteaux. Du milieu des arcades pendoient de doubles festons ; &amp; au dessus des colonnes estoient</seg>
-        <tech type="lumieres">des girandoles</tech><seg ana="description"> de crystal allumées de</seg>
-        <tech type="lumieres">bougies</tech>. <seg ana="description">Cent petits vases d’orangers &amp; de tubereuses posez sur la corniche luy</seg>
+        <tech type="lumieres">bougies</tech>. La table estoit dressée au milieu, &amp; décorée d’une
+        façon toute singuliére. Une maniére d’Edifice occupoit presque tout l’espace de cette table,
+        ne laissant qu’un large bord tout au tour pour les couverts &amp; le service des viandes.
+        Cét Edifice estoit composé de <seg ana="description">toutes sortes de fruits ingenieusement
+          arrangez dans cent douzaines de petites porcelaines</seg>, qui faisoient comme le corps
+        solide de cét agréable bastiment. <seg ana="description">Il estoit divisé par seize
+          arcades ; &amp; chaque arcade avoit quatre colonnes torses &amp; accouplées qui portoient
+          la corniche. Ces colonnes estoient dorées &amp; garnies de fleurs de mesme que leurs bases
+          &amp; leurs chapiteaux. Du milieu des arcades pendoient de doubles festons ; &amp; au
+          dessus des colonnes estoient</seg>
+        <tech type="lumieres">des girandoles</tech><seg ana="description"> de crystal allumées
+          de</seg>
+        <tech type="lumieres">bougies</tech>. <seg ana="description">Cent petits vases d’orangers
+          &amp; de tubereuses posez sur la corniche luy</seg>
         <pb n="9" xml:id="p9"/>
-        <seg ana="description">servoient d’amortissement. Mais la quantité presque incroyable de cuvettes &amp; de jattes de porcelaine remplies de fruits, &amp; le grand nombre de vases de crystal servans pour les glaces &amp; les liqueurs, faisoit la somptuosité de cette table, sur laquelle les viandes furent servies avec une magnificence extraordinaire</seg>.</p>
-      <p>Pendant que le souper dura, les violons &amp; les hautbois firent parmi le bruit des Fontaines, retentir ces lieux d’une harmonie tres-charmante.</p>
+        <seg ana="description">servoient d’amortissement. Mais la quantité presque incroyable de
+          cuvettes &amp; de jattes de porcelaine remplies de fruits, &amp; le grand nombre de vases
+          de crystal servans pour les glaces &amp; les liqueurs, faisoit la somptuosité de cette
+          table, sur laquelle les viandes furent servies avec une magnificence
+        extraordinaire</seg>.</p>
+      <p>Pendant que le souper dura, les violons &amp; les hautbois firent parmi le bruit des
+        Fontaines, retentir ces lieux d’une harmonie tres-charmante.</p>
       <figure/>
       <pb n="np"/>
       <figure/>
       <pb n="11" xml:id="p11"/>
       <label type="head">TROISIÉME JOURNÉE.</label>
-      <p><date when="1674-07-19">LE dix-neuviéme du mesme mois</date><persName key="louisxiv">le ROY</persName> alla se promenez à <placeName key="versailles_jardins_menagerie">la MENAGERIE</placeName>, où il donna la collation aux Dames de la Cour. C’est un lieu situé dans <placeName key="versailles_jardins">le Parc de VERSAILLES</placeName>, à l’un des bouts du Canal, vis-à-vis de <placeName key="versailles_trianon">TRIANON</placeName>. On y voit tout ce qui peut rendre la vie champestre agréable &amp; divertissante par la nourriture des animaux de toutes sortes d’especes. <seg ana="description">Au bout d’une longue avenuë d’arbres est un petit Palais, dont la principale piéce est un Salon de figure octogone. Il est environné d’une balustrade tout autour, d’où l’on voit sept cours qui aboutissent à la cour du milieu, &amp; qui en sont separées par des grilles de fer, qui formoient une figure semblable à celle du Salon. Toutes ces cours sont remplies d’une infinité <tech type="animal">d’oiseaux tres-rares, &amp; d’une quantité incroyable d’autres animaux sauvages.</tech></seg></p>
-      <p>Après la collation qui fut tres-magnifique, <persName key="louisxiv">Sa MAJESTÉ</persName> estant montée sur <placeName key="versailles_canal">le canal</placeName> dans des gondoles superbement parées, fut suivie de <tech type="musique">la musique</tech>, des violons &amp; des hautbois qui estoient dans un grand vaisseau. Elle demeura environ une heure à goûteur la fraîcheur du soir, &amp; entendre les agréables concerts des voix &amp; des instrumens, qui seuls interrompent alors le silence de la nuit qui commençoit à paroître.</p>
-      <p>En suite de cela <persName key="louisxiv">le ROY</persName> descendit à la teste du canal, &amp; estant entré dans sa caleche, alla au <tech type="construction">Théatre</tech> que l’on avoit dressé devant <placeName key="versailles_jardins_grotte_thetis">la GROTTE</placeName> pour la representation de la Comedie du MALADE IMAGINAIRE, dernier ouvrage du <persName key="moliere" role="auteur">sieur Moliére</persName>.</p>
-      <p>L’aspect de <placeName key="versailles_jardins_grotte_thetis">la Grotte</placeName> servoit de fond à <tech type="construction">ce Théatre</tech>
-        <seg ana="description">élevé de deux pieds &amp; demi de terre. Le frontispice estoit une grande corniche architravée, soûtenuë aux deux extrémitez par deux massifs avec des ornemens rustiques, &amp; semblables à ceux qui paroissent au dehors de la Grotte. Dans chaque massif il y avoit deux niches, où sur des piedestaux on voyoit deux figures representant d’un costé</seg>
+      <p><date when="1674-07-19">LE dix-neuviéme du mesme mois</date><persName key="louisxiv">le
+          ROY</persName> alla se promenez à <placeName key="versailles_jardins_menagerie">la
+          MENAGERIE</placeName>, où il donna la collation aux Dames de la Cour. C’est un lieu situé
+        dans <placeName key="versailles_jardins">le Parc de VERSAILLES</placeName>, à l’un des bouts
+        du Canal, vis-à-vis de <placeName key="versailles_trianon">TRIANON</placeName>. On y voit
+        tout ce qui peut rendre la vie champestre agréable &amp; divertissante par la nourriture des
+        animaux de toutes sortes d’especes. <seg ana="description">Au bout d’une longue avenuë
+          d’arbres est un petit Palais, dont la principale piéce est un Salon de figure octogone. Il
+          est environné d’une balustrade tout autour, d’où l’on voit sept cours qui aboutissent à la
+          cour du milieu, &amp; qui en sont separées par des grilles de fer, qui formoient une
+          figure semblable à celle du Salon. Toutes ces cours sont remplies d’une infinité <tech
+            type="animal">d’oiseaux tres-rares, &amp; d’une quantité incroyable d’autres animaux
+            sauvages.</tech></seg></p>
+      <p>Après la collation qui fut tres-magnifique, <persName key="louisxiv">Sa MAJESTÉ</persName>
+        estant montée sur <placeName key="versailles_canal">le canal</placeName> dans des gondoles
+        superbement parées, fut suivie de <tech type="musique">la musique</tech>, des violons &amp;
+        des hautbois qui estoient dans un grand vaisseau. Elle demeura environ une heure à goûteur
+        la fraîcheur du soir, &amp; entendre les agréables concerts des voix &amp; des instrumens,
+        qui seuls interrompent alors le silence de la nuit qui commençoit à paroître.</p>
+      <p>En suite de cela <persName key="louisxiv">le ROY</persName> descendit à la teste du canal,
+        &amp; estant entré dans sa caleche, alla au <tech type="construction">Théatre</tech> que
+        l’on avoit dressé devant <placeName key="versailles_jardins_grotte_thetis">la
+          GROTTE</placeName> pour la representation de la Comedie du MALADE IMAGINAIRE, dernier
+        ouvrage du <persName key="moliere" role="auteur">sieur Moliére</persName>.</p>
+      <p>L’aspect de <placeName key="versailles_jardins_grotte_thetis">la Grotte</placeName> servoit
+        de fond à <tech type="construction">ce Théatre</tech>
+        <seg ana="description">élevé de deux pieds &amp; demi de terre. Le frontispice estoit une
+          grande corniche architravée, soûtenuë aux deux extrémitez par deux massifs avec des
+          ornemens rustiques, &amp; semblables à ceux qui paroissent au dehors de la Grotte. Dans
+          chaque massif il y avoit deux niches, où sur des piedestaux on voyoit deux figures
+          representant d’un costé</seg>
         <name>Hercule</name><seg ana="description"> tenant sa massuë, &amp; terassant</seg>
         <name>l’Hydre</name><seg ana="description">, &amp; de l’autre costé</seg>
-        <name>Apollon</name><seg ana="description"> appuyé sur son arc, &amp; foulant aux pieds</seg>
+        <name>Apollon</name><seg ana="description"> appuyé sur son arc, &amp; foulant aux
+          pieds</seg>
         <name>le serpent Python</name>.</p>
       <p>
         <pb n="12" xml:id="p12"/>
-        <seg ana="description">Au de ssus de la corniche s’élevoit un fronton, dont le tympan estoit rempli des armes du ROY.</seg>
+        <seg ana="description">Au de ssus de la corniche s’élevoit un fronton, dont le tympan estoit
+          rempli des armes du ROY.</seg>
       </p>
-      <p><tech type="lumieres">Sept grands lustres</tech><seg ana="description">pendoient sur le devant du</seg><tech type="construction">Théatre</tech> qui estoit avancé au devant des trois portes de la Grotte. <seg ana="description">Les costez estoient ornez d’une agréable feuïllée</seg> ; mais au travers des portes où le Théatre continuoit de s’étendre, l’on voyoit que la Grotte mesme luy servoit de principale décoration. Elle estoit éclairée d’une <tech type="lumieres">quantité de girandoles</tech>
-        <seg ana="description">de crystal, posées sur des guéridons d’or &amp; d’azur, &amp; d’</seg><tech type="lumieres">une infinité d’autres lumiéres</tech>
-        <seg ana="description">qu’on avoit mises sur les corniches &amp; sur toutes les autres saillies.</seg></p>
-      <p><seg ana="description">La table de marbre qui est au milieu estoit environnée de quantité de festons de fleurs, &amp; chargée d’une grande corbeille de mesme</seg>.</p>
-      <p><seg ana="description">Au fond des trois ouvertures l’on voyoit les trois grandes niches où sont ces groupes de Figures de marbre blanc</seg>, dont la beauté sujet, &amp; l’excellence du travail sont une des grandes richesses de ce lieu.</p>
-      <p>Dans la niche du milieu <name>Apollon</name> est representé assis &amp; environné des <name>Nymphes de Thétis</name> qui le parfument ; &amp; dans les deux autres, sont ses chevaux avec des <name>Tritons </name>qui les pansent.</p>
-      <p ana="description">Du haut de la niche du milieu tombe derriére les Figures une grande nape d’eau qui sort de l’urne que tient un Fleuve couché sur une roche ; cette eau qui s’est répanduë au pied des Figures dans un grand bassin de marbre, retombe ensuite jusqu’en bas par grandes napes, partie entiéres &amp; partie dechirées : Et des niches où sont les chevaux, il tombe pareillement des napes d’eau qui sont des chûtes admirables. Mais toutes ces cascades estant alors éclairées d’une <tech type="lumieres">infinité de bougies</tech> qu’on ne voyoit pas, faisoient des effets d’autant plus merveilleux &amp; plus surprenans, qu’il n’y avoit point de goute d’eau qui ne brillast du feu de <tech type="lumieres">tant de lumiéres</tech>, &amp; qui ne renvoyast autant de clartez qu’elle en recevoit.</p>
-      <p>Ce fut à la veûë d’une si agréable décoration que <persName key="la_troupe" role="acteur">les Comédiens de la Troupe du Roy</persName> representent le MALADE IMAGINAIRE, dont <persName key="louisxiv" role="spectateur"><persName key="marie_therese" role="spectateur">leurs MAJESTEZ</persName></persName> &amp; toute la Cour ne receûrent pas moins de plaisir qu’elles en ont toûjours eû aux piéces de <persName key="moliere" role="auteur">son Autheur</persName>.</p>
+      <p><tech type="lumieres">Sept grands lustres</tech><seg ana="description">pendoient sur le
+          devant du</seg><tech type="construction">Théatre</tech> qui estoit avancé au devant des
+        trois portes de la Grotte. <seg ana="description">Les costez estoient ornez d’une agréable
+          feuïllée</seg> ; mais au travers des portes où le Théatre continuoit de s’étendre, l’on
+        voyoit que la Grotte mesme luy servoit de principale décoration. Elle estoit éclairée d’une
+          <tech type="lumieres">quantité de girandoles</tech>
+        <seg ana="description">de crystal, posées sur des guéridons d’or &amp; d’azur, &amp;
+          d’</seg><tech type="lumieres">une infinité d’autres lumiéres</tech>
+        <seg ana="description">qu’on avoit mises sur les corniches &amp; sur toutes les autres
+          saillies.</seg></p>
+      <p><seg ana="description">La table de marbre qui est au milieu estoit environnée de quantité
+          de festons de fleurs, &amp; chargée d’une grande corbeille de mesme</seg>.</p>
+      <p><seg ana="description">Au fond des trois ouvertures l’on voyoit les trois grandes niches où
+          sont ces groupes de Figures de marbre blanc</seg>, dont la beauté sujet, &amp;
+        l’excellence du travail sont une des grandes richesses de ce lieu.</p>
+      <p>Dans la niche du milieu <name>Apollon</name> est representé assis &amp; environné des
+          <name>Nymphes de Thétis</name> qui le parfument ; &amp; dans les deux autres, sont ses
+        chevaux avec des <name>Tritons </name>qui les pansent.</p>
+      <p ana="description">Du haut de la niche du milieu tombe derriére les Figures une grande nape
+        d’eau qui sort de l’urne que tient un Fleuve couché sur une roche ; cette eau qui s’est
+        répanduë au pied des Figures dans un grand bassin de marbre, retombe ensuite jusqu’en bas
+        par grandes napes, partie entiéres &amp; partie dechirées : Et des niches où sont les
+        chevaux, il tombe pareillement des napes d’eau qui sont des chûtes admirables. Mais toutes
+        ces cascades estant alors éclairées d’une <tech type="lumieres">infinité de bougies</tech>
+        qu’on ne voyoit pas, faisoient des effets d’autant plus merveilleux &amp; plus surprenans,
+        qu’il n’y avoit point de goute d’eau qui ne brillast du feu de <tech type="lumieres">tant de
+          lumiéres</tech>, &amp; qui ne renvoyast autant de clartez qu’elle en recevoit.</p>
+      <p>Ce fut à la veûë d’une si agréable décoration que <persName key="la_troupe" role="acteur"
+          >les Comédiens de la Troupe du Roy</persName> representent le MALADE IMAGINAIRE, dont
+          <persName key="louisxiv" role="spectateur"><persName key="marie_therese" role="spectateur"
+            >leurs MAJESTEZ</persName></persName> &amp; toute la Cour ne receûrent pas moins de
+        plaisir qu’elles en ont toûjours eû aux piéces de <persName key="moliere" role="auteur">son
+          Autheur</persName>.</p>
       <pb n="np"/>
       <figure/>
       <pb n="13" xml:id="p13"/>
       <label type="head">QUATRIÉME JOURNÉE.</label>
-      <p><date when="1674-07-28">LE Samedy vingt-huitiéme de juillet</date><persName key="louisxiv" role="commanditaire">le ROY</persName> ayant donné ordre que la Feste de ce jour-là fust encore plus magnifique &amp; plus décorée que les précédentes, commanda qu’on préparast la collation au <tech type="construction">THEATRE</tech> qui est dans un des bois du <placeName key="versailles_jardins_petit_parc">petit Parc</placeName>.</p>
-      <p><seg ana="description">C’est une grande place presque ronde, &amp; separée en deux parties : la premiére qui sert l’Orchestre, contient un demi-cercle, autour duquel sont élevées trois marches en forme de siéges pour servir d’un Amphitéatre, dont la derniére marche fait une allée en terasse, couverte d’un rang d’ormes sur le devant avec des palissades de charmes par derriére.L’autre partie qui est trois à quatre pieds plus haute que l’Orchestre, compose</seg><tech type="construction">le Théatre</tech><seg ana="description">.Il s’éleve dans le fond par un petit talus de gazon qui laisse des passages pour</seg>les Acteurs<seg ana="description"> ; &amp; dans la palissade qui l’environne, il y a quatre grandes niches remplies de</seg><tech type="construction">bassins de fontaines</tech><seg ana="description"> rustiquement travaillez</seg>.</p>
-      <p>Dans ces bassins on en voit d’autres plus élevez, où sont assis des Enfans qui se jouënt : les uns avec un Cygne, les autres tiennent un Griffon, les autres une Ecrevisse, les autres une Lyre de bronze ; &amp; de tous ces bassins il sort de l’eau en abondance.</p>
-      <p><seg ana="description">Entre ces quatre niches il y a trois allées qui s’enfoncent dans le bois, &amp; dont la largeur diminuant peu à peu sans qu’on s’en apperçoive, aide à tromper la veûë, &amp; les font paroître encore beaucoup plus longues qu’elles ne sont. Ces allées forment trois perpectives d’une beauté toute nouvelle. Car dans leur milieu il y a un canal de quatre à cinq toises de large, revêtu des deux costez de divers coquillages, qui d’un costé sont terminées par des palissades de charme, &amp; de l’autre le long du canal, par de petits arbrisseaux verts avec des pots de porcelaine d’espace en espace. L’eau de ces canaux n’est pas une eau tranquille &amp; paisible : ce sont plusieurs cascades qui tombent les unes sur les autres, &amp; qui tirent leur source d’un grand bassin de</seg><pb n="14" xml:id="p14"/><seg ana="description">coquillage élevé au bout du canal sur trois autres bassins</seg>. L’eau qui en sort par grandes napes vient enfin jusques sur le bord du <tech type="construction">Théatre</tech>, où après avoir passé par des coulettes, elle finit dans trois bassins qui sont vis-à-vis des cascades.</p>
-      <p>Il y a encore aux costez du Théatre joignant l’Amphithéatre deux bassins, d’où s’élevent <tech type="construction">deux lances d’eau</tech> ; &amp; du bord du Théatre tombent deux napes d’eau l’une sur l’autre, qui separent l’Orchestre. Mais ce qui surprend davantage est la <tech type="eaux">quantité des jets d’eau</tech> qui sortent du milieu de ces canaux &amp; des costez des allées, lesquels forment <tech type="construction">une infinité de figures d’eau</tech> toutes differentes.</p>
-      <p>C’est dans cét agréable lieu que l’on avoit préparé une Collation <seg ana="description">d’une grandeur &amp; d’une magnificence vrayment Royale</seg>. Il n’y avoit point de table dressée dans cette Place : il sembloit que le lieu mesme presentast à la Compagnie les differens mets dont elle devoit estre regalée. Car c’estoit sur les trois marches qui environnent la Place en forme d’Amphitéatre qu’on les avoit disposez dans un ordre qui charmoit les yeux de tout le monde, &amp; avec une abondance presque incroyable. Sur le troisiéme &amp; plus haut des degrez regnoit <seg ana="description">un ornement de fleurs, composé de vingt-quarte grandes bordures en forme de miroirs, qui renfermoient les chiffres du ROY. Entre chaque miroir il y avoit un grand oranger chargé de fleurs &amp; de fruits ; &amp; ces orangers &amp; ces miroirs estoient joints les uns aux autres par des festons de fleurs agencez d’une maniére tres-galante</seg>.</p>
-      <p ana="description">Sur les deux autres degrez il y avoit dans de grands vases de porcelaine cent soixante tant pommiers, abricotiers, péchers, qu’autres differens arbrisseaux tous chargez de leurs fruits. Plusieurs vases remplis de lauriers-roses, &amp; d’autres fleurs estoient agréablement placez parmi ces arbrisseaux ; &amp; entre les arbres &amp; les fleurs on voyoit sur de petits piedestaux de fleurs plus de trois cens ou jattes fruits de la saion, élevez en pyramide dans un arrangment de couleurs &amp; de figures tres-agréables.</p>
-      <p><seg ana="description">Six-vingts corbeilles remplies de diverses pastes &amp; de confitures seches estoient entremêlées parmi les autres fruits. Quatre cens tasses de crystal pleines de glaces, &amp; une infinité de caraffes de mesmes remplies de toutes sortes de liqueurs, &amp; posées ou sur des soucoupes de crystal, ou dans</seg><pb n="15" xml:id="p15"/><seg ana="description"> des cuvettes de porcelaine, contribuoient beaucoup à l’agréable variété de cette somptueuse</seg>Collation.</p>
-      <p>Quand <persName key="louisxiv" role="convive"><persName key="marie_therese" role="spectateur">leurs MAJESTEZ</persName></persName> eurent commencé à prendre des fruits, le reste de la Cour choisit dans une si grande abondance de toutes choses ce qui luy plût davantage ; &amp; durant ce temps-là chacun avoit le plaisir de voir jallir les eaux en cent maniéres differentes : car tantost tous ces canaux paroissoient de longues allées d’eau en forme de berceaux ornez de <tech type="eaux">plusieurs jets</tech> d’espace en espace ; tantost c’étoit <tech type="construction">plusieurs palissades de lances</tech>
-        <seg ana="description">de crystal</seg>, qui separoient les canaux &amp; les allées en plusieurs autres allées ; tantost c’estoit des grilles d’eau accompagnées de <tech type="lumieres">petits chandeliers</tech> ; tantost des <tech type="animal">aigrettes</tech> qui s’élevoient à la hauteur des arbres ; enfin la grande quantité d’eau qui sort de ces lieux faisoit alors des effets qu’il est impossible de bien décrire.</p>
-      <p>Après que <persName key="louisxiv"><persName key="marie_therese" role="convive">leurs MAJESTEZ</persName></persName> eûrent demeuré dans ce lieu si charmant jusqu’à l’entrée de la nuit, Elles se rendirent au bout <placeName key="versailles_jardins_dragon">l’allée du Dragon</placeName> du costé de <placeName key="versailles_jardins">la tour d’eau</placeName>, où elles trouvérent <tech type="construction">un Théatre</tech> dressé pour l’OPERA des Festes de l’Amour &amp; de Bacchus.</p>
-      <p><seg ana="description">La face du Théatre representoit un grand morceau d’Architecture d’ordre Corinthien. Le milieu qui en faisoit l’ouverture estoit orné d’une grande corniche soûtenuë des deux costez par deux massifs formez en demi-cercle, &amp; dont les extrémitez avançoient davantage du costé de l’Orchestre. Ces massifs estoient accompagnez de trois colonnes &amp; de trois pilastres accouplez sous la corniche à l’ouverture du Théatre, &amp; une colonne &amp; un pilastre sur le devant proche de l’Orchestre. Au milieu de chaque massif il y avoit des niches, où sur des piedestaux estoient élevées deux statuës de bronze doré, l’une representant la Justice, &amp; l’autre la Felicité du Regne : la premiére tenoit une épée &amp; des balances, &amp; l’autre portoit une corne d’abondance remplie de fruits &amp; de fleurs. Les colonnes &amp; les pilastres estoient de lapis, striez, &amp; canelez : les bases, les chapiteaux, &amp; les ceintes ou bandes qui environnoient le fust de la colonne, estoient enrichis d’ornemens de bronze doré</seg>.</p>
+      <p><date when="1674-07-28">LE Samedy vingt-huitiéme de juillet</date><persName key="louisxiv"
+          role="commanditaire">le ROY</persName> ayant donné ordre que la Feste de ce jour-là fust
+        encore plus magnifique &amp; plus décorée que les précédentes, commanda qu’on préparast la
+        collation au <tech type="construction">THEATRE</tech> qui est dans un des bois du <placeName
+          key="versailles_jardins_petit_parc">petit Parc</placeName>.</p>
+      <p><seg ana="description">C’est une grande place presque ronde, &amp; separée en deux
+          parties : la premiére qui sert l’Orchestre, contient un demi-cercle, autour duquel sont
+          élevées trois marches en forme de siéges pour servir d’un Amphitéatre, dont la derniére
+          marche fait une allée en terasse, couverte d’un rang d’ormes sur le devant avec des
+          palissades de charmes par derriére.L’autre partie qui est trois à quatre pieds plus haute
+          que l’Orchestre, compose</seg><tech type="construction">le Théatre</tech><seg
+          ana="description">.Il s’éleve dans le fond par un petit talus de gazon qui laisse des
+          passages pour</seg>les Acteurs<seg ana="description"> ; &amp; dans la palissade qui
+          l’environne, il y a quatre grandes niches remplies de</seg><tech type="construction"
+          >bassins de fontaines</tech><seg ana="description"> rustiquement travaillez</seg>.</p>
+      <p>Dans ces bassins on en voit d’autres plus élevez, où sont assis des Enfans qui se jouënt :
+        les uns avec un Cygne, les autres tiennent un Griffon, les autres une Ecrevisse, les autres
+        une Lyre de bronze ; &amp; de tous ces bassins il sort de l’eau en abondance.</p>
+      <p><seg ana="description">Entre ces quatre niches il y a trois allées qui s’enfoncent dans le
+          bois, &amp; dont la largeur diminuant peu à peu sans qu’on s’en apperçoive, aide à tromper
+          la veûë, &amp; les font paroître encore beaucoup plus longues qu’elles ne sont. Ces allées
+          forment trois perpectives d’une beauté toute nouvelle. Car dans leur milieu il y a un
+          canal de quatre à cinq toises de large, revêtu des deux costez de divers coquillages, qui
+          d’un costé sont terminées par des palissades de charme, &amp; de l’autre le long du canal,
+          par de petits arbrisseaux verts avec des pots de porcelaine d’espace en espace. L’eau de
+          ces canaux n’est pas une eau tranquille &amp; paisible : ce sont plusieurs cascades qui
+          tombent les unes sur les autres, &amp; qui tirent leur source d’un grand bassin
+          de</seg><pb n="14" xml:id="p14"/><seg ana="description">coquillage élevé au bout du canal
+          sur trois autres bassins</seg>. L’eau qui en sort par grandes napes vient enfin jusques
+        sur le bord du <tech type="construction">Théatre</tech>, où après avoir passé par des
+        coulettes, elle finit dans trois bassins qui sont vis-à-vis des cascades.</p>
+      <p>Il y a encore aux costez du Théatre joignant l’Amphithéatre deux bassins, d’où s’élevent
+          <tech type="construction">deux lances d’eau</tech> ; &amp; du bord du Théatre tombent deux
+        napes d’eau l’une sur l’autre, qui separent l’Orchestre. Mais ce qui surprend davantage est
+        la <tech type="eaux">quantité des jets d’eau</tech> qui sortent du milieu de ces canaux
+        &amp; des costez des allées, lesquels forment <tech type="construction">une infinité de
+          figures d’eau</tech> toutes differentes.</p>
+      <p>C’est dans cét agréable lieu que l’on avoit préparé une Collation <seg ana="description"
+          >d’une grandeur &amp; d’une magnificence vrayment Royale</seg>. Il n’y avoit point de
+        table dressée dans cette Place : il sembloit que le lieu mesme presentast à la Compagnie les
+        differens mets dont elle devoit estre regalée. Car c’estoit sur les trois marches qui
+        environnent la Place en forme d’Amphitéatre qu’on les avoit disposez dans un ordre qui
+        charmoit les yeux de tout le monde, &amp; avec une abondance presque incroyable. Sur le
+        troisiéme &amp; plus haut des degrez regnoit <seg ana="description">un ornement de fleurs,
+          composé de vingt-quarte grandes bordures en forme de miroirs, qui renfermoient les
+          chiffres du ROY. Entre chaque miroir il y avoit un grand oranger chargé de fleurs &amp; de
+          fruits ; &amp; ces orangers &amp; ces miroirs estoient joints les uns aux autres par des
+          festons de fleurs agencez d’une maniére tres-galante</seg>.</p>
+      <p ana="description">Sur les deux autres degrez il y avoit dans de grands vases de porcelaine
+        cent soixante tant pommiers, abricotiers, péchers, qu’autres differens arbrisseaux tous
+        chargez de leurs fruits. Plusieurs vases remplis de lauriers-roses, &amp; d’autres fleurs
+        estoient agréablement placez parmi ces arbrisseaux ; &amp; entre les arbres &amp; les fleurs
+        on voyoit sur de petits piedestaux de fleurs plus de trois cens ou jattes fruits de la
+        saion, élevez en pyramide dans un arrangment de couleurs &amp; de figures
+        tres-agréables.</p>
+      <p><seg ana="description">Six-vingts corbeilles remplies de diverses pastes &amp; de
+          confitures seches estoient entremêlées parmi les autres fruits. Quatre cens tasses de
+          crystal pleines de glaces, &amp; une infinité de caraffes de mesmes remplies de toutes
+          sortes de liqueurs, &amp; posées ou sur des soucoupes de crystal, ou dans</seg><pb n="15"
+          xml:id="p15"/><seg ana="description"> des cuvettes de porcelaine, contribuoient beaucoup à
+          l’agréable variété de cette somptueuse</seg>Collation.</p>
+      <p>Quand <persName key="louisxiv" role="convive"><persName key="marie_therese"
+            role="spectateur">leurs MAJESTEZ</persName></persName> eurent commencé à prendre des
+        fruits, le reste de la Cour choisit dans une si grande abondance de toutes choses ce qui luy
+        plût davantage ; &amp; durant ce temps-là chacun avoit le plaisir de voir jallir les eaux en
+        cent maniéres differentes : car tantost tous ces canaux paroissoient de longues allées d’eau
+        en forme de berceaux ornez de <tech type="eaux">plusieurs jets</tech> d’espace en espace ;
+        tantost c’étoit <tech type="construction">plusieurs palissades de lances</tech>
+        <seg ana="description">de crystal</seg>, qui separoient les canaux &amp; les allées en
+        plusieurs autres allées ; tantost c’estoit des grilles d’eau accompagnées de <tech
+          type="lumieres">petits chandeliers</tech> ; tantost des <tech type="animal"
+          >aigrettes</tech> qui s’élevoient à la hauteur des arbres ; enfin la grande quantité d’eau
+        qui sort de ces lieux faisoit alors des effets qu’il est impossible de bien décrire.</p>
+      <p>Après que <persName key="louisxiv"><persName key="marie_therese" role="convive">leurs
+            MAJESTEZ</persName></persName> eûrent demeuré dans ce lieu si charmant jusqu’à l’entrée
+        de la nuit, Elles se rendirent au bout <placeName key="versailles_jardins_dragon">l’allée du
+          Dragon</placeName> du costé de <placeName key="versailles_jardins">la tour
+          d’eau</placeName>, où elles trouvérent <tech type="construction">un Théatre</tech> dressé
+        pour l’OPERA des Festes de l’Amour &amp; de Bacchus.</p>
+      <p><seg ana="description">La face du Théatre representoit un grand morceau d’Architecture
+          d’ordre Corinthien. Le milieu qui en faisoit l’ouverture estoit orné d’une grande corniche
+          soûtenuë des deux costez par deux massifs formez en demi-cercle, &amp; dont les extrémitez
+          avançoient davantage du costé de l’Orchestre. Ces massifs estoient accompagnez de trois
+          colonnes &amp; de trois pilastres accouplez sous la corniche à l’ouverture du Théatre,
+          &amp; une colonne &amp; un pilastre sur le devant proche de l’Orchestre. Au milieu de
+          chaque massif il y avoit des niches, où sur des piedestaux estoient élevées deux statuës
+          de bronze doré, l’une representant la Justice, &amp; l’autre la Felicité du Regne : la
+          premiére tenoit une épée &amp; des balances, &amp; l’autre portoit une corne d’abondance
+          remplie de fruits &amp; de fleurs. Les colonnes &amp; les pilastres estoient de lapis,
+          striez, &amp; canelez : les bases, les chapiteaux, &amp; les ceintes ou bandes qui
+          environnoient le fust de la colonne, estoient enrichis d’ornemens de bronze
+        doré</seg>.</p>
       <p>Au-delà de cette face paroissoit <placeName key="versailles_jardins">un jardin</placeName>
-        <seg ana="description">fort délicieux : il estoit disposé par grandes allées bordées de part &amp; d’autre de palissades d’arbres verts industrieusement taillez en diverses maniéres. Plusieurs figures representant des Thermes</seg>
-        <pb n="16" xml:id="p16"/><seg ana="description"> portoient des consoles &amp; des corniches taillées dans les palissades mesmes</seg> ; &amp; entre ces Thermes il y avoit des <tech type="construction">bassins de fontaine</tech>, d’où sortoit de l’eau.</p>
-      <p>La décoration changea au dernier Acte : <tech type="construction">le Théatre</tech> s’estant ouvert des deux costez, l’on vit de part &amp; d’autre <name>une quantité Bergers du chœur de l’Amour</name> assis des des portiques de verdure, &amp; joüans de divers instrumens ; &amp; le fond du Théatre s’estant aussi ouvert, il parut <name>plus de cinquante Satyres du chœur de Bacchus</name> ; &amp; tous ensemble joignant leurs voix au son Instrumens, mirent fin à la piéce, dont <tech type="musique">la Musique</tech> est l’Ouvrage du <persName key="lully" role="auteur">sieur de Lully</persName>.</p>
-      <p>Au sortir de ce lieu <persName key="louisxiv"><persName key="marie_therese" role="convive">leurs MAJESTEZ</persName></persName> monterent dans leurs caleches, &amp; à la clarté de <tech type="lumieres">cent flambeaux</tech> firent un tour de promenade dans <placeName key="versailles_jardins_petit_parc">le petit Parc</placeName>. Elles passerent devant <placeName key="versailles_jardins_bassin_apollon">le bassin d’Apollon</placeName> ; &amp; estant remontées entre le parterre d’eau &amp; le fer à cheval, virent les surprenans effets d’un <tech type="feux-artifice">Feu d’artifice</tech> qui tira sur <placeName key="versailles_canal">le canal</placeName>, où l’eau &amp; l’air parurent éclairez de differentes sortes.</p>
-      <p>La teste du Canal estoit d’abord environnée de <tech type="lumieres">Figures d’illuminations</tech>, qui renfermoient cette piéce d’eau d’un ornement tres-riche &amp; de <tech type="lumieres">lumiéres</tech>
-        <seg ana="description">tres-douces</seg> : mais incontinent après il sortit de ces Figures <tech type="feux-artifice">une infinité de feux</tech>, qui couvrirent l’eau, &amp; la firent paroître toute de flamme.</p>
-      <p><tech type="feux-artifice">Mille fusées</tech> s’élevérent en l’air, qui le remplirent de <tech type="lumieres">lumiéres differentes</tech>, pendant que tout retentissoit du <tech type="bruitage">bruit des canons</tech> &amp; des boëtes qui estoient dans <placeName key="versailles_jardins">le grand Parc</placeName>.</p>
-      <p>Après cela, la Cour remplie de l’agréable idée de tant de magnifiques spectacles revint au <placeName key="versailles_chateau">Chasteau</placeName> un peu après minuit, où <persName key="louisxiv" role="spectateur"><persName key="marie_therese" role="spectateur">leurs MAJESTEZ</persName></persName> trouverent un nouveau sujet d’étonnement &amp; d’admiration.</p>
-      <p>Ils embloit que tous <tech type="feux-artifice">les feux</tech> qui venoient de paroître en l’air au-dessus du <placeName key="versailles_canal">Canal</placeName> fussent venus se ranger dans <placeName key="versailles_cour">la petite cour de marbre</placeName>, où <tech type="lumieres">mille lumiéres</tech> qui paroissoient autant d’étoilles étincelantes formoient une colonne de feu.</p>
-      <p>On voyoit à l’entour de la Fontaine <seg ana="description">une grande table de figure octogone de Festons de fleurs d’orange, de tubereuses, &amp; d’œillets, &amp; décorée au-dessus d’une maniére toute extraordinaire</seg>.</p>
-      <p><seg ana="description">Car cette table qui avoit au moins treize toises de tour, servoit de base à huit consoles de lapis enrichies d’or, qui posant sur les huit angles, s’élevoient à la hauteur de quatorze</seg><pb n="17" xml:id="p17"/><seg ana="description"> pieds, &amp; portoient un plafond de mesme figure octogone</seg>.</p>
-      <p ana="description">Chaque face du plafond répondoit au tailloir d’une des consoles, &amp; les entredeux rentroient au centre par un demi-cercle ; en sorte que tout le contour de ce plafond estoit profilé de huit avances entre huit demi-cercles qui en faisoient la figure.</p>
-      <p ana="description">Sur la rampe de chaque console il y en avoit une autre plus petite, qui estoit d’or, &amp; portoit une <tech type="lumieres">girandole de crystal</tech> allumée de <tech type="lumieres">plusieurs bougies</tech>. Plus bas &amp; à l’endroit où commençoient les volutes, on voyoit <tech type="decor">huit Figures d’argent drapées d’or. Ces figures estoient assises &amp; disposées en differenes attitudes, tenans toutes des flageolets &amp; autres instrumens champestres, dont elles sembloient jouër.</tech></p>
-      <p>Au dessous estoit une autre petite console, en forme de rose, qui avançoit sur la table, &amp; portoit <tech type="lumieres">une girandole</tech>.</p>
-      <p><seg ana="description">Au haut &amp; du milieu des rouleaux qui estoient au dessous du tailloir, sortoient huit gros festons de fruits &amp; de fleurs, qui pendoient entre chaque rouleau</seg>.</p>
-      <p><seg ana="description">Le plafond qui posoit sur les consoles estoit divisé par differens paneaux d’or &amp; d’azur, au milieu desquels &amp; entre chaque tailloir il y avoit une rose d’or qui soûtenoit</seg><tech type="lumieres">un lustre</tech><seg ana="description"> de crystal ; mais ce plafond n’estoit pas également plein : il estoit percé en rond dans le milieu, &amp; avoit une ouverture de trois pieds &amp; demi de diamétre au dessus de la fontaine</seg>.</p>
+        <seg ana="description">fort délicieux : il estoit disposé par grandes allées bordées de part
+          &amp; d’autre de palissades d’arbres verts industrieusement taillez en diverses maniéres.
+          Plusieurs figures representant des Thermes</seg>
+        <pb n="16" xml:id="p16"/><seg ana="description"> portoient des consoles &amp; des corniches
+          taillées dans les palissades mesmes</seg> ; &amp; entre ces Thermes il y avoit des <tech
+          type="construction">bassins de fontaine</tech>, d’où sortoit de l’eau.</p>
+      <p>La décoration changea au dernier Acte : <tech type="construction">le Théatre</tech>
+        s’estant ouvert des deux costez, l’on vit de part &amp; d’autre <name>une quantité Bergers
+          du chœur de l’Amour</name> assis des des portiques de verdure, &amp; joüans de divers
+        instrumens ; &amp; le fond du Théatre s’estant aussi ouvert, il parut <name>plus de
+          cinquante Satyres du chœur de Bacchus</name> ; &amp; tous ensemble joignant leurs voix au
+        son Instrumens, mirent fin à la piéce, dont <tech type="musique">la Musique</tech> est
+        l’Ouvrage du <persName key="lully" role="auteur">sieur de Lully</persName>.</p>
+      <p>Au sortir de ce lieu <persName key="louisxiv"><persName key="marie_therese" role="convive"
+            >leurs MAJESTEZ</persName></persName> monterent dans leurs caleches, &amp; à la clarté
+        de <tech type="lumieres">cent flambeaux</tech> firent un tour de promenade dans <placeName
+          key="versailles_jardins_petit_parc">le petit Parc</placeName>. Elles passerent devant
+          <placeName key="versailles_jardins_bassin_apollon">le bassin d’Apollon</placeName> ; &amp;
+        estant remontées entre le parterre d’eau &amp; le fer à cheval, virent les surprenans effets
+        d’un <tech type="feux-artifice">Feu d’artifice</tech> qui tira sur <placeName
+          key="versailles_canal">le canal</placeName>, où l’eau &amp; l’air parurent éclairez de
+        differentes sortes.</p>
+      <p>La teste du Canal estoit d’abord environnée de <tech type="lumieres">Figures
+          d’illuminations</tech>, qui renfermoient cette piéce d’eau d’un ornement tres-riche &amp;
+        de <tech type="lumieres">lumiéres</tech>
+        <seg ana="description">tres-douces</seg> : mais incontinent après il sortit de ces Figures
+          <tech type="feux-artifice">une infinité de feux</tech>, qui couvrirent l’eau, &amp; la
+        firent paroître toute de flamme.</p>
+      <p><tech type="feux-artifice">Mille fusées</tech> s’élevérent en l’air, qui le remplirent de
+          <tech type="lumieres">lumiéres differentes</tech>, pendant que tout retentissoit du <tech
+          type="bruitage">bruit des canons</tech> &amp; des boëtes qui estoient dans <placeName
+          key="versailles_jardins">le grand Parc</placeName>.</p>
+      <p>Après cela, la Cour remplie de l’agréable idée de tant de magnifiques spectacles revint au
+          <placeName key="versailles_chateau">Chasteau</placeName> un peu après minuit, où <persName
+          key="louisxiv" role="spectateur"><persName key="marie_therese" role="spectateur">leurs
+            MAJESTEZ</persName></persName> trouverent un nouveau sujet d’étonnement &amp;
+        d’admiration.</p>
+      <p>Ils embloit que tous <tech type="feux-artifice">les feux</tech> qui venoient de paroître en
+        l’air au-dessus du <placeName key="versailles_canal">Canal</placeName> fussent venus se
+        ranger dans <placeName key="versailles_cour">la petite cour de marbre</placeName>, où <tech
+          type="lumieres">mille lumiéres</tech> qui paroissoient autant d’étoilles étincelantes
+        formoient une colonne de feu.</p>
+      <p>On voyoit à l’entour de la Fontaine <seg ana="description">une grande table de figure
+          octogone de Festons de fleurs d’orange, de tubereuses, &amp; d’œillets, &amp; décorée
+          au-dessus d’une maniére toute extraordinaire</seg>.</p>
+      <p><seg ana="description">Car cette table qui avoit au moins treize toises de tour, servoit de
+          base à huit consoles de lapis enrichies d’or, qui posant sur les huit angles, s’élevoient
+          à la hauteur de quatorze</seg><pb n="17" xml:id="p17"/><seg ana="description"> pieds,
+          &amp; portoient un plafond de mesme figure octogone</seg>.</p>
+      <p ana="description">Chaque face du plafond répondoit au tailloir d’une des consoles, &amp;
+        les entredeux rentroient au centre par un demi-cercle ; en sorte que tout le contour de ce
+        plafond estoit profilé de huit avances entre huit demi-cercles qui en faisoient la
+        figure.</p>
+      <p ana="description">Sur la rampe de chaque console il y en avoit une autre plus petite, qui
+        estoit d’or, &amp; portoit une <tech type="lumieres">girandole de crystal</tech> allumée de
+          <tech type="lumieres">plusieurs bougies</tech>. Plus bas &amp; à l’endroit où commençoient
+        les volutes, on voyoit <tech type="decor">huit Figures d’argent drapées d’or. Ces figures
+          estoient assises &amp; disposées en differenes attitudes, tenans toutes des flageolets
+          &amp; autres instrumens champestres, dont elles sembloient jouër.</tech></p>
+      <p>Au dessous estoit une autre petite console, en forme de rose, qui avançoit sur la table,
+        &amp; portoit <tech type="lumieres">une girandole</tech>.</p>
+      <p><seg ana="description">Au haut &amp; du milieu des rouleaux qui estoient au dessous du
+          tailloir, sortoient huit gros festons de fruits &amp; de fleurs, qui pendoient entre
+          chaque rouleau</seg>.</p>
+      <p><seg ana="description">Le plafond qui posoit sur les consoles estoit divisé par differens
+          paneaux d’or &amp; d’azur, au milieu desquels &amp; entre chaque tailloir il y avoit une
+          rose d’or qui soûtenoit</seg><tech type="lumieres">un lustre</tech><seg ana="description">
+          de crystal ; mais ce plafond n’estoit pas également plein : il estoit percé en rond dans
+          le milieu, &amp; avoit une ouverture de trois pieds &amp; demi de diamétre au dessus de la
+          fontaine</seg>.</p>
       <p>Toute la corniche du plafond estoit entourée de <tech type="lumieres">bougies</tech>
-        <seg ana="description">espacées à trois pouces l’une de l’autre</seg>, &amp; au droit de chaque console il y avoit sur la mesme corniche un petit piedestal, qui portoit une <tech type="lumieres">girandole</tech>.</p>
+        <seg ana="description">espacées à trois pouces l’une de l’autre</seg>, &amp; au droit de
+        chaque console il y avoit sur la mesme corniche un petit piedestal, qui portoit une <tech
+          type="lumieres">girandole</tech>.</p>
       <p>Au dessus de <tech type="machine_terre">cette machine</tech>
-        <seg ana="description">estoit une Colonne toscane de dix-huit pieds de haut, avec sa base posée sur un zocle de marbre enrichi d’or. Cette Colonne avec sa base &amp; son chapiteau estoit percée à jour, &amp; le fust n’estoit representé que par un feston de fleurs d’or, qui tournoit en forme de vis depuis la base jusqu’au chapiteau, de la mesme maniére que les festons qui environnent d’ordinaire les colonnes torses.</seg> Ce feston qui faisoit le seul corps de la Colonne portoit le long de toute son étenduë <tech type="lumieres">une rangée de bougies</tech>
-        <seg ana="description">éloignées de trois pouces l’une de l’autre</seg> : ainsi sur toute la rampe de la vis il y avoit <tech type="lumieres">six cens bougies</tech> allumées. Le chapiteau &amp; la base, c’est-à-dire le zocle, le pleinte, &amp; le tore <pb n="18" xml:id="p18"/> portoient aussi <tech type="lumieres">des rangées de bougies</tech>
+        <seg ana="description">estoit une Colonne toscane de dix-huit pieds de haut, avec sa base
+          posée sur un zocle de marbre enrichi d’or. Cette Colonne avec sa base &amp; son chapiteau
+          estoit percée à jour, &amp; le fust n’estoit representé que par un feston de fleurs d’or,
+          qui tournoit en forme de vis depuis la base jusqu’au chapiteau, de la mesme maniére que
+          les festons qui environnent d’ordinaire les colonnes torses.</seg> Ce feston qui faisoit
+        le seul corps de la Colonne portoit le long de toute son étenduë <tech type="lumieres">une
+          rangée de bougies</tech>
+        <seg ana="description">éloignées de trois pouces l’une de l’autre</seg> : ainsi sur toute la
+        rampe de la vis il y avoit <tech type="lumieres">six cens bougies</tech> allumées. Le
+        chapiteau &amp; la base, c’est-à-dire le zocle, le pleinte, &amp; le tore <pb n="18"
+          xml:id="p18"/> portoient aussi <tech type="lumieres">des rangées de bougies</tech>
         <seg ana="description">espacées comme les autres.</seg>
-        <persName key="vigarani" role="organisation">Le sieur Vigarani</persName> qui avoit disposé <tech type="machine_terre">cette machine</tech>, avoit encore mis sur le haut de la Colonne un grand vase avec une couronne au dessus, le tout à jour, &amp; formé de semblables <tech type="lumieres">lumiéres</tech> que le chapiteau, auquel le vase servoit d’amortissement. De-sorte que cette Colonne, toute percée à jour depuis le bas jusqu’en haut, paroissoit une Colonne de lumiére, se soûtenant d’elle-mesme en l’air au dessus de la fontaine, d’où l’eau jalissoit au travers du plafond à une hauteur extraordinaire.</p>
-      <p>Ce fut à l’entour de cette superbe décoration, &amp; sur une table si richement ornée, que <persName key="louisxiv" role="convive"><persName key="marie_therese" role="convive">leurs MAJESTEZ</persName></persName>, &amp; les Dames que <persName key="louisxiv">le ROY</persName> avoit nommées, souperent au bruit des eaux de la fontaine, pendant que d’un autre costé les violons &amp; les hautbois remplissoient ce lieu d’une agréable harmonie, qui dura jusques sur les deux heures que <persName key="louisxiv">le ROY</persName> &amp; toute sa Cour se retirerent.</p>
+        <persName key="vigarani" role="organisation">Le sieur Vigarani</persName> qui avoit disposé
+          <tech type="machine_terre">cette machine</tech>, avoit encore mis sur le haut de la
+        Colonne un grand vase avec une couronne au dessus, le tout à jour, &amp; formé de semblables
+          <tech type="lumieres">lumiéres</tech> que le chapiteau, auquel le vase servoit
+        d’amortissement. De-sorte que cette Colonne, toute percée à jour depuis le bas jusqu’en
+        haut, paroissoit une Colonne de lumiére, se soûtenant d’elle-mesme en l’air au dessus de la
+        fontaine, d’où l’eau jalissoit au travers du plafond à une hauteur extraordinaire.</p>
+      <p>Ce fut à l’entour de cette superbe décoration, &amp; sur une table si richement ornée, que
+          <persName key="louisxiv" role="convive"><persName key="marie_therese" role="convive">leurs
+            MAJESTEZ</persName></persName>, &amp; les Dames que <persName key="louisxiv">le
+          ROY</persName> avoit nommées, souperent au bruit des eaux de la fontaine, pendant que d’un
+        autre costé les violons &amp; les hautbois remplissoient ce lieu d’une agréable harmonie,
+        qui dura jusques sur les deux heures que <persName key="louisxiv">le ROY</persName> &amp;
+        toute sa Cour se retirerent.</p>
       <figure/>
       <pb n="np"/>
       <figure/>
       <pb n="19" xml:id="p19"/>
       <label type="head">CINQUIÉME JOURNÉE.</label>
-      <p><date when="1674-08-18">LE Samedi dix-huitiéme d’Aoust</date><persName key="louisxiv"><persName key="marie_therese">leurs MAJESTEZ</persName></persName> estant sorties du Chasteau sur les six heures du soir, firent un tour de promenade dans <placeName key="versailles_jardins_petit_parc">le petit Parc</placeName>, suivies de toute la Cour, au nombre de plus de trente carosses à six chevaux. En suite elles entrerent dans un des Bosquets, qui est entre l’allée Royale &amp; l’allée de Bacchus. Ces Bosquets sont composez par compartimens de plusieurs petites allées &amp; cabinets. <seg ana="description">Au milieu de chaque Bosquet il y a <tech type="construction">un bassin de fontaine, d’où s’éleve un piedestal, qui porte un autre bassin en forme de table ronde, dont les bords sont de pierres congelées de differentes couleurs</tech>. <tech type="eaux">L’eau qui sort du milieu de ce bassin par la bouche d’un gros masque de bronze doré, retombe par napes dechirées dans la bassin d’embas</tech>. C’estoit à l’entor de ce bassin qu’on avoit dressé une table de vingt-quatre pieds de diamétre pour la</seg> Collation. <seg ana="description">Elle estoit orée par devant de festons de fleurs ; &amp; sur toute sa circonference il y avoit seize pyramides de fleurs chargées de fruits, de pastes, &amp; de confitures, disposées d’une maniére ingénieuse &amp; galante. Il y en avoit huit grandes &amp; huit petites : celles-cy estoient massives, &amp; les grandes estoient percées à jour. Au haut de chacune il y avoit une boule d’or, où estoient attachez de grands festons de fleurs, qui joignoient toutes les pyramides les unes aux autres. Sur la table, entre chaque pyramide, l’on voyoit de grands vases de veritable glace, remplis de fruits &amp; de fleurs, &amp; à costé d’autres petutes pyramides de confitures glacées, accompagnées de porcelaines pleines de diverses liqueurs à la glace. Le devant de la table estoit chargé de grandes cuvettes &amp; de jattes de porcelaine remplies à fond de toutes sortes de
-          fruits &amp; de quantité de corbeilles pleines de conserves &amp; de fruits confits.</seg></p>
-      <p>Dans les quatre allées principales du Bosquets qui se terminent à cette fontaine, il y a quatre cabinets qui n’en sont éloignez que de vingt pas ou environ. <seg ana="description">Au milieu de chaque cabinet il y avoit une table de dix pieds en quarré aussi environnée de festons de fleurs, &amp; sur laquelle estoit une pyramide de cinq pieds de haut sur cinq de large : dans sa</seg>
-        <pb n="20" xml:id="p20"/><seg ana="description">base elle estoit composée de differentes sortes de fruits crus, qui s’élevoient par degrez. Dans les angles &amp; sur chaque degré il y avoit un vase de porcelaine rempli de fleurs, &amp; de petits orangers mis alternativement l’un sur l’autre. Quatre autres pyramides de moindre grandeur, &amp; solidement faites de mesmes fruits, estoient aux quatre coins de la table, dont le reste estoit chargé de jattes, de cuvettes de porcelaine, &amp; de corbeilles pleines de fruits &amp; de confitures ; &amp; sur des soucoupes de crystal il y avoit toutes sortes de liqueurs.</seg> Ces tables estoient destinées pour les personnes qui ne mangeoient pas à la table du <persName key="louisxiv" role="convive">ROY</persName>, laquelle surpassoit les autres par la disposition extraordinaire de tous les mets dont elle estoit servie, &amp; par le beau <tech type="eaux">jet d’eau</tech> qui sortoit du milieu avec un éclat &amp; un bruit tres-agréable.</p>
-      <p>Après que <persName key="louisxiv"><persName key="marie_therese">leurs MAJESTEZ</persName></persName> eûrent fait Collation au son des violons &amp; des hautbois</persName>, toutes les tables furent abandonnées au pillage, ainsi qu’elles ont accoustumé de l’estre en ces sortes de rencontres ; &amp; <persName key="louisxiv">le ROY</persName> estant remonté dans la caléche, s’en alla suivi de toute la Cour au bout de l’allée qui va dans <placeName key="versailles_orangerie">l’Orangerie</placeName>, où l’on avoit dressé <tech type="construction">un Théatre</tech>.</p>
-      <p>La décoration estoit toute differente de celle des autres dont il a esté parlé, mais tres-agréable : elle representoit une longue allée de verdure, où de part &amp; d’autre il y avoit des bassins de fontaine, &amp; d’espace en espace des grottes d’un ouvrage rustique, mais travaillé tres-délicatement. <seg ana="description">Sur leur entablement regnoit une balustrade, où estoient arrangez des vases de porcelaine pleins de fleurs. Les bassins des fontaines estoient de marbre, soûtenus par des Tritons dorez ; &amp; dans ces bassins on en voyoit d’autres plus élevez, qui portoient de grandes statuës d’or. Cette allée se terminoit dans le fond du Théatre par des tentes qui avoient rapport à celles qui couvroient l’Orchestre ; &amp; au-delà paroissoit une longue allée, qui estoit l’allée mesme de l’Orangerie, bordée des deux costez de grands orangers &amp; de grenadiers entremêlez de plusieurs vases de porcelaine remplis de diverses fleurs. Entre chaque arbre il y avoit de grands candelabres &amp; des guéridons d’or &amp; d’azur, qui portoient des</seg>
+      <p><date when="1674-08-18">LE Samedi dix-huitiéme d’Aoust</date><persName key="louisxiv"
+            ><persName key="marie_therese">leurs MAJESTEZ</persName></persName> estant sorties du
+        Chasteau sur les six heures du soir, firent un tour de promenade dans <placeName
+          key="versailles_jardins_petit_parc">le petit Parc</placeName>, suivies de toute la Cour,
+        au nombre de plus de trente carosses à six chevaux. En suite elles entrerent dans un des
+        Bosquets, qui est entre l’allée Royale &amp; l’allée de Bacchus. Ces Bosquets sont composez
+        par compartimens de plusieurs petites allées &amp; cabinets. <seg ana="description">Au
+          milieu de chaque Bosquet il y a <tech type="construction">un bassin de fontaine, d’où
+            s’éleve un piedestal, qui porte un autre bassin en forme de table ronde, dont les bords
+            sont de pierres congelées de differentes couleurs</tech>. <tech type="eaux">L’eau qui
+            sort du milieu de ce bassin par la bouche d’un gros masque de bronze doré, retombe par
+            napes dechirées dans la bassin d’embas</tech>. C’estoit à l’entor de ce bassin qu’on
+          avoit dressé une table de vingt-quatre pieds de diamétre pour la</seg> Collation. <seg
+          ana="description">Elle estoit orée par devant de festons de fleurs ; &amp; sur toute sa
+          circonference il y avoit seize pyramides de fleurs chargées de fruits, de pastes, &amp; de
+          confitures, disposées d’une maniére ingénieuse &amp; galante. Il y en avoit huit grandes
+          &amp; huit petites : celles-cy estoient massives, &amp; les grandes estoient percées à
+          jour. Au haut de chacune il y avoit une boule d’or, où estoient attachez de grands festons
+          de fleurs, qui joignoient toutes les pyramides les unes aux autres. Sur la table, entre
+          chaque pyramide, l’on voyoit de grands vases de veritable glace, remplis de fruits &amp;
+          de fleurs, &amp; à costé d’autres petutes pyramides de confitures glacées, accompagnées de
+          porcelaines pleines de diverses liqueurs à la glace. Le devant de la table estoit chargé
+          de grandes cuvettes &amp; de jattes de porcelaine remplies à fond de toutes sortes de
+          fruits &amp; de quantité de corbeilles pleines de conserves &amp; de fruits
+        confits.</seg></p>
+      <p>Dans les quatre allées principales du Bosquets qui se terminent à cette fontaine, il y a
+        quatre cabinets qui n’en sont éloignez que de vingt pas ou environ. <seg ana="description"
+          >Au milieu de chaque cabinet il y avoit une table de dix pieds en quarré aussi environnée
+          de festons de fleurs, &amp; sur laquelle estoit une pyramide de cinq pieds de haut sur
+          cinq de large : dans sa</seg>
+        <pb n="20" xml:id="p20"/><seg ana="description">base elle estoit composée de differentes
+          sortes de fruits crus, qui s’élevoient par degrez. Dans les angles &amp; sur chaque degré
+          il y avoit un vase de porcelaine rempli de fleurs, &amp; de petits orangers mis
+          alternativement l’un sur l’autre. Quatre autres pyramides de moindre grandeur, &amp;
+          solidement faites de mesmes fruits, estoient aux quatre coins de la table, dont le reste
+          estoit chargé de jattes, de cuvettes de porcelaine, &amp; de corbeilles pleines de fruits
+          &amp; de confitures ; &amp; sur des soucoupes de crystal il y avoit toutes sortes de
+          liqueurs.</seg> Ces tables estoient destinées pour les personnes qui ne mangeoient pas à
+        la table du <persName key="louisxiv" role="convive">ROY</persName>, laquelle surpassoit les
+        autres par la disposition extraordinaire de tous les mets dont elle estoit servie, &amp; par
+        le beau <tech type="eaux">jet d’eau</tech> qui sortoit du milieu avec un éclat &amp; un
+        bruit tres-agréable.</p>
+      <p>Après que <persName key="louisxiv"><persName key="marie_therese">leurs
+          MAJESTEZ</persName></persName> eûrent fait Collation au son des violons &amp; des
+        hautbois, toutes les tables furent abandonnées au pillage, ainsi qu’elles ont accoustumé de
+        l’estre en ces sortes de rencontres ; &amp; <persName key="louisxiv">le ROY</persName>
+        estant remonté dans la caléche, s’en alla suivi de toute la Cour au bout de l’allée qui va
+        dans <placeName key="versailles_orangerie">l’Orangerie</placeName>, où l’on avoit dressé
+          <tech type="construction">un Théatre</tech>.</p>
+      <p>La décoration estoit toute differente de celle des autres dont il a esté parlé, mais
+        tres-agréable : elle representoit une longue allée de verdure, où de part &amp; d’autre il y
+        avoit des bassins de fontaine, &amp; d’espace en espace des grottes d’un ouvrage rustique,
+        mais travaillé tres-délicatement. <seg ana="description">Sur leur entablement regnoit une
+          balustrade, où estoient arrangez des vases de porcelaine pleins de fleurs. Les bassins des
+          fontaines estoient de marbre, soûtenus par des Tritons dorez ; &amp; dans ces bassins on
+          en voyoit d’autres plus élevez, qui portoient de grandes statuës d’or. Cette allée se
+          terminoit dans le fond du Théatre par des tentes qui avoient rapport à celles qui
+          couvroient l’Orchestre ; &amp; au-delà paroissoit une longue allée, qui estoit l’allée
+          mesme de l’Orangerie, bordée des deux costez de grands orangers &amp; de grenadiers
+          entremêlez de plusieurs vases de porcelaine remplis de diverses fleurs. Entre chaque arbre
+          il y avoit de grands candelabres &amp; des guéridons d’or &amp; d’azur, qui portoient
+          des</seg>
         <tech type="lumieres">girandoles</tech><seg ana="description"> de crystal allumées de</seg>
-        <tech type="lumieres">plusieurs bougies</tech><seg ana="description">. Cette allée finissoit par un portique de marbre : les pilastres qui en soûtenoient la corniche, estoient de lapis, &amp; la porte paroissoit toute d’orfévrerie.</seg></p>
-      <p><pb n="21" xml:id="p21"/> Sur <tech type="construction">ce Théatre</tech> ornée de la méniére que je viens de dire, <persName key="la_troupe" role="acteur">la Troupe des Comédiens du Roy</persName> representa la Tragédie d’IPHIGENIE, dernier Ouvrage du <persName key="racine" role="auteur">sieur Racine</persName>, qui receût de toute la Cour l’estime qu’ont toûjours eû les piéces de <persName key="racine" role="auteur">cét Autheur</persName>.</p>
-      <p>Lors qu’elle fut finie, <persName key="louisxiv"><persName key="marie_therese">leurs MAJESTEZ</persName></persName> descendirent au bas de l’allée Royale, d’où elles virent <tech type="eaux">la grande piéce d’eau</tech> qui fait la teste du canal, illuminée d’une maniére qui surprit tout le monde. Car horsmis la face de devant, <seg ana="description">le reste était environné d’une balustrade de six pieds de haut, ornée de fleurs-de-lis &amp; des chiffres du ROY, le tout d’un artifice si rare, qu’il paroissoit un ouvrage fait d’or transparent &amp; lumineux. Dans les premiers angles, où les faces droites des deux costez de l’octogone se joignent à celles qui sont en demi-cercle, il y avoit un massif en forme de piedestal de dix-huit pieds de large sur quatorze pieds de haut, qui sembloit estre d’albastre, ou d’un marbre aussi clair que le crystal. Ce massif avoit un avant-corps composé d’un zocle &amp; d’un autre piedestal tracé en amortissement, sur lequel estoit une lyre, &amp; au dessus une fleur-de-lis environnée d’une couronne de laurier, qui paroissoit dans le disque d’un Soleil, dont la lumiére se répandoit de toutes parts. Au bas de la lyre il y avoit deux globes, &amp; plusieurs autres instrumens qu’on attribuë à</seg>
-        <name>Apollon</name><seg ana="description">, qui tous ensemble s’élevoient en maniére de Trophée à la hauteur d’onze pieds.</seg> Cét avant-corps &amp; tous les ornemens n’estoient pas illuminez comme le massif. Il n’y avoit qu’une table de marbre qui estoit éclairée dans le milieu du piedestal, &amp; où estoit écrit, <foreign xml:lang="la">NEC PLURIBUS IMPAR</foreign> : &amp; <seg ana="description">quant aux trophées d’armes qui estoient aux costez de la table, &amp; à la lyre qui estoit au dessus, ils estoient d’or veritable, &amp; faisoient un ornement particulier &amp; détaché des illuminations. Au bas du piedestal il y avoit un grand bassin de fontaine de marbre en forme de coquille, d’où sortoit de l’eau en abondance.</seg></p>
-      <p>Aux angles plus éloignez, &amp; qui sont à l’embouchûre du Canal, on voyoit de chaque costé <seg ana="description">un corps d’Architecture de soixante-quatorze pieds de long, composé de plusieurs parties, qui faisant face sur la piéce octogone &amp; sur le Canal, representoient comme un grand perron élevé de seize pieds, avec des rampes des deux costez. Chaque perron estoit divisé en trois piedestaux, qui avoient au devant de leur base une fontaine semblable à celle dont j’ay parlé</seg> : <pb n="22" xml:id="p22"/><seg ana="description">celuy du milieu avoit un autre piedestal en avant-corps d’un marbre jaspé, environné d’ornemens dorez, avec une table de lapis au milieu, où estoient les chiffres du ROY. Sur ce piedestal estoit un zocle chargé d’armes antiques, &amp; au-dessus un globe orné de trois fleurs-de-lis, &amp; surmonté d’une couronne éclairée d’un Soleil qui l’environnoit. Deux cornes d’abondance estoient passées en sautoir derriére le globe, qui estoit comme enchassé d’un feston d’or. Tout cét ornement s’élevoit de quatorze pieds au-dessus du piedestal.</seg></p>
-      <p ana="description">Les deux autres piedestaux qui estoient aux costez avoient la mesme hauteur que celuy du milieu, &amp; faisoient retour sur les faces du Canal &amp; sur la piéce octogone. Leurs tympans estoient ornez de boucliers antiques, &amp; pour amortissement chaque piedestal avoit une fleur-de-lis d’or. Derriére ces fleurs-de-lis estoient des Figures de douze pieds de haut, qui representoient des Victoires, ayant des aîles au dos, &amp; tenant à la main des couronnes de laurier.</p>
-      <p ana="description">A quinze pieds de distance de ces piedestaux il y en avoit deux autres qui n’avoient que cinq pieds de large sur six pieds de haut. Au dessus estoit élevé en forme de trophée une fleur-de-lis entre deux boucliers antiques &amp; un casque de front, dont elle estoit surmontée : c’estoit-là que commençoient les rampes du perron qui se joignoient au piedestal des Victoires, &amp; dans l’espace de ces rampes on avoit representé de grandes Figures de fleuves, assises, &amp; appuyées sur des urnes, d’où sortoit de l’eau.</p>
-      <p>Tout ce magnifique Ouvrage estoit illuminé, &amp; paraissoit de marbre transparent, &amp; de differentes couleurs, ou plûtost de <tech type="lumieres">lumiéres coloriées</tech>, horsmis les ornemens d’or &amp; les avantcorps, qui estoient de vray or, &amp; de matiéres solides.</p>
-      <p>Entre ces deux perrons &amp; du <placeName key="versailles_canal">milieu du Canal</placeName>, sortoit <tech type="construction">un rocher</tech>
-        <seg ana="description">de plus d’onze toises de face</seg>, sur lequel estoit <tech type="lumieres">un Obelisque tout de lumiére</tech>
-        <seg ana="description">porté par deux Griffons d’or, posez sur un piedestal richement orné. A la pointe de l’Obélisque, qui estoit élevé à douze toises de haut, on voyoit un Soleil aussi tout brillant de pareilles</seg> lumiéres. <tech type="construction">Du rocher</tech> &amp; sous la base du piedestal sortoit <tech type="machine_eau">un Dragon <seg ana="description">les aîles déployées</seg>, qui sembloit à demi écrasé sous le faix de la machine</tech>.</p>
-      <p><seg ana="description">Dans le milieu du piedestal estoit un grand bas relief d’or sur un fond de lapis, où</seg><persName key="louisxiv">le ROY</persName><seg ana="description">estoit representé à la teste</seg><pb n="23" xml:id="p23"/><seg ana="description">d’une armée, traversant un large Fleuve. Les Divinitez de ce fleuve paroissoient couchées sur le devant, &amp; appuyées sur leurs urnes. Ce bas relief estoit environné d’un quadre doré avec les armes du ROY au dessus</seg>.</p>
-      <p>Du bas du piedestal sortoient de part et d’autre deux grands rouleaux en forme de console, qui s’étendoient sur toute la face du <tech type="construction">rocher</tech>. <seg ana="description">Ces rouleaux estoient enrichis d’or &amp; de pierreries ; &amp; estant joints l’un à l’autre au dessous du bas relief par une maniére de frise, formoient une espece d’ornement, qui avoit la figure d’un jonc. Au dessous estoient, d’un costé un Aigle, &amp; de l’autre un Lion.</seg> Le Lion sembloit abbatu sous le joug ; &amp; l’Aigle qui estoit soûmis de mesme, paroissoit tout étonné, &amp; dans une action de vouloir encore se défendre.</p>
-      <p>Sur ces rouleaux &amp; proche de l’Obélisque estoient deux grandes Figures. Celle du costé droit representoit <name>Hercule </name>assis, &amp; comme se reposant, appuyé d’une main sur des armes, &amp; de l’autre tenant sa massuë. A ses pieds estoient <name>deux Captifs</name> attachez contre un trophée d’armes.</p>
+        <tech type="lumieres">plusieurs bougies</tech><seg ana="description">. Cette allée finissoit
+          par un portique de marbre : les pilastres qui en soûtenoient la corniche, estoient de
+          lapis, &amp; la porte paroissoit toute d’orfévrerie.</seg></p>
+      <p><pb n="21" xml:id="p21"/> Sur <tech type="construction">ce Théatre</tech> ornée de la
+        méniére que je viens de dire, <persName key="la_troupe" role="acteur">la Troupe des
+          Comédiens du Roy</persName> representa la Tragédie d’IPHIGENIE, dernier Ouvrage du
+          <persName key="racine" role="auteur">sieur Racine</persName>, qui receût de toute la Cour
+        l’estime qu’ont toûjours eû les piéces de <persName key="racine" role="auteur">cét
+          Autheur</persName>.</p>
+      <p>Lors qu’elle fut finie, <persName key="louisxiv"><persName key="marie_therese">leurs
+            MAJESTEZ</persName></persName> descendirent au bas de l’allée Royale, d’où elles virent
+          <tech type="eaux">la grande piéce d’eau</tech> qui fait la teste du canal, illuminée d’une
+        maniére qui surprit tout le monde. Car horsmis la face de devant, <seg ana="description">le
+          reste était environné d’une balustrade de six pieds de haut, ornée de fleurs-de-lis &amp;
+          des chiffres du ROY, le tout d’un artifice si rare, qu’il paroissoit un ouvrage fait d’or
+          transparent &amp; lumineux. Dans les premiers angles, où les faces droites des deux costez
+          de l’octogone se joignent à celles qui sont en demi-cercle, il y avoit un massif en forme
+          de piedestal de dix-huit pieds de large sur quatorze pieds de haut, qui sembloit estre
+          d’albastre, ou d’un marbre aussi clair que le crystal. Ce massif avoit un avant-corps
+          composé d’un zocle &amp; d’un autre piedestal tracé en amortissement, sur lequel estoit
+          une lyre, &amp; au dessus une fleur-de-lis environnée d’une couronne de laurier, qui
+          paroissoit dans le disque d’un Soleil, dont la lumiére se répandoit de toutes parts. Au
+          bas de la lyre il y avoit deux globes, &amp; plusieurs autres instrumens qu’on attribuë
+          à</seg>
+        <name>Apollon</name><seg ana="description">, qui tous ensemble s’élevoient en maniére de
+          Trophée à la hauteur d’onze pieds.</seg> Cét avant-corps &amp; tous les ornemens
+        n’estoient pas illuminez comme le massif. Il n’y avoit qu’une table de marbre qui estoit
+        éclairée dans le milieu du piedestal, &amp; où estoit écrit, <foreign xml:lang="la">NEC
+          PLURIBUS IMPAR</foreign> : &amp; <seg ana="description">quant aux trophées d’armes qui
+          estoient aux costez de la table, &amp; à la lyre qui estoit au dessus, ils estoient d’or
+          veritable, &amp; faisoient un ornement particulier &amp; détaché des illuminations. Au bas
+          du piedestal il y avoit un grand bassin de fontaine de marbre en forme de coquille, d’où
+          sortoit de l’eau en abondance.</seg></p>
+      <p>Aux angles plus éloignez, &amp; qui sont à l’embouchûre du Canal, on voyoit de chaque costé
+          <seg ana="description">un corps d’Architecture de soixante-quatorze pieds de long, composé
+          de plusieurs parties, qui faisant face sur la piéce octogone &amp; sur le Canal,
+          representoient comme un grand perron élevé de seize pieds, avec des rampes des deux
+          costez. Chaque perron estoit divisé en trois piedestaux, qui avoient au devant de leur
+          base une fontaine semblable à celle dont j’ay parlé</seg> : <pb n="22" xml:id="p22"/><seg
+          ana="description">celuy du milieu avoit un autre piedestal en avant-corps d’un marbre
+          jaspé, environné d’ornemens dorez, avec une table de lapis au milieu, où estoient les
+          chiffres du ROY. Sur ce piedestal estoit un zocle chargé d’armes antiques, &amp; au-dessus
+          un globe orné de trois fleurs-de-lis, &amp; surmonté d’une couronne éclairée d’un Soleil
+          qui l’environnoit. Deux cornes d’abondance estoient passées en sautoir derriére le globe,
+          qui estoit comme enchassé d’un feston d’or. Tout cét ornement s’élevoit de quatorze pieds
+          au-dessus du piedestal.</seg></p>
+      <p ana="description">Les deux autres piedestaux qui estoient aux costez avoient la mesme
+        hauteur que celuy du milieu, &amp; faisoient retour sur les faces du Canal &amp; sur la
+        piéce octogone. Leurs tympans estoient ornez de boucliers antiques, &amp; pour amortissement
+        chaque piedestal avoit une fleur-de-lis d’or. Derriére ces fleurs-de-lis estoient des
+        Figures de douze pieds de haut, qui representoient des Victoires, ayant des aîles au dos,
+        &amp; tenant à la main des couronnes de laurier.</p>
+      <p ana="description">A quinze pieds de distance de ces piedestaux il y en avoit deux autres
+        qui n’avoient que cinq pieds de large sur six pieds de haut. Au dessus estoit élevé en forme
+        de trophée une fleur-de-lis entre deux boucliers antiques &amp; un casque de front, dont
+        elle estoit surmontée : c’estoit-là que commençoient les rampes du perron qui se joignoient
+        au piedestal des Victoires, &amp; dans l’espace de ces rampes on avoit representé de grandes
+        Figures de fleuves, assises, &amp; appuyées sur des urnes, d’où sortoit de l’eau.</p>
+      <p>Tout ce magnifique Ouvrage estoit illuminé, &amp; paraissoit de marbre transparent, &amp;
+        de differentes couleurs, ou plûtost de <tech type="lumieres">lumiéres coloriées</tech>,
+        horsmis les ornemens d’or &amp; les avantcorps, qui estoient de vray or, &amp; de matiéres
+        solides.</p>
+      <p>Entre ces deux perrons &amp; du <placeName key="versailles_canal">milieu du
+          Canal</placeName>, sortoit <tech type="construction">un rocher</tech>
+        <seg ana="description">de plus d’onze toises de face</seg>, sur lequel estoit <tech
+          type="lumieres">un Obelisque tout de lumiére</tech>
+        <seg ana="description">porté par deux Griffons d’or, posez sur un piedestal richement orné.
+          A la pointe de l’Obélisque, qui estoit élevé à douze toises de haut, on voyoit un Soleil
+          aussi tout brillant de pareilles</seg> lumiéres. <tech type="construction">Du
+          rocher</tech> &amp; sous la base du piedestal sortoit <tech type="machine_eau">un Dragon
+            <seg ana="description">les aîles déployées</seg>, qui sembloit à demi écrasé sous le
+          faix de la machine</tech>.</p>
+      <p><seg ana="description">Dans le milieu du piedestal estoit un grand bas relief d’or sur un
+          fond de lapis, où</seg><persName key="louisxiv">le ROY</persName><seg ana="description"
+          >estoit representé à la teste</seg><pb n="23" xml:id="p23"/><seg ana="description">d’une
+          armée, traversant un large Fleuve. Les Divinitez de ce fleuve paroissoient couchées sur le
+          devant, &amp; appuyées sur leurs urnes. Ce bas relief estoit environné d’un quadre doré
+          avec les armes du ROY au dessus</seg>.</p>
+      <p>Du bas du piedestal sortoient de part et d’autre deux grands rouleaux en forme de console,
+        qui s’étendoient sur toute la face du <tech type="construction">rocher</tech>. <seg
+          ana="description">Ces rouleaux estoient enrichis d’or &amp; de pierreries ; &amp; estant
+          joints l’un à l’autre au dessous du bas relief par une maniére de frise, formoient une
+          espece d’ornement, qui avoit la figure d’un jonc. Au dessous estoient, d’un costé un
+          Aigle, &amp; de l’autre un Lion.</seg> Le Lion sembloit abbatu sous le joug ; &amp;
+        l’Aigle qui estoit soûmis de mesme, paroissoit tout étonné, &amp; dans une action de vouloir
+        encore se défendre.</p>
+      <p>Sur ces rouleaux &amp; proche de l’Obélisque estoient deux grandes Figures. Celle du costé
+        droit representoit <name>Hercule </name>assis, &amp; comme se reposant, appuyé d’une main
+        sur des armes, &amp; de l’autre tenant sa massuë. A ses pieds estoient <name>deux
+          Captifs</name> attachez contre un trophée d’armes.</p>
       <p>L’autre Figure qui estoit du costé gauche, representoit <name>une Femme</name>
-        <seg ana="description">richement vestuë d’un corselet à l’antique, &amp; d’un grand manteau de pourpre</seg> telle qu’on peint <name>Pallas</name>. <seg ana="description">Elle avoit un casque en teste, &amp; tenoit un baston de commandement à la main</seg> : elle estoit aussi assise sur un monceau d’armes, &amp; à ses pieds on voyoit <name>un autre Captif</name> contre un trophée d’armes.</p>
-      <p>Il y avoit parmi ces Figures plusieurs <name>petits Enfans</name> : les uns mettoient des couronnes de laurier &amp; de fleurs sur la teste d’<name>Hercule</name> &amp; de <name>Pallas</name> ; les autres sembloient vouloir arracher des mains de ces Divinitez le baston &amp; la massuë qu’elles tenoient : d’autres environnoient cette mesme massuë de festons ; &amp; d’autres encore s’occupoient à lier <name>les Captifs</name> de semblables festons, au lieu de chaînes. Quoy que toutes ces Figures fussent <tech type="lumieres">d’illuminations</tech>, elles representoient pourtant le naturel, mais elles paroissoient de couleurs agréables, &amp; de lumiéres douces, au dessous de l’Obélisque &amp; du Soleil qui brilloient de <tech type="lumieres">mille feux étincelans</tech>.</p>
-      <p><tech type="machine_terre">Cette machine</tech> estoit précedée de deux grandes Figures en l’air, qui tenant une trompette à la bouche, représentoit <name>deux Renommées</name>.</p>
-      <p>Toute cette décoration avoit un sens symbolique &amp; mystérieux. Par l’Obélisque &amp; le Soleil on prétendoit marquer <pb n="24" xml:id="p24"/> la Gloire du <persName key="louisxiv">ROY </persName>toute éclatante de lumiére, &amp; solidement affermie au dessus de ses ennemis, &amp; malgré l’Envie representée par <name>le Dragon</name>. Les Figures d’<name>Hercule</name> &amp; de <name>Pallas</name> marquoient, l’une la puissance invincible &amp; la grandeur des actions de <persName key="louisxiv">SA MAJESTÉ</persName> ; l’autre sa valeur &amp; sa prudente conduite dans toutes ses entreprises, dont le Lion &amp; l’Aigle ressentent les effets. <name>Les Enfans</name> signifient l’amour des peuples qui couronnent tant de généreux exploits, &amp; qui en liant <name>ces Captifs</name> avec des festons de fleurs &amp; de laurier au lieu de chaînes, sembloient leur vouloir apprendre combien la domination du Prince qui les a vaincus est glorieuse, &amp; douce à supporter. Toutes ces differentes parties estoient éclairées d’<tech>une lumiére</tech> si égale &amp; si bien disposée, qu’elles formoient un beau tout, dont l’esprit n’estoit pas moins charmé que les yeux.</p>
-      <p>Quand <persName key="louisxiv">le ROY</persName> fut placé sous une grande tente qu’on avoit dressée entre <placeName key="versailles_jardins_bassin_apollon">le bassin d’Apollon</placeName> &amp; <placeName key="versailles_canal">le Canal</placeName>, <persName key="charles_le_brun" role="organisation">le sieur le Brun</persName> qui estoit l’auteur de ces illuminations, ayant receû le signal, on entendit le bruit du canon &amp; de plus de quinze cens boëtes qui tirerent autour du <placeName key="versailles_canal">Canal</placeName> ; &amp; en mesme temps les bords de <tech type="eaux">la pièce d’eau</tech>, <seg ana="description">qui avoient paru éclairez de fleurs-de-lis &amp; de chiffres, furent environnez d’un ornement continu de mesmes fleurs-de-lis &amp; de mesmes chiffres</seg>, mais brillans de vives clartez de <tech type="lumieres">plusieurs lances à feu</tech> qui se trouverent allumées en un moment. Les perrons &amp; les piedestaux parurent ornez de <tech type="lumieres">semblables lumiéres</tech>, qui marquoient les chiffres &amp; les armes du Roy ; &amp; de toutes ces décorations il sortit <tech type="lumieres">un nombre infini de feux</tech>, qui remplirent l’air de cent figures differentes. Mais du <tech type="machine_eau">Dragon</tech> qui estoit sur <placeName key="versailles_canal">le Canal</placeName>, l’on vit sortir par ses yeux, par ses naseaux, &amp; par sa gueule comme <tech type="feux-artifice">des torrens de feu</tech>, d’où s’élevoit une épaisse fumée, qui montrant quelque chose de terrible, faisoit voir cependant d’autres beautez : car, formant comme de gros nuages rouges &amp; bleuastres, tels qu’on en voit dans le temps des grands orages, il en sortoit <tech type="feux-artifice">mille éclairs &amp; mille foudres</tech>, qui tantost faisant de longues traînées en l’air, tantost serpentant de part &amp; d’autre, tantost s’élevant &amp; se plongeant dans l’eau, faisoient mille differens effets. <tech type="feux-artifice">Un nombre infini
-          de semblables feux</tech> partoient en mesme temps des environs du <placeName key="versailles_canal">Canal</placeName>, pendant que <tech type="machine_eau">le Dragon</tech> en vomissoit une si grande quantité, que sa gueule sembloit un goufre, d’où sortoient mille Lutins enflamez, <pb n="25" xml:id="p25"/> qui se joûoient, ou qui se battoient ensemble. Toute <tech type="eaux">la piéce d’eau</tech> en estoit couverte : ils entroient jusqu’au fond du <placeName key="versailles_canal">Canal</placeName> ; &amp; aprés s’estre promenez, tantost sur sa surface, tantost entre deux eaux, ils s’élevoient par <tech type="feux-artifice">petits tourbillons de feu</tech>, &amp; faisant en l’air mille tours, ils crevoient avec un bruit épouvantable, produisant en mesme temps <tech type="feux-artifice">une infinité d’autres feux</tech> qui faisoient de nouveaux effets. Tout ce que l’on voyoit dans <seg ana="description">cette grande étenduë de plus de trois cens toises</seg>, n’estoit plus ni du feu, ni de l’air, ni de l’eau. Ces Elemens estoient tellement meslez ensemble, que ne les pouvant reconnoistre, il en paroissoit un nouveau, &amp; d’une nature tout extraordinaire. Il sembloit estre composé de <tech type="feux-artifice">mille étincelles de feu</tech>, qui comme une épaisse poussiére, ou plûtost comme une infinité d’atômes d’or, brilloient au milieu d’une plus grande lumiére. Parmi tout cela il s’élevoit sans cesse de toutes parts <tech type="feux-artifice">mille fusées</tech>, qui coëffoient le plus haut de l’air d’une infinité d’étoilles étincelantes, pendant que d’autres plus grosses s’élevant encore plus haut avec un bruit &amp; une impetuosité épouvantable, sembloient attaquer les Astres mesmes par mille coups redoublez, &amp; par <tech type="feux-artifice">mille autres feux</tech> qu’elles jettoient en l’air, qui retomboient en serpenteaux, ou sous d’autres differentes figures. Ce feu &amp; ce bruit estoit continuel par la furieuse quantité des balons &amp; des
-        grenades d’eau qui se mesloient avec les balons d’air &amp; les foucades d’un nombre infini de saucissons. <tech type="feux-artifice">Mille partemens de fusées</tech> s’étendoient, tantost en forme de queuë de Paon, tantost formoient autour du Canal des aigrettes &amp; des <tech type="feux-artifice">gerbes de feu</tech> d’une grosseur &amp; d’une clarté extraordinaire. Enfin toute <tech>cette grande piéce d’eau</tech> fut environnée du <tech type="feux-artifice">nombre de cinq milles fusées</tech>, qui estant parties toutes à la fois, s’éleverent en l’air, &amp; composerent un dôme de lumiére qui couvrit toute la teste du <placeName key="versailles_canal">Canal</placeName>, sur lequel on vit tomber en forme d’une grosse pluye une infinité d’étoilles, d’une clarté qui surpassoit celles des veritables étoilles : ce qui mit fin à ce beau feu, dont l’on peut juger des effets extraordinaires, puis qu’il estoit composé de prés de <tech type="feux-artifice">trente mille differentes piéces d’artifice</tech>, <seg ana="description">dont il y en avoit plusieurs qui chacune en particulier en contenoit plus de vingt-cinq douzaines</seg>.</p>
-      <p>Mais comme on laissa aussi embraser toute <tech type="machine_eau">la Machine</tech> qui estoit sur <placeName key="versailles_canal">le Canal</placeName>, avec les sept grands batteaux qui la portoient, cét embrasement fut encore un nouveau spectacle <pb n="26" xml:id="p26"/> qui surprit ceux qui ne s’y attendoient pas, &amp; qui fit paroistre davantage la grandeur &amp; la magnificence du divertissement.</p>
+        <seg ana="description">richement vestuë d’un corselet à l’antique, &amp; d’un grand manteau
+          de pourpre</seg> telle qu’on peint <name>Pallas</name>. <seg ana="description">Elle avoit
+          un casque en teste, &amp; tenoit un baston de commandement à la main</seg> : elle estoit
+        aussi assise sur un monceau d’armes, &amp; à ses pieds on voyoit <name>un autre
+          Captif</name> contre un trophée d’armes.</p>
+      <p>Il y avoit parmi ces Figures plusieurs <name>petits Enfans</name> : les uns mettoient des
+        couronnes de laurier &amp; de fleurs sur la teste d’<name>Hercule</name> &amp; de
+          <name>Pallas</name> ; les autres sembloient vouloir arracher des mains de ces Divinitez le
+        baston &amp; la massuë qu’elles tenoient : d’autres environnoient cette mesme massuë de
+        festons ; &amp; d’autres encore s’occupoient à lier <name>les Captifs</name> de semblables
+        festons, au lieu de chaînes. Quoy que toutes ces Figures fussent <tech type="lumieres"
+          >d’illuminations</tech>, elles representoient pourtant le naturel, mais elles paroissoient
+        de couleurs agréables, &amp; de lumiéres douces, au dessous de l’Obélisque &amp; du Soleil
+        qui brilloient de <tech type="lumieres">mille feux étincelans</tech>.</p>
+      <p><tech type="machine_terre">Cette machine</tech> estoit précedée de deux grandes Figures en
+        l’air, qui tenant une trompette à la bouche, représentoit <name>deux Renommées</name>.</p>
+      <p>Toute cette décoration avoit un sens symbolique &amp; mystérieux. Par l’Obélisque &amp; le
+        Soleil on prétendoit marquer <pb n="24" xml:id="p24"/> la Gloire du <persName key="louisxiv"
+          >ROY </persName>toute éclatante de lumiére, &amp; solidement affermie au dessus de ses
+        ennemis, &amp; malgré l’Envie representée par <name>le Dragon</name>. Les Figures
+          d’<name>Hercule</name> &amp; de <name>Pallas</name> marquoient, l’une la puissance
+        invincible &amp; la grandeur des actions de <persName key="louisxiv">SA MAJESTÉ</persName> ;
+        l’autre sa valeur &amp; sa prudente conduite dans toutes ses entreprises, dont le Lion &amp;
+        l’Aigle ressentent les effets. <name>Les Enfans</name> signifient l’amour des peuples qui
+        couronnent tant de généreux exploits, &amp; qui en liant <name>ces Captifs</name> avec des
+        festons de fleurs &amp; de laurier au lieu de chaînes, sembloient leur vouloir apprendre
+        combien la domination du Prince qui les a vaincus est glorieuse, &amp; douce à supporter.
+        Toutes ces differentes parties estoient éclairées d’<tech>une lumiére</tech> si égale &amp;
+        si bien disposée, qu’elles formoient un beau tout, dont l’esprit n’estoit pas moins charmé
+        que les yeux.</p>
+      <p>Quand <persName key="louisxiv">le ROY</persName> fut placé sous une grande tente qu’on
+        avoit dressée entre <placeName key="versailles_jardins_bassin_apollon">le bassin
+          d’Apollon</placeName> &amp; <placeName key="versailles_canal">le Canal</placeName>,
+          <persName key="charles_le_brun" role="organisation">le sieur le Brun</persName> qui estoit
+        l’auteur de ces illuminations, ayant receû le signal, on entendit le bruit du canon &amp; de
+        plus de quinze cens boëtes qui tirerent autour du <placeName key="versailles_canal"
+          >Canal</placeName> ; &amp; en mesme temps les bords de <tech type="eaux">la pièce
+          d’eau</tech>, <seg ana="description">qui avoient paru éclairez de fleurs-de-lis &amp; de
+          chiffres, furent environnez d’un ornement continu de mesmes fleurs-de-lis &amp; de mesmes
+          chiffres</seg>, mais brillans de vives clartez de <tech type="lumieres">plusieurs lances à
+          feu</tech> qui se trouverent allumées en un moment. Les perrons &amp; les piedestaux
+        parurent ornez de <tech type="lumieres">semblables lumiéres</tech>, qui marquoient les
+        chiffres &amp; les armes du Roy ; &amp; de toutes ces décorations il sortit <tech
+          type="lumieres">un nombre infini de feux</tech>, qui remplirent l’air de cent figures
+        differentes. Mais du <tech type="machine_eau">Dragon</tech> qui estoit sur <placeName
+          key="versailles_canal">le Canal</placeName>, l’on vit sortir par ses yeux, par ses
+        naseaux, &amp; par sa gueule comme <tech type="feux-artifice">des torrens de feu</tech>,
+        d’où s’élevoit une épaisse fumée, qui montrant quelque chose de terrible, faisoit voir
+        cependant d’autres beautez : car, formant comme de gros nuages rouges &amp; bleuastres, tels
+        qu’on en voit dans le temps des grands orages, il en sortoit <tech type="feux-artifice"
+          >mille éclairs &amp; mille foudres</tech>, qui tantost faisant de longues traînées en
+        l’air, tantost serpentant de part &amp; d’autre, tantost s’élevant &amp; se plongeant dans
+        l’eau, faisoient mille differens effets. <tech type="feux-artifice">Un nombre infini de
+          semblables feux</tech> partoient en mesme temps des environs du <placeName
+          key="versailles_canal">Canal</placeName>, pendant que <tech type="machine_eau">le
+          Dragon</tech> en vomissoit une si grande quantité, que sa gueule sembloit un goufre, d’où
+        sortoient mille Lutins enflamez, <pb n="25" xml:id="p25"/> qui se joûoient, ou qui se
+        battoient ensemble. Toute <tech type="eaux">la piéce d’eau</tech> en estoit couverte : ils
+        entroient jusqu’au fond du <placeName key="versailles_canal">Canal</placeName> ; &amp; aprés
+        s’estre promenez, tantost sur sa surface, tantost entre deux eaux, ils s’élevoient par <tech
+          type="feux-artifice">petits tourbillons de feu</tech>, &amp; faisant en l’air mille tours,
+        ils crevoient avec un bruit épouvantable, produisant en mesme temps <tech
+          type="feux-artifice">une infinité d’autres feux</tech> qui faisoient de nouveaux effets.
+        Tout ce que l’on voyoit dans <seg ana="description">cette grande étenduë de plus de trois
+          cens toises</seg>, n’estoit plus ni du feu, ni de l’air, ni de l’eau. Ces Elemens estoient
+        tellement meslez ensemble, que ne les pouvant reconnoistre, il en paroissoit un nouveau,
+        &amp; d’une nature tout extraordinaire. Il sembloit estre composé de <tech
+          type="feux-artifice">mille étincelles de feu</tech>, qui comme une épaisse poussiére, ou
+        plûtost comme une infinité d’atômes d’or, brilloient au milieu d’une plus grande lumiére.
+        Parmi tout cela il s’élevoit sans cesse de toutes parts <tech type="feux-artifice">mille
+          fusées</tech>, qui coëffoient le plus haut de l’air d’une infinité d’étoilles
+        étincelantes, pendant que d’autres plus grosses s’élevant encore plus haut avec un bruit
+        &amp; une impetuosité épouvantable, sembloient attaquer les Astres mesmes par mille coups
+        redoublez, &amp; par <tech type="feux-artifice">mille autres feux</tech> qu’elles jettoient
+        en l’air, qui retomboient en serpenteaux, ou sous d’autres differentes figures. Ce feu &amp;
+        ce bruit estoit continuel par la furieuse quantité des balons &amp; des grenades d’eau qui
+        se mesloient avec les balons d’air &amp; les foucades d’un nombre infini de saucissons.
+          <tech type="feux-artifice">Mille partemens de fusées</tech> s’étendoient, tantost en forme
+        de queuë de Paon, tantost formoient autour du Canal des aigrettes &amp; des <tech
+          type="feux-artifice">gerbes de feu</tech> d’une grosseur &amp; d’une clarté
+        extraordinaire. Enfin toute <tech>cette grande piéce d’eau</tech> fut environnée du <tech
+          type="feux-artifice">nombre de cinq milles fusées</tech>, qui estant parties toutes à la
+        fois, s’éleverent en l’air, &amp; composerent un dôme de lumiére qui couvrit toute la teste
+        du <placeName key="versailles_canal">Canal</placeName>, sur lequel on vit tomber en forme
+        d’une grosse pluye une infinité d’étoilles, d’une clarté qui surpassoit celles des
+        veritables étoilles : ce qui mit fin à ce beau feu, dont l’on peut juger des effets
+        extraordinaires, puis qu’il estoit composé de prés de <tech type="feux-artifice">trente
+          mille differentes piéces d’artifice</tech>, <seg ana="description">dont il y en avoit
+          plusieurs qui chacune en particulier en contenoit plus de vingt-cinq douzaines</seg>.</p>
+      <p>Mais comme on laissa aussi embraser toute <tech type="machine_eau">la Machine</tech> qui
+        estoit sur <placeName key="versailles_canal">le Canal</placeName>, avec les sept grands
+        batteaux qui la portoient, cét embrasement fut encore un nouveau spectacle <pb n="26"
+          xml:id="p26"/> qui surprit ceux qui ne s’y attendoient pas, &amp; qui fit paroistre
+        davantage la grandeur &amp; la magnificence du divertissement.</p>
       <figure/>
       <pb n="np"/>
       <figure/>
       <pb n="27" xml:id="p27"/>
       <label type="head">SIXIÉME JOURNÉE</label>
-      <p>APRES les magnificences des Festes précedentes, il sembloit qu’on ne devoit plus rien attendre d’extraordinaire. Cependant <persName key="vigarani" role="organisation">le sieur Vigarani</persName> qui avoit ordre de décorer <tech type="lumieres">d’Illuminations</tech> tous <placeName key="versailles_canal">les bords du grand Canal</placeName>, ayant disposé toutes choses pour <date when="1674-08-31">le dernier jour d’aoust</date> qui se trouva tres-favorable pour ce sortes de spectacles, surprit toute la Cour par la nouveauté &amp; la grandeur de celui-cy.</p>
-      <p>L’on avoit ressenti dans les autres Divertissemens les plaisirs que peuvent donner les plus belles piéces de Théatre, <tech type="musique">les musiques</tech> les plus charmantes, les festins les plus somptueux, &amp; <tech type="feux-artifice">les feux d’artifice</tech> les plus terribles &amp; tout ensemble les plus agréables qui ayent jamais esté : mais <persName key="louisxiv" role="commanditaire">le ROY</persName> voulant faire voir des beautez que l’on n’avoit point encore veûës, sembla pour cette fois avoir esté servi par la Magie mesme, tant les yeux &amp; l’esprit se trouverent surpris par les differentes merveilles dont ils furent charmez.</p>
-      <p><persName key="louisxiv">Sa MAJESTÉ</persName> estant sortie du <placeName>Chasteau</placeName> environ à une heure de nuit, mais d’une nuit la plus noire &amp; la plus tranquille qui ait esté depuis long-temps, l’on vit dans cette grande obscurité tous les parterres <tech type="lumieres">tracez du lumiéres</tech>. <placeName key="versailles_jardins_grande_terrasse">La grande terasse</placeName> qui est devant le Chasteau estoit bordée d’un <tech type="lumieres">double rang de feux</tech>
-        <seg ana="description">espacez à deux pieds l’un de l’autre</seg>. Les rampes &amp; les degrez du fer à cheval, &amp; généralement toutes les fontaines qui sont dans <placeName key="versailles_jardins_petit_parc">le petit Parc</placeName> estoient environnées de <tech type="lumieres">pareilles lumiéres</tech>, qui reflechies dans les bassins, y faisoient encore autant d’autres clartez. Au milieu de ces bassins &amp; de ces lumiéres, l’on voyoit élever <tech type="eaux">mille jets d’eau</tech> violence, &amp; dont il sortoit mille étincelles.</p>
-      <p><tech type="lumieres">Ces lumiéres</tech> dont la terre estoit couverte marquoient de nouveaux parterres, &amp; formoient des <tech type="lumieres">figures de feu</tech> au lieu de fleurs &amp; de verdure. Au bout de la grande allée Royale, <placeName key="versailles_jardins_bassin_apollon">le bassin d’Apollon</placeName> estoit éclairé de la mesme sorte ; &amp; au-delà on voyoit <placeName key="versailles_canal">le grand Canal</placeName>, qui de loin paroissoit comme une glace de crystal d’une vaste étenduë. Il estoit borné de tous costez de corps lumineux, mais d’<tech type="lumieres">une lumiére douce</tech> &amp; <pb n="28" xml:id="p28"/> privée du mouvement &amp; de l’action que l’on voit dans le feu ordinaire. Ces corps ne portoient aucune ombre : ils representoient differentes figures qu’on avoit peine à discerner de loin, &amp; dont les images paroissoient sur l’eau, qui n’estoit pas aloirs moins tranquille que la lumiére mesme ; de sorte que le profond silence &amp; l’obscurité où l’on se trouvoit alors, ressembloit beaucoup à ce que les Poëtes ont écrit des Champs Elysées, qu’ils dépeignent comme un espace de païs éclairé d’une lumiére précieuse, &amp; qui a un Soleil &amp; des Astres tous particuliers.</p>
-      <p><persName key="louisxiv" role="spectateur"><persName key="marie_therese" role="spectateur">Leurs MAJESTEZ</persName></persName> estant arrivées au <placeName key="versailles_jardins_bassin_apollon">bassin d’Apollon</placeName>, toute la Cour commença de voir plus distinctement la beauté de <tech type="feux-artifice">ces feux</tech> qui environnoient <placeName key="versailles_canal">le Canal</placeName>.</p>
-      <p>Ce qu’il y a de tres-considérable dans <placeName key="versailles_jardins">le grand Parc de Versailles</placeName> est ce grand Canal. <seg ana="description">Il a tentre-deux toises de large sur neuf cens toises de long. Trois grandes piéces d’eau en marquent les extremitez &amp; le milieu. La premiére est celle qui est au bout d’enhaut, &amp; qui separe le petit Parc d’avec le grand : elle est de figure octogone, &amp; a soixante-dix toises de diamétre. Quatre de ses costez sont tirez en ligne circulaire, &amp; les autres en ligne droite. La seconde est au milieu du</seg>
-        <placeName key="versailles_canal">grand Canal</placeName><seg ana="description">, &amp; dans l’endroit où il est traversé d’un autre de quarante toises de large, qui d’un costé conduit à</seg>
-        <placeName key="versailles_trianon">Trianon</placeName><seg ana="description">, &amp; de l’autre à</seg>
-        <placeName key="versailles_jardins_menagerie">la Ménagerie</placeName><seg ana="description"> : &amp; la troisiéme piéce, qui est tout au bas du</seg>
-        <placeName key="versailles_canal">grand Canal</placeName><seg ana="description">, a deux cens toises de long sur cent toises de large.</seg> Ces canaux dans l’étenduë que je viens de marquer, estoient environnez de part &amp; d’autre de <tech type="decor">Figures illuminées</tech>, qui faisoient une décoration la plus magnifique &amp; la plus extraordinaire qu’on se puisse imaginer. Il sembloit que les Nymphes des canaux &amp; des fontaines de <placeName key="versailles">Versailles</placeName> se fussent assemblées pour recevoir<persName key="louisxiv" role="destinataire"> le ROY</persName>, &amp; honorer son retour d’un appareil pompeux &amp; triomphant ; &amp; qu’en décorant elles-mesmes ces canaux, elles y avoient élevé des édifices &amp; d’autres monumens d’une structure toute singuliére, &amp; conformes à la nature &amp; à la condition des Divinitez qui président sur les eaux.</p>
-      <p>Au devant de <tech type="eaux">la piéce d’eau</tech>, qui fait la teste du <placeName key="versailles_canal">grand Canal</placeName>, l’on voyoit d’abord sur des piedestaux deux chevaux dans une action fougueuse &amp; emportée : des hommes vigoureux les arrestoient, &amp; par leur adresse s’en rendoient les maistres. Chacun sçait que le cheval est dédié à <name>Neptune</name>, qui le fit sortir de terre d’un coup de trident, dans cette <pb n="29" xml:id="p29"/> dispute celébre qu’il eût avec <name>Minerve</name> à qui donneroit le nom à la Ville d’Athenes. C’est apparemment pour cette raison qu’on avoit mis deux chevaux à l’entrée du grand Canal, dans cette posture fiére prise sur ceux qui sont à Rome à Montecaval.</p>
-      <p>Aux deux costez de la mesme piéce d’eau, joignant la grille de fer qui sert de closture au grand Parc, estoit <seg ana="description">une face de bastiment de vingt-deux pieds de haut sur huit toises de long</seg>. Quatre Termes rustiques de differentes couleurs en separoient toute l’étenduë en trois parties, en sorte que deux de ces Termes estoient aux deux extrémitez, &amp; les deux autres dans le milieu. Ils portoient une corniche qui regnoit dans l’étenduë de tout l’édifice.</p>
-      <p ana="description">Aux deux costez <seg ana="description">il y avoit deux fontaines de douze pieds de haut</seg> : on y voyoit dans un grand bassin rustique trois Dauphins, dont la queuë élevée soûtenoit un globe de lapis. Au dessus estoit un autre bassin, d’où l’eau se répandant en forme de cloche, tomboit derriére deux jeunes enfans representez au naturel, &amp; tenant à la bouche chacun une conque d’où sortoit de l’eau.</p>
-      <p>Plus loin &amp; <seg ana="description">sur les deux faces de l’octogone qui se terminent en demi-cercle, paroissoient huit bassins de fontaines taillez en coquille, &amp; disposez de telle maniére les uns au dessus des autres, que diminuant de grandeur à mesure qu’ils s’élevoient, ils formoient une pyramide de trente-six pieds de haut, à la pointe de laquelle estoit un Soleil, dont les rayons éclairoient l’eau des bassins qui tomboit de l’un dans l’autre. Le premier bassin qui faisoit le bas de la pyramide estoit posé sur un piedestal taillé rustiquement, &amp; orné dans son milieu des armes du ROY. Deux grandes Figures de Fleuves estoient aux deux costez du piedestal, appuyées sur leurs vases, d’où sortoit de l’eau. A costé de ces pyramides il y avoit deux fontaines de douze pieds de haut</seg>, de mesme celles dont je viens de parler.</p>
-      <p>Lors que <persName key="louisxiv" role="spectateur"><persName key="marie_therese" role="spectateur">leurs MAJESTEZ</persName></persName> eûrent consideré la beauté de ces <tech type="lumieres">Illuminations</tech>, Elles monterent dans des gondoles superbement parées, suivies du reste de la Cour, qui remplissoit l’eau du Canal auparavant tranquille &amp; sans aucune agitation, comme s’enfler d’orgueïl de porter ce qu’il y a de plus grand &amp; de plus auguste sur la terre. Tous les bords estoient éclairez par <tech type="lumieres">six cens cinquante Termes de lumiéres</tech>
+      <p>APRES les magnificences des Festes précedentes, il sembloit qu’on ne devoit plus rien
+        attendre d’extraordinaire. Cependant <persName key="vigarani" role="organisation">le sieur
+          Vigarani</persName> qui avoit ordre de décorer <tech type="lumieres"
+          >d’Illuminations</tech> tous <placeName key="versailles_canal">les bords du grand
+          Canal</placeName>, ayant disposé toutes choses pour <date when="1674-08-31">le dernier
+          jour d’aoust</date> qui se trouva tres-favorable pour ce sortes de spectacles, surprit
+        toute la Cour par la nouveauté &amp; la grandeur de celui-cy.</p>
+      <p>L’on avoit ressenti dans les autres Divertissemens les plaisirs que peuvent donner les plus
+        belles piéces de Théatre, <tech type="musique">les musiques</tech> les plus charmantes, les
+        festins les plus somptueux, &amp; <tech type="feux-artifice">les feux d’artifice</tech> les
+        plus terribles &amp; tout ensemble les plus agréables qui ayent jamais esté : mais <persName
+          key="louisxiv" role="commanditaire">le ROY</persName> voulant faire voir des beautez que
+        l’on n’avoit point encore veûës, sembla pour cette fois avoir esté servi par la Magie mesme,
+        tant les yeux &amp; l’esprit se trouverent surpris par les differentes merveilles dont ils
+        furent charmez.</p>
+      <p><persName key="louisxiv">Sa MAJESTÉ</persName> estant sortie du
+          <placeName>Chasteau</placeName> environ à une heure de nuit, mais d’une nuit la plus noire
+        &amp; la plus tranquille qui ait esté depuis long-temps, l’on vit dans cette grande
+        obscurité tous les parterres <tech type="lumieres">tracez du lumiéres</tech>. <placeName
+          key="versailles_jardins_grande_terrasse">La grande terasse</placeName> qui est devant le
+        Chasteau estoit bordée d’un <tech type="lumieres">double rang de feux</tech>
+        <seg ana="description">espacez à deux pieds l’un de l’autre</seg>. Les rampes &amp; les
+        degrez du fer à cheval, &amp; généralement toutes les fontaines qui sont dans <placeName
+          key="versailles_jardins_petit_parc">le petit Parc</placeName> estoient environnées de
+          <tech type="lumieres">pareilles lumiéres</tech>, qui reflechies dans les bassins, y
+        faisoient encore autant d’autres clartez. Au milieu de ces bassins &amp; de ces lumiéres,
+        l’on voyoit élever <tech type="eaux">mille jets d’eau</tech> violence, &amp; dont il sortoit
+        mille étincelles.</p>
+      <p><tech type="lumieres">Ces lumiéres</tech> dont la terre estoit couverte marquoient de
+        nouveaux parterres, &amp; formoient des <tech type="lumieres">figures de feu</tech> au lieu
+        de fleurs &amp; de verdure. Au bout de la grande allée Royale, <placeName
+          key="versailles_jardins_bassin_apollon">le bassin d’Apollon</placeName> estoit éclairé de
+        la mesme sorte ; &amp; au-delà on voyoit <placeName key="versailles_canal">le grand
+          Canal</placeName>, qui de loin paroissoit comme une glace de crystal d’une vaste étenduë.
+        Il estoit borné de tous costez de corps lumineux, mais d’<tech type="lumieres">une lumiére
+          douce</tech> &amp; <pb n="28" xml:id="p28"/> privée du mouvement &amp; de l’action que
+        l’on voit dans le feu ordinaire. Ces corps ne portoient aucune ombre : ils representoient
+        differentes figures qu’on avoit peine à discerner de loin, &amp; dont les images
+        paroissoient sur l’eau, qui n’estoit pas aloirs moins tranquille que la lumiére mesme ; de
+        sorte que le profond silence &amp; l’obscurité où l’on se trouvoit alors, ressembloit
+        beaucoup à ce que les Poëtes ont écrit des Champs Elysées, qu’ils dépeignent comme un espace
+        de païs éclairé d’une lumiére précieuse, &amp; qui a un Soleil &amp; des Astres tous
+        particuliers.</p>
+      <p><persName key="louisxiv" role="spectateur"><persName key="marie_therese" role="spectateur"
+            >Leurs MAJESTEZ</persName></persName> estant arrivées au <placeName
+          key="versailles_jardins_bassin_apollon">bassin d’Apollon</placeName>, toute la Cour
+        commença de voir plus distinctement la beauté de <tech type="feux-artifice">ces feux</tech>
+        qui environnoient <placeName key="versailles_canal">le Canal</placeName>.</p>
+      <p>Ce qu’il y a de tres-considérable dans <placeName key="versailles_jardins">le grand Parc de
+          Versailles</placeName> est ce grand Canal. <seg ana="description">Il a tentre-deux toises
+          de large sur neuf cens toises de long. Trois grandes piéces d’eau en marquent les
+          extremitez &amp; le milieu. La premiére est celle qui est au bout d’enhaut, &amp; qui
+          separe le petit Parc d’avec le grand : elle est de figure octogone, &amp; a soixante-dix
+          toises de diamétre. Quatre de ses costez sont tirez en ligne circulaire, &amp; les autres
+          en ligne droite. La seconde est au milieu du</seg>
+        <placeName key="versailles_canal">grand Canal</placeName><seg ana="description">, &amp; dans
+          l’endroit où il est traversé d’un autre de quarante toises de large, qui d’un costé
+          conduit à</seg>
+        <placeName key="versailles_trianon">Trianon</placeName><seg ana="description">, &amp; de
+          l’autre à</seg>
+        <placeName key="versailles_jardins_menagerie">la Ménagerie</placeName><seg ana="description"
+          > : &amp; la troisiéme piéce, qui est tout au bas du</seg>
+        <placeName key="versailles_canal">grand Canal</placeName><seg ana="description">, a deux
+          cens toises de long sur cent toises de large.</seg> Ces canaux dans l’étenduë que je viens
+        de marquer, estoient environnez de part &amp; d’autre de <tech type="decor">Figures
+          illuminées</tech>, qui faisoient une décoration la plus magnifique &amp; la plus
+        extraordinaire qu’on se puisse imaginer. Il sembloit que les Nymphes des canaux &amp; des
+        fontaines de <placeName key="versailles">Versailles</placeName> se fussent assemblées pour
+          recevoir<persName key="louisxiv" role="destinataire"> le ROY</persName>, &amp; honorer son
+        retour d’un appareil pompeux &amp; triomphant ; &amp; qu’en décorant elles-mesmes ces
+        canaux, elles y avoient élevé des édifices &amp; d’autres monumens d’une structure toute
+        singuliére, &amp; conformes à la nature &amp; à la condition des Divinitez qui président sur
+        les eaux.</p>
+      <p>Au devant de <tech type="eaux">la piéce d’eau</tech>, qui fait la teste du <placeName
+          key="versailles_canal">grand Canal</placeName>, l’on voyoit d’abord sur des piedestaux
+        deux chevaux dans une action fougueuse &amp; emportée : des hommes vigoureux les
+        arrestoient, &amp; par leur adresse s’en rendoient les maistres. Chacun sçait que le cheval
+        est dédié à <name>Neptune</name>, qui le fit sortir de terre d’un coup de trident, dans
+        cette <pb n="29" xml:id="p29"/> dispute celébre qu’il eût avec <name>Minerve</name> à qui
+        donneroit le nom à la Ville d’Athenes. C’est apparemment pour cette raison qu’on avoit mis
+        deux chevaux à l’entrée du grand Canal, dans cette posture fiére prise sur ceux qui sont à
+        Rome à Montecaval.</p>
+      <p>Aux deux costez de la mesme piéce d’eau, joignant la grille de fer qui sert de closture au
+        grand Parc, estoit <seg ana="description">une face de bastiment de vingt-deux pieds de haut
+          sur huit toises de long</seg>. Quatre Termes rustiques de differentes couleurs en
+        separoient toute l’étenduë en trois parties, en sorte que deux de ces Termes estoient aux
+        deux extrémitez, &amp; les deux autres dans le milieu. Ils portoient une corniche qui
+        regnoit dans l’étenduë de tout l’édifice.</p>
+      <p ana="description">Aux deux costez <seg ana="description">il y avoit deux fontaines de douze
+          pieds de haut</seg> : on y voyoit dans un grand bassin rustique trois Dauphins, dont la
+        queuë élevée soûtenoit un globe de lapis. Au dessus estoit un autre bassin, d’où l’eau se
+        répandant en forme de cloche, tomboit derriére deux jeunes enfans representez au naturel,
+        &amp; tenant à la bouche chacun une conque d’où sortoit de l’eau.</p>
+      <p>Plus loin &amp; <seg ana="description">sur les deux faces de l’octogone qui se terminent en
+          demi-cercle, paroissoient huit bassins de fontaines taillez en coquille, &amp; disposez de
+          telle maniére les uns au dessus des autres, que diminuant de grandeur à mesure qu’ils
+          s’élevoient, ils formoient une pyramide de trente-six pieds de haut, à la pointe de
+          laquelle estoit un Soleil, dont les rayons éclairoient l’eau des bassins qui tomboit de
+          l’un dans l’autre. Le premier bassin qui faisoit le bas de la pyramide estoit posé sur un
+          piedestal taillé rustiquement, &amp; orné dans son milieu des armes du ROY. Deux grandes
+          Figures de Fleuves estoient aux deux costez du piedestal, appuyées sur leurs vases, d’où
+          sortoit de l’eau. A costé de ces pyramides il y avoit deux fontaines de douze pieds de
+          haut</seg>, de mesme celles dont je viens de parler.</p>
+      <p>Lors que <persName key="louisxiv" role="spectateur"><persName key="marie_therese"
+            role="spectateur">leurs MAJESTEZ</persName></persName> eûrent consideré la beauté de ces
+          <tech type="lumieres">Illuminations</tech>, Elles monterent dans des gondoles superbement
+        parées, suivies du reste de la Cour, qui remplissoit l’eau du Canal auparavant tranquille
+        &amp; sans aucune agitation, comme s’enfler d’orgueïl de porter ce qu’il y a de plus grand
+        &amp; de plus auguste sur la terre. Tous les bords estoient éclairez par <tech
+          type="lumieres">six cens cinquante Termes de lumiéres</tech>
         <pb n="30" xml:id="p30"/>
-        <seg ana="description">de neuf pieds de haut</seg>, representant des figures toutes differentes par leurs actions &amp; par leurs couleurs. <seg ana="description">Elles estoient espacées l’une de l’autre de six toises</seg>, &amp; disposées de telle sorte, qu’il y en avoit pourtant deux accouplées ensemble, afin qu’on en pust toûjours voir une de face en allant &amp; venant sur <placeName key="versailles_canal">le Canal</placeName>.</p>
-      <p>Entre chaque Terme on avoit representé avec la mesme industrie, &amp; par des <tech type="lumieres">lumiéres</tech>
-        <seg ana="description">differemment colorées</seg>, toutes sortes de Poissons, qui sembloient s’estre rangez au bord de l’eau pour voir passer sur leur Element, comme en triomphe, le plus grand <persName key="louisxiv">ROY </persName>du monde.</p>
-      <p><placeName key="versailles_canal">Au milieu du Canal</placeName>, &amp; à l’endroit où il est croisé de celuy qui va à <placeName key="versailles_trianon">Trianon</placeName> &amp; à <placeName key="versailles_jardins_menagerie">la Ménagerie</placeName>, <seg ana="description">il y avoit aux quatre coins quatre gros pavillons quarrez de trente pieds de long chacun qur vingt-deux pieds de haut. Ils estoient ornez dans chaque face de quatre grands Termes representant des Fleuves &amp; des Nymphes des eaux, d’âges differens, &amp; de diverses couleurs, &amp; entre chaque Terme il y avoit de grands vases remplis d’orangers.</seg></p>
-      <p>A l’un des bouts du Canal, du costé de <placeName key="versailles_trianon">Trianon</placeName>, <name>Neptune</name>
-        <seg ana="description">paroissoit dans son char tiré par quatre chevaux marins, &amp; sortant de l’eau avec quatre Tritons à costé de luy</seg>. Et à l’autre bout du costé de la <placeName key="versailles_jardins_menagerie">Ménagerie</placeName>, on voyoit <name>Apollon</name>
-        <seg ana="description">en l’air tiré dans son char par quatre chevaux, à la teste desquels sembloient voler quatre femmes qui representoient</seg>
-        <name>des heures</name>. <seg ana="description">Toutes ces Figures avoient vingt-deux pieds de haut, &amp; estant de couleurs naturelles &amp; toutes lumineuses</seg>, paroissoient encore mieux des Divinitez. Après que <persName key="louisxiv" role="spectateur"><persName key="marie_therese" role="spectateur">leurs MAJESTEZ</persName></persName> eurent consideré ces riches décorations, Elles arriverent dans <tech type="construction">la grande piéce d’eau</tech> qui est <placeName key="versailles_canal">au bas du Canal</placeName>. A la veûë des somptueux édifices dont elle estoit ornée, toute la Cour fut encore plus surprise qu’elle n’avoit esté ; de si magnifiques ouvrages ne luy paroissant point un travail de la main des hommes. <tech type="construction">Cette piéce d’eau</tech><seg ana="description"> se termine par un demi-cercle, qui forme deux angles rentrant à ses deux extrémitez, &amp; qui a dans son milieu un enfoncement quarré d’environ quarante toises de face. Les deux costez du demi-cercle estoient separez par moitié. Sur la premiére partie que l’on voyoit d’abord, &amp; qui fait un angle, paroissoit dans l’atenduë de trente-quatre toises de long, une balustrade solidement bastie à hauteur d’appuy de toutes sortes de marbres. Sur dix piedestaux qui en</seg>
-        <pb n="31" xml:id="p31"/><seg ana="description"> interrompoient la longueur, on avoit élevé sçavoir sur les quatre premiers, quatre grandes medailles de demi-Dieux, ornées de festons, &amp; posées sur des zocles de marbre di differentes couleurs, taillez en amotissement ; &amp; sur les six autres, six Statuës de quinze pieds de haut vestuës de diverses maniéres.</seg></p>
-      <p ana="description">En suite &amp; sur la mesme ligne circulaire qui avoit vingt toises d’étenduë, estoit une rangée de colonnes accouplées, d’un marbre verdâtre, posées sur un embasement divisé par compartiment de panneaux de marbre &amp; de jasques differens. L’entablement estoit de marbre pareil à celuy des colonnes, &amp; entre les colonnes il y avoit des figures &amp; de grands trophées élevez sur des piedestaux. Tout cela paroissoit de differens marbres, ou d’autres matiéres transparentes, &amp; de couleurs semblables à celles qui éclatent dans le corail, dans les nacres, &amp; dans les autres coquillages que la mer jette sur les bords.</p>
-      <p ana="description">Tout au bout de la piéce d’eau paroissoit en face une terasse de trente-deux toises de long sur neuf pieds de haut, partagée par de grands panneaux rustiquement taillez en forme de glaçons de couleurs variées, &amp; telles qu’on en voit paroistre sur les ondes de la Mer, lors que le Soleil en se couchant mesle avec le vert &amp; le bleu des traits d’or &amp; de pourpre.</p>
-      <p>Au dessus de cette terasse s’élevoit <tech type="construction">un Palais</tech> de magnifique stucture. Toutes les parties dont il estoit composé concouroient à representer <tech type="construction">un Palais</tech>
-        <seg ana="description">de crystal basti dans l’eau, mais avec un tel artifice, &amp; d’une si grande richesse, qu’il sembloit que les figures &amp; les ornemens dont il estoit embelli fussent faits de pierres précieuses, disposées comme les ouvrages de Mosaïque : car non seulement l’on y voyoit les ives couleurs de la topase, des rubis, des émeraudes, &amp; d’autres pierres les plus rares, mais l’on estoit ébloüi du</seg>
-        <tech type="lumieres">feu &amp; des éclats de lumiéres</tech><seg ana="description"> qui sortoient de toutes ces couleurs</seg>, &amp; qui brilloient de telle sorte, qu’on avoit quasi de la peine à bien voir l’excellence de l’ouvrage ; ce qui rendoit cét édifice beaucoup plus riche &amp; plus considerable que tous les autres qui l’environnoient.</p>
+        <seg ana="description">de neuf pieds de haut</seg>, representant des figures toutes
+        differentes par leurs actions &amp; par leurs couleurs. <seg ana="description">Elles
+          estoient espacées l’une de l’autre de six toises</seg>, &amp; disposées de telle sorte,
+        qu’il y en avoit pourtant deux accouplées ensemble, afin qu’on en pust toûjours voir une de
+        face en allant &amp; venant sur <placeName key="versailles_canal">le Canal</placeName>.</p>
+      <p>Entre chaque Terme on avoit representé avec la mesme industrie, &amp; par des <tech
+          type="lumieres">lumiéres</tech>
+        <seg ana="description">differemment colorées</seg>, toutes sortes de Poissons, qui
+        sembloient s’estre rangez au bord de l’eau pour voir passer sur leur Element, comme en
+        triomphe, le plus grand <persName key="louisxiv">ROY </persName>du monde.</p>
+      <p><placeName key="versailles_canal">Au milieu du Canal</placeName>, &amp; à l’endroit où il
+        est croisé de celuy qui va à <placeName key="versailles_trianon">Trianon</placeName> &amp; à
+          <placeName key="versailles_jardins_menagerie">la Ménagerie</placeName>, <seg
+          ana="description">il y avoit aux quatre coins quatre gros pavillons quarrez de trente
+          pieds de long chacun qur vingt-deux pieds de haut. Ils estoient ornez dans chaque face de
+          quatre grands Termes representant des Fleuves &amp; des Nymphes des eaux, d’âges
+          differens, &amp; de diverses couleurs, &amp; entre chaque Terme il y avoit de grands vases
+          remplis d’orangers.</seg></p>
+      <p>A l’un des bouts du Canal, du costé de <placeName key="versailles_trianon"
+          >Trianon</placeName>, <name>Neptune</name>
+        <seg ana="description">paroissoit dans son char tiré par quatre chevaux marins, &amp;
+          sortant de l’eau avec quatre Tritons à costé de luy</seg>. Et à l’autre bout du costé de
+        la <placeName key="versailles_jardins_menagerie">Ménagerie</placeName>, on voyoit
+          <name>Apollon</name>
+        <seg ana="description">en l’air tiré dans son char par quatre chevaux, à la teste desquels
+          sembloient voler quatre femmes qui representoient</seg>
+        <name>des heures</name>. <seg ana="description">Toutes ces Figures avoient vingt-deux pieds
+          de haut, &amp; estant de couleurs naturelles &amp; toutes lumineuses</seg>, paroissoient
+        encore mieux des Divinitez. Après que <persName key="louisxiv" role="spectateur"><persName
+            key="marie_therese" role="spectateur">leurs MAJESTEZ</persName></persName> eurent
+        consideré ces riches décorations, Elles arriverent dans <tech type="construction">la grande
+          piéce d’eau</tech> qui est <placeName key="versailles_canal">au bas du Canal</placeName>.
+        A la veûë des somptueux édifices dont elle estoit ornée, toute la Cour fut encore plus
+        surprise qu’elle n’avoit esté ; de si magnifiques ouvrages ne luy paroissant point un
+        travail de la main des hommes. <tech type="construction">Cette piéce d’eau</tech><seg
+          ana="description"> se termine par un demi-cercle, qui forme deux angles rentrant à ses
+          deux extrémitez, &amp; qui a dans son milieu un enfoncement quarré d’environ quarante
+          toises de face. Les deux costez du demi-cercle estoient separez par moitié. Sur la
+          premiére partie que l’on voyoit d’abord, &amp; qui fait un angle, paroissoit dans
+          l’atenduë de trente-quatre toises de long, une balustrade solidement bastie à hauteur
+          d’appuy de toutes sortes de marbres. Sur dix piedestaux qui en</seg>
+        <pb n="31" xml:id="p31"/><seg ana="description"> interrompoient la longueur, on avoit élevé
+          sçavoir sur les quatre premiers, quatre grandes medailles de demi-Dieux, ornées de
+          festons, &amp; posées sur des zocles de marbre di differentes couleurs, taillez en
+          amotissement ; &amp; sur les six autres, six Statuës de quinze pieds de haut vestuës de
+          diverses maniéres.</seg></p>
+      <p ana="description">En suite &amp; sur la mesme ligne circulaire qui avoit vingt toises
+        d’étenduë, estoit une rangée de colonnes accouplées, d’un marbre verdâtre, posées sur un
+        embasement divisé par compartiment de panneaux de marbre &amp; de jasques differens.
+        L’entablement estoit de marbre pareil à celuy des colonnes, &amp; entre les colonnes il y
+        avoit des figures &amp; de grands trophées élevez sur des piedestaux. Tout cela paroissoit
+        de differens marbres, ou d’autres matiéres transparentes, &amp; de couleurs semblables à
+        celles qui éclatent dans le corail, dans les nacres, &amp; dans les autres coquillages que
+        la mer jette sur les bords.</p>
+      <p ana="description">Tout au bout de la piéce d’eau paroissoit en face une terasse de
+        trente-deux toises de long sur neuf pieds de haut, partagée par de grands panneaux
+        rustiquement taillez en forme de glaçons de couleurs variées, &amp; telles qu’on en voit
+        paroistre sur les ondes de la Mer, lors que le Soleil en se couchant mesle avec le vert
+        &amp; le bleu des traits d’or &amp; de pourpre.</p>
+      <p>Au dessus de cette terasse s’élevoit <tech type="construction">un Palais</tech> de
+        magnifique stucture. Toutes les parties dont il estoit composé concouroient à representer
+          <tech type="construction">un Palais</tech>
+        <seg ana="description">de crystal basti dans l’eau, mais avec un tel artifice, &amp; d’une
+          si grande richesse, qu’il sembloit que les figures &amp; les ornemens dont il estoit
+          embelli fussent faits de pierres précieuses, disposées comme les ouvrages de Mosaïque :
+          car non seulement l’on y voyoit les ives couleurs de la topase, des rubis, des émeraudes,
+          &amp; d’autres pierres les plus rares, mais l’on estoit ébloüi du</seg>
+        <tech type="lumieres">feu &amp; des éclats de lumiéres</tech><seg ana="description"> qui
+          sortoient de toutes ces couleurs</seg>, &amp; qui brilloient de telle sorte, qu’on avoit
+        quasi de la peine à bien voir l’excellence de l’ouvrage ; ce qui rendoit cét édifice
+        beaucoup plus riche &amp; plus considerable que tous les autres qui l’environnoient.</p>
       <p>
-        <seg ana="description">Il avoit vingt toises de face sur trente-six pieds de haut, &amp; cette face estoit divisée par cinq grandes portes quarrées. Devant chaque trumeau, au lieu de colonnes, il y avoit sur des piedestaux deux Termes de vingt-deux pieds de haut.</seg>
+        <seg ana="description">Il avoit vingt toises de face sur trente-six pieds de haut, &amp;
+          cette face estoit divisée par cinq grandes portes quarrées. Devant chaque trumeau, au lieu
+          de colonnes, il y avoit sur des piedestaux deux Termes de vingt-deux pieds de haut.</seg>
         <pb n="32" xml:id="p32"/>
-        <seg ana="description">Depuis la ceinture en haut ils avoient la form e de Vieillards, tels qu’on represente les fleuves, &amp; sembloient estre de topase &amp; de rubis. Ce qu’on appelle la guaine estoit comme d’un ambre jaune fort transparent : ils estoient ceints de roseaux qui avoient le verd des émeraudes. Sur leurs testes ils portoient des corbeilles remplis de roseaux &amp; de feuïlles d’eau ; &amp; au dessus estoit l’entablement de tout l’édifice, dont la frise representoient des glaçons de couleur d’émeraudes, mais brillans</seg>
+        <seg ana="description">Depuis la ceinture en haut ils avoient la form e de Vieillards, tels
+          qu’on represente les fleuves, &amp; sembloient estre de topase &amp; de rubis. Ce qu’on
+          appelle la guaine estoit comme d’un ambre jaune fort transparent : ils estoient ceints de
+          roseaux qui avoient le verd des émeraudes. Sur leurs testes ils portoient des corbeilles
+          remplis de roseaux &amp; de feuïlles d’eau ; &amp; au dessus estoit l’entablement de tout
+          l’édifice, dont la frise representoient des glaçons de couleur d’émeraudes, mais
+          brillans</seg>
         <tech type="lumieres">d’étincelles de feu</tech>
-        <seg ana="description">, de mesme que les autres panneaux qui s e trouvoient dans chaque piedestal.</seg>
+        <seg ana="description">, de mesme que les autres panneaux qui s e trouvoient dans chaque
+          piedestal.</seg>
       </p>
-      <p>Le long de l’entablement regnoit une grande balustrade divisée par panneaux taillez en glaçons. Sur cette balustrade &amp; au dessus du fronton qui ornoit le milieu de ce Palais, <seg ana="description">estoient assises deux grandes Figures representant deux Fleuves appuyez sur leurs urnes : ils estoient à demi couverts d’habits tres-riches, &amp; ceints de roseaux de mesme que les Termes, versans de leurs urnes de l’eau en abondance. Sur la mesme balustrade &amp; au dessus de chaque Terme, estoit posé un grand vase d’une matiére prétieuse, d’où sortoit</seg>
+      <p>Le long de l’entablement regnoit une grande balustrade divisée par panneaux taillez en
+        glaçons. Sur cette balustrade &amp; au dessus du fronton qui ornoit le milieu de ce Palais,
+          <seg ana="description">estoient assises deux grandes Figures representant deux Fleuves
+          appuyez sur leurs urnes : ils estoient à demi couverts d’habits tres-riches, &amp; ceints
+          de roseaux de mesme que les Termes, versans de leurs urnes de l’eau en abondance. Sur la
+          mesme balustrade &amp; au dessus de chaque Terme, estoit posé un grand vase d’une matiére
+          prétieuse, d’où sortoit</seg>
         <tech type="eaux">un gros jet d’eau</tech>.</p>
-      <p ana="description">Dans les enfoncemens des portes, il y avoit de gros zocles taillez en glaçon, d’où couloit de l’eau de tous costez, &amp; sur chacun de ces zocles on voyoit des Statuës de vingt pieds de haut. Celle du milieu representoit Nepture qui enleve une Nymphe : les autres Statuës estoient d’autres Nymphes de l’Ocean portées par des Chevaux Marins.</p>
+      <p ana="description">Dans les enfoncemens des portes, il y avoit de gros zocles taillez en
+        glaçon, d’où couloit de l’eau de tous costez, &amp; sur chacun de ces zocles on voyoit des
+        Statuës de vingt pieds de haut. Celle du milieu representoit Nepture qui enleve une Nymphe :
+        les autres Statuës estoient d’autres Nymphes de l’Ocean portées par des Chevaux Marins.</p>
       <p>Aux deux costez de ce Palais estoient <tech type="construction">deux rochers</tech>
-        <seg ana="description">de vingt-quatre pieds de long sur trente-six pieds de haut.</seg> Ils estoient percez à jour, &amp; dans le milieu s’élevoit <tech type="eaux">un gros jet d’eau</tech>, qui en retombant faisoit une double cascade. <seg ana="description">Sur les deux costez de chaque rocher estoient deux Fleuves assis, &amp; tenant des urnes qui répandoient de l’eau. Derriére ces Fleuves l’on voyoit deux deux Chevaux Marins, portant une grande coquille, d’où l’eau sortoit de tous costez ; &amp; sur la coquille estoit encore élevé un groupe de deux figures, representant d’un costé</seg>
+        <seg ana="description">de vingt-quatre pieds de long sur trente-six pieds de haut.</seg> Ils
+        estoient percez à jour, &amp; dans le milieu s’élevoit <tech type="eaux">un gros jet
+          d’eau</tech>, qui en retombant faisoit une double cascade. <seg ana="description">Sur les
+          deux costez de chaque rocher estoient deux Fleuves assis, &amp; tenant des urnes qui
+          répandoient de l’eau. Derriére ces Fleuves l’on voyoit deux deux Chevaux Marins, portant
+          une grande coquille, d’où l’eau sortoit de tous costez ; &amp; sur la coquille estoit
+          encore élevé un groupe de deux figures, representant d’un costé</seg>
         <name>Zephire </name><seg ana="description">qui enleve</seg>
         <name>Cloris</name><seg ana="description">, &amp; de l’autre</seg>
         <name>Borée</name><seg ana="description"> qui enleve</seg>
         <name>Orithie</name>.</p>
-      <p>Ce fut à l’aspect d’un Bastiment si extraordinaire, accompagné de tant d’autre grand souvrages, qui par la sçavante disposition <tech type="lumieres">des lumiéres</tech> &amp; des couleurs, faisoient un des plus beaux &amp; des plus surprenans spectacles qu’on ait jamais veûs, que <persName key="louisxiv">le ROY</persName> suivi de toute sa Cour se promena sur <pb n="33" xml:id="p33"/><tech type="construction">cette grande piéce d’eau</tech>, où dans le profond silence de la nuit l’on entendoit les violons qui suivoient le Vaisseau de <persName key="louisxiv">SA MAJESTÉ</persName>. Le son des Instrumens sembloit donner de la vie à toutes les Figures, dont <tech type="lumieres">la lumiére</tech> moderée donnoit aussi à la symphonie un certain agrément qu’elle n’auroit eû dans une entiére obscurité.</p>
-      <p>Pendant que les Vaisseaux voguoient avec lenteur, l’on entrevoyoit l’eau qui blanchissoit tout au tour ; &amp; les rames qui la batoient mollement, &amp; par des coups mesurez marquoient comme des sillons d’argent sur la surface obscure de ces canaux.</p>
-      <p>L’on n’appercevoit alors que de l’eau renfermée par l’obscurité de la nuit ; &amp; <tech type="lumieres">ces grandes piéces d’eau éclairées</tech> seulement de part &amp; d’autre par tant de <tech type="lumieres">Figures lumineuses</tech>, ressembloient à de longues galeries &amp; à de grands salons enrichis &amp; parez d’une Architecture &amp; de Statuës d’un artifice &amp; d’une beauté jsuqu’alors inconnuë, &amp; au dessus de ce que l’esprit humain peut concevoir.</p>
-      <p>Une si rare magnificence arresta long-temps avec plaisir les yeux de toute la Cour, qui ne pouvoit se lasser d’admirer les merveilleux effets de <tech type="lumieres">ces Illuminations</tech>, dont les images paroissoient encore dans le fond de l’eau comme d’autres palais &amp; d’autres Figures plus grandes que les veritables. Une multitude de Poissons que l’on y voyoit, sembloient là comme les spectateurs muets de toute la pompe Royale, dont les canaux de Versailles estoient honorez pendant cette nuit.</p>
-      <p>Après que <persName key="louisxiv">le ROY</persName> eût remonté le long du <placeName key="versailles_canal">Canal</placeName>, &amp; que toute la Cour eût mis pied à terre, à l’endroit mesme où elle estoit entrée dans les gondoles, <persName key="louisxiv">Sa MAJESTÉ</persName> retourna au <placeName key="versailles_chateau">Chasteau</placeName>, où <tech type="lumieres">les lumiéres</tech> qui éclairoient les parterres &amp; les fontaines, comme j’ay dit, offroient encore à la veûë une décoration d’une beauté singuliére.</p>
-      <p>D’autres personnes qui auroient voulu décrire la magnificence de toutes ces Festes avec un discours élégant &amp; des figures choisies, en auroient fait des images encore plus belles que celles qu’on a tâché de crayonner icy : mais comme on veut s’assujetir à la parfaite ressemblance, &amp; ne rien dire qui ne soit entiérement conforme à ce qui s’est passé, on se contente de rapporter les choses comme elles ont esté, sans y rien augmenter, ni leur donner de l’éclat par des termes plus forts &amp; des narrations plus fleuries. Elles ont <pb n="34" xml:id="p34"/> d’elles-mesmes assez de grandeur pour causer de l’admiration ; &amp; l’on auroit peine à croire tout ce qu’il y avoit de merveilleux, si l’on ne voyoit souvent dans <placeName key="versailles">Versailles </placeName>de semblables merveilles.</p>
-      <p>Ce que l’on peut ajouster pour faire comprendre ce qui donnoit tant de jour à ces superbe décorations pendant une nuit si obscure, c’est qu’il y avoit plus de <tech type="lumieres">vingt mille lumiéres</tech>, sans compter plus de <tech type="lumieres">quatre milles autres feux</tech> qui éclairoient les fontaines &amp; les parterres du <placeName key="versailles_jardins_petit_parc">petit Parc</placeName>.</p>
+      <p>Ce fut à l’aspect d’un Bastiment si extraordinaire, accompagné de tant d’autre grand
+        souvrages, qui par la sçavante disposition <tech type="lumieres">des lumiéres</tech> &amp;
+        des couleurs, faisoient un des plus beaux &amp; des plus surprenans spectacles qu’on ait
+        jamais veûs, que <persName key="louisxiv">le ROY</persName> suivi de toute sa Cour se
+        promena sur <pb n="33" xml:id="p33"/><tech type="construction">cette grande piéce
+          d’eau</tech>, où dans le profond silence de la nuit l’on entendoit les violons qui
+        suivoient le Vaisseau de <persName key="louisxiv">SA MAJESTÉ</persName>. Le son des
+        Instrumens sembloit donner de la vie à toutes les Figures, dont <tech type="lumieres">la
+          lumiére</tech> moderée donnoit aussi à la symphonie un certain agrément qu’elle n’auroit
+        eû dans une entiére obscurité.</p>
+      <p>Pendant que les Vaisseaux voguoient avec lenteur, l’on entrevoyoit l’eau qui blanchissoit
+        tout au tour ; &amp; les rames qui la batoient mollement, &amp; par des coups mesurez
+        marquoient comme des sillons d’argent sur la surface obscure de ces canaux.</p>
+      <p>L’on n’appercevoit alors que de l’eau renfermée par l’obscurité de la nuit ; &amp; <tech
+          type="lumieres">ces grandes piéces d’eau éclairées</tech> seulement de part &amp; d’autre
+        par tant de <tech type="lumieres">Figures lumineuses</tech>, ressembloient à de longues
+        galeries &amp; à de grands salons enrichis &amp; parez d’une Architecture &amp; de Statuës
+        d’un artifice &amp; d’une beauté jsuqu’alors inconnuë, &amp; au dessus de ce que l’esprit
+        humain peut concevoir.</p>
+      <p>Une si rare magnificence arresta long-temps avec plaisir les yeux de toute la Cour, qui ne
+        pouvoit se lasser d’admirer les merveilleux effets de <tech type="lumieres">ces
+          Illuminations</tech>, dont les images paroissoient encore dans le fond de l’eau comme
+        d’autres palais &amp; d’autres Figures plus grandes que les veritables. Une multitude de
+        Poissons que l’on y voyoit, sembloient là comme les spectateurs muets de toute la pompe
+        Royale, dont les canaux de Versailles estoient honorez pendant cette nuit.</p>
+      <p>Après que <persName key="louisxiv">le ROY</persName> eût remonté le long du <placeName
+          key="versailles_canal">Canal</placeName>, &amp; que toute la Cour eût mis pied à terre, à
+        l’endroit mesme où elle estoit entrée dans les gondoles, <persName key="louisxiv">Sa
+          MAJESTÉ</persName> retourna au <placeName key="versailles_chateau">Chasteau</placeName>,
+        où <tech type="lumieres">les lumiéres</tech> qui éclairoient les parterres &amp; les
+        fontaines, comme j’ay dit, offroient encore à la veûë une décoration d’une beauté
+        singuliére.</p>
+      <p>D’autres personnes qui auroient voulu décrire la magnificence de toutes ces Festes avec un
+        discours élégant &amp; des figures choisies, en auroient fait des images encore plus belles
+        que celles qu’on a tâché de crayonner icy : mais comme on veut s’assujetir à la parfaite
+        ressemblance, &amp; ne rien dire qui ne soit entiérement conforme à ce qui s’est passé, on
+        se contente de rapporter les choses comme elles ont esté, sans y rien augmenter, ni leur
+        donner de l’éclat par des termes plus forts &amp; des narrations plus fleuries. Elles ont
+          <pb n="34" xml:id="p34"/> d’elles-mesmes assez de grandeur pour causer de l’admiration ;
+        &amp; l’on auroit peine à croire tout ce qu’il y avoit de merveilleux, si l’on ne voyoit
+        souvent dans <placeName key="versailles">Versailles </placeName>de semblables
+        merveilles.</p>
+      <p>Ce que l’on peut ajouster pour faire comprendre ce qui donnoit tant de jour à ces superbe
+        décorations pendant une nuit si obscure, c’est qu’il y avoit plus de <tech type="lumieres"
+          >vingt mille lumiéres</tech>, sans compter plus de <tech type="lumieres">quatre milles
+          autres feux</tech> qui éclairoient les fontaines &amp; les parterres du <placeName
+          key="versailles_jardins_petit_parc">petit Parc</placeName>.</p>
       <byline><persName key="andre_felibien" role="auteur">FELIBIEN</persName>.</byline>
       <byline>A PARIS,</byline>
       <byline>DE L’IMPRIMERIE ROYALE,</byline>
