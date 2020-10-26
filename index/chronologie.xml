@@ -47,6 +47,7 @@
     <ref target="../xml/merveilles17_imp_gazette16640510.xml"/>
     <ref target="../xml/merveilles17_imp_gazette16640528.xml"/>
     <ref target="../xml/merveilles17_imp_pie-guignard1668.xml"/>
+    <ref target="../xml/merveilles17_imp_ormessonmai1664.xml"/>
     
     <event xml:id="pie1" when="1664-05-07" where="versailles_chateau">
       <label>Plaisirs de l’île enchantée, première journée</label>
@@ -135,12 +136,12 @@
   </event>
   
   <event when="1668-07-18" where="versailles_chateau" xml:id="gd_div_versailles1668">
-    <label>Le Grand divertissement royal de Versailles</label>
+    <label>Le Grand divertissement royal de Versailles, fête de cour</label>
     <ref target="../xml/merveilles17_imp_gdv-felibien1668.xml"/>
   </event>
   
   <event from="1674-07-04" to="1674-08-31" where="versailles_chateau" xml:id="div_versailles1674">
-    <label>Les Divertissements de Versailles</label>
+    <label>Les Divertissements de Versailles, fête de cour</label>
     <ref target="../xml/merveilles17_imp_dv-felibien1676.xml"/>
   </event>
   
