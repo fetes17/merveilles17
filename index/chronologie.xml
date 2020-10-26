@@ -1,31 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="index.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listEvent xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
-  
+
+  <event from="1662-06-05" to="1662-06-06" where="paris_louvre" xml:id="carrousel1662">
+    <label>Courses de têtes et de bagues</label>
+    <ref target="../xml/merveilles17_imp_ctb-perrault1670.xml"/>
+  </event>
+
   <event when="1664-01-10" where="paris_palais_royal" xml:id="bradamante">
-    <label>La Bradamante ridicule</label>
+    <label>La Bradamante ridicule, comédie</label>
     <ref target="../xml/merveilles17_ms_acflagrange_001.xml"/>
     <ref target="../xml/merveilles17_img_bradamante_001.xml"/>
     <ref target="../xml/merveilles17_img_bradamante_002.xml"/>
   </event>
-  
+
   <event when="1664-01-29" where="paris_louvre" xml:id="mariageforce1">
-    <label>Le Mariage forcé, première représentation devant le roi</label>
+    <label>Le Mariage forcé, comédie-ballet</label>
     <ref target="../xml/merveilles17_ms_acflagrange_002.xml"/>
   </event>
-  
+
   <event when="1664-01-31" where="paris_louvre" xml:id="mariageforce2">
-    <label>Le Mariage forcé, deuxième représentation devant le roi</label>
+    <label>Le Mariage forcé, comédie-ballet</label>
     <ref target="../xml/merveilles17_ms_acflagrange_002.xml"/>
   </event>
 
   <event when="1664-02-13" where="paris_palais_royal" xml:id="amours_deguises_1664">
     <label>Les Amours déguisés, ballet</label>
     <ref target="../xml/merveilles17_ms_amours-philidor.xml"/>
+    <ref target="../xml/merveilles17_imp_gazette16640216.xml"></ref>
   </event>
 
-  <event from="1664-05-07" to="1664-05-13" where="versailles" xml:id="pie">
-    <label>Les Plaisirs de l’île enchantée</label>
+  <event from="1664-05-07" to="1664-05-13" where="versailles_chateau" xml:id="pie">
+    <label>Les Plaisirs de l’île enchantée, fête de cour</label>
     <ref target="../xml/merveilles17_ms_pie-bizincourt_001.xml"/>
     <ref target="../xml/merveilles17_imp_pie-ballard1.xml"/>
     <ref target="../xml/merveilles17_imp_pie-ballard2.xml"/>
@@ -34,7 +40,11 @@
     <ref target="../xml/merveilles17_ms_anmcrs388.xml"/>
     <ref target="../xml/merveilles17_ms_pie-philidor.xml"/>
     <ref target="../xml/merveilles17_img_ano13239_081.xml"/>
-    <event xml:id="pie1" when="1664-05-07" where="versailles">
+    <ref target="../xml/merveilles17_imp_bussyrabutin1664_1.xml"/>
+    <ref target="../xml/merveilles17_imp_gazette16640510.xml"/>
+    <ref target="../xml/merveilles17_imp_gazette16640528.xml"/>
+    
+    <event xml:id="pie1" when="1664-05-07" where="versailles_chateau">
       <label>Plaisirs de l’île enchantée, première journée</label>
       <ref target="../xml/merveilles17_img_piefront.xml"/>
       <ref target="../xml/merveilles17_img_pie1comparse.xml"/>
@@ -58,60 +68,70 @@
       <ref target="../xml/merveilles17_img_stockp22_030.xml"/>
       <ref target="../xml/merveilles17_img_stockp22_031.xml"/>
     </event>
-  
-    <event xml:id="pie2" when="1664-05-08" where="versailles">
+
+    <event xml:id="pie2" when="1664-05-08" where="versailles_chateau">
       <label>Plaisirs de l’île enchantée, deuxième journée</label>
       <ref target="../xml/merveilles17_ms_acflagrange_002.xml"/>
       <ref target="../xml/merveilles17_img_ano13239_057.xml"/>
       <ref target="../xml/merveilles17_img_ano13242a_089.xml"/>
     </event>
-  
-    <event xml:id="pie3" when="1664-05-09" where="versailles">
+
+    <event xml:id="pie3" when="1664-05-09" where="versailles_chateau">
       <label>Plaisirs de l’île enchantée, troisième journée</label>
       <ref target="../xml/merveilles17_img_ano13238_068.xml"/>
       <ref target="../xml/merveilles17_img_ano13242b_002.xml"/>
       <ref target="../xml/merveilles17_img_verslamb2579.xml"/>
     </event>
-  
-    <event xml:id="pie4" when="1664-05-10" where="versailles">
+
+    <event xml:id="pie4" when="1664-05-10" where="versailles_chateau">
       <label>Suite des Plaisirs de l’île enchantée, quatrième journée</label>
       <ref target=""/>
     </event>
-    <event xml:id="pie5" when="1664-05-11" where="versailles">
+    <event xml:id="pie5" when="1664-05-11" where="versailles_chateau">
       <label>Suite des Plaisirs de l’île enchantée, cinquième journée</label>
       <ref target="../xml/merveilles17_ms_acflagrange_002.xml"/>
     </event>
-    <event xml:id="pie6" when="1664-05-12" where="versailles">
+    <event xml:id="pie6" when="1664-05-12" where="versailles_chateau">
       <label>Suite des Plaisirs de l’île enchantée, sixième journée</label>
       <ref target="../xml/merveilles17_ms_acflagrange_002.xml"/>
     </event>
-    <event xml:id="pie7" when="1664-05-13" where="versailles">
+    <event xml:id="pie7" when="1664-05-13" where="versailles_chateau">
       <label>Suite des Plaisirs de l’île enchantée, septième journée</label>
       <ref target="../xml/merveilles17_ms_acflagrange_002.xml"/>
     </event>
   </event>
 
-  <event from="1664-07-13" to="1664-10-25" where="versailles" xml:id="theatreversaillesoct1664">
-    <label>Divertissements pour la cour à Versailles (L'Impromptu de Versailles, L'Ecole des maris,
-      L'Ecole de femmes, Le Cocu imaginaire, Le Dépit amoureux, L'Etourdi, Les Fâcheux</label>
+  <event from="1664-07-13" to="1664-10-25" where="versailles_chateau" xml:id="theatreversaillesoct1664">
+    <label>Divertissements à la cour (L'Impromptu de Versailles, L'Ecole des maris, L'Ecole de
+      femmes, Le Cocu imaginaire, Le Dépit amoureux, L'Etourdi, Les Fâcheux</label>
     <ref target="../xml/merveilles17_ms_acflagrange_004.xml"/>
   </event>
-  
+
   <event from="1664-07-30" to="1664-08-13" where="fontainebleau" xml:id="chigifontainebleau">
-    <label>Divertissements pour la réception du cardinal Chigi à Fontainebleau</label>
+    <label>Divertissements pour la réception du cardinal Chigi</label>
     <ref target="../xml/merveilles17_ms_acflagrange_003.xml"/>
     <ref target="../xml/merveilles17_ms_bavmscheii38_257.xml"/>
     <ref target="../xml/merveilles17_ms_bnfmsfr6143.xml"/>
   </event>
 
   <event when="1664" where="vincennes" xml:id="ballet_vincennes1664">
-    <label>Ballet dansé à Vincennes</label>
-    <ref target="../xml/merveilles17_ms_ano12984_001.xml"/>
-  </event>
-  
-  <event when="1664" where="fontainebleau" xml:id="feu_fontainebleau1664">
-    <label>Feu d'artifice, l'histoire du mauvais riche, tiré au château de Fontainebleau</label>
+    <label>Ballet</label>
     <ref target="../xml/merveilles17_ms_ano12984_001.xml"/>
   </event>
 
+  <event when="1664" where="fontainebleau" xml:id="feu_fontainebleau1664">
+    <label>Feu d'artifice, L'Histoire du mauvais riche</label>
+    <ref target="../xml/merveilles17_ms_ano12984_001.xml"/>
+  </event>
+  
+  <event when="1668-07-18" where="versailles_chateau" xml:id="gd_div_versailles1668">
+    <label>Le Grand divertissement royal de Versailles</label>
+    <ref target="../xml/merveilles17_imp_gdv-felibien1668.xml"/>
+  </event>
+  
+  <event from="1674-07-04" to="1674-08-31" where="versailles_chateau" xml:id="div_versailles1674">
+    <label>Les Divertissements de Versailles</label>
+    <ref target="../xml/merveilles17_imp_dv-felibien1676.xml"/>
+  </event>
+  
 </listEvent>
