@@ -6,14 +6,18 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Le char d'Apollon, conduit par le Temps lors de la première journée des
-                    Plaisirs de l'Ile enchantée</title>
+                <title>Première journée des Plaisirs de l'Ile enchantée. Le char d'Apollon, conduit
+                    par le Temps</title>
             </titleStmt>
             <editionStmt>
                 <edition>Merveilles17</edition>
                 <respStmt>
                     <name>Mathilde Nicolas</name>
                     <resp>Encodage</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Gaëlle Lafage</name>
+                    <resp>Corrections</resp>
                 </respStmt>
             </editionStmt>
             <publicationStmt>
@@ -25,12 +29,16 @@
             </publicationStmt>
             <notesStmt>
                 <note>Il s'agit certainement de la contre-épreuve du dessin conservé à la<ref
-                        target="URI">BnF, OA 37 (2) Fol, fol. 171</ref></note>
+                        target="merveilles17_img_bnfestampesoa37_003.xml">BNF, Estampes, OA 37 (2)
+                        Fol, fol. 171</ref></note>
             </notesStmt>
             <sourceDesc>
-                <bibl><title>Le char d'Apollon, conduit par le Temps lors de la première
-                        journée des Plaisirs de l'Ile enchantée</title>, dessin, <pubPlace>Paris</pubPlace>, <idno>AN, CP O1
-                    23241</idno>, n° 77b<ptr target="http://www2.culture.gouv.fr/Wave/image/archim/MP/FRDAFAN08_SCEK000646N_2.jpg"/></bibl>
+                <bibl><title>Première journée des Plaisirs de l'Ile enchantée. Le char d'Apollon,
+                        conduit par le Temps</title>
+                    <note>Contre-épreuve d’un dessin à la pierre noire, 25,5 x 39,2 cm, Paris, Archives nationales,
+                        CP O1 23241, n° 77b</note><ptr
+                        target="http://www2.culture.gouv.fr/Wave/image/archim/MP/FRDAFAN08_SCEK000646N_2.jpg"
+                    /></bibl>
                 <msDesc>
                     <msIdentifier>
                         <country>France</country>
@@ -75,10 +83,10 @@
 
             <figDesc>Le char d'Apollon, richement décoré, est tiré par quatre chevaux et conduit par
                 le Temps. Apollon est assis au sommet, accompagné de l'Âge de fer, l'Age d'airain,
-                l'Âge d'argent et l'Âge d'or.<tech type="machine_terre"/><tech type="costume"
-                    /><name key="apollon"/><name key="temps"/><name key="quatre_siecles"/><name
-                    key="age_fer"/><name key="age_airain"/><name key="age_argent"/><name
-                    key="age_or"/></figDesc>
+                l'Âge d'argent et l'Âge d'or.<tech type="machine_terre"/><tech type="costume"/><name
+                    key="apollon"/><name key="le_temps"/><name key="quatre_siecles"/><name
+                    key="le_siecle_de_fer"/><name key="le_siecle_d_airain"/><name
+                    key="le_siecle_d_argent"/><name key="le_siecle_d_or"/></figDesc>
         </figure>
     </sourceDoc>
 </TEI>

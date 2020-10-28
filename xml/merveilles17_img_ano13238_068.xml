@@ -6,14 +6,18 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Représentation du ballet d’Alcine lors des Plaisirs de l’Ile enchantée</title>
-                <author>Chauveau, François (d'après)</author>
+                <title>Troisième journée des PLaisirs de l'île enchantée. Représentation du ballet d’Alcine</title>
+                <author key="chauveau">Chauveau, François (d'après)</author>
             </titleStmt>
             <editionStmt>
                 <edition>Merveilles17</edition>
                 <respStmt>
                     <name>Mathilde Nicolas</name>
                     <resp>Encodage</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Gaëlle Lafage</name>
+                    <resp>Corrections</resp>
                 </respStmt>
             </editionStmt>
             <publicationStmt>
@@ -25,12 +29,16 @@
             </publicationStmt>
             <notesStmt>
                 <note>Il s'agit de la contre-épreuve du dessin ayant servi à l'illustration du
-                    manuscrit conservé à la<ref target="URI">BNF, Ms.Fr.7834,
+                    manuscrit de Bizincourt, voir notamment : <ref
+                        target="merveilles17_ms_pie-bizincourt_001.xml">BNF, Manuscrits, Ms.Fr.7834,
                         fol.73</ref></note>
             </notesStmt>
             <sourceDesc>
-                <bibl>François Chauveau (d'après), <title>eprésentation du ballet d’Alcine lors des Plaisirs de l’Ile enchantée</title>,
-                    dessin, Paris, AN, CP O1 3238, n° 68b</bibl>
+                <bibl>François Chauveau (d'après), <title>Troisième journée des PLaisirs de l'île enchantée. Représentation du ballet d’Alcine</title>
+                    <note>contre-épreuve d’un dessin à la pierre noire, 35,4 x 27 cm, Paris,
+                        Archives nationales, CP O1 3238, n° 68b</note><ptr
+                        target="http://www2.culture.gouv.fr/documentation/archim/menus-plaisirs.html"
+                    /></bibl>
                 <msDesc>
                     <msIdentifier>
                         <country>France</country>
@@ -73,9 +81,9 @@
             "/>
             <figDesc>Entre deux arbres, se trouve un bassin. Sur l'avant de celui-ci, trois femmes
                 sont assises sur le dos de monstres marins. En son centre, un bâtiment posé sur un
-                rocher. <tech type="decor"/><tech type="construction"/><tech
-                    type="machine_eau"/><name key="alcine"/><name key="celie"/><name
-                    key="dirce"/><placeName key="versailles_bassin_apollon"/></figDesc>
+                rocher. <tech type="animal"/><tech type="decor"/><tech type="construction"/><tech
+                    type="machine_eau"/><name key="alcine"/><name key="celie"/><name key="dirce"
+                    /><placeName key="versailles_bassin_apollon"/></figDesc>
         </figure>
     </sourceDoc>
 </TEI>

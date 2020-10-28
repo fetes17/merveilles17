@@ -6,16 +6,20 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Représentation du théâtre dressé dans les jardins de Versailles sur lequel
-                    est joué la Princesse d’Elide donnée lors des Plaisirs de l’Ile
-                    enchantée</title>
-                <author>Silvestre, Israël (d'après)</author>
+                <title>Seconde journée des Plaisirs de l'île enchantée. Représentation de la
+                    Princesse d'Elide dans les jardins de Versailles</title>
+                <author key="lepatre">Lepautre, Jean</author>
+                <author key="isilvestre">Silvestre, Israël (d'après)</author>
             </titleStmt>
             <editionStmt>
                 <edition>Merveilles17</edition>
                 <respStmt>
                     <name>Mathilde Nicolas</name>
                     <resp>Encodage</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Gaëlle Lafage</name>
+                    <resp>Corrections</resp>
                 </respStmt>
             </editionStmt>
             <publicationStmt>
@@ -26,13 +30,16 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note/>
+                <note>Ce dessin est peut-être préparatoire à <ref
+                    target="../xml/merveilles17_img_pie2comedie.xml">l'estampe de Silvestre et Lepautre</ref> ou en serait une copie. Il est dans le même sens
+                    que la gravure, présente quelques variantes et la lettre est absente.</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>Israël Silvestre (d'après), <title>Représentation du théâtre dressé
-                        dans les jardins de Versailles sur lequel est joué la Princesse d’Elide
-                        donnée lors des Plaisirs de l’Ile enchantée</title>, dessin à la pierre noire,
-                    à l'encre noire et au lavis gris, Paris, CP O1 3242A, n°89.</bibl>
+                <bibl>Israël Silvestre (d'après), <title>Seconde journée des Plaisirs de l'île enchantée. Représentation de la
+                    Princesse d'Elide dans les jardins de Versailles</title>, <note>Dessin à la pierre noire,
+                    à l'encre noire et au lavis gris, 60,4 x 89,6 cm, Paris, CP O1 3242A, n°89</note><ptr
+                        target="http://www2.culture.gouv.fr/documentation/archim/menus-plaisirs.html"
+                    /></bibl>
                 <msDesc>
                     <msIdentifier>
                         <country>France</country>
@@ -75,7 +82,7 @@
             <figDesc>Un théâtre orné de décorations et de lustres est installé dans une longue
                 allée, bordée par des arbres. Sur la scène, de nombreux acteurs costumés jouent une
                 pièce devant les spectateurs.<tech type="decor"/><tech type="costume"/><tech
-                    type="construction"/><tech type="lumieres"/><persName role="acteur"/></figDesc>
+                    type="construction"/><tech type="lumieres"/></figDesc>
         </figure>
     </sourceDoc>
 </TEI>
