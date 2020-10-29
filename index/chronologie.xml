@@ -44,7 +44,7 @@
   </event>
 
   <event from="1664-05-07" to="1664-05-13" where="versailles_chateau" xml:id="pie">
-    <label>Les Plaisirs de l’île enchantée, fête de cour</label>
+    <label>Les Plaisirs de l’île enchantée</label>
     <ref target="../xml/merveilles17_ms_pie-bizincourt_001.xml"/>
     <ref target="../xml/merveilles17_imp_pie-ballard1.xml"/>
     <ref target="../xml/merveilles17_imp_pie-ballard2.xml"/>
@@ -58,6 +58,7 @@
     <ref target="../xml/merveilles17_imp_gazette16640528.xml"/>
     <ref target="../xml/merveilles17_imp_pie-guignard1668.xml"/>
     <ref target="../xml/merveilles17_imp_ormessonmai1664.xml"/>
+    <ref target="../xml/merveilles17_imp_pie-ir1673.xml"/>
     
     <event when="1664-05-07" where="versailles_chateau" xml:id="pie1" >
       <label>Plaisirs de l’île enchantée, première journée</label>
@@ -92,6 +93,7 @@
       <ref target="../xml/merveilles17_img_ano13239_057.xml"/>
       <ref target="../xml/merveilles17_img_ano13242a_089.xml"/>
       <ref target="../xml/merveilles17_imp_loret16640510.xml"/>
+      <ref target="../xml/merveilles17_img_pie2comedie.xml"/>
     </event>
 
     <event when="1664-05-09" where="versailles_chateau" xml:id="pie3">
@@ -100,6 +102,8 @@
       <ref target="../xml/merveilles17_img_ano13242b_002.xml"/>
       <ref target="../xml/merveilles17_img_verslamb2579.xml"/>
       <ref target="../xml/merveilles17_imp_loret16640510.xml"/>
+      <ref target="../xml/merveilles17_img_pie3feu.xml"/>
+      <ref target="../xml/merveilles17_img_pie3theatre.xml"/>
     </event>
 
     <event when="1664-05-10" where="versailles_chateau" xml:id="pie4">
@@ -121,7 +125,7 @@
   </event>
 
   <event from="1664-10-13" to="1664-10-25" where="versailles_chateau" xml:id="theatre_versailles1664_10">
-    <label>Divertissements à la cour (L'Impromptu de Versailles, L'Ecole des maris, L'Ecole de
+    <label>Divertissements à la cour : L'Impromptu de Versailles, L'Ecole des maris, L'Ecole de
       femmes, Le Cocu imaginaire, Le Dépit amoureux, L'Etourdi, Les Fâcheux</label>
     <ref target="../xml/merveilles17_ms_acflagrange_004.xml"/>
   </event>
@@ -136,12 +140,12 @@
   </event>
   
   <event when="1668-07-18" where="versailles_chateau" xml:id="gdv">
-    <label>Le Grand divertissement royal de Versailles, fête de cour</label>
+    <label>Le Grand divertissement royal de Versailles</label>
     <ref target="../xml/merveilles17_imp_gdv-felibien1668.xml"/>
   </event>
   
   <event from="1674-07-04" to="1674-08-31" where="versailles_chateau" xml:id="dv">
-    <label>Les Divertissements de Versailles, fête de cour</label>
+    <label>Les Divertissements de Versailles</label>
     <ref target="../xml/merveilles17_imp_dv-felibien1676.xml"/>
   </event>
   
