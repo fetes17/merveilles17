@@ -1,14 +1,13 @@
 <?php
-
 Merveilles17::init();
 Merveilles17::copy();
 Merveilles17::load();
+Merveilles17::chrono();
+Merveilles17::documents();
 Merveilles17::lieux();
 Merveilles17::personnes();
 Merveilles17::techniques();
-Merveilles17::documents();
 Merveilles17::control();
-
 
 
 
@@ -137,28 +136,31 @@ CREATE TABLE personne_document (
 CREATE INDEX personne_document_personne ON personne_document(personne);
 CREATE INDEX personne_document_document ON personne_document(document, personne_code);
 
-CREATE TABLE date (
+CREATE TABLE chrono (
   -- chronologie
   id             INTEGER,               -- ! rowid auto
   code           TEXT UNIQUE NOT NULL,  -- ! code unique
+  label          TEXT NOT NULL,         -- ! nom de l’événement
+  start          TEXT NOT NULL,         -- ! date de début
+  end            TEXT NOT NULL,         -- ! date de fin
+  lieu           INTEGER,               -- ! id du lieu de l’événement
+  lieu_code      TEXT NOT NULL,         -- ! code de lieu de l’événement
+  lieu_label     TEXT,                  -- ! label du lieu de l’événement
+  parent         INTEGER,               -- ? si enfant d’événement
   docs           INTEGER,               -- ! nombre de documents,  calculé, pour tri
-  occs           INTEGER,               -- ! nombre d’occurrences, calculé, pour tri
   PRIMARY KEY(id ASC)
 );
 
-CREATE TABLE date_document (
-  -- Occurences d’une date dans un document
+CREATE TABLE chrono_document (
+  -- lien d’un événement à des documents
   id             INTEGER,               -- ! rowid auto
-  date           INTEGER,               -- ! personne.id obtenu avec par personne.code
-  date_code      TEXT NOT NULL,         -- ! personne.code
-  document       INTEGER,               -- ! document.id obtenu avec par document.code
-  document_code  TEXT NOT NULL,         -- ! sera obtenu avec par document.code
-  anchor         TEXT NOT NULL,         -- ! ancre dans le ficheir source
-  occurrence     TEXT NOT NULL,         -- ! forme dans le texte
+  chrono         INTEGER,               -- ! événement de la chrono
+  document       INTEGER,               -- ! id du document référencé, dsera obtenu par document.code
+  document_code  TEXT NOT NULL,         -- ! code du document référencé
   PRIMARY KEY(id ASC)
 );
-CREATE INDEX date_document_date ON date_document(date);
-CREATE INDEX date_document_document ON date_document(document);
+CREATE INDEX chrono_document_chrono ON chrono_document(chrono);
+CREATE INDEX chrono_document_document ON chrono_document(document);
 
 
   ";
@@ -174,6 +176,63 @@ CREATE INDEX date_document_document ON date_document(document);
     self::$home = dirname(dirname(__FILE__)).'/';
     self::$sqlfile = self::$home."site/merveilles17.sqlite";
     self::$template = file_get_contents(self::$home."build/template.html");
+    // vider site avant de créer la base sqlite
+    Build::rmdir(self::$home."site", true);
+    // recreate sqlite base on each call
+    self::$pdo = Build::sqlcreate(self::$sqlfile, self::$create);
+  }
+  
+  /**
+   * Chronologie, après avoir renseigné la table des lieux
+   */
+  public static function chrono()
+  {
+    $chrono = self::$pdo->prepare("INSERT INTO chrono (code, label, start, end, lieu_code, parent) VALUES (?, ?, ?, ?, ?, ?)");
+    $chrono_document = self::$pdo->prepare("INSERT INTO chrono_document (chrono, document_code) VALUES (?, ?)");
+    $dom = Build::dom(self::$home."index/chronologie.xml");
+    $eventList = $dom->getElementsByTagNameNS ('http://www.tei-c.org/ns/1.0', 'event');
+    $parent = null;
+    self::$pdo->beginTransaction();
+    foreach ($eventList as $event) {
+      $code = $event->getAttribute("xml:id");
+      $start = $event->getAttribute("from");
+      if (!$start) $start = $event->getAttribute("when");
+      $end = $event->getAttribute("to");
+      if (!$end) $end = $start;
+      $lieu_code = $event->getAttribute("where");
+      if ($event->parentNode->nodeName != 'event') $parent = null;
+      foreach ($event->childNodes as $node) {
+        if ($node->nodeName != 'label') continue;
+        $label = preg_replace('@\s+@', ' ', trim($node->textContent));
+      }
+      // si n’est pas un event enfant, pas de parent
+      if ($event->parentNode->nodeName != 'event') $parent = null;
+      echo $code, " ", $label, " ",  $start, " ",  $end, " ",  $lieu_code, " ", $parent, "\n";
+      $chrono->execute(array($code, $label, $start, $end, $lieu_code, $parent));
+      $eventid = self::$pdo->lastInsertId();
+      foreach ($event->childNodes as $node) {
+        if ($node->nodeName != 'ref') continue;
+        $document_code = $node->getAttribute("target");
+        if (!$document_code) continue;
+        $document_code = pathinfo ($document_code, PATHINFO_FILENAME);
+        $chrono_document->execute(array($eventid, $document_code));
+      }
+      // peut avoir des enfants
+      if ($event->parentNode->nodeName != 'event') $parent = $eventid;
+    }
+    self::$pdo->commit();
+    self::$pdo->exec("
+      UPDATE chrono SET
+        lieu=(SELECT id FROM lieu WHERE code=chrono.lieu_code),
+        lieu_label=(SELECT label FROM lieu WHERE code=chrono.lieu_code)
+      ;
+      UPDATE chrono_document SET
+        document=(SELECT id FROM document WHERE code=chrono_document.document_code)
+      ;
+    ");
+    self::$pdo->exec("
+      INSERT INTO chrono_document (document, document_code) SELECT id, code FROM document WHERE id NOT IN (SELECT document FROM chrono_document WHERE chrono IS NOT NULL);
+    ");
   }
   
   /**
@@ -198,7 +257,6 @@ CREATE INDEX date_document_document ON date_document(document);
     $lieu_document =           "lieu_code\tdocument_code\tanchor\toccurrence\tdesc\n";
     $technique_document = "technique_code\tdocument_code\tanchor\toccurrence\n";
     $personne_document =   "personne_code\tdocument_code\tanchor\toccurrence\trole\n";
-    $date_document =   "date_code\tdocument_code\tanchor\toccurrence\n";
     
     // loop on all xml files, and do lots of work
     foreach (glob(self::$home."xml/*.xml") as $srcfile) {
@@ -221,7 +279,6 @@ CREATE INDEX date_document_document ON date_document(document);
       $personne_document .= $lines;
       $technique_document .= Build::transformDoc($dom, self::$home."build/xsl/tsv_technique_document.xsl", null, array('filename' => $dstname));
       $lieu_document .= Build::transformDoc($dom, self::$home."build/xsl/tsv_lieu_document.xsl", null, array('filename' => $dstname));
-      $date_document .= Build::transformDoc($dom, self::$home."build/xsl/tsv_date_document.xsl", null, array('filename' => $dstname));
     }
     file_put_contents(self::$home."README.md", $readme);
 
@@ -230,14 +287,12 @@ CREATE INDEX date_document_document ON date_document(document);
     file_put_contents(self::$home."site/data/lieu_document.tsv", $lieu_document);
     file_put_contents(self::$home."site/data/technique_document.tsv", $technique_document);
     file_put_contents(self::$home."site/data/personne_document.tsv", $personne_document);
-    file_put_contents(self::$home."site/data/date_document.tsv", $date_document);
 
     // charger les tsv en base
     self::tsv_insert("document", $document_cols, $document);
     self::tsv_insert("lieu_document", array("lieu_code", "document_code", "anchor", "occurrence", "desc"), $lieu_document);
     self::tsv_insert("technique_document", array("technique_code", "document_code", "anchor", "occurrence"), $technique_document);
     self::tsv_insert("personne_document", array("personne_code", "document_code", "anchor", "occurrence", "role"), $personne_document);
-    self::tsv_insert("date_document", array("date_code", "document_code", "anchor", "occurrence"), $date_document);
 
     // mise à jour des index 
     self::$pdo->exec("
@@ -252,9 +307,6 @@ CREATE INDEX date_document_document ON date_document(document);
       UPDATE personne_document SET
         personne=(SELECT id FROM personne WHERE code=personne_document.personne_code),
         document=(SELECT id FROM document WHERE code=personne_document.document_code)
-      ;
-      UPDATE date_document SET
-        document=(SELECT id FROM document WHERE code=date_document.document_code)
       ;
     ");
     
@@ -308,7 +360,24 @@ CREATE INDEX date_document_document ON date_document(document);
     }
     
     $template = str_replace("%relpath%", "../", self::$template);
-    $index = '<div class="container">'.self::uldocs(null, null, "").'</div>';
+    
+    $index = '';
+    $index .= '<div class="container">'."\n";
+    $index .= '<section>'."\n";
+    $index .= '
+  <header class="filtre">
+    Filtrer
+    <select oninput="this.parentNode.parentNode.className = this.value; ">
+      <option value="" selected="selected"></option>
+      <option value="ms">Manuscrits</option>
+      <option value="imp">Imprimés</option>
+      <option value="img">Images</option>
+    </select>
+  </header>
+    ';
+    $index .= self::uldocs(null, null, "");
+    $index .= '</section>'."\n";
+    $index .= '</div>'."\n";
     file_put_contents(self::$home."site/document/index".self::$_html, str_replace("%main%", $index, $template));
     
     $qid = self::$pdo->prepare("SELECT id FROM document WHERE code = ?");
@@ -609,49 +678,94 @@ CREATE INDEX date_document_document ON date_document(document);
 
   }
   
-  private static function uldocs($table=null, $id=null, $relpath = "../document/")
+  private static function uldocs($table=null, $id=null)
   {
+    $qdocument = self::$pdo->prepare('SELECT * FROM document WHERE id = ?');
+    $qchrono = self::$pdo->prepare('SELECT * FROM chrono WHERE id = ?');
     if($table) {
-      $sql = "SELECT DISTINCT document.* FROM document, %table%_document WHERE %table%_document.%table% = ? AND %table%_document.document = document.id ORDER BY type, code;";
+      $sql = "SELECT DISTINCT chrono_document.* FROM chrono_document, %table%_document WHERE %table%_document.%table% = ? AND %table%_document.document = chrono_document.document ORDER BY chrono_document.id;";
       $sql = str_replace('%table%', $table, $sql);
       $stmt = self::$pdo->prepare($sql);
       $stmt->bindParam(1, $id, PDO::PARAM_INT);
     }
     else {
-      $sql = "SELECT * FROM document ORDER BY type, code;";
+      $sql = "SELECT * FROM chrono_document;";
       $stmt = self::$pdo->prepare($sql);
     }
-    
     $stmt->execute();
-    $type = "";
+    
+    $chrono = null;
     $html = "";
     while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
-      if ($type != $row['type']) {
-        if($type) $html .= "</section>\n";
-        $html .= '<section class="doctype" id="'.$row['type'].'">'."\n";
-        if (isset(self::$doctype[$row['type']])) $h4 = self::$doctype[$row['type']];
-        else $h4 = $row['type'];
-        $html .= '<h3>'.$h4.'</h3>'."\n";
-        $type = $row['type'];
+      if ($row['chrono'] == $chrono);
+      else if ($row['chrono']) {
+        $qchrono->execute(array($row['chrono']));
+        $html .= self::htchrono($qchrono->fetch());
       }
-      $html .= '<a class="document" href="'.$relpath.$row['code'].self::$_html.'">'."\n";
-      $html .= '  <img src="'.$relpath.'S/'.$row['code'].',S.jpg"/>'."\n";
-      $html .= '  <div>'."\n";
-      $html .= '    <div class="title">'.$row['title'].'</div>'."\n";
-      $html .= '    <div class="publine">';
-      /*
-      $html .= $row['pubplace'];
-      if ($row['publisher']) $html .= ', '.$row['publisher'];
-      $html .= ' – ';
-      if ($row['pubdate']) $html .= $row['pubdate'];
-      else $html .= $row['idno'];
-      */
-      $html .= $row['publine'];
-      $html .= '</div>'."\n";
-      $html .= '  </div>'."\n";
-      $html .= '</a>'."\n";
+      else {
+        $html .= "<h3>Autres événements</h3>\n";
+      }
+      $chrono = $row['chrono'];
+      $qdocument->execute(array($row['document']));
+      $html .= self::htdocument($qdocument->fetch());
     }
-    if($html) $html .= "</section>\n";
+    return $html;
+  }
+
+  private static function htchrono($row)
+  {
+    $html = '';
+    $html .= '<a class="chrono"';
+    // $html .= ' href="../chrono/'.$row['code'].self::$_html.'"';
+    $html .= '>';
+    $html .= '<h3>';
+    $html .= '<b class="date">'.substr($row['start'], 0, 4);
+    if ($row['start'] != $row['end']) {
+      if (strlen($row['start']) >= 7 && strlen($row['end']) >= 7) {
+        $mois1 = substr($row['start'], 5, 2);
+        $mois2 = substr($row['end'], 5, 2);
+      }
+      if (strlen($row['start']) >= 10 && strlen($row['end']) >= 10) {
+        $j1 = substr($row['start'], 8, 2);
+        $j2 = substr($row['end'], 8, 2);
+        if ($mois1 == $mois2) $html .= ', '.(int)$j1.'-'.(int)$j2.' '.Build::mois($mois1);
+        else $html .= ', '.(int)$j1.' '.Build::mois($mois1).' – '.(int)$j2.' '.Build::mois($mois2);
+      }
+      else {
+        if ($mois1 == $mois2) $html .= ', '.Build::mois($mois1);
+        else $html .= ', '.Build::mois($mois1).' – '.Build::mois($mois2);
+      }
+    } else {
+      if (strlen($row['start']) >= 10) $html .= ', '.(int)substr($row['start'], 8, 2).' '.Build::mois(substr($row['start'], 5, 2));
+      else if (strlen($row['start']) >= 7) $html .= ', '.Build::mois(substr($row['start'], 5, 2));
+    }
+    $html .= '.</b> ';
+    $html .= '<span class="lieu">'.$row['lieu_label'].'.</span> ';
+    $html .= '<i class="title">'.$row['label'].'.</i>';
+    $html .= '</h3></a>'."\n";
+    return $html;
+  }
+  
+  private static function htdocument($row)
+  {
+    $html = '';
+    $html .= '<a class="document '.$row['type'].'" href="../document/'.$row['code'].self::$_html.'">'."\n";
+    
+    $html .= '  <div class="vignette" style="background-image:url(\'../document/S/'.$row['code'].',S.jpg\');"></div>'."\n";
+    $html .= '  <div>'."\n";
+    $html .= '    <div class="title">'.$row['title'].'</div>'."\n";
+    $html .= '    <div class="publine">';
+    /*
+    $html .= $row['pubplace'];
+    if ($row['publisher']) $html .= ', '.$row['publisher'];
+    $html .= ' – ';
+    if ($row['pubdate']) $html .= $row['pubdate'];
+    else $html .= $row['idno'];
+    */
+    $html .= $row['publine'];
+    $html .= '</div>'."\n";
+    $html .= '  </div>'."\n";
+    $html .= '</a>'."\n";
     return $html;
   }
 
@@ -684,7 +798,6 @@ CREATE INDEX date_document_document ON date_document(document);
    */
   public static function copy()
   {
-    Build::rmdir(self::$home."site", true);
     Build::rcopy(self::$home."build/images", self::$home."site/images");
     Build::rcopy(self::$home."build/theme", self::$home."site/theme");
     $template = str_replace("%relpath%", "", self::$template);
@@ -698,8 +811,6 @@ CREATE INDEX date_document_document ON date_document(document);
       }
       file_put_contents(self::$home."site/".$basename, str_replace("%main%", $html, $template));
     }
-    // recreate sqlite base on each call
-    self::$pdo = Build::sqlcreate(self::$sqlfile, self::$create);
     Build::mkdir(self::$home."site/data");
   }
 
@@ -715,6 +826,25 @@ class Build
   /** get a temp dir */
   private static $tmpdir;
 
+
+  static function mois($num)
+  {
+    $mois = array(
+      1 => 'janvier',
+      2 => 'février',
+      3 => 'mars',
+      4 => 'avril',
+      5 => 'mai',
+      6 => 'juin',
+      7 => 'juillet',
+      8 => 'août',
+      9 => 'septembre',
+      10 => 'octobre',
+      11 => 'novembre',
+      12 => 'décembre',
+    );
+    return $mois[(int)$num];
+  }
   
   /**
    * get a pdo link to an sqlite database with good options

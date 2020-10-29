@@ -63,7 +63,7 @@
     </xsl:call-template>
     <xsl:call-template name="taglist">
       <xsl:with-param name="tag">name</xsl:with-param>
-      <xsl:with-param name="label">Rôles</xsl:with-param>
+      <xsl:with-param name="label">Personnages</xsl:with-param>
     </xsl:call-template>
     <xsl:call-template name="taglist">
       <xsl:with-param name="tag">placeName</xsl:with-param>
