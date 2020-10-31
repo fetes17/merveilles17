@@ -19,7 +19,7 @@
   <xsl:variable name="type" select="substring-before(substring-after($filename, '_'), '_')"/>
   <xsl:template match="/">
     <article class="document">
-      <div id="doc_bibl">
+      <div class="object_header">
         <div class="container">
           <xsl:choose>
             <xsl:when test="/tei:TEI/tei:sourceDoc">
@@ -150,7 +150,7 @@
             <xsl:sort select="count(key('ana', @ana))" order="descending"/>
             <xsl:variable name="key" select="@ana"/>
             <li>
-              <xsl:value-of select="$ana[@xml:id = $key]/tei:term"/>
+              <xsl:value-of select="$ana[@xml:id = $key]"/>
               <xsl:text> </xsl:text>
               <b>
                 <xsl:text>(</xsl:text>

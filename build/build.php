@@ -1,4 +1,5 @@
 <?php
+
 Merveilles17::init();
 Merveilles17::copy();
 Merveilles17::load();
@@ -51,7 +52,7 @@ CREATE TABLE lieu (
   code           TEXT UNIQUE NOT NULL,  -- ! code unique
   label          TEXT NOT NULL,         -- ! forme de référence
   coord          TEXT,                  -- ? coordonnées carto
-  locality       TEXT,                  -- ? commune, pour recherche
+  settlement     TEXT,                  -- ? commune, pour recherche
   alt            TEXT,                  -- ? forme alternative, pour recherche
   docs           INTEGER,               -- ! nombre de documents,  calculé, pour tri
   occs           INTEGER,               -- ! nombre d’occurrences, calculé, pour tri
@@ -107,7 +108,7 @@ CREATE TABLE personne (
   -- répertoire des personnes
   id             INTEGER,               -- ! rowid auto
   code           TEXT UNIQUE NOT NULL,  -- ! code unique
-  label          TEXT NOT NULL,         -- ! forme d’autorité
+  label          TEXT,                  -- ! forme d’autorité
   gender         TEXT,                  -- M male, F femme
   birth          TEXT,                  -- date de naissance
   death          TEXT,                  -- date de mort
@@ -236,13 +237,75 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
   }
   
   /**
+   *
+   */
+  public static function load_personne()
+  {
+    $qpersonne = self::$pdo->prepare("INSERT INTO personne (code, label, gender, birth, death, databnf, wikipedia, isni) VALUES (?, ?, ?, ?, ?, ?, ?, ?)");
+    $listPerson = simplexml_load_file(self::$home."index/personne.xml");
+    self::$pdo->beginTransaction();
+    foreach ($listPerson->person as $person) {
+      $code = $person->attributes('xml', true)->id;
+      $gender = $person->sex;
+      $label = (string)$person->name;
+      if (!$label) $label = null;
+      $birth = $person->birth['when'];
+      if (!$birth) $birth = null;
+      $death = $person->death['when'];
+      if (!$death) $death = null;
+      $databnf = $wikipedia = $isni = null;
+      foreach ($person->identifier as $identifier) {
+        $type = $identifier['type'];
+        if($type == 'databnf') $databnf = $identifier;
+        elseif ($type == 'wikipedia') $wikipedia = $identifier;
+        elseif ($type == 'isni') $isni = $identifier;
+      }
+      $qpersonne->execute(array($code, $label, $gender, $birth, $death, $databnf, $wikipedia, $isni));
+    }
+    self::$pdo->commit();
+  }
+
+  public static function load_lieu()
+  {
+    $q = self::$pdo->prepare("INSERT INTO lieu (code, label, coord, settlement, alt) VALUES (?, ?, ?, ?, ?)");
+    $root = simplexml_load_file(self::$home."index/lieu.xml");
+    self::$pdo->beginTransaction();
+    foreach ($root->place as $record) {
+      $code = $record->attributes('xml', true)->id;
+      $label = (string)$record->name[0];
+      if (!$label) $label = null;
+      $alt = (string)$record->name[1];
+      if (!$alt) $alt = null;
+      $coord = $record->geo;
+      if (!$coord) $coord = null;
+      $settlement = (string)$record->settlement;
+      if(!$settlement) $settlement = null;
+      $q->execute(array($code, $label, $coord, $settlement, $alt));
+    }
+    self::$pdo->commit();
+  }
+  
+  public static function load_technique()
+  {
+    $q = self::$pdo->prepare("INSERT INTO technique (code, label) VALUES (?, ?)");
+    $root = simplexml_load_file(self::$home."index/technique.xml");
+    self::$pdo->beginTransaction();
+    foreach ($root->term as $record) {
+      $code = $record->attributes('xml', true)->id;
+      $label = (string)$record;
+      $q->execute(array($code, $label));
+    }
+    self::$pdo->commit();
+  }
+  
+  /**
    * Load dictionaries in database
    */
   public static function load()
   {
-    self::tsv_insert("lieu", array("code", "label", "coord", "locality", "alt"), file_get_contents(self::$home."index/lieu.tsv"));
-    self::tsv_insert("technique", array("code", "label"), file_get_contents(self::$home."index/technique.tsv"));
-    self::tsv_insert("personne", array("code", "label", "gender", "birth", "death", "databnf", "wikipedia", "isni"), file_get_contents(self::$home."index/personne.tsv"));
+    self::load_personne();
+    self::load_lieu();
+    self::load_technique();
     
     $document_cols = array("type", "code", "length", "title", "publine", "ptr", "bibl");
     
@@ -571,15 +634,17 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
         <td class="occs">'.$row['occs'].'</td>
       </tr>
 ';
-      $page = '<div class="container">';
-      $page .= '  <div class="row align-items-start">'."\n";
-      $page .= '    <div class="col-9">'."\n";
+      $page = '';
+      $page .= '
+<div class="object_header">
+  <div class="container">
+      ';
       $dates = '';
       if ($row['birth'] && $row['death']) $dates = ' ('.$row['birth'].' – '.$row['death'].')';
       else if ($row['birth']) $dates = ' ('.$row['birth'].' – ?)';
       else if ($row['death']) $dates = ' (? – '.$row['death'].')';
       $page .= '    <h1>'.$row['label'].$dates.'</h1>'."\n";
-      $page .= '<p>Courte notice ? à ajouter à personne.csv</p>'."\n";
+      // $page .= '<p>Courte notice ? à ajouter à personne.csv</p>'."\n";
       if ($row['wikipedia'] || $row['databnf'] || $row['isni']) {
         $page .= '<ul>'."\n";
         if ($row['wikipedia']) $page .= '  <li><a href="'.$row['wikipedia'].'" target="_new">wikipedia</a></li>'."\n";
@@ -588,16 +653,21 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
         array(' '=>'', ' '=> '')).'" target="_new">'.$row['isni'].'</a></li>'."\n";
         $page .= '</ul>'."\n";
       }
+      $page .= '
+  </div>
+</div>
+<div class="object_documents">
+  <div class="container">
+';
+      
       $page .= '      <section>'."\n";
       $page .= '        <h2>Documents liés</h2>'."\n";
       $page .= self::uldocs("personne", $row['id']);
       $page .= '      </section>'."\n";
-      
-      $page .= '    </div>'."\n";
-      $page .= '    <div class="col-3">'."\n";
-      $page .= '    </div>'."\n";
-      $page .= '  </div>'."\n";
-      $page .= '</div>'."\n";
+      $page .= '
+  </div>
+</div>
+';
       file_put_contents(self::$home."site/".$href, str_replace("%main%", $page, $template));
     }
     $stmt = null;    
@@ -649,7 +719,7 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
       $page .= '      <h1>'.$row['label'].'</h1>'."\n";
       if ($row['coord']) {
         $place = "";
-        if ($row['locality']) $place .= $row['locality'].", ";
+        if ($row['settlement']) $place .= $row['settlement'].", ";
         if ($row['alt']) $place .= $row['alt'];
         else $place .= $row['label'];
         $page .= '    <div><a target="_blank" href="https://www.google.com/maps/search/'.$place.'/@'.$row['coord'].'z">'.$row['coord'].'</a></div>'."\n";
@@ -715,10 +785,10 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
   private static function htchrono($row)
   {
     $html = '';
-    $html .= '<a class="chrono"';
+    // $html .= '<a class="chrono"';
     // $html .= ' href="../chrono/'.$row['code'].self::$_html.'"';
-    $html .= '>';
-    $html .= '<h3>';
+    // $html .= '>';
+    $html .= '<div><h3>';
     $html .= '<b class="date">'.substr($row['start'], 0, 4);
     if ($row['start'] != $row['end']) {
       if (strlen($row['start']) >= 7 && strlen($row['end']) >= 7) {
@@ -742,7 +812,7 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
     $html .= '.</b> ';
     $html .= '<span class="lieu">'.$row['lieu_label'].'.</span> ';
     $html .= '<i class="title">'.$row['label'].'.</i>';
-    $html .= '</h3></a>'."\n";
+    $html .= '</h3></div>'."\n";
     return $html;
   }
   

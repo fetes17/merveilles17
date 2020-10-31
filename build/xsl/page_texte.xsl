@@ -4,13 +4,16 @@
   <xsl:import href="tei_toc.xsl"/>
   <xsl:import href="tei_header.xsl"/>
   <xsl:import href="page.xsl"/>
+  <xsl:output indent="yes" encoding="UTF-8" method="xml" omit-xml-declaration="yes"/>
   <xsl:key name="persName" match="tei:persName[not(ancestor::tei:teiHeader)]" use="normalize-space(@key)"/>
   <xsl:key name="placeName" match="tei:placeName[not(ancestor::tei:teiHeader)]" use="normalize-space(@key)"/>
   <xsl:key name="tech" match="tei:tech[not(ancestor::tei:teiHeader)]" use="normalize-space(@type)"/>
   <xsl:key name="name" match="tei:name[not(ancestor::tei:teiHeader)]" use="normalize-space(@key)"/>
   <xsl:key name="ana" match="*[@ana][@ana != 'description']" use="normalize-space(@ana)"/>
-  <xsl:output indent="yes" encoding="UTF-8" method="xml" omit-xml-declaration="yes"/>
-  
+  <xsl:variable name="lieux" select="document('../../index/lieu.xml')/*/*"/>
+  <xsl:variable name="personnes" select="document('../../index/personne.xml')/*/*"/>
+  <xsl:variable name="ana" select="document('../../index/ana.xml')/*/*"/>
+  <xsl:variable name="techniques" select="document('../../index/technique.xml')/*/*"/>
   <xsl:template match="/">
     <article class="liseuse">
       <div id="explorer" class="explorer">
@@ -19,7 +22,7 @@
       <div id="milieu">
         <div class="bg-gray cartouche">
           <xsl:apply-templates select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt"/>
-          <div  class="textofiche">
+          <div class="textofiche">
             <a href="../document/{$filename}{$_html}">◀ Notice</a>
           </div>
         </div>
@@ -32,9 +35,8 @@
       </nav>
     </article>
   </xsl:template>
-  
   <xsl:template name="explorer">
-                <!--
+    <!--
             <div id="navaside">
               <a href="#sommaire">Sommaire</a>
               <xsl:text> | </xsl:text>
@@ -47,7 +49,6 @@
               <a href="#personnages">Personnages</a>
             </div>
             -->
-
     <xsl:variable name="toc">
       <xsl:call-template name="toc"/>
     </xsl:variable>
@@ -134,7 +135,6 @@
       </details>
     </xsl:if>
   </xsl:template>
-
   <xsl:template name="tr">
     <xsl:param name="tag"/>
     <xsl:param name="key"/>
@@ -173,11 +173,27 @@
             </xsl:attribute>
           </xsl:if>
           <xsl:choose>
-            <xsl:when test="$key != ''">
-              <xsl:value-of select="$key"/>
+            <xsl:when test="$key = ''">
+              <text>???</text>
+            </xsl:when>
+            <xsl:when test="$lieux[@xml:id = $key]/tei:name">
+              <xsl:value-of select="$lieux[@xml:id = $key]/tei:name"/>
+            </xsl:when>
+            <xsl:when test="$personnes[@xml:id = $key]/tei:name">
+              <xsl:value-of select="$personnes[@xml:id = $key]/tei:name"/>
+            </xsl:when>
+            <xsl:when test="$ana[@xml:id = $key]">
+              <xsl:value-of select="$ana[@xml:id = $key]"/>
+            </xsl:when>
+            <xsl:when test="$techniques[@xml:id = $key]">
+              <xsl:value-of select="$techniques[@xml:id = $key]"/>
             </xsl:when>
             <xsl:otherwise>
-              <text>???</text>
+              <xsl:text>[</xsl:text>
+              <i>
+                <xsl:value-of select="$key"/>
+              </i>
+              <xsl:text>]</xsl:text>
             </xsl:otherwise>
           </xsl:choose>
         </a>
@@ -190,7 +206,6 @@
       <xsl:apply-templates/>
     </aside>
   </xsl:template>
-  
   <xsl:template match="tei:pb" name="pb">
     <xsl:variable name="facs" select="@facs"/>
     <xsl:choose>
