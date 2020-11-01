@@ -315,7 +315,7 @@
   <person xml:id="charlot" sex="M"/>
   <person xml:id="charmacé"/>
   <person xml:id="charron_du_plessis" sex="F">
-    <name>Plessis Praslin, Colombe Le Charron, maréchale du </name>
+    <name>Plessis-Praslin, Colombe Le Charron, maréchale du </name>
     <birth when="1603"/>
     <death when="1681"/>
   </person>
@@ -651,7 +651,13 @@
   <person xml:id="jf_de_labaume" sex="M"/>
   <person xml:id="joannet" sex="M"/>
   <person xml:id="jolicoeur" sex="M"/>
-  <person xml:id="joseph_chabanceau_la_barre" sex="M"/>
+  <person xml:id="joseph_chabanceau_la_barre" sex="M">
+    <name>La Barre, Joseph Chabanceau de</name>
+    <birth when="1633"/>
+    <death when="1678"/>
+    <identifier type="databnf">https://data.bnf.fr/13896222/joseph_de_la_barre/</identifier>
+    <identifier type="isni">0000 0001 1810 0761</identifier>
+  </person>
   <person xml:id="joseph_langlois" sex="M"/>
   <person xml:id="joubert" sex="M">
     <name>Joubert (danseur)</name>
@@ -959,10 +965,15 @@
     <death when="1706"/>
   </person>
   <person xml:id="mlle_de_cologon" sex="F"/>
-  <person xml:id="mlle_de_la_barre" sex="F"/><!-- voir plus bas mlle_la_barre -->
+  <person xml:id="mlle_de_la_barre" sex="F">
+    <name>La Barre, Anne Chabanceau de</name>
+    <birth when="1628"/>
+    <death when="1688"/>
+    <identifier type="databnf">https://data.bnf.fr/fr/14842781/anne_de_la_barre/</identifier>
+    <identifier type="isni">0000 0003 6424 1551</identifier>
+  </person>
   <person xml:id="mlle_de_nemours" sex="F"/>
   <person xml:id="mlle_des_oeillets" sex="F"/>
-  <person xml:id="mlle_la_barre" sex="F"/>
   <person xml:id="mme_de_brancas" sex="F"/>
   <person xml:id="mme_de_crussol" sex="F"/>
   <person xml:id="mme_de_marse" sex="F"/>
@@ -976,9 +987,6 @@
       >https://fr.wikipedia.org/wiki/Madame_de_S%C3%A9vign%C3%A9</identifier>
     <identifier type="isni">0000 0001 2278 0157</identifier>
   </person>
-  <person xml:id="molier" sex="M">
-    <name>Molier (danseur)</name><!-- Molière? -->
-  </person>
   <person xml:id="moliere" sex="M">
     <name>Poquelin, Jean-Baptiste (dit Molière)</name>
     <birth when="1622"/>
@@ -987,7 +995,6 @@
     <identifier type="databnf">https://fr.wikipedia.org/wiki/Moli%C3%A8re</identifier>
     <identifier type="isni">0000 0001 2319 7131</identifier>
   </person>
-  <person xml:id="molliere" sex="M"/>
   <person xml:id="mongin" sex="M"/>
   <person xml:id="philippe_orleans" sex="M">
     <name>Orléans, Philippe (d’)</name>
