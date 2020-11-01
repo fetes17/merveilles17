@@ -112,7 +112,7 @@
     <identifier type="isni">0000 0000 9609 4902</identifier>
   </person>
   <person xml:id="arnald" sex="M">
-    <name>Arnald, danseur</name>
+    <name>Arnald (danseur)</name>
   </person>
   <person xml:id="arnauld" sex="M"/>
   <person xml:id="artagnan" sex="M">
@@ -144,8 +144,8 @@
   <person xml:id="basin_le_cadet" sex="M"/>
   <person xml:id="baslin" sex="M"/>
   <person xml:id="baudean_parabere_navailles" sex="F">
-    <name>Baudéan Parabère, Suzanne</name>
-    <birth when="1627"/>
+    <name>Navailles, Suzanne de Beaudéan de Neuillant de Parabère, duchesse de</name>
+    <birth when="1625*"/>
     <death when="1700"/>
   </person>
   <person xml:id="baudouin" sex="M"/>
@@ -160,8 +160,8 @@
   <person xml:id="beaulis" sex="M"/>
   <person xml:id="beaupre" sex="M"/>
   <person xml:id="beauvilliers_bethune" sex="F">
-    <name>Beauvilliers, Anne-Marie (de), comtesse de Béthune</name>
-    <birth when="1610"/>
+    <name>Béthune, Anne-Marie de Beauvilliers, comtesse de</name>
+    <birth when="1610*"/>
     <death when="1688"/>
   </person>
   <person xml:id="benedicte_henriette_palatinat" sex="F">
@@ -271,7 +271,7 @@
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Charles_III_d%27Elbeuf</identifier>
   </person>
   <person xml:id="charles_joseph_autriche" sex="M">
-    <name>Autrche, Charles Joseph (d’)</name>
+    <name>Autriche, Charles Joseph (d’)</name>
     <birth when="1649"/>
     <death when="1664"/>
     <identifier type="databnf">https://data.bnf.fr/fr/16297306/charles_joseph_autriche/</identifier>
@@ -313,16 +313,16 @@
   </person>
   <person xml:id="chasteau_neuf"/>
   <person xml:id="chatre_humieres" sex="F">
-    <name>Châtre de Nançay, Louise-Antoinette (de la), marquise d'Humières</name>
+    <name>Humières, Louise-Antoinette de la Châtre de Nançay, marquise d'</name>
     <birth when="1635*"/>
     <death when="1723"/>
   </person>
   <person xml:id="chaudron"/>
   <person xml:id="chicanneau" sex="M">
-    <name>Chicanneau, danseur</name>
+    <name>Chicanneau (danseur)</name>
   </person>
   <person xml:id="choiseul_etampes" sex="F">
-    <name>Choiseul, Catherine-Blanche (de), maréchale d'Etampes</name>
+    <name>Etampes, Catherine-Blanche de Choiseul, maréchale d'</name>
     <birth when="1590*"/>
     <death when="1673"/></person>
   <person xml:id="christophe_gaulard" sex="M">
@@ -374,12 +374,16 @@
   </person>
   <person xml:id="d_arrac" sex="M"/>
   <person xml:id="d_herouval" sex="M"/>
-  <person xml:id="d_heureux" sex="M"/>
+  <person xml:id="d_heureux" sex="M">
+    <name>D'Heureux (danseur)</name>
+  </person>
   <person xml:id="danucourt" sex="M"/>
   <person xml:id="dauphin" sex="M"/>
   <person xml:id="de_briare" sex="M"/>
   <person xml:id="de_forgues" sex="M"/>
-  <person xml:id="de_gan" sex="M"/>
+  <person xml:id="de_gan" sex="M">
+    <name>De Gan (danseur)</name>
+  </person>
   <person xml:id="de_launay" sex="M"/>
   <person xml:id="de_laynay" sex="M"/>
   <person xml:id="de_nier" sex="M"/>
@@ -387,25 +391,45 @@
   <person xml:id="denis_le_coursonnais" sex="M">
     <name>Le Coursonnais, Denis</name>
   </person>
-  <person xml:id="des_airs_fils1" sex="M"/>
-  <person xml:id="des_airs_fils2"/>
-  <person xml:id="des_airs_l_aine" sex="M"/>
-  <person xml:id="des_airs_le_second" sex="M"/>
+  <person xml:id="des_airs_fils1" sex="M">
+    <name>Des Airs, fils (danseur)</name>
+  </person>
+  <person xml:id="des_airs_fils2" sex="M">
+    <name>Des Airs, fils (danseur)</name>
+  </person>
+  <person xml:id="des_airs_l_aine" sex="M">
+    <name>Des Airs, l'aîné (danseur)</name>
+  </person>
+  <person xml:id="des_airs_le_second" sex="M">
+    <name>Des Airs, le second (danseur)</name>
+  </person>
   <person xml:id="des_matins" sex="M"/>
   <person xml:id="des_noyers" sex="M"/>
   <person xml:id="desbardins" sex="M"/>
-  <person xml:id="desbrosses" sex="M"/>
+  <person xml:id="desbrosses" sex="M">
+    <name>Desbrosses (danseur)</name>
+  </person>
   <person xml:id="descousteaux" sex="M"/>
   <person xml:id="descouteaux" sex="M"/>
   <person xml:id="desonets" sex="M"/>
-  <person xml:id="desonnets" sex="M"/>
+  <person xml:id="desonnets" sex="M">
+    <name>Desonnets (danseur)</name>
+  </person>
   <person xml:id="despaux" sex="M"/>
   <person xml:id="destouches" sex="M"/>
   <person xml:id="di_pille" sex="M"/>
   <person xml:id="di_pre" sex="M"/>
-  <person xml:id="diane_budos_rouvroy" sex="F"/>
+  <person xml:id="diane_budos_rouvroy" sex="F">
+    <name>Rouvroy, Diane-Henriette de Budos de Portes, de</name>
+    <birth when="1629"/>
+    <death when="1670"/>
+  </person>
   <person xml:id="dominique_brochet"/>
-  <person xml:id="du_croisy"/>
+  <person xml:id="du_croisy" sex="M">
+    <name>Du Croissy, Philibert Gassot</name>
+    <birth when="1626*"/>
+    <death when="1695"/>
+  </person>
   <person xml:id="du_manoir"/>
   <person xml:id="du_moustier"/>
   <person xml:id="du_pille_aine"/>
@@ -413,7 +437,9 @@
   <person xml:id="du_pin"/>
   <person xml:id="du_plessis"/>
   <person xml:id="du_pre"/>
-  <person xml:id="du_pron"/>
+  <person xml:id="du_pron" sex="M">
+    <name>Du Pron (danseur)</name>
+  </person>
   <person xml:id="durfort_de_lorge" sex="M">
     <name>Durfort de Lorge, Guy Aldonce (de)</name>
     <birth when="1630"/>
@@ -425,7 +451,7 @@
   </person>
   <person xml:id="elie"/>
   <person xml:id="elisabeth_orleans_alencon" sex="F">
-    <name>Orléans, Elisabeth Marguerite (d’)</name>
+    <name>Alençon, Elisabeth Marguerite d'Orléans de Guise, duchesse d'</name>
     <birth when="1646"/>
     <death when="1696"/>
     <identifier type="databnf"
@@ -438,7 +464,9 @@
   <person xml:id="estienne_lemoyne" sex="">
     <name>Lempyne, Etienne</name>
   </person>
-  <person xml:id="estival"/>
+  <person xml:id="estival">
+    <name>Estival (musicien)</name>
+  </person>
   <person xml:id="faure"/>
   <person xml:id="favier"/>
   <person xml:id="favigent"/>
@@ -617,15 +645,27 @@
   <person xml:id="jolicoeur" sex="M"/>
   <person xml:id="joseph_chabanceau_la_barre" sex="M"/>
   <person xml:id="joseph_langlois" sex="M"/>
-  <person xml:id="joubert" sex="M"/>
-  <person xml:id="julie_montausier" sex="F"/>
-  <person xml:id="jumel_menuisier" sex="M"/>
-  <person xml:id="jumel_sculpteur" sex="M"/>
+  <person xml:id="joubert" sex="M">
+    <name>Joubert (danseur)</name>
+  </person>
+  <person xml:id="julie_montausier" sex="F">
+    <name>Montausier, Julie d'Angennes de Rambouillet, duchesse de</name>
+    <birth when="1607"/>
+    <death when="1671"/>
+  </person>
+  <person xml:id="jumel_menuisier" sex="M">
+    <name>Jumel (menuisier)</name>
+  </person>
+  <person xml:id="jumel_sculpteur" sex="M">
+    <name>Jumel, Pierre* (sculpteur)</name>
+  </person>
   <person xml:id="l_azure" sex="M"/>
   <person xml:id="la_barre_cadet" sex="M"/>
   <person xml:id="la_boire" sex="M"/>
   <person xml:id="la_borde" sex="M"/>
-  <person xml:id="la_brodiere" sex="M"/>
+  <person xml:id="la_brodiere" sex="M">
+    <name>La Brodière (danseur)</name>
+  </person>
   <person xml:id="la_caisse" sex="M"/>
   <person xml:id="la_chapelle" sex="M"/>
   <person xml:id="la_couderelle" sex="M"/>
@@ -633,12 +673,22 @@
   <person xml:id="la_fleu" sex="M"/>
   <person xml:id="la_fleur" sex="M"/>
   <person xml:id="la_fontaine" sex="M"/>
-  <person xml:id="la_grange" sex="M"/>
+  <person xml:id="la_grange" sex="M">
+    <name>La Grange, Charles Varlet de</name>
+    <birth when="1635"/>
+    <death when="1692"/>
+    <identifier type="databnf">https://data.bnf.fr/fr/11910280/la_grange/</identifier>
+    <identifier type="isni">0000 0001 2188 1693</identifier>
+  </person>
   <person xml:id="la_jeunesse" sex="M"/>
   <person xml:id="la_liuere" sex="M"/>
   <person xml:id="la_marche" sex="M"/>
-  <person xml:id="la_marre" sex="M"/>
-  <person xml:id="la_pierre" sex="M"/>
+  <person xml:id="la_marre" sex="M">
+    <name>La Marre (danseur)</name>
+  </person>
+  <person xml:id="la_pierre" sex="M">
+    <name>La Pierre (danseur)</name>
+  </person>
   <person xml:id="la_place" sex="M"/>
   <person xml:id="la_plaine" sex="M"/>
   <person xml:id="la_riviere" sex="M"/>
@@ -652,13 +702,19 @@
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/La_Thorillière</identifier>
     <identifier type="isni">0000 0003 5809 3839</identifier>
   </person>
-  <person xml:id="la_troupe" sex="M"/>
+  <person xml:id="la_troupe" sex="M"/><!-- à supprimer ? -->
   <person xml:id="laloin" sex="M"/>
   <person xml:id="lambelot" sex="M"/>
   <person xml:id="langlois_l_aine" sex="M"/>
   <person xml:id="langlois_le_cadet" sex="M"/>
-  <person xml:id="lansac_crequi"/>
-  <person xml:id="le_chantre" sex="M"/>
+  <person xml:id="lansac_crequi" sex="F">
+    <name>Créquy, Anne-Armande de Saint Gelais de Lansac, duchesse de</name>
+    <birth when="1637"/>
+    <death when="1709"/>
+  </person>
+  <person xml:id="le_chantre" sex="M">
+    <name>Le Chantre (danseur)</name>
+  </person>
   <person xml:id="le_cocq" sex="M"/>
   <person xml:id="le_grais" sex="M"/>
   <person xml:id="le_gros" sex="M"/>
@@ -676,8 +732,16 @@
   <person xml:id="lienard" sex="M"/>
   <person xml:id="lionnois" sex="M"/>
   <person xml:id="loubie" sex="M"/>
-  <person xml:id="louis_bejart" sex="M"/>
-  <person xml:id="louis_crevant" sex="M"/>
+  <person xml:id="louis_bejart" sex="M">
+    <name>Béjart, Louis</name>
+    <birth when="1630"/>
+    <death when="1678"/>
+  </person>
+  <person xml:id="louis_crevant" sex="M">
+    <name>Humières, Louis de Crevant, marquis d'</name>
+    <birth when="1628"/>
+    <death when="1694"/>
+  </person>
   <person xml:id="louis_d_escre" sex="M"/>
   <person xml:id="louis_desore" sex="M"/>
   <person xml:id="louis_don" sex="M"/>
@@ -713,7 +777,7 @@
     <identifier type="isni">0000 0000 0210 1092</identifier>
   </person>
   <person xml:id="louise_la_valliere" sex="F">
-    <name>Vallière, Louise (de La)</name>
+    <name>La Vallière, Françoise Louise de La Baume Le Blanc, duchesse de </name>
     <birth when="1644"/>
     <death when="1710"/>
     <identifier type="databnf">https://data.bnf.fr/fr/12617240/louise_de_la_valliere/</identifier>
