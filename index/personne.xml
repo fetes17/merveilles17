@@ -203,8 +203,16 @@
   <person xml:id="blaise" sex="M"/>
   <person xml:id="blancas" sex="M"/>
   <person xml:id="bonacorsi" sex="M"/>
-  <person xml:id="bonard" sex="M"/>
-  <person xml:id="bontemps" sex="M"/>
+  <person xml:id="bonard" sex="M">
+    <name>Bonard (danseur)</name>
+  </person>
+  <person xml:id="bontemps" sex="M">
+    <name>Bontemps, Alexandre</name>
+    <birth when="1626"/>
+    <death when="1701"/>
+    <identifier type="databnf">https://data.bnf.fr/fr/16554658/alexandre_bontemps/</identifier>
+    <identifier type="isni">0000 0003 6660 9276</identifier>
+  </person>
   <person xml:id="boquebec" sex="M"/>
   <person xml:id="boulanger" sex="M"/>
   <person xml:id="bourru" sex="M"/>
@@ -536,7 +544,7 @@
   <person xml:id="gonualin" sex="M"/>
   <person xml:id="gourdon" sex="M"/>
   <person xml:id="gros_rene" sex="M">
-    <name>Berthelot Du Parc , René (dit Gros-René)</name>
+    <name>Berthelot Du Parc, René (dit Gros-René)</name>
     <birth when="1615"/>
     <death when="1664"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Du_Parc_(acteur)</identifier>
@@ -597,7 +605,7 @@
   <person xml:id="hericour" sex="M"/>
   <person xml:id="heuge" sex="M"/>
   <person xml:id="hilaire_dupuis" sex="F">
-    <name>Dupuis, Hilaire</name>
+    <name>Dupuis, Hilaire (dite Mademoiselle Hilaire)</name>
     <birth when="1625"/>
     <death when="1709"/>
     <identifier type="databnf">https://data.bnf.fr/fr/14842782/hilaire_dupuis/</identifier>
@@ -786,12 +794,12 @@
     <identifier type="isni">0000 0000 8140 9748</identifier>
   </person>
   <person xml:id="louise_rouxel_grancey" sex="F">
-    <name>Rouxel, Louise-Elisabeth (de)</name>
-    <birth when="1603"/>
-    <death when="1680"/>
+    <name>Médavy, Marie Louise de Rouxel de (dite Mademoiselle de Grancey)</name>
+    <birth when="1648"/>
+    <death when="1728"/>
   </person>
   <person xml:id="louise_savoie_bade" sex="F">
-    <name>Savoie-Carignan, Louise-Christine (de)</name>
+    <name>Savoie Carignan, Louise-Christine (de)</name>
     <birth when="1627"/>
     <death when="1689"/>
     <identifier type="databnf"
@@ -801,7 +809,7 @@
     <identifier type="isni">0000 0003 6055 8615</identifier>
   </person>
   <person xml:id="louisxiii" sex="M">
-    <name>Louis XIIII</name>
+    <name>Louis XIII</name>
     <birth when="1601"/>
     <death when="1643"/>
     <identifier type="databnf">https://data.bnf.fr/fr/11913462/louis_13/</identifier>
@@ -851,23 +859,58 @@
     <identifier type="isni">0000 0000 1000 7928</identifier>
   </person>
   <person xml:id="madeleine_charlotte_albert_ailly" sex="F"/>
-  <person xml:id="madeleine_du_gast_d_artigny" sex="F"/>
-  <person xml:id="madeleine_du_guast_d_artigny" sex="F"/>
-  <person xml:id="magny" sex="M"/>
+  <person xml:id="madeleine_du_guast_d_artigny" sex="F">
+    <name>Du Guast d'Artigny, Madeleine</name>
+  </person>
+  <person xml:id="magny" sex="M">
+    <name>Magny (danseur)</name>
+  </person>
   <person xml:id="magontier_garde_vaisselle" sex="M"/>
   <person xml:id="maheu" sex="M"/>
-  <person xml:id="maille_breze_conde" sex="F"/>
-  <person xml:id="manceau" sex="M"/>
-  <person xml:id="mancini_soissons" sex="F"/>
+  <person xml:id="maille_breze_conde" sex="F">
+    <name>Condé, Claire-Clémence de Maillé-Brézé, princesse de</name>
+    <birth when="1628"/>
+    <death when="1694"/>
+    <identifier type="databnf">https://data.bnf.fr/fr/13524417/claire-clemence_de_maille-breze_conde/</identifier>
+    <identifier type="isni">0000 0001 1875 6621</identifier>
+  </person>
+  <person xml:id="manceau" sex="M">
+    <name>Manceau (danseur)</name>
+  </person>
+  <person xml:id="mancini_soissons" sex="F">
+    <name>Soissons, Olympe Mancini, comtesse de</name>
+    <birth when="1638"/>
+    <death when="1708"/>
+  </person>
   <person xml:id="marchand" sex="M"/>
   <person xml:id="marche_coquet" sex="M"/>
-  <person xml:id="marguerite_cambout_armagnac" sex="F"/>
-  <person xml:id="marie_bauffremont_fleix" sex="F"/>
-  <person xml:id="marie_bourbon_carignan" sex="F"/>
+  <person xml:id="marguerite_cambout_armagnac" sex="F">
+    <name>Armagnac, Marguerite Philippe du Cambout de Coislin, comtesse d'Harcourt et d'</name>
+    <birth when="1624"/>
+    <death when="1674"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Marguerite-Philippe_du_Cambout</identifier>
+  </person>
+  <person xml:id="marie_bauffremont_fleix" sex="F">
+    <name>Fleix, Marie-Claire de Bauffremont, comtesse de</name>
+    <birth when="1618"/>
+    <death when="1680"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Marie-Claire_de_Fleix</identifier>
+  </person>
+  <person xml:id="marie_bourbon_carignan" sex="F">
+    <name>Savoie-Carignan, Marie de Bourbon, duchesse de</name>
+    <birth when="1606"/>
+    <death when="1692"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Marie_de_Bourbon_(1606-1692)</identifier>
+    <identifier type="isni">0000000359904349</identifier>
+  </person>
   <person xml:id="marie_brancas" sex="F"/>
   <person xml:id="marie_cosse_brissac" sex="F"/>
   <person xml:id="marie_jeanne_d_aumale" sex="F"/>
-  <person xml:id="marie_lorraine_elbeuf" sex="F"/>
+  <person xml:id="marie_lorraine_elbeuf" sex="F">
+    <name>Lorraine, Marie-Marguerite-Ignace de (dite Mademoiselle d'Elbeuf)</name>
+    <birth when="1628"/>
+    <death when="1679"/>
+  </person>
   <person xml:id="marie_louise_orleans" sex="F"/>
   <person xml:id="marie_nemours" sex="F">
     <name>Orléans-Longueville Nemours, Marie, (d’)</name>
@@ -879,7 +922,7 @@
     <identifier type="isni">0000 0000 8081 8398</identifier>
   </person>
   <person xml:id="marie_therese" sex="F">
-    <name>Marie-Thérèse</name>
+    <name>Marie-Thérèse d'Autriche</name>
     <birth when="1638"/>
     <death when="1683"/>
     <identifier type="databnf">https://data.bnf.fr/fr/12186343/marie-therese/</identifier>
@@ -887,7 +930,9 @@
       >https://fr.wikipedia.org/wiki/Marie-Thérèse_d'Autriche_(1638-1683)</identifier>
     <identifier type="isni">0000 0000 5076 0084</identifier>
   </person>
-  <person xml:id="marin_prevost" sex="M"/>
+  <person xml:id="marin_prevost" sex="M">
+    <name>Prévost, Marin (comédien)</name>
+  </person>
   <person xml:id="marquis_fourilles" sex="M"/>
   <person xml:id="martin_hottere" sex="M"/>
   <person xml:id="martineau" sex="M"/>
@@ -898,7 +943,9 @@
     <death when="1694"/>
   </person>
   <person xml:id="mazuel" sex="M"/>
-  <person xml:id="mercier" sex="M"/>
+  <person xml:id="mercier" sex="M">
+    <name>Mercier (danseur)</name>
+  </person>
   <person xml:id="mespas" sex="M"/>
   <person xml:id="mettayer" sex="M"/>
   <person xml:id="michel_chabenat_bonneuil" sex="M"/>
@@ -906,9 +953,13 @@
   <person xml:id="millet" sex="M"/>
   <person xml:id="mlle_d_ardennes" sex="F"/>
   <person xml:id="mlle_d_ennebault" sex="F"/>
-  <person xml:id="mlle_de_brie" sex="F"/>
+  <person xml:id="mlle_de_brie" sex="F">
+    <name>Leclerc du Rosé, Catherine (dite Mademoiselle de Brie)</name>
+    <birth when="1630"/>
+    <death when="1706"/>
+  </person>
   <person xml:id="mlle_de_cologon" sex="F"/>
-  <person xml:id="mlle_de_la_barre" sex="F"/>
+  <person xml:id="mlle_de_la_barre" sex="F"/><!-- voir plus bas mlle_la_barre -->
   <person xml:id="mlle_de_nemours" sex="F"/>
   <person xml:id="mlle_des_oeillets" sex="F"/>
   <person xml:id="mlle_la_barre" sex="F"/>
@@ -925,7 +976,9 @@
       >https://fr.wikipedia.org/wiki/Madame_de_S%C3%A9vign%C3%A9</identifier>
     <identifier type="isni">0000 0001 2278 0157</identifier>
   </person>
-  <person xml:id="molier" sex="M"/>
+  <person xml:id="molier" sex="M">
+    <name>Molier (danseur)</name><!-- Molière? -->
+  </person>
   <person xml:id="moliere" sex="M">
     <name>Poquelin, Jean-Baptiste (dit Molière)</name>
     <birth when="1622"/>
@@ -945,7 +998,7 @@
       >https://fr.wikipedia.org/wiki/Philippe_d'Orl%C3%A9ans_(1640-1701)</identifier>
     <identifier type="isni">0000 0001 1944 2608</identifier>
   </person>
-  <person xml:id="monstres"/>
+  <person xml:id="monstres"/><!-- à supprimer -->
   <person xml:id="mont_plaisirs" sex="M"/>
   <person xml:id="montigny" sex="M"/>
   <person xml:id="morsique" sex="M"/>
@@ -967,7 +1020,9 @@
   </person>
   <person xml:id="nicolas_serin" sex="M"/>
   <person xml:id="nobet" sex="M"/>
-  <person xml:id="noblet" sex="M"/>
+  <person xml:id="noblet" sex="M">
+    <name>Noblet (danseur)</name>
+  </person>
   <person xml:id="olympe_mancini_soissons" sex="F">
     <name>Mancini, Olympe</name>
     <birth when="1638"/>
@@ -1000,11 +1055,21 @@
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Paul_Scarron</identifier>
     <identifier type="isni">0000 0001 2099 0126</identifier>
   </person>
-  <person xml:id="paysan" sex="M"/>
+  <person xml:id="paysan" sex="M">
+    <name>Paysan (danseur)</name>
+  </person>
   <person xml:id="pelau" sex="M"/>
-  <person xml:id="perigny" sex="M"/>
+  <person xml:id="perigny" sex="M">
+    <name>Périgny, Octave</name>
+    <birth when="1625"/>
+    <death when="1670"/>
+    <identifier type="databnf">https://data.bnf.fr/fr/13195143/octave_de_perigny/</identifier>
+    <identifier type="isni">0000 0000 2347 3688</identifier>
+  </person>
   <person xml:id="pernaut" sex="M"/>
-  <person xml:id="pesan" sex="M"/>
+  <person xml:id="pesan" sex="M">
+    <name>Pesan (danseur)</name>
+  </person>
   <person xml:id="petit" sex="M"/>
   <person xml:id="philippe_quinault" sex="M">
     <name>Quinault, Philippe</name>
@@ -1022,7 +1087,9 @@
   <person xml:id="prevert" sex="M"/>
   <person xml:id="racine" sex="M"/>
   <person xml:id="rambure" sex="M"/>
-  <person xml:id="raynal" sex="M"/>
+  <person xml:id="raynal" sex="M">
+    <name>Raynal (danseur)</name>
+  </person>
   <person xml:id="raynald" sex="M"/>
   <person xml:id="renaudin" sex="M"/>
   <person xml:id="rhodes" sex="M"/>
@@ -1044,7 +1111,9 @@
       >https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Honorat_de_Beauvilliers</identifier>
     <identifier type="isni">0000 0001 1405 9925</identifier>
   </person>
-  <person xml:id="saint_andre" sex="M"/>
+  <person xml:id="saint_andre" sex="M">
+    <name>Saint-André (danseur)</name>
+  </person>
   <person xml:id="saint_fontaine_fils" sex="M"/>
   <person xml:id="saint_jean" sex="M"/>
   <person xml:id="saint_paul" sex="M"/>
@@ -1069,9 +1138,11 @@
     <identifier type="databnf">https://data.bnf.fr/fr/14959511/simon_chuppin/</identifier>
     <identifier type="isni">0000 0000 1013 1814</identifier>
   </person>
-  <person xml:id="souville" sex="M"/>
+  <person xml:id="souville" sex="M">
+    <name>De Souville (danseur)</name>
+  </person>
   <person xml:id="sudan" sex="M"/>
-  <person xml:id="suisses" sex="M"/>
+  <person xml:id="suisses" sex="M"/><!-- supprimer identification? -->
   <person xml:id="tartaille" sex="M"/>
   <person xml:id="tartas" sex="M"/>
   <person xml:id="therese_duparc" sex="F">
@@ -1086,10 +1157,18 @@
   <person xml:id="tours_quintener" sex="M"/>
   <person xml:id="trouvain" sex="M"/>
   <person xml:id="turbau" sex="M"/>
-  <person xml:id="tutin" sex="M"/>
-  <person xml:id="tutin_fils" sex="M"/>
-  <person xml:id="vagnard" sex="M"/>
-  <person xml:id="vagnard_fils" sex="M"/>
+  <person xml:id="tutin" sex="M">
+    <name>Tutin (danseur)</name>
+  </person>
+  <person xml:id="tutin_fils" sex="M">
+    <name>Tutin, fils (danseur)</name>
+  </person>
+  <person xml:id="vagnard" sex="M">
+    <name>Vagnard (danseur)</name>
+  </person>
+  <person xml:id="vagnard_fils" sex="M">
+    <name>Vagnard, fils (danseur)</name>
+  </person>
   <person xml:id="vandesure" sex="M"/>
   <person xml:id="varin" sex="M"/>
   <person xml:id="vendelle" sex="M"/>
