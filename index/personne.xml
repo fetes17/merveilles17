@@ -6,6 +6,10 @@
   <person xml:id="andre" sex="M"/>
   <person xml:id="andre_felibien" sex="M">
     <name>Félibien, André</name>
+    <birth when="1619"/>
+    <death when="1695"/>
+    <identifier type="databnf">https://data.bnf.fr/fr/11902499/andre_felibien/></identifier>
+    <identifier type="isni">0000 0001 2135 5570</identifier>
   </person>
   <person xml:id="andre_hubert" sex="M">
     <name>Hubert, André</name>
@@ -53,7 +57,8 @@
     <name>Aumont de Rochebaron, Antoine (d’)</name>
     <birth when="1601"/>
     <death when="1699"/>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Antoine_d%27Aumont_de_Rochebaron</identifier>
+    <identifier type="wikipedia"
+      >https://fr.wikipedia.org/wiki/Antoine_d%27Aumont_de_Rochebaron</identifier>
     <identifier type="databnf">https://data.bnf.fr/fr/14871496/antoine_aumont/</identifier>
     <identifier type="isni">0000 0000 7977 3129</identifier>
   </person>
@@ -85,8 +90,10 @@
     <name>La Porte La Meilleraye, Armand-Chalres (de)</name>
     <birth when="1632"/>
     <death when="1713"/>
-    <identifier type="databnf">https://data.bnf.fr/fr/14967535/armand_charles_de_la_porte_mazarin/</identifier>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Armand-Charles_de_La_Porte_de_La_Meilleraye</identifier>
+    <identifier type="databnf"
+      >https://data.bnf.fr/fr/14967535/armand_charles_de_la_porte_mazarin/</identifier>
+    <identifier type="wikipedia"
+      >https://fr.wikipedia.org/wiki/Armand-Charles_de_La_Porte_de_La_Meilleraye</identifier>
     <identifier type="isni">0000 0000 2862 5177</identifier>
   </person>
   <person xml:id="armand_du_cambout" sex="M">
@@ -104,13 +111,16 @@
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Armande_B%C3%A9jart</identifier>
     <identifier type="isni">0000 0000 9609 4902</identifier>
   </person>
-  <person xml:id="arnald" sex="M"/>
+  <person xml:id="arnald" sex="M">
+    <name>Arnald, danseur</name>
+  </person>
   <person xml:id="arnauld" sex="M"/>
   <person xml:id="artagnan" sex="M">
     <name>Batz de Castelmore d'Artagnan, Charles (de)</name>
     <birth notBefore="1611" notAfter="1615"/>
     <death when="1673"/>
-    <identifier type="databnf">https://data.bnf.fr/fr/12010360/charles_de_batz_de_castelmore_artagnan/</identifier>
+    <identifier type="databnf"
+      >https://data.bnf.fr/fr/12010360/charles_de_batz_de_castelmore_artagnan/</identifier>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/D%27Artagnan</identifier>
     <identifier type="isni">0000 0001 2132 3982</identifier>
   </person>
@@ -133,18 +143,33 @@
   <person xml:id="basin_l_aine" sex="M"/>
   <person xml:id="basin_le_cadet" sex="M"/>
   <person xml:id="baslin" sex="M"/>
-  <person xml:id="baudean_parabere_navailles" sex="F"/>
+  <person xml:id="baudean_parabere_navailles" sex="F">
+    <name>Baudéan Parabère, Suzanne</name>
+    <birth when="1627"/>
+    <death when="1700"/>
+  </person>
   <person xml:id="baudouin" sex="M"/>
-  <person xml:id="beauchamp" sex="M"/>
+  <person xml:id="beauchamp" sex="M">
+    <name>Beauchamps, Pierre</name>
+    <birth when="1631*"/>
+    <death when="1705"/>
+    <identifier type="databnf">https://data.bnf.fr/fr/13963818/pierre_beauchamps/></identifier>
+    <identifier type="isni">0000 0000 3324 7377></identifier>
+  </person>
   <person xml:id="beaulieu" sex="M"/>
   <person xml:id="beaulis" sex="M"/>
   <person xml:id="beaupre" sex="M"/>
-  <person xml:id="beauvilliers_bethune" sex="F"/>
+  <person xml:id="beauvilliers_bethune" sex="F">
+    <name>Beauvilliers, Anne-Marie (de), comtesse de Béthune</name>
+    <birth when="1610"/>
+    <death when="1688"/>
+  </person>
   <person xml:id="benedicte_henriette_palatinat" sex="F">
     <name>Wittelsbach, Bénédicte-Henriette (dite du Palatinat)</name>
     <birth when="1652"/>
     <death when="1730"/>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/B%C3%A9n%C3%A9dicte-Henriette_du_Palatinat</identifier>
+    <identifier type="wikipedia"
+      >https://fr.wikipedia.org/wiki/B%C3%A9n%C3%A9dicte-Henriette_du_Palatinat</identifier>
   </person>
   <person xml:id="benoist" sex="M"/>
   <person xml:id="benserades" sex="M">
@@ -158,7 +183,8 @@
     <name>Gigault de Bellefonds, Bernardin (de)</name>
     <birth when="1630"/>
     <death when="1694"/>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Bernardin_Gigault_de_Bellefonds</identifier>
+    <identifier type="wikipedia"
+      >https://fr.wikipedia.org/wiki/Bernardin_Gigault_de_Bellefonds</identifier>
   </person>
   <person xml:id="besson" sex="M"/>
   <person xml:id="bigot" sex="M">
@@ -206,8 +232,10 @@
     <name>Choiseul du Plessis-Praslin, César (de)</name>
     <birth when="1602"/>
     <death when="1675"/>
-    <identifier type="databnf">https://data.bnf.fr/fr/13612907/cesar_de_choiseul_du_plessis-praslin/</identifier>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/C%C3%A9sar_de_Choiseul_du_Plessis-Praslin</identifier>
+    <identifier type="databnf"
+      >https://data.bnf.fr/fr/13612907/cesar_de_choiseul_du_plessis-praslin/</identifier>
+    <identifier type="wikipedia"
+      >https://fr.wikipedia.org/wiki/C%C3%A9sar_de_Choiseul_du_Plessis-Praslin</identifier>
     <identifier type="isni">0000 0000 7985 0737</identifier>
   </person>
   <person xml:id="ceton" sex="M"/>
@@ -216,7 +244,8 @@
     <name>Albert d’Ailly, Charles (d’)</name>
     <birth when="1625"/>
     <death when="1698"/>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Charles_d%27Albert_d%27Ailly</identifier>
+    <identifier type="wikipedia"
+      >https://fr.wikipedia.org/wiki/Charles_d%27Albert_d%27Ailly</identifier>
   </person>
   <person xml:id="charles_chamois" sex="M">
     <name>Chamois, Charles</name>
@@ -230,7 +259,8 @@
     <name>La Porte La Meilleraye, Charles II (de)</name>
     <birth when="1602"/>
     <death when="1664"/>
-    <identifier type="databnf">https://data.bnf.fr/fr/11682171/charles_de_la_porte_la_meilleraye/</identifier>
+    <identifier type="databnf"
+      >https://data.bnf.fr/fr/11682171/charles_de_la_porte_la_meilleraye/</identifier>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Charles_de_La_Porte</identifier>
     <identifier type="isni">0000 0000 6281 2582</identifier>
   </person>
@@ -245,7 +275,8 @@
     <birth when="1649"/>
     <death when="1664"/>
     <identifier type="databnf">https://data.bnf.fr/fr/16297306/charles_joseph_autriche/</identifier>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Charles_Joseph_d%27Autriche_(1649-1664)</identifier>
+    <identifier type="wikipedia"
+      >https://fr.wikipedia.org/wiki/Charles_Joseph_d%27Autriche_(1649-1664)</identifier>
   </person>
   <person xml:id="charles_le_brun" sex="M">
     <name>Le Brun, Charles</name>
@@ -267,20 +298,33 @@
     <name>Sainte-Maure, Charles (de)</name>
     <birth when="1610"/>
     <death when="1690"/>
-    <identifier type="databnf">https://data.bnf.fr/fr/12214241/charles_de_sainte-maure_montausier/</identifier>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Charles_de_Sainte-Maure_(duc_de_Montausier)</identifier>
+    <identifier type="databnf"
+      >https://data.bnf.fr/fr/12214241/charles_de_sainte-maure_montausier/</identifier>
+    <identifier type="wikipedia"
+      >https://fr.wikipedia.org/wiki/Charles_de_Sainte-Maure_(duc_de_Montausier)</identifier>
     <identifier type="isni">0000 0001 1474 3217</identifier>
   </person>
   <person xml:id="charlot" sex="M"/>
   <person xml:id="charmacé"/>
   <person xml:id="charron_du_plessis" sex="F">
-    <name>Charron de Plessis, Colombe (de)</name> 1603* 1681 </person>
+    <name>Le Charron, Colombe, maréchale du Plessis-Praslin</name>
+    <birth when="1603"/>
+    <death when="1681"/>
+  </person>
   <person xml:id="chasteau_neuf"/>
-  <person xml:id="chatre_humieres"/>
+  <person xml:id="chatre_humieres" sex="F">
+    <name>Châtre de Nançay, Louise-Antoinette (de la), marquise d'Humières</name>
+    <birth when="1635*"/>
+    <death when="1723"/>
+  </person>
   <person xml:id="chaudron"/>
-  <person xml:id="chicanneau" sex="M"/>
+  <person xml:id="chicanneau" sex="M">
+    <name>Chicanneau, danseur</name>
+  </person>
   <person xml:id="choiseul_etampes" sex="F">
-    <name>Choiseul-Etampes, Catherine-Blanche (de)</name> 1590* 1673 </person>
+    <name>Choiseul, Catherine-Blanche (de), maréchale d'Etampes</name>
+    <birth when="1590*"/>
+    <death when="1673"/></person>
   <person xml:id="christophe_gaulard" sex="M">
     <name>Gaulard, Christophe</name>
   </person>
@@ -297,7 +341,8 @@
     <name>Belleforière, Charles Maximilien Antoine (de)</name>
     <birth when="1619*"/>
     <death when="1679"/>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Charles_Maximilien_de_Bellefori%C3%A8re</identifier>
+    <identifier type="wikipedia"
+      >https://fr.wikipedia.org/wiki/Charles_Maximilien_de_Bellefori%C3%A8re</identifier>
   </person>
   <person xml:id="colambert" sex="M"/>
   <person xml:id="colbert" sex="M">
@@ -374,7 +419,8 @@
     <birth when="1630"/>
     <death when="1702"/>
     <identifier type="databnf">https://data.bnf.fr/fr/14953624/guy_de_durfort_lorges/</identifier>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Guy_Aldonce_II_de_Durfort</identifier>
+    <identifier type="wikipedia"
+      >https://fr.wikipedia.org/wiki/Guy_Aldonce_II_de_Durfort</identifier>
     <identifier type="isni">0000 0003 6677 3260</identifier>
   </person>
   <person xml:id="elie"/>
@@ -382,8 +428,10 @@
     <name>Orléans, Elisabeth Marguerite (d’)</name>
     <birth when="1646"/>
     <death when="1696"/>
-    <identifier type="databnf">https://data.bnf.fr/fr/14976965/elisabeth_d_orleans_guise/</identifier>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Élisabeth-Marguerite_d'Orléans</identifier>
+    <identifier type="databnf"
+      >https://data.bnf.fr/fr/14976965/elisabeth_d_orleans_guise/</identifier>
+    <identifier type="wikipedia"
+      >https://fr.wikipedia.org/wiki/Élisabeth-Marguerite_d'Orléans</identifier>
     <identifier type="isni">0000 0004 5094 0914</identifier>
   </person>
   <person xml:id="escuyers"/>
@@ -425,22 +473,27 @@
     <name>Crespin du Bec de Vardes, François-René</name>
     <birth when="1621*"/>
     <death when="1688"/>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Fran%C3%A7ois-Ren%C3%A9_Crespin_du_Bec</identifier>
+    <identifier type="wikipedia"
+      >https://fr.wikipedia.org/wiki/Fran%C3%A7ois-Ren%C3%A9_Crespin_du_Bec</identifier>
   </person>
   <person xml:id="francois_vii_de_la_rochefoucauld" sex="M">
     <name>La Rochefoucauld, François VII (de)</name>
     <birth when="1634"/>
     <death when="1714"/>
-    <identifier type="databnf">https://data.bnf.fr/fr/11348007/francois_de_la_rochefoucauld/</identifier>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Fran%C3%A7ois_VII_de_La_Rochefoucauld</identifier>
+    <identifier type="databnf"
+      >https://data.bnf.fr/fr/11348007/francois_de_la_rochefoucauld/</identifier>
+    <identifier type="wikipedia"
+      >https://fr.wikipedia.org/wiki/Fran%C3%A7ois_VII_de_La_Rochefoucauld</identifier>
     <identifier type="isni">0000 0001 1949 9655</identifier>
   </person>
   <person xml:id="françoise_de_sevigne_grignan" sex="F">
     <name>Sévigné Grignan, Françoise Marguerite (de)</name>
     <birth when="1646"/>
     <death when="1705"/>
-    <identifier type="databnf">https://data.bnf.fr/fr/12002273/francoise-marguerite_de_sevigne_grignan/</identifier>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Fran%C3%A7oise_de_S%C3%A9vign%C3%A9</identifier>
+    <identifier type="databnf"
+      >https://data.bnf.fr/fr/12002273/francoise-marguerite_de_sevigne_grignan/</identifier>
+    <identifier type="wikipedia"
+      >https://fr.wikipedia.org/wiki/Fran%C3%A7oise_de_S%C3%A9vign%C3%A9</identifier>
     <identifier type="isni">0000 0001 0913 3924</identifier>
   </person>
   <person xml:id="gaspard_de_mouet" sex="M">
@@ -471,7 +524,8 @@
     <name>Cauchon de Maupas du Tour, Henri</name>
     <birth when="1604"/>
     <death when="1680"/>
-    <identifier type="databnf">https://data.bnf.fr/fr/16224631/henri_cauchon_de_maupas_du_tour/</identifier>
+    <identifier type="databnf"
+      >https://data.bnf.fr/fr/16224631/henri_cauchon_de_maupas_du_tour/</identifier>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Henri_Cauchon_de_Maupas</identifier>
     <identifier type="isni">0000 0004 3656 9995</identifier>
   </person>
@@ -479,7 +533,8 @@
     <name>Daillon du Lude, Henri (de)</name>
     <birth when="16.."/>
     <death when="1685"/>
-    <identifier type="databnf">https://data.bnf.fr/fr/14953629/henri_de_daillon_du_lude/</identifier>
+    <identifier type="databnf"
+      >https://data.bnf.fr/fr/14953629/henri_de_daillon_du_lude/</identifier>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Henry_de_Daillon</identifier>
     <identifier type="isni">0000 0004 0270 9566</identifier>
   </person>
@@ -487,21 +542,28 @@
     <name>Lorraine Armagnac, Henri (de)</name>
     <birth when="1601"/>
     <death when="1666"/>
-    <identifier type="databnf">https://data.bnf.fr/fr/14898246/henri_de_lorraine_harcourt/</identifier>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Henri_de_Lorraine-Harcourt</identifier>
+    <identifier type="databnf"
+      >https://data.bnf.fr/fr/14898246/henri_de_lorraine_harcourt/</identifier>
+    <identifier type="wikipedia"
+      >https://fr.wikipedia.org/wiki/Henri_de_Lorraine-Harcourt</identifier>
     <identifier type="isni">0000 0001 2101 0433</identifier>
   </person>
   <person xml:id="henri_ii_de_guise" sex="M">
     <name>Lorraine-Guise, Henri II (de)</name>
     <birth when="1614"/>
     <death when="1664"/>
-    <identifier type="wikipedia">https://data.bnf.fr/fr/12563871/henri_de_lorraine_guise/</identifier><identifier type="databnf">https://fr.wikipedia.org/wiki/Henri_II_de_Guise</identifier> 0000 0001 2131 180X </person>
+    <identifier type="wikipedia"
+      >https://data.bnf.fr/fr/12563871/henri_de_lorraine_guise/</identifier><identifier
+      type="databnf">https://fr.wikipedia.org/wiki/Henri_II_de_Guise</identifier> 0000 0001 2131
+    180X </person>
   <person xml:id="henriette_marie_de_france" sex="F">
     <name>France, Henriette Marie (de)</name>
     <birth when="1609"/>
     <death when="1669"/>
-    <identifier type="databnf">https://data.bnf.fr/fr/12255689/henriette-marie_de_france/</identifier>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Henriette-Marie_de_France</identifier>
+    <identifier type="databnf"
+      >https://data.bnf.fr/fr/12255689/henriette-marie_de_france/</identifier>
+    <identifier type="wikipedia"
+      >https://fr.wikipedia.org/wiki/Henriette-Marie_de_France</identifier>
     <identifier type="isni">0000 0004 4708 3018</identifier>
   </person>
   <person xml:id="hericour" sex="M"/>
@@ -517,7 +579,8 @@
     <birth when="1643"/>
     <death when="1709"/>
     <identifier type="databnf">https://data.bnf.fr/fr/11333983/henri_jules_de_bourbon/</identifier>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Henri-Jules_de_Bourbon-Cond%C3%A9</identifier>
+    <identifier type="wikipedia"
+      >https://fr.wikipedia.org/wiki/Henri-Jules_de_Bourbon-Cond%C3%A9</identifier>
     <identifier type="isni">0000 0001 1872 3301</identifier>
   </person>
   <person xml:id="homere" sex="M"/>
@@ -535,7 +598,8 @@
     <name>Foix-Candale, Jean-Baptiste Gaston (de)</name>
     <birth when="1638"/>
     <death when="1665"/>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Captal_de_Buch#Jean-Baptiste_Gaston_de_Foix-Candale</identifier>
+    <identifier type="wikipedia"
+      >https://fr.wikipedia.org/wiki/Captal_de_Buch#Jean-Baptiste_Gaston_de_Foix-Candale</identifier>
   </person>
   <person xml:id="jb_lully" sex="M"/>
   <person xml:id="jean_chapelain" sex="M"/>
@@ -622,7 +686,8 @@
     <birth when="1661"/>
     <death when="1711"/>
     <identifier type="databnf">https://data.bnf.fr/fr/12510194/louis/</identifier>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Louis_de_France_(1661-1711)</identifier>
+    <identifier type="wikipedia"
+      >https://fr.wikipedia.org/wiki/Louis_de_France_(1661-1711)</identifier>
     <identifier type="isni">0000 0000 7101 8321</identifier>
   </person>
   <person xml:id="louis_hottere" sex="M"/>
@@ -631,7 +696,8 @@
     <birth when="1621"/>
     <death when="1686"/>
     <identifier type="databnf">https://data.bnf.fr/fr/12350607/louis_de_bourbon_conde/</identifier>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Louis_II_de_Bourbon-Cond%C3%A9</identifier>
+    <identifier type="wikipedia"
+      >https://fr.wikipedia.org/wiki/Louis_II_de_Bourbon-Cond%C3%A9</identifier>
     <identifier type="isni">0000 0001 2120 9573</identifier>
   </person>
   <person xml:id="louis_lazure" sex="M"/>
@@ -640,8 +706,10 @@
     <name>Aumont de Rochebaron, Louis-Marie-Victor (d’)</name>
     <birth when="1632"/>
     <death when="1704"/>
-    <identifier type="databnf">https://data.bnf.fr/fr/15071916/louis-marie-victor_aumont/</identifier>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Louis-Marie-Victor_d'Aumont</identifier>
+    <identifier type="databnf"
+      >https://data.bnf.fr/fr/15071916/louis-marie-victor_aumont/</identifier>
+    <identifier type="wikipedia"
+      >https://fr.wikipedia.org/wiki/Louis-Marie-Victor_d'Aumont</identifier>
     <identifier type="isni">0000 0000 0210 1092</identifier>
   </person>
   <person xml:id="louise_la_valliere" sex="F">
@@ -649,7 +717,8 @@
     <birth when="1644"/>
     <death when="1710"/>
     <identifier type="databnf">https://data.bnf.fr/fr/12617240/louise_de_la_valliere/</identifier>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Louise_de_La_Valli%C3%A8re</identifier>
+    <identifier type="wikipedia"
+      >https://fr.wikipedia.org/wiki/Louise_de_La_Valli%C3%A8re</identifier>
     <identifier type="isni">0000 0000 8140 9748</identifier>
   </person>
   <person xml:id="louise_rouxel_grancey" sex="F">
@@ -661,8 +730,10 @@
     <name>Savoie-Carignan, Louise-Christine (de)</name>
     <birth when="1627"/>
     <death when="1689"/>
-    <identifier type="databnf">https://data.bnf.fr/fr/17800843/louise-christine_de_savoie-carignan/</identifier>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Louise-Christine_de_Savoie-Carignan</identifier>
+    <identifier type="databnf"
+      >https://data.bnf.fr/fr/17800843/louise-christine_de_savoie-carignan/</identifier>
+    <identifier type="wikipedia"
+      >https://fr.wikipedia.org/wiki/Louise-Christine_de_Savoie-Carignan</identifier>
     <identifier type="isni">0000 0003 6055 8615</identifier>
   </person>
   <person xml:id="louisxiii" sex="M">
@@ -693,7 +764,8 @@
     <name>Angleterre, Henriette-Anne (d’)</name>
     <birth when="1644"/>
     <death when="1670"/>
-    <identifier type="databnf">https://data.bnf.fr/fr/13322196/henriette-anne_d_angleterre/</identifier>
+    <identifier type="databnf"
+      >https://data.bnf.fr/fr/13322196/henriette-anne_d_angleterre/</identifier>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Henriette_d%27Angleterre</identifier>
     <identifier type="isni">0000 0000 8565 5583</identifier>
   </person>
@@ -701,7 +773,8 @@
     <name>Rochechouart de Montespan, Françoise Athnénaïs (de)</name>
     <birth when="1641"/>
     <death when="1707"/>
-    <identifier type="databnf">https://data.bnf.fr/fr/11987784/francoise_athenais_de_rochechouart_marquise_de_montespan/</identifier>
+    <identifier type="databnf"
+      >https://data.bnf.fr/fr/11987784/francoise_athenais_de_rochechouart_marquise_de_montespan/</identifier>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Madame_de_Montespan</identifier>
     <identifier type="isni">0000 0000 8086 1089</identifier>
   </person>
@@ -736,7 +809,8 @@
     <name>Orléans-Longueville Nemours, Marie, (d’)</name>
     <birth when="1625"/>
     <death when="1707"/>
-    <identifier type="databnf">https://data.bnf.fr/fr/12222796/marie_d_orleans-longueville_nemours/</identifier>
+    <identifier type="databnf"
+      >https://data.bnf.fr/fr/12222796/marie_d_orleans-longueville_nemours/</identifier>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Marie_de_Nemours</identifier>
     <identifier type="isni">0000 0000 8081 8398</identifier>
   </person>
@@ -745,7 +819,8 @@
     <birth when="1638"/>
     <death when="1683"/>
     <identifier type="databnf">https://data.bnf.fr/fr/12186343/marie-therese/</identifier>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Marie-Thérèse_d'Autriche_(1638-1683)</identifier>
+    <identifier type="wikipedia"
+      >https://fr.wikipedia.org/wiki/Marie-Thérèse_d'Autriche_(1638-1683)</identifier>
     <identifier type="isni">0000 0000 5076 0084</identifier>
   </person>
   <person xml:id="marin_prevost" sex="M"/>
@@ -780,8 +855,10 @@
     <name>Rabutin-Chantal Sévigné, Marie (de)</name>
     <birth when="1626"/>
     <death when="1696"/>
-    <identifier type="databnf">https://data.bnf.fr/fr/11924578/marie_de_rabutin-chantal_sevigne/</identifier>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Madame_de_S%C3%A9vign%C3%A9</identifier>
+    <identifier type="databnf"
+      >https://data.bnf.fr/fr/11924578/marie_de_rabutin-chantal_sevigne/</identifier>
+    <identifier type="wikipedia"
+      >https://fr.wikipedia.org/wiki/Madame_de_S%C3%A9vign%C3%A9</identifier>
     <identifier type="isni">0000 0001 2278 0157</identifier>
   </person>
   <person xml:id="molier" sex="M"/>
@@ -789,8 +866,10 @@
     <name>Poquelin, Jean-Baptiste (dit Molière)</name>
     <birth when="1622"/>
     <death when="1673"/>
-    <identifier type="wikipedia">https://data.bnf.fr/fr/11916418/moliere/</identifier><identifier type="databnf">https://fr.wikipedia.org/wiki/Moli%C3%A8re</identifier> 
-    <identifier type="isni">0000 0001 2319 7131</identifier> </person>
+    <identifier type="wikipedia">https://data.bnf.fr/fr/11916418/moliere/</identifier>
+    <identifier type="databnf">https://fr.wikipedia.org/wiki/Moli%C3%A8re</identifier>
+    <identifier type="isni">0000 0001 2319 7131</identifier>
+  </person>
   <person xml:id="molliere" sex="M"/>
   <person xml:id="mongin" sex="M"/>
   <person xml:id="philippe_orleans" sex="M">
@@ -798,7 +877,8 @@
     <birth when="1640"/>
     <death when="1701"/>
     <identifier type="databnf">https://data.bnf.fr/fr/11945197/philippe/</identifier>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Philippe_d'Orl%C3%A9ans_(1640-1701)</identifier>
+    <identifier type="wikipedia"
+      >https://fr.wikipedia.org/wiki/Philippe_d'Orl%C3%A9ans_(1640-1701)</identifier>
     <identifier type="isni">0000 0001 1944 2608</identifier>
   </person>
   <person xml:id="monstres"/>
@@ -817,7 +897,8 @@
     <name>Neufville de Villeroy, Nicolas V (de)</name>
     <birth when="1598"/>
     <death when="1685"/>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Nicolas_de_Neufville_de_Villeroy</identifier>
+    <identifier type="wikipedia"
+      >https://fr.wikipedia.org/wiki/Nicolas_de_Neufville_de_Villeroy</identifier>
     <identifier type="isni">0000 0001 2142 9517</identifier>
   </person>
   <person xml:id="nicolas_serin" sex="M"/>
@@ -841,8 +922,10 @@
     <name>Chantelou, Paul Fréart (de)</name>
     <birth when="1609"/>
     <death when="1694"/>
-    <identifier type="databnf">https://data.bnf.fr/fr/11896036/paul_freart_de_chantelou/</identifier>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Paul_Fr%C3%A9art_de_Chantelou</identifier>
+    <identifier type="databnf"
+      >https://data.bnf.fr/fr/11896036/paul_freart_de_chantelou/</identifier>
+    <identifier type="wikipedia"
+      >https://fr.wikipedia.org/wiki/Paul_Fr%C3%A9art_de_Chantelou</identifier>
     <identifier type="isni">0000 0001 0864 3113</identifier>
   </person>
   <person xml:id="paul_scarron" sex="M">
@@ -891,8 +974,10 @@
     <name>Beauvilliers Saint-Aignan, François-Honorat (de)</name>
     <birth when="1607"/>
     <death when="1687"/>
-    <identifier type="databnf">https://data.bnf.fr/fr/10735898/francois-honorat_de_beauvilliers_saint-aignan/</identifier>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Honorat_de_Beauvilliers</identifier>
+    <identifier type="databnf"
+      >https://data.bnf.fr/fr/10735898/francois-honorat_de_beauvilliers_saint-aignan/</identifier>
+    <identifier type="wikipedia"
+      >https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Honorat_de_Beauvilliers</identifier>
     <identifier type="isni">0000 0001 1405 9925</identifier>
   </person>
   <person xml:id="saint_andre" sex="M"/>
