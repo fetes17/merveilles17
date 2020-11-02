@@ -6,8 +6,9 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Pan et Diane avec leur suite</title>
-                <author>Chauveau, François</author>
+                <title>Première journée des Plaisirs de l'Ile enchantée. Pan et Diane avec leur
+                    suite</title>
+                <author key="chauveau">Chauveau, François</author>
             </titleStmt>
             <editionStmt>
                 <edition>Merveilles17</edition>
@@ -25,12 +26,14 @@
             </publicationStmt>
             <notesStmt>
                 <note>Ce dessin semble préparatoire à l'illustration du manuscrit de Bizincourt
-                        :<ref target="URI">BnF, Département des Manuscrits, Ms.
-                        7834</ref>.</note>
+                        :<ref target="../xml/merveilles17_ms_pie-bizincourt_001.xml">BnF,
+                        Département des Manuscrits, Ms. 7834</ref>.</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>François Chauveau, <title>Pan et Diane avec leur suite</title>,
-                    dessin, Paris, BNF, BMO, Esquisses anciennes, II, 34</bibl>
+                <bibl>François Chauveau, <title>Première journée des Plaisirs de l'Ile enchantée.
+                        Pan et Diane avec leur suite</title>, <note>Dessin à la plume, à l'encre
+                        brune et au lavis brun, 31,8 x 22 cm, Paris, BNF, BMO, Esquisses anciennes,
+                        II, 34</note></bibl>
                 <msDesc>
                     <msIdentifier>
                         <country>France</country>
@@ -75,8 +78,7 @@
                 nuage, un homme à l'allure de bouc tenant un sceptre et une femme avec un arc. En
                 arrière-plan, une longue allée bordée d'arbres débouche sur une montagne.<tech
                     type="costume"/>
-                <tech type="machine-volante"/><name key="pan"/><name key="diane"/><persName
-                    role="musicien"/></figDesc>
+                <tech type="machine_vol"/><name key="pan"/><name key="diane"/></figDesc>
         </figure>
     </sourceDoc>
 </TEI>
