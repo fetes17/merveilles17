@@ -1027,13 +1027,16 @@
     <birth when="1640"/>
     <death when="1701"/>
     <identifier type="databnf">https://data.bnf.fr/fr/11945197/philippe/</identifier>
-    <identifier type="wikipedia"
-      >https://fr.wikipedia.org/wiki/Philippe_d'Orl%C3%A9ans_(1640-1701)</identifier>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Philippe_d'Orl%C3%A9ans_(1640-1701)</identifier>
     <identifier type="isni">0000 0001 1944 2608</identifier>
   </person>
   <person xml:id="monstres"/><!-- à supprimer -->
   <person xml:id="mont_plaisirs" sex="M"/>
-  <person xml:id="montigny" sex="M"/>
+  <person xml:id="montigny" sex="M">
+    <name>Montigny, Louis-Henri Le Boulanger de</name>
+    <birth when="1623"/>
+    <death when="1706"/>
+  </person>
   <person xml:id="morsique" sex="M"/>
   <person xml:id="mortier" sex="M"/>
   <person xml:id="nicolas_hottere" sex="M">
