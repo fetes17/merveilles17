@@ -57,8 +57,7 @@
     <name>Aumont de Rochebaron, Antoine (d’)</name>
     <birth when="1601"/>
     <death when="1699"/>
-    <identifier type="wikipedia"
-      >https://fr.wikipedia.org/wiki/Antoine_d%27Aumont_de_Rochebaron</identifier>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Antoine_d%27Aumont_de_Rochebaron</identifier>
     <identifier type="databnf">https://data.bnf.fr/fr/14871496/antoine_aumont/</identifier>
     <identifier type="isni">0000 0000 7977 3129</identifier>
   </person>
@@ -77,6 +76,7 @@
   </person>
   <person xml:id="antoine_petit" sex="M">
     <name>Petit, Antoine</name>
+    <death when="1699"/>
   </person>
   <person xml:id="arioste" sex="F">
     <name>Ariosto, Ludovico</name>
@@ -661,7 +661,13 @@
   <person xml:id="jean_ruze_effiat" sex="M"/>
   <person xml:id="jemarie" sex="M"/>
   <person xml:id="jennesson" sex="M"/>
-  <person xml:id="jf_de_labaume" sex="M"/>
+  <person xml:id="jf_de_labaume" sex="M">
+    <name>La Vallière, Jean-François de La Baume Le Blanc, marquis de</name>
+    <birth when="1642"/>
+    <death when="1676"/>
+    <identifier type="databnf">https://data.bnf.fr/fr/17089697/jean-francois_de_la_baume_le_blanc_la_valliere/</identifier>
+    <identifier type="isni">0000 0004 5979 2671</identifier>
+  </person>
   <person xml:id="joannet" sex="M"/>
   <person xml:id="jolicoeur" sex="M"/>
   <person xml:id="joseph_chabanceau_la_barre" sex="M">
