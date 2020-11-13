@@ -2,7 +2,9 @@
 <?xml-model href="index.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listPerson xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <person xml:id="alais"/>
-  <person xml:id="amiot"/>
+  <person xml:id="amiot">
+    <name>Amiot, Pierre</name>
+  </person>
   <person xml:id="andre" sex="M"/>
   <person xml:id="andre_felibien" sex="M">
     <name>Félibien, André</name>
@@ -188,7 +190,7 @@
   </person>
   <person xml:id="besson" sex="M"/>
   <person xml:id="bigot" sex="M">
-    <name>Bigot, Jean</name>
+    <name>Bigot, Jean</name> <!-- Plutôt Bigot, Guillaume, si j'en crois l'état de la France -->
     <identifier type="databnf">https://data.bnf.fr/fr/16709261/jean_bigot/</identifier>
   </person>
   <person xml:id="bigot_fils" sex="M">
@@ -677,7 +679,9 @@
     <identifier type="databnf">https://data.bnf.fr/13896222/joseph_de_la_barre/</identifier>
     <identifier type="isni">0000 0001 1810 0761</identifier>
   </person>
-  <person xml:id="joseph_langlois" sex="M"/>
+  <person xml:id="joseph_langlois" sex="M"><!-- Pourquoi Joseph??? Balise à modifier -->
+    <name>Langlois, Paul Armand (maître d'hôtel de la maison du roi)</name>
+  </person>
   <person xml:id="joubert" sex="M">
     <name>Joubert (danseur)</name>
   </person>
@@ -915,7 +919,9 @@
     <death when="1708"/>
   </person>
   <person xml:id="marchand" sex="M"/>
-  <person xml:id="marche_coquet" sex="M"/>
+  <person xml:id="marche_coquet" sex="M"> <!-- attribut à modifier : ce sont deux personnes différentes : Jacques Coquet et son commis de la Marche -->
+  <name>Coquet, Jacques</name>
+  </person>
   <person xml:id="marguerite_cambout_armagnac" sex="F">
     <name>Armagnac, Marguerite Philippe du Cambout de Coislin, comtesse d'Harcourt et d'</name>
     <birth when="1624"/>
@@ -1038,7 +1044,9 @@
     <death when="1706"/>
   </person>
   <person xml:id="morsique" sex="M"/>
-  <person xml:id="mortier" sex="M"/>
+  <person xml:id="mortier" sex="M">
+    <name>Mortier, Charles</name>
+  </person>
   <person xml:id="nicolas_hottere" sex="M">
     <name>Hotteterre, Nicolas</name>
     <birth when="1637"/>
@@ -1068,9 +1076,15 @@
   <person xml:id="orleans"/>
   <person xml:id="paisible" sex="M"/>
   <person xml:id="palluau" sex="M"/>
-  <person xml:id="parfait_fils" sex="M"/>
-  <person xml:id="parfait_frere" sex="M"/>
-  <person xml:id="parfait_pere" sex="M"/>
+  <person xml:id="parfait_fils" sex="M">
+    <name>Parfait, fils d'Honoré</name>
+  </person>
+  <person xml:id="parfait_frere" sex="M">
+    <name>Parfait, François</name>
+  </person>
+  <person xml:id="parfait_pere" sex="M">
+    <name>Parfait, Honoré sieur de la Saussaye</name>
+  </person>
   <person xml:id="patriere" sex="M"/>
   <person xml:id="paul" sex="M"/>
   <person xml:id="paul_chantelou" sex="M">
@@ -1116,7 +1130,9 @@
     <identifier type="isni">0000 0001 2096 2483</identifier>
   </person>
   <person xml:id="pidou" sex="M"/>
-  <person xml:id="pierre_pernin_crenan" sex="M"/>
+  <person xml:id="pierre_pernin_crenan" sex="M">
+    Crenan, Pierre Perrien, marquis de (grand échanson de la maison du roi)
+  </person>
   <person xml:id="pierrot" sex="M"/>
   <person xml:id="piesche" sex="M"/>
   <person xml:id="pietro_strozzi" sex="M"/>
