@@ -1288,9 +1288,10 @@
     <name>De Souville (danseur)</name>
   </person>
   <person xml:id="sudan" sex="M"/>
-  <person xml:id="suisses" sex="M"/><!-- supprimer identification? -->
   <person xml:id="tartaille" sex="M"/>
-  <person xml:id="tartas" sex="M"/>
+  <person xml:id="tartas" sex="M">
+    <name>Tartas, Jean-Louis d'Oyhenart, dit de, danseur</name>
+  </person>
   <person xml:id="therese_duparc" sex="F">
     <name>Duparc, Marquise-Thérèse</name>
     <birth notBefore="1630" notAfter="1639"/>
@@ -1298,13 +1299,19 @@
     <identifier type="databnf">https://data.bnf.fr/fr/15103393/marquise-therese_duparc/</identifier>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Mademoiselle_Du_Parc</identifier>
   </person>
-  <person xml:id="tissin" sex="M"/>
+  <person xml:id="tissin" sex="M"/> <!-- Il s'agit de Claude Tissu : entrée à supprimer, attribut à corriger -->
   <person xml:id="tissu" sex="M">
     <name>Tissu, Claude, musicien</name>
   </person>
-  <person xml:id="tours_quintener" sex="M"/>
-  <person xml:id="trouvain" sex="M"/>
-  <person xml:id="turbau" sex="M"/>
+  <person xml:id="tours_quintener" sex="M">
+    <name>Tours-Quintener, officier de la bouche</name>
+  </person>
+  <person xml:id="trouvain" sex="M">
+    <name>Trouvain, charron</name>
+  </person>
+  <person xml:id="turbau" sex="M">
+    <name>Turbau, officier de la bouche</name>
+  </person>
   <person xml:id="tutin" sex="M">
     <name>Tutin (danseur)</name>
   </person>
@@ -1317,13 +1324,21 @@
   <person xml:id="vagnard_fils" sex="M">
     <name>Vagnard, fils (danseur)</name>
   </person>
-  <person xml:id="vandesure" sex="M"/>
+  <person xml:id="vandesure" sex="M">
+    <name>Vandeuvre, François de Mesgrigny, marquis de</name>
+  </person>
   <person xml:id="varin" sex="M">
     <name>Varin, Nicolas</name>
   </person>
-  <person xml:id="vendelle" sex="M"/>
-  <person xml:id="verdelet" sex="M"/>
-  <person xml:id="victor_herck" sex="M"/>
+  <person xml:id="vendelle" sex="M">
+    <name>Vendelle, officier du gobelet</name> <!-- Peut-être Louis Pasquier de Vendelle, à creuser -->
+  </person>
+  <person xml:id="verdelet" sex="M">
+    <name>Verdelet, valet de pied</name>
+  </person>
+  <person xml:id="victor_herck" sex="M">
+    <name>Herck, Victor, officier de la bouche</name>
+  </person>
   <person xml:id="vigarani" sex="M">
     <name>Vigarani, Carlo</name>
     <birth when="1637"/>
@@ -1331,6 +1346,7 @@
     <identifier type="databnf">https://data.bnf.fr/fr/search?term=carlo+vigarani</identifier>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Carlo_Vigarani</identifier>
     <identifier type="isni">0000 0001 1530 7492</identifier>
+    <identifier type="mg">vigarani_carlo_(1637-1713)</identifier>
   </person>
   <person xml:id="vincent_voiture" sex="M">
     <name>Voiture, Vincent</name>
@@ -1339,6 +1355,7 @@
     <identifier type="databnf">https://data.bnf.fr/fr/12393487/vincent_voiture/</identifier>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Vincent_Voiture</identifier>
     <identifier type="isni">0000 0001 1587 9407</identifier>
+    <identifier type="mg">voiture_vincent_(1597-1648)</identifier>
   </person>
   <person xml:id="charles_fontaine_martel" sex="M">
     <name>Fontaine-Martel, Charles de, comte de Cleres</name>
