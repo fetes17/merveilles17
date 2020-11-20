@@ -12,6 +12,7 @@
     <death when="1695"/>
     <identifier type="databnf">https://data.bnf.fr/fr/11902499/andre_felibien/></identifier>
     <identifier type="isni">0000 0001 2135 5570</identifier>
+    <identifier type="mg">felibien_andre_(1619-1695)</identifier>
   </person>
   <person xml:id="andre_hubert" sex="M">
     <name>Hubert, André</name>
@@ -19,6 +20,7 @@
     <death when="1700"/>
     <identifier type="databnf">https://data.bnf.fr/fr/15008433/andre_hubert/</identifier>
     <identifier type="isni">0000 0000 0219 4452</identifier>
+    <identifier type="mg">hubert_andre_(16-1700)</identifier>
   </person>
   <person xml:id="angelique_baudean_froulay" sex="F">
     <name>Baudéan Froulay, Angélique (de)</name>
@@ -35,6 +37,7 @@
     <death when="1723"/>
     <identifier type="databnf">https://data.bnf.fr/fr/14977515/anne_conde/</identifier>
     <identifier type="isni">0000 0001 2272 2491</identifier>
+    <identifier type="mg">conde_anne-henriette-julie_(1648-1723)_princesse_de</identifier>
   </person>
   <person xml:id="anne_d_autriche" sex="F">
     <name>Autriche, Anne (d’)</name>
@@ -42,6 +45,7 @@
     <death when="1666"/>
     <identifier type="databnf">https://data.bnf.fr/fr/11938498/anne_d_autriche/</identifier>
     <identifier type="isni">0000 0000 5536 0231</identifier>
+    <identifier type="mg">anne_dautriche_(1601-1666)_reine_de_france</identifier>
   </person>
   <person xml:id="anne_de_la_mothe_houdancourt" sex="F">
     <name>La Mothe-Hodancourt, Anne-Lucie (de)</name>
@@ -54,7 +58,9 @@
     <death when="1678"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Anne_de_Noailles</identifier>
   </person>
-  <person xml:id="antoine" sex="M"/>
+  <person xml:id="antoine" sex="M">
+    <name>Antoine, ouvrier</name>
+  </person>
   <person xml:id="antoine_d_aumont" sex="M">
     <name>Aumont de Rochebaron, Antoine (d’)</name>
     <birth when="1601"/>
@@ -72,6 +78,7 @@
     <death when="1678"/>
     <identifier type="databnf">https://data.bnf.fr/fr/13328457/antoine_de_gramont/</identifier>
     <identifier type="isni">0000 0001 2280 418X</identifier>
+    <identifier type="mg">gramont_antoine_iii_(1604-1678)_duc_de</identifier>
   </person>
   <person xml:id="antoine_moran" sex="M">
     <name>Moran, Antoine</name>
@@ -79,6 +86,7 @@
   <person xml:id="antoine_petit" sex="M">
     <name>Petit, Antoine</name>
     <death when="1699"/>
+    <identifier type="mg">petit_antoine_(-1699)</identifier>
   </person>
   <person xml:id="arioste" sex="F">
     <name>Ariosto, Ludovico</name>
@@ -87,9 +95,10 @@
     <identifier type="databnf">https://data.bnf.fr/fr/11889084/l__arioste/</identifier>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/L%27Arioste</identifier>
     <identifier type="isni">0000 0001 2138 5817</identifier>
+    <identifier type="mg">ariosto_lodovico_(1474-1533)_dit_larioste</identifier>
   </person>
   <person xml:id="armand_charles_de_la_porte_meilleraye" sex="M">
-    <name>La Porte La Meilleraye, Armand-Chalres (de)</name>
+    <name>Mazarin, Armand-Charles de La Porte La Meilleraye, duc de</name>
     <birth when="1632"/>
     <death when="1713"/>
     <identifier type="databnf"
@@ -97,13 +106,15 @@
     <identifier type="wikipedia"
       >https://fr.wikipedia.org/wiki/Armand-Charles_de_La_Porte_de_La_Meilleraye</identifier>
     <identifier type="isni">0000 0000 2862 5177</identifier>
+    <identifier type="mg">mazarin_armand-charles_de_la_porte_(1632-1713)_duc_de</identifier>
   </person>
   <person xml:id="armand_du_cambout" sex="M">
-    <name>Cambout, Armand (du)</name>
+    <name>Coislin, Armand du Cambout, duc de</name>
     <birth when="1635"/>
     <death when="1702"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Armand_du_Cambout</identifier>
     <identifier type="isni">0000 0000 2030 9583</identifier>
+    <identifier type="mg">coislin_armand_du_cambout_(1635-1702)_duc_de</identifier>
   </person>
   <person xml:id="armande_bejart" sex="F">
     <name>Béjart, Armande</name>
@@ -112,11 +123,14 @@
     <identifier type="databnf">https://data.bnf.fr/fr/13182923/armande_bejart/</identifier>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Armande_B%C3%A9jart</identifier>
     <identifier type="isni">0000 0000 9609 4902</identifier>
+    <identifier type="mg">bejart_armande-gresinde-claire-elisabeth_(1642-1700)</identifier>
   </person>
   <person xml:id="arnald" sex="M">
     <name>Arnald (danseur)</name>
   </person>
-  <person xml:id="arnauld" sex="M"/>
+  <person xml:id="arnauld" sex="M">
+    <name>Arnauld, petit valet de pied</name>
+  </person>
   <person xml:id="artagnan" sex="M">
     <name>Batz de Castelmore d'Artagnan, Charles (de)</name>
     <birth notBefore="1611" notAfter="1615"/>
@@ -126,8 +140,12 @@
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/D%27Artagnan</identifier>
     <identifier type="isni">0000 0001 2132 3982</identifier>
   </person>
-  <person xml:id="artus" sex="M"/>
-  <person xml:id="bailly" sex="M"/>
+  <person xml:id="artus" sex="M">
+    <name>Le Borgne, Jean Artus, violoniste et maître à danser des pages de la petite écurie</name>
+  </person>
+  <person xml:id="bailly" sex="M">
+    <name>Bailly, officier de la bouche</name>
+  </person>
   <person xml:id="ballard" sex="M">
     <name>Ballard, Robert III</name>
     <birth when="1610*"/>
@@ -137,9 +155,11 @@
     <identifier type="isni">0000 0003 6436 6936</identifier>
   </person>
   <person xml:id="balthazard_martinot" sex="M">
-    <name>Martinot, Balthazar</name>
+    <name>Balthazar, musicien</name> <!-- Balthazar Martinot est horloger du roi : il est peu probable que ce soit lui (et donc changer l'attribut). Par contre, le livret des Amours déguisés mentionne un musicien du nom de Balthazar. -->
   </person>
-  <person xml:id="balus"/>
+  <person xml:id="balus">
+    <name>Balus, violon</name>
+  </person>
   <person xml:id="barry"/>
   <person xml:id="bary"/>
   <person xml:id="basin_l_aine" sex="M"/>
