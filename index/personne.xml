@@ -160,23 +160,33 @@
   <person xml:id="balus">
     <name>Balus, violon</name>
   </person>
-  <person xml:id="barry"/>
-  <person xml:id="bary"/>
-  <person xml:id="basin_l_aine" sex="M"/>
-  <person xml:id="basin_le_cadet" sex="M"/>
-  <person xml:id="baslin" sex="M"/>
+  <person xml:id="barry">
+    <name>Barry, violon</name> <!-- voir Bardet 2016 -->
+  </person>
+  <person xml:id="bary"/> <!-- à fusionner avec le précédent -->
+  <person xml:id="basin_l_aine" sex="M">
+    <name>Basin, aîné, ouvrier</name>
+  </person>
+  <person xml:id="basin_le_cadet" sex="M">
+    <name>Basin, cadet, ouvrier</name>
+  </person>
+  <person xml:id="baslin" sex="M">
+    <name>Baslin, violon</name>
+  </person> 
   <person xml:id="baudean_parabere_navailles" sex="F">
-    <name>Navailles, Suzanne de Beaudéan de Neuillant de Parabère, duchesse de</name>
+    <name>Navailles, Suzanne de Baudéan de Neuillant de Parabère, duchesse de</name>
     <birth when="1625*"/>
     <death when="1700"/>
+    <identifier type="mg">navailles_suzanne_de_baudean_de_neuillant_de_parabere_(1625_ca-1700)_duchesse_de</identifier>
   </person>
   <person xml:id="baudouin" sex="M"/>
   <person xml:id="beauchamp" sex="M">
-    <name>Beauchamps, Pierre</name>
+    <name>Beauchamp, Pierre</name>
     <birth when="1631*"/>
     <death when="1705"/>
     <identifier type="databnf">https://data.bnf.fr/fr/13963818/pierre_beauchamps/></identifier>
     <identifier type="isni">0000 0000 3324 7377></identifier>
+    <identifier type="mg">beauchamp_pierre_(1631-1705)</identifier>
   </person>
   <person xml:id="beaulieu" sex="M"/>
   <person xml:id="beaulis" sex="M"/>
