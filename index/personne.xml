@@ -149,7 +149,7 @@
     <death>1668</death>
   </person>
   <person xml:id="bailly" sex="M">
-    <name>Bailly, officier de la bouche</name>
+    <name>Bailly, Suisse</name>
   </person>
   <person xml:id="ballard" sex="M">
     <name>Ballard, Robert III</name>
@@ -283,7 +283,7 @@
     <name>Bourru, officier du Gobelet</name>
   </person>
   <person xml:id="bresler" sex="M">
-    <name>Bresler, officier de la bouche</name>
+    <name>Bresler, Suisse</name>
   </person>
   <person xml:id="breuet" sex="M">
     <name>Breuet, officier du Gobelet</name>
@@ -321,7 +321,9 @@
   <person xml:id="camille" sex="M">
     <name>Camille, violon</name>
   </person>
-  <person xml:id="castel" sex="M"/>
+  <person xml:id="castel" sex="M">
+    <name>Catel, garde suisse</name>
+  </person>
   <person xml:id="celio_piccolomini" sex="M">
     <name>Piccolomini, Célio</name>
     <birth when="1609"/>
@@ -338,8 +340,12 @@
       >https://fr.wikipedia.org/wiki/C%C3%A9sar_de_Choiseul_du_Plessis-Praslin</identifier>
     <identifier type="isni">0000 0000 7985 0737</identifier>
   </person>
-  <person xml:id="ceton" sex="M"/>
-  <person xml:id="champagne" sex="M"/>
+  <person xml:id="ceton" sex="M">
+    <name>Ceton</name>
+  </person>
+  <person xml:id="champagne" sex="M">
+    <name>Champagne, trompette</name>
+  </person>
   <person xml:id="charles_albert_ailly" sex="M">
     <name>Chaulnes, Charles Albert d’Ailly, duc de</name>
     <birth when="1625"/>
@@ -366,10 +372,11 @@
     <identifier type="isni">0000 0000 6281 2582</identifier>
   </person>
   <person xml:id="charles_iii_lorraine_guise" sex="M">
-    <name>Lorraine-Guise, Charles III (de)</name>
+    <name>Lorraine-Guise, Charles-François III, duc de</name>
     <birth when="1620"/>
     <death when="1692"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Charles_III_d%27Elbeuf</identifier>
+    <identifier type="mg">orraine_charles-françois_iii_(1620-1692)_duc_de</identifier>
   </person>
   <person xml:id="charles_joseph_autriche" sex="M">
     <name>Autriche, Charles Joseph (d’)</name>
@@ -395,6 +402,7 @@
     <identifier type="databnf">https://data.bnf.fr/fr/11919216/charles_perrault/</identifier>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Charles_Perrault</identifier>
     <identifier type="isni">0000 0001 2127 2484</identifier>
+    <identifier type="mg">perrault_charles_(1628-1703)</identifier>
   </person>
   <person xml:id="charles_sainte-maure_montausier" sex="M">
     <name>Sainte-Maure, Charles de Montausier, marquis et duc de</name>
@@ -410,13 +418,19 @@
   <person xml:id="charlot" sex="M">
     <name>Charlot, Claude, violon du roi</name>
   </person>
-  <person xml:id="charmacé"/>
+  <person xml:id="charmacé">
+    <name>Charnacé, Jacques Philippe de Girard, marquis de</name>
+    <birth>1640</birth>
+    <death>1720</death>
+  </person>
   <person xml:id="charron_du_plessis" sex="F">
     <name>Plessis-Praslin, Colombe Le Charron, maréchale du </name>
     <birth when="1603"/>
     <death when="1681"/>
   </person>
-  <person xml:id="chasteau_neuf"/>
+  <person xml:id="chasteau_neuf">
+    <name>Chasteauneuf, petit valet de pied</name>
+  </person>
   <person xml:id="chatre_humieres" sex="F">
     <name>Humières, Louise-Antoinette de la Châtre de Nançay, marquise d'</name>
     <birth when="1635*"/>
@@ -443,7 +457,7 @@
     <name>Gaulard, Christophe, chef de la fruiterie du roi</name>
   </person>
   <person xml:id="claude_brochet" sex="M">
-    <name>Brochet, Claude, officier de la bouche</name>
+    <name>Brochet, Claude, Suisse</name>
   </person>
   <person xml:id="claude_le_gros" sex="M">
     <name>Le Gros, Claude</name>
