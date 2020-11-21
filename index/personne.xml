@@ -28,7 +28,9 @@
     <name>Baudéan Froulay, Angélique (de)</name>
     <death when="1678"/>
   </person>
-  <person xml:id="angerville"/>
+  <person xml:id="angerville">
+    <name>Angerville, page de la petite écurie</name>
+  </person>
   <person xml:id="anna_bergerotti" sex="F">
     <name>Bergerotti, Anna</name>
     <identifier type="databnf">https://data.bnf.fr/fr/14843385/anna_bergerotti/</identifier>
@@ -50,7 +52,7 @@
     <identifier type="mg">anne_dautriche_(1601-1666)_reine_de_france</identifier>
   </person>
   <person xml:id="anne_de_la_mothe_houdancourt" sex="F">
-    <name>La Mothe-Hodancourt, Anne-Lucie (de)</name>
+    <name>La Mothe-Houdancourt, Anne-Lucie (de)</name>
     <birth when="1592"/>
     <death when="1672"/>
   </person>
@@ -72,7 +74,7 @@
     <identifier type="isni">0000 0000 7977 3129</identifier>
   </person>
   <person xml:id="antoine_gonzalez" sex="M">
-    <name>Gonzalez, Antoine</name>
+    <name>Gonzalez, Antoine, artificier</name>
   </person>
   <person xml:id="antoine_iii_de_gramont" sex="M">
     <name>Gramont, Antoine III (de)</name>
@@ -83,7 +85,7 @@
     <identifier type="mg">gramont_antoine_iii_(1604-1678)_duc_de</identifier>
   </person>
   <person xml:id="antoine_moran" sex="M">
-    <name>Moran, Antoine</name>
+    <name>Moran, Antoine, officier de la bouche</name>
   </person>
   <person xml:id="antoine_petit" sex="M">
     <name>Petit, Antoine</name>
@@ -166,7 +168,6 @@
   <person xml:id="barry">
     <name>Barry, violon</name> <!-- voir Bardet 2016 -->
   </person>
-  <person xml:id="bary"/> <!-- à fusionner avec le précédent -->
   <person xml:id="basin_l_aine" sex="M">
     <name>Basin, aîné, ouvrier</name>
   </person>
@@ -297,17 +298,29 @@
     <name>Brouart, Vincent, violon</name>
   </person>
   <person xml:id="bruslard_basse" sex="M">
-    <name>Bruslard, Louis ou Jacques, violon du roi</name>
+    <name>Bruslard, Louis ou Jacques, violon du roi</name> <!-- à distinguer du suivant -->
   </person>
   <person xml:id="bruslard_dessus" sex="M">
     <name>Bruslard, Louis ou Jacques, violon du roi</name>
   </person>
-  <person xml:id="bruslevert" sex="M"/>
-  <person xml:id="bureau" sex="M"/>
-  <person xml:id="butin" sex="M"/>
-  <person xml:id="caliavet" sex="M"/>
-  <person xml:id="cambrou" sex="M"/>
-  <person xml:id="camille" sex="M"/>
+  <person xml:id="bruslevert" sex="M">
+    <name>Bruslevert, page de la petite écurie</name>
+  </person>
+  <person xml:id="bureau" sex="M">
+    <name>Bureau, danseur</name>
+  </person>
+  <person xml:id="butin" sex="M">
+    <name>Butin, petit valet de pied</name>
+  </person>
+  <person xml:id="caliavet" sex="M">
+    <name>Caliavet, page de la petite écurie</name>
+  </person>
+  <person xml:id="cambrou" sex="M">
+    <name>Combrou</name>
+  </person>
+  <person xml:id="camille" sex="M">
+    <name>Camille, violon</name>
+  </person>
   <person xml:id="castel" sex="M"/>
   <person xml:id="celio_piccolomini" sex="M">
     <name>Piccolomini, Célio</name>
@@ -427,17 +440,19 @@
     <birth when="1590*"/>
     <death when="1673"/></person>
   <person xml:id="christophe_gaulard" sex="M">
-    <name>Gaulard, Christophe</name>
+    <name>Gaulard, Christophe, chef de la fruiterie du roi</name>
   </person>
   <person xml:id="claude_brochet" sex="M">
-    <name>Brochet, Claude</name>
+    <name>Brochet, Claude, officier de la bouche</name>
   </person>
   <person xml:id="claude_le_gros" sex="M">
     <name>Le Gros, Claude</name>
     <death when="1695*"/>
     <identifier type="databnf">https://data.bnf.fr/fr/14842780/claude_le_gros/</identifier>
   </person>
-  <person xml:id="cleiret" sex="M"/>
+  <person xml:id="cleiret" sex="M">
+    <name>Cleiret, officier du gobelet</name>
+  </person>
   <person xml:id="cm_de_belleforiere" sex="M">
     <name>Belleforière, Charles Maximilien Antoine (de)</name>
     <birth when="1619*"/>
