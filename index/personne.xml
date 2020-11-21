@@ -435,6 +435,7 @@
     <name>Humières, Louise-Antoinette de la Châtre de Nançay, marquise d'</name>
     <birth when="1635*"/>
     <death when="1723"/>
+    <identifier type="mg">humieres_antoinette_de_la_châtre_(1635-1723)_marechale_d</identifier>
   </person>
   <person xml:id="chaudron">
     <name>Chaudron, Guillaume, violon du roi</name>
@@ -445,14 +446,16 @@
     <death when="1676"/>
     <identifier type="databnf">https://data.bnf.fr/fr/12197733/francois_chauveau/</identifier>
     <identifier type="isni">0000 0001 2117 9570</identifier>
+    <identifier type="mg">chauveau_françois_(1613-1676)</identifier>
   </person>
     <person xml:id="chicanneau" sex="M">
-    <name>Chicanneau (danseur)</name>
+    <name>Chicanneau, danseur</name>
   </person>
   <person xml:id="choiseul_etampes" sex="F">
     <name>Etampes, Catherine-Blanche de Choiseul, maréchale d'</name>
     <birth when="1590*"/>
-    <death when="1673"/></person>
+    <death when="1673"/>
+  </person>
   <person xml:id="christophe_gaulard" sex="M">
     <name>Gaulard, Christophe, chef de la fruiterie du roi</name>
   </person>
@@ -474,7 +477,9 @@
     <identifier type="wikipedia"
       >https://fr.wikipedia.org/wiki/Charles_Maximilien_de_Bellefori%C3%A8re</identifier>
   </person>
-  <person xml:id="colambert" sex="M"/>
+  <person xml:id="colambert" sex="M">
+    <name>Colambert, page de la petite écurie</name>
+  </person>
   <person xml:id="colbert" sex="M">
     <name>Colbert, Jean-Baptiste</name>
     <birth when="1619"/>
@@ -482,8 +487,11 @@
     <identifier type="databnf">https://data.bnf.fr/fr/12428884/jean-baptiste_colbert/</identifier>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jean-Baptiste_Colbert</identifier>
     <identifier type="isni">0000 0000 8077 4620</identifier>
+    <identifier type="mg">colbert_jean-baptiste_(1619-1683)</identifier>
   </person>
-  <person xml:id="contaut" sex="M"/>
+  <person xml:id="contaut" sex="M">
+    <name>Contaut, grand valet de pied</name>
+  </person>
   <person xml:id="corneille" sex="M">
     <name>Corneille, Pierre</name>
     <birth when="1606"/>
@@ -491,9 +499,14 @@
     <identifier type="databnf">https://data.bnf.fr/fr/11897704/pierre_corneille/</identifier>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Pierre_Corneille</identifier>
     <identifier type="isni">0000 0001 2129 6128</identifier>
+    <identifier type="mg">corneille_pierre_(1606-1684)</identifier>
   </person>
-  <person xml:id="courtille" sex="M"/>
-  <person xml:id="coyrin" sex="M"/>
+  <person xml:id="courtille" sex="M">
+    <name>Courtille, petit valet de pied</name>
+  </person>
+  <person xml:id="coyrin" sex="M">
+    <name>Coyrin, officier du gobelet</name>
+  </person>
   <person xml:id="d_anglebert" sex="M">
     <name>Anglebert, Jean-Henri (d’)</name>
     <birth when="1628"/>
@@ -501,13 +514,20 @@
     <identifier type="databnf">https://data.bnf.fr/fr/13890800/jean-henri_d__anglebert/</identifier>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jean-Henri_d'Anglebert</identifier>
     <identifier type="isni">0000 0001 1449 9461</identifier>
+    <identifier type="mg">anglebert_jean-henry_d_(1629-1691)</identifier>
   </person>
-  <person xml:id="d_arrac" sex="M"/>
-  <person xml:id="d_herouval" sex="M"/>
+  <person xml:id="d_arrac" sex="M">
+    <name>Arrac</name>
+  </person>
+  <person xml:id="d_herouval" sex="M">
+    <name>Herouval, page de la petite ecurie</name>
+  </person>
   <person xml:id="d_heureux" sex="M">
-    <name>D'Heureux (danseur)</name>
+    <name>D'Heureux, danseur</name>
   </person>
-  <person xml:id="danucourt" sex="M"/>
+  <person xml:id="danucourt" sex="M">
+    <name>Danucourt, page de la petite écurie</name>
+  </person>
   <person xml:id="dauphin" sex="M"/>
   <person xml:id="de_briare" sex="M"/>
   <person xml:id="de_forgues" sex="M"/>
@@ -522,7 +542,7 @@
     <name>Le Coursonnais, Denis</name>
   </person>
   <person xml:id="des_airs_fils1" sex="M">
-    <name>Des Airs, fils (danseur)</name>
+    <name>Des Airs ou Desairs ou Desert, Fleurand Galland, dit le jeune ou le cadet, danseur</name>
   </person>
   <person xml:id="des_airs_fils2" sex="M">
     <name>Des Airs, fils (danseur)</name>
