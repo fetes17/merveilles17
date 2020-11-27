@@ -462,11 +462,6 @@
   <person xml:id="claude_brochet" sex="M">
     <name>Brochet, Claude, Suisse</name>
   </person>
-  <person xml:id="claude_le_gros" sex="M">
-    <name>Le Gros, Claude</name>
-    <death when="1695*"/>
-    <identifier type="databnf">https://data.bnf.fr/fr/14842780/claude_le_gros/</identifier>
-  </person>
   <person xml:id="cleiret" sex="M">
     <name>Cleiret, officier du gobelet</name>
   </person>
@@ -508,7 +503,7 @@
     <name>Coyrin, officier du gobelet</name>
   </person>
   <person xml:id="d_anglebert" sex="M">
-    <name>Anglebert, Jean-Henri (d’)</name>
+    <name>Anglebert, Jean-Henri d’, clavecin</name>
     <birth when="1628"/>
     <death when="1691"/>
     <identifier type="databnf">https://data.bnf.fr/fr/13890800/jean-henri_d__anglebert/</identifier>
@@ -577,9 +572,6 @@
   <person xml:id="destouches" sex="M">
     <name>Destouches, musicien</name>
   </person>
-  <person xml:id="di_pille" sex="M">
-    <name>De Pille, officier du gobelet</name>
-  </person>
   <person xml:id="di_pre" sex="M">
     <name>Du Pré, Grand valet de pied</name>
   </person>
@@ -597,29 +589,48 @@
     <death when="1695"/>
   </person>
   <person xml:id="du_manoir">
-    <name>Du Manoir, Guillaume</name>
+    <name>Dumanoir, Guillaume, violon</name>
+    <birth when="1615"/>
+    <death when="1697"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Guillaume_Dumanoir</identifier>
+    <identifier type="isni">0000 0000 8378 0073</identifier>
+    <identifier type="databnf">https://data.bnf.fr/ark:/12148/cb140133532</identifier>
   </person>
-  <person xml:id="du_moustier"/>
-  <person xml:id="du_pille_aine"/>
-  <person xml:id="du_pille_cadet"/>
+  <person xml:id="du_moustier">
+    <name>Dumoustier, officier de la bouche</name>
+  </person>
+  <person xml:id="du_pille_aine">
+    <name>Du Pille (aîné), officier du gobelet</name>
+  </person>
+  <person xml:id="du_pille_cadet">
+    <name>Du Pille (cadet), officier de la bouche</name>
+  </person>
   <person xml:id="du_pin">
-    <name>Du Pin, Moïse ou Pierre</name>
+    <name>Du Pin, Moïse ou Pierre, violon</name>
   </person>
-  <person xml:id="du_plessis"/>
-  <person xml:id="du_pre"/>
+  <person xml:id="du_plessis">
+    <name>Duplessis, page de la petite écurie </name>
+    <!-- Pierre Duvernet sieur Duplessis semble trop âgé à cette date pour être page. Il faudrait vérifier si cela peut être un de ses fils -->
+  </person>
+  <person xml:id="du_pre">
+    <name>Dupré, trompette</name>
+  </person>
   <person xml:id="du_pron" sex="M">
-    <name>Du Pron (danseur)</name>
+    <name>Dupron, David, danseur</name>
   </person>
   <person xml:id="durfort_de_lorge" sex="M">
-    <name>Durfort de Lorge, Guy Aldonce (de)</name>
+    <name>Lorges, Guy Aldonce II de Durfort, maréchal de</name>
     <birth when="1630"/>
     <death when="1702"/>
     <identifier type="databnf">https://data.bnf.fr/fr/14953624/guy_de_durfort_lorges/</identifier>
     <identifier type="wikipedia"
       >https://fr.wikipedia.org/wiki/Guy_Aldonce_II_de_Durfort</identifier>
     <identifier type="isni">0000 0003 6677 3260</identifier>
+    <identifier type="mg">lorges_guy-aldonce_ii_de_durfort_(1630-1702)_marechal_de</identifier>
   </person>
-  <person xml:id="elie"/>
+  <person xml:id="elie">
+    <name>Elie, garde suisse</name>
+  </person>
   <person xml:id="elisabeth_orleans_alencon" sex="F">
     <name>Alençon, Elisabeth Marguerite d'Orléans de Guise, duchesse d'</name>
     <birth when="1646"/>
@@ -629,20 +640,37 @@
     <identifier type="wikipedia"
       >https://fr.wikipedia.org/wiki/Élisabeth-Marguerite_d'Orléans</identifier>
     <identifier type="isni">0000 0004 5094 0914</identifier>
-  </person>
-  <person xml:id="estienne_lemoyne" sex="">
-    <name>Lemoyne, Etienne</name>
+    <identifier type="mg">guise_elisabeth-marguerite_dorleans_(1646-1696)_mme_de</identifier>
   </person>
   <person xml:id="estival">
-    <name>Estival (musicien)</name>
+    <name>Estival, Guillaume d', chanteur (basse)</name>
+    <death when="1678"/>
+    <identifier type="databnf">https://data.bnf.fr/ark:/12148/cb14842777x</identifier>
+    <identifier type="isni">0000 0000 0352 8274</identifier>
   </person>
-  <person xml:id="faure"/>
+  <person xml:id="faure">
+    <name>Faure, garde suisse</name>
+  </person>
   <person xml:id="favier">
     <name>Favier, Jacques, violon</name>
+    <birth when="1605*"/>
+    <death when="1691"/>
   </person>
-  <person xml:id="favigent"/>
-  <person xml:id="felipeiii"/>
-  <person xml:id="feugre"/>
+  <person xml:id="favigent">
+    <name>Favigent, page de la petite écurie</name>
+  </person>
+  <person xml:id="felipeiii">
+    <name>Philippe III, roi d'Espagne</name>
+    <birth when="1598"/>
+    <death when="1621"/>
+    <identifier type="databnf">https://data.bnf.fr/ark:/12148/cb12240811g</identifier>
+    <identifier type="isni">0000 0001 2282 763X</identifier>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Philippe_III_(roi_d%27Espagne)</identifier>
+    <identifier type="mg">philippe_iii_(1578-1621)_roi_despagne</identifier>
+  </person>
+  <person xml:id="feugre">
+    <name>Feugré, Jacques, violon</name>
+  </person>
   <person xml:id="flavio_chigi" sex="M">
     <name>Chigi, Flavio</name>
     <birth when="1631"/>
@@ -651,20 +679,56 @@
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Flavio_Chigi_(1631-1693)</identifier>
     <identifier type="isni">0000 0000 6634 8772</identifier>
   </person>
-  <person xml:id="floridor"/>
+  <person xml:id="floridor">
+    <name>Floridor, Josias de Soulas de Primefosse, dit</name>
+    <birth when="1608"/>
+    <death when="1671"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Floridor</identifier>
+    <identifier type="isni">0000 0003 5599 2337</identifier>
+    <identifier type="databnf">https://data.bnf.fr/ark:/12148/cb143036567</identifier>
+  </person>
   <person xml:id="florimond_ier_brulart" sex="M">
-    <name>Brulart de Genlis, Florimond Ier </name>
+    <name>Genlis, Florimond Ier Brulart, marquis de</name> <!-- Portrait gravé de 1663: https://www.britishmuseum.org/collection/object/P_1875-0313-68 -->
     <birth when="1602*"/>
     <death when="1685"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Famille_Br%C3%BBlart</identifier>
   </person>
-  <person xml:id="fontenelle"/>
-  <person xml:id="francisque"/>
-  <person xml:id="francois_blondel" sex="M">
-    <name>Blondel, François</name>
+  <person xml:id="fontenelle">
+    <name>Fontenelle, officier du gobelet (peut-être Claude Ursin sieur de Fontenelle)</name> <!-- Chef d'échansonnerie bouche en 1676 -->
   </person>
-  <person xml:id="francois_hannibal_ii_estrees" sex="M"/>
-  <person xml:id="francois_malherbe" sex="M"/>
+  <person xml:id="francisque">
+    <name>Francisque, officier du gobelet</name>
+  </person>
+  <person xml:id="francois_blondel" sex="M"> <!-- Il s'agit d'après la BNF de Simon Blondel: attribut à revoir -->
+    <name>Blondel, Simon, chanteur de la Chapelle de Louis XIV</name>
+    <death when="1672"/>
+    <identifier type="databnf">https://data.bnf.fr/ark:/12148/cb14842795v</identifier>
+  </person>
+  <person xml:id="francois_hannibal_ii_estrees" sex="M">
+    <name>Estrées, François Hannibal de Coeuvres, duc et maréchal d'</name>
+    <birth when="1573"/>
+    <death when="1670"/>
+    <identifier type="isni">0000 0000 8339 6995</identifier>
+    <identifier type="databnf">https://data.bnf.fr/fr/13486177/francois_annibal_estrees/</identifier>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/François-Annibal_d%27Estrées</identifier>
+  </person> <!-- Attribut à corriger: il s'agit de François Hannibal I + attention, confusion avec le comte -->
+  <person xml:id="estrees_jean">
+    <name>Estrées, Jean d'</name>
+    <birth when="1624"/>
+    <death when="1707"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jean_II_d%27Estrées</identifier>
+    <identifier type="isni">0000 0000 7989 0333</identifier>
+    <identifier type="mg">estrees_jean_ii_(1624-1707)_marechal_d</identifier>
+  </person>
+  <person xml:id="francois_malherbe" sex="M">
+    <name>Malherbe, François de</name>
+    <birth when="1555"/>
+    <death when="1628"/>
+    <identifier type="mg">malherbe_françois_(1555-1628)</identifier>
+    <identifier type="isni">0000000110606733</identifier>
+    <identifier type="databnf">https://data.bnf.fr/ark:/12148/cb12327103c</identifier>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/François_de_Malherbe</identifier>
+  </person>
   <person xml:id="francois_moussu" sex="M">
     <name>Moussu, François</name>
   </person>
@@ -810,7 +874,6 @@
   <person xml:id="jean_chapelain" sex="M"/>
   <person xml:id="jean_de_flandres" sex="M"/>
   <person xml:id="jean_guignard_fils" sex="M"/>
-  <person xml:id="jean_henri_d_anglebert" sex="M"/>
   <person xml:id="jean_hottere" sex="M"/>
   <person xml:id="jean_magontier" sex="M"/>
   <person xml:id="jean_moran" sex="M"/>
@@ -852,7 +915,7 @@
   </person>
   <person xml:id="l_azure" sex="M"/>
   <person xml:id="la_barre_cadet" sex="M">
-    La Barre, Pierre Chabanceau de, musicien
+    <name>La Barre, Pierre Chabanceau de, luth</name>
   </person>
   <person xml:id="la_boire" sex="M"/>
   <person xml:id="la_borde" sex="M"/>
@@ -895,7 +958,6 @@
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/La_Thorillière</identifier>
     <identifier type="isni">0000 0003 5809 3839</identifier>
   </person>
-  <person xml:id="la_troupe" sex="M"/><!-- à supprimer ? oui ! -->
   <person xml:id="laloin" sex="M"/>
   <person xml:id="lambelot" sex="M"/>
   <person xml:id="langlois_l_aine" sex="M"/>
@@ -910,15 +972,26 @@
   </person>
   <person xml:id="le_cocq" sex="M"/>
   <person xml:id="le_grais" sex="M"/>
-  <person xml:id="le_gros" sex="M"/> <!-- à supprimer : c'est claude_le_gros -->
-  <person xml:id="le_moine" sex="M"/>
+  <person xml:id="le_gros" sex="M">
+    <name>Le Gros, Claude, chanteur</name>
+    <death when="1695*"/>
+    <identifier type="databnf">https://data.bnf.fr/fr/14842780/claude_le_gros/</identifier>
+  </person>
+  <person xml:id="le_moine" sex="M">
+    <name>Lemoine, Pierre Antoine, basse de viole</name>
+  </person>
   <person xml:id="le_noble" sex="M"/>
   <person xml:id="le_peintre" sex="M"/>
   <person xml:id="le_roux_aine" sex="M"/>
   <person xml:id="le_roux_cadet" sex="M"/>
   <person xml:id="le_roy" sex="M"/>
   <person xml:id="leger" sex="M"/>
-  <person xml:id="leonard_itier" sex="M"/>
+  <person xml:id="leonard_itier" sex="M">
+    <name>Ithier, Léonard Henri, luth</name>
+    <death when="1731"/>
+    <identifier type="isni">0000 0000 0139 9333</identifier>
+    <identifier type="databnf">https://data.bnf.fr/ark:/12148/cb14842785j</identifier>
+  </person>
   <person xml:id="leopold_Ier_autriche" sex="M"/>
   <person xml:id="lepautre" sex="M">
     <name>Lepautre, Jean</name>
@@ -944,7 +1017,12 @@
   </person>
   <person xml:id="louis_d_escre" sex="M"/>
   <person xml:id="louis_desore" sex="M"/>
-  <person xml:id="louis_don" sex="M"/>
+  <person xml:id="louis_don" sex="M">
+    <name>Dun, Louis</name>
+    <death when="1702"/>
+    <identifier type="databnf">https://data.bnf.fr/ark:/12148/cb14842783v</identifier>
+    <identifier type="isni">0000 0000 0248 1654</identifier>
+  </person>
   <person xml:id="louis_grand_dauphin" sex="M">
     <name>Bourbon, Louis (de)</name>
     <birth when="1661"/>
@@ -1305,7 +1383,11 @@
     <name>Roddes, Trompette</name>
   </person>
   <person xml:id="richard" sex="M">
-    <name>Richard, François, joueur de luth et compositeur</name>
+    <name>Richard, Etienne</name>
+    <birth when="1621*"/>
+    <death when="1669"/>
+    <identifier type="isni">0000 0000 8350 8002</identifier>
+    <identifier type="databnf">https://data.bnf.fr/ark:/12148/cb13898976g</identifier>
   </person>
   <person xml:id="riemer" sex="M"/>
   <person xml:id="rimberlieu" sex="M"/>
@@ -1381,9 +1463,8 @@
     <identifier type="databnf">https://data.bnf.fr/fr/15103393/marquise-therese_duparc/</identifier>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Mademoiselle_Du_Parc</identifier>
   </person>
-  <person xml:id="tissin" sex="M"/> <!-- Il s'agit de Claude Tissu : entrée à supprimer, attribut à corriger -->
   <person xml:id="tissu" sex="M">
-    <name>Tissu, Claude, musicien</name>
+    <name>Tissu, Claude, luth</name> <!-- Le catalogue de la BNF identifie Guillaume Tissu, chanteur. -->
   </person>
   <person xml:id="tours_quintener" sex="M">
     <name>Tours-Quintener, officier de la bouche</name>
