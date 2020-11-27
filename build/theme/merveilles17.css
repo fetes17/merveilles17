@@ -37,7 +37,7 @@ body {
 
 #body,
 figure,
-.event,
+.caldate,
 .moto,
 h2,
 h3 {
@@ -367,18 +367,26 @@ img.logo {
 
 /* chrono */
 
-.event {
+.caldate {
+  display: block;
+  text-decoration: none;
   background-color: var(--gris);
+  color: #000;
   padding: 1rem;
   margin-bottom: 3px;
   text-transform: uppercase;
 }
 
-.event * {
+.caldate:hover {
+  background-color: #fff;
+  text-decoration: none;
+}
+
+.caldate * {
   vertical-align: middle;
 }
 
-.event .year {
+.caldate .year {
   font-weight: bold;
   font-size: 20px;
   padding: 0.5rem 1rem 0.5rem 0;
@@ -502,6 +510,17 @@ td.term a {
 
 /** Biblios */
 
+section.event {
+  padding: 1rem;
+  margin-left: -1rem;
+  margin-right: -1rem;
+  border: 2px transparent solid;
+}
+
+section.event:target {
+  border-color: var(--bleu);
+}
+
 header.filtre {
   margin: 30px;
   text-align: right;
@@ -595,7 +614,7 @@ article.document .bg-gray {
   border-top: 1px solid #ccc;
 }
 
-li.event::before {
+li.caldate::before {
   display: none;
 }
 

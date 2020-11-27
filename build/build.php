@@ -764,32 +764,38 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
     }
     $stmt->execute();
     
-    $chrono = null;
     $html = "";
+    $chrono = null;
+    $first = true;
     while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
       if ($row['chrono'] == $chrono);
       else if ($row['chrono']) {
+        if ($first) $first = false;
+        else $html .= "</section>\n";
         $qchrono->execute(array($row['chrono']));
-        $html .= self::htchrono($qchrono->fetch());
+        $chron = $qchrono->fetch();
+        $html .= "\n".'<section class="event" id="'.$chron['code'].'">'."\n";
+        $html .= "\n  <div><h3>".self::htchrono($chron)."</h3></div>";
       }
       else {
-        $html .= "<h3>Autres événements</h3>\n";
+        if ($first) $first = false;
+        else $html .= "</section>\n";
+        $html .= '<section class="event">'."\n";
+        $html .= "  <div><h3>Autres événements</h3></div>\n";
       }
       $chrono = $row['chrono'];
       $qdocument->execute(array($row['document']));
       $html .= self::htdocument($qdocument->fetch());
     }
+    $html .= "</section>\n";
     return $html;
   }
 
-  private static function htchrono($row)
+  private static function htchrono($row, $html=true)
   {
-    $html = '';
-    // $html .= '<a class="chrono"';
-    // $html .= ' href="../chrono/'.$row['code'].self::$_html.'"';
-    // $html .= '>';
-    $html .= '<div><h3>';
-    $html .= '<b class="date">'.substr($row['start'], 0, 4);
+    $out = '';
+    if ($html) $out .= '<b class="date">';
+    $out .= substr($row['start'], 0, 4);
     if ($row['start'] != $row['end']) {
       if (strlen($row['start']) >= 7 && strlen($row['end']) >= 7) {
         $mois1 = substr($row['start'], 5, 2);
@@ -798,24 +804,31 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
       if (strlen($row['start']) >= 10 && strlen($row['end']) >= 10) {
         $j1 = substr($row['start'], 8, 2);
         $j2 = substr($row['end'], 8, 2);
-        if ($mois1 == $mois2) $html .= ', '.(int)$j1.'-'.(int)$j2.' '.Build::mois($mois1);
-        else $html .= ', '.(int)$j1.' '.Build::mois($mois1).' – '.(int)$j2.' '.Build::mois($mois2);
+        if ($mois1 == $mois2) $out .= ', '.(int)$j1.'-'.(int)$j2.' '.Build::mois($mois1);
+        else $out .= ', '.(int)$j1.' '.Build::mois($mois1).' – '.(int)$j2.' '.Build::mois($mois2);
       }
       else {
-        if ($mois1 == $mois2) $html .= ', '.Build::mois($mois1);
-        else $html .= ', '.Build::mois($mois1).' – '.Build::mois($mois2);
+        if ($mois1 == $mois2) $out .= ', '.Build::mois($mois1);
+        else $out .= ', '.Build::mois($mois1).' – '.Build::mois($mois2);
       }
     } else {
-      if (strlen($row['start']) >= 10) $html .= ', '.(int)substr($row['start'], 8, 2).' '.Build::mois(substr($row['start'], 5, 2));
-      else if (strlen($row['start']) >= 7) $html .= ', '.Build::mois(substr($row['start'], 5, 2));
+      if (strlen($row['start']) >= 10) $out .= ', '.(int)substr($row['start'], 8, 2).' '.Build::mois(substr($row['start'], 5, 2));
+      else if (strlen($row['start']) >= 7) $out .= ', '.Build::mois(substr($row['start'], 5, 2));
     }
-    $html .= '.</b> ';
-    $html .= '<span class="lieu">'.$row['lieu_label'].'.</span> ';
-    $html .= '<i class="title">'.$row['label'].'.</i>';
-    $html .= '</h3></div>'."\n";
-    return $html;
+    if ($html) $out .= '</b><span class="lieu">';
+    $out .= ' '.$row['lieu_label'].'.';
+    if ($html) $out .= '</span>
+    <i class="title">';
+    $out .= ' '.$row['label'].'.';
+    $out .= '</i>';
+    return $out;
   }
-  
+
+  private static function chronotitle($row, $html=true)
+  {
+    
+  }
+    
   private static function htdocument($row)
   {
     $html = '';
