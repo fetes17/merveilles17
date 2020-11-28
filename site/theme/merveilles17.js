@@ -44,6 +44,24 @@ function hitoks(form, style)
   let matches = document.querySelectorAll("a."+form);
 }
 
+// biblio, hilite doctype
+const hash = window.location.hash.substring(1);
+let cont = document.getElementById('docs');
+if (cont && hash) docs.className = hash;
+var matches = document.querySelectorAll("header.doctype > div");
+for (var i = 0; i < matches.length; ++i) {
+  matches[i].addEventListener("click", function(e) {
+    if (this.parentNode.parentNode.className == this.className) {
+      this.parentNode.parentNode.className = '';
+      window.location.hash = '';
+    }
+    else {
+      this.parentNode.parentNode.className = this.className;
+      window.location.hash = '#'+this.className;
+    }
+  }, false);
+}
+
 class Merveilles17 {
 
   static init()

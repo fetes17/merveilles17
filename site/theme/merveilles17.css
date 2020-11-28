@@ -70,9 +70,14 @@ h1 {
   text-align: left;
   color: var(--rose);
   text-transform: uppercase;
-  font-weight: normal;
   font-size: 21px;
   padding: 0;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-weight: normal;
+}
+
+.object_header h1 {
   margin-top: 0;
 }
 
@@ -347,6 +352,7 @@ img.logo {
   background: rgba(255, 255, 255, 1);
 }
 
+header.doctype > div > span,
 .card.doctype div,
 .card.lieu div {
   position: absolute;
@@ -357,8 +363,13 @@ img.logo {
   color: #000;
   text-transform: uppercase;
   white-space: nowrap;
+  z-index: 1;
 }
 
+article.ms > header.doctype > div.ms > span,
+article.imp > header.doctype > div.imp > span,
+article.img > header.doctype > div.img > span,
+header.doctype > div:hover > span,
 .card.doctype:hover div,
 .card.lieu:hover div {
   color: #fff;
@@ -521,22 +532,46 @@ section.event:target {
   border-color: var(--bleu);
 }
 
-header.filtre {
-  margin: 30px;
-  text-align: right;
+header.doctype {
+  display: flex;
 }
 
-section.ms .document,
-section.imp .document,
-section.img .document {
+header.doctype > div {
+  flex: 0 0 33.33%;
+  cursor: pointer;
+  position: relative;
+}
+
+header.doctype > div > img {
+  width: 100%;
+  opacity: 0.5;
+}
+
+article.ms .document,
+article.imp .document,
+article.img .document {
   display: none;
 }
 
-section.ms .document.ms,
-section.imp .document.imp,
-section.img .document.img {
+article.ms .document.ms,
+article.imp .document.imp,
+article.img .document.img {
   display: flex;
 }
+
+header.doctype > div:hover > img,
+article.ms  header.doctype > div.ms > img,
+article.imp > header.doctype > div.imp > img,
+article.img > header.doctype > div.img > img {
+  opacity: 1;
+}
+
+article.ms > header.doctype > div.ms > span,
+article.imp > header.doctype > div.imp > span,
+article.img > header.doctype > div.img > span {
+  font-size: 200%;
+}
+
 
 a.chrono {
   display: block;

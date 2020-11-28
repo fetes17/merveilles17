@@ -425,22 +425,27 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
     $template = str_replace("%relpath%", "../", self::$template);
     
     $index = '';
-    $index .= '<div class="container">'."\n";
-    $index .= '<section>'."\n";
+    $index .= '<article id="docs">'."\n";
     $index .= '
-  <header class="filtre">
-    Filtrer
-    <select oninput="this.parentNode.parentNode.className = this.value; ">
-      <option value="" selected="selected"></option>
-      <option value="ms">Manuscrits</option>
-      <option value="imp">Imprimés</option>
-      <option value="img">Images</option>
-    </select>
+  <header class="doctype">
+    <div class="ms">
+      <span>Manuscrits</span>
+      <img src="../images/biblio/doctype_ms.jpg"/>
+    </div>
+    <div class="imp">
+      <span>Imprimés</span>
+      <img src="../images/biblio/doctype_imp.jpg"/>
+    </div>
+    <div class="img">
+      <span>Images</span>
+      <img src="../images/biblio/doctype_img.jpg"/>
+    </div>
   </header>
     ';
+    $index .= '<div class="container">'."\n";
     $index .= self::uldocs(null, null, "");
-    $index .= '</section>'."\n";
     $index .= '</div>'."\n";
+    $index .= '</article>'."\n";
     file_put_contents(self::$home."site/document/index".self::$_html, str_replace("%main%", $index, $template));
     
     $qid = self::$pdo->prepare("SELECT id FROM document WHERE code = ?");

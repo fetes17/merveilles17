@@ -34,19 +34,24 @@
       </div>
     </header>
     <main id="main">
-      <div class="container">
-<section>
+      <article id="docs">
 
-  <header class="filtre">
-    Filtrer
-    <select oninput="this.parentNode.parentNode.className = this.value; ">
-      <option value="" selected="selected"></option>
-      <option value="ms">Manuscrits</option>
-      <option value="imp">Imprimés</option>
-      <option value="img">Images</option>
-    </select>
+  <header class="doctype">
+    <div class="ms">
+      <span>Manuscrits</span>
+      <img src="../images/biblio/doctype_ms.jpg"/>
+    </div>
+    <div class="imp">
+      <span>Imprimés</span>
+      <img src="../images/biblio/doctype_imp.jpg"/>
+    </div>
+    <div class="img">
+      <span>Images</span>
+      <img src="../images/biblio/doctype_img.jpg"/>
+    </div>
   </header>
-    
+    <div class="container">
+
 <section class="event" id="ctb">
 
   <div><h3><b class="date">1662, 5-6 juin</b><span class="lieu"> Paris, Louvre.</span>
@@ -640,8 +645,8 @@
   </div>
 </a>
 </section>
-</section>
 </div>
+</article>
 
     </main>
     <footer id="footer" class="bg-black">
