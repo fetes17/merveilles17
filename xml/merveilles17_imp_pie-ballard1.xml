@@ -520,19 +520,19 @@ Balisage ?-->Hymen y
             Chameau.</item>
           <item><name key="l_hiver" corresp="louis_bejart">L’HYVER</name>, sur vn Ours.</item>
         </list>
-        <p><name key="suite_saisons">Quarante-huit personnes de la suitte des Saisons</name> : <name
+        <p><name key="quatre_saisons">Quarante-huit personnes de la suitte des Saisons</name> : <name
             key="jardiniers">Douze Iardiniers</name>, <name key="moissonneur">douze
             Moissonneurs</name>, <name key="vandangeurs">douze Vandangeurs</name>, &amp; <name
             key="vieillard">douze Vieillards</name>, <seg ana="description">qui par leurs Fleurs,
             leurs Espics, leurs Fruicts, &amp; leurs Glaces ; marquent chacune des Saisons, &amp;
             portent les Bassins pour la</seg> Collation.</p>
         <p>Concert> de <name key="pan" corresp="moliere">Pan</name> &amp; de <name key="diane"
-            corresp="madeleine_bejart">Diane</name>, composé de <name key="suite_pan_diane">quatorze
-            personnes de leur suitte</name>.</p>
+          corresp="madeleine_bejart">Diane</name>, composé de <name key="pan"><name key="diane">quatorze
+            personnes de leur suitte</name></name>.</p>
         <p><name key="pan" corresp="moliere">PAN</name> &amp; <name key="diane"
             corresp="madeleine_bejart">DIANE</name> sur <tech type="machine_vol">vne Machine</tech>
           portée en l’air.</p>
-        <p><name key="suite_pan_diane">Vingt-quatre de la suitte de Pan &amp; de Diane</name>, <seg
+        <p><name key="pan"><name key="diane">Vingt-quatre de la suitte de Pan &amp; de Diane</name></name>, <seg
             ana="description">portant des viandes de la Menagerie du premier, &amp; de la Chasse de
             l’autre</seg>.</p>
         <p><name key="page">Dix-huit Pages</name>, qui doiuent seruir à Table les Dames.</p>
@@ -696,18 +696,18 @@ Balisage ?-->Hymen y
         <p><name key="l_aurore" corresp="hilaire_dupuis">L’AVRORE</name>.</p>
         <p><persName key="hilaire_dupuis" role="acteur">Madlle Hilaire</persName>.</p>
         <p><name key="l_aurore" corresp="hilaire_dupuis">Aurore</name> chantoit ce Recit, <name
-            key="valets_de_chien" corresp="moliere"><name key="valets_de_chien" corresp="louis_don"
-                ><name key="valets_de_chien" corresp="estival"><name key="valets_de_chien"
+            key="valets_de_chien" corresp="moliere"><name key="valet_de_chien" corresp="louis_don"
+                ><name key="valet_de_chien" corresp="estival"><name key="valet_de_chien"
                   corresp="francois_blondel">Quatre Valets de Chiens</name></name></name></name>,
           qui doiuent chanter.</p>
         <p><persName key="estival" role="chanteur">Messieurs Estiual</persName>, <persName
             key="louis_don" role="chanteur">Don</persName>, <persName key="francois_blondel"
             role="chanteur">Blondel</persName>, &amp; <persName key="moliere" role="chanteur"
             >Molliere</persName><!--Ici, le persName est Molliere, dans le document pie1673, il s'agit de Molière! Attention, cela influe sur le Name "valets_de_chien"-->.</p>
-        <p><name key="valets_de_chien" corresp="paysan"><name key="valets_de_chien"
-              corresp="chicanneau"><name key="valets_de_chien" corresp="noblet"><name
-                  key="valets_de_chien" corresp="pesan"><name key="valets_de_chien" corresp="bonard"
-                      ><name key="valets_de_chien" corresp="la_pierre">Six autres Valets de
+        <p><name key="valet_de_chien" corresp="paysan"><name key="valet_de_chien"
+              corresp="chicanneau"><name key="valet_de_chien" corresp="noblet"><name
+                  key="valets_de_chien" corresp="pesan"><name key="valet_de_chien" corresp="bonard"
+                      ><name key="valet_de_chien" corresp="la_pierre">Six autres Valets de
                       Chiens</name></name></name></name></name></name>, qui doiuent danser.</p>
         <p><persName key="paysan" role="danseur">Les Sieurs Paysan</persName>, <persName
             key="chicanneau" role="danseur">Chicanneau</persName>, <persName key="noblet"
@@ -1344,11 +1344,7 @@ Balisage ?-->Hymen y
             cheual d’Espagne.</p>
           <p><persName key="therese_duparc" role="acteur">Madlle du Parc</persName>.</p>
           <p>Douze de sa suite.</p>
-          <p><name key="officiers_gobelet" corresp="l_azure"><name key="officiers_gobelet"
-                corresp="lienard"><name key="officiers_gobelet" corresp="coyrin"><name
-                    key="officiers_gobelet" corresp="di_pille"><name key="officiers_gobelet"
-                      corresp="jennesson">Officiers du
-            gobelet</name></name></name></name></name>.</p>
+          <p>Officiers du gobelet.</p>
           <list ana="noms">
             <item><persName key="l_azure" role="organisation">L’Azure</persName>.</item>
             <item><persName key="lienard" role="organisation">Lienard</persName>.</item>
@@ -1356,9 +1352,7 @@ Balisage ?-->Hymen y
             <item><persName key="di_pille" role="organisation">De Pille</persName>.</item>
             <item><persName key="jennesson" role="organisation">Iennesson</persName>.</item>
           </list>
-          <p><name key="grands_valets_de_pied" corresp="hurlot"><name key="grands_valets_de_pied"
-                corresp="contaut"><name key="grands_valets_de_pied" corresp="mongin">Grands Valets
-                  de pied</name></name></name>.</p>
+          <p>Grands Valets de pied.</p>
           <list ana="noms">
             <item><persName key="hurlot" role="organisation">Hurlot</persName>.</item>
             <item><persName key="contaut" role="organisation">Contaut</persName>.</item>
@@ -1366,10 +1360,7 @@ Balisage ?-->Hymen y
           </list>
           <pb n="7"/>
           <p>
-            <name key="petits_valets_de_pied" corresp="renaudin"><name key="petits_valets_de_pied"
-                corresp="joannet"><name key="petits_valets_de_pied" corresp="pierrot"><name
-                    key="petits_valets_de_pied" corresp="le_noble">Petits Valets de
-                  pied</name></name></name></name>
+            Petits Valets de pied.
           </p>
           <list ana="noms">
             <item><persName key="renaudin" role="organisation">Renaudin</persName>.</item>
@@ -1380,10 +1371,7 @@ Balisage ?-->Hymen y
           <p><name key="l_ete" corresp="gros_rene">L’ESTÉ</name>, monté sur vn Elephant.</p>
           <p><persName key="gros_rene" role="acteur">Du Parc</persName>.</p>
           <p>Douze de sa suite.</p>
-          <p><name key="officiers_gobelet" corresp="guichon"><name key="officiers_gobelet"
-                corresp="cleiret"><name key="officiers_gobelet" corresp="vendelle"><name
-                    key="officiers_gobelet" corresp="la_boire"><name key="officiers_gobelet"
-                      corresp="roseau">Officiers du gobelet</name></name></name></name></name>.</p>
+          <p>Officiers du gobelet.</p>
           <list ana="noms">
             <item><persName key="guichon" role="organisation">Guichon</persName>.</item>
             <item><persName key="cleiret" role="organisation">Cleiret</persName>.</item>
@@ -1391,19 +1379,14 @@ Balisage ?-->Hymen y
             <item><persName key="la_boire" role="organisation">La Boire</persName>.</item>
             <item><persName key="roseau" role="organisation">Roseau</persName>.</item>
           </list>
-          <p><name key="grands_valets_de_pied" corresp="la_rose"><name key="grands_valets_de_pied"
-                corresp="pernaut"><name key="grands_valets_de_pied" corresp="la_chapelle"><name
-                    key="grands_valets_de_pied" corresp="di_pre">Grands Valets de
-                pied</name></name></name></name>.</p>
+          <p>Grands Valets de pied.</p>
           <list ana="noms">
             <item><persName key="la_rose" role="organisation">La Rose</persName>.</item>
             <item><persName key="pernaut" role="organisation">Pernaut</persName>.</item>
             <item><persName key="la_chapelle" role="organisation">La Chapelle</persName>.</item>
             <item><persName key="di_pre" role="organisation">Du Pré</persName>.</item>
           </list>
-          <p><name key="petits_valets_de_pied" corresp="courtille"><name key="petits_valets_de_pied"
-                corresp="la_fleu"><name key="petits_valets_de_pied" corresp="arnauld">Petis Valets
-                  de pied</name></name></name>.</p>
+          <p>Petis Valets de pied.</p>
           <list ana="noms">
             <item><persName key="courtille" role="organisation">Courtille</persName>.</item>
             <item><persName key="la_fleu" role="organisation">La Fleu</persName>.</item>
@@ -1413,10 +1396,7 @@ Balisage ?-->Hymen y
             Chameau.</p>
           <p><persName key="la_thorilliere" role="acteur">La Thorilliere</persName>.</p>
           <p>Douze de sa suite.</p>
-          <p><name key="officiers_gobelet" corresp="fontenelle"><name key="officiers_gobelet"
-                corresp="jemarie"><name key="officiers_gobelet" corresp="amiot"><name
-                    key="officiers_gobelet" corresp="mettayer"><name key="officiers_gobelet"
-                      corresp="bourru">Officiers du Gobelet</name></name></name></name></name>.</p>
+          <p>Officiers du Gobelet.</p>
           <list ana="noms">
             <item><persName key="fontenelle" role="organisation">Fontenelle</persName>.</item>
             <item><persName key="jemarie" role="organisation">Iemarie</persName>.</item>
@@ -1425,10 +1405,7 @@ Balisage ?-->Hymen y
             <item><persName key="bourru" role="organisation">Bourru</persName>.</item>
           </list>
           <pb n="8"/>
-          <p><name key="grands_valets_de_pied" corresp="langlois_l_aine"><name
-                key="grands_valets_de_pied" corresp="langlois_le_cadet"><name
-                  key="grands_valets_de_pied" corresp="boulanger">Grands Valets de
-                pied</name></name></name>.</p>
+          <p>Grands Valets de pied.</p>
           <list ana="noms">
             <item><persName key="langlois_l_aine" role="organisation">Langlois
               l’aisné</persName>.</item>
@@ -1436,10 +1413,7 @@ Balisage ?-->Hymen y
               cadet</persName>.</item>
             <item><persName key="boulanger" role="organisation">Boulanger</persName>.</item>
           </list>
-          <p><name key="petits_valets_de_pied" corresp="la_jeunesse"><name
-                key="petits_valets_de_pied" corresp="lambelot"><name key="petits_valets_de_pied"
-                  corresp="la_liuere"><name key="petits_valets_de_pied" corresp="butin">Petits
-                    Valets de pied</name></name></name></name>.</p>
+          <p>Petits Valets de pied.</p>
           <list ana="noms">
             <item><persName key="la_jeunesse" role="organisation">La Ieunesse</persName>.</item>
             <item><persName key="lambelot" role="organisation">Lambelot</persName>.</item>
@@ -1449,10 +1423,7 @@ Balisage ?-->Hymen y
           <p><name key="l_hiver" corresp="louis_bejart">L’HYVER</name>, monté sur vn Ours.</p>
           <p><persName key="louis_bejart" role="acteur">Bejart</persName>.</p>
           <p>Douze de sa suite.</p>
-          <p><name key="officiers_gobelet" corresp="bigot"><name key="officiers_gobelet"
-                corresp="le_roy"><name key="officiers_gobelet" corresp="andre"><name
-                    key="officiers_gobelet" corresp="laloin"><name key="officiers_gobelet"
-                      corresp="breuet">Officiers du gobelet</name></name></name></name></name>.</p>
+          <p>Officiers du gobelet.</p>
           <list ana="noms">
             <item><persName key="bigot" role="organisation">Bigot</persName>.</item>
             <item><persName key="le_roy" role="organisation">Le Roy</persName>.</item>
@@ -1460,17 +1431,13 @@ Balisage ?-->Hymen y
             <item><persName key="laloin" role="organisation">Laloin</persName>.</item>
             <item><persName key="breuet" role="organisation">Breuet</persName>.</item>
           </list>
-          <p><name key="grands_valets_de_pied" corresp="palluau"><name key="grands_valets_de_pied"
-                corresp="verdelet"><name key="grands_valets_de_pied" corresp="morsique">Grands
-                  Valets de pied</name></name></name>.</p>
+          <p>Grands Valets de pied.</p>
           <list ana="noms">
             <item><persName key="palluau" role="organisation">Palluau</persName>.</item>
             <item><persName key="verdelet" role="organisation">Verdelet</persName>.</item>
             <item><persName key="morsique" role="organisation">Morisque</persName>.</item>
           </list>
-          <p><name key="petits_valets_de_pied" corresp="montigny"><name key="petits_valets_de_pied"
-                corresp="le_cocq"><name key="petits_valets_de_pied" corresp="chasteau_neuf">Petits
-                  Valets de pied</name></name></name>.</p>
+          <p>Petits Valets de pied.</p>
           <list ana="noms">
             <item><persName key="montigny" role="organisation">Montigny</persName>.</item>
             <item><persName key="le_cocq" role="organisation">Le Cocq</persName>.</item>
@@ -1554,37 +1521,7 @@ Balisage ?-->Hymen y
                 key="diane" corresp="madeleine_bejart">Diane</name>.</item>
           </list>
           <p>Vingt-huit de leur suite.</p>
-          <p><name key="officiers_bouche" corresp="baudoin"><name key="officiers_bouche"
-                corresp="benoist"><name key="officiers_bouche" corresp="du_moustier"><name
-                    key="officiers_bouche" corresp="gaspard_harsent"><name key="officiers_bouche"
-                      corresp="gaspard_de_mouet"><name key="officiers_bouche"
-                        corresp="irieux_magontier"><name key="officiers_bouche"
-                          corresp="jean_magontier"><name key="officiers_bouche"
-                            corresp="magontier_garde_vaisselle"><name key="officiers_bouche"
-                              corresp="suisses"><name key="officiers_bouche" corresp="castel"><name
-                                  key="officiers_bouche" corresp="francois_moussu"><name
-                                    key="officiers_bouche" corresp="jacques_moussu"><name
-                                      key="officiers_bouche" corresp="turbau"><name
-                                        key="officiers_bouche" corresp="faure"><name
-                                          key="officiers_bouche" corresp="bailly"><name
-                                            key="officiers_bouche" corresp="jean_moran"><name
-                                              key="officiers_bouche" corresp="antoine_moran"><name
-                                                key="officiers_bouche" corresp="claude_brochet"
-                                                  ><name key="officiers_bouche"
-                                                  corresp="dominique_brochet"><name
-                                                  key="officiers_bouche" corresp="bresler"><name
-                                                  key="officiers_bouche" corresp="elie"><name
-                                                  key="officiers_bouche" corresp="pidou"><name
-                                                  key="officiers_bouche" corresp="robbe"><name
-                                                  key="officiers_bouche" corresp="tours_quintener"
-                                                  ><name key="officiers_bouche"
-                                                  corresp="victor_herck"><name
-                                                  key="officiers_bouche" corresp="samufin"><name
-                                                  key="officiers_bouche" corresp="sudan"><name
-                                                  key="officiers_bouche" corresp="riemer"><name
-                                                  key="officiers_bouche" corresp="humberk">Officiers
-                                                  de la
-                                                  bouche</name></name></name></name></name></name></name></name></name></name></name></name></name></name></name></name></name></name></name></name></name></name></name></name></name></name></name></name></name>.</p>
+          <p>Officiers de la bouche.</p>
           <list ana="noms">
             <item><persName key="baudouin" role="organisation">Baudoüin</persName>.</item>
             <item><persName key="benoist" role="organisation">Benoist</persName>.</item>
@@ -1698,8 +1635,8 @@ Balisage ?-->Hymen y
           <p>La Comedie de Moliere, Musique &amp; Entrée de Ballet.</p>
           <p><name key="l_aurore" corresp="hilaire_dupuis">L’AVRORE</name>.</p>
           <p><persName key="hilaire_dupuis" role="acteur">Madlle. Hilaire</persName>.</p>
-          <p><name key="valets_de_chien" corresp="estival"><name key="valets_de_chien"
-                corresp="louis_don"><name key="valets_de_chien" corresp="francois_blondel"><name
+          <p><name key="valet_de_chien" corresp="estival"><name key="valet_de_chien"
+                corresp="louis_don"><name key="valet_de_chien" corresp="francois_blondel"><name
                     key="valets_de_chien" corresp="molliere">Quatre Valets de
                 Chiens</name></name></name></name>, qui doiuent chanter.</p>
           <list ana="noms">
@@ -1708,10 +1645,10 @@ Balisage ?-->Hymen y
             <item><persName key="francois_blondel" role="acteur chanteur">Blondel</persName>.</item>
             <item><persName key="molliere" role="acteur chanteur">Molliere</persName>.</item>
           </list>
-          <p><name key="valets_de_chien" corresp="paysan"><name key="valets_de_chien"
-                corresp="saint_andre"><name key="valets_de_chien" corresp="noblet"><name
-                    key="valets_de_chien" corresp="pesan"><name key="valets_de_chien"
-                      corresp="bonard"><name key="valets_de_chien" corresp="la_pierre">Six autres
+          <p><name key="valet_de_chien" corresp="paysan"><name key="valet_de_chien"
+                corresp="saint_andre"><name key="valet_de_chien" corresp="noblet"><name
+                    key="valets_de_chien" corresp="pesan"><name key="valet_de_chien"
+                      corresp="bonard"><name key="valet_de_chien" corresp="la_pierre">Six autres
                         Valets de Chiens</name></name></name></name></name></name>, qui doiuent
             danser.</p>
           <list ana="noms">
