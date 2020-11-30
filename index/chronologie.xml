@@ -6,16 +6,6 @@
     <label>Courses de têtes et de bagues</label>
     <ref target="../xml/merveilles17_imp_ctb-perrault1670.xml"/>
   </event>
-  
-  <event when="1664" where="vincennes_chateau" xml:id="ballet_vincennes1664">
-    <label>Ballet</label>
-    <ref target="../xml/merveilles17_ms_ano12984_001.xml"/>
-  </event>
-  
-  <event when="1664" where="fontainebleau" xml:id="feu_fontainebleau1664">
-    <label>Feu d'artifice, L'Histoire du mauvais riche</label>
-    <ref target="../xml/merveilles17_ms_ano12984_001.xml"/>
-  </event>
 
   <event when="1664-01-10" where="paris_palais-royal" xml:id="bradamante1664_01_10">
     <label>La Bradamante ridicule, comédie</label>
@@ -123,13 +113,7 @@
       <ref target="../xml/merveilles17_ms_acflagrange_002.xml"/>
     </event>
   </event>
-
-  <event from="1664-10-13" to="1664-10-25" where="versailles_chateau" xml:id="theatre_versailles1664_10">
-    <label>Divertissements à la cour : L'Impromptu de Versailles, L'Ecole des maris, L'Ecole de
-      femmes, Le Cocu imaginaire, Le Dépit amoureux, L'Etourdi, Les Fâcheux</label>
-    <ref target="../xml/merveilles17_ms_acflagrange_004.xml"/>
-  </event>
-
+  
   <event from="1664-07-30" to="1664-08-13" where="fontainebleau" xml:id="chigi_fontainebleau">
     <label>Divertissements pour la réception du cardinal Chigi</label>
     <ref target="../xml/merveilles17_ms_acflagrange_003.xml"/>
@@ -137,6 +121,22 @@
     <ref target="../xml/merveilles17_ms_bnfmsfr6143.xml"/>
     <ref target="../xml/merveilles17_imp_loret16640802.xml"></ref>
     <ref target="../xml/merveilles17_imp_loret16640809.xml"/>
+  </event>
+
+  <event from="1664-10-13" to="1664-10-25" where="versailles_chateau" xml:id="theatre_versailles1664_10">
+    <label>Divertissements à la cour : L'Impromptu de Versailles, L'Ecole des maris, L'Ecole de
+      femmes, Le Cocu imaginaire, Le Dépit amoureux, L'Etourdi, Les Fâcheux</label>
+    <ref target="../xml/merveilles17_ms_acflagrange_004.xml"/>
+  </event>
+  
+  <event when="1664" where="vincennes_chateau" xml:id="ballet_vincennes1664">
+    <label>Ballet</label>
+    <ref target="../xml/merveilles17_ms_ano12984_001.xml"/>
+  </event>
+  
+  <event when="1664" where="fontainebleau" xml:id="feu_fontainebleau1664">
+    <label>Feu d'artifice, L'Histoire du mauvais riche</label>
+    <ref target="../xml/merveilles17_ms_ano12984_001.xml"/>
   </event>
   
   <event when="1668-07-18" where="versailles_chateau" xml:id="gdv">
