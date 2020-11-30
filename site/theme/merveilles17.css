@@ -277,10 +277,37 @@ img.logo {
   background-position: center;
 }
 
+.carousel-item:hover  {
+}
+
+
+.carousel-item > a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.carousel-caption {
+  font-size: 3vh;
+  bottom: 2.5rem;
+  color: #000;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.carousel-item:hover .carousel-caption {
+  opacity: 1;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+
 .carousel-controls {
   position: absolute;
-  bottom: 2rem;
-  right: 12%;
+  bottom: 2.5rem;
+  z-index: 2;
+  right: 5%;
   width: 144px;
   height: 72px;
   display: flex;
@@ -337,14 +364,6 @@ img.logo {
   background-image: url('../images/accueil/slide7.jpg');
 }
 
-
-/*
-.carousel-inner img {
-  height: 500px;
-  margin-left: auto;
-  margin-right: auto;
-}
-*/
 .card {
   border: 1px solid #fff;
   border-radius: 0;
