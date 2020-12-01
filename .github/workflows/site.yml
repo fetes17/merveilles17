@@ -3,6 +3,7 @@ name: Site
 on:
   push:
     paths:
+      - 'index/*'
       - 'build/**'
       - '.github/workflows/*'
       - 'xml/*'
