@@ -290,22 +290,31 @@ img.logo {
 }
 
 .carousel-caption {
-  font-size: 3vh;
-  bottom: 2.5rem;
+  background-color: var(--rose);
   color: #000;
-  background: rgba(255, 255, 255, 0.2);
+  white-space: nowrap;
+  display: inline-block;
+  text-overflow: ellipsis;
+  padding: 0 0.5rem;
+  left: 0;
+  bottom: 0;
+  right: unset;
 }
 
 .carousel-item:hover .carousel-caption {
-  opacity: 1;
   color: #fff;
-  background: rgba(0, 0, 0, 0.2);
 }
 
+.carousel-indicators {
+  right: 5%;
+  bottom: 1rem;
+  left: unset;
+  margin: auto;
+}
 
 .carousel-controls {
   position: absolute;
-  bottom: 2.5rem;
+  bottom: 2.7rem;
   z-index: 2;
   right: 5%;
   width: 144px;
