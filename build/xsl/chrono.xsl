@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:transform version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml"  xmlns:tei="http://www.tei-c.org/ns/1.0"  exclude-result-prefixes="tei">
+<xsl:transform version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml" xmlns:tei="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="tei">
   <xsl:import href="tei_flow.xsl"/>
   <xsl:output indent="yes" encoding="UTF-8" method="xml" omit-xml-declaration="yes"/>
   <xsl:variable name="lieux" select="document('../../index/lieu.xml')/*/*"/>
-
   <xsl:template match="/tei:listEvent">
-    <nav>
+    <nav class="chrono">
       <xsl:apply-templates select="*"/>
     </nav>
   </xsl:template>
-  
   <xsl:template match="tei:event">
     <xsl:variable name="date" select="@from | @when"/>
     <a class="caldate" href="document/index.html#{@xml:id}">
@@ -26,12 +24,19 @@
       <span class="year">
         <xsl:value-of select="substring($date, 1, 4)"/>
       </span>
-      <span class="day">
-        <xsl:variable name="num" select="number(substring($date, 9, 2))"/>
-        <xsl:if test="$num &gt; 0">
+      <xsl:variable name="num" select="number(substring($date, 9, 2))"/>
+      <xsl:if test="$num &gt; 0">
+        <span class="day">
           <xsl:value-of select="$num"/>
-        </xsl:if>
-      </span>
+          <xsl:if test="tei:event and @to and number(substring($date, 6, 2)) = number(substring(@to, 6, 2))">
+            <xsl:variable name="num2" select="number(substring(@to, 9, 2))"/>
+            <xsl:if test="$num2 &gt; 0">
+              <xsl:text>-</xsl:text>
+              <xsl:value-of select="$num2"/>
+            </xsl:if>
+          </xsl:if>
+        </span>
+      </xsl:if>
       <xsl:variable name="month" select="number(substring($date, 6, 2))"/>
       <xsl:if test="$month &gt; 0">
         <span class="month">
@@ -52,7 +57,6 @@
         </span>
       </xsl:if>
     </a>
+    <xsl:apply-templates select="tei:event"/>
   </xsl:template>
-
-
 </xsl:transform>

@@ -62,6 +62,16 @@ for (var i = 0; i < matches.length; ++i) {
   }, false);
 }
 
+// chrono, set links to active
+var matches = document.querySelectorAll("a.caldate");
+for (var i = 0; i < matches.length; ++i) {
+  matches[i].addEventListener("click", function(e) {
+    var as = document.querySelectorAll("a.caldate");
+    for (let j = 0; j < as.length; j++) as[j].classList.remove('active');
+    this.classList.add('active');
+  }, false);
+}
+
 class Merveilles17 {
 
   static init()

@@ -297,7 +297,8 @@ img.logo {
   text-overflow: ellipsis;
   padding: 0 0.5rem;
   left: 0;
-  bottom: 0;
+  bottom: unset;
+  top: 0;
   right: unset;
   font-size: 1.5rem;
 }
@@ -428,6 +429,13 @@ header.doctype > div:hover > span,
 
 /* chrono */
 
+#docs .chrono {
+  position: sticky;
+  top: 0;
+  max-height: 100vh;
+  overflow: scroll;
+}
+
 .caldate {
   display: block;
   text-decoration: none;
@@ -438,6 +446,7 @@ header.doctype > div:hover > span,
   text-transform: uppercase;
 }
 
+.caldate.active,
 .caldate:hover {
   background-color: #fff;
   text-decoration: none;
@@ -584,6 +593,7 @@ section.event:target {
 
 header.doctype {
   display: flex;
+  margin-bottom: 2rem;
 }
 
 header.doctype > div {

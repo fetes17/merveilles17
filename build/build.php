@@ -442,9 +442,17 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
     </div>
   </header>
     ';
-    $index .= '<div class="container">'."\n";
+    $index .= '  <div class="container">'."\n";
+    $index .= '    <div class="row">'."\n";
+    $index .= '      <div class="col-9">'."\n";
     $index .= self::uldocs(null, null, "");
-    $index .= '</div>'."\n";
+    $index .= '      </div>'."\n";
+    $index .= '      <div class="col-3">'."\n";
+    $chrono = Build::transform(self::$home."index/chronologie.xml", self::$home."build/xsl/chrono.xsl");
+    $index .= preg_replace('@href="[^#]*#@', 'href="#', $chrono);
+    $index .= '      </div>'."\n";
+    $index .= '    </div>'."\n";
+    $index .= '  </div>'."\n";
     $index .= '</article>'."\n";
     file_put_contents(self::$home."site/document/index".self::$_html, str_replace("%main%", $index, $template));
     
