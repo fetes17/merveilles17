@@ -1023,7 +1023,9 @@
     <name>Le Chantre (danseur)</name>
   </person>
   <person xml:id="le_cocq" sex="M"/>
-  <person xml:id="le_grais" sex="M"/>
+  <person xml:id="le_grais" sex="M">
+    <name>Le Grais, violon</name>
+  </person>
   <person xml:id="le_gros" sex="M">
     <name>Le Gros, Claude, chanteur</name>
     <death when="1695*"/>
@@ -1033,9 +1035,15 @@
     <name>Lemoine, Pierre Antoine, basse de viole</name>
   </person>
   <person xml:id="le_noble" sex="M"/>
-  <person xml:id="le_peintre" sex="M"/>
-  <person xml:id="le_roux_aine" sex="M"/>
-  <person xml:id="le_roux_cadet" sex="M"/>
+  <person xml:id="le_peintre" sex="M">
+    <name>Le Peintre, violon</name>
+  </person>
+  <person xml:id="le_roux_aine" sex="M">
+    <name>Le Roux, aîné, violon</name>
+  </person>
+  <person xml:id="le_roux_cadet" sex="M">
+    <name>Le Roux, cadet, violon</name>
+  </person>
   <person xml:id="le_roy" sex="M"/>
   <person xml:id="leger" sex="M"/>
   <person xml:id="leonard_itier" sex="M">
@@ -1212,9 +1220,10 @@
     <birth when="1638"/>
     <death when="1708"/>
   </person>
-  <person xml:id="marchand" sex="M"/>
+  <person xml:id="marchand" sex="M">
+    <name>Marchand, violon</name>
+  </person>
   <person xml:id="marche_coquet" sex="M">
-    <!-- attribut à modifier : ce sont deux personnes différentes : Jacques Coquet et son commis de la Marche -->
     <name>Coquet, Jacques</name>
   </person>
   <person xml:id="marguerite_cambout_armagnac" sex="F">
@@ -1275,7 +1284,9 @@
   </person>
   <person xml:id="marquis_fourilles" sex="M"/>
   <person xml:id="martin_hottere" sex="M"/>
-  <person xml:id="martineau" sex="M"/>
+  <person xml:id="martineau" sex="M">
+    <name>Martineau, violon</name>
+  </person>
   <person xml:id="maslou" sex="M"/>
   <person xml:id="maximillien_IV_pierre_sully" sex="M">
     <name>Sully, Maximilien IV Pierre (de)</name>
