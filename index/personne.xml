@@ -823,7 +823,9 @@
     <death when="1664"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Du_Parc_(acteur)</identifier>
   </person>
-  <person xml:id="guenin" sex="M"/>
+  <person xml:id="guenin" sex="M">
+    <name>Guenin, violon</name>
+  </person>
   <person xml:id="guichon" sex="M"/>
   <person xml:id="henri_albert_cosse_brissac" sex="M">
     <name>Cossé-Brissac, Henri-Albert (de)</name>
@@ -945,7 +947,9 @@
     <identifier type="isni">0000 0004 5979 2671</identifier>
   </person>
   <person xml:id="joannet" sex="M"/>
-  <person xml:id="jolicoeur" sex="M"/>
+  <person xml:id="jolicoeur" sex="M">
+    <name>Jolicoeur, tymballier</name>
+  </person>
   <person xml:id="joseph_chabanceau_la_barre" sex="M">
     <name>La Barre, Joseph Chabanceau de</name>
     <birth when="1633"/>
@@ -981,13 +985,17 @@
     <name>La Brodière (danseur)</name>
   </person>
   <person xml:id="la_caisse" sex="M"/>
-  <person xml:id="la_chapelle" sex="M"/>
+  <person xml:id="la_chapelle" sex="M">
+    <name>La Chapelle, trompette</name>
+  </person>
   <person xml:id="la_couderelle" sex="M"/>
   <person xml:id="la_croix" sex="M">
     <name>La Croix, violon</name>
   </person>
   <person xml:id="la_fleu" sex="M"/>
-  <person xml:id="la_fleur" sex="M"/>
+  <person xml:id="la_fleur" sex="M">
+    <name>La Fleur, trompette</name>
+  </person>
   <person xml:id="la_fontaine" sex="M"/>
   <person xml:id="la_grange" sex="M">
     <name>La Grange, Charles Varlet de</name>
@@ -998,7 +1006,9 @@
   </person>
   <person xml:id="la_jeunesse" sex="M"/>
   <person xml:id="la_liuere" sex="M"/>
-  <person xml:id="la_marche" sex="M"/>
+  <person xml:id="la_marche" sex="M">
+    <name>La Marche, trompette</name>
+  </person>
   <person xml:id="la_marre" sex="M">
     <name>La Marre (danseur)</name>
   </person>
@@ -1006,12 +1016,16 @@
     <name>La Pierre (danseur)</name>
   </person>
   <person xml:id="la_place" sex="M"/>
-  <person xml:id="la_plaine" sex="M"/>
+  <person xml:id="la_plaine" sex="M">
+    <name>La Plaine, trompette</name>
+  </person>
   <person xml:id="la_riviere" sex="M">
     <name>La Riviere, violon</name>
   </person>
   <person xml:id="la_rose" sex="M"/>
-  <person xml:id="la_salle" sex="M"/>
+  <person xml:id="la_salle" sex="M">
+    <name>La Salle, trompette</name>
+  </person>
   <person xml:id="la_thorilliere" sex="M">
     <name>Le Noir La Thorillière, François</name>
     <birth when="1626"/>
@@ -1072,8 +1086,9 @@
     <identifier type="databnf">https://data.bnf.fr/fr/12352792/jean_lepautre/</identifier>
     <identifier type="isni">0000 0001 2283 3896</identifier>
   </person>
-  <person xml:id="lespervier" sex="M"/>
-  <person xml:id="lesperviers" sex="M"/>
+  <person xml:id="lespervier" sex="M">
+    <name>Lespervier, violon</name>
+  </person>
   <person xml:id="lienard" sex="M"/>
   <person xml:id="lionnois" sex="M"/>
   <person xml:id="loubie" sex="M"/>
@@ -1322,7 +1337,9 @@
   <person xml:id="millet" sex="M">
     <name>Millet, Claude</name>
   </person>
-  <person xml:id="mlle_d_ardennes" sex="F"/>
+  <person xml:id="mlle_d_ardennes" sex="F">
+    <name>Ardennes, Mlle d'</name>
+  </person>
   <person xml:id="mlle_d_ennebault" sex="F"/>
   <person xml:id="mlle_de_brie" sex="F">
     <name>Leclerc du Rosé, Catherine (dite Mademoiselle de Brie)</name>
@@ -1362,7 +1379,9 @@
     <birth when="1619"/>
     <death when="1708"/>
   </person>
-  <person xml:id="mme_de_marse" sex="F"/>
+  <person xml:id="mme_de_marse" sex="F">
+    <name>Marsé, Mme de</name>
+  </person>
   <person xml:id="mme_de_sevigne" sex="F">
     <name>Rabutin-Chantal Sévigné, Marie (de)</name>
     <birth when="1626"/>
@@ -1430,7 +1449,9 @@
     <death when="1708"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Olympe_Mancini</identifier>
   </person>
-  <person xml:id="orleans"/>
+  <person xml:id="orleans">
+    <name>Orléans, trompette</name>
+  </person>
   <person xml:id="paisible" sex="M"/>
   <person xml:id="palluau" sex="M"/>
   <person xml:id="parfait_fils" sex="M">
@@ -1495,7 +1516,15 @@
   <person xml:id="piesche" sex="M"/>
   <person xml:id="pietro_strozzi" sex="M"/>
   <person xml:id="prevert" sex="M"/>
-  <person xml:id="racine" sex="M"/>
+  <person xml:id="racine" sex="M">
+    <name>Racine, Jean</name>
+    <birth when="1639"/>
+    <death when="1699"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jean_Racine</identifier>
+    <identifier type="databnf">https://data.bnf.fr/ark:/12148/cb120076761</identifier>
+    <identifier type="isni">0000 0001 2321 2338</identifier>
+    <identifier type="mg">racine_jean_(1639-1699)</identifier>
+  </person>
   <person xml:id="rambure" sex="M"/>
   <person xml:id="raynal" sex="M">
     <name>Raynal (danseur)</name>
