@@ -60,6 +60,9 @@
           <text/>
         </element>
       </zeroOrMore>
+      <zeroOrMore>
+        <ref name="place"/>
+      </zeroOrMore>
     </element>
   </define>
   <!-- 
