@@ -18,10 +18,13 @@
     <name>Europe</name>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Europe</identifier>
   </place>
+  
   <place xml:id="fontainebleau">
     <name>Fontainebleau</name>
     <country>France</country>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Fontainebleau</identifier>
+    <identifier type="mg">289</identifier>
+    <identifier type="geonames"> http://sws.geonames.org/6443660</identifier>
     <place xml:id="fontainebleau_chateau">
       <name>Fontainebleau, Château de Fontainebleau</name>
       <geo>48.402445, 2.701357</geo>
@@ -29,6 +32,16 @@
       <settlement>Fontainebleau</settlement>
       <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Fontainebleau</identifier>
       <identifier type="geonames">https://www.geonames.org/7535589</identifier>
+      <identifier type="mg">290</identifier>
+      <place xml:id="fontainebleau_chapelle">
+        <name>Fontainebleau, Chapelle de Fréminet</name>
+        <name>Chapelle de la Trinité</name>
+        <geo>48.402140, 2.699699</geo>
+        <country>France</country>
+        <settlement>Fontainebleau</settlement>
+        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Fontainebleau</identifier>
+        <identifier type="mg">295</identifier>
+      </place>
     </place>
     <place xml:id="fontainebleau_hotel-albret">
       <name>Fontainebleau, Hôtel d'Albret</name>
@@ -38,15 +51,8 @@
       <settlement>Fontainebleau</settlement>
       <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Fichier:Pavillon_d%27entree_de_l%27ancien_H%C3%B4tel_d%27Albret_15_place_d%27Armes_a_Fontainebleau_DSC_0035.jpg</identifier>
     </place>
-    <place xml:id="fontainebleau_chapelle">
-      <name>Fontainebleau, Chapelle de Fréminet</name>
-      <name>Chapelle de la Trinité</name>
-      <geo>48.402140, 2.699699</geo>
-      <country>France</country>
-      <settlement>Fontainebleau</settlement>
-      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Fontainebleau</identifier>
-    </place>
   </place>
+  
   <place xml:id="france">
     <name>France</name>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/France</identifier>
@@ -65,163 +71,170 @@
     <name>Italie</name>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Italie</identifier>
   </place>
-  <place xml:id="paris_rue-saint-antoine">
-    <name>Paris, Rue Saint-Antoine</name>
-    <geo>48.854449, 2.363732</geo>
-    <country>France</country>
-    <settlement>Paris</settlement>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Rue_Saint-Antoine_(Paris)</identifier>
-  </place>
+  
+
   <place xml:id="paris">
     <name>Paris</name>
     <country>France</country>
     <settlement>Paris</settlement>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Paris</identifier>
     <identifier type="geonames">https://www.geonames.org/2988507</identifier>
+    <place xml:id="paris_arsenal">
+      <name>Paris, Arsenal</name>
+      <name>Bibliothèque de l'Arsenal</name>
+      <geo>48.850360, 2.364179</geo>
+      <country>France</country>
+      <settlement>Paris</settlement>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Arsenal_de_Paris</identifier>
+    </place>
+    <place xml:id="paris_rue-saint-antoine">
+      <name>Paris, Rue Saint-Antoine</name>
+      <geo>48.854449, 2.363732</geo>
+      <country>France</country>
+      <settlement>Paris</settlement>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Rue_Saint-Antoine_(Paris)</identifier>
+    </place>
+    <place xml:id="paris_chaillot_couvent">
+      <name>Paris, Couvent des Visitandines de Chaillot</name>
+      <name>Détruit</name>
+      <geo>48.861297, 2.287158</geo>
+      <country>France</country>
+      <settlement>Paris</settlement>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Couvent_des_Visitandines_de_Chaillot</identifier>
+    </place>
+    <place xml:id="paris_hotel-bourgogne">
+      <name>Paris, Hôtel de Bourgogne</name>
+      <name>Tour Jean Sans Peur</name>
+      <geo>48.864442, 2.348406</geo>
+      <country>France</country>
+      <settlement>Paris</settlement>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/H%C3%B4tel_de_Bourgogne_(Paris)</identifier>
+    </place>
+    <place xml:id="paris_hotel-vendome">
+      <name>Paris, Hôtel de Vendôme</name>
+      <name>Place Vendôme</name>
+      <geo>48.866804, 2.328786</geo>
+      <country>France</country>
+      <settlement>Paris</settlement>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/H%C3%B4tel_de_Vend%C3%B4me_(rue_Saint-Honor%C3%A9)</identifier>
+    </place>
+    <place xml:id="paris_louvre">
+      <name>Paris, Louvre</name>
+      <name>Musée du Louvre</name>
+      <geo>48.860659, 2.338038</geo>
+      <country>France</country>
+      <settlement>Paris</settlement>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Palais_du_Louvre</identifier>
+    </place>
+    <place xml:id="paris_palais-royal">
+      <name>Paris, Palais Royal</name>
+      <geo>48.863788, 2.337395</geo>
+      <country>France</country>
+      <settlement>Paris</settlement>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Palais-Royal</identifier>
+    </place>
+    <place xml:id="paris_palais-royal_theatre">
+      <name>Paris, Théâtre du Palais-Royal</name>
+      <name>Disparu</name>
+      <geo>48.863206, 2.337492</geo>
+      <country>France</country>
+      <settlement>Paris</settlement>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Th%C3%A9%C3%A2tre_du_Palais-Royal_(1641%E2%80%931781)</identifier>
+    </place>
+    <place xml:id="paris_place-vosges">
+      <name>Paris, Place Royale</name>
+      <name>Place des Vosges</name>
+      <geo>48.855520, 2.365602</geo>
+      <country>France</country>
+      <settlement>Paris</settlement>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Place_des_Vosges</identifier>
+    </place>
+    <place xml:id="paris_place_tuileries">
+      <name>Paris, Place des Tuileries</name>
+      <name>Arc de Triomphe des Tuileries</name>
+      <geo>48.861792, 2.333142</geo>
+      <country>France</country>
+      <settlement>Paris</settlement>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jardin_des_Tuileries</identifier>
+    </place>
+    <place xml:id="paris_rue-saint-honore">
+      <name>Paris, Rue Saint-Honoré</name>
+      <geo>48.864082, 2.333858</geo>
+      <country>France</country>
+      <settlement>Paris</settlement>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Rue_Saint-Honor%C3%A9</identifier>
+    </place>
+    <place xml:id="paris_rue-saint-nicaise">
+      <name>Rue Saint-Niçaise</name>
+      <name>Disparue</name>
+      <geo>48.861229, 2.334836</geo>
+      <country>France</country>
+      <settlement>Paris</settlement>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Rue_Saint-Nicaise</identifier>
+    </place>
+    <place xml:id="paris_rue-richelieu">
+      <name>Paris, Rue de Richelieu</name>
+      <geo>48.867865, 2.337846</geo>
+      <country>France</country>
+      <settlement>Paris</settlement>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Rue_de_Richelieu</identifier>
+    </place>
+    <place xml:id="paris_saint-germain-l-auxerrois">
+      <name>Paris, Paroisse Saint-Germain l'Auxerrois</name>
+      <geo>48.859540, 2.342038</geo>
+      <country>France</country>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Quartier_Saint-Germain-l%27Auxerrois</identifier>
+    </place>
+    <place xml:id="paris_saint-louis-des-jesuites">
+      <name>Paris, Église Saint Louis des Jésuites</name>
+      <name>Eglise St-Paul St-Louis</name>
+      <geo>48.854570, 2.361736</geo>
+      <country>France</country>
+      <settlement>Paris</settlement>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/%C3%89glise_Saint-Paul-Saint-Louis</identifier>
+    </place>
+    <place xml:id="paris_saint-paul-des-champs">
+      <name>Paris, Église Saint Paul des Champs</name>
+      <name>30-32 rue Saint-Paul (Paris)</name>
+      <geo>48.853922, 2.362283</geo>
+      <country>France</country>
+      <settlement>Paris</settlement>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Ancienne_%C3%A9glise_Saint-Paul-des-Champs</identifier>
+    </place>
+    <place xml:id="paris_saint-roch">
+      <name>Paris, Paroisse Saint-Roch</name>
+      <geo>48.866196, 2.332785</geo>
+      <country>France</country>
+      <settlement>Paris</settlement>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/%C3%89glise_Saint-Roch_de_Paris</identifier>
+    </place>
+    <place xml:id="paris_rue-sainte-anne">
+      <name>Paris, Rue Sainte-Anne</name>
+      <geo>48.865930, 2.335369</geo>
+      <country>France</country>
+      <settlement>Paris</settlement>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Rue_Sainte-Anne_(Paris)</identifier>
+    </place>
+    <place xml:id="paris_tuileries_chateau">
+      <name>Paris, Palais des Tuileries</name>
+      <geo>48.862226, 2.331402</geo>
+      <country>France</country>
+      <settlement>Paris</settlement>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Palais_des_Tuileries</identifier>
+    </place>
+    <place xml:id="paris_rue-saint-jacques">
+      <name>Paris, Rue Saint Jacques </name>
+      <geo>48.845473, 2.342599</geo>
+      <country>France</country>
+      <settlement>Paris</settlement>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Rue_Saint-Jacques_(Paris)</identifier>
+    </place>
   </place>
-  <place xml:id="paris_arsenal">
-    <name>Paris, Arsenal</name>
-    <name>Bibliothèque de l'Arsenal</name>
-    <geo>48.850360, 2.364179</geo>
+  
+  <place xml:id="saint-cloud">
+    <name>Saint-Cloud</name>
     <country>France</country>
-    <settlement>Paris</settlement>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Arsenal_de_Paris</identifier>
-  </place>
-  <place xml:id="paris_chaillot_couvent">
-    <name>Paris, Couvent des Visitandines de Chaillot</name>
-    <name>Détruit</name>
-    <geo>48.861297, 2.287158</geo>
-    <country>France</country>
-    <settlement>Paris</settlement>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Couvent_des_Visitandines_de_Chaillot</identifier>
-  </place>
-  <place xml:id="paris_hotel-bourgogne">
-    <name>Paris, Hôtel de Bourgogne</name>
-    <name>Tour Jean Sans Peur</name>
-    <geo>48.864442, 2.348406</geo>
-    <country>France</country>
-    <settlement>Paris</settlement>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/H%C3%B4tel_de_Bourgogne_(Paris)</identifier>
-  </place>
-  <place xml:id="paris_hotel-vendome">
-    <name>Paris, Hôtel de Vendôme</name>
-    <name>Place Vendôme</name>
-    <geo>48.866804, 2.328786</geo>
-    <country>France</country>
-    <settlement>Paris</settlement>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/H%C3%B4tel_de_Vend%C3%B4me_(rue_Saint-Honor%C3%A9)</identifier>
-  </place>
-  <place xml:id="paris_louvre">
-    <name>Paris, Louvre</name>
-    <name>Musée du Louvre</name>
-    <geo>48.860659, 2.338038</geo>
-    <country>France</country>
-    <settlement>Paris</settlement>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Palais_du_Louvre</identifier>
-  </place>
-  <place xml:id="paris_palais-royal">
-    <name>Paris, Palais Royal</name>
-    <geo>48.863788, 2.337395</geo>
-    <country>France</country>
-    <settlement>Paris</settlement>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Palais-Royal</identifier>
-  </place>
-  <place xml:id="paris_palais-royal_theatre">
-    <name>Paris, Théâtre du Palais-Royal</name>
-    <name>Disparu</name>
-    <geo>48.863206, 2.337492</geo>
-    <country>France</country>
-    <settlement>Paris</settlement>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Th%C3%A9%C3%A2tre_du_Palais-Royal_(1641%E2%80%931781)</identifier>
-  </place>
-  <place xml:id="paris_place-vosges">
-    <name>Paris, Place Royale</name>
-    <name>Place des Vosges</name>
-    <geo>48.855520, 2.365602</geo>
-    <country>France</country>
-    <settlement>Paris</settlement>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Place_des_Vosges</identifier>
-  </place>
-  <place xml:id="paris_place_tuileries">
-    <name>Paris, Place des Tuileries</name>
-    <name>Arc de Triomphe des Tuileries</name>
-    <geo>48.861792, 2.333142</geo>
-    <country>France</country>
-    <settlement>Paris</settlement>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jardin_des_Tuileries</identifier>
-  </place>
-  <place xml:id="paris_rue-saint-honore">
-    <name>Paris, Rue Saint-Honoré</name>
-    <geo>48.864082, 2.333858</geo>
-    <country>France</country>
-    <settlement>Paris</settlement>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Rue_Saint-Honor%C3%A9</identifier>
-  </place>
-  <place xml:id="paris_rue-saint-nicaise">
-    <name>Rue Saint-Niçaise</name>
-    <name>Disparue</name>
-    <geo>48.861229, 2.334836</geo>
-    <country>France</country>
-    <settlement>Paris</settlement>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Rue_Saint-Nicaise</identifier>
-  </place>
-  <place xml:id="paris_rue-richelieu">
-    <name>Paris, Rue de Richelieu</name>
-    <geo>48.867865, 2.337846</geo>
-    <country>France</country>
-    <settlement>Paris</settlement>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Rue_de_Richelieu</identifier>
-  </place>
-  <place xml:id="paris_saint-germain-l-auxerrois">
-    <name>Paris, Paroisse Saint-Germain l'Auxerrois</name>
-    <geo>48.859540, 2.342038</geo>
-    <country>France</country>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Quartier_Saint-Germain-l%27Auxerrois</identifier>
-  </place>
-  <place xml:id="paris_saint-louis-des-jesuites">
-    <name>Paris, Église Saint Louis des Jésuites</name>
-    <name>Eglise St-Paul St-Louis</name>
-    <geo>48.854570, 2.361736</geo>
-    <country>France</country>
-    <settlement>Paris</settlement>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/%C3%89glise_Saint-Paul-Saint-Louis</identifier>
-  </place>
-  <place xml:id="paris_saint-paul-des-champs">
-    <name>Paris, Église Saint Paul des Champs</name>
-    <name>30-32 rue Saint-Paul (Paris)</name>
-    <geo>48.853922, 2.362283</geo>
-    <country>France</country>
-    <settlement>Paris</settlement>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Ancienne_%C3%A9glise_Saint-Paul-des-Champs</identifier>
-  </place>
-  <place xml:id="paris_saint-roch">
-    <name>Paris, Paroisse Saint-Roch</name>
-    <geo>48.866196, 2.332785</geo>
-    <country>France</country>
-    <settlement>Paris</settlement>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/%C3%89glise_Saint-Roch_de_Paris</identifier>
-  </place>
-  <place xml:id="paris_rue-sainte-anne">
-    <name>Paris, Rue Sainte-Anne</name>
-    <geo>48.865930, 2.335369</geo>
-    <country>France</country>
-    <settlement>Paris</settlement>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Rue_Sainte-Anne_(Paris)</identifier>
-  </place>
-  <place xml:id="paris_tuileries_chateau">
-    <name>Paris, Palais des Tuileries</name>
-    <geo>48.862226, 2.331402</geo>
-    <country>France</country>
-    <settlement>Paris</settlement>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Palais_des_Tuileries</identifier>
-  </place>
-  <place xml:id="paris_rue-saint-jacques">
-    <name>Paris, Rue Saint Jacques </name>
-    <geo>48.845473, 2.342599</geo>
-    <country>France</country>
-    <settlement>Paris</settlement>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Rue_Saint-Jacques_(Paris)</identifier>
-  </place>
+    <settlement>Saint-Cloud</settlement>
   <place xml:id="saint-cloud_chateau">
     <name>Saint-Cloud, Château de Saint-Cloud</name>
     <name>Dom. Nat de Saint Cloud</name>
@@ -229,14 +242,14 @@
     <country>France</country>
     <settlement>Saint-Cloud</settlement>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Saint-Cloud</identifier>
-  </place>
-  <place xml:id="saint-cloud_jardins">
-    <name>Saint-Cloud, Jardins du château de Saint-Cloud</name>
-    <name>Dom. Nat de Saint Cloud</name>
-    <geo>48.837486, 2.213790 </geo>
-    <country>France</country>
-    <settlement>Saint-Cloud</settlement>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Domaine_national_de_Saint-Cloud</identifier>
+    <place xml:id="saint-cloud_jardins">
+      <name>Saint-Cloud, Jardins du château de Saint-Cloud</name>
+      <name>Dom. Nat de Saint Cloud</name>
+      <geo>48.837486, 2.213790 </geo>
+      <country>France</country>
+      <settlement>Saint-Cloud</settlement>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Domaine_national_de_Saint-Cloud</identifier>
+    </place>
   </place>
   <place xml:id="saint-cloud_ursulines">
     <name>Saint-Cloud, Monastère des Ursulines de Saint-Cloud</name>
@@ -246,6 +259,8 @@
     <settlement>Saint-Cloud</settlement>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Domaine_national_de_Saint-Cloud</identifier>
   </place>
+  </place>
+  
   <place xml:id="saint-germain">
     <name>Saint-Germain-en-Laye</name>
     <geo>48.898338, 2.097711 </geo>
@@ -253,6 +268,7 @@
     <settlement>Saint-Germain-en-Laye</settlement>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Saint-Germain-en-Laye</identifier>
   </place>
+  
   <place xml:id="savoie">
     <name>Savoie</name>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Savoie</identifier>
@@ -269,28 +285,169 @@
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Thrace</identifier>
     <identifier type="geonames">https://www.geonames.org/738770</identifier>
   </place>
+  
   <place xml:id="versailles">
     <name>Versailles</name>
     <geo>48.801819, 2.129133</geo>
     <country>France</country>
     <settlement>Versailles</settlement>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Versailles</identifier>
+    <place xml:id="versailles_chateau">
+      <name>Versailles, Château de Versailles</name>
+      <geo>48.804992, 2.121900</geo>
+      <country>France</country>
+      <settlement>Versailles</settlement>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Versailles</identifier>
+      <identifier type="geonames">https://www.geonames.org/6284980</identifier>
+      <place xml:id="versailles_orangerie">
+        <name>Versailles, L'Orangerie</name>
+        <geo>48.802657, 2.119101</geo>
+        <country>France</country>
+        <settlement>Versailles</settlement>
+        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Orangerie_du_ch%C3%A2teau_de_Versailles</identifier>
+      </place>
+      <place xml:id="versailles_grand-parc">
+        <name>Versailles, Grand parc de Versailles</name>
+        <geo>48.810100, 2.099950</geo>
+        <country>France</country>
+        <settlement>Versailles</settlement>
+        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Parc_de_Versailles</identifier>
+        <place xml:id="versailles_canal">
+          <name>Versailles, Canal de Versailles</name>
+          <geo>48.804828, 2.120332</geo>
+          <country>France</country>
+          <settlement>Versailles</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Grand_Canal_de_Versailles</identifier>
+        </place>
+      </place>
+      <place xml:id="versailles_trianon">
+        <name>Versailles, Trianon</name>
+        <geo>48.814697, 2.105503</geo>
+        <country>France</country>
+        <settlement>Versailles</settlement>
+        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Grand_Trianon</identifier>
+      </place>
+      <place xml:id="versailles_jardins">
+        <name>Versailles, Jardins de Versailles</name>
+        <geo>48.802759, 2.118029</geo>
+        <country>France</country>
+        <settlement>Versailles</settlement>
+        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jardin_de_Versailles</identifier>
+        <place xml:id="versailles_jardins_allee-des-pres">
+          <name>Versailles, Allée des prés, Allée de Cérès et de Flore</name>
+          <geo>48.808373, 2.114021</geo>
+          <country>France</country>
+          <settlement>Versailles</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/All%C3%A9e_des_Pr%C3%A9s_Bouillons</identifier>
+        </place>
+        <place xml:id="versailles_jardins_allee-du-roi">
+          <name>Versailles, Allée du Roi, Allée de Bacchus et de Saturne</name>
+          <geo>48.805003, 2.112412</geo>
+          <country>France</country>
+          <settlement>Versailles</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jardin_de_Versailles</identifier>
+        </place>
+        <place xml:id="versailles_jardins_allee-royale">
+          <name>Versailles, Allée Royale du château de Versailles, le Tapis Vert</name>
+          <geo>48.806599, 2.114053</geo>
+          <country>France</country>
+          <settlement>Versailles</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jardin_de_Versailles</identifier>
+        </place>
+        <place xml:id="versailles_jardins_avenues">
+          <name>Versailles, Avenues du Parc de Versailles</name>
+          <geo>48.807035, 2.111345</geo>
+          <country>France</country>
+          <settlement>Versailles</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jardin_de_Versailles</identifier>
+        </place>
+        <place xml:id="versailles_jardins_bassin-apollon">
+          <name>Versailles, Bassin des Cygnes/Lac d'Alcine</name>
+          <name>Bassin d'Apollon</name>
+          <geo>48.807634, 2.111452</geo>
+          <country>France</country>
+          <settlement>Versailles</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Bassin_d%27Apollon</identifier>
+        </place>
+        <place xml:id="versailles_jardins_bassin-ceres">
+          <name>Versailles, La Salle de bal</name>
+          <name>Bassin de Cérès</name>
+          <geo>48.807503, 2.117222</geo>
+          <country>France</country>
+          <settlement>Versailles</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Bassin_de_C%C3%A9r%C3%A8s</identifier>
+        </place>
+        <place xml:id="versailles_jardins_bassin-flore">
+          <name>Versailles, Le Buffet, la Grotte</name>
+          <name>Bassin de Flore</name>
+          <geo>48.808177, 2.114666</geo>
+          <country>France</country>
+          <settlement>Versailles</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Bassin_de_Flore</identifier>
+        </place>
+        <place xml:id="versailles_jardins_dragon">
+          <name>Versailles, Allée et fontaine du Dragon</name>
+          <geo>48.808214, 2.122281</geo>
+          <country>France</country>
+          <settlement>Versailles</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Bassin_du_Dragon</identifier>
+        </place>
+        <place xml:id="versailles_jardins_grande-allee">
+          <name>Versailles, Grande Allée de Versailles</name>
+          <geo>48.806314, 2.114093</geo>
+          <country>France</country>
+          <settlement>Versailles</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jardin_de_Versailles</identifier>
+        </place>
+        <place xml:id="versailles_jardins_grande-terrasse">
+          <name>Versailles, Grande Terrasse de Versailles</name>
+          <geo>48.805280, 2.118511</geo>
+          <country>France</country>
+          <settlement>Versailles</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Versailles</identifier>
+        </place>
+        <place xml:id="versailles_jardins_grotte-thetis">
+          <name>Versailles, Grotte de Thetis</name>
+          <geo>48.805638, 2.122270</geo>
+          <country>France</country>
+          <settlement>Versailles</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Grotte_de_T%C3%A9thys</identifier>
+        </place>
+        <place xml:id="versailles_jardins_menagerie">
+          <name>Versailles, Ménagerie</name>
+          <name>Détruite</name>
+          <geo>48.804422, 2.092659</geo>
+          <country>France</country>
+          <settlement>Versailles</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/M%C3%A9nagerie_royale_de_Versailles</identifier>
+        </place>
+        <place xml:id="versailles_jardins_obelisque">
+          <name>Versailles, Bosquet de la salle du Conseil</name>
+          <name>Bosquet de l'obélisque</name>
+          <geo>48.808843, 2.113953</geo>
+          <country>France</country>
+          <settlement>Versailles</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Bosquet_de_l%27Ob%C3%A9lisque</identifier>
+        </place>
+        <place xml:id="versailles_jardins_parterre-latone">
+          <name>Versailles, Parterre de Latone</name>
+          <geo>48.805669, 2.117073</geo>
+          <country>France</country>
+          <settlement>Versailles</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Parterre_de_Latone</identifier>
+        </place>
+        <place xml:id="versailles_jardins_petit-parc">
+          <name>Versailles, Petit Parc de Versailles</name>
+          <geo>48.806319, 2.114681</geo>
+          <country>France</country>
+          <settlement>Versailles</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jardin_de_Versailles</identifier>
+        </place>
+      </place>
+    </place>
   </place>
-  <place xml:id="versailles_canal">
-    <name>Versailles, Canal de Versailles</name>
-    <geo>48.804828, 2.120332</geo>
-    <country>France</country>
-    <settlement>Versailles</settlement>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Grand_Canal_de_Versailles</identifier>
-  </place>
-  <place xml:id="versailles_chateau">
-    <name>Versailles, Château de Versailles</name>
-    <geo>48.804992, 2.121900</geo>
-    <country>France</country>
-    <settlement>Versailles</settlement>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Versailles</identifier>
-    <identifier type="geonames">https://www.geonames.org/6284980</identifier>
-  </place>
+  
+  
   <place xml:id="versailles_cour">
     <name>Versailles, Cour de Versailles</name>
     <geo>48.804759, 2.120846</geo>
@@ -306,144 +463,11 @@
     <settlement>Versailles</settlement>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Hydraulique_du_parc_du_ch%C3%A2teau_de_Versailles</identifier>
   </place>
-  <place xml:id="versailles_grand-parc">
-    <name>Versailles, Grand parc de Versailles</name>
-    <geo>48.810100, 2.099950</geo>
-    <country>France</country>
-    <settlement>Versailles</settlement>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Parc_de_Versailles</identifier>
-  </place>
-  <place xml:id="versailles_jardins">
-    <name>Versailles, Jardins de Versailles</name>
-    <geo>48.802759, 2.118029</geo>
-    <country>France</country>
-    <settlement>Versailles</settlement>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jardin_de_Versailles</identifier>
-  </place>
-  <place xml:id="versailles_jardins_allee-des-pres">
-    <name>Versailles, Allée des prés, Allée de Cérès et de Flore</name>
-    <geo>48.808373, 2.114021</geo>
-    <country>France</country>
-    <settlement>Versailles</settlement>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/All%C3%A9e_des_Pr%C3%A9s_Bouillons</identifier>
-  </place>
-  <place xml:id="versailles_jardins_allee-du-roi">
-    <name>Versailles, Allée du Roi, Allée de Bacchus et de Saturne</name>
-    <geo>48.805003, 2.112412</geo>
-    <country>France</country>
-    <settlement>Versailles</settlement>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jardin_de_Versailles</identifier>
-  </place>
-  <place xml:id="versailles_jardins_allee-royale">
-    <name>Versailles, Allée Royale du château de Versailles, le Tapis Vert</name>
-    <geo>48.806599, 2.114053</geo>
-    <country>France</country>
-    <settlement>Versailles</settlement>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jardin_de_Versailles</identifier>
-  </place>
-  <place xml:id="versailles_jardins_avenues">
-    <name>Versailles, Avenues du Parc de Versailles</name>
-    <geo>48.807035, 2.111345</geo>
-    <country>France</country>
-    <settlement>Versailles</settlement>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jardin_de_Versailles</identifier>
-  </place>
-  <place xml:id="versailles_jardins_bassin-apollon">
-    <name>Versailles, Bassin des Cygnes/Lac d'Alcine</name>
-    <name>Bassin d'Apollon</name>
-    <geo>48.807634, 2.111452</geo>
-    <country>France</country>
-    <settlement>Versailles</settlement>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Bassin_d%27Apollon</identifier>
-  </place>
-  <place xml:id="versailles_jardins_bassin-ceres">
-    <name>Versailles, La Salle de bal</name>
-    <name>Bassin de Cérès</name>
-    <geo>48.807503, 2.117222</geo>
-    <country>France</country>
-    <settlement>Versailles</settlement>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Bassin_de_C%C3%A9r%C3%A8s</identifier>
-  </place>
-  <place xml:id="versailles_jardins_bassin-flore">
-    <name>Versailles, Le Buffet, la Grotte</name>
-    <name>Bassin de Flore</name>
-    <geo>48.808177, 2.114666</geo>
-    <country>France</country>
-    <settlement>Versailles</settlement>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Bassin_de_Flore</identifier>
-  </place>
-  <place xml:id="versailles_jardins_dragon">
-    <name>Versailles, Allée et fontaine du Dragon</name>
-    <geo>48.808214, 2.122281</geo>
-    <country>France</country>
-    <settlement>Versailles</settlement>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Bassin_du_Dragon</identifier>
-  </place>
-  <place xml:id="versailles_jardins_grande-allee">
-    <name>Versailles, Grande Allée de Versailles</name>
-    <geo>48.806314, 2.114093</geo>
-    <country>France</country>
-    <settlement>Versailles</settlement>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jardin_de_Versailles</identifier>
-  </place>
-  <place xml:id="versailles_jardins_grande-terrasse">
-    <name>Versailles, Grande Terrasse de Versailles</name>
-    <geo>48.805280, 2.118511</geo>
-    <country>France</country>
-    <settlement>Versailles</settlement>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Versailles</identifier>
-  </place>
-  <place xml:id="versailles_jardins_grotte-thetis">
-    <name>Versailles, Grotte de Thetis</name>
-    <geo>48.805638, 2.122270</geo>
-    <country>France</country>
-    <settlement>Versailles</settlement>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Grotte_de_T%C3%A9thys</identifier>
-  </place>
-  <place xml:id="versailles_jardins_menagerie">
-    <name>Versailles, Ménagerie</name>
-    <name>Détruite</name>
-    <geo>48.804422, 2.092659</geo>
-    <country>France</country>
-    <settlement>Versailles</settlement>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/M%C3%A9nagerie_royale_de_Versailles</identifier>
-  </place>
-  <place xml:id="versailles_jardins_obelisque">
-    <name>Versailles, Bosquet de la salle du Conseil</name>
-    <name>Bosquet de l'obélisque</name>
-    <geo>48.808843, 2.113953</geo>
-    <country>France</country>
-    <settlement>Versailles</settlement>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Bosquet_de_l%27Ob%C3%A9lisque</identifier>
-  </place>
-  <place xml:id="versailles_jardins_parterre-latone">
-    <name>Versailles, Parterre de Latone</name>
-    <geo>48.805669, 2.117073</geo>
-    <country>France</country>
-    <settlement>Versailles</settlement>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Parterre_de_Latone</identifier>
-  </place>
-  <place xml:id="versailles_jardins_petit-parc">
-    <name>Versailles, Petit Parc de Versailles</name>
-    <geo>48.806319, 2.114681</geo>
-    <country>France</country>
-    <settlement>Versailles</settlement>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jardin_de_Versailles</identifier>
-  </place>
-  <place xml:id="versailles_orangerie">
-    <name>Versailles, L'Orangerie</name>
-    <geo>48.802657, 2.119101</geo>
-    <country>France</country>
-    <settlement>Versailles</settlement>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Orangerie_du_ch%C3%A2teau_de_Versailles</identifier>
-  </place>
-  <place xml:id="versailles_trianon">
-    <name>Versailles, Trianon</name>
-    <geo>48.814697, 2.105503</geo>
-    <country>France</country>
-    <settlement>Versailles</settlement>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Grand_Trianon</identifier>
-  </place>
+  
+  
+ 
+  
+
   <place xml:id="vincennes_chateau">
     <name>Vincennes, Château de Vincennes</name>
     <geo>48.842646, 2.435955</geo>
