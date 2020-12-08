@@ -5,7 +5,7 @@
       <ref name="listEvent"/>
       <ref name="listPlace"/>
       <ref name="listPerson"/>
-      <ref name="keywords"/>
+      <ref name="superEntry"/>
     </choice>
   </start>
   <!--
@@ -164,17 +164,31 @@
     </attribute>
   </define>
   <!-- liste de termes -->
-  <define name="keywords">
-    <element name="keywords">
+  <define name="superEntry">
+    <element name="superEntry">
       <ref name="xml.lang"/>
+      <ref name="form"/>
       <oneOrMore>
-        <ref name="term"/>
+        <ref name="entry"/>
       </oneOrMore>
     </element>
   </define>
-  <define name="term">
-    <element name="term">
+  <define name="entry">
+    <element name="entry">
       <ref name="xml.id"/>
+      <ref name="form"/>
+      <optional>
+        <element name="def">
+          <text/>
+        </element>
+      </optional>
+      <zeroOrMore>
+        <ref name="entry"/>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="form">
+    <element name="form">
       <text/>
     </element>
   </define>
