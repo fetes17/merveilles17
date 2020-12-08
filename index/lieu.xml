@@ -193,37 +193,7 @@
       <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Rue_Saint-Jacques_(Paris)</identifier>
     </place>
   </place>
-  
-  <place xml:id="saint-cloud">
-    <name>Saint-Cloud</name>
-    <country>France</country>
-    <settlement>Saint-Cloud</settlement>
-  <place xml:id="saint-cloud_chateau">
-    <name>Saint-Cloud, Château de Saint-Cloud</name>
-    <name>Dom. Nat de Saint Cloud</name>
-    <geo>48.837627, 2.216655</geo>
-    <country>France</country>
-    <settlement>Saint-Cloud</settlement>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Saint-Cloud</identifier>
-    <place xml:id="saint-cloud_jardins">
-      <name>Saint-Cloud, Jardins du château de Saint-Cloud</name>
-      <name>Dom. Nat de Saint Cloud</name>
-      <geo>48.837486, 2.213790 </geo>
-      <country>France</country>
-      <settlement>Saint-Cloud</settlement>
-      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Domaine_national_de_Saint-Cloud</identifier>
-    </place>
-  </place>
-  <place xml:id="saint-cloud_ursulines">
-    <name>Saint-Cloud, Monastère des Ursulines de Saint-Cloud</name>
-    <name>9 rue d'Orléans (Saint-Cloud)</name>
-    <geo>48.840129, 2.219135</geo>
-    <country>France</country>
-    <settlement>Saint-Cloud</settlement>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Domaine_national_de_Saint-Cloud</identifier>
-  </place>
-  </place>
-  
+ 
   <place xml:id="saint-germain">
     <name>Saint-Germain-en-Laye</name>
     <geo>48.898338, 2.097711 </geo>
@@ -252,7 +222,14 @@
         <settlement>Versailles</settlement>
         <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Orangerie_du_ch%C3%A2teau_de_Versailles</identifier>
       </place>
-      <place xml:id="versailles_grand-parc">
+      <place xml:id="versailles_jardins_menagerie">
+        <name>Versailles, Ménagerie</name>
+        <name>Détruite</name>
+        <geo>48.804422, 2.092659</geo>
+        <country>France</country>
+        <settlement>Versailles</settlement>
+        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/M%C3%A9nagerie_royale_de_Versailles</identifier>
+      </place><place xml:id="versailles_grand-parc">
         <name>Versailles, Grand parc de Versailles</name>
         <geo>48.810100, 2.099950</geo>
         <country>France</country>
@@ -359,14 +336,6 @@
           <settlement>Versailles</settlement>
           <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Grotte_de_T%C3%A9thys</identifier>
         </place>
-        <place xml:id="versailles_jardins_menagerie">
-          <name>Versailles, Ménagerie</name>
-          <name>Détruite</name>
-          <geo>48.804422, 2.092659</geo>
-          <country>France</country>
-          <settlement>Versailles</settlement>
-          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/M%C3%A9nagerie_royale_de_Versailles</identifier>
-        </place>
         <place xml:id="versailles_jardins_obelisque">
           <name>Versailles, Bosquet de la salle du Conseil</name>
           <name>Bosquet de l'obélisque</name>
@@ -417,11 +386,11 @@
     <settlement>Vincennes</settlement>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Vincennes</identifier>
   </place>
-</listPlace>
 
 
 
-<place xml:id="europe">
+
+ <place xml:id="europe">
   <name>Europe</name>
   <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Europe</identifier>
   <place xml:id="espagne">
@@ -459,6 +428,35 @@
     <name>France</name>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/France</identifier>
     <identifier type="geonames">https://www.geonames.org/3017382</identifier>
+    <place xml:id="saint-cloud">
+      <name>Saint-Cloud</name>
+      <country>France</country>
+      <settlement>Saint-Cloud</settlement>
+      <place xml:id="saint-cloud_chateau">
+        <name>Saint-Cloud, Château de Saint-Cloud</name>
+        <name>Dom. Nat de Saint Cloud</name>
+        <geo>48.837627, 2.216655</geo>
+        <country>France</country>
+        <settlement>Saint-Cloud</settlement>
+        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Saint-Cloud</identifier>
+        <place xml:id="saint-cloud_jardins">
+          <name>Saint-Cloud, Jardins du château de Saint-Cloud</name>
+          <name>Dom. Nat de Saint Cloud</name>
+          <geo>48.837486, 2.213790 </geo>
+          <country>France</country>
+          <settlement>Saint-Cloud</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Domaine_national_de_Saint-Cloud</identifier>
+        </place>
+      </place>
+      <place xml:id="saint-cloud_ursulines">
+        <name>Saint-Cloud, Monastère des Ursulines de Saint-Cloud</name>
+        <name>9 rue d'Orléans (Saint-Cloud)</name>
+        <geo>48.840129, 2.219135</geo>
+        <country>France</country>
+        <settlement>Saint-Cloud</settlement>
+        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Domaine_national_de_Saint-Cloud</identifier>
+      </place>
+    </place>
     <place xml:id="suresne_mont-valerien">
       <name>Suresne, Mont Valérien</name>
       <geo>48.873225, 2.213064</geo>
@@ -466,14 +464,14 @@
       <settlement>Suresne</settlement>
       <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Mont_Val%C3%A9rien</identifier>
     </place>
-  </place>
   <place xml:id="franche-comte">
     <name>Franche-Comté</name>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Franche-Comt%C3%A9</identifier>
   </place>
 </place>
+</place>
 
-
+</listPlace>
 
 
 
