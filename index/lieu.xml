@@ -2,7 +2,55 @@
 <?xml-model href="index.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listPlace xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   
-  <place xml:id="fontainebleau">
+  <place xml:id="france">
+    <name>France</name>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/France</identifier>
+    <identifier type="geonames">https://www.geonames.org/3017382</identifier>
+    
+    <place xml:id="vincennes_chateau">
+      <name>Vincennes, Château de Vincennes</name>
+      <geo>48.842646, 2.435955</geo>
+      <country>France</country>
+      <settlement>Vincennes</settlement>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Vincennes</identifier>
+    </place>
+    <place xml:id="saint-cloud">
+      <name>Saint-Cloud</name>
+      <country>France</country>
+      <settlement>Saint-Cloud</settlement>
+      <place xml:id="saint-cloud_chateau">
+        <name>Saint-Cloud, Château de Saint-Cloud</name>
+        <name>Dom. Nat de Saint Cloud</name>
+        <geo>48.837627, 2.216655</geo>
+        <country>France</country>
+        <settlement>Saint-Cloud</settlement>
+        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Saint-Cloud</identifier>
+        <place xml:id="saint-cloud_jardins">
+          <name>Saint-Cloud, Jardins du château de Saint-Cloud</name>
+          <name>Dom. Nat de Saint Cloud</name>
+          <geo>48.837486, 2.213790 </geo>
+          <country>France</country>
+          <settlement>Saint-Cloud</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Domaine_national_de_Saint-Cloud</identifier>
+        </place>
+      </place>
+      <place xml:id="saint-cloud_ursulines">
+        <name>Saint-Cloud, Monastère des Ursulines de Saint-Cloud</name>
+        <name>9 rue d'Orléans (Saint-Cloud)</name>
+        <geo>48.840129, 2.219135</geo>
+        <country>France</country>
+        <settlement>Saint-Cloud</settlement>
+        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Domaine_national_de_Saint-Cloud</identifier>
+      </place>
+    </place>
+    <place xml:id="suresne_mont-valerien">
+      <name>Suresne, Mont Valérien</name>
+      <geo>48.873225, 2.213064</geo>
+      <country>France</country>
+      <settlement>Suresne</settlement>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Mont_Val%C3%A9rien</identifier>
+    </place>
+      <place xml:id="fontainebleau">
     <name>Fontainebleau</name>
     <country>France</country>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Fontainebleau</identifier>
@@ -376,7 +424,7 @@
         </place>
       </place>
     </place>
-  </place>
+  </place></place>
   
   
   
@@ -411,63 +459,15 @@
     <name>Savoie</name>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Savoie</identifier>
   </place>
+   <place xml:id="franche-comte">
+     <name>Franche-Comté</name>
+     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Franche-Comt%C3%A9</identifier>
+   </place>
   <place xml:id="allemagne">
     <name>Allemagne</name>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Allemagne</identifier>
   </place>
-  <place xml:id="france">
-    <name>France</name>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/France</identifier>
-    <identifier type="geonames">https://www.geonames.org/3017382</identifier>
-    
-    <place xml:id="vincennes_chateau">
-      <name>Vincennes, Château de Vincennes</name>
-      <geo>48.842646, 2.435955</geo>
-      <country>France</country>
-      <settlement>Vincennes</settlement>
-      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Vincennes</identifier>
-    </place>
-    <place xml:id="saint-cloud">
-      <name>Saint-Cloud</name>
-      <country>France</country>
-      <settlement>Saint-Cloud</settlement>
-      <place xml:id="saint-cloud_chateau">
-        <name>Saint-Cloud, Château de Saint-Cloud</name>
-        <name>Dom. Nat de Saint Cloud</name>
-        <geo>48.837627, 2.216655</geo>
-        <country>France</country>
-        <settlement>Saint-Cloud</settlement>
-        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Saint-Cloud</identifier>
-        <place xml:id="saint-cloud_jardins">
-          <name>Saint-Cloud, Jardins du château de Saint-Cloud</name>
-          <name>Dom. Nat de Saint Cloud</name>
-          <geo>48.837486, 2.213790 </geo>
-          <country>France</country>
-          <settlement>Saint-Cloud</settlement>
-          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Domaine_national_de_Saint-Cloud</identifier>
-        </place>
-      </place>
-      <place xml:id="saint-cloud_ursulines">
-        <name>Saint-Cloud, Monastère des Ursulines de Saint-Cloud</name>
-        <name>9 rue d'Orléans (Saint-Cloud)</name>
-        <geo>48.840129, 2.219135</geo>
-        <country>France</country>
-        <settlement>Saint-Cloud</settlement>
-        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Domaine_national_de_Saint-Cloud</identifier>
-      </place>
-    </place>
-    <place xml:id="suresne_mont-valerien">
-      <name>Suresne, Mont Valérien</name>
-      <geo>48.873225, 2.213064</geo>
-      <country>France</country>
-      <settlement>Suresne</settlement>
-      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Mont_Val%C3%A9rien</identifier>
-    </place>
-  <place xml:id="franche-comte">
-    <name>Franche-Comté</name>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Franche-Comt%C3%A9</identifier>
-  </place>
-</place>
+  
 </place>
 
 </listPlace>
