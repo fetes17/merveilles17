@@ -168,7 +168,9 @@
   <define name="superEntry">
     <element name="superEntry">
       <ref name="xml.lang"/>
-      <ref name="form"/>
+      <optional>
+        <ref name="form"/>
+      </optional>
       <oneOrMore>
         <ref name="entry"/>
       </oneOrMore>
