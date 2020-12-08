@@ -1,23 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="index.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listPlace xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
-  <place xml:id="allemagne">
-    <name>Allemagne</name>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Allemagne</identifier>
-  </place>
-  <place xml:id="elide" type="fictif">
-    <name>Elide</name>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/%C3%89lide</identifier>
-  </place>
-  <place xml:id="espagne">
-    <name>Espagne</name>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Espagne</identifier>
-    <identifier type="geonames">https://www.geonames.org/2510769</identifier>
-  </place>
-  <place xml:id="europe">
-    <name>Europe</name>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Europe</identifier>
-  </place>
   
   <place xml:id="fontainebleau">
     <name>Fontainebleau</name>
@@ -52,27 +35,7 @@
       <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Fichier:Pavillon_d%27entree_de_l%27ancien_H%C3%B4tel_d%27Albret_15_place_d%27Armes_a_Fontainebleau_DSC_0035.jpg</identifier>
     </place>
   </place>
-  
-  <place xml:id="france">
-    <name>France</name>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/France</identifier>
-    <identifier type="geonames">https://www.geonames.org/3017382</identifier>
-  </place>
-  <place xml:id="franche-comte">
-    <name>Franche-Comté</name>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Franche-Comt%C3%A9</identifier>
-  </place>
-  <place xml:id="grece" type="fictif">
-    <name>Grèce</name>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Gr%C3%A8ce</identifier>
-    <identifier type="geonames">https://www.geonames.org/390903</identifier>
-  </place>
-  <place xml:id="italie">
-    <name>Italie</name>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Italie</identifier>
-  </place>
-  
-
+ 
   <place xml:id="paris">
     <name>Paris</name>
     <country>France</country>
@@ -269,23 +232,6 @@
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Saint-Germain-en-Laye</identifier>
   </place>
   
-  <place xml:id="savoie">
-    <name>Savoie</name>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Savoie</identifier>
-  </place>
-  <place xml:id="suresne_mont-valerien">
-    <name>Suresne, Mont Valérien</name>
-    <geo>48.873225, 2.213064</geo>
-    <country>France</country>
-    <settlement>Suresne</settlement>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Mont_Val%C3%A9rien</identifier>
-  </place>
-  <place xml:id="thrace" type="fictif">
-    <name>Thrace</name>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Thrace</identifier>
-    <identifier type="geonames">https://www.geonames.org/738770</identifier>
-  </place>
-  
   <place xml:id="versailles">
     <name>Versailles</name>
     <geo>48.801819, 2.129133</geo>
@@ -464,10 +410,6 @@
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Hydraulique_du_parc_du_ch%C3%A2teau_de_Versailles</identifier>
   </place>
   
-  
- 
-  
-
   <place xml:id="vincennes_chateau">
     <name>Vincennes, Château de Vincennes</name>
     <geo>48.842646, 2.435955</geo>
@@ -476,3 +418,63 @@
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Vincennes</identifier>
   </place>
 </listPlace>
+
+
+
+<place xml:id="europe">
+  <name>Europe</name>
+  <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Europe</identifier>
+  <place xml:id="espagne">
+    <name>Espagne</name>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Espagne</identifier>
+    <identifier type="geonames">https://www.geonames.org/2510769</identifier>
+  </place>
+  <place xml:id="grece" type="fictif">
+    <name>Grèce</name>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Gr%C3%A8ce</identifier>
+    <identifier type="geonames">https://www.geonames.org/390903</identifier>
+    <place xml:id="elide" type="fictif">
+      <name>Elide</name>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/%C3%89lide</identifier>
+    </place>
+    <place xml:id="thrace" type="fictif">
+      <name>Thrace</name>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Thrace</identifier>
+      <identifier type="geonames">https://www.geonames.org/738770</identifier>
+    </place>
+  </place>
+  <place xml:id="italie">
+    <name>Italie</name>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Italie</identifier>
+  </place>
+  <place xml:id="savoie">
+    <name>Savoie</name>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Savoie</identifier>
+  </place>
+  <place xml:id="allemagne">
+    <name>Allemagne</name>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Allemagne</identifier>
+  </place>
+  <place xml:id="france">
+    <name>France</name>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/France</identifier>
+    <identifier type="geonames">https://www.geonames.org/3017382</identifier>
+    <place xml:id="suresne_mont-valerien">
+      <name>Suresne, Mont Valérien</name>
+      <geo>48.873225, 2.213064</geo>
+      <country>France</country>
+      <settlement>Suresne</settlement>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Mont_Val%C3%A9rien</identifier>
+    </place>
+  </place>
+  <place xml:id="franche-comte">
+    <name>Franche-Comté</name>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Franche-Comt%C3%A9</identifier>
+  </place>
+</place>
+
+
+
+
+
+
