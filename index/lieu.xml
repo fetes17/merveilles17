@@ -378,17 +378,6 @@
     <settlement>Versailles</settlement>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Hydraulique_du_parc_du_ch%C3%A2teau_de_Versailles</identifier>
   </place>
-  
-  <place xml:id="vincennes_chateau">
-    <name>Vincennes, Château de Vincennes</name>
-    <geo>48.842646, 2.435955</geo>
-    <country>France</country>
-    <settlement>Vincennes</settlement>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Vincennes</identifier>
-  </place>
-
-
-
 
  <place xml:id="europe">
   <name>Europe</name>
@@ -428,6 +417,14 @@
     <name>France</name>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/France</identifier>
     <identifier type="geonames">https://www.geonames.org/3017382</identifier>
+    
+    <place xml:id="vincennes_chateau">
+      <name>Vincennes, Château de Vincennes</name>
+      <geo>48.842646, 2.435955</geo>
+      <country>France</country>
+      <settlement>Vincennes</settlement>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Vincennes</identifier>
+    </place>
     <place xml:id="saint-cloud">
       <name>Saint-Cloud</name>
       <country>France</country>
