@@ -52,9 +52,10 @@
         <element name="identifier">
           <attribute name="type">
             <choice>
-              <value>wikipedia</value>
               <value>geonames</value>
               <value>googlemaps</value>
+              <value>mg</value>
+              <value>wikipedia</value>
             </choice>
           </attribute>
           <text/>

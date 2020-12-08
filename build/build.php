@@ -268,17 +268,27 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
   public static function load_lieu()
   {
     $q = self::$pdo->prepare("INSERT INTO lieu (code, label, coord, settlement, alt) VALUES (?, ?, ?, ?, ?)");
-    $root = simplexml_load_file(self::$home."index/lieu.xml");
     self::$pdo->beginTransaction();
-    foreach ($root->place as $record) {
-      $code = $record->attributes('xml', true)->id;
-      $label = (string)$record->name[0];
+
+
+    $root = new SimpleXMLElement(self::$home."index/lieu.xml", LIBXML_BIGLINES | LIBXML_NOCDATA | LIBXML_NONET | LIBXML_NSCLEAN, true); // "http://www.tei-c.org/ns/1.0"
+    foreach($root->getDocNamespaces() as $nsprefix => $nsurl) {
+      if(strlen($nsprefix) == 0) {
+        $nsprefix="tei"; //Assign an arbitrary namespace prefix.
+      }
+      $root->registerXPathNamespace($nsprefix, $nsurl);
+    }
+    $nodeset = $root->xpath('//tei:place');
+    while(list( , $place) = each($nodeset)) {
+      $code = $place->attributes('xml', true)->id;
+      $label = (string)$place->name[0];
+      // echo $code, " ", $label, "\n";
       if (!$label) $label = null;
-      $alt = (string)$record->name[1];
+      $alt = (string)$place->name[1];
       if (!$alt) $alt = null;
-      $coord = $record->geo;
+      $coord = $place->geo;
       if (!$coord) $coord = null;
-      $settlement = (string)$record->settlement;
+      $settlement = (string)$place->settlement;
       if(!$settlement) $settlement = null;
       $q->execute(array($code, $label, $coord, $settlement, $alt));
     }
@@ -288,11 +298,19 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
   public static function load_technique()
   {
     $q = self::$pdo->prepare("INSERT INTO technique (code, label) VALUES (?, ?)");
-    $root = simplexml_load_file(self::$home."index/technique.xml");
     self::$pdo->beginTransaction();
-    foreach ($root->term as $record) {
-      $code = $record->attributes('xml', true)->id;
-      $label = (string)$record;
+    
+    $root = new SimpleXMLElement(self::$home."index/technique.xml", LIBXML_BIGLINES | LIBXML_NOCDATA | LIBXML_NONET | LIBXML_NSCLEAN, true); // "http://www.tei-c.org/ns/1.0"
+    foreach($root->getDocNamespaces() as $nsprefix => $nsurl) {
+      if(strlen($nsprefix) == 0) {
+        $nsprefix="tei"; //Assign an arbitrary namespace prefix.
+      }
+      $root->registerXPathNamespace($nsprefix, $nsurl);
+    }
+    $nodeset = $root->xpath('//tei:entry');
+    while(list( , $entry) = each($nodeset)) {
+      $code = $entry->attributes('xml', true)->id;
+      $label = (string)$entry->form[0];
       $q->execute(array($code, $label));
     }
     self::$pdo->commit();
