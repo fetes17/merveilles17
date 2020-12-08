@@ -215,6 +215,21 @@
       <settlement>Versailles</settlement>
       <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Versailles</identifier>
       <identifier type="geonames">https://www.geonames.org/6284980</identifier>
+      <place xml:id="versailles_cour">
+        <name>Versailles, Cour de Versailles</name>
+        <geo>48.804759, 2.120846</geo>
+        <country>France</country>
+        <settlement>Versailles</settlement>
+        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Versailles</identifier>
+      </place>
+      <place xml:id="versailles_etang-clagny">
+        <name>Versailles, Rue des réservoirs</name>
+        <name>Étang de Clagny</name>
+        <geo>48.806629, 2.123743</geo>
+        <country>France</country>
+        <settlement>Versailles</settlement>
+        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Hydraulique_du_parc_du_ch%C3%A2teau_de_Versailles</identifier>
+      </place>
       <place xml:id="versailles_orangerie">
         <name>Versailles, L'Orangerie</name>
         <geo>48.802657, 2.119101</geo>
@@ -229,7 +244,8 @@
         <country>France</country>
         <settlement>Versailles</settlement>
         <identifier type="wikipedia">https://fr.wikipedia.org/wiki/M%C3%A9nagerie_royale_de_Versailles</identifier>
-      </place><place xml:id="versailles_grand-parc">
+      </place>
+      <place xml:id="versailles_grand-parc">
         <name>Versailles, Grand parc de Versailles</name>
         <geo>48.810100, 2.099950</geo>
         <country>France</country>
@@ -363,21 +379,7 @@
   </place>
   
   
-  <place xml:id="versailles_cour">
-    <name>Versailles, Cour de Versailles</name>
-    <geo>48.804759, 2.120846</geo>
-    <country>France</country>
-    <settlement>Versailles</settlement>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Versailles</identifier>
-  </place>
-  <place xml:id="versailles_etang-clagny">
-    <name>Versailles, Rue des réservoirs</name>
-    <name>Étang de Clagny</name>
-    <geo>48.806629, 2.123743</geo>
-    <country>France</country>
-    <settlement>Versailles</settlement>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Hydraulique_du_parc_du_ch%C3%A2teau_de_Versailles</identifier>
-  </place>
+  
 
  <place xml:id="europe">
   <name>Europe</name>
