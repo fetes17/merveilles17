@@ -629,10 +629,9 @@ Balisage ?-->Hymen y
         </list>
         <p>Apres que <name key="pan" corresp="moliere">Pan</name> a acheué son Recit, vne Table
           ornée des festons, &amp; fort enrichie se descouure ; &amp; les quatre Controlleurs
-          Generaux, <persName key="marche_coquet">Monsieurs de la Marque Coquet</persName>,
-            <persName key="parfait_pere">Messieurs Parfait Père</persName>, <persName
-            key="parfait_fils">Fils</persName> &amp; <persName key="parfait_frere">Frere</persName>
-          <!-- à identifer : lien avec les frères parfaict, auteurs d'histoire du théâtre ? -->,
+          Generaux, <persName key="marche_coquet" role="organisation">Monsieurs de la Marque Coquet</persName>,
+            <persName key="parfait_pere" role="organisation">Messieurs Parfait Père</persName>, <persName
+            key="parfait_fils" role="organisation">Fils</persName> &amp; <persName key="parfait_frere" role="organisation">Frere</persName>,
           sous les noms de <name key="abondance" corresp="marche_coquet">l’Abondance</name>, <name
             key="joie" corresp="parfait_pere">la Ioye</name>, <name key="proprete"
             corresp="parfait_fils">la Propretré</name>, &amp;<name key="bonne_chere"
@@ -750,7 +749,7 @@ Balisage ?-->Hymen y
         </p>
         <p>FLVTTES.</p>
         <p><persName key="piesche" role="musicien">Les Sieurs Piesche</persName>, <persName
-            key="descousteaux" role="musicien">Descousteaux</persName>, <persName key="destouches"
+            key="descouteaux" role="musicien">Descousteaux</persName>, <persName key="destouches"
             role="musicien">Destouche</persName>, <persName key="martin_hottere" role="musicien"
             >Martin Hottere</persName>, <persName key="louis_hottere" role="musicien">Louis
             Hottere</persName>, <persName key="jean_hottere" role="musicien">Iean
@@ -985,7 +984,7 @@ Balisage ?-->Hymen y
                           key="maure" corresp="du_pron"><name key="maure" corresp="mercier"
                             >Maures</name></name></name></name></name></name></name></name>.
               <persName key="d_heureux">Messieurs d’Heureux</persName>, <persName key="beauchamp"
-              >Beauchamp</persName>, <persName key="moliere">Molier</persName>, <persName
+              >Beauchamp</persName>, <persName key="mollier">Molier</persName>, <persName
               key="la_marre">La Marre</persName>, <persName key="le_chantre">Les Sieurs Le
               Chantre</persName>, <persName key="de_gan">De Gan</persName>, <persName key="du_pron"
               >Du Pron</persName>, &amp; <persName key="mercier">Mercier</persName>.</p>
@@ -1022,7 +1021,7 @@ Balisage ?-->Hymen y
               key="souville">Messieurs de Souuille</persName>, <persName key="raynal"
               >Raynal</persName>, <persName key="des_airs_l_aine">Des-Airs l’aisné</persName>,
               <persName key="des_airs_le_second">Des-Airs le second</persName>, <persName
-              key="de_lorges">De Lorge</persName>, &amp; <persName key="balthazrd_martinot"
+              key="de_lorges">De Lorge</persName>, &amp; <persName key="balthazard_martinot"
               >Balthasard</persName>.</p>
           <p><name key="monstres" corresp="chicanneau"><name key="monstres" corresp="noblet"><name
                   key="monstres" corresp="arnald"><name key="monstres" corresp="desbrosses"><name
@@ -1030,7 +1029,7 @@ Balisage ?-->Hymen y
                         >Monstres</name></name></name></name></name></name>. <persName
               key="chicanneau">Les Sieurs Chicanneau</persName>, <persName key="noblet"
               >Noblet</persName>, <persName key="arnald">Arnald</persName>, <persName
-              key="desbrosses">Desbrosses</persName>, <persName key="desonets">Desonets</persName>,
+              key="desbrosses">Desbrosses</persName>, <persName key="desonnets">Desonets</persName>,
               &amp;<persName key="la_pierre"> La Pierre</persName>.</p>
         </div>
         <div>
@@ -1349,7 +1348,7 @@ Balisage ?-->Hymen y
             <item><persName key="l_azure" role="organisation">L’Azure</persName>.</item>
             <item><persName key="lienard" role="organisation">Lienard</persName>.</item>
             <item><persName key="coyrin" role="organisation">Coyrin</persName>.</item>
-            <item><persName key="di_pille" role="organisation">De Pille</persName>.</item>
+            <item><persName key="du_pille_aine" role="organisation">De Pille</persName>.</item>
             <item><persName key="jennesson" role="organisation">Iennesson</persName>.</item>
           </list>
           <p>Grands Valets de pied.</p>
@@ -1482,7 +1481,7 @@ Balisage ?-->Hymen y
             <item><persName key="le_roux_aine" role="musicien">Le Roux l’aisné</persName>.</item>
             <item><persName key="le_roux_cadet" role="musicien">Le Roux le cadet</persName>.</item>
             <item><persName key="brouart" role="musicien">Broüart</persName>,</item>
-            <item><persName key="bary" role="musicien">Bary</persName>.</item>
+            <item><persName key="barry" role="musicien">Bary</persName>.</item>
             <item><persName key="roulle" role="musicien">Roullé</persName>.</item>
             <item><persName key="le_grais" role="musicien">Le Grais</persName>.</item>
             <item><persName key="heuge" role="musicien">Heugé</persName>.</item>
@@ -1615,8 +1614,8 @@ Balisage ?-->Hymen y
             <item><persName key="saint_fontaine_fils" role="organisation">Ste. Fontaine le
                 fils</persName>.</item>
           </list>
-          <p><persName key="marche_coquet parfait_pere parfait_fils parfait_frere"
-              role="organisation">Messieurs les Controlleurs Generaux</persName>.</p>
+          <p><persName key="marche_coquet"
+            role="organisation"><persName key="parfait_pere" role="organisation"><persName key="parfait_fils" role="organisation"><persName key="parfait_frere" role="organisation">Messieurs les Controlleurs Generaux</persName></persName></persName></persName>.</p>
           <list ana="noms">
             <item><persName key="marche_coquet" role="acteur">Monsieur de la Marche
                 Coquet</persName>. <name key="abondance" corresp="marche_coquet"
@@ -1632,18 +1631,18 @@ Balisage ?-->Hymen y
         </div>
         <div>
           <head>SECONDE IOVRNÉE.</head>
-          <p>La Comedie de Moliere, Musique &amp; Entrée de Ballet.</p>
+          <p>La Comedie de <persName key="Moliere" role="auteur">Moliere</persName>, Musique &amp; Entrée de Ballet.</p>
           <p><name key="l_aurore" corresp="hilaire_dupuis">L’AVRORE</name>.</p>
           <p><persName key="hilaire_dupuis" role="acteur">Madlle. Hilaire</persName>.</p>
           <p><name key="valet_de_chien" corresp="estival"><name key="valet_de_chien"
                 corresp="louis_don"><name key="valet_de_chien" corresp="francois_blondel"><name
-                    key="valets_de_chien" corresp="molliere">Quatre Valets de
+                    key="valets_de_chien" corresp="moliere">Quatre Valets de
                 Chiens</name></name></name></name>, qui doiuent chanter.</p>
           <list ana="noms">
             <item><persName key="estival" role="acteur chanteur">Estual</persName>.</item>
             <item><persName key="louis_don" role="acteur chanteur">Don</persName>.</item>
             <item><persName key="francois_blondel" role="acteur chanteur">Blondel</persName>.</item>
-            <item><persName key="molliere" role="acteur chanteur">Molliere</persName>.</item>
+            <item><persName key="moliere" role="acteur chanteur">Molliere</persName>.</item>
           </list>
           <p><name key="valet_de_chien" corresp="paysan"><name key="valet_de_chien"
                 corresp="saint_andre"><name key="valet_de_chien" corresp="noblet"><name
@@ -1659,8 +1658,8 @@ Balisage ?-->Hymen y
             <item><persName key="bonard" role="danseur">Bonard</persName>,</item>
             <item><persName key="la_pierre" role="danseur">La Pierre</persName>,</item>
           </list>
-          <p><name key="ours" corresp="mercier"><name key="ours" corresp="vagnard">Deux
-              Ours</name></name>.</p>
+          <p><name key="ours" corresp="mercier"><name key="ours" corresp="vagnard"><tech type="animal">Deux
+            Ours</tech></name></name>.</p>
           <list ana="noms">
             <item><persName key="mercier" role="acteur">Mercier</persName>.</item>
             <item><persName key="vagnard" role="acteur">Vagnard</persName>.</item>
@@ -1778,7 +1777,7 @@ Balisage ?-->Hymen y
             <item><persName key="des_matins" role="musicien">Des-matins</persName>,</item>
             <item><persName key="feugre" role="musicien">Feugré</persName>,</item>
             <item><persName key="du_pin" role="musicien">Du Pin</persName>,</item>
-            <item><persName key="lesperviers" role="musicien">Lesperuier</persName>,</item>
+            <item><persName key="lespervier" role="musicien">Lesperuier</persName>,</item>
             <item><persName key="camille" role="musicien">Camille</persName>,</item>
             <item><persName key="varin" role="musicien">Varin</persName>,</item>
             <item><persName key="des_noyers" role="musicien">Des Noyers</persName>,</item>
@@ -1813,7 +1812,7 @@ Balisage ?-->Hymen y
             <item><persName key="armande_bejart" role="acteur">Madlle. Moliere</persName>. <name
                 key="dirce" corresp="armande_bejart">Dircé</name>.</item>
           </list>
-          <p>Ballet du Palais d’<name key="alcine" corresp="therese_duparc">Alcine</name>.</p>
+          <p>Ballet du Palais d’<name key="alcine">Alcine</name>.</p>
           <label type="head">PREMIERE ENTRÉE.</label>
           <p><name key="geant" corresp="manceau"><name key="geant" corresp="vagnard"><name
                   key="geant" corresp="pesan"><name key="geant" corresp="joubert">Quatre
@@ -1827,17 +1826,17 @@ Balisage ?-->Hymen y
                   >Geants</name></name></name></name>
           </p>
           <list ana="noms">
-            <item><persName key="vagnard" role="acteur">Vagnard</persName>,</item>
-            <item><persName key="pesan" role="acteur">Pesan</persName>,</item>
-            <item><persName key="manceau" role="acteur">Mançeau</persName>,</item>
-            <item><persName key="joubert" role="acteur">Ioubert</persName>.</item>
+            <item><persName key="vagnard" role="danseur">Vagnard</persName>,</item>
+            <item><persName key="pesan" role="danseur">Pesan</persName>,</item>
+            <item><persName key="manceau" role="danseur">Mançeau</persName>,</item>
+            <item><persName key="joubert" role="danseur">Ioubert</persName>.</item>
             <item><name key="petits_garcons" corresp="des_airs_fils1 des_airs_fils2"><name
                   key="petits_garcons" corresp="vagnard_fils"><name key="petits_garcons"
                     corresp="tutin_fils">Petits Garçons</name></name></name>.</item>
-            <item><persName key="des_airs_fils1" role="acteur"><persName key="des_airs_fils2"
-                  role="acteur">Les deux petits Des-Airs</persName></persName>,</item>
-            <item><persName key="vagnard_fils" role="acteur">Le petit Vagnard</persName>.</item>
-            <item><persName key="tutin_fils" role="acteur">Le petit Tutin</persName>.</item>
+            <item><persName key="des_airs_fils1" role="danseur"><persName key="des_airs_fils2"
+                  role="danseur">Les deux petits Des-Airs</persName></persName>,</item>
+            <item><persName key="vagnard_fils" role="danseur">Le petit Vagnard</persName>.</item>
+            <item><persName key="tutin_fils" role="danseur">Le petit Tutin</persName>.</item>
           </list>
           <label type="head">DEVXIESME ENTRÉE.</label>
           <p>
@@ -1848,14 +1847,14 @@ Balisage ?-->Hymen y
                             Maures</name></name></name></name></name></name></name></name>
           </p>
           <list ana="noms">
-            <item><persName key="d_heureux" role="acteur">D’Heureux</persName>,</item>
-            <item><persName key="beauchamp" role="acteur">Beauchamp</persName>,</item>
-            <item><persName key="moliere" role="acteur">Molier</persName>,</item>
-            <item><persName key="la_marre" role="acteur">La Marre</persName>,</item>
-            <item><persName key="le_chantre" role="acteur">Le Chantre</persName>,</item>
-            <item><persName key="de_gan" role="acteur">De Gan</persName>,</item>
-            <item><persName key="du_pron" role="acteur">Du Pron</persName>,</item>
-            <item><persName key="mercier" role="acteur">Mercier</persName>.</item>
+            <item><persName key="d_heureux" role="danseur">D’Heureux</persName>,</item>
+            <item><persName key="beauchamp" role="danseur">Beauchamp</persName>,</item>
+            <item><persName key="mollier" role="danseur">Molier</persName>,</item>
+            <item><persName key="la_marre" role="danseur">La Marre</persName>,</item>
+            <item><persName key="le_chantre" role="danseur">Le Chantre</persName>,</item>
+            <item><persName key="de_gan" role="danseur">De Gan</persName>,</item>
+            <item><persName key="du_pron" role="danseur">Du Pron</persName>,</item>
+            <item><persName key="mercier" role="danseur">Mercier</persName>.</item>
           </list>
           <pb n="16"/>
           <label type="head">TROISIESME ENTRÉE.</label>
@@ -1886,12 +1885,12 @@ Balisage ?-->Hymen y
                         ><name key="monstres" corresp="desonnets"><name key="monstres"
                           corresp="la_pierre"
               >Monstres</name></name></name></name></name></name>.</item>
-            <item><persName key="chicanneau" role="acteur">Chicanneau</persName>,</item>
-            <item><persName key="noblet" role="acteur">Noblet</persName>,</item>
-            <item><persName key="arnald" role="acteur">Arnald</persName>,</item>
-            <item><persName key="desbrosses" role="acteur">Desbrosses</persName>,</item>
-            <item><persName key="desonets" role="acteur">Desonets</persName>,</item>
-            <item><persName key="la_pierre" role="acteur">La Pierre</persName>.</item>
+            <item><persName key="chicanneau" role="danseur">Chicanneau</persName>,</item>
+            <item><persName key="noblet" role="danseur">Noblet</persName>,</item>
+            <item><persName key="arnald" role="danseur">Arnald</persName>,</item>
+            <item><persName key="desbrosses" role="danseur">Desbrosses</persName>,</item>
+            <item><persName key="desonnets" role="danseur">Desonets</persName>,</item>
+            <item><persName key="la_pierre" role="danseur">La Pierre</persName>.</item>
           </list>
           <label type="head">IV. ENTRÉE.</label>
           <p><name key="demon" corresp="saint_andre"><name key="demon" corresp="tartas">Demons

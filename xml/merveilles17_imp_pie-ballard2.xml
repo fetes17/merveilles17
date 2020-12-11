@@ -299,7 +299,7 @@
           <l>Et si l’obscurité conuient à mon Amour,</l>
           <l>Elle ne s’estend pas jusqu’à ma Renommée.</l>
         </lg>
-        <label type="speaker">Le <persName>Comte d’Armagnac</persName>. <lb/><name
+        <label type="speaker">Le <persName key="henri_de_lorraine">Comte d’Armagnac</persName>. <lb/><name
             key="griffon_le_blanc" corresp="henri_de_lorraine">Griffon le Blanc</name>.</label>
         <lg rend="i">
           <l rend="dropcap">VOyez quelle candeur en moy le Ciel a mis,</l>
@@ -3319,15 +3319,15 @@
           <list ana="noms">
             <item><name key="geant" corresp="manceau"><name key="geant" corresp="vagnard"><name
                     key="geant" corresp="pesan"><name key="geant" corresp="joubert"
-                    >Geants</name></name></name></name>. Les Sieurs <persName key="manceau"
-                >Mançeau</persName>, <persName key="vagnard">Vagnard</persName>, <persName
-                key="pesan">Pesan</persName>, &amp; <persName key="joubert"
+                    >Geants</name></name></name></name>. Les Sieurs <persName key="manceau" role="danseur"
+               >Mançeau</persName>, <persName key="vagnard" role="danseur">Vagnard</persName>, <persName
+                key="pesan" role="danseur">Pesan</persName>, &amp; <persName key="joubert" role="danseur"
               >Ioubert</persName>.</item>
             <item><name key="nain" corresp="des_airs_fils1 des_airs_fils2"><name key="nain"
                   corresp="vagnard_fils"><name key="nain" corresp="tutin_fils"
-                >Nains</name></name></name>. Les <persName key="des_airs_fils1"><persName
-                  key="des_airs_fils2">deux petits Des-Airs</persName></persName>, le <persName
-                key="vagnard_fils">petit Vagnard</persName>, &amp; le <persName key="tutin_fils"
+                >Nains</name></name></name>. Les <persName key="des_airs_fils1" role="danseur"><persName
+                  key="des_airs_fils2" role="danseur">deux petits Des-Airs</persName></persName>, le <persName
+                key="vagnard_fils" role="danseur">petit Vagnard</persName>, &amp; le <persName key="tutin_fils" role="danseur"
                 >petit Tutin</persName>.</item>
           </list>
         </div>
@@ -3338,7 +3338,7 @@
                       key="maure" corresp="le_chantre"><name key="maure" corresp="de_gan"><name
                           key="maure" corresp="du_pron"><name key="maure" corresp="mercier">HVit
                             Maures</name></name></name></name></name></name></name></name> chargez
-            par <name key="alcine" corresp="therese_duparc">Alcine</name> de la garde du dedans, en
+            par <name key="alcine">Alcine</name> de la garde du dedans, en
             font vne exacte visite, auec chacun deux flambeaux.</stage>
           <list ana="noms">
             <item><name key="maure" corresp="d_heureux"><name key="maure" corresp="beauchamp"><name
@@ -3346,11 +3346,11 @@
                         key="maure" corresp="le_chantre"><name key="maure" corresp="de_gan"><name
                             key="maure" corresp="du_pron"><name key="maure" corresp="mercier"
                               >Maures</name></name></name></name></name></name></name></name>.
-              Messieurs <persName key="d_heureux">d’Heureux</persName>, <persName key="beauchamp"
-                >Beauchamp</persName>, <persName key="moliere">Molier</persName>, <persName
-                key="la_marre">La Marre</persName>, Les Sieurs <persName key="le_chantre">Le
-                Chantre</persName>, <persName key="de_gan">de Gan</persName>, <persName
-                key="du_pron">Du Pron</persName>, &amp; <persName key="mercier"
+              Messieurs <persName key="d_heureux" role="danseur">d’Heureux</persName>, <persName key="beauchamp" role="danseur"
+                >Beauchamp</persName>, <persName key="mollier" role="danseur">Molier</persName>, <persName
+                key="la_marre" role="danseur">La Marre</persName>, Les Sieurs <persName key="le_chantre" role="danseur">Le
+                Chantre</persName>, <persName key="de_gan" role="danseur">de Gan</persName>, <persName
+                key="du_pron" role="danseur">Du Pron</persName>, &amp; <persName key="mercier" role="danseur"
               >Mercier</persName>.</item>
           </list>
         </div>
@@ -3361,7 +3361,7 @@
                     ><name key="chevalier" corresp="des_airs_le_second"><name key="chevalier"
                       corresp="de_lorges"><name key="chevalier" corresp="balthazard_martinot">six
                         Cheualiers</name></name></name></name></name></name> qu’<name key="alcine"
-              corresp="therese_duparc">Alcine</name> retenoit aupres d’elle, à tenter la sortie de
+              >Alcine</name> retenoit aupres d’elle, à tenter la sortie de
             ce Palais; mais la fortune ne secondant pas les efforts qu’ils font dans leur desespoir,
             ils sont vaincus apres vn grand combat, par autant de <name key="monstres"
               corresp="chicanneau"><name key="monstres" corresp="noblet"><name key="monstres"
@@ -3384,32 +3384,32 @@
                       corresp="des_airs_le_second"><name key="chevalier" corresp="de_lorges"><name
                           key="chevalier" corresp="balthazard_martinot"
                       >Cheualiers</name></name></name></name></name></name>. Messieurs <persName
-                key="souville">de Souuille</persName>, <persName key="raynal">Raynal</persName>,
-                <persName key="des_airs_l_aine">Des-Airs l’aisné</persName>, <persName
-                key="des_airs_le_second">Des-Airs le second</persName>, <persName key="de_lorges">De
-                Lorge</persName>, &amp; <persName key="balthazard_martinot"
+                key="souville" role="danseur">de Souuille</persName>, <persName key="raynal" role="danseur">Raynal</persName>,
+                <persName key="des_airs_l_aine" role="danseur">Des-Airs l’aisné</persName>, <persName
+                key="des_airs_le_second" role="danseur">Des-Airs le second</persName>, <persName key="de_lorges" role="danseur">De
+                Lorge</persName>, &amp; <persName key="balthazard_martinot" role="danseur"
               >Balthasard</persName>.</item>
             <item><name key="monstres" corresp="chicanneau"><name key="monstres" corresp="noblet"
                     ><name key="monstres" corresp="arnald"><name key="monstres" corresp="desbrosses"
                         ><name key="monstres" corresp="desonnets"><name key="monstres"
                           corresp="la_pierre">Monstres</name></name></name></name></name></name>.
-              les Sieurs <persName key="chicanneau">Chicanneau</persName>, <persName key="noblet"
-                >Noblet</persName>, <persName key="arnald">Arnald</persName>, <persName
-                key="desbrosses">Desbrosses</persName>, <persName key="desonnets"
-                >Desonets</persName>, &amp; <persName key="la_pierre">la Pierre</persName>.</item>
+              les Sieurs <persName key="chicanneau" role="danseur">Chicanneau</persName>, <persName key="noblet" role="danseur"
+                >Noblet</persName>, <persName key="arnald" role="danseur">Arnald</persName>, <persName
+                key="desbrosses" role="danseur">Desbrosses</persName>, <persName key="desonnets" role="danseur"
+                >Desonets</persName>, &amp; <persName key="la_pierre" role="danseur">la Pierre</persName>.</item>
           </list>
         </div>
         <div>
           <pb n="np" xml:id="f99" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f99"/>
           <head>IV. ENTRÉE</head>
-          <stage><name key="alcine" corresp="therese_duparc">Alcine</name> allarmée de cét accident,
-            inuoque de nouueau tous ses <name key="demon"><name key="demon">Esprits</name></name>,
+          <stage><name key="alcine">Alcine</name> allarmée de cét accident,
+            inuoque de nouueau tous ses <name key="demon">Esprits</name>,
             &amp; leur demande secours: il s’en presente deux à elle, qui font des sauts auec vne
             force, &amp; vne agilité merueilleuses.</stage>
           <list ana="noms">
             <item><name key="demon" corresp="saint_andre"><name key="demon" corresp="magny">Demons
-                  agilles</name></name>. Les Sieurs <persName key="saint_andre">S. André</persName>,
-              &amp; <persName key="magny">Magny</persName>.</item>
+                  agilles</name></name>. Les Sieurs <persName key="saint_andre" role="danseur">S. André</persName>,
+              &amp; <persName key="magny" role="danseur">Magny</persName>.</item>
           </list>
         </div>
         <div>
@@ -3422,9 +3422,9 @@
           <list ana="noms">
             <item><name key="demon" corresp="tutin"><name key="demon" corresp="la_brodiere"><name
                     key="demon" corresp="pesan"><name key="demon" corresp="bureau">Autres Demons
-                      Sauteurs</name></name></name></name>. Les Sieurs <persName key="tutin"
-                >Tutin</persName>, <persName key="la_brodiere">La Brodiere</persName>, <persName
-                key="pesan">Pesan</persName>,&amp; <persName key="bureau">Bureau</persName>.</item>
+                      Sauteurs</name></name></name></name>. Les Sieurs <persName key="tutin" role="danseur"
+                >Tutin</persName>, <persName key="la_brodiere" role="danseur">La Brodiere</persName>, <persName
+                key="pesan" role="danseur">Pesan</persName>,&amp; <persName key="bureau" role="danseur">Bureau</persName>.</item>
           </list>
         </div>
         <div>
@@ -3445,20 +3445,20 @@
             <item><name key="alcine" corresp="therese_duparc">Alcine</name>. <persName
                 key="therese_duparc">Madlle. du Parc</persName>.</item>
             <item><name key="melisse" corresp="de_lorges">Melisse</name>. <persName
-                key="de_lorges">De Lorge</persName>.</item>
-            <item><name key="roger" corresp="beauchamp">Roger</name>. <persName key="beauchamp">M.
+                key="de_lorges" role="danseur">De Lorge</persName>.</item>
+            <item><name key="roger" corresp="beauchamp">Roger</name>. <persName key="beauchamp" role="danseur">M.
                 Beauchamp</persName>.</item>
             <item><name key="chevalier" corresp="d_heureux"><name key="chevalier" corresp="raynal"
                     ><name key="chevalier" corresp="du_pron"><name key="chevalier"
                       corresp="desbrosses">Cheualiers</name></name></name></name>. Messieurs
-                <persName key="d_heureux">d’Heureux</persName>, <persName key="raynal"
-                >Raynal</persName>, <persName key="du_pron">Du Pron</persName>, &amp; <persName
-                key="desbrosses">Desbrosses</persName>.</item>
+                <persName key="d_heureux" role="danseur">d’Heureux</persName>, <persName key="raynal" role="danseur"
+                >Raynal</persName>, <persName key="du_pron" role="danseur">Du Pron</persName>, &amp; <persName
+                key="desbrosses" role="danseur">Desbrosses</persName>.</item>
             <item><name key="ecuyers" corresp="la_marre"><name key="ecuyers" corresp="le_chantre"
                     ><name key="ecuyers" corresp="de_gan"><name key="ecuyers" corresp="mercier"
-                      >Escuyers</name></name></name></name>. Messieurs <persName key="la_marre">La
-                Marre</persName>, <persName key="le_chantre">Le Chantre</persName>, <persName
-                key="de_gan">De Gan</persName>, &amp; <persName key="mercier"
+                      >Escuyers</name></name></name></name>. Messieurs <persName key="la_marre" role="danseur">La
+                Marre</persName>, <persName key="le_chantre" role="danseur">Le Chantre</persName>, <persName
+                key="de_gan" role="danseur">De Gan</persName>, &amp; <persName key="mercier" role="danseur"
               >Mercier</persName>.</item>
           </list>
           <trailer>FIN DV BALLET.</trailer>
@@ -3523,7 +3523,7 @@
             <persName key="louisxiv" role="participant">Roy</persName>, apres l’auoir gagnée,
           redonna liberalement à courre aux autres <name key="chevalier">Cheualiers</name>, &amp;
           que le <persName key="armand_du_cambout" role="participant">Marquis de Coaslin</persName>
-          disputa contre le <persName key="cm_de_bellforiere" role="participant">Marquis de
+          disputa contre le <persName key="cm_de_belleforiere" role="participant">Marquis de
             Soyecourt</persName>&amp; la gagna.</p>
       </div>
       <div n="[11 mai 1664]">
@@ -3573,7 +3573,7 @@
         <p>Aussi-tost que le <persName key="louisxiv">Roy</persName> eust disné, il conduisit
             <persName key="marie_therese"><persName key="anne_d_autriche">les
             Reynes</persName></persName>, <persName key="philippe_orleans">Monsieur</persName>, <persName
-            key="madame">Madame</persName>, &amp; toutes les Dames dans vn lieu ou on deuoit tirer
+              key="henriette_anne_angleterre">Madame</persName>, &amp; toutes les Dames dans vn lieu ou on deuoit tirer
           vne Loterie, afin que rien ne manquast à la galanterie de ces Festes; c’estoit des
           pierreries, des ameublemens, de l’argenterie &amp; autres choses semblables: Et quoyque le
           sort ait accoustumé de decider de ces presens, il s’accorda sans doute auec le desir de
