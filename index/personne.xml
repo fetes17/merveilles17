@@ -103,6 +103,10 @@
     <identifier type="isni">0000 0001 0395 3040</identifier>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Philibert_de_Gramont</identifier>
   </person>
+  <person xml:id="jean_gaye" sex="M">
+    <name>Gaye, Jean, chanteur</name>
+    <identifier type="databnf">https://data.bnf.fr/ark:/12148/cb148427428</identifier>
+  </person>
   <person xml:id="antoine_moran" sex="M">
     <name>Moran, Antoine, officier de la bouche</name>
   </person>
@@ -258,6 +262,10 @@
     <death when="1694"/>
     <identifier type="wikipedia"
       >https://fr.wikipedia.org/wiki/Bernardin_Gigault_de_Bellefonds</identifier>
+  </person>
+  <person xml:id="marechale_de_bellefond" sex="F">
+    <name>Fouquet, Madeleine, épouse de Bernardin de Gigault de Bellefonds</name>
+    <death when="1716"/>
   </person>
   <person xml:id="besson" sex="M">
     <name>Besson, violon</name>
@@ -594,6 +602,7 @@
   <person xml:id="descouteaux" sex="M">
     <name>Descoteaux, François ou René Pignon, musicien</name>
     <!-- À cette date, difficile de savoir si c'est le fils ou le père. Comment faire ? Pour les dates, voir : http://shsds.deux-sevres.fr/etude_congres_2016_musicien.pdf -->
+    <identifier type="isni">0000 0000 0352 8231</identifier>
   </person>
   <person xml:id="desonnets" sex="M">
     <name>Desonets, danseur</name>
@@ -737,8 +746,7 @@
   <person xml:id="francisque">
     <name>Francisque, officier du gobelet</name>
   </person>
-  <person xml:id="francois_blondel" sex="M">
-    <!-- Il s'agit d'après la BNF de Simon Blondel: attribut à revoir -->
+  <person xml:id="simon_blondel" sex="M">
     <name>Blondel, Simon, chanteur de la Chapelle de Louis XIV</name>
     <death when="1672"/>
     <identifier type="databnf">https://data.bnf.fr/ark:/12148/cb14842795v</identifier>
@@ -936,7 +944,9 @@
   <person xml:id="jean_de_flandres" sex="M"/>
   <person xml:id="jean_guignard_fils" sex="M"/>
   <person xml:id="jean_hottere" sex="M">
-    <name>Hottere, Jean, musicien</name>
+    <name>Hotteterre, Jean, musicien</name>
+    <birth when="*1605"/>
+    <death when="*1692"/>
   </person>
   <person xml:id="jean_magontier" sex="M"/>
   <person xml:id="jean_moran" sex="M"/>
@@ -1052,9 +1062,17 @@
   <person xml:id="langlois_l_aine" sex="M"/>
   <person xml:id="langlois_le_cadet" sex="M"/>
   <person xml:id="lansac_crequi" sex="F">
-    <name>Créquy, Anne-Armande de Saint Gelais de Lansac, duchesse de</name>
+    <name>Lansac, Anne-Armande de Saint Gelais de, épouse de Charles III de Blanchefort-Créquy duchesse de Créquy</name>
     <birth when="1637"/>
     <death when="1709"/>
+  </person>
+  <person xml:id="blanchefort_crequy" sex="M">
+    <name>Blanchefort-Créquy, Charles III de, marquis de Créquy, prince puis duc de Poix, dit "le duc de Créquy"</name>
+    <birth when="1623"/>
+    <death when="1687"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Charles_III_de_Créquy</identifier>
+    <identifier type="isni">0000 0000 0014 1269</identifier>
+    <identifier type="databnf">https://data.bnf.fr/ark:/12148/cb10628414b</identifier>
   </person>
   <person xml:id="le_chantre" sex="M">
     <name>Le Chantre (danseur)</name>
@@ -1133,7 +1151,10 @@
     <identifier type="isni">0000 0000 7101 8321</identifier>
   </person>
   <person xml:id="louis_hottere" sex="M">
-    <name>Hottere, Louis, musicien</name>
+    <name>Hotteterre, Louis, musicien</name>
+    <birth when="1647"/>
+    <death when="1716"/>
+    
   </person>
   <person xml:id="louis_ii_bourbon_conde" sex="M">
     <name>Bourbon Condé, Louis II (de)</name>
@@ -1332,7 +1353,10 @@
   </person>
   <person xml:id="marquis_fourilles" sex="M"/>
   <person xml:id="martin_hottere" sex="M">
-    <name>Hottere, Martin, musicien (flute, basson)</name>
+    <name>Hotteterre, Martin, musicien (flute, basson)</name>
+    <birth when="1640"/>
+    <death when="1712"/>
+    <identifier type="isni">0000 0000 0248 1603</identifier>
   </person>
   <person xml:id="martineau" sex="M">
     <name>Martineau, violon</name>
@@ -1357,6 +1381,12 @@
   <person xml:id="mespas" sex="M"/>
   <person xml:id="mettayer" sex="M"/>
   <person xml:id="michel_chabenat_bonneuil" sex="M"/>
+  <person xml:id="sieur_du_mets" sex="M">
+    <name>Metz, Gédéon Berbier du, intendant contrôleur général du Garde-Meuble de la Couronne</name>
+    <birth when="1626"/>
+    <death when="1709"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Gédéon_Berbier_du_Mets</identifier>
+  </person>
   <person xml:id="michel_d_aligre" sex="M">
     <name>Aligre, Michel d', trésorier des Menus Plaisirs du roi</name>
   </person>
@@ -1478,6 +1508,9 @@
     <death when="1694"/>
     <identifier type="databnf">https://data.bnf.fr/fr/14842736/nicolas_hotteterre/</identifier>
     <identifier type="isni">0000 0000 0336 2673</identifier>
+  </person>
+  <person xml:id="" sex="M">
+    <name>Hotteterre, Jean</name>
   </person>
   <person xml:id="nicolas_neufville_villeroy" sex="M">
     <name>Neufville de Villeroy, Nicolas V (de)</name>
@@ -1760,9 +1793,25 @@
     <birth when="1646"/>
     <death when="1668"/>
   </person>
+  <person xml:id="marquis_de_gesvres" sex="M">
+    <name>Gesvres, Léon Potier de Luxembourg, comte de Sceaux, duc de Tresmes, marquis de</name>
+    <birth when="1620"/>
+    <death when="1704"/>
+  </person>
   <person xml:id="mme_de_vibray" sex="F">
     <name>Le Coigneux, Polyxène, épouse de Henri-Emmanuel Hurault, marquise de Vibraye</name>
     <birth when="1641"/>
     <death when="1705"/>
+  </person>
+  <person xml:id="louis_le_vau" sex="M">
+    <name>Le Vau, Louis</name>
+    <birth when="1612"/>
+    <death when="1670"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Louis_Le_Vau</identifier>
+    <identifier type="databnf">https://data.bnf.fr/ark:/12148/cb13515116h</identifier>
+    <identifier type="isni">0000 0000 8350 9195</identifier>
+  </person>
+  <person xml:id="philbert" sex="M">
+    <name>Philbert, musicien</name>
   </person>
 </listPerson>
