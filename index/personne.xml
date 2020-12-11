@@ -895,6 +895,9 @@
     <death when="1709"/>
     <identifier type="databnf">https://data.bnf.fr/fr/14842782/hilaire_dupuis/</identifier>
   </person>
+  <person xml:id="cercamanan" sex="F">
+    <name>Cercamanan, Anne Fonteaux de</name>
+  </person>
   <person xml:id="hj_bourbon_conde" sex="M">
     <name>Boubon-Condé, Henri-Jules (de)</name>
     <birth when="1643"/>
@@ -1008,6 +1011,14 @@
   </person>
   <person xml:id="la_jeunesse" sex="M"/>
   <person xml:id="la_liuere" sex="M"/>
+  <person xml:id="montfleury" sex="M">
+    <name>Jacob, Zacharie, dit Montfleury</name>
+    <birth when="1608"/>
+    <death when="1667"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Montfleury</identifier>
+    <identifier type="databnf">https://data.bnf.fr/ark:/12148/cb124630332</identifier>
+    <identifier type="isni">0000 0003 7483 6065</identifier>
+  </person>
   <person xml:id="la_marche" sex="M">
     <name>La Marche, trompette</name>
   </person>
@@ -1285,7 +1296,13 @@
     <!-- Dame d'honneur de la duchesse d'Orléans -->
   </person>
   <person xml:id="marie_cosse_brissac" sex="F"/>
-  <person xml:id="marie_jeanne_d_aumale" sex="F"/>
+  <person xml:id="marie_francoise_d_aumale" sex="F">
+    <name>Savoie, Marie-Françoise-Élisabeth de</name>
+    <birth when="1646"/>
+    <death when="1683"/>
+    <identifier type="isni">0000 0003 5615 6787</identifier>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Marie-Françoise-Élisabeth_de_Savoie</identifier>
+  </person>
   <person xml:id="marie_lorraine_elbeuf" sex="F">
     <name>Lorraine, Marie-Marguerite-Ignace de (dite Mademoiselle d'Elbeuf)</name>
     <birth when="1628"/>
@@ -1344,7 +1361,9 @@
   <person xml:id="mlle_d_ardennes" sex="F">
     <name>Ardennes, Mlle d'</name>
   </person>
-  <person xml:id="mlle_d_ennebault" sex="F"/>
+  <person xml:id="mlle_d_ennebault" sex="F">
+    <name>Jacob, Louise, dite Mademoiselle d'Ennebault</name>
+  </person>
   <person xml:id="mlle_de_brie" sex="F">
     <name>Leclerc du Rosé, Catherine (dite Mademoiselle de Brie)</name>
     <birth when="1630"/>
@@ -1362,7 +1381,14 @@
     <identifier type="databnf">https://data.bnf.fr/fr/14842781/anne_de_la_barre/</identifier>
     <identifier type="isni">0000 0003 6424 1551</identifier>
   </person>
-  <person xml:id="mlle_de_nemours" sex="F"/>
+  <person xml:id="mlle_de_nemours" sex="F">
+    <name>Savoie-Nemours, Marie Jeanne Baptiste de, dite Mademoiselle de Nemours</name>
+    <birth when="1644"/>
+    <death when="1724"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Marie-Jeanne-Baptiste_de_Savoie</identifier>
+    <identifier type="isni">0000000106543047</identifier>
+    <identifier type="databnf">https://data.bnf.fr/ark:/12148/cb14976927p</identifier>
+  </person>
   <person xml:id="mlle_du_bellay" sex="F">
     <name>Du Bellay, mademoiselle</name>
   </person>
@@ -1372,7 +1398,13 @@
   <person xml:id="mlle_de_fiennes" sex="F">
     <name>Fiennes, mademoiselle de (fille de Françoise de Fiennes)</name>
   </person>
-  <person xml:id="mlle_des_oeillets" sex="F"/>
+  <person xml:id="mlle_des_oeillets" sex="F">
+    <name>Faviot ou Faviol, Alix, épouse de Nicolas de Vin dit Des Œillets, dite Mademoiselle Des Œillets</name>
+    <birth when="1620"/>
+    <death when="1670"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Mademoiselle_Des_Œillets</identifier>
+    <identifier type="databnf">https://data.bnf.fr/ark:/12148/cb16225201v</identifier>
+  </person>
   <person xml:id="mme_de_brancas" sex="F">
     <name>Garnier, Suzanne, comtesse de Brancas après son mariage</name>
     <death when="1685"/>
@@ -1403,6 +1435,14 @@
     <identifier type="wikipedia">https://data.bnf.fr/fr/11916418/moliere/</identifier>
     <identifier type="databnf">https://fr.wikipedia.org/wiki/Moli%C3%A8re</identifier>
     <identifier type="isni">0000 0001 2319 7131</identifier>
+  </person>
+  <person xml:id="mollier" sex="M">
+    <name>Mollier, Louis de</name>
+    <birth when="*1615"/>
+    <death when="1688"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Louis_de_Mollier</identifier>
+    <identifier type="databnf">https://data.bnf.fr/ark:/12148/cb12568512v</identifier>
+    <identifier type="isni">0000 0000 0891 5775</identifier>
   </person>
   <person xml:id="bizincourt" sex="M">
     <name>Bizincourt</name>
@@ -1693,5 +1733,14 @@
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/François-Henri_de_Montmorency-Luxembourg</identifier>
     <identifier type="isni">0000 0001 2135 2417</identifier>
     <identifier type="databnf">https://data.bnf.fr/ark:/12148/cb15083085f</identifier>
+  </person>
+  <person xml:id="saint-amant" sex="M">
+    <name>Saint-Amant, Marc Antoine Girard de</name>
+    <birth when="1594"/>
+    <death when="1661"/>
+    <identifier type="isni">0000 0001 2134 0352</identifier>
+    <identifier type="databnf">https://data.bnf.fr/ark:/12148/cb11923324t</identifier>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Marc-Antoine_Girard_de_Saint-Amant</identifier>
+    <name></name>
   </person>
 </listPerson>
