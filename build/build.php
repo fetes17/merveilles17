@@ -297,7 +297,7 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
   
   public static function load_technique()
   {
-    $q = self::$pdo->prepare("INSERT INTO technique (code, label) VALUES (?, ?)");
+    $q = self::$pdo->prepare("INSERT OR IGNORE INTO technique (code, label) VALUES (?, ?)");
     self::$pdo->beginTransaction();
     
     $root = new SimpleXMLElement(self::$home."index/technique.xml", LIBXML_BIGLINES | LIBXML_NOCDATA | LIBXML_NONET | LIBXML_NSCLEAN, true); // "http://www.tei-c.org/ns/1.0"
