@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
-<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
+<?xml-stylesheet type="text/css" href="../style/tei-author.css" alternate="author"?>
+<?xml-model href="../merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <!--Odette: 2020-12-18T13:19:45+01:00-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
@@ -42,7 +43,7 @@
       <p>A PARIS,</p>
       <byline>Par <persName>ROBERT BALLARD</persName>, seul Imprimeur du Roy pour la Musique. </byline>
       <p>
-        <date>M. DC. LXIV.</date>
+        <date when="1664">M. DC. LXIV.</date>
       </p>
       <p>Auec Priuilege de sa Majesté.</p>
       <pb n="NP"/>
@@ -68,13 +69,13 @@
       <label type="head">SCÈNE DEVXIESME.</label>
       <p>La <name>Maitresse de Sganarelle</name> arriue, qui luy dit qu’elle est rauie de se marier auec luy, pour pouuoit sortir promptement de la sujession de son Pere, &amp; auoir desormais toutes ses coudées franches ; &amp; la-dessus elle luy conte la maniere dont elle pretend viure auec luy, qui sera proprement la naïue peinture d’vne Coquette acheuée. <name>Sganarelle</name> reste seul assez estonné ; Il se plaint, apres ce discours, <pb n="5" xml:id="p5"/> d’vne pesanteur de teste espouuantable, &amp; se mettant en <placeName>v</placeName><placeName>n coin du Th</placeName><placeName>ea</placeName><placeName>tre </placeName>pour dormir, il voit en songe <name>vne femme</name> representée par <persName>Mademoiselle Hylaire</persName>, qui chante ce Recit.</p>
       <label type="head">RECIT DE LA BEAVTÉ.</label>
-      <l>SI l’Amour vous soûmet à ses lois inhumaines,
-<lb/>Choisissez, en aymant, vn objet plein d’appas ;
-<lb/>Portez, au moins, de belles chaisnes,
-<lb/>Et puis qu’il faut mourir, mourez d’vn beau trespas.</l>
-      <l>Si l’obiet de vos feux ne merite vos peines,
-<lb/>Sous l’empire d’Amour ne vous engagez pas :
-<lb/>Portez, au moins, etc.</l>
+      <lg><l>SI l’Amour vous soûmet à ses lois inhumaines,
+</l><l>Choisissez, en aymant, vn objet plein d’appas ;</l>
+<l>Portez, au moins, de belles chaisnes,</l>
+<l>Et puis qu’il faut mourir, mourez d’vn beau trespas.</l>
+      <l>Si l’obiet de vos feux ne merite vos peines,</l>
+<l>Sous l’empire d’Amour ne vous engagez pas :</l>
+<l>Portez, au moins, etc.</l></lg>
       <label type="head">PREMIERE ENTRÉE.</label>
       <p><name>La Ialousie</name>, <name>les Chagrins</name>, &amp;<name>les Soupçons</name>.</p>
       <p><name>La Ialousie</name>, <persName>Le Sieur Doliuet</persName>.</p>
@@ -99,22 +100,22 @@
       <p>IL prend fantaisie à <name>Sganarelle</name> de se faire dire sa bonne auanture, &amp; rencontrant <persName>deux Boësmiennes</persName>, il leur demande s’il sera heureux en son Mariage : pour responce ils se mettent à danser en se moquant de luy, ce qui l’oblige d’aller trouuer <name>vn Magicien</name>.</p>
       <label type="head">RECIT D’VN MAGICIEN.</label>
       <p>Chanté par <name>Monsieur Destiual</name>.</p>
-      <l>Hola,
-<lb/>Qui va la
-<lb/>Dis-moy viste quel soucy
-<lb/>Te peut amener icy.
-<lb/>Mariage. Ce sont de grands mysteres
-<lb/>Que ces sortes d’affaires.
-<lb/><pb n="8" xml:id="p8"/> Destinée. Ie te vais pour cela par mes charmes profonds
-<lb/>Faire venir quatre Demons.</l>
+      <lg><l>Hola,</l>
+<l>Qui va la</l>
+<l>Dis-moy viste quel soucy</l>
+<l>Te peut amener icy.</l>
+<l>Mariage. Ce sont de grands mysteres</l>
+<l>Que ces sortes d’affaires.</l>
+<l><pb n="8" xml:id="p8"/> Destinée. Ie te vais pour cela par mes charmes profonds</l>
+<l>Faire venir quatre Demons.</l></lg>
       <p>Ces gens la.</p>
-      <l>Non non n’ayez aucune peur
-<lb/>Ie leur osteray la laideur.
-<lb/>N’effrayez pas.
-<lb/>Des puissances inuincibles
-<lb/>Rendent depuis long-temps tous les Demons muëts
-<lb/>Mais par signes intelligibles
-<lb/>Ils respondront à tes souhaits.</l>
+      <lg><l>Non non n’ayez aucune peur</l>
+<l>Ie leur osteray la laideur.</l>
+<l>N’effrayez pas.</l>
+<l>Des puissances inuincibles</l>
+<l>Rendent depuis long-temps tous les Demons muëts</l>
+<l>Mais par signes intelligibles</l>
+<l>Ils respondront à tes souhaits.</l></lg>
       <label type="head">IV. ENTRÉE.</label>
       <p><name>Vn Magicien</name> qui fait sortir <name>quatre Demons</name>.</p>
       <p><name>Le Magicien</name>, <persName>Monsieur Beauchamp</persName>.</p>
@@ -140,27 +141,27 @@
       <p><persName>Ion. Agustin</persName>.</p>
       <p><persName>Taillauaca</persName>.</p>
       <p><persName>Angelo Michaël</persName>.</p>
-      <l>
-        <foreign>Z
-        I
-        ego me tienes Belisa
-<lb/>Mas bien tùs rigores veo
-<lb/>Por que estu desden tan claro
-<lb/>Que pueden verle los ciegos.</foreign>
-      </l>
-      <l>
+      <lg xml:lang="es">
+       <l>Z</l>
+        <l>I
+        ego me tienes Belisa</l>
+<l>Mas bien tùs rigores veo</l>
+<l>Por que estu desden tan claro</l>
+<l>Que pueden verle los ciegos.</l>
+     </lg>
+      <lg xml:lang="es">
         <pb n="11" xml:id="p11"/>
-        <foreign>Aunque mi amores tan grande
-<lb/>Como mi dolor noes menos
-<lb/>Si calla el vno dormido
-<lb/>Se que fa el otro despierto.</foreign>
-      </l>
-      <l>
-        <foreign>Fabores tuios Belisa
-<lb/>Tu vieralos yo secretos
-<lb/>Mas ya de dolores mios
-<lb/>No puedo azerlo que quiero.</foreign>
-      </l>
+        <l>Aunque mi amores tan grande</l>
+<l>Como mi dolor noes menos</l>
+<l>Si calla el vno dormido</l>
+<l>Se que fa el otro despierto.</l>
+      </lg>
+      <lg xml:lang="es">
+       <l>Fabores tuios Belisa</l>
+<l>Tu vieralos yo secretos</l>
+<l>Mas ya de dolores mios</l>
+<l>No puedo azerlo que quiero.</l>
+      </lg>
       <label type="head">VI. ENTRÉE.</label>
       <p><name>Deux Espagnols</name>, et <name>deux Espagnoles</name>.</p>
       <p><persName>Messieurs du Pille</persName>, &amp;<persName>Tartas</persName>, <name>Espagnols</name>.</p>
