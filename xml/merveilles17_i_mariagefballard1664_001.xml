@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--Odette: 2020-12-18T13:19:45+01:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Le mariage forcé, ballet du Roy, dansé par S. M. le 29 jour de janvier 1664</title>
+        <author>POQUELIN Jean-Baptiste, dit Molière (1622-1673)</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Rougemont 2.0</edition>
+        <respStmt>
+          <name>Mathilde Nicolas. </name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université de Genève</publisher>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Poquelin Jean-Baptiste, dit Molière,<emph> Le mariage forcé, ballet du Roy, dansé par S. M. le 29 jour de janvier 1664</emph>, Paris, Robert Ballard, 1664. </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1664"/>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="NP"/>
+      <head>Le Mariage forcé, ballet du roi, Paris, Ballard, 1664</head>
+      <head>Danse par sa Majesté, le 29. jour de Ianuier 1664.</head>
+      <p>A PARIS,</p>
+      <byline>Par <persName>ROBERT BALLARD</persName>, seul Imprimeur du Roy pour la Musique. </byline>
+      <p>
+        <date>M. DC. LXIV.</date>
+      </p>
+      <p>Auec Priuilege de sa Majesté.</p>
+      <pb n="NP"/>
+      <label type="head">LES ACTEVRS DE LA COMEDIE.</label>
+      <p><name>Sganarelle</name>. <persName>Molier</persName>.</p>
+      <p><name>Geronimo</name>. <persName>La Thorilliere</persName>.</p>
+      <p><name>Dorimene</name>. <persName>Mad<hi rend="sup">lle</hi> du Parc</persName>.</p>
+      <p><name>Alcantor</name>. <persName>Bejart</persName>.</p>
+      <p><name>Lycante</name>. <persName>La Grange</persName>.</p>
+      <p><name>Premier Boësmienne</name>.<persName>Mad<hi rend="sup">lle.</hi> Bejart</persName>.</p>
+      <p><name>Seconde Boësmienne</name>. <persName>Mad<hi rend="sup">lle.</hi> de Brie</persName>.</p>
+      <p><name>Premier Docteur</name>. <persName>Brecourt</persName>.</p>
+      <p><name>Second Docteur</name>. <persName>Du Croisy</persName>.</p>
+      <pb n="NP"/>
+      <label type="head">LE MARIAGE FORCÉ.</label>
+      <label type="head">BALLET.</label>
+      <label type="head">ARGVMENT.</label>
+      <p>COMME il n’y a rien au monde qui soit si commun que le Mariage, &amp; que c’est vne chose sur laquelle les hommes ordinairement se tournent le plus en ridicules ; il n’est pas merueilleux que ce soit toûjours la matiere de la pluspart des <tech>Comedies</tech>, aussi bien que des <tech>Ballets</tech>, qui sont des Comedies muëttes ; &amp; c’est par là qu’on a pris l’Idée de cette <tech>Comedie-Mascarade</tech>.</p>
+      <pb n="4" xml:id="p4"/>
+      <label type="head">ACTE PREMIER.</label>
+      <label type="head">SCENE PREMIERE.</label>
+      <p><name>SGanarelle</name> demande conseil au <name>Seigneur Geronimo</name> s’il se doit marier, ou non : Cét amy luy dit franchement que le Mariage n’est gueres le fait d’vn homme de cinquante ans : Mais <name>Sganarelle</name> luy respond qu’il est resolu au Mariage, &amp; l’autre, voyant cette extrauagance, de demander conseil apres vne resolution prise, luy conseille hautement de se marier, &amp; le quitte en riant.</p>
+      <label type="head">SCÈNE DEVXIESME.</label>
+      <p>La <name>Maitresse de Sganarelle</name> arriue, qui luy dit qu’elle est rauie de se marier auec luy, pour pouuoit sortir promptement de la sujession de son Pere, &amp; auoir desormais toutes ses coudées franches ; &amp; la-dessus elle luy conte la maniere dont elle pretend viure auec luy, qui sera proprement la naïue peinture d’vne Coquette acheuée. <name>Sganarelle</name> reste seul assez estonné ; Il se plaint, apres ce discours, <pb n="5" xml:id="p5"/> d’vne pesanteur de teste espouuantable, &amp; se mettant en <placeName>v</placeName><placeName>n coin du Th</placeName><placeName>ea</placeName><placeName>tre </placeName>pour dormir, il voit en songe <name>vne femme</name> representée par <persName>Mademoiselle Hylaire</persName>, qui chante ce Recit.</p>
+      <label type="head">RECIT DE LA BEAVTÉ.</label>
+      <l>SI l’Amour vous soûmet à ses lois inhumaines,
+<lb/>Choisissez, en aymant, vn objet plein d’appas ;
+<lb/>Portez, au moins, de belles chaisnes,
+<lb/>Et puis qu’il faut mourir, mourez d’vn beau trespas.</l>
+      <l>Si l’obiet de vos feux ne merite vos peines,
+<lb/>Sous l’empire d’Amour ne vous engagez pas :
+<lb/>Portez, au moins, etc.</l>
+      <label type="head">PREMIERE ENTRÉE.</label>
+      <p><name>La Ialousie</name>, <name>les Chagrins</name>, &amp;<name>les Soupçons</name>.</p>
+      <p><name>La Ialousie</name>, <persName>Le Sieur Doliuet</persName>.</p>
+      <p><name>Les chagrins</name>, <persName>Les Sieurs S. André</persName>, &amp;<persName>Desbrosses</persName>.</p>
+      <p><name>Les soupçons</name>, <persName>Les Sieurs de Lorge</persName>, &amp;<persName>le Chantre</persName>.</p>
+      <label type="head">II. ENTRÉE.</label>
+      <p><name>Quatre Plaisans</name>, ou <name>Goguenars</name>.</p>
+      <p>Le <persName>Comte d’Armagnac</persName>, <persName>Messieurs d’Heureux</persName>, <persName>Beauchamp</persName>, &amp; <persName>des-Airs le jeune</persName>.</p>
+      <pb n="6" xml:id="p6"/>
+      <label type="head">ACTE SECOND.</label>
+      <label type="head">SCENE PREMIERE.</label>
+      <p>LE <name>Seigneur Geronimo</name> esueille <name>Sganarelle</name>, qui lui veut conter le songe qu’il vient de faire : mais il luy respond qu’il n’entend rien aux songes, &amp; que sur le sujet du Mariage il peut consulter deux sçauants qui sont contents de luy, dont l’vn suit la Philosophie d’<persName>Aristote</persName>, &amp; l’autre est Pyrrhonien.</p>
+      <label type="head">SCENE DEVXIESME.</label>
+      <p>IL trouue le premier qui l’estourdit de son caquet, &amp; ne le laisse point parler ; ce qui l’oblige à le maltraitter.</p>
+      <label type="head">SCENE TROISIEME.</label>
+      <p>ENsuite il rencontre l’autre, qui ne luy respond, suiuant sa doctrine, qu’en termes qui ne decident rien ; il le chasse auec colere, &amp; la dessus arriuent <name>deux Egyptiens</name>, &amp; <name>quatre Egyptiennes</name>.</p>
+      <pb n="7" xml:id="p7"/>
+      <label type="head">III. ENTRÉE.</label>
+      <p><name>Deux Egyptiens</name>, &amp;<name>quatre Egyptiennes</name>.</p>
+      <p><name>Deux Egyptiens</name>, <persName>LE ROY</persName>, <persName>Le Marquis de Villeroy</persName>.</p>
+      <p><name>Egyptiennes</name>, <persName>Le Marquis de Rassan</persName>, <persName>les Sieurs Raynal</persName>, <persName>Noblet</persName>, &amp;<persName>la Pierre</persName>.</p>
+      <p>IL prend fantaisie à <name>Sganarelle</name> de se faire dire sa bonne auanture, &amp; rencontrant <persName>deux Boësmiennes</persName>, il leur demande s’il sera heureux en son Mariage : pour responce ils se mettent à danser en se moquant de luy, ce qui l’oblige d’aller trouuer <name>vn Magicien</name>.</p>
+      <label type="head">RECIT D’VN MAGICIEN.</label>
+      <p>Chanté par <name>Monsieur Destiual</name>.</p>
+      <l>Hola,
+<lb/>Qui va la
+<lb/>Dis-moy viste quel soucy
+<lb/>Te peut amener icy.
+<lb/>Mariage. Ce sont de grands mysteres
+<lb/>Que ces sortes d’affaires.
+<lb/><pb n="8" xml:id="p8"/> Destinée. Ie te vais pour cela par mes charmes profonds
+<lb/>Faire venir quatre Demons.</l>
+      <p>Ces gens la.</p>
+      <l>Non non n’ayez aucune peur
+<lb/>Ie leur osteray la laideur.
+<lb/>N’effrayez pas.
+<lb/>Des puissances inuincibles
+<lb/>Rendent depuis long-temps tous les Demons muëts
+<lb/>Mais par signes intelligibles
+<lb/>Ils respondront à tes souhaits.</l>
+      <label type="head">IV. ENTRÉE.</label>
+      <p><name>Vn Magicien</name> qui fait sortir <name>quatre Demons</name>.</p>
+      <p><name>Le Magicien</name>, <persName>Monsieur Beauchamp</persName>.</p>
+      <p><name>Quatre Demons</name>, <persName>Messieurs d’Heureux</persName>, <persName>de Lorge</persName>, <persName>des-Airs l’aisné</persName>, &amp;<persName>le Mercier</persName>.</p>
+      <p><name>SGanarelle</name> les interroge, ils respondent par signes, &amp; sortent en luy faisant les cornes.</p>
+      <pb n="9" xml:id="p9"/>
+      <label type="head">ACTE TROISIESME.</label>
+      <label type="head">SCENE PREMIERE.</label>
+      <p><name>SGanarelle</name> effrayé de ce presage, veut s’aller dégager au Pere, qui ayant oüy la proposition, luy respond qu’il n’a rien à luy dire, &amp; qu’il lui va toute à l’heure enuoyer sa responce.</p>
+      <label type="head">SCENE DEVXIESME.</label>
+      <p>CEtte responce est vn braue doucereux, son fils, qui vient auec ciuilité à <name>Sganarelle</name>, &amp; luy fait vn petit compliment pour se couper la gorge ensemble. <name>Sganarelle</name> l’ayant refusé, il luy donne quelques coups de baston, le plus ciuilement du monde, &amp; ces coups de baston le portent à demeurer d’accord d’espouser la fille.</p>
+      <label type="head">SCENE TROISIESME.</label>
+      <p><name>SGanarelle</name> touche les mains à la fille.</p>
+      <pb n="10" xml:id="p10"/>
+      <label type="head">V. ENTRÉE.</label>
+      <p><name>Vn Maistre à danser</name> representé par <persName>M. Doliuet</persName>, qui vient enseigner vne courante à <name>Sganarelle</name>.</p>
+      <label type="head">SCENE QVATRIESME.</label>
+      <p>LE <name>Seigneur Geronimo</name> vient se resiouïr auec son amy, &amp; luy dit que les jeunes gens de la Ville ont preparé vne mascarade pour honorer ses Nopces.</p>
+      <p>Concert Espagnol, Chanté par</p>
+      <p><persName>La Seignora Anna Bergerotti</persName>.</p>
+      <p><persName>Bordigoni</persName>.</p>
+      <p><persName>Chiarini</persName>.</p>
+      <p><persName>Ion. Agustin</persName>.</p>
+      <p><persName>Taillauaca</persName>.</p>
+      <p><persName>Angelo Michaël</persName>.</p>
+      <l>
+        <foreign>Z
+        I
+        ego me tienes Belisa
+<lb/>Mas bien tùs rigores veo
+<lb/>Por que estu desden tan claro
+<lb/>Que pueden verle los ciegos.</foreign>
+      </l>
+      <l>
+        <pb n="11" xml:id="p11"/>
+        <foreign>Aunque mi amores tan grande
+<lb/>Como mi dolor noes menos
+<lb/>Si calla el vno dormido
+<lb/>Se que fa el otro despierto.</foreign>
+      </l>
+      <l>
+        <foreign>Fabores tuios Belisa
+<lb/>Tu vieralos yo secretos
+<lb/>Mas ya de dolores mios
+<lb/>No puedo azerlo que quiero.</foreign>
+      </l>
+      <label type="head">VI. ENTRÉE.</label>
+      <p><name>Deux Espagnols</name>, et <name>deux Espagnoles</name>.</p>
+      <p><persName>Messieurs du Pille</persName>, &amp;<persName>Tartas</persName>, <name>Espagnols</name>.</p>
+      <p><persName>Messieurs de la Lanne</persName>, &amp;<persName>de S. André</persName>, <name>Espagnolles</name>.</p>
+      <label type="head">VII. ENTRÉE.</label>
+      <p>Vn Chariuarycrotesque.</p>
+      <p><persName>Monsieur Lully</persName>, <persName>Les Sieurs Balthasard</persName>, <persName>Vagnac</persName>, <persName>Bonnard</persName>, <persName>la Pierre</persName>, <persName>Descouteaux</persName>, &amp;<persName>les trois Opterres frères</persName>.</p>
+      <pb n="12" xml:id="p12"/>
+      <label type="head">VIII. ET DERNIERE ENTRÉE.</label>
+      <p><name>Quatre Gallands</name> cajeollans la femme de Sganarelle.</p>
+      <p><persName>Monsieur le Duc</persName>, <persName>Monsieur le Duc de S. Aignan</persName>, <persName>Messieurs Beauchamp</persName>, &amp;<persName>Raynal</persName>.</p>
+      <p>FIN.</p>
+    </body>
+  </text>
+</TEI>
