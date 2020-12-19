@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="index.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listPerson xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
-  <person xml:id="alais">
+  <person xml:id="alais" sex="M">
     <name>Allais, violon</name>
   </person>
-  <person xml:id="amiot">
+  <person xml:id="amiot" sex="M">
     <name>Amiot, Pierre</name>
   </person>
   <person xml:id="andre" sex="M"/>

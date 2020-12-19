@@ -277,6 +277,7 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
         $nsprefix="tei"; //Assign an arbitrary namespace prefix.
       }
       $root->registerXPathNamespace($nsprefix, $nsurl);
+      echo $nsprefix, " ", $nsurl, "\n";
     }
     $nodeset = $root->xpath('//tei:place');
     while(list( , $place) = each($nodeset)) {
