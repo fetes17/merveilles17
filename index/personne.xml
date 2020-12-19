@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="index.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listPerson xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
-  <person xml:id="alais">
+  <person xml:id="alais" sex="M">
     <name>Allais, violon</name>
   </person>
-  <person xml:id="amiot">
+  <person xml:id="amiot" sex="M">
     <name>Amiot, Pierre</name>
   </person>
   <person xml:id="andre" sex="M"/>
@@ -1508,9 +1508,6 @@
     <death when="1694"/>
     <identifier type="databnf">https://data.bnf.fr/fr/14842736/nicolas_hotteterre/</identifier>
     <identifier type="isni">0000 0000 0336 2673</identifier>
-  </person>
-  <person xml:id="" sex="M">
-    <name>Hotteterre, Jean</name>
   </person>
   <person xml:id="nicolas_neufville_villeroy" sex="M">
     <name>Neufville de Villeroy, Nicolas V (de)</name>

@@ -208,7 +208,7 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
       }
       // si n’est pas un event enfant, pas de parent
       if ($event->parentNode->nodeName != 'event') $parent = null;
-      echo $code, " ", $label, " ",  $start, " ",  $end, " ",  $lieu_code, " ", $parent, "\n";
+      // echo $code, " ", $label, " ",  $start, " ",  $end, " ",  $lieu_code, " ", $parent, "\n";
       $chrono->execute(array($code, $label, $start, $end, $lieu_code, $parent));
       $eventid = self::$pdo->lastInsertId();
       foreach ($event->childNodes as $node) {
@@ -269,27 +269,41 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
   {
     $q = self::$pdo->prepare("INSERT INTO lieu (code, label, coord, settlement, alt) VALUES (?, ?, ?, ?, ?)");
     self::$pdo->beginTransaction();
-
-
-    $root = new SimpleXMLElement(self::$home."index/lieu.xml", LIBXML_BIGLINES | LIBXML_NOCDATA | LIBXML_NONET | LIBXML_NSCLEAN, true); // "http://www.tei-c.org/ns/1.0"
-    foreach($root->getDocNamespaces() as $nsprefix => $nsurl) {
-      if(strlen($nsprefix) == 0) {
-        $nsprefix="tei"; //Assign an arbitrary namespace prefix.
-      }
-      $root->registerXPathNamespace($nsprefix, $nsurl);
+    $file = self::$home."index/lieu.xml";
+    $dom = new DOMDocument();
+    $dom->load($file, LIBXML_BIGLINES | LIBXML_NOCDATA | LIBXML_NONET | LIBXML_NSCLEAN);
+    $xpath = new DOMXPath($dom);
+    $xpath->registerNamespace("tei", "http://www.tei-c.org/ns/1.0");
+    /*
+    // ici on pourrait enregistrer automatiquement d’autres namespace
+    $root = $dom->documentElement;
+    foreach ($xpath->query('namespace::*', $root) as $node ) {
+      echo $node->nodeName, " ", $node->nodeValue, "\n";
+      if ($node->nodeName == 'xmlns') $xpath->registerNamespace("default", $node->nodeValue);
     }
-    $nodeset = $root->xpath('//tei:place');
-    while(list( , $place) = each($nodeset)) {
-      $code = $place->attributes('xml', true)->id;
-      $label = (string)$place->name[0];
-      // echo $code, " ", $label, "\n";
-      if (!$label) $label = null;
-      $alt = (string)$place->name[1];
-      if (!$alt) $alt = null;
-      $coord = $place->geo;
-      if (!$coord) $coord = null;
-      $settlement = (string)$place->settlement;
-      if(!$settlement) $settlement = null;
+    */
+    foreach ($xpath->query('//tei:place') as $place ) {
+      $code = $place->getAttribute('xml:id');
+      $label =$coord = $settlement = $alt = null;
+      foreach ($place->childNodes as $node) {
+        $name = $node->nodeName;
+        switch($name) {
+          case "#text":
+          case "place":
+            break;
+          case "name":
+            if ($label == null) $label = $node->nodeValue;
+            else if ($alt == null) $alt = $node->nodeValue;
+            break;
+          case "settlement":
+            $settlement = $node->nodeValue;
+            break;
+          case "geo":
+            $coord = $node->nodeValue;
+            break;
+          
+        }
+      }
       $q->execute(array($code, $label, $coord, $settlement, $alt));
     }
     self::$pdo->commit();
@@ -299,18 +313,27 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
   {
     $q = self::$pdo->prepare("INSERT OR IGNORE INTO technique (code, label) VALUES (?, ?)");
     self::$pdo->beginTransaction();
+
+    $file = self::$home."index/technique.xml";
+    $dom = new DOMDocument();
+    $dom->load($file, LIBXML_BIGLINES | LIBXML_NOCDATA | LIBXML_NONET | LIBXML_NSCLEAN);
+    $xpath = new DOMXPath($dom);
+    $xpath->registerNamespace("tei", "http://www.tei-c.org/ns/1.0");
     
-    $root = new SimpleXMLElement(self::$home."index/technique.xml", LIBXML_BIGLINES | LIBXML_NOCDATA | LIBXML_NONET | LIBXML_NSCLEAN, true); // "http://www.tei-c.org/ns/1.0"
-    foreach($root->getDocNamespaces() as $nsprefix => $nsurl) {
-      if(strlen($nsprefix) == 0) {
-        $nsprefix="tei"; //Assign an arbitrary namespace prefix.
+    foreach ($xpath->query('//tei:entry') as $place ) {
+      $code = $place->getAttribute('xml:id');
+      $label = null;
+      foreach ($place->childNodes as $node) {
+        $name = $node->nodeName;
+        switch($name) {
+          case "#text":
+          case "entry":
+            break;
+          case "form":
+            if ($label == null) $label = $node->nodeValue;
+            break;
+        }
       }
-      $root->registerXPathNamespace($nsprefix, $nsurl);
-    }
-    $nodeset = $root->xpath('//tei:entry');
-    while(list( , $entry) = each($nodeset)) {
-      $code = $entry->attributes('xml', true)->id;
-      $label = (string)$entry->form[0];
       $q->execute(array($code, $label));
     }
     self::$pdo->commit();
