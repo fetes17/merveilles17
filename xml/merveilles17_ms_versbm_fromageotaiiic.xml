@@ -29,9 +29,8 @@
             <sourceDesc>
                 <bibl><title>Marché passé avec Denis Buret, menuisier, pour la construction de deux
                         théâtres portatifs dans le salon de Versailles. Copie par Fromageot d'un
-                        original perdu.</title><note><date>20 février 1664</date>, Versailles,
-                        Bibliothèque municipale de Versailles, Collection Fromageot, A III
-                        c.</note><ptr target=""/></bibl>
+                        original perdu.</title><note>Versailles, Bibliothèque municipale de
+                        Versailles, Collection Fromageot, A III c.</note><ptr target=""/></bibl>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -57,8 +56,8 @@
         <body>
             <div>
                 <pb n="1"/>
-                <p><tech type="construction">Deux théâtres</tech> pour <persName key="versailles"
-                        >Versailles</persName></p>
+                <p><tech type="construction">Deux théâtres</tech> pour <placeName
+                        key="versailles_chateau">Versailles</placeName></p>
                 <p>Marché</p>
                 <p><date when="1664-02-20">20 février 1664</date></p>
                 <p>Fut présent <persName key="denis_buret" role="fournisseur">Denis Buret</persName>
@@ -66,16 +65,17 @@
                     y demeurant <placeName key="paris_rue-saint-honore">rue Sainct
                         honoré</placeName> près le <placeName key="paris_palais-royal">palais
                         roial</placeName>
-                    <placeName key="paris_saint-germain-l-auxerrois">paroisse Saint Germain
+                    <placeName key="paris_saint-germain-l-auxerrois">paroisse Sainct Germain
                         Lauxerrois</placeName>, Lequel a faict marché promis et promet au <persName
                         key="louisxiv" role="commanditaire">Roy</persName> notre Sire ci acceptant
                     pour Sa Majesté <persName key="colbert" role="organisation">M<hi rend="sup"
                             >re</hi> Jean Baptiste Colbert baron de Seignelay</persName> conseiller
                     du roi ordinaire de tous ses conseils du consent<hi rend="sup">t</hi> roial
                     intendant des finances, surintendant et ordonnateur général des bastimens arts
-                    et manufactures de Frances pour dans huit jours prochain, <tech
-                        type="construction">Deux théâtres portatifs dans le Sallon de Versailles
-                        chacun desquels aura dix-neufs pieds d'un sens et vingt pieds de l'autre
+                    et manufactures de France pour dans huit jours prochain, <tech
+                        type="construction">Deux théâtres portatifs</tech> dans <placeName
+                        key="versailles_chateau">le Sallon de Versailles</placeName>
+                    <tech>chacun desquels aura dix-neuf pieds d'un sens et vingt pieds de l'autre
                         tout en bois de chêne bien assemblés. Le dessus desquels théâtres sera
                         establi bien joinctez assemblez en bon état et bon bout de sapin d'un pouce
                         et demi d'espaisseur et l'assemblage de chesne ; fournis toute la ferrure
@@ -83,13 +83,13 @@
                         dans le temps susdit, suivant le dessein</tech></p>
                 <pb n="2"/>
                 <p>Ce marché ainsy faict moyennant la somme de six cent quarante livres tournois
-                    pour lesdits deux théâtres rendus faicts parfaicts commes dessus, laquelle somme
+                    pour lesdits deux théâtres rendus faicts parfaicts comme dessus, laquelle somme
                     ledit <persName key="colbert" role="organisation">sieur Colbert</persName> audit
-                    nom a promis faire payer audit <persName key="buret" role="fournisseur"
+                    nom a promis faire payer audit <persName key="denis_buret" role="fournisseur"
                         >Buret</persName> sçavoir la somme de trois cent livres et pour le surplus
                     sy tost lesdits <tech type="construction">deux théâtres mis en place dans ledit
                         sallon</tech> par le trésorier général des bastimens.</p>
-                <p>Faict et passé à <placeName key="paris">Paris</placeName> en la maison dudit
+                <p>Faict et passé à <placeName key="paris">Paris</placeName> en la maison dudit s<hi rend="sup">r</hi>
                         <persName key="colbert" role="organisation">Colbert</persName>
                     <placeName key="paris_rue-petits-champs">rue des Petits Champs</placeName>
                     <placeName key="paris_saint-eustache">paroisse Saint Eustache</placeName>
@@ -98,7 +98,7 @@
                 <p><persName key="colbert" role="organisation">Colbert</persName></p>
                 <p><persName key="denis_buret" role="fournisseur">Denis Buret</persName></p>
                 <p><persName key="jean_chuppin">Chuppin</persName></p>
-                <p><persName key="francois_le_fouin">Lefouin</persName></p>
+                <p><persName key="francois_le_fouin">[Lefouin]</persName></p>
             </div>
         </body>
     </text>
