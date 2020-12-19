@@ -67,3 +67,4 @@
 * [merveilles17_ms_bnfmsfr6143.xml](https://fetes17.github.io/merveilles17/xml/merveilles17_ms_bnfmsfr6143.xml)
 * [merveilles17_ms_pie-bizincourt_001.xml](https://fetes17.github.io/merveilles17/xml/merveilles17_ms_pie-bizincourt_001.xml)
 * [merveilles17_ms_pie-philidor.xml](https://fetes17.github.io/merveilles17/xml/merveilles17_ms_pie-philidor.xml)
+* [merveilles17_ms_versbm_fromageotaiiic.xml](https://fetes17.github.io/merveilles17/xml/merveilles17_ms_versbm_fromageotaiiic.xml)
