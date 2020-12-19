@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
+<?xml-stylesheet type="text/css" href="../tei-author.css" alternate="author"?>
+<?xml-model href="../merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Marché passé avec Denis Buret, menuisier, pour la construction de deux
+                    théâtres portatifs dans le salon de Versailles. 20 février 1664. Copie par
+                    Fromageot d'un original perdu.</title>
+                <author key="jean_chuppin">Chuppin, Jean</author>
+                <author key="francois_le_fouin">Le Fouin, François</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Merveilles17</edition>
+                <respStmt>
+                    <name>Gaëlle Lafage</name>
+                    <resp>Transcription et balisage</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Université d’Artois - Lille, MESHS</publisher>
+                <date when="2019"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl><title>Marché passé avec Denis Buret, menuisier, pour la construction de deux
+                        théâtres portatifs dans le salon de Versailles. Copie par Fromageot d'un
+                        original perdu.</title><note><date>20 février 1664</date>, Versailles,
+                        Bibliothèque municipale de Versailles, Collection Fromageot, A III
+                        c.</note><ptr target=""/></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1664-02-20">20 février 1664</date>
+            </creation>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+            <abstract>
+                <listEvent>
+                    <event from="1664-05-07" to="1664-05-13">
+                        <placeName/>
+                    </event>
+                </listEvent>
+            </abstract>
+            <textClass>
+                <classCode scheme=""/>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <pb n="1"/>
+                <p><tech type="construction">Deux théâtres</tech> pour <persName key="versailles"
+                        >Versailles</persName></p>
+                <p>Marché</p>
+                <p><date when="1664-02-20">20 février 1664</date></p>
+                <p>Fut présent <persName key="denis_buret" role="fournisseur">Denis Buret</persName>
+                        m<hi rend="sup">e</hi> menuisier à <placeName key="paris">Paris</placeName>
+                    y demeurant <placeName key="paris_rue-saint-honore">rue Sainct
+                        honoré</placeName> près le <placeName key="paris_palais-royal">palais
+                        roial</placeName>
+                    <placeName key="paris_saint-germain-l-auxerrois">paroisse Saint Germain
+                        Lauxerrois</placeName>, Lequel a faict marché promis et promet au <persName
+                        key="louisxiv" role="commanditaire">Roy</persName> notre Sire ci acceptant
+                    pour Sa Majesté <persName key="colbert" role="organisation">M<hi rend="sup"
+                            >re</hi> Jean Baptiste Colbert baron de Seignelay</persName> conseiller
+                    du roi ordinaire de tous ses conseils du consent<hi rend="sup">t</hi> roial
+                    intendant des finances, surintendant et ordonnateur général des bastimens arts
+                    et manufactures de Frances pour dans huit jours prochain, <tech
+                        type="construction">Deux théâtres portatifs dans le Sallon de Versailles
+                        chacun desquels aura dix-neufs pieds d'un sens et vingt pieds de l'autre
+                        tout en bois de chêne bien assemblés. Le dessus desquels théâtres sera
+                        establi bien joinctez assemblez en bon état et bon bout de sapin d'un pouce
+                        et demi d'espaisseur et l'assemblage de chesne ; fournis toute la ferrure
+                        qu'il conviendra pour rendre lesdits deux théâtres bien et duement faicts
+                        dans le temps susdit, suivant le dessein</tech></p>
+                <pb n="2"/>
+                <p>Ce marché ainsy faict moyennant la somme de six cent quarante livres tournois
+                    pour lesdits deux théâtres rendus faicts parfaicts commes dessus, laquelle somme
+                    ledit <persName key="colbert" role="organisation">sieur Colbert</persName> audit
+                    nom a promis faire payer audit <persName key="buret" role="fournisseur"
+                        >Buret</persName> sçavoir la somme de trois cent livres et pour le surplus
+                    sy tost lesdits <tech type="construction">deux théâtres mis en place dans ledit
+                        sallon</tech> par le trésorier général des bastimens.</p>
+                <p>Faict et passé à <placeName key="paris">Paris</placeName> en la maison dudit
+                        <persName key="colbert" role="organisation">Colbert</persName>
+                    <placeName key="paris_rue-petits-champs">rue des Petits Champs</placeName>
+                    <placeName key="paris_saint-eustache">paroisse Saint Eustache</placeName>
+                    <date when="1664-02-20">l'an mil six cent soixante-quatre le vingtième jour de
+                        febvrier après midi</date>. Soussigné</p>
+                <p><persName key="colbert" role="organisation">Colbert</persName></p>
+                <p><persName key="denis_buret" role="fournisseur">Denis Buret</persName></p>
+                <p><persName key="jean_chuppin">Chuppin</persName></p>
+                <p><persName key="francois_le_fouin">Lefouin</persName></p>
+            </div>
+        </body>
+    </text>
+</TEI>
