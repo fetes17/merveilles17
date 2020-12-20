@@ -303,7 +303,7 @@
         <p><persName key="cm_de_belleforiere" role="acteur">Le Marquis de Soyecourt</persName>,
             <name key="olivier" corresp="cm_de_belleforiere">Olivier</name>.</p>
         <l>VOicy l’honneur du Siecle, aupres de qui nous sommes,</l>
-        <l>Et mesme <name>les Geant</name>, de mediocres hommes,</l>
+        <l>Et mesme <name key="geant">les Geant</name>, de mediocres hommes,</l>
         <l>Et ce franc <name key="chevalier">Chevalier </name>à tous venant tout prest,</l>
         <l>Tousiours pour quelque Iouste a la lance en arrest.</l>
         <p><persName key="louis_crevant" role="acteur">Les Marquis d’Humieres</persName> &amp;
@@ -1414,14 +1414,14 @@
           passion naissante aux bois et aux rochers, et faisant retentir par tout le beau nom de sa
           Bergere <name key="philis">Philis</name>, vn Echo ridicule luy répondant bizarement, il y prit si grand
           plaisir, que riant en cent manieres, il fit répondre autant de fois cét Echo, sans
-          témoigner d’en estre ennuyé : Mais <name>vn Ours</name> vint interrompre ce beau
+          témoigner d’en estre ennuyé : Mais <tech type="animal"><name key="ours">vn Ours</name></tech> vint interrompre ce beau
           divertissement, et le surprit si fort par cette veuë peu attenduë, qu’il donna des
-          sensibles marques de sa peur : Il luy fit faire devant <name>l’Ours</name> toutes les
+          sensibles marques de sa peur : Il luy fit faire devant <tech type="animal"><name key="ours">l’Ours</name></tech> toutes les
           soûmissions dont il se pût aviser pour l’adoucir : Enfin, se iettant à vn arbre pour y
-          monter, comme il vit que <name>l’Ours</name> y vouloit grimper aussi bien que luy, il cria
+          monter, comme il vit que <tech type="animal"><name key="ours">l’Ours</name></tech> y vouloit grimper aussi bien que luy, il cria
           au secours d’vne voix si haute, qu’elle attira <name key="berger">huict paysans</name> armez de bastons
-          à deux bouts et d’espieux, pendant qu’<name>vn autre Ours </name>parut en suite du
-          premier. II se fit vn Combat qui finit par la mort d’<name>vn des Ours</name>, et par la
+          à deux bouts et d’espieux, pendant qu’<tech type="animal"><name key="ours">vn autre Ours</name></tech> parut en suite du
+          premier. II se fit vn Combat qui finit par la mort d’<tech type="animal"><name key="ours">vn des Ours</name></tech>, et par la
           fuite de l’autre.</p>
         <label type="head">SCENE PREMIERE.</label>
         <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
@@ -1441,9 +1441,9 @@
         <p>Ah ! hem. ah ah ah ! hi hi hi hi. oh oh oh oh. Voilà vn Echo qui est bouffon ! hom hom
           hom. ha ha ha ha. vh vh vh. Voila vn Echo qui est bouffon !</p>
         <label type="head">SCENE II.</label>
-        <p><name>VN OURS</name>, <name key="moron" corresp="moliere">MORON</name>.</p>
+        <p><tech type="animal"><name key="ours">VN OURS</name></tech>, <name key="moron" corresp="moliere">MORON</name>.</p>
         <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
-        <p>AH! <name>Monsieur l’Ours</name>, ie suis vostre serviteur de tout mon cœur : de grace,
+        <p>AH! <tech type="animal"><name key="ours">Monsieur l’Ours</name></tech>, ie suis vostre serviteur de tout mon cœur : de grace,
           épargnez-moy ? ie vous asseure que ie ne vaux plus rien du tout à manger, ie n’ay que la
           peau &amp; les os, &amp; ie voy de certaines gens là bas qui seroient bien mieux vostre
           affaire. Eh ! eh ! eh ! Monseigneur, tout doux, s’il vous plaist. la, la, la, la, ah ?
@@ -1651,7 +1651,7 @@
           que parmy cette noble ieunesse tu puisse enfin rencontrer où arrester tes <pb n="50"
             xml:id="p50"/> yeux &amp; determiner tes pensées. Ie ne demande, dis ie, au Ciel autre
           bonheur que celuy de te voir vn Espoux. I'ay, pour obtenir cette grace fait encore ce
-          matin vn sacrifice à <name>Venus</name>; &amp; si ie sçay bien expliquer le langage des
+          matin vn sacrifice à <name key="venus">Venus</name>; &amp; si ie sçay bien expliquer le langage des
           Dieux, elle m’a promis vn miracle : mais quoy qu’il en soit, ie veux en vser auec toy en
           pere qui cherit sa fille : Si tu trouves où attacher tes vœux, ton choix sera le mien,
           &amp; ie ne considereray ny interests d’Estat, ny avantage d’alliance. Si ton coeur
@@ -2529,7 +2529,7 @@
           PRINCE</name>, <name key="princesse_d_elide">LA PRINCESSE</name>, <name key="aglante">AGLANTE</name>, <name key="cinthie">CINTHIE</name>.
           <name key="moron" corresp="moliere">MORON</name>.</p>
         <label type="speaker"><name key="philis">PHILIS</name>.</label>
-        <p>SEigneur, la Deesse <name>Venus </name>vient d’annoncer par tout le changement du coeur
+        <p>SEigneur, la Deesse <name key="venus">Venus</name> vient d’annoncer par tout le changement du coeur
           de <name key="princesse_d_elide">la Princesse</name> : <name key="berger">Tous les Pasteurs</name> &amp; <name key="bergere">toutes les
             Bergeres</name> en témoignent leur joye par des danses &amp; des chansons, &amp; si ce
           n’est point vn spectacle que vous méprisiez, vous allez voir l’allegresse publique se
