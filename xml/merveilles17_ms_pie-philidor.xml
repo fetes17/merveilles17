@@ -349,8 +349,8 @@
               Soyecourt</persName>
             <name key="olivier" corresp="cm_de_belleforiere">Oliuier</name>.</label>
           <l>Voicy l’honneur du Siecle aupres de qui nous sommes</l>
-          <l>Et mesme <name>les Geants</name>, de mediocres Hommes,</l>
-          <l>Et ce franc <name>Cheualier</name> à tous venans tout prest</l>
+          <l>Et mesme <name key="geant">les Geants</name>, de mediocres Hommes,</l>
+          <l>Et ce franc <name key="chevalier">Cheualier</name> à tous venans tout prest</l>
           <l>Toûjours pour quelque Iouste a la lance en arrest.</l>
         </lg>
         <p>Les <persName key="louis_crevant" role="acteur">Marquis d’Humieres</persName> et
@@ -1235,7 +1235,7 @@
         <l>Et je sçay qu’<name>Elpenor</name>, qu’on appelloit mon Pere,</l>
         <l>A cause qu’il estoit le mary de <name>ma Mere</name></l>
         <l>Contoit pour grand honneur aux Pasteurs d’aujourd’huy</l>
-        <l>Que le Prince autrefois estoit venu chez luy,</l>
+        <l>Que <name>le Prince</name> autrefois estoit venu chez luy,</l>
         <l>Et que durant ce temps il auoit l’avantage</l>
         <l>De se voir salué de tous ceux du Village :</l>
         <l>Baste, quoy qu’il en soit, je veux par mes travaux…</l>
@@ -1357,15 +1357,14 @@
           aux bois, et aux rochers, et faisant retentir par tout le beau nom de sa Bergere <name
             key="philis" corresp="madeleine_bejart">Philis</name>, vn Echo ridicule luy repondant
           bizarement, Il y prit si grand plaisir, que riant en cent manieres, Il fit repondre autant
-          de fois cet Echo, sans témoigner d’en estre ennuyé ; Mais <name>vn Ours</name> vint
+          de fois cet Echo, sans témoigner d’en estre ennuyé ; Mais <tech type="animal"><name key="ours">vn Ours</name></tech> vint
           Interrompre ce beau diuertissement, et le surprit si fort par cette veuë peu attendue,
-          qu’il donna de sensibles marques de sa peur. Elle luy fit faire deuant <name key="ours"
-            >l’Ours</name> toutes les soumissions dont Il se pût auiser, pour l’adoucir : Enfin se
-          Iettant à vn arbre pour y monter, comme il vit que <name>l’Ours</name> y vouloit grimper
-          aussibien que luy, Il cria au secours d’vne voix si Haute, qu’il attira <name>8
-            Paysans</name> armez de bâtons à deux bouts, et d’espieux pendant qu’<name>vn autre
-            Ours</name> parut en suite du premier. II se fit vn Combat, qui finit par la mort
-            d’<name>vn des Ours</name>, et par la fuite de l’autre.</p>
+          qu’il donna de sensibles marques de sa peur. Elle luy fit faire deuant <tech type="animal"><name key="ours">l’Ours</name></tech> toutes les soumissions dont Il se pût auiser, pour l’adoucir : Enfin se
+          Iettant à vn arbre pour y monter, comme il vit que <tech type="animal"><name key="ours">l’Ours</name></tech> y vouloit grimper
+          aussibien que luy, Il cria au secours d’vne voix si Haute, qu’il attira <name key="berger">8
+            Paysans</name> armez de bâtons à deux bouts, et d’espieux pendant qu’<tech type="animal"><name key="ours">vn autre
+            Ours</name></tech> parut en suite du premier. II se fit vn Combat, qui finit par la mort
+          d’<tech type="animal"><name key="ours">vn des Ours</name></tech>, et par la fuite de l’autre.</p>
         <pb n="82" xml:id="p82"/>
         <label type="head">Scene Premiere.</label>
         <label type="speaker"><name key="moron" corresp="moliere">Moron</name>.</label>
@@ -1390,9 +1389,9 @@
         <p>uh uh uh. Voyla vn Echo qui est bouffon.</p>
         <pb n="83" xml:id="p83"/>
         <label type="head">Scene Seconde.</label>
-        <p><name>Vn Ours</name>, <name key="moron" corresp="moliere">Moron</name>.</p>
+        <p><tech type="animal"><name key="ours">Vn Ours</name></tech>, <name key="moron" corresp="moliere">Moron</name>.</p>
         <label type="speaker"><name key="moron" corresp="moliere">Moron</name>.</label>
-        <p>Ah <name>Monsieur l’Ours</name>, je suis votre seruiteur de tout mon cœur : de grace
+        <p>Ah <tech type="animal"><name key="ours">Monsieur l’Ours</name></tech>, je suis votre seruiteur de tout mon cœur : de grace
           épargnez-moy, je vaux rien du tout à manger, je n’ay que la peau et les os, et je voy de
           certaines gens là-bas qui seroient bien mieux votre affaire. Eh ! Eh ! Eh ! Monseigneur
           que votre Altesse est Iolie, et bien faite.</p>
@@ -1416,7 +1415,7 @@
             key="moron" corresp="moliere">Moron</name>, deuenu braue par l’Eloignement du peril,
           voulut aller donner mille coups à la beste qui n’estoit plus en estat de se déffendre, et
           fit tout ce qu’vn fanfaron qui n’auroit pas esté trop hardy, eut pû faire en cette
-          occasion, et <name>les Danseurs</name> pour témoigner leur Ioye danserent vne fort belle
+          occasion, et les Danseurs pour témoigner leur Ioye danserent vne fort belle
           Entrée. C’estoient <persName key="manceau" role="danseur">Mr. Manceau</persName>,
             <persName key="chicanneau" role="danseur">Les Srs. Chicanneau</persName>, <persName
             key="balthazard_martinot" role="danseur">Baltazard</persName>, <persName key="noblet"
@@ -2419,14 +2418,14 @@
             >Moron</name>.</p>
         <label type="speaker"><name key="philis" corresp="madeleine_bejart">Philis</name>.</label>
         <p>Seigneur, la Deesse Venus vient d’annoncer par tout le changement du coeur de <name
-            key="princesse_d_elide" corresp="armande_bejart">la Princesse</name>. <name>Tous les
+            key="princesse_d_elide" corresp="armande_bejart">la Princesse</name>. <name key="berger">Tous les
             Pasteurs</name>, et <name key="bergere">toutes les Bergeres</name> en témoignent leur
           joye par des danses, et des chansons, et si ce n’est pas vn spectacle que vous mesprisiez,
           vous allez voir l’allegresse publique se repandre Iusqu’Icy.</p>
         <p>Fin Du Cinquiésme Acte.</p>
         <pb n="158" xml:id="p158"/>
         <label type="head">Sixieme Intermede.</label>
-        <p>Chœurs de <name key="berger">Pasteurs</name>, et de <name>Bergeres</name> Qui Dansent.</p>
+        <p>Chœurs de <name key="berger">Pasteurs</name>, et de <name key="bergere">Bergeres</name> Qui Dansent.</p>
         <p><name key="berger" corresp="le_gros"><name key="berger" corresp="estival"><name
                 key="berger" corresp="louis_don"><name key="simon_blondel">Quatre
                 Bergers</name></name></name></name>, et <name key="bergere" corresp="hilaire_dupuis"
@@ -2481,7 +2480,7 @@
             riches.</p>
         <p>Mais ce qui surprit dauantage, fut de voir sortir <name key="alcine"
             corresp="therese_duparc">Alcine</name> de derriere <tech type="construction">le
-              Rocher</tech>, portée par vn <tech type="machine_eau"><name>Monstre Marin</name></tech>
+              Rocher</tech>, portée par vn <tech type="machine_eau"><name key="monstres">Monstre Marin</name></tech>
           <!--technique ou personnage ?-->
           d’vne grandeur prodigieuse.</p>
         <p><name key="celie" corresp="mlle_de_brie"><name key="dirce" corresp="armande_bejart">Deux
