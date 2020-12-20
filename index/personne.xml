@@ -1,70 +1,152 @@
 <?xml version="1.0"?>
 <?xml-model href="index.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listPerson xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
-  <person xml:id="andre" sex="M"/>
-  <person xml:id="blancas" sex="M"/>
+  <person xml:id="andre" sex="M">
+    <name>André, officier du Gobelet</name>
+  </person>
+  <person xml:id="blancas" sex="M">
+    <name>Blancas, page</name>
+  </person>
   <!-- à corriger en Brancas ? À vérifier -->
-  <person xml:id="dauphin" sex="M"/>
-  <person xml:id="de_briare" sex="M"/>
-  <person xml:id="de_forgues" sex="M"/>
-  <person xml:id="de_laynay" sex="M"/>
-  <person xml:id="de_nier" sex="M"/>
+  <person xml:id="dauphin" sex="M">
+    <name>Dauphin, ouvrier/artisan</name>
+  </person>
+  <person xml:id="de_briare" sex="M">
+    <name>De Briare, officier du Gobelet</name>
+  </person>
+  <person xml:id="de_forgues" sex="M">
+    <name>De Forgues, page</name>
+  </person>
+  <person xml:id="de_nier" sex="M">
+    <name>De Nier, officier du Gobelet</name>
+  </person>
   <!-- Attribut à corriger: il s'agit de François Hannibal I + attention, confusion avec le comte -->
-  <person xml:id="gassion" sex="M"/>
-  <person xml:id="geunin" sex="M"/>
-  <person xml:id="giraut" sex="M"/>
-  <person xml:id="gonualin" sex="M"/>
-  <person xml:id="guichon" sex="M"/>
-  <person xml:id="hericour" sex="M"/>
-  <person xml:id="homere" sex="M"/>
-  <person xml:id="hubert" sex="M"/>
-  <person xml:id="huege" sex="M"/>
-  <person xml:id="huguenet" sex="M"/>
-  <person xml:id="humberk" sex="M"/>
-  <person xml:id="hurlot" sex="M"/>
-  <person xml:id="irieux_magontier"/>
-  <person xml:id="ittier" sex="M"/>
-  <person xml:id="jacques_davy_perron" sex="M"/>
-  <person xml:id="jacques_moussu" sex="M"/>
-  <person xml:id="jacques_philippe_girard_charnass&#xE9;" sex="M"/>
-  <person xml:id="jean_chapelain" sex="M"/>
-  <person xml:id="jean_de_flandres" sex="M"/>
-  <person xml:id="jean_guignard_fils" sex="M"/>
-  <person xml:id="jean_magontier" sex="M"/>
-  <person xml:id="jean_moran" sex="M"/>
-  <person xml:id="jean_ruze_effiat" sex="M"/>
-  <person xml:id="jemarie" sex="M"/>
-  <person xml:id="jennesson" sex="M"/>
-  <person xml:id="joannet" sex="M"/>
-  <person xml:id="l_azure" sex="M"/>
-  <person xml:id="la_boire" sex="M"/>
-  <person xml:id="la_borde" sex="M"/>
-  <person xml:id="la_caisse" sex="M"/>
-  <person xml:id="la_couderelle" sex="M"/>
-  <person xml:id="la_fleu" sex="M"/>
-  <person xml:id="la_fontaine" sex="M"/>
-  <person xml:id="la_jeunesse" sex="M"/>
-  <person xml:id="la_liuere" sex="M"/>
-  <person xml:id="la_place" sex="M"/>
-  <person xml:id="la_rose" sex="M"/>
-  <person xml:id="laloin" sex="M"/>
-  <person xml:id="lambelot" sex="M"/>
-  <person xml:id="langlois_l_aine" sex="M"/>
-  <person xml:id="langlois_le_cadet" sex="M"/>
-  <person xml:id="le_cocq" sex="M"/>
-  <person xml:id="le_noble" sex="M"/>
-  <person xml:id="leger" sex="M"/>
-  <person xml:id="leopold_Ier_autriche" sex="M"/>
-  <person xml:id="lienard" sex="M"/>
-  <person xml:id="lionnois" sex="M"/>
-  <person xml:id="loubie" sex="M"/>
-  <person xml:id="louis_d_escre" sex="M"/>
-  <person xml:id="louis_desore" sex="M"/>
-  <person xml:id="louis_lazure" sex="M"/>
-  <person xml:id="magontier_garde_vaisselle" sex="M"/>
-  <person xml:id="maheu" sex="M"/>
-  <person xml:id="marie_cosse_brissac" sex="F"/>
-  <person xml:id="marie_louise_orleans" sex="F"/>
+  <person xml:id="gassion" sex="M">
+    <name>Gassion, page de la Petite écurie</name>
+  </person>
+  <person xml:id="giraut" sex="M">
+    <name>Giraut, ouvrier/artisan</name>
+  </person>
+  <person xml:id="gonvalin" sex="M">
+    <name>Gonvalin, page</name>
+  </person>
+  <person xml:id="guichon" sex="M">
+    <name>Guichon, officier du Gobelet</name>
+  </person>
+  <person xml:id="hericour" sex="M">
+    <name>Héricour, page</name>
+  </person>
+  <person xml:id="huguenet" sex="M">
+    <name>Huguenet, violon</name>
+  </person>
+  <person xml:id="humberk" sex="M">
+    <name>Humberk, garde Suisse</name>
+  </person>
+  <person xml:id="hurlot" sex="M">
+    <name>Hurlot, grand valet de pied</name>
+  </person>
+  <person xml:id="jacques_moussu" sex="M">
+    <name>Moussu, Jacques, garde Suisse</name>
+  </person>
+  <person xml:id="jean_de_flandres" sex="M">
+    <name>De Flandres, Jean, ouvrier/artisan</name>
+  </person>
+  <person xml:id="jean_magontier" sex="M">
+    <name>Magontier, Jean, officier de la Bouche</name>
+  </person>
+  <person xml:id="jean_moran" sex="M">
+    <name>Moran, Jean, garde Suisse</name>
+  </person>
+  <person xml:id="jemarie" sex="M">
+    <name>Jemarie, officier du Gobelet</name>
+  </person>
+  <person xml:id="jennesson" sex="M">
+    <name>Jennesson, officier du Gobelet</name>
+  </person>
+  <person xml:id="joannet" sex="M">
+    <name>Joannet, petit valet de pied</name>
+  </person>
+  <person xml:id="la_boire" sex="M">
+    <name>La Boire, officier du Gobelet</name>
+  </person>
+  <person xml:id="la_borde" sex="M">
+    <name>La Borde, page</name>
+  </person>
+  <person xml:id="la_caisse" sex="M">
+    <name>La Caisse, petit violon</name>   
+  </person>
+  <person xml:id="la_couderelle" sex="M">
+    <name>La Couderelle, page de la Petite écurie</name>
+  </person>
+  <person xml:id="la_fleur_valet" sex="M">
+    <name>La Fleur, petit valet de pied</name>
+  </person>
+  <person xml:id="la_fontaine" sex="M">
+    <name>La Fontaine, petit violon</name>
+  </person>
+  <person xml:id="la_jeunesse" sex="M">
+    <name>La Jeunesse, petit valet de pied</name>
+  </person>
+  <person xml:id="le_lievre" sex="M">
+    <name>Le Lièvre, petit valet de pied</name>
+  </person>
+  <person xml:id="la_place" sex="M">
+    <name>La Place, ouvrier/artisan</name>
+  </person>
+  <person xml:id="la_rose" sex="M">
+    <name>La Rose, grand valet de pied</name>
+  </person>
+  <person xml:id="laloin" sex="M">
+    <name>Laloin, officier du Gobelet</name>
+  </person>
+  <person xml:id="lambelot" sex="M">
+    <name>Lambelot, petit valet de pied</name>
+  </person>
+  <person xml:id="langlois_l_aine" sex="M">
+    <name>Langlois, l'aîné, grand valet de pied</name>
+  </person>
+  <person xml:id="langlois_le_cadet" sex="M">
+    <name>Langlois, le cadet, grand valet de pied</name>
+  </person>
+  <person xml:id="le_cocq" sex="M">
+    <name>Le Cocq, petit valet de pied</name>
+  </person>
+  <person xml:id="le_noble" sex="M">
+    <name>Le Noble, petit valet de pied</name>
+  </person>
+  <person xml:id="leger_trompette" sex="M">
+    <name>Léger, trompette</name>
+  </person>
+  <person xml:id="leger_violon" sex="M">
+    <name>Léger, violon</name>
+  </person>
+  <person xml:id="lienard" sex="M">
+    <name>Liénard, officier du Gobelet</name>
+  </person>
+  <person xml:id="lionnois" sex="M">
+    <name>Lionnois, ouvrier/artisan</name>
+  </person>
+  <person xml:id="loubie" sex="M">
+    <name>Loubie, page de la Petite écurie</name>
+  </person>
+  <person xml:id="louis_d_escre" sex="M">
+    <name>D'Escre, Louis, tymballier</name>
+  </person>
+  <person xml:id="louis_desore" sex="M">
+    <name>Desore, Louis, tymballier</name>
+  </person>
+  <person xml:id="louis_lazure" sex="M">
+    <name>Lazure ou L'Azure, Louis, chef du Gobelet</name>
+  </person>
+  <person xml:id="magontier_garde_vaisselle" sex="M">
+    <name>Magontier, garde vaisselle, officier de la Bouche</name>
+  </person>
+  <person xml:id="irieux_magontier" sex="M">
+    <name>Magontier Irieux, officier de la Bouche</name>
+  </person>
+  <person xml:id="maheu" sex="M">
+    <name>Maheu, ouvrier/artisan</name>
+  </person>
   <person xml:id="marquis_fourilles" sex="M"/>
   <person xml:id="maslou" sex="M"/>
   <person xml:id="mespas" sex="M"/>
@@ -83,7 +165,6 @@
   <person xml:id="petit" sex="M"/>
   <person xml:id="pidou" sex="M"/>
   <person xml:id="pierrot" sex="M"/>
-  <person xml:id="pietro_strozzi" sex="M"/>
   <person xml:id="prevert" sex="M"/>
   <person xml:id="rambure" sex="M"/>
   <person xml:id="raynald" sex="M"/>
@@ -240,10 +321,10 @@
     <name>Balthazar, musicien</name>
     <!-- Balthazar Martinot est horloger du roi : il est peu probable que ce soit lui (et donc changer l'attribut). Par contre, le livret des Amours déguisés mentionne un musicien du nom de Balthazar. -->
   </person>
-  <person xml:id="balus">
+  <person xml:id="balus" sex="M">
     <name>Balus, Henry, violon</name>
   </person>
-  <person xml:id="barry">
+  <person xml:id="barry" sex="M">
     <name>Barry, violon</name>
     <!-- voir Bardet 2016 -->
   </person>
@@ -377,8 +458,8 @@
   </person>
   <person xml:id="bonacorsi" sex="M">
     <name>Bonaccorsi, Bonaccorso</name>
-    <birth>1616</birth>
-    <death>1676</death>
+    <birth when="1616"></birth>
+    <death when="1676"></death>
   </person>
   <person xml:id="bonard" sex="M">
     <name>Bonard (danseur)</name>
@@ -445,7 +526,7 @@
   <person xml:id="claude_brochet" sex="M">
     <name>Brochet, Claude, Suisse</name>
   </person>
-  <person xml:id="dominique_brochet">
+  <person xml:id="dominique_brochet" sex="M">
     <name>Brochet, Dominique, garde suisse</name>
   </person>
   <person xml:id="brouard" sex="M">
@@ -528,7 +609,7 @@
   <person xml:id="charles_chamois" sex="M">
     <name>Chamois, Charles</name>
     <birth when="1610*"/>
-    <death when="&gt;1684"/>
+    <death when="1684*"/>
     <identifier type="databnf">https://data.bnf.fr/fr/14958914/charles_chamois/</identifier>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Charles_Chamois</identifier>
     <identifier type="isni">0000 0001 2098 5730</identifier>
@@ -546,18 +627,20 @@
       >https://fr.wikipedia.org/wiki/Paul_Fr%C3%A9art_de_Chantelou</identifier>
     <identifier type="isni">0000 0001 0864 3113</identifier>
   </person>
+  <person xml:id="jean_chapelain" sex="M">
+    <name>Chapelain, Jean</name>
+    <birth when="1595"/>
+    <death when="1674"/>
+    <identifier type="databnf">https://data.bnf.fr/fr/12395715/jean_chapelain/</identifier>
+    <identifier type="isni">0000 0001 2117 3232</identifier>
+  </person>
   <person xml:id="charlot" sex="M">
     <name>Charlot, Claude, violon du roi</name>
   </person>
-  <person xml:id="charmac&#xE9;">
-    <name>Charnacé, Jacques Philippe de Girard, marquis de</name>
-    <birth>1640</birth>
-    <death>1720</death>
-  </person>
-  <person xml:id="chasteau_neuf">
+  <person xml:id="chasteau_neuf" sex="M">
     <name>Chasteauneuf, petit valet de pied</name>
   </person>
-  <person xml:id="chaudron">
+  <person xml:id="chaudron" sex="M">
     <name>Chaudron, Guillaume, violon du roi</name>
   </person>
   <person xml:id="charles_albert_ailly" sex="M">
@@ -700,6 +783,13 @@
   <person xml:id="danucourt" sex="M">
     <name>Danucourt, page de la petite écurie</name>
   </person>
+  <person xml:id="jacques_davy_perron" sex="M">
+    <name>Davy du Perron, Jacques</name>
+    <birth when="1556"/>
+    <death when="1618"/>
+    <identifier type="databnf">https://data.bnf.fr/fr/12039228/jacques_du_perron/</identifier>
+    <identifier type="isni">0000 0001 2123 6301</identifier>
+  </person>
   <person xml:id="de_gan" sex="M">
     <name>De Gan (danseur)</name>
   </person>
@@ -758,19 +848,19 @@
   <person xml:id="madeleine_du_guast_d_artigny" sex="F">
     <name>Du Guast d'Artigny, Madeleine</name>
   </person>
-  <person xml:id="du_pille_aine">
+  <person xml:id="du_pille_aine" sex="M">
     <name>Du Pille (aîné), officier du gobelet</name>
   </person>
-  <person xml:id="du_pille_cadet">
+  <person xml:id="du_pille_cadet" sex="M">
     <name>Du Pille (cadet), officier de la bouche</name>
   </person>
-  <person xml:id="du_pin">
+  <person xml:id="du_pin" sex="M">
     <name>Du Pin, Moïse ou Pierre, violon</name>
   </person>
   <person xml:id="di_pre" sex="M">
     <name>Du Pré, Grand valet de pied</name>
   </person>
-  <person xml:id="du_manoir">
+  <person xml:id="du_manoir" sex="M">
     <name>Dumanoir, Guillaume, violon</name>
     <birth when="1615"/>
     <death when="1697"/>
@@ -778,7 +868,7 @@
     <identifier type="isni">0000 0000 8378 0073</identifier>
     <identifier type="databnf">https://data.bnf.fr/ark:/12148/cb140133532</identifier>
   </person>
-  <person xml:id="du_moustier">
+  <person xml:id="du_moustier" sex="M">
     <name>Dumoustier, officier de la bouche</name>
   </person>
   <person xml:id="louis_don" sex="M">
@@ -794,14 +884,14 @@
     <identifier type="databnf">https://data.bnf.fr/fr/15103393/marquise-therese_duparc/</identifier>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Mademoiselle_Du_Parc</identifier>
   </person>
-  <person xml:id="du_plessis">
+  <person xml:id="du_plessis" sex="M">
     <name>Duplessis, page de la petite écurie </name>
     <!-- Pierre Duvernet sieur Duplessis semble trop âgé à cette date pour être page. Il faudrait vérifier si cela peut être un de ses fils -->
   </person>
   <person xml:id="du_pron" sex="M">
     <name>Dupron, David, danseur</name>
   </person>
-  <person xml:id="du_pre">
+  <person xml:id="du_pre" sex="M">
     <name>Dupré, trompette</name>
   </person>
   <person xml:id="hilaire_dupuis" sex="F">
@@ -810,10 +900,10 @@
     <death when="1709"/>
     <identifier type="databnf">https://data.bnf.fr/fr/14842782/hilaire_dupuis/</identifier>
   </person>
-  <person xml:id="elie">
+  <person xml:id="elie" sex="M">
     <name>Elie, garde suisse</name>
   </person>
-  <person xml:id="estival">
+  <person xml:id="estival" sex="M">
     <name>Estival, Guillaume d', chanteur (basse)</name>
     <death when="1678"/>
     <identifier type="databnf">https://data.bnf.fr/ark:/12148/cb14842777x</identifier>
@@ -829,7 +919,7 @@
     <identifier type="wikipedia"
       >https://fr.wikipedia.org/wiki/François-Annibal_d%27Estrées</identifier>
   </person>
-  <person xml:id="estrees_jean">
+  <person xml:id="estrees_jean" sex="M">
     <name>Estrées, Jean d'</name>
     <birth when="1624"/>
     <death when="1707"/>
@@ -848,15 +938,15 @@
     <birth when="1646"/>
     <death when="1668"/>
   </person>
-  <person xml:id="faure">
+  <person xml:id="faure" sex="M">
     <name>Faure, garde suisse</name>
   </person>
-  <person xml:id="favier">
+  <person xml:id="favier" sex="M">
     <name>Favier, Jacques, violon</name>
     <birth when="1605*"/>
     <death when="1691"/>
   </person>
-  <person xml:id="favigent">
+  <person xml:id="favigent" sex="M">
     <name>Favigent, page de la petite écurie</name>
   </person>
   <person xml:id="mlle_des_oeillets" sex="F">
@@ -867,7 +957,7 @@
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Mademoiselle_Des_Œillets</identifier>
     <identifier type="databnf">https://data.bnf.fr/ark:/12148/cb16225201v</identifier>
   </person>
-  <person xml:id="feugre">
+  <person xml:id="feugre" sex="M">
     <name>Feugré, Jacques, violon</name>
   </person>
   <person xml:id="mlle_de_fiennes" sex="F">
@@ -879,7 +969,7 @@
     <death when="1680"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Marie-Claire_de_Fleix</identifier>
   </person>
-  <person xml:id="floridor">
+  <person xml:id="floridor" sex="M">
     <name>Floridor, Josias de Soulas de Primefosse, dit</name>
     <birth when="1608"/>
     <death when="1671"/>
@@ -897,7 +987,7 @@
   <person xml:id="charles_fontaine_martel" sex="M">
     <name>Fontaine-Martel, Charles de, comte de Cleres</name>
   </person>
-  <person xml:id="fontenelle">
+  <person xml:id="fontenelle" sex="M">
     <name>Fontenelle, officier du gobelet (peut-être Claude Ursin sieur de Fontenelle)</name>
     <!-- Chef d'échansonnerie bouche en 1676 -->
   </person>
@@ -915,7 +1005,7 @@
       >https://fr.wikipedia.org/wiki/Henriette-Marie_de_France</identifier>
     <identifier type="isni">0000 0004 4708 3018</identifier>
   </person>
-  <person xml:id="francisque">
+  <person xml:id="francisque" sex="M">
     <name>Francisque, officier du gobelet</name>
   </person>
   <person xml:id="andre_felibien" sex="M">
@@ -956,6 +1046,11 @@
     <death when="1694"/>
     <identifier type="wikipedia"
       >https://fr.wikipedia.org/wiki/Bernardin_Gigault_de_Bellefonds</identifier>
+  </person>
+  <person xml:id="jacques_philippe_girard_charnasse" sex="M">
+    <name>Girard de Charnacé, Jacques-Philippe de</name>
+    <birth when="1640"/>
+    <death when="1720"/>
   </person>
   <person xml:id="henri_gissey" sex="M">
     <name>Gissey, Henri</name>
@@ -1001,6 +1096,13 @@
   <person xml:id="guenin" sex="M">
     <name>Guenin, violon</name>
   </person>
+  <person xml:id="jean_guignard_fils" sex="M">
+    <name>Guignard, Jean, fils</name>
+    <birth when="1632*"/>
+    <death when="1719"/>
+    <identifier type="databnf">https://data.bnf.fr/fr/12239180/jean_guignard/</identifier>
+    <identifier type="isni">0000 0000 8172 2486</identifier>
+  </person>
   <person xml:id="gaspard_harsent" sex="M">
     <name>Harsent, Gaspard</name>
   </person>
@@ -1009,6 +1111,11 @@
   </person>
   <person xml:id="heuge" sex="M">
     <name>Heugé, violon</name>
+  </person>
+  <person xml:id="homere" sex="M">
+    <name>Homère</name>
+    <identifier type="databnf">https://data.bnf.fr/fr/11907688/homere/</identifier>
+    <identifier type="isni">0000 0003 6354 151X</identifier>
   </person>
   <person xml:id="jean_hottere" sex="M">
     <name>Hotteterre, Jean, musicien</name>
@@ -1195,7 +1302,7 @@
   </person>
   <person xml:id="artus" sex="M">
     <name>Le Borgne, Artus, violon du Roi et maître à danser</name>
-    <death>1668</death>
+    <death when="1668"></death>
   </person>
   <person xml:id="charles_le_brun" sex="M">
     <name>Le Brun, Charles</name>
@@ -1274,10 +1381,13 @@
   <person xml:id="le_roy" sex="M">
     <name>Leroy, musicien</name>
   </person>
+  <person xml:id="le_roy_gobelet" sex="M">
+    <name>Le Roy, officier du Gobelet</name>
+  </person>
   <person xml:id="lespervier" sex="M">
     <name>Lespervier, violon</name>
   </person>
-  <person xml:id="angerville">
+  <person xml:id="angerville" sex="M">
     <name>Lestendart, Henri-Nicolas, vicomte de Crécy, baron d'Angerville</name>
     <birth when="1647"/>
     <death when="1738"/>
@@ -1479,7 +1589,14 @@
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Anne_de_Noailles</identifier>
   </person>
   <person xml:id="noblet" sex="M">
-    <name>Noblet (danseur)</name>
+    <name>Noblet, danseur</name>
+  </person>
+  <person xml:id="anne_marie_louise_henriette_orleans" sex="F">
+    <name>Orléans, Anne Marie Louise d', dite la Grande Mademoiselle</name>
+    <birth when="1627"/>
+    <death when="1693"/>
+    <identifier type="databnf">https://data.bnf.fr/fr/12058424/anne-marie-louise-henriette_d_orleans_montpensier/</identifier>
+    <identifier type="isni">0000 0001 0917 0813</identifier>
   </person>
   <person xml:id="philippe_orleans" sex="M">
     <name>Orléans, Philippe (d’), dit Monsieur</name>
@@ -1490,11 +1607,11 @@
       >https://fr.wikipedia.org/wiki/Philippe_d'Orl%C3%A9ans_(1640-1701)</identifier>
     <identifier type="isni">0000 0001 1944 2608</identifier>
   </person>
-  <person xml:id="orleans">
+  <person xml:id="orleans" sex="M">
     <name>Orléans, trompette</name>
   </person>
   <person xml:id="marie_nemours" sex="F">
-    <name>Orléans-Longueville Nemours, Marie, (d’)</name>
+    <name>Orléans-Longueville Nemours, Marie d’</name>
     <birth when="1625"/>
     <death when="1707"/>
     <identifier type="databnf"
@@ -1515,7 +1632,7 @@
     <name>Parfait, fils d'Honoré</name>
   </person>
   <person xml:id="paysan" sex="M">
-    <name>Paysan (danseur)</name>
+    <name>Paysan, danseur</name>
   </person>
   <person xml:id="charles_perrault" sex="M">
     <name>Perrault, Chalres</name>
@@ -1527,7 +1644,7 @@
     <identifier type="mg">perrault_charles_(1628-1703)</identifier>
   </person>
   <person xml:id="pesan" sex="M">
-    <name>Pesan (danseur)</name>
+    <name>Pesan, danseur</name>
   </person>
   <person xml:id="antoine_petit" sex="M">
     <name>Petit, Antoine</name>
@@ -1557,12 +1674,12 @@
     <name>Piesche, flutiste</name>
   </person>
   <person xml:id="charron_du_plessis" sex="F">
-    <name>Plessis-Praslin, Colombe Le Charron, maréchale du </name>
+    <name>Plessis-Praslin, Colombe Le Charron, maréchale du</name>
     <birth when="1603"/>
     <death when="1681"/>
   </person>
   <person xml:id="moliere" sex="M">
-    <name>Poquelin, Jean-Baptiste (dit Molière)</name>
+    <name>Poquelin, Jean-Baptiste, dit Molière</name>
     <birth when="1622"/>
     <death when="1673"/>
     <identifier type="wikipedia">https://data.bnf.fr/fr/11916418/moliere/</identifier>
@@ -1570,7 +1687,7 @@
     <identifier type="isni">0000 0001 2319 7131</identifier>
   </person>
   <person xml:id="marin_prevost" sex="M">
-    <name>Prévost, Marin (comédien)</name>
+    <name>Prévost, Marin, comédien</name>
   </person>
   <person xml:id="perigny" sex="M">
     <name>Périgny, Octave</name>
@@ -1588,7 +1705,7 @@
     <identifier type="isni">0000 0001 2096 2483</identifier>
   </person>
   <person xml:id="mme_de_sevigne" sex="F">
-    <name>Rabutin-Chantal Sévigné, Marie (de)</name>
+    <name>Rabutin-Chantal Sévigné, Marie de</name>
     <birth when="1626"/>
     <death when="1696"/>
     <identifier type="databnf"
@@ -1617,7 +1734,7 @@
     <identifier type="databnf">https://data.bnf.fr/ark:/12148/cb13898976g</identifier>
   </person>
   <person xml:id="madame_montespan" sex="F">
-    <name>Rochechouart de Montespan, Françoise Athnénaïs (de)</name>
+    <name>Rochechouart de Montespan, Françoise Athnénaïs de</name>
     <birth when="1641"/>
     <death when="1707"/>
     <identifier type="databnf"
@@ -1646,7 +1763,7 @@
       >https://fr.wikipedia.org/wiki/Marc-Antoine_Girard_de_Saint-Amant</identifier>
   </person>
   <person xml:id="saint_andre" sex="M">
-    <name>Saint-André (danseur)</name>
+    <name>Saint-André, danseur</name>
   </person>
   <person xml:id="saint_jean" sex="M">
     <name>Saint-Jean, musicien</name>
@@ -1675,7 +1792,7 @@
     <name>Sandricourt, page de la petite écurie</name>
   </person>
   <person xml:id="louise_savoie_bade" sex="F">
-    <name>Savoie Carignan, Louise-Christine (de)</name>
+    <name>Savoie Carignan, Louise-Christine de</name>
     <birth when="1627"/>
     <death when="1689"/>
     <identifier type="databnf"
@@ -1739,7 +1856,7 @@
     <name>Sudan, officier de la bouche</name>
   </person>
   <person xml:id="maximillien_IV_pierre_sully" sex="M">
-    <name>Sully, Maximilien IV Pierre (de)</name>
+    <name>Sully, Maximilien IV Pierre de</name>
     <birth when="1640"/>
     <death when="1694"/>
   </person>
@@ -1749,7 +1866,7 @@
     <death when="1704"/>
   </person>
   <person xml:id="fran&#xE7;oise_de_sevigne_grignan" sex="F">
-    <name>Sévigné Grignan, Françoise Marguerite (de)</name>
+    <name>Sévigné Grignan, Françoise Marguerite de</name>
     <birth when="1646"/>
     <death when="1705"/>
     <identifier type="databnf"
@@ -1778,16 +1895,16 @@
     <name>Turbau, officier de la bouche</name>
   </person>
   <person xml:id="tutin" sex="M">
-    <name>Tutin (danseur)</name>
+    <name>Tutin, danseur</name>
   </person>
   <person xml:id="tutin_fils" sex="M">
-    <name>Tutin, fils (danseur)</name>
+    <name>Tutin, fils, danseur</name>
   </person>
   <person xml:id="vagnard" sex="M">
-    <name>Vagnard (danseur)</name>
+    <name>Vagnard, danseur</name>
   </person>
   <person xml:id="vagnard_fils" sex="M">
-    <name>Vagnard, fils (danseur)</name>
+    <name>Vagnard, fils, danseur</name>
   </person>
   <person xml:id="vandesure" sex="M">
     <name>Vandeuvre, François de Mesgrigny, marquis de</name>
@@ -1821,7 +1938,7 @@
     <identifier type="mg">voiture_vincent_(1597-1648)</identifier>
   </person>
   <person xml:id="benedicte_henriette_palatinat" sex="F">
-    <name>Wittelsbach, Bénédicte-Henriette (dite du Palatinat)</name>
+    <name>Wittelsbach, Bénédicte-Henriette, dite du Palatinat</name>
     <birth when="1652"/>
     <death when="1730"/>
     <identifier type="wikipedia"
