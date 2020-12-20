@@ -1641,15 +1641,15 @@
               key="philis" corresp="madeleine_bejart">Bergere Philis</name>, vn Echo ridicule luy
             respondant bizarement, il y prit si grand plaisir, que riant en cent manieres, il fit
             respondre autant de fois cét Echo, sans tesmoigner d’en estre ennuyé: Mais <tech
-              type="animal">vn Ours</tech> vint interrompre ce beau diuertissement, &amp; le surprit
+              type="animal"><name key="ours">vn Ours</name></tech> vint interrompre ce beau diuertissement, &amp; le surprit
             si fort par cette veuë peu attenduë, qu’il lui donna des sensibles marques de sa peur:
-            Il luy fit faire deuant <tech type="animal">l’Ours</tech> toutes les soûmmissions dont
+            Il luy fit faire deuant <tech type="animal"><name key="ours">l’Ours</name></tech> toutes les soûmmissions dont
             il se pût auiser pour l’adoucir: Enfin se jettant à vn arbre pour y monter, comme il vit
-            que <tech type="animal">l’Ours</tech> y vouloit grimper aussi bien que luy; il cria au
+            que <tech type="animal"><name key="ours">l’Ours</name></tech> y vouloit grimper aussi bien que luy; il cria au
             secours d’vne voix si haute, qu’elle attira huit Paysans armez de bastons à deux bouts
-            &amp; d’espieux, pendant qu’<tech type="animal">vn autre Ours</tech> parut en suite du
-            premier. Il se fit vn Combat qui finit par la mort d’<tech type="animal">vn des
-              Ours</tech>, &amp; par la fuite de l’autre.</p>
+            &amp; d’espieux, pendant qu’<tech type="animal"><name key="ours">vn autre Ours</name></tech> parut en suite du
+            premier. Il se fit vn Combat qui finit par la mort d’<tech type="animal"><name key="ours">vn des
+              Ours</name></tech>, &amp; par la fuite de l’autre.</p>
           <label type="head">SCENE PREMIERE.</label>
           <p><name key="moron" corresp="moliere">Moron</name>.</p>
           <p>IVsqu'au reuoir; pour moy je este icy, &amp; j'ay vne petite conversation à faire auec
@@ -1672,9 +1672,9 @@
           <p>Voilà vn echo qui est boufon! hom hom hom. ha ha ha ha ha. vh vh vh. Voilà vn echo qui
             est boufon!</p>
           <label type="head">SCENE DEVXIESME.</label>
-          <p><name key="ours">VN OVRS</name>. <name key="moron" corresp="moliere">Moron</name>.</p>
+          <p><tech type="animal"><name key="ours">VN OVRS</name></tech>. <name key="moron" corresp="moliere">Moron</name>.</p>
           <label type="speaker"><name key="moron" corresp="moliere">Moron</name>.</label>
-          <p>AH! monsieur <name key="ours">l'Ours</name>, je suis vostre seruiteur de tout mon
+          <p>AH! <tech type="animal"><name key="ours">monsieur l'Ours</name></tech>, je suis vostre seruiteur de tout mon
             coeur: de grace epargnez-moy? je vous asseure que je ne vaux rien du tout à manger, je
             n'ay que la peau &amp; les os, &amp; je voy de certaines gens la bas qui seroient bien
             mieux vostre affaire. Eh! Eh! Eh! monseigneur, tout doux s'il vous plaist. La la la la.
@@ -1714,7 +1714,7 @@
           <p><name key="euriale" corresp="la_grange">LE Prince d’Ithaque</name> &amp; <name
               key="princesse_d_elide" corresp="armande_bejart">la Princesse</name> eurent vne
             conuersation fort galante sur la Course des Chars qui se preparoit: Elle auoit dit
-            auparauant à <name>l’vne des Princesses ses Parentes</name>, que l’insensibilité du
+            auparauant à <name key="aglante"><name key="cinthie">’vne des Princesses ses Parentes</name></name>, que l’insensibilité du
               <name key="euriale" corresp="la_grange">Prince d’Ithaque</name> luy donnoit de la
             peine &amp; luy estoit honteuse: qu’encore qu’elle ne voulust rien aymer, il estoit bien
             fascheux de voir qu’il n’aymoit rien; &amp; que quoy qu’elle eust resolu de n’aller
@@ -1918,7 +1918,7 @@
             &amp; que parmy cette noble jeunesse, tu puisse enfin rencontrer ou arrester tes yeux,
             &amp; determiner tes pensées. Ie ne demande, dy-je, au Ciel autre bonheur que celuy de
             te voir vn espoux: J'ay pour obtenir cette grace fait encor ce matin vn sacrifice à
-              <name>Venus</name>; et si je sçais bien expliquer le langage des Dieux, elle m’a
+              <name key="venus">Venus</name>; et si je sçais bien expliquer le langage des Dieux, elle m’a
             promis vn miracle: mais quoy qu’il en soit je veux en vser auec toy en Pere, qui cherit
             sa Fille: Si tu trouue ou attacher tes vœux, ton choix sera le mien, &amp; je ne
             considereray ny interests d’estat, ny avantages d’alliance. Si ton coeur demeure
@@ -2763,7 +2763,7 @@
           <label type="speaker"><name key="philis" corresp="madeleine_bejart">Philis</name>.</label>
           <l><name key="cloris">Cloris</name> vante par tout l’Amour &amp; ses ardeurs,</l>
           <label type="speaker"><name key="climene">CLIMENE</name>.</label>
-          <l><name>Amarante</name> pour luy verse en tous lieux des larmes.</l>
+          <l><name key="amarante">Amarante</name> pour luy verse en tous lieux des larmes.</l>
           <label type="speaker"><name key="philis" corresp="madeleine_bejart">Philis</name>.</label>
           <l>Si de tant de tourmens il accable les coeurs,</l>
           <l>D'où vient qu’on ayme à luy rendre les armes?</l>
@@ -3013,7 +3013,7 @@
               corresp="mlle_de_brie">Cinthie</name>, <name key="moron" corresp="moliere"
               >Moron</name>.</p>
           <label type="speaker"><name key="philis" corresp="madeleine_bejart">Philis</name>.</label>
-          <p>SEigneur, <name>la Deesse Venus</name> vient d’annoncer par tout le changement du coeur
+          <p>SEigneur, <name key="venus">la Deesse Venus</name> vient d’annoncer par tout le changement du coeur
             de <name key="princesse_d_elide" corresp="armande_bejart">la Princesse</name>: Tous
               <name key="pasteurs">les Pasteurs</name> &amp; toutes <name key="bergere">les
               Bergeres</name> en tesmoignent leur joye par des dances &amp; des chansons, &amp; si
