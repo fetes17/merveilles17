@@ -60,110 +60,97 @@
       
       <div>
         <head>ARGVMENT.</head>
-        <p>    Le Theatre s’ouure par vn combat de <tech>deux differentes Harmonies</tech> ; La plus forte est composée des Arts &amp; des Vertus qui suiuent <name>Pallas</name> ; &amp; la plus douce, des <name>Graces</name> &amp; des <name>Plaisirs</name>, qui accompagnent <name>Venus</name>.</p>
-        <p>    Cependant, ces deux Déesses prenant le party l’vne du Plaisir &amp; l’autre de la Vertu, entrent elles-mesmes en contestation. <name>Mercure</name> qui tasche de les accorder leur propose de prendre le <persName>Roy</persName> pour arbitre de leur different ; toutes deux l’acceptent auec vne égale satisfaction : mais Pallas qui connoist l’auantage qu’elle a dans le chois d’vn tel Iuge insulte à sa riuale, &amp; apres luy auoir fait remarquer combien sa Majesté par toutes ses actions se declare ouuertement pour le party de la Vertu, la laisse dans la confusion.</p>
-        <p>    <name>Venus</name>, reuenuë de son premier estonement, veut faire effort pour dompter l’orgueil de <name>Pallas</name> en gagnant le coeur du <persName>Roy</persName>, &amp; pour vnir toutes ses forces dans ce grand dessein, elle prie <name>Mercure</name> de voler dans tous les coins du Monde, afin de rassembler tous les Amours qui s’y trouuent dispersez. Mais lors qu’il est prest de partir, elle a peur qu’il n’en sçache pas connoistre la plus grande partie, qui pour faire réüssir des entreprises importantes, <tech>se déguise &amp; se cache sous des formes empruntées, &amp; pour luy donner moyen de ne s’y pas tromper, elle luy fait voir plusieurs de leurs déguisemens, qui seront expliquez l’vn apres l’autre dans chacune des Entrées du Ballet</tech>.</p>
-        <p><name>Mercure</name> representé, par le <persName>Sieur Floridor</persName>.</p>
-        <p><name>Pallas</name>, par <persName>Madlle. des Oeillets</persName>.</p>
-        <p><name>Venus</name>, par <persName>Madlle. de Montfleury</persName>.</p>
-        <p><name>Concertans des Arts &amp; des Vertus</name>,</p>
-        <p>qui suiuent <name>Pallas</name>.</p>
+        <p>    Le Theatre s’ouure par vn combat de <tech>deux differentes Harmonies</tech> ; La plus forte est composée des Arts &amp; des Vertus qui suiuent <name key="pallas">Pallas</name> ; &amp; la plus douce, des <name key="grace">Graces</name> &amp; des <name key="plaisir">Plaisirs</name>, qui accompagnent <name key="venus">Venus</name>.</p>
+        <p>    Cependant, ces deux Déesses prenant le party l’vne du Plaisir &amp; l’autre de la Vertu, entrent elles-mesmes en contestation. <name key="mercure">Mercure</name> qui tasche de les accorder leur propose de prendre le <persName>Roy</persName> pour arbitre de leur different ; toutes deux l’acceptent auec vne égale satisfaction : mais Pallas qui connoist l’auantage qu’elle a dans le chois d’vn tel Iuge insulte à sa riuale, &amp; apres luy auoir fait remarquer combien sa Majesté par toutes ses actions se declare ouuertement pour le party de la Vertu, la laisse dans la confusion.</p>
+        <p>    <name key="venus">Venus</name>, reuenuë de son premier estonement, veut faire effort pour dompter l’orgueil de <name key="pallas">Pallas</name> en gagnant le coeur du <persName>Roy</persName>, &amp; pour vnir toutes ses forces dans ce grand dessein, elle prie <name key="mercure">Mercure</name> de voler dans tous les coins du Monde, afin de rassembler tous les Amours qui s’y trouuent dispersez. Mais lors qu’il est prest de partir, elle a peur qu’il n’en sçache pas connoistre la plus grande partie, qui pour faire réüssir des entreprises importantes, <tech>se déguise &amp; se cache sous des formes empruntées, &amp; pour luy donner moyen de ne s’y pas tromper, elle luy fait voir plusieurs de leurs déguisemens, qui seront expliquez l’vn apres l’autre dans chacune des Entrées du Ballet</tech>.</p>
+        <p><name key="mercure">Mercure</name> representé, par le <persName>Sieur Floridor</persName>.</p>
+        <p><name key="pallas">Pallas</name>, par <persName>Madlle. des Oeillets</persName>.</p>
+        <p><name key="venus">Venus</name>, par <persName>Madlle. de Montfleury</persName>.</p>
+        <p>Concertans des Arts &amp; des Vertus,</p>
+        <p>qui suiuent <name key="pallas">Pallas</name>.</p>
         <p>Les Sieurs <persName>Descousteaux</persName>, <persName>Alais</persName>, <persName>Charlot</persName>, <persName>la Pierre</persName>,</p>
         <p><persName>le Peintre</persName>, <persName>Huguenet</persName>, <persName>le Roux l’aisné</persName>, <persName>Besson</persName>,</p>
         <p><persName>Martin Opterre</persName>, <persName>Roullé</persName>, <persName>la Riuiere</persName>, <persName>Heugé</persName>, <persName>Iean Opterre</persName>, &amp; <persName>Magny</persName>.</p>
-        <p><name>Concertans des Graces &amp; des Plaisirs</name>, qui</p>
-        <p>accompagnent <name>Venus</name>.</p>
+        <p>Concertans des Graces &amp; des Plaisirs, qui</p>
+        <p>accompagnent <name key="venus">Venus</name>.</p>
         <p>Les Sieurs <persName>Piesche</persName>, <persName>Marchand</persName>, <persName>Laquaisse</persName>, <persName>Guerin</persName>,</p>
         <p><persName>Destouches</persName>, <persName>Nicolas Opterre</persName>, <persName>la Fontaine</persName>,</p>
         <p>&amp; <persName>Brouard</persName>.</p>
         <label type="head">DIALOGVE</label>
         <label type="head">PALLAS, VENVS,</label>
         <label type="head">MERCVRE.</label>
-        <label type="speaker"><name>MERCVRE</name>.</label>
+        <label type="speaker"><name key="mercure">MERCVRE.</name></label>
         <l> Surquoy contestez-vous ? peut-on vous accorder ?</l>
-        <label type="speaker"><name>VENVS</name>.</label>
+        <label type="speaker"><name key="mercure">VENVS.</name></label>
         <l> La sçauante Pallas nous veut persuader</l>
         <l>Que son visage austere &amp; le bruit de ses armes,</l>
         <l>Doiuent pour les mortels auoir de plus doux charmes</l>
         <l>Que les Ieux, les Plaisirs, les Graces &amp; l’Amour</l>
         <l>Qui marchent à ma suite &amp; composent ma Cour.</l>
         <label type="speaker">
-          <name>PALLAS</name>
-          <name>.</name>
+          <name key="pallas">PALLAS.</name>
         </label>
         <l> Et la belle Venus pretend nous faire croire</l>
         <l>Que les Arts, les Vertus, la Puissance &amp; la Gloire</l>
         <l>Ne versent pas dans l’ame vn plus parfait bonheur</l>
         <l>Que de ses vains apas la trompeuse douceur.</l>
         <label type="speaker">
-          <name>VENVS</name>
-          <name>.</name>
+          <name key="venus">VENVS.</name>
         </label>
         <l> Est-il rien si charmant que cét heureux martyre</l>
         <l>Que l’on ayme à souffrir alors qu’on en soûpire ?</l>
         <label type="speaker">
-          <name>PALLAS</name>
-          <name>.</name>
+          <name key="pallas">PALLAS.</name>
         </label>
         <l> Est-il rien de si noble &amp; de si glorieux</l>
         <l>Que de voir vn mortel se rendre égal aux Dieux ?</l>
         <l>Et de ses longs trauaux auoir pour recompense</l>
         <l>Le repos, la vertu, l’honneur &amp; la puissance.</l>
         <label type="speaker">
-          <name>VENVS</name>
-          <name>.</name>
+          <name key="venus">VENVS.</name>
         </label>
         <l> Qui d’vn aymable objet adore les beaux yeux</l>
         <l>Trouue ses fers plus doux que l’empire des Cieux,</l>
         <l>Et ne voit rien d’égal à la gloire immortelle</l>
         <l>De regner sur vn coeur amoureux &amp; fidele.</l>
         <label type="speaker">
-          <name>PALLAS</name>
-          <name>.</name>
+          <name key="pallas">PALLAS.</name>
         </label>
         <l> Tout cede à la valeur.</l>
         <label type="speaker">
-          <name>VENVS</name>
-          <name>.</name>
+          <name key="venus">VENVS.</name>
         </label>
         <l>                L'Amour peut tout charmer.</l>
         <label type="speaker">
-          <name>PALLAS</name>
-          <name>.</name>
+          <name key="pallas">PALLAS.</name>
         </label>
         <l> Ah ! qu’il est beau de vaincre.</l>
         <label type="speaker">
-          <name>VENVS</name>
-          <name>.</name>
+          <name key="venus">VENVS.</name>
         </label>
         <l>                    Ah ! qu’il est doux d’aymer.</l>
         <label type="speaker">
-          <name>PALLAS</name>
-          <name>.</name>
+          <name key="pallas">PALLAS.</name>
         </label>
         <l> On voit mes conquerans plus crains que le tonnerre.</l>
         <label type="speaker">
-          <name>VENVS</name>
-          <name>.</name>
+          <name key="venus">VENVS.</name>
         </label>
         <l> Ils tremblent à mes pieds, ces maistres de la terre.</l>
         <label type="speaker">
-          <name>PALLAS</name>
-          <name>.</name>
+          <name key="pallas">PALLAS.</name>
         </label>
         <l> Par vos vaines douceurs vn amant arresté</l>
         <l>Languit dans la molesse &amp; dans l’oisiueté.</l>
         <label type="speaker">
-          <name>VENVS</name>
-          <name>.</name>
+          <name key="venus">VENVS.</name>
         </label>
         <l> On a veû par l’effort des amoureuses flames</l>
         <l>Naistre cent beaux desirs dans les plus belles ames ;</l>
         <l>Mille explois qu’on admire &amp; dont vous vous parez</l>
         <l>Furent à vos Heros par l’amour inspirez.</l>
         <label type="speaker">
-          <name>PALLAS</name>
-          <name>.</name>
+          <name key="pallas">PALLAS.</name>
         </label>
         <l> Si (grace à mes vertus) quelque ame genereuse</l>
         <l>A sçeu se bien seruir de l’ardeur amoureuse ;</l>
@@ -180,8 +167,7 @@
         <l>Mais le prix des vertus, d’immortelle nature,</l>
         <l>Ny du temps, ny du sort, ne reçoit point d’injure.</l>
         <label type="speaker">
-          <name>VENVS</name>
-          <name>.</name>
+          <name key="venus">VENVS.</name>
         </label>
         <l> Cette immortalité qu’on estale à nos yeux</l>
         <l>Fait porter le carnage &amp; la mort en tous lieux,</l>
@@ -196,36 +182,30 @@
         <l>Pour tant de sang versé sur la terre opprimée,</l>
         <l>Qu'ont-ils ? qu’vn peu de vent, qu’on nomme Renommée ?</l>
         <label type="speaker">
-          <name>MERCVRE</name>
-          <name>.</name>
+          <name key="mercure">MERCVRE.</name>
         </label>
         <l> Tant d’aigreur conuient mal à des Diuinitez.</l>
         <label type="speaker">
-          <name>PALLAS</name>
-          <name>.</name>
+          <name key="pallas">PALLAS.</name>
         </label>
         <l>    Vous-vous eschaufez trop.</l>
         <label type="speaker">
-          <name>VENVS</name>
-          <name>.</name>
+          <name key="venus">VENVS.</name>
         </label>
         <l>                    Et vous-vous emportez.</l>
         <label type="speaker">
-          <name>PALLAS</name>
-          <name>.</name>
+          <name key="pallas">PALLAS.</name>
         </label>
         <l> Quoy que le souuenir de la fatale Pomme</l>
         <l>Me deust faire éuiter le jugement d’vn Homme,</l>
         <l>Ie veux bien m’y soûmettre encore cette fois ;</l>
         <l>Mais il en faut choisir.</l>
         <label type="speaker">
-          <name>VENVS</name>
-          <name>.</name>
+          <name key="venus">VENVS.</name>
         </label>
         <l>                    Ie vous donne le chois.</l>
         <label type="speaker">
-          <name>MERCVRE</name>
-          <name>.</name>
+          <name key="mercure">MERCVRE</name>          
         </label>
         <l> Quel Arbitre peut mieux appaiser vostre guerre</l>
         <l>Que celuy qui déja l’est de toute la Terre ;</l>
@@ -248,24 +228,20 @@
         <l>Et son moindre appareil, son moindre mouuement,</l>
         <l>Chez cent peuples diuers porte l’estonnement.</l>
         <label type="speaker">
-          <name>PALLAS</name>
-          <name>.</name>
+          <name key="pallas">PALLAS.</name>
         </label>
         <l> Si LOVYS doit juger, que vous estes à plaindre.</l>
         <label type="speaker">
-          <name>VENVS</name>
-          <name>.</name>
+          <name key="venus">VENVS.</name>
         </label>
         <l> Si LOVYS doit juger, que vous auez à craindre.</l>
         <label type="speaker">
-          <name>MERCVRE</name>
-          <name>.</name>
+          <name key="mercure">MERCVRE.</name>
         </label>
         <l> La brillante clarté de son discernement</l>
         <l>Des trompeuses couleurs hait le déguisement.</l>
         <label type="speaker">
-          <name>VENVS</name>
-          <name>.</name>
+          <name key="venus">VENVS.</name>
         </label>
         <l> Ses yeux, qui semblent faits pour charmer tous les nostres,</l>
         <l>Voyent bien plus auant &amp; plus clair que les autres,</l>
@@ -280,18 +256,15 @@
         <l>Nostre accord par tout autre eust esté concerté</l>
         <l>Auec moins de lumiere auec moins de bonté.</l>
         <label type="speaker">
-          <name>PALLAS</name>
-          <name>.</name>
+          <name key="pallas">PALLAS.</name>
         </label>
         <l> Vous y consentez donc ?</l>
         <label type="speaker">
-          <name>VENVS</name>
-          <name>.</name>
+          <name key="venus">VENVS.</name>
         </label>
         <l>                Ie le veux.</l>
         <label type="speaker">
-          <name>PALLAS</name>
-          <name>.</name>
+          <name key="pallas">PALLAS.</name>
         </label>
         <l>                        Sa conduite</l>
         <l>Flate peu, toutefois, vostre vaine poursuite,</l>
@@ -318,8 +291,7 @@
         <l>Tous briguent ses regards &amp; leur plus doux espoir</l>
         <l>Est l’heur de le seruir, le plaisir de le voir.</l>
         <label type="speaker">
-          <name>MERCVRE</name>
-          <name>.</name>
+          <name key="mercure">MERCVRE.</name>
         </label>
         <l> Si des François, pour luy, la tendresse est extresme,</l>
         <l>Ce Heros genereux les cherit tout de mesme,</l>
@@ -351,8 +323,7 @@
         <l>Par les fortes raisons dont vous vous deffendrez ;</l>
         <l>Ie vous laisse y resuer, adieu.</l>
         <label type="speaker">
-          <name>VENVS</name>
-          <name>.</name>
+          <name key="venus">VENVS.</name>
         </label>
         <l>                Quelle arrogance !</l>
         <l>Elle croit donc déja que je sois sans deffence :</l>
@@ -366,24 +337,20 @@
         <l>Mercure, en ce besoin tesmoigne-moy ton zele,</l>
         <l>Va les chercher par tout.</l>
         <label type="speaker">
-          <name>MERCVRE</name>
-          <name>.</name>
+          <name key="mercure">MERCVRE.</name>
         </label>
         <l>                Déesse, auec plaisir,</l>
         <l>Mon coeur, en ce projet, seconde ton desir.</l>
         <label type="speaker">
-          <name>VENVS</name>
-          <name>.</name>
+          <name key="venus">VENVS.</name>
         </label>
         <l> Va viste.</l>
         <label type="speaker">
-          <name>MERCVRE</name>
-          <name>.</name>
+          <name key="mercure">MERCVRE.</name>
         </label>
         <l>        I'obeïs.</l>
         <label type="speaker">
-          <name>VENVS</name>
-          <name>.</name>
+          <name key="venus">VENVS.</name>
         </label>
         <l>                Mais reuiens, je te prie,</l>
         <l>Tu n’en connoistrois pas la plus grande partie</l>
@@ -397,13 +364,11 @@
           <tech>La forge de Vulcain s’ouvre</tech>
         </p>
         <label type="speaker">
-          <name>MERCVRE</name>
-          <name>.</name>
+          <name key="mercure">MERCVRE.</name>
         </label>
         <l> Ce sont des Forgerons.</l>
         <label type="speaker">
-          <name>VENVS</name>
-          <name>.</name>
+          <name key="venus">VENVS.</name>
         </label>
         <l>            Ie sçauois bien, Mercure,</l>
         <l>Que tu n’en sçaurois pas découurir l’imposture,</l>
@@ -414,13 +379,11 @@
         <l>Les autres, apostez par mon mary jaloux,</l>
         <l>Pour seruir d’espions demeurent prés de nous.</l>
         <label type="speaker">
-          <name>MERCVRE</name>
-          <name>.</name>
+          <name key="mercure">MERCVRE.</name>
         </label>
         <l> Qui les eust reconnus ?</l>
         <label type="speaker">
-          <name>VENVS</name>
-          <name>.</name>
+          <name key="venus">VENVS.</name>
         </label>
         <l>                Viens, auant que tu sortes</l>
         <l>Ie t’en veux faire voir de beaucoup d’autres sortes.</l>
@@ -432,20 +395,20 @@
         <p>Monsieur <persName>Cabou</persName>, Messieurs <persName>Molliere</persName>, &amp; <persName>Laleu</persName>,</p>
         <p>Les Sieurs <persName>Doliuet</persName>, <persName>le Chantre</persName>, <persName>Des-brosses</persName>,</p>
         <p><persName>Desonets</persName>, &amp; <persName>de Gan</persName>.</p>
-        <byline>Pour des <name>Amours déguisez en Forgerons</name>.</byline>
+        <byline>Pour des <name key="amour_deguise">Amours déguisez en Forgerons</name>.</byline>
         <l> Auoir le coeur de glace est vn tres-grand defaut,</l>
         <l>Mais pour peu qu’il s’échauffe on le réduit en cendres,</l>
         <l>Et lors de cent raisons amoureuses &amp; tendres</l>
         <l>Il faut battre le coeur cependant qu’il est chaud.</l>
         <label type="head">II. ENTREE.</label>
-        <p><tech>Le Theatre represente vne Mer, auec vn combat naual en esloignement</tech>, &amp; <name>Venus</name> fait voir <name>Marc-Antoine</name>, qui, pour suiure <name>Cleopatre</name>, quitte l’espoir de la victoire qu’il alloit remporter ; &amp; elle fait remarquer à <name>Mercure</name> que les Rameurs qui emportent ce Romain auec tant de vitesse, ne sont pas des Rameurs ordinaires, mais des Amours déguisez. En attendant qu’ils descendent de leur vaisseau, <name>le Gouuerneur d’Egypte</name>, auec toute la jeunesse du Pays, attirée sur le port par l’arriuée de <name>leur Reyne</name>, dansent la deuxiesme Entrée.</p>
-        <p><name>Le Gouuerneur d’Egypte</name>. <persName>Le Duc de Saint-Aignan</persName>.</p>
-        <p><name>La Gouuernante</name>, <persName>Mademoiselle de Verpré</persName>.</p>
-        <p><name>Hommes</name>. Messieurs <persName>Verpré</persName>, <persName>Bruneau</persName>, <persName>Raynal</persName>, <persName>Des-Airs</persName>.</p>
-        <p><name>Femmes</name>. Monsieur de <persName>Souuille</persName>, les sieurs de <persName>Lorges</persName>,</p>
+        <p><tech>Le Theatre represente vne Mer, auec vn combat naual en esloignement</tech>, &amp; <name key="venus">Venus</name> fait voir <name key="marc_antoine">Marc-Antoine</name>, qui, pour suiure <name key="cleopatre">Cleopatre</name>, quitte l’espoir de la victoire qu’il alloit remporter ; &amp; elle fait remarquer à <name key="mercure">Mercure</name> que les Rameurs qui emportent ce Romain auec tant de vitesse, ne sont pas des Rameurs ordinaires, mais des <name key="amour_deguise">Amours déguisez</name>. En attendant qu’ils descendent de leur vaisseau, <name key="gouverneur_egypte">le Gouuerneur d’Egypte</name>, auec toute la jeunesse du Pays, attirée sur le port par l’arriuée de <name key="cleopatre">leur Reyne</name>, dansent la deuxiesme Entrée.</p>
+        <p><name key="gouverneur_egypte">Le Gouuerneur d’Egypte</name>. <persName>Le Duc de Saint-Aignan</persName>.</p>
+        <p><name key="gouvernante">La Gouuernante</name>, <persName>Mademoiselle de Verpré</persName>.</p>
+        <p><name key="homme">Hommes</name>. Messieurs <persName>Verpré</persName>, <persName>Bruneau</persName>, <persName>Raynal</persName>, <persName>Des-Airs</persName>.</p>
+        <p><name key="femme">Femmes</name>. Monsieur de <persName>Souuille</persName>, les sieurs de <persName>Lorges</persName>,</p>
         <p><persName>Balthasar</persName>, &amp; <persName>Des-Airs le jeune</persName>.</p>
         <byline>Pour le <persName>Duc de Saint Aignan</persName>, representant,</byline>
-        <byline>le <name>Gouuerneur d’Egypte</name>.</byline>
+        <byline>le <name key="gouverneur_egypte">Gouuerneur d’Egypte</name>.</byline>
         <l> Par la bonté de deux differens Rois</l>
         <l>Dont l’vn peut tout en quoy qu’il entreprenne,</l>
         <l>Quel est mon poste, estant tout à la fois</l>
@@ -458,33 +421,29 @@
         <l>Viue <persName>LOVYS quatorziesme</persName> du Nom</l>
         <l>Qui pourroit bien vn jour à son Domaine</l>
         <l>Joindre l’Egypte ainsi que la Touraine.</l>
-        <p><name>Marc-Antoine</name> &amp; <name>Cleopatre</name> descendus les premiers, viennent faire vn recit en Dialogue accompagné <tech>d’vne harmonie composée</tech> de leurs esclaues.</p>
-        <p><name>Marc-Antoine</name>. <persName>Monsieur Blondel</persName>.</p>
-        <p><name>Cleopatre</name>. <persName>Mademoiselle Hylaire</persName>.</p>
-        <p><name>Esclaues</name>. <persName>Laquaisse</persName>, <persName>Marchand</persName>, <persName>la Fontaine</persName>.</p>
+        <p><name key="marc_antoine">Marc-Antoine</name> &amp; <name key="cleopatre">Cleopatre</name> descendus les premiers, viennent faire vn recit en Dialogue accompagné <tech>d’vne harmonie composée</tech> de leurs esclaues.</p>
+        <p><name key="marc_antoine">Marc-Antoine</name>. <persName>Monsieur Blondel</persName>.</p>
+        <p><name key="cleopatre">Cleopatre</name>. <persName>Mademoiselle Hylaire</persName>.</p>
+        <p><name key="esclave">Esclaues</name>. <persName>Laquaisse</persName>, <persName>Marchand</persName>, <persName>la Fontaine</persName>.</p>
         <div>
           <head>DIALOGVE
             DE MARC-ANTOINE,
         ET DE CLEOPATRE.</head>
           <label type="speaker">
-            <name>MARC-ANTOINE</name>
-            <name>.</name>
+            <name key="marc_antoine">MARC-ANTOINE.</name>
           </label>
           <l> Doutez-vous de mon feu, vous pour qui je soûpire ?</l>
           <label type="speaker">
-            <name>CLEOPATRE</name>
-            <name>.</name>
+            <name key="cleopatre">CLEOPATRE.</name>
           </label>
           <l>Ha ! qu’il vous coûte cher de me l’auoir prouué.</l>
           <label type="speaker">
-            <name>MARC-ANTOINE</name>
-            <name>.</name>
+            <name key="marc_antoine">MARC-ANTOINE.</name>
           </label>
           <l>    I'en ay perdu la Victoire &amp; l’Empire,</l>
           <l>    Et ne m’en suis point mal-trouué.</l>
           <label type="speaker">
-            <name>CLEOPATRE</name>
-            <name>.</name>
+            <name key="cleopatre">CLEOPATRE.</name>
           </label>
           <l>Vous auez tout quité pour me suiure sur l’onde,</l>
           <l>    Sans moy vous demeuriez vainqueur,</l>
@@ -494,7 +453,7 @@
           <l>    Helas qu’auez-vous fait,</l>
           <l>    Amant fidelle, Amant parfait !</l>
           <label type="speaker">
-            <name>MARC-ANTOINE.</name>
+            <name key="marc_antoine">MARC-ANTOINE.</name>
           </label>
           <l> A mon amour j’ay fait ceder ma gloire,</l>
           <l>Iamais Amant ne fût si transporté,</l>
@@ -502,7 +461,7 @@
           <l>Et par là me suis raquité</l>
           <l>De l’Empire &amp; de la Victoire.</l>
           <label type="speaker">
-            <name>CLEOPATRE, ET MARC-ANTOINE.</name>
+            <name key="cleopatre">CLEOPATRE</name>, ET <name key="marc_antoine">MARC-ANTOINE</name>.
           </label>
           <l>    Non non pour viure heureux</l>
           <l>    Il faut estre amoureux,</l>
@@ -511,20 +470,20 @@
           <l>    Qui sçauent s’aymer tous deux,</l>
           <l>    Valent mieux que des Couronnes.</l>
           <label type="speaker">
-            <name>MARC-ANTOINE.</name>
+            <name key="marc_antoine">MARC-ANTOINE.</name>
           </label>
           <l>Ie n’ay pû soûtenir vostre fuite impreueuë.</l>
           <label type="speaker">
-            <name>CLEOPATRE.</name>
+            <name key="cleopatre">CLEOPATRE.</name>
           </label>
           <l>Que ne demeuriez-vous sans vous en émouuoir.</l>
           <label type="speaker">
-            <name>MARC-ANTOINE.</name>
+            <name key="marc_antoine">MARC-ANTOINE.</name>
           </label>
           <l> Pour quelque temps je vous perdois de veuë,</l>
           <l>Puis-je estre vn moment sans vous voir ?</l>
           <label type="speaker">
-            <name>CLEOPATRE.</name>
+            <name key="cleopatre">CLEOPATRE.</name>
           </label>
           <l>Vous alliez remporter tout l’honneur de la guerre,</l>
           <l>    Sa fin couronnoit vos explois,</l>
@@ -534,7 +493,7 @@
           <l>    Helas qu’auez-vous fait,</l>
           <l>    Amant fidelle, Amant parfait !</l>
           <label type="speaker">
-            <name>MARC-ANTOINE.</name>
+            <name key="marc_antoine">MARC-ANTOINE.</name>
           </label>
           <l> A mon amour j’ay fait ceder ma gloire</l>
           <l>Si c’est vn mal il vous doit estre doux,</l>
@@ -542,14 +501,14 @@
           <l>Et qu’auois-je affaire sans vous</l>
           <l>De l’Empire, &amp; de la Victoire ?</l>
           <label type="speaker">
-            <name>MARC-ANTOINE, ET CLEOPATRE.</name>
+            <name key="marc_antoine">MARC-ANTOINE</name>, ET <name key="cleopatre">CLEOPATRE</name>.
           </label>
           <l>    Non non pour viure heureux</l>
           <l>    Il faut estre, &amp;c.</l>
           <label type="head">III. ENTREE.</label>
-          <p><name>Les Amours déguisez en Rameurs</name>, rauis d’auoir triomphé de l’ambition d’vn des plus grands guerriers du monde, témoignent leur joye par leur danse.</p>
+          <p><name key="amour_deguise">Les Amours déguisez en Rameurs</name>, rauis d’auoir triomphé de l’ambition d’vn des plus grands guerriers du monde, témoignent leur joye par leur danse.</p>
           <p>
-            <name>Amours déguisez en Rameurs.</name>
+            <name key="amour_deguise">Amours déguisez en Rameurs.</name>
           </p>
           <p>Les Sieurs <persName>S. André</persName>, <persName>Le Chantre</persName>, <persName>Des-brosses</persName>,</p>
           <p>&amp; <persName>Magny</persName>.</p>
@@ -562,14 +521,14 @@
           <label type="head">Les Sieurs <persName>le Grais</persName>, <persName>Le Roux le Cadet</persName>, <persName>le Peintre</persName>,</label>
           <label type="head"><persName>Besson</persName>, <persName>Magny</persName>, <persName>Charlot</persName>, <persName>Allais</persName>, &amp; <persName>Heugé</persName>.</label>
           <label type="head">IV. ENTREE.</label>
-          <p><name>Venus</name> fait paroistre aux yeux de <name>Mercure</name> les jardins de Cerés, &amp; luy fait voir vne troupe d’Amours, qui pour liurer plus aisément <name>Proserpine</name> à la passion de <name>Pluton</name>, ont pris le visage &amp; l’habit de ses compagnes, &amp; sous pretexte d’vne promenade, l’ont fait sortir de ce Chasteau, si soigneusement fermé par sa mere.</p>
-          <p><name>Proserpine</name>. <persName>LA REYNE</persName>.</p>
-          <p><name>Ses Compagnes</name>. <persName>Madame la Comtesse</persName>, <persName>Mademoiselle de</persName></p>
+          <p><name key="venus">Venus</name> fait paroistre aux yeux de <name key="mercure">Mercure</name> les jardins de Cerés, &amp; luy fait voir vne troupe d’Amours, qui pour liurer plus aisément <name key="proserpine">Proserpine</name> à la passion de <name key="pluton">Pluton</name>, ont pris le visage &amp; l’habit de ses compagnes, &amp; sous pretexte d’vne promenade, l’ont fait sortir de ce Chasteau, si soigneusement fermé par sa mere.</p>
+          <p><name key="proserpine">Proserpine</name>. <persName>LA REYNE</persName>.</p>
+          <p><name key="proserpine">Ses Compagnes</name>. <persName>Madame la Comtesse</persName>, <persName>Mademoiselle de</persName></p>
           <p><persName>Nemours</persName>, <persName>la Duchesse de Sully</persName>, <persName>la Duchesse de</persName></p>
           <p><persName>Crequy</persName>, <persName>la Duchesse de Luynes</persName>, <persName>Madame</persName></p>
           <p><persName>de Foix</persName>, <persName>Mademoiselle de Montausier</persName>,</p>
           <p>&amp; <persName>Mademoiselle d’Arquien</persName>.</p>
-          <byline>Pour la <persName>REYNE</persName>, representant <name>PROSERPINE</name>.</byline>
+          <byline>Pour la <persName>REYNE</persName>, representant <name key="proserpine">PROSERPINE</name>.</byline>
           <l> Vne si grande Reyne est digne du grand Roy</l>
           <l>Qui de tant de Demons fait des suiets fidelles,</l>
           <l>Et ses charmans regards ont pleinement dequoy</l>
@@ -586,15 +545,15 @@
           <l>Sa presence suspend les cris, &amp; les clameurs,</l>
           <l>Et l’on n’auoit point veu chez les Ames damnées</l>
           <l>Vne si bonne vie, &amp; de si douces Moeurs.</l>
-          <byline>Pour les <name>Amours deguisez</name> en Compagnes de <persName>Proserpines</persName> [sic].</byline>
-          <byline>Pour la <persName>Comtesse de Soissons</persName>, <name>Amour déguisé</name>.</byline>
+          <byline>Pour les <name key="amour_deguise">Amours deguisez</name> en Compagnes de <persName>Proserpines</persName> [sic].</byline>
+          <byline>Pour la <persName>Comtesse de Soissons</persName>, <name key="amour_deguise">Amour déguisé</name>.</byline>
           <l> Sous ces beaux cheueux noirs &amp; longs</l>
           <l>        Jusqu’aux talons,</l>
           <l>Et dans ces yeux Romains peut-estre</l>
           <l>L'Amour n’est pas si bien caché</l>
           <l>Qu'il ne soit facile à cognestre,</l>
           <l>Et qu’on n’en puisse estre touché.</l>
-          <byline>Pour <persName>Mademoiselle de Nemours</persName>, <name>Amour déguisé</name>.</byline>
+          <byline>Pour <persName>Mademoiselle de Nemours</persName>, <name key="amour_deguise">Amour déguisé</name>.</byline>
           <l>    Vous n’y sçauez pas grand finesse</l>
           <l>    Amour, de vous estre auisé</l>
           <l>    Pour paroistre mieux déguisé,</l>
@@ -602,7 +561,7 @@
           <l>    De cette charmante Princesse,</l>
           <l>    Allez chacun vous cognest,</l>
           <l>    Et vous ressent, qui pis est.</l>
-          <byline>Pour la <persName>Duchesse de Sully</persName>, <name>Amour déguisé</name>.</byline>
+          <byline>Pour la <persName>Duchesse de Sully</persName>, <name key="amour_deguise">Amour déguisé</name>.</byline>
           <l>    Amour veut qu’on se persuade</l>
           <l>    Qu'aux champs il estoit fort malade,</l>
           <l>    Mais tres-humble seruiteur</l>
@@ -610,7 +569,7 @@
           <l>    Il affecte ces manieres</l>
           <l>    De foiblesse &amp; de langueur</l>
           <l>    Pour aller plus droit au coeur.</l>
-          <byline>Pour la <persName>Duchesse de Crequy</persName>, <name>Amour déguisé</name>.</byline>
+          <byline>Pour la <persName>Duchesse de Crequy</persName>, <name key="amour_deguise">Amour déguisé</name>.</byline>
           <l>Qvoy ? c’est donc vous, Amour, à qui dans le tumulte</l>
           <l>L'on fit vn si cruel, &amp; si barbare insulte,</l>
           <l>Et qui fustes naguere attaqué sur vn char</l>
@@ -623,7 +582,7 @@
           <l>En jeune Adolescent vostre forme ordinaire ?</l>
           <l>Vous ne cachiez pas tant vostre Diuinité,</l>
           <l>Et vray-semblablement Rome en eut moins douté.</l>
-          <byline>Pour la <persName>Duchesse de Luynes</persName>, <name>Amour déguisé</name>.</byline>
+          <byline>Pour la <persName>Duchesse de Luynes</persName>, <name key="amour_deguise">Amour déguisé</name>.</byline>
           <l> Amour, cherchez ailleurs que dans cette Beauté</l>
           <l>Pour vous mettre à couuert vn lieu de seureté,</l>
           <l>Car toute sa personne est plus propre qu’vne autre</l>
@@ -632,30 +591,30 @@
           <l>Dont vous n’auez jamais esté vainqueur,</l>
           <l>C'est vn sejour agreable, mais rude</l>
           <l>A qui craindroit la solitude.</l>
-          <byline>Pour <persName>Madame de Foix</persName>, <name>Amour déguisé</name>.</byline>
+          <byline>Pour <persName>Madame de Foix</persName>, <name key="amour_deguise">Amour déguisé</name>.</byline>
           <l>    Sa jeunesse est bien tendre encore,</l>
           <l>    Et presque ne fait que d’éclore</l>
           <l>Et frape neantmoins quiconque l’aperçoit,</l>
           <l>Tantost c’est vne Fille &amp; tantost vne Femme</l>
           <l>Dont les traits delicats vont jusqu’au fond de l’ame,</l>
           <l>Et c’est l’Amour tout pur en quelque estat qu’il soit.</l>
-          <byline>Pour <persName>Mademoiselle de Montausier</persName>, <name>Amour déguisé</name>.</byline>
+          <byline>Pour <persName>Mademoiselle de Montausier</persName>, <name key="amour_deguise">Amour déguisé</name>.</byline>
           <l> Que dans cette personne on vous vienne chercher,</l>
           <l>Que l’on vous y rencontre, Amour, cela peut estre,</l>
           <l>Elle a des qualitez à vous faire cognestre,</l>
           <l>Mais elle a de l’esprit aussi pour vous cacher.</l>
-          <byline>Pour <persName>Mademoiselle d’Arquien</persName>, <name>Amour déguisé</name>.</byline>
+          <byline>Pour <persName>Mademoiselle d’Arquien</persName>, <name key="amour_deguise">Amour déguisé</name>.</byline>
           <l> Vous qui vous découurez par vne simple oeillade,</l>
           <l>Amour, considerez cét air doux &amp; ce port,</l>
           <l>Pouuez-vous là dessous vous mettre en embuscade</l>
           <l>    Sans estre connû d’abord ?</l>
           <label type="head">V. ENTREE.</label>
-          <p>D'autres <name>Amours</name>, qui dans le mesme dessein ont <tech>pris la figure des Iardiniers</tech> de Cerés, cachent adroitement leurs fleches sous des fleurs, &amp; presentent à <name>Proserpine</name> des Bouquets, dont la vertu secrette l’endort sur <tech>vn lit de Gasons</tech>.</p>
-          <p><name>Amours déguisez en Iardiniers de Cerés</name>.</p>
+          <p>D'autres <name key="amour_deguise">Amours</name>, qui dans le mesme dessein ont <tech>pris la figure des Iardiniers</tech> de Cerés, cachent adroitement leurs fleches sous des fleurs, &amp; presentent à <name key="proserpine">Proserpine</name> des Bouquets, dont la vertu secrette l’endort sur <tech>vn lit de Gasons</tech>.</p>
+          <p><name key="amour_deguise">Amours déguisez en Iardiniers de Cerés</name>.</p>
           <p><persName>Monsieur le Duc</persName>, <persName>le Duc de Sully</persName>, les Marquis</p>
           <p>de <persName>Villequier</persName>, &amp; de <persName>Villeroy</persName>, Messieurs</p>
           <p><persName>du Pille</persName>, &amp; <persName>de la Lanne</persName>.</p>
-          <byline>Pour <persName>Monsieur le Duc</persName>, <name>Iardinier</name>.</byline>
+          <byline>Pour <persName>Monsieur le Duc</persName>, <name key="jardinier">Iardinier</name>.</byline>
           <l>    Voicy venir le bon Temps,</l>
           <l>    Et j’espere à ce Printemps</l>
           <l>    Ou les jours seront moins calmes</l>
@@ -664,12 +623,12 @@
           <l>    Elles sont nobles &amp; bonnes,</l>
           <l>    Et l’on sçait assez chez nous</l>
           <l>    L'Art d’en faire des Couronnes.</l>
-          <byline>Pour le <persName>Duc de Sully</persName>, <name>Iardinier</name>.</byline>
+          <byline>Pour le <persName>Duc de Sully</persName>, <name key="jardinier">Iardinier</name>.</byline>
           <l> Vn jeune Iardinier n’est pas si curieux</l>
           <l>De son propre jardin que de celuy d’vn autre,</l>
           <l>Mais vous ne sçauriez faire mieux</l>
           <l>Que de bien trauailler au vostre.</l>
-          <byline>Pour le <persName>Marquis de Villequier</persName>, <name>Iardinier</name>.</byline>
+          <byline>Pour le <persName>Marquis de Villequier</persName>, <name key="jardinier">Iardinier</name>.</byline>
           <l> Nous aymons bien les fleurs qui ne sont pas les nostres</l>
           <l>Quoy que nous prisions fort celles qui sont à nous,</l>
           <l>Et je trouue qu’il est quelquefois assez doux</l>
@@ -682,18 +641,18 @@
           <l>    Laissent leur jardin en friche</l>
           <l>    Et trauaillent chez autruy.</l>
           <label type="head">VI. ENTREE.</label>
-          <p><name>Pluton</name>, se seruant d’vne occasion si fauorable <tech>sort des Enfers</tech>, &amp; vient enleuer la <name>Nymphe</name> endormie. Mais <name>Venus</name> fait remarquer à <name>Mercure</name>, que ce Dieu sousterrain craignant que <name>les Demons</name>, qui l’accompagnent d’ordinaire, ne sçeussent pas garder, en cette occasion, tout le respect deû aux beautez de <name>Proserpine</name>, auoit emprunté le secours de <tech>six Amours qu’il auoit fait vestir de sa liurée</tech>, pour le suiure en cette expedition.</p>
-          <p><persName>Le Comte d’Armagnac</persName>. <name>Pluton</name>.</p>
-          <p><name>Demons</name>. <persName>Le Comte du Lude</persName>, <persName>le Marquis de Genlis</persName>,</p>
+          <p><name key="pluton">Pluton</name>, se seruant d’vne occasion si fauorable <tech>sort des Enfers</tech>, &amp; vient enleuer la <name key="nymphe">Nymphe</name> endormie. Mais <name key="venus">Venus</name> fait remarquer à <name key="mercure">Mercure</name>, que ce Dieu sousterrain craignant que <name key="demon">les Demons</name>, qui l’accompagnent d’ordinaire, ne sçeussent pas garder, en cette occasion, tout le respect deû aux beautez de <name key="proserpine">Proserpine</name>, auoit emprunté le secours de <tech>six Amours qu’il auoit fait vestir de sa liurée</tech>, pour le suiure en cette expedition.</p>
+          <p><persName>Le Comte d’Armagnac</persName>. <name key="pluton">Pluton</name>.</p>
+          <p><name key="demon">Demons</name>. <persName>Le Comte du Lude</persName>, <persName>le Marquis de Genlis</persName>,</p>
           <p>Messieurs <persName>Mollier</persName>, <persName>d’Heureux</persName>, <persName>Beauchamp</persName>,</p>
           <p>&amp; <persName>le Sieur de Lorge</persName>.</p>
-          <byline>Pour <persName>le Comte d’Armagnac</persName>, <name>Pluton</name>.</byline>
+          <byline>Pour <persName>le Comte d’Armagnac</persName>, <name key="pluton">Pluton</name>.</byline>
           <l> Pourquoy faut-il qu’on nous dépeigne</l>
           <l>L'Enfer &amp; son Monarque aussi noirs que charbon</l>
           <l>Si ce n’est afin qu’on les craigne ?</l>
           <l>Si par le Roy l’on peut juger du Regne,</l>
           <l>Qu'il y fait beau, qu’il y fait bon.</l>
-          <byline>Pour <persName>le Comte du Lude</persName>, <name>Demon</name>.</byline>
+          <byline>Pour <persName>le Comte du Lude</persName>, <name key="demon">Demon</name>.</byline>
           <l>    Il n’est Demon dans les Enfers</l>
           <l>Bruslé de plus de feux, chargé de plus de fers,</l>
           <l>O qu’il sçait bien icy se passer de lumiere !</l>
@@ -705,7 +664,7 @@
           <l>Mais je ne la croy pas tellement acharnée</l>
           <l>    Contre vne pauure Ame damnée</l>
           <l>    Qu'il en aille oublier le corps.</l>
-          <byline>Pour <persName>le Marquis de Saucour</persName>, qui deuoit represent[e]r <name>vn Demon</name>.</byline>
+          <byline>Pour <persName>le Marquis de Saucour</persName>, qui deuoit represent[e]r <name key="demon">vn Demon</name>.</byline>
           <l> Non ce n’est point icy le Demon de Brutus,</l>
           <l>        Ny de Socrate,</l>
           <l>Par d’autres qualitez &amp; par d’autres Vertus</l>
@@ -726,12 +685,12 @@
           <l>        Faisant qu’on l’ayme,</l>
           <l>Telle cede à son Nom qui peut-estre eut tenu</l>
           <l>        Contre luy-mesme.</l>
-          <byline>Pour <persName>le Marquis de Genlis</persName>, <name>Demon</name>.</byline>
+          <byline>Pour <persName>le Marquis de Genlis</persName>, <name key="demon">Demon</name>.</byline>
           <l> Ha voicy la Beauté qui meritoit la pomme !</l>
           <l>    Est-ce vn Homme tout de bon</l>
           <l>    Qui represente vn Demon,</l>
           <l>Ou si c’est vn Demon qui represente vn Homme ?</l>
-          <p><tech>Concert</tech> de <name>Bergers</name>.</p>
+          <p><tech>Concert</tech> de <name key="berger">Bergers</name>.</p>
           <p>Les Sieurs <persName>Piesche</persName>, <persName>Descousteaux</persName>, <persName>les trois Hotterres</persName>,</p>
           <p><persName>Destouches</persName>, <persName>Besson</persName>, <persName>le Peintre</persName>, <persName>le Roux l’aisné</persName>,</p>
           <p><persName>Charlot</persName>, <persName>Heugé</persName>, <persName>la Riuiere</persName>, <persName>Roullé</persName>,</p>
@@ -747,10 +706,10 @@
           <l>    Vous en rendrez quelque jour</l>
           <l>        Conte à l’Amour.</l>
           <label type="head">VII. ENTREE.</label>
-          <p><tech>Dans l’auenuë du Palais enchanté d’Armide, des Amours déguisez en Bergers</tech> tachent par <tech>leur chant, &amp; le son de leurs instruments</tech>, à retenir <name>Regnaut</name> auprés de la beauté dont il est aymé. Mais ce Guerrier detrompé, n’escoute que la <name>Gloire</name> qui l’appelle, &amp; suit constamment <name>les deux bons Cheualiers</name>, qui le sont venus deliurer de cette agreable prison.</p>
-          <p><persName>LE ROY</persName>. Representant <name>Regnaut</name>.</p>
-          <p><name>Cheualiers</name>. <persName>Le Marquis de Rassan</persName>, &amp; <persName>le Sieur Raynal</persName>.</p>
-          <byline>Pour <persName>LE ROY</persName>, representant <name>Regnaut</name>.</byline>
+          <p><tech>Dans l’auenuë du Palais enchanté d’Armide, des Amours déguisez en Bergers</tech> tachent par <tech>leur chant, &amp; le son de leurs instruments</tech>, à retenir <name key="renaud">Regnaut</name> auprés de la beauté dont il est aymé. Mais ce Guerrier detrompé, n’escoute que la <name key="gloire">Gloire</name> qui l’appelle, &amp; suit constamment <name key="chevalier">les deux bons Cheualiers</name>, qui le sont venus deliurer de cette agreable prison.</p>
+          <p><persName>LE ROY</persName>. Representant <name key="renaud">Regnaut</name>.</p>
+          <p><name key="chevalier">Cheualiers</name>. <persName>Le Marquis de Rassan</persName>, &amp; <persName>le Sieur Raynal</persName>.</p>
+          <byline>Pour <persName>LE ROY</persName>, representant <name key="renaud">Regnaut</name>.</byline>
           <l>        Sage &amp; vaillant</l>
           <l>Rien ne peut égaler ses trauaux &amp; ses peines,</l>
           <l>Le sang de Charlemagne heroïque &amp; boüillant</l>
@@ -787,22 +746,22 @@
           <l>Aux grandes actions s’appliquer sans relasche,</l>
           <l>Et sur tout secourir ceux qui sont opprimez,</l>
           <l>        Voila sa Tasche.</l>
-          <p><name>La Gloire</name>, &amp; <name>la Renommée</name>.</p>
+          <p><name key="gloire">La Gloire</name>, &amp; <name key="renommee">la Renommée</name>.</p>
           <p><persName>Le Duc de Saint Aignan</persName>,</p>
           <p>&amp; <persName>M. Beauchamp</persName>.</p>
-          <byline>Pour <persName>le Duc de Saint Aignan</persName>, representant <name>la Gloire</name>.</byline>
+          <byline>Pour <persName>le Duc de Saint Aignan</persName>, representant <name key="gloire">la Gloire</name>.</byline>
           <l>    Estant tout enuironné,</l>
           <l>    Et plein de Gloire immortelle</l>
           <l>    Ie ne suis pas estonné</l>
           <l>    Que l’on vous prenne pour elle.</l>
           <label type="head">VIII. ENTREE.</label>
           <p><tech>Vne autre bande d’Amours sous l’habit de Nymphes de Flore</tech> se presentent, dans la mesme intention, &amp; n’ont pas vn meilleur succes, quoy qu’elles estalent à l’enuy, les beautez de leur visage, &amp; l’agrément de leur danse.</p>
-          <p><name>Flore</name> &amp; ses <name>Nymphes</name>, <name>Amours déguisez</name>.</p>
-          <p><name>Flore</name>. <persName>Mademoiselle d’Aumalle</persName>,</p>
-          <p><name>Nymphes</name>. <persName>Madame de Villequier</persName>, <persName>Mesdemoiselles de</persName></p>
+          <p><name key="flore">Flore</name> &amp; ses <name key="nymphe">Nymphes</name>, <name key="amour_deguise">Amours déguisez</name>.</p>
+          <p><name key="flore">Flore</name>. <persName>Mademoiselle d’Aumalle</persName>,</p>
+          <p><name key="nymphe">Nymphes</name>. <persName>Madame de Villequier</persName>, <persName>Mesdemoiselles de</persName></p>
           <p><persName>Brancas</persName>, de <persName>Grancé</persName>, de <persName>Castelnau</persName>, de <persName>la Mothe,</persName></p>
           <p><persName>Dardennes</persName>, de <persName>Cologeon</persName>, &amp; de <persName>Pons</persName>.</p>
-          <byline>Pour <persName>Mademoiselle d’Aumalle</persName>. <name>Flore</name>.</byline>
+          <byline>Pour <persName>Mademoiselle d’Aumalle</persName>. <name key="flore">Flore</name>.</byline>
           <l> A cét air noble &amp; doux c’est Flore qui respire,</l>
           <l>        Ainsi que vous on la dépeint,</l>
           <l>Et les plus viues fleurs sont dessus vostre Teint</l>
@@ -847,8 +806,8 @@
           <l>Dans l’échange des fleurs que nous faisons icy</l>
           <l>    Si je donne quelque Pensée,</l>
           <l>    Ie ne prens guere de Soucy.</l>
-          <p><name>Armide</name>, furieuse &amp; pressée de douleur, de honte, &amp; de desespoir, fait vn recit Italien, dans lequel elle se pleint, &amp; s’emporte contre <name>les Amours</name> qui l’ont si mal seruie, &amp; les chasse de <tech>son Palais, qu’elle détruit en vn moment</tech>.</p>
-          <label type="head"><name>Armide</name> Recit Italien. <tech>Chanté par</tech></label>
+          <p><name key="armide">Armide</name>, furieuse &amp; pressée de douleur, de honte, &amp; de desespoir, fait vn recit Italien, dans lequel elle se pleint, &amp; s’emporte contre <name key="amours">les Amours</name> qui l’ont si mal seruie, &amp; les chasse de <tech>son Palais, qu’elle détruit en vn moment</tech>.</p>
+          <label type="head"><name key="armide">Armide</name> Recit Italien. <tech>Chanté par</tech></label>
           <label type="head"><tech>la</tech><persName>Seignora Anna</persName>.</label>
           <l>    Ah Rinaldo, e doue sei ?</l>
           <l>    Dunque tù partir potesti,</l>
@@ -882,23 +841,23 @@
           <l>    Suanite,</l>
           <l>    Fuggite dà mè.</l>
           <label type="head">IX. ENTREE.</label>
-          <p>Vne troupe <name>de petits Amours</name>, effrayez d’vn accident si surprenant, sortent en haste des ruines du Palais détruit, &amp; retiennent <tech>vne partie des déguisements qu’ils n’ont pas eu le temps de despoüiller tout à fait. Les vns ont encore les plumages des oyseaux ; d’autres la blancheur des statuës, &amp; d’autres vne partie des habits de Nymphes, qu’ils auoient pris pour seruir la passion d’Armide</tech>.</p>
-          <p>Troupes de <name>petits Amours</name>.</p>
-          <p><name>Garçons</name>. <persName>Le Comte de Gonore</persName>, <persName>le petit Beaumont</persName>,</p>
+          <p>Vne troupe <name key="amours">de petits Amours</name>, effrayez d’vn accident si surprenant, sortent en haste des ruines du Palais détruit, &amp; retiennent <tech>vne partie des déguisements qu’ils n’ont pas eu le temps de despoüiller tout à fait. Les vns ont encore les plumages des oyseaux ; d’autres la blancheur des statuës, &amp; d’autres vne partie des habits de Nymphes, qu’ils auoient pris pour seruir la passion d’Armide</tech>.</p>
+          <p>Troupes de <name key="amours">petits Amours</name>.</p>
+          <p><name key="amours">Garçons</name>. <persName>Le Comte de Gonore</persName>, <persName>le petit Beaumont</persName>,</p>
           <p><persName>Le petit Paul</persName>, <persName>le petit des-Airs</persName>, <persName>le petit Fauier</persName>,</p>
           <p>&amp; <persName>de Lorge</persName>.</p>
-          <p><name>Filles</name>. Mesdemoiselles <persName>Chasteau d’Assier</persName>, de <persName>Montlaur</persName>,</p>
+          <p><name key="amours">Filles</name>. Mesdemoiselles <persName>Chasteau d’Assier</persName>, de <persName>Montlaur</persName>,</p>
           <p>de <persName>Cambray</persName>, <persName>de la Vallée</persName>, &amp; <persName>de Ribera</persName>.</p>
-          <byline>Pour <name>les petits Amours</name>.</byline>
+          <byline>Pour <name key="amours">les petits Amours</name>.</byline>
           <l> Ce ne sont pas là nos Tyrans,</l>
           <l>Petits, on ne fait que s’en rire,</l>
           <l>Mais quand ils sont deuenus grands</l>
           <l>    L'on en soûpire.</l>
           <label type="head">X. ENTREE.</label>
-          <p><name>Des Sauuages de la Colchide</name>, surpris de la beauté <tech>d’vne Machine</tech>, qu’ils voyent descendre le long de leur Fleuue, tesmoignent leur joye par leur danse.</p>
-          <p><name>Sauuages</name>. <persName>Le Marquis de Saucourt</persName>, <persName>Monsieur Bontemps</persName>,</p>
+          <p><name key="sauvage">Des Sauuages de la Colchide</name>, surpris de la beauté <tech>d’vne Machine</tech>, qu’ils voyent descendre le long de leur Fleuue, tesmoignent leur joye par leur danse.</p>
+          <p><name key="sauvage">Sauuages</name>. <persName>Le Marquis de Saucourt</persName>, <persName>Monsieur Bontemps</persName>,</p>
           <p>les Sieurs <persName>Manseau</persName>, <persName>Mercier</persName>, <persName>du Pron</persName>, &amp; <persName>Noblet</persName>.</p>
-          <p><persName>Le Marquis de Saucourt</persName>. <name>Sauuage</name>.</p>
+          <p><persName>Le Marquis de Saucourt</persName>. <name key="sauvage">Sauuage</name>.</p>
           <byline>AVX DAMES.</byline>
           <l>    Ie sors d’vn climat sauuage</l>
           <l>    Pour vous rendre témoignage</l>
@@ -915,16 +874,16 @@
           <l>    Veritablement Hommes</l>
           <l>    L'Homme qui va le plus loin.</l>
           <label type="head">XI. ENTREE.</label>
-          <p>La beauté que <name>Venus</name> fait venir dans <tech>cette Conque Marine</tech> c’est <name>Isiphile</name> qui fut autrefois si cherement aymée de Iason, &amp; qui luy donna tant de preuues de son amitié reciproque ; mais qui maintenant abandonnée par luy, s’est resoluë de quitter sa couronne, &amp; sa patrie, pour le venir chercher. Ces <name>Dieux Marins</name>, &amp; ses Nymphes Maritimes qui l’accompagnent, sont autant d’Amours déguisez, qui pour luy faire trauerser les Mers auec plus d’asseurance, ont pris ce déguisement.</p>
+          <p>La beauté que <name key="venus">Venus</name> fait venir dans <tech>cette Conque Marine</tech> c’est <name key="isiphile">Isiphile</name> qui fut autrefois si cherement aymée de Iason, &amp; qui luy donna tant de preuues de son amitié reciproque ; mais qui maintenant abandonnée par luy, s’est resoluë de quitter sa couronne, &amp; sa patrie, pour le venir chercher. Ces <name key="dieu_marin">Dieux Marins</name>, &amp; ses Nymphes Maritimes qui l’accompagnent, sont autant d’Amours déguisez, qui pour luy faire trauerser les Mers auec plus d’asseurance, ont pris ce déguisement.</p>
           <label type="head">Amours déguisez en Dieux Marins, &amp; Nymphes</label>
           <label type="head">Maritimes.</label>
-          <p><persName>MONSIEVR</persName>. <name>Dieu Marin</name>.</p>
-          <p><name>Dieux Marins</name>. Les <persName>Marquis de Villeroy</persName>, &amp; <persName>de Rassan</persName>,</p>
+          <p><persName>MONSIEVR</persName>. <name key="dieu_marin">Dieu Marin</name>.</p>
+          <p><name key="dieu_marin">Dieux Marins</name>. Les <persName>Marquis de Villeroy</persName>, &amp; <persName>de Rassan</persName>,</p>
           <p>Messieurs <persName>de la Lanne</persName>, &amp; <persName>du Pille</persName>.</p>
-          <p><name>Nymphes Maritimes</name>. <persName>Mademoiselle Delbeuf</persName>, <persName>Madame</persName></p>
+          <p><name key="nymphe">Nymphes Maritimes</name>. <persName>Mademoiselle Delbeuf</persName>, <persName>Madame</persName></p>
           <p><persName>de Montespan</persName>, <persName>Madame de Vibray</persName>,</p>
           <p>&amp; <persName>Mademoiselle de Seuigny</persName>.</p>
-          <byline>Pour <persName>MONSIEVR</persName>, <name>Dieu Marin</name>.</byline>
+          <byline>Pour <persName>MONSIEVR</persName>, <name key="dieu_marin">Dieu Marin</name>.</byline>
           <l> Dans l’Empire des flots ma place est tres honneste</l>
           <l>Plus bas que n’est la Main qui les assujetit</l>
           <l>Trop glorieux d’auoir au dessus de ma Teste</l>
@@ -941,20 +900,20 @@
           <l>Luy qui regit la Terre, &amp; les plaines humides,</l>
           <l>Inspire sous ma forme vn doux embarquement</l>
           <l>        A ces Belles timides.</l>
-          <byline>Pour <persName>le Marquis de Villeroy</persName>, <name>Amour déguisé en Dieu Marin</name>.</byline>
+          <byline>Pour <persName>le Marquis de Villeroy</persName>, <name key="amour_deguise">Amour déguisé en Dieu Marin</name>.</byline>
           <l> Si vous le trouuez bon sçachons pour quelle fin</l>
           <l>Vous estes tout ensemble Amour &amp; Dieu Marin,</l>
           <l>L'vn doit estre assez froid &amp; l’autre plein de flames,</l>
           <l>Et qui vous fait ainsi briller de deux façons ?</l>
           <l>Est-ce pour triompher du coeur de mille Dames ?</l>
           <l>Est-ce pour aualer la Mer &amp; les Poissons ?</l>
-          <byline>Pour <persName>le Marquis de Rassan</persName>, <name>Amour déguisé en Dieu Marin</name>.</byline>
+          <byline>Pour <persName>le Marquis de Rassan</persName>, <name key="amour_deguise">Amour déguisé en Dieu Marin</name>.</byline>
           <l>Icy malaisément l’Amour se peut cacher,</l>
           <l>Le moindre de ses pas en donne connoissance,</l>
           <l>Quand il est Dieu Marin s’il nage comme il dance</l>
           <l>    La Terre &amp; la Mer que je pense</l>
           <l>    N'ont rien à se reprocher.</l>
-          <byline>Pour <persName>Mademoiselle Delbeuf</persName>, qui represente vn <name>Amour déguisé en Nymphe Maritime</name>.</byline>
+          <byline>Pour <persName>Mademoiselle Delbeuf</persName>, qui represente vn <name key="amour_deguise">Amour déguisé en Nymphe Maritime</name>.</byline>
           <l>Seroit-ce du costé de ces Mers inconuës</l>
           <l>    D'où les perles nous sont venuës,</l>
           <l>Que nous viendroient ce port, ce teint, ces yeux si doux ?</l>
@@ -963,19 +922,19 @@
           <l>    Il arriue qu’on regarde</l>
           <l>    Des cheueux comme les siens,</l>
           <l>On dira que c’est l’Amour, &amp; voila ses liens.</l>
-          <byline>Pour <persName>Madame de Montespan</persName>, <name>Amour déguisé en Nymphe Maritime</name>.</byline>
+          <byline>Pour <persName>Madame de Montespan</persName>, <name key="amour_deguise">Amour déguisé en Nymphe Maritime</name>.</byline>
           <l>    Pour vouloir qu’on vous estime</l>
           <l>    Vne Nymphe Maritime</l>
           <l>    Vous vous y méprenez vn peu,</l>
           <l>Amour, d’auoir choisi cette charmante blonde,</l>
           <l>Il faudroit qu’autour d’elle on ne vit que de l’onde,</l>
           <l>    Autour d’elle tout est en feu.</l>
-          <byline>Pour <persName>Madame de Vibray</persName>, <name>Amour déguisé en Nymphe Maritime</name>.</byline>
+          <byline>Pour <persName>Madame de Vibray</persName>, <name key="amour_deguise">Amour déguisé en Nymphe Maritime</name>.</byline>
           <l>    Vous plaisez fort à tout le Monde,</l>
           <l>    Vos attraits sont charmans &amp; doux,</l>
           <l>    Et malgré la fraischeur de l’onde</l>
           <l>    Il fait grand chaud aupres de vous.</l>
-          <byline>Pour <persName>Mademoiselle de Seuigny</persName>, <name>Amour déguisé en Nymphe Maritime</name>.</byline>
+          <byline>Pour <persName>Mademoiselle de Seuigny</persName>, <name key="amour_deguise">Amour déguisé en Nymphe Maritime</name>.</byline>
           <l> Vous trauestir ainsi c’est bien estre ingenu</l>
           <l>Amour, c’est comme si pour n’estre pas connu,</l>
           <l>    Auec vne innocence extresme</l>
@@ -985,26 +944,26 @@
           <l>    Enfin qui fit l’vne a fait l’autre,</l>
           <l>Et jusques à sa Mere elle est comme la vostre.</l>
           <label type="head">XII. ENTREE.</label>
-          <p><name>Venus</name>, pour faire voir à <name>Mercure</name> <tech>la facilité que les Amours ont à se déguiser</tech>, mesme quelquefois contre ses propres interests,  luy fait paroistre <tech>la Ville de Troye toute en feu</tech>, &amp; luy montrant <tech>des Guerriers qui tiennent vn dard d’vne main, &amp; de l’autre vn flambeau</tech>, luy aprend que ces gens qui ont embrasé cette grande Ville ne sont pas des Grecs comme l’on pense, mais des <name>Amours</name> mutinez à la sollicitation de <name>Menelaüs</name>, qui se sont engagez à le remettre en possession d’<name>Elene</name>. Ces faux Grecs combattent vne troupe de Troyens qu’ils obligent à leur ceder.</p>
+          <p><name key="venus">Venus</name>, pour faire voir à <name key="mercure">Mercure</name> <tech>la facilité que les Amours ont à se déguiser</tech>, mesme quelquefois contre ses propres interests,  luy fait paroistre <tech>la Ville de Troye toute en feu</tech>, &amp; luy montrant <tech>des Guerriers qui tiennent vn dard d’vne main, &amp; de l’autre vn flambeau</tech>, luy aprend que ces gens qui ont embrasé cette grande Ville ne sont pas des Grecs comme l’on pense, mais des <name key="amours">Amours</name> mutinez à la sollicitation de <name key="menelas">Menelaüs</name>, qui se sont engagez à le remettre en possession d’<name key="helene">Elene</name>. Ces faux Grecs combattent vne troupe de Troyens qu’ils obligent à leur ceder.</p>
           <label type="head">Combat des Grecs, &amp; des Troyens.</label>
-          <p><name>Agamemnon</name>. <persName>Le Duc de Guise</persName>. <name>Grecs</name>. Messieurs</p>
+          <p><name key="agamemnon">Agamemnon</name>. <persName>Le Duc de Guise</persName>. <name key="grec">Grecs</name>. Messieurs</p>
           <p><persName>d’Heureux</persName>, <persName>Beauchamp</persName>, les Sieurs <persName>Chicanneau</persName>,</p>
           <p>de <persName>Lorge</persName>, de <persName>Gan</persName>, &amp; <persName>Des-Airs le cadet</persName>.</p>
-          <p><name>Troyens</name>. <persName>Monsieur de Souuille</persName>, <persName>Messieurs Raynal</persName>,</p>
-          <p><persName>de la Marre</persName>, <name>Paysan</name>, les Sieurs <persName>le Chantre</persName>,</p>
+          <p><name key="troyen">Troyens</name>. <persName>Monsieur de Souuille</persName>, <persName>Messieurs Raynal</persName>,</p>
+          <p><persName>de la Marre</persName>, <name key="paysan">Paysan</name>, les Sieurs <persName>le Chantre</persName>,</p>
           <p><persName>Des-Airs. 3me</persName> &amp; <persName>du Feu.</persName></p>
-          <byline>Pour <persName>le Duc de Guise</persName>. <name>Agamemnon</name>.</byline>
+          <byline>Pour <persName>le Duc de Guise</persName>. <name key="agamemnon">Agamemnon</name>.</byline>
           <l> Dix ans n’estoient pas trop pour le siege de Troye,</l>
           <l>Dans vne passion s’ouffrez [sic] des maux cuisans,</l>
           <l>Et goûtez vn moment de veritable joye,</l>
           <l>    Vous estes payé pour dix ans.</l>
-          <byline>Pour <name>les Troyens battus</name>.</byline>
+          <byline>Pour <name key="troyen">les Troyens battus</name>.</byline>
           <l> Il est des ennemis fiers &amp; vindicatifs</l>
           <l>Qui nous couurent de honte en gagnant la victoire,</l>
           <l>Il est des ennemis à qui c’est nostre gloire</l>
           <l>Que de faire auoüer qu’ils nous tiennent captifs.</l>
-          <p><name>Iunon</name>, triomphante, chante vn recit, qui tesmoigne la douceur qu’elle trouue à se vanger du mespris que <name>Pâris</name> a fait de sa beauté.</p>
-          <label type="head">RECIT DE <name>IVNON</name></label>
+          <p><name key="junon">Iunon</name>, triomphante, chante vn recit, qui tesmoigne la douceur qu’elle trouue à se vanger du mespris que <name key="paris">Pâris</name> a fait de sa beauté.</p>
+          <label type="head">RECIT DE <name key="junon">IVNON</name></label>
           <label type="head">Qui haït les Troyens, &amp; qui est bien</label>
           <label type="head">aise de leur ruïne.</label>
           <label type="head">Chanté par <persName>Mademoiselle de Cercamanan</persName>.</label>
@@ -1024,12 +983,12 @@
           <l>    L'vn sans doute a plus d’apas,</l>
           <l>    L'autre aussi, &amp;c.</l>
           <label type="head">XIII. ENTREE.</label>
-          <p>Pendant qu’ils poursuiuent leur victoire, <name>quatre Soldats</name> &amp; <name>quatre Goujats</name>, sortis des maisons voisines de la place, se querellent, sur le partage de leur butin, &amp; forment vn combat ridicule.</p>
-          <p><name>Goujats</name>. <persName>Monsieur Lully</persName>, les Sieurs <persName>Paysan</persName>,</p>
+          <p>Pendant qu’ils poursuiuent leur victoire, <name key="soldat">quatre Soldats</name> &amp; <name key="goujat">quatre Goujats</name>, sortis des maisons voisines de la place, se querellent, sur le partage de leur butin, &amp; forment vn combat ridicule.</p>
+          <p><name key="goujat">Goujats</name>. <persName>Monsieur Lully</persName>, les Sieurs <persName>Paysan</persName>,</p>
           <p><persName>Balthasar</persName>, &amp; <persName>Brouard</persName>.</p>
-          <p><name>Soldats</name>. Les Sieurs <persName>Noblet</persName>, <persName>la Pierre</persName>,</p>
+          <p><name key="soldat">Soldats</name>. Les Sieurs <persName>Noblet</persName>, <persName>la Pierre</persName>,</p>
           <p>S. André, &amp; <persName>Des-brosses</persName>.</p>
-          <byline>Pour <persName>Monsieur de Lully</persName>. <name>Goujat</name>.</byline>
+          <byline>Pour <persName>Monsieur de Lully</persName>. <name key="goujat">Goujat</name>.</byline>
           <l>    Ce Goujat signalé</l>
           <l>    De quelque talent se pique,</l>
           <l>    Tout son fait est reglé</l>
@@ -1038,7 +997,7 @@
           <l>    Pour n’estre pas satisfait</l>
           <l>    Du bruit qu’il fait.</l>
           <label type="head">XIV. ET DERNIERE ENTREE.</label>
-          <p>Les <tech>Amours déguisez en Grecs</tech>, apres auoir exterminé le reste des <name>Troyens</name>, &amp; pris le Chasteau de <name>Priam</name>, viennent danser la derniere Entrée.</p>
+          <p>Les <tech>Amours déguisez en Grecs</tech>, apres auoir exterminé le reste des <name key="troyen">Troyens</name>, &amp; pris le Chasteau de <name key="priam">Priam</name>, viennent danser la derniere Entrée.</p>
           <label type="head">FIN.</label>
         </div>
       </div>
