@@ -16,6 +16,10 @@
           <name>Mathilde Nicolas</name>
           <resp>Transcription et stylage</resp>
         </respStmt>
+        <respStmt>
+          <name>Marion Ignace</name>
+          <resp>Balisage</resp>
+        </respStmt>
       </editionStmt>
       <publicationStmt>
         <publisher>Université d’Artois - Lille, MESHS</publisher>
@@ -152,7 +156,7 @@
           &amp; dans le bassin mesme, six grands Vases de porcelaine remplis de fleurs recevoient
           l’eau de</seg>
         <tech type="eaux">six differens jets</tech><seg ana="description"> qui sortent d’une corne
-          d’</seg><name>Amalthée</name><seg ana="description">, que soûtiennent trois petits Tritons
+          d’</seg><name key="amalthée">Amalthée</name><seg ana="description">, que soûtiennent trois petits Tritons
           de bronze doré</seg>. Ces Vases estoient ainsi disposez pour empescher que l’eau ne
         tombast dans le bassin où elle auroit fait du bruit ; &amp; pour la mesme raison <seg
           ana="description">le groupe des Tritons estoit ornée d’une grande couronne de
@@ -301,11 +305,11 @@
           ornemens rustiques, &amp; semblables à ceux qui paroissent au dehors de la Grotte. Dans
           chaque massif il y avoit deux niches, où sur des piedestaux on voyoit deux figures
           representant d’un costé</seg>
-        <name>Hercule</name><seg ana="description"> tenant sa massuë, &amp; terassant</seg>
-        <name>l’Hydre</name><seg ana="description">, &amp; de l’autre costé</seg>
-        <name>Apollon</name><seg ana="description"> appuyé sur son arc, &amp; foulant aux
+        <name key="hercule">Hercule</name><seg ana="description"> tenant sa massuë, &amp; terassant</seg>
+        <name key="hydre">l’Hydre</name><seg ana="description">, &amp; de l’autre costé</seg>
+        <name key="apollon">Apollon</name><seg ana="description"> appuyé sur son arc, &amp; foulant aux
           pieds</seg>
-        <name>le serpent Python</name>.</p>
+        <name key="serpent_python">le serpent Python</name>.</p>
       <p>
         <pb n="12" xml:id="p12"/>
         <seg ana="description">Au de ssus de la corniche s’élevoit un fronton, dont le tympan estoit
@@ -326,9 +330,9 @@
       <p><seg ana="description">Au fond des trois ouvertures l’on voyoit les trois grandes niches où
           sont ces groupes de Figures de marbre blanc</seg>, dont la beauté sujet, &amp;
         l’excellence du travail sont une des grandes richesses de ce lieu.</p>
-      <p>Dans la niche du milieu <name>Apollon</name> est representé assis &amp; environné des
-          <name>Nymphes de Thétis</name> qui le parfument ; &amp; dans les deux autres, sont ses
-        chevaux avec des <name>Tritons </name>qui les pansent.</p>
+      <p>Dans la niche du milieu <name key="apollon">Apollon</name> est representé assis &amp; environné des
+          <name key="nymphe">Nymphes de Thétis</name> qui le parfument ; &amp; dans les deux autres, sont ses
+        chevaux avec des <name key="triton">Tritons</name> qui les pansent.</p>
       <p ana="description">Du haut de la niche du milieu tombe derriére les Figures une grande nape
         d’eau qui sort de l’urne que tient un Fleuve couché sur une roche ; cette eau qui s’est
         répanduë au pied des Figures dans un grand bassin de marbre, retombe ensuite jusqu’en bas
@@ -447,9 +451,9 @@
           taillées dans les palissades mesmes</seg> ; &amp; entre ces Thermes il y avoit des <tech
           type="construction">bassins de fontaine</tech>, d’où sortoit de l’eau.</p>
       <p>La décoration changea au dernier Acte : <tech type="construction">le Théatre</tech>
-        s’estant ouvert des deux costez, l’on vit de part &amp; d’autre <name>une quantité Bergers
+        s’estant ouvert des deux costez, l’on vit de part &amp; d’autre <name key="berger">une quantité Bergers
           du chœur de l’Amour</name> assis des des portiques de verdure, &amp; joüans de divers
-        instrumens ; &amp; le fond du Théatre s’estant aussi ouvert, il parut <name>plus de
+        instrumens ; &amp; le fond du Théatre s’estant aussi ouvert, il parut <name key="satyres">plus de
           cinquante Satyres du chœur de Bacchus</name> ; &amp; tous ensemble joignant leurs voix au
         son Instrumens, mirent fin à la piéce, dont <tech type="musique">la Musique</tech> est
         l’Ouvrage du <persName key="lully" role="auteur">sieur de Lully</persName>.</p>
@@ -633,7 +637,7 @@
           paroissoit dans le disque d’un Soleil, dont la lumiére se répandoit de toutes parts. Au
           bas de la lyre il y avoit deux globes, &amp; plusieurs autres instrumens qu’on attribuë
           à</seg>
-        <name>Apollon</name><seg ana="description">, qui tous ensemble s’élevoient en maniére de
+        <name key="apollon">Apollon</name><seg ana="description">, qui tous ensemble s’élevoient en maniére de
           Trophée à la hauteur d’onze pieds.</seg> Cét avant-corps &amp; tous les ornemens
         n’estoient pas illuminez comme le massif. Il n’y avoit qu’une table de marbre qui estoit
         éclairée dans le milieu du piedestal, &amp; où estoit écrit, <foreign xml:lang="la">NEC
@@ -696,35 +700,35 @@
         l’Aigle qui estoit soûmis de mesme, paroissoit tout étonné, &amp; dans une action de vouloir
         encore se défendre.</p>
       <p>Sur ces rouleaux &amp; proche de l’Obélisque estoient deux grandes Figures. Celle du costé
-        droit representoit <name>Hercule </name>assis, &amp; comme se reposant, appuyé d’une main
-        sur des armes, &amp; de l’autre tenant sa massuë. A ses pieds estoient <name>deux
+        droit representoit <name key="hercule">Hercule</name> assis, &amp; comme se reposant, appuyé d’une main
+        sur des armes, &amp; de l’autre tenant sa massuë. A ses pieds estoient <name key="captif">deux
           Captifs</name> attachez contre un trophée d’armes.</p>
-      <p>L’autre Figure qui estoit du costé gauche, representoit <name>une Femme</name>
+      <p>L’autre Figure qui estoit du costé gauche, representoit <name key="pallas">une Femme</name>
         <seg ana="description">richement vestuë d’un corselet à l’antique, &amp; d’un grand manteau
-          de pourpre</seg> telle qu’on peint <name>Pallas</name>. <seg ana="description">Elle avoit
+          de pourpre</seg> telle qu’on peint <name key="pallas">Pallas</name>. <seg ana="description">Elle avoit
           un casque en teste, &amp; tenoit un baston de commandement à la main</seg> : elle estoit
-        aussi assise sur un monceau d’armes, &amp; à ses pieds on voyoit <name>un autre
+        aussi assise sur un monceau d’armes, &amp; à ses pieds on voyoit <name key="captif">un autre
           Captif</name> contre un trophée d’armes.</p>
-      <p>Il y avoit parmi ces Figures plusieurs <name>petits Enfans</name> : les uns mettoient des
-        couronnes de laurier &amp; de fleurs sur la teste d’<name>Hercule</name> &amp; de
-          <name>Pallas</name> ; les autres sembloient vouloir arracher des mains de ces Divinitez le
+      <p>Il y avoit parmi ces Figures plusieurs <name key="enfant">petits Enfans</name> : les uns mettoient des
+        couronnes de laurier &amp; de fleurs sur la teste d’<name key="hercule">Hercule</name> &amp; de
+          <name key="pallas">Pallas</name> ; les autres sembloient vouloir arracher des mains de ces Divinitez le
         baston &amp; la massuë qu’elles tenoient : d’autres environnoient cette mesme massuë de
-        festons ; &amp; d’autres encore s’occupoient à lier <name>les Captifs</name> de semblables
+        festons ; &amp; d’autres encore s’occupoient à lier <name key="captif">les Captifs</name> de semblables
         festons, au lieu de chaînes. Quoy que toutes ces Figures fussent <tech type="lumieres"
           >d’illuminations</tech>, elles representoient pourtant le naturel, mais elles paroissoient
         de couleurs agréables, &amp; de lumiéres douces, au dessous de l’Obélisque &amp; du Soleil
         qui brilloient de <tech type="lumieres">mille feux étincelans</tech>.</p>
       <p><tech type="machine_terre">Cette machine</tech> estoit précedée de deux grandes Figures en
-        l’air, qui tenant une trompette à la bouche, représentoit <name>deux Renommées</name>.</p>
+        l’air, qui tenant une trompette à la bouche, représentoit <name key="renommee">deux Renommées</name>.</p>
       <p>Toute cette décoration avoit un sens symbolique &amp; mystérieux. Par l’Obélisque &amp; le
         Soleil on prétendoit marquer <pb n="24" xml:id="p24"/> la Gloire du <persName key="louisxiv"
           >ROY </persName>toute éclatante de lumiére, &amp; solidement affermie au dessus de ses
-        ennemis, &amp; malgré l’Envie representée par <name>le Dragon</name>. Les Figures
-          d’<name>Hercule</name> &amp; de <name>Pallas</name> marquoient, l’une la puissance
+        ennemis, &amp; malgré l’Envie representée par <name key="dragon">le Dragon</name>. Les Figures
+          d’<name key="hercule">Hercule</name> &amp; de <name key="pallas">Pallas</name> marquoient, l’une la puissance
         invincible &amp; la grandeur des actions de <persName key="louisxiv">SA MAJESTÉ</persName> ;
         l’autre sa valeur &amp; sa prudente conduite dans toutes ses entreprises, dont le Lion &amp;
-        l’Aigle ressentent les effets. <name>Les Enfans</name> signifient l’amour des peuples qui
-        couronnent tant de généreux exploits, &amp; qui en liant <name>ces Captifs</name> avec des
+        l’Aigle ressentent les effets. <name key="enfant">Les Enfans</name> signifient l’amour des peuples qui
+        couronnent tant de généreux exploits, &amp; qui en liant <name key="captif">ces Captifs</name> avec des
         festons de fleurs &amp; de laurier au lieu de chaînes, sembloient leur vouloir apprendre
         combien la domination du Prince qui les a vaincus est glorieuse, &amp; douce à supporter.
         Toutes ces differentes parties estoient éclairées d’<tech>une lumiére</tech> si égale &amp;
@@ -876,8 +880,8 @@
           key="versailles_canal">grand Canal</placeName>, l’on voyoit d’abord sur des piedestaux
         deux chevaux dans une action fougueuse &amp; emportée : des hommes vigoureux les
         arrestoient, &amp; par leur adresse s’en rendoient les maistres. Chacun sçait que le cheval
-        est dédié à <name>Neptune</name>, qui le fit sortir de terre d’un coup de trident, dans
-        cette <pb n="29" xml:id="p29"/> dispute celébre qu’il eût avec <name>Minerve</name> à qui
+        est dédié à <name key="neptune">Neptune</name>, qui le fit sortir de terre d’un coup de trident, dans
+        cette <pb n="29" xml:id="p29"/> dispute celébre qu’il eût avec <name key="minerve">Minerve</name> à qui
         donneroit le nom à la Ville d’Athenes. C’est apparemment pour cette raison qu’on avoit mis
         deux chevaux à l’entrée du grand Canal, dans cette posture fiére prise sur ceux qui sont à
         Rome à Montecaval.</p>
@@ -929,14 +933,14 @@
           differens, &amp; de diverses couleurs, &amp; entre chaque Terme il y avoit de grands vases
           remplis d’orangers.</seg></p>
       <p>A l’un des bouts du Canal, du costé de <placeName key="versailles_trianon"
-          >Trianon</placeName>, <name>Neptune</name>
+          >Trianon</placeName>, <name key="neptune">Neptune</name>
         <seg ana="description">paroissoit dans son char tiré par quatre chevaux marins, &amp;
           sortant de l’eau avec quatre Tritons à costé de luy</seg>. Et à l’autre bout du costé de
         la <placeName key="versailles_jardins_menagerie">Ménagerie</placeName>, on voyoit
-          <name>Apollon</name>
+          <name key="apollon">Apollon</name>
         <seg ana="description">en l’air tiré dans son char par quatre chevaux, à la teste desquels
           sembloient voler quatre femmes qui representoient</seg>
-        <name>des heures</name>. <seg ana="description">Toutes ces Figures avoient vingt-deux pieds
+        <name key="douze_heures">des heures</name>. <seg ana="description">Toutes ces Figures avoient vingt-deux pieds
           de haut, &amp; estant de couleurs naturelles &amp; toutes lumineuses</seg>, paroissoient
         encore mieux des Divinitez. Après que <persName key="louisxiv" role="spectateur"><persName
             key="marie_therese" role="spectateur">leurs MAJESTEZ</persName></persName> eurent
@@ -1017,10 +1021,10 @@
           répandoient de l’eau. Derriére ces Fleuves l’on voyoit deux deux Chevaux Marins, portant
           une grande coquille, d’où l’eau sortoit de tous costez ; &amp; sur la coquille estoit
           encore élevé un groupe de deux figures, representant d’un costé</seg>
-        <name>Zephire </name><seg ana="description">qui enleve</seg>
-        <name>Cloris</name><seg ana="description">, &amp; de l’autre</seg>
-        <name>Borée</name><seg ana="description"> qui enleve</seg>
-        <name>Orithie</name>.</p>
+        <name key="zephir">Zephire </name><seg ana="description">qui enleve</seg>
+        <name key="cloris">Cloris</name><seg ana="description">, &amp; de l’autre</seg>
+        <name key="boree">Borée</name><seg ana="description"> qui enleve</seg>
+        <name key="orythie">Orithie</name>.</p>
       <p>Ce fut à l’aspect d’un Bastiment si extraordinaire, accompagné de tant d’autre grand
         souvrages, qui par la sçavante disposition <tech type="lumieres">des lumiéres</tech> &amp;
         des couleurs, faisoient un des plus beaux &amp; des plus surprenans spectacles qu’on ait
