@@ -16,6 +16,10 @@
           <name>Mathilde Nicolas</name>
           <resp>Transcription et balisage</resp>
         </respStmt>
+        <respStmt>
+          <name>Marion Ignace</name>
+          <resp>Balisage</resp>
+        </respStmt>
       </editionStmt>
       <publicationStmt>
         <publisher>Université d’Artois - Lille, MESHS</publisher>
@@ -49,8 +53,8 @@
       <p>Ballet</p>
       <p>Argument</p>
       <p><tech type="construction">Le Théatre</tech> s’ouvre par un combat de deux differentes
-        harmonies, la plus-Forte et composée des Arts et des Vertus qui suivent <name>Pallas</name>,
-        et la plus douce, les graces et les Plaisirs qui accompagnent <name>Venus</name>.</p>
+        harmonies, la plus-Forte et composée des Arts et des Vertus qui suivent <name key="pallas">Pallas</name>,
+        et la plus douce, les graces et les Plaisirs qui accompagnent <name key="venus">Venus</name>.</p>
       <pb n="1" xml:id="p1"/>
       <p>Ouverture</p>
       <pb n="2" xml:id="p2"/>
@@ -88,18 +92,18 @@
       <l>Les arts</l>
       <pb n="6" xml:id="p6"/>
       <label type="head">Argument</label>
-      <p><name>Venus,</name> et <name>Pallas</name> prenant le party, l’une du plaisir, et l’autre
-        de la vertu entrent en contestation, cependant que <name>Mercure</name> qui tasche de les
+      <p><name key="venus">Venus,</name> et <name key="pallas">Pallas</name> prenant le party, l’une du plaisir, et l’autre
+        de la vertu entrent en contestation, cependant que <name key="mercure">Mercure</name> qui tasche de les
         accorder leur propose de prendre le <persName key="louisxiv" role="participant"
           >Roy</persName> pour Arbitre de leur different ; toutes deux-l’acceptent avec une-égale
-        satisfaction ; Mais <name>Pallas </name>qui connoist l’avantage qu’elle a dans le choix d’un
+        satisfaction ; Mais <name key="pallas">Pallas </name>qui connoist l’avantage qu’elle a dans le choix d’un
         tel Juge insulte à sa Rivale, et apres luy avoir fait remarquer combien <persName
           key="louisxiv">sa Majesté</persName> par toutes ses actions se déclare ouvertement pour la
         vertu, la laisse dans la confusion</p>
-      <p><name>Venus</name> revenuë de son premier étonnement veut faire effort pour dompter
-        l’Orgueil de <name>Pallas</name> en gagnant le cœur du <persName key="louisxiv"
+      <p><name key="venus">Venus</name> revenuë de son premier étonnement veut faire effort pour dompter
+        l’Orgueil de <name key="pallas">Pallas</name> en gagnant le cœur du <persName key="louisxiv"
           >Roy</persName>, et pour Unir toutes ses forces dans ce grand dessein, elle prie
-          <name>Mercure</name> de voler dans tous les coins du Monde, afin de rassembler tous les
+          <name key="mercure">Mercure</name> de voler dans tous les coins du Monde, afin de rassembler tous les
         Amours qui s’y trouvent dispersez. Mais lorsqu’il est prest de partir, elle a peur qu’il
         n’en sache pas reconnoistre la plus grande partie, qui pour faire reussir des entreprises
         importantes, se déguisent, et se cachent sous des formes empruntées, et pour luy donner
@@ -107,7 +111,7 @@
         expliquez dans chacune des Entrées du Ballet.</p>
       <pb n="7" xml:id="p7"/>
       <label type="head">Dialogue</label>
-      <p><name>Pallas</name>, <name>Venus</name>, <name>Mercure</name></p>
+      <p><name key="pallas">Pallas</name>, <name key="venus">Venus</name>, <name key="mercure">Mercure</name></p>
       <label type="speaker">Mercure</label>
       <p>Surquoy contestez vous ? peut-on vous accorder</p>
       <label type="speaker">Venus</label>
@@ -330,19 +334,19 @@
       <l>Qu’ils prennent pour aider aux grans évenemens.</l>
       <pb n="16" xml:id="p16"/>
       <label type="head">Premiere Entrée</label>
-      <p><name>8 Amours</name> Deguisez en forgerons</p>
+      <p><name key="amour_deguise">8 Amours</name> Deguisez en forgerons</p>
       <pb n="17" xml:id="p17"/>
       <label type="head">Premiere Entrée</label>
-      <p><name>8 A mours</name> Deguisez en forgerons</p>
+      <p><name key="amour_deguise">8 A mours</name> Deguisez en forgerons</p>
       <pb n="19" xml:id="p19"/>
-      <p>2<hi rend="sup">e</hi> Airs pour <name>les forgerons</name> forgeant sur l’enclume</p>
+      <p>2<hi rend="sup">e</hi> Airs pour <name key="forgerons">les forgerons</name> forgeant sur l’enclume</p>
       <pb n="20" xml:id="p20"/>
       <label type="head">2<hi rend="sup">e</hi> Entrée</label>
-      <p><name>Le Gouverneur d’Egypte</name> avec toute la jeunesse du Pays</p>
+      <p><name key="gouverneur_egypte">Le Gouverneur d’Egypte</name> avec toute la jeunesse du Pays</p>
       <pb n="21" xml:id="p21"/>
       <label type="head">2<hi rend="sup">e</hi> Airs Ensuittes</label>
       <pb n="22" xml:id="p22"/>
-      <p>Ritournelle pour le Dialogue de <name>Marc-antoine</name> et de <name>Cleopatre</name></p>
+      <p>Ritournelle pour le Dialogue de <name key="marc_antoine">Marc-antoine</name> et de <name key="cleopatre">Cleopatre</name></p>
       <pb n="23" xml:id="p23"/>
       <l>Doutez-vous de mon feu, pour pour qui je soûpire.</l>
       <l>Ah ! qu’il vous couste cher de me l’avoir prouvé ? J’en ay perdu</l>
@@ -388,17 +392,17 @@
       <pb n="29" xml:id="p29"/>
       <p>3<hi rend="sup">e</hi> Entrée</p>
       <pb n="30" xml:id="p30"/>
-      <p>4<hi rend="sup">e</hi> Entrée. <name>Proserpine</name> et <name>ses compagnes</name></p>
+      <p>4<hi rend="sup">e</hi> Entrée. <name key="proserpine">Proserpine</name> et <name key="proserpine">ses compagnes</name></p>
       <pb n="31" xml:id="p31"/>
       <p>2<hi rend="sup">e</hi> Air sarabande Pour les mesmes</p>
       <pb n="32" xml:id="p32"/>
       <p>3<hi rend="sup">e</hi> Air Bourée pour les mesmes</p>
       <pb n="33" xml:id="p33"/>
-      <p>5<hi rend="sup">e</hi> Entrée. <name>Des Amours</name> Deguisez en Jardiniers de Ceres</p>
+      <p>5<hi rend="sup">e</hi> Entrée. <name key="amours_deguise">Des Amours</name> Deguisez en Jardiniers de Ceres</p>
       <pb n="34" xml:id="p34"/>
-      <p>6<hi rend="sup">e</hi> Entrée. <name>Pluton</name> enlevants <name>proserpinne</name></p>
+      <p>6<hi rend="sup">e</hi> Entrée. <name key="pluton">Pluton</name> enlevants <name key="proserpine">proserpinne</name></p>
       <pb n="35" xml:id="p35"/>
-      <p>2<hi rend="sup">e</hi> Airs pour <name>les Demons</name></p>
+      <p>2<hi rend="sup">e</hi> Airs pour <name key="demon">les Demons</name></p>
       <pb n="36" xml:id="p36"/>
       <p>Concert de berger</p>
       <pb n="37" xml:id="p37"/>
@@ -407,21 +411,21 @@
       <l>Guerriers, il ne faut pas faire un mauvais usage</l>
       <l>Des plus beaux jours de vostre âge Vous en rendrez quelque</l>
       <l>jours conte a l’amour vous en rendrez quelque jour conte a L’amour</l>
-      <l>Concert de Berger</l>
+      <l>Concert de <name key="berger">Berger</name></l>
       <pb n="38" xml:id="p38"/>
       <l>Passez dans les plaisirs la fleur de vos années</l>
       <l>Et vos plus belles journées vous en rendrez </l>
       <l>quelques jour conte a l’amour vous en rendrez quelque </l>
       <l>jour conte a l’amour</l>
       <pb n="39" xml:id="p39"/>
-      <p>7<hi rend="sup">e</hi> Entrée. <name>Renaud</name> et<name> 2 Chevaliers</name> sa
+      <p>7<hi rend="sup">e</hi> Entrée. <name key="renaud">Renaud</name> et <name key="chevalier">2 Chevaliers</name> sa
         suitte</p>
       <pb n="40" xml:id="p40"/>
       <p>2<hi rend="sup">e</hi> Air pour la Gloire et la renomez</p>
       <pb n="41" xml:id="p41"/>
-      <p>8<hi rend="sup">e</hi> Entrée. <name>Flore</name> et <name>ses Nimphes</name></p>
+      <p>8<hi rend="sup">e</hi> Entrée. <name key="flore">Flore</name> et <name key="flore">ses Nimphes</name></p>
       <pb n="42" xml:id="p42"/>
-      <p>2 Air Menuet pour <name>les Nimphes</name></p>
+      <p>2 Air Menuet pour <name key="nymphe">les Nimphes</name></p>
       <pb n="43" xml:id="p43"/>
       <label type="head">Recit Italien Chanté Par la <persName key="anna_bergerotti" role="chanteur"
           >Seignora Anna</persName></label>
@@ -478,40 +482,40 @@
         <l>Ritournelle</l>
       </lg>
       <pb n="53" xml:id="p53"/>
-      <p>9<hi rend="sup">e</hi> Entrée. <name>Une troupe de petit Amours</name></p>
+      <p>9<hi rend="sup">e</hi> Entrée. <name key="amour">Une troupe de petit Amours</name></p>
       <pb n="54" xml:id="p54"/>
-      <label type="head">2<hi rend="sup">e</hi> Air. <lb/>Concert de flustes pour <name>les
+      <label type="head">2<hi rend="sup">e</hi> Air. <lb/>Concert de flustes pour <name key="amour">les
           Amours</name>.</label>
       <pb n="55" xml:id="p55"/>
       <label type="head">3<hi rend="sup">e</hi> Air. <lb/>Sarabande pour les mesme.</label>
       <pb n="56" xml:id="p56"/>
-      <label type="head">10<hi rend="sup">e</hi> Entrée. <lb/><name>Des sauvages de la
+      <label type="head">10<hi rend="sup">e</hi> Entrée. <lb/><name key="sauvage">Des sauvages de la
           Colchide</name></label>
       <pb n="57" xml:id="p57"/>
       <label type="head">2<hi rend="sup">e</hi> Air pour les mesmes</label>
       <pb n="58" xml:id="p58"/>
-      <label type="head">11<hi rend="sup">e</hi> Entrée. <name>5 Dieux Marins</name> &amp; <name>5
+      <label type="head">11<hi rend="sup">e</hi> Entrée. <name key="dieu_marin">5 Dieux Marins</name> &amp; <name key="nymphe">5
           Nymphes Maritimes</name></label>
       <pb n="59" xml:id="p59"/>
       <label type="head">2<hi rend="sup">e</hi> Air pour les mesmes.</label>
       <pb n="60" xml:id="p60"/>
-      <label type="head">3<hi rend="sup">e</hi> Air les <name>Dieux Marins</name></label>
+      <label type="head">3<hi rend="sup">e</hi> Air les <name key="dieu_marin">Dieux Marins</name></label>
       <pb n="61" xml:id="p61"/>
-      <label type="head">4<hi rend="sup">e</hi> Air Bourée pour <name>les Dieux</name> et
-          <name>Nimphes Maritimes</name></label>
+      <label type="head">4<hi rend="sup">e</hi> Air Bourée pour <name key="dieu_marin">les Dieux</name> et
+          <name key="nymphe">Nimphes Maritimes</name></label>
       <pb n="62" xml:id="p62"/>
-      <label type="head">12<hi rend="sup">e</hi> Entrée. <name>Les Grecs</name> allants au
+      <label type="head">12<hi rend="sup">e</hi> Entrée. <name key="grec">Les Grecs</name> allants au
         Combat</label>
       <pb n="63" xml:id="p63"/>
-      <label type="head">Combat des <name>Grecs</name> &amp; <name>Troyens</name></label>
+      <label type="head">Combat des <name key="grec">Grecs</name> &amp; <name key="troyen">Troyens</name></label>
       <pb n="64" xml:id="p64"/>
-      <label type="head">3<hi rend="sup">e</hi> Air <name>les Grecs</name> Vainqueurs des
-          <name>Troyens</name></label>
+      <label type="head">3<hi rend="sup">e</hi> Air <name key="grec">les Grecs</name> Vainqueurs des
+          <name key="troyen">Troyens</name></label>
       <pb n="65" xml:id="p65"/>
-      <label type="head">4<hi rend="sup">e</hi> Air pour <name>les Grecs</name> &amp;
-          <name>Troyens</name></label>
+      <label type="head">4<hi rend="sup">e</hi> Air pour <name key="grec">les Grecs</name> &amp;
+          <name key="troyen">Troyens</name></label>
       <pb n="66" xml:id="p66"/>
-      <label type="head">Ritournelle pour les Récit de <name>Junon</name></label>
+      <label type="head">Ritournelle pour les Récit de <name key="junon">Junon</name></label>
     </body>
   </text>
 </TEI>
