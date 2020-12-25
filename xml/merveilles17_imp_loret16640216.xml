@@ -16,6 +16,10 @@
           <name>Mathilde Nicolas</name>
           <resp>Transcription et balisage</resp>
         </respStmt>
+        <respStmt>
+          <name>Marion Ignace</name>
+          <resp>Balisage</resp>
+        </respStmt>
       </editionStmt>
       <publicationStmt>
         <publisher>Université d’Artois - Lille, MESHS</publisher>
@@ -87,7 +91,7 @@
       <l>S’intitule Amours Déguizez.</l>
       <l>Aprés la premiére Musique</l>
       <l>Qui fut tout-à-fait harmonique,</l>
-      <l><name>Mercure</name>, <name>Pallas</name> et <name>Venus</name>,</l>
+      <l><name key="mercure">Mercure</name>, <name key="pallas">Pallas</name> et <name key="venus">Venus</name>,</l>
       <l>Sur le <placeName key="paris_palais-royal_theatre">Téatre</placeName> intervenus,</l>
       <l>Firent, entr’eux, un Dialogue,</l>
       <l>Qui du sujet est le Prologue,</l>
@@ -95,16 +99,16 @@
       <l>En Vers par elles récitez,</l>
       <l>Prétendent donner la victoire,</l>
       <l>L’une à l’Amour, l’autre à la Gloire :</l>
-      <l><name>Pallas</name>, avec son sage Esprit,</l>
+      <l><name key="pallas">Pallas</name>, avec son sage Esprit,</l>
       <l>Le party de la Gloire prit,</l>
       <l>(Seul but des Lettres et des Armes ;)</l>
-      <l>Et <name>Venus</name> avec ses doux charmes</l>
+      <l>Et <name key="venus">Venus</name> avec ses doux charmes</l>
       <l>À qui tant de cœurs font la cour,</l>
       <l>Ne parla qu’en faveur d’Amour,</l>
       <l>Chacune dans leurs contreverses,</l>
       <l>Alèguant des raizons diverses :</l>
       <l>Enfin, ne pouvant s’acorder,</l>
-      <l><name>Mercure</name>, sans rien décider,</l>
+      <l><name key="mercure">Mercure</name>, sans rien décider,</l>
       <l>Leur fait accepter pour Arbitre</l>
       <l><persName key="louisxiv" role="participant">Louis</persName>, qui mérite le titre</l>
       <l>Du <persName key="louisxiv">Roy</persName> qui le plus judicieux</l>
