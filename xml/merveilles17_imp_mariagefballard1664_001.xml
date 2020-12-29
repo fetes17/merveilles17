@@ -3,17 +3,18 @@
 <?xml-stylesheet type="text/css" href="../style/tei-author.css" alternate="author"?>
 <?xml-model href="../merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <!--Odette: 2020-12-18T13:19:45+01:00-->
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Le mariage forcé, ballet du Roy, dansé par S. M. le 29 jour de janvier 1664</title>
-        <author>POQUELIN Jean-Baptiste, dit Molière (1622-1673)</author>
+        <author key="moliere">POQUELIN Jean-Baptiste, dit Molière (1622-1673)</author>
       </titleStmt>
       <editionStmt>
-        <edition>Rougemont 2.0</edition>
+        <edition>Merveilles17</edition>
         <respStmt>
-          <name>Mathilde Nicolas. </name>
+          <name>Mathilde Nicolas</name>
+          <resp>Transcription et stylage</resp>
         </respStmt>
         <respStmt>
           <name>Marion Ignace</name>
@@ -22,12 +23,14 @@
       </editionStmt>
       <publicationStmt>
         <publisher>Université de Genève</publisher>
+        <date when="2020">2020</date>
         <availability status="restricted">
           <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl>Poquelin Jean-Baptiste, dit Molière,<emph> Le mariage forcé, ballet du Roy, dansé par S. M. le 29 jour de janvier 1664</emph>, Paris, Robert Ballard, 1664. </bibl>
+        <bibl>Poquelin Jean-Baptiste, dit Molière,<emph> Le mariage forcé, ballet du Roy, dansé par S. M. le 29 jour de janvier 1664</emph>, Paris, Robert Ballard, 1664.
+        <ptr target="https://gallica.bnf.fr/ark:/12148/bpt6k724558"/></bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
