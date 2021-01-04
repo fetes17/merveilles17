@@ -743,30 +743,19 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
     Build::rmdir(self::$home."site/lieu/");
     Build::mkdir(self::$home."site/lieu/");
     $template = str_replace("%relpath%", "../", self::$template);
-    $index = '
-<div class="container">
-  <table class="sortable">
-    <thead>
-      <tr>
-        <th class="label">Lieu</th>
-        <th class="docs" title="Nombre de documents">documents</th>
-        <th class="occs" title="Nombre d’occurrences">occurrences</th>
-      </tr>
-    </thead>    
-    <tbody>
-';
+    
+    // comment passer les stats $row['docs'], $row['occs'] ?
+    $index = "";
+    $index .= '<div class="container">'."\n";
+    $index .= '<h1>Lieux</h1>'."\n";
+    $index .= Build::transform(self::$home."index/lieu.xml", self::$home."build/xsl/lieu.xsl");
+    $index .= '<p> </p>'."\n";
+    $index .= '</div>'."\n";
     // boucler sur tous les termes
     $stmt = self::$pdo->prepare("SELECT * FROM lieu ORDER BY docs DESC, code ");
     $stmt->execute();
     
     while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
-      $index .= '
-      <tr>
-        <td class="label"><a href="'.$row['code'].self::$_html.'">'.$row['label'].'</a></td>
-        <td class="docs">'.$row['docs'].'</td>
-        <td class="occs">'.$row['occs'].'</td>
-      </tr>
-';
       $page  = '<div class="container">'."\n";
       $page .= '  <div class="row align-items-start">'."\n";
       $page .= '    <div class="col-9">'."\n";
@@ -792,11 +781,6 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
     }
     $stmt = null;
     
-    $index .= '
-    </tbody>
-  </table>
-</div>
-    ';
     file_put_contents(self::$home."site/lieu/index.html", str_replace("%main%", $index, $template));
     
 

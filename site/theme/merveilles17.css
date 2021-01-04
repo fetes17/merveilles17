@@ -144,6 +144,10 @@ ul {
   margin: 0;
 }
 
+ul ul {
+  margin-left: 1rem;
+}
+
 ul li::before {
   content: "\2022";
   font-family: sans-serif;
