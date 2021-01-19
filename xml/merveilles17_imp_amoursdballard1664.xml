@@ -90,24 +90,24 @@
             key="floridor" role="danseur">Sieur Floridor</persName>.</p>
         <p><name key="pallas" corresp="mlle_des_oeillets">Pallas</name>, par <persName
             key="mlle_des_oeillets" role="danseur">Madlle. des Oeillets</persName>.</p>
-        <p><name key="venus">Venus</name>, par <persName>Madlle. de Montfleury</persName>.</p>
+        <p><name key="venus">Venus</name>, par <persName key="mlle_d_ennebault">Madlle. de Montfleury</persName>.</p>
         <p>Concertans des Arts &amp; des Vertus,</p>
         <p>qui suiuent <name key="pallas">Pallas</name>.</p>
         <p>Les Sieurs <persName key="descouteaux" role="musicien">Descousteaux</persName>, <persName
             key="alais" role="musicien">Alais</persName>, <persName key="charlot" role="musicien"
-            >Charlot</persName>, <persName>la Pierre</persName>,</p>
-        <p><persName>le Peintre</persName>, <persName>Huguenet</persName>, <persName>le Roux
-            l’aisné</persName>, <persName>Besson</persName>,</p>
-        <p><persName>Martin Opterre</persName>, <persName>Roullé</persName>, <persName>la
-            Riuiere</persName>, <persName>Heugé</persName>, <persName>Iean Opterre</persName>, &amp;
-            <persName>Magny</persName>.</p>
+            >Charlot</persName>, <persName key="la_pierre" role="danseur">la Pierre</persName>,</p>
+        <p><persName key="le_peintre" role="musicien">le Peintre</persName>, <persName key="huguenet" role="musicien">Huguenet</persName>, <persName key="le_roux_aine" role="musicien">le Roux
+            l’aisné</persName>, <persName key="besson" role="musicien">Besson</persName>,</p>
+        <p><persName key="martin_hottere" role="musicien">Martin Opterre</persName>, <persName key="roulle" role="musicien">Roullé</persName>, <persName key="la_riviere" role="musicien">la
+            Riuiere</persName>, <persName key="heuge" role="musicien">Heugé</persName>, <persName key="jean_hottere" role="musicien">Iean Opterre</persName>, &amp;
+            <persName key="magny" role="danseur">Magny</persName>.</p>
         <p>Concertans des Graces &amp; des Plaisirs, qui</p>
         <p>accompagnent <name key="venus">Venus</name>.</p>
-        <p>Les Sieurs <persName>Piesche</persName>, <persName>Marchand</persName>,
-            <persName>Laquaisse</persName>, <persName>Guerin</persName>,</p>
-        <p><persName>Destouches</persName>, <persName>Nicolas Opterre</persName>, <persName>la
+        <p>Les Sieurs <persName key="piesche" role="musicien">Piesche</persName>, <persName key="marchand" role="musicien">Marchand</persName>,
+            <persName key="la_caisse" role="musicien">Laquaisse</persName>, <persName key="guerin" role="musicien">Guerin</persName>,</p>
+        <p><persName key="destouches" role="musicien">Destouches</persName>, <persName key="nicolas_hottere" role="musicien">Nicolas Opterre</persName>, <persName key="la_fontaine" role="musicien">la
             Fontaine</persName>,</p>
-        <p>&amp; <persName>Brouard</persName>.</p>
+        <p>&amp; <persName key="brouard" role="musicien">Brouard</persName>.</p>
         <label type="head">DIALOGVE</label>
         <label type="head"><name key="pallas">PALLAS</name>, <name key="venus">VENVS</name>,</label>
         <label type="head"><name key="mercure">MERCVRE</name>.</label>
@@ -429,11 +429,11 @@
         <label type="head">
           <tech type="costume">Amours déguisez en Forgerons.</tech>
         </label>
-        <p>Monsieur <persName>Cabou</persName>, Messieurs <persName>Molliere</persName>, &amp;
-            <persName>Laleu</persName>,</p>
-        <p>Les Sieurs <persName>Doliuet</persName>, <persName>le Chantre</persName>,
-            <persName>Des-brosses</persName>,</p>
-        <p><persName>Desonets</persName>, &amp; <persName>de Gan</persName>.</p>
+        <p>Monsieur <persName key="cabou" role="danseur">Cabou</persName>, Messieurs <persName key="moliere" role="danseur">Molliere</persName>, &amp;
+            <persName key="Laleu" role="danseur">Laleu</persName>,</p>
+        <p>Les Sieurs <persName key="dolivet" role="danseur">Doliuet</persName>, <persName key="le_chantre" role="danseur">le Chantre</persName>,
+            <persName key="desbrosses" role="danseur">Des-brosses</persName>,</p>
+        <p><persName key="desonnets" role="danseur">Desonets</persName>, &amp; <persName key="de_gan" role="danseur">de Gan</persName>.</p>
         <byline>Pour des <name key="amour_deguise">Amours déguisez en Forgerons</name>.</byline>
         <l> Auoir le coeur de glace est vn tres-grand defaut,</l>
         <l>Mais pour peu qu’il s’échauffe on le réduit en cendres,</l>
@@ -452,7 +452,7 @@
           vaisseau, <name key="gouverneur_egypte">le Gouuerneur d’Egypte</name>, auec toute la
           jeunesse du Pays, attirée sur le port par l’arriuée de <name key="cleopatre">leur
             Reyne</name>, dansent la deuxiesme Entrée.</p>
-        <p><name key="gouverneur_egypte">Le Gouuerneur d’Egypte</name>. <persName>Le Duc de
+        <p><name key="gouverneur_egypte" corresp="saint_aignan">Le Gouuerneur d’Egypte</name>. <persName key="saint_aignan" role="acteur">Le Duc de
             Saint-Aignan</persName>.</p>
         <p><name key="gouvernante">La Gouuernante</name>, <persName>Mademoiselle de
             Verpré</persName>.</p>
@@ -1140,7 +1140,7 @@
             <p><persName>de la Marre</persName>, <name key="paysan">Paysan</name>, les Sieurs
                 <persName>le Chantre</persName>,</p>
             <p><persName>Des-Airs. 3me</persName> &amp; <persName>du Feu.</persName></p>
-            <byline>Pour <persName>le Duc de Guise</persName>. <name key="agamemnon"
+            <byline>Pour <persName key="charles_iii_lorraine_guise" role="acteur">le Duc de Guise</persName>. <name key="agamemnon" corresp="henri_iii_lorraine_guise"
                 >Agamemnon</name>.</byline>
             <l> Dix ans n’estoient pas trop pour le siege de Troye,</l>
             <l>Dans vne passion s’ouffrez [sic] des maux cuisans,</l>
@@ -1157,7 +1157,7 @@
             <label type="head">RECIT DE <name key="junon">IVNON</name></label>
             <label type="head">Qui haït les Troyens, &amp; qui est bien</label>
             <label type="head">aise de leur ruïne.</label>
-            <label type="head">Chanté par <persName>Mademoiselle de Cercamanan</persName>.</label>
+            <label type="head">Chanté par <persName key="cercamanan" role="chanteur">Mademoiselle de Cercamanan</persName>.</label>
             <l> A qui sçait bien aymer l’Amour a ses plaisirs,</l>
             <l>A qui sçait bien haïr la Haine a ses delices,</l>
             <l> Celle-cy remplit mes desirs,</l>
@@ -1180,13 +1180,13 @@
               &amp; <name key="goujat">quatre Goujats</name>, sortis des maisons voisines de la
               place, se querellent, sur le partage de leur butin, &amp; forment vn combat
               ridicule.</p>
-            <p><name key="goujat">Goujats</name>. <persName>Monsieur Lully</persName>, les Sieurs
-                <persName>Paysan</persName>,</p>
-            <p><persName>Balthasar</persName>, &amp; <persName>Brouard</persName>.</p>
-            <p><name key="soldat">Soldats</name>. Les Sieurs <persName>Noblet</persName>,
-                <persName>la Pierre</persName>,</p>
-            <p>S. André, &amp; <persName>Des-brosses</persName>.</p>
-            <byline>Pour <persName>Monsieur de Lully</persName>. <name key="goujat"
+            <p><name key="goujat">Goujats</name>. <persName key="lully" role="danseur">Monsieur Lully</persName>, les Sieurs
+                <persName key="paysan" role="danseur">Paysan</persName>,</p>
+            <p><persName key="balthazar" role="musicien">Balthasar</persName>, &amp; <persName key="brouard" role="danseur">Brouard</persName>.</p>
+            <p><name key="soldat">Soldats</name>. Les Sieurs <persName key="noblet" role="danseur">Noblet</persName>,
+                <persName role="danseur">la Pierre</persName>,</p>
+            <p><persName key="saint_andre" role="danseur">S. André</persName>, &amp; <persName key="desbrosses" role="danseur">Des-brosses</persName>.</p>
+            <byline>Pour <persName key="lully" role="danseur">Monsieur de Lully</persName>. <name key="goujat"
               >Goujat</name>.</byline>
             <l> Ce Goujat signalé</l>
             <l> De quelque talent se pique,</l>
