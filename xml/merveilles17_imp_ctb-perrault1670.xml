@@ -43,16 +43,47 @@
     </profileDesc>
   </teiHeader>
   <text>
+    <front>
+      <pb n="np" xml:id="np1" facs="https://gallica.bnf.fr/ark:/12148/btv1b53196269m/f7"/>
+      <titlePage>
+        <docTitle>
+          <titlePart>COVRSES DE TESTES ET DE BAGVE, FAITES PAR <persName key="louisxiv">LE
+              ROY</persName>, ET PAR LES PRINCES ET SEIGEVRS DE SA COVR, <date when="1662">EN
+              L’ANNÉE M. DC. LXII</date>.</titlePart>
+        </docTitle>
+      </titlePage>
+    </front>
     <body>
       <div>
-        <head>COVRSES DE TESTES ET DE BAGVE, FAITES PAR <persName key="louisxiv">LE ROY</persName>,
-          ET PAR LES PRINCES ET SEIGEVRS DE SA COVR, EN L’ANNÉE M. DC. LXII.</head>
-        <pb n="np"/>
-        <figure/>
-        <pb n="np"/>
-        <figure/>
+        <pb n="np" xml:id="np2"/>
+        <figure>
+          <graphic
+            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b53196269m/f9/full/full/0/native.jpg"/>
+          <figDesc/>
+          <label type="head">Courses de Testes et de Bague Par <persName key="louisxiv"
+              role="acteur">Le Roy</persName> et par les Princes et Seigneurs de sa Cour En l'Année
+              <date when="1662">1662</date>.</label>
+          <signed><persName key="gilles_rousselet" role="auteur">AEgid. Rousselet</persName>
+            sculp.</signed>
+          <p>A Paris.</p>
+          <p>De l'Imprimerie Royale <date when="1670">1670</date>.</p>
+        </figure>
+        <pb n="np" xml:id="np3" facs="https://gallica.bnf.fr/ark:/12148/btv1b53196269m/f11"/>
+        <figure>
+          <graphic
+            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b53196269m/f11/857,814,3072,1198/full/0/default.jpg"/>
+          <figDesc/>
+          <signed><persName key="chauveau" role="auteur">F. Chauveau</persName> in. et
+            fecit</signed>
+        </figure>
         <p>A <persName key="louis_grand_dauphin" role="destinataire">MONSEIGNEVR LE
             DAVPHIN</persName>.</p>
+        <figure>
+          <graphic
+            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b53196269m/f11/901,2970,824,846/full/0/default.jpg"/>
+          <figDesc/>
+          <signed><persName key="chauveau" role="auteur">F. C.</persName> fe.</signed>
+        </figure>
         <salute>MONSEIGEVR,</salute>
         <p>Puisqu’il est constant que de tous les modeles qui Vous seront proposez pour vôtre
           Education, <persName key="louisxiv">le Roy</persName> est celuy qui Vous sera toûjours le
@@ -211,14 +242,14 @@
         <p>Il ne restoit plus qu’à trouver un lieu qui fût digne de ce Spectacle, &amp; où l’on pût
           dresser un <tech type="construction">Amphitéatre</tech> capable de contenir le grand
           nombre d’hommes &amp; de <tech type="animal">chevaux</tech> qui le composoient. <placeName
-            key="paris_place-vosges">La Place Royale</placeName>, qui sembloit estre en
-          possession de servir à ces sortes de <pb n="3" xml:id="p3"/> magnificences fut trouvée
-          trop petite, &amp; trop reserrée, bien que sous <persName key="louisxiii">LOVIS
-            XIII</persName>. on y ait representé un des plus beaux Carrousels qui se soient jamais
-          veûs, l’on choisit donc <placeName key="paris_place_tuileries">la grande
-          Place</placeName>, qui est au devant du <placeName key="paris_tuileries_chateau">Palais
-            des Thuilleries</placeName>, &amp; qui a peu de pareilles, soit pour son étenduë, soit
-          pour la beauté des bâtimens qui l’environnent.</p>
+            key="paris_place-vosges">La Place Royale</placeName>, qui sembloit estre en possession
+          de servir à ces sortes de <pb n="3" xml:id="p3"/> magnificences fut trouvée trop petite,
+          &amp; trop reserrée, bien que sous <persName key="louisxiii">LOVIS XIII</persName>. on y
+          ait representé un des plus beaux Carrousels qui se soient jamais veûs, l’on choisit donc
+            <placeName key="paris_place_tuileries">la grande Place</placeName>, qui est au devant du
+            <placeName key="paris_tuileries_chateau">Palais des Thuilleries</placeName>, &amp; qui a
+          peu de pareilles, soit pour son étenduë, soit pour la beauté des bâtimens qui
+          l’environnent.</p>
         <p>Au milieu de ce grand espace, on dressa en peu de jours <tech type="construction">un Camp
             de quarante cinq toises en quarré, fermé de doubles barrieres, distantes l’une de
             l’autre, de quinze toises, pour le passages des Quadrilles ; à douze pieds loin de la
@@ -270,11 +301,11 @@
           depuis <placeName key="paris_place_tuileries">la Grande Place</placeName>, qui est
           derriere <placeName key="paris_hotel-vendome">l’Hostel de Vandôme</placeName>, tout le
           long des <placeName key="paris_rue-richelieu">ruës de Richelieu</placeName>, <placeName
-            key="paris_rue-saint-honore">S. Honoré</placeName> &amp; <placeName key="paris_rue-saint-nicaise">S.
-            Nicaise</placeName>, jusqu’à l’entrée de <tech type="construction"
-          >l’Amphitheatre</tech>, tant pour empêcher le desordre &amp; la confusion que pouvoir
-          causer l’affluence du peuple, que pour augmenter par le nombre de cette milice, la
-          Magnificene du Spectacle.</p>
+            key="paris_rue-saint-honore">S. Honoré</placeName> &amp; <placeName
+            key="paris_rue-saint-nicaise">S. Nicaise</placeName>, jusqu’à l’entrée de <tech
+            type="construction">l’Amphitheatre</tech>, tant pour empêcher le desordre &amp; la
+          confusion que pouvoir causer l’affluence du peuple, que pour augmenter par le nombre de
+          cette milice, la Magnificene du Spectacle.</p>
         <p><persName key="louisxiv" role="participant">Le Roy</persName> s’étant rendu avec toute sa
           Quadrille &amp; son équipage dans <placeName key="paris_hotel-vendome">l’Hostel de
             Vandôme</placeName>, où il s’habilla, les autres Chefs avec leurs Quadrilles, arriverent
@@ -286,8 +317,9 @@
           sur <tech type="construction">leur échaffaut</tech> accompagnées de <persName
             key="henriette_marie_de_france" role="spectateur">la Reyne d’Angleterre</persName>, de
             <persName key="henriette_anne_angleterre" role="spectateur">Madame</persName>, de
-            <persName key="anne_marie_louise_henriette_orleans" role="spectateur">Mademoiselle</persName>, &amp; de
-          toutes les Princesses &amp; Dames de la Cour. <tech type="construction">Le Dais</tech>
+            <persName key="anne_marie_louise_henriette_orleans" role="spectateur"
+            >Mademoiselle</persName>, &amp; de toutes les Princesses &amp; Dames de la Cour. <tech
+            type="construction">Le Dais</tech>
           <seg ana="description">étoit de velour violet, enrichy de grandes Fleurs de Lys d’or,
             comme aussi le tapis &amp; les carreaux, qui étoient sous leurs pieds, &amp; qui
             couvroient l’appuy de la balustrade</seg>.</p>
@@ -448,18 +480,18 @@
               role="participant">le Duc de Navailles</persName>, &amp; <persName
               key="henri_de_lorraine" role="participant">les Comtes d’Armagnac</persName>, <persName
               key="henri_de_daillon" role="participant">du Lude</persName>, <persName
-              key="antoine_iv_de_gramont" role="participant">de Louvigny</persName>, &amp;
-              <persName key="francois_iii_d_aubusson_feuillade" role="participant">de la
-              Feüillade</persName>, <tech type="costume">tous vétus à la Romaine</tech>, de même de
-              <persName key="louisxiv">sa Majesté</persName> ; <persName
-              key="louis_marie_aumont_rochebaron">les Marquis de Villequier</persName>, <persName
-              key="richelieu">de Richelieu</persName> &amp; <persName key="duras">le Comte de
-              Duras</persName> qui devoient achever le nombre de dix n’y peûrent pas étre, étans
-            tombez malades dans ce temps-là, &amp; furent suppléez dans les Courses par <persName
-              key="louisxiv" role="participant">sa Majesté</persName>, <persName
-              key="henri_de_lorraine" role="participant">les Comtes d’Armagnac</persName>, &amp;
-              <persName key="saint_aignan" role="participant">de S. Aygnan</persName></seg>. Cette
-          Quadrille étoit fermée par <persName key="louviers" role="participant">le sieur de
+              key="antoine_iv_de_gramont" role="participant">de Louvigny</persName>, &amp; <persName
+              key="francois_iii_d_aubusson_feuillade" role="participant">de la Feüillade</persName>,
+              <tech type="costume">tous vétus à la Romaine</tech>, de même de <persName
+              key="louisxiv">sa Majesté</persName> ; <persName key="louis_marie_aumont_rochebaron"
+              >les Marquis de Villequier</persName>, <persName key="richelieu">de
+              Richelieu</persName> &amp; <persName key="duras">le Comte de Duras</persName> qui
+            devoient achever le nombre de dix n’y peûrent pas étre, étans tombez malades dans ce
+            temps-là, &amp; furent suppléez dans les Courses par <persName key="louisxiv"
+              role="participant">sa Majesté</persName>, <persName key="henri_de_lorraine"
+              role="participant">les Comtes d’Armagnac</persName>, &amp; <persName
+              key="saint_aignan" role="participant">de S. Aygnan</persName></seg>. Cette Quadrille
+          étoit fermée par <persName key="louviers" role="participant">le sieur de
             Louviers</persName> Escuyer ordinaire du <persName key="louisxiv">Roy</persName>,
           portant l’Epée de <persName key="louisxiv">sa Majesté</persName> ; il étoit suivy de
           uarante Estafiers, &amp; de vingt Pages des Chevaliers de la Quadrille, portans leurs
@@ -503,8 +535,8 @@
             &amp; qui avoient chacun quatre Estafiers équipez comme les précedens, &amp; vingt Pages
             portant leurs Lances &amp; leurs Ecus.</seg></p>
         <p>Pendant que cette Quadrille continuoit sa marche, la troisiéme parut, qui étoit celle de
-            <persName key="louis_ii_bourbon_conde" role="participant">Monsieur le
-            Prince</persName>, representant les Turcs.</p>
+            <persName key="louis_ii_bourbon_conde" role="participant">Monsieur le Prince</persName>,
+          representant les Turcs.</p>
         <p>Vn timballier, deux Trompettes, &amp; <tech type="animal">vingt chevaux de main des
             Chevaliers</tech> précedoient un Escuyer, puis venoient douze Pages, un autre Escuyer,
             <tech type="animal">vingt-quatre chevaux du Chef de la Quadrille</tech>, menez comme les
@@ -642,8 +674,8 @@
         <figure/>
         <pb n="17" xml:id="p17"/>
         <figure/>
-        <p>LE <persName key="antoine_iii_de_gramont">MARESCHAL DE GRAMONT</persName>
-          MARESCHAL DE CAMP GENERAL.</p>
+        <p>LE <persName key="antoine_iii_de_gramont">MARESCHAL DE GRAMONT</persName> MARESCHAL DE
+          CAMP GENERAL.</p>
         <p ana="description">Il étoit vétu à la Romaine, <tech type="costume">d’un habit en broderie
             d’or &amp; d’argent sur un fonds de satin de couleur de feu, les brodequins de même ; le
             tout garny d’une quantité innombrable de Rubis ; son Casque étoit enrichy de pierreries,
@@ -2251,11 +2283,11 @@
           divertissement à tous ceux que le lieu destiné pour la Course ne pouvoit contenir ; en
           quoy il préfera la satisfaction des spectateurs à la regularité, &amp; à la beauté de
           cette Marche, parce qu’encore qu’elle eût l’avantage de passer par des places &amp; par
-          des ruës tres-spacieuses &amp; tres-belles, comme <placeName key="paris_place-vosges"
-            >la Place Royale</placeName>, <placeName key="paris_rue-saint-antoine">la ruë Saint
-            Antoine</placeName>, <placeName key="paris_rue-saint-honore">la ruë Saint Honoré</placeName>,
-          &amp; quelques autres, il se rencontroit plusieurs ruës étroites où le spectacle perdoit
-          beaucoup de son lustre &amp; de sa magnificence.</p>
+          des ruës tres-spacieuses &amp; tres-belles, comme <placeName key="paris_place-vosges">la
+            Place Royale</placeName>, <placeName key="paris_rue-saint-antoine">la ruë Saint
+            Antoine</placeName>, <placeName key="paris_rue-saint-honore">la ruë Saint
+            Honoré</placeName>, &amp; quelques autres, il se rencontroit plusieurs ruës étroites où
+          le spectacle perdoit beaucoup de son lustre &amp; de sa magnificence.</p>
         <p><persName key="louisxiv">Sa Majesté</persName> étant arrivée au Camp, &amp; <persName
             key="marie_therese" role="spectateur"><persName key="anne_d_autriche" role="spectateur"
               >les Reynes</persName></persName> ayans pris leurs places sur <tech
