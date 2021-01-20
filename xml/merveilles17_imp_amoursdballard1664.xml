@@ -454,15 +454,15 @@
             Reyne</name>, dansent la deuxiesme Entrée.</p>
         <p><name key="gouverneur_egypte" corresp="saint_aignan">Le Gouuerneur d’Egypte</name>. <persName key="saint_aignan" role="acteur">Le Duc de
             Saint-Aignan</persName>.</p>
-        <p><name key="gouvernante">La Gouuernante</name>, <persName>Mademoiselle de
+        <p><name key="gouvernante" corresp="mlle_de_verpre">La Gouuernante</name>, <persName key="mlle_de_verpre" role="danseur">Mademoiselle de
             Verpré</persName>.</p>
-        <p><name key="homme">Hommes</name>. Messieurs <persName>Verpré</persName>,
-            <persName>Bruneau</persName>, <persName>Raynal</persName>,
-          <persName>Des-Airs</persName>.</p>
-        <p><name key="femme">Femmes</name>. Monsieur de <persName>Souuille</persName>, les sieurs de
-            <persName>Lorges</persName>,</p>
-        <p><persName>Balthasar</persName>, &amp; <persName>Des-Airs le jeune</persName>.</p>
-        <byline>Pour le <persName>Duc de Saint Aignan</persName>, representant,</byline>
+        <p><name key="homme">Hommes</name>. Messieurs <persName key="verpre" role="danseur">Verpré</persName>,
+            <persName key="bruneau" role="danseur">Bruneau</persName>, <persName key="raynal" role="danseur">Raynal</persName>,
+          <persName key="des_airs_l_aine" role="danseur">Des-Airs</persName>.</p>
+        <p><name key="femme">Femmes</name>. Monsieur de <persName key="souville" role="danseur">Souuille</persName>, les sieurs de
+            <persName key="de_lorges" role="danseur">Lorges</persName>,</p>
+        <p><persName key="balthazar" role="danseur">Balthasar</persName>, &amp; <persName key="des_airs_le_second" role="danseur">Des-Airs le jeune</persName>.</p>
+        <byline>Pour le <persName key="saint_aignan" role="danseur">Duc de Saint Aignan</persName>, representant,</byline>
         <byline>le <name key="gouverneur_egypte">Gouuerneur d’Egypte</name>.</byline>
         <l> Par la bonté de deux differens Rois</l>
         <l>Dont l’vn peut tout en quoy qu’il entreprenne,</l>
@@ -473,16 +473,16 @@
         <l>Mais en reuanche, à ce que j’ay compris,</l>
         <l>Ses reuenus sont vn peu plus liquides,</l>
         <l>Et n’en déplaise au grand Roy Pharaon,</l>
-        <l>Viue <persName key="louisxiv">LOVYS quatorziesme</persName> du Nom</l>
+        <l>Viue <persName key="louisxiv" role="destinataire">LOVYS quatorziesme</persName> du Nom</l>
         <l>Qui pourroit bien vn jour à son Domaine</l>
         <l>Joindre l’Egypte ainsi que la Touraine.</l>
         <p><name key="marc_antoine">Marc-Antoine</name> &amp; <name key="cleopatre">Cleopatre</name>
           descendus les premiers, viennent faire vn recit en Dialogue accompagné <tech
             type="musique">d’vne harmonie composée</tech> de leurs esclaues.</p>
-        <p><name key="marc_antoine">Marc-Antoine</name>. <persName>Monsieur Blondel</persName>.</p>
-        <p><name key="cleopatre">Cleopatre</name>. <persName>Mademoiselle Hylaire</persName>.</p>
-        <p><name key="esclave">Esclaues</name>. <persName>Laquaisse</persName>,
-            <persName>Marchand</persName>, <persName>la Fontaine</persName>.</p>
+        <p><name key="marc_antoine" corresp="simon_blondel">Marc-Antoine</name>. <persName key="simon_blondel" role="chanteur">Monsieur Blondel</persName>.</p>
+        <p><name key="cleopatre" corresp="hilaire_dupuis">Cleopatre</name>. <persName key="hilaire_dupuis" role="chanteur">Mademoiselle Hylaire</persName>.</p>
+        <p><name key="esclave">Esclaues</name>. <persName key="la_caisse" role="danseur">Laquaisse</persName>,
+            <persName key="marchand" role="danseur">Marchand</persName>, <persName key="la_fontaine" role="danseur">la Fontaine</persName>.</p>
         <div>
           <head>DIALOGVE DE MARC-ANTOINE, ET DE CLEOPATRE.</head>
           <label type="speaker">
@@ -568,20 +568,20 @@
           <p>
             <name key="amour_deguise">Amours déguisez en Rameurs.</name>
           </p>
-          <p>Les Sieurs <persName>S. André</persName>, <persName>Le Chantre</persName>,
-              <persName>Des-brosses</persName>,</p>
-          <p>&amp; <persName>Magny</persName>.</p>
+          <p>Les Sieurs <persName key="saint_andre" role="danseur">S. André</persName>, <persName key="le_chantre" role="danseur">Le Chantre</persName>,
+              <persName key="desbrosses" role="danseur">Des-brosses</persName>,</p>
+          <p>&amp; <persName key="magny" role="danseur">Magny</persName>.</p>
           <byline>Pour des Amours déguisez en Rameurs.</byline>
           <l> C'est veritablement vne Mer dangereuse</l>
           <l> Que la Mer amoureuse,</l>
           <l>Mais quels sensibles biens les gens ont-ils receus</l>
           <l> Qui n’ont jamais esté dessus ?</l>
           <label type="head"><tech type="musique">Concert d’Instrumens</tech>.</label>
-          <label type="head">Les Sieurs <persName>le Grais</persName>, <persName>Le Roux le
-              Cadet</persName>, <persName>le Peintre</persName>,</label>
-          <label type="head"><persName>Besson</persName>, <persName>Magny</persName>,
-              <persName>Charlot</persName>, <persName>Allais</persName>, &amp;
-              <persName>Heugé</persName>.</label>
+          <label type="head">Les Sieurs <persName key="le_grais" role="musicien">le Grais</persName>, <persName key="le_roux_cadet" role="musicien">Le Roux le
+              Cadet</persName>, <persName key="le_peintre" role="musicien">le Peintre</persName>,</label>
+          <label type="head"><persName key="besson" role="musicien">Besson</persName>, <persName key="magny" role="musicien">Magny</persName>,
+              <persName key="charlot" role="musicien">Charlot</persName>, <persName key="allais" role="musicien">Allais</persName>, &amp;
+              <persName key="heuge" role="musicien">Heugé</persName>.</label>
         </div>
         <div>
           <head>IV. ENTREE.</head>
@@ -591,16 +591,16 @@
               key="pluton">Pluton</name>, ont pris le visage &amp; l’habit de ses compagnes, &amp;
             sous pretexte d’vne promenade, l’ont fait sortir de ce Chasteau, si soigneusement fermé
             par sa mere.</p>
-          <p><name key="proserpine">Proserpine</name>. <persName>LA REYNE</persName>.</p>
+          <p><name key="proserpine" corresp="marie_therese">Proserpine</name>. <persName key="marie_therese" role="danseur">LA REYNE</persName>.</p>
           <p><name key="proserpine">Ses Compagnes</name>. <persName>Madame la Comtesse</persName>,
-              <persName>Mademoiselle de</persName></p>
-          <p><persName>Nemours</persName>, <persName>la Duchesse de Sully</persName>, <persName>la
-              Duchesse de</persName></p>
-          <p><persName>Crequy</persName>, <persName>la Duchesse de Luynes</persName>,
-              <persName>Madame</persName></p>
-          <p><persName>de Foix</persName>, <persName>Mademoiselle de Montausier</persName>,</p>
-          <p>&amp; <persName>Mademoiselle d’Arquien</persName>.</p>
-          <byline>Pour la <persName>REYNE</persName>, representant <name key="proserpine"
+              <persName key="mlle_de_nemours" role="danseur">Mademoiselle de Nemours</persName>,</p>
+          <p><persName key="mme_de_sully" role="danseur">la Duchesse de Sully</persName>, <persName key="lansac_crequi" role="danseur">la
+              Duchesse de Crequy</persName>,</p>
+          <p><persName key="anne_rohan_montbazon" role="danseur">la Duchesse de Luynes</persName>,
+            <persName key="madeleine_charlotte_albert_ailly" role="danseur">Madame de Foix</persName>,</p>
+          <p><persName key="julie_montausier">Mademoiselle de Montausier</persName>,</p>
+          <p>&amp; <persName key="louise_marie_la_grange_arquien" role="danseur">Mademoiselle d’Arquien</persName>.</p>
+          <byline>Pour la <persName key="marie_therese" role="acteur">REYNE</persName>, representant <name key="proserpine" corresp="marie_therese"
               >PROSERPINE</name>.</byline>
           <l> Vne si grande Reyne est digne du grand Roy</l>
           <l>Qui de tant de Demons fait des suiets fidelles,</l>
@@ -619,8 +619,8 @@
           <l>Et l’on n’auoit point veu chez les Ames damnées</l>
           <l>Vne si bonne vie, &amp; de si douces Moeurs.</l>
           <byline>Pour les <name key="amour_deguise">Amours deguisez</name> en Compagnes de
-              <persName>Proserpines</persName> [sic].</byline>
-          <byline>Pour la <persName>Comtesse de Soissons</persName>, <name key="amour_deguise">Amour
+              <name key="proserpine" corresp="marie_therese">Proserpines</name> [sic].</byline>
+          <byline>Pour la <persName key="olympe_mancini_soissons" role="acteur">Comtesse de Soissons</persName>, <name key="amour_deguise">Amour
               déguisé</name>.</byline>
           <l> Sous ces beaux cheueux noirs &amp; longs</l>
           <l> Jusqu’aux talons,</l>
@@ -628,7 +628,7 @@
           <l>L'Amour n’est pas si bien caché</l>
           <l>Qu'il ne soit facile à cognestre,</l>
           <l>Et qu’on n’en puisse estre touché.</l>
-          <byline>Pour <persName>Mademoiselle de Nemours</persName>, <name key="amour_deguise">Amour
+          <byline>Pour <persName key="mlle_de_nemours" role="acteur">Mademoiselle de Nemours</persName>, <name key="amour_deguise">Amour
               déguisé</name>.</byline>
           <l> Vous n’y sçauez pas grand finesse</l>
           <l> Amour, de vous estre auisé</l>
@@ -637,7 +637,7 @@
           <l> De cette charmante Princesse,</l>
           <l> Allez chacun vous cognest,</l>
           <l> Et vous ressent, qui pis est.</l>
-          <byline>Pour la <persName>Duchesse de Sully</persName>, <name key="amour_deguise">Amour
+          <byline>Pour la <persName key="mme_de_sully" role="acteur">Duchesse de Sully</persName>, <name key="amour_deguise">Amour
               déguisé</name>.</byline>
           <l> Amour veut qu’on se persuade</l>
           <l> Qu'aux champs il estoit fort malade,</l>
@@ -646,7 +646,7 @@
           <l> Il affecte ces manieres</l>
           <l> De foiblesse &amp; de langueur</l>
           <l> Pour aller plus droit au coeur.</l>
-          <byline>Pour la <persName>Duchesse de Crequy</persName>, <name key="amour_deguise">Amour
+          <byline>Pour la <persName key="lansac_crequi" role="acteur">Duchesse de Crequy</persName>, <name key="amour_deguise">Amour
               déguisé</name>.</byline>
           <l>Qvoy ? c’est donc vous, Amour, à qui dans le tumulte</l>
           <l>L'on fit vn si cruel, &amp; si barbare insulte,</l>
