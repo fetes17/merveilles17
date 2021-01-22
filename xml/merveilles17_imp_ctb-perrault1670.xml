@@ -60,10 +60,11 @@
           <graphic
             url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b53196269m/f9/full/full/0/native.jpg"/>
           <figDesc/>
+          <l ana="devise">VT VIDI VICI</l>
           <label type="head">Courses de Testes et de Bague Par <persName key="louisxiv"
               role="acteur">Le Roy</persName> et par les Princes et Seigneurs de sa Cour En l'Année
               <date when="1662">1662</date>.</label>
-          <signed><persName key="gilles_rousselet" role="auteur">AEgid. Rousselet</persName>
+          <signed><persName key="gilles_rousselet" role="dessinateur">AEgid. Rousselet</persName>
             sculp.</signed>
           <p>A Paris.</p>
           <p>De l'Imprimerie Royale <date when="1670">1670</date>.</p>
@@ -73,7 +74,7 @@
           <graphic
             url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b53196269m/f11/857,814,3072,1198/full/0/default.jpg"/>
           <figDesc/>
-          <signed><persName key="chauveau" role="auteur">F. Chauveau</persName> in. et
+          <signed><persName key="chauveau" role="dessinateur">F. Chauveau</persName> in. et
             fecit</signed>
         </figure>
         <p>A <persName key="louis_grand_dauphin" role="destinataire">MONSEIGNEVR LE
@@ -82,7 +83,7 @@
           <graphic
             url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b53196269m/f11/901,2970,824,846/full/0/default.jpg"/>
           <figDesc/>
-          <signed><persName key="chauveau" role="auteur">F. C.</persName> fe.</signed>
+          <signed><persName key="chauveau" role="dessinateur">F. C.</persName> fe.</signed>
         </figure>
         <salute>MONSEIGEVR,</salute>
         <p>Puisqu’il est constant que de tous les modeles qui Vous seront proposez pour vôtre
@@ -148,7 +149,7 @@
           <graphic
             url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b53196269m/f15/875,848,2888,1108/full/0/default.jpg"/>
           <figDesc/>
-          <signed><persName key="chauveau" role="auteur">F. Chauveau</persName> fecit</signed>
+          <signed><persName key="chauveau" role="dessinateur">F. Chauveau</persName> fecit</signed>
         </figure>
         <head>COURSES DE TESTES ET DE BAGUE. <lb/>FAITES PAR <persName key="louisxiv">LE
             ROY</persName>, ET PAR LES PRINCES &amp; Seigneurs de sa Cour, en <date when="1662"
@@ -157,7 +158,7 @@
           <graphic
             url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b53196269m/f15/758,2926,808,778/full/0/default.jpg"/>
           <figDesc/>
-          <signed><persName key="chauveau" role="auteur">F. C.</persName> fe.</signed>
+          <signed><persName key="chauveau" role="dessinateur">F. C.</persName> fe.</signed>
         </figure>
         <p>CE n’est pas sans raison que ceux qui ont entrepris d’écrire l’Histoire des
           Grands-Hommes, ont crû qu’il ne suffisoit pas d’apprendre à la Posterité les Batailles
@@ -356,22 +357,26 @@
             >Iuges de Camp</name> ; proche d’eux estoient les Ambassadeurs &amp; les Ministres
           Etrangers.</p>
         <figure>
-          <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b53196269m/f18/1535,2953,2176,1907/full/0/default.jpg"/>
-          <figDesc></figDesc>
+          <graphic
+            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b53196269m/f18/1535,2953,2176,1907/full/0/default.jpg"/>
+          <figDesc/>
           <l ana="devise">VT VIDI VICI</l>
         </figure>
         <pb n="5" xml:id="p5" facs="https://gallica.bnf.fr/ark:/12148/btv1b53196269m/f19"/>
         <figure>
-          <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b53196269m/f19/842,845,2910,1179/full/0/default.jpg"/>
-          <figDesc></figDesc>
-          <signed><persName key="chauveau" role="auteur">F. Chauveau</persName> in. et fecit</signed>
+          <graphic
+            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b53196269m/f19/842,845,2910,1179/full/0/default.jpg"/>
+          <figDesc/>
+          <signed><persName key="chauveau" role="dessinateur">F. Chauveau</persName> in. et
+            fecit</signed>
         </figure>
         <label type="head">MARCHE DES CINQ QVADRILLES ET DES MARESCHAVX DE CAMP, DEPVIS LA GRANDE
           PLACE DERRIERE l’Hostel de Vandôme jusqu’à l’entrée de l’Amphitheatre.</label>
         <figure>
-          <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b53196269m/f19/800,3147,776,785/full/0/default.jpg"></graphic>
-          <figDesc></figDesc>
-          <signed><persName key="chauveau" role="auteur">F. C.</persName> fe.</signed>
+          <graphic
+            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b53196269m/f19/800,3147,776,785/full/0/default.jpg"/>
+          <figDesc/>
+          <signed><persName key="chauveau" role="dessinateur">F. C.</persName> fe.</signed>
         </figure>
         <p>A peine <persName key="marie_therese"><persName key="anne_d_autriche">les
               Reynes</persName></persName> pris leurs places, qu’on vit parroître à l’entrée de
@@ -398,10 +403,10 @@
             type="costume">vétu aussi à la <name key="romain" corresp="anne_de_noailles"
               >Romaine</name></tech>, comme tous ceux de cette Quadrille : devant luy marchoient
           deux Trompettes, un Ecuyer, quatre Pages, <tech type="animal">quatre chevaux de
-            main</tech> menez chacun deux Palfreniers, huit Estafiers &amp; deux Aides de Camp, qui
-          étoient <persName key="romecourt" role="participant">les Sieurs de Romecourt</persName>
-          &amp; <persName key="charmacé" role="participant">de Charmacé</persName> Lieutenans des
-          Gardes du Corps.</p>
+            main</tech> menez chacun par deux Palfreniers, huit Estafiers &amp; deux Aides de Camp,
+          qui étoient <persName key="romecourt" role="participant">les Sieurs de
+            Romecourt</persName> &amp; <persName key="charmacé" role="participant">de
+            Charmacé</persName> Lieutenans des Gardes du Corps.</p>
         <p><persName key="francois_rene_crespin_bec_vardes" role="participant">Le Marquis de
             Vardes</persName> venoit ensuite comme <name key="marechal_de_camp"
             corresp="francois_rene_crespin_bec_vardes">Mareschal de Camp</name> de la Quadrille de
@@ -418,9 +423,9 @@
             Coquet</persName>, <tech type="costume">équipé à <name key="indien"
               corresp="marche_coquet">l’Indienne</name></tech>, &amp; faisoit la charge de <name
             key="marechal_de_camp" corresp="marche_coquet">Mareschal</name>
-          <pb n="6" xml:id="p6" facs="https://gallica.bnf.fr/ark:/12148/btv1b53196269m/f20"/> de Camp de la Quadrille de <persName key="hj_bourbon_conde">Mr le
-            Duc</persName>, à la place du <persName key="francois_hannibal_ii_estrees">Comte
-            d’Etrées</persName>.</p>
+          <pb n="6" xml:id="p6" facs="https://gallica.bnf.fr/ark:/12148/btv1b53196269m/f20"/> de
+          Camp de la Quadrille de <persName key="hj_bourbon_conde">Mr le Duc</persName>, à la place
+          du <persName key="francois_hannibal_ii_estrees">Comte d’Etrées</persName>.</p>
         <p><persName key="philibert_de_gramont" role="participant">Le Chevalier de
             Gramont</persName> faisant l’office de <name key="marechal_de_camp"
             corresp="philibert_de_gramont">Mareschal de Camp</name> de <persName
@@ -687,17 +692,36 @@
           ordinaire du Cabinet du <persName key="louisxiv">Roy</persName>, a eû la conduite après
           les avoir inventées &amp; desseignées.</p>
         <figure>
-          <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b53196269m/f22/1627,4734,2038,803/full/0/default.jpg"/>
-          <figDesc></figDesc>
+          <graphic
+            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b53196269m/f22/1627,4734,2038,803/full/0/default.jpg"/>
+          <figDesc/>
         </figure>
         <pb n="np" xml:id="np8" facs="https://gallica.bnf.fr/ark:/12148/btv1b53196269m/f24"/>
         <figure>
-          <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b53196269m/f24//1358,846,6651,2312/full/0/default.jpg"/>
-          <figDesc></figDesc>
+          <graphic
+            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b53196269m/f24//1358,846,6651,2312/full/0/default.jpg"/>
+          <figDesc/>
+          <l ana="devise">MAGNO DE LVMINE LVMEN</l>
+          <l ana="devise">VNO SOLE MINOR</l>
+          <l ana="devise">VT VIDI VICI</l>
+          <l ana="devise">CRESIT VT ASPICITVR</l>
+          <l ana="devise">ALTIORA PRESVMO</l>
+          <label type="head"><hi rend="sc">Marche</hi> des Mareschaux de Camp, et des cinq
+            Quadrilles depuis la grande place derrière l'hostel de Vendosme, jusqu'à l'entrée de
+            l'Amphitéatre</label>
         </figure>
         <figure>
-          <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b53196269m/f24//1419,3795,6651,2312/full/0/default.jpg"/>
-          <figDesc></figDesc>
+          <graphic
+            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b53196269m/f24//1419,3795,6651,2312/full/0/default.jpg"/>
+          <figDesc/>
+          <p>1 Partie du <placeName key="paris_tuileries_chateau ">Palais des Thuilleries</placeName>.</p>
+          <p>2 Grande <placeName key="paris_tuileries_theatre">salle des Comedies</placeName>.</p>
+          <p>3 <tech type="construction">Amphitheatre.</tech></p>
+          <p>4 <tech type="construction">Eschafault</tech> rempli de peuple.</p>
+          <p>5 Regiments des Gardes en haye.</p>
+          <p>6 Premier Ayde de Camp.</p>
+          <signed>dessigné et gravé par <persName key="isilvestre" role="dessinateur">Israel
+              Silvestre</persName> avec privilege du Roy. <date when="1664">1664</date></signed>
         </figure>
         <pb n="np"/>
         <figure/>
@@ -2114,7 +2138,7 @@
         <figure/>
         <pb n="63" xml:id="p63"/>
         <figure/>
-        <label type="head">COMPARSE DES CINQ QVADRILLES DANS L’AMPHITHEATRE.</label>
+        <label type="head">COMPARSE DES CINQ QVADRILLES DANS <tech type="construction">L’AMPHITHEATRE</tech>.</label>
         <p>&lt;figure&gt; AVSSI-TOST que les Quadrilles eûrent paru dans <placeName
             key="paris_place_tuileries">l’Amphiteatre</placeName>, ainsi qu’il a été cy-devant,
           qu’elles se furent rangées chacune en leur poste par les soins du <persName key="vigarani"
