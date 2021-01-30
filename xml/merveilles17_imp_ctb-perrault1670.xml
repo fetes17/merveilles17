@@ -61,9 +61,9 @@
             url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b53196269m/f9/full/full/0/native.jpg"/>
           <figDesc/>
           <l ana="devise">VT VIDI VICI</l>
-          <label type="head">Courses de Testes et de Bague Par <persName key="louisxiv"
+          <head>Courses de Testes et de Bague Par <persName key="louisxiv"
               role="acteur">Le Roy</persName> et par les Princes et Seigneurs de sa Cour En l'Année
-              <date when="1662">1662</date>.</label>
+              <date when="1662">1662</date>.</head>
           <signed><persName key="gilles_rousselet" role="dessinateur">AEgid. Rousselet</persName>
             sculp.</signed>
           <p>A Paris.</p>
@@ -370,8 +370,8 @@
           <signed><persName key="chauveau" role="dessinateur">F. Chauveau</persName> in. et
             fecit</signed>
         </figure>
-        <label type="head">MARCHE DES CINQ QVADRILLES ET DES MARESCHAVX DE CAMP, DEPVIS LA GRANDE
-          PLACE DERRIERE l’Hostel de Vandôme jusqu’à l’entrée de l’Amphitheatre.</label>
+        <head>MARCHE DES CINQ QVADRILLES ET DES MARESCHAVX DE CAMP, DEPVIS LA GRANDE
+          PLACE DERRIERE l’Hostel de Vandôme jusqu’à l’entrée de l’Amphitheatre.</head>
         <figure>
           <graphic
             url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b53196269m/f19/800,3147,776,785/full/0/default.jpg"/>
@@ -706,9 +706,9 @@
           <l ana="devise">VT VIDI VICI</l>
           <l ana="devise">CRESIT VT ASPICITVR</l>
           <l ana="devise">ALTIORA PRESVMO</l>
-          <label type="head"><hi rend="sc">Marche</hi> des Mareschaux de Camp, et des cinq
+          <head><hi rend="sc">Marche</hi> des Mareschaux de Camp, et des cinq
             Quadrilles depuis la grande place derrière l'hostel de Vendosme, jusqu'à l'entrée de
-            l'Amphitéatre</label>
+            l'Amphitéatre</head>
         </figure>
         <figure>
           <graphic
@@ -723,7 +723,7 @@
           <signed>dessigné et gravé par <persName key="isilvestre" role="dessinateur">Israel
               Silvestre</persName> avec privilege du Roy. <date when="1664">1664</date></signed>
         </figure>
-        <pb n="np" facs="https://gallica.bnf.fr/ark:/12148/btv1b53196269m/f27"/>
+        <pb n="np" xml:id="np9" facs="https://gallica.bnf.fr/ark:/12148/btv1b53196269m/f27"/>
         <figure>
           <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b53196269m/f27/1353,647,6652,2342/full/0/default.jpg"></graphic>
           <figDesc></figDesc>
@@ -732,7 +732,7 @@
           <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b53196269m/f27/1410,3700,6652,2342/full/0/default.jpg"></graphic>
           <figDesc></figDesc>
         </figure>
-        <pb n="np" facs="https://gallica.bnf.fr/ark:/12148/btv1b53196269m/f30"/>
+        <pb n="np" xml:id="np10" facs="https://gallica.bnf.fr/ark:/12148/btv1b53196269m/f30"/>
         <figure>
           <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b53196269m/f30/1398,674,6751,2358/full/0/default.jpg"></graphic>
           <figDesc></figDesc>
@@ -741,7 +741,7 @@
           <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b53196269m/f30/1346,3745,6751,2358/full/0/default.jpg"></graphic>
           <figDesc></figDesc>
         </figure>
-        <pb n="np" facs="https://gallica.bnf.fr/ark:/12148/btv1b53196269m/f33"/>
+        <pb n="np" xml:id="np11" facs="https://gallica.bnf.fr/ark:/12148/btv1b53196269m/f33"/>
         <figure>
           <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b53196269m/f33/1358,807,6702,2357/full/0/default.jpg"></graphic>
           <figDesc></figDesc>
@@ -750,14 +750,12 @@
           <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b53196269m/f33/1385,3905,6702,2357/full/0/default.jpg"></graphic>
           <figDesc></figDesc>
         </figure>
-        <pb n="np"/>
-        <figure/>
-        <pb n="np"/>
+        <pb n="np" xml:id="np12"/>
         <figure>
           <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b53196269m/f36/full/full/0/default.jpg"></graphic>
           <figDesc></figDesc>
         </figure>
-        <pb n="np"/>
+        <pb n="np" xml:id="np13"/>
         <figure>
           <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b53196269m/f39/full/full/0/default.jpg"></graphic>
           <figDesc></figDesc>
@@ -771,7 +769,7 @@
         </figure>
         <p>LE <persName key="antoine_iii_de_gramont">MARESCHAL DE GRAMONT</persName> MARESCHAL DE
           CAMP GENERAL.</p>
-        <p ana="description">Il étoit vétu à la Romaine, <tech type="costume">d’un habit en broderie
+        <p rend="dropcap"><hi rend="sc">Il</hi> étoit vétu à la Romaine, <tech type="costume">d’un habit en broderie
             d’or &amp; d’argent sur un fonds de satin de couleur de feu, les brodequins de même ; le
             tout garny d’une quantité innombrable de Rubis ; son Casque étoit enrichy de pierreries,
             &amp; ombragé du’n grand bouquet de plumes, aussi couleur de feu, avec une Aigrette
@@ -783,7 +781,7 @@
         <figure>
           <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b53196269m/f46/720,998,3229,3588/full/0/default.jpg"></graphic>
           <figDesc><tech type="animal"></tech><tech type="costume"></tech><tech type="bruitage"></tech></figDesc>
-          <head>Timballiers Romains</head>
+          <head>Timballiers <name key="romain">Romains</name></head>
           <p>Premiere Quadrille</p>
           <signed><persName key="chauveau" role="dessinateur">F. Chauveau</persName> deli. et fecit</signed>
         </figure>
@@ -802,12 +800,16 @@
           d’or &amp; d’argent, garny de piéces d’Orféverie.</p>
         <p ana="description">Les Banderoles de Timballes étoient de leur de feu brodées d’or &amp;
           d’argent, avec des Aigles d’or.</p>
-        <pb n="19" xml:id="p19"/>
-        <figure/>
+        <pb n="19" xml:id="p19" facs="https://gallica.bnf.fr/ark:/12148/btv1b53196269m/f48"/>
+        <figure>
+          <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b53196269m/f48/713,691,3184,3685/full/0/default.jpg"></graphic>
+          <figDesc><tech type="animal"></tech><tech type="costume"></tech><tech type="bruitage"></tech></figDesc>
+          <head>Trompettes <name key="romain">Romains</name></head>
+        </figure>
         <p><tech type="costume">TROMPETTES <name key="romain">ROMAINS</name>.</tech></p>
-        <p ana="description">LA Coiffure étoit en forme d’un mufle de Lion d’or, couvert de plumes
+        <p rend="dropcap">LA Coiffure étoit en forme d’un mufle de Lion d’or, couvert de plumes
           couleur de feu.</p>
-        <p ana="description">Le corps de l’habit étoit de toille d’argent, brodé d’une bande de
+        <p>Le corps de l’habit étoit de toille d’argent, brodé d’une bande de
           broderie d’or à écailles.</p>
         <p ana="description">Le Tonnelet étoit de même toille d’argent, couvert de dix grandes
           bandes de broderie d’or.</p>
@@ -818,8 +820,13 @@
           d’une bande d’or brodée d’argent, terminez par leurs campagnes &amp; lambrequins.</p>
         <p ana="description">Le poitrail &amp; la croupiere étoient enrichies de masques
           d’Orféveries, &amp; les crinieres des chevaux liées d’Echarpes de toille d’argent.</p>
-        <pb n="20" xml:id="p20"/>
-        <p><tech type="costume">ESTAFIERS <name key="romain">ROMAINS</name>.</tech></p>
+        <pb n="20" xml:id="p20" facs="https://gallica.bnf.fr/ark:/12148/btv1b53196269m/f50"/>
+        <figure>
+          <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b53196269m/f50/706,702,3135,3688/full/0/default.jpg"></graphic>
+          <figDesc><tech type="costume"></tech></figDesc>
+          <head>Estafiers <name key="romain">Romains</name></head>
+        </figure>
+        <p rend="dropcap"><tech type="costume">ESTAFIERS <name key="romain">ROMAINS</name>.</tech></p>
         <p ana="description">LA Coiffure étoit un Casque d’or &amp; argent, couvert de plumes
           couleur de feu. Le corps de cuirasse étoit de toille d’argent brodée d’or, serré d’une
           ceinture de satin couleur de feu, brodé par écailles d’or. Les épaulettes &amp; les
@@ -832,11 +839,15 @@
         <p ana="description">Le faisseau étoit de verges d’or liées d’argent.</p>
         <p ana="description">Les brodequins étoient de satin couleur de feu, avec masques d’or, qui
           avoient les revers de toille d’argent.</p>
-        <pb n="21" xml:id="p21"/>
-        <figure/>
+        <pb n="21" xml:id="p21" facs="https://gallica.bnf.fr/ark:/12148/btv1b53196269m/f52"/>
+        <figure>
+          <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b53196269m/f52/725,922,3119,3572/full/0/default.jpg"></graphic>
+          <figDesc><tech type="animal"></tech><tech type="costume"></tech></figDesc>
+          <head><tech type="animal">Cheval de main</tech> et Plafreniers <name key="romain">Romains</name></head>
+        </figure>
         <p><tech type="animal">CHEVAL DE MAIN</tech> ET <tech type="costume">PALFRENIERS <name
               key="romain">ROMAINS</name></tech>.</p>
-        <p ana="description">LE carapaçon étoit de satin couleur feu avec de grandes bandes d’or
+        <p rend="dropcap">LE carapaçon étoit de satin couleur feu avec de grandes bandes d’or
           chargées de pierreries &amp; broderie dor &amp; argent coupées en campagnes, ornées de
           masques d’Orféveries, avec quatre pendans de pieces d’Orféverie. Et dans le milieu du
           carapaçon étoit un Aigle de broderie d’or relevée en bosse. Le chantrain &amp; la criniere
@@ -848,10 +859,14 @@
           étoient de couleur de feu brodé d’or, ainsi que le bout des manches.</p>
         <p ana="description">Le bonnet de satin couleur de feu avec des bandes d’or &amp; d’argent,
           couvert de plumes couleur de feu.</p>
-        <pb n="22" xml:id="p22"/>
-        <figure/>
+        <pb n="22" xml:id="p22" facs="https://gallica.bnf.fr/ark:/12148/btv1b53196269m/f54"/>
+        <figure>
+          <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b53196269m/f54/721,827,3167,3671/full/0/default.jpg"></graphic>
+          <figDesc><tech type="animal"></tech><tech type="costume"></tech></figDesc>
+          <head>Pages <name key="romain">Romains</name></head>
+        </figure>
         <p><tech type="costume">PAGES <name key="romain">ROMAINS</name></tech>.</p>
-        <p ana="description">LE bonnet étoit de satin couleur de feu brodée en bandes d’or &amp;
+        <p rend="dropcap">LE bonnet étoit de satin couleur de feu brodée en bandes d’or &amp;
           d’argent. Les Pages étoient vétus des mêmes étoffes, &amp; des mêmes couleurs que les
           précédans Officiers de la Quadrille, à la reserve que le corps étoit de brocart d’or brodé
           par écailles d’argent, &amp; que les lambrequins tant des hauts des manches que de la
@@ -862,20 +877,28 @@
           en feüilles.</p>
         <p ana="description">Les carapaçons étoient de satin couleur de feu brodé d’or.</p>
         <p>Les uns portoient les Lances, les autres les Ecus, où les Devises étoient peintes.</p>
-        <pb n="23" xml:id="p23"/>
-        <figure/>
+        <pb n="23" xml:id="p23" facs="https://gallica.bnf.fr/ark:/12148/btv1b53196269m/f56"/>
+        <figure>
+          <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b53196269m/f56/692,1061,3150,3589/full/0/default.jpg"></graphic>
+          <figDesc><tech type="animal"></tech><tech type="costume"></tech></figDesc>
+          <head>Ayde de Camp <name key="romain">Romain</name></head>
+        </figure>
         <p><tech type="costume">AIDE DE CAMP <name key="romain">ROMAIN</name>.</tech></p>
-        <p ana="description">LE Casque étoit d’argent brodé d’or, ombragé de plumes couleur de
+        <p rend="dropcap">LE Casque étoit d’argent brodé d’or, ombragé de plumes couleur de
           feu.</p>
         <p ana="description">Le corps étoit de toille d’argent rebrodé d’or en écailles.</p>
         <p ana="description">Les manches ainsi que le saye étoient couleur de feu brodé d’or &amp;
           d’argent, &amp; les lambrequins de brocart d’or brodé d’argent.</p>
         <p ana="description">Les manches de dessous étoient de toille d’argent brodée d’or.</p>
         <p ana="description">Le carapaçon de satin couleur de feu brodé d’or &amp; d’argent.</p>
-        <pb n="24" xml:id="p24"/>
-        <figure/>
+        <pb n="24" xml:id="p24" facs="https://gallica.bnf.fr/ark:/12148/btv1b53196269m/f58"/>
+        <figure>
+          <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b53196269m/f58/663,967,3148,3622/full/0/default.jpg"></graphic>
+          <figDesc><tech type="animal"></tech><tech type="costume"></tech></figDesc>
+          <head>Mareschal de Camp <name key="romain">Romain</name></head>
+        </figure>
         <p><tech type="costume">MARESCHAL DE CAMP <name key="romain">ROMAIN</name>.</tech></p>
-        <p ana="description">LE Casque étoit d’argent brodé d’or avec des plumes, couleur de la
+        <p rend="dropcap">LE Casque étoit d’argent brodé d’or avec des plumes, couleur de la
           livrée.</p>
         <p ana="description">Le corps de cuirasse &amp; les lambrequins étoient de brocart d’argent
           brodé d’or, &amp; orné de bandes de pierreries.</p>
@@ -884,10 +907,13 @@
         <p ana="description">Les brodequins étoient de brocart d’argent brodé d’or.</p>
         <p ana="description">Le carapaçon étoit de satin couleur de feu brodé d’or &amp; d’argent ;
           &amp; dans les lambrequins des mufles de Lion en broderie.</p>
-        <pb n="np"/>
-        <figure/>
-
-        <p ana="description"><persName key="louisxiv">LE Roy</persName>étoit <tech type="costume"
+        <pb n="np" xml:id="np14" facs="https://gallica.bnf.fr/ark:/12148/btv1b53196269m/f61"/>
+        <figure>
+          <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b53196269m/f61/728,701,7467,3556/full/0/default.jpg"></graphic>
+          <figDesc><tech type="animal"></tech><tech type="costume"></tech></figDesc>
+          <head>Le Roy. Empereur<name key="romain">Romain</name></head>
+        </figure>
+        <p rend="dropcap"><persName key="louisxiv">LE Roy</persName>étoit <tech type="costume"
             >vétu à la Romaine, d’un corps de brocart d’argent rebrodé d’or, dont les épaules &amp;
             le bas du Busq étoient terminez par des écailles de brocart d’or rebrodé d’argent, avec
             de gros Diamans enchassez dans la broderie, &amp; bordez encore d’un rang de Diamans.
@@ -936,18 +962,16 @@
           Resnes &amp; les Estrivieres étoit de brocart d’or brodé d’argent, &amp; enrichy de
           Diamans, &amp; l’extremité des Resnes &amp; chanfrein étoit ornée de campanes &amp; de
           pendeloques de Diamans..</p>
-        <pb n="np"/>
-        <figure/>
-        <figure/>
-        <figure/>
-        <figure/>
-        <figure/>
-        <pb n="28" xml:id="p28"/>
+        <pb n="np" xml:id="np15" facs="https://gallica.bnf.fr/ark:/12148/btv1b53196269m/f63"/>
+        <pb n="28" xml:id="p28" facs="https://gallica.bnf.fr/ark:/12148/btv1b53196269m/f65"/>
         <label type="head">DEVISES DES CHEFS ET DES CHEVALIERS DES QVADRILLES.</label>
         <label type="head">DEVISES DE LA PREMIERE QVADRILLE.</label>
         <figure>
-          <graphic url=""/>
-          <figDesc/>
+          <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b53196269m/f63/1869,801,1175,1587/full/0/default.jpg"></graphic>
+          <figDesc></figDesc>
+          <head><persName key="louisxiv">Le Roy</persName></head>
+          <p>1</p>
+          <l ana="devise">VT VIDI VICI</l>
         </figure>
         <p>PREMIERE DEVISE DV <persName key="louisxiv">ROY</persName>.</p>
         <lg ana="devise">
@@ -964,8 +988,11 @@
           par ces mots, <foreign>VT VIDI, VICI</foreign>, qui font allusion à ce mot de <name
             key="Jules_Cesar">Iules Cesar</name>, <foreign>veni, vidi, vici</foreign>.</p>
         <figure>
-          <graphic url=""/>
+          <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b53196269m/f63/912,2457,1175,1587/full/0/default.jpg"/>
           <figDesc/>
+          <head><persName key="lv_rochechouart_mortemart_vivonne">Le Comte de Vivonne</persName></head>
+          <p>2</p>
+          <l ana="devise">TVA MVNERA IACTO.</l>
         </figure>
         <p>II. DEVISE DV <persName key="lv_rochechouart_mortemart_vivonne">COMTE DE
             VIVONNE</persName>.</p>
@@ -980,8 +1007,11 @@
           bienfaits qu’il a receus de <persName key="louisxiv">Sa Majesté</persName>, qu’il
           s’efforce de faire éclater en tous lieux &amp; en toutes rencontres.</p>
         <figure>
-          <graphic url=""/>
+          <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b53196269m/f63/2856,2453,1175,1587/full/0/default.jpg"/>
           <figDesc/>
+          <head>Le <persName key="saint_aignan">Comte de Saint-Aygnan</persName></head>
+          <p>3</p>
+          <l ana="devise">SOLI.</l>
         </figure>
         <p>III. DEVISE DV <persName key="saint_aignan">COMTE DE SAINT-AGNAN</persName>.</p>
         <lg ana="devise">
@@ -992,8 +1022,11 @@
         <p>Le Laurier est le symbole de la Victoire, qui a cela de commun avec ce Chevalier, qu’elle
           ne veut appartenir qu’au Roy seul, &amp; ne se ranger iamais que de son party.</p>
         <figure>
-          <graphic url=""/>
+          <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b53196269m/f63/929,4208,1175,1587/full/0/default.jpg"/>
           <figDesc/>
+          <head>Le <persName key="philippe_ii_montault_benac_navailles">Duc de Navaille</persName></head>
+          <p>4</p>
+          <l ana="devise">PROBASTI.</l>
         </figure>
         <p>IV. DEVISE DV <persName key="philippe_ii_montault_benac_navailles">COMTE DE
             NAVAILLES</persName>.</p>
@@ -1008,8 +1041,11 @@
           illustres employs dont le <persName key="louisxiv">Roy</persName> l’a honoré, &amp; qu’il
           a soûtenus avec gloire, sont des marques assurées de son merite &amp; de sa fidelité.</p>
         <figure>
-          <graphic url=""/>
+          <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b53196269m/f63/2870,4197,1175,1587/full/0/default.jpg"/>
           <figDesc/>
+          <head>Le <persName key="philippe_ii_montault_benac_navailles">Comte Darmagnac</persName></head>
+          <p>4</p>
+          <l ana="devise">HINC LABOR HINC MERCES</l>
         </figure>
         <p>V. DEVISE DV <persName key="henri_de_lorraine">COMTE D’ARMAGNAC</persName>.</p>
         <lg ana="devise">
@@ -1019,7 +1055,7 @@
         </lg>
         <p>Ce Cheualier se promet que la Victoire representée par cette Couronne, estant le but de
           tous ses travaux, en sera pareillement l’issuë &amp; la recompense.</p>
-        <pb n="np"/>
+        <pb n="np" xml:id="np16" facs="https://gallica.bnf.fr/ark:/12148/btv1b53196269m/f66"/>
         <figure>
           <graphic url=""/>
           <figDesc/>
