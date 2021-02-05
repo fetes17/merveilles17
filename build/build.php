@@ -47,13 +47,15 @@ CREATE TABLE document (
 CREATE INDEX document_type ON document(type, code);
 
 CREATE TABLE lieu (
-  -- répertoire des lieux
+  -- <place>, répertoire des lieux 
   id             INTEGER,               -- ! rowid auto
-  code           TEXT UNIQUE NOT NULL,  -- ! code unique
-  label          TEXT NOT NULL,         -- ! forme de référence
-  coord          TEXT,                  -- ? coordonnées carto
-  settlement     TEXT,                  -- ? commune, pour recherche
-  alt            TEXT,                  -- ? forme alternative, pour recherche
+  code           TEXT UNIQUE NOT NULL,  -- ! @xml:id, code unique
+  label          TEXT NOT NULL,         -- ! <name>[1], forme de référence
+  parent         INTEGER,               -- ! identifiant de lieu parent (ou 0 si racine)
+  parent_code    TEXT NOT NULL,         -- ! ../@xml:id, code provisoire
+  geo            TEXT,                  -- ? <geo>, coordonnées carto
+  settlement     TEXT,                  -- ? <settlement> commune, pour recherche
+  alt            TEXT,                  -- ? <name>[2], forme alternative, pour recherche
   docs           INTEGER,               -- ! nombre de documents,  calculé, pour tri
   occs           INTEGER,               -- ! nombre d’occurrences, calculé, pour tri
   PRIMARY KEY(id ASC)
@@ -267,24 +269,33 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
 
   public static function load_lieu()
   {
-    $q = self::$pdo->prepare("INSERT INTO lieu (code, label, coord, settlement, alt) VALUES (?, ?, ?, ?, ?)");
-    self::$pdo->beginTransaction();
     $file = self::$home."index/lieu.xml";
     $dom = new DOMDocument();
     $dom->load($file, LIBXML_BIGLINES | LIBXML_NOCDATA | LIBXML_NONET | LIBXML_NSCLEAN);
+    $lieu = Build::transformDoc($dom, self::$home."build/xsl/tsv_lieu.xsl");
+    self::tsv_insert("lieu", array("code", "label", "parent_code", "settlement", "alt", "geo"), $lieu);
+    self::$pdo->exec("
+      UPDATE lieu SET
+        parent=(SELECT id FROM lieu AS l WHERE code=lieu.parent_code)
+      ;
+    ");
+
+    /*
+    // marche, mais trop lourd pour capter le lieu parent, passé en xslt ci-dessus
+    $q = self::$pdo->prepare("INSERT INTO lieu (code, label, geo, settlement, alt) VALUES (?, ?, ?, ?, ?)");
+    self::$pdo->beginTransaction();
     $xpath = new DOMXPath($dom);
     $xpath->registerNamespace("tei", "http://www.tei-c.org/ns/1.0");
-    /*
     // ici on pourrait enregistrer automatiquement d’autres namespace
     $root = $dom->documentElement;
     foreach ($xpath->query('namespace::*', $root) as $node ) {
       echo $node->nodeName, " ", $node->nodeValue, "\n";
       if ($node->nodeName == 'xmlns') $xpath->registerNamespace("default", $node->nodeValue);
     }
-    */
+    
     foreach ($xpath->query('//tei:place') as $place ) {
       $code = $place->getAttribute('xml:id');
-      $label =$coord = $settlement = $alt = null;
+      $label =$geo = $settlement = $alt = null;
       foreach ($place->childNodes as $node) {
         $name = $node->nodeName;
         switch($name) {
@@ -299,14 +310,15 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
             $settlement = $node->nodeValue;
             break;
           case "geo":
-            $coord = $node->nodeValue;
+            $geo = $node->nodeValue;
             break;
           
         }
       }
-      $q->execute(array($code, $label, $coord, $settlement, $alt));
+      $q->execute(array($code, $label, $geo, $settlement, $alt));
     }
     self::$pdo->commit();
+    */
   }
   
   public static function load_technique()
@@ -744,29 +756,45 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
     Build::mkdir(self::$home."site/lieu/");
     $template = str_replace("%relpath%", "../", self::$template);
     
-    // comment passer les stats $row['docs'], $row['occs'] ?
     $index = "";
     $index .= '<div class="container">'."\n";
     $index .= '<h1>Lieux</h1>'."\n";
+    // passer les stats $row['docs'], $row['occs'] ?
     $index .= Build::transform(self::$home."index/lieu.xml", self::$home."build/xsl/lieu.xsl");
     $index .= '<p> </p>'."\n";
     $index .= '</div>'."\n";
     // boucler sur tous les termes
-    $stmt = self::$pdo->prepare("SELECT * FROM lieu ORDER BY docs DESC, code ");
+    $stmt = self::$pdo->prepare("SELECT * FROM lieu");
     $stmt->execute();
+    $parent = self::$pdo->prepare("SELECT * FROM lieu WHERE parent = ?");
     
     while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
       $page  = '<div class="container">'."\n";
       $page .= '  <div class="row align-items-start">'."\n";
       $page .= '    <div class="col-9">'."\n";
       $page .= '      <h1>'.$row['label'].'</h1>'."\n";
-      if ($row['coord']) {
+      if ($row['geo']) {
         $place = "";
         if ($row['settlement']) $place .= $row['settlement'].", ";
         if ($row['alt']) $place .= $row['alt'];
         else $place .= $row['label'];
-        $page .= '    <div><a target="_blank" href="https://www.google.com/maps/search/'.$place.'/@'.$row['coord'].'z">'.$row['coord'].'</a></div>'."\n";
+        $page .= '    <div><a target="_blank" href="https://www.google.com/maps/search/'.$place.'/@'.$row['geo'].'z">'.$row['geo'].'</a></div>'."\n";
       }
+      // lieux enfants
+      $parent->execute(array($row['id']));
+      $children = "";
+      while ($child = $parent->fetch(PDO::FETCH_ASSOC)) {
+        $children .= '      <li><a href="' . $child['code'] . '.html">'. $child['label'] .'</a></li>'."\n";
+      }
+      if ($children) {
+        $page .= '      <section>'."\n";
+        $page .= '        <h2>Lieux liés</h2>' . "\n";
+        $page .= '        <ul>'."\n";
+        $page .= $children;
+        $page .= '        </ul>'."\n";
+        $page .= '      </section>'."\n";
+      }
+      
       $page .= '      <section>'."\n";
       $page .= '        <h2>Documents liés</h2>'."\n";
       $page .= self::uldocs("lieu", $row['id']);
