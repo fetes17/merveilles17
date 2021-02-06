@@ -5,18 +5,29 @@
   <xsl:output indent="yes" encoding="UTF-8" method="text" omit-xml-declaration="yes"/>
   <xsl:template match="/">
     <xsl:for-each select="/tei:TEI/tei:text//tei:persName | /tei:TEI/tei:sourceDoc//tei:persName">
-      <xsl:variable name="key" select="normalize-space(@key)"/>
-      <xsl:value-of select="$key"/>
-      <xsl:value-of select="$tab"/>
-      <xsl:value-of select="$filename"/>
-      <xsl:value-of select="$tab"/>
-      <xsl:call-template name="id"/>
-      <xsl:value-of select="$tab"/>
-      <xsl:value-of select="normalize-space(.)"/>
-      <xsl:value-of select="$tab"/>
-      <xsl:value-of select="normalize-space(@role)"/>
-      <xsl:value-of select="$lf"/>
+      <xsl:call-template name="split"/>
     </xsl:for-each>
+  </xsl:template>
+
+  <xsl:template name="split">
+    <xsl:param name="role" select="normalize-space(@role)"/>
+    <xsl:variable name="role1" select="substring-before(concat($role, ' '), ' ')"/>
+    <xsl:variable name="key" select="normalize-space(@key)"/>
+    <xsl:value-of select="$key"/>
+    <xsl:value-of select="$tab"/>
+    <xsl:value-of select="$filename"/>
+    <xsl:value-of select="$tab"/>
+    <xsl:call-template name="id"/>
+    <xsl:value-of select="$tab"/>
+    <xsl:value-of select="normalize-space(.)"/>
+    <xsl:value-of select="$tab"/>
+    <xsl:value-of select="normalize-space($role1)"/>
+    <xsl:value-of select="$lf"/>
+    <xsl:if test="contains($role, ' ')">
+      <xsl:call-template name="split">
+        <xsl:with-param name="role" select="substring-after($role, ' ')"/>
+      </xsl:call-template>
+    </xsl:if>
   </xsl:template>
 
 </xsl:transform>

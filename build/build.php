@@ -140,6 +140,9 @@ CREATE TABLE personne_document (
 );
 CREATE INDEX personne_document_personne ON personne_document(personne);
 CREATE INDEX personne_document_document ON personne_document(document, personne_code);
+CREATE INDEX personne_document_role ON personne_document(role, personne, document, anchor);
+CREATE INDEX personne_document_docs ON personne_document(personne, role, document);
+CREATE INDEX personne_document_occs ON personne_document(personne, role);
 
 CREATE TABLE chrono (
   -- chronologie
@@ -688,35 +691,11 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
     Build::rmdir(self::$home."site/personne/");
     Build::mkdir(self::$home."site/personne/");
     $template = str_replace("%relpath%", "../", self::$template);
-    $index = '
-<div class="container">
-  <table class="sortable">
-    <thead>
-      <tr>
-        <th class="label">Personne</th>
-        <th class="birth" title="Date de naissance">Naissance</th>
-        <th class="death" title="Date de mort">Mort</th>
-        <th class="docs" title="Nombre de documents">documents</th>
-        <th class="occs" title="Nombre d’occurrences">occurrences</th>
-      </tr>
-    </thead>    
-    <tbody>
-';
-    // boucler sur tous les termes
-    $stmt = self::$pdo->prepare("SELECT * FROM personne ORDER BY docs DESC, code ");
+    // créer les pages pour chaque personne
+    $stmt = self::$pdo->prepare("SELECT * FROM personne");
     $stmt->execute();
     while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
       $href = "personne/".$row['code'].self::$_html;
-      if (!$row['label']) $row['label'] = '[<i>'.$row['code'].'</i>]';
-      $index .= '
-      <tr>
-        <td class="label"><a href="'.$row['code'].self::$_html.'">'.$row['label'].'</a></td>
-        <td class="birth">'.$row['birth'].'</td>
-        <td class="death">'.$row['death'].'</td>
-        <td class="docs">'.$row['docs'].'</td>
-        <td class="occs">'.$row['occs'].'</td>
-      </tr>
-';
       $page = '';
       $page .= '
 <div class="object_header">
@@ -753,16 +732,145 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
 ';
       file_put_contents(self::$home."site/".$href, str_replace("%main%", $page, $template));
     }
-    $stmt = null;    
-    $index .= '
-    </tbody>
-  </table>
-</div>
-    ';
-    file_put_contents(self::$home."site/personne/index.html", str_replace("%main%", $index, $template));
 
+    $roles = array(
+      "commanditaire" => "Commanditaires",
+      "destinataire" => "Destinataires",
+      "organisation" => "Organisateurs",
+      "fournisseur" => "Fournisseurs",
+      "participant" => "Participants",
+      "spectateur" => "Spectateurs",
+      "convive" => "Convives",
+      
+      "auteur" => "Auteurs",
+      "imprimeur" => "Imprimeurs",
+      "dessinateur" => "Dessinateurs",
+      "acteur" => "Acteurs",
+      "chanteur" => "Chanteurs",
+      "musicien" => "Musiciens",
+      "danseur" => "Danseurs",
+      
+    );
+    
+    
+    $index = '<div class="container">
+<div class="row">
+<div class="col-9">';
+    
+    // boucler sur les roles
+    $qrole = self::$pdo->prepare("SELECT DISTINCT personne FROM personne_document WHERE role = ? ORDER BY personne_code;");
+    $q = "SELECT DISTINCT personne FROM personne_document WHERE role NOT IN ('".implode(array_keys($roles), "', '")."') ORDER BY personne_code;";
+    $qnorole = self::$pdo->prepare($q);
+    $qpers = self::$pdo->prepare("SELECT * FROM personne WHERE id = ?;");
+    $qdocs = self::$pdo->prepare("SELECT COUNT(DISTINCT document) FROM personne_document WHERE personne = ? AND role = ?;");
+    $qoccs = self::$pdo->prepare("SELECT COUNT(*) FROM personne_document WHERE personne = ? AND role = ?;");
+    foreach(array_keys($roles) as $role) {
+      $index .= '
+  <section id="'.$role.'">
+    <div>
+      <h3>'.$roles[$role].'</h3>
+    </div>
+';
+      $index .= '
+    <table class="sortable">
+      <thead>
+        <tr>
+          <th class="label" width="100%">Personne</th>
+          <th class="docs" title="Nombre de documents">documents</th>
+          <th class="occs" title="Nombre d’occurrences">occurrences</th>
+        </tr>
+      </thead>
+      <tbody>
+';
+      $qrole->execute(array($role));
+      while ($result = $qrole->fetch(PDO::FETCH_ASSOC)) {
+        $personne = $result['personne'];
+        // personne non encore renseignée
+        if (!$personne) continue;
+        $qpers->execute(array($personne));
+        $row = $qpers->fetch(PDO::FETCH_ASSOC);
+        $qdocs->execute(array($personne, $role));
+        list($docs) = $qdocs->fetch();
+        $qoccs->execute(array($personne, $role));
+        list($occs) = $qoccs->fetch();
+        $index .= self::trPers($row, $docs, $occs);
+      }
+      $index .= '
+      </tbody>
+    </table>
+    <p> </p>
+  </section>
+    ';
+    }
+    
+          $index .= '
+  <section id="autres">
+    <div>
+      <h3>Autres</h3>
+    </div>
+';
+      $index .= '
+    <table class="sortable">
+      <thead>
+        <tr>
+          <th class="label" width="100%">Personne</th>
+          <th class="docs" title="Nombre de documents">documents</th>
+          <th class="occs" title="Nombre d’occurrences">occurrences</th>
+        </tr>
+      </thead>
+      <tbody>
+';
+      $qnorole->execute();
+      while ($result = $qnorole->fetch(PDO::FETCH_ASSOC)) {
+        $personne = $result['personne'];
+        if (!$personne) continue;
+        $qpers->execute(array($personne));
+        $row = $qpers->fetch(PDO::FETCH_ASSOC);
+        $qdocs->execute(array($personne, ''));
+        list($docs) = $qdocs->fetch();
+        $qoccs->execute(array($personne, ''));
+        list($occs) = $qoccs->fetch();
+        if (!$row) {
+          print_r($row);
+        }
+        $index .= self::trPers($row, $docs, $occs);
+      }
+      $index .= '
+      </tbody>
+    </table>
+    <p> </p>
+  </section>
+  </div>
+  <div class="col-3">
+    <nav class="roles">
+';
+      foreach($roles as $code => $label) {
+        $index .= '<a class="tech" href="#'.$code.'">'.$label.'</a>'."\n";
+      }
+      $index .= '
+      <a href="#autres">Autres</a>
+    </nav>
+  </div>
+  </div>
+</div>
+';
+    file_put_contents(self::$home."site/personne/index.html", str_replace("%main%", $index, $template));
   }
 
+  public static function trPers($row, $docs, $occs)
+  {
+    $date = '';
+    if ($row['birth'] && $row['death']) $date = ' ('.$row['birth'].' – '.$row['death'].')';
+    else if ($row['birth']) $date = ' ('.$row['birth'].' – ?)';
+    else if ($row['death']) $date = ' (? – '.$row['birth'].')';
+    if (!$row['label']) $row['label'] = '[<i>'.$row['code'].'</i>]';
+    return'
+      <tr>
+        <td class="label"><a href="'.$row['code'].self::$_html.'">'.$row['label'].$date.'</a></td>
+        <td class="docs">'.$docs.'</td>
+        <td class="occs">'.$occs.'</td>
+      </tr>';
+  }
   
   /**
    * Générer les pages lieux

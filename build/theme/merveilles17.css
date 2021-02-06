@@ -1006,6 +1006,30 @@ thead {
 
 */
 
+nav.roles {
+  border: 1px solid var(--rose);
+  background-color: var(--rose);
+  color: #fff;
+  position: sticky;
+  top: 0;
+  max-height: 100vh;
+  overflow: auto;
+  text-align: right;
+}
+
+nav.roles a {
+  color: #fff;
+  display: block;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+nav.roles a:hover {
+  background: #fff;
+  color: #000;
+}
+
+
 #persName th,
 #persName summary,
 #persName a:hover,
@@ -1159,8 +1183,26 @@ table.sortable {
   width: 100%;
 }
 
+.sortable th {
+  background: #fff;
+}
+
+
 .sortable tr td {
   border: none;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+}
+
+.sortable tr:hover td {
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+
+td.docs,
+td.occs {
+  text-align: right;
 }
 
 td.term {
@@ -1189,6 +1231,12 @@ table.sortable a {
   padding: 2px 1rem;
   line-height: 1.1;
 }
+
+table.sortable a:hover {
+  color: #fff;
+  background: var(--rose);
+}
+
 
 .devise {
   text-align: center;
