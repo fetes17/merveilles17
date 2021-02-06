@@ -83,7 +83,9 @@ CREATE TABLE technique (
   -- répertoire des techniques
   id             INTEGER,               -- ! rowid auto
   code           TEXT UNIQUE NOT NULL,  -- ! code unique
-  label           TEXT NOT NULL,         -- ! forme d’autorité
+  label           TEXT NOT NULL,        -- ! forme d’autorité
+  parent         INTEGER,               -- ! identifiant de lieu parent (ou 0 si racine)
+  parent_code    TEXT NOT NULL,         -- ! ../@xml:id, code provisoire
   docs           INTEGER,               -- ! nombre de documents,  calculé, pour tri
   occs           INTEGER,               -- ! nombre d’occurrences, calculé, pour tri
   PRIMARY KEY(id ASC)
@@ -323,32 +325,17 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
   
   public static function load_technique()
   {
-    $q = self::$pdo->prepare("INSERT OR IGNORE INTO technique (code, label) VALUES (?, ?)");
-    self::$pdo->beginTransaction();
-
+  
     $file = self::$home."index/technique.xml";
     $dom = new DOMDocument();
     $dom->load($file, LIBXML_BIGLINES | LIBXML_NOCDATA | LIBXML_NONET | LIBXML_NSCLEAN);
-    $xpath = new DOMXPath($dom);
-    $xpath->registerNamespace("tei", "http://www.tei-c.org/ns/1.0");
-    
-    foreach ($xpath->query('//tei:entry') as $place ) {
-      $code = $place->getAttribute('xml:id');
-      $label = null;
-      foreach ($place->childNodes as $node) {
-        $name = $node->nodeName;
-        switch($name) {
-          case "#text":
-          case "entry":
-            break;
-          case "form":
-            if ($label == null) $label = $node->nodeValue;
-            break;
-        }
-      }
-      $q->execute(array($code, $label));
-    }
-    self::$pdo->commit();
+    $csv = Build::transformDoc($dom, self::$home."build/xsl/tsv_technique.xsl");
+    self::tsv_insert("technique", array("code", "label", "parent_code"), $csv);
+    self::$pdo->exec("
+      UPDATE technique SET
+        parent=(SELECT id FROM technique AS t2 WHERE code=technique.parent_code)
+      ;
+    ");
   }
   
   /**
@@ -612,7 +599,48 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
   {
     Build::rmdir(self::$home."site/technique/");
     Build::mkdir(self::$home."site/technique/");
+    $parent = self::$pdo->prepare("SELECT * FROM technique WHERE parent = ?");
     $template = str_replace("%relpath%", "../", self::$template);
+    // boucler sur tous les termes
+    $stmt = self::$pdo->prepare("SELECT * FROM technique ORDER BY docs DESC, code ");
+    $stmt->execute();
+    while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
+      $href = "technique/".$row['code'].self::$_html;
+      $page = '<div class="container">';
+      $page .= '  <div class="row align-items-start">'."\n";
+      $page .= '    <div class="col-9">'."\n";
+      $page .= '      <h1>'.$row['label'].'</h1>'."\n";
+      
+      // techniques enfants
+      $parent->execute(array($row['id']));
+      $children = "";
+      while ($child = $parent->fetch(PDO::FETCH_ASSOC)) {
+        $children .= '      <li><a href="' . $child['code'] . '.html">'. $child['label'] .'</a></li>'."\n";
+      }
+      if ($children) {
+        $page .= '      <section>'."\n";
+        $page .= '        <h2>Techniques liées</h2>' . "\n";
+        $page .= '        <ul>'."\n";
+        $page .= $children;
+        $page .= '        </ul>'."\n";
+        $page .= '      </section>'."\n";
+      }
+
+      
+      $page .= '      <section>'."\n";
+      $page .= '        <h2>Documents liés</h2>'."\n";
+      $page .= self::uldocs("technique", $row['id']);
+      $page .= '      </section>'."\n";
+      
+      $page .= '    </div>'."\n";
+      $page .= '    <div class="col-3">'."\n";
+      $page .= '    </div>'."\n";
+      $page .= '  </div>'."\n";
+      $page .= '</div>'."\n";
+      file_put_contents(self::$home."site/".$href, str_replace("%main%", $page, $template));
+    }
+
+/*
     $index = '
 <div class="container">
   <table class="sortable">
@@ -637,21 +665,6 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
       <td class="occs">'.$row['occs'].'</td>
     </tr>
 ';
-      $page = '<div class="container">';
-      $page .= '  <div class="row align-items-start">'."\n";
-      $page .= '    <div class="col-9">'."\n";
-      $page .= '      <h1>'.$row['label'].'</h1>'."\n";
-      $page .= '      <section>'."\n";
-      $page .= '        <h2>Documents liés</h2>'."\n";
-      $page .= self::uldocs("technique", $row['id']);
-      $page .= '      </section>'."\n";
-      
-      $page .= '    </div>'."\n";
-      $page .= '    <div class="col-3">'."\n";
-      $page .= '    </div>'."\n";
-      $page .= '  </div>'."\n";
-      $page .= '</div>'."\n";
-      file_put_contents(self::$home."site/".$href, str_replace("%main%", $page, $template));
     }
     $stmt = null;    
     $index .= '
@@ -659,6 +672,10 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
   </table>
 </div>
     ';
+    */
+    // passer les stats $row['docs'], $row['occs'] ?
+    $index = Build::transform(self::$home."index/technique.xml", self::$home."build/xsl/technique.xsl");
+
     file_put_contents(self::$home."site/technique/index.html", str_replace("%main%", $index, $template));
 
   }
@@ -763,9 +780,12 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
     $index .= Build::transform(self::$home."index/lieu.xml", self::$home."build/xsl/lieu.xsl");
     $index .= '<p> </p>'."\n";
     $index .= '</div>'."\n";
+    file_put_contents(self::$home."site/lieu/index.html", str_replace("%main%", $index, $template));
+    
     // boucler sur tous les termes
     $stmt = self::$pdo->prepare("SELECT * FROM lieu");
     $stmt->execute();
+    
     $parent = self::$pdo->prepare("SELECT * FROM lieu WHERE parent = ?");
     
     while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
@@ -808,9 +828,6 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
       file_put_contents(self::$home."site/lieu/".$row['code'].'.html', str_replace("%main%", $page, $template));
     }
     $stmt = null;
-    
-    file_put_contents(self::$home."site/lieu/index.html", str_replace("%main%", $index, $template));
-    
 
   }
   

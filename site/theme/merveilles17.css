@@ -145,8 +145,11 @@ ul {
 }
 
 ul ul {
+  /*
   border: 1px solid var(--rose);
   margin-left: 1rem;
+  */
+  margin-left: 2rem;
 }
 
 ul li::before {
