@@ -46,6 +46,19 @@ CREATE TABLE document (
 );
 CREATE INDEX document_type ON document(type, code);
 
+CREATE TABLE document_include (
+  -- liens d’inclusion de documents
+  id             INTEGER,               -- ! rowid auto
+  src            INTEGER,               -- ! document.id renseigné a posteriori
+  src_code       TEXT NOT NULL,         -- ! document.code extrait du document XML
+  dst            INTEGER,               -- ! document.id renseigné a posteriori
+  dst_code       TEXT NOT NULL,         -- ! document.code extrait du document XML
+  PRIMARY KEY(id ASC)
+);
+CREATE INDEX document_include_src ON document_include(src);
+CREATE INDEX document_include_dst ON document_include(dst);
+
+
 CREATE TABLE lieu (
   -- <place>, répertoire des lieux 
   id             INTEGER,               -- ! rowid auto
@@ -143,6 +156,20 @@ CREATE INDEX personne_document_document ON personne_document(document, personne_
 CREATE INDEX personne_document_role ON personne_document(role, personne, document, anchor);
 CREATE INDEX personne_document_docs ON personne_document(personne, role, document);
 CREATE INDEX personne_document_occs ON personne_document(personne, role);
+
+CREATE TABLE document_resp (
+  -- Responsabilité de personnes sur un document <teiHeader>
+  id             INTEGER,               -- ! rowid auto
+  personne       INTEGER,               -- ! personne.id obtenu avec par personne.code
+  personne_code  TEXT NOT NULL,         -- ! personne.code
+  document       INTEGER,               -- ! document.id obtenu avec par document.code
+  document_code  TEXT NOT NULL,         -- ! sera obtenu avec par document.code
+  resp           TEXT,                  -- ! @role 
+  PRIMARY KEY(id ASC)
+);
+CREATE INDEX document_resp_personne ON document_resp(personne, resp);
+CREATE INDEX document_resp_pers ON document_resp(personne_code, resp);
+
 
 CREATE TABLE chrono (
   -- chronologie
@@ -277,8 +304,9 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
     $file = self::$home."index/lieu.xml";
     $dom = new DOMDocument();
     $dom->load($file, LIBXML_BIGLINES | LIBXML_NOCDATA | LIBXML_NONET | LIBXML_NSCLEAN);
-    $lieu = Build::transformDoc($dom, self::$home."build/xsl/tsv_lieu.xsl");
-    self::tsv_insert("lieu", array("code", "label", "parent_code", "settlement", "alt", "geo"), $lieu);
+    $csv = "code\tlabel\tparent_code\tsettlement\talt\tgeo\n"; // ne pas oublier la première ligne
+    $csv .= Build::transformDoc($dom, self::$home."build/xsl/tsv_lieu.xsl");
+    self::tsv_insert("lieu", array("code", "label", "parent_code", "settlement", "alt", "geo"), $csv);
     self::$pdo->exec("
       UPDATE lieu SET
         parent=(SELECT id FROM lieu AS l WHERE code=lieu.parent_code)
@@ -332,7 +360,8 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
     $file = self::$home."index/technique.xml";
     $dom = new DOMDocument();
     $dom->load($file, LIBXML_BIGLINES | LIBXML_NOCDATA | LIBXML_NONET | LIBXML_NSCLEAN);
-    $csv = Build::transformDoc($dom, self::$home."build/xsl/tsv_technique.xsl");
+    $csv = "code\tlabel\tparent_code\n"; // ne pas oublier la première ligne
+    $csv .= Build::transformDoc($dom, self::$home."build/xsl/tsv_technique.xsl");
     self::tsv_insert("technique", array("code", "label", "parent_code"), $csv);
     self::$pdo->exec("
       UPDATE technique SET
@@ -363,6 +392,8 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
     $lieu_document =           "lieu_code\tdocument_code\tanchor\toccurrence\tdesc\n";
     $technique_document = "technique_code\tdocument_code\tanchor\toccurrence\n";
     $personne_document =   "personne_code\tdocument_code\tanchor\toccurrence\trole\n";
+    $document_include =   "src_code\tdst_code\n";
+    $document_resp =   "document_code\tpersonne_code\tresp\n";
     
     // loop on all xml files, and do lots of work
     foreach (glob(self::$home."xml/*.xml") as $srcfile) {
@@ -385,6 +416,8 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
       $personne_document .= $lines;
       $technique_document .= Build::transformDoc($dom, self::$home."build/xsl/tsv_technique_document.xsl", null, array('filename' => $dstname));
       $lieu_document .= Build::transformDoc($dom, self::$home."build/xsl/tsv_lieu_document.xsl", null, array('filename' => $dstname));
+      $document_include .= Build::transformDoc($dom, self::$home."build/xsl/tsv_document_include.xsl", null, array('filename' => $dstname));
+      $document_resp .= Build::transformDoc($dom, self::$home."build/xsl/tsv_document_resp.xsl", null, array('filename' => $dstname));
     }
     file_put_contents(self::$home."README.md", $readme);
 
@@ -399,6 +432,8 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
     self::tsv_insert("lieu_document", array("lieu_code", "document_code", "anchor", "occurrence", "desc"), $lieu_document);
     self::tsv_insert("technique_document", array("technique_code", "document_code", "anchor", "occurrence"), $technique_document);
     self::tsv_insert("personne_document", array("personne_code", "document_code", "anchor", "occurrence", "role"), $personne_document);
+    self::tsv_insert("document_include", array("src_code", "dst_code"), $document_include);
+    self::tsv_insert("document_resp", array("document_code", "personne_code", "resp"), $document_resp);
 
     // mise à jour des index 
     self::$pdo->exec("
@@ -413,6 +448,14 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
       UPDATE personne_document SET
         personne=(SELECT id FROM personne WHERE code=personne_document.personne_code),
         document=(SELECT id FROM document WHERE code=personne_document.document_code)
+      ;
+      UPDATE document_resp SET
+        personne=(SELECT id FROM personne WHERE code=document_resp.personne_code),
+        document=(SELECT id FROM document WHERE code=document_resp.document_code)
+      ;
+      UPDATE document_include SET
+        src=(SELECT id FROM document WHERE code=document_include.src_code),
+        dst=(SELECT id FROM document WHERE code=document_include.dst_code)
       ;
     ");
     
@@ -447,12 +490,13 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
     }
     file_put_contents(self::$home."site/data/lieu_orphelins.tsv", $tsv);    
 
+    $tsv = "document_code\tpersonne_code\toccurrence\n";
     $stmt = self::$pdo->prepare("SELECT document_code, personne_code, occurrence FROM personne_document WHERE personne IS NULL");
     $stmt->execute();
-    $tsv = "document_code\tpersonne_code\toccurrence\n";
-    while ($row = $stmt->fetch(PDO::FETCH_NUM)) {
-      $tsv .= implode("\t", $row)."\n";
-    }
+    while ($row = $stmt->fetch(PDO::FETCH_NUM)) $tsv .= implode("\t", $row)."\n";
+    $stmt = self::$pdo->prepare("SELECT document_code, personne_code, resp FROM document_resp WHERE personne IS NULL");
+    $stmt->execute();
+    while ($row = $stmt->fetch(PDO::FETCH_NUM)) $tsv .= implode("\t", $row)."\n";
     file_put_contents(self::$home."site/data/personne_orphelins.tsv", $tsv);    
   }
 
@@ -511,6 +555,15 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
     $q_pers = self::$pdo->prepare("SELECT label FROM personne WHERE id = ?");
     // $qpersonnes = self::$pdo->prepare("SELECT personne.id, personne.code, personne.label, COUNT(document_code) AS count FROM personne, personne_document WHERE document_code = ? AND personne_document.personne = personne.id GROUP BY personne ORDER BY count DESC");
     
+    
+    $q_chrono = self::$pdo->prepare("SELECT chrono.* FROM chrono, chrono_document WHERE document = ? AND chrono_document.chrono = chrono.id;");
+    $q_rel_chrono = self::$pdo->prepare("SELECT document.* FROM document, chrono_document WHERE chrono_document.document = document.id AND chrono_document.chrono = ?;");
+    $q_rel_haspart = self::$pdo->prepare("SELECT document.* FROM document, document_include WHERE document_include.dst = document.id AND document_include.src = ?;");
+    $q_rel_ispartof = self::$pdo->prepare("SELECT document.* FROM document, document_include WHERE document_include.src = document.id AND document_include.dst = ?;");
+    $q_rel_author = self::$pdo->prepare("SELECT document.* FROM document, document_resp WHERE document_resp.document = document.id AND document_resp.resp = 'author' AND document_resp.personne_code IN (SELECT personne_code FROM document_resp WHERE document = ?) ORDER BY document.code;");
+    $q_rel_printer = self::$pdo->prepare("SELECT document.* FROM document, document_resp WHERE document_resp.document = document.id AND document_resp.resp = 'imprimeur' AND document_resp.personne_code IN (SELECT personne_code FROM document_resp WHERE document = ?) ORDER BY document.code;");
+
+    
     foreach (glob(self::$home."xml/*.xml") as $srcfile) {
       $document_code = basename($srcfile, ".xml");
       $qid->execute(array($document_code));
@@ -522,6 +575,22 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
       /* notice de document */
       $page = Build::transformDoc($dom, self::$home."build/xsl/page_document.xsl", null, array('filename' => $document_code));
       $page = str_replace(" § ", "\n<br/>", $page);
+
+      // Chrono
+      $chrono_ids = array();
+      $q_chrono->execute(array($docid));
+      $chrono = '';
+      $chrono .= '
+<h2>Événements liés</h2>
+<nav class="chrono">'."\n";
+      while ($row = $q_chrono->fetch(PDO::FETCH_ASSOC)) {
+        $chrono .= '<a class="caldate" href="index.html#'.$row['code'].'">';
+        $chrono .= self::htchrono($row);
+        $chrono .= '</a>'."\n";
+        $chrono_ids[] = $row['id'];
+      }
+      $chrono .= '</nav>'."\n";
+      $page = str_replace("%chrono%", $chrono, $page);
 
       // liste de personnes citées
       $q_pers_doc->execute(array($document_code));
@@ -588,7 +657,50 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
       if (!$count) $techniques = "";
       $page = str_replace("%techniques%", $techniques, $page);
       
+      $relations = '';
+      // inclusions
+      $docs = '';
+      $q_rel_haspart->execute(array($docid));
+      while ($row =  $q_rel_haspart->fetch(PDO::FETCH_ASSOC)) {
+        $docs .= self::htdocument($row);
+      }
+      if ($docs) $relations .= "<h3>Documents inclus</h3>\n".$docs;
+      $docs = '';
+      $q_rel_ispartof->execute(array($docid));
+      while ($row =  $q_rel_ispartof->fetch(PDO::FETCH_ASSOC)) {
+        $docs .= self::htdocument($row);
+      }
+      if ($docs) $relations .= "<h3>Est inclus dans</h3>\n".$docs;
       
+      // documents du même événement
+      $zevent = "";
+      foreach($chrono_ids as $id) {
+        $q_rel_chrono->execute(array($id));
+        while ($row =  $q_rel_chrono->fetch(PDO::FETCH_ASSOC)) {
+          if ($row['id'] == $docid) continue;
+          $zevent .= self::htdocument($row);
+        }
+      }
+      if ($zevent)  $relations .= "<h3>Même événement</h3>\n".$zevent;
+      
+      $docs = '';
+      $q_rel_author->execute(array($docid));
+      while ($row =  $q_rel_author->fetch(PDO::FETCH_ASSOC)) {
+        if ($row['id'] == $docid) continue;
+        $docs .= self::htdocument($row);
+      }
+      if ($docs) $relations .= "<h3>Même auteur</h3>\n".$docs;
+      $docs = '';
+      $q_rel_printer->execute(array($docid));
+      while ($row =  $q_rel_printer->fetch(PDO::FETCH_ASSOC)) {
+        if ($row['id'] == $docid) continue;
+        $docs .= self::htdocument($row);
+      }
+      if ($docs) $relations .= "<h3>Même imprimeur</h3>\n".$docs;
+
+      
+      if ($relations) $relations = "<section id=\"doc_rels\">\n<h2>Documents liés</h2>\n".$relations."\n</section>";
+      $page = str_replace("%relations%", $relations, $page);
       file_put_contents(self::$home.'site/document/'.$document_code.self::$_html, str_replace('%main%', $page, $template));
     }
 
@@ -982,11 +1094,11 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
     return $html;
   }
 
-  private static function htchrono($row, $html=true)
+  private static function htchrono($row)
   {
     $out = '';
-    if ($html) $out .= '<b class="date">';
-    $out .= substr($row['start'], 0, 4);
+    $out .= '<span class="date">';
+    $out .= '<b class="year">'.substr($row['start'], 0, 4).'</b>';
     if ($row['start'] != $row['end']) {
       if (strlen($row['start']) >= 7 && strlen($row['end']) >= 7) {
         $mois1 = substr($row['start'], 5, 2);
@@ -995,23 +1107,25 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
       if (strlen($row['start']) >= 10 && strlen($row['end']) >= 10) {
         $j1 = substr($row['start'], 8, 2);
         $j2 = substr($row['end'], 8, 2);
-        if ($mois1 == $mois2) $out .= ', '.(int)$j1.'-'.(int)$j2.' '.Build::mois($mois1);
-        else $out .= ', '.(int)$j1.' '.Build::mois($mois1).' – '.(int)$j2.' '.Build::mois($mois2);
+        if ($mois1 == $mois2) $out .= ', <span clas="day">'.(int)$j1.'-'.(int)$j2.'</span> <span clas="month">'.Build::mois($mois1).'</span>';
+        else $out .= ', <span clas="day">'.(int)$j1.'</span> <span clas="month">'.Build::mois($mois1).' – '.(int)$j2.' '.Build::mois($mois2).'</span>';
       }
       else {
-        if ($mois1 == $mois2) $out .= ', '.Build::mois($mois1);
-        else $out .= ', '.Build::mois($mois1).' – '.Build::mois($mois2);
+        if ($mois1 == $mois2) $out .= ', <span clas="month">'.Build::mois($mois1).'</span>';
+        else $out .= ', <span clas="month">'.Build::mois($mois1).' – '.Build::mois($mois2).'</span>';
       }
-    } else {
-      if (strlen($row['start']) >= 10) $out .= ', '.(int)substr($row['start'], 8, 2).' '.Build::mois(substr($row['start'], 5, 2));
-      else if (strlen($row['start']) >= 7) $out .= ', '.Build::mois(substr($row['start'], 5, 2));
+    } 
+    else {
+      if (strlen($row['start']) >= 10) $out .= ', <span clas="day">'.(int)substr($row['start'], 8, 2).'</span> <span clas="month">'.Build::mois(substr($row['start'], 5, 2)).'</span>';
+      else if (strlen($row['start']) >= 7) $out .= ', <span clas="month">'.Build::mois(substr($row['start'], 5, 2)).'</span>';
     }
-    if ($html) $out .= '</b><span class="lieu">';
+    $out .= '.</span>';
+    $out .= '<div class="desc"><span class="lieu">';
     $out .= ' '.$row['lieu_label'].'.';
-    if ($html) $out .= '</span>
+    $out .= '</span>
     <i class="title">';
     $out .= ' '.$row['label'].'.';
-    $out .= '</i>';
+    $out .= '</i></div>';
     return $out;
   }
 

@@ -38,6 +38,10 @@
             <title>Les Plaisirs de l'île enchantée</title>
             <author key="code (cf. /index/personne.tsv)">Auteur du texte</author>
             <editor key="code (cf. /index/personne.tsv)">Autre contributeur</editor>
+            <respStmt>
+              <resp>Imprimeur</resp>
+              <persName key="ballard" role="imprimeur">Ballard Robert</persName>
+            </respStmt>
           </titleStmt>
           <editionStmt>
             <edition>Merveilles17</edition>
@@ -88,6 +92,7 @@
               <choice>
                 <ref name="author"/>
                 <ref name="editor"/>
+                <ref name="respStmt"/>
               </choice>
             </zeroOrMore>
           </element>
@@ -240,6 +245,24 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
         <attribute name="key"/>
         <attribute name="role"/>
         <text/>
+      </element>
+    </define>
+    <define name="respStmt">
+      <element name="respStmt">
+        <a:documentation>Autre personne à l’origine du document, les champs obligatoires sont portés
+          par un élément <a:el>persName</a:el>, le rôle est indiqué dans l’attribut <a:att>role</a:att>, et le code identifiant dans <a:att>key</a:att>.</a:documentation>
+        <a:example>
+          <respStmt>
+            <resp>Imprimeur</resp>
+            <persName key="ballard" role="imprimeur">Ballard Robert</persName>
+          </respStmt>
+        </a:example>
+        <optional>
+          <element name="resp">
+            <text/>
+          </element>
+        </optional>
+        <ref name="persName"/>
       </element>
     </define>
     <define name="pubPlace">
@@ -970,21 +993,22 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
             <list>
               <oneOrMore>
                 <choice>
+                  <value>artificier</value>
                   <value>acteur</value>
-                  <value>danseur</value>
-                  <value>chanteur</value>
-                  <value>musicien</value>
                   <value>auteur</value>
+                  <value>chanteur</value>
+                  <value>commanditaire</value>
                   <value>convive</value>
+                  <value>danseur</value>
+                  <value>dessinateur</value>
+                  <value>destinataire</value>
+                  <value>fontainier</value>
+                  <value>fournisseur</value>
+                  <value>imprimeur</value>
+                  <value>musicien</value>
+                  <value>organisation</value>
                   <value>participant</value>
                   <value>spectateur</value>
-                  <value>commanditaire</value>
-                  <value>destinataire</value>
-                  <value>fournisseur</value>
-                  <value>organisation</value>
-                  <value>artificier</value>
-                  <value>fontainier</value>
-                  <value>dessinateur</value>
                 </choice>
               </oneOrMore>
             </list>
