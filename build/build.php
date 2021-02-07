@@ -759,7 +759,7 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
     
     // boucler sur les roles
     $qrole = self::$pdo->prepare("SELECT DISTINCT personne FROM personne_document WHERE role = ? ORDER BY personne_code;");
-    $q = "SELECT DISTINCT personne FROM personne_document WHERE role NOT IN ('".implode(array_keys($roles), "', '")."') ORDER BY personne_code;";
+    $q = "SELECT DISTINCT personne FROM personne_document WHERE role NOT IN ('".implode("', '", array_keys($roles))."') ORDER BY personne_code;";
     $qnorole = self::$pdo->prepare($q);
     $qpers = self::$pdo->prepare("SELECT * FROM personne WHERE id = ?;");
     $qdocs = self::$pdo->prepare("SELECT COUNT(DISTINCT document) FROM personne_document WHERE personne = ? AND role = ?;");
