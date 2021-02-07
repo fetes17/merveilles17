@@ -589,7 +589,7 @@ Interpret TEI header as html.
   </xsl:template>
   <xsl:template match="tei:creation">
     <xsl:if test="tei:date">
-      <div>
+      <div class="creation date">
         <xsl:apply-templates select="tei:date[1]"/>
       </div>
     </xsl:if>

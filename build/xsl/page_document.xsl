@@ -23,7 +23,10 @@
         <div class="container">
           <xsl:choose>
             <xsl:when test="/tei:TEI/tei:sourceDoc">
-              <xsl:apply-templates select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/*"/>
+              <xsl:apply-templates select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
+              <xsl:apply-templates select="/*/tei:teiHeader[1]/tei:profileDesc[1]/tei:creation[1]"/>
+              <xsl:apply-templates select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:*[not(self::tei:title)]"/>
+              <xsl:apply-templates select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:bibl[1]/tei:note"/>
               <xsl:apply-templates select="/tei:TEI/tei:sourceDoc"/>
               <xsl:apply-templates select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:notesStmt"/>
               <xsl:call-template name="download"/>
@@ -32,7 +35,10 @@
               <xsl:variable name="length" select="string-length(normalize-space(/tei:TEI/tei:text))"/>
               <div class="row">
                 <div class="col-9">
-                  <xsl:apply-templates select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/*"/>
+                  <xsl:apply-templates select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
+                  <xsl:apply-templates select="/*/tei:teiHeader[1]/tei:profileDesc[1]/tei:creation[1]"/>
+                  <xsl:apply-templates select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:*[not(self::tei:title)]"/>
+                  <xsl:apply-templates select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:bibl[1]/tei:note"/>
                   <xsl:apply-templates select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:notesStmt"/>
                   <xsl:choose>
                     <xsl:when test="$length &lt; 700">
@@ -114,6 +120,12 @@
       </xsl:if>
       <xsl:apply-templates/>
     </a>
+  </xsl:template>
+
+  <xsl:template match="tei:sourceDesc/tei:bibl[1]/tei:note">
+    <div class="publine">
+      <xsl:apply-templates/>
+    </div>
   </xsl:template>
 
   <xsl:template match="tei:titleStmt/tei:respStmt" priority="2">
