@@ -148,14 +148,24 @@ CREATE TABLE personne_document (
   document_code  TEXT NOT NULL,         -- ! sera obtenu avec par document.code
   anchor         TEXT NOT NULL,         -- ! ancre dans le ficheir source
   occurrence     TEXT NOT NULL,         -- ! forme dans le texte
-  role           TEXT,                  -- ? @role
+  role           INT,                   -- ? sort
+  role_code      TEXT,                  -- ? @role
   PRIMARY KEY(id ASC)
 );
 CREATE INDEX personne_document_personne ON personne_document(personne);
 CREATE INDEX personne_document_document ON personne_document(document, personne_code);
 CREATE INDEX personne_document_role ON personne_document(role, personne, document, anchor);
-CREATE INDEX personne_document_docs ON personne_document(personne, role, document);
-CREATE INDEX personne_document_occs ON personne_document(personne, role);
+CREATE INDEX personne_document_docs ON personne_document(personne, role_code, document);
+CREATE INDEX personne_document_occs ON personne_document(personne, role_code);
+
+CREATE TABLE role (
+  -- liste des roles
+  id             INTEGER,               -- ! rowid auto
+  code           TEXT UNIQUE NOT NULL,  -- ! code unique
+  label          TEXT,                  -- ! forme d’autorité
+  PRIMARY KEY(id ASC)
+);
+CREATE INDEX role_code ON role(code);
 
 CREATE TABLE document_resp (
   -- Responsabilité de personnes sur un document <teiHeader>
@@ -203,6 +213,26 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
     "ms" => "Manuscrits",
     "imp" => "Imprimés",
     "img" => "Images",
+  );
+  
+  static $role = array(
+    "commanditaire" => "Commanditaires",
+    "destinataire" => "Destinataires",
+    "organisation" => "Organisateurs",
+    "artificier" => "Artificiers",
+    "fournisseur" => "Fournisseurs",
+    "participant" => "Participants",
+    "spectateur" => "Spectateurs",
+    "convive" => "Convives",
+    
+    "auteur" => "Auteurs",
+    "imprimeur" => "Imprimeurs",
+    "dessinateur" => "Dessinateurs",
+    "acteur" => "Acteurs",
+    "chanteur" => "Chanteurs",
+    "musicien" => "Musiciens",
+    "danseur" => "Danseurs",
+    '' => 'Autres', 
   );
 
   
@@ -369,6 +399,16 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
       ;
     ");
   }
+
+  public static function load_role()
+  {
+    $q = self::$pdo->prepare("INSERT INTO role (code, label) VALUES (?, ?)");
+    self::$pdo->beginTransaction();
+    foreach(self::$role as $code=>$label) {
+      $q->execute(array($code, $label));
+    }
+    self::$pdo->commit();
+  }
   
   /**
    * Load dictionaries in database
@@ -378,6 +418,7 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
     self::load_personne();
     self::load_lieu();
     self::load_technique();
+    self::load_role();
     
     $document_cols = array("type", "code", "length", "title", "publine", "ptr", "bibl");
     
@@ -391,7 +432,7 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
     $document = implode("\t", $document_cols)."\n";
     $lieu_document =           "lieu_code\tdocument_code\tanchor\toccurrence\tdesc\n";
     $technique_document = "technique_code\tdocument_code\tanchor\toccurrence\n";
-    $personne_document =   "personne_code\tdocument_code\tanchor\toccurrence\trole\n";
+    $personne_document =   "personne_code\tdocument_code\tanchor\toccurrence\trole_code\n";
     $document_include =   "src_code\tdst_code\n";
     $document_resp =   "document_code\tpersonne_code\tresp\n";
     
@@ -431,7 +472,7 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
     self::tsv_insert("document", $document_cols, $document);
     self::tsv_insert("lieu_document", array("lieu_code", "document_code", "anchor", "occurrence", "desc"), $lieu_document);
     self::tsv_insert("technique_document", array("technique_code", "document_code", "anchor", "occurrence"), $technique_document);
-    self::tsv_insert("personne_document", array("personne_code", "document_code", "anchor", "occurrence", "role"), $personne_document);
+    self::tsv_insert("personne_document", array("personne_code", "document_code", "anchor", "occurrence", "role_code"), $personne_document);
     self::tsv_insert("document_include", array("src_code", "dst_code"), $document_include);
     self::tsv_insert("document_resp", array("document_code", "personne_code", "resp"), $document_resp);
 
@@ -447,8 +488,10 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
       ;
       UPDATE personne_document SET
         personne=(SELECT id FROM personne WHERE code=personne_document.personne_code),
-        document=(SELECT id FROM document WHERE code=personne_document.document_code)
+        document=(SELECT id FROM document WHERE code=personne_document.document_code),
+        role=(SELECT id FROM role WHERE code=personne_document.role_code)
       ;
+      
       UPDATE document_resp SET
         personne=(SELECT id FROM personne WHERE code=document_resp.personne_code),
         document=(SELECT id FROM document WHERE code=document_resp.document_code)
@@ -473,6 +516,10 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
       UPDATE personne SET
         occs=(SELECT COUNT(*) FROM personne_document WHERE personne=personne.id),
         docs=(SELECT COUNT(DISTINCT document) FROM personne_document WHERE personne=personne.id)
+      ;
+      UPDATE personne_document SET
+        role=(SELECT id FROM role WHERE code='')
+        WHERE role IS NULL
       ;
     ");
     
@@ -551,7 +598,7 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
     $qtechniques = self::$pdo->prepare("SELECT technique.id, technique.code, technique.label, COUNT(document_code) AS count FROM technique, technique_document WHERE document_code = ? AND technique_document.technique = technique.id GROUP BY technique ORDER BY count DESC");
     
     // group by personne_code for unknown personne
-    $q_pers_doc = self::$pdo->prepare("SELECT personne, personne_code, COUNT(*) AS count FROM personne_document  WHERE document_code = ? GROUP BY personne_code ORDER BY count DESC, personne_code");
+    $q_pers_doc = self::$pdo->prepare("SELECT personne, personne_code, role, role_code, COUNT(*) AS count FROM personne_document  WHERE document_code = ? GROUP BY personne_code ORDER BY role, personne_code");
     $q_pers = self::$pdo->prepare("SELECT label FROM personne WHERE id = ?");
     // $qpersonnes = self::$pdo->prepare("SELECT personne.id, personne.code, personne.label, COUNT(document_code) AS count FROM personne, personne_document WHERE document_code = ? AND personne_document.personne = personne.id GROUP BY personne ORDER BY count DESC");
     
@@ -596,20 +643,25 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
       $q_pers_doc->execute(array($document_code));
       $personnes = '
 <section id="doc_pers">
-  <h2>Personnes</h2>
-  <ul>';
+  <h2>Personnes</h2>'."\n\n";
       $count = 0;
+      $role_code = null;
       while ($row = $q_pers_doc->fetch(PDO::FETCH_ASSOC)) {
+        if ($role_code != $row['role_code']) {
+          if (!is_null($role_code)) $personnes .= "</section>";
+          $role_code = $row['role_code'];
+          $personnes .= "\n<section class=\"persList\">\n  <h3>".self::$role[$role_code].'</h3>'."\n";
+        }
         $q_pers->execute(array($row['personne']));
         list($label) = $q_pers->fetch();
         if (!$label) $label = '<i>['.$row['personne_code'].']</i>';
-        $personnes .= '<li><a href="../personne/'.$row['personne_code'].self::$_html.'">'.$label.'</a>';
+        $personnes .= '<li class="persName"><a href="../personne/'.$row['personne_code'].self::$_html.'">'.$label.'</a>';
         if ($row['count'] > 1) $personnes .= ' ('.$row['count'].')';
         $personnes .= '</li>'."\n";
         $count++;
       }
       $personnes .= '
-  </ul>
+  </section>
 </section>
 ';
       if (!$count) $personnes= '';
@@ -845,24 +897,6 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
       file_put_contents(self::$home."site/".$href, str_replace("%main%", $page, $template));
     }
 
-    $roles = array(
-      "commanditaire" => "Commanditaires",
-      "destinataire" => "Destinataires",
-      "organisation" => "Organisateurs",
-      "fournisseur" => "Fournisseurs",
-      "participant" => "Participants",
-      "spectateur" => "Spectateurs",
-      "convive" => "Convives",
-      
-      "auteur" => "Auteurs",
-      "imprimeur" => "Imprimeurs",
-      "dessinateur" => "Dessinateurs",
-      "acteur" => "Acteurs",
-      "chanteur" => "Chanteurs",
-      "musicien" => "Musiciens",
-      "danseur" => "Danseurs",
-      
-    );
     
     
     $index = '<div class="container">
@@ -870,17 +904,17 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
 <div class="col-9">';
     
     // boucler sur les roles
-    $qrole = self::$pdo->prepare("SELECT DISTINCT personne FROM personne_document WHERE role = ? ORDER BY personne_code;");
-    $q = "SELECT DISTINCT personne FROM personne_document WHERE role NOT IN ('".implode("', '", array_keys($roles))."') ORDER BY personne_code;";
-    $qnorole = self::$pdo->prepare($q);
+    $qrole = self::$pdo->prepare("SELECT DISTINCT personne FROM personne_document WHERE role_code = ? ORDER BY personne_code;");
+
     $qpers = self::$pdo->prepare("SELECT * FROM personne WHERE id = ?;");
-    $qdocs = self::$pdo->prepare("SELECT COUNT(DISTINCT document) FROM personne_document WHERE personne = ? AND role = ?;");
-    $qoccs = self::$pdo->prepare("SELECT COUNT(*) FROM personne_document WHERE personne = ? AND role = ?;");
-    foreach(array_keys($roles) as $role) {
+    $qdocs = self::$pdo->prepare("SELECT COUNT(DISTINCT document) FROM personne_document WHERE personne = ? AND role_code = ?;");
+    $qoccs = self::$pdo->prepare("SELECT COUNT(*) FROM personne_document WHERE personne = ? AND role_code = ?;");
+    foreach(array_keys(self::$role) as $role_code) {
+      $idrole = ($role_code)?$role_code:"autres";
       $index .= '
-  <section id="'.$role.'">
+  <section id="'.$idrole.'">
     <div>
-      <h3>'.$roles[$role].'</h3>
+      <h2>'.self::$role[$role_code].'</h2>
     </div>
 ';
       $index .= '
@@ -894,16 +928,16 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
       </thead>
       <tbody>
 ';
-      $qrole->execute(array($role));
+      $qrole->execute(array($role_code));
       while ($result = $qrole->fetch(PDO::FETCH_ASSOC)) {
         $personne = $result['personne'];
         // personne non encore renseignée
         if (!$personne) continue;
         $qpers->execute(array($personne));
         $row = $qpers->fetch(PDO::FETCH_ASSOC);
-        $qdocs->execute(array($personne, $role));
+        $qdocs->execute(array($personne, $role_code));
         list($docs) = $qdocs->fetch();
-        $qoccs->execute(array($personne, $role));
+        $qoccs->execute(array($personne, $role_code));
         list($occs) = $qoccs->fetch();
         $index .= self::trPers($row, $docs, $occs);
       }
@@ -915,52 +949,18 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
     ';
     }
     
-          $index .= '
-  <section id="autres">
-    <div>
-      <h3>Autres</h3>
-    </div>
-';
       $index .= '
-    <table class="sortable">
-      <thead>
-        <tr>
-          <th class="label" width="100%">Personne</th>
-          <th class="docs" title="Nombre de documents">documents</th>
-          <th class="occs" title="Nombre d’occurrences">occurrences</th>
-        </tr>
-      </thead>
-      <tbody>
-';
-      $qnorole->execute();
-      while ($result = $qnorole->fetch(PDO::FETCH_ASSOC)) {
-        $personne = $result['personne'];
-        if (!$personne) continue;
-        $qpers->execute(array($personne));
-        $row = $qpers->fetch(PDO::FETCH_ASSOC);
-        $qdocs->execute(array($personne, ''));
-        list($docs) = $qdocs->fetch();
-        $qoccs->execute(array($personne, ''));
-        list($occs) = $qoccs->fetch();
-        if (!$row) {
-          print_r($row);
-        }
-        $index .= self::trPers($row, $docs, $occs);
-      }
-      $index .= '
-      </tbody>
-    </table>
     <p> </p>
   </section>
   </div>
   <div class="col-3">
     <nav class="roles">
 ';
-      foreach($roles as $code => $label) {
-        $index .= '<a class="tech" href="#'.$code.'">'.$label.'</a>'."\n";
+      foreach(self::$role as $code => $label) {
+        if (!$code) $code = "autres";
+        $index .= '<a class="role" href="#'.$code.'">'.$label.'</a>'."\n";
       }
       $index .= '
-      <a href="#autres">Autres</a>
     </nav>
   </div>
   </div>

@@ -88,20 +88,13 @@
       <div class="container">
         <div class="row">
           <div class="col-9 doc_ventre"> 
-            %lieux% 
             %personnes% 
-          </div>
-          <div class="col-3">
-            %chrono%
-          </div>
-        </div>
-        <div class="row techs">
-          <div class="col-9 doc_ventre"> 
             <xsl:call-template name="themes"/>
           </div>
           <div class="col-3">
+            %chrono%
+            %lieux% 
             %techniques% 
-            <xsl:call-template name="anas"/>
           </div>
         </div>
       </div>
@@ -167,7 +160,7 @@
   </xsl:template>
   <xsl:template name="themes">
     <div id="doc_theme">
-      <h2>Thèmes</h2>
+      <h2>personnages fictifs</h2>
       <xsl:variable name="tag">name</xsl:variable>
       <xsl:for-each select="//*[name() = $tag][count(. | key($tag, normalize-space(@key|@type))[1]) = 1][not(ancestor::tei:teiHeader)]">
         <xsl:sort select="count(key($tag, @key|@type))" order="descending"/>
@@ -175,7 +168,7 @@
           <xsl:when test="position() &gt; 200"/>
           <xsl:when test="@key">
             <a href="#" class="theme">
-              <xsl:value-of select="@key"/>
+              <xsl:value-of select="translate(@key, '_', ' ')"/>
             </a>
             <xsl:text> </xsl:text>
           </xsl:when>
