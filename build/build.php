@@ -218,20 +218,21 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
   static $role = array(
     "commanditaire" => "Commanditaires",
     "destinataire" => "Destinataires",
-    "organisation" => "Organisateurs",
-    "artificier" => "Artificiers",
-    "fournisseur" => "Fournisseurs",
-    "participant" => "Participants",
-    "spectateur" => "Spectateurs",
+    "organisation" => "Organisation",
+    "participant" => "Participant·e·s",
+    "spectateur" => "Spectateur·rice·s",
     "convive" => "Convives",
+    "acteur" => "Acteur·ice·s",
+    "chanteur" => "Chanteur·euse·s",
+    "danseur" => "Danseur·euse·s",
+    "musicien" => "Musicien·ne·s",
     
-    "auteur" => "Auteurs",
-    "imprimeur" => "Imprimeurs",
-    "dessinateur" => "Dessinateurs",
-    "acteur" => "Acteurs",
-    "chanteur" => "Chanteurs",
-    "musicien" => "Musiciens",
-    "danseur" => "Danseurs",
+    
+    "artificier" => "Artificier·ère·s",
+    "fournisseur" => "Fournisseurs",
+    "auteur" => "Auteur·rice·s",
+    "imprimeur" => "Imprimeur·euse·s",
+    "dessinateur" => "Dessinateur·rice·s",
     '' => 'Autres', 
   );
 
