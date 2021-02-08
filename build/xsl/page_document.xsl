@@ -27,9 +27,9 @@
               <xsl:apply-templates select="/*/tei:teiHeader[1]/tei:profileDesc[1]/tei:creation[1]"/>
               <xsl:apply-templates select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:*[not(self::tei:title)]"/>
               <xsl:apply-templates select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:bibl[1]/tei:note"/>
+              <xsl:call-template name="download"/>
               <xsl:apply-templates select="/tei:TEI/tei:sourceDoc"/>
               <xsl:apply-templates select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:notesStmt"/>
-              <xsl:call-template name="download"/>
             </xsl:when>
             <xsl:otherwise>
               <xsl:variable name="length" select="string-length(normalize-space(/tei:TEI/tei:text))"/>
@@ -39,6 +39,7 @@
                   <xsl:apply-templates select="/*/tei:teiHeader[1]/tei:profileDesc[1]/tei:creation[1]"/>
                   <xsl:apply-templates select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:*[not(self::tei:title)]"/>
                   <xsl:apply-templates select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:bibl[1]/tei:note"/>
+                  <xsl:call-template name="download"/>
                   <xsl:apply-templates select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:notesStmt"/>
                   <xsl:choose>
                     <xsl:when test="$length &lt; 700">
@@ -52,23 +53,22 @@
                             <xsl:with-param name="length" select="600"/>
                           </xsl:call-template>
                         </div>
-                        <div  class="textofiche">
-                          <span class="link">Texte intégral…</span>
-                        </div>
                       </a>
                     </xsl:otherwise>
                   </xsl:choose>
                 </div>
                 <div class="col-3">
-                  <xsl:call-template name="download"/>
                   <a>
                     <xsl:choose>
-                      <xsl:when test="$length &gt; 650">
+                      <xsl:when test="$length &gt; 700">
                         <xsl:attribute name="href">
                           <xsl:text>../texte/</xsl:text>
                           <xsl:value-of select="$filename"/>
                           <xsl:value-of select="$_html"/>
                         </xsl:attribute>
+                        <div  class="textofiche">
+                          <span class="link">Texte intégral ▶</span>
+                        </div>
                       </xsl:when>
                       <xsl:when test="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc//tei:ptr">
                         <xsl:attribute name="href">
@@ -187,7 +187,7 @@
           <!--
           <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
           -->
-          <xsl:text>Document source ▶</xsl:text>
+          <xsl:text>◀ Document source</xsl:text>
         </a>
       </div>
     </xsl:for-each>

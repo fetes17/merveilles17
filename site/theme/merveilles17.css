@@ -779,8 +779,6 @@ div.download {
   text-transform: uppercase;
   color: var(--bleu);
   font-weight: bold;
-  margin-bottom: 1rem;
-  text-align: right;
 }
 div.download a {
   color: var(--bleu);
@@ -807,7 +805,7 @@ a.textofiche {
 
 div.textofiche {
   text-align: right;
-  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 div.textofiche .link {
   text-transform: uppercase;
@@ -816,8 +814,9 @@ div.textofiche .link {
   font-weight: bold;
   padding: 1px 0.5rem;
 }
-a.textofiche:hover {
-  border-color: var(--bleu);
+a:hover .textofiche .link {
+  background: transparent;
+  color: var(--bleu);
 }
 
 a.theme {
