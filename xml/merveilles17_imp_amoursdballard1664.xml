@@ -980,11 +980,11 @@
             >Madame de Villequier</persName>, Mesdemoiselles de</p>
         <p><persName key="marie_brancas" role="danseur">Brancas</persName>, de <persName
             key="marie_rouxel_grancey" role="danseur">Grancé</persName>, de
-            <persName>Castelnau</persName>, de <persName key="anne_de_la_mothe_houdancourt"
+            <persName key="mlle_de_castelnau" role="danseur">Castelnau</persName>, de <persName key="anne_de_la_mothe_houdancourt"
             role="danseur">la Mothe,</persName></p>
         <p><persName key="mlle_d_ardennes" role="danseur">Dardennes</persName>, de <persName
             key="mlle_de_cologon" role="danseur">Cologeon</persName>, &amp; de
-            <persName>Pons</persName>.</p>
+            <persName key="mlle_de_pons" role="danseur">Pons</persName>.</p>
         <byline>Pour <persName key="marie_francoise_d_aumale" role="danseur">Mademoiselle
             d’Aumalle</persName>. <name key="flore" corresp="marie_francoise_d_aumale"
           >Flore</name>.</byline>
@@ -1010,7 +1010,7 @@
         <l>Et de ces Papillons la jeunesse étourdie</l>
         <l>Vole autour de mes fleurs qu’elle suceroit bien,</l>
         <l> Mais ils ne tiennent rien.</l>
-        <byline>Pour <persName>Mademoiselle de Castelnau</persName>.</byline>
+        <byline>Pour <persName key="mlle_de_castelnau" role="danseur">Mademoiselle de Castelnau</persName>.</byline>
         <l> Vous voila de bonne heure entre les belles choses,</l>
         <l>Ainsi croissent les fleurs &amp; viennent tout à coup,</l>
         <l>Et de vostre hauteur, il n’en est pas beaucoup</l>
@@ -1034,7 +1034,7 @@
         <l> Se déguisent en Zephyrs</l>
         <l>Pour quelqu’vne des fleurs qui parent cette Belle,</l>
         <l> Ie ne sçay pas pour laquelle.</l>
-        <byline><persName>Mademoiselle de Pons</persName>.</byline>
+        <byline><persName key="mlle_de_pons" role="danseur">Mademoiselle de Pons</persName>.</byline>
         <l>D'vne ame toûjours libre, &amp; desinteressée</l>
         <l>Dans l’échange des fleurs que nous faisons icy</l>
         <l> Si je donne quelque Pensée,</l>
@@ -1098,9 +1098,9 @@
             key="des_airs_fils1" role="danseur">le petit des-Airs</persName>, <persName key="favier"
             role="danseur">le petit Fauier</persName>,</p>
         <p>&amp; <persName key="de_lorges" role="danseur">de Lorge</persName>.</p>
-        <p><name key="amours">Filles</name>. Mesdemoiselles <persName>Chasteau d’Assier</persName>,
-          de <persName>Montlaur</persName>,</p>
-        <p>de <persName>Cambray</persName>, <persName>de la Vallée</persName>, &amp; <persName>de
+        <p><name key="amours">Filles</name>. Mesdemoiselles <persName key="mlle_chateau_assier" role="danseur">Chasteau d’Assier</persName>,
+          de <persName key="mlle_montlaur" role="danseur">Montlaur</persName>,</p>
+        <p>de <persName key="mlle_cambray" role="danseur">Cambray</persName>, <persName key="mlle_de_la_vallee" role="danseur">de la Vallée</persName>, &amp; <persName key="mlle_de_ribera" role="danseur">de
             Ribera</persName>.</p>
         <byline>Pour <name key="amours">les petits Amours</name>.</byline>
         <l> Ce ne sont pas là nos Tyrans,</l>
@@ -1253,7 +1253,7 @@
             key="helene">Elene</name>. Ces faux Grecs combattent vne troupe de Troyens qu’ils
           obligent à leur ceder.</p>
         <label type="head">Combat des Grecs, &amp; des Troyens.</label>
-        <p><name key="agamemnon">Agamemnon</name>. <persName>Le Duc de Guise</persName>. <name
+        <p><name key="agamemnon" corresp="henri_ii_de_guise">Agamemnon</name>. <persName key="henri_ii_de_guise" role="danseur">Le Duc de Guise</persName>. <name
             key="grec">Grecs</name>. Messieurs</p>
         <p><persName key="d_heureux" role="danseur">d’Heureux</persName>, <persName key="beauchamp"
             role="danseur">Beauchamp</persName>, les Sieurs <persName key="chicanneau"
@@ -1267,11 +1267,11 @@
         <p><persName key="la_marre" role="danseur">de la Marre</persName>, <persName key="paysan"
             role="danseur">Paysan</persName>, les Sieurs <persName key="le_chantre" role="danseur"
             >le Chantre</persName>,</p>
-        <p><persName key="des_airs_fils1" role="danseur">Des-Airs. 3me</persName> &amp; <persName>du
+        <p><persName key="des_airs_fils1" role="danseur">Des-Airs. 3me</persName> &amp; <persName key="du_feu" role="danseur">du
             Feu.</persName></p>
         <pb n="46" xml:id="p46" facs="https://gallica.bnf.fr/ark:/12148/bpt6k724678/f46"/>
-        <byline>Pour <persName key="charles_iii_lorraine_guise" role="danseur">le Duc de
-            Guise</persName>. <name key="agamemnon" corresp="henri_iii_lorraine_guise"
+        <byline>Pour <persName key="henri_ii_de_guise" role="danseur">le Duc de
+            Guise</persName>. <name key="agamemnon" corresp="henri_ii_de_guise"
             >Agamemnon</name>.</byline>
         <l> Dix ans n’estoient pas trop pour le siege de Troye,</l>
         <l>Dans vne passion s’ouffrez [sic] des maux cuisans,</l>
