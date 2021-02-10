@@ -72,6 +72,24 @@ for (var i = 0; i < matches.length; ++i) {
   }, false);
 }
 
+/** Role as a filter in the table */
+var personnes = document.getElementById('personnes');
+var matches = document.querySelectorAll("nav.roles a.role");
+for (var i = 0; i < matches.length; ++i) {
+  matches[i].addEventListener("click", function(e) {
+    e.stopPropagation();
+    var role = this.href.split("#")[1];
+    if (this.classList.contains("active")) {
+      this.classList.remove('active');
+      personnes.classList.remove(role);
+    }
+    else {
+      this.classList.add('active');
+      personnes.classList.add(role);
+    }
+  }, false);
+}
+
 class Merveilles17 {
 
   static init()

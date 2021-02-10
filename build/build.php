@@ -136,6 +136,7 @@ CREATE TABLE personne (
   occs           INTEGER,               -- ! nombre d’occurrences, calculé, pour tri
   PRIMARY KEY(id ASC)
 );
+CREATE INDEX personne_label ON personne(label);
 CREATE INDEX personne_occs ON personne(occs, code);
 CREATE INDEX personne_docs ON personne(docs, code);
 
@@ -154,7 +155,7 @@ CREATE TABLE personne_document (
 );
 CREATE INDEX personne_document_personne ON personne_document(personne);
 CREATE INDEX personne_document_document ON personne_document(document, personne_code);
-CREATE INDEX personne_document_role ON personne_document(role, personne, document, anchor);
+CREATE INDEX personne_document_role ON personne_document(personne, role, document, anchor);
 CREATE INDEX personne_document_docs ON personne_document(personne, role_code, document);
 CREATE INDEX personne_document_occs ON personne_document(personne, role_code);
 
@@ -216,24 +217,24 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
   );
   
   static $role = array(
-    "commanditaire" => "Commanditaires",
-    "destinataire" => "Destinataires",
+    "commanditaire" => "Commanditaire",
+    "destinataire" => "Destinataire",
     "organisation" => "Organisation",
-    "participant" => "Participant·e·s",
-    "spectateur" => "Spectateur·rice·s",
-    "convive" => "Convives",
-    "acteur" => "Acteur·ice·s",
-    "chanteur" => "Chanteur·euse·s",
-    "danseur" => "Danseur·euse·s",
-    "musicien" => "Musicien·ne·s",
+    "participant" => "Participant·e",
+    "spectateur" => "Spectateur·rice",
+    "convive" => "Convive",
+    "acteur" => "Acteur·ice",
+    "chanteur" => "Chanteur·euse",
+    "danseur" => "Danseur·euse",
+    "musicien" => "Musicien·ne",
     
     
-    "artificier" => "Artificier·ère·s",
-    "fournisseur" => "Fournisseurs",
-    "auteur" => "Auteur·rice·s",
-    "imprimeur" => "Imprimeur·euse·s",
+    "artificier" => "Artificier·ère",
+    "fournisseur" => "Fournisseur",
+    "auteur" => "Auteur·rice",
+    "imprimeur" => "Imprimeur·euse",
     // "dessinateur" => "Dessinateur·rice·s",
-    '' => 'Autres', 
+    '' => '(non précisé)', 
   );
 
   
@@ -905,61 +906,59 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
 <div class="col-9">';
     
     // boucler sur les roles
-    $qrole = self::$pdo->prepare("SELECT DISTINCT personne FROM personne_document WHERE role_code = ? ORDER BY personne_code;");
+    $qpers = self::$pdo->prepare("
+    SELECT personne.*, role_code, COUNT(DISTINCT personne_document.document) AS role_docs, COUNT(*) as role_occs 
+        FROM personne_document, personne 
+        WHERE personne_document.personne = personne.id 
+        GROUP BY personne, role
+        ORDER BY personne.label;");
 
-    $qpers = self::$pdo->prepare("SELECT * FROM personne WHERE id = ?;");
-    $qdocs = self::$pdo->prepare("SELECT COUNT(DISTINCT document) FROM personne_document WHERE personne = ? AND role_code = ?;");
-    $qoccs = self::$pdo->prepare("SELECT COUNT(*) FROM personne_document WHERE personne = ? AND role_code = ?;");
-    foreach(array_keys(self::$role) as $role_code) {
-      $idrole = ($role_code)?$role_code:"autres";
       $index .= '
-  <section id="'.$idrole.'">
-    <div>
-      <h2>'.self::$role[$role_code].'</h2>
-    </div>
 ';
       $index .= '
-    <table class="sortable">
+    <table class="sortable" id="personnes">
       <thead>
         <tr>
           <th class="label" width="100%">Personne</th>
           <th title="Nombre de documents">Rôle</th>
-          <th class="docs" title="Nombre de documents">docs.</th>
-          <th class="occs" title="Nombre d’occurrences">occs.</th>
+          <th class="docs" title="Nombre de documents où une personne apparait en tenant ce rôle">docs.</th>
+          <th class="occs" title="Nombre d’occurrences  où une personne apparait en tenant ce rôle">occs.</th>
         </tr>
       </thead>
       <tbody>
 ';
-      $qrole->execute(array($role_code));
-      while ($result = $qrole->fetch(PDO::FETCH_ASSOC)) {
-        $personne = $result['personne'];
-        // personne non encore renseignée
-        if (!$personne) continue;
-        $qpers->execute(array($personne));
-        $row = $qpers->fetch(PDO::FETCH_ASSOC);
-        $qdocs->execute(array($personne, $role_code));
-        list($docs) = $qdocs->fetch();
-        $qoccs->execute(array($personne, $role_code));
-        list($occs) = $qoccs->fetch();
-        $index .= self::trPers($row, $docs, $occs);
+      $qpers->execute();
+      while ($row = $qpers->fetch(PDO::FETCH_ASSOC)) {
+        $date = '';
+        if ($row['birth'] && $row['death']) $date = ' ('.$row['birth'].' – '.$row['death'].')';
+        else if ($row['birth']) $date = ' ('.$row['birth'].' – ?)';
+        else if ($row['death']) $date = ' (? – '.$row['birth'].')';
+        if (!$row['label']) $row['label'] = '[<i>'.$row['code'].'</i>]';
+        $code = $row['role_code'];
+        if (!$code) $code = 'none';
+        $index .= '
+        <tr class="'.$code.'">
+          <td class="label"><a href="'.$row['code'].self::$_html.'">'.$row['label'].$date.'</a></td>
+          <td class="role '.$code.'">'.self::$role[$row['role_code']].'</td>
+          <td class="docs">'.$row['role_docs'].'</td>
+          <td class="occs">'.$row['role_occs'].'</td>
+        </tr>';
+
       }
       $index .= '
       </tbody>
     </table>
     <p> </p>
-  </section>
     ';
-    }
     
       $index .= '
     <p> </p>
-  </section>
   </div>
   <div class="col-3">
     <nav class="roles">
 ';
       foreach(self::$role as $code => $label) {
-        if (!$code) $code = "autres";
+        if (!$code) $code = "none";
         $index .= '<a class="role" href="#'.$code.'">'.$label.'</a>'."\n";
       }
       $index .= '
@@ -971,20 +970,6 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
     file_put_contents(self::$home."site/personne/index.html", str_replace("%main%", $index, $template));
   }
 
-  public static function trPers($row, $docs, $occs)
-  {
-    $date = '';
-    if ($row['birth'] && $row['death']) $date = ' ('.$row['birth'].' – '.$row['death'].')';
-    else if ($row['birth']) $date = ' ('.$row['birth'].' – ?)';
-    else if ($row['death']) $date = ' (? – '.$row['birth'].')';
-    if (!$row['label']) $row['label'] = '[<i>'.$row['code'].'</i>]';
-    return'
-      <tr>
-        <td class="label"><a href="'.$row['code'].self::$_html.'">'.$row['label'].$date.'</a></td>
-        <td class="docs">'.$docs.'</td>
-        <td class="occs">'.$occs.'</td>
-      </tr>';
-  }
   
   /**
    * Générer les pages lieux

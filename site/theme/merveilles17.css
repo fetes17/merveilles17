@@ -462,8 +462,22 @@ nav .role,
   padding: 1rem;
   margin-bottom: 3px;
   text-transform: uppercase;
-  border: 1px solid var(--gris);
+  border: 1px solid var(--grege);
 }
+
+nav .role {
+  background-color: transparent;
+}
+nav a.role:hover {
+  border-color: #000;
+}
+
+
+nav a.role:hover,
+nav a.role.active {
+  background-color: var(--gris);
+}
+
 
 .caldate.active,
 .caldate:hover {
@@ -1239,6 +1253,43 @@ table.sortable {
 }
 
 
+.sortable.commanditaire tbody tr,
+.sortable.destinataire tbody tr,
+.sortable.organisation tbody tr,
+.sortable.participant tbody tr,
+.sortable.spectateur tbody tr,
+.sortable.convive tbody tr,
+.sortable.acteur tbody tr,
+.sortable.chanteur tbody tr,
+.sortable.danseur tbody tr,
+.sortable.musicien tbody tr,
+.sortable.artificier tbody tr,
+.sortable.fournisseur tbody tr,
+.sortable.auteur tbody tr,
+.sortable.imprimeur tbody tr,
+.sortable.none tbody tr {
+  display: none;
+}
+
+.sortable.commanditaire tr.commanditaire,
+.sortable.destinataire tr.destinataire,
+.sortable.organisation tr.organisation,
+.sortable.participant tr.participant,
+.sortable.spectateur tr.spectateur,
+.sortable.convive tr.convive,
+.sortable.acteur tr.acteur,
+.sortable.chanteur tr.chanteur,
+.sortable.danseur tr.danseur,
+.sortable.musicien tr.musicien,
+.sortable.artificier tr.artificier,
+.sortable.fournisseur tr.fournisseur,
+.sortable.auteur tr.auteur,
+.sortable.imprimeur tr.imprimeur,
+.sortable.none tr.none {
+  display: table-row;
+}
+
+
 .sortable tr td {
   border: none;
   border-top: 1px solid transparent;
@@ -1248,6 +1299,11 @@ table.sortable {
 .sortable tr:hover td {
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
+}
+
+tr.mod3 td,
+tr.mod8 td {
+  background-color: var(--grege);
 }
 
 

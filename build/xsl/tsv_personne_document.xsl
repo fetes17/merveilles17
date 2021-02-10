@@ -4,7 +4,10 @@
   <xsl:param name="filename"/>
   <xsl:output indent="yes" encoding="UTF-8" method="text" omit-xml-declaration="yes"/>
   <xsl:template match="/">
-    <xsl:for-each select="/tei:TEI/tei:text//tei:persName | /tei:TEI/tei:sourceDoc//tei:persName">
+    <xsl:for-each select="/tei:TEI/tei:text//tei:persName 
+      | /tei:TEI/tei:sourceDoc//tei:persName  
+      | /tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt//tei:*[@key]
+      ">
       <xsl:call-template name="split"/>
     </xsl:for-each>
   </xsl:template>
