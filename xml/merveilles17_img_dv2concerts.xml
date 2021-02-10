@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
+<?xml-stylesheet type="text/css" href="../tei-author.css" alternate="author"?>
+<?xml-model href="../merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Seconde journée des Divertissemens de Versailles. Concerts de musique.</title>
+                <author key="chauveau">Chauveau François (1613-1676)</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Merveilles17</edition>
+                <respStmt>
+                    <name>Gaëlle Lafage</name>
+                    <resp>Encodage</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Université d’Artois - Lille, MESHS</publisher>
+                <date when="2019"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note>Cette estampe se trouve également reliée dans <ref
+                        target="merveilles17_imp_dv-felibien1676.xml">le livre de la fête publié en
+                        1676 par l'imprimerie royale</ref>.</note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl>François Chauveau, <title>Seconde journée des Divertissemens de Versailles.
+                        Concerts de musique.</title>. <note>Estampe,
+                            <pubPlace>Paris</pubPlace>, BNF, Estampes, RESERVE QB-201 (46)-FOL,
+                        Hennin 4732</note>
+                    <ptr target="https://gallica.bnf.fr/ark:/12148/btv1b84051993/f1"/></bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Réserve du Département des Estampes et de la
+                            photographie</repository>
+                        <idno>RESERVE QB-201 (46)-FOL, Hennin, 4732</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <author key="chauveau">Chauveau François (1613-1676)</author>
+                            <title>Seconde journée des Divertissemens de Versailles. Concerts de
+                                musique.</title>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="estampe">
+                            <supportDesc> </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date notBefore="1675">1675</date>
+            </creation>
+        </profileDesc>
+    </teiHeader>
+    <sourceDoc>
+        <figure xml:id="dv2concerts">
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84051993/f1/1114,718,6704,4688/full/0/default.jpg"/>
+
+
+            <figDesc><tech type="decor"/><tech type="decor"/></figDesc>
+            <head><date when="1674-07-11">Seconde journée</date>.</head>
+            <p>Concerts de musique, sous une <tech type="construction">feüillée faite en forme de
+                    Salon</tech>, <tech type="decor">ornée de fleurs</tech>, dans le <placeName
+                    key="versailles_trianon">Jardin de Trianon</placeName>.</p>
+            <head><foreign xml:lang="la">Dies Secundus</foreign></head>
+            <p><foreign xml:lang="la">Varii musicorum concertus sub frondea concameratione floribus
+                    intertexta, in hortis a Trianone dictis.</foreign></p>
+            <byline><persName key="chauveau" role="auteur">F. Chauveau</persName>, <foreign
+                    xml:lang="la">scul.</foreign>
+                <date when="1676">1675</date>.</byline>
+        </figure>
+    </sourceDoc>
+</TEI>
