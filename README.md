@@ -22,6 +22,7 @@
 * [merveilles17_img_bradamante_001.xml](https://fetes17.github.io/merveilles17/xml/merveilles17_img_bradamante_001.xml)
 * [merveilles17_img_bradamante_002.xml](https://fetes17.github.io/merveilles17/xml/merveilles17_img_bradamante_002.xml)
 * [merveilles17_img_dv1alceste.xml](https://fetes17.github.io/merveilles17/xml/merveilles17_img_dv1alceste.xml)
+* [merveilles17_img_dv2concerts.xml](https://fetes17.github.io/merveilles17/xml/merveilles17_img_dv2concerts.xml)
 * [merveilles17_img_pie1comparse.xml](https://fetes17.github.io/merveilles17/xml/merveilles17_img_pie1comparse.xml)
 * [merveilles17_img_pie1course.xml](https://fetes17.github.io/merveilles17/xml/merveilles17_img_pie1course.xml)
 * [merveilles17_img_pie1festin.xml](https://fetes17.github.io/merveilles17/xml/merveilles17_img_pie1festin.xml)
