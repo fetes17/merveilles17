@@ -232,7 +232,7 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
     "fournisseur" => "Fournisseurs",
     "auteur" => "Auteur·rice·s",
     "imprimeur" => "Imprimeur·euse·s",
-    "dessinateur" => "Dessinateur·rice·s",
+    // "dessinateur" => "Dessinateur·rice·s",
     '' => 'Autres', 
   );
 
@@ -923,8 +923,9 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
       <thead>
         <tr>
           <th class="label" width="100%">Personne</th>
-          <th class="docs" title="Nombre de documents">documents</th>
-          <th class="occs" title="Nombre d’occurrences">occurrences</th>
+          <th title="Nombre de documents">Rôle</th>
+          <th class="docs" title="Nombre de documents">docs.</th>
+          <th class="occs" title="Nombre d’occurrences">occs.</th>
         </tr>
       </thead>
       <tbody>

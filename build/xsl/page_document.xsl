@@ -177,6 +177,35 @@
     </div>
   </xsl:template>
 
+  <!-- Ne pas sortir les descriptions d’images ici -->
+  <xsl:template match="tei:sourceDoc//tei:figDesc"/>
+
+  <xsl:template match="tei:ref">
+    <!--
+    <ref target="../xml/merveilles17_img_stockp22_030.xml">
+    -->
+    <xsl:variable name="target">
+      <xsl:if test="contains(@target, 'merveilles17_')">
+        <xsl:text>merveilles17_</xsl:text>
+        <xsl:value-of select="substring-before(substring-after(@target, 'merveilles17_'), '.xml')"/>
+      </xsl:if>
+    </xsl:variable>   
+    <a>
+      <xsl:attribute name="href">
+        <xsl:choose>
+          <xsl:when test="$target != ''">
+            <xsl:value-of select="$target"/>
+            <xsl:text>.html</xsl:text>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:value-of select="@target"/>
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:attribute>
+      <xsl:apply-templates/>
+    </a>
+  </xsl:template>
+
   <xsl:template name="download">
     <xsl:for-each select="(/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc//tei:ptr)[1]">
       <div class="download">
@@ -252,11 +281,6 @@
     </figure>
   </xsl:template>
 
-  <xsl:template match="tei:figDesc">
-    <figcaption>
-      <xsl:apply-templates/>
-    </figcaption>
-  </xsl:template>
 
   <xsl:template match="tei:graphic">
     <img src="{@url}"/>
