@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
+<?xml-stylesheet type="text/css" href="../tei-author.css" alternate="author"?>
+<?xml-model href="../merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Première journée des Divertissemens de Versailles. Alceste tragédie en
+                    musique ornée d'entrées de ballet</title>
+                <author key="lepautre">Lepautre, Jean (1618-1682)</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Merveilles17</edition>
+                <respStmt>
+                    <name>Gaëlle Lafage</name>
+                    <resp>Encodage</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Université d’Artois - Lille, MESHS</publisher>
+                <date when="2019"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note>Cette estampe se trouve également reliée dans <ref
+                        target="merveilles17_imp_dv-felibien1676.xml">le livre de la fête publié en
+                        1676 par l'imprimerie royale</ref>.</note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl>Jean Lepautre, <title>Première journée des Divertissemens de Versailles.
+                        Alceste tragédie en musique ornée d'entrées de ballet</title>.
+                        <note>Estampe, <pubPlace>Paris</pubPlace>, BNF, Estampes, RESERVE QB-201
+                        (46)-FOL, Hennin 4731</note>
+                    <ptr target="https://gallica.bnf.fr/ark:/12148/btv1b8405198p/f1"/></bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Réserve du Département des Estampes et de la
+                            photographie</repository>
+                        <idno>RESERVE QB-201 (46)-FOL, Hennin, 4209</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <author key="lepautre">Lepautre, Jean (1618-1682)</author>
+                            <title>Première journée des Divertissemens de Versailles. Alceste
+                                tragédie en musique ornée d'entrées de ballet</title>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="estampe">
+                            <supportDesc> </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date notBefore="1676">1676</date>
+            </creation>
+        </profileDesc>
+    </teiHeader>
+    <sourceDoc>
+        <figure xml:id="dv1alceste">
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8405198p/f1/1342,858,6872,5056/full/0/default.jpg"/>
+
+
+            <figDesc><tech type="construction"/><tech type="decor"/><tech type="decor"/><tech
+                    type="lumieres"/></figDesc>
+            <head><date when="1674-07-04">Première journée</date>.</head>
+            <p>Alceste, Tragedie en musique, ornée d'entrées de Ballet, représentée à <placeName
+                    key="versailles_cour">Versailles dans la cour de marbre du Chasteau</placeName>
+                <tech type="lumieres">éclairé depuis le haut jusqu'en bas d'une infinité de
+                    lumieres</tech>.</p>
+            <head><foreign xml:lang="la">Dies Primus</foreign></head>
+            <p><foreign xml:lang="la">Alcestes Tragaedia, perpetuo cantu et variis Saltationibus
+                    decorata, in marmoreo Palatii Versaliarum cauaedio, undequaque facibus accensis
+                    illuminati, acta.</foreign></p>
+            <byline><persName key="lepautre" role="auteur">le Pautre</persName>, <foreign
+                    xml:lang="la">sculps.</foreign>
+                <date when="1676">1676</date>.</byline>
+        </figure>
+    </sourceDoc>
+</TEI>
