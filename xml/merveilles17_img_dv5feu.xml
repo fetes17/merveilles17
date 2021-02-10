@@ -6,8 +6,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Troisième journée des Divertissemens de Versailles. Le Malade Imaginaire,
-                    comédie représentée dans le jardin.</title>
+                <title>Cinquième journée des Divertissemens de Versailles. Feu d'artifice sur le
+                    canal.</title>
                 <author key="lepautre">Lepautre, Jean (1618-1682)</author>
             </titleStmt>
             <editionStmt>
@@ -30,11 +30,10 @@
                         1676 par l'imprimerie royale</ref>.</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>Jean Lepautre, <title>Troisième journée des Divertissemens de Versailles. Le
-                        Malade Imaginaire, comédie représentée dans le jardin.</title>.
-                        <note>Estampe, <pubPlace>Paris</pubPlace>, BNF, Estampes, RESERVE QB-201
-                        (46)-FOL, Hennin 4733</note>
-                    <ptr target="https://gallica.bnf.fr/ark:/12148/btv1b84052009/f1"/></bibl>
+                <bibl>Jean Lepautre, <title>Cinquième journée des Divertissemens de Versailles. Feu
+                        d'artifice sur le canal.</title>. <note>Estampe, <pubPlace>Paris</pubPlace>,
+                        BNF, Estampes, RESERVE QB-201 (46)-FOL, Hennin 4735</note>
+                    <ptr target="https://gallica.bnf.fr/ark:/12148/btv1b84052024/f1"/></bibl>
                 <msDesc>
                     <msIdentifier>
                         <country>France</country>
@@ -42,13 +41,13 @@
                         <institution>Bibliothèque nationale de France</institution>
                         <repository>Réserve du Département des Estampes et de la
                             photographie</repository>
-                        <idno>RESERVE QB-201 (46)-FOL, Hennin, 4733</idno>
+                        <idno>RESERVE QB-201 (46)-FOL, Hennin, 4735</idno>
                     </msIdentifier>
                     <msContents>
                         <msItem>
                             <author key="lepautre">Lepautre, Jean (1618-1682)</author>
-                            <title>Troisième journée des Divertissemens de Versailles. Le Malade
-                                Imaginaire, comédie représentée dans le jardin.</title>
+                            <title>Cinquième journée des Divertissemens de Versailles. Feu
+                                d'artifice sur le canal.</title>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -66,20 +65,17 @@
         </profileDesc>
     </teiHeader>
     <sourceDoc>
-        <figure xml:id="dv3comedie">
+        <figure xml:id="dv5feu">
             <graphic
-                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84052009/f1/1276,575,6776,4640/full/0/default.jpg"/>
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84052024/f1/798,768,6896,4992/full/0/default.jpg"/>
 
 
-            <figDesc><tech type="decor"/><tech type="construction"/><tech type="lumieres"
-                /></figDesc>
-            <head><date when="1674-07-19">Troisiéme journée</date>.</head>
-            <p>Le Malade imaginaire, Comedie representée dans le <placeName key="versailles_jardins"
-                    >Jardin de Versailles</placeName> deuant <placeName
-                    key="versailles_jardins_grotte-thetis">la Grotte</placeName>.</p>
-            <head><foreign xml:lang="la">Dies tertius</foreign></head>
-            <p><foreign xml:lang="la">Dokesinoson, feu aeger imaginarius, Comoedia acta in hortis
-                    Versaliarum ad fores Cryptae.</foreign></p>
+            <figDesc><tech type="decor"/><tech type="construction"/><tech type="eaux"/><tech type="machine_eau"></tech></figDesc>
+            <head><date when="1674-08-18">Cinquiéme journée</date>.</head>
+            <p><tech type="feux-artifice">Feu d'artifice</tech> sur <placeName
+                    key="versailles_canal">le Canal de Versailles</placeName>.</p>
+            <head><foreign xml:lang="la">Dies Quintus</foreign></head>
+            <p><foreign xml:lang="la">Incendium ludierum è pyrio puluere super Alueum Versaliarum</foreign>.</p>
             <byline><persName key="lepautre" role="auteur">le Pautre</persName>, <foreign
                     xml:lang="la">sculps.</foreign>
                 <date when="1676">1676</date>.</byline>
