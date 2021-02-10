@@ -11,7 +11,8 @@
           autres festes galantes et magnifiques faites par le Roy a Versailles le VII. May
           M.DC.LXIV. et continuées plusieurs autres jours</title>
         <author key="benserade">Benserade, Isaac de (1613-1691)</author>
-        <author key="moliere">Poquelin Jean-Baptiste, dit Molière (1622-1673)</author>
+        <author key="moliere">Molière, Poquelin Jean-Baptiste, dit (1622-1673)</author>
+        <author key="chauveau">Chauveau, François (1613-1676)</author>
         <author key="lepautre">Lepautre, Jean (1618-1682)</author>
         <author key="isilvestre">Silvestre, Israël (1621-1691).</author>
         <editor key="imprimerie_royale" role="imprimeur">Imprimerie royale</editor>
@@ -39,11 +40,11 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl>Isaac de Benserade, Jean-Baptiste Poquelin, dit Molière, Jean Lepautre et Israël
-          Silvestre, <title>Les plaisirs de l’isle enchantée. Course de bague; collation ornée de
-            machines; comedie, meslée de danse et de musique; ballet du palais d’Alcine; feu
-            d’artifice; et autres festes galantes et magnifiques faites par le Roy a Versailles le
-            VII. May M.DC.LXIV. et continuées plusieurs autres jours</title>,
+        <bibl>Isaac de Benserade, Jean-Baptiste Poquelin, dit Molière, François Chauveau, Jean
+          Lepautre et Israël Silvestre, <title>Les plaisirs de l’isle enchantée. Course de bague;
+            collation ornée de machines; comedie, meslée de danse et de musique; ballet du palais
+            d’Alcine; feu d’artifice; et autres festes galantes et magnifiques faites par le Roy a
+            Versailles le VII. May M.DC.LXIV. et continuées plusieurs autres jours</title>,
               <note><pubPlace>Paris</pubPlace>, <publisher>imprimerie royale</publisher>,
               <date>1673</date>, Paris, BNF, Tolbiac, RES-V-498.</note><ptr
             target="https://gallica.bnf.fr/ark:/12148/btv1b8626216h"/></bibl>
@@ -70,7 +71,7 @@
   </teiHeader>
   <text>
     <front>
-      <pb xml:id="np1" n="np" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f9"/>
+      <pb xml:id="np1" n="np" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626216h/f11"/>
       <titlePage>
         <docTitle>
           <titlePart>LES PLAISIRS DE L’ISLE ENCHANTÉE. COURSE DE BAGUE ; COLLATION ORNÉE DE
@@ -79,7 +80,7 @@
             LE VII. MAY M. DC. LXIV. ET CONTINUÉES PLUSIEURS AUTRES JOURS.</titlePart>
         </docTitle>
         <docImprint>A PARIS. DE L'IMPRIMERIE ROYALE.</docImprint>
-        <docDate>M. DC. LXXIII.</docDate>
+        <docDate><date when="1673">M. DC. LXXIII.</date></docDate>
       </titlePage>
     </front>
     <body>
@@ -90,6 +91,13 @@
         <ptr target="merveilles17_img_piefront.xml#piefront" type="include"/>
 
         <pb n="3" xml:id="p3" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626216h/f16"/>
+        <figure>
+          <graphic
+            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8626216h/f16/702,712,2392,1179/full/0/default.jpg"/>
+          <figDesc/>
+          <byline><persName key="chauveau" role="auteur">F. Chauueau</persName> inu. et
+            fec.</byline>
+        </figure>
         <head>LES PLAISIRS DE L’ISLE ENCHANTÉE. COURSE DE BAGUE ; COLLATION ORNÉE DE MACHINES ;
           COMEDIE, MESLÉE DE DANSE ET DE MUSIQUE ; BALLET DU PALAIS D’ALCINE ; FEU D’ARTIFICE : ET
           AUTRES FESTES GALANTES ET MAGNIFIQUES, FAITES PAR LE ROY A VERSAILLES, LE VII. MAY M. DC.
@@ -1751,16 +1759,17 @@ Est‑ce des personnages ?-->Monstres Celestes,
           aux rochers ; &amp; faisant retentir par tout le beau nom de sa Bergere <name key="philis"
             corresp="madeleine_bejart">Philis</name>, un Echo ridicule luy répondant bizarement, il
           y prit si grand plaisir, que riant en cent maniéres, il fit répondre autant de fois cét
-          Echo, sans témoigner d’en estre ennuyé. Mais <tech type="animal"><name key="ours">un Ours</name></tech> vint
-          interrompre ce beau divertissement, &amp; le surprit si fort par cette veûë peu attenduë,
-          qu’il donna des sensibles marques de sa peur. Il luy fit faire devant <tech type="animal"
-            >l’Ours</tech> toutes les soûmissions dont il se pût aviser, pour l’adoucir. Enfin, se
-          jettant à un arbre pour y monter ; comme il vit que <tech type="animal"><name key="ours">l’Ours</name></tech> y
-          vouloit grimper aussi bien que luy ; il cria au secours d’une voix si haute, qu’elle
-          attira <name key="berger">huit Païsans</name> armez de bastons à deux bouts &amp;
-          d’épieux, pendant qu’<tech type="animal"><name key="ours">un autre Ours</name></tech> parut en suite du premier.
-          Il se fit un Combat qui finit par la mort d’<tech type="animal"><name key="ours">un des Ours</name></tech>, &amp;
-          par la fuite de l’autre.</p>
+          Echo, sans témoigner d’en estre ennuyé. Mais <tech type="animal"><name key="ours">un
+              Ours</name></tech> vint interrompre ce beau divertissement, &amp; le surprit si fort
+          par cette veûë peu attenduë, qu’il donna des sensibles marques de sa peur. Il luy fit
+          faire devant <tech type="animal">l’Ours</tech> toutes les soûmissions dont il se pût
+          aviser, pour l’adoucir. Enfin, se jettant à un arbre pour y monter ; comme il vit que
+            <tech type="animal"><name key="ours">l’Ours</name></tech> y vouloit grimper aussi bien
+          que luy ; il cria au secours d’une voix si haute, qu’elle attira <name key="berger">huit
+            Païsans</name> armez de bastons à deux bouts &amp; d’épieux, pendant qu’<tech
+            type="animal"><name key="ours">un autre Ours</name></tech> parut en suite du premier. Il
+          se fit un Combat qui finit par la mort d’<tech type="animal"><name key="ours">un des
+              Ours</name></tech>, &amp; par la fuite de l’autre.</p>
         <label type="head">SCENE PREMIERE.</label>
         <label type="speaker"><name key="moron" corresp="moliere"><hi rend="sc"
           >Moron</hi></name>.</label>
@@ -1786,7 +1795,8 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <p>Voilà un echo qui est boufon. Hom hom hom. ha ha ha ha.</p>
         <p>uh uh uh. Voilà un echo qui est boufon.</p>
         <label type="head">SCENE DEUXIEME.</label>
-        <p><tech type="animal"><name key="ours">UN OURS</name></tech>.<name key="moron" corresp="moliere">MORON</name>.</p>
+        <p><tech type="animal"><name key="ours">UN OURS</name></tech>.<name key="moron"
+            corresp="moliere">MORON</name>.</p>
         <label type="speaker"><name key="moron" corresp="moliere"><hi rend="sc"
           >Moron</hi></name>.</label>
         <p rend="dropcap">AH ! <name key="ours">Monsieur l’Ours</name>, je suis vostre serviteur de
@@ -1813,8 +1823,8 @@ Est‑ce des personnages ?-->Monstres Celestes,
           &amp; fit tout ce qu’un fanfaron, qui n’auroit pas esté trop hardy, eust pû faire en cette
           occasion; &amp; les Chasseurs, pour témoigner leur joie, danserent une fort belle Entrée.
           C’estoient les <persName key="chicanneau" role="danseur">Sieurs Chicanneau</persName>,
-            <persName key="balthazar" role="danseur">Baltazard</persName>, <persName
-            key="noblet" role="danseur">Noblet</persName>, <persName key="bonard" role="danseur"
+            <persName key="balthazar" role="danseur">Baltazard</persName>, <persName key="noblet"
+            role="danseur">Noblet</persName>, <persName key="bonard" role="danseur"
             >Bonard</persName>, <persName key="manceau" role="danseur">Manceau</persName>, <persName
             key="magny" role="danseur">Magny</persName>, &amp; <persName key="la_pierre"
             role="danseur">la Pierre</persName>.</p>
@@ -2037,23 +2047,21 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <p>Ma Fille, tu as tort de prendre de telles allarmes, &amp; je me plains de toy qui peux
           mettre dans ta pensée que je sois assez mauuais Père pour vouloir faire violence à tes
           sentimens, &amp; me servir tiranniquement de la puissance que le Ciel me donne sur toy. Je
-          souhaite à la vérité que ton cœur puisse aimcr quelqu’un. Tous mes voeux seroient
+          souhaite à la vérité que ton cœur puisse aimer quelqu’un. Tous mes vœx seroient
           satisfaits, si cela pouvoit arriver ; &amp; je n’ay proposé les Festes et les Jeux que je
           fais celebrer icy, qu’afin d’y pouvoir attirer tout ce que la Grece a d’illustre, &amp;
-          que parmi cette noble jeunesse, tu puisse enfin rencontrer où arrester tes yeux, &amp;
+          que parmi cette noble jeunesse, tu puisses enfin rencontrer où arrester tes yeux, &amp;
           déterminer tes pensées. Je ne demande, dis-je, au Ciel autre bonheur, que celuy de te voir
           un époux. J'ay, pour obtenir cette grace, fait encore ce matin un sacrifice à Venus; &amp;
           si je sçay bien expliquer le langage des Dieux, elle m’a promis un miracle. Mais,
           quoy-qu’il en soit, je veux en user avec toy en Pere qui cherit sa Fille. Si tu trouves où
           attacher tes vœux ; ton choix sera le mien, &amp; je ne considereray ny interests d’Estat,
           ny avantages d’alliance. Si ton cœur demeure sensible ; je n’entreprendray point de le
-          forcer. Mais au</p>
-        <pb n="47" xml:id="p47" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626216h/f78"/>
-        <p>moins sois complaisante aux civilitez qu’on te rend, &amp; ne m’oblige point à faire les
-          excuses de</p>
-        <p>ta froideur. Traite ces Princes avec l’estime que tu leur dois ; reçois avec
-          reconnoissance les témoignages de leur zele ; &amp; viens voir cette Course où leur
-          adresse va paroistre.</p>
+          forcer. Mais au <pb n="47" xml:id="p47"
+            facs="https://gallica.bnf.fr/ark:/12148/btv1b8626216h/f78"/>moins sois complaisante aux
+          civilitez qu’on te rend, &amp; ne m’oblige point à faire les excuses de ta froideur.
+          Traite ces Princes avec l’estime que tu leur dois ; reçois avec reconnoissance les
+          témoignages de leur zele ; &amp; viens voir cette Course où leur adresse va paroistre.</p>
         <label type="speaker"><name key="theocle" corresp="louis_bejart">THEOCLE</name>.</label>
         <p>Tout le monde va faire des efforts pour emporter le prix de cette Course : mais, à vous
           dire vrai, j’ay peu d’ardeur pour la victoire, puisque ce n’est pas vostre cœur qu’on y
@@ -2067,7 +2075,7 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <p>Pour moy, Madame, je n’y vais point du tout avec cette pensée. Comme j’ay fait toute ma
           vie profession de ne rien aimer, tous les soins que je prens ne vont point où tendent les
           autres. Je n’ay aucune prétention sur vostre cœur ; &amp; le seul honneur de la Course est
-          tout l’avantage où j’aspire.</p>
+          tout l’avantage où j’aspire.<note place="margin">Ils la quittent</note></p>
         <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA
             PRINCESSE</name>.</label>
         <p>D'où sort cette fierté, où l’on ne s’attendoit point? Princesses, que dites-vous de ce
@@ -2078,18 +2086,17 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <p>Ah ! quelle brave botte il vient là de luy porter !</p>
         <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA
             PRINCESSE</name>.</label>
-        <p>Ne trouvez-vous pas qu’il y auroit plaisir d’abbaisser son orgueil, &amp; de soûmettre un
+        <p>Ne trouvez-vous pas qu’il y auroit plaisir d’abbaisser son orgueïl, &amp; de soûmettre un
           peu ce cœur qui tranche tant du brave ?</p>
         <label type="speaker"><name key="cinthie" corresp="mlle_de_brie">CINTHIE</name>.</label>
-        <p>Comme vous estes accoustumée à ne jamais</p>
-        <p>recevoir que des</p>
-        <pb n="48" xml:id="p48" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626216h/f79"/>
-        <p>hommages &amp; des adorations de tout le monde, un compliment pareil au sien doit vous
-          surprendre à la vérité.</p>
+        <p>Comme vous estes accoustumée à ne jamais recevoir que des <pb n="48" xml:id="p48"
+            facs="https://gallica.bnf.fr/ark:/12148/btv1b8626216h/f79"/>hommages &amp; des
+          adorations de tout le monde, un compliment pareil au sien doit vous surprendre à la
+          vérité.</p>
         <label type="speaker"><name key="princesse_d_elide" corresp="armande_bejart">LA
             PRINCESSE</name>.</label>
         <p>Je vous avouë que cela m’a donné de l’émotion, &amp; que je souhaiterois fort de trouver
-          les moyens de chastier cette hauteur. Ie n’avois pas beaucoup d’envie de me trouuer à
+          les moyens de chastier cette hauteur. Je n’avois pas beaucoup d’envie de me trouver à
           cette Course; mais j’y veux aller exprés, &amp; employer toute chose pour luy donner de
           l’amour.</p>
         <label type="speaker"><name key="cinthie" corresp="mlle_de_brie">CINTHIE</name>.</label>
@@ -2105,7 +2112,7 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <p><name key="moron" corresp="moliere">MORON</name>. <name key="philis"
             corresp="madeleine_bejart">PHILIS</name>.</p>
         <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
-        <p><name key="philis" corresp="madeleine_bejart">PHILIS</name>, demeure icy.</p>
+        <p rend="dropcap"><name key="philis" corresp="madeleine_bejart">PH<hi rend="sc">ILIS</hi></name>, demeure icy.</p>
         <label type="speaker"><name key="philis" corresp="madeleine_bejart">PHILIS</name>.</label>
         <p>Non ; laisse-moy suivre les autres.</p>
         <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
@@ -2145,11 +2152,11 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <label type="speaker"><name key="philis" corresp="madeleine_bejart">PHILIS</name>.</label>
         <p>Laisse-moy aller.</p>
         <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
-        <p>Et bien, oüy ; demeure, je ne ted iray mot.</p>
+        <p>Et bien, oüy ; demeure, je ne diray mot.</p>
         <label type="speaker"><name key="philis" corresp="madeleine_bejart">PHILIS</name>.</label>
         <p>Prens-y bien garde au moins; car à la moindre parole, je prends la fuite.</p>
         <label type="speaker"><name key="moron" corresp="moliere">MORON</name>.</label>
-        <p>Soit. Ah ! <name key="philis" corresp="madeleine_bejart">Philis</name>…. Eh…. Elle
+        <p><note place="margin">Il fait une Scene de gestes.</note>Soit. Ah ! <name key="philis" corresp="madeleine_bejart">Philis</name>…. Eh…. Elle
           s’enfuit, &amp; je ne sçaurois l’attraper. Voilà ce que c’est. Si je sçavois chanter, j’en
           ferois bien mieux mes affaires. La pluspart des Femmes aujourd’huy se laissent prendre par
           les oreilles. Elles sont cause que tout le monde se mesle de Musique ; &amp; l’on ne
@@ -3171,13 +3178,12 @@ Est‑ce des personnages ?-->Monstres Celestes,
         <pb n="80" xml:id="p80" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626216h/f111"/>
         <p>Et <name key="berger" corresp="chicanneau"><name key="berger" corresp="du_pron"><name
                 key="berger" corresp="noblet"><name key="berger" corresp="la_pierre">quatre
-                  Bergers</name></name></name></name>, &amp; <name key="bergere"
-            corresp="balthazar"><name key="bergere" corresp="magny"><name key="bergere"
-                corresp="arnald"><name key="bergere" corresp="bonard">quatre
-              Bergéres</name></name></name></name> vinrent danser une fort belle Entrée, à laquelle
-            <name key="faunes">les Faunes</name> descendans de l’arbre se meslerent de temps en
-          temps ; &amp; toute cette Scene fut si grande, si remplie &amp; si agréable, qu’il ne
-          s’estoit encore rien veû de plus beau en Ballet.</p>
+                  Bergers</name></name></name></name>, &amp; <name key="bergere" corresp="balthazar"
+              ><name key="bergere" corresp="magny"><name key="bergere" corresp="arnald"><name
+                  key="bergere" corresp="bonard">quatre Bergéres</name></name></name></name> vinrent
+          danser une fort belle Entrée, à laquelle <name key="faunes">les Faunes</name> descendans
+          de l’arbre se meslerent de temps en temps ; &amp; toute cette Scene fut si grande, si
+          remplie &amp; si agréable, qu’il ne s’estoit encore rien veû de plus beau en Ballet.</p>
         <p>Aussi fit-elle une avantageuse conclusion aux divertissemens de ce jour, que toute la
           Cour ne loüa pas moins que celuy qui l’avoit précedé, se retirant avec une satisfaction
           qui luy fit bien esperer de la suite d’une Feste si complete.</p>
@@ -3187,12 +3193,12 @@ Est‑ce des personnages ?-->Monstres Celestes,
             role="danseur">les Sieurs Chicanneau</persName>, <persName key="du_pron" role="danseur"
             >du Pron</persName>, <persName key="noblet" role="danseur">Noblet</persName>, &amp;
             <persName key="la_pierre" role="danseur">la Pierre</persName>.</p>
-        <p>Et <name key="bergere" corresp="balthazar"><name key="bergere" corresp="magny"
-                ><name key="bergere" corresp="arnald"><name key="bergere" corresp="bonard">les
-                  Bergéres</name></name></name></name>, <persName key="balthazar"
-            role="danseur">les Sieurs Baltazard</persName>, <persName key="magny" role="danseur"
-            >Magny</persName>, <persName key="arnald" role="danseur">Arnald</persName>, &amp;
-            <persName key="bonard" role="danseur">Bonard</persName>.</p>
+        <p>Et <name key="bergere" corresp="balthazar"><name key="bergere" corresp="magny"><name
+                key="bergere" corresp="arnald"><name key="bergere" corresp="bonard">les
+                  Bergéres</name></name></name></name>, <persName key="balthazar" role="danseur">les
+            Sieurs Baltazard</persName>, <persName key="magny" role="danseur">Magny</persName>,
+            <persName key="arnald" role="danseur">Arnald</persName>, &amp; <persName key="bonard"
+            role="danseur">Bonard</persName>.</p>
         <trailer>Fin de la seconde journée.</trailer>
       </div>
       <pb n="np"/>
@@ -3446,7 +3452,7 @@ Personne ou machine ?--><tech
                 key="chevalier" corresp="des_airs_l_aine"><name key="six_chevaliers"
                   corresp="des_airs_le_second"><name key="chevalier" corresp="de_lorges"><name
                       key="chevalier" corresp="balthazar">Six
-                  Chevaliers</name></name></name></name></name></name>, et <name key="monstres"
+              Chevaliers</name></name></name></name></name></name>, et <name key="monstres"
             corresp="chicanneau"><name key="monstres" corresp="noblet"><name key="monstres"
                 corresp="arnald"><name key="monstres" corresp="desbrosses"><name key="monstres"
                     corresp="desonnets"><name key="monstres" corresp="la_pierre">six
