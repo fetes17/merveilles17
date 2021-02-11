@@ -77,7 +77,7 @@ var personnes = document.getElementById('personnes');
 var matches = document.querySelectorAll("nav.roles a.role");
 for (var i = 0; i < matches.length; ++i) {
   matches[i].addEventListener("click", function(e) {
-    e.stopPropagation();
+    e.preventDefault();
     var role = this.href.split("#")[1];
     if (this.classList.contains("active")) {
       this.classList.remove('active');
