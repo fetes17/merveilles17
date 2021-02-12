@@ -8,7 +8,16 @@
       | /tei:TEI/tei:sourceDoc//tei:persName  
       | /tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt//tei:*[@key]
       ">
-      <xsl:call-template name="split"/>
+      <xsl:call-template name="split">
+        <xsl:with-param name="role">
+          <xsl:choose>
+            <xsl:when test="self::tei:author">auteur</xsl:when>
+            <xsl:when test="@role">
+              <xsl:value-of select="normalize-space(@role)"/>
+            </xsl:when>
+          </xsl:choose>
+        </xsl:with-param>
+      </xsl:call-template>
     </xsl:for-each>
   </xsl:template>
 

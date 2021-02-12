@@ -235,7 +235,7 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
     "auteur" => "Auteur·rice",
     "imprimeur" => "Imprimeur·euse",
     // "dessinateur" => "Dessinateur·rice·s",
-    '' => '(non précisé)', 
+    "none" => "(non précisé)", 
   );
 
   
@@ -521,7 +521,8 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
         docs=(SELECT COUNT(DISTINCT document) FROM personne_document WHERE personne=personne.id)
       ;
       UPDATE personne_document SET
-        role=(SELECT id FROM role WHERE code='')
+        role_code='none',
+        role=(SELECT id FROM role WHERE code='none')
         WHERE role IS NULL
       ;
     ");
@@ -952,7 +953,6 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
         else if ($row['death']) $date = ' (? – '.$row['birth'].')';
         if (!$row['label']) $row['label'] = '[<i>'.$row['code'].'</i>]';
         $code = $row['role_code'];
-        if (!$code) $code = 'none';
         $index .= '
         <tr class="'.$code.'">
           <td class="label"><a href="'.$row['code'].self::$_html.'">'.$row['label'].$date.'</a></td>
@@ -975,7 +975,6 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
     <nav class="roles">
 ';
       foreach(self::$role as $code => $label) {
-        if (!$code) $code = "none";
         $index .= '<a class="role" href="#'.$code.'">'.$label.'</a>'."\n";
       }
       $index .= '
