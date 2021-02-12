@@ -697,8 +697,15 @@ a.document:hover {
   background-color: transparent;
 }
 
-a.document > div {
+a.document > div.bibl {
   padding: 2px 1rem 2px 32px;
+  flex-grow: 4;
+}
+
+a.document > div.roles {
+  flex-basis: 10rem;
+  flex-shrink: 0;
+  flex-grow: 0;
 }
 
 a.document div.vignette {
@@ -834,6 +841,7 @@ a:hover .textofiche .link {
   color: var(--bleu);
 }
 
+.document .role,
 a.theme {
   color: #000;
   display: inline-block;
@@ -843,6 +851,11 @@ a.theme {
   font-size: 13px;
   font-weight: bold;
   border: 1px solid #ccc;
+}
+
+.document .role  {
+  text-align: center;
+  display: block;
 }
 
 figcaption.figDesc {
@@ -1253,40 +1266,95 @@ table.sortable {
 }
 
 
-.sortable.commanditaire tbody tr,
-.sortable.destinataire tbody tr,
-.sortable.organisation tbody tr,
-.sortable.participant tbody tr,
-.sortable.spectateur tbody tr,
-.sortable.convive tbody tr,
-.sortable.acteur tbody tr,
-.sortable.chanteur tbody tr,
-.sortable.danseur tbody tr,
-.sortable.musicien tbody tr,
-.sortable.artificier tbody tr,
-.sortable.fournisseur tbody tr,
-.sortable.auteur tbody tr,
-.sortable.imprimeur tbody tr,
-.sortable.none tbody tr {
+.rolist.commanditaire tbody tr,
+.rolist.destinataire tbody tr,
+.rolist.organisation tbody tr,
+.rolist.participant tbody tr,
+.rolist.spectateur tbody tr,
+.rolist.convive tbody tr,
+.rolist.acteur tbody tr,
+.rolist.chanteur tbody tr,
+.rolist.danseur tbody tr,
+.rolist.musicien tbody tr,
+.rolist.artificier tbody tr,
+.rolist.fournisseur tbody tr,
+.rolist.auteur tbody tr,
+.rolist.imprimeur tbody tr,
+.rolist.none tbody tr {
   display: none;
 }
 
-.sortable.commanditaire tr.commanditaire,
-.sortable.destinataire tr.destinataire,
-.sortable.organisation tr.organisation,
-.sortable.participant tr.participant,
-.sortable.spectateur tr.spectateur,
-.sortable.convive tr.convive,
-.sortable.acteur tr.acteur,
-.sortable.chanteur tr.chanteur,
-.sortable.danseur tr.danseur,
-.sortable.musicien tr.musicien,
-.sortable.artificier tr.artificier,
-.sortable.fournisseur tr.fournisseur,
-.sortable.auteur tr.auteur,
-.sortable.imprimeur tr.imprimeur,
-.sortable.none tr.none {
+.rolist.commanditaire .document,
+.rolist.destinataire .document,
+.rolist.organisation .document,
+.rolist.participant .document,
+.rolist.spectateur .document,
+.rolist.convive .document,
+.rolist.acteur .document,
+.rolist.chanteur .document,
+.rolist.danseur .document,
+.rolist.musicien .document,
+.rolist.artificier .document,
+.rolist.fournisseur .document,
+.rolist.auteur .document,
+.rolist.imprimeur .document,
+.rolist.none .document {
+  display: none;
+}
+
+.rolist.commanditaire tr.commanditaire,
+.rolist.destinataire tr.destinataire,
+.rolist.organisation tr.organisation,
+.rolist.participant tr.participant,
+.rolist.spectateur tr.spectateur,
+.rolist.convive tr.convive,
+.rolist.acteur tr.acteur,
+.rolist.chanteur tr.chanteur,
+.rolist.danseur tr.danseur,
+.rolist.musicien tr.musicien,
+.rolist.artificier tr.artificier,
+.rolist.fournisseur tr.fournisseur,
+.rolist.auteur tr.auteur,
+.rolist.imprimeur tr.imprimeur,
+.rolist.none tr.none {
   display: table-row;
+}
+
+.rolist.commanditaire .document.commanditaire,
+.rolist.destinataire .document.destinataire,
+.rolist.organisation .document.organisation,
+.rolist.participant .document.participant,
+.rolist.spectateur .document.spectateur,
+.rolist.convive .document.convive,
+.rolist.acteur .document.acteur,
+.rolist.chanteur .document.chanteur,
+.rolist.danseur .document.danseur,
+.rolist.musicien .document.musicien,
+.rolist.artificier .document.artificier,
+.rolist.fournisseur .document.fournisseur,
+.rolist.auteur .document.auteur,
+.rolist.imprimeur .document.imprimeur,
+.rolist.none .document.none {
+  display: flex;
+}
+
+.rolist.commanditaire .role.commanditaire,
+.rolist.destinataire .role.destinataire,
+.rolist.organisation .role.organisation,
+.rolist.participant .role.participant,
+.rolist.spectateur .role.spectateur,
+.rolist.convive .role.convive,
+.rolist.acteur .role.acteur,
+.rolist.chanteur .role.chanteur,
+.rolist.danseur .role.danseur,
+.rolist.musicien .role.musicien,
+.rolist.artificier .role.artificier,
+.rolist.fournisseur .role.fournisseur,
+.rolist.auteur .role.auteur,
+.rolist.imprimeur .role.imprimeur,
+.rolist.none .role.none {
+  background: var(--rose);
+  color: #fff;
 }
 
 

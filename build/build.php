@@ -153,6 +153,7 @@ CREATE TABLE personne_document (
   role_code      TEXT,                  -- ? @role
   PRIMARY KEY(id ASC)
 );
+CREATE INDEX personne_document_doc ON personne_document(document, personne, role);
 CREATE INDEX personne_document_personne ON personne_document(personne);
 CREATE INDEX personne_document_document ON personne_document(document, personne_code);
 CREATE INDEX personne_document_role ON personne_document(personne, role, document, anchor);
@@ -854,6 +855,7 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
    */
   public static function personnes()
   {
+    $qroles = self::$pdo->prepare("SELECT role_code, count(*) AS count FROM personne_document WHERE personne = ? GROUP BY role ORDER BY role");
     Build::rmdir(self::$home."site/personne/");
     Build::mkdir(self::$home."site/personne/");
     $template = str_replace("%relpath%", "../", self::$template);
@@ -886,13 +888,28 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
 </div>
 <div class="object_documents">
   <div class="container">
+    <div class="row">
+      <div class="col-9">
 ';
       
-      $page .= '      <section>'."\n";
+      $page .= '      <section class="rolist">'."\n";
       $page .= '        <h2>Documents liés</h2>'."\n";
       $page .= self::uldocs("personne", $row['id']);
       $page .= '      </section>'."\n";
       $page .= '
+      </div>
+      <div class="col-3">
+        <nav class="roles">
+    ';
+      $qroles->execute(array($row['id']));
+      while ($row = $qroles->fetch(PDO::FETCH_ASSOC)) {
+        $role_code = $row['role_code'];
+        $page .= '<a class="role" href="#'.$role_code.'">'.self::$role[$role_code].' ('.$row['count'].')</a>'."\n";
+      }
+          $page .= '
+        </nav>
+      </div>
+    </div>
   </div>
 </div>
 ';
@@ -916,7 +933,7 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
       $index .= '
 ';
       $index .= '
-    <table class="sortable" id="personnes">
+    <table class="sortable" class="rolist">
       <thead>
         <tr>
           <th class="label" width="100%">Personne</th>
@@ -1029,6 +1046,8 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
       
       $page .= '    </div>'."\n";
       $page .= '    <div class="col-3">'."\n";
+      
+      
       $page .= '    </div>'."\n";
       $page .= '  </div>'."\n";
       $page .= '</div>'."\n";
@@ -1075,7 +1094,8 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
       }
       $chrono = $row['chrono'];
       $qdocument->execute(array($row['document']));
-      $html .= self::htdocument($qdocument->fetch());
+      if ($table == 'personne') $html .= self::htdocument($qdocument->fetch(), $id);
+      else $html .= self::htdocument($qdocument->fetch());
     }
     $html .= "</section>\n";
     return $html;
@@ -1120,14 +1140,33 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
   {
     
   }
-    
-  private static function htdocument($row)
+
+  private static function htdocument($row, $persid=null)
   {
+    $rolist = array();
+    if ($persid) {
+      $qrole = self::$pdo->prepare("SELECT role_code FROM personne_document WHERE document = ? AND personne = ? GROUP BY role ORDER BY role");
+      $qrole->execute(array($row['id'], $persid));
+      while ($res = $qrole->fetch(PDO::FETCH_ASSOC)) {
+        $rolist[] = $res['role_code'];
+      }
+    }
+    
     $html = '';
-    $html .= '<a class="document '.$row['type'].'" href="../document/'.$row['code'].self::$_html.'">'."\n";
+    $html .= '<a class="document '.$row['type'];
+    if (count($rolist)) $html .= ' '. implode(' ', $rolist);
+    $html .= '" href="../document/'.$row['code'].self::$_html.'">'."\n";
     
     $html .= '  <div class="vignette" style="background-image:url(\'../document/S/'.$row['code'].',S.jpg\');"></div>'."\n";
-    $html .= '  <div>'."\n";
+    // role ?
+    if ($persid) {
+      $html .= '  <div class="roles">'."\n";
+      foreach ($rolist as $role_code) {
+        $html .= '<div class="role '.$role_code.'">'.self::$role[$role_code].'</div>';
+      }
+      $html .= '  </div>'."\n";
+    }
+    $html .= '  <div class="bibl">'."\n";
     $html .= '    <div class="title">'.$row['title'].'</div>'."\n";
     $html .= '    <div class="publine">';
     /*
