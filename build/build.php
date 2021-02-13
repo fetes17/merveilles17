@@ -610,8 +610,8 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
       WHERE 
         document_code = ? 
         AND personne_document.personne = personne.id
-      GROUP BY personne_document.personne
-      ORDER BY personne_document.role_code, personne.label
+      GROUP BY personne_document.role, personne_document.personne
+      ORDER BY personne_document.role, personne.label
     "); // , COUNT(*) AS count
     $q_pers = self::$pdo->prepare("SELECT label FROM personne WHERE id = ?");
     // $qpersonnes = self::$pdo->prepare("SELECT personne.id, personne.code, personne.label, COUNT(document_code) AS count FROM personne, personne_document WHERE document_code = ? AND personne_document.personne = personne.id GROUP BY personne ORDER BY count DESC");
@@ -1020,7 +1020,7 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
     $stmt = self::$pdo->prepare("SELECT * FROM lieu");
     $stmt->execute();
     $lieu =  self::$pdo->prepare("SELECT * FROM lieu WHERE id = ?");
-    $children = self::$pdo->prepare("SELECT * FROM lieu WHERE parent = ?");
+    $children = self::$pdo->prepare("SELECT * FROM lieu WHERE parent = ? AND docs > 0");
     
     while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
       $page  = '<div class="container">'."\n";
