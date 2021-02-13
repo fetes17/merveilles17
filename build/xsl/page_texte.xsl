@@ -10,20 +10,22 @@
   <xsl:key name="tech" match="tei:tech[not(ancestor::tei:teiHeader)]" use="normalize-space(@type)"/>
   <xsl:key name="name" match="tei:name[not(ancestor::tei:teiHeader)]" use="normalize-space(@key)"/>
   <xsl:key name="ana" match="*[@ana][@ana != 'description']" use="normalize-space(@ana)"/>
-  <xsl:variable name="lieux" select="document('../../index/lieu.xml')/*/*"/>
+  <xsl:variable name="lieux" select="document('../../index/lieu.xml')//tei:place"/>
   <xsl:variable name="personnes" select="document('../../index/personne.xml')/*/*"/>
   <xsl:variable name="ana" select="document('../../index/ana.xml')/*/*"/>
   <xsl:variable name="techniques" select="document('../../index/technique.xml')/*/*"/>
   <xsl:template match="/">
     <article class="liseuse">
       <div id="explorer" class="explorer">
+        <p class="notice">
+          <a title="Retour à la notice" class="notice" href="../document/{$filename}{$_html}">◀ Notice</a>
+        </p>
         <xsl:call-template name="explorer"/>
       </div>
       <div id="milieu">
         <div class="bg-gray cartouche">
           <xsl:apply-templates select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt"/>
           <div class="textofiche">
-            <a href="../document/{$filename}{$_html}">◀ Notice</a>
           </div>
         </div>
         <div class="explorable" id="explorable">
@@ -96,6 +98,7 @@
         </xsl:when>
         <xsl:otherwise>
           <xsl:for-each select="//*[name() = $tag][count(. | key($tag, normalize-space(@key|@type))[1]) = 1][not(ancestor::tei:teiHeader)]">
+            <xsl:sort select="count(key($tag, normalize-space(@key|@type)))" data-type="number" order="descending"/>
             <xsl:call-template name="tr">
               <xsl:with-param name="tag" select="$tag"/>
               <xsl:with-param name="key" select="normalize-space(@key|@type)"/>
@@ -121,10 +124,11 @@
         <table class="sortable" data-sort="1">
           <thead>
             <tr>
-              <th class="nb" title="Occurrences">nb</th>
+              <th width="40" title="Aller à la notice"></th>
               <th class="term">
                 <xsl:value-of select="$label"/>
               </th>
+              <th class="nb" title="Occurrences">nb</th>
             </tr>
           </thead>
           <tbody>
@@ -149,8 +153,22 @@
       </xsl:choose>
     </xsl:variable>
     <tr>
-      <td class="nb">
-        <xsl:value-of select="$count"/>
+      <td>
+        <xsl:if test="$key != ''">
+          <a title="Aller à la notice" target="_blank">
+            <xsl:attribute name="href">
+              <xsl:choose>
+                <xsl:when test="$tag = 'persName'">../personne/</xsl:when>
+                <xsl:when test="$tag = 'ana'">../technique/</xsl:when>
+                <xsl:when test="$tag = 'tech'">../technique/</xsl:when>
+                <xsl:when test="$tag = 'placeName'">../lieu/</xsl:when>
+              </xsl:choose>
+              <xsl:value-of select="$key"/>
+              <xsl:text>.html</xsl:text>
+            </xsl:attribute>
+            <xsl:text>◀</xsl:text>
+          </a>
+        </xsl:if>
       </td>
       <td class="term">
         <a>
@@ -197,6 +215,9 @@
             </xsl:otherwise>
           </xsl:choose>
         </a>
+      </td>
+      <td class="nb">
+        <xsl:value-of select="$count"/>
       </td>
     </tr>
   </xsl:template>

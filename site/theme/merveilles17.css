@@ -829,18 +829,23 @@ div.textofiche {
   text-align: right;
   margin-bottom: 1rem;
 }
+a.notice,
 div.textofiche .link {
   text-transform: uppercase;
-  background: var(--bleu);
-  color: #fff;
   font-weight: bold;
   padding: 1px 0.5rem;
-}
-a:hover .textofiche .link {
   background: transparent;
   color: var(--bleu);
 }
+a.notice:hover,
+a:hover .textofiche .link {
+  background: var(--bleu);
+  color: #fff !important;
+}
 
+p.notice {
+  margin: 1rem 0;
+}
 .document .role,
 a.theme {
   color: #000;
@@ -1097,6 +1102,7 @@ nav.roles {
 #persName a:hover,
 #explorable.persName .persName {
   background-color: #f9f1f1;
+  color: #000;
 }
 
 #explorable.persName .persName {
@@ -1126,6 +1132,7 @@ nav.roles {
 #name a:hover,
 #explorable.name .name {
   background-color: #eef1f1;
+  color: #000;
 }
 
 #explorable .name.active,
@@ -1159,6 +1166,7 @@ nav.roles {
 #explorable.placeName .placeName:hover,
 #placeName a:hover {
   background-color: #e5e5f2;
+  color: #000;
 }
 
 #explorable.placeName .placeName:hover {
@@ -1214,6 +1222,7 @@ nav.roles {
 #ana a:hover,
 #explorable.ana .ana {
   background-color: #fff;
+  color: #000;
   border: 1px solid rgba(128, 128, 128, 0.5);
 }
 
@@ -1403,8 +1412,10 @@ th.term {
 table.sortable a {
   color: #666;
   display: block;
-  padding: 2px 1rem;
+  /*
   line-height: 1.1;
+  */
+  padding: 2px;
 }
 
 table.sortable a:hover {
