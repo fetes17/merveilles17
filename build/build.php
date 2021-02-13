@@ -604,7 +604,15 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
     $qtechniques = self::$pdo->prepare("SELECT technique.id, technique.code, technique.label, COUNT(document_code) AS count FROM technique, technique_document WHERE document_code = ? AND technique_document.technique = technique.id GROUP BY technique ORDER BY count DESC");
     
     // group by personne_code for unknown personne
-    $q_pers_doc = self::$pdo->prepare("SELECT personne, personne_code, role, role_code, COUNT(*) AS count FROM personne_document  WHERE document_code = ? GROUP BY personne_code ORDER BY role, personne_code");
+    $q_pers_doc = self::$pdo->prepare("
+    SELECT personne, personne_code, role, role_code, COUNT(*) AS count
+      FROM personne_document, personne
+      WHERE 
+        document_code = ? 
+        AND personne_document.personne = personne.id
+      GROUP BY personne_document.personne
+      ORDER BY personne_document.role_code, personne.label
+    "); // , COUNT(*) AS count
     $q_pers = self::$pdo->prepare("SELECT label FROM personne WHERE id = ?");
     // $qpersonnes = self::$pdo->prepare("SELECT personne.id, personne.code, personne.label, COUNT(document_code) AS count FROM personne, personne_document WHERE document_code = ? AND personne_document.personne = personne.id GROUP BY personne ORDER BY count DESC");
     
@@ -957,7 +965,7 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
         $code = $row['role_code'];
         $index .= '
         <tr class="'.$code.'">
-          <td class="label"><a href="'.$row['code'].self::$_html.'">'.$row['label'].$date.'</a></td>
+          <td class="label"><a target="_blank" href="'.$row['code'].self::$_html.'">'.$row['label'].$date.'</a></td>
           <td class="role '.$code.'">'.self::$role[$row['role_code']].'</td>
           <td class="docs">'.$row['role_docs'].'</td>
           <td class="occs">'.$row['role_occs'].'</td>
@@ -1126,6 +1134,7 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
       $chrono = $row['chrono'];
       $qdocument->execute(array($row['document']));
       if ($table == 'personne') $html .= self::htdocument($qdocument->fetch(), $id);
+      else if ($table == 'lieu') $html .= self::htdocument($qdocument->fetch(), null, true);
       else $html .= self::htdocument($qdocument->fetch());
     }
     $html .= "</section>\n";
@@ -1172,7 +1181,7 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
     
   }
 
-  private static function htdocument($row, $persid=null)
+  private static function htdocument($row, $persid=null, $tech=false)
   {
     $rolist = array();
     if ($persid) {
@@ -1183,10 +1192,11 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
       }
     }
     
-    $html = '';
+    $html = "\n";
     $html .= '<a target="_blank" class="document '.$row['type'];
     if (count($rolist)) $html .= ' '. implode(' ', $rolist);
     $html .= '" href="../document/'.$row['code'].self::$_html.'">'."\n";
+    $html .= '<div class="coldoc">'."\n";
     
     $html .= '  <div class="vignette" style="background-image:url(\'../document/S/'.$row['code'].',S.jpg\');"></div>'."\n";
     // role ?
@@ -1210,6 +1220,26 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
     $html .= $row['publine'];
     $html .= '</div>'."\n";
     $html .= '  </div>'."\n";
+    $html .= '</div>'."\n";
+    if ($tech) {
+      $techlist = "";
+      $qtech = self::$pdo->prepare("
+      SELECT technique.*
+        FROM technique_document, technique
+        WHERE
+          technique_document.document = ?
+          AND technique_document.technique = technique.id
+        GROUP BY technique.id
+      ");
+      $qtech->execute(array($row['id']));
+      $first = true;
+      while($atech= $qtech->fetch()) {
+        if ($first) $first = false;
+        else $techlist .= ",\n";
+        $techlist .= '<span class="tech">'.$atech['label'].'</span>';
+      }
+      if ($techlist) $html .= "<div>\n".$techlist.".\n</div>\n";
+    }
     $html .= '</a>'."\n";
     return $html;
   }

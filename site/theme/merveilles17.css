@@ -687,13 +687,20 @@ a.chrono {
 }
 
 a.document {
-  display: flex;
-  align-items: center;
+  display: block;
   line-height: 1.3;
   border: 1px transparent solid;
   background-color: rgba(192, 192, 192, 0.1);
   margin: 15px 0;
+  padding: 5px 15px 5px 15px;
+  color: #000;
 }
+
+.coldoc {
+  display: flex;
+  align-items: center;
+}
+
 
 a.document:hover {
   border-color: var(--rose);
@@ -701,12 +708,16 @@ a.document:hover {
   background-color: transparent;
 }
 
-a.document > div.bibl {
-  padding: 2px 1rem 2px 32px;
+a.document .tech {
+  color: #999;
+}
+
+a.document div.bibl {
+  padding: 2px 1rem 2px 16px;
   flex-grow: 4;
 }
 
-a.document > div.roles {
+a.document div.roles {
   flex-basis: 10rem;
   flex-shrink: 0;
   flex-grow: 0;

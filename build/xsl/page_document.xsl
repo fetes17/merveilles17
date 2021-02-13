@@ -88,7 +88,7 @@
       <div class="container">
         <div class="row">
           <div class="col-9 doc_ventre"> 
-            %personnes% 
+            %personnes%
             <xsl:call-template name="themes"/>
           </div>
           <div class="col-3">
@@ -159,22 +159,24 @@
     </xsl:if>
   </xsl:template>
   <xsl:template name="themes">
-    <div id="doc_theme">
-      <h2>personnages fictifs</h2>
-      <xsl:variable name="tag">name</xsl:variable>
-      <xsl:for-each select="//*[name() = $tag][count(. | key($tag, normalize-space(@key|@type))[1]) = 1][not(ancestor::tei:teiHeader)]">
-        <xsl:sort select="count(key($tag, @key|@type))" order="descending"/>
-        <xsl:choose>
-          <xsl:when test="position() &gt; 200"/>
-          <xsl:when test="@key">
-            <a href="#" class="theme">
-              <xsl:value-of select="translate(@key, '_', ' ')"/>
-            </a>
-            <xsl:text> </xsl:text>
-          </xsl:when>
-        </xsl:choose>
-      </xsl:for-each>
-    </div>
+    <xsl:variable name="tag">name</xsl:variable>
+    <xsl:if test="//*[name() = $tag][not(ancestor::tei:teiHeader)]">
+      <div id="doc_theme">
+        <h2>personnages fictifs</h2>
+        <xsl:for-each select="//*[name() = $tag][count(. | key($tag, normalize-space(@key|@type))[1]) = 1][not(ancestor::tei:teiHeader)]">
+          <xsl:sort select="count(key($tag, @key|@type))" order="descending"/>
+          <xsl:choose>
+            <xsl:when test="position() &gt; 200"/>
+            <xsl:when test="@key">
+              <a href="#" class="theme">
+                <xsl:value-of select="translate(@key, '_', ' ')"/>
+              </a>
+              <xsl:text> </xsl:text>
+            </xsl:when>
+          </xsl:choose>
+        </xsl:for-each>
+      </div>
+    </xsl:if>
   </xsl:template>
 
   <!-- Ne pas sortir les descriptions d’images ici -->
