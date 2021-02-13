@@ -66,6 +66,7 @@ CREATE TABLE lieu (
   label          TEXT NOT NULL,         -- ! <name>[1], forme de référence
   parent         INTEGER,               -- ! identifiant de lieu parent (ou 0 si racine)
   parent_code    TEXT NOT NULL,         -- ! ../@xml:id, code provisoire
+  path           TEXT NOT NULL,         -- ! ex : /france/paris/paris_chaillot_couvent
   geo            TEXT,                  -- ? <geo>, coordonnées carto
   settlement     TEXT,                  -- ? <settlement> commune, pour recherche
   alt            TEXT,                  -- ? <name>[2], forme alternative, pour recherche
@@ -73,6 +74,7 @@ CREATE TABLE lieu (
   occs           INTEGER,               -- ! nombre d’occurrences, calculé, pour tri
   PRIMARY KEY(id ASC)
 );
+CREATE INDEX lieu_path ON lieu(path);
 CREATE INDEX lieu_occs ON lieu(occs, code);
 CREATE INDEX lieu_docs ON lieu(docs, code);
 
@@ -337,9 +339,9 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
     $file = self::$home."index/lieu.xml";
     $dom = new DOMDocument();
     $dom->load($file, LIBXML_BIGLINES | LIBXML_NOCDATA | LIBXML_NONET | LIBXML_NSCLEAN);
-    $csv = "code\tlabel\tparent_code\tsettlement\talt\tgeo\n"; // ne pas oublier la première ligne
+    $csv = "code\tlabel\tparent_code\tpath\tsettlement\talt\tgeo\n"; // ne pas oublier la première ligne
     $csv .= Build::transformDoc($dom, self::$home."build/xsl/tsv_lieu.xsl");
-    self::tsv_insert("lieu", array("code", "label", "parent_code", "settlement", "alt", "geo"), $csv);
+    self::tsv_insert("lieu", array("code", "label", "parent_code", "path", "settlement", "alt", "geo"), $csv);
     self::$pdo->exec("
       UPDATE lieu SET
         parent=(SELECT id FROM lieu AS l WHERE code=lieu.parent_code)
@@ -1004,18 +1006,29 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
     $index .= '<p> </p>'."\n";
     $index .= '</div>'."\n";
     file_put_contents(self::$home."site/lieu/index.html", str_replace("%main%", $index, $template));
+    // 
     
     // boucler sur tous les termes
     $stmt = self::$pdo->prepare("SELECT * FROM lieu");
     $stmt->execute();
-    
-    $parent = self::$pdo->prepare("SELECT * FROM lieu WHERE parent = ?");
+    $lieu =  self::$pdo->prepare("SELECT * FROM lieu WHERE id = ?");
+    $children = self::$pdo->prepare("SELECT * FROM lieu WHERE parent = ?");
     
     while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
       $page  = '<div class="container">'."\n";
       $page .= '  <div class="row align-items-start">'."\n";
       $page .= '    <div class="col-9">'."\n";
-      $page .= '      <h1>'.$row['label'].'</h1>'."\n";
+      $lieu->execute(array($row['parent']));
+      $mother = $lieu->fetch(PDO::FETCH_ASSOC);
+      // lien lieu parent
+      if ($mother) {
+        $page .= '
+<p class="notice">
+  <a title="Notice mère" class="notice" href="'.$mother['code'].'.html">◀ '.$mother['label'].'</a>
+</p>';
+      }
+      
+      $page .= '      <h1 class="lieu">'.$row['label'].'</h1>'."\n";
       if ($row['geo']) {
         $place = "";
         if ($row['settlement']) $place .= $row['settlement'].", ";
@@ -1024,16 +1037,16 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
         $page .= '    <div><a target="_blank" href="https://www.google.com/maps/search/'.$place.'/@'.$row['geo'].'z">'.$row['geo'].'</a></div>'."\n";
       }
       // lieux enfants
-      $parent->execute(array($row['id']));
-      $children = "";
-      while ($child = $parent->fetch(PDO::FETCH_ASSOC)) {
-        $children .= '      <li><a href="' . $child['code'] . '.html">'. $child['label'] .'</a></li>'."\n";
+      $children->execute(array($row['id']));
+      $list = "";
+      while ($child = $children->fetch(PDO::FETCH_ASSOC)) {
+        $list .= '      <li><a href="' . $child['code'] . '.html">'. $child['label'] .'</a></li>'."\n";
       }
-      if ($children) {
+      if ($list) {
         $page .= '      <section>'."\n";
         $page .= '        <h2>Lieux liés</h2>' . "\n";
         $page .= '        <ul>'."\n";
-        $page .= $children;
+        $page .= $list;
         $page .= '        </ul>'."\n";
         $page .= '      </section>'."\n";
       }
@@ -1060,7 +1073,26 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
   {
     $qdocument = self::$pdo->prepare('SELECT * FROM document WHERE id = ?');
     $qchrono = self::$pdo->prepare('SELECT * FROM chrono WHERE id = ?');
-    if($table) {
+    
+    if ($table == 'lieu') {
+      $qlieupath = self::$pdo->prepare('SELECT path FROM lieu WHERE id = ?');
+      $qlieupath->execute(array($id));
+      list($path) = $qlieupath->fetch();
+      $sql = "
+        SELECT DISTINCT 
+          chrono_document.* 
+          FROM chrono_document, lieu_document, lieu 
+          WHERE 
+            lieu.path LIKE :path
+            AND lieu_document.lieu = lieu.id
+            AND lieu_document.document = chrono_document.document 
+          ORDER BY chrono_document.id;
+      ";
+      $stmt = self::$pdo->prepare($sql);
+      $path .= '%';
+      $stmt->bindParam(':path', $path, PDO::PARAM_STR);
+    }
+    else if ($table) {
       $sql = "SELECT DISTINCT chrono_document.* FROM chrono_document, %table%_document WHERE %table%_document.%table% = ? AND %table%_document.document = chrono_document.document ORDER BY chrono_document.id;";
       $sql = str_replace('%table%', $table, $sql);
       $stmt = self::$pdo->prepare($sql);

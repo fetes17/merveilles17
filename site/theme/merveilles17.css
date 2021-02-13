@@ -79,6 +79,10 @@ h1 {
   font-weight: normal;
 }
 
+h1.lieu {
+  margin-top: 0;
+}
+
 .object_header h1 {
   margin-top: 0;
   margin-bottom: 0;
@@ -836,6 +840,7 @@ div.textofiche .link {
   padding: 1px 0.5rem;
   background: transparent;
   color: var(--bleu);
+  text-decoration: none;
 }
 a.notice:hover,
 a:hover .textofiche .link {

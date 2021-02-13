@@ -25,15 +25,13 @@
       <div id="milieu">
         <div class="bg-gray cartouche">
           <xsl:apply-templates select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt"/>
-          <div class="textofiche">
-          </div>
         </div>
         <div class="explorable" id="explorable">
           <xsl:apply-templates select="/tei:TEI/tei:text"/>
         </div>
       </div>
       <nav id="bookmarks">
-        <mark class="toclone"/>
+        <mark class="toclone"> </mark>
       </nav>
     </article>
   </xsl:template>
@@ -135,7 +133,7 @@
             <xsl:copy-of select="$rows"/>
           </tbody>
         </table>
-        <p> </p>
+        <p> </p>
       </details>
     </xsl:if>
   </xsl:template>

@@ -25,6 +25,12 @@
     <!-- parent_code -->
     <xsl:value-of select="parent::*/@xml:id"/>
     <xsl:value-of select="$tab"/>
+    <!-- path -->
+    <xsl:for-each select="ancestor-or-self::tei:place">
+      <xsl:text>/</xsl:text>
+      <xsl:value-of select="normalize-space(@xml:id)"/>
+    </xsl:for-each>
+    <xsl:value-of select="$tab"/>
     <!-- settlement -->
     <xsl:apply-templates select="tei:settlement"/>
     <xsl:value-of select="$tab"/>
