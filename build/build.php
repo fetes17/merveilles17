@@ -1184,7 +1184,7 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
     }
     
     $html = '';
-    $html .= '<a class="document '.$row['type'];
+    $html .= '<a target="_blank" class="document '.$row['type'];
     if (count($rolist)) $html .= ' '. implode(' ', $rolist);
     $html .= '" href="../document/'.$row['code'].self::$_html.'">'."\n";
     
