@@ -229,10 +229,24 @@ img.logo {
 
 #footer .partenaires {
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+#footer .contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#footer .partenaires > * {
+  margin-right: 20px;
+  flex-shrink: 0;
+}
 #footer .partenaires img {
-  width: 150px;
+  width: 100px;
 }
 
 #footer .license {

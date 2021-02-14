@@ -18,7 +18,7 @@
     <article class="liseuse">
       <div id="explorer" class="explorer">
         <p class="notice">
-          <a title="Retour à la notice" class="notice" href="../document/{$filename}{$_html}">◀ Notice</a>
+          <a title="Retour à la notice"  target="_blank" class="notice" href="../document/{$filename}{$_html}">◀ Notice</a>
         </p>
         <xsl:call-template name="explorer"/>
       </div>

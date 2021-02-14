@@ -944,7 +944,7 @@ CREATE INDEX chrono_document_document ON chrono_document(document);
       $index .= '
 ';
       $index .= '
-    <table class="sortable" class="rolist">
+    <table class="sortable rolist">
       <thead>
         <tr>
           <th class="label" width="100%">Personne</th>
