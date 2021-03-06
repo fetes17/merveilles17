@@ -79,7 +79,7 @@
       <p><name key="seconde_bohemienne" corresp="mlle_de_brie">Seconde Boësmienne</name>. <persName
           key="mlle_de_brie">Mad<hi rend="sup">lle.</hi> de Brie</persName>.</p>
       <p><name key="premier_docteur" corresp="">Premier Docteur</name>.
-          <persName>Brecourt</persName>.</p>
+          <persName key="brecourt">Brecourt</persName>.</p>
       <p><name key="second_docteur" corresp="du_croisy">Second Docteur</name>. <persName
           key="du_croisy">Du Croisy</persName>.</p>
       <pb n="NP" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1520745x/f3"/>
@@ -247,11 +247,12 @@
         honorer ses Nopces.</p>
       <p>Concert Espagnol, Chanté par</p>
       <p><persName key="anna_bergerotti">La Seignora Anna Bergerotti</persName>.</p>
-      <p><persName>Bordigoni</persName>.</p>
-      <p><persName>Chiarini</persName>.</p>
-      <p><persName>Ion. Agustin</persName>.</p>
-      <p><persName>Taillauaca</persName>.</p>
-      <p><persName>Angelo Michaël</persName>.</p>
+      <p><persName key="bordigoni">Bordigoni</persName>.</p>
+      <p><persName key="chiarini">Chiarini</persName>.</p>
+      <p><persName key="Jon">Ion</persName>. 
+        <persName key="agustin">Agustin</persName>.</p>
+      <p><persName key="taillavaca">Taillauaca</persName>.</p>
+      <p><persName key="angelo_michael">Angelo Michaël</persName>.</p>
       <lg xml:lang="es">
         <l>Z</l>
         <l>I ego me tienes Belisa</l>
@@ -285,7 +286,7 @@
       <label type="head">VII. ENTRÉE.</label>
       <p>Vn Chariuarycrotesque.</p>
       <p><persName key="lully">Monsieur Lully</persName>, <persName key="balthazar">Les Sieurs
-          Balthasard</persName>, <persName>Vagnac</persName>, <persName key="bonard"
+          Balthasard</persName>, <persName key="vagnac">Vagnac</persName>, <persName key="bonard"
           >Bonnard</persName>, <persName key="la_pierre">la Pierre</persName>, <persName
           key="descouteaux">Descouteaux</persName>, &amp;<persName key="louis_hottere"><persName key="martin_hottere"><persName key="nicolas_hottere">les trois Opterres
           frères</persName></persName></persName>.</p>
