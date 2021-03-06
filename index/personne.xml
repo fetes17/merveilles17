@@ -222,6 +222,16 @@
     <death when="1665"/>
     <!-- Fille aînée d'Henri-Louis d'Albert d'Ailly, duc de Chaulnes et de Françoise de Neufville. Épouse Jean-Baptiste Gaston de Foix-Candale en 1664.-->
   </person>
+  <person xml:id="marechale_d_albret" sex="F">
+    <name>Albret, Madeleine d', née Guénégaud, Maréchale</name>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Maison_d%27Albret</identifier>
+    </person>
+  <person xml:id="mlle_d_albret" sex="F">
+    <name>Albret, Marie Françoise d'</name>
+    <birth when="1650"/>
+    <death when="1692"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Maison_d%27Albret</identifier>
+  </person>
   <person xml:id="elisabeth_orleans_alencon" sex="F">
     <name>Alençon, Elisabeth Marguerite d'Orléans de Guise, duchesse d'</name>
     <birth when="1646"/>
@@ -1038,6 +1048,11 @@
     <identifier type="wikipedia"
       >https://fr.wikipedia.org/wiki/François-Annibal_d%27Estrées</identifier>
   </person>
+  <person xml:id="marechale_d_estrees" sex="F">
+    <name>Estrées, Gabrielle d', née de Longueval</name>
+    <death when="1687"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Famille_d%27Estr%C3%A9es</identifier>
+  </person>
   <person xml:id="estrees_jean" sex="M">
     <name>Estrées, Jean d'</name>
     <birth when="1624"/>
@@ -1065,6 +1080,14 @@
     <birth when="1605*"/>
     <death when="1691"/>
   </person>
+  <person xml:id="madame_de_la_fayette" sex="F">
+    <name>La Fayette, Marie-Madeleine Pioche de La Vergne, comtesse de</name>
+    <birth when="1634"/>
+    <death when="1693"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Madame_de_La_Fayette</identifier>
+    <identifier type="databnf">https://data.bnf.fr/fr/11910266/marie-madeleine_pioche_de_la_vergne_comtesse_de_la_fayette/</identifier>
+    <identifier type="isni">0000 0001 2283 1647</identifier>
+  </person>
   <person xml:id="favigent" sex="M">
     <name>Favigent, page de la petite écurie</name>
   </person>
@@ -1076,11 +1099,19 @@
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Mademoiselle_Des_Œillets</identifier>
     <identifier type="databnf">https://data.bnf.fr/ark:/12148/cb16225201v</identifier>
   </person>
+  <person xml:id="marechale_de_la_ferte" sex="F">
+    <name>Ferté, Madelaine de la, née d'Angennes, dame de la Loupe</name>
+    <birth when="1629"/>
+    <death when="1714"/>
+  </person>
   <person xml:id="feugre" sex="M">
     <name>Feugré, Jacques, violon</name>
   </person>
   <person xml:id="mlle_de_fiennes" sex="F">
     <name>Fiennes, mademoiselle de (fille de Françoise de Fiennes)</name>
+  </person>
+  <person xml:id="madame_de_fieubet" sex="F">
+    <name>Fieubet, Madame de</name>
   </person>
   <person xml:id="marie_bauffremont_fleix" sex="F">
     <name>Fleix, Marie-Claire de Bauffremont, comtesse de</name>
@@ -1222,6 +1253,12 @@
     <identifier type="isni">0000 0001 0395 3040</identifier>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Philibert_de_Gramont</identifier>
   </person>
+  <person xml:id="marechale_de_grancey" sex="F">
+    <name>Grancey, Charlotte de, née de Mornay</name>
+    <birth when="1620*"/>
+    <death when="1694"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jacques_Rouxel_de_Grancey</identifier>
+  </person>
   <person xml:id="guenin" sex="M">
     <name>Guenin, violon</name>
   </person> <!-- Ne serait-ce pas plutôt Guérin/guerin ? Cf. Amours déguisés. -->
@@ -1231,6 +1268,15 @@
     <death when="1719"/>
     <identifier type="databnf">https://data.bnf.fr/fr/12239180/jean_guignard/</identifier>
     <identifier type="isni">0000 0000 8172 2486</identifier>
+  </person>
+  <person xml:id="madame_des_hameaux" sex="F">
+    <name>Hameaux, Madame des</name>
+  </person>
+  <person xml:id="gilonne_d_harcourt" sex="F">
+    <name>d'Harcourt, Gilonne, marquise de Piennes, comtesse de Fiesque</name>
+    <birth when="1619"/>
+    <death when="1699"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Gilonne_d%27Harcourt</identifier>
   </person>
   <person xml:id="gaspard_harsent" sex="M">
     <name>Harsent, Gaspard</name>
@@ -1245,6 +1291,10 @@
     <name>Homère</name>
     <identifier type="databnf">https://data.bnf.fr/fr/11907688/homere/</identifier>
     <identifier type="isni">0000 0003 6354 151X</identifier>
+  </person>
+  <person xml:id="madame_de_fontenay_hotman" sex="F">
+    <name>Hotman, Marguerite, épouse du seigneur de Fontenay</name>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Vincent_Hotman</identifier>
   </person>
   <person xml:id="jean_hottere" sex="M">
     <name>Hotteterre, Jean, musicien</name>
@@ -1355,6 +1405,14 @@
     <death when="1692"/>
     <identifier type="databnf">https://data.bnf.fr/fr/11910280/la_grange/</identifier>
     <identifier type="isni">0000 0001 2188 1693</identifier>
+  </person>
+  <person xml:id="marechale_de_l_hospital" sex="F">
+    <name>L'Hospital, Françoise Marie de, née Mignot, maréchale de</name>
+    <birth when="1624"/>
+    <death when="1711"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Fran%C3%A7ois_de_L%27Hospital</identifier>
+    <identifier type="databnf">https://data.bnf.fr/fr/13506372/francoise_mignot/</identifier>
+    <identifier type="isni">0000 0003 5700 8866</identifier>
   </person>
   <person xml:id="la_lanne" sex="M">
     <name>La Lanne</name>
