@@ -445,6 +445,9 @@
   <person xml:id="beaulis" sex="M">
     <name>Beaulis, trompette</name>
   </person>
+  <person xml:id="petit_beaumont" sex="M">
+    <name>Beaumont</name>
+  </person>
   <person xml:id="beaupre" sex="M">
     <name>Beaupré, tymballe</name>
   </person>
@@ -705,19 +708,22 @@
   <person xml:id="caliavet" sex="M">
     <name>Caliavet, page de la petite écurie</name>
   </person>
+  <person xml:id="mlle_cambray" sex="F">
+    <name>Cambray, Mademoiselle de</name>
+  </person>
   <person xml:id="camille" sex="M">
     <name>Camille, violon</name>
   </person>
   <person xml:id="castel" sex="M">
     <name>Catel, garde suisse</name>
   </person>
+  <person xml:id="marechale_de_castelnau" sex="F">
+    <name>Castelnau, Marie Girard, née de l'Espinay, maréchale de</name>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jacques_de_Castelnau</identifier>
+  </person>
   <person xml:id="marquise_de_castelnau" sex="F">
     <name>Castelnau, Marquise de,</name>
   </person>
-  <person xml:id="marechale_de_castelnau" sex="F">
-   <name>Castelnau, Marie Girard, née de l'Espinay, maréchale de</name>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jacques_de_Castelnau</identifier>
- </person>
   <person xml:id="henri_cauchon_de_maupas" sex="M">
     <name>Cauchon de Maupas du Tour, Henri</name>
     <birth when="1604"/>
@@ -1128,6 +1134,9 @@
     <birth when="1629"/>
     <death when="1714"/>
   </person>
+  <person xml:id="du_feu" sex="M">
+    <name>Feu, Monsieur du</name>
+  </person>
   <person xml:id="feugre" sex="M">
     <name>Feugré, Jacques, violon</name>
   </person>
@@ -1246,6 +1255,9 @@
     <identifier type="databnf">https://data.bnf.fr/fr/14974808/henri_gissey/</identifier>
     <identifier type="isni">0000 0000 6662 5944</identifier>
   </person>
+  <person xml:id="comte_gonore" sex="M">
+    <name>Gonore, Comte de</name>
+  </person>
   <person xml:id="antoine_gonzalez" sex="M">
     <name>Gonzalez, Antoine, artificier</name>
   </person>
@@ -1271,6 +1283,12 @@
     <identifier type="databnf">https://data.bnf.fr/fr/13328457/antoine_de_gramont/</identifier>
     <identifier type="isni">0000 0001 2280 418X</identifier>
     <identifier type="mg">gramont_antoine_iii_(1604-1678)_duc_de</identifier>
+  </person>
+  <person xml:id="marie_charlotte_gramont" sex="F">
+    <name>Grammont, Marie-Charlotte de, née de Castelnau </name>
+    <birth when="1648"/>
+    <death when="1694"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Antoine-Charles_de_Gramont</identifier>
   </person>
   <person xml:id="philibert_de_gramont" sex="M">
     <name>Gramont, Philibert comte de, dit le chevalier de</name>
@@ -1806,6 +1824,9 @@
     <identifier type="databnf">https://data.bnf.fr/ark:/12148/cb12568512v</identifier>
     <identifier type="isni">0000 0000 0891 5775</identifier>
   </person>
+  <person xml:id="mlle_montlaur" sex="F">
+    <name>Montlaur, Mademoiselle de</name>
+  </person>
   <person xml:id="julie_montausier" sex="F">
     <name>Montausier, Julie d'Angennes de Rambouillet, duchesse de</name>
     <birth when="1607"/>
@@ -2032,6 +2053,9 @@
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Th%C3%A9ophraste_Renaudot</identifier>
     <identifier type="databnf">https://data.bnf.fr/fr/12335203/theophraste_renaudot/</identifier>
     <identifier type="isni">0000 0001 2141 565X</identifier>
+  </person>
+  <person xml:id="mlle_de_ribera" sex="F">
+    <name>Ribera, Mademoiselle de</name>
   </person>
   <person xml:id="richard" sex="M">
     <name>Richard, Etienne</name>
@@ -2261,6 +2285,9 @@
   </person>
   <person xml:id="vagnard_fils" sex="M">
     <name>Vagnard, fils, danseur</name>
+  </person>
+  <person xml:id="mlle_de_la_vallee" sex="F">
+    <name>Vallée, Mademoiselle de la</name>
   </person>
   <person xml:id="sieur_de_valentine" sex="M">
     <name>Valentiné, Sieur de, Contrôleur Général de la Maison du Roi</name>
