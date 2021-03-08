@@ -20,6 +20,10 @@
           <name>Marion Ignace</name>
           <resp>Balisage</resp>
         </respStmt>
+        <respStmt>
+          <name>Clément Cadiot</name>
+          <resp>Balisage</resp>
+        </respStmt>
       </editionStmt>
       <publicationStmt>
         <publisher>Université de Genève</publisher>
@@ -63,25 +67,25 @@
     <body>
       <pb n="NP" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1520745x/f2"/>
       <label type="head">LES ACTEVRS DE LA COMEDIE.</label>
-      <p><name key="sganarelle" corresp="moliere">Sganarelle</name>. <persName key="moliere"
+      <p><name key="sganarelle" corresp="moliere">Sganarelle</name>. <persName key="moliere" role="acteur"
           >Molier</persName>.</p>
       <p><name key="geronimo" corresp="la_thorilliere">Geronimo</name>. <persName
-          key="la_thorilliere">La Thorilliere</persName>.</p>
+          key="la_thorilliere" role="acteur">La Thorilliere</persName>.</p>
       <p><name key="dorimene" corresp="therese_duparc">Dorimene</name>. <persName
-          key="therese_duparc">Mad<hi rend="sup">lle</hi> du Parc</persName>.</p>
-      <p><name key="alcantor" corresp="louis_bejart">Alcantor</name>. <persName key="louis_bejart"
+          key="therese_duparc" role="acteur">Mad<hi rend="sup">lle</hi> du Parc</persName>.</p>
+      <p><name key="alcantor" corresp="louis_bejart">Alcantor</name>. <persName key="louis_bejart" role="acteur"
           >Bejart</persName>.</p>
-      <p><name key="lycante" corresp="la_grange">Lycante</name>. <persName key="la_grange">La
+      <p><name key="lycante" corresp="la_grange">Lycante</name>. <persName key="la_grange" role="acteur">La
           Grange</persName>.</p>
       <p><name key="premiere_bohemienne" corresp="madeleine_bejart">Premier
-          Boësmienne</name>.<persName key="madeleine_bejart">Mad<hi rend="sup">lle.</hi>
+          Boësmienne</name>.<persName key="madeleine_bejart" role="acteur">Mad<hi rend="sup">lle.</hi>
           Bejart</persName>.</p>
       <p><name key="seconde_bohemienne" corresp="mlle_de_brie">Seconde Boësmienne</name>. <persName
-          key="mlle_de_brie">Mad<hi rend="sup">lle.</hi> de Brie</persName>.</p>
+          key="mlle_de_brie" role="acteur">Mad<hi rend="sup">lle.</hi> de Brie</persName>.</p>
       <p><name key="premier_docteur" corresp="">Premier Docteur</name>.
-          <persName key="brecourt">Brecourt</persName>.</p>
+          <persName key="brecourt" role="acteur">Brecourt</persName>.</p>
       <p><name key="second_docteur" corresp="du_croisy">Second Docteur</name>. <persName
-          key="du_croisy">Du Croisy</persName>.</p>
+          key="du_croisy" role="acteur">Du Croisy</persName>.</p>
       <pb n="NP" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1520745x/f3"/>
       <label type="head">LE MARIAGE FORCÉ.</label>
       <label type="head">BALLET.</label>
@@ -112,7 +116,7 @@
         espouuantable, &amp; se mettant en <placeName>v</placeName><placeName>n coin du
           Th</placeName><placeName>ea</placeName><placeName>tre </placeName>pour dormir, il voit en
         songe <name key="une_femme" corresp="hilaire_dupuis">vne femme</name> representée par
-          <persName key="hilaire_dupuis">Mademoiselle Hylaire</persName>, qui chante ce Recit.</p>
+          <persName key="hilaire_dupuis" role="chanteur">Mademoiselle Hylaire</persName>, qui chante ce Recit.</p>
       <label type="head">RECIT DE LA BEAVTÉ.</label>
       <lg>
         <l>SI l’Amour vous soûmet à ses lois inhumaines, </l>
@@ -185,7 +189,7 @@
         responce ils se mettent à danser en se moquant de luy, ce qui l’oblige d’aller trouuer <name
           key="magicien" corresp="beauchamp">vn Magicien</name>.</p>
       <label type="head">RECIT D’VN MAGICIEN.</label>
-      <p>Chanté par <persName key="estival">Monsieur Destiual</persName>.</p>
+      <p>Chanté par <persName key="estival" role="chanteur">Monsieur Destiual</persName>.</p>
       <lg>
         <l>Hola,</l>
         <l>Qui va la</l>
@@ -246,13 +250,13 @@
         auec son amy, &amp; luy dit que les jeunes gens de la Ville ont preparé vne mascarade pour
         honorer ses Nopces.</p>
       <p>Concert Espagnol, Chanté par</p>
-      <p><persName key="anna_bergerotti">La Seignora Anna Bergerotti</persName>.</p>
-      <p><persName key="bordigoni">Bordigoni</persName>.</p>
-      <p><persName key="chiarini">Chiarini</persName>.</p>
-      <p><persName key="Jon">Ion</persName>. 
-        <persName key="agustin">Agustin</persName>.</p>
-      <p><persName key="taillavaca">Taillauaca</persName>.</p>
-      <p><persName key="angelo_michael">Angelo Michaël</persName>.</p>
+      <p><persName key="anna_bergerotti" role="chanteur">La Seignora Anna Bergerotti</persName>.</p>
+      <p><persName key="bordigoni" role="chanteur">Bordigoni</persName>.</p>
+      <p><persName key="chiarini" role="chanteur">Chiarini</persName>.</p>
+      <p><persName key="Jon" role="chanteur">Ion</persName>. 
+        <persName key="agustin" role="chanteur">Agustin</persName>.</p>
+      <p><persName key="taillavaca" role="chanteur">Taillauaca</persName>.</p>
+      <p><persName key="angelo_michael" role="chanteur">Angelo Michaël</persName>.</p>
       <lg xml:lang="es">
         <l>Z</l>
         <l>I ego me tienes Belisa</l>
