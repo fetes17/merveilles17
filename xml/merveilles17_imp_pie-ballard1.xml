@@ -60,7 +60,7 @@
         </docTitle>
         <docImprint>A <placeName key="paris">PARIS</placeName>,</docImprint>
         <docImprint>Par <persName key="ballard" role="imprimeur">ROBERT BALLARD</persName>
-          <!--doit-on garder le role "imprimeur", au même titre que auteur, etc. ?-->, seul
+          , seul
           Imprimeur du <persName key="louisxiv">Roy</persName> pour la Musique.</docImprint>
         <docDate><date when="1664">M. DC. LXIV</date>.</docDate>
         <imprimatur>Auec Priuilege de <persName key="louisxiv">sa Majesté</persName>.</imprimatur>
@@ -99,14 +99,14 @@
             <placeName key="france">France</placeName>, où le respect &amp; l’admiration que luy
           causent les rares qualitez de <persName key="marie_therese">la Reyne</persName> ; Elle
           ordonne à ces <name key="chevalier">Guerriers</name> de faire, en faueur de <persName
-            key="louisxiv">sa Majesté</persName>, tout ce qu’ils auront peu inventer pour luy plaire
+            key="louisxiv" role="destinataire">sa Majesté</persName>, tout ce qu’ils auront peu inventer pour luy plaire
           par leur adresse, &amp; par leur magnificence.</p>
         <pb n="6" facs="https://gallica.bnf.fr/ark:/12148/bpt6k71691f/f7"/>
         <label type="head">ORDRE DE L’ENTRÉE DES CHEVALIERS dans le Camp, leurs suittes, &amp;
           Deuises.</label>
         <p rend="dropcap">VN <name key="heraut_d_armes" corresp="desbardins">Heraut
           d’Armes</name>.</p>
-        <p><persName key="desbardins">Monsieur Desbardins</persName>.</p>
+        <p><persName key="desbardins" role="acteur">Monsieur Desbardins</persName>.</p>
         <p rend="dropcap">VN <name key="page_du_roi" corresp="artagnan">Page de Roger</name>, Chef
           de la Quadrille, portant sa Lance &amp; l’Escu de sa Devise, accompagné de celuy de <name
             key="guidon_le_sauvage" corresp="saint_aignan">Guidon le Sauuage</name>, Mareschal de
