@@ -337,7 +337,7 @@
   </person>
   <person xml:id="francois_iii_d_aubusson" sex="M">
     <name>Aubusson, François III d', duc de La Feuillade, maréchal de France, duc de Roannez et gouverneur du Dauphiné</name>
-    <birth when="1625-1631"/>
+    <birth notBefore="1625" notAfter="1631"/>
     <death when="1691"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Fran%C3%A7ois_III_d%27Aubusson</identifier>
     <identifier type="databnf">https://data.bnf.fr/fr/14536374/francois_d_aubusson_de_la_feuillade/</identifier>
@@ -993,8 +993,8 @@
     <name>D'Heureux, danseur</name>
   </person>
   <person xml:id="henri_de_daillon" sex="M">
-    <name>Daillon du Lude, Henri de</name>
-    <birth when="16.."/>
+    <name>Daillon, Henri de, marquis d'Illiers, duc de Lude en 1673</name>
+    <birth when="1622"/>
     <death when="1685"/>
     <identifier type="databnf"
       >https://data.bnf.fr/fr/14953629/henri_de_daillon_du_lude/</identifier>
@@ -1037,6 +1037,9 @@
   </person>
   <person xml:id="desbardins" sex="M">
     <name>Desbardins ou des Bardins, François de Boutevilain</name>
+  </person>
+  <person xml:id="desbordes" sex="M">
+    <name>Desbordes, Sieur, cavalcadour de Philippe d'Orléans</name>
   </person>
   <person xml:id="desbrosses" sex="M">
     <name>Desbrosses, danseur</name>
@@ -1127,6 +1130,14 @@
     <birth when="1625"/>
     <death when="1709 "/>
     <identifier type="databnf">https://data.bnf.fr/fr/14842782/hilaire_dupuis/</identifier>
+  </person>
+  <person xml:id="jh_durfort" sex="M">
+    <name>Durfort, Jacques-Henri de, comte, puis marquis, puis duc de Duras, maréchal de France</name>
+    <birth when="1625"/>
+    <death when="1704"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jacques_Henri_de_Durfort</identifier>
+    <identifier type="databnf">https://data.bnf.fr/fr/11332564/jacques_henri_de_durfort_duras/</identifier>
+    <identifier type="isni">0000 0003 6698 6872</identifier>
   </person>
   <person xml:id="elie" sex="M">
     <name>Elie, garde suisse</name>
@@ -1284,6 +1295,9 @@
     <death when="1685"/>
     <!-- épouse du comte Charles de Brancas -->
   </person>
+  <person xml:id="gassion" sex="M">
+    <name>Gassion, Sieur de, écuyer de Philippe d'Orléans</name>
+  </person>
   <person xml:id="christophe_gaulard" sex="M">
     <name>Gaulard, Christophe, chef de la fruiterie du roi</name>
   </person>
@@ -1430,6 +1444,12 @@
   <person xml:id="gaspard_harsent" sex="M">
     <name>Harsent, Gaspard</name>
   </person>
+  <person xml:id="jacob_blanquet_la_haye" sex="M">
+    <name>Haye, Jacob Blanquet de la, officier de la marine royale, gouverneur des Indes orientales, seigneur de la Haye et baron de Loury, écuyer de Philippe d'Orléans</name>
+    <birth when="1621"/>
+    <death when="1671"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jacob_Blanquet_de_la_Haye</identifier>
+  </person>
   <person xml:id="victor_herck" sex="M">
     <name>Herck, Victor, officier de la bouche</name>
   </person>
@@ -1486,6 +1506,9 @@
     <birth when="1635*"/>
     <death when="1723"/>
     <identifier type="mg">humieres_antoinette_de_la_châtre_(1635-1723)_marechale_d</identifier>
+  </person>
+  <person xml:id="d_illiers" sex="M">
+    <name>D'illiers, comte de, </name>
   </person>
   <person xml:id="leonard_itier" sex="M">
     <name>Ithier, Léonard Henri, luth</name>
@@ -1784,6 +1807,17 @@
     <death when="1689"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Henri_de_Lorraine-Harcourt</identifier>
   </person>
+  <person xml:id="marie_lorraine_elbeuf" sex="F">
+    <name>Lorraine, Marie-Marguerite-Ignace de, dite Mademoiselle d'Elbeuf</name>
+    <birth when="1628"/>
+    <death when="1679"/>
+  </person>
+  <person xml:id="fm_lorraine" sex="M">
+    <name>Lorraine, François-Marie de, comte puis prince de Lillebonne, duc de Joyeuse</name>
+    <birth when="1624"/>
+    <death when="1694"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Fran%C3%A7ois-Marie_de_Lorraine</identifier>
+  </person>
   <person xml:id="henri_de_lorraine" sex="M">
     <name>Lorraine Armagnac, Henri de</name>
     <birth when="1601"/>
@@ -1793,11 +1827,6 @@
     <identifier type="wikipedia"
       >https://fr.wikipedia.org/wiki/Henri_de_Lorraine-Harcourt</identifier>
     <identifier type="isni">0000 0001 2101 0433</identifier>
-  </person>
-  <person xml:id="marie_lorraine_elbeuf" sex="F">
-    <name>Lorraine, Marie-Marguerite-Ignace de, dite Mademoiselle d'Elbeuf</name>
-    <birth when="1628"/>
-    <death when="1679"/>
   </person>
   <person xml:id="charles_iii_lorraine_guise" sex="M">
     <name>Lorraine-Guise, Charles-François III, duc de</name>
@@ -1813,7 +1842,7 @@
     <identifier type="wikipedia"
       >https://data.bnf.fr/fr/12563871/henri_de_lorraine_guise/</identifier><identifier
       type="databnf">https://fr.wikipedia.org/wiki/Henri_II_de_Guise</identifier><identifier
-      type="isni"/>0000 0001 2131 180X </person>
+      type="isni"/>0000 0001 2131 180X</person>
   <person xml:id="gaston_levis_loumagne" sex="M">
     <name>Loumagne, Gaston-Jean-Baptiste de Levis de, marquis de Mirepoix, Maréchal de la Foy, </name>
     <birth when="1636"/>
@@ -1834,6 +1863,9 @@
     <identifier type="databnf">https://data.bnf.fr/fr/11913463/louis_14/</identifier>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Louis_XIV</identifier>
     <identifier type="isni">0000 0003 9287 0208</identifier>
+  </person>
+  <person xml:id="louviers" sex="M">
+    <name>Louviers, Sieur de, écuyer ordinaire du Roi</name>
   </person>
   <person xml:id="comtesse_de_louvigny" sex="F">
     <name>Louvigny, comtesse de</name>
@@ -2269,6 +2301,12 @@
     <identifier type="databnf">https://data.bnf.fr/fr/12259348/gilles_rousselet/</identifier>
     <identifier type="isni">0000 0001 0872 0748</identifier>
   </person>
+  <person xml:id="louis_de_rohan" sex="M">
+    <name>Rohan-Guémené, Louis de, dit le chevalier de Rohan, grand veneur de France puis colonel des gardes du Roi</name>
+    <birth when="1635"/>
+    <death when="1674"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Louis_de_Rohan_(1635-1674)</identifier>
+  </person>
   <person xml:id="anne_rohan_montbazon" sex="F">
     <name>Rohan-Montbazon, Anne de, duchesse de Luynes</name>
     <birth when="1640"/>
@@ -2468,6 +2506,10 @@
   </person>
   <person xml:id="vagnard_fils" sex="M">
     <name>Vagnard, fils, danseur</name>
+  </person>
+  <person xml:id="vaillac" sex="M">
+    <name>Vaillac, comte de</name>
+    <!-- Il s'agit probablement d'un membre de la famille Ricard de Genouillac, peut-être Jean François, maître de camp du régiment de Vaillac, mort en 1696 (pas de date de naissance trouvée) -->
   </person>
   <person xml:id="mlle_de_la_vallee" sex="F">
     <name>Vallée, Mademoiselle de la</name>
