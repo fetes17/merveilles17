@@ -585,6 +585,12 @@
     <identifier type="wikipedia"
       >https://fr.wikipedia.org/wiki/Fran%C3%A7ois_de_Bonne_de_Cr%C3%A9qui</identifier>
   </person>
+  <person xml:id="alphonse_crequy" sex="M">
+    <name>Créquy, Alphonse de, comte de Canaples puis duc de Lesdiguières</name>
+    <birth when="1629"/>
+    <death when="1711"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Alphonse_de_Cr%C3%A9quy</identifier>
+  </person>
   <person xml:id="madame_de_bonnelle" sex="F">
     <name>Bonnelle, Madame de</name>
   </person>
@@ -752,6 +758,12 @@
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Maximilien_II_de_B%C3%A9thune</identifier> 
     <!-- Dans la liste des héritiers de maximilien II -->
   </person>
+  <person xml:id="hippolyte_bethune" sex="M">
+    <name>Béthune, Hippolyte de, marquis de Chabris, dit le comte de Béthune, chevalier d'honneur de Marie-Thérèse d'Autriche puis chevalier des ordres du Roi</name>
+    <birth when="1603"/>
+    <death when="1665"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Hippolyte_de_B%C3%A9thune_(1603-1665)</identifier>
+  </person>
   <person xml:id="brenonville" sex="M">
     <name>Brenonville, écuyer de la grande écurie</name>
   </person>
@@ -768,15 +780,15 @@
   <person xml:id="camille" sex="M">
     <name>Camille, violon</name>
   </person>
-  <person xml:id="castel" sex="M">
-    <name>Catel, garde suisse</name>
-  </person>
   <person xml:id="marechale_de_castelnau" sex="F">
     <name>Castelnau, Marie Girard, née de l'Espinay, maréchale de</name>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jacques_de_Castelnau</identifier>
   </person>
   <person xml:id="marquise_de_castelnau" sex="F">
     <name>Castelnau, Marquise de,</name>
+  </person>
+  <person xml:id="castel" sex="M">
+    <name>Catel, garde suisse</name>
   </person>
   <person xml:id="henri_cauchon_de_maupas" sex="M">
     <name>Cauchon de Maupas du Tour, Henri</name>
@@ -786,6 +798,14 @@
       >https://data.bnf.fr/fr/16224631/henri_cauchon_de_maupas_du_tour/</identifier>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Henri_Cauchon_de_Maupas</identifier>
     <identifier type="isni">0000 0004 3656 9995</identifier>
+  </person>
+  <person xml:id="antonin_nompar_caumont" sex="M">
+    <name>Caumont, Antonin Nompar de, premier duc de Lauzun, marquis de Puyguilhem (dit Péguilin à la Cour de France), comte de Saint-Fargeau, capitaine des Gardes du corps du Roi et colonel général</name>
+    <birth when="1632"/>
+    <death when="1723"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Antonin_Nompar_de_Caumont</identifier>
+    <identifier type="databnf">https://data.bnf.fr/fr/12098262/antonin_nompar_de_caumont_lauzun/</identifier>
+    <identifier type="isni">0000 0000 6643 4726</identifier>
   </person>
   <person xml:id="cercamanan" sex="F">
     <name>Cercamanan, Anne Fonteaux de</name>
@@ -1293,6 +1313,10 @@
     <identifier type="isni">0000 0001 2135 5570</identifier>
     <identifier type="mg">felibien_andre_(1619-1695)</identifier>
   </person>
+  <person xml:id="gamache" sex="M">
+    <name>Gamache, Marquis de</name>
+  </person>
+  <!-- Probablement Nicolas Rouault, 1er marquis de Gamache, ou son fils aîné, Joachim Rouault : date de mort du père non recensée -->
   <person xml:id="mme_de_brancas" sex="F">
     <name>Garnier, Suzanne, comtesse de Brancas après son mariage</name>
     <death when="1685"/>
