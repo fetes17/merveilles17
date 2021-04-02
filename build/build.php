@@ -1363,8 +1363,8 @@ class Build
   static function dom($xmlfile) {
     $dom = new DOMDocument();
     $dom->preserveWhiteSpace = false;
-    $dom->formatOutput=true;
-    $dom->substituteEntities=true;
+    $dom->formatOutput = true;
+    $dom->substituteEntities = true;
     $dom->load($xmlfile, LIBXML_NOENT | LIBXML_NONET | LIBXML_NSCLEAN | LIBXML_NOCDATA | LIBXML_NOWARNING);
     return $dom;
   }

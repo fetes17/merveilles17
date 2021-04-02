@@ -82,7 +82,7 @@
       </teiHeader>
     </a:example>
     <define name="teiHeader">
-      <a:documentation>La page de titre électronique, avec les métadonnées, notamment les entités d’indexation <a:el>event</a:el>, <a:el>person</a:el>…</a:documentation>
+      <a:documentation>La page de titre électronique, avec les métadonnées</a:documentation>
       <element name="teiHeader">
         <element name="fileDesc">
           <element name="titleStmt">
@@ -573,14 +573,12 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
       <element name="pb">
         <a:documentation>Saut de page, “page break”, à placer avant le début du texte de la page, avec le numéro</a:documentation>
         <attribute name="n"/>
-        <choice>
-            <optional>
-             <attribute name="facs"/>
-            </optional>
-            <optional>
-              <ref name="xml.id"/>
-            </optional>
-        </choice>
+        <optional>
+         <attribute name="facs"/>
+        </optional>
+        <optional>
+          <ref name="xml.id"/>
+        </optional>
       </element>
     </define>
     <define name="include">
