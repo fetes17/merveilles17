@@ -609,7 +609,7 @@
             key="louis_ii_bourbon_conde" role="participant">Mr le Prince</persName>, <tech
             type="costume">qui étoit vétu à la Turque</tech>, &amp; dont la mine guerriere
           s’accomodoit fort bien à la fierté de l’habillement.</p>
-        <p><seg ana="liste">Les Chevaliers qui <persName key="francois_henri_montmorency_luxembourg"
+        <p><seg ana="liste">Les Chevaliers qui <persName key="francois_henri_montmorency_luxembourg" role="participant"
           >le</persName> suivoient, étoient <persName key="francois_beauvilliers"
               role="participant">le Comte de Sery</persName>, <persName key="cm_de_belleforiere"
               role="participant">le Marquis de Soyecourt</persName>, <persName
@@ -641,7 +641,7 @@
           son Mareschal de Camp, parut ensuite avec vn air si grand &amp; si noble, qu’il faisoit
           assez connaître l’illustre Père, dont il est sorty, &amp; ce que l’on en doit attendre
           dans la suite du temps.</p>
-        <p><seg ana="liste"><persName key="hj_bourbon_conde">Il</persName> étoit suivy des <persName
+        <p><seg ana="liste"><persName key="hj_bourbon_conde" role="participant">Il</persName> étoit suivy des <persName
               key="alphonse_crequy" role="participant">Marquis de Canaples</persName>, du
           <persName key="cesar_auguste_choiseul_plessis" role="participant">Chevalier du Plessis</persName>, du
           <persName key="florimond_ier_brulart" role="participant">Marquis de Ianlis</persName>, du <persName
@@ -672,7 +672,7 @@
               key="henri_ii_de_guise" role="participant">Monsieur le Duc de Guise</persName> paroist
               <tech type="costume">vétu de peaux de Dragon</tech></seg>, avec cette contenance
           galante &amp; caualliere, qui luy donne tant d’avantage en ces sortes d’occasions ; <seg
-            ana="liste"><persName key="henri_ii_de_guise">Ses</persName> Aventuriers étoient
+            ana="liste"><persName key="henri_ii_de_guise" role="participant">Ses</persName> Aventuriers étoient
               <persName key="alphonse_louis_lorraine" role="participant">le Chevaliers
                 d’Harcourt</persName>, <persName key="henri_louis_aloigny" role="participant">les Marquis de
               Rochefort</persName>, <persName key="georges_ysore_hervault" role="participant"
@@ -687,14 +687,14 @@
             key="marie_therese" role="spectateur"><persName key="anne_d_autriche" role="spectateur"
               >les Reynes</persName></persName>, elles se separerent toutes en fort bel ordre, &amp;
           chacune fut prendre place au Poste marqué par son Mareschal de Camp. Sçavoir, celle de
-            <persName key="philippe_orleans">Monsieur </persName>à la droite de <placeName
+            <persName key="philippe_orleans" role="participant">Monsieur </persName>à la droite de <placeName
             key="paris_place_tuileries">l’entrée de l’Amphitheatre</placeName>, celle de <persName
-            key="louis_ii_bourbon_conde">Monsieur le Prince</persName> à la gauche, celle de
-            <persName key="hj_bourbon_conde">Monsieur le Duc</persName> à la droite de <tech
+            key="louis_ii_bourbon_conde" role="participant">Monsieur le Prince</persName> à la gauche, celle de
+            <persName key="hj_bourbon_conde" role="participant">Monsieur le Duc</persName> à la droite de <tech
             type="construction">l’Echafaut des Reynes</tech>, vis à vis de la précedente, celle de
-            <persName key="henri_ii_de_guise">Monsieur le Duc de Guise</persName> à la gauche de
-          l’Echafaut, vis-à-vis de celle de <persName key="philippe_orleans">Monsieur</persName> ;
-          Enfin celle du <persName key="louisxiv">Roy</persName> sortant du Carré par une
+            <persName key="henri_ii_de_guise" role="participant">Monsieur le Duc de Guise</persName> à la gauche de
+          l’Echafaut, vis-à-vis de celle de <persName key="philippe_orleans" role="participant">Monsieur</persName> ;
+          Enfin celle du <persName key="louisxiv" role="participant">Roy</persName> sortant du Carré par une
           contre-Marche assez difficile où elle s’étoit rangée, pour donner passage aux autres,
           s’alla placer vis-à-vis de l’Echafaut des Reynes, à <placeName key="paris_place_tuileries"
             >l’entrée de l’Amphitheatre</placeName>.</p>
@@ -931,8 +931,8 @@
           <figDesc/>
           <head><hi rend="sc">Course de Testes</hi> Disposition des cinq Quadrilles dans <tech
               type="construction">l'Amphiteatre</tech>. premiere journée</head>
-          <p>1 <tech type="construction">Loges</tech> des <persName key="marie_therese"><persName
-                key="anne_d_autriche">Reynes</persName></persName>.</p>
+          <p>1 <tech type="construction">Loges</tech> des <persName key="marie_therese" role="spectateur"><persName
+                key="anne_d_autriche" role="spectateur">Reynes</persName></persName>.</p>
           <p>2 <tech type="construction">Loges</tech> des Juges.</p>
           <p>3 <placeName key="paris_tuileries_chateau ">Les Tuilleries</placeName></p>
           <p>4 L'entrée dans <tech type="construction">l'Amphiteatre</tech>.</p>
@@ -995,8 +995,8 @@
           <figDesc/>
           <head><hi rend="sc">Course de bague</hi>, et Disposition des Quadrilles dans <tech
               type="construction">L'Amphitéatre</tech>, seconde journée.</head>
-          <p>1 <tech type="construction">Eschafault</tech> des <persName key="marie_therese"
-                ><persName key="anne_d_autriche">Reynes</persName></persName>.</p>
+          <p>1 <tech type="construction">Eschafault</tech> des <persName key="marie_therese" role="spectateur"
+                ><persName key="anne_d_autriche" role="spectateur">Reynes</persName></persName>.</p>
           <p>2 <tech type="construction">Loges</tech>pour les Juges du Camp.</p>
           <p>3 Mareschal de Camp general.</p>
           <p>4 Premier Ayde de Camp et les 4 aut. du Mar.<hi rend="sup">al</hi> de Camp gnal.</p>
@@ -3058,10 +3058,10 @@
         <p>Il faut encore observer, que les quatre Chevaliers qui couroient n’étoient pas d’une méme
           Quadrille, mais des quatre premieres dont les quatre Chefs faisoient ensemble la premiere
           Course. Ensuite, quatre Chevaliers tirez des quatre Quadrilles, &amp; ainsi des autres
-          jusqu’aux quatre derniers, aprés quoy la Quadrille du <persName key="henri_ii_de_guise"
+          jusqu’aux quatre derniers, aprés quoy la Quadrille du <persName key="henri_ii_de_guise" role="participant"
             >Duc de Guise</persName> fit ses Courses, &amp; parce que d’onze Chevaliers dont elle
           étoit composée en comptant le Chef ; il ne restoit que trois Chevaliers pour la derniere
-          Course, <persName key="henri_ii_de_guise">le Duc de Guise</persName> reprit la place qui
+          Course, <persName key="henri_ii_de_guise" role="participant">le Duc de Guise</persName> reprit la place qui
           restoit à la troisiéme Course, &amp; commença sa seconde Course, &amp; ainsi remplissant
           successivement les uns les autres la derniere place, il se trouva que courant chacun
           quatre fois, il fournirent les quarante-quatre Courses.</p>
@@ -3070,12 +3070,12 @@
           les exercices, qu’ils meriteerent également la reputation de beaux &amp; de bons hommes de
           cheval, chacun d’eux s’efforçant avec d’autant plus d’émulation qu’ils étoient animez pas
           l’exemple de leur Prince, qui ne dédaignoit pas d’étre leur concurrent en cette occasion.
-            <persName key="louisxiv">Sa Majesté</persName> remporta toutes les seize Testes avec une
+            <persName key="louisxiv" role="participant">Sa Majesté</persName> remporta toutes les seize Testes avec une
           grace qui charmoit tout le monde : mais la fortune ayant voulu que le Dard s’en séparât
           quelquefois en tombant, elle favorisa davantage l’adresse du <persName
-            key="bernardin_gigault_bellefonds">Marquis de Bellefons</persName> Chevalier de la
-          Quadrille de <persName key="philippe_orleans">Monsieur</persName>, qui les emporta toutes
-          sans le moindre defaut, &amp; receut des mains de <persName key="marie_therese">la
+            key="bernardin_gigault_bellefonds" role="participant">Marquis de Bellefons</persName> Chevalier de la
+          Quadrille de <persName key="philippe_orleans" role="participant">Monsieur</persName>, qui les emporta toutes
+          sans le moindre defaut, &amp; receut des mains de <persName key="marie_therese" role="spectateur">la
             Reyne</persName> aux fanfares des Trompettes &amp; des Timbales, qui avoient à diverses
           reprises fait retentir l’air durant ce divertissement, une Boëte garnie de tres beaux
           Diamans, mais moins precieuse encore par sa richesse, que parce qu’elle renfermoit le
@@ -3121,7 +3121,7 @@
             Antoine</placeName>, <placeName key="paris_rue-saint-honore">la ruë Saint
             Honoré</placeName>, &amp; quelques autres, il se rencontroit plusieurs ruës étroites où
           le spectacle perdoit beaucoup de son lustre &amp; de sa magnificence.</p>
-        <p><persName key="louisxiv">Sa Majesté</persName> étant arrivée au Camp, &amp; <persName
+        <p><persName key="louisxiv" role="participant">Sa Majesté</persName> étant arrivée au Camp, &amp; <persName
             key="marie_therese" role="spectateur"><persName key="anne_d_autriche" role="spectateur"
               >les Reynes</persName></persName> ayans pris leurs places sur <tech
             type="construction">le même échafaut du jour précedent</tech> ; La Course de Bague
@@ -3130,7 +3130,7 @@
             qui entouroient le Camp</tech>, mais jusques sur les toîts du <placeName
             key="paris_tuileries_chateau">Palais des Thuilleries</placeName>, &amp; de toutes les
           maisons voisines qui en étoient couvertes de tous côtez.</p>
-        <p><persName key="louisxiv">Le Roy</persName> y donna encore des preuves incroyables de son
+        <p><persName key="louisxiv" role="participant">Le Roy</persName> y donna encore des preuves incroyables de son
           adresse, ayant d’abord emporté la Bague après une Course qui le fit admirer d’un chacun,
           dont la justesse, la fermeté &amp; la bonne grace étoient encore préferables à l’adresse,
           dont la Bague fut emportée.</p>
@@ -3144,9 +3144,9 @@
           rang, &amp; ainsi la troisiéme : Et après que tous les Chevaliers de la premiere Quadrille
           eurent fourny leurs trois Courses, les Chevaliers de la seconde firent les leurs dans le
           même ordre, &amp; ainsi les quatre autres Quadrilles consecutivement.</p>
-        <p><persName key="francois_bonne_crequi">Le Comte de Sault</persName> Avanturier de la
-          Quadrille du <persName key="hj_bourbon_conde">Prince de Condé</persName>, emporta le prix
-          d’un Diamant fort riche que donna <persName key="anne_d_autriche">la Reyne
+        <p><persName key="francois_bonne_crequi" role="participant">Le Comte de Sault</persName> Avanturier de la
+          Quadrille du <persName key="hj_bourbon_conde" role="participant">Prince de Condé</persName>, emporta le prix
+          d’un Diamant fort riche que donna <persName key="anne_d_autriche" role="spectateur">la Reyne
           Mere</persName>, aux fanfares des Trompettes &amp; au bruit des Timbales, mais sur tout
           aux applaudissemens de tous les spectateurs.</p>
         <p>Ainsi finit cette superbe feste, dont la magnificence a surpassé celle des plus fameux
