@@ -30,6 +30,10 @@
           <name>Yohann Deguin</name>
           <resp>Balisage, relecture et corrections</resp>
         </respStmt>
+        <respStmt>
+          <name>Clément Cadiot</name>
+          <resp>Balisage</resp>
+        </respStmt>
       </editionStmt>
       <publicationStmt>
         <publisher>Université d’Artois - Lille, MESHS</publisher>
@@ -256,7 +260,7 @@
         plusieurs Climats, elle la fait aborder en <placeName key="france">France</placeName>, où
         par le respect &amp; l’admiration que luy causent les rares Qualitez de la <persName
           key="marie_therese">Reyne</persName> ; elle ordonne à ces <name key="chevalier">Guerriers</name> de faire
-        en faueur de <persName key="louisxiv">sa Majesté</persName>, tout ce qu’ils auront pû
+        en faueur de <persName key="louisxiv" role="destinataire">sa Majesté</persName>, tout ce qu’ils auront pû
         inuenter pour luy plaire par leur adresse, &amp; par leur magnificence : elle ordonne à
           <name key="chevalier">onze de ses Chevaliers</name> de se préparer pour cet effet,
         lesquels commencerent ces diuertissemens par la Course de bague &amp; entrerent dans le
@@ -319,9 +323,9 @@
           facs="https://gallica.bnf.fr/ark:/12148/btv1b10527887j/f27"
         />tous par l’<tech type="construction">vn des quatre Portiques</tech>, qui aboutissent aux
         quatre auenuës du Camp &amp; après qu’ils eurent fait le tour, ils s’arrêterent deuant
-          <persName key="marie_therese"><persName key="anne_d_autriche">les Reynes</persName></persName>, <name key="apollon"
+          <persName key="marie_therese" role="spectateur"><persName key="anne_d_autriche" role="spectateur">les Reynes</persName></persName>, <name key="apollon"
           >Apollon</name> &amp; <name key="quatre_siecles">les quatres Siecles</name> reciterent
-        quelques vers à la loüange de la Reyne. En suitte la Course de bague se fit, &amp; la nuit
+        quelques vers à la loüange de la <persName key="marie_therese" role="destinataire">Reyne</persName>. En suitte la Course de bague se fit, &amp; la nuit
         survenant, les enuirons de l’Île enchantée brillerent d’vn <tech type="lumieres">nombre
           infiny de lumieres</tech>, &amp; l’on vit entrer dans la même place trente quatre concertans precedans <name
           key="quatre_saisons">les quatres Saisons</name>, <name key="le_printemps">le
@@ -1306,7 +1310,7 @@
 
       <pb n="68" xml:id="p68" facs="https://gallica.bnf.fr/ark:/12148/btv1b10527887j/f141"/>
         <head>VERS DE <name key="pan">PAN</name> ET DE <name key="diane">DIANE</name> À
-            <persName key="marie_therese">LA REYNE</persName>.</head>
+            <persName key="marie_therese" role="destinataire">LA REYNE</persName>.</head>
         <label type="speaker"><name key="diane">DIANE</name>.</label>
         <lg ana="vers">
           <l met="l8">Nos Bois, nos Rochers, nos Montagnes,</l>
@@ -1352,7 +1356,7 @@
         <p>Le braue <name key="roger">Roger</name>, &amp; <name key="chevalier">les fameux
             Guerriers de sa Quadrille</name> auoient trop bien reüssy aux Courses qu’ils auoient
           faittes dans l’Île enchantée ; &amp; <name key="alcine">la Magicienne</name> qui les auoit
-          conuiez à en diuertir vne grande <persName key="marie_therese">Reyne</persName>, auoit
+          conuiez à en diuertir vne grande <persName key="marie_therese" role="destinataire">Reyne</persName>, auoit
           receu trop de satisfaction de cette galanterie, pour n’en desirer pas la continuation :
           ces <name key="chevalier">Cheualiers</name> luy donnent donc le plaisir de la Comedie :
           comme ils auoient entrepris les Courses souz le nom des Ieux Pythiens &amp; <tech
@@ -1375,7 +1379,7 @@
           malheur prochain : en cette inquietude elle vient au bas du Lac portée par <tech
             type="animal">vn Monstre marin</tech> accompagnée de deux de ses Nymphes, &amp; mêle à
           des plaintes de l’état où elle se trouue les loüanges de la <persName
-            key="anne_d_autriche">Reyne Mere</persName> par des vers qu’elle luy dit.</p>
+            key="anne_d_autriche" role="destinataire">Reyne Mere</persName> par des vers qu’elle luy dit.</p>
 
       <pb n="72" xml:id="p72" facs="https://gallica.bnf.fr/ark:/12148/btv1b10527887j/f149"/>
         <p>Cependant <tech type="musique">vn Chœur de plusieurs Instrumens se fait entendre</tech>

@@ -25,6 +25,10 @@
           <name>Gaëlle Lafage</name>
           <resp>Correction</resp>
         </respStmt>
+        <respStmt>
+          <name>Clément Cadiot</name>
+          <resp>Balisage</resp>
+        </respStmt>
       </editionStmt>
       <publicationStmt>
         <publisher>Université d’Artois - Lille, MESHS</publisher>
@@ -487,10 +491,10 @@
           auoir salué <persName key="marie_therese" role="spectateur"><persName key="anne_d_autriche" role="spectateur">les Reines</persName></persName>, elles se
           separerent, et prirent chacune leur poste : <name key="page">Le Page</name> a la teste,
             le Trompettes, et Les Tymballiers se croisants, s’aller poster
-          sur les aisles. <persName key="louisxiv">Le Roy</persName> s’auançant au milieu, prit sa
-          place vis-à-vis du haut Dais. <persName key="hj_bourbon_conde">Mr Le Duc</persName> proche
-          de <persName key="louisxiv">sa Majesté</persName> : <persName key="anne_de_noailles">Les
-            Ducs de Noailles</persName>, et <persName key="saint_aignan">de Saint-Aignant</persName>
+          sur les aisles. <persName key="louisxiv" role="participant">Le Roy</persName> s’auançant au milieu, prit sa
+          place vis-à-vis du haut Dais. <persName key="hj_bourbon_conde" role="participant">Mr Le Duc</persName> proche
+          de <persName key="louisxiv">sa Majesté</persName> : <persName key="anne_de_noailles" role="participant">Les
+            Ducs de Noailles</persName>, et <persName key="saint_aignan" role="participant">de Saint-Aignant</persName>
           à Droit, et à gauche, les <name key="chevalier">dix Cheualiers</name> en haye aux deux
           costez du <tech type="machine_temps">char</tech>, <name key="page">leurs Pages</name> au
           mesme ordre derriere eux,</p>
@@ -501,7 +505,7 @@
           l’attention, et par le respect, donna le moyen à <persName key="mlle_de_brie"
             role="acteur">Mademoiselle de Brie</persName>, qui representoit <name
             key="le_siecle_d_airain" corresp="mlle_de_brie">le Siecle d’Airain</name> de commencer
-          ces Vers à la louange de <persName key="marie_therese">la Reine</persName> adressez à
+          ces Vers à la louange de <persName key="marie_therese" role="destinataire">la Reine</persName> adressez à
             <name key="apollon" corresp="la_grange">Apollon</name>, representé par <persName
             key="la_grange" role="acteur">le sieur de la Grange</persName>.</p>
         <label type="speaker"><name key="le_siecle_d_airain" corresp="mlle_de_brie">Le Siecle
@@ -619,20 +623,20 @@
           de Ballet qu’on eut encore Veuë.</p>
         <p><name key="le_printemps" corresp="therese_duparc">Le Printemps</name> parut en suitte sur
             <tech type="animal">un cheual d’Espagne</tech>, représenté par <persName
-            key="therese_duparc" role="acteur">Mademoiselle du Parc</persName>, qui auec le sexe, Et
+            key="therese_duparc" role="danseur">Mademoiselle du Parc</persName>, qui auec le sexe, Et
           les auantages d’vne femme, faisoit voir l’adresse d’vn homme : <seg ana="description"
               ><tech type="costume">Son habit estoit vert en broderie d’argent, et de fleurs au
               naturel</tech></seg>.</p>
         <p><name key="l_ete" corresp="gros_rene">L'Esté</name> le suiuoit representé par <persName
-            key="gros_rene" role="acteur">le sieur du Parc</persName>, sur <tech type="animal">un
+            key="gros_rene" role="danseur">le sieur du Parc</persName>, sur <tech type="animal">un
             Elephant</tech>, <seg ana="description">couuert d’une riche housse</seg>.</p>
         <p><name key="l_automne" corresp="la_thorilliere">L'Automne</name>, aussi auantageusement
-          Vêtu, representé par <persName key="la_thorilliere" role="acteur">le Sieur de la
+          Vêtu, representé par <persName key="la_thorilliere" role="danseur">le Sieur de la
             Thorilliere</persName>, Venoit apres monté sur <tech type="animal">vn
           Chameau</tech>.</p>
         <pb n="17" xml:id="p17" facs="https://gallica.bnf.fr/ark:/12148/bpt6k2072108/f16"/>
         <p><name key="l_hiver" corresp="louis_bejart">L'Hyver</name> suiuoit sur <tech type="animal"
-            >vn Ours</tech>, representé par <persName key="louis_bejart" role="acteur">le Sieur
+            >vn Ours</tech>, representé par <persName key="louis_bejart" role="danseur">le Sieur
             Bejar</persName>.</p>
         <p>Leur suitte estoit composée de quarante
             huict personnes, qui portoient toutes sur leurs testes des grands bassins
@@ -671,7 +675,7 @@
             key="diane">Diane</name>, et <name key="le_printemps" corresp="therese_duparc"><name
               key="l_ete" corresp="gros_rene"><name key="l_automne" corresp="la_thorilliere"><name
                   key="l_hiver" corresp="louis_bejart">les Saisons</name></name></name></name>, se
-          presentans deuant <persName key="marie_therese">la Reyne</persName>, <name
+          presentans deuant <persName key="marie_therese" role="destinataire">la Reyne</persName>, <name
             key="le_printemps" corresp="therese_duparc">le Printemps</name> luy adressa le premier
           Ces Vers.</p>
         <label type="speaker"><name key="le_printemps" corresp="therese_duparc">Le Printemps</name>
@@ -2687,22 +2691,22 @@
           regarde sur le fossé,</p>
         <pb n="199" xml:id="p199"/>
         <p>dans lequel on auoit dressé la lice, avec des Barrieres.</p>
-        <p><persName key="louisxiv">Le Roy</persName> s’y rendit suiuy des mesmes <name
+        <p><persName key="louisxiv" role="participant">Le Roy</persName> s’y rendit suiuy des mesmes <name
             key="chevaliers">Cheualiers</name> qui auoient couru la bague, <persName
-            key="saint_aignan">Les Ducs de St. Aignan</persName>, et <persName
-            key="anne_de_noailles">de Noailles</persName> y continuant leurs premieres fonctions,
+            key="saint_aignan" role="participant">Les Ducs de St. Aignan</persName>, et <persName
+            key="anne_de_noailles" role="participant">de Noailles</persName> y continuant leurs premieres fonctions,
           l’vn de Mareschal de Camp, et l’autre de Iuge des Courses. II s’en fit plusieurs fort
-          belles, et heureuses; Mais l’adresse du <persName key="louisxiv">Roy</persName> luy fit
+          belles, et heureuses; Mais l’adresse du <persName key="louisxiv" role="participant">Roy</persName> luy fit
           emporter hautement, ensuitte du prix de la Course des Dames, encore celuy que donnoit
             <persName key="marie_therese">la Reine</persName>. C’estoit vne rose de Diamans de grand
           prix, que <persName key="louisxiv">le Roy</persName>, apres l’auoir gagnée, redonna
           liberalement à courre aux autres Cheualiers, et que <persName key="armand_du_cambout"
             role="participant">le Marquis de Coaslin</persName> disputa contre <persName
-            key="cm_de_belleforiere">le Marquis de Soyecourt</persName>, et la gagna.</p>
+            key="cm_de_belleforiere" role="participant">le Marquis de Soyecourt</persName>, et la gagna.</p>
         <p><date when="1664-05-11">Le Dimanche</date> au leuer du Roy, quasi toute la conuersation
           tourna sur les belles courses du jour precedent, et donna lieu d’vn grand défi entre
-            <persName key="saint_aignan">le Duc de St. Aignant</persName>, qui n’auoit point encore
-          couru, et <persName key="cm_de_belleforiere">le Marquis de Soyecourt</persName> qui fut
+            <persName key="saint_aignan" role="participant">le Duc de St. Aignant</persName>, qui n’auoit point encore
+          couru, et <persName key="cm_de_belleforiere" role="participant">le Marquis de Soyecourt</persName> qui fut
           remise au lendemain, par ce que <persName key="antoine_iii_de_gramont">le Mareschal Duc de
             Grammont</persName> qui parioit pour ce Marquis estoit obligé de partir pour <placeName
             key="paris">Paris</placeName>, d’où il ne deuoit reuenir que le jour d’apres.</p>
@@ -2712,12 +2716,12 @@
           parmy les quels il y en a beaucoup de fort rares. II seroit Inutile de parler de la
           colation qui suiuit ce diuertissement, puisque huict Iours durant chaque repas pouuoit
           passer pour Festin des plus grands qu’on puisse faire.</p>
-        <p>Et Le soir <persName key="louisxiv">sa Majesté</persName> fit representer sur l’<tech
+        <p>Et Le soir <persName key="louisxiv" role="commanditaire">sa Majesté</persName> fit representer sur l’<tech
             type="construction">vn de ces Théatres doubles</tech> de <placeName
             key="versailles_chateau">son Sallon</placeName>, que</p>
         <pb n="200" xml:id="p200"/>
         <p>son Esprit vniversel a luy mesme Inventez, La Comedie des Fascheux faite par <persName
-            key="moliere">le Sieur de Moliere</persName>, meslée d’entrées de Ballet, et fort
+            key="moliere" role="auteur">le Sieur de Moliere</persName>, meslée d’entrées de Ballet, et fort
           ingenieuse.</p>
         <p>Le bruit du défy qui se deuoit courir <date when="1664-05-12">le Lundy douziéme</date>,
           fit faire vne infinité de gageures d’assez grande valeur, quoyque celle des <name
@@ -2758,27 +2762,27 @@
           presence, et <persName key="louisxiv">Sa Majesté</persName> leut mesme les articles des
           Courses, afin qu’il n’y eut point de contestations entre eux. Le succez en fut heureux au
             <persName key="saint_aignan">Duc de St. Aignan</persName> qui gagna le défi.</p>
-        <p>Le soir<persName key="louisxiv">sa Majesté</persName> fit Ioüer les trois premiers Actes
-          d’une Comedie nommée Tartuffe, que <persName key="moliere">le sieur de Moliere</persName>
+        <p>Le soir<persName key="louisxiv" role="commanditaire">sa Majesté</persName> fit Ioüer les trois premiers Actes
+          d’une Comedie nommée Tartuffe, que <persName key="moliere" role="auteur">le sieur de Moliere</persName>
           auoit faite contre les Hypocrites ; Mais quoyqu’elle eut esté trouuée fort diuertissante,
             <persName key="louisxiv">le Roy</persName> connut tant de conformité entre ceux qu’vne
           veritable deuotion met dans le chemin du Ciel, et ceux qu’vne vaine ostentation des bonnes
           oeuures n’empesche pas d’en commettre de mauuaises ; que son extréme delicatesse pour les
           choses de la Religion, eut de la peine à souffrir cette ressemblance du Vice auec la
-          Vertu : Et quoyqu’on ne doutast point des bonnes intentions de <persName key="moliere"
+          Vertu : Et quoyqu’on ne doutast point des bonnes intentions de <persName key="moliere" role="auteur"
             >l’Auteur</persName>, Il défendit cette Comedie pour le public, Iusqu’à ce qu’elle fut
           entierement acheuée, et examinée par des gens capables d’en Iuger, pour n’en pas laisser
           abuser d’autres moins capables d’en faire vn juste discernement.</p>
         <p>Le <date when="1664-05-13">Mardy Treiziéme</date>
-          <persName key="louisxiv">le Roy</persName> voulut encore courre les Testes, comme à vn jeu
-          ordinaire que deuoit gagner celuy qui feroit le plus. <persName key="louisxiv">Sa
-            Majesté</persName> eut encore celuy de la Course des Dames, <persName key="saint_aignan"
+          <persName key="louisxiv" role="commanditaire">le Roy</persName> voulut encore courre les Testes, comme à vn jeu
+          ordinaire que deuoit gagner celuy qui feroit le plus. <persName key="louisxiv" role="participant">Sa
+            Majesté</persName> eut encore celuy de la Course des Dames, <persName key="saint_aignan" role="participant"
             >le Duc de St. Aignt</persName> celuy du jeu, et ayant eu l’honneur d’entrer pour le
-          second à la dispute auec <persName key="louisxiv">sa Majesté</persName>, l’adresse
-          Incomparable du <persName key="louisxiv">Roy</persName> luy</p>
+          second à la dispute auec <persName key="louisxiv" role="participant">sa Majesté</persName>, l’adresse
+          Incomparable du <persName key="louisxiv" role="participant">Roy</persName> luy</p>
         <pb n="202" xml:id="p202"/>
         <p>fit encore gagner ce prix, et ce ne fut pas sans vn étonnement du quel on ne pouuoit se
-          défendre, qu’on en vit gagner quatre à <persName key="louisxiv">sa Majesté</persName>,
+          défendre, qu’on en vit gagner quatre à <persName key="louisxiv" role="participant">sa Majesté</persName>,
           quatre en deux fois qu’elle auoit couru les Testes.</p>
         <p>On Ioüa le mesme soir la Comedie du Mariage forcé ; encore de la façon du mesme <persName
             key="moliere" role="auteur">Sieur de Moliere</persName>, meslée d’entrées de Ballet, et
@@ -2791,7 +2795,7 @@
           la fois ; le projet auec le succez, la liberalité auec la politesse, le grand nombre auec
           l’ordre, et la satisfaction de tous : Ou les soins infatigables de <persName key="colbert"
             role="organisation">Mr. Colbert</persName> s’employerent en tous ces diuertissemens
-          malgré ses importantes affaires. Où <persName key="saint_aignan">le Duc de St.
+          malgré ses importantes affaires. Où <persName key="saint_aignan" role="organisation">le Duc de St.
             Aignant</persName> joignit l’action à l’Invention, du dessein ; où les beaux Vers du
             <persName key="perigny" role="auteur">President de Perigny</persName> à la louange
           <persName key="marie_therese" role="destinataire"><persName key="anne_d_autriche" role="destinataire">des Reines</persName></persName>

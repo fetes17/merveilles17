@@ -19,6 +19,10 @@
           <name>Gaëlle Lafage</name>
           <resp>Encodage et corrections</resp>
         </respStmt>
+        <respStmt>
+          <name>Clément Cadiot</name>
+          <resp>Balisage</resp>
+        </respStmt>
       </editionStmt>
       <publicationStmt>
         <publisher>Université d’Artois - Lille, MESHS</publisher>
@@ -100,7 +104,7 @@
         appareil de Musique, et grande foule de monde. Il s’estoit dit que <persName key="louisxiv"
           >le roy</persName> et <persName key="marie_therese"><persName key="anne_d_autriche">les
             reynes</persName></persName> y seroyent, mais il n’y eut que <persName
-          key="philippe_orleans">S.A.R. [le duc d’Orléans] </persName>: encore estoit Elle dans une
+          key="philippe_orleans" role="spectateur">S.A.R. [le duc d’Orléans] </persName>: encore estoit Elle dans une
         tribune. Si tost qu’Elle fut finie, <persName key="paul_chantelou" role="organisation">le
           s.r de Chantelou</persName> fit servir les tables des prélats et seigneurs afin qu’ils
         puissent se trouver au festin que <persName key="louisxiv" role="organisation">le
@@ -122,13 +126,13 @@
           key="louis_marie_aumont_rochebaron" role="organisation">M. de Villequier</persName> pour
         servir en son absence. Le couvert du roy fut mis avec la nef. Vis à vis et à l’opposite de
         son fauteuil estoient les trois grands officiers, à cinq pieds du fauteuil du roy du mesme
-        costé estoit celui de <persName key="louisxiv" role="convive">M. le légat</persName>. Il
+        costé estoit celui de <persName key="flavio_chigi" role="convive">M. le légat</persName>. Il
         n’avoit qu’un couvert simple et point de cadenas. <persName key="louisxiv" role="convive">Le
           roy</persName> ayant demandé sa viande, elle fut portée par les valets de pied du roy
         précédez de m.es d’Hostel. Les plats et assiettes destinez pour <persName key="louisxiv"
           role="convive">le roy</persName> furent mis sur la table par <persName key="vandesure"
           role="organisation">M. Vandesure</persName> ; le reste par <persName key="parfait_pere"
-          role="organisation"><persName key=" parfait_fils"><persName key="parfait_frere">les
+          role="organisation"><persName key=" parfait_fils" role="organisation"><persName key="parfait_frere" role="organisation">les
               controlleurs Parfait</persName></persName></persName> et <persName
           key="charles_chamois" role="organisation">Chamoix</persName> qui estoyent de quartier. La
         table couverte, <persName key="bernardin_gigault_bellefonds" role="organisation">M. le
@@ -168,8 +172,8 @@
         dernière serviette à <persName key="louisxiv" role="convive">Sa Majesté</persName>, laquelle
         lui fut présentée par <persName key="joseph_langlois" role="organisation">le s.r
           Langlois</persName>. Durant le repas qui dura une bonne heure, <persName
-          key="marie_therese"><persName key=" anne_d_autriche">les reynes</persName></persName>,
-          <persName key="philippe_orleans">Monsieur</persName>, et quelques dames furent à une
+          key="marie_therese" role="spectateur"><persName key=" anne_d_autriche" role="spectateur">les reynes</persName></persName>,
+          <persName key="philippe_orleans" role="spectateur">Monsieur</persName>, et quelques dames furent à une
         tribune au bout de la salle, d’où Elles voyaient le festin. L’après disnée <persName
           key="louisxiv">le roy</persName> et <persName key="flavio_chigi">M. le légat</persName>
         furent voir travailler les chevaux que <persName key="flavio_chigi">S.E.</persName> avoit
@@ -225,8 +229,8 @@
         remercia avec des tesmoignages d’une extrême reconnaissance ; <persName key="louisxiv">le
           roy</persName> lui dit qu’il lui estoit obligé du soin qu’<persName key="flavio_chigi"
           >Elle</persName> avoit eu de lui rendre grâce de si peu de chose ; <persName
-          key="flavio_chigi" role="participant">S.E.</persName> en suite se mit sur un theatre
-        auprès de <persName key="marie_therese">la reyne</persName> et <persName key="louisxiv">le
+          key="flavio_chigi" role="spectateur">S.E.</persName> en suite se mit sur un theatre
+        auprès de <persName key="marie_therese" role="spectateur">la reyne</persName> et <persName key="louisxiv" role="participant">le
           roy</persName> continua à courir de la meilleure grâce du monde. La course finie l’on
         parla de ceux qui s’y estoyent signalez ; <persName key="louisxiv">le roy</persName> dit que
         s’il y avoit eu un <pb n="f.31v" facs="https://gallica.bnf.fr/ark:/12148/btv1b9063162b/f38"
