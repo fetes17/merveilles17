@@ -39,6 +39,10 @@
           <name>Marion Ignace</name>
           <resp>Balisage</resp>
         </respStmt>
+        <respStmt>
+          <name>Clément Cadiot</name>
+          <resp>Balisage</resp>
+        </respStmt>
       </editionStmt>
       <publicationStmt>
         <publisher>Université d’Artois - Lille, MESHS</publisher>
@@ -304,7 +308,7 @@
           <l>Et si l’obscurité conuient à mon Amour,</l>
           <l>Elle ne s’estend pas jusqu’à ma Renommée.</l>
         </lg>
-        <label type="speaker">Le <persName key="henri_de_lorraine">Comte d’Armagnac</persName>. <lb/><name
+        <label type="speaker">Le <persName key="henri_de_lorraine" role="acteur">Comte d’Armagnac</persName>. <lb/><name
             key="griffon_le_blanc" corresp="henri_de_lorraine">Griffon le Blanc</name>.</label>
         <lg rend="i">
           <l rend="dropcap">VOyez quelle candeur en moy le Ciel a mis,</l>
@@ -445,7 +449,7 @@
             Blanc</name>, ayant pour Deuise vne Hermine, auec ces mots.</p>
         <l rend="i" xml:lang="la">Ex candore decus.</l>
         <p><pb n="12" xml:id="p12" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f20"/>
-          <persName key="jb_gaston_foix_candale">Le Duc de Foix</persName>, representant <name
+          <persName key="jb_gaston_foix_candale" role="acteur">Le Duc de Foix</persName>, representant <name
             key="renaud">Renaud</name>, ayant pour Deuise vn Vaisseau dans la Mer, auec ces
           mots.</p>
         <l ana="devise" xml:lang="la" rend="i">Longe leuis aura feret.</l>
@@ -453,7 +457,7 @@
           representant <name key="dudon" corresp="henri_du_cambout">Dudon</name>, ayant pour Deuise
           vn Soleil, &amp; l’Heliotrope ou Tournesol, auec ces mots.</p>
         <l ana="devise" xml:lang="la" rend="i">Splendor ab obsequio.</l>
-        <p>Le <persName key="henri_de_daillon">Comte du Lude</persName> , representant <name
+        <p>Le <persName key="henri_de_daillon" role="acteur">Comte du Lude</persName> , representant <name
             key="astolphe">Astolphe</name>, ayant pour Deuise vn chiffre en forme de nœud, auec ces
           mots.</p>
         <l ana="devise" xml:lang="la" rend="i">Non fia mai sciolto.</l>
@@ -488,7 +492,7 @@
           derniere Troupe qui entra dans la Lice. Ils portoient <tech type="costume">des vestes
             couleur de feu enrichie d’argent, &amp; des coiffures de mesmes.</tech></p>
         <p>Aussi-tost que ces Troupes furent entrées dans le Camp, elles en firent le tour, &amp;
-          apres auoir salüé <persName key="marie_therese"><persName key="anne_d_autriche">les
+          apres auoir salüé <persName key="marie_therese" role="spectateur"><persName key="anne_d_autriche" role="spectateur">les
               Reynes</persName></persName>, elles se separerent, &amp; prirent chacun son poste: Les
           Pages de la teste, les Trompettes &amp; les Tymballiers se croisants, s’allerent poster
           sur les aisles: <persName key="louisxiv" role="acteur">Le Roy</persName> s’aduançant au
@@ -504,7 +508,7 @@
           l’attention &amp; par le respect; donna le moyen à <persName key="mlle_de_brie"
             role="acteur">Mlle. de Brie</persName>, qui representoit le <name key="age_airain"
             corresp="mlle_de_brie">Siecle d’Airain</name>, de commencer ces Vers à la loüange de la
-            <persName key="marie_therese">Reyne</persName>, addressez à <name key="apollon"
+            <persName key="marie_therese" role="destinataire">Reyne</persName>, addressez à <name key="apollon"
             >Apollon</name>.</p>
         <label type="speaker"><name key="le_siecle_d_airain" corresp="mlle_de_brie">LE SIECLE
             D'AIRAIN</name> à <name key="apollon">Apollon</name>.</label>
@@ -608,8 +612,8 @@
         <p>Pendant que les <name key="le_printemps" corresp="therese_duparc"><name key="l_ete"
               corresp="gros_rene"><name key="l_automne" corresp="la_thorilliere"><name key="l_hiver"
                   corresp="louis_bejart">Saisons</name></name></name></name> se chargeoient des mets
-          delicieux qu’elles deuoient porter, pour seruir deuant <persName key="louisxiv"><persName
-              key="marie_therese"><persName key="anne_d_autriche">leurs
+          delicieux qu’elles deuoient porter, pour seruir deuant <persName key="louisxiv" role="convive"><persName
+              key="marie_therese" role="convive"><persName key="anne_d_autriche" role="convive">leurs
               Majestez</persName></persName></persName> la magnifique collation qui estoit préparée:
           Les douze <name key="zodiaque">Signes du Zodiaque</name>, &amp; <name key="le_printemps"
             corresp="therese_duparc"><name key="l_ete" corresp="gros_rene"><name key="l_automne"
@@ -668,11 +672,11 @@
             key="le_printemps" corresp="therese_duparc"><name key="le_ete" corresp="gros_rene"><name
                 key="l_automne" corresp="la_thorilliere"><name key="l_hiver" corresp="louis_bejart"
                   >Saisons</name></name></name></name> se presentant deuant <persName
-            key="marie_therese">la Reyne</persName>: <name key="printemps">Le Printemps</name> luy
+            key="marie_therese" role="spectateur">la Reyne</persName>: <name key="printemps">Le Printemps</name> luy
           addressa le premier ces Vers.</p>
         <label type="speaker"><name key="le_printemps" corresp="therese_duparc">LE
           PRINTEMPS</name>.</label>
-        <stage>A <persName key="marie_therese">LA REYNE</persName>.</stage>
+        <stage>A <persName key="marie_therese" role="destinataire">LA REYNE</persName>.</stage>
         <lg type="madrigal?" rend="i">
           <!-- forme poétique à vérifier -->
           <l>ENtre toutes les fleurs nouuellement écloses,</l>
@@ -722,7 +726,7 @@
           <l>Font naistre tant d’embrazemens.</l>
         </lg>
         <label type="speaker"><name key="diane" corresp="madeleine_bejart">DIANE</name>.</label>
-        <stage><persName key="marie_therese">A LA REYNE</persName>.</stage>
+        <stage><persName key="marie_therese" role="destinataire">A LA REYNE</persName>.</stage>
         <lg rend="i">
           <!--forme poétique à vérifier-->
           <l>Nos bois, nos rochers, nos montagnes,</l>
@@ -756,9 +760,9 @@
           decouurir.</p>
         <p>Trente-six Viollons <tech type="costume">tres bien vestus</tech>, parurent derriere sur
             <tech type="construction">vn petit Theatre</tech>; pendant que <persName
-            key="marche_coquet">Messieurs de la Marche</persName>, &amp; <persName
-            key="parfait_pere">Parfait Pere</persName>, <persName key="parfait_frere"
-            >Frere</persName>, &amp; <persName key="parfait_fils">Fils</persName>
+            key="marche_coquet" role="organisation">Messieurs de la Marche</persName>, &amp; <persName
+            key="parfait_pere" role="organisation">Parfait Pere</persName>, <persName key="parfait_frere" role="organisation"
+            >Frere</persName>, &amp; <persName key="parfait_fils" role="organisation">Fils</persName>
           <!-- à identifier --> Controlleurs Generaux, sous les noms de <name key="abondance"
             corresp="marche_coquet">l’Abondance</name>, de <name key="joie" corresp="parfait_pere"
             >la Ioye</name>, de <name key="proprete" corresp="parfait_frere">la Propreté</name>,
@@ -891,12 +895,12 @@
         <p>Le dessein de cette seconde Feste, estoit que <name key="roger" corresp="louisxiv"
             >Roger</name> &amp; les Cheualiers de sa Quadrille, apres auoir fait des merueilles aux
           Courses, que par l’ordre de la belle <name key="alcine">Magicienne</name> ils auoient fait
-          en faueur de <persName key="marie_therese">la Reyne</persName>, continüoient en ce mesme
+          en faueur de <persName key="marie_therese" role="destinataire">la Reyne</persName>, continüoient en ce mesme
           dessein pour le diuertissement suiuant; &amp; que l’Isle flotante n’ayant point esloigné
           le riuage de la France, ils donnoient à <persName key="louisxiv">Sa Majesté</persName> le
           plaisir <!-- encoder le divertissement -->d’vne Comedie dont la Scene estoit en <place
             key="elide">Elide</place>.</p>
-        <p><persName key="louisxiv">Le Roy</persName> fit donc <tech type="construction">couurir de
+        <p><persName key="louisxiv" role="organisation">Le Roy</persName> fit donc <tech type="construction">couurir de
             toilles, en si peu de temps qu’on auoit lieu de s’en estonner, tout ce rond d’vne espece
             de Dome, pour deffendre contre le vent</tech>
           <tech type="lumieres">le grand nombre de Flambeaux &amp; de Bougies qui deuoient
@@ -1107,33 +1111,33 @@
           <list ana="noms">
             <head>NOMS DES ACTEVRS de la Comedie</head>
             <item><name key="princesse_d_elide" corresp="armande_bejart">LA PRINCESSE
-              D'ELIDE</name>. <persName key="armande_bejart">Mademoiselle de
+              D'ELIDE</name>. <persName key="armande_bejart" role="acteur">Mademoiselle de
               Moliere</persName>.</item>
             <item><name key="aglante" corresp="there_duparc">AGLANTE, cousine de la
-              Princesse</name>. <persName key="therese_duparc">Mademoiselle du
+              Princesse</name>. <persName key="therese_duparc" role="acteur">Mademoiselle du
               Parc</persName>.</item>
             <item><name key="cinthie" corresp="mlle_de_brie">CINTHIE, Cousine de la
-              Princesse</name>. <persName key="mlle_de_brie">Mademoiselle de Brie</persName>.</item>
+              Princesse</name>. <persName key="mlle_de_brie" role="acteur">Mademoiselle de Brie</persName>.</item>
             <item><name key="philis" corresp="madeleine_bejart">PHILIS, suiuante de la
-                Princesse</name>. <persName key="madeleine_bejart">Mademoiselle
+                Princesse</name>. <persName key="madeleine_bejart" role="acteur">Mademoiselle
               Bejart</persName>.</item>
             <item><name key="iphitas" corresp="andre_hubert">IPHITAS, Pere de la Princesse</name>.
-                <persName key="andre_hubert">Le Sieur Hubert</persName>.</item>
+                <persName key="andre_hubert" role="acteur">Le Sieur Hubert</persName>.</item>
             <item><name key="euriale" corresp="la_grange">EVRIALE, ou le Prince d'Ithaque</name>.
-                <persName key="la_grange">Le Sieur la Grange</persName>.</item>
+                <persName key="la_grange" role="acteur">Le Sieur la Grange</persName>.</item>
             <item><name key="aristomene" corresp="du_croisy">ARISTOMENE, ou le Prince de
-                Messene.</name>. <persName key="du_croisy">Le Sieur du Croisy</persName>.</item>
+                Messene.</name>. <persName key="du_croisy" role="acteur">Le Sieur du Croisy</persName>.</item>
             <item><name key="theocle" corresp="louis_bejart">THEOCLE, ou le Prince de Pyle.</name>.
-                <persName key="louis_bejart">Le Sieur Bejart</persName>.</item>
+                <persName key="louis_bejart" role="acteur">Le Sieur Bejart</persName>.</item>
             <item><name key="arbate" corresp="la_thorilliere">ARBATE, Gouuerneur du Prince
-                d'Ithaque.</name>. <persName key="la_thorilliere">Le Sieur de La
+                d'Ithaque.</name>. <persName key="la_thorilliere" role="acteur">Le Sieur de La
                 Thorilliere</persName>.
               <!--Attention, dans ms_piephilidor, c'est l'inverse : "la_thorilliere" incarne Théocle et "louis_bejart" Arbate. Voir la note ligne 868 du document "i_pie1673".-->
             </item>
             <item><name key="moron" corresp="moliere">Moron, plaisant de la Princesse.</name>.
-                <persName key="moliere">Le Sieur de Moliere</persName>.</item>
+                <persName key="moliere" role="acteur">Le Sieur de Moliere</persName>.</item>
             <item><name key="un_suivant" corresp="marin_prevost">Vn suivant.</name>. <persName
-                key="marin_prevost">Le Sieur Preuost</persName>.</item>
+                key="marin_prevost" role="acteur">Le Sieur Preuost</persName>.</item>
           </list>
         </div>
         <div>
@@ -1706,10 +1710,10 @@
                         key="chasseurs" corresp="magny"><name key="chasseurs" corresp="la_pierre"
                           >les Chasseurs</name></name></name></name></name></name></name> pour
             tesmoigner leur joye, danserent vne fort belle Entrée: C'esttoient les Sieurs <persName
-              key="chicanneau">Chicanneau</persName>, <persName key="balthazar"
-              >Baltasard</persName>, <persName key="noblet">Noblet</persName>, <persName
-              key="bonard">Bonard</persName>, <persName key="manceau">Mançeau</persName>, <persName
-              key="magny">Magny</persName>, &amp; <persName key="la_pierre">la
+              key="chicanneau" role="danseur">Chicanneau</persName>, <persName key="balthazar"
+              >Baltasard</persName>, <persName key="noblet" role="danseur">Noblet</persName>, <persName
+              key="bonard" role="danseur">Bonard</persName>, <persName key="manceau" role="danseur">Mançeau</persName>, <persName
+              key="magny" role="danseur">Magny</persName>, &amp; <persName key="la_pierre" role="danseur">la
             Pierre</persName>.</p>
         </div>
         <div>
@@ -3039,13 +3043,13 @@
                 Heroïques</name></name>, representez <name key="berger" corresp="le_gros"
                 ><name key="berger" corresp="estival"><name key="berger" corresp="louis_don"><name
                     key="simon_blondel">les premiers</name></name></name></name> par les Sieurs
-              <persName key="le_gros">le Gros</persName>, <persName key="estival"
+              <persName key="le_gros" role="chanteur">le Gros</persName>, <persName key="estival" role="chanteur"
               >Estiual</persName>
-            <persName key="louis_don">Don</persName> &amp; <persName key="simon_blondel"
+            <persName key="louis_don" role="chanteur">Don</persName> &amp; <persName key="simon_blondel" role="chanteur"
               >Blondel</persName>, &amp; <name key="bergere" corresp="mlle_de_la_barre"><name
                 key="bergere" corresp="hilaire_dupuis">les deux Bergeres</name></name> par <persName
-              key="mlle_de_la_barre">Madlle. de la Barre</persName> &amp; <persName
-              key="hilaire_dupuis">Madlle. Hilaire</persName> se prenant la main, chanterent cette
+              key="mlle_de_la_barre" role="chanteur">Madlle. de la Barre</persName> &amp; <persName
+              key="hilaire_dupuis" role="chanteur">Madlle. Hilaire</persName> se prenant la main, chanterent cette
             Chanson à danser à laquelle les autres respondirent.</p>
           <p>CHANSON.</p>
           <l>VSez mieux, ô! beautez fieres!</l>
@@ -3070,10 +3074,10 @@
                 key="faunes">Faunes</name>, dont les huit joüerent de la Fluste, &amp; les autres du
               Violon auec vn concert le plus agreable du monde</tech>. Trente Violons leur
             respondoient de l’Orchestre, auec six autres concertans de Clauessins &amp; de Theorbes,
-            qui estoient les Sieurs <persName key="d_anglebert">D’Anglebert</persName>, <persName
-              key="richard">Richard</persName>, <persName key="leonard_itier">Itier</persName>, <persName
-              key="la_barre_cadet">La Barre le cadet</persName>, <persName key="tissu"
-              >Tissu</persName> &amp; <persName key="le_moine">le Moine</persName>.</p>
+            qui estoient les Sieurs <persName key="d_anglebert" role="musicien">D’Anglebert</persName>, <persName
+              key="richard" role="musicien">Richard</persName>, <persName key="leonard_itier" role="musicien">Itier</persName>, <persName
+              key="la_barre_cadet" role="musicien">La Barre le cadet</persName>, <persName key="tissu" role="musicien"
+              >Tissu</persName> &amp; <persName key="le_moine" role="musicien">le Moine</persName>.</p>
           <p>Et <name key="berger" corresp="chicanneau"><name key="berger" corresp="du_pron"><name
                   key="berger" corresp="noblet"><name key="berger" corresp="la_pierre">quatre
                     Bergers</name></name></name></name> &amp; <name key="bergere"
@@ -3089,15 +3093,15 @@
           <p><name key="berger" corresp="chicanneau"><name key="berger" corresp="du_pron"><name
                   key="berger" corresp="noblet"><name key="berger" corresp="la_pierre">Les
                     Bergers</name></name></name></name> estoient. Les Sieurs <persName
-              key="chicanneau">Chicanneau</persName>, <persName key="du_pron">du Pron</persName>,
-              <persName key="noblet">Noblet</persName>, &amp; <persName key="la_pierre">la
+              key="chicanneau" role="danseur">Chicanneau</persName>, <persName key="du_pron" role="danseur">du Pron</persName>,
+              <persName key="noblet" role="danseur">Noblet</persName>, &amp; <persName key="la_pierre" role="danseur">la
               Pierre</persName>.</p>
           <p>Et <name key="bergere" corresp="balthazar"><name key="bergere"
                 corresp="magny"><name key="bergere" corresp="arnald"><name key="bergere"
                     corresp="bonard">les Bergeres</name></name></name></name>. Les Sieurs <persName
-              key="balthazar">Baltazard</persName>, <persName key="magny"
-            >Magny</persName>, <persName key="arnald">Arnald</persName>, &amp; <persName
-              key="bonard">Bonnard</persName>.</p>
+              key="balthazar" role="danseur">Baltazard</persName>, <persName key="magny" role="danseur"
+            >Magny</persName>, <persName key="arnald" role="danseur">Arnald</persName>, &amp; <persName
+              key="bonard" role="danseur">Bonnard</persName>.</p>
         </div>
       </div>
       <div>
@@ -3290,11 +3294,11 @@
         </lg>
         <list ana="noms">
           <item><name key="alcine" corresp="therese_duparc">Alcine</name>. <persName
-              key="therese_duparc">Madlle. du Parc</persName>.</item>
-          <item><name key="celie" corresp="mlle_de_brie">Celie</name>. <persName key="mlle_de_brie"
+              key="therese_duparc" role="acteur">Madlle. du Parc</persName>.</item>
+          <item><name key="celie" corresp="mlle_de_brie">Celie</name>. <persName key="mlle_de_brie" role="acteur"
               >Madlle. de Brie</persName>.</item>
           <item><name key="dirce" corresp="armande_bejart">Dircé</name>. <persName
-              key="armande_bejart">Madlle. Moliere</persName>.</item>
+              key="armande_bejart" role="acteur">Madlle. Moliere</persName>.</item>
         </list>
         <p>LOrs qu’ils furent acheuez, &amp; qu’<name key="alcine" corresp="therese_duparc"
             >Alcine</name> se fut retirée pour aller redoubler les Gardes du Palais, le concert des
@@ -3448,7 +3452,7 @@
             avanture, &amp; aux diuertissemens de l’Isle Enchantée.</stage>
           <list ana="noms">
             <item><name key="alcine" corresp="therese_duparc">Alcine</name>. <persName
-                key="therese_duparc">Madlle. du Parc</persName>.</item>
+                key="therese_duparc" role="acteur">Madlle. du Parc</persName>.</item>
             <item><name key="melisse" corresp="de_lorges">Melisse</name>. <persName
                 key="de_lorges" role="danseur">De Lorge</persName>.</item>
             <item><name key="roger" corresp="beauchamp">Roger</name>. <persName key="beauchamp" role="danseur">M.
@@ -3608,13 +3612,13 @@
       <div n="[13 mai 1664]">
         <p><date when="1664-05-13">Le Mardy treiziesme</date>, <persName key="louisxiv"
             role="organisation">le Roy</persName> voulut encore courre les Testes, comme à vn jeu
-          ordinaire que deuoit gagner celuy qui en feroit le plus: <persName key="louisxiv">Sa
+          ordinaire que deuoit gagner celuy qui en feroit le plus: <persName key="louisxiv" role="participant">Sa
             Majesté</persName> eut encore le prix de la Course des Dames, le <persName
-            key="saint_aignan">Duc de S. Aignan</persName> celuy du jeu; &amp; ayant eu l’honneur
-          d’entrer pour le second à la dispute auec <persName key="louisxiv">Sa Majesté</persName>:
-          L’addresse incomparable du <persName key="louisxiv">Roy</persName> luy fit encore auoir ce
+            key="saint_aignan" role="participant">Duc de S. Aignan</persName> celuy du jeu; &amp; ayant eu l’honneur
+          d’entrer pour le second à la dispute auec <persName key="louisxiv" role="participant">Sa Majesté</persName>:
+          L’addresse incomparable du <persName key="louisxiv" role="participant">Roy</persName> luy fit encore auoir ce
           prix, &amp; ce ne fut pas sans vn estonnement duquel on ne pouuoit se deffendre, qu’on en
-          vit gagner quatre à <persName key="louisxiv">Sa Majesté</persName> en deux fois qu’elle
+          vit gagner quatre à <persName key="louisxiv" role="participant">Sa Majesté</persName> en deux fois qu’elle
           auoit couru les testes.</p>
         <p>On joäa le mesme soir la Comedie du <title>Mariage Forcé</title>, encore de la façon du
           mesme <persName key="moliere" role="auteur">Sieur de Molliere</persName>, meslée d’entrées
@@ -3628,10 +3632,10 @@
             facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f104"/> satisfaction de tous: Où
           les soins infatigables de <persName key="colbert" role="organisation">Monsieur de
             Colbert</persName> s’employerent dans tous ces diuertissemens, malgré ses importantes
-          affaires; où le <persName key="saint_aignan">Duc de S. Aignan</persName>, joignit l’action
+          affaires; où le <persName key="saint_aignan" role="auteur">Duc de S. Aignan</persName>, joignit l’action
           à l’inuention du dessein; où les beaux vers du <persName key="perigny" role="auteur"
-            >President de Perigny</persName> à la loüange des <persName key="marie_therese"
-              ><persName key="anne_d_autriche">Reynes</persName></persName>, furent si justement
+            >President de Perigny</persName> à la loüange des <persName key="marie_therese" role="destinataire"
+              ><persName key="anne_d_autriche" role="destinataire">Reynes</persName></persName>, furent si justement
           pensez, si agreablement tournez, &amp; récitez auec tant d’Art; où ceux que <persName
             key="benserade" role="auteur">Monsieur de Bensserade</persName> fit pour les <name
             key="chevalier">Cheualiers</name>, eurent vne approbation generalle; où la vigilance
