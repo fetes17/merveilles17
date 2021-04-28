@@ -31,6 +31,10 @@
           <name>Gaëlle Lafage</name>
           <resp>Encodage et corrections</resp>
         </respStmt>
+        <respStmt>
+          <name>Clément Cadiot</name>
+          <resp>Balisage</resp>
+        </respStmt>
       </editionStmt>
       <publicationStmt>
         <publisher>Université d’Artois - Lille, MESHS</publisher>
@@ -180,7 +184,7 @@
             Bardins</persName>, <tech type="costume">vestu d’un habit à l’antique, couleur de feu en
             broderie d’argent</tech>, &amp; fort bien monté.</p>
         <p>Il estoit suivi de trois Pages. Celuy du <persName key="louisxiv">Roy</persName>,
-            <persName key="artagnan">M. d’Artagnan</persName>, marchoit à la teste des deux autres,
+            <persName key="artagnan" role="participant">M. d’Artagnan</persName>, marchoit à la teste des deux autres,
             <tech type="costume">fort richement habillé de couleur de feu</tech>, livrée de
             <persName key="louisxiv">Sa Majesté</persName>, portant sa Lance &amp; son Escu, dans
           lequel brilloit un Soleil de pierreries, avec ces mots :</p>
@@ -560,13 +564,13 @@ Est‑ce des personnages ?-->Monstres Celestes,
             >des vestes, couleur de feu, enrichies d’argent, &amp; des coëffures de
           mesme</tech>.</p>
         <p>Aussitost que ces Troupes furent entrées dans le Camp, elles en firent le tour ; &amp;
-          aprés avoir salüé <persName key="marie_therese"><persName key=" anne_d_autriche">les
+          aprés avoir salüé <persName key="marie_therese" role="spectateur"><persName key=" anne_d_autriche" role="spectateur">les
               Reines</persName></persName>, elles se separerent, &amp; prirent chacun son poste. Les
           Pages, de la teste. Les Trompettes &amp; les Tymballiers se croisans, s’allerent poster
-          sur les aisles. <persName key="louisxiv">Le Roy</persName> s’avançant au milieu, prit sa
-          place vis-à-vis du haut Dais. <persName key="hj_bourbon_conde">Monsieur le Duc</persName>
-          proche de <persName key="louisxiv">Sa Majesté</persName>. <persName key="saint_aignan">Les
-            Ducs de Saint Aignan </persName>&amp; <persName key="anne_de_noailles">de
+          sur les aisles. <persName key="louisxiv" role="participant">Le Roy</persName> s’avançant au milieu, prit sa
+          place vis-à-vis du haut Dais. <persName key="hj_bourbon_conde" role="participant">Monsieur le Duc</persName>
+          proche de <persName key="louisxiv">Sa Majesté</persName>. <persName key="saint_aignan" role="participant">Les
+            Ducs de Saint Aignan </persName>&amp; <persName key="anne_de_noailles" role="participant">de
             Noailles</persName> à droite &amp; à gauche. <name key="chevalier">Les dix
             Chevaliers</name> en haye aux deux costez du <tech type="machine_terre">Char</tech>.
           Leurs Pages au mesme Ordre derriére eux. <name key="douze_zodiaque">Les Signes</name>
@@ -684,8 +688,8 @@ Est‑ce des personnages ?-->Monstres Celestes,
           vestus, qui devoient préceder <name key="quatre_saisons">les Saisons</name>, &amp;
           faisoient le plus agréable concert du monde.</p>
         <p>Pendant que <name key="quatre_saisons">les Saisons</name> se chargeoient des mets
-          délicieux qu’elles devoient porter, pour servir devant <persName key="louisxiv"><persName
-              key="marie_therese"><persName key="anne_d_autriche">leurs
+          délicieux qu’elles devoient porter, pour servir devant <persName key="louisxiv" role="convive"><persName
+              key="marie_therese" role="convive"><persName key="anne_d_autriche" role="convive">leurs
               Majestez</persName></persName></persName> la magnifique collation qui estoit préparée,
             <name key="douze_zodiaque">les douze Signes du Zodiaque</name>, &amp; <name
             key="quatre_saisons">les quatre Saisons</name> danserent dans le rond une des plus
@@ -743,7 +747,7 @@ Est‑ce des personnages ?-->Monstres Celestes,
             key="le_printemps" corresp="therese_duparc"><name key="l_ete" corresp="gros_rene"><name
                 key="l_automne" corresp="la_thorilliere"><name key="l_hiver" corresp="louis_bejart"
                   >les Saisons</name></name></name></name> se presentant devant <persName
-            key="marie_therese">la Reine</persName>, <name key="le_printemps"
+            key="marie_therese" role="spectateur">la Reine</persName>, <name key="le_printemps"
             corresp="therese_duparc">le Printemps</name> luy adressa le premier ces Vers.</p>
         <label type="speaker"><name key="le_printemps" corresp="therese_duparc">LE PRINTEMPS</name>
           A LA <persName key="marie_therese" role="destinataire">REINE</persName>.</label>
@@ -3698,13 +3702,13 @@ Personne ou machine ?--><tech
           discernement.</p>
         <p><date when="1664-05-13">Le Mardy treiziéme</date>, <persName key="louisxiv"
             role="organisation">le Roy</persName> voulut encore courre les Testes, comme à un jeu
-          ordinaire, que devoit gagner celuy qui feroit le plus. <persName key="louisxiv">Sa
+          ordinaire, que devoit gagner celuy qui feroit le plus. <persName key="louisxiv" role="participant">Sa
             Majesté</persName> eût encore le prix de la Course des Dames, le <persName
-            key="saint_aignan">Duc de Saint Aignan </persName>celuy du jeu ; &amp; ayant eû
-          l’honneur d’entrer pour le second à la dispute avec <persName key="louisxiv">Sa
+            key="saint_aignan" role="participant">Duc de Saint Aignan </persName>celuy du jeu ; &amp; ayant eû
+          l’honneur d’entrer pour le second à la dispute avec <persName key="louisxiv" role="participant">Sa
             Majesté</persName>, l’adresse incomparable du <persName key="louisxiv">Roy
           </persName>luy fit encore avoir ce prix ; &amp; ce ne fut pas sans un étonnement, duquel
-          on ne pouvoit se défendre, qu’on en vit gagner quatre à <persName key="louisxiv">Sa
+          on ne pouvoit se défendre, qu’on en vit gagner quatre à <persName key="louisxiv" role="participant">Sa
             Majesté</persName> en deux fois qu’elle avoit couru les Testes.</p>
         <p>On joüa le mesme soir la Comedie du Mariage Forcé, encore de la façon du mesme <persName
             key="moliere" role="auteur">sieur de Molliére</persName>, meslée d’Entrées de Balet,
