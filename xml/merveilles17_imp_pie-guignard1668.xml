@@ -95,7 +95,7 @@
             prodigieux de flambeaux de cire blanche</tech>, pour suppléer à plus de <tech
             type="lumieres">quatre mille bougies</tech> chaque journée, resisterent à ce vent ; qui
           par tout ailleurs eust rendu ces divertissemens comme impossibles à achever.</p>
-        <l><persName key="vigarani" role="organisation">Monsieur de Vigarani</persName>,
+        <l><persName key="vigarani" role="auteur">Monsieur de Vigarani</persName>,
           Gentil-homme Modenois, fort sçavant en toutes ces choses, inventa &amp; proposa
           celles-cy ; &amp; <persName key="louisxiv" role="commanditaire">le Roy</persName> commanda
           au <persName key="saint_aignan" role="auteur">Duc de S. Aignan</persName>, qui se trouva
@@ -427,10 +427,10 @@
               key="anne_d_autriche" role="spectateur">les Reynes</persName></persName>, elles se
           separerent, &amp; prirent chacune leur poste : <name key="page">Le Page</name> a la teste, les
           Trompettes, &amp; les Tymballiers se croisants, s’allerent poster sur les
-            aisles :<persName key="louisxiv"> Le Roy</persName> s’advançant au milieu, prit sa place
-          vis à vis du haut Dais : <persName key="hj_bourbon_conde">Mr. le Duc</persName> proche de
-            <persName key="louisxiv">sa Majesté</persName> : <persName key="saint_aignan">les Ducs
-            de S. Aignan</persName> &amp; <persName key="anne_de_noailles">de Noailles</persName> à
+            aisles :<persName key="louisxiv" role="acteur"> Le Roy</persName> s’advançant au milieu, prit sa place
+          vis à vis du haut Dais : <persName key="hj_bourbon_conde" role="acteur">Mr. le Duc</persName> proche de
+            <persName key="louisxiv">sa Majesté</persName> : <persName key="saint_aignan" role="acteur">les Ducs
+            de S. Aignan</persName> &amp; <persName key="anne_de_noailles" role="acteur">de Noailles</persName> à
           droit &amp; à gauche : <name key="chevalier">Les dix Chevaliers</name> en haye aux deux costez du <tech
             type="machine_temps">Char</tech> : <name key="page">leurs Pages</name> au mesme ordre derriere
           eux : <name key="douze_zodiaque">les Signes</name> &amp; <name key="douze_heures">les Heures</name> comme ils estoient entrez.</p>
@@ -599,7 +599,7 @@
           <name key="diane">Diane</name>, &amp; <name key="le_printemps" corresp="therese_duparc"><name
               key="l_ete" corresp="gros_rene"><name key="l_automne" corresp="la_thorilliere"><name
                   key="l_hiver" corresp="louis_bejart">les Saisons</name></name></name></name> se
-          presentant devant <persName key="marie_therese" role="destinataire">la Reyne</persName> :
+          presentant devant <persName key="marie_therese" role="spectateur">la Reyne</persName> :
             <name key="le_printemps" corresp="therese_duparc">le Printemps</name> luy addressa le
           premier ces Vers.</p>
         <p><name key="le_printemps" corresp="therese_duparc">LE PRINTEMPS</name>, A <persName
@@ -666,9 +666,9 @@
           découvrir.</p>
         <p>Trente-six Violons<seg ana="description">tres-bien vestus</seg>, parurent derriere sur
             <tech type="construction">vn petit Theatre</tech> : pendant que <persName
-            key="marche_coquet" role="acteur">Messieurs de la Marche</persName>, &amp; <persName
-            key="parfait_pere" role="acteur">Parfait Pere</persName>, <persName key="parfait_frere"
-            role="acteur">Frere</persName>, &amp; <persName key="parfait_fils" role="acteur"
+            key="marche_coquet" role="acteur organisation">Messieurs de la Marche</persName>, &amp; <persName
+            key="parfait_pere" role="acteur organisation">Parfait Pere</persName>, <persName key="parfait_frere"
+            role="acteur organisation">Frere</persName>, &amp; <persName key="parfait_fils" role="acteur organisation"
             >Fils</persName> Controlleurs Generaux, sous les noms de <name key="abondance"
             corresp="marche_coquet">l’Abondance</name>, de <name key="joie" corresp="parfait_pere"
             >la Ioye</name>, de <name key="proprete" corresp="parfait_frere">la Propreté</name>,
@@ -1541,7 +1541,7 @@
         <l>Non, non, tous les plaisirs se goustent à le suivre,</l>
         <l>Et vivre sans aymer n’est pas proprement vivre.</l>
         <label type="head">ADVIS.</label>
-        <p>LE dessein de <persName key="moliere">l’Autheur</persName> estoit de traitter ainsi toute <tech>la
+        <p>LE dessein de <persName key="moliere" role="auteur">l’Autheur</persName> estoit de traitter ainsi toute <tech>la
             Comedie</tech> ; mais vn commandement du <persName key="louisxiv" role="commanditaire"
             >Roy</persName> qui <pb n="46" xml:id="p46"/> pressa cette affaire, l’obligea d’achever
           tout le reste en prose ; et de passer legerement sur plusieurs Scenes, qu’il auroit
@@ -2630,8 +2630,8 @@
             ana="description">estoient si fort éclairées</seg>, que <tech type="lumieres">ces
             lumieres</tech> faisoient <pb n="85" xml:id="p85"/> naistre vn nouveau iour dans
           l’obscurité de la nuict.</p>
-        <p><persName key="louisxiv" role="spectateur"><persName key="marie_therese" role="convive"
-                ><persName key="anne_d_autriche" role="convive">Leurs
+        <p><persName key="louisxiv" role="spectateur"><persName key="marie_therese" role="spectateur"
+                ><persName key="anne_d_autriche" role="spectateur">Leurs
             Majestez</persName></persName></persName> estant arrivées, n’eurent pas plûtost pris
           leur place, que l’<tech type="decor">vne des deux Isles qui paroissoient aux costez de la
             premiere</tech>, fut toute couverte de Violons <seg ana="description">fort bien
@@ -2705,11 +2705,11 @@
         <label type="speaker"><name key="celie" corresp="mlle_de_brie">CELIE</name>.</label>
         <l>I'y vois vn grand remede, et facile à tenter ;</l>
         <l>I'y vois vn grand remede, et facile à tenter ;</l>
-        <l><pb n="87" xml:id="p87"/><persName key="anne_d_autriche" role="destinataire">Vne
+        <l><pb n="87" xml:id="p87"/><persName key="anne_d_autriche">Vne
             Reine</persName> paroist, dont le secours propice</l>
         <l>Nous sçaura garantir des efforts de <name key="melisse" corresp="de_lorges"
             >Melisse</name> ;</l>
-        <l>Par tout de <persName key="anne_d_autriche" role="destinataire">cette Reyne</persName> on
+        <l>Par tout de <persName key="anne_d_autriche">cette Reyne</persName> on
           vante la bonté,</l>
         <l>Et l’on dit que son coeur, de qui la fermeté</l>
         <l>Des flots les plus mutins méprisa l’insolence,</l>
@@ -2746,7 +2746,7 @@
         <l><pb n="88" xml:id="p88"/>Enfin, faisons parler nos soûpirs et nos pleurs,</l>
         <l>Pour la rendre sensible à nos vives douleurs,</l>
         <l>Et nous pourrons trouver au fort de nostre peine</l>
-        <l>Vn refuge paisible aux pieds de <persName key="anne_d_autriche" role="destinataire">cette
+        <l>Vn refuge paisible aux pieds de <persName key="anne_d_autriche">cette
             Reyne</persName>.</l>
         <label type="speaker"><name key="dirce" corresp="armande_bejart">DIRCE</name>.</label>
         <l>Ie sçay bien que son coeur, noblement génereux,</l>
@@ -3030,7 +3030,7 @@
           Loterie, afin que rien ne manquast à la galãterie de ces Festes ; c’estoit des pierreries,
           des ameublemens, de l’argenterie, &amp; autres choses semblables : Et quoy que le sort ait
           accoustumé de decider de ces presens, il s’accorda sans doute avec le desir de<persName
-            key="louisxiv" role="participant"> S M</persName> quand il fit tomber le gros lot entre
+            key="louisxiv"> S M</persName> quand il fit tomber le gros lot entre
           les mains de <persName key="marie_therese" role="participant">la Reyne</persName>; chacun
           sortant de ce lieu là fort content, pour aller voir les Courses qui s’alloient
           commencer.</p>
