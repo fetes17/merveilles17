@@ -25,6 +25,10 @@
           <name>Marion Ignace</name>
           <resp>Balisage</resp>
         </respStmt>
+        <respStmt>
+          <name>Clément Cadiot</name>
+          <resp>Balisage</resp>
+        </respStmt>
       </editionStmt>
       <publicationStmt>
         <publisher>Université d’Artois - Lille, MESHS</publisher>
@@ -425,8 +429,8 @@
           en vn moment.</p>
         <p>Toute cette Troupe entrant par l’vn des quatre <tech type="construction"
           >Portiques</tech>, qui aboutissent aux quatre auenuës du Camp, &amp; apres en auoir fait
-          le tour, s’estant arrestez deuant <persName key="marie_therese"><persName
-              key="anne_d_autriche">les Reynes</persName></persName> ; <name key="apollon"
+          le tour, s’estant arrestez deuant <persName key="marie_therese" role="spectateur"><persName
+              key="anne_d_autriche" role="spectateur">les Reynes</persName></persName> ; <name key="apollon"
             corresp="la_grange">Apollon</name>, &amp; <name key="le_siecle_d_airain"
             corresp="mlle_de_brie"><name key="le_siecle_d_or" corresp="armande_bejart"><name
                 key="le_siecle_d_argent" corresp="andre_hubert"><name key="le_siecle_de_fer"
@@ -588,7 +592,7 @@
                 corresp="andre_hubert"><name key="le_siecle_de_fer" corresp="du_croisy">les quatre
                   Saisons</name></name></name></name>, <name key="pan" corresp="moliere">Pan</name>
           &amp; <name key="diane" corresp="madeleine_bejart">Diane</name>, se presentent deuant
-            <persName key="marie_therese">la Reyne</persName>, &amp; luy disent ces Vers.</p>
+            <persName key="marie_therese" role="spectateur">la Reyne</persName>, &amp; luy disent ces Vers.</p>
         <pb n="21" facs="https://gallica.bnf.fr/ark:/12148/bpt6k71691f/f22"/>
         <label type="speaker"><name key="le_printemps" corresp="therese_duparc">LE
           PRINTEMPS</name>.</label>
@@ -753,7 +757,7 @@
         <p>Noms de ceux qui dansent au Ballet, et ceux qui chantent.</p>
         <list ana="noms">
           <item><name key="l_aurore" corresp="hilaire_dupuis">L’AVRORE</name>.</item>
-          <item><persName key="hilaire_dupuis" role="acteur">Madlle Hilaire</persName>.</item>
+          <item><persName key="hilaire_dupuis" role="chanteur">Madlle Hilaire</persName>.</item>
           <item><name key="l_aurore" corresp="hilaire_dupuis">Aurore</name> chantoit ce Recit, <name
               key="valets_de_chien" corresp="moliere"><name key="valet_de_chien" corresp="louis_don"
                   ><name key="valet_de_chien" corresp="estival"><name key="valet_de_chien"
@@ -776,34 +780,34 @@
               <persName key="la_pierre" role="danseur">La Pierre</persName>.</item>
           <item><tech type="animal"><name key="ours" corresp="mercier"><name key="ours"
                   corresp="vagnard">Deux Ours</name></name></tech>.</item>
-          <item><persName key="mercier" role="acteur">Les Sieurs Mercier</persName>, &amp; <persName
-              key="vagnard" role="acteur">Vagnard</persName>.</item>
+          <item><persName key="mercier" role="danseur">Les Sieurs Mercier</persName>, &amp; <persName
+              key="vagnard" role="danseur">Vagnard</persName>.</item>
           <item><name key="berger" corresp="paysan"><name key="berger" corresp="chicanneau"><name
                   key="berger" corresp="balthazar"><name key="berger" corresp="noblet"><name
                       key="berger" corresp="bonard"><name key="berger" corresp="manceau"><name
                           key="berger" corresp="magny"><name key="berger" corresp="la_pierre">Huict
                             Paysans</name></name></name></name></name></name></name></name>.</item>
-          <item><persName key="paysan" role="acteur">Les Sieurs Paysan</persName>, <persName
-              key="chicanneau" role="acteur">Chicanneau</persName>, <persName key="balthazar"
-              role="acteur">Baltazard</persName>, <persName key="noblet" role="acteur"
-              >Noblet</persName>, <persName key="bonard" role="acteur">Bonard</persName>, <persName
-              key="manceau" role="acteur">Mançeau</persName>, <persName key="magny" role="acteur"
-              >Magny</persName>, &amp; <persName key="la_pierre" role="acteur">La
+          <item><persName key="paysan" role="danseur">Les Sieurs Paysan</persName>, <persName
+              key="chicanneau" role="danseur">Chicanneau</persName>, <persName key="balthazar"
+              role="danseur">Baltazard</persName>, <persName key="noblet" role="danseur"
+              >Noblet</persName>, <persName key="bonard" role="danseur">Bonard</persName>, <persName
+              key="manceau" role="danseur">Mançeau</persName>, <persName key="magny" role="danseur"
+              >Magny</persName>, &amp; <persName key="la_pierre" role="danseur">La
             Pierre</persName>.</item>
           <item><name key="satyre" corresp="estival">Vn Satyre</name>.</item>
-          <item><persName key="estival" role="acteur">M. Estiual</persName>.</item>
+          <item><persName key="estival" role="danseur">M. Estiual</persName>.</item>
           <pb n="4" facs="https://gallica.bnf.fr/ark:/12148/bpt6k71691f/f29"/>
           <item><name key="berger" corresp="le_gros"><name key="berger" corresp="simon_blondel">Deux
                 Pastres</name></name>.</item>
-          <item><persName key="le_gros">Messieurs Le Gros</persName>, &amp; <persName
-              key="simon_blondel">Blondel</persName>.</item>
+          <item><persName key="le_gros" role="danseur">Messieurs Le Gros</persName>, &amp; <persName
+              key="simon_blondel" role="danseur">Blondel</persName>.</item>
           <item><name key="bergere" corresp="mlle_de_la_barre"><name key="bergere"
                 corresp="hilaire_dupuis">Deux Bergeres</name></name> Heroïques.</item>
-          <item><persName key="mlle_de_la_barre">Madlle La Barre</persName>. <persName
-              key="hilaire_dupuis">Madlle Hilaire</persName>.</item>
+          <item><persName key="mlle_de_la_barre" role="danseur">Madlle La Barre</persName>. <persName
+              key="hilaire_dupuis" role="danseur">Madlle Hilaire</persName>.</item>
           <item><name key="berger" corresp="louis_don"><name key="berger" corresp="estival">Deux
                 Bergers</name></name> Heroïques.</item>
-          <item><persName key="louis_don">Messieurs Don</persName>, &amp; <persName key="estival"
+          <item><persName key="louis_don" role="danseur">Messieurs Don</persName>, &amp; <persName key="estival" role="danseur"
               >Estyual</persName>.</item>
           <item>
             <name key="faunes">Seize Faunes</name>
@@ -1030,7 +1034,7 @@
             considerable par sa situation, &amp; par sa force.</p>
         </div>
         <div>
-          <head>PREMIERE ENTRÉE.</head>
+          <head>PREMIERE ENTRÉE.</head> <!-- entrée de ballet ou acteurs ? Si indéterminé = participant ? -->
           <p><name key="geant" corresp="manceau"><name key="geant" corresp="vagnard"><name
                   key="geant" corresp="pesan"><name key="geant" corresp="joubert">Quatre
                     Geants</name></name></name></name>, et <name key="nain"
@@ -1690,9 +1694,9 @@
             <item><persName key="sainte_fontaine_fils" role="organisation">Ste. Fontaine le
                 fils</persName>.</item>
           </list>
-          <p><persName key="marche_coquet" role="organisation"><persName key="parfait_pere"
-                role="organisation"><persName key="parfait_fils" role="organisation"><persName
-                    key="parfait_frere" role="organisation">Messieurs les Controlleurs
+          <p><persName key="marche_coquet"><persName key="parfait_pere"
+                ><persName key="parfait_fils"><persName
+                    key="parfait_frere">Messieurs les Controlleurs
                     Generaux</persName></persName></persName></persName>.</p>
           <list ana="noms">
             <item><persName key="marche_coquet" role="acteur">Monsieur de la Marche
@@ -1717,7 +1721,7 @@
                 corresp="louis_don"><name key="valet_de_chien" corresp="francois_blondel"><name
                     key="valets_de_chien" corresp="moliere">Quatre Valets de
                 Chiens</name></name></name></name>, qui doiuent chanter.</p>
-          <list ana="noms">
+          <list ana="noms"> <!-- est-ce qu'on garde le double rôle ? -->
             <item><persName key="estival" role="acteur chanteur">Estual</persName>.</item>
             <item><persName key="louis_don" role="acteur chanteur">Don</persName>.</item>
             <item><persName key="simon_blondel" role="acteur chanteur">Blondel</persName>.</item>
@@ -1951,13 +1955,13 @@
                         key="chevalier" corresp="balthazar"
                 >Cheualiers</name></name></name></name></name></name>.</p>
           <list ana="noms">
-            <item><persName key="souville" role="acteur">Souuille</persName>,</item>
-            <item><persName key="raynal" role="acteur">Raynal</persName>,</item>
-            <item><persName key="des_airs_l_aine" role="acteur">Des-Airs l’aisné</persName>,</item>
-            <item><persName key="des_airs_le_second" role="acteur">Des-Airs le
+            <item><persName key="souville" role="danseur">Souuille</persName>,</item>
+            <item><persName key="raynal" role="danseur">Raynal</persName>,</item>
+            <item><persName key="des_airs_l_aine" role="danseur">Des-Airs l’aisné</persName>,</item>
+            <item><persName key="des_airs_le_second" role="danseur">Des-Airs le
               second</persName>,</item>
-            <item><persName key="de_lorges" role="acteur">De Lorge</persName>,</item>
-            <item><persName key="balthazar" role="acteur">Balthasard</persName>,</item>
+            <item><persName key="de_lorges" role="danseur">De Lorge</persName>,</item>
+            <item><persName key="balthazar" role="danseur">Balthasard</persName>,</item>
             <item><name key="monstres" corresp="chicanneau"><name key="monstres" corresp="noblet"
                     ><name key="monstres" corresp="arnald"><name key="monstres" corresp="desbrosses"
                         ><name key="monstres" corresp="desonnets"><name key="monstres"
@@ -1974,18 +1978,18 @@
           <p><name key="demon" corresp="saint_andre"><name key="demon" corresp="tartas">Demons
                 Agilles</name></name>.</p>
           <list ana="noms">
-            <item><persName key="tartas" role="acteur">Tartas</persName>.</item>
-            <item><persName key="saint_andre" role="acteur">S. André</persName>.</item>
+            <item><persName key="tartas" role="danseur">Tartas</persName>.</item>
+            <item><persName key="saint_andre" role="danseur">S. André</persName>.</item>
           </list>
           <label type="head">V. ENTRÉE.</label>
           <p>Autres <name key="demon" corresp="tutin"><name key="demon" corresp="la_brodiere"><name
                   key="demon" corresp="pesan"><name key="demon" corresp="bureau">Demons
                     Sauteurs</name></name></name></name>.</p>
           <list ana="noms">
-            <item><persName key="tutin" role="acteur">Tutin</persName>.</item>
-            <item><persName key="la_brodiere" role="acteur">La Brodiere</persName>.</item>
-            <item><persName key="pelau" role="acteur">Pelau</persName>.</item>
-            <item><persName key="bureau" role="acteur">Bureau</persName>.</item>
+            <item><persName key="tutin" role="danseur">Tutin</persName>.</item>
+            <item><persName key="la_brodiere" role="danseur">La Brodiere</persName>.</item>
+            <item><persName key="pelau" role="danseur">Pelau</persName>.</item>
+            <item><persName key="bureau" role="danseur">Bureau</persName>.</item>
           </list>
           <pb n="17" facs="https://gallica.bnf.fr/ark:/12148/bpt6k71691f/f56"/>
           <label type="head">VI ET DERNIERE ENTRÉE.</label>
@@ -1995,27 +1999,27 @@
           <p><name key="chevalier">Quatre Cheualiers</name>, &amp; <name key="ecuyers">quatre
               Escuyers</name>.</p>
           <list ana="noms">
-            <item><persName key="therese_duparc" role="acteur">Madlle. du Parc</persName>. <name
+            <item><persName key="therese_duparc" role="danseur">Madlle. du Parc</persName>. <name
                 key="alcine" corresp="therese_duparc">Alcine</name>.</item>
-            <item><persName key="de_lorges" role="acteur">De Lorge</persName>. <name key="melisse"
+            <item><persName key="de_lorges" role="danseur">De Lorge</persName>. <name key="melisse"
                 corresp="de_lorges">Melisse</name>.</item>
-            <item><persName key="beauchamp" role="acteur">Beauchamp</persName>. <name key="roger"
+            <item><persName key="beauchamp" role="danseur">Beauchamp</persName>. <name key="roger"
                 corresp="beauchamp">Roger</name>.</item>
           </list>
           <p><name key="chevalier" corresp="d_heureux"><name key="chevalier" corresp="raynal"><name
                   key="chevalier" corresp="du_pron"><name key="chevalier" corresp="desbrosses">Cheualiers</name></name></name></name>.</p>
           <list ana="noms">
-            <item><persName key="d_heureux" role="acteur">D’Heureux</persName>,</item>
-            <item><persName key="raynal" role="acteur">Raynal</persName>,</item>
-            <item><persName key="du_pron" role="acteur">Du Pron</persName>.</item>
-            <item><persName key="desbrosses" role="acteur">Desbrosses</persName>.</item>
+            <item><persName key="d_heureux" role="danseur">D’Heureux</persName>,</item>
+            <item><persName key="raynal" role="danseur">Raynal</persName>,</item>
+            <item><persName key="du_pron" role="danseur">Du Pron</persName>.</item>
+            <item><persName key="desbrosses" role="danseur">Desbrosses</persName>.</item>
           </list>
           <p><name key="escuyers" corresp="la_marre"><name key="escuyers" corresp="le_chantre"><name key="escuyers" corresp="de_gan"><name key="escuyers" corresp="mercier">Escuyers</name></name></name></name></p>
           <list ana="noms">
-            <item><persName key="la_marre" role="acteur">La Marre</persName>,</item>
-            <item><persName key="le_chantre" role="acteur">Le Chantre</persName>,</item>
-            <item><persName key="de_gan" role="acteur">De Gan</persName>,</item>
-            <item><persName key="mercier" role="acteur">Mercier</persName>,</item>
+            <item><persName key="la_marre" role="danseur">La Marre</persName>,</item>
+            <item><persName key="le_chantre" role="danseur">Le Chantre</persName>,</item>
+            <item><persName key="de_gan" role="danseur">De Gan</persName>,</item>
+            <item><persName key="mercier" role="danseur">Mercier</persName>,</item>
           </list>
           <p>A vn des costez du <tech type="construction">Palais d’Alcine</tech> sur vn <tech
               type="construction">Eschaffaut</tech>, seront les Trompettes, et Tymballes.</p>

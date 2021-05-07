@@ -329,8 +329,17 @@
   <person xml:id="d_arrac" sex="M">
     <name>Arrac ou D'Arrac, page</name>
   </person>
+  <person xml:id="artagnan" sex="M">
+    <name>Artagnan, Charles de Baatz de Castelmore, comte d'</name>
+    <birth notBefore="1611" notAfter="1615"/>
+    <death when="1673"/>
+    <identifier type="databnf"
+      >https://data.bnf.fr/fr/12010360/charles_de_batz_de_castelmore_artagnan/</identifier>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/D%27Artagnan</identifier>
+    <identifier type="isni">0000 0001 2132 3982</identifier>
+  </person>
   <person xml:id="aubry_de_courcy" sex="F">
-    <name>Aubry de Courcy, Me</name>
+    <name>Aubry de Courcy, Madame</name>
   </person>
   <person xml:id="francois_iii_d_aubusson" sex="M">
     <name>Aubusson, François III d', duc de La Feuillade, maréchal de France, duc de Roannez et gouverneur du Dauphiné</name>
@@ -413,15 +422,6 @@
   <person xml:id="baslin" sex="M">
     <name>Baslin, violon</name>
   </person>
-  <person xml:id="artagnan" sex="M">
-    <name>Batz de Castelmore d'Artagnan, Charles de</name>
-    <birth notBefore="1611" notAfter="1615"/>
-    <death when="1673"/>
-    <identifier type="databnf"
-      >https://data.bnf.fr/fr/12010360/charles_de_batz_de_castelmore_artagnan/</identifier>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/D%27Artagnan</identifier>
-    <identifier type="isni">0000 0001 2132 3982</identifier>
-  </person>
   <person xml:id="baudouin" sex="M">
     <name>Baudouin, officier de la bouche</name>
   </person>
@@ -501,12 +501,6 @@
     <name>Bergerotti, Anna</name>
     <identifier type="databnf">https://data.bnf.fr/fr/14843385/anna_bergerotti/</identifier>
   </person>
-  <person xml:id="gros_rene" sex="M">
-    <name>Berthelot Du Parc, René, dit Gros-René</name>
-    <birth when="1615"/>
-    <death when="1664"/>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Du_Parc_(acteur)</identifier>
-  </person>
   <person xml:id="besson" sex="M">
     <name>Besson, violon</name>
   </person>
@@ -540,15 +534,6 @@
   <person xml:id="blaise" sex="M">
     <name>Blaise, ouvrier</name>
   </person>
-  <person xml:id="blanchefort_crequy" sex="M">
-    <name>Blanchefort-Créquy, Charles III de, marquis de Créquy, prince puis duc de Poix, dit "le
-      duc de Créquy"</name>
-    <birth when="1623"/>
-    <death when="1687"/>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Charles_III_de_Créquy</identifier>
-    <identifier type="isni">0000 0000 0014 1269</identifier>
-    <identifier type="databnf">https://data.bnf.fr/ark:/12148/cb10628414b</identifier>
-  </person>
   <person xml:id="simon_blondel" sex="M">
     <name>Blondel, Simon, chanteur de la Chapelle de Louis XIV</name>
     <death when="1672"/>
@@ -562,24 +547,13 @@
   <person xml:id="bonard" sex="M">
     <name>Bonard, danseur</name>
   </person>
-  <person xml:id="charles_nicolas_crequi" sex="M">
-    <name>Crequi, Charles Nicolas de, marquis de Ragny, colonel de cavalerie et lieutenant-général de Dauphiné</name>
-    <death when="1678"/>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Fran%C3%A7ois_de_Bonne_de_Cr%C3%A9qui</identifier>
-  </person>
   <person xml:id="francois_bonne_crequi" sex="M">
-    <name>Bonne-de-Crequi, François de, comte de Canaples et de Sault, seigneur d'Agout, de Vesc, de
+    <name>Bonne de Créquy, François de, comte de Canaples et de Sault, seigneur d'Agout, de Vesc, de
       Montlaur, de Montauban, duc de Lesdiguières, Pair de France</name>
     <birth when="1596"/>
-    <death when="1676"/>
+    <death when="1677"/>
     <identifier type="wikipedia"
       >https://fr.wikipedia.org/wiki/Fran%C3%A7ois_de_Bonne_de_Cr%C3%A9qui</identifier>
-  </person>
-  <person xml:id="alphonse_crequy" sex="M">
-    <name>Créquy, Alphonse de, comte de Canaples puis duc de Lesdiguières</name>
-    <birth when="1629"/>
-    <death when="1711"/>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Alphonse_de_Cr%C3%A9quy</identifier>
   </person>
   <person xml:id="madame_de_bonnelle" sex="F">
     <name>Bonnelle, Madame de</name>
@@ -775,7 +749,7 @@
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jacques_de_Castelnau</identifier>
   </person>
   <person xml:id="marquise_de_castelnau" sex="F">
-    <name>Castelnau, Marquise de,</name>
+    <name>Castelnau, Marquise de</name>
   </person>
   <person xml:id="castel" sex="M">
     <name>Catel, garde suisse</name>
@@ -803,14 +777,6 @@
   <person xml:id="ceton" sex="M">
     <name>Ceton, page</name>
   </person>
-  <person xml:id="charles_chamois" sex="M">
-    <name>Chamois, Charles</name>
-    <birth when="1610*"/>
-    <death when="1684*"/>
-    <identifier type="databnf">https://data.bnf.fr/fr/14958914/charles_chamois/</identifier>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Charles_Chamois</identifier>
-    <identifier type="isni">0000 0001 2098 5730</identifier>
-  </person>
   <person xml:id="chamois" sex="M">
     <name>Chamois, Contrôleur d'Office</name>
   </person>
@@ -836,9 +802,6 @@
   </person>
   <person xml:id="charlot" sex="M">
     <name>Charlot, Claude, violon du roi</name>
-  </person>
-  <person xml:id="charmace" sex="M">
-    <name>Charmacé, Sieur de, lieutenant des gardes du corps du Roi</name>
   </person>
   <person xml:id="charmasel" sex="M">
     <name>Charmasel, Marquis de</name>
@@ -995,6 +958,24 @@
     <name>Crenan, Pierre Perrien, marquis de (grand échanson de la maison du roi de 1665 à
       1670)</name>
   </person>
+  <person xml:id="alphonse_crequy" sex="M">
+    <name>Créquy, Alphonse de, comte de Canaples puis duc de Lesdiguières</name>
+    <birth when="1629"/>
+    <death when="1711"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Alphonse_de_Cr%C3%A9quy</identifier>
+  </person>
+  <person xml:id="blanchefort_crequy" sex="M">
+    <name>Créquy, Charles III Blanchefort, prince de Poix, duc de</name>
+    <birth when="1623"/>
+    <death when="1687"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Charles_III_de_Créquy</identifier>
+    <identifier type="isni">0000 0000 0014 1269</identifier>
+    <identifier type="databnf">https://data.bnf.fr/ark:/12148/cb10628414b</identifier>
+  </person>
+  <person xml:id="charles_nicolas_crequi" sex="M">
+    <name>Créquy, Charles Nicolas de, marquis de Ragny, colonel de cavalerie et lieutenant-général en Dauphiné</name>
+    <death when="1674"/>
+  </person>
   <person xml:id="francois_rene_crespin_bec_vardes" sex="M">
     <name>Crespin du Bec de Vardes, François-René</name>
     <birth when="1621*"/>
@@ -1122,11 +1103,17 @@
     <identifier type="isni">0000 0000 0248 1654</identifier>
   </person>
   <person xml:id="therese_duparc" sex="F">
-    <name>Duparc, Marquise-Thérèse</name>
+    <name>Du Parc, Marquise-Thérèse de Gorla, dite Mademoiselle </name>
     <birth notBefore="1630" notAfter="1639"/>
     <death when="1668"/>
     <identifier type="databnf">https://data.bnf.fr/fr/15103393/marquise-therese_duparc/</identifier>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Mademoiselle_Du_Parc</identifier>
+  </person>
+  <person xml:id="gros_rene" sex="M">
+    <name>Du Parc, René Berthelot, dit Gros-René et</name>
+    <birth when="1615"/>
+    <death when="1664"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Du_Parc_(acteur)</identifier>
   </person>
   <person xml:id="du_plessis" sex="M">
     <name>Duplessis, page de la petite écurie</name>
@@ -1290,7 +1277,7 @@
   </person>
 
   <person xml:id="mlle_de_froteaux" sex="F">
-    <name>Mlle de Froteaux</name>
+    <name>Froteaux, Mademoiselle de </name>
   </person>
   <person xml:id="andre_felibien" sex="M">
     <name>Félibien, André</name>
@@ -1305,7 +1292,7 @@
   </person>
   <!-- Probablement Nicolas Rouault, 1er marquis de Gamache, ou son fils aîné, Joachim Rouault : date de mort du père non recensée -->
   <person xml:id="mme_de_brancas" sex="F">
-    <name>Garnier, Suzanne, comtesse de Brancas après son mariage</name>
+    <name>Garnier, Suzanne, comtesse de Brancas</name>
     <death when="1685"/>
     <!-- épouse du comte Charles de Brancas -->
   </person>
@@ -1441,7 +1428,7 @@
     <name>Hameaux, Madame des</name>
   </person>
   <person xml:id="gilonne_d_harcourt" sex="F">
-    <name>d'Harcourt, Gilonne, marquise de Piennes, comtesse de Fiesque</name>
+    <name>Harcourt, Gilonne d', marquise de Piennes, comtesse de Fiesque</name>
     <birth when="1619"/>
     <death when="1699"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Gilonne_d%27Harcourt</identifier>
@@ -1522,7 +1509,7 @@
     <identifier type="mg">humieres_antoinette_de_la_châtre_(1635-1723)_marechale_d</identifier>
   </person>
   <person xml:id="d_illiers" sex="M">
-    <name>D'illiers, comte de, </name>
+    <name>Illiers, comte d', </name>
   </person>
   <person xml:id="leonard_itier" sex="M">
     <name>Ithier, Léonard Henri, luth</name>
@@ -1896,9 +1883,9 @@
   <person xml:id="comtesse_de_louvigny" sex="F">
     <name>Louvigny, comtesse de</name>
   </person>
-  <person xml:id="lude" sex="M">
-    <name>Lude, comte de</name>
-    <!-- Il pourrait s'agir d'Henry de Daillon, quoiqu'il n'apparaisse que comme duc et non comme comte, ou de son père, Timoléon de Daillon, mais dont on ignore la date de mort. -->
+  <person xml:id="henri_illiers_balzac_entragues" sex="M">
+    <name>d'Illiers de Balzac d'Entragues, Henri, sous lieutenant de la compagnie des chevau-légers de la garde du roi</name>
+    <death when="1674"/>
   </person>
   <person xml:id="lully" sex="M">
     <name>Lully, Jean-Baptiste</name>
@@ -2363,7 +2350,7 @@
     <name>Saint-André, danseur</name>
   </person>
   <person xml:id="madame_de_saint_arbre" sex="F">
-    <name>Saint Arbre, Me de</name>
+    <name>Saint Arbre, Madame de</name>
   </person>
   <person xml:id="saint_amant" sex="M">
     <name>Saint-Amant, Marc-Antoine Girard de, poète et membre de l'Académie française</name>
@@ -2444,7 +2431,7 @@
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Paul_Scarron</identifier>
     <identifier type="isni">0000 0001 2099 0126</identifier>
   </person>
-  <person xml:id="servien_saint_aignan" sex="M">
+  <person xml:id="servien_saint_aignan" sex="F">
     <name>Servien, Antoinette</name>
     <birth when="1617"/>
     <death when="1679"/>
@@ -2585,10 +2572,10 @@
     <identifier type="wikipedia"
       >https://fr.wikipedia.org/wiki/%C3%89douard_Colbert_de_Villacerf</identifier>
   </person>
-  <person xml:id="duchesse_de_virtemberg" sex="F">
+  <person xml:id="duchesse_de_virtemberg" sex="F"><!-- Wurtemberg? -->
     <name>Virtemberg, Duchesse de</name>
   </person>
-  <person xml:id="fille_virtemberg" sex="F">
+  <person xml:id="fille_virtemberg" sex="F"><!-- Wurtemberg? -->
     <name>Virtemberg, Mademoiselle de</name>
   </person>
   <person xml:id="vincent_voiture" sex="M">
