@@ -437,6 +437,14 @@
     <identifier type="isni">0000 0001 2272 2491</identifier>
     <identifier type="mg">conde_anne-henriette-julie_(1648-1723)_princesse_de</identifier>
   </person>
+  <person xml:id="marie_anne_baviere" sex="F"> 
+    <name>Bavière, Marie-Anne de, dauphine de France </name>
+    <birth when="1660"/>
+    <death when="1690"/> 
+    <identifier type="databnf">https://data.bnf.fr/fr/14953650/marie-anne_de_baviere/</identifier> 
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Marie-Anne_de_Bavi%C3%A8re_(1660-1690)</identifier> 
+    <identifier type="isni">0000 0003 5664 7383</identifier>
+  </person> 
   <person xml:id="beauchamp" sex="M">
     <name>Beauchamp, Pierre</name>
     <birth when="1631*"/>
@@ -616,15 +624,6 @@
     <identifier type="wikipedia"
       >https://fr.wikipedia.org/wiki/Louis_de_France_(1661-1711)</identifier>
     <identifier type="isni">0000 0000 7101 8321</identifier>
-  </person>
-  <person xml:id="marie_anne_baviere" sex="F"> 
-    <name>Bavière, Marie-Anne de, dauphine de France </name>
-    <birth when="1660"/>
-    <death when="1690"/> 
-    <identifier type="databnf">https://data.bnf.fr/fr/14953650/marie-anne_de_baviere/</identifier> 
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Marie-Anne_de_Bavi%C3%A8re_(1660-1690)</identifier> 
-    <identifier type="isni">0000 0003 5664 7383</identifier>
-  </person> 
   <person xml:id="bourru" sex="M">
     <name>Bourru, officier du Gobelet</name>
   </person>
@@ -1078,6 +1077,11 @@
     <birth when="1626*"/>
     <death when="1695"/>
   </person>
+    <person xml:id="léon_dugard" sex="M">
+      <name>Dugard, Léon-Bonaventure, écuyer de la grande écurie</name>
+      <birth when="1649"/>
+      <death when="1730"/>
+    </person>
   <person xml:id="madeleine_du_guast_d_artigny" sex="F">
     <name>Du Guast d'Artigny, Madeleine</name>
   </person>
@@ -1104,6 +1108,12 @@
   <person xml:id="du_moustier" sex="M">
     <name>Dumoustier, officier de la bouche</name>
   </person>
+    <person xml:id="hyacinthe_dumont" sex="M">
+      <name>Dumont, Hyacinthe de Gauréault, écuyer du dauphin</name>
+      <birth when="1647"/>
+      <death when="1726"/>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Hyacinthe_de_Gaur%C3%A9ault_Dumont</identifier>
+    </person>
   <person xml:id="louis_don" sex="M">
     <name>Dun, Louis</name>
     <death when="1702"/>
@@ -2085,6 +2095,10 @@
       >https://fr.wikipedia.org/wiki/Nicolas_de_Neufville_de_Villeroy</identifier>
     <identifier type="isni">0000 0001 2142 9517</identifier>
   </person>
+    <person xml:id="valentin_neuville" sex="M">
+      <name>Neuville, Valentin Duvernet de Roquefort de, écuyer de la grand écurie</name>
+      <death when="1718?"/>
+    </person>
   <person xml:id="anne_de_noailles" sex="M">
     <name>Noailles, Anne de</name>
     <birth when="1620"/>
@@ -2396,7 +2410,12 @@
   <person xml:id="sandricourt" sex="M">
     <name>Sandricourt, page de la petite écurie</name>
   </person>
-  <person xml:id="louise_savoie_bade" sex="F">
+  <person xml:id="isaac_courtin" sex="M">
+    <name>Saussoy, Isaac Courtin de</name>
+    <birth when="1641"/>
+    <death when="1726"/>
+  </person>
+    <person xml:id="louise_savoie_bade" sex="F">
     <name>Savoie Carignan, Louise-Christine de</name>
     <birth when="1627"/>
     <death when="1689"/>
