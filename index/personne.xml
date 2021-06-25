@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <?xml-model href="index.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listPerson xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+
   <person xml:id="andre" sex="M">
     <name>André, officier du Gobelet</name>
   </person>
@@ -280,8 +281,7 @@
     <name>Angleterre, Henriette-Anne d’, dite Madame</name>
     <birth when="1644"/>
     <death when="1670"/>
-    <identifier type="databnf"
-      >https://data.bnf.fr/fr/13322196/henriette-anne_d_angleterre/</identifier>
+    <identifier type="databnf">https://data.bnf.fr/fr/13322196/henriette-anne_d_angleterre/</identifier>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Henriette_d%27Angleterre</identifier>
     <identifier type="isni">0000 0000 8565 5583</identifier>
   </person>
@@ -323,8 +323,7 @@
     <name>Armagnac, Marguerite Philippe du Cambout de Coislin, comtesse d'Harcourt et d'</name>
     <birth when="1624"/>
     <death when="1674"/>
-    <identifier type="wikipedia"
-      >https://fr.wikipedia.org/wiki/Marguerite-Philippe_du_Cambout</identifier>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Marguerite-Philippe_du_Cambout</identifier>
   </person>
   <person xml:id="arnald" sex="M">
     <name>Arnal ou Arnald, danseur</name>
@@ -336,8 +335,7 @@
     <name>Arquien, Louise-Marie de la Grange d'</name>
     <birth when="1638"/>
     <death when="1728"/>
-    <identifier type="wikipedia"
-      >https://fr.wikipedia.org/wiki/Louise_Marie_de_La_Grange_d'Arquien</identifier>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Louise_Marie_de_La_Grange_d'Arquien</identifier>
   </person>
   <person xml:id="d_arrac" sex="M">
     <name>Arrac ou D'Arrac, page</name>
@@ -346,8 +344,7 @@
     <name>Artagnan, Charles de Baatz de Castelmore, comte d'</name>
     <birth notBefore="1611" notAfter="1615"/>
     <death when="1673"/>
-    <identifier type="databnf"
-      >https://data.bnf.fr/fr/12010360/charles_de_batz_de_castelmore_artagnan/</identifier>
+    <identifier type="databnf">https://data.bnf.fr/fr/12010360/charles_de_batz_de_castelmore_artagnan/</identifier>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/D%27Artagnan</identifier>
     <identifier type="isni">0000 0001 2132 3982</identifier>
   </person>
@@ -376,8 +373,7 @@
     <name>Aumont de Rochebaron, Antoine d’</name>
     <birth when="1601"/>
     <death when="1699"/>
-    <identifier type="wikipedia"
-      >https://fr.wikipedia.org/wiki/Antoine_d%27Aumont_de_Rochebaron</identifier>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Antoine_d%27Aumont_de_Rochebaron</identifier>
     <identifier type="databnf">https://data.bnf.fr/fr/14871496/antoine_aumont/</identifier>
     <identifier type="isni">0000 0000 7977 3129</identifier>
   </person>
@@ -385,10 +381,8 @@
     <name>Aumont de Rochebaron, Louis-Marie-Victor d’, marquis de Chappes, puis de Villequier, puis duc d'Aumont</name>
     <birth when="1632"/>
     <death when="1704"/>
-    <identifier type="databnf"
-      >https://data.bnf.fr/fr/15071916/louis-marie-victor_aumont/</identifier>
-    <identifier type="wikipedia"
-      >https://fr.wikipedia.org/wiki/Louis-Marie-Victor_d'Aumont</identifier>
+    <identifier type="databnf">https://data.bnf.fr/fr/15071916/louis-marie-victor_aumont/</identifier>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Louis-Marie-Victor_d'Aumont</identifier>
     <identifier type="isni">0000 0000 0210 1092</identifier>
   </person>
   <person xml:id="anne_d_autriche" sex="F">
@@ -404,15 +398,13 @@
     <birth when="1649"/>
     <death when="1664"/>
     <identifier type="databnf">https://data.bnf.fr/fr/16297306/charles_joseph_autriche/</identifier>
-    <identifier type="wikipedia"
-      >https://fr.wikipedia.org/wiki/Charles_Joseph_d%27Autriche_(1649-1664)</identifier>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Charles_Joseph_d%27Autriche_(1649-1664)</identifier>
   </person>
   <person xml:id="marie_de_bailleul" sex="F">
     <name>Bailleul, Marie de, née Le Ragois, épouse de Louis-Dominique de Bailleul</name>
     <birth when="1635"/>
     <death when="1677"/>
-    <identifier type="wikipedia"
-      >https://fr.wikipedia.org/wiki/Louis-Dominique_de_Bailleul#cite_note-1</identifier>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Louis-Dominique_de_Bailleul#cite_note-1</identifier>
   </person>
   <person xml:id="bailly" sex="M">
     <name>Bailly, garde suisse</name>
@@ -498,10 +490,8 @@
     <name>Beauvilliers Saint-Aignan, François-Honorat de</name>
     <birth when="1607"/>
     <death when="1687"/>
-    <identifier type="databnf"
-      >https://data.bnf.fr/fr/10735898/francois-honorat_de_beauvilliers_saint-aignan/</identifier>
-    <identifier type="wikipedia"
-      >https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Honorat_de_Beauvilliers</identifier>
+    <identifier type="databnf">https://data.bnf.fr/fr/10735898/francois-honorat_de_beauvilliers_saint-aignan/</identifier>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Honorat_de_Beauvilliers</identifier>
     <identifier type="isni">0000 0001 1405 9925</identifier>
   </person>
   <person xml:id="louis_bellefonds" sex="M">
@@ -686,6 +676,7 @@
     <identifier type="wikipedia"
       >https://fr.wikipedia.org/wiki/Louis_de_France_(1661-1711)</identifier>
     <identifier type="isni">0000 0000 7101 8321</identifier>
+   </person>
   <person xml:id="bourru" sex="M">
     <name>Bourru, officier du Gobelet</name>
   </person>
@@ -1287,7 +1278,7 @@
   <person xml:id="hilaire_dupuis" sex="F">
     <name>Dupuis, Hilaire, dite Mademoiselle Hilaire</name>
     <birth when="1625"/>
-    <death when="1709 "/>
+    <death when="1709"/>
     <identifier type="databnf">https://data.bnf.fr/fr/14842782/hilaire_dupuis/</identifier>
   </person>
   <person xml:id="jh_durfort" sex="M">
@@ -1300,7 +1291,7 @@
   </person>
   <person xml:id="henri_elbeuf" sex="M">
     <name>Elbeuf, Henri de Lorraine, duc de</name>
-    <birth when="1661"</birth>
+    <birth when="1661"></birth>
     <death when="1748"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Henri_d%27Elbeuf</identifier>
   </person>
@@ -1549,7 +1540,7 @@
   </person>
     <person xml:id="louis_gondrin" sex="M">
       <name>Gondrin, Louis de Pardaillan, marquis de</name>
-      <death when="c.1700"/>
+      <death when="1700*"/>
     </person>
   <person xml:id="comte_gonore" sex="M">
     <name>Gonore, Comte de</name>
@@ -1857,7 +1848,7 @@
   </person>
     <person xml:id="charles_noue" sex="M">
       <name>La Noue du Vair, Charles Armand de, écuyer de Louis III de Bourbon-Condé</name>
-      <birth when="v. 1648"/>
+      <birth when="1648*"/>
       <death when="1716"/>
     </person>
   <person xml:id="philippe_sicault_la_noue" sex="M">
@@ -1890,6 +1881,7 @@
     <identifier type="wikipedia"
       >https://fr.wikipedia.org/wiki/Fran%C3%A7ois_VII_de_La_Rochefoucauld</identifier>
     <identifier type="isni">0000 0001 1949 9655</identifier>
+    </person>
     <person xml:id="francois_rocheguyon" sex="M">
       <name>La Roche-Guyon, François VIII de La Rochefoucauld, duc de</name>
       <birth when="1663"/>
@@ -2099,7 +2091,7 @@
   </person>
     <person xml:id="camille_lorraine" sex="M">
       <name>Lorraine-Armagnac, Camille, prince de</name>
-      <birth when="1666"</birth>/>
+      <birth when="1666"></birth>
       <death when="1715"/>
     </person>
   <person xml:id="marie_lorraine_elbeuf" sex="F">
@@ -2136,8 +2128,9 @@
     <death when="1664"/>
     <identifier type="wikipedia"
       >https://data.bnf.fr/fr/12563871/henri_de_lorraine_guise/</identifier><identifier
-      type="databnf">https://fr.wikipedia.org/wiki/Henri_II_de_Guise</identifier><identifier
-      type="isni"/>0000 0001 2131 180X</person>
+      type="databnf">https://fr.wikipedia.org/wiki/Henri_II_de_Guise</identifier>
+    <identifier type="isni">0000 0001 2131 180X</identifier>
+  </person>
   <person xml:id="gaston_levis_loumagne" sex="M">
     <name>Loumagne, Gaston-Jean-Baptiste de Levis de, marquis de Mirepoix, Maréchal de la Foy, </name>
     <birth when="1636"/>
@@ -2398,6 +2391,7 @@
     <identifier type="wikipedia"
       >https://fr.wikipedia.org/wiki/Nicolas_de_Neufville_de_Villeroy</identifier>
     <identifier type="isni">0000 0001 2142 9517</identifier>
+  </person>
     <person xml:id="louis_nesle" sex="M">
       <name>Nesle, Louis de Mailly, marquis de</name>
   </person>
@@ -2508,7 +2502,7 @@
     <identifier type="databnf">https://data.bnf.fr/12452843/andre_philidor/</identifier>
     <identifier type="isni">0000 0001 1060 7314</identifier>
   </person>
-  <person xml:id="felipeiii">
+  <person xml:id="felipeiii" sex="M">
     <name>Philippe III, roi d'Espagne</name>
     <birth when="1598"/>
     <death when="1621"/>
@@ -2887,7 +2881,7 @@
     </person>
     <person xml:id="charles_tingry" sex="M">
       <name>Tingry, Charles-François-Frédéric de Montmorency-Luxembourg, prince de</name>
-      <birth when="1662</birth>/>
+      <birth when="1662"></birth>
       <death when="1726"/>
       <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Charles_Ier_Fr%C3%A9d%C3%A9ric_de_Montmorency-Luxembourg</identifier>
     </person>
@@ -2978,7 +2972,7 @@
     </person>
     <person xml:id="antoine_valentinois" sex="M">
       <name>Valentinois, Antoine de Grimaldi, prince de Monaco, duc de</name>
-      <birth when="1661"</birth>
+      <birth when="1661"></birth>
       <death when="1731"/>
       <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Antoine_(prince_de_Monaco)</identifier>
       <identifier type="databnf">https://data.bnf.fr/fr/14993301/antoine_1/</identifier>
