@@ -34,6 +34,9 @@
     <!-- bibnote -->
     <xsl:value-of select="$tab"/>
     <xsl:apply-templates select="(/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:bibl)[1]//tei:note/node()"/>
+    <p>Responsables : </p><xsl:for-each select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:editionStmt/tei:respStmt">
+      <span class="contributeurice"><xsl:value-of select="tei:name/text()"/>, <xsl:value-of select="tei:resp/text()"/> — </span>
+    </xsl:for-each>
     <!-- ptr -->
     <xsl:value-of select="$tab"/>
     <xsl:value-of select="normalize-space((/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc//tei:ptr)[1]/@target)"/>
