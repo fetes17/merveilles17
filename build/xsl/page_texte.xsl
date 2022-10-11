@@ -1,29 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:transform version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml" xmlns:tei="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="tei">
+<!--
+Interface de lecture d’un texte
+Entrée : *_imp_*.xml, *_ms_*.xml (??? et je ne sais plus pourquoi des img)
+Sortie : site/texte/*.html 
+-->
+<xsl:transform exclude-result-prefixes="tei" version="1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:import href="tei_flow.xsl"/>
   <xsl:import href="tei_toc.xsl"/>
   <xsl:import href="tei_header.xsl"/>
   <xsl:import href="page.xsl"/>
-  <xsl:output indent="yes" encoding="UTF-8" method="xml" omit-xml-declaration="yes"/>
-  <xsl:key name="persName" match="tei:persName[not(ancestor::tei:teiHeader)]" use="normalize-space(@key)"/>
-  <xsl:key name="placeName" match="tei:placeName[not(ancestor::tei:teiHeader)]" use="normalize-space(@key)"/>
-  <xsl:key name="tech" match="tei:tech[not(ancestor::tei:teiHeader)]" use="normalize-space(@type)"/>
-  <xsl:key name="name" match="tei:name[not(ancestor::tei:teiHeader)]" use="normalize-space(@key)"/>
-  <xsl:key name="ana" match="*[@ana][@ana != 'description']" use="normalize-space(@ana)"/>
+  <xsl:output encoding="UTF-8" indent="yes" method="xml" omit-xml-declaration="yes"/>
+  <xsl:key match="tei:persName[not(ancestor::tei:teiHeader)]" name="persName" use="normalize-space(@key)"/>
+  <xsl:key match="tei:placeName[not(ancestor::tei:teiHeader)]" name="placeName" use="normalize-space(@key)"/>
+  <xsl:key match="tei:tech[not(ancestor::tei:teiHeader)]" name="tech" use="normalize-space(@type)"/>
+  <xsl:key match="tei:name[not(ancestor::tei:teiHeader)]" name="name" use="normalize-space(@key)"/>
+  <xsl:key match="*[@ana][@ana != 'description']" name="ana" use="normalize-space(@ana)"/>
   <xsl:variable name="lieux" select="document('../../index/lieu.xml')//tei:place"/>
   <xsl:variable name="personnes" select="document('../../index/personne.xml')/*/*"/>
   <xsl:variable name="ana" select="document('../../index/ana.xml')/*/*"/>
   <xsl:variable name="techniques" select="document('../../index/technique.xml')/*/*"/>
   <xsl:template match="/">
     <article class="liseuse">
-      <div id="explorer" class="explorer">
+      <!-- le panneau d’exploration -->
+      <div class="explorer" id="explorer">
         <p class="notice">
-          <a title="Retour à la notice"  target="_blank" class="notice" href="../document/{$filename}{$_html}">◀ Notice</a>
+          <a class="notice" href="../document/{$filename}{$_html}" target="_blank" title="Retour à la notice">◀ Notice</a>
         </p>
         <xsl:call-template name="explorer"/>
       </div>
       <div id="milieu">
         <div class="bg-gray cartouche">
+          <!-- les métadonnées du document -->
           <xsl:apply-templates select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt"/>
         </div>
         <div class="explorable" id="explorable">
@@ -96,7 +103,7 @@
         </xsl:when>
         <xsl:otherwise>
           <xsl:for-each select="//*[name() = $tag][count(. | key($tag, normalize-space(@key|@type))[1]) = 1][not(ancestor::tei:teiHeader)]">
-            <xsl:sort select="count(key($tag, normalize-space(@key|@type)))" data-type="number" order="descending"/>
+            <xsl:sort data-type="number" order="descending" select="count(key($tag, normalize-space(@key|@type)))"/>
             <xsl:call-template name="tr">
               <xsl:with-param name="tag" select="$tag"/>
               <xsl:with-param name="key" select="normalize-space(@key|@type)"/>
@@ -106,7 +113,7 @@
       </xsl:choose>
     </xsl:variable>
     <xsl:if test="$rows != ''">
-      <details id="{$tag}" class="terms">
+      <details class="terms" id="{$tag}">
         <summary>
           <xsl:value-of select="$label"/>
           <!--
@@ -122,7 +129,7 @@
         <table class="sortable" data-sort="1">
           <thead>
             <tr>
-              <th width="40" title="Aller à la notice"></th>
+              <th title="Aller à la notice" width="40"/>
               <th class="term">
                 <xsl:value-of select="$label"/>
               </th>
@@ -153,7 +160,7 @@
     <tr>
       <td>
         <xsl:if test="$key != ''">
-          <a title="Aller à la notice" target="_blank">
+          <a target="_blank" title="Aller à la notice">
             <xsl:attribute name="href">
               <xsl:choose>
                 <xsl:when test="$tag = 'persName'">../personne/</xsl:when>
@@ -230,12 +237,12 @@
     <xsl:choose>
       <xsl:when test="contains($facs, 'gallica.bnf.fr/ark:/')">
         <!-- https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f104.image -->
-        <a class="pb facs" href="{$facs}" target="_blank" id="{@xml:id}">
+        <a class="pb facs" href="{$facs}" id="{@xml:id}" target="_blank">
           <span class="n">
             <xsl:if test="translate(@n, '1234567890', '') = ''">p. </xsl:if>
             <xsl:value-of select="@n"/>
           </span>
-          <img src="{substring-before($facs, '/ark:/')}/iiif/ark:/{substring-after(substring-before(concat($facs, '.image'), '.image'), '/ark:/')}/full/150,/0/native.jpg" data-bigger="{substring-before($facs, '/ark:/')}/iiif/ark:/{substring-after(substring-before(concat($facs, '.image'), '.image'), '/ark:/')}/full/700,/0/native.jpg"/>
+          <img data-bigger="{substring-before($facs, '/ark:/')}/iiif/ark:/{substring-after(substring-before(concat($facs, '.image'), '.image'), '/ark:/')}/full/700,/0/native.jpg" src="{substring-before($facs, '/ark:/')}/iiif/ark:/{substring-after(substring-before(concat($facs, '.image'), '.image'), '/ark:/')}/full/150,/0/native.jpg"/>
         </a>
       </xsl:when>
       <xsl:otherwise>
