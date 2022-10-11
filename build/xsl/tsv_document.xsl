@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Merveilles 17
+https://merveilles17.huma-num.fr/
+
+Produit des notices courtes à partir du <teiHeader> d’un “document”, par exemple
+« Courses de testes et de bagues faites par le roy et par les princes et seigneurs en l’année 1662.
+Paris, Imprimerie royale, 1670. Paris, BNF, Estampes, RESERVE PD-10 (B)-BOITE FOL »
+Insérées à plus d’un endroit du site, ex
+https://merveilles17.huma-num.fr/document/index.html
+
+La sortie est un tsv qui est ingéré par du PHP
+-->
 <xsl:transform version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml" xmlns:tei="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="tei">
   <xsl:import href="tei_flow.xsl"/>
   <xsl:param name="filename"/>
@@ -34,9 +46,6 @@
     <!-- bibnote -->
     <xsl:value-of select="$tab"/>
     <xsl:apply-templates select="(/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:bibl)[1]//tei:note/node()"/>
-    <p>Responsables : </p><xsl:for-each select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:editionStmt/tei:respStmt">
-      <span class="contributeurice"><xsl:value-of select="tei:name/text()"/>, <xsl:value-of select="tei:resp/text()"/> — </span>
-    </xsl:for-each>
     <!-- ptr -->
     <xsl:value-of select="$tab"/>
     <xsl:value-of select="normalize-space((/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc//tei:ptr)[1]/@target)"/>
