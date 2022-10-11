@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+Modèles partagés par les pages 
+“document” (notice biblio) site/document/*.html 
+“texte” (plein texte) site/texte/*.html 
+
+  -->
 <xsl:transform version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml"  xmlns:tei="http://www.tei-c.org/ns/1.0"  exclude-result-prefixes="tei">
   <xsl:import href="tei_common.xsl"/>
   <xsl:template match="tei:titleStmt">
@@ -27,6 +33,24 @@
         <xsl:apply-templates/>
       </div>
     </xsl:for-each>
+  </xsl:template>
+
+  <!-- Contributeurs à l’édition électronique -->
+  <xsl:template match="tei:editionStmt">
+    <p class="editionStmt">
+      <text>Responsables : </text>
+      <xsl:for-each select="tei:respStmt">
+        <span class="respStmt">
+          <xsl:apply-templates select="tei:name"/>
+          <xsl:if test="tei:resp">
+            <xsl:text>, </xsl:text>
+            <xsl:apply-templates select="tei:resp"/>
+          </xsl:if>
+          <xsl:if test="position() != last()"> — </xsl:if>
+        </span>
+      </xsl:for-each>
+      <xsl:text>.</xsl:text>
+    </p>
   </xsl:template>
 
   <xsl:template match="tei:graphic">

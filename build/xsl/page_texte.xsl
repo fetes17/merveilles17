@@ -32,6 +32,8 @@ Sortie : site/texte/*.html
         <div class="bg-gray cartouche">
           <!-- les métadonnées du document -->
           <xsl:apply-templates select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt"/>
+          <!-- les éditeurs électroniques, template surchargé dans page.xsl, au cas où on le voudrait dans page_document.xsl -->
+          <xsl:apply-templates select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:editionStmt"/>
         </div>
         <div class="explorable" id="explorable">
           <xsl:apply-templates select="/tei:TEI/tei:text"/>
