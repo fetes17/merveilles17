@@ -1,0 +1,29 @@
+* text eol=lf
+*.tsv text
+*.csv text
+
+# Specific Windows
+*.bat text eol=crlf
+
+# truly binary and should not be modified.
+*.db binary
+*.docx binary
+*.jar binary
+*.jpg binary
+*.jpeg binary
+*.odg binary
+*.odt binary
+*.otf binary
+*.pdf binary
+*.png binary
+*.pptx binary
+*.psd binary
+*.sqlite binary
+*.tif binary
+*.tiff binary
+*.ttf binary
+*.xlsx binary
+*.woff binary
+*.woff2 binary
+*.zip binary
+
