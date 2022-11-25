@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://oeuvres.github.io/teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ballet des Arts, dansé par Sa Majesté le 8 Janvier 1663</title>
+        <author key="{author}"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>{publisher}</edition>
+        <respStmt>
+          <name>{Transcription}</name>
+          <resp>Transcription</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>{publisher}</publisher>
+        <date when="2021"/>
+        <idno>{filename}</idno>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Benserade, <emph>Ballet des arts dansé par Sa Majesté le 8 Janvier 1663</emph>, Paris, Ballard, 1663. </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <creation>
+        <date when="1663-01-08"/>
+      </creation>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+<pb type="break-before" n="2"/>
+
+
+<pb n="1" xml:id="p1"/>
+<p>BALLET</p>
+<p>DES ARTS,</p>
+<p>Dansé par Sa Majesté le <date>8.</date></p>
+<p><date>Ianvier 1663.</date></p>
+<space unit="line" quantity="1"/>
+<p>A <placeName>PARIS</placeName>,</p>
+<p>« Par <persName key="ballard">Robert Ballard</persName>, seul Imprimeur du</p>
+<p><persName>Roy</persName> pour la Musique. »</p>
+<p><date>M. DC. LXIII.</date></p>
+<p>Avec Privilege de Sa Majesté.</p>
+<space unit="line" quantity="1"/>
+
+<pb n="2" xml:id="p2"/>
+
+<pb n="3" xml:id="p3"/>
+<p>AVANT-PROPOS</p>
+<p>LA Paix ayant produit</p>
+<p>l’Abondance, &amp; fait nai-</p>
+<p>stre les Plaisirs &amp; re-</p>
+<p>fleurir les Sciences &amp; les</p>
+<p>Arts ; les Sept que l’on</p>
+<p>nomme Liberaux, con-</p>
+<p>duits par leur inuen-</p>
+<p>teur, Promethée, viennent paroistre en</p>
+<p>cette superbe Cour : Et comme la Musi-</p>
+<p>que en est l’un des plus nobles &amp; des plus</p>
+<p>agreables, elle fait auec les autres, par <tech>vn</tech></p>
+<p><tech>grand Concert d’Instrumens</tech>, l’ouuerture</p>
+<p>du Ballet des Arts en general, dont quel-</p>
+<p>ques-vns soit mechaniques ou autres, ont</p>
+<p>esté choisis pour faire les Entrées de ce</p>
+<p>Ballet ; chacune estãt precedée d’un chan-</p>
+<p>gement de <tech>Theatre</tech> &amp; d’un <tech>Recit</tech>.</p>
+
+<pb n="4" xml:id="p4"/>
+<p>L’AGRICVLTVRE.</p>
+<p>CET Art est representé par des <name>Bergers</name></p>
+<p>&amp; des <name>Bergeres</name> ; lesquels sortent des</p>
+<p>agreables Boccages, qui font la decoration de</p>
+<p>cette premiere Scene. Apres que la <name>Félicité</name> &amp;</p>
+<p>la <name>Paix</name> qui les accompagnent tousiours ont fait</p>
+<p>vn recit en <tech>Dialogue</tech>, auquel respond vn <tech>Chœur</tech></p>
+<p><tech>d’instruments rustiques</tech>.</p>
+<p>Dialogue de la <name>Paix</name> &amp; de la <name>Félicité</name>, chanté par</p>
+<p><persName>Mademoiselle Hylaire</persName>, &amp; <persName>Mademoiselle</persName></p>
+<p><persName>de Saint Christophe</persName>.</p>
+<p>LA PAIX</p>
+<l>Douce <name>Félicité</name>, ne quitons point ces lieux.</l>
+<p>LA FELICITÉ.</p>
+<l>Douce &amp; charmante <name>Paix</name>, où peut-on estre</l>
+<l>mieux ?</l>
+<p>Toutes deux.</p>
+<l>N’y les travaux ny les peines,</l>
+<l>N’habitent plus dans ces bois,</l>
+<l>Les <name>Bergers</name> sont comme des Rois,</l>
+<l>Les <name>Bergeres</name> comme des Reïnes.</l>
+<p>LA</p>
+
+<pb n="5" xml:id="p5"/>
+<p>La Paix</p>
+<l>I’y veux estre tousiours,</l>
+<p>LA FELICITÉ.</p>
+<l>Et moy tousiours aussy.</l>
+<p>Toutes deux.</p>
+<l>Amour est le seul mal dont on se plaint icy.</l>
+<p>LA PAIX.</p>
+<l>Les vents les plus mutins sont changez en Zephirs.</l>
+<p>LA FELICITÉ.</p>
+<l>Les maux les plus cruels sont changez en plaisirs.</l>
+<p>Toutes deux.</p>
+<l>Icy quand vn cœur soupire,</l>
+<l>Vn autre cœur luy répond,</l>
+<l>Et c’est là tout le bruit que font</l>
+<l>Les Echos qui s’osent tout dire.</l>
+<p>LA PAIX.</p>
+<l>I’y veux estre tousiours, etc.</l>
+<space unit="line" quantity="1"/>
+</body>
+  </text>
+</TEI>
