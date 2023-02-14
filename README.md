@@ -3,6 +3,7 @@
 
 [Documentation du schema](https://fetes17.github.io/merveilles17/merveilles17.html)
 
+* [Gazette-1680.xml](https://fetes17.github.io/merveilles17/xml/Gazette-1680.xml)
 * [merveilles17_img_ano13238_015.xml](https://fetes17.github.io/merveilles17/xml/merveilles17_img_ano13238_015.xml)
 * [merveilles17_img_ano13238_068.xml](https://fetes17.github.io/merveilles17/xml/merveilles17_img_ano13238_068.xml)
 * [merveilles17_img_ano13239_057.xml](https://fetes17.github.io/merveilles17/xml/merveilles17_img_ano13239_057.xml)
