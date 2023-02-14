@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
+<?xml-stylesheet type="text/css" href="../style/tei-author.css" alternate="author"?>
+<?xml-model href="https://fetes17.github.io/merveilles17/merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>{Relation de ce qui s’est passé sur le vaisseau de l’Entreprenant ; &amp; et le combat des deux frégates en présence de Leurs Majestez à la rade de Dunkerque}</title>
+        <author key="???">{Unknown}</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Merveilles17</edition>
+        <respStmt>
+          <name>{Méline Corriol}</name>
+          <resp>Transcription</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université d’Artois - Lille, MESHS</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>{La Gazette de 1680}<ptr target=""/></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1680"/>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+<pb n="401" xml:id="p401"/>
+      <p/>
+      <space unit="line" quantity="1"/>
+      
+      <head>RELATION</head>
+<head>DE CE QUI S'EST PASSÉ</head>
+<head>sur le vaisseau l’Entreprenant :</head>
+<head>&amp; le combat de deux frégates</head>
+<head>en présence de Leurs Majes-</head>
+<head>tez à la rade de <placeName>Dunkerque</placeName> :</head>
+<p>Avec la suite du lournal du voyage du <persName>Roy</persName>.</p>
+      
+<p/>
+<l>Le vaisseau <name>l’Entreprenant</name> est </l>
+<l>d’une belle structure, extre-</l>
+<l>mément taillé en ses fonds,</l>
+<l>ce qui le rend très-bon voi-</l>
+<l>lier. Tous les ouvrages de</l>
+<l>sculpture de son arrière &amp; de</l>
+<l>son avant font bronzez &amp;re-</l>
+<l>levez en or, &amp; sur un fond verd, ce qui leur don-</l>
+<l>ne un grand éclat.</l>
+<p></p>
+<l>Il est orné de figures, de feuillages &amp; de fes</l>
+
+<pb n="402" xml:id="p402"/>
+<l>tons. Au-dessus sont les Armes du <persName key="louisxiv">Roy</persName> dorées</l>
+<l>ainsi que le reste des ornemens de la poupe, &amp; les</l>
+<l>trois fanaux qu’elle soutient.</l>
+<l>Au dessous il y a une gallerie saillante fermée</l>
+<l>d’une balustrade dans laquelle on entre par la</l>
+<l>chambre du <persName key="louisxiv">Roy</persName>, toute peinte &amp; dorée, &amp; gar- </l>
+<l>nie d’un ameublement de <placeName>Damas</placeName> incarnat à</l>
+<l>fleurs, avec une frange &amp; un molet d’or et d’ar-</l>
+<l>gent.</l>
+<l>De cette chambre, on passe dans une autre ta-</l>
+<l>pissée de Damas à fleurs jaune paillé, sur un fond</l>
+<l>blanc, avec des bandes de Damas incarnat à</l>
+<l>fleurs, &amp; le reste de rameublement fort magni-</l>
+<l>fique.</l>
+<l>La grande chambre où l’on mange est au</l>
+<l>dessous de celle du <persName key="louisxiv">Roy</persName>. Elle est garnie d’un</l>
+<l>cabinet d’armes qui régne autour en ratelier,</l>
+<l>sur lequel sont rangez les fusils, mousquets,</l>
+<l>mousquetons, pistolets, sabres &amp; haches d’ar-</l>
+<l>mes.</l>
+<l>Au dessous de cette chambre est celle des</l>
+<l><name key="équipage">Canoniers</name> nommée la Sainte Barbe : où sont</l>
+<l>tous les utanciles du canon, peints &amp; fleurde-</l>
+<l>lisez.</l>
+<l>On en avoit osté la cloison, afin que le</l>
+<l><persName key="louisxiv">Roy</persName> pût le promener de l’avant à l’arriére en-</l>
+
+<pb n="403" xml:id="p403"/>
+<l>tre deux ponts sans empechement.</l>
+<p></p>
+<l>Le vaisseau est monté de 24 piéces de canon de</l>
+<l>18 livres de bale, de 24 piéces de 12 livres &amp; de</l>
+<l>10 piéces de huit livres, tout canon de fonte: &amp;</l>
+<l>on y en peut mettre jusquà 64. Les canons de la</l>
+<l>baterie de bas avoient esté portez a terre pour dé-</l>
+<l>charger le vaisseau, &amp; en leur place on avoit mis</l>
+<l>ceux de la baterie de haut. Chaque canon avoit</l>
+<l>auprès de luy d’un costé son refouloir, tirebour-</l>
+<l>re &amp; écouvillon, de l’autre le porte gargousse, &amp;</l>
+<l>derrière la culasse le boute feu, le tout en bon</l>
+<l>ordre.</l>
+<l>L'équipage est composé du <name key="équipage"> Capitaine </name>, d’un <name key="équipage">Capitaine</name></l>
+<l>en second, de quatre<name key="équipage">Lieutenans</name>, de qua-</l>
+<l>tre<name key="équipage">Enseignes</name>, de 16<name key="équipage"> Gardes de marine</name>, de 68 <name key="équipage">Officiers mariniers</name>,</l>
+<l>de 182 <name key="équipage">matelots</name> &amp; de 100 <name key="équipage">soldats</name>.</l>
+<l><name key="équipage">Les Capitaines </name>,<name key="équipage">Les Lieutenans </name> &amp; <name key="équipage">Les Enseignes </name></l>
+<l>avoyent des juste-au-corps bleus, les ans en bro-</l>
+<l>derie d’or &amp; d’argent, &amp; les autres couverts de</l>
+<l>galon d’or.</l>
+<l><name key="équipage">Les Gardes de marine</name>, <name key="équipage">les officiers mariniers</name> </l> 
+<l><name key="équipage">les matelots</name> &amp; les <name key="armée">soldats</name> avoyent esté habil-</l>
+<l>lez aux despens du <persName key="louisxiv">Roy</persName>. Ils estoyent vestus,</l>
+<l>les premiers de juste-au-corps d’écarlate, char</l>
+<l>marez d’un large galon d’or, avec des vestes</l>
+
+<pb n="404" xml:id="p404"/>
+<l> de velours verd &amp; des culottes de ratine rou-</l>
+<l> ge, des bas de la mesme couleur, des gands</l>
+<l> frangez d’or, des chapeaux garnis de plumes</l>
+<l> blanches, des ceintures de tafetas blanc, des</l>
+<l> baudriers de bufle à double galon d’or, ôc</l>
+<l> des epées en sabre courbe à poignée &amp; garde</l>
+<l> dorée.</l>
+<l> <name key="armée">Les quatre sergens</name> estoyent vestus de mesme</l>
+<l><name key="équipage">maistres</name>,<name key="équipage">pilotes</name>,<name key="équipage">maistres canoniers</name>,autres</l>
+<l><name key="équipage">officiers de marine</name>, estoyent habillez comme les</l>
+<l><name key="équipage">sergens</name>, excepté que l’étofe estoit bleue, le galon</l>
+<l> d’or &amp; d’argent &amp; le fabre argenté.</l>
+<l><name key="équipage">les matelots</name> avoyent un jupon de drap rouge &amp;</l>
+<l> une veste de drap verd, galonnez d’or &amp; d’argent,</l>
+<l> une culote bleue, des bas rouges, des escarpins</l>
+<l> blancs fort ouverts par les costez à la Flamande,</l>
+<l> des ceintures de tafetas blanc à frange &amp; molet</l>
+<l> d’or &amp; d’argent, des cravates de tafretas noir,</l>
+<l> avec une frange d’or, une toque ou bonnet à la</l>
+<l> flamande de velous vert, garni de larges bou-</l>
+<l> tonnières d’or &amp; d’argent, &amp; ils estoyent armez</l>
+<l> de halebardes &amp; de pertuisanes, dont le fer est</l>
+<l> doré.</l>
+<l><name key="armée">Les soldats</name> estoyent vestus de juste-au-corps</l>
+<l>&amp; culotes de drap brun &amp; avec la veste de drap</l>
+<l> vert,</l>
+
+<pb n="40 5"/>
+<l> vert, le tout galonné d’or, un baudrier de bu-</l>
+<l> fie &amp; une bandolière de cuir rouge galonnez</l>
+<l> d’or, une ceinture &amp; une cravate de tafetas fran-</l>
+<l> gées d’or, une toque pareille à celle des mate-</l>
+<l> lots, quantité de rubans rouge &amp; vert, &amp; un</l>
+<l> sabre courbé.</l>
+<l> Aussi tost que le <persName key="louisxiv">le Roy</persName> fut entré dans le vais-</l>
+<l> seau qui avoit ses hunes pavoisées de pavois bleus </l>
+<l> fleurdelifez &amp; ses mats &amp; ses vergues garnis </l>
+<l> de flames blanches, <name key="équipage">les matelots</name> montérent</l>
+<l> sur les haubans &amp; sur les vergues, &amp; firent la</l>
+<l> manœuvre des voiles qu’ils ferlèrent &amp; déferlé-</l>
+<l>rent.</l>
+<l>Ensuite,<name key="armée">Les soldats</name> firent l’exercice, apres quoy </l>
+<l><name key="équipage">les matelots</name> descendirent sur le pont, &amp; s’armé-</l>
+<l>avec laquelle ils firent aussi l’exercice, rangez le</l>
+<l>long des deux bords du vaisseau. <name key="armée">Les soldats</name> sur</l>
+<l>le milieu du pont, le sabre à la main, &amp; les gardes</l>
+<l> de marine sur la dunette, ayant aussi chacun une</l>
+<l> halebarde dorée, avec laquelle, ainsi que les ma-</l>
+<l> telots, ils firent les mesmes mouvemens que quand</l>
+<l> on défend dans un combat l’abordage à un vais-</l>
+<l>seau ennemi.</l>
+<l> <persName key="louisxiv">Sa Majesté</persName> descendit apres entre deux ponts, y </l>
+<l>vit fait l’exercice du canon, &amp; sortit du vais-</l>
+
+  <pb n="40 6"/>
+<l>seau fort satisfaite.</l>
+<l><name key="la Cour">Monseigneur le Dauphin</name> y avoit été à huit</l>
+<l>heures du matin: &amp; on avoit fait devant luy les</l>
+<l>mesmes choses.</l>
+<l><name key="la Cour">La Reyne</name>, accompagnée de <name key="la Cour">Madame la Dauphine </name>,</l>
+<l>de <name key="la Cour">Madame</name>, &amp; des <name key="la Cour">principales Dames</name> de </l>
+<l> la Cour, y alla sur les cinq heures du soir</l>
+<l>: &amp; eut un semblable divertissement. <persName key="louisxiv">Sa Majesté</persName> visita</l>
+<l>ensuite <placeName>la Citadelle</placeName>.</l>
+<l><persName key="louisxiv">le Roy</persName> alla voir le Risban, fut tres-content de</l>
+<l>le trouver en bon estat, &amp; commanda aux en-</l>
+<l>trepreneurs de faire incessamment continuer ces</l>
+<l>travaux.</l>
+<l> <date when="1680-07-29"> Le 29</date>,<persName key="louisxiv">Leurs Majestez</persName> sestans rendues à deux</l>
+<l> heures apres midy <placeName>sur le bord du grand canal du</placeName></l>
+<l><placeName>port de Dunkerque</placeName>, virent le combat de deux</l>
+<l>frégates, l’une nommée l’Adroit, montée de 36</l>
+<l>pièces de canon, commandée par le sieur Panetier</l>
+<l>Capitaine de vaisseau, &amp; l’autre appellée la Ser-</l>
+<l>pente, montée de 30 piéces de canon &amp; comman-</l>
+<l>dée par le sieur Albert Capitaine de frégate lé-</l>
+<l>gère.</l>
+<l><persName key="louisxiv">Le Roy</persName> avec <name key="la Cour">Monsieur le Dauphin </name>,</l>
+<l> <name key="la Cour">Monsieur</name> &amp; <name key="la Cour">plusieurs personnes de marque</name>, entra</l>
+<l> dans une galiote qui avoit esté bastie dans ce port</l>
+ <l>pour<persName key="louisxiv">Sa Majesté</persName>. Elle y fut reçue par <name key="accueil">Monsieur</name></l>
+
+<pb n="40 7"/>
+<l><name key="accueil">Panetier</name> qui eut l’honneur de tenir le gouver- </l>
+<l>nail, &amp; de la conduire jusqu’a la teste des jettées</l>
+<l>ou à l’entrée du port. Il y laissa le soin de la</l>
+<l>galiote au <name key="équipage">sieur Julien de Tour son lieutenant</name>,</l>
+<l>pour aller à bord de l’Adroit, &amp; pour donner</l>
+<l>à <persName key="louisxiv">Leurs Majestez</persName> le divertissement du combat</l>
+<l>naval.</l>
+<l>Cette galiote a 40 pieds de long &amp; 10 de lar-</l>
+<l>ge, elle est a varangues plattes, &amp; toute dorée</l>
+<l>d’avant arrière, avec des ornemens de sculpture</l>
+<l>à festons dorez, qui régnent le long des deux</l>
+<l>collez, ainsi que ceux de l’arriére, au milieu du-</l>
+<l>quel sont les Armes du <persName key="louisxiv">Roy</persName>. Elle estoit couverte</l>
+<l>d’un tendelet de velous rouge cramoisi à fleurs</l>
+<l>a fonds d’argent, garni d’une crespine &amp; fran-</l>
+<l>ge d’or &amp; d’argent, les matelats, rideaux &amp; couf-</l>
+<l>fins de semblable étofe. Le Pavillon Royal arboré</l>
+<l>au grand mats estoit de Damas blanc, avec les</l>
+<l>Armes de <persName key="louisxiv">Sa Majesté</persName> en broderie d’or au milieu,</l>
+<l>&amp; le pavilon d’arriére estoit de mesme.</l>
+<l><name key="la Cour">La Reyne</name>, accompagnée de <name key="la Cour">Madame la Dau-</name></l>
+<l><name key="la Cour">phine</name>, de <name key="la Cour">Madame</name> &amp; des <name key="la Cour">autres Dames</name>, vinst</l>
+<l>enfuite dans une chaloupe aussi peinte &amp; doreé,</l>
+<l>couverte d’un tendelet de Damas rouge cramoisi,</l>
+<l>garni ainsi que les matelats, oreillers &amp; rideaux</l>
+<l>de crespine, frange &amp; molet d’or tres-riches. <persName key="louisxiv">Sa</persName></l>
+
+<pb n="40 8"/>
+<l><persName key="louisxiv">Majesté</persName> y fut reçeue par <name key="accueil">le sieur de Sélingue Ca-</name></l>
+<l><name key="accueil">pitaine de frégate légère</name>; qui prit le foin du gou- </l>
+<l>vernail.</l>
+<l>Les <name key="la Cour">autres Seigneurs</name> &amp; <name key="la Cour">Dames de la cour</name>se</l>
+<l>mirent dans quatre autres chaloupes peintes, &amp;</l>
+<l>couvertes aussi de tendelets: le premier de da-</l>
+<l>mas vert à fleurs, le second de damas jaune</l>
+<l>pareillement à fleurs, le troisième de damas bleu,</l>
+<l>&amp; le quatrième de damas rouge le tout garni de</l>
+<l>crespine, frange &amp; molet d’or&amp; d’argent, &amp; ac-</l>
+<l>compagné de rideaux &amp; de couffins de mesme pa-</l>
+<l>rure.</l>
+<l>Toutes ces chaloupes nagèrent ensemble le long</l>
+<l>du canal jusqu’à l’entrée du port où elles s’ar-</l>
+<l>resterent: &amp; en mesme temps le signal fut donné</l>
+<l>pour le combat, par un pavillon rouge qui fut</l>
+<l>issé à la teste du port.</l>
+<l>La frégate l’Adroit leva aussi tost l’ancre &amp;</l>
+<l>appareilla pour venir reconnoistre la Serpentet</l>
+<l>qui appareilla aussi, &amp; après plusieurs manœu-</l>
+<l>vres qu’elles firent pour se disputer le vent, l’A-</l>
+<l>droit mit le collé en travers &amp; envoya sa bor-</l>
+<l>dée à la Serpente.</l>
+<l>Elle vint passer par son arriére &amp; luy donna</l>
+<l>tout de mesme sa bordée; &amp; à l’instant elles re-</l>
+<l>virèrent</l>
+
+<pb n="40 9"/>
+<l>l’une sur l’autre pour se donner l’autre</l>
+<l>bordée.</l>
+<l>Ces deux frégates continuérent ce combat pen-</l>
+<l>dant une heure, se prestant quelque fois le costé,</l>
+<l>&amp; venant à la portée du pistolet, puis s’éloignant &amp;</l>
+<l>regagnant le vent l’une sur l’autre d’une ma-</l>
+<l>niére fort agréable.</l>
+<l><persName key="louisxiv">Leurs Majestez</persName> &amp; <name key="la Cour">toute la Cour</name>furent très sa</l>
+<l>satisfaites de ce divertissement, qui eust este continue</l>
+<l>plus long-temps si une plüye ne fust survenue,</l>
+<l>qui les obligea à rentrer dans la ville: où</l>
+<l><persName key="louisxiv">le roi</persName> donna ses ordres pour partir le lende-</l>
+<l>main.</l>
+<l><date when="1680-07-30">Le 30</date>, la Cour sortit de <placeName>Dunkerque</placeName> &amp; arriva à</l>
+<l><placeName>Ypres</placeName> où Elle séjourna <date when="1680-07-31">le 31</date>.</l>
+<l><date when="1680-08-01">Le premier de ce mois</date>, <persName key="louisxiv">Leurs Majestez</persName> estant</l>
+<l>parties <placeName>d’Ypres</placeName> disnérent à <placeName>Gelewe</placeName>.<persName key="louisxiv">Le roi</persName> &amp;</l>
+<l><name key="la Cour">Monseigneur le Dauphin</name> à cheval, passèrent par</l>
+<l><placeName>Ménin</placeName> et visitèrent les dehors &amp;arrivèrent à <placeName>Lille</placeName></l>
+<l>avec toute la Cour, comme vous l’avez appris </l>
+<l>ailleurs.</l>
+<l><date when="1680-08-02">Le 2</date>,<name key="la Cour">la Maréchale de Humières</name> donna une</l>
+<l>magnifique collation à <name key="la Cour">La Reyne</name>, à <name key="la Cour">Madame la</name></l>
+<l><name key="la Cour">Dauphine</name>, à <name key="la Cour">Madame</name>, &amp; à <name key="la Cour">toutes les Dames</name></l>
+<l>la Cour <placeName>dans le jardin de la contrescarpe</placeName>. Il y eut</l>
+<l>deux concerts, &amp; ensùite un combat de batteliers</l>
+
+<pb n="4 10"/>
+<l>sur l’eau. Le soir, on tira dans la place devant</l>
+<l><persName key="louisxiv">Leurs Majestez</persName> un très beau feu d’artifice.La prin-</l>
+<l>cipale machine representoit une montagne que</l>
+<l>des geans avoient formée en entassant plusieurs</l>
+<l>roches les unes suur les autres, &amp; ils tâchoient</l>
+<l>d’en élevet encor d’autres.</l>
+<l>Cette montagne qui avoit environ huit toises de</l>
+<l>tour estoir enfermée à trois toises de distance par </l>
+<l>une barrière, aux quatre coins de-laquelle il avoir</l>
+<l>sur des pieds-d’estaux quatre figures de femmes,</l>
+<l>qui representoient la France, l’Empire, l’Espagne,</l>
+<l>&amp; la Suéde.</l>
+<l>Le feu commança par la figure de la France, &amp;</l>
+<l>sz communiqua aux trois autres le long de la bar-</l>
+<l>rière , avec un très grand bruit de boettes &amp;</l>
+<l>de petards, qui imitoient celuy des tambours lors</l>
+<l>qu’ils battent la chargea la Françoise.</l>
+<l>Les quatre figures n’en furent point endom-</l>
+<l>magées. Elles avoient sur leur tete des couron-</l>
+<l>nes de Chasteaux, qui pendant le spectacle furent</l>
+<l>tousjours enflammées, &amp; servirent à éclairer la</l>
+<l>place. Alors un géant placé sur le sommet de la mon-</l>
+<l>tagne, jetta une fusée contre un Soleil de feu qui</l>
+<l>paroissoit en l’air à plus de soixante pas, à un des</l>
+<l>bouts de la place au bas duquel on voyoit cette</l>
+
+<pb n="4 11"/>
+<l>inscription de feu <foreign>unus in omnes</foreign>.</l>
+<l>Le trait lancé par le géant ayant touche le So-</l>
+<l>leil retourna contre la montagne, &amp; en mes-</l>
+<l>me temps on vit au dessous du Soleil cette feconde </l>
+<l>inscription <foreign>redit in authorem</foreign>.</l>
+<l>La montagne s’alluma en un moment avec grand</l>
+<l>bruit toutes les roches qui la formoient s’écar-</l>
+<l>terent :&amp; neuf geans qui estoient dessus furent</l>
+<l>reversés sous les ruines,dont l’espace qui estoit</l>
+<l>entre les roches &amp; la barrière estoit couvert.</l>
+<l>En la place de cette montagne &amp; sur le mesme</l>
+<l>pied-d’estail qui la portoit, la paix parut entre le</l>
+<l>génie de la France,&amp; celuy de la ville de Lille.</l>
+<l>Le premier de ces génies mit d’un coup de flé-</l>
+<l>-che le feu à un trophée d’armes qui estoit </l>
+<l>auprès de Iuy, &amp; celuy de Lille aussi d’un coup de flè-</l>
+<l>che, enflàma des cœurs posez sur un autel à son</l>
+<l>costé.</l>
+<l>A trente pas de cette machine un peu plus près</l>
+<l>que le Soleil, parut une illumination d’une grande</l>
+<l>Couronne royale qui couvroit ces trois mots "Vive</l>
+<l>le Roy", portez sur des lacs d’amour.</l>
+<l>Toute cette machine estoit soutenus d’un</l>
+<l>pied-d’estail, d’où sortoit un grand nombre de</l>
+<l>girandoles, &amp; ce fut par là que le spectacle</l>
+<l>finit.</l>
+
+<pb n="4 12"/>
+<l><date when="1680-08-03">Le 3</date>, <persName key="louisxiv">le roi</persName> partit de <placeName>Lille</placeName> &amp; disna à <placeName>Pont-à-</placeName></l>
+<l><placeName>Tresin</placeName>. Il arriva ensuite à <placeName>Tournay</placeName> :où <persName key="louisxiv">sa Ma-</persName></l>
+<l><persName key="louisxiv">jesté</persName> fut reçeue par <name key="accueil">le sieur de Monbron Gouver-</name></l>
+<l><name key="accueil">neur de la Ville</name>,&amp; <name key="accueil">Lieutenant du Roy des con-</name></l>
+<l><name key="la Cour">questes de Flandre</name>, accompagné des <name key="accueil">Magistrats</name>.</l>
+<l>Les ruës estoyent bordées par l’infanterie de la gar-</l>
+<l>nison rangée en haye, depuis la porte jusques à</l>
+<l><placeName>l’Abbaye de S.Martin</placeName>, où <persName key="louisxiv">Leurs Majestez</persName>sont logées. </l>
+<l><date when="1680-08-03">Le mesme jour</date>, <persName key="louisxiv">le Roy</persName> visita <placeName>la citadelle &amp;</placeName></l>
+<l><placeName>les fortifications de la ville</placeName>, &amp; fit à pied le tour du</l>
+<l><placeName>rempart</placeName>.  <persName key="louisxiv">Sa Majesté</persName> fit aussi la revue de deux ba-</l>
+<l>taillons d’infanterie, qui sont ici en garnison.</l>
+<l><persName key="louisxiv">le roi</persName> alla ensuite voir faire sur l’Escaut l’é-</l>
+<l>preuve d’un pont de batteaux de cuivre, sur le-</l>
+<l>quel  <persName key="louisxiv">Sa Majesté</persName> vit passer un bataillon, &amp; en</l>
+<l>mesme temps sur les aisles deux pieces de canon </l>
+<l>de vingt-quatre.</l>
+<l>Ce pont a esté inventé par <name key="armée">sieur Dumetz Lieu-</name></l>
+<l><name key="armée">tenant général de l'artillerie</name>, &amp; <name key="armée">Maréchal de camp</name>. </l>
+<l>Le soir il y eut une tres belle illumination <placeName>dans la</placeName></l>
+<l><placeName>place</placeName>, &amp; <placeName>dans toutes les rües.</placeName></l>
+<p></p>
+<l> rend="center">A Paris, du beau d’Adresse, aux Galeries du Lou-</l>
+<l> rend="center">vre, devant la rüe S. Thomas, le 8 Aoust 1680.</l>
+<l> rend="center">Avec Privilège.</l>
+<p>
+<lb/>
+<lb/></p>
+</body>
+  </text>
+</TEI>
