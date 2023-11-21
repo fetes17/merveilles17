@@ -473,15 +473,19 @@
   <place xml:id="europe">
     <name>Europe</name>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Europe</identifier>
+    <place xml:id="allemagne">
+    <name>Allemagne</name>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Allemagne</identifier>
+    </place>
     <place xml:id="espagne">
       <name>Espagne</name>
       <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Espagne</identifier>
       <identifier type="geonames">https://www.geonames.org/2510769</identifier>
     </place>
-  </place>
-  <place xml:id="italie">
+      <place xml:id="italie">
     <name>Italie</name>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Italie</identifier>
+  </place>
   </place>
   <place xml:id="savoie">
     <name>Savoie</name>
@@ -491,8 +495,5 @@
     <name>Franche-Comté</name>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Franche-Comt%C3%A9</identifier>
   </place>
-  <place xml:id="allemagne">
-    <name>Allemagne</name>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Allemagne</identifier>
-  </place>
+  
 </listPlace>
