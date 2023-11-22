@@ -7,6 +7,68 @@
     <name>France</name>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/France</identifier>
     <identifier type="geonames">https://www.geonames.org/3017382</identifier>
+   <place xml:id="abbeville">
+      <name>Abbeville</name>
+      <geo>50.10528, 1.83528</geo>
+      <country>France</country>
+      <settlement>Abbeville</settlement>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Abbeville</identifier>
+      <identifier type="geonames">https://www.geonames.org/6455375</identifier>
+    </place>
+   <place xml:id="beauvais">
+      <name>Beauvais</name>
+      <geo>49.430278, 2.095278</geo>
+      <country>France</country>
+      <settlement>Beauvais</settlement>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Beauvais</identifier>
+      <identifier type="geonames">https://www.geonames.org/6450128</identifier>
+      <place xml:id="palais_episcopal_beauvais">
+          <name>Beauvais, Palais épiscopal</name>
+          <geo>49.432778, 2.080278</geo>
+          <settlement>Beauvais</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/MUDO_-_Mus%C3%A9e_de_l%27Oise</identifier>
+        </place>
+    </place>
+    <place xml:id="beaumont-sur-oise">
+      <name>Beaumont-sur-Oise</name>
+      <geo>49.1418, 2.2843</geo>
+      <country>France</country>
+      <settlement>Beaumont-sur-Oise</settlement>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Beaumont-sur-Oise</identifier>
+      <identifier type="geonames">https://www.geonames.org/6452057</identifier>
+    </place>
+    <place xml:id="camps-en-amnienois">
+      <name>Camps-en-Amiénois dit Calaminoy</name>
+      <geo>49.87999, 1.9696</geo>
+      <country>France</country>
+      <settlement>Camps-en-Amiénois</settlement>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Camps-en-Ami%C3%A9nois</identifier>
+      <identifier type="geonames">https://www.geonames.org/3028904</identifier>
+    </place>
+    <place xml:id="oudeuil">
+      <name>Oudeuil</name>
+      <geo>49.54806, 2.0275</geo>
+      <country>France</country>
+      <settlement>Oudeuil</settlement>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Oudeuil</identifier>
+      <identifier type="geonames">https://www.geonames.org/6454451</identifier>
+    </place>
+    <place xml:id="poix-de-picardie">
+      <name>Poix-de-Picardie</name>
+      <geo>49.54806, 2.0275</geo>
+      <country>France</country>
+      <settlement>Poix-de-Picardie</settlement>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Poix-de-Picardie</identifier>
+      <identifier type="geonames">https://www.geonames.org/6617763</identifier>
+    </place>
+    <place xml:id="silly-tillard">
+      <name>Silly-Tillard</name>
+      <geo>49.325278, 2.159722</geo>
+      <country>France</country>
+      <settlement>Silly-Tillard</settlement>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Silly-Tillard</identifier>
+      <identifier type="geonames">https://www.geonames.org/6438981</identifier>
+    </place>
     <place xml:id="vincennes_chateau">
       <name>Vincennes, Château de Vincennes</name>
       <geo>48.842646, 2.435955</geo>
@@ -55,7 +117,7 @@
       <country>France</country>
       <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Fontainebleau</identifier>
       <identifier type="mg">289</identifier>
-      <identifier type="geonames"> http://sws.geonames.org/6443660</identifier>
+      <identifier type="geonames">http://sws.geonames.org/6443660</identifier>
       <place xml:id="fontainebleau_chateau">
         <name>Fontainebleau, Château de Fontainebleau</name>
         <geo>48.402445, 2.701357</geo>
@@ -446,15 +508,19 @@
   <place xml:id="europe">
     <name>Europe</name>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Europe</identifier>
+    <place xml:id="allemagne">
+    <name>Allemagne</name>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Allemagne</identifier>
+    </place>
     <place xml:id="espagne">
       <name>Espagne</name>
       <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Espagne</identifier>
       <identifier type="geonames">https://www.geonames.org/2510769</identifier>
     </place>
-  </place>
-  <place xml:id="italie">
+      <place xml:id="italie">
     <name>Italie</name>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Italie</identifier>
+  </place>
   </place>
   <place xml:id="savoie">
     <name>Savoie</name>
@@ -464,8 +530,5 @@
     <name>Franche-Comté</name>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Franche-Comt%C3%A9</identifier>
   </place>
-  <place xml:id="allemagne">
-    <name>Allemagne</name>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Allemagne</identifier>
-  </place>
+  
 </listPlace>
