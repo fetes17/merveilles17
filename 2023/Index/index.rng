@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar xmlns="http://relaxng.org/ns/structure/1.0" ns="http://www.tei-c.org/ns/1.0" xml:lang="fr" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <start>
+    <choice>
+      <ref name="listEvent"/>
+      <ref name="listPlace"/>
+      <ref name="listPerson"/>
+      <ref name="superEntry"/>
+    </choice>
+  </start>
+  <!--
+    Lieux
+  -->
+  <define name="listPlace">
+    <element name="listPlace">
+      <ref name="xml.lang"/>
+      <oneOrMore>
+        <ref name="place"/>
+      </oneOrMore>
+    </element>
+  </define>
+  <!-- code	term	coord	locality	alt	country	wikipedia	maps (html)	geonames	fictif (oui/non) -->
+  <define name="place">
+    <element name="place">
+      <ref name="xml.id"/>
+      <optional>
+        <attribute name="type">
+          <value>fictif</value>
+        </attribute>
+      </optional>
+      <oneOrMore>
+        <element name="name">
+          <text/>
+        </element>
+      </oneOrMore>
+      <optional>
+        <element name="geo">
+          <text/>
+        </element>
+      </optional>
+      <optional>
+        <element name="country">
+          <text/>
+        </element>
+      </optional>
+      <optional>
+        <element name="settlement">
+          <text/>
+        </element>
+      </optional>
+      <zeroOrMore>
+        <element name="identifier">
+          <attribute name="type">
+            <choice>
+              <value>geonames</value>
+              <value>googlemaps</value>
+              <value>mg</value>
+              <value>wikipedia</value>
+            </choice>
+          </attribute>
+          <text/>
+        </element>
+      </zeroOrMore>
+      <zeroOrMore>
+        <ref name="place"/>
+      </zeroOrMore>
+    </element>
+  </define>
+  <!-- 
+    Personnes
+  -->
+  <define name="listPerson">
+    <element name="listPerson">
+      <ref name="xml.lang"/>
+      <oneOrMore>
+        <ref name="person"/>
+      </oneOrMore>
+    </element>
+  </define>
+  <!-- code	nom	genre	naissance	mort	databnf	wikipedia	ISNI -->
+  <define name="person">
+    <element name="person">
+      <ref name="xml.id"/>
+      <attribute name="sex">
+        <choice>
+          <a:documentation>M, “male”, masculin</a:documentation>
+          <value>M</value>
+          <a:documentation>F, “female”, féminin</a:documentation>
+          <value>F</value>
+          <a:documentation>U, “unknown”, inconnu</a:documentation>
+          <value>U</value>
+          <a:documentation>N, “neutral”, neutre</a:documentation>
+          <value>N</value>
+          <a:documentation>O, “other”, autre</a:documentation>
+          <value>O</value>
+        </choice>
+      </attribute>
+      <element name="name">
+        <text/>
+      </element>
+      <optional>
+        <element name="birth">
+          <ref name="atts.date"/>
+        </element>
+      </optional>
+      <optional>
+        <element name="death">
+          <ref name="atts.date"/>
+        </element>
+      </optional>
+      <zeroOrMore>
+        <element name="identifier">
+          <attribute name="type">
+            <choice>
+              <value>databnf</value>
+              <value>mg</value>
+              <value>isni</value>
+              <value>wikipedia</value>
+            </choice>
+          </attribute>
+          <text/>
+        </element>
+      </zeroOrMore>
+    </element>
+  </define>
+  <!-- chronologie -->
+  <define name="listEvent">
+    <element name="listEvent">
+      <ref name="xml.lang"/>
+      <oneOrMore>
+        <ref name="event"/>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="event">
+    <element name="event">
+      <attribute name="where"/>
+      <ref name="xml.id"/>
+      <ref name="atts.date"/>
+      <ref name="label"/>
+      <zeroOrMore>
+        <ref name="ref"/>
+      </zeroOrMore>
+      <zeroOrMore>
+        <ref name="event"/>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="label">
+    <element name="label">
+      <text/>
+    </element>
+  </define>
+  <define name="ref">
+    <element name="ref">
+      <attribute name="target"/>
+    </element>
+  </define>
+  <define name="xml.lang">
+    <attribute name="xml:lang">
+      <a:documentation>Code normalisé de langue</a:documentation>
+      <choice>
+        <value>fr</value>
+      </choice>
+    </attribute>
+  </define>
+  <!-- liste de termes -->
+  <define name="superEntry">
+    <element name="superEntry">
+      <ref name="xml.lang"/>
+      <optional>
+        <ref name="form"/>
+      </optional>
+      <oneOrMore>
+        <ref name="entry"/>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="entry">
+    <element name="entry">
+      <ref name="xml.id"/>
+      <ref name="form"/>
+      <optional>
+        <element name="def">
+          <text/>
+        </element>
+      </optional>
+      <zeroOrMore>
+        <ref name="entry"/>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="form">
+    <element name="form">
+      <text/>
+    </element>
+  </define>
+  <define name="atts.date">
+    <choice>
+      <attribute name="when">
+        <ref name="date.type"/>
+      </attribute>
+      <group>
+        <attribute name="from">
+          <ref name="date.type"/>
+        </attribute>
+        <attribute name="to">
+          <ref name="date.type"/>
+        </attribute>
+      </group>
+    </choice>
+  </define>
+  <define name="xml.id">
+    <attribute name="xml:id">
+      <a:documentation>Identifiant, au moins unique pour le document</a:documentation>
+      <data type="ID"/>
+    </attribute>
+  </define>
+  <define name="date.type">
+    <data type="string">
+      <param name="pattern">([0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?)?</param>
+    </data>
+  </define>
+</grammar>
