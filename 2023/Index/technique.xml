@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="index.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!-- <superEntry> est ici un élément racine de convenance, ce n’est pas standard.
+  XML n’accepte qu’un et un seul élement racine pour un document.
+Il n’est pas nécessaire de recopier ces attributs  xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr".
+Ce qui est inscrit ici s’applique à tous les descendants.-->
+<superEntry xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <!-- <entry> au sens TEI https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-entry.html
+  est une “entrée“ dans un dictionnaire, une “entrée“ peut contenir des entrées. -->
+  <entry xml:id="animal">
+    <form>Animaux et créatures</form>
+  </entry>
+  <entry xml:id="construction_decor">
+    <form>Constructions et décors</form>
+    <entry xml:id="construction">
+      <form>Constructions</form>
+    </entry>
+    <entry xml:id="decor">
+      <form>Décors</form>
+    </entry>
+  </entry>
+  <entry xml:id="costume">
+    <form>Costumes</form>
+  </entry>
+    <entry xml:id="eaux">
+      <form>Jeux d’eaux</form>
+    </entry>
+  <entry xml:id="feux">
+    <form>Feux et lumières</form>
+    <entry xml:id="feux-artifice">
+      <form>Feux d’artifice</form>
+    </entry>
+    <entry xml:id="lumieres">
+      <form>Lumières</form>
+    </entry>
+  </entry>
+  <entry xml:id="machine">
+    <form>Machines</form>
+    <entry xml:id="machine_vol">
+      <form>Machines volantes</form>
+    </entry>
+    <entry xml:id="machine_terre">
+      <form>Machines terrestres</form>
+    </entry>
+    <entry xml:id="machine_eau">
+      <form>Machines aquatiques</form>
+    </entry>
+    <entry xml:id="machine_musique">
+      <form>Machines musicales</form>
+    </entry>
+    <entry xml:id="machine_temps">
+      <form>Machines du temps</form>
+    </entry>
+    <entry xml:id="trappe">
+      <form>Trappes</form>
+    </entry>
+  </entry>
+
+    <entry xml:id="bruitage">
+      <form>Bruitages</form>
+    </entry>
+    
+  <entry xml:id="ecriture">
+    <form>Techniques d'écriture</form>
+    <entry xml:id="devise">
+      <form>Devises</form>
+    </entry>
+    <entry xml:id="noms">
+      <form>Listes de noms</form>
+    </entry>
+    <entry xml:id="vers">
+      <form>Passages en vers</form>
+      <entry xml:id="madrigal">
+        <form>Madrigaux</form>
+      </entry>
+      <entry xml:id="sonnet">
+        <form>Sonnets</form>
+      </entry>
+      <entry xml:id="quatrain">
+        <form>Quatrains</form>
+      </entry>
+    </entry>
+  </entry>
+</superEntry>
