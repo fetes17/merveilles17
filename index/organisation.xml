@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="index.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-stylesheet type="text/xsl" href="../build/xsl/lieu.xsl"?>
+<listOrg xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
+  <org xml:id="corps_de_ville">
+    <name>Corps de ville</name>
+    <identifier type="autre">https://renumar.univ-tours.fr/ville-en-toutes-lettres/1-corps-de-ville.html</identifier>
+  </org>
+  <org xml:id="gardes_du_corps">
+    <name>Gardes du corps</name>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Garde_du_corps_du_roi</identifier>
+  </org>
+  <org xml:id="mousquetaires">
+    <name>Mousquetaires</name>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Mousquetaire</identifier>
+  </org>
+  <org xml:id="regiment_des_gardes">
+    <name>Régiment des gardes</name>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/R%C3%A9giment_des_Gardes_fran%C3%A7aises</identifier>
+  </org>
+</listOrg>
