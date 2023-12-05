@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
+<?xml-stylesheet type="text/css" href="../tei-author.css" alternate="author"?>
+<?xml-model href="../merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Journal du voyage du Roy</title>
+        <author key="renaudot">Renaudot, Théophraste (1586-1653). </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Merveilles17</edition>
+        <respStmt>
+          <name>Cécile Andrisi</name>
+          <resp>Transcription et balisage</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université d’Artois - Lille, MESHS</publisher>
+        <date when="2023"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Renaudot Théophraste, <title>Recueil des gazettes nouvelles, ordinaires et
+            extraordinaires. Relations et récits des choses avenues tant en ce royaume qu’ailleurs,
+            pendant l’année mil six cent soixante-quatre.</title>
+          <note>Paris, Bureau d’adresse, 1680, n°64, p. 389-400.</note><ptr
+            target="https://gallica.bnf.fr/ark:/12148/bpt6k6458075r/f389.item"/></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1680-08-07">1680/08/07</date>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="401" xml:id="p401" facs="https://gallica.bnf.fr/ark:/12148/bpt6k6458075r/f401.item"/>
+      <p>RELATION DE CE QUI S'EST PASSÉ sur le vaisseau l'Entreprenant : &amp; le combat de deux
+        frégates en présence de Leurs Majestez à la rade de Dunkerque :</p>
+      <p>Avec la suite du Iournal du voyage du Roy.</p>
+      <p>LE vaisseau l'Entreprenant est d'une belle structure, extremement taillé en ses fonds, ce
+        qui le rend tres-bon voilier. Tous les ouvrages de sculpture de son arriére &amp; de son
+        avant sont bronzez &amp; relevez en or, &amp; sur un fond verd, ce qui leur donne un grand
+        éclat.</p>
+      <p>Il est orné de figures, de feüillages &amp; de fes<pb n="402" xml:id="p402"
+          facs="https://gallica.bnf.fr/ark:/12148/bpt6k6458075r/f402.item"/>tons. Au dessus sont les
+        Armes du Roy dorées ainsi que le reste des ornemens de la poupe, &amp; les trois fanaux
+        qu'elle soutient. </p>
+      <p>Au dessous il y a une gallerie saillante fermée d'une balustrade dans laquelle on entre par
+        la chambre du Roy, toute peinte &amp; dorée, &amp; garnie d'un ameublement de Damas incarnat
+        à fleurs, avec une frange &amp; un molet d'or &amp; d'argent.</p>
+      <p>De cette chambre, on passe dans une autre tapissée de Damas à fleurs jaune paillé, sur un
+        fond blanc, avec des bandes de Damas incarnat à fleurs, &amp; le reste de l'ameublement fort
+        magnifique.</p>
+      <p>Au dessous de cette chambre est celle des Canoniers nommée la Sainte Barbe : où sont tous
+        les utanciles du canon, peints &amp; fleurdelisez.</p>
+      <p>On en avoit osté la cloison, afin que le Roy pût se promener de l'avant à l'arrière en<pb
+          n="403" xml:id="p403" facs="https://gallica.bnf.fr/ark:/12148/bpt6k6458075r/f403.item"
+        />tre deux ponts sans empeschement</p>
+      <p>Le vaisseau est monté de 24 piéces de canon de 18 livres de bale, de 24 piéces de 12 livres
+        &amp; de 10 piéces de huit livres, tout canon de fonte : &amp; on y en peut mettre jusqu'à
+        64. Les canons de la baterie de bas avoyent esté portez à terre pour décharger le vaisseau,
+        &amp; en leur place on avoit mis ceux de la baterie de haut. Chaque canon avoit aupres de
+        luy d'un costé son refouloir, tirebourre &amp; écouvillon, de l'autre le porte gargousse,
+        &amp; derriére la culasse le boute feu, le tout en bon ordre.</p>
+      <p>L'équipage est composé du Capitaine, d'un Capitaine en second, de quatre Lieutenans, de
+        quatre Enseignes, de 16 Gardes de marine, de 68 officiers mariniers, de 182 matelots &amp;
+        de 100 soldats.</p>
+      <p>Les Capitaines, les Lieutenans &amp; les Enseignes avoyent des juste-au-corps bleus, les
+        uns en broderie d'or &amp; d'argent, &amp; les autres couverts de galon d'or.</p>
+      <p>Les Gardes de marine, les officiers mariniers, les matelots &amp; les soldats avoyent esté
+        habillez aux dépens du Roy. Ils estoyent vestus, les premiers de juste-au-corps d'écarlate,
+        chamarez d'un large galon d'or, avec des vestes<pb n="404" xml:id="p404"
+          facs="https://gallica.bnf.fr/ark:/12148/bpt6k6458075r/f404.item"/> de velous verd &amp;
+        des culottes de ratine rouge, des bas de la mesme couleur, des grands frangez d'or, des
+        chapeaux garnis de plumes blanches, des ceintures de tafetas blanc, des baudriers de bufle à
+        double galon d'or, &amp; des épées en sabre courbé à poignée &amp; garde dorée.</p>
+      <byline>A Paris, du Bureau d’Adresse, aux Galleries du Louvre, devant la ruë S. Thomas, le
+          <date when="1680-08-08">8 Aoust 1680</date>.<lb/>Avec Privilége. </byline>
+    </body>
+  </text>
+</TEI>
