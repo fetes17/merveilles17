@@ -52,6 +52,7 @@
 * [merveilles17_imp_gazette16640510.xml](https://fetes17.github.io/merveilles17/xml/merveilles17_imp_gazette16640510.xml)
 * [merveilles17_imp_gazette16640528.xml](https://fetes17.github.io/merveilles17/xml/merveilles17_imp_gazette16640528.xml)
 * [merveilles17_imp_gazette16800807.xml](https://fetes17.github.io/merveilles17/xml/merveilles17_imp_gazette16800807.xml)
+* [merveilles17_imp_gazette16800808.xml](https://fetes17.github.io/merveilles17/xml/merveilles17_imp_gazette16800808.xml)
 * [merveilles17_imp_gdv-felibien1668.xml](https://fetes17.github.io/merveilles17/xml/merveilles17_imp_gdv-felibien1668.xml)
 * [merveilles17_imp_loret16640202.xml](https://fetes17.github.io/merveilles17/xml/merveilles17_imp_loret16640202.xml)
 * [merveilles17_imp_loret16640216.xml](https://fetes17.github.io/merveilles17/xml/merveilles17_imp_loret16640216.xml)
