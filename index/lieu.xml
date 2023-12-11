@@ -118,6 +118,30 @@
       <settlement>Dunkerque</settlement>
       <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Dunkerque</identifier>
       <identifier type="geonames">https://www.geonames.org/3020685</identifier>
+      <place xml:id="dunkerque_port">
+        <name>Port de Dunkerque</name>
+        <geo>51.04208, 2.37309</geo>
+        <country>France</country>
+        <settlement>Dunkerque</settlement>
+        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Grand_port_maritime_de_Dunkerque</identifier>
+        <identifier type="geonames">https://www.geonames.org/12524423/grand-port-maritime-de-dunkerque.html</identifier>
+      </place>
+      <place xml:id="risban">
+        <name>Phare du Risban ou phare de Dunkerque</name>
+        <geo>50.96356, 1.84798</geo>
+        <country>France</country>
+        <settlement>Dunkerque</settlement>
+        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Phare_de_Dunkerque</identifier>
+        <identifier type="geonames">https://www.geonames.org/2983444/fort-risban.html</identifier>
+      </place>
+    </place>
+    <place xml:id="gravelines">
+      <name>Gravelines</name>
+      <geo>50.98639, 2.1275</geo>
+      <country>France</country>
+      <settlement>Gravelines</settlement>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Gravelines</identifier>
+      <identifier type="geonames">https://www.geonames.org/6438268/gravelines.html</identifier>
     </place>
     <place xml:id="montreuil">
       <name>Montreuil</name>
@@ -667,6 +691,14 @@
       <place xml:id="italie">
     <name>Italie</name>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Italie</identifier>
+        <place xml:id="bologne">
+          <name>Bologne</name>
+          <geo>44.46667, 11.43333</geo>
+          <country>Italie</country>
+          <settlement>Bologne</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Bologne</identifier>
+          <identifier type="geonames">https://www.geonames.org/3181927/bologna.html</identifier>
+        </place>
   </place>
   </place>  
 </listPlace>

@@ -9,6 +9,9 @@
     <name>Blancas, page</name>
   </person>
   <!-- à corriger en Brancas ? À vérifier -->
+  <person xml:id="albert" sex="M">
+    <name>sieur Albert, capitaine de frégate</name>
+  </person>
   <person xml:id="combe" sex="M">
     <name>Combe, sieur de</name>
   </person>
@@ -23,6 +26,9 @@
   </person>
   <person xml:id="de_nier" sex="M">
     <name>De Nier, officier du Gobelet</name>
+  </person>
+  <person xml:id="de_sourdis" sex="M">
+    <name>De Sourdis, chevalier</name>
   </person>
   <!-- Attribut à corriger: il s'agit de François Hannibal I + attention, confusion avec le comte -->
   <person xml:id="giraut" sex="M">
@@ -175,6 +181,9 @@
   </person>
   <person xml:id="palluau" sex="M">
     <name>Palluau, grand valet de pied</name>
+  </person>
+  <person xml:id="pannetier" sex="M">
+    <name>sieur Pannetier</name>
   </person>
   <person xml:id="patriere" sex="M">
     <name>Patrière, page de la Petite écurie</name>
@@ -379,6 +388,28 @@
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Antoine_d%27Aumont_de_Rochebaron</identifier>
     <identifier type="databnf">https://data.bnf.fr/fr/14871496/antoine_aumont/</identifier>
     <identifier type="isni">0000 0000 7977 3129</identifier>
+  </person>
+  <person xml:id="godefroi_d_estrades" sex="M">
+    <name>Godefroi d'Estrades</name>
+    <birth when="1607"/>
+    <death when="1686"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Godefroi_d%27Estrades</identifier>
+    <identifier type="databnf">https://data.bnf.fr/fr/12529371/godefroy_d__estrades/</identifier>
+    <identifier type="isni">0000 0000 7357 9544</identifier>
+  </person>
+  <person xml:id="lhery_chevalier" sex="M">
+    <name>Chevalier de Lhéry</name>
+    <birth notBefore="1648" notAfter="1651"/>
+    <death when="1684"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Henri_Cauchon_de_Lh%C3%A9ry</identifier>
+  </person>
+  <person xml:id="tromp_maarten" sex="M">
+    <name>Maarten Tromp</name>
+    <birth when="1598"/>
+    <death when="1653"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Maarten_Tromp</identifier>
+    <identifier type="databnf">https://data.bnf.fr/fr/14444535/maarten_harpertsz__tromp/</identifier>
+    <identifier type="isni">0000 0000 6120 8199</identifier>
   </person>
   <person xml:id="louis_marie_aumont_rochebaron" sex="M">
     <name>Aumont de Rochebaron, Louis-Marie-Victor d’, marquis de Chappes, puis de Villequier, puis duc d'Aumont</name>
