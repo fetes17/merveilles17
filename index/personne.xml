@@ -10,7 +10,7 @@
   </person>
   <!-- à corriger en Brancas ? À vérifier -->
   <person xml:id="albert" sex="M">
-    <name>sieur Albert, capitaine de frégate</name>
+    <name>Albert, sieur, capitaine de frégate</name>
   </person>
   <person xml:id="combe" sex="M">
     <name>Combe, sieur de</name>
@@ -183,7 +183,7 @@
     <name>Palluau, grand valet de pied</name>
   </person>
   <person xml:id="pannetier" sex="M">
-    <name>sieur Pannetier</name>
+    <name>Pannetier, sieur</name>
   </person>
   <person xml:id="patriere" sex="M">
     <name>Patrière, page de la Petite écurie</name>
@@ -1196,6 +1196,9 @@
     <identifier type="databnf">https://data.bnf.fr/fr/12039228/jacques_du_perron/</identifier>
     <identifier type="isni">0000 0001 2123 6301</identifier>
   </person>
+  <person xml:id="de_casaux" sex="M">
+    <name>De Casaux, sieur, gouverneur de Bergue</name>
+  </person>
   <person xml:id="de_gan" sex="M">
     <name>De Gan, danseur</name>
   </person>
@@ -1360,8 +1363,7 @@
     <identifier type="isni">0000 0000 8339 6995</identifier>
     <identifier type="databnf"
       >https://data.bnf.fr/fr/13486177/francois_annibal_estrees/</identifier>
-    <identifier type="wikipedia"
-      >https://fr.wikipedia.org/wiki/François-Annibal_d%27Estrées</identifier>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/François-Annibal_d%27Estrées</identifier>
   </person>
   <person xml:id="gabrielle_d_estrees" sex="F">
     <name>Estrées, Gabrielle d', née de Longueval</name>
@@ -1386,6 +1388,10 @@
       Villequier</name>
     <birth when="1646"/>
     <death when="1668"/>
+  </person>
+  <person xml:id="faramond" sex="M">
+    <name>Faramond ou Pharamond, premier roi des Francs</name>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Pharamond</identifier>
   </person>
   <person xml:id="faure" sex="M">
     <name>Faure, garde suisse</name>
@@ -1775,6 +1781,9 @@
     <name>Humières, Louis de Crevant, marquis d'</name>
     <birth when="1628"/>
     <death when="1694"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Louis_de_Crevant</identifier>
+    <identifier type="databnf">https://data.bnf.fr/fr/14953545/louis_iv_de_crevant_humieres/</identifier>
+    <identifier type="isni">0000 0000 2517 0357</identifier>
   </person>
   <person xml:id="chatre_humieres" sex="F">
     <name>Humières, Louise-Antoinette de la Châtre de Nançay, marquise d'</name>

@@ -87,6 +87,22 @@
       <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Bernay-en-Ponthieu</identifier>
       <identifier type="geonames">https://www.geonames.org/6451326/bernay-en-ponthieu.html</identifier>
     </place>
+    <place xml:id="bergues">
+      <name>Bergues, anciennement Bergues-Saint-Winoc</name>
+      <geo>50.96861, 2.43417</geo>
+      <country>France</country>
+      <settlement>Bergues</settlement>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Bergues</identifier>
+      <identifier type="geonames">https://www.geonames.org/6450061/bergues.html</identifier>
+      <place xml:id="fort_françois">
+        <name>Fort François</name>
+        <geo>50.96861, 2.43417</geo>
+        <country>France</country>
+        <settlement>Bergues</settlement>
+        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Fort_Fran%C3%A7ois</identifier>
+        <identifier type="geonames">https://www.geonames.org/6450061/bergues.html</identifier>
+      </place>
+    </place>
     <place xml:id="boulogne-sur-mer">
       <name>Boulogne-sur-Mer</name>
       <geo>50.72407, 1.72682</geo>
@@ -143,6 +159,14 @@
       <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Gravelines</identifier>
       <identifier type="geonames">https://www.geonames.org/6438268/gravelines.html</identifier>
     </place>
+    <place xml:id="fort_louis">
+      <name>Fort Louis</name>
+      <geo>51.02472, 2.39083</geo>
+      <country>France</country>
+      <settlement> Coudekerque-Branche</settlement>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Coudekerque-Branche</identifier>
+      <identifier type="geonames">https://www.geonames.org/6438174/coudekerque-branche.html</identifier>
+    </place>
     <place xml:id="montreuil">
       <name>Montreuil</name>
       <geo>50.4639, 1.7639</geo>
@@ -160,7 +184,7 @@
       <identifier type="geonames">https://www.geonames.org/6439748/neufchatel-hardelot.html</identifier>
     </place>
     <place xml:id="nieulay_fort">
-      <name>Fort Nieulay</name>
+      <name>Nieulay, Fort</name>
       <geo>50.94569, 1.81655</geo>
       <country>France</country>
       <settlement>Fort Nieulay</settlement>
@@ -674,6 +698,21 @@
     <place xml:id="allemagne">
     <name>Allemagne</name>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Allemagne</identifier>
+    </place>
+    <place xml:id="belgique">
+      <name>Flandre-Occidentale, Belgique</name>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Belgique</identifier>
+      <place xml:id="respoude">
+        <name>Respoude</name>
+      </place>
+      <place xml:id="menin">
+        <name>Porte de Menin</name>
+        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Porte_de_Menin</identifier>
+      </place>
+      <place xml:id="ypres">
+        <name>Ypres</name>
+        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Ypres</identifier>
+      </place>
     </place>
     <place xml:id="grande_bretagne">
     <name>Grande-Bretagne</name>
