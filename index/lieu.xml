@@ -159,11 +159,19 @@
       <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Gravelines</identifier>
       <identifier type="geonames">https://www.geonames.org/6438268/gravelines.html</identifier>
     </place>
+    <place xml:id="lille">
+      <name>Lille</name>
+      <geo>50.63297, 3.05858</geo>
+      <country>France</country>
+      <settlement>Lille</settlement>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Lille</identifier>
+      <identifier type="geonames">https://www.geonames.org/2998324/lille.html</identifier>
+    </place>
     <place xml:id="fort_louis">
-      <name>Fort Louis</name>
+      <name>Louis, Fort</name>
       <geo>51.02472, 2.39083</geo>
       <country>France</country>
-      <settlement> Coudekerque-Branche</settlement>
+      <settlement>Coudekerque-Branche</settlement>
       <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Coudekerque-Branche</identifier>
       <identifier type="geonames">https://www.geonames.org/6438174/coudekerque-branche.html</identifier>
     </place>
@@ -222,6 +230,14 @@
       <settlement>Silly-Tillard</settlement>
       <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Silly-Tillard</identifier>
       <identifier type="geonames">https://www.geonames.org/6438981</identifier>
+    </place>
+    <place xml:id="tressin">
+      <name>Tressin</name>
+      <geo>50.6175, 3.19354</geo>
+      <country>France</country>
+      <settlement>Tressin</settlement>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Tressin</identifier>
+      <identifier type="geonames">https://www.geonames.org/2971771/tressin.html</identifier>
     </place>
     <place xml:id="wimille">
       <name>Wimille</name>
@@ -709,6 +725,14 @@
         <name>Porte de Menin</name>
         <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Porte_de_Menin</identifier>
       </place>
+      <place xml:id="tournay">
+        <name>Tournay</name>
+        <geo>50.60715, 3.38932</geo>
+        <country>France</country>
+        <settlement>Belgique</settlement>
+        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Tournay</identifier>
+        <identifier type="geonames">https://www.geonames.org/2785341/tournai.html</identifier>
+      </place>
       <place xml:id="ypres">
         <name>Ypres</name>
         <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Ypres</identifier>
@@ -741,11 +765,11 @@
   </place>
     <place xml:id="suede">
       <name>Suède</name>
-      <geo>62.199805999999995,17.63749324195902</geo>
+      <geo>62.199805999999995, 17.63749324195902</geo>
       <country>Suède</country>
       <settlement>Europe</settlement>
       <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Su%C3%A8de</identifier>
-      <identifier type="geonames">hhttps://www.geonames.org/2661886/kingdom-of-sweden.html</identifier>
+      <identifier type="geonames">https://www.geonames.org/2661886/kingdom-of-sweden.html</identifier>
     </place>
   </place>  
 </listPlace>
