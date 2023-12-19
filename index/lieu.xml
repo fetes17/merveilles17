@@ -90,12 +90,17 @@
       <place xml:id="respoude">
         <name>Respoude</name>
       </place>
-      <place xml:id="tournay">
-        <name>Tournay</name>
+      <place xml:id="tournai">
+        <name>Tournai</name>
         <geo>50.60715, 3.38932</geo>
         <settlement>Flandre</settlement>
-        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Tournay</identifier>
+        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Tournai</identifier>
         <identifier type="geonames">https://www.geonames.org/2785341/tournai.html</identifier>
+        <place xml:id="tournai_abbye">
+          <name>Abbaye Saint-Martin de Tournai</name>
+          <settlement>Tournai</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Abbaye_Saint-Martin_de_Tournai</identifier>
+        </place>
       </place>
       <place xml:id="tressin">
         <name>Tressin</name>

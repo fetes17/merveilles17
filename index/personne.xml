@@ -182,9 +182,6 @@
   <person xml:id="palluau" sex="M">
     <name>Palluau, grand valet de pied</name>
   </person>
-  <person xml:id="pannetier" sex="M">
-    <name>Pannetier, sieur</name>
-  </person>
   <person xml:id="patriere" sex="M">
     <name>Patrière, page de la Petite écurie</name>
   </person>
@@ -493,7 +490,7 @@
     <identifier type="mg">conde_anne-henriette-julie_(1648-1723)_princesse_de</identifier>
   </person>
   <person xml:id="elisabeth-charlotte_baviere" sex="F">
-    <name>Bavière, Élisabeth-Charlotte</name>
+    <name>Bavière, Élisabeth-Charlotte, dite Madame</name>
     <birth when="1652"/>
     <death when="1722"/>
     <identifier type="databnf">https://data.bnf.fr/fr/11918198/charlotte_elisabeth_de_baviere_orleans/</identifier>
@@ -1302,6 +1299,9 @@
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Guillaume_Dumanoir</identifier>
     <identifier type="isni">0000 0000 8378 0073</identifier>
     <identifier type="databnf">https://data.bnf.fr/ark:/12148/cb140133532</identifier>
+  </person>
+  <person xml:id="dumetz" sex="M">
+    <name>Dumetz, lieutenant général de l'artillerie</name>
   </person>
   <person xml:id="du_moustier" sex="M">
     <name>Dumoustier, officier de la bouche</name>
@@ -2440,6 +2440,9 @@
   <person xml:id="madame_de_mekelbourg" sex="F">
     <name>Mekelbourg, Madame de</name>
   </person>
+  <person xml:id="monbron" sex="M">
+    <name>Monbron, sieur de, gouverneur de Tournai</name>
+  </person>
   <person xml:id="philippe_ii_montault_benac_navailles" sex="M">
     <name>Navailles, Philippe de Montaut-Bénac de, duc de Navailles, pair de France, chevalier des Ordres du Roi, duc puis vicomte de Lavedan</name>
     <birth when="1619"/>
@@ -2535,6 +2538,12 @@
   </person>
   <person xml:id="paisible" sex="M">
     <name>Paisible, flutiste</name>
+  </person>
+  <person xml:id="pannetier" sex="M">
+    <name>François Pannetier ou Panetié, sieur</name>
+    <birth when="1626"/>
+    <death when="1696"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Paneti%C3%A9</identifier>
   </person>
   <person xml:id="parfait_frere" sex="M">
     <name>Parfait, François</name>
@@ -2648,10 +2657,8 @@
     <name>Sévigné, Marie de Rabutin-Chantal, marquise de</name>
     <birth when="1626"/>
     <death when="1696"/>
-    <identifier type="databnf"
-      >https://data.bnf.fr/fr/11924578/marie_de_rabutin-chantal_sevigne/</identifier>
-    <identifier type="wikipedia"
-      >https://fr.wikipedia.org/wiki/Madame_de_S%C3%A9vign%C3%A9</identifier>
+    <identifier type="databnf">https://data.bnf.fr/fr/11924578/marie_de_rabutin-chantal_sevigne/</identifier>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Madame_de_S%C3%A9vign%C3%A9</identifier>
     <identifier type="isni">0000 0001 2278 0157</identifier>
   </person>
   <person xml:id="racine" sex="M">
@@ -2809,7 +2816,10 @@
   <person xml:id="saint_paul" sex="M">
     <name>Saint-Paul, ouvrier</name>
   </person>
-    <person xml:id="paul_frique" sex="M">
+  <person xml:id="selingue" sex="M">
+    <name>Sélingue, sieur, capitaine de frégate légère</name>
+  </person>
+  <person xml:id="paul_frique" sex="M">
       <name>Sainte Frique, Paul-Michel-Henri de Baud, seigneur de</name>
     </person>
   <person xml:id="charles_sainte-maure_montausier" sex="M">
