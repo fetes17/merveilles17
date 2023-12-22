@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://oeuvres.github.io/teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ballet des Arts, dansé par Sa Majesté le 8 Janvier 1663</title>
+        <author key="benserade">Isaac de Benserade (1613-1691)</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Merveilles17</edition>
+        <respStmt>
+          <name>Clément Cadiot</name>
+          <resp>Transcription, encode et stylage</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université d'Artois - Lille, MESHS</publisher>
+        <date when="2023"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Benserade, Ballet des arts dansé par Sa Majesté le 8 Janvier 1663, Paris, Ballard, 1663. </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <creation>
+        <date when="1663-01-08"/>
+      </creation>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+<pb n="1" xml:id="p1"/>
+        <docTitle>
+          <titlePart>BALLET
+            DES ARTS,
+            Dansé par <persName>Sa Majesté</persName> le <date>8.</date>
+            <date>Ianvier 1663.</date></titlePart>
+        </docTitle>
+        <docImprint>A <placeName>PARIS</placeName>,
+          Par <persName>Robert Ballard</persName>, seul Imprimeur du
+          <persName>Roy</persName> pour la Musique.
+          <date>M. DC. LXIII.</date>
+          Avec Privilege de <persName>Sa Majesté</persName>.</docImprint>
+     </titlePage>
+    </front>
+    <body>
+      <pb n="2" xml:id="p2"/>
+      
+      <pb n="3" xml:id="p3"/>
+      <div>
+      <head>AVANT-PROPOS</head>
+        <p>LA Paix ayant produit
+          l’Abondance, &amp; fait nai-
+          stre les Plaisirs &amp; re-
+          fleurir les Sciences &amp; les
+          Arts ; les Sept que l’on
+          nomme Liberaux, con-
+          duits par leur inuen-
+          teur, Promethée, viennent paroistre en
+          cette superbe Cour : Et comme la Musi-
+          que en est l’un des plus nobles &amp; des plus
+          agreables, elle fait auec les autres, par <tech>vn
+          grand Concert d’Instrumens</tech>, l’ouuerture
+          du Ballet des Arts en general, dont quel-
+          ques-vns soit mechaniques ou autres, ont
+          esté choisis pour faire les Entrées de ce
+          Ballet ; chacune estãt precedée d’un chan-
+          gement de <tech>Theatre</tech> &amp; d’un <tech>Recit</tech>.</p>
+       </div>
+      <div>
+        <pb n="4" xml:id="p4"/>
+        <head>L’AGRICVLTVRE.</head>
+        <p>CET Art est representé par des <name>Bergers</name>
+          &amp; des <name>Bergeres</name> ; lesquels sortent des
+          agreables Boccages, qui font la decoration de
+          cette premiere Scene. Apres que la <name>Félicité</name> &amp;
+          la <name>Paix</name> qui les accompagnent tousiours ont fait
+          vn recit en <tech>Dialogue</tech>, auquel respond vn <tech>Chœur</tech>
+          <tech>d’instruments rustiques</tech>.</p>
+      </div>
+      <div>
+        <head>Dialogue de la <name>Paix</name> &amp; de la <name>Félicité</name>, chanté par
+          <persName>Mademoiselle Hylaire</persName>, &amp; <persName>Mademoiselle</persName>
+          <persName>de Saint Christophe</persName>.</head>
+        <label type="speaker">
+          LA PAIX</label>
+        <l>Douce <name>Félicité</name>, ne quitons point ces lieux.</l>
+        <label type="speaker">
+          LA FELICITÉ.</label>
+        <l>Douce &amp; charmante <name>Paix</name>, où peut-on estre
+        mieux ?</l>
+        <label type="speaker">
+          Toutes deux.</label>
+        <l>N’y les travaux ny les peines,</l>
+        <l>N’habitent plus dans ces bois,</l>
+        <l>Les <name>Bergers</name> sont comme des Rois,</l>
+        <l>Les <name>Bergeres</name> comme des Reïnes.</l>
+<l>LA</l>
+        <pb n="5" xml:id="p5"/>
+        <label type="speaker">
+          La Paix</label>
+        <l>I’y veux estre tousiours,</l>
+        <label type="speaker">
+          LA FELICITÉ.</label>
+        <l>Et moy tousiours aussy.</l>
+        <label type="speaker">
+          Toutes deux.</label>
+        <l>Amour est le seul mal dont on se plaint icy.</l>
+        <label type="speaker">
+          LA PAIX.</label>
+        <l>Les vents les plus mutins sont changez en Zephirs.</l>
+        <label type="speaker">
+          LA FELICITÉ.</label>
+        <l>Les maux les plus cruels sont changez en plaisirs.</l>
+        <label type="speaker">
+          Toutes deux.</label>
+        <l>Icy quand vn cœur soupire,</l>
+        <l>Vn autre cœur luy répond,</l>
+        <l>Et c’est là tout le bruit que font</l>
+        <l>Les Echos qui s’osent tout dire.</l>
+        <label type="speaker">
+          LA PAIX.</label>
+        <l>I’y veux estre tousiours, etc.</l>
+      </div>
+      <div>
+        <pb n="6" xml:id="p6"/>
+        <head>PREMIERE ENTRÉE</head>
+        <p>
+          BERGERS ET BERGERES
+        </p>
+        <p>
+          <name>Bergers</name>.
+        </p>
+        <p>
+          <persName>LE ROY</persName>
+          <persName>Le Marquis de Rassan</persName>, les <persName>Sieurs Raynal</persName>, <persName>Noblet</persName>,
+          &amp; <persName>la Pierre</persName>.
+        </p>
+        <p>
+          <name>Bergeres</name>
+        </p>
+        <p>
+          <persName>MADAME</persName>.
+          <persName>Mademoiselle de Mortemart</persName>, <persName>Mademoiselle de</persName>
+          <persName>Saint Simon</persName>, <persName>Mademoiselle de la valliere</persName>,
+          <persName>Mademoiselle de Seuigny</persName>.
+        </p>
+        <byline>Pour <persName>LE ROY</persName>. <name>Berger</name>.</byline>
+        <l>Voicy la Gloire, &amp; la Fleur du Hameau,</l>
+        <l>Nul n’a la Teste &amp; plus belle &amp; mieux faite ;</l>
+        <l>Nul ne fait mieux redouter sa Houlette,</l>
+        <l>Nul ne sçait mieux comme on garde vn Troupeau.</l>
+        <l>Et quoy qu’il soit dans l’âge où nous sentons</l>
+        <l>Pour le plaisir vne attache si forte,</l>
+        <l>Ne croyez pas que son plaisir l’emporte,</l>
+        <l>Il en revient tousiours à ses Moutons.</l>
+        <l>A son labeur il passe tout d’un coup,</l>
+        <l>Et n’ira pas dormir sur la fougere,</l>
+        <pb n="7" xml:id="p7"/>
+        <l>N’y s’oublier auprès d’vne Bergere,</l>
+        <l>Iusques au point d’en oublier le Loup.</l>
+        <l>Ce n’est pas tant vn Berger qu’vn Heros,</l>
+        <l>Dont l’Ame grand applique ses pensées</l>
+        <l>Au soin de voir ses Brebis engraissées,</l>
+        <l>En leur laissant la laine sur le dos.</l>
+        <byline>Pour <persName>MADAME</persName>. <name>Bergere</name>.</byline>
+        <l>Qvelle Bergere, quels yeux</l>
+        <l>A faire mourir les Dieux !</l>
+        <l>Aussy comme eux on l’adore,</l>
+        <l>Elle est de leur propre sang ;</l>
+        <l>Mais sa personne est encore</l>
+        <l>Bien au dessus de son rang :</l>
+        <l>De jeunes Lis, &amp; des Roses</l>
+        <l>Tout nouuellement écloses</l>
+        <l>Forment son teint delicat ;</l>
+        <l>Enfin les plus belles choses</l>
+        <l>Prés d’elle n’ont point d’éclat.</l>
+        <l>C’est vne douceur extréme,</l>
+        <l>Et pour en dire icy le mal comme le bien,</l>
+        <l>Il est vray tout le monde l’aime,</l>
+        <l>Mais apres son Deuoir ses Moutons, &amp; son Chien,</l>
+        <l>Ie pense qu’elle n’aime rien.</l>
+        <pb n="8" xml:id="p8"/>
+        <byline>Pour <persName>Mademoiselle de Mortemart</persName>. <name>Bergere</name>.</byline>
+        <l>Qve cette Bergere est belle,</l>
+        <l>A-t’elle pas vn defaut ?</l>
+        <l>Vn Berger qui soit digne d’elle</l>
+        <l>N’est-ce pas tout ce qui luy faut ?</l>
+        <l>A quiconque pourra tant faire</l>
+        <l>Que de la ranger sous sa loy,</l>
+        <l>La bonne affaire,</l>
+        <l>L’heureux employ !</l>
+        <byline>Pour <persName>Mademoiselle de Saint Simon</persName>. <name>Bergere</name>.</byline>
+        <l>Gardez-vous de ces Lis, gardez-vous de ces</l>
+        <l>Roses,</l>
+        <l>Qui ne s’en gardera ne sçauroit faire pis,</l>
+        <l>Ha ! quelle est dangereuse en gardant ses Brebis,</l>
+        <l>Elle a des yeux brillans qui disent mille choses,</l>
+        <l>Mais ils en donnent à garder</l>
+        <l>A qui plus qu’il ne faut ose les regarder.</l>
+        <byline>Pour <persName>Mademoiselle de la Valliere</persName>. <name>Bergere</name>.</byline>
+        <l>Non sans doute il n’est point de Bergere</l>
+        <l>plus belle,</l>
+        <l>Pour elle cependant qui s’ose declarer ?</l>
+        <l>La presse n’est pas grande à soupirer pour elle,</l>
+        <l>Quoy qu’elle soit si propre à faire soupirer.</l>
+        <pb n="9" xml:id="p9"/>
+        <l>Elle a dans ses beaux yeux vne douce langueur,</l>
+        <l>Et bien qu’en apparence aucun s’en soit la cause,</l>
+        <l>Pour peu qu’il fut permis de foüiller dans son cœur,</l>
+        <l>On ne laisseroit pas d’y trouuer quelque chose.</l>
+        <l>Mais pourquoy là-dessus s’estendre davantage ?</l>
+        <l>Suffit qu’on ne sçauroit en dire trop de bien,</l>
+        <l>Et je ne pense pas que dans tout le village,</l>
+        <l>Il se rencontre vn cœur mieux placé que le sien.</l>
+        <byline>Pour <persName>Mademoiselle de Seuigny</persName>.</byline>
+        <l>Déjà cette Beauté fait craindre sa puissance,</l>
+        <l>Et pour nous mettre en butte à d’extrémes</l>
+        <l>dangers :</l>
+        <l>Elle entre justement dans l’âge où l’on commence</l>
+        <l>A distinguer les Loups d’auecque les Bergers.</l>
+        <byline>Le <persName>Marquis de Rassan</persName>. Representant vn <name>Berger</name>.</byline>
+        <l>IE porte peu d’enuie</l>
+        <l>Aux Bergers dont la vie</l>
+        <l>Est plaine de douceur,</l>
+        <l>Ma fortune est meilleure</l>
+        <l>Si je trouue mon Heure</l>
+        <l>Où j’ay perdu mon cœur.</l>
+      </div>
+      <div>
+      <pb n="10" xml:id="p10"/>
+        <head>LA NAVIGATION</head>
+        <p>LA Mer paroist en esloignement de laquel-
+          le <name>Thetis</name> sortant auec trois autres Diuinitez
+          Marines, chante des Vers à la loüange de la
+          Nauigation. Vn <name>Chef de Corsaires</name> auec <name>qua-</name>
+          <name>tre Pyrates</name> de sa suite arruent sur le Riuage
+          ne s’esloignant jamais d’vn Element, sur le-
+          quel il a estably sa demeure.</p>
+      </div>
+      <div>
+        <head>Recit de <name>Thetis</name>,
+          Chanté par <persName>Mademoiselle de Cercamanan</persName>.</head>
+        <byline>avx Dames.</byline>
+        <l>NE craignez point le naufrage,</l>
+        <l>Beaux yeux, le vent ny l’orage</l>
+        <l>N’oseroient vous attaquer :</l>
+        <l>Hazardez vous dessus l’onde,</l>
+        <l>Quelle rie ou quelle gronde,</l>
+        <l>Jl n’est que de s’embarquer.</l>
+        <l>Sur les flots qui s’applanissent</l>
+        <l>Mille vaisseaux s’enrichissent</l>
+        <l>Piur vn qui vient à manquer :</l>
+        <l>Vous ne ferez aps grand-chose</l>
+        <l>Tant que vous direz, je n’ose,</l>
+        <l>Il n’est que de s’embarquer</l>
+      </div>
+      <div>
+      <pb n="11" xml:id="p11"/>
+        <head>II. Entrée</head>
+        <p>
+          Vn <name>Corsaire</name>, &amp; <name>quatre Pyrates</name>
+        </p>
+        <p>
+          <name>Corsaire</name>.
+        </p>
+        <p>
+          Le <persName>Comte de S. Aignan</persName>.
+        </p>
+        <p>
+          <persName>Messieurs d’Heureux</persName>, <persName>Beauchamp</persName>, <persName>Saint André</persName>,
+&amp; <persName>Desbrosse</persName>. <name>Pyrates</name>.
+        </p>
+        <byline>
+          Pour le <persName>Comte de S. Aignan</persName>. <name>Corsaire</name>.
+        </byline>
+        <l>CE Corsaire tousiours suiuy de la victoire</l>
+        <l>A couru sur toutes les Mers ;</l>
+        <l>Jl a veu de l’Amour, il a veu de la Gloire,</l>
+        <l>Les Flots doux, &amp; les flots amers,</l>
+        <l>Et n’a point redouté leurs vagues les plus hautes,</l>
+        <l>Deuenu celebre aujourd’huy,</l>
+        <l>Pour en auoir laissé beaucoup derriere luy</l>
+        <l>Qui se sont échoïez aux Costes.</l>
+      </div>
+      <div>
+        <head>L’ORFEVRERIE</head>
+        <p><name>Ivnon</name> descend dans vnu <tech>Machine qui repre-
+          sente vnu Mine d’Or</tech>, comme la Déesse qui
+          preside aux richesses, é fait le recit pour l’Or-
+          feurerie, en suite duquel <name>quatre Courtisans</name>
+          qui ont achepté de quelques Orfevres les su-
+          perbes ornements dont ils sont parez, font la
+          troisiesme Entrée.</p>
+      </div>
+      <div>
+      <pb n="12" xml:id="p12"/>
+      <head>RECIT DE <name>IVNON</name></head>
+        <label type="head">Svr les Richesses.</label>
+        <label type="head">Chanté par <persName>Mademoiselle Hylaire</persName>.</label>
+        <l>IE répands sur les Humains</l>
+        <l>La Richesse à plaines mains,</l>
+        <l>Aussy pour mes Autels la ferueur est extrême :</l>
+        <l>Parmy tous ses attraits, ses charmes, ses apas,</l>
+        <l>Amour l’auoüroit lui mesme,</l>
+        <l>La Richesse ne nuit pas.</l>
+        <l>Soyez beau, soyez bien fait,</l>
+        <l>N’ayez rien que de parfait,</l>
+        <l>Pressez, &amp; soupirez, afin que l’on vous aime,</l>
+        <l>Parmy tous ses attraits, etc.</l>
+      </div>
+      <div>
+        <label type="head">III. Entrée</label>
+        <p>
+          <name>Courstisans</name> chargez d’Orfevrerie.
+        </p>
+        <p>
+          Le <persName>Comte d’Armagnac</persName>, Le <persName>Marquis de Genlis</persName>,
+          <persName>Monsieur Coquet</persName>, &amp; <persName>Monsieur l’Anglois</persName>.
+          </p>
+        <byline>
+          Pour le <persName>Comte d’Armagnac</persName>. <name>Courstisan</name>.
+        </byline>
+        <l>Vous estes Courtisan, c’est vne race d’hommes</l>
+        <l>Beaux, diseurs de bons mots, jeunes, adroits,</l>
+        <l>galants,</l>
+        <l>Et qui</l>
+        <pb n="13" xml:id="p13"/>
+        <l>Et qui parmy tout l’or dont on les voit brillans,</l>
+        <l>D’ordinaires chez eux n’ont pas de grandes som-</l>
+        <l>mes.</l>
+        <byline>
+          Pour le <persName>Comte de Sery</persName>, qui deuoit representer
+          vn <name>Courtisan</name>.
+        </byline>
+        <l>IL n’est pas trop necessaire</l>
+        <l>Qu’vn Courtisan soit sincere,</l>
+        <l>Et cependant je le suis ;</l>
+        <l>Demeureant tant que je puis</l>
+        <l>Dans la bonne &amp; droite route :</l>
+        <l>Vous n’en serez jamais en doute,</l>
+        <l>Pourueu que vous en consultiez</l>
+        <l>Mes Amours &amp; mes Amitiez.</l>
+        <l>Pour le Marquis de Genlis. Courisan.</l>
+        <l>ON pardonne à ma Taille, on pardonne à</l>
+        <l>ma mine ;</l>
+        <l>Mais ce n’est pas nouueauté</l>
+        <l>Qu’à la Cour on m’examine</l>
+        <l>Sur le fait de la beauté.</l>
+      </div>
+      <div>
+        <pb n="14" xml:id="p14"/>
+        <head>LA PEINTVRE.</head>
+        <p>LE Theatre se chage en vne Galerie or-
+          née de plusieurs Tableaux &amp; Statuës, du
+          Fonds de laquelle sortent les Ombres de ces
+          deux grands Peintres de l’antiquité <name>Zeuxis</name> &amp;
+          <name>Apelle</name>, qui font entre-elles vn <tech>Dialogue</tech> ser-
+          uant de recit à l’Art de la Peinture. <name>Quatre</name>
+          <name>Peintres</name> grotesques, suiuis de leurs <name>Valets</name>,
+          auec <name>quatre Dames</name> ridicules qui vont se faire
+          peindre, dansent cette Entrée d’vne manière
+          plaisante &amp; bizare.</p>
+      </div>
+      <div>
+        <head><tech>DIALOGVE</tech>.
+          d’<name>Apelle</name>, et de <name>Zevxis</name>.</head>
+        <label type="head">Chanté par <persName>Messieurs de Beaumont</persName>, &amp; d<persName>’Estival</persName>.</label>
+        <label type="speaker">Apelle.</label>
+        <l>MA Venus a charmé les Hommes les plus fins,</l>
+        <l>Et je suis au dessus de tout ce que nous</l>
+        <l>sommes.</l>
+        <label type="speaker">Zevxis.</label>
+        <l>I’ay trompé les oiseaux en peignant des Raisons,</l>
+        <l>C’est autant pour le moins que de charmer les</l>
+        <l>hommes.</l>
+        <pb n="15" xml:id="p15"/>
+        <label type="speaker">Tous deux.</label>
+        <l>Apres de si grands efforts,</l>
+        <l>Nous faisons bien d’estre morts ;</l>
+        <l>Ces modernes Pinceaux imitant la Nature,</l>
+        <l>Pretendroient de nous surpasser,</l>
+        <l>Et nous auroient fait renoncer</l>
+        <l>A la Peinture.</l>
+        <label type="speaker">Apelle.</label>
+        <l>Quel honneur qu’on n’ait point achevé ce Tableau</l>
+        <l>Ou l’Amour mesme à crû que je flatois sa Mere.</l>
+        <label type="speaker">Zevxis.</label>
+        <l>Quel honneur d’auoir fait vn ouurage si beau,</l>
+        <l>Que ceux qui m’ont suiuy n’ont jamais pû</l>
+        <l>mieux faire.</l>
+        <label type="speaker">Tous deux.</label>
+        <l>Apres de si grands efforts, etc.</l>
+      </div>
+      <div>
+        <head>IV. Entrée.</head>
+        <label type="head">
+          <name>Peintres</name>.
+        </label>
+        <p>
+          Les <persName>Sieurs de Lorges</persName>, <persName>le Chantre</persName>, <persName>le Comte</persName>,
+          &amp; <persName>Desbrosses</persName>.
+        </p>
+        <label type="head">
+          <name>Dames</name>.
+        </label>
+        <p>
+          <persName>Monsieur Molier</persName>, les <persName>Sieurs des Airs le cadet</persName>,
+          <persName>Païsan</persName>, &amp; <persName>Desonets</persName>.
+        </p>
+        <label type="head">
+          <name>Valets</name>.
+        </label>
+        <p>
+          <name>Monsieur Cabou</name>, le <name>Sieur Doliuet</name>.
+        </p>
+        <pb n="16" xml:id="p16"/>
+        <label type="head">Pour les <name>Peintres</name>,</label>
+        <label type="salute">Avx Dames.</label>
+        <l>Beau sexe, qui par nous venez à bout de l’autre</l>
+        <l>Fraltez ce qui vous flate, &amp; vous prete secours,</l>
+        <l>Sous vostre Toile, helas ! vous n’estez pas tousiours</l>
+        <l>Comme vous estes sur la nostre.</l>
+      </div>
+      <div>
+        <head>LA CHASSE</head>
+        <p><name>Diane</name> sort d’vne Forest, en laquelle la face
+          du Theatre s’est changée, &amp; accompa-
+        gnée de quelque Nymphes, fait vn recit au-
+        quel <tech>plusieurs instrumens</tech> respondent, &amp; <name>Ce-</name>
+          <name>phale</name> suiuy de <name>six autres Chasseurs</name>, danse
+          cette Entrée.</p>
+      </div>
+      <div>
+        <head>RECIT DE <name>DIANE</name>.</head>
+        <label type="head">Chanté par <persName>Mademoiselle de la Barre</persName>.</label>
+        <l>AMour se glisse dans nos bois,</l>
+        <l>Euitons bien ses entreprises</l>
+        <l>Nous prenons des Bestes par fois,</l>
+        <l>Craignons nous-mesmes d’estre prises :</l>
+        <l>Il est bon de s’en défier,</l>
+        <l>Tous les cœurs sont de son gibier.</l>
+        <p rend="right">Afin</p>
+        <pb n="17" xml:id="p17"/>
+        <l>Afin de nous assujetir,</l>
+        <l>Il est tousiours en embuscade,</l>
+        <l>Il ne faut par fois qu’vu soupir,</l>
+        <l>Il ne faut qu’vne simple œillade</l>
+        <l>Il est bon de, etc.</l>
+      </div>
+      <div>
+        <head>V. Entrée</head>
+        <label type="head"><name>Chasseurs</name>.</label>
+        <p>
+          <persName>Monsieur le Duc</persName>, <name>Céphale</name>.
+        </p>
+        <label type="head"><name>Chasseurs</name>.</label>
+        <p>
+        Le <persName>Duc de Beaufort</persName>, les <persName>Marquis de Villeroy</persName>, &amp;
+        <persName>de Mirepoix</persName>, <persName>Monsieur Bontemps</persName>, <persName>Monsieur</persName>
+        <persName>Langlois</persName>, &amp; le <persName>Sieur de S. André</persName>.
+        </p>
+        <label type="head">
+          Pour <persName>Monsieur le Duc</persName>. <name>Cephale</name>.
+        </label>
+        <l>IL arrive souuent comme l’Amour est fin,</l>
+        <l>Que d’vn projet de Chasse vne affaire et couuerte,</l>
+        <l>Quand vn jeune Chasseur se leue si matin,</l>
+        <l>Qu’il est paionné, que sa flame est soufferte,</l>
+        <l>Vn mary comme vn Cerf doit se tenir alerte.</l>
+        <label type="head">
+          Pour le <persName>Duc de Beaufort</persName>. <name>Chasseur</name>.
+        </label>
+        <l>L’Exercice est tout ce que j’ayme,</l>
+        <l>Et je n’en fais pas pour vn peu,</l>
+        <l>Ie vais au Bois, quelquesfois mesme</l>
+        <l>Ie vais à l’Eau, je vais au feu.</l>
+        <pb n="18" xml:id="p18"/>
+        <label type="head">
+          Pour le <persName>Marquis de Villeroy</persName>, <name>Chasseur</name>.
+        </label>
+        <l>VOus estes jeune, adroit et parfaiteemnt bien</l>
+        <l>En tout ce qui compose vn fort leste équipage,</l>
+        <l>A vous dire le vray ce seroit grand domage</l>
+        <l>De chasser tout le jour, et de ne prendre rien.</l>
+        <label type="head">
+          Le <persName>Marquis de Mirepoix</persName>, <name>Chasseur</name>.
+        </label>
+        <l>ENtre tous ces Chasseurs qui taschent de bien faire,</l>
+        <l>Comme les autres j’ay paru,</l>
+        <l>O ! que j’aurois fait bonne chere</l>
+        <l>Si j’auois atrapé tout ce que j’ay couru.</l>
+      </div>
+      <div>
+        <head>LA CHIRVRGIE.</head>
+        <p>Vne salle remplie de plusieurs vases de por-
+          celaines, &amp; de toutes les choses qui peuuent
+          remedier aux accidens qui arriuent au corps
+          humain, sert de Decoration à l’Art de la Chi-
+          rurgie. <name>Esculape</name>, Dieu de la Medecine, auec
+          <name>quelques vieux Docteurs</name> en sort &amp; fait le recit.
+          <name>Plusieurs Estropiez</name> de toutes les manieres,
+          dansent vne fort ridicule Entrée, qu’vn <name>Chi-
+          rurgien</name> sçauant &amp; adroit ayant veuë, il les met
+          en estat, par leur guerison entiere, d’en danser
+          vne autre auec beaucoup de disposition.</p>
+      </div>
+      <div>
+        <pb n="19" xml:id="p19"/>
+        <head><tech>RECIT</tech> D’<name>ESCVLAPE</name>.</head>
+        <label type="head">Svr la médecine.</label>
+        <label type="head">Chanté par <persName>Monsieur de la Grille</persName>.</label>
+        <l>BEl Art, qui retardez l’infaillible trépas,</l>
+        <l>En secrets merueilleux vostre science abonde,</l>
+        <l>Faut-il que vous n’en ayez pas</l>
+        <l>Contre le plus commun de tous les maux du monde ?</l>
+        <l>Vn cœur tout languissant, et qui s’en va mourir,</l>
+        <l>Mettroit-il son espoir en vos seules racines ?</l>
+        <l>C’est à l’Amour à le guérir,</l>
+        <l>Et comme il fait les maux, il fait les medecines.</l>
+      </div>
+      <div>
+        <head>VI. Entrée.</head>
+        <p>
+          <name>Vn Chirurgien</name>, <name>quatre Docteurs</name>, &amp; <name>huit</name>
+        <name>Estropiez</name>.
+        </p>
+        <p>
+          <persName>Monsieur de Lully</persName>, <name>Chirurgien</name>.
+        </p>
+        <p>
+          Les <persName>Sieurs la Vigne</persName>, <persName>Besson</persName>, <persName>Magny</persName>, &amp;
+        <persName>Barry</persName>, <name>Docteurs</name>.
+        </p>
+        <p>
+          <persName>Monsieur Geoffroy</persName>, les <persName>Sieurs Raynal</persName>, <persName>Bonard</persName>, <persName>le</persName>
+        <persName>Conte</persName>, <persName>Païsan</persName>, <persName>la Pierre</persName>, <persName>Noblet</persName> &amp; <persName>Laleu</persName>, <name>Estropiez</name>.
+        </p>
+        <label type="head">Pour <persName>Monsieur de Lully</persName>, representant vn <name>Chirurgien</name>.</label>
+        <l>I’Estois perdu moy-mesme, et tous ceux que je</l>
+        <l>voy</l>
+        <l>Qui sont aux Incurables</l>
+        <pb n="20" xml:id="p20"/>
+        <l>Perclus et miserables</l>
+        <l>Ne s’aydoient pas si mal de leurs membres que moy.</l>
+        <l>Dans mon infirmité ne sçachant plus que fair,</l>
+        <l>Le Dieu du Mariage à qui je fus contraire,</l>
+        <l>L’auroit-on crû si bon pour vn Estropié ?</l>
+        <l>Ma guéry tout à fait et mis sur le bon pié,</l>
+        <l>Cette duinité, ma chere protextrice</l>
+        <l>N’en ayant pas laissé la moindre cicatrice.</l>
+        </div>
+      <div>
+          <head>LA GVERRE</head>
+          <p>Vn Camp orné de plusieurs Tantes &amp; Pa-
+            uillons, montre que l’art de la Guerre va
+            se faire voir : <name>Mars</name> &amp; <name>Bellonne</name> dans vne <tech>Ma-
+            chine ayant chanté des Vers en Dialogue</tech> à la
+            loüange de cét Art, qui produit tant de Re-
+            nommée &amp; de gloire à ceux qui l’exercent di-
+            gnement. La Déesse <name>Pallas</name> toute brillante, &amp;
+            aussi considerable par sa valeur que par sa beau-
+            té desend du Ciel ; &amp; se joignant à <name>quatre char-
+            mantes Amazones</name> danse la septiesme Entrée :
+            Apres qu’vn grand concert de plusieurs instru-
+            mens a succedé au recit de <name>Mars</name> &amp; de <name>Bel-
+            lonne</name>.</p>
+          <p rend="right">Dialogue</p>
+      </div>
+      <div>
+        <pb n="21" xml:id="p21"/>
+        <head><tech>DIALOGVE</tech>
+          DE <name>MARS</name> ET DE <name>BELLONE</name>.</head>
+        <p><persName>Mademoiselle Hilaire</persName>, <name>Bellone</name>.
+        <persName>Monsieur Don</persName>, <name>Mars</name>.</p>
+        <label type="speaker">Mars.</label>
+        <l>QVoy, jamais plus de sang ?</l>
+        <label type="speaker">Bellone.</label>
+        <l>Quoy, jamais plus de morts ?</l>
+        <p rend="center sc">Mars.</p>
+        <l>La Paix a pour long-temps étouffé les discord.</l>
+        <l>Et reüny les premiers Trônes.</l>
+        <label type="speaker">Bellone.</label>
+        <l>Ne nous desesperons pas,</l>
+        <l>J’aperçoy des Amazônes</l>
+        <l>Qui vont faire du fracas.</l>
+        <label type="speaker">Tous deux.</label>
+        <l>Ces aymables foudres de guerre</l>
+        <l>Qui font nos Braues trembler,</l>
+        <l>Ont dequoy depeupler la terre,</l>
+        <l>Et dequoy la repeupler.</l>
+        <label type="speaker">Mars.</label>
+        <l>Que leurs coups sont cruels !</l>
+        <label type="speaker">Bellone.</label>
+        <l>Que l’on craint leurs regards,</l>
+        <pb n="22" xml:id="p22"/>
+        <label type="speaker">Mars.</label>
+        <l>Elles mettront bien-tost le feu de toutes parts,</l>
+        <l>Et vont donner mille batailles.</l>
+        <label type="speaker">Bellone.</label>
+        <l>S’il ne s’agit seulement</l>
+        <l>Que de voir des funerailles,</l>
+        <l>Nous aurons contentement.</l>
+        <label type="speaker">Tous deux.</label>
+        <l>Ces Aymables, etc.</l>
+      </div>
+      <div>
+        <head>
+          VII. et dernière entrée.
+        </head>
+        <p><name>Vertus</name>, <name>Pallas</name>, &amp; <name>Amazones</name>.</p>
+        <p><name>Pallas</name>. <persName>Madame</persName></p>
+        <p><name>Amazones</name>. <persName>Mademoiselle de Mortemart</persName>, <persName>Mademoi-</persName>
+        <persName>selle de S. Simon</persName>, <persName>Mademoiselle de la Valliere</persName>,
+        &amp; <persName>Mademoiselle de Seuigny</persName>.</p>
+        <byline>
+          Pour <persName>Madame</persName>, representant <name>Pallas</name>.
+        </byline>
+        <l>AVoir la dignité, la pompe, les Richesses,</l>
+        <l>L’éclat de la personne, et la splēdeur du Nom,</l>
+        <l>Et tout ce qui conuient aux premieres Deesses,</l>
+        <l>Diriez-vous pas que c’est la superbe Iunon ?</l>
+        <pb n="23" xml:id="p23"/>
+        <l>Avoir comme on la suit en adorant ses traces,</l>
+        <l>Comme elle enchaisne ceux qui d’elle sont connus,</l>
+        <l>Comme elle a dᾱs ses yeux les Amours et les graces,</l>
+        <l>Diriez-vous pas que c’est la charmante Uenus ?</l>
+        <l>C’est Pallas elle-mesme, ou quelqu’autre Heroïne,</l>
+        <l>Qui cache sa fierté sous beaucoup de douceur,</l>
+        <l>Et sans en affecter la redoutable mine,</l>
+        <l>Elle en a les Vertus, l’esprit, le noble cœur.</l>
+        <l>Si Pâris reuenoit, nous verrions ce ieune homme</l>
+        <l>Bien moins embarassé qu’il ne fut autrefois ;</l>
+        <l>Il n’auroit qu’à donner à celle-cy la Pomme,</l>
+        <l>S’il vouloit estre quitte enuers toutes les Trois.</l>
+        <byline>
+          Pour <persName>Mademoiselle de Mortemart</persName>, <name>Amazone</name>.
+        </byline>
+        <l>QVe d’appas, d’attraots, et de charmes,</l>
+        <l>Pour le dire en vn mot, que d’armes !</l>
+        <l>Vous auez quelque affaire, et ie le preuoy bien,</l>
+        <l>Est-on comme cela pour rien ?</l>
+        <l>Est-ce pour attaquer ? est-ce pour vous deffendre ?</l>
+        <l>Car ie vous donne auis qu’on tâche à vous sur-</l>
+        <l>prendre,</l>
+        <l>Soyez en defiance aux lieux où vous allez,</l>
+        <l>Tel pourroit s’enhardir, encor qu’il vous redoute,</l>
+        <l>Ie sçay qu’on vous en veut, et vostre cœur s’en</l>
+        <l>doute,</l>
+        <l>Dites-nous à l’oreille à qui vous en voulez ?</l>
+        <pb n="24" xml:id="p24"/>
+        <byline>
+          Pour <persName>Mademoiselle de S. Simon</persName>, <name>Amazone</name>.
+        </byline>
+        <l>CEtte ieune amazone auec ses doux regards,</l>
+        <l>Met indifferemment le feu de toutes parts,</l>
+        <l>Et de la sorte qu’elle frape,</l>
+        <l>Amy comme ennemy, personne n’en échape,</l>
+        <l>C’est des ieunes Beautez le procedé commun,</l>
+        <l>Elle s’en lassera peut-estre,</l>
+        <l>Apres auoir ainsi frapé sans reconnoistre</l>
+        <l>Souuent dans la meslée on s’attache à quelqu’vn.</l>
+        <byline>
+          Pour <persName>Mademoiselle de la Valliere</persName>, <name>Amazone</name>
+        </byline>.
+        <l>DIuine Amazone, tout bas,</l>
+        <l>Contez-nous quelle est vostre gloire,</l>
+        <l>Volontiers n’affectez-vous pas</l>
+        <l>D’étaller trop vne victoire,</l>
+        <l>Les procedez sont differends,</l>
+        <l>Les vnes comme des Torrens</l>
+        <l>Courent et rauagent la Terre,</l>
+        <l>Les autres au contraire aprehendant l’éclat</l>
+        <l>Font les plus beaux coups de la Guerre</l>
+        <l>Comme on fait vn assaßinat.</l>
+        <l>Telle a mille cœurs sous ses loix,</l>
+        <l>Craignant de viure trop à l’ombre,</l>
+        <l>Telle considere par fois</l>
+        <p>La</p>
+        <pb n="25" xml:id="p25"/>
+        <l>La qualité plus que le nombre :</l>
+        <l>Ie voy luire dans vos beaux yeux</l>
+        <l>Vn certain air imperieux,</l>
+        <l>Fatal au repos des plus Braues,</l>
+        <l>Et ne conte pas moins qu’Alexandre et Cesar,</l>
+        <l>En me figurant des Esclaues</l>
+        <l>A la suite de vostre Char.</l>
+        <byline>
+          Pour <persName>Mademoiselle de Seuigny</persName>, <name>Amazone</name>.
+        </byline>
+        <l>BElle et jeune Guerriere, vne preuue assez</l>
+        <l>bonne</l>
+        <l>Qu’on fuit d’vne Amazone et la regle et les</l>
+        <l>vœux,</l>
+        <l>C’est qu’on n’a qu’vn Teton, ie croy, Dieu me par-</l>
+        <l>donne</l>        
+        <l>Que vous en auez déjà deux.</l>
+      </div>
+      <div>
+        <p>LEs <name>Amazones</name> s’estant retirées, <name>Pallas</name> paroist</p>
+        <p rend="left">de nouueau auec les vertus qui la suiuent par</p>
+        <p rend="left">tout, vestuës des couleurs qui leur conuiennent</p>
+        <p rend="left">le plus, &amp; qui sont.</p>
+        <p rend="left">La <name>Fidélité</name>, representée par le <persName>Comte de</persName></p>
+        <p rend="left"><persName>Saint Aignan</persName>, &amp; vestuë de bleu.</p>
+        <p rend="left">La <name>Beauté</name>, d’incarnat par <persName>Monsieur de Sou-</persName></p>
+        <p rend="left"><persName>uille</persName>.</p>
+        <p rend="left">La <name>Force</name>, de couleur de feu, par le <persName>Sieur</persName></p>
+        <p rend="left"><persName>Raynal</persName>.</p>
+        <pb n="26" xml:id="p26"/>
+        <p rend="left">La <name>Prudence</name>, par le <persName>Sieur des Airs l’aisné</persName>,</p>
+        <p rend="left">habillée de cette couleur changeante qu’on voit</p>
+        <p rend="left">dans la peau des Serpens.</p>
+        <p rend="left">La <name>Chasteté</name> de blanc, par le <persName>Sieur de Lorges</persName>.</p>
+        <p rend="left">Et la <name>Constance</name> par le <persName>Sieur des Airs le cadet</persName>,</p>
+        <p rend="left">vestuë de vert ; &amp; representant la fermeté de la</p>
+        <p rend="left">Terre. Cette huitiesme &amp; derniere Entrée</p>
+        <p rend="left">concluant tout le Ballet des Arts.</p>
+        <p rend="center">Pour le <persName>Comte de S. Aignan</persName>, representant la <name>Fidélité</name></p>
+        <l>SA mine pouue assez ce que son cœur doit estre,</l>
+        <l>L’honneur y va bien loin deuant l’vtilité,</l>
+        <l>Pour le Mastresse et pour le Maistre,</l>
+        <l>C’est la mesme Fidélité.</l>
+        <p rend="center">FIN.</p>            
+      </div>
+    </body>
+  </text>
+</TEI>
