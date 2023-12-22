@@ -6,6 +6,11 @@
     <label>Courses de têtes et de bagues</label>
     <ref target="../xml/merveilles17_imp_ctb-perrault1670.xml"/>
   </event>
+  
+  <event when="1663-01-08" where="paris_palais-royal" xml:id="balletarts1663">
+    <label>Ballet des Arts</label>
+    <ref target="../xml/merveilles17_imp_artsballard1663.xml"/>
+  </event>
 
   <event when="1664-01-10" where="paris_palais-royal" xml:id="bradamante1664_01_10">
     <label>La Bradamante ridicule, comédie</label>
@@ -154,6 +159,22 @@
     <ref target="../xml/merveilles17_img_dv4festin.xml"/>
     <ref target="../xml/merveilles17_img_dv5feu.xml"/>
     <ref target="../xml/merveilles17_img_dv6illuminations.xml"/>
+  </event>
+  
+  <event from="1680-07-13" to="1680-08-08" where="" xml:id="voyage_flandre1680">
+    <label>Voyage en Flandre</label>
+    <ref target="../xml/merveilles17_imp_gazette16800807.xml"/>
+    <ref target="../xml/merveilles17_imp_gazette16800808.xml"/>
+    
+    <event when="1680-07-29" where="dunkerque" xml:id="Dunkerque1680">
+      <label>Combat Naval à Dunkerque</label>
+      <ref target="../xml/merveilles17_imp_gazette16800808.xml"/>
+    </event>  
+  </event>
+  
+  <event from="1685-06-04" to="1685-06-05" where="versailles_chateau" xml:id="galantsmaures">
+    <label>Carrousel des Galants Maures</label>
+    <ref target="../xml/merveilles17_imp_GalantsMaures_1685.xml"/>
   </event>
   
 </listEvent>
