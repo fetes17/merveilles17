@@ -1,0 +1,1291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
+<?xml-stylesheet type="text/css" href="../tei-author.css" alternate="author"?>
+<?xml-model href="../merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>La Brillante journée ou le Carrousel des galans Maures, entrepris par Monseigneur le Dauphin, avec la comparse, les courses et des madrigaux sur les devises</title>
+        <author key="anonyme">ANONYME</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Merveilles17</edition>
+        <respStmt>
+                    <name>IBARRA, Eric</name>
+          <resp>Transcription, stylage, encodage</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université d’Artois - Lille, MESHS</publisher>
+        <date when="2019"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Anonyme, La Brillante journée ou le Carrousel des galans Maures, entrepris par Monseigneur le Dauphin, avec la comparse, les courses et des madrigaux sur les devises, BnF, Arsenal, 4-BL-3774<ptr target=""/></bibl>
+    </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1685"/>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="np"/>
+      <head>LA BRILLANTE JOURNÉE
+      OU
+      LE CARROUSEL
+      DES GALANS MAURES,
+      ENTREPRIS PAR <persName key="louis_grand_dauphin" role="organisation">MONSEIGNEUR LE DAUPHIN</persName>
+      </head>
+ 
+      
+      <label type="head">AVEC LA COMPARSE, LES COURSES,</label>
+      <label type="head">Et des Madrigaux sur les Devises.</label>
+      <p>Se vendra à <placeName>Versailles</placeName> le jour du Carrousel ; Et se debite</p>
+      <p>A <placeName>PARIS</placeName>,</p>
+      <byline>Chez LA VEUVE BLAGEART, Court-neuve</byline>
+      <p>du Palais, au Dauphin.</p>
+      <p>M. DC. LXXV.</p>
+      <p>AVEC PRIVILEGE DU ROY<pb n="np"/></p>
+      <div>
+        <head>AU LECTEUR</head>
+        <p>Il est rare de voir des Descriptions imprimées des Festes qui n’ont point encore paru, parce qu’il est presque impossible, que ceux qui sont les Autheurs des grands Spectacles, &amp; ceux mesme qui les executent, puissent en sçavoir au vray toutes les circonstances. Ces Spectacles demandent plusieurs Répetitions, qui sont nécessaires, non seulement pour voir si ce qu’on a résolu se rapporte à l’idée qu’on s’en est faite, mais encore pour se faire une habitude à retenir ses rangs, &amp; pour s’exercer dans les Jeux qui ont besoin de force &amp; d’adresse, &amp; il ne se fait aucune de ces Répetitions, qui n’y apporte des changemens considerables. Quand ces changemens continuels n’empescheroient point qu’on fist la Description des Carrousels avant qu’ils eussent paru, il se trouve un autre obstacle qui paroist presque invincible, c’est que de si grandes Festes ont des parties attachées à des Particuliers qui les composent, &amp; qui dépendant quelquefois de cinq ou six cens Personnes, &amp; ne devant paroistre que le jour marqué pour le Spectacle public, ne peuvent jamais estre décrites, parce qu’elles ne paroissent point aux Répetitions, &amp; sont en mesme temps entre les mains de plus de deux ou trois mille Ouvriers. Cependant les Personnes du premier Ordre qui ont voulu que ce Livre fust distribué avant le Carrousel, ont pris des mesures si justes, &amp; des soins si utiles pour faire fournir tous les Mémoires necessaires pour cet Ouvrage, qu’on y trouvera jusqu’à la Description des moindres Habits. <pb n="np"/> On y verra mesme les Devises, qui n’ont la pluspart esté inventées que deux ou trois jours avant celuy du Carrousel. Les raisons que ces Personnes du premier rang ont euës de faire faire ce Livre, &amp; de le proposer à <persName key="louis_grand_dauphin" role="organisation">Monseigneur le Dauphin</persName>, sont aussi judicieuses, qu’utiles pour le plaisir, &amp; pour la satisfaction de tous ceux qui pourront trouver place, soit pour voir la Marche ou pompeuse Calvacade qui se fera le jour du Carrousel, soit pour voir la Comparse &amp; les Courses du mesme jour. Tous ces divers Spectales avec l’aide de ce Livre, quelque éloignez qu’ils se trouvent, pourveu qu’ils puissent distinguer les Couleurs des Brigades, ce qui se remarque toûjours de fort loin, quand tant de Personnes ensemble composent une masse de Couleurs, en comptant les Personnes dont l’éloignement les empeschera de distinguer le visage, pourront Homme pour Homme nommer tous ceux qui paroistront à leurs yeux ; sçavoir ce qu’ils représenteront, &amp; s’ils sont Chefs, Officiers Genéraux, Ecuyers ou autres. Il seroit absolument impossible à ceux qui seront sur les Amphithéatres, de connoistre plus d’un des quatre Chevaliers, qui courront ensemble dans les vingt &amp; une Course qui se feront, parce que courant le long des quatre costez de la Carriere, les Spectateurs de chaque costé pourront seulement, &amp; mesme avec assez de peine, remarquer le visage de celuy qui courra devant eux ; mais par le moyen du Livre ils sçauront les noms des trois autres ; &amp; auront par là la satisfaction de sçavoir qui seront ceux qui auront eu l’adresse de faire plusieurs Testes. On verra de plus dans ce Livre, ce que c’est que Carrousel, Devise &amp; Comparse, &amp; les Dames y pourront lire en attendant que la Feste commence, un petit extrait des Guerres Civiles de <placeName>Grenade</placeName>, d’où le sujet de ce Carrousel est tiré. <pb n="1" xml:id="p1"/></p>
+      </div>
+      <div>
+        <head>LA BRILLANTE JOURNÉE
+        OU
+     LE CARROUSEL
+       DES GALANS MAURES,
+       ENTREPRIS PAR
+          <persName key="louis_grand_dauphin" role="organisation">MONSEIGNEUR LE DAUPHIN</persName>
+        </head>
+        <p>LA Magnificence du <persName key="louisxiv" role="commanditaire">Roy</persName>, &amp; le desir de tenir en exercice les Seigneurs de sa Cour, &amp; de les occuper à des Divertissemens guerriers, qui pussent entretenir leur vigueur, &amp; faire paroistre leur adresse, ayant inspiré à <persName key="louisxiv" role="commanditaire">Sa Majesté</persName> les premieres pensées d’un Carrousel, <persName key="louis_grand_dauphin" role="organisation">Monseigneur le Dauphin</persName>, tres-bon Homme de Cheval, &amp; tres-<pb n="2" xml:id="p2"/>adroit dans tous les Exercices du corps, resolut d’en estre le Chef. Comme ce Carousel sert d’entretien à toute <placeName>la France</placeName>, &amp; à tous les Etrangers dont la Cour de <placeName>France</placeName> se trouve remplie, il est à propos de marquer icy, que ce mot est plus Italien, &amp; Espagnol, que François, &amp; qu’il signifie par tout également un Jeu &amp; un Spectacle représenté sur des <tech>Charriots</tech> ; mais comme le temps augmente &amp; diminuë toutes choses, &amp; qu’il est rare de les voir apres plusieurs siecles dans le mesme état qu’elles ont esté au commencement de leur institution, on a retranché peu à peu les <tech>Machines</tech> &amp; les <tech>Chars</tech> des Carrousels, &amp; l’adresse des Cavaliers &amp; la magnificence des Habits ayant suffy, on a appellé toute Cavalcade, Joute, Course, Exercice Militaire, &amp; Marche nombreuse, Carousel. Mais si dans ces derniers temps ces sortes de Spectacles semblent avoir diminué à cause du retranchement des <tech>Machines</tech>, ils ont augmenté d’une autre maniere, puis qu’au lieu d’une seule Personne qui couroit autrefois, on en voit présentement quatre dans la Carriere, qui en quatre endroits diférents attirent les regards des Spectateurs, &amp; forment un Spectacle plus attachant, plus continu, plus noble, &amp; où <pb n="3" xml:id="p3"/>l’adresse des Chevaliers se fait plus remarquer aux yeux des Personnes qui aiment les choses solides, que toute la pompe des <tech>Chars</tech>, qui n’ébloüissent que le Vulgaire. On ne sçauroit dire trop de choses à l’avantage des Carrousels ; ils sont d’un ancien usage, &amp; portent toutes les marques d’une institution sçavante. Ils ont fait de tous temps les Divertissemens des Princes, &amp; des Personnes de naissance. Tout ce que le Monde a jamais eu de plus galant, &amp; de plus spirituel, y a esté employé, &amp; l’Antiquité n’a rien de plus agreable, ny de plus ingénieux. <name>Stace </name>a dit Que c’estoit une Etude délicate, une Adresse des plus fines, &amp; un Divertissement qui fait voir les images de la Guerre au milieu de la Paix. Le Cirque estoit chez les Anciens le Lieu où les Carrousels se faisoient. Il estoit dedié au Soleil &amp; à <name>Neptune</name>, ce qui convient parfaitement bien au <persName key="louisxiv" role="commanditaire">Roy</persName>, que toute la Terre reconnoist aujourd’huy sous l’image du Soleil, &amp; à qui les Puissances Maritimes les plus redoutées sont venües rendre hommage depuis quelques années.</p>
+        <p>Les Jeux du Cirque, seuls aujourd’huy connus sous le nom de Carrousels, n’ont jamais esté condamnez comme tous les autres Jeux. On a toûjours <pb n="4" xml:id="p4"/> eu pour eux l’estime qu’on doit avoir pour des Exercices d’adresse, de valeur, &amp; d’appareil, &amp; ils passèrent pour Jeux innocens, apres qu’on leur eut ôté les marques de la Superstition. S’il y a de la noblesse dans la plûpart des autres Divertissemens, ceux-cy ne sont regardez que comme des Exercices laborieux ; tout le divertissement n’est que pour les Spectateurs, qui en goustent le plaisir sans aucun mélange de peine. Les sujets de ces Jeux doivent estre tirez de l’Histoire ou de la Fable, &amp; il faut qu’ils soient Militaires &amp; Guerriers, parce que les Exercices et les Courses des Carrousels sont Militaires. C’est par cette raison qu’on a souvent vû <persName key="louisxiv" role="commanditaire">le Roy</persName> y prendre plaisir, &amp; toûjours sous <tech>l’Habit Romain</tech>, &amp; avec la Devise du Soleil, remporter des Prix dans ces guerrieres &amp; galantes Festes, qu’il laissoit ensuite disputer à l’adresse des autres Cavaliers, apres que la sienne avoit triomphé, la gloire seule l’ayant toûjours animé, &amp; <persName key="louisxiv" role="commanditaire">Sa Majesté</persName> en ayant toûjours usé de cette sorte à l’égard des Prix dont l’agilité &amp; le sort décident. Les Carrousels estant, ainsi que l’on vient de voir, des Exercices laborieux, il ne faut pas s’étonner si <persName key="louisxiv" role="commanditaire">le Roy</persName> a fait choix de ce Divertissement pour faire plaisir à la Noblesse, en <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k311782s/f13">5</ref><pb n=""/>luy donnant des occupations utiles. Le dessein de faire un Carrousel ayant donc esté formé par <persName key="louisxiv" role="commanditaire">Sa Majesté</persName>, &amp; <persName key="louis_grand_dauphin" role="organisation">Monseigneur le Dauphin</persName> devant ordonner tout ce qui le regardoit, ce Prince souhaita que <persName key="saint_aignan" role="organisation">Monsieur le Duc de S. Aignan</persName>, Premier Gentilhomme de la Chambre de Sa Majesté, fort galant, &amp; accoûtumé à tous ces Exercices, luy proposast divers Sujets pour ce Carrousel, entre lesquels <persName key="louis_grand_dauphin" role="organisation">ce Prince</persName> &amp; <persName key="marie_anne_baviere" role="organisation">Madame la Dauphine</persName> dont l’esprit est tres-délicat &amp; tres-éclairé, choisirent celuy des Galans Maures de <placeName>Grenade</placeName>, &amp; firent dessein d’oposer au Party des <name>Abenserrages</name> celuy de <name>Zegris</name>, &amp; de joindre à ces deux Factions les Familles qui leur estoient alliées ; comme aux <name>Abenserrages</name>, les <name>Gasuls</name>, les <name>Alabeses</name>, &amp; les <name>Almoradis </name>; &amp; aux <name>Zegris</name>, les <name>Vanégues</name>, les <name>Goméles</name>, &amp; les <name>Maces</name>. Ce dessein estant ainsi résolu, On a donné de diférentes Couleurs aux dix Cavaliers des huit Brigades qui composent les deux Quadrilles, comme</p>
+        <p>Le Noir, &amp; Or.</p>
+        <p>Le Violet, Or &amp; Argent.</p>
+        <p>Le Grisdelin, &amp; Argent.</p>
+        <p>La Couleur de feu, Or &amp; Argent.</p>
+        <p>Le Verd, l’Or &amp; l’Argent.<pb n="6" xml:id="p6"/></p>
+        <p>Le Jaune &amp; l’Argent.</p>
+        <p>Le Cramoisy, Or &amp; Argent.</p>
+        <p>La Feüille-morte, &amp; l’Argent.</p>
+        <p>On vient de faire voir que les sujets des Carrousels sont ordinairement tirez de l’Histoire ou de la Fable, &amp; qu’ils doivent estre Militaires &amp; Guerriers. Il ne manque rien à celuy-cy pour estre un veritable Carrousel. Il est Historique, estant tiré de l’Histoire des Guerres Civiles de <placeName>Grenade</placeName>, &amp; il est Militaire et Guerrier, puis qu’il est composé de deux Partis, dont les cruels démeslez ont fait répandre beaucoup de sang à l’un &amp; a l’autre. Voicy un Extrait de ce que l’Histoire dit des sources de leur haine.</p>
+        <p><name>Ismaël </name>dixhuitiéme Roy de <placeName>Grenade</placeName>, estant mort en <date when="1465">1465</date>. <name>Muley Hazen son Fils</name> luy succéda. Celuy-cy eut un Fils nommé <name>Boaudilin</name>, &amp; un autre, qui fut le fruit d’un amour secret, &amp; qu’on appella <name>Muça</name>. L’Infant <name>Boaudilin</name> s’estant fait aimer de tous les Chevaliers de <placeName>Grenade</placeName>, qui se plaignoient de son Pere, fut fait par eux Roy, &amp; on l’appella <name>El Rey Chico</name>, qui veut dire, Le Roy Petit. D’autres Chevaliers prirent le party du Pere, en sorte qu’il y avait deux Roys à <placeName>Grenade</placeName>. Dans un grand Bal qui se fit un jour en présence <pb n="7" xml:id="p7"/> du <name>Roy Chico</name> &amp; de <name>la Reyne</name>, <name>Muça</name> envoya un Bouquet à <name>Darache </name>dont il estoit amoureux. <name>Darache </name>qui aimoit <name>Abenhamete</name>, Chevalier Abenserrage, prit le Bouquet à regret parce qu’elle n’osa le refuser, &amp; apres avoir dancé dans ce Bal avec <name>cet Abenserrage</name>, elle luy donna le Bouquet ; ce que <name>Muça</name> ayant vû, il s’avança vers <name>l’Abenserrage</name>, &amp; luy dit transporté de jalousie, Dy-moy, vil Descendant de Chrétiens, Chevalier mal né, sçachant que ce Bouquet a esté fait de ma main, &amp; que je l’ay envoyé à <name>Darache</name>, comment as-tu osé le prendre ? Sans le respect que j’ay pour le Roy, je châtierois tout-à-l’heure ton insolente temérité. Le brave <name>Abenserrage</name> tout enflamé de colere, luy répondit. Quiconque dira que je suis mal né, ment mille fois, car je suis bon Chevalier, et Fils de Noble, &amp; apres le Roy mon Seigneur il n’y a personne tel que moy. Là-dessus ils mirent l’Epée à la main, on les sépara, &amp; le Roy eust puny <name>Muça</name>, comme Autheur de la Querelle, si les Dames n’eussent obtenu sa grace. Ce trouble estant appaisé, il s’en émut un autre. Un des principaux Zegris dit à <name>Abêhamete</name>, Abenserrage, le Roy en donnant la faute à son Frere <name>Muça </name>n’a pas pris garde que vous avez dit, qu’apres <pb n="8" xml:id="p8"/> le Roy il n’y avoit point de Chevalier comme vous. Il n’est pas d’un Chevalier de se vanter comme vous avez fait, puis qu’il y en a beaucoup dans le Palais qui vous valent bien ; &amp; si ce n’étoit que je ne veux pas causer de troubles, je vous ferois acheter cher la parole que vous avez dite devant tant d’honnestes Chevaliers. La Malique<name> Alabez</name>, proche Parent des Abenserrages, dit au Zegri, Je m’étonne que vous soyez seul à vous piquer en un lieu où il y a un si grand nombre de braves Chevaliers. Il n’y avoit qu’à recommencer les troubles. Ce qu’a dit <name>Abenhamete</name> a esté bien dit, parce qu’on connoist fort bien qui sont &amp; d’où viennent tous les Chevaliers qu’on voit à <placeName>Grenade</placeName> ; &amp; ne croyez pas, vous autres Zegris, que parce que vous descendez des Roys de <placeName>Cordouë</placeName>, vous soyez meilleurs ny tels que les Abenserrages, qui sont naturels de <placeName>Marroc</placeName> &amp; de <placeName>Fez</placeName>, Descendans des Roys de ce Païs, &amp; du grand <name>Miramolin</name>, puis que vous sçavez que les <name>Almoradis</name> sont de cette Maison Royale de <placeName>Grenade</placeName>, aussi de lignage de Roys d’Afrique ; &amp; quant à nous autres les <name>Maliques Alabeses</name>, vous n’ignorez pas que nous descendons du <name>Roy Almohabez</name>, Signeur du celebre Royaume de <placeName>Cuco</placeName>, &amp; Parens <pb n="9" xml:id="p9"/> des fameux <name>Maliques</name>. Or où tous ceux dont je parle ont bien voulu se taire, ce n’est pas à vous à faire de nouveaux débats.</p>
+        <p>Ce que je dis est la verité, qu’après le Roy, il n’y a point de Chevaliers comme les Abenserrages, &amp; qui dit le contraire, ment, &amp; je ne le tiens pas pour noble. Les Zegris, les Gomeles, &amp; les Maces, qui estoient tous d’un Party, entendant cela, voulurent donner la mort à l’Alabez, les Alabeses, les Abenserrages, &amp; les Almoradis, qui estoient du Party contraire, les défendirent. <name>Le Roy</name> empescha le desordre. On mit l’Alabez prisonnier dans l’<placeName>Alhambre</placeName>, &amp; le Zegri dans les <placeName>Tours Dermeilles</placeName> ; &amp; enfin le different fut accomodé. On fit pour cela une Feste publique de Tournois &amp; de Taureaux. Cette Feste fut ce qui augmenta l’inimitié entre les Abenserrages, &amp; les Zegris. Ces derniers se souvenoient avec chagrin de ce que l’Alabez avoit dit, &amp; il estoit d’ailleurs arrivé une autre chose dont ils vouloient se vanger. Un Abenserrage aimé de <name>Zaide</name>, une des plus belles Maures en receut un jour un tissu de ses cheveux qu’il mit à son Turban, &amp; parla de cette faveur receuë au Maure <name>Audalla Tarfe</name>, son Amy. Celuy-cy qui <pb n="10" xml:id="p10"/> aimoit secrettement <name>Zaide</name>, jaloux du bonheur de l’Abenserrage, résolut de le troubler, en disant un jour à <name>Zaide</name> qu’elle prit garde à qui elle faisoit des faveurs, parce que l’Abenserrage se vantoit à tout le monde du Present qu’elle luy avoit fait de ses cheveux. <name>Zaide</name> ne voulut plus voir l’Abenserrage, qui desesperé des mépris de sa Maitresse, resolut de se vanger de <name>Tarfe</name>. Il se trouva dans la <placeName>Place de Vivaramble</placeName> luy fit mettre la main à l’Epée, &amp; le laissa si blessé qu’il mourut six jours apres. <name>Tarfe</name> estoit amy des Zegris. <name>Mohamad Zegri</name> qui estoit le Chef de cette Famille, leur propsa de prendre l’occasion de se vanger dans la Feste de Tournoy. <name>Muça</name> fut le Chef de la Quadrille des Abenserrages, si aimez à <placeName>Grenade</placeName>, qu’il n’y en avoit aucun qui ne fust favorisé des plus belles Dames. Le Malique<name> Alabez</name> dont on a parlé, estoit de la mesme Quadrille. <name>Mahomad Zegri</name>, Chef de celle des Zegris, apres avoir fait six Courses, se fit donner une Lance qui avoit un fer aigu, &amp; la jetta contre l’Alabez avec tant de force, que le fer luy perça l’Ecu &amp; le bras. L’Alabez se voyant blessé &amp; plein de sang, cria qu’il y avoit de la trahison. Les Abenserrages prirent leurs Lances, &amp; l’Alabez <pb n="11" xml:id="p11"/> traversant avec furie la Quadrille de <name>Mahomad</name> qui s’en retournoit à son poste, choisit <name>Mahomad</name> pour l’attaquer, comme ayant esté blessé de luy, &amp; luy jetta sa Lance si fortement, que malgré un Cote de maille qui le couvroit, elle luy perça le Corps, dont il tomba mort. Là-dessus les Abenserrages commencérent un sanglant Combat ; &amp; comme ils s’estoient munis de Cotes de maille, dans le dessein qu’ils avoient de ne faire pas un Jeu de cette Feste, ils eussent eu l’avantage sur leurs Ennemis, sans l’extréme valeur des Abenserrages. Le Roy fit cesser ce Combat. Les Gomeles &amp; les Maces s’estoient mis du Party des Zegris, qui emportérent le corps de <name>Mahomad</name>. Les Almoradis soûtenoient les Abenserrages. Il y eut beaucoup de monde tué de part &amp; d’autre, &amp; depuis ce jour l’inimitié fut mortelle entre ces deux Familles.</p>
+        <p>Ces deux Partis sont divisez en huit Brigades dans le Carrousel de <persName key="louis_grand_dauphin" role="organisation">Monseigneur le Dauphin</persName>, &amp; portent les huit Couleurs qui viennent d’estre marquées. Outre ces huit couleurs, il y en a encore trois autres, les deux Chefs de Quadrilles &amp; le Maréchal de Camp General, en ayant de diférentes, comme on verra dans la suite.</p>
+        <p><pb n="12" xml:id="p12"/>Tout ce qui compose cette pompeuse Cavalcade, doit partir de la <placeName>seconde Cour du Château</placeName>, pour se rendre dans la Carriere où l’adresse de tout ce que la <placeName>France</placeName> a de plus illustre Noblesse doit paroistre.</p>
+        <p>Deux Trompettes ouvriront la Marche, &amp; seront suivies de <persName key="hyacinthe_dumont" role="participant">Mr du Mont, Major des Quadrilles</persName>, sous le nom de <name>Caraman</name>. <tech>Son Habit sera incarnat, tout brodé d’argent</tech>, &amp; d’un dessein diférent de ceux qui sont de la mesme couleur.</p>
+        <p>Quatre-vingt Pages des Chevaliers de la Quadrille de <persName key="louis_grand_dauphin" role="participant">Monseigneur le Dauphin</persName> paroistront ensuite, vestus des Couleurs des quatre Brigades de cette Quadrille, dont le meslange produira une agreable &amp; riche diversité. Ils seront avantageusement montez, &amp; porteront les Ecus de leurs Maistres.</p>
+        <p>Les six Pages des deux Maréchaux de Camp de la mesme Quadrille, paroistront ensuite, &amp; marcheront trois à trois.</p>
+        <p>Ils seront suivis des Trompettes &amp; Timbaliers de <persName key="saint_aignan" role="participant">Monsieur le Duc de S. Aignan, Maréchal de Camp General.</persName></p>
+        <p>Ce Duc sous le nom d’<name>Abenamin</name> suivra, avec quatre Estafiers à ses Etriers, portans des Batons dorez. <pb n="13" xml:id="p13"/></p>
+        <p>Deux de ses Pages porteront, l’un sa Lance, &amp; l’autre son Ecu ; &amp; deux autres seront chargez de ses Dards.</p>
+        <p><persName key="saint_aignan" role="participant">Monsieur le Duc de S. Aignan</persName> sera vestu d’une <tech>Cuirasse à l’antique de lames d’argent, ornée de Broderie tout or, &amp; d’Echarpes de Rubi</tech>s. Son <tech>Casque sera d’argent, &amp; de Feüilles d’or bruny, chargé d’un Sphinx d’or, qui soûtiendra quinze Plumes toutes blanches, &amp; quinze autres mouchetées d’incarnat, &amp; de noir, avec une Aigrete de Heron. Le devant de ce Casque sera orné de Rubis, son Sonnelet sera de Satin incarnat brodé de feüillages d’or, d’argent &amp; de Rubis.</tech> L’Epée &amp; le Ceinturon en seront aussi garnis, il aura l’Epée à la main pendant la marche, aussi bien que les autres Officiers Genéraux. <tech>Son Cheval sera fort superbe, sa Housse fera de la mesme richesse que l’Habit qu’on vient de décrire. Un Bouquet de Plumes comme celles du Casque ornera la teste du Cheval</tech>, dont les allures ne s’accomoderont pas mal à la fierté, que le Maistre fera paroistre sous les armes. Ses Pages &amp; ses Estafiers, ses Trompettes &amp; son Timballier porteront les mesmes Couleurs, que ceux de <persName key="louis_grand_dauphin" role="participant">Monseigneur le Dauphin</persName>, qui sont Incarnat <pb n="14" xml:id="p14"/> &amp; d’argent, mais le dessein des Habits sera different ; &amp; comme il est Maréchal de Camp Genéral, on a mêlé un peu de noir parmy l’Incarnat, afin que les Couleurs eussent quelque chose qui marquast un Equipage particulier. Ceux des deux Maréchaux de Camp de la premiere Quadrille auront les mesmes couleurs.</p>
+        <p>Avant que d’entrer dans le détail d’aucune des devises qui doivent paroistre à ce Carrousel, on doit dire que la Devise est une expression ingénieuse de quelque passion secrette, &amp; quelle sert à faire l’aplication, d’une proprieté naturelle de quelque corps sensible à une qualité morale. On exprime par là ses sentiments d’une maniere ingenieuse. Les Maures, &amp; les Arabes les expliquoient seulement par des couleurs, l’Alcoran leur ayant défendu toutes sortes de Figures, il ne resta que ces deux voyes d’exprimer leurs pensées par des choses sensibles, &amp; c’est d’eux que nous est venuë l’explication des Couleurs ; mais elles ne sont pas aujourd’hui si mystérieuses qu’elles estoient sous les Maures : ce n’est pas qu’ils ayent toujours si exactement observé l’Alcoran, qu’ils n’ayent quelquefois pris des Devises figurées. On en trouvera de toutes manieres parmy le grand <pb n="15" xml:id="p15"/> nombre de celles, qui entrent dans ce Carrousel.</p>
+        <p>La Devise de <persName key="saint_aignan" role="participant">Monsieur le Duc de S. Aignan</persName> est un Diamant taillé à facettes, &amp; sans estre mis en œuvre, avec ces mots.</p>
+        <p ana="devise">Da ogni parte fiammeggia.</p>
+        <p>Voicy l’Explication que <persName key="claude_vertron" role="auteur">Mr de Vertron</persName> en a faite.</p>
+        <l>A la Cour, au Parnasse, &amp; dans le Champ de Mars,</l>
+        <l>Ce Guerrier intrépide agit toûjours de même ;</l>
+        <l>Son esprit, sa vigueur, &amp; sa valeur extrême,</l>
+        <l>Comme le Diamant brillent de toutes parts.</l>
+        <p><persName key="henri_casaus" role="participant">Monsieur de Casaux</persName> se fera ensuite remarquer avec l’Ecu de <persName key="louis_grand_dauphin" role="participant">Monseigneur le Dauphin</persName> qu’il portera, sur lequel il y aura trois Couronnes pour Devise ; sçavoir une Couronne de Dauphins au milieu, une de Myrthe à l’un des costez, &amp; une de Laurier à l’autre, avec ces paroles.</p>
+        <p ana="devise">Las Merece</p>
+        <p>Voicy des Vers qui ont esté faits sur cette Devise. <pb n="16" xml:id="p16"/></p>
+        <l>Pour le mieux couronner, le Sang, l’Amour, la Gloire,</l>
+        <l>Se sont disputé la victoire.</l>
+        <l>Ces couronnes d’un prix à qui tout doit ceder</l>
+        <l>Rendent sa grandeur sans limite,</l>
+        <l>Heureux qui peut les posseder,</l>
+        <l>Mais plus heureux qui les mérite.</l>
+        <p>Il sera superbement monté, &amp; son <tech>Habit sera incarnat, &amp; brodé d’argent</tech>. Vingt Pages de <persName key="louis_grand_dauphin" role="participant">Monseigneur le Dauphin</persName> le suivront. Ils seront <tech>vestus en Africains, avec des Habits incarnat brodez d’Arabesques d’argent. Leur chaussure sera en Brodequins, &amp; leurs Plumes incarnat &amp; blanc. Les Housses de leurs Chevaux seront de la mesme couleur de leurs Habits, &amp; aussi brodées d’argent, &amp; les Harnois de mesme, &amp; en chanfrin, les testes de leurs Chevaux seront aussi ornées de Plumes incarnat &amp; blanc.</tech></p>
+        <p><persName key="léon_dugard" role="participant">Monsieur du Gast</persName>, &amp; <persName key="valentin_neuville" role="participant">Monsieur de Neuville</persName>, Ecuyers de la Grande Ecurie, marcheront ensuite, portant l’un la Lance de <persName key="louis_grand_dauphin" role="participant">Monseigneur le Dauphin</persName>, &amp; l’autre ses Dards.</p>
+        <p>Deux Timbaliers &amp; huit Trompettes suivront ces deux Ecuyers. Leurs Habits doivent estre tres-riches, &amp; de la mesme couleur que ceux des Pages, mais d’un dessein diférent. <pb n="17" xml:id="p17"/></p>
+        <p><persName key="louis_grand_dauphin" role="participant">Monseigneur le Dauphin</persName> sous le nom de <name>Muce</name>, que ce Prince a choisy luy-mesme, &amp; monté sur un <tech>Cheval d’Espagne bay</tech>, appellé le Glorieux, se fera ensuite remarquer au milieu de vingt Valets de pied portant des Dards, &amp; sera moins distingué par la foule qui l’environnera, que par la bonne mine qu’il a à cheval ; &amp; si, comme il s’est pratiqué en beaucoup de Carrousels, il y avoit un Prix pour le plus bel Homme de cheval, &amp; qui a la meilleure grace les armes à la main, ce Prix ne luy seroit pas disputé par ceux mesme à qui ce Prince seroit inconnu.</p>
+        <p>Il aura derrier luy <persName key="gassion" role="participant">Mr de Gassion</persName>, Enseigne des Gardes du Corps, &amp; <persName key="isaac_courtin" role="participant">Mr de Saussoy</persName>, Ecuyer du Roy, &amp; servant présentement auprés de <persName key="louis_grand_dauphin" role="participant">Monseigneur le Dauphin</persName>.</p>
+        <p>Les vingt Valets de pied qui l’environneront seront <tech>vestus en Africains</tech>, &amp; la richesse de leurs Habits sera presque égale à celle des Habits des Pages, qu’on vient de décrire. L’Habit de <persName key="louis_grand_dauphin" role="participant">Monseigneur le Dauphin</persName> sera <tech>brodé d’argent sur un fonds d’incarnat vif, les Gances des Fleurons seront de petits Rubis &amp; Diamans, &amp; toutes les tailles en seront marquées par une Mosaïque de Velours noir decoupée, &amp; brodée d’or qui enchasse</tech> <pb n="18" xml:id="p18"/><tech> de petits Rubis &amp; Diamans. L’Habit est fermé par de grandes Boutonnieres d’or, dont les petits Ornements sont de Rubis &amp; de Diamans. Le Tonnelet est brodé de mesme le corps, &amp; garny de mesmes Boutonnieres. Il est separé en huit Basques. Dans le milieu de chacune on voit une Teste brodée en Bas relief, &amp; coëfée d’une petite Chaîne de Rubis &amp; de Diamans, qui entrelasse ses cheveux. Une Campane d’argent en feüille de Jasmin, borde les Basques du Tonnelet. La poignée de l’Epée, le Fourreau, &amp; le Porte-Epée, sont garnis de Rubis et de Diamans. Un Collier tout de Pierreries luy sert de Cravate. Sa Coëfure en forme de petit Turban formé de taillades à jour, est de Velours noir, tout garny de Rubis &amp; de Diamans enchassez dans de l’or. Ses Plumes sont blanches, mouchetées d’incarnat, &amp; surmontées d’une Aigrette noire. La Housse du Cheval de Parade est extraordinaire pour le dessein &amp; pour la richesse. C’est un Compartiment Arabesque, decoupé, &amp; brodé d’or. Des Pierreries sont enchassées dans cette Broderie, de mesme que dans celle de l’Habit. Le fonds incarnat est brodé de grands Fleurons qui entrelassent l’Arabesque de Velours.</tech><pb n="19" xml:id="p19"/><tech> Toutes les graines de la nerveure de la Broderie sont de Rubis &amp; de Diamans. Tous les contours de la Housse sont ornez de petits Festons de Point d’Espagne d’argent, garnis de Pierreries, aussi-bien que le Harnois du mesme Cheval.</tech></p>
+        <p><tech>Le Cheval</tech> sur lequel <persName key="louis_grand_dauphin" role="participant">Monseigneur le Dauphin</persName> doit coure est Isabelle, &amp; nommé le Parfait. Sa <tech>Housse est brodée sur un fonds incarnat coupé en manière de Lambrequins, sur chacun desquels on voit une Teste brodée en Relief, avec des Ornemens</tech> pareils aux Basques de l’Habit de ce Prince. Le <tech>Harnois est incarnat, tout brodé d’argent, avec des Roses de Rubis &amp; de Diamans, ainsi que les Bossettes, la Musiliere &amp; le Fronteau. L’Aigrette qui orne la teste de ce Cheval, est en maniere de Soleil.</tech></p>
+        <p>Monsieur le <persName key="philippe_dangeau" role="participant">Marquis de Dangeau</persName>, l’un des Maréchaux de Camp de la Quadrille de <persName key="louis_grand_dauphin" role="participant">Monseigneur le Dauphin</persName>, est à la teste de vingt Chevaliers de cette Quadrille. Il est entouré de trois Estafiers. Il seroit difficile de rien voir de plus magnifique que son Habit. Il a les mesmes Couleurs que le Maréchal de Camp Genéral. Sa Devise est un Oranger chargé de Fleurs &amp; de Fruits, avec ces paroles.</p>
+        
+          <pb n="20" xml:id="p20"/>
+          <p ana="devise">F
+        
+          ert Autumni 
+        
+        
+          et
+        
+         V
+        
+          eris honores
+</p>
+        <l>Il a dequoy s’applaudir en tout temps</l>
+        <l>De la gloire qui l’environne.</l>
+        <l>Regardez-le dans son Printemps,</l>
+        <l>La beauté de ses Fleurs étonne ;</l>
+        <l>Regardez-le dans son Automne,</l>
+        <l>Peut-il avoir des Fruits plus éclatans ?</l>
+        <p>On trouvera à la fin de ce Livre les Devises, avec l’Explication de la plus grande partie, de mesme que celles qu’on vient de voir.</p>
+        <p>Voicy les noms des Chevaliers de la premiere Quadrille, selon l’ordre qu’ils paroistront, &amp; mesme les noms des Personnes qu’ils représentent dans ce Carrousel.</p>
+        <div>
+          <head>CHEVALIERS ABENSERRAGES.</head>
+          <!--section=Sect1-->
+          <p><persName key="blanchefort_crequy" role="participant">Monsieur le Marquis de Créquy</persName>, <name>Zelebin</name></p>
+          <p><persName key="louis_nangis" role="participant">Monsieur le Marquis de Nangis</persName>,<name>Zuleme</name></p>
+          <p>
+            <persName key="henri_brionne" role="participant">Monsieur le Comte de Brionne,</persName>
+            
+            
+            
+            <name>Abindarays</name>
+          </p>
+          <p><persName key="charles_trémoille" role="participant">Monsieur le Duc de la Trimoüille</persName>,<name>Zayd</name></p>
+          <p><persName key="philippe_vendome" role="participant">Monsieur le Grand Prieur</persName>, <name>Abenamar</name></p>
+          <p><persName key="louis_mailly" role="participant">Monsieur de Mailly</persName>, <name>Hamat</name></p>
+          <p><persName key="francois_rocheguyon" role="participant">Monsieur de la Rocheguion</persName>, <name>Muley Hassen</name></p>
+          <p><persName key="henri_elbeuf" role="participant">Monsieur le Prince d’Elbeuf</persName>, <name>Zarcan</name></p>
+          <p><persName key="louis_vendome" role="participant">Monsieur le Duc de Vendosme</persName>, <name>Moraysel</name></p>
+          <p><persName key="jean_louis_fiesque" role="participant">Monsieur le Comte de Fiesque</persName>, <name>Albayad</name></p>
+          <p><pb n="21" xml:id="p21"/>Ces Chevaliers auront chacun une Lance à la main, &amp; des Estafiers à costé d’eux. Leurs Couleurs sont Or &amp; Noir. Le fond des <tech>Habits des Chevaliers est d’une Etofe lamée d’or, sur laquelle il y a un Compartiment de Velours noir decoupé, &amp; enrichy de Roses de Diamans &amp; de Rubis, enchassez dans la Broderie d’or. Les fonds de la Lame, qui paroissent entre les Compartiments de Velours, sont rebrodez d’or mat sur les fonds brillans, de manière qu’il semble que ce soient des Habits de Velours noir decoupez, sur des Habites de Toile d’or. Les Coëfures sont dans le mesme goust, &amp; ornées de Plumes noires mouchetées d’Aurore, avec une Aigrette blanche dans le milieu.</tech> Les <tech>Housses des Chevaux sont à jours, &amp; brodées d’or comme les Habits, &amp; garnies de Rubis &amp; de Diamans. Les Bas sont noirs, &amp; brodez d’or, &amp; lassez en maniere de Brodequin à jour, tout garny de Pierreries.</tech></p>
+          <p>Les <tech>Habits des Pages sont à fond noir, &amp; brodez d’or. Leurs Housses sont de mesme, &amp; les Habits des Estafiers sont presque d’une égale richesse. Toutes les Lances de cette Brigade sont noires, &amp; remplies d’Ornemens d’or.</tech> Elle doit <pb n="22" xml:id="p22"/> estre suivie de celle des Gazules. Ils marcheront la Lance à la main, &amp; en cet ordre.</p>
+        </div>
+        <div>
+          <head>
+            <name>GAZULES</name> .
+                     </head>
+          <p><persName key="anton_furstenberg" role="participant">Monsieur le Prince de Furstemberg</persName>, <name>Gazul</name></p>
+          <p><persName key="camille_lorraine" role="participant">Monsieur le Prince Camille</persName>, <name>Ortobule</name></p>
+          <p>
+            <persName key="louis_chamarande" role="participant">Monsieur de Chamarante,</persName>
+            
+            
+            
+            <name>Almadan</name>
+          </p>
+          <p><persName key="louis_bellefonds" role="participant">Monsieur le Marquis de Bellefond</persName>, <name>Almida</name></p>
+          <p><persName key="louis_nesle" role="participant">Monsieur le Marquis de Nelle</persName>, <name>Morat</name></p>
+          <p><persName key="charles_koegnismark" role="participant">Monsieur de Coniksmarc</persName>, <name>Aladul</name></p>
+          <p><persName key="louis_rohan" role="participant">Monsieur le Prince de Rhoan</persName>, <name>Reduan</name></p>
+          <p><persName key="antoine_roquelaure" role="participant">Monsieur le Duc de Roquelaure</persName>, <name>Abdalla</name></p>
+          <p><persName key="charles_tingry" role="participant">Monsieur le Prince de Tingry</persName>, <name>Abaza</name></p>
+          <p><persName key="louis_rochefort" role="participant">Monsieur le Marquis de Rochefort</persName>, <name>Mecmet</name></p>
+          <p>Les Chevaliers de cette Brigade ont pour Couleurs, Violet &amp; Argent. Ils ont de grandes <tech>Vestes fermées par devant, avec de riches Boutonnieres d’or, ornées de Rubis &amp; de Diamans. Un Turban envelopé de Chaînes de Pierreries, leur sert de Coëfure. Leurs Housses sont à fond violet, brodées d’or, en manière de Caparaçon.</tech> Tous les Habits de cette Brigade, jusques à ceux des Estafiers, sont si magnifiques, qu’elle peut estre appellée la Riche.</p>
+          <p>Monsieur le <persName key="antoine_iv_de_gramont" role="participant">Duc de Gramont</persName>, aussi Maréchal <pb n="23" xml:id="p23"/> de Camp de la premiere Quadrille, sous le nom d’<name>Ibrahim</name> paroîtra ensuite à la teste des vingt Chevaliers restans de la mesme Quadrille, dont voicy les noms.</p>
+        </div>
+        <div>
+          <head>
+            <name>ALABESES</name>
+            .
+          </head>
+          <p><persName key="francois_hautefort" role="participant">Monsieur le Marquis de Hautefort</persName>, <name>Alabez</name></p>
+          <p><persName key="la_chastre" role="participant">Monsieur le Marquis de la Chastre</persName>, <name>Almanzor</name></p>
+          <p><persName key="francois_broglio" role="participant">Monsieur le Chevalier de Broglio</persName>, <name>Cidhamet</name></p>
+          <p><persName key="n_brassac" role="participant">Monsieur le Comte de Brassac</persName>, <name>Zelindor</name></p>
+          <p><persName key="louis_antin" role="participant">Monsieur Dantin</persName>, <name>Alhamin</name></p>
+          <p><persName key="esprit_trainel" role="participant">Monsieur de Trenel</persName>, <name>Ramire</name></p>
+          <p><persName key="michel_villacerf" role="participant">Monsieur de Villacerf</persName>, <name>Aldoradin</name></p>
+          <p><persName key="jacques_livry" role="participant">Monsieur le Marquis de Livry</persName>, <name>Orcame</name></p>
+          <p><persName key="jacques_medavy" role="participant">Monsieur de Médavy</persName>, <name>Helyhamte</name></p>
+          <p><persName key="pierre_listenois" role="participant">Monsieur de Listenoy</persName>, <name>Alderic</name></p>
+          <p>Le Grisdelin &amp; Argent brillent dans cette Brigade, puis que ces dix Chevaliers le portent pour Livrée. Leur <tech>Habit est en maniere de Veste, avec une Mosaïque réguliere brodée d’argent, &amp; dans chaque Fleuron, il y a une Emeraude. Deux manieres d’Echarpes de Velours noir brodé d’or, traversent tout le devant &amp; le derriere du corps. Il y a dans le milieu du devant, une Enseigne de Pierreries qui</tech> <pb n="24" xml:id="p24"/><tech>attache ces deux Echarpes. La Coëfure est d’une Etofe d’argent rayée grisdelin &amp; or, &amp; faite en Turban, &amp; les Plumes sont blanches &amp; grisdelin. Les Housses font en maniere de Reseau fort large. Les croisades de chaque Reseau sont noüées d’un Noeud de Diamans, &amp; ce Reseau est brodé de Fleurons, &amp; bordé d’une large bande de grisdelin, avec des Fleurons d’argent, ornez d’Emeraudes &amp; de Diamans.</tech></p>
+          <p><tech>Les Habits des Pages sont en partie de peau de Tigre, &amp; de Reseau d’or, au travers duquel on croit voir la chair. Leur Coëfure paroist une teste naturelle de Leopard, &amp; elle est couverte de Plumes de grisdelin. Ces Pages sont armez d’Arcs &amp; de Fléches. La Housse de leurs Chevaux est une peau de Tigre, dont les deux moitiez de teste se viennent rassembler au poitrail.</tech> Les Estafiers sont aussi tres-richement vestus, &amp; dans le mesme goust que le reste de la Brigade. Les Lances de ceux qui la composent sont grisdelin, &amp; toutes remplies d’Ornemens d’argent, &amp; l’on peut dire que ces Chevaliers remporteroient le Prix de la Galanterie, si l’on en donnoit encore aux Carrousels. Ceux qui les suivent ne surprendront pas moins par la richesse de leurs <pb n="25" xml:id="p25"/> Habits. C’est la Brigade des Almoradis. Ils sont accompagnez chacun de deux Estafiers &amp; marchent la Lance à la main.</p>
+        </div>
+        <div>
+          <head>
+            <name>ALMORADIS</name>
+            .
+          </head>
+          <p><persName key="antoine_colbert" role="participant">Monsieur le Chevalier Colbert</persName>, <name>Almorady</name></p>
+          <p><persName key="charles_coatelles" role="participant">Monsieur Cœdelet</persName>, <name>Zagabi</name></p>
+          <p><persName key="georges_pleumartin" role="participant">Monsieur le Marquis de Plumartin</persName>, <name>Odomar</name></p>
+          <p><persName key="joachim_bouzols" role="participant">Monsieur de Bouzoles</persName>, <name>Azahide</name></p>
+          <p><persName key="gaston_mirepoix" role="participant">Monsieur de Mirpoix</persName>, <name>Almohabes</name></p>
+          <p><persName key="francois_roucy" role="participant">Monsieur le Comte de Roucy</persName>, <name>Azarque</name></p>
+          <p><persName key="claude_thiange" role="participant">Monsieur de Tiange</persName>, <name>Delimant</name></p>
+          <p><persName key="joseph_castries" role="participant">Monsieur de Castres</persName>, <name>Omar</name></p>
+          <p><persName key="rené_lafayette" role="participant">Monsieur le Comte de la Fayette</persName>, <name>Almeric</name></p>
+          <p><persName key="carlo_frabose" role="participant">Monsieur de Palavichin</persName>,<name>Benavide</name></p>
+          <p>On ne peut rien voir de plus magnifique que leurs Habits. Le corps est une <tech>Armure Africainedont le fond est couleur de feu, avec une Teste de</tech><name>Méduse</name><tech> brodée d’or dans le milieu du corps. Toutes les Bordures de l’Habit sont brodées d’or sur du noir, &amp; tout le fond couleur de feu est brodé d’Ornemens d’argent. Le Tonnelet coupé en plusieurs Basques rondes, est de la mesme richesse que le corps. Les Manches, qui sont de Point d’Orillac, or &amp; argent, en</tech><pb n="26" xml:id="p26"/><tech> manière de Chemise, &amp; à jour, sont resserrées par trois Bracelets de Diamans &amp; de Rubis, &amp; tout l’Habit est orné de Diamans &amp; d’Emeraudes. La Coëfure est de Velours noir, brodée d’or, &amp; ornée de Rubis &amp; de Diamans. Les Plumes sont couleur de feu, montées en chanfrin, avec une Aigrette noire. Ces Chevaliers ont une maniere de Colier de Velours noir brodé d’or, &amp; couvert de Rubis &amp; de Diamans. Leur Peruque est courte par devant, &amp; tombe en rond derriere le dos, avec quatre grandes Nattes lassées de Perles, de Rubis &amp; de Diamans. La Garde de leur Epée, &amp; le Fourreau sont couverts de Pierreries, &amp; les Lances couleur de feu, &amp; peintes d’Ornemens d’argent. Plusieurs Bandes en manière de Chaînes forment les Housses, &amp; se viennent toutes rassembler autour d’une Teste de Méduse, des deux costé de la croupe du Cheval. Le vuide de toutes ces Bandes de Chaînes, est un Raiseau d’or à jour, &amp; l’on voit encore une Teste de</tech><name>Méduse</name><tech> dans le milieu du poitrail, où se viennent attacher les deux côtez de la Housse. Tout le Harnois de la Teste du Cheval est couleur de feu, brodé d’Ornemens d’argent, &amp; couvert de Diamans &amp; d’Emeraudes.</tech><pb n="27" xml:id="p27"/><tech>Les Bossettes, la Musilliere &amp; le Fronteau, en sont aussi chargées, &amp; les Plumes des Chevaux sont de mesme couleur que celles des Chevaliers, &amp; montées de mesme. Le crin des Chevaux est attaché en manière de Festons, &amp; noüé de Rubans, avec une Rose de Diamans, sur le nœud. Les Habites des Pages &amp; des Estafiers répondent à ceux des Chevaliers, &amp; sont aussi ornez de Broderie.</tech></p>
+          <p>Cette Quadrille sera suivie de celle que commande <persName key="louis_iii_bourbon" role="participant">Monsieur le Duc de Bourbon</persName>.</p>
+          <p>Les deux Chefs &amp; leur Equipage ayant des Couleurs particulieres, ainsi qu’on l’a déjà marqué, celles de <persName key="louis_iii_bourbon" role="participant">Monsieur le Duc de Bourbon</persName> seront Bleu, Or &amp; Argent, &amp; ses Couleurs commenceront à se faire remarquer sur les Habits de deux Tymbaliers &amp; de six Trompettes, qui seront aussi galamment, que richement vétus. <persName key="louis_iii_bourbon" role="participant">Monsieur le Duc de Bourbon</persName> paroistra ensuite sous le nom de <name>Abderame</name>, entouré de dix Valets de pied <tech>vétus en Négres. L’Habit de ce Prince est une Veste dont le fond est bleu. Toutes les Tailles, Boutonnieres &amp; Ceintures sont brodées d’Or mat, rebrodé de petites Fleurs d’Or brillant, qui enchassent des Rubis &amp; des Diamans</tech>, <pb n="28" xml:id="p28"/><tech> &amp; tout le plein de l’Habit, est brodé d’Argent en compartimens, où sont enchassées d’autres petites Pierreries. La Coeffure est un Turban d’une Etoffe à fond d’Argent rayé d’Or, &amp; de Bleu ; enrichy de plusieurs Festons de Rubis</tech>, &amp; sa grande magnificence n’empesche pas qu’on n’y remarque une manière galante.</p>
+          <p><tech>Son Colier est de Velours Noir enrichy de Pierreries. Il a pour chaussure un Bas de Soye bleu, brodé Or &amp; Argent, &amp; brodequin à jour orné de Rubis, &amp; de Diamans</tech>. La <tech>Housse de son Cheval de parade sera à jour, &amp; orné de quantité de Festons brodez d’Or. Les Fleurs des Festons sont formées dans la broderie par des Rubis, &amp; des Diamans, la Testiere &amp; la Bride du Cheval, sont d’une broderie or &amp; argent sur un fond bleu, avec quantité de Pierreries, les Bossettes &amp; les Estriers en sont aussi couverts. Une Aigrette de Pierreries, brille sur la teste du Cheval, &amp; par dessus cette Aigrete, plusieurs Plumes bleuës &amp; blanches s’élevent en chanfrein.Le Housse du Cheval n’est pas moins magnifique, elle est aussi brodée sur un fond bleu, &amp; assortit tres-bien à l’Habit.</tech></p>
+          <p><persName key="louis_iii_bourbon" role="participant">Monsieur le Duc de Bourbon</persName> sera au milieu <pb n="29" xml:id="p29"/> de <tech>dix Nègres</tech>. Leurs <tech>Vestes font à bandes or &amp; bleu. Ces bandes sont jointes par entrepoils par des Raizeaux d’argent à jour, au travers desquels on voit des Caleçons de Satin noir, dont le luisant represente tres-bien la peau du Negre. Ils sont armez d’Arcs, de Carquois, &amp; de Coliers d’argent, &amp; ont tous des Pendants d’oreilles. Leur Turban est grand &amp; de forme bizarre, &amp; des Plumes bleuës &amp; blanches s’élevent au dessus.</tech></p>
+          <p><persName key="emmanuel_usez" role="participant">Monsieur le Duc d’Usez</persName>, Maréchal de Camp de cette Quadrille, sous le nom d’<name>Amurat</name>, suivra <persName key="louis_iii_bourbon" role="participant">Monsieur le Duc de Bourbon</persName>, &amp; sera à la teste des Zegris &amp; des Vanegues trois Estafiers environneront ce Duc, dont <tech>l’Habit sera d’une fort riche Etoffe, resserée par plusieurs Ceintures de Pierreries enchassées dans de la broderie d’or sur un fond bleu : ce qui forme une manière d’armure Africaine. Il a pour coeffure un Turban dont l’Etofe quoy que fort riche, est lassée de Pierreries. Une Creste s’éleve audessus de ce Turban, &amp; il en sort des Plumes bleuës &amp; blanches. Il a un Bas de Soye bleu brodé d’or, avec des brodequins à jour, &amp; son Sabre est garny de Pierreries</tech>. La <tech>Housse de son Cheval</tech>, égale presque son Habit en beauté &amp; richesse. <pb n="30" xml:id="p30"/></p>
+          <p>Les Zegris qui le suivent la Lance à la main, sont accompagnez chacun de deux Estafiers. Il faut remarquer que tous les Chevaliers qui composent ce Carrousel, portent eux-mesmes leur Lance, ce qui ne s’estoit pas encor pratiqué. Mais comme on a remarqué la bonne grace qu’ils avoient à la porter, on a jugé à propos de les faire voir les armes à la main à ceux qui n’auroient que le plaisir de la marche.</p>
+        </div>
+        <div>
+          <head>
+            <name>ZEGRIS</name>
+          </head>
+          <p><persName key="charles_blanzac" role="participant">Monsieur de Blanzac</persName>,<name>Mahomad</name></p>
+          <p>
+            <persName key="antoine_valentinois" role="participant">Monsieur de Valentinois,</persName>
+            
+            
+            
+            <name>Zelim</name>
+          </p>
+          <p><persName key="henri_fr_ferté" role="participant">Monsieur le Duc de la Ferté</persName>,<name>Dragut</name></p>
+          <p><persName key="francois_alincourt" role="participant">Monsieur le Marquis d’Alincourt</persName>,<name>Tharsis</name></p>
+          <p>
+            <persName key="maximilien_henri_sully" role="participant">Monsieur le Chevalier de Sully,</persName>
+            
+            
+            
+            <name>Audalsa</name>
+          </p>
+          <p><persName key="paul_frique" role="participant">Monsieur de Sainte Frique</persName>,<name>Mohavide</name></p>
+          <p><persName key="louis_artagnan" role="participant">Monsieur d’Artagnan</persName>,<name>Alhamet</name></p>
+          <p><persName key="louis_cominges_ii" role="participant">Monsieur le Marquis de Verains</persName>,<name>Atarse</name></p>
+          <p><persName key="alphonse_henri_lorraine" role="participant">Monsieur le Prince d’Harcourt</persName>,<name>Olicarsis</name></p>
+          <p><persName key="henri_liancourt" role="participant">Monsieur de Liancourt</persName>,<name>Abdelmeles</name></p>
+          <p>Leur <tech>Habit est une Veste fermée par des Agrémens en maniere de Boutonnieres d’or, ornées de Rubis. Elle est ceinte d’une Ceinture d’or enrichi de Rubis &amp; de Diamans. Le bas de cette Veste</tech> <pb n="31" xml:id="p31"/><tech> est ouvert par plusieurs petites Basques brodées d’or, &amp; tout le plein de la Veste est brodé d’argent meslé de petits Agrémens d’or qui enchassent les Pierreries. Ils ont des Bas verds, brodez or &amp; argent, &amp; des Brodequins à jours, brodez de mesme, &amp; ornez de Pierreries. Leur Turban est d’une Etofe argent &amp; or, lassée de Chaînes de Diamans &amp; de Rubis, &amp; leurs Plumes vertes &amp; blanches avec une Aigrette noire. Leurs Housses sont d’une maniere extraordinaire, &amp; des plus magnifiques. C’est un bord qui forme un Compartiment de Broderie d’or, qui enferme un fond verd brodé d’Ornemens d’argent, où sont meslez d’autres plus petits Ornemens d’or, dans lesquels sont enchassées les Pierreries. Le Harnois &amp; la Bride, sont verd, or &amp; argent, &amp; ornées aussi de Pierreries. Les Chevaux ont des Plumes vertes &amp; blanches, montées en chanfrein.</tech></p>
+          <p>Les Pages ont pour <tech>Habit un Corcelet à jour brodé or &amp; argent, un Jupon brodé de mesme, &amp; separé en plusieurs Basques rondes. Leurs Housses sont vertes, avec une Broderie or &amp; argent. Les Estafiers ont une demie Veste ouverte de plusieurs Basques en pointe, &amp; separées</tech> <pb n="32" xml:id="p32"/><tech> par devant, sous laquelle on voit une manière de Chemise de toile d’argent, &amp; rayée de verd. Au bas de cette Chemise, qui descend plus bas que la Veste, il y a une riche Campane d’or. Les manches de cette maniere de Chemise sont fort larges, &amp; serrées avec plusieurs riches Bracelets. Leur Turban est d’une Etofe pareille à celle de la Chemise, &amp; garny de Plumes blanches &amp; vertes</tech>. Les Vanégues suivent les Zegris.</p>
+        </div>
+        <div>
+          <head>
+            <name>VANEGUES</name>
+           .
+          </head>
+          <p>
+            <persName key="paul_kerouartz" role="participant">Monsieur de Queroël,</persName>
+            
+            
+            
+            
+            <name>Merinés</name>
+          </p>
+          <p><persName key="jean_soyécourt" role="participant">Monsieur le Marquis de Soyecourt</persName>, <name>Zaphir</name></p>
+          <p><persName key="louis_gondrin" role="participant">Monsieur le Marquis de Gondrin</persName>, <name>Carahil</name></p>
+          <p><persName key="louis_villequier" role="participant">Monsieur de Villequier</persName>, <name>Osmin</name></p>
+          <p><persName key="louis_meilly" role="participant">Monsieur de Meilly</persName>, <name>Haly</name></p>
+          <p><persName key="gaston_hotel" role="participant">Monsieur le Comte d’Hotel</persName>, <name>Boaudalin</name></p>
+          <p><persName key="jreinhard_iii_hanau" role="participant">Monsieur le Comte d’Hanau</persName>, <name>Astiorix</name></p>
+          <p><persName key="francesco_carpegna" role="participant">Monsieur le Comte de Carpegna</persName>,<name>Alamir</name></p>
+          <p><persName key="jean_iii_calvisson" role="participant">Monsieur de Nogaret</persName>,<name>Zamorin</name></p>
+          <p><persName key="claude_villars" role="participant">Monsieur le Marquis de Villars</persName>,<name>Scandre</name></p>
+          <p>Ces Chevaliers ont pour <tech>Habit, un Corselet Africain, dont le fond est jaune, &amp; brodé d’or &amp; d’argent avec des Rubis, &amp; des Diamans. Tous les contours de l’armure sont noirs, &amp;</tech><pb n="33" xml:id="p33"/><tech> brodez d’or.</tech> Le reste de l’habillement est de la mesme richesse, &amp; assortit à ce Corselet. La <tech>Housse des Chevaux est formée de plusieurs manieres de bandes d’argent qui se joignent en divers endroits, &amp; sont ratachez par des Testes de Lyons en relief brodées d’argent.</tech> Les <tech>Habits des Pages sont de broderie d’argent sur un fond jaune. Les Estafiers sont vétus d’un Brocard jaune &amp; argent.</tech> <persName key="jean_tilladet" role="participant">Monsieur le Marquis de Tilladet</persName>, Maréchal de Camp de la mesme Quadrille, sous le nom d’<name>Alcomat</name>, marche sur les pas des Vanegues, &amp; à la Teste de quatre-vingt Pages Gomeles &amp; des Maces qui vont deux à deux superbement montez, &amp; portent les Ecus &amp; les Dards des Chevaliers de ces deux Brigades. L’Habit de <persName key="jean_tilladet" role="participant">Monsieur de Tilladet</persName> est pareil à celuy de <persName key="emmanuel_usez" role="participant">Monsieur le Duc d’Usez</persName>, Maréchal de Camp la mesme Quadrille. Ce Marquis est environné de trois Estafiers, qui sont suivis des trois Pages de <persName key="emmanuel_usez" role="participant">Monsieur de d’Usez</persName>, &amp; des trois siens. Les Gomeles paroissoient aprés, accompagnez chacun de deux Estafiers, ainsi que les Chevaliers des Brigades qui ont précedé. <pb n="34" xml:id="p34"/></p>
+        </div>
+        <div>
+          <head>
+            <name>GOMELES.</name>
+          </head>
+          <p><persName key="artur_cossé" role="participant">Monsieur de Cossé</persName>, <name>Carasis</name></p>
+          <p><persName key="louis_vieuxbourg" role="participant">Monsieur de Vieuxbourg</persName>,<name>Benarix</name></p>
+          <p><persName key="henri_montchevreuil" role="participant">Monsieur de Monchevreüil</persName>, <name>Zelman</name></p>
+          <p><persName key="max_furstenberg" role="participant">Monsieur Ferdinand</persName>, <name>Therose</name></p>
+          <p><persName key="bernard_bouligneux" role="participant">Monsieur de Bouligneux</persName>,<name>Hersecolis</name></p>
+          <p><persName key="adolphe_soyecourt" role="participant">Monsieur le Chevalier de Soyecourt</persName>,<name>Zinderame</name></p>
+          <p><persName key="henri_vibraye" role="participant">Monsieur de Vibray</persName>,<name>Tamaras</name></p>
+          <p><persName key="louis_novion" role="participant">Monsieur le Marquis de Novion</persName>,<name>Alamut</name></p>
+          <p><persName key="louis_astri" role="participant">Monsieur le Duc d’Atris</persName>, <name>Ambiorix</name></p>
+          <p><persName key="scipion_polignac" role="participant">Monsieur de Polignac</persName>,<name>Imirse</name></p>
+          <p>
+            
+              
+            
+            <tech>Les Habits de ces Estafiers sont faits par taillades brodées d’argent, sur du Satin cramoisy. Toutes les extrémitez des Taillades sont fermées par une Rose de Pierreries. On voit au travers de ces Taillades une Chemise de toile d’or lamée. Les Brodequins sont cramoisy &amp; brodez. La Coëfure est aussi faite par Taillades, &amp; garnie de Pierreries, &amp; de Plumes cramoisy &amp; blanc.</tech>
+          </p>
+          <p>Les <tech>Housses sont brodées par Bandes en Losange, &amp; ces Losanges sont remplies de Roses de Rubis &amp; de Diamans. La Bride &amp; la Testiere du Cheval sont cramoisy, ornées d’Agrémens d’argent. Il a un Chanfrein de Plumes cramoisy &amp; blanc</tech>.</p>
+          <p>
+            
+            <pb n="35" xml:id="p35"/>
+            <tech>L’Habit des Pages de cette Brigade est un Corps cramoisy, qui se ferme avec de grandes Boutonnieres de Pierreries. Les Chausses sont en maniere de Trousses, &amp; les Manches de mesme, ornées d’Agrémens &amp; de Pierreries. Leur Coëfure est composée de plusieurs Festons tombans sur le dos, &amp; toute tailladée comme les Manches. Chaque Feston est noüé d’un Nœud Ruban cramoisy &amp; argent. Les Estafiers ont de petites Basques, &amp; une manière de Capot qui leur sert de Coëfure ; le tout cramoisy &amp; blanc, &amp; par bandes.</tech>
+          </p>
+          <p>La huitiéme Brigade paroist ensuite. Elle est composée des Chevaliers dont voicy les noms. Ils ont tous la Lance à la main, ainsi que ceux des sept autres Brigades, &amp; sont accompagnez chacun de deux Estafiers.</p>
+        </div>
+        <div>
+          <head>
+            <name>MACES.</name>
+          </head>
+          <p><persName key="louis_vaubecourt" role="participant">Monsieur de Vaubecourt</persName>,<name>Ulma</name></p>
+          <p><persName key="louis_surville" role="participant">Monsieur de Surville</persName>, <name>Mustapha</name></p>
+          <p><persName key="philippe_ii_mursay" role="participant">Monsieur de Murcé</persName>,<name>Azamor</name></p>
+          <p><persName key="jean_caylus" role="participant">Monsieur de Quelus</persName>,<name>Giangir</name></p>
+          <p><persName key="sebastien_iv_molac" role="participant">Monsieur le Marquis de Molac</persName>,<name>Macmut</name></p>
+          <p><persName key="louis_froulay" role="participant">Monsieur de Froulé</persName>, <name>Carife</name></p>
+          <p><persName key="henri_mouy" role="participant">Monsieur le Marquis de Moüy</persName>,<name>Atalaric</name></p>
+          <p><pb n="36" xml:id="p36"/><persName key="jbaptiste_besmaux" role="participant">Monsieur de Besemau</persName>,<name>Zabaime</name></p>
+          <p><persName key="alexandre_bournonville" role="participant">Monsieur de Bournonville</persName>,<name>Almidor</name></p>
+          <p><persName key="armand_charost" role="participant">Monsieur le Marquis de Charost</persName>,<name>Albumazar</name></p>
+          <p>Le Feüille &amp; argent est la Couleur de cette Brigade. <tech>L’habit des Chevaliers qui la composent, est une Veste dont le fond est la Feüille morte. Les ornements de cette Veste sont brodez d’argent avec un peu d’or, &amp; de noir, &amp; toutes les Pierreries sont de Rubis &amp; de Diamans. Les Vestes des Pages sont chamarrées en losange, &amp; ornées de Pierres de couleur. Elle sont ceintes d’Echarpes Feüille morte &amp; blanc. Les Vestes des Estafiers sont de Brocard d’argent &amp; Feüille morte ; elles sont courtes par le devant, &amp; laissent voir une manière de Chemise de Taffetas lainé d’argent, &amp; rayé Feüille morte, au bas de laquelle pend une Frange d’or.</tech></p>
+          <p>Cette Brigade estant de la Quadrille de <persName key="louis_iii_bourbon" role="participant">Monsieur le Duc de Bourbon</persName>, <persName>Monsieur de la Vergne</persName> Ecuyer de ce Prince ma[r]che aprés les Maces, &amp; porte son Bouclier. Dix Pages de ce mesme Prince viennent ensuite deux à deux, ils sont <tech>vétus en Africains</tech>, avec des Corselets, dont la broderie est or &amp; argent sur un fond bleu.</p>
+          <p><persName key="charles_noue" role="participant">Monsieur de la Nouë </persName>Ecuyer de Monsieur le <pb n="37" xml:id="p37"/><persName key="louis_iii_bourbon" role="participant"> Duc de Bourbon</persName> ferme la marche.</p>
+          <p>Lors qu’elle sera finie la comparse commencera, c’est-à-dire l’entrée des Quadrilles dans la Carriere dont elles feront tout le tour, pour se faire voir aux Spectateurs, &amp; iront ensuite se rendre aux postes qui leur seront destinez.</p>
+          <p>Toute la pompeuse Calvacade qui vient d’être décrite, ayant défilé devant l’Echafaut du <persName key="louisxiv" role="spectateur">Roy</persName>, &amp; <persName key="hyacinthe_dumont" role="participant">Monsieur du Mont</persName>, &amp; suivy des Pages de la Quadrille de <persName key="louis_grand_dauphin" role="participant">Monseigneur le Dauphin</persName>, qui défileront deux à deux, estant arrivé pour commencer la Comparse à l’entrée de la Carriere qui a esté marquée par <persName key="saint_aignan" role="participant">Monsieur le Duc de Saint Aignan</persName> Maréchal de Camp Genéral, les Trompetes &amp; Timbaliers de ce Duc marcheront aprés eux. Il les suivra, accompagné de ses quatres Pages, qui marcheront aussi deux à deux, l’un portera une Lance dorée, &amp; fort riche, l’autre l’Ecu où la Devise sera peinte, &amp; les deux autres porteront ses Dards. Ses Estafiers auront chacun un Javelot doré, au lieu des Bâtons qu’ils avoient auparavant. <persName key="saint_aignan" role="participant">Le Maréchal de Camp Genéral</persName>, &amp; les autres Maréchaux de Camp entreront l’Epée à la main pour saluer <persName key="louisxiv" role="spectateur">le Roy</persName>, &amp; pendant les Courses ils reprendront leurs Bâtons de commandement. <pb n="38" xml:id="p38"/></p>
+          <p>La Lice estant un Quarré égale, on y entrera par l’un des costez opposé à celuy <persName key="louisxiv" role="spectateur">du Roy</persName> pour marcher de front en bataille devant Sa Majesté.</p>
+          <p>Les quatre-vingt Chevaliers formeront un front de toutes les Couleurs, dont la droite sera composée des Abenserrages, ayant à leur gauche les Gazules, les Alabezes &amp; les Almoradis, &amp; aprés une plus grande distance, les Zegris, les Vanegues, les Gomeles, &amp; les Maces, qui tiendront la gauche de tout.</p>
+          <p>Un Bataillon de tous les Estafiers sera posté derriere eux ; les Pages seront sur les aisles ainsi que les Timballiers &amp; les Trompettes.</p>
+          <p><persName key="louis_grand_dauphin" role="participant">Monseigneur le Dauphin</persName> sera à la Teste des Abenserrages.</p>
+          <p><persName key="louis_iii_bourbon" role="participant">Monsieur le Duc de Bourbon</persName> sera à la Teste des Zegris, &amp; <persName key="saint_aignan" role="participant">Monsieur le Duc de Saint Aignan</persName> un peu plus avant, &amp; vis à vis de l’Echafaut du <persName key="louisxiv" role="spectateur">Roy</persName>.</p>
+          <p>Aprés qu’on aura demeuré quelque temps en cét état aux fanfares des Trompettes, les Abenserrages défileront deux à deux suivis des Gazules. Les Zegris &amp; les Vanegues prendront une route contraire. Les Alabezes &amp; les Almoradis en prendront une autre, &amp; les Gomeles &amp; les <pb n="39" xml:id="p39"/>Maces en changeront aussi pour aller occuper les quatre coins de la Lice hors des Barrieres, chaque Troupe estant de vingt sous le Maréchal de Camp qui doit les commander. Tous les Trompettes &amp; les Timballiers marcheront à leur Teste, &amp; iront se poster aux quatre Angles de la Lice.</p>
+          <p><persName key="saint_aignan" role="participant">Le Maréchal de Camp Genéral</persName> partira de sa place aprés eux, &amp; ira se poster droit au milieu de la Lice, ayant seulement ses quatre Estafiers à ses costez.</p>
+          <p>En cet état on commencera les Courses, lesquelles estant finies, les Abenserrages, les Gazules, les Alabeses, &amp; les Almoradis, se joindront, &amp; feront un Front opposé à celuy des Zegris, des Vanegues, des Gomeles &amp; des Maces ; ce qui fera un tres-bel effet, parce qu’ayant la Lance à la main, &amp; estant disposez comme s’ils étoient sur le point de se combatre, le <persName key="saint_aignan" role="participant">Maréchal de Camp Genéral </persName>marchera vers l’un &amp; vers l’autre Party, comme pour y donner la Paix, &amp; alors ils se mettront en marche pour la Retraite, au mesme ordre qu’ils seront entrez, excepté que le <persName key="saint_aignan" role="participant">Maréchal de Camp General</persName>, ses Trompettes, Timbaliers, Pages, &amp; Estafiers, sortiront les derniers de la <pb n="40" xml:id="p40"/> Lice, &amp; que la marche se continuëra jusque dans la seconde Cour, où elle aura commencé.</p>
+          <p>Comme apres la Comparse on doit commencer les Courses, il est necessaire de marquer icy les Reglemens &amp; Ordonnance de Camp, que le <persName key="saint_aignan" role="participant">Maréchal de Camp General</persName> a fait publier sur ce sujet.</p>
+        </div>
+        <div>
+          <head>I.</head>
+          <p>
+            Les Chevaliers des Quadrilles ayant fait le tour du Camp par dehors, précedez de leurs Pages, &amp; suivis de leurs Estafiers, &amp; passé devant
+            <persName key="louisxiv" role="spectateur">le Roy</persName>
+            , entreront dans la Lice pour la comparse, &amp; prendront ensuite leurs postes aux quatre Angles des Barrieres, où ils recevront les ordres des quatre Maréchaux de Camp des Quadrilles.
+          </p>
+          <p>SÇAVOIR,</p>
+          <p>Les Abenserrages &amp; les Gazules,de <persName key="philippe_dangeau" role="participant">Monsieur le Marquis de Dangeau</persName>.</p>
+          <p>Les Alabeses, &amp; les Almoradis, de <persName key="antoine_iv_de_gramont" role="participant">Monsieur le Duc de Gramont</persName>.</p>
+          <p>Les Zegris, &amp; les Vanegues,de <persName key="emmanuel_usez" role="participant">Monsieur le Duc d’Usez</persName>.</p>
+          <p>Et les Gomeles, &amp; les Maces de <persName key="jean_tilladet" role="participant">Monsieur le Marquis de Tilladet</persName>.</p>
+          <p><pb n="41" xml:id="p41"/>II.</p>
+          <p>
+            
+            Tous les Chevaliers de Quadrilles courront quatre ensemble, des quatre costez de la Lice, deux de chaque party.
+          </p>
+          <p>III.</p>
+          <p>
+            Celuy qui fera le plus grand nombre de Testes, de quelque Quadrille qu’il soit, gagnera le Prix.
+          </p>
+          <p>IV.</p>
+          <p>
+            
+            Si le Casque, la Lance, le Dard, l’Epée, le Gand, le Fourreau, ou l’Esperon vient à tomber à quelqu’un d’eux ; si le Cheval trotte ou s’abat, s’il perd la bride, ou l’un des Etriers, la Course sera nulle.
+          </p>
+          <p>V.</p>
+          <p>
+            Meßieurs les Maréchaux de Camp des Quadrilles ordonneront que les Chevaliers, ensuite d’une Course achevée, ne partent point pour en recommencer une autre, que les Trompettes n’ayent fait l’appel aux quatre coins de la Lice, tant pour donner lieu aux Chevaliers de partir au mesme temps, que pour laisser le loisir de faire des fanfares pour celuy qui aura fait les quatre Testes.
+          </p>
+          <p>VI.</p>
+          <p>Et pour leur donner la facilité de partir ensemble, &amp; leur faire regler leurs Courses avec plus d’égalité, chacun d’eux sera obligé de prende la demy volte autour du Maréchal de Camp qui donnera les ordres<pb n="42" xml:id="p42"/>à cette Quadrille. Fait à<placeName>Versailles</placeName> le<date when="1685">vingt-huitiéme jour de May 1685</date>.</p>
+          
+          <p> LE <persName key="saint_aignan" role="participant">DUC DE S. AIGNAN.</persName></p>
+          <p>Il y aura vingt &amp; une Course, chacune de quatre Chevaliers. En voicy le rang, avec les noms de ceux qui les doivent faire ensemble.</p>
+          <p>Premiere Course.</p>
+          <p>
+            <persName key="louis_grand_dauphin" role="participant">Monseigneur le Dauphin.</persName>
+          </p>
+          <p>
+            <persName key="louis_iii_bourbon" role="participant">Monsieur le Duc de Bourbon.</persName>
+          </p>
+          <p>
+            <persName key="louis_vendome" role="participant">Monsieur le Duc de Vandôme.</persName>
+          </p>
+          <p>
+            <persName key="henri_brionne" role="participant">Monsieur le Comte de Brionne.</persName>
+          </p>
+          <p>Deuxiéme Course.</p>
+          <p><persName key="blanchefort_crequy" role="participant">Monsieur de Crequy</persName>, <name>Abenserrage</name></p>
+          <p><persName key="francois_hautefort" role="participant">Monsieur de Hautefort</persName>, <name>Alabeze</name></p>
+          <p><persName key="charles_blanzac" role="participant">Monsieur de Blanzac</persName>, <name>Zegri</name></p>
+          <p><persName key="artur_cossé" role="participant">Monsieur de Cossé</persName>, <name>Gomel</name></p>
+          <p>Troisiéme Course.</p>
+          <p>
+            <persName key="anton_furstenberg" role="participant">Monsieur de Furstemberg,</persName>
+            
+            
+            
+            
+            
+            
+            <name>Gazul</name>
+          </p>
+          <p><persName key="antoine_colbert" role="participant">Monsieur le Chevalier Colbert</persName>,<name>Almorady</name></p>
+          <p><persName key="paul_kerouartz" role="participant">Monsieur de Queroël</persName>,<name>Vanegue</name></p>
+          <p><persName key="louis_vaubecourt" role="participant">Monsieur de Vaubecourt</persName>,<name>Mace</name></p>
+          <p>Quatriéme Course.</p>
+          <p><persName key="louis_nangis" role="participant">Monsieur de Nangis</persName>,<name>Abenserrage</name></p>
+          <p><persName key="la_chastre" role="participant">Monsieur de la Châtre</persName>,<name>Alabeze</name></p>
+          <p><persName key="antoine_valentinois" role="participant">Monsieur de Valantinois</persName>,<name>Zegri</name></p>
+          <p><persName key="louis_vieuxbourg" role="participant">Monsieur de Vieux-Bourg</persName>,<name>Gomel</name></p>
+          <p><pb n="43" xml:id="p43"/>Cinquiéme Course.</p>
+          <p><persName key="camille_lorraine" role="participant">Monsieur le Prince Camille</persName>,<name>Gazul</name></p>
+          <p><persName key="charles_coatelles" role="participant">Monsieur de Cœdelet</persName>, <name>Almorady</name></p>
+          <p><persName key="jean_soyécourt" role="participant">Monsieur de Soyecourt</persName>,<name>Vanegue</name></p>
+          <p><persName key="louis_surville" role="participant">Monsieur de Surville</persName>,<name>Mace</name></p>
+          <p>Sixième Course.</p>
+          <p><persName key="henri_brionne" role="participant">Monsieur le Comte de Brionne</persName>,<name>Abenserrage</name></p>
+          <p><persName key="francois_broglio" role="participant">Monsieur le Chevalier de Broille</persName>,<name>Alabeze</name></p>
+          <p><persName key="henri_fr_ferté" role="participant">Monsieur de la Ferté</persName>,<name>Zegri</name></p>
+          <p><persName key="henri_montchevreuil" role="participant">Monsieur de Monchevreüil</persName>,<name>Gomel</name></p>
+          <p>Septiéme Course.</p>
+          <p><persName key="louis_chamarande" role="participant">Monsieur de Chamarante</persName>,<name>Gazul</name></p>
+          <p><persName key="georges_pleumartin" role="participant">Monsieur de Plumartin</persName>,<name>Almorady</name></p>
+          <p><persName key="louis_gondrin" role="participant">Monsieur de Gondrin</persName>,<name>Vanegue</name></p>
+          <p><persName key="philippe_ii_mursay" role="participant">Monsieur de Murcé</persName>,<name>Mace</name></p>
+          <p>Huitiéme Course.</p>
+          <p><persName key="charles_trémoille" role="participant">Monsieur de la Trimoüille</persName>, <name>Abenserrage</name></p>
+          <p><persName key="n_brassac" role="participant">Monsieur de Brassac</persName>,<name>Alabeze</name></p>
+          <p><persName key="francois_alincourt" role="participant">Monsieur d’Alincourt</persName>,<name>Zegri</name></p>
+          <p><persName key="max_furstenberg" role="participant">Monsieur Ferdinand</persName>,<name>Gomel</name></p>
+          <p>Neufiéme Course.</p>
+          <p><persName key="louis_bellefonds" role="participant">Monsieur le Marquis de Bellefons</persName>,<name>Gazul</name></p>
+          <p><persName key="joachim_bouzols" role="participant">Monsieur de Boussoles</persName>, <name>Almorady</name></p>
+          <p><persName key="louis_villequier" role="participant">Monsieur de Villequier</persName>,<name>Vanegue</name></p>
+          <p><persName key="jean_caylus" role="participant">Monsieur de Quelu</persName>,<name>Mace</name></p>
+          <p>Dixiéme Course.</p>
+          <p><persName key="philippe_vendome" role="participant">Monsieur le grand Prieur</persName>,<name>Abenserrage</name></p>
+          <p><persName key="louis_antin" role="participant">Monsieur Dantin</persName>,<name>Alabeze</name></p>
+          <p><pb n="44" xml:id="p44"/><persName>Monsieur le Chevalier de Sully</persName>,<name>Zegri</name></p>
+          <p><persName key="bernard_bouligneux" role="participant">Monsieur de Bouligneux</persName>,<name>Gomel</name></p>
+          <p>Onziéme Course.</p>
+          <p><persName key="louis_nesle" role="participant">Monsieur le Marquis de Nesle</persName>, <name>Gazul</name></p>
+          <p><persName key="gaston_mirepoix" role="participant">Monsieur de Mirepoix</persName>,<name>Almorady</name></p>
+          <p><persName key="louis_meilly" role="participant">Monsieur de Meilly</persName>, <name>Vanegue</name></p>
+          <p><persName key="sebastien_iv_molac" role="participant">Monsieur de Molac</persName>, <name>Mace</name></p>
+          <p>Douziéme Course.</p>
+          <p><persName key="louis_mailly" role="participant">Monsieur de Mailly</persName>,<name>Abenserrage</name></p>
+          <p><persName key="esprit_trainel" role="participant">Monsieur de Trenel</persName>,<name>Alabeze</name></p>
+          <p><persName key="paul_frique" role="participant">Monsieur de Sainte Frique</persName>,<name>Zegri</name></p>
+          <p><persName key="adolphe_soyecourt" role="participant">Monsieur le Chevalier de Soyecourt</persName>,<name>Gomel</name></p>
+          <p>Treiziéme Course.</p>
+          <p><persName key="charles_koegnismark" role="participant">Monsieur de Conismarck</persName>,<name>Gazul</name></p>
+          <p><persName key="francois_roucy" role="participant">Monsieur le Comte de Roussy</persName>,<name>Almorady</name></p>
+          <p><persName key="gaston_hotel" role="participant">Monsieur le Comte d’Ostel</persName>,<name>Vanegue</name></p>
+          <p><persName key="louis_froulay" role="participant">Monsieur deur de Froulé</persName>,<name>Mace</name></p>
+          <p>Quatorziéme Course.</p>
+          <p><persName key="francois_rocheguyon" role="participant">Monsieur de la Rocheguyon</persName>,<name>Abenserrage</name></p>
+          <p><persName key="michel_villacerf" role="participant">Monsieur de Villacerf</persName>,<name>Alabeze</name></p>
+          <p><persName key="louis_artagnan" role="participant">Monsieur d’Artagnan</persName>,<name>Zegri</name></p>
+          <p><persName key="henri_vibraye" role="participant">Monsieur de Vibraye</persName>,<name>Gomel</name></p>
+          <p>Quinziéme Course.</p>
+          <p><persName key="louis_rohan" role="participant">Monsieur de Rohan</persName>,<name>Gazul</name></p>
+          <p><persName key="claude_thiange" role="participant">Monsieur de Tiange</persName>,<name>Amorady</name></p>
+          <p><persName key="jreinhard_iii_hanau" role="participant">Monsieur le Comte d’Hanau</persName>,<name>Vanegue</name></p>
+          <p><persName key="henri_mouy" role="participant">Monsieur de Moüy</persName>,<name>Mace</name></p>
+          <p><pb n="45" xml:id="p45"/>Seiziéme Course.</p>
+          <p><persName key="henri_elbeuf" role="participant">Monsieur le Prince d’Elbeuf</persName>,<name>Abenserrage</name></p>
+          <p><persName key="jacques_livry" role="participant">Monsieur de Livry</persName>,<name>Alabeze</name></p>
+          <p><persName key="louis_cominges_ii" role="participant">Monsieur de Vervins</persName>,<name>Zegri</name></p>
+          <p><persName key="louis_novion" role="participant">Monsieur de Novion</persName>,<name>Gomel</name></p>
+          <p>Dix-septiéme Course.</p>
+          <p><persName key="antoine_roquelaure" role="participant">Monsieur de Roquelaure</persName>,<name>Gazul</name></p>
+          <p><persName key="joseph_castries" role="participant">Monsieur de Castres</persName>,<name>Almorady</name></p>
+          <p><persName key="francesco_carpegna" role="participant">Monsieur de Carpegne</persName>,<name>Vanegue</name></p>
+          <p><persName key="jbaptiste_besmaux" role="participant">Monsieur de Baisemau</persName>,<name>Mace</name></p>
+          <p>Dix-huitiéme Course.</p>
+          <p><persName key="louis_vendome" role="participant">Monsieur de Vandôme</persName>,<name>Abenserrage</name></p>
+          <p><persName key="jacques_medavy" role="participant">Monsieur de Medavy</persName>,<name>Alabeze</name></p>
+          <p><persName key="alphonse_henri_lorraine" role="participant">Monsieur le Prince d’Harcourt</persName>,<name>Zegri</name></p>
+          <p><persName key="louis_astri" role="participant">Monsieur le Duc d’Atris</persName>,<name>Gomel</name></p>
+          <p>Dix-neufiéme Course.</p>
+          <p><persName key="charles_tingry" role="participant">Monsieur de Tingry</persName>,<name>Gazul</name></p>
+          <p><persName key="rené_lafayette" role="participant">Monsieur de la Fayette</persName>,<name>Almorady</name></p>
+          <p><persName key="jean_iii_calvisson" role="participant">Monsieur de Nogaret</persName>,<name>Vanegue</name></p>
+          <p><persName key="alexandre_bournonville" role="participant">Monsieur de Bournonville</persName>,<name>Mace</name></p>
+          <p>Vingtiéme Course.</p>
+          <p><persName key="jean_louis_fiesque" role="participant">Monsieur le Comte de Fiesque</persName>,<name>Abenserrage</name></p>
+          <p><persName key="pierre_listenois" role="participant">Monsieur de Listenay</persName>,<name>Alabeze</name></p>
+          <p><persName key="henri_liancourt" role="participant">Monsieur de Liancourt</persName>,<name>Zegri</name></p>
+          <p><persName key="scipion_polignac" role="participant">Monsieur de Polignac</persName>,<name>Gomel</name></p>
+          <p>Vingt-uniéme Course.</p>
+          <p><persName key="louis_rochefort" role="participant">Monsieur le Marquis de Rochefort</persName>,<name>Gazul</name></p>
+          <p><persName key="carlo_frabose" role="participant">Monsieur de Palavicin</persName>,<name>Almorady</name></p>
+          <p><pb n="46" xml:id="p46"/><persName key="claude_villars" role="participant">Monsieur le Marquis de Villars</persName>,<name>Vanegue</name></p>
+          <p><persName key="armand_charost" role="participant">Monsieur d’Ancenis Charost</persName>,<name>Mace</name></p>
+          <p>Les Testes de la premiere Course ne seront comptées que pour <persName key="louis_grand_dauphin" role="participant">Monseigneur le Dauphin</persName> &amp; pour <persName key="louis_iii_bourbon" role="participant">Monsieur le Duc de Bourbon</persName>, qui devoient courre seuls ensemble ; mais <persName key="louis_grand_dauphin" role="participant">Monseigneur le Dauphin</persName> ayant jugé que la Carriere ne seroit pas assez remplie, si elle ne l’estoit que de deux Personnes, a choisy <persName key="louis_vendome" role="participant">Monsieur le Duc de Vendosme</persName> &amp; <persName key="henri_brionne" role="participant">Monsieur le Comte de Brionne</persName>, pour la remplir avec luy &amp; avec <persName key="louis_iii_bourbon" role="participant">Monsieur le Duc de Bourbon</persName>. Cette remarque est necessaire pour empescher qu’on ne soit embarrassé à chercher par quelle raison <persName key="louis_vendome" role="participant">Monsieur de Vendosme</persName> &amp; <persName key="henri_brionne" role="participant">Monsieur de Brionne</persName> courent deux fois, quand les autres Chevaliers ne courent qu’une.</p>
+          <p>Rien ne peut mieux suivre l’ordre des Courses, que la manière dont on les fera.</p>
+          <p>Les quatre qui doivent courir ensemble, feront leurs Voltes avec tant de concert, qu’ils arriveront en même temps au milieu du Camp, apres quoy ils reprendront leur Carriere tous à la fois, chacun vers les Barrieres où seront les Testes qu’ils doivent emporter à la Lance ; puis avec une demy-Volte à la droite, ils prendront un Dard chacun sous leur cuisse, &amp; renviendront darder la Teste de Maure. Ils s’écarteront ensuite par une demie Volte à la droite, &amp; reviendront avec un autre Dard vers le milieu du grand Quarré où ils se recontreront, &amp; feront ensemble une Volte <pb n="47" xml:id="p47"/> &amp; demie aussi à droite, autour du <persName key="saint_aignan" role="participant">Maréchal de Camp General</persName>. Cela fait, ils partiront tous ensemble dans le mesme temps, &amp; chacun d’eux changeant de costé, s’en ira vers la Barriere opposé à celle où il aura dardé la teste de Maure ; de là il prendra sa demy-Volte à droite, &amp; reviendra le long de la Barriere, pour remporter la Teste.</p>
+          <p>Si l’on considere toutes les Personnes qui composeront ce Carrousel, la richesse &amp; la diversité de leurs Habits, la quantité des Chevaux, la beauté de leurs Housses, &amp; mesme le nombre des Plumes, qui est de plus de dix mille, on aura sujet de croire qu’on a voulu donner dans les formes un des plus grands Divertissemens qu’il soit possible de voir. Cependant si on avoit eu ce dessein, on verroit autre chose, &amp; ce n’est qu’un in-prromptu entrepris par <persName key="louis_grand_dauphin" role="organisation">Monseigneur le Dauphin</persName> pour son divertissement. La <placeName>France</placeName> est aujourd’huy dans un état à faire voir bien d’autres merveilles, si <persName key="louisxiv" role="commanditaire">le Roy</persName> vouloit entreprendre quelque chose de grand de cette nature. On doit neanmoins demeurer d’accord que c’est une chose surprenante que la diversité qui se rencontre dans l’habillement de tant de Personnes d’une mesme Nation. C’est en quoy on doit remarquer le génie de <persName key="jean_bérain" role="dessinateur">Mr Berrin</persName>, qui en ayant inventé tous les desseins, a pris soin de les faire executer. La richesse ne <pb n="48" xml:id="p48"/> fait pas la seule beauté de ces Habits, on en voit souvent de tres-riches qui ne sont que des masses d’or &amp; d’argent ; mais l’on peut dire que dans ceux de ce Carrousel, il y a de la beauté, de l’intelligence, de la varieté, &amp; du goust.</p>
+          <p>Voicy les Devises que les Chevaliers doivent porter peintes dans leurs Ecus. Elles sont accompagnées d’autant de Madrigaux qui en donnent l’explication. Peut-estre n’est-elle pas entiérement juste en toutes, parce que ceux qui les ont faites ne m’ont pas fait connoistre le sens qui est particulier à quelques-unes. Telle est celle de <persName key="philippe_dangeau" role="participant">Monsieur le Marquis de Dangeau</persName>, qu’on a employée au commencement de ce Livre, avant qu’on en eust assez penétré le sens. Elle est faite sur ce que ce Marquis estant un des Menins de <persName key="louis_grand_dauphin">Monseigneur le Dauphin</persName>, ce qui convient à un Homme d’un âge peu avancé, il a esté choisi pour être en même temps Chevalier d’Honneur de <persName key="marie_anne_baviere">Madame la Dauphine</persName>, qui est l’employ d’un Homme d’un âge plus meur. Ainsi ces paroles Fert Autumni &amp; Veris honores, qui ont pour corps un Oranger chargé de Fleurs &amp; de Fruits, devoient estre expliquées de cette sorte.</p>
+          <l>Quels desirs ne seroient contens</l>
+          <l>De la gloire qui l’environne,</l>
+          <l>Puis que par des droits éclatans</l>
+          <l>Qu’un Destin peu commun luy donne,</l>
+          <l>Il porte dans le mesme temps</l>
+          <l>Les brillantes Fleurs du Printemps,</l>
+          <l>Et les plus beaux Fruits de l’Automne ?</l>
+          <p>Ces Devises devroient estre placées dans les diférens endroits où l’on parle des Chevaliers qui les porteront dans leurs Ecus, &amp; cela auroit fait un agrément &amp; une diversité dans le Livre, parce qu’on n’auroit pas leu de suite tant de choses d’une mesme nature, mais la plûpart ayant negligé de les envoyer assez à temps, il a falu se résoudre à les mettre ensemble à la fin du Livre. Encore n’est on pas assuré de les avoir toutes, l’incertitude du choix estant cause que plusieurs attendent au dernier jour à les faire peindre.</p>
+          <p><pb n="1"/>POUR <persName key="louis_iii_bourbon" role="participant">MONSIEUR LE DUC DE BOURBON</persName>.</p>
+          <p>Un Vaisseau appareillé dans un Port superbe, &amp; prest à partir.</p>
+          <p ana="devise">aspetto l’aura.</p>        
+        
+
+          <l>Flaté d’avoir pour guide une brillante Etoile,</l>
+          <l>Qui de l’Astre du jour prend sa vive clarté,</l>
+          <l>D’impatience à toute heure agité,</l>
+          <l>J’attens le vent pour faire voile.</l>
+          <p>POUR <persName key="louis_vendome" role="participant">MONSIEUR LE DUC DE VANDOSME</persName></p>
+          <p>Un Miroir ardent opposé aux rayons du Soleil.</p>
+          <p ana="devise">no arde por menos
+        
+        .</p>
+          <l>Il trouve à s’enflâmer de sensibles appas,</l>
+          <l>L’ardeur dont il est plein paroist à tout le monde :</l>
+          <l>Mais quoy qu’elle soit sans seconde,</l>
+          <l>Pour un Astre moins noble il ne brûleroit pas.</l>
+          <p>POUR MONSIEUR <persName key="philippe_vendome" role="participant">LE GRAND PRIEUR.</persName></p>
+          <p>Un Torrent qui en tombant d’une montagne entraîne des Arbres &amp; des Maisons, &amp; descendu dans la Plaine arrose des Prez &amp; fertilise des Campagnes.</p>
+          <p ana="devise">spaventa, e piace
+        
+        .</p>
+          <l>Il n’est rien de si dangereux</l>
+          <l>Que de se trouver sous sa chute, <pb n="2"/></l>
+          <l>Il force par un cours affreux</l>
+          <l>Les passages qu’on luy dispute ;</l>
+          <l>Et cependant tout furieux qu’il est,</l>
+          <l>Coule-t’il dans la Plaine, il plaist.</l>
+          <p>POUR <persName key="camille_lorraine" role="participant">MONSIEUR LE PRINCE CAMILLE</persName></p>
+          <p>Un Etang, où dans le milieu paroist un boüillon d’eau, tel que le formeroit une pierre qu’on auroit jettée ; ce qui fait naistre quantité de cercles, qui s’agrandissent jusque sur les bords de l’Etang.</p>
+          <p ana="devise">par magno minimus surge
+        
+        .</p>
+          <l>Quand ce cercle élargy jusques au bord se rend,</l>
+          <l>Cet autre plus petit ne doit pas vous surprendre ;</l>
+          <l>Donnez-luy le temps de s’étendre,</l>
+          <l>Il sera pareil au plus grand.</l>
+          <p>POUR <persName key="louis_nangis" role="participant">MONSIEUR DE NANGIS</persName>.</p>
+          <p>Une Barre de fer sur un brasier ardent, qui est directement sous le milieu.</p>
+          <p ana="devise">se non arde, non si piega
+        
+        .</p>
+          <l>L’amour seul rend son cœur moins fier,</l>
+          <l>Il faut qu’il brûle pour plier.</l>
+          <pb n="3"/>
+          <p>POUR <persName key="louis_mailly" role="participant">MONSIEUR DE MAILLY.</persName></p>
+          <p>Un jeune Laurier en terre, tourné vers le Soleil.</p>
+          <p ana="devise">aspice, crescam
+        
+        .</p>
+          <l>Pour me voir promptement dans un rang glorieux,</l>
+          <l>Et croistre autant que je m’en sens capable,</l>
+          <l>Je ne veux seulement qu’un regard favorable</l>
+          <l>De l’Astre qui luit en ces lieux.</l>
+          <p>POUR <persName key="jean_louis_fiesque" role="participant">MONSIEUR LE COMTE DE FIESQUE.</persName></p>
+          <p>Un Soleil qui darde ses rayons sur des nuages, les Vents au dessous qui soufflent des roseaux par eux batus.</p>
+          <p ana="devise">
+              spectante resurgunt
+            </p>
+          <l>Nous estions abattus sous le funeste orage</l>
+          <l>Qui contre nous avoit sçeu s’élever ;</l>
+          <l>Vn rayon lumineux a percé le nuage,</l>
+          <l>C’est assez pour nous relever.</l>
+          <p>POUR <persName key="blanchefort_crequy" role="participant">MONSIEUR LE MARQUIS DE CREQUY.</persName></p>
+          <p>Un Aigle volant.</p>
+          <p ana="devise">urget juventas et patrius vigor
+        
+        .</p>
+          <l>Cet Aiglon prend un vol rapide,</l>
+          <l>Voyez de quelle ardeur il se montre animé.</l>
+          <l>Ne vous étonnez pas si rien ne l’intimide,</l>
+          <l>Sou courage répond au sang qui l’a formè.</l>
+          <pb n="4"/>
+          <p>POUR <persName key="jacques_livry" role="participant">MONSIEUR DE LIVRY</persName>.</p>
+          <l>Dans la brûlante ardeur où son zele l’engage,</l>
+          <l>Si l’Astre qu’icy nous voyons</l>
+          <l>Iette sur luy quelqu’un de ses rayons,</l>
+          <l>Il poussera haut son feüillage.</l>
+          <p>POUR <persName key="armand_charost" role="participant">MONSIEUR D’ANSENIS CHAROST.</persName></p>
+          <p>Une Montre de poche sur une table, en sorte qu’on puisse voir par le Cadran que c’est une Montre, avec des rubans, ou chaînes, &amp; la clef.</p>
+          <p ana="devise">callo de fuera, y peno dentro
+        
+        .</p>
+          <l>Ie prens soin de cacher le secret de mon ame,</l>
+          <l>Et par de violens efforts</l>
+          <l>Renfermant les soûpirs que trahiroient ma flâme,</l>
+          <l>Quand je souffre au dedans, je me tais au dehors.</l>
+          <p>POUR <persName key="gaston_hotel" role="participant">MONSIEUR LE COMTE D’HOSTEL.</persName></p>
+          <p>Un jeune Taureau libre, &amp; s’animant au combat.</p>
+          <p ana="devise">ad pugnam proludit
+        
+        .</p>
+          <l>Cette course où l’espoir d’une illustre victoire</l>
+          <l>A pour luy de si doux appas,</l>
+          <l>N’est qu’un essay pour les combats,</l>
+          <l>Où le doit conduire la gloire.</l>
+          <pb n="5" xml:id="p5"/>
+          <p>POUR <persName key="jean_iii_calvisson" role="participant">MONSIEUR COMTE DE NOGARET.</persName></p>
+          <p>Un Gantelet en l’air.</p>
+          <p ana="devise">nec erit inglorius
+        
+        .</p>
+          <l>A voir de quelle ardeur il s’appreste au combat,</l>
+          <l>Et son défi pour la victoire,</l>
+          <l>On connoist qu’il fera sa course avec éclat,</l>
+          <l>Et n’en sortira pas sans gloire.</l>
+          <p>POUR <persName key="artur_cossé" role="participant">MONSIEUR DE COSSÉ.</persName></p>
+          <p>Une scie &amp; un Rocher.</p>
+          <p ana="devise">virtute et tempore
+        
+        .</p>
+          <l>Son cœur est un cœur de rocher,</l>
+          <l>Soins, services, devoirs, rien ne la peut toucher,</l>
+          <l>Toûjours même rigueur, toûjours mêmes obstacles.</l>
+          <l>Aimez, perseverez, &amp; laissez faire au temps,</l>
+          <l>Pour la rendre sensible il faut de grands miracles ;</l>
+          <l>Mais ils sont dûs aux cœurs constans.</l>
+          <p>POUR <persName key="bernard_bouligneux" role="participant">MONSIEUR DE BOULIGNEUX.</persName></p>
+          <p>Un Brûlot en feu.</p>
+          <p ana="devise">urar, et uram
+        
+        .</p>
+          <l>L’occasion s’offrant jamais ne recule,</l>
+          <l>Mais lorsque contre moy l’amour est appellé,</l>
+          <l>On court risque d’estre brûlé,</l>
+          <l>Dans le mesme temps qu’on me brûle.</l>
+          <pb n="6"/>
+          <p>POUR <persName key="charles_koegnismark" role="participant">MONSIEUR DE CONISMARK.</persName></p>
+          <p>Un Laqs d’amour en maniere de chaînete.</p>
+          <p ana="devise">desde entonces
+        
+        .</p>
+          <l>Si-tost que je la vis mon ame en fut éprise,</l>
+          <l>J’adoray ses appas si-tost que je la vis,</l>
+          <l>Et dès lors ses beaux yeux, maistres de ma franchise,</l>
+          <l>Furent l’Astre que je suivis.</l>
+          <p>POUR <persName key="georges_pleumartin" role="participant">MONSIEUR DE PLUMARTIN.</persName></p>
+          <p>Un Pin fort élevé au milieu d’un Rocher.</p>
+          <p ana="devise">
+              altis a radicibus altus.
+            </p>
+          <l>Cet Arbre est ancien, chacun sçait ce qu’il vaut,</l>
+          <l>Et s’il s’agissoit d’origines,</l>
+          <l>On connoistroit sans peine, en le voyant si haut,</l>
+          <l>La profondeur de ses racines.</l>
+          <p>
+            pour monsieur
+          </p>
+          <p>
+            <persName key="maximilien_henri_sully" role="participant">LE CHEVALIER DE SULLY</persName>
+          </p>
+          <p>Un petit Aiglon au bord d’un nid sur la pointe d’une Montagne, qui s’essaye à voler.</p>
+          <p ana="devise">aun mido mis fuerças
+        
+        .</p>
+          <l>Pour luy la gloire a de douces amorces,</l>
+          <l>Et par elle déjà se sentant appeller,</l>
+          <l>Comme aux combats il est prest à voler,</l>
+          <l>Avant que de le faire il mesure ses forces.</l>
+          <pb n="7"/>
+          <p>
+            pour monsieur
+          </p>
+          <p>
+            <persName key="louis_vaubecourt" role="participant">LE COMTE DE VAUBECOUR.</persName>
+          </p>
+          <p>Un Girasol avec un Soleil.</p>
+          <p ana="devise">quocumque vocaris
+        
+        .</p>
+          <l>Ce grand Astre me guide, &amp; toûjours appliqué</l>
+          <l>A bien connoistre où sa clarté m’appelle,</l>
+          <l>On me verra prompt &amp; fidelle,</l>
+          <l>Suivre en tous lieux ce qu’il m’aura marqué.</l>
+          <p>
+            pour monsieur
+          </p>
+          <p>
+            <persName key="jean_soyécourt" role="participant">LE MARQUIS DE SOYECOURT.</persName>
+          </p>
+          <p>Une Epée la pointe en bas.</p>
+          <p ana="devise">ad ludum et prælia
+        
+        .</p>
+          <l>Si dans de simples jeux guerriers</l>
+          <l>Avec tant de chaleur il court à la victoire,</l>
+          <l>Que ne fera-t’il pas lors qu’au champ de la gloire,</l>
+          <l>Il faudra cueillir des Lauriers ?</l>
+          <p>POUR <persName key="jacques_medavy" role="participant">MONSIEUR DE MEDAVID.</persName></p>
+          <p>Un Coq ayant la teste levée, &amp; en action de courage.</p>
+          <p ana="devise">et vigil et pugnax
+        
+        .</p>
+          <l>A l’exemple de mes Ayeux</l>
+          <l>Je suis vigilant en tous lieux,</l>
+          <l><pb n="8"/>Et s’il est des combats à faire,</l>
+          <l>Assez d’actions ont fait foy,</l>
+          <l>Qu’entre les plus hardis il ne s’en trouve guere,</l>
+          <l>Qui s’en acquitent mieux que moy.</l>
+          <p>
+            pour monsieur
+          </p>
+          <p>
+            <persName key="antoine_roquelaure" role="participant">LE DUC DE ROQUELAURE.</persName>
+          </p>
+          <p>Un feu dans un Arbre.</p>
+          <p ana="devise">neglectus furit
+        
+        .</p>
+          <l>Un feu dans cet Arbre paroist,</l>
+          <l>Quoy que petit il est à craindre ;</l>
+          <l>Si l’on ne prend soin de l’éteindre,</l>
+          <l>Il ira plus loin qu’on ne croit.</l>
+          <p>POUR <persName key="esprit_trainel" role="participant">MONSIEUR DE TRENEL.</persName></p>
+          <p>Une <name>Meduse</name> au milieu d’un Bouclier, au haut duquel il y a un Soleil.</p>
+          <p ana="devise">sub sole ludimus illa
+        
+        .</p>
+          <l>On n’a jamais parlé d’un desordre pareil</l>
+          <l>A celuy qu’a causé la teste de <name>Meduse</name> ;</l>
+          <l>Mais qui la croit icy redoutable, s’abuse,</l>
+          <l>Qu’a-t-on à craindre avecque le Soleil ?</l>
+          <pb n="9"/>
+          <p>POUR <persName key="joachim_bouzols" role="participant">MONSIEUR DE BOUZOLE.</persName></p>
+          <p>Une branche de Laurier, &amp; une de Mirthe.</p>
+          <p ana="devise">gloriæ et amori
+        
+        .</p>
+          <p>
+            Deux passions tour à tour
+          </p>
+          <p>Gagnent sur luy la victoire,
+</p>
+          <p>
+            Il sacrifie à l’amour
+          </p>
+          <p>
+            Ainsi qu’il fait à la gloire.
+          </p>
+          <p>POUR <persName key="jreinhard_iii_hanau" role="participant">MONSEUR LE COMTE DE HANAV.</persName></p>
+          <p>Une Hirondelle qui quitte son païs pour chercher le Soleil.</p>
+          <p ana="devise">al sol m’invio
+        
+        .</p>
+          <l>Avec un zele sans pareil</l>
+          <l>Ie m’éloigne des lieux où la froidure habite,</l>
+          <l>Heureux éloignement s’il fait voir au Soleil,</l>
+          <l>Que c’est pour luy que je les quite.</l>
+          <p>POUR <persName key="henri_liancourt" role="participant">MONSIEUR DE LIANCOURT.</persName></p>
+          <p>Un Essain d’Abeilles.</p>
+          <p ana="devise">hor all’armi, hor ali fiori
+        
+        .</p>
+          <l>Si lorsqu’il faut prendre les armes,</l>
+          <l>Les Lauriers ont pour moy de si brillans appas,</l>
+          <l>Où de jeunes beautez font éclater leurs charmes,</l>
+          <l>Des Mirthes à cueillir ne me déplaisent pas.</l>
+          <pb n="10"/>
+          <p>
+            pour monsieur
+          </p>
+          <p>
+            <persName key="louis_surville" role="participant">LE MARQUIS DE SURVILLE.</persName>
+          </p>
+          <p>Une branche de Corail qui s’endurcit &amp; devient vermeille dés qu’elle est exposée aux rayons du Soleil.</p>
+          <p ana="devise">fortior aspectu
+        
+        .</p>
+          <l>Ie chancelle de toutes parts,</l>
+          <l>Toûjours preste à tomber où mes branches s’étendent,</l>
+          <l>Si d’un Astre benin les precieux regards,</l>
+          <l>Pour m’oster ma langueur, sur moy ne se répandent.</l>
+          <p>POUR <persName key="paul_frique" role="participant">MONSIEUR DE SAINTE FRIQUE.</persName></p>
+          <p>Un Arbre fruitier tout en fleurs.</p>
+          <p ana="devise">spes mixta metu
+        
+        .</p>
+          <l>Si j’ose en croire l’apparence,</l>
+          <l>Le brillant de mes fleurs me permet l’esperance,</l>
+          <l>Sur un moindre presage on se flate souvent ;</l>
+          <l>Mais malgré cet espoir j’ay toûjours de la crainte,</l>
+          <l>Il peut venir un mauvais vent :</l>
+          <l>Malheur s’il faut en essuyer l’atteinte.</l>
+          <p>
+            pour monsieur
+          </p>
+          <p>
+            <persName key="claude_villars" role="participant">LE MARQUIS DE VILLARS.</persName>
+          </p>
+          <p>Un Cadran qui ne soit point un Cadran au Soleil, mais un Cadran d’Horloge.</p>
+          <p ana="devise">o la dichosa, o la postrera
+        
+        .</p>
+          <l>Dans l’estat incertain où toûjours je demeure,</l>
+          <l>Sans que de mon destin l’amour veüille ordonner,</l>
+          <l><pb n="11"/>Vienne aujourd’huy ma derniere heure ;</l>
+          <l>Si la bonne pour moy n’est pas preste à sonner.</l>
+          <p>POUR <persName key="joseph_castries" role="participant">MONSIEUR DE CASTRES.</persName></p>
+          <p>Un Soleil en haut, &amp; un Arc-en-Ciel plus bas, entre le Soleil &amp; la Terre.</p>
+          <p ana="devise">muneris hoc tui
+        
+        .</p>
+          <l>Mes diverses couleurs ont un éclat si rare,</l>
+          <l>Que l’on ne peut assez en admirer le choix,</l>
+          <l>L’assemblage en est beau, mais lors que je m’en pare,</l>
+          <l>C’est au Soleil que je les dois.</l>
+          <p>POUR <persName key="charles_tingry" role="participant">MONSIEUR LE PRINCE DE TINGRY.</persName></p>
+          <p>L’empreinte d’un Cachet où paroist la teste du <persName>Roy</persName> fort marquée sur du papier, &amp; au dessous le Cachet de profil.</p>
+          <p ana="devise">semel acceptam servat
+        
+        .</p>
+          <l>Cette Image a de nobles traits,</l>
+          <l>La grandeur n’en sçaurait estre assez bien conceuë :</l>
+          <l>Il suffit que je l’ay receuë,</l>
+          <l>Rien ne l’effacera jamais.</l>
+          <p>POUR <persName key="antoine_valentinois" role="participant">MONSIEUR DE VALENTINOIS.</persName></p>
+          <p>Un Champ plein de fleurs avec une Abeille qui s’arreste dans le milieu.</p>
+          <p ana="devise">de todas un poquito
+        
+        .</p>
+          <l>Comme c’est à mon goust le plus grand des malheurs,</l>
+          <l>Que de brûler long-temps d’une flâme importune,</l>
+          <l><pb n="12"/>Ie m’arreste à toutes les Fleurs,</l>
+          <l>Et prens quelque peu de chacune.</l>
+          <p>POUR <persName key="emmanuel_usez" role="participant">MONSIEUR LE DUC D’USEZ.</persName></p>
+          <p>Un Miroir sur une Table couverte d’un tapis.</p>
+          <p ana="devise">sin mancha, y sin lisonia
+        
+        .</p>
+          <l>Pour peu qu’à le voir on s’attache,</l>
+          <l>On reconnoist qu’il est sans tache,</l>
+          <l>Mais de luy la laideur a tout à redouter,</l>
+          <l>Il est franc, &amp; ne peut flater.</l>
+          <p>
+            pour monsieur
+          </p>
+          <p>
+            <persName key="alphonse_henri_lorraine" role="participant">LE PRINCE D’HARCOURT.</persName>
+          </p>
+          <p>Un gros Chesne fort vieux dans une Campagne. Les branches en sont rompuës, le tronc en est separé, &amp; il paroist quelque petit rejetton dont les feüilles sont fort vertes. Le Soleil qu’on voit dans un coin semble dissiper une partie des nuages, en dardant ses rayons sur ce petit rejetton.</p>
+          <p ana="devise">crescet
+        
+        .</p>
+          <l>Ce gros Chesne où le temps a fait tant de ravages</l>
+          <l>A perdu de grands avantages,</l>
+          <l>De tous costez le tronc en est ouvert :</l>
+          <l>Heureux le rejetton qui commence à paroistre ;</l>
+          <l>Que de brillant sur son feüillage verd ? <pb n="13"/></l>
+          <l>On voit pas là ce qu’il doit estre,</l>
+          <l>Quand le Soleil l’aura fait croistre.</l>
+          <p>
+            pour monsieur
+          </p>
+          <p>
+            <persName key="rené_lafayette" role="participant">LE COMTE DE LA FAYETTE.</persName>
+          </p>
+          <p>Un Eclair.</p>
+          <p ana="devise">peresca como lusca
+        
+        .</p>
+          <l>Je cherche à m’asseurer une illustre Memoire,</l>
+          <l>Et dans l’ardeur de l’acquerir,</l>
+          <l>Il m’importe peu de perir,</l>
+          <l>Pourveu qu’en perissant je me couvre de Gloire.</l>
+          <p>
+            pour monsieur
+          </p>
+          <p>
+            <persName key="louis_novion" role="participant">LE MARQUIS DE NOVION.</persName>
+          </p>
+          <p>Une jeune Figuier sous un Soleil.</p>
+          <p ana="devise">fors fructus sine flore dabo
+        
+        .</p>
+          <l>Si j’obtiens du Soleil un regard favorable,</l>
+          <l>Mes desseins doivent estre heureusement conduits,</l>
+          <l>Et sans avoir de fleurs je puis estre capable</l>
+          <l>De porter d’assez nobles fruits.</l>
+          <pb n="14"/>
+          <p>
+            pour monsieur
+          </p>
+          <p>
+            <persName key="alexandre_bournonville" role="participant">LE DUC DE BOURNONVILLE.</persName>
+          </p>
+          <p>Une Lance, les Dards, &amp; l’Epée joints ensemble.</p>
+          <p ana="devise">ludo belloque
+        
+        .</p>
+          <l>Prest d’entrer dans la carriere,</l>
+          <l>Voyez dans sa mine fiere</l>
+          <l>L’heroïque &amp; noble éclat</l>
+          <l>Que ce Jeu guerrier luy cause.</l>
+          <l>Si c’estoit un vray combat,</l>
+          <l>Ce seroit toute autre chose.</l>
+          <p>
+            pour monsieur
+          </p>
+          <p>
+            <persName key="louis_rochefort" role="participant">LE MARQUIS DE ROCHEFORT.</persName>
+          </p>
+          <p>Un Eclair sortant d’une Nuë.</p>
+          <p ana="devise">
+              nascendo risplende.
+            </p>
+          <l>Que son destin sera puissant,</l>
+          <l>Et que ne doit-on pas attendre</l>
+          <l>De tout ce que l’honneur luy doit faire entreprendre,</l>
+          <l>Puisqu’il brille mesme en naissant !</l>
+          <p>
+            pour monsieur
+          </p>
+          <p>
+            <persName key="la_chastre" role="participant">LE MARQUIS DE LA CHASTRE.</persName>
+          </p>
+          <p>Une Pyramide renversée.</p>
+          <p ana="devise">pur che sia rilevata
+        
+        .</p>
+          <l>Malgré le Destin qui m’abat,</l>
+          <l>De la hauteur où j’estois arrivée</l>
+          <l><pb n="15"/>Ie sçauray soûtenir l’éclat</l>
+          <l>Pourvû que je sois relevée.</l>
+          <p>POUR <persName key="louis_chamarande" role="participant">MONSIEUR DE CHAMARANTE.</persName></p>
+          <p>Un Aigle volant vers le Soleil.</p>
+          <p ana="devise">dove l’opra non puo, giunge il desio
+        
+        .</p>
+          <l>Plein d’un feu que jamais rien ne sçauroit éteindre,</l>
+          <l>Pour l’Astre dont l’aspect cause tous mes plaisirs,</l>
+          <l>Ie fais arriver mes desirs</l>
+          <l>Où mon vol ne sçauroit atteindre.</l>
+          <p>POUR <persName key="philippe_ii_mursay" role="participant">MONSIEUR DE MURCÉ.</persName></p>
+          <p>Un Guidon debout.</p>
+          <p ana="devise">quovis ferar ultro
+        
+        .</p>
+          <l>En quelque lieu qu’il faille me porter,</l>
+          <l>J’y veux bien aller affronter</l>
+          <l>La plus redoutable tempeste.</l>
+          <l>Plus le peril est grand, plus la gloire me plaist.</l>
+          <l>S’il faut partir, rien ne m’arreste,</l>
+          <l>Qu’on donne l’ordre, je suis prest.</l>
+          <p>
+            pour monsieur
+          </p>
+          <p>
+            <persName key="francesco_carpegna" role="participant">LE COMTE DE CARPEIGNE.</persName>
+          </p>
+          <p>Un Eliotrope naissant, &amp; sortant de la terre sans Soleil.</p>
+          <p ana="devise">esco dal suolo per il sole
+        
+        .</p>
+          <pb n="16"/>
+          <l>Le Soleil reglera mon estre,</l>
+          <l>C’est à luy seul que je me doy.</l>
+          <l>Comme pour luy j’ay voulu naistre,</l>
+          <l>Il voudra bien luire pour moy.</l>
+          <p>POUR <persName key="henri_mouy" role="participant">MONSIEUR DE MOUY.</persName></p>
+          <p>Un cercle du Zodiaque, où paroist de face un Belier d’argent, &amp; des Etoiles d’or.</p>
+          <p ana="devise">
+              por esta luz hé devado el tuson.
+            </p>
+          <l>Que pour conquerir la Toison</l>
+          <l>Plus d’un Argonaute s’appreste,</l>
+          <l>I’ay quité l’entreprise, &amp; c’est avec raison</l>
+          <l>Que d’un autre Belier je poursuis la conqueste.</l>
+          <p>POUR <persName key="charles_trémoille" role="participant">MONSIEUR DE LA TRIMOUILLE.</persName></p>
+          <p>Un Feu elementaire.</p>
+          <p ana="devise">sempre ardente, sempre acosto
+        
+        .</p>
+          <l>Dans la brillante sphere où je suis attaché,</l>
+          <l>Ie brûle du feu le plus stable,</l>
+          <l>Et quoy qu’il soit toûjours caché,</l>
+          <l>Le plus ardent n’a rien qui luy soit comparable.</l>
+          <pb n="17"/>
+          <p>POUR <persName key="antoine_iv_de_gramont" role="participant">MONSIEUR LE DUC DE GRAMMONT.</persName></p>
+          <p>Une Montagne fort élevée.</p>
+          <p ana="devise">
+              las mas altas no me hazen sombra.
+            </p>
+          <l>Quand il seroit des Monts sans nombre</l>
+          <l>D’une hauteur à faire effroy,</l>
+          <l>Ceux qui produisent le plus d’ombre</l>
+          <l>Ne pourront en jetter sur moy.</l>
+          <p>POUR <persName key="michel_villacerf" role="participant">MONSIEUR DE VILLACERF.</persName></p>
+          <p>Un Cadran au Soleil en forme d’une Coupe, posé sur une Pierre quarrée.</p>
+          <p ana="devise">sempre fedele
+        
+        .</p>
+          <l>Avec exactitude, avec soin, avec zéle,</l>
+          <l>Je m’acquite de mon employ.</l>
+          <l>Eclairé du Soleil qui refléchit sur moy,</l>
+          <l>Puis-je manquer d’estre fidelle ?</l>
+          <p>POUR <persName key="louis_nesle" role="participant">MONSIEUR LE MARQUIS DE NESLE.</persName></p>
+          <p>Une Fusée volante.</p>
+          <p ana="devise">accesa alto vola
+        
+        .</p>
+          <l>Quand l’ardeur de la Gloire échaufe mon courage,</l>
+          <l>Plein d’un feu dont l’excés est l’unique defaut,</l>
+          <l>Je disputerois l’avantage</l>
+          <l>A qui croiroit voler plus haut.</l>
+          <pb n="18"/>
+          <p>POUR <persName key="louis_froulay" role="participant">MONSIEUR DE FROULE.</persName></p>
+          <p>Une Pierre d’Aiman armée, qui tient en l’air à une Chaine une Clef de fer audessous, qui touche à l’Aiman par l’Anneau.</p>
+          <p ana="devise">son a seguir ti
+        
+        .</p>
+          <l>Sans cet Aiman je ne puis vivre,</l>
+          <l>Il fait tous mes plaisirs, laissez-le-moy chercher,</l>
+          <l>C’est à luy seul que je veux m’attacher,</l>
+          <l>Heureux d’estre fait pour le suivre.</l>
+          <p>POUR <persName key="scipion_polignac" role="participant">MONSIEUR DE POLIGNAC.</persName></p>
+          <p>Un Feu Grégeois qui brule dans l’eau.</p>
+          <p ana="devise">magis ex obstantibus ardet
+        
+        .</p>
+          <l>Comme de plus en plus j’ay lieu de m’applaudir</l>
+          <l>Sur la gloire qui suit le feu qui me consume,</l>
+          <l>Ce qu’on fait pour le refroidir,</l>
+          <l>Est ce qui dans mon cœur plus fortement l’allume.</l>
+          <p>POUR <persName key="louis_antin" role="participant">MONSIEUR DANTIN.</persName></p>
+          <p>Une belle Campagne, d’où une Fléche s’éleve fort haut.</p>
+          <p ana="devise">o subir, o baxar
+        
+        .</p>
+          <l>Pour la Gloire il n’est rien que mon cœur n’exécute,</l>
+          <l>Et si trop haut je tâche d’arriver,</l>
+          <l>Il vaut mieux s’exposer au peril de la cheute,</l>
+          <l>Que de craindre de s’élever.</l>
+          <pb n="19"/>
+          <p>POUR <persName key="henri_elbeuf" role="participant">MONSIEUR LE PRINCE D’ELBEUF.</persName></p>
+          <p>Un Vaisseau prest à partir.</p>
+          <p ana="devise">quo feret aura
+        
+        .</p>
+          <l>Je cede à la Fortune obstinée à me nuire,</l>
+          <l>A moins qu’un Dieu puissant ne daigne s’en mêler ;</l>
+          <l>Sous son Auspice heureux me voila prest d’aller</l>
+          <l>Où le vent pourra me conduire.</l>
+          <p>POUR <persName key="claude_thiange" role="participant">MONSIEUR LE MARQUIS DE THIANGE.</persName></p>
+          <p>Un Aigle qui vole au Soleil à travers les Foudres.</p>
+          <p ana="devise">nil obstat eunti
+        
+        .</p>
+          <l>Par un rapide vol il marque son amour</l>
+          <l>Pour l’Astre qui donne le jour ;</l>
+          <l>Le voir de prés est le seul avantage</l>
+          <l>Dont le charme sensible ait dequoy le flater,</l>
+          <l>Et s’agissant vers luy de s’ouvrir un passage,</l>
+          <l>L’obstacle le plus fort ne le peut arrester.</l>
+          <p>POUR <persName key="gaston_mirepoix" role="participant">MONSIEUR DE MIREPOIX.</persName></p>
+          <p>Un Lion d’une attitude fiere &amp; hardie, au milieu d’un Cirque, où l’on voit à l’entour d’autres Animaux prests à entrer en Lice.</p>
+          <p ana="devise">robore vincet et ausu
+        
+        .</p>
+          <l>Ses Rivaux ont beau se flater</l>
+          <l>De l’orgueilleux espoir d’une aimable conqueste,</l>
+          <l>Il n’est rien qu’il n’ose tenter,</l>
+          <l>Et dans la vive ardeur que contr’eux il appreste,</l>
+          <l>Il est seur de les surmonter.</l>
+          <pb n="20"/>
+          <p>POUR <persName key="louis_astri" role="participant">MONSIEUR LE DUC D’ATRIS.</persName></p>
+          <p>Un Heliotrope, &amp; un Soleil qui l’éclaire.</p>
+          <p ana="devise">nil atri sole micante
+        
+        .</p>
+          <l>Si de cét Astre puissant,</l>
+          <l>Un Rayon sur moy descend</l>
+          <l>Pour soûtenir ma foiblesse,</l>
+          <l>Je crains peu l’obscurité ;</l>
+          <l>Il n’en est point qui ne cesse</l>
+          <l>Où se répand sa clarté.</l>
+          <p>POUR <persName key="henri_brionne" role="participant">MONSIEUR LE COMTE DE BRIONNE.</persName></p>
+          <p>Un Aigle portant les Foudres de <name>Jupiter.</name></p>
+          <p ana="devise">gero arma tonantis
+        
+        .</p>
+          <l>Tenir un Foudre dans ma serre,</l>
+          <l>C’est faire assez bien éclater</l>
+          <l>La gloire que j’ay de porter</l>
+          <l>Les armes dont se sert le Maistre du Tonnerre.</l>
+          <p>POUR <persName key="francois_rocheguyon" role="participant">MONSIEUR DE LA ROCHEGUION.</persName></p>
+          <p>La peau du <name>Lion de Nemée.</name></p>
+          <p ana="devise">a me tocca d’ornar il vincitore 
+        .</p>
+          <l>L’ardeur de m’acquerir doit enflamer le cœur</l>
+          <l>De tous ceux qui cherchent la gloire ;</l>
+          <l>Quand on a gagné la victoire,</l>
+          <l>C’est à moy d’orner le Vainqueur.</l>
+          <pb n="21"/>
+          <p>
+            pour monsieur
+          </p>
+          <p>
+            <persName key="francois_hautefort" role="participant">LE COMTE DE HAUTEFORT.</persName>
+          </p>
+          <p>Une Tour au haut de laquelle est un Feu allumé, &amp; un Vaisseau sur mer, qui paroist s’en éloigner.</p>
+          <p ana="devise">huc cursus fuit
+        
+        .</p>
+          <l>Vers cette Tour une aimable lumiere</l>
+          <l>M’attire, &amp; de mon sort doit seule decider ;</l>
+          <l>Mais un Vent ennemy qui me pousse en arriere,</l>
+          <l>M’empesche toûjours d’aborder.</l>
+          <p>POUR <persName key="henri_fr_ferté" role="participant">MONSIEUR LE DUC DE LA FERTÉ</persName>.</p>
+          <p>Un Chien blanc qui ronge un Os.</p>
+          <p ana="devise">falta de meior
+        
+        .</p>
+          <l>Cet Os pourra blesser les yeux,</l>
+          <l>Il ne vaut pas la peine qu’il me cause ;</l>
+          <l>Mais comme le temps fait le prix de chaque chose,</l>
+          <l>Je le ronge faute de mieux.</l>
+          <p>De tous ces Madrigaux, il n’y a que celuy qui est fait sur la Devise de <persName key="saint_aignan" role="participant">Monsieur le Duc de Saint Aignan</persName>, qui soit de <persName key="claude_vertron" role="auteur">Monsieur Vertron</persName>. On les a fait imprimer sans ordre, &amp; à mesure que l’on a pû avoir les Devises. Celles qui suivent ne m’ont esté apportées que dans temps qu’on a esté obligé de finir ce Livre. Ainsi il a fallu les envoyer aussi-tost à l’Imprimeur, &amp; cela est <pb n="22"/> cause qu’on ne les explique que par un seul Vers faute de temps. Quelques Chevaliers en ont changé, comme <persName key="alphonse_henri_lorraine" role="participant">Monsieur le Prince d’Harcourt</persName>, <persName key="louis_mailly" role="participant">Monsieur de Mailly</persName>, &amp; <persName key="joachim_bouzols" role="participant">Monsieur de Bouzole</persName>, pour qui vous en trouverez parmy les premieres qui sont expliquées par des Madrigaux. Ces dernieres que vous trouverez encore pour eux, sont celles qu’ils ont choisies.</p>
+          <p>
+            <persName key="alphonse_henri_lorraine" role="participant">Monsieur le Prince d’Harcourt.</persName>
+          </p>
+          <p>Un gros Diamant brut au milieu de l’Ecusson.</p>
+          <l>Je brilleray si l’on m’employe.</l>
+          <p>
+            <persName key="louis_rohan" role="participant">Monsieur de Rohan.</persName>
+          </p>
+          <p>Une Flâme qui s’éleve en haut.</p>
+          <p ana="devise">Quo me vocat insita virtus.</p>
+          <l>Je marche sur les pas de mes nobles Ayeux.</l>
+          <p>
+            <persName key="pierre_listenois" role="participant">Monsieur de Listenay.</persName>
+          </p>
+          <p>Un Vaisseau &amp; des Argonautes en Mer, le Mats chargé d’une Toison d’or.</p>
+          <p ana="devise">Mas honrado que rico.</p>
+          <l>Plus de gloire que de fortune.</l>
+          <p>
+            <persName key="francois_alincourt" role="participant">Monsieur le Marquis d’Alincourt.</persName>
+          </p>
+          <p>Un paquet de Méche dont le fond paroist allumé par la fumée qui en sort.</p>
+          <p ana="devise">Ardente, e constante.</p>
+          <l>Je n’ay pas moins d’ardeur que de constance.</l>
+          <pb n="23"/>
+          <p>
+            <persName key="louis_artagnan" role="participant">Monsieur d’Artagnan.</persName>
+          </p>
+          <p>Un Aiglon regardant fixement le Soleil, &amp; tenant d’une de ses Serres un Foudre prest à lancer.</p>
+          <p ana="devise">Sic docuit pater.</p>
+          <l>Je cherche à pratiquer les leçons de mon Pere.</l>
+          <p>
+            <persName key="paul_kerouartz" role="participant">Monsieur de Querouel</persName>
+          </p>
+          <p>Un Porc-Epic au milieu de deux Chiens qui n’osent le mordre le voyant armé de tous costez.</p>
+          <p ana="devise">Ni atregados, ni atrevidos temo.</p>
+          <l>Les plus fougueux me donnent peu de crainte.</l>
+          <p>
+            <persName key="louis_cominges_ii" role="participant">Monsieur de Vervins.</persName>
+          </p>
+          <p>Un Tronc de Laurier mort qui pousse un Rejetton verd.</p>
+          <p ana="devise">Per te reviviscet.</p>
+          <l>C’est par toy seul qu’il revivra.</l>
+          <p>
+            <persName key="francois_roucy" role="participant">Monsieur de Roussy.</persName>
+          </p>
+          <p>Un Tournesol panché vers la terre du costé du Soleil couchant.</p>
+          <p ana="devise">Hasta su buelta.</p>
+          <l>Je languiray jusques à son retour.</l>
+          <p>
+            <persName key="carlo_frabose" role="participant">Monsieur de Palavicin.</persName>
+          </p>
+          <p>Un Aigle exposé à la plus grande clarté du Soleil.</p>
+          <p ana="devise">Gia di mirarlo è degno.</p>
+          <l>Il est digne sur luy d’attacher ses regards.</l>
+          <p>
+            <persName key="n_brassac" role="participant">Monsieur de Brassac.</persName>
+          </p>
+          <p>Un Oyseau de Proye attaché sur une Perche.</p>
+          <p ana="devise">Quo non si mihi fas.</p>
+          <l>Ah ! s’il m’estoit permis jusqu’où n’irois-je pas ?</l>
+          <pb n="24"/>
+          <p>
+            <persName key="charles_coatelles" role="participant">Monsieur Coedelete.</persName>
+          </p>
+          <p>Un Aiglon prest à voler, &amp; commençant à déployer ses Aîles sur la pointe d’un Rocher, la teste un peu panchée en regardant le Soleil.</p>
+          <p ana="devise">Probor, extollar.</p>
+          <l>Je m’éprouve pour m’élever.</l>
+          <p>
+            <persName key="louis_mailly" role="participant">Monsieur de Mailly.</persName>
+          </p>
+          <p>Un Thermometre.</p>
+          <p ana="devise">A mas ardor mas me levanto.</p>
+          <l>Plus il fait chaud, plus je m’éleve.</l>
+          <p>
+            <persName key="sebastien_iv_molac" role="participant">Monsieur de Molac.</persName>
+          </p>
+          <p>Un Fusil bandé.</p>
+          <p ana="devise">Si tangar.</p>
+          <l>Je prens feu si-tost qu’on me touche.</l>
+          <p>
+            <persName key="louis_villequier" role="participant">Monsieur de Villequier.</persName>
+          </p>
+          <p>Des Bâtons de Maréchal de France passez en Sautoir, avec la Masse de Chancelier.</p>
+          <p ana="devise">Nec sic inermes.</p>
+          <l>C’est le moyen de se défendre.</l>
+          <p>
+            <persName key="charles_blanzac" role="participant">Monsieur de Blansac.</persName>
+          </p>
+          <p>Un gros Ruisseau qui descend d’une Montagne escarpée, &amp; qui fait aller une grand Fontaine au bas de cette Montagne.</p>
+          <l>Mon panchant m’élevera.</l>
+          <p>
+            <persName key="henri_montchevreuil" role="participant">Monsieur de Monchevreüil.</persName>
+          </p>
+          <p>Du Bois qui commence à s’allumer.</p>
+          <p ana="devise">Splendescam, da materiam.</p>
+          <l>Je luiray, donnez la matiere.</l>
+          <pb n="25"/>
+          <p>
+            <persName key="adolphe_soyecourt" role="participant">Monsieur le Chevalier de Soyecourt.</persName>
+          </p>
+          <p>Un Lion, &amp; un Soleil au dessus.</p>
+          <p ana="devise">Et micat &amp; ferit.</p>
+          <l>Il est vif à briller, dangereux quand il frappe.</l>
+          <p>
+            <persName key="joachim_bouzols" role="participant">Monsieur de Bouzole.</persName>
+          </p>
+          <p>Une Barque qui met à la Voile, &amp; de grands Vaisseaux dans l’éloignement.</p>
+          <p ana="devise">Majores dabit aura sequi.</p>
+          <l>J’atteindray les plus grands si le Vent me seconde.</l>
+          <p>
+            <persName key="louis_vieuxbourg" role="participant">Monsieur de Vieux-Bourg.</persName>
+          </p>
+          <p>Un bouton de Rose fermé.</p>
+          <l>J’attens tout du Soleil.</l>
+          <p>
+            <persName key="henri_vibraye" role="participant">Monsieur de Vibraye.</persName>
+          </p>
+          <p>Un Cadran sans Soleil.</p>
+          <p ana="devise">Sine Sole nihil.</p>
+          <l>Je ne suis rien sans le Soleil.</l>
+          <p>
+            <persName key="antoine_colbert" role="participant">Monsieur le Bailly Colbert.</persName>
+          </p>
+          <p>Une Galere à la Voile.</p>
+          <p ana="devise">Brevi levis aura feret.</p>
+          <l>Un heureux Vent dans peu m’éloignera du Port.</l>
+          <p>
+            <persName key="louis_bellefonds" role="participant">Monsieur de Bellefonds.</persName>
+          </p>
+          <p>Un Aiglon qui regarde le Soleil.</p>
+          <p ana="devise">Non degener.</p>
+          <l>De ses Ayeux il suit les traces.</l>
+          <pb n="26"/>
+          <p>
+            <persName key="jean_caylus" role="participant">Monsieur de Quelus.</persName>
+          </p>
+          <p>Un Arbre enté qui commence à jetter des feüilles.</p>
+          <p ana="devise">Si jubeat restorescet.</p>
+          <l>S’il le veut, il reverdira.</l>
+          <p>
+            <persName key="jean_tilladet" role="participant">Monsieur de Tilladet.</persName>
+          </p>
+          <p>Un Aigle qui se soûtient en l’air.</p>
+          <p ana="devise">Aut Solem, aut prælia.</p>
+          <l>Ou le Soleil, ou les Combats.</l>
+          <p>
+            <persName key="louis_gondrin" role="participant">Monsieur de Gondrin.</persName>
+          </p> 
+          <p>Une Fusée volante.</p>
+          <p ana="devise">De mi fuego mi subida.</p>
+          <l>C’est par mon feu que je m’éleve.</l>
+          <p>
+            <persName key="francois_hautefort" role="participant">Monsieur le Comte d’Hautefort.</persName>
+          </p>
+          <p>Un Vaisseau batu des Vents.</p>
+          <p ana="devise">Frustra obstant.</p>
+          <l>En vain les Vents se liguent contre moy.</l>
+          <p>Il manque encore deux ou trois Devises, qu’il m’a esté impossible d’avoir. Celle de <persName key="louis_grand_dauphin" role="participant">Monseigneur le Dauphin</persName> est de <persName key="saint_aignan" role="participant">Monsieur le Duc de S. Aignan</persName>. On l’a choisie parmy plus de vingt autres. On s’est trompé à la Devise de <persName key="jean_louis_fiesque" role="participant">Monsieur le Comte de Fiesque</persName> ; il y a des Bleds, au lieu de Roseaux. Toutes les Devises sont peintes sur des Boucliers qui sont d’autant de Figures <pb n="27"/> diférentes ; qu’il y a de Couleurs, c’est à dire de celles des deux Chefs &amp; des huit Brigades. Ces Boucliers sont tous entourez de Pierreries.</p>
+          <p>J’ay oublié de marquer, que quatre Maréchaux de France qui seront sur l’Echafaut de <persName key="louisxiv" role="spectateur">Sa Majesté</persName>, doivent adjuger le Prix, suivant les conditions prescrites par le Reglement de <persName>Monsieur le Duc de S. Aignan</persName>, Maréchal de Camp Genéral ; ce qu’ils feront sur le rapport que leur viendront faire quatre Pages du Roy de la Quadrille de <persName key="louis_grand_dauphin" role="participant">Monseigneur le Dauphin</persName>, qui seront postez dans la Lice autour de <persName>ce Duc</persName>.</p>
+          <p>On a imprimé ce Livre avec une telle précipitation, qu’il a esté impossible d’empescher qu’il ne s’y soit glissé plusieurs fautes qui rompent le sens en beaucoup d’endroits. La 10. ligne de la page 27. doit finir par ces mots, qui est à terre ; sans cela ce qu’on veut dire ne sçaurait estre entendu. On a mis Tours d’ermeilles pour Tours Verneilles, &amp; fort souvent Abenserrages pour Abencerrages. Si on a mis Gazules &amp; Gomeles au lieu de Gazuls &amp; de Gomels, on l’a fait à l’imitation des Espagnols, qui disent los Gazules, &amp; los Gomeles. Je ne parle point de quelques noms Maures mal imprimez, comme Amilda <pb n="28"/>pour Amida. Ce ne sont des fautes que pour ceux qui ont leu avec un attachement particulier les Guerres Civiles de <placeName>Grenade</placeName>, &amp; ils n’auront pas de peine à y suppleer.</p>
+          <p>FIN.</p>
+          <p>AVEC PRIVILEGE<persName>DU ROY</persName>
+        .
+</p>
+          <!--/section=Sect1-->
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
