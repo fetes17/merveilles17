@@ -20,7 +20,14 @@
          <name>Fort Saint-François</name>
          <geo>50.63861, 2.39667</geo>
          <country>France</country>
-         <settlement>Fort Saint-François</settlement>
+         <settlement>Aire-sur-la-Lys</settlement>
+         <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Enceinte_d%27Aire-sur-la-Lys</identifier>
+       </place>
+       <place xml:id="aire-sur-la-lys_fortifications">
+         <name>Aire-sur-la-Lys, fortifications</name>
+         <geo>50.63861, 2.39667</geo>
+         <country>France</country>
+         <settlement>Aire-sur-la-Lys</settlement>
          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Enceinte_d%27Aire-sur-la-Lys</identifier>
        </place>
      </place>
@@ -66,8 +73,22 @@
         <settlement>Dunkerque</settlement>
         <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Dunkerque</identifier>
         <identifier type="geonames">https://www.geonames.org/3020685</identifier>
+        <place xml:id="dunkerque_fortifications">
+          <name>Dunkerque, fortifications</name>
+          <geo>51.04208, 2.37309</geo>
+          <country>France</country>
+          <settlement>Dunkerque</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Fortifications_de_Dunkerque</identifier>
+        </place>
+        <place xml:id="dunkerque_hotel_de_ville">
+          <name>Dunkerque, hôtel de ville</name>
+          <geo>51.04208, 2.37309</geo>
+          <country>France</country>
+          <settlement>Dunkerque</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/H%C3%B4tel_de_ville_de_Dunkerque</identifier>
+        </place>
         <place xml:id="dunkerque_port">
-          <name>Port de Dunkerque</name>
+          <name>Dunkerque, port</name>
           <geo>51.04208, 2.37309</geo>
           <country>France</country>
           <settlement>Dunkerque</settlement>
@@ -102,6 +123,9 @@
       <place xml:id="menin">
         <name>Porte de Menin</name>
         <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Porte_de_Menin</identifier>
+      </place>
+      <place xml:id="monquebour">
+        <name>Monquebour ?</name>
       </place>
       <place xml:id="respoude">
         <name>Respoude</name>
@@ -211,6 +235,14 @@
       <settlement>Boulogne-sur-Mer</settlement>
       <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Boulogne-sur-Mer</identifier>
       <identifier type="geonames">https://www.geonames.org/3031132/arrondissement-de-boulogne-sur-mer.html</identifier>
+      <place xml:id="boulogne-sur-mer_fortifications">
+        <name>Boulogne-sur-Mer, fortifications</name>
+        <geo>50.72407, 1.72682</geo>
+        <country>France</country>
+        <settlement>Boulogne-sur-Mer</settlement>
+        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Ville_fortifi%C3%A9e_de_Boulogne-sur-Mer</identifier>
+        <identifier type="geonames">https://www.geonames.org/3031132/arrondissement-de-boulogne-sur-mer.html</identifier>
+      </place>
     </place>
     <place xml:id="calais">
       <name>Calais</name>
@@ -243,6 +275,9 @@
       <settlement>Gravelines</settlement>
       <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Gravelines</identifier>
       <identifier type="geonames">https://www.geonames.org/6438268/gravelines.html</identifier>
+      <place xml:id="gravelines_fortifications">
+        <name>Gravelines, fortifications</name>
+      </place>
     </place>
     <place xml:id="montreuil">
       <name>Montreuil</name>
