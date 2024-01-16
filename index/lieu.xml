@@ -73,6 +73,13 @@
         <settlement>Dunkerque</settlement>
         <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Dunkerque</identifier>
         <identifier type="geonames">https://www.geonames.org/3020685</identifier>
+        <place xml:id="dunkerque_citadelle">
+          <name>Dunkerque, citadelle</name>
+          <geo>51.04208, 2.37309</geo>
+          <country>France</country>
+          <settlement>Dunkerque</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Quartiers_de_Dunkerque</identifier>
+        </place>
         <place xml:id="dunkerque_fortifications">
           <name>Dunkerque, fortifications</name>
           <geo>51.04208, 2.37309</geo>
@@ -123,6 +130,10 @@
       <place xml:id="menin">
         <name>Porte de Menin</name>
         <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Porte_de_Menin</identifier>
+        <place xml:id="menin_citadelle">
+          <name>Menin, citadelle</name>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Enceinte_de_Menin</identifier>
+        </place>
       </place>
       <place xml:id="monquebour">
         <name>Monquebour ?</name>
@@ -136,10 +147,20 @@
         <settlement>Flandre</settlement>
         <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Tournai</identifier>
         <identifier type="geonames">https://www.geonames.org/2785341/tournai.html</identifier>
-        <place xml:id="tournai_abbye">
+        <place xml:id="tournai_abbaye">
           <name>Abbaye Saint-Martin de Tournai</name>
           <settlement>Tournai</settlement>
           <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Abbaye_Saint-Martin_de_Tournai</identifier>
+        </place>
+        <place xml:id="tournai_citadelle">
+          <name>Tournay, citadelle</name>
+          <settlement>Tournai</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Citadelle_de_Tournai</identifier>
+        </place>
+        <place xml:id="tournai_fortifications">
+          <name>Tournay, fortifications</name>
+          <settlement>Tournai</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Fortifications_de_Tournai</identifier>
         </place>
       </place>
       <place xml:id="tressin">
@@ -286,6 +307,14 @@
       <settlement>Montreuil-sur-Mer</settlement>
       <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Montreuil-sur-Mer</identifier>
       <identifier type="geonames">https://www.geonames.org/6618354/montreuil.html</identifier>
+      <place xml:id="montreuil_citadelle">
+        <name>Montreuil, citadelle</name>
+        <geo>50.4639, 1.7639</geo>
+        <country>France</country>
+        <settlement>Montreuil-sur-Mer</settlement>
+        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Citadelle_de_Montreuil-sur-Mer</identifier>
+        <identifier type="geonames">https://www.geonames.org/6618354/montreuil.html</identifier>
+      </place>
     </place>
     <place xml:id="neufchatel">
       <name>Neufchâtel-Hardelot</name>
