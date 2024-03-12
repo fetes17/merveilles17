@@ -202,7 +202,19 @@
         <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Ypres</identifier>
       </place>
     </place>
-  <place xml:id="picardie">
+    <place xml:id="hainaut"> <name>Hainaut</name> 
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Hainaut_(r%C3%A9gion_transfrontali%C3%A8re)</identifier>
+      <identifier type="geonames"></identifier>
+    <place xml:id="valenciennes">
+      <name>Valenciennes</name>
+      <geo></geo>
+      <country>France</country>
+      <settlement></settlement>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Valenciennes</identifier>
+      <identifier type="geonames"></identifier>
+    </place>
+    </place>
+    <place xml:id="picardie">
     <name>Picardie</name>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Picardie</identifier>
     <identifier type="geonames">https://www.geonames.org/2987375</identifier>
