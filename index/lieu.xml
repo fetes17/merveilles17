@@ -915,6 +915,11 @@
     <name>Allemagne</name>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Allemagne</identifier>
     </place>
+    <place xml:id="espagne">
+      <name>Espagne</name>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Espagne</identifier>
+      <identifier type="geonames">https://www.geonames.org/2510769</identifier>
+    </place>
     <place xml:id="grande_bretagne">
     <name>Grande-Bretagne</name>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Grande-Bretagne</identifier>
@@ -923,12 +928,12 @@
       <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Angleterre</identifier>
       </place>
     </place>
-    <place xml:id="espagne">
-      <name>Espagne</name>
-      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Espagne</identifier>
-      <identifier type="geonames">https://www.geonames.org/2510769</identifier>
+    <place xml:id="hongrie">
+      <name>Hongrie</name>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Hongrie</identifier>
+      <identifier type="geonames">https://www.geonames.org/719819/hungary.html</identifier>
     </place>
-      <place xml:id="italie">
+    <place xml:id="italie">
     <name>Italie</name>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Italie</identifier>
         <place xml:id="bologne">
@@ -939,7 +944,16 @@
           <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Bologne</identifier>
           <identifier type="geonames">https://www.geonames.org/3181927/bologna.html</identifier>
         </place>
-    <place xml:id="suede">
+      <place xml:id="pays_bas">
+        <name>Pays-Bas</name>
+        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Pays-Bas</identifier>
+        <identifier type="geonames">https://www.geonames.org/2750405/kingdom-of-the-netherlands.html</identifier>
+      </place>
+      <place xml:id="pologne">
+        <name>Pologne</name>
+        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Pologne</identifier>
+        <identifier type="geonames">https://www.geonames.org/798544/republic-of-poland.html</identifier>      </place>
+      <place xml:id="suede">
         <name>Suède</name>
         <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Suède</identifier>
         <identifier type="geonames">https://www.geonames.org/2661886/kingdom-of-sweden.html</identifier>
