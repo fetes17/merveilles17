@@ -934,17 +934,18 @@
       <identifier type="geonames">https://www.geonames.org/719819/hungary.html</identifier>
     </place>
     <place xml:id="italie">
-    <name>Italie</name>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Italie</identifier>
-        <place xml:id="bologne">
-          <name>Bologne</name>
-          <geo>44.46667, 11.43333</geo>
-          <country>Italie</country>
-          <settlement>Bologne</settlement>
-          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Bologne</identifier>
-          <identifier type="geonames">https://www.geonames.org/3181927/bologna.html</identifier>
-        </place>
-      <place xml:id="pays_bas">
+      <name>Italie</name>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Italie</identifier>
+      <place xml:id="bologne">
+        <name>Bologne</name>
+        <geo>44.46667, 11.43333</geo>
+        <country>Italie</country>
+        <settlement>Bologne</settlement>
+        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Bologne</identifier>
+        <identifier type="geonames">https://www.geonames.org/3181927/bologna.html</identifier>
+      </place>
+    </place>
+  <place xml:id="pays_bas">
         <name>Pays-Bas</name>
         <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Pays-Bas</identifier>
         <identifier type="geonames">https://www.geonames.org/2750405/kingdom-of-the-netherlands.html</identifier>
@@ -958,6 +959,5 @@
         <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Suède</identifier>
         <identifier type="geonames">https://www.geonames.org/2661886/kingdom-of-sweden.html</identifier>
     </place>
-  </place>
-  </place>  
+    
 </listPlace>
