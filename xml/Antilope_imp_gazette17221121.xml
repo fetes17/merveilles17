@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
+<?xml-stylesheet type="text/css" href="../style/tei-author.css" alternate="author"?>
+<?xml-model href="https://fetes17.github.io/merveilles17/merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Derniere partie de la relation du sacre et couronnement du Roy, Et de ce qui s’est
+          passé pendant le voyage de Sa Majesté.</title>
+        <author key="renaudot">RENAUDOT, Théophrast (1586, 1653)</author>
+        <editor key="renaudot" role="">RENAUDOT, Théophraste (1586, 1653)</editor>
+        <respStmt>
+          <resp>Directeur de publication</resp>
+          <persName>Aunillon, Pierre (1684-1758)</persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Merveilles17</edition>
+        <respStmt>
+          <name>Djewel Bennoura</name>
+          <resp>Transcription et Balisage</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université d’Artois - Lille, MESHS</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Derniere partie de la relation du sacre et couronnement du Roy, Et de ce qui s'est
+            passé pendant le voyage de Sa Majesté, Paris, Bureau d'adresse, aux galleries du Louvre,
+            devant la ruë S. Thomas, 21 novembre 1722</title>
+          <note>Extraordinaire de la Gazette,Paris,BNF</note>
+          <note><publisher>RENAUDOT, Théophraste</publisher><date>21 Novembre
+              1722</date><pubPlace>Bureau d’adresse, aux galleries du Louvre, devant la ruë S.
+              Thomas, Paris</pubPlace></note>
+          <ptr target="1722Gazette.pdf">
+            <!-- préciser source -->
+          </ptr>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1722">21 Novembre 1722</date>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head>DERNIERE PARTIE DE LA RELATION DU SACRE ET COURONNEMENT DU <persName key="louisxv"
+            >Roy</persName>,</head>
+        <head>Et de ce qui s’est passé pendant le voyage de <persName key="louisxv">Sa
+            Majesté</persName>.</head>
+        <p>LE <date when="1722">30 du mois d’Octobre</date>, le <persName key="louisxv"
+            >Roy</persName> entendit la Messe dans <placeName>la Chapelle du Palais Archiepiscopal
+            de Reims</placeName>, &amp; sur les dix heures , <persName key="louisxv">Sa
+            Majesté</persName> partit pour revenir icy. Le <persName key="louisxv">Roy</persName>
+          estoit accompagné dans son carosse , de <persName>Monsieur le Duc d’Orleans</persName> ,
+          du <persName>Duc de Chartres</persName> , du <persName>Duc de Bourbon</persName> , du
+            <persName>Comte de Clermont</persName> , du <persName>Prince de Conty</persName> , &amp;
+          du <persName>Duc de Charost</persName> son Gouverneur. Les Brigades de quartier des
+          Gendarmes &amp; des Chevaux-Legers de la Garde, les détachements des deux Compagnies des
+          Mousquetaires, &amp; le Guet</p>
+        <p>M6</p>
+        <pb n="625"/>
+        <p>des Gardes du Corps , les Officiers à leurs teste , marchoient devant &amp; aprés le
+          carosse du <persName key="louisxv">Roy</persName> , dans leurs rangs ordinaires. Le
+            <persName key="louisxv">Roy</persName> sortit de la <placeName>Ville</placeName> au
+          bruit de plusieurs <tech type="bruitage">salves de l’artillerie</tech> qui estoit sur les
+            <placeName>Remparts</placeName>, &amp; <persName>le Prince de Rohan , Gouverneur de la
+            </persName><placeName>Province de Champagne</placeName> , se trouva à la teste du Corps
+          de Ville , sur le passage de Sa <persName>Majesté</persName>, qui alla coucher à
+            <placeName>Fismes</placeName>.</p>
+        <p>Le mesme jour, les Troupes de la Maison du <persName key="louisxv">Roy</persName>, &amp;
+          les Regiments des Gardes Françoises &amp; Suisses quitterent le Camp de
+            <placeName>Reims</placeName> , &amp; reprirent la route de leurs Quartiers.</p>
+        <p><date when="1722">Le 31</date>, le <persName key="louisxv">Roy</persName> partit de
+            <placeName key="Fisme">Fismes</placeName> , &amp; il arriva à <placeName key="Soissons"
+            >Soissons</placeName> sur les trois heures aprés midy ; <persName key="louisxv">Sa
+            Majesté</persName> alla descendre à <placeName>l’Evesché</placeName>, où elle fur reçûë
+          à la portiere de son carosse , par <persName>l’Evesque de Soissons</persName>. Le soir
+          &amp; le lendemain , il y eut des <tech type="lumieres">illuminations</tech> dans toute la
+            <placeName key="Soissons">Ville</placeName>.</p>
+        <p><date when="1722">Le 1er du mois de Novembre</date> , jour de la Feste de Tous les Saints
+          , le <persName key="louisxv">Roy</persName> accompagné des <persName>Princes du
+            Sang</persName> , &amp; des principaux <persName>Officiers de sa Cour</persName> , alla
+          entendre la grande Messe dans <placeName>l’Eglise Cathedrale</placeName> :
+            <persName>l’Evesque de Soissons</persName> y officia pontificalement , &amp; <persName
+            key="louisxv">Sa Majesté</persName> alla à l’Offrande.</p>
+        <p>L’aprés midy, le mesme <persName>Prelat</persName> preschat devant le <persName
+            key="louisxv">Roy</persName>, &amp; il officia ensuite aux Vespres de la Feste, &amp;
+          aux Vigiles des Morts , ausquelles le <persName key="louisxv">Roy</persName> assista.</p>
+        <p><date when="1722">Le 2</date>, jour des Morts, le <persName key="louisxv">Roy</persName>
+          entendit la Messe dans <placeName>l’Eglise Cathedrale de Soissons</placeName> , &amp;
+            <persName key="louisxv">Sa Majesté</persName> partit sur les dix heures pour se rendre
+          au <placeName>Chasteau de Villers-Coterets</placeName> : le <persName key="louisxv"
+            >Roy</persName> y arriva <tech type="bruitage"> au bruit du canon </tech> , par
+            <placeName>la grance avenuë</placeName> qui rend sur le grand chemin , &amp; <persName
+            key="louisxv">Sa Majesté</persName> vint descendre au pied de la
+            <placeName>terrasse</placeName> qui regne le long du <placeName>Chasteau</placeName> du
+          costé des <placeName>Jardins</placeName>. <persName>Monsieur le Duc d’Orleans</persName> y
+          reçût le <persName key="louisxv">Roy</persName>, &amp; le conduisit dans
+            <placeName>l’Apartement</placeName> qui luy avoit esté preparé. Aprés que <persName
+            key="louisxv">Sa Majesté</persName> s’y fut reposée , elle descendit dans
+            <placeName>l’avant-Cour du Chasteau</placeName> , où des Danseurs de Corde, des
+          Sauteurs, des courses de Bague &amp; <tech type="bruitage">un bruit de Trompettes &amp; de
+            Cors</tech></p>
+        <pb n="626"/>
+        <p>de Chasse , formerent un spectacle qui divertit le <persName key="louisxv">Roy</persName>
+          pendant quelque temps.</p>
+        <p>Vers les cinq heures, le <persName key="louisxv">Roy</persName> estant remonté dans son
+            <placeName>Apartement</placeName>, s’amusa à joüer pendant une heure ; &amp; aprés le
+          jeu , on donna à <persName key="louisxv">Sa Majesté</persName> le divertissement de
+          quelques Scenes Italiennes executées par les Comediens ordinaires de <persName>Monsieur le
+            Duc d’Orleans</persName>. Pendant cette Comedie dont le <persName key="louisxv"
+            >Roy</persName> parut trés-content, les parterres du <placeName>Jardin</placeName> ,
+            <placeName>la grande Allée du Parc</placeName> , &amp; les deux qui font à la droite
+          &amp; à la gauche du <placeName>Chasteau</placeName> , furent illuminez par une quantité
+          prodigieuse de <tech type="lumieres">pots à feu</tech>, dont l’arrangement marquoit les
+          differents desseins des Parterres , &amp; des <placeName>Jardins</placeName>. Le <persName
+            key="louisxv">Roy</persName> estant descendu pour voir de plus prés l’effet de cette
+          magnifique <tech type="lumieres">illumination</tech> , trouva au bas de l’escalier de la
+            <placeName>Terrasse</placeName>, plusieurs Acteurs &amp; Actrices de l’Opera qui
+          venoient en habits de Villageois , donner une Feste champêtre à <persName key="louisxv">Sa
+            Majesté</persName> , &amp; luy presenter les respects de tous les Habitants des
+          environs. Aprés leurs danses, le <persName key="louisxv">Roy</persName> alla voir <tech
+            type="lumieres">l’illumination</tech> de <placeName>l’avant-Cour du Chasteau</placeName>
+          , au milieu de laquelle on avoit formé une espece de Sale , par des Arcades de feüillages,
+          qui estoient illuminez, ainsi que les quatre faces de cette <placeName>Cour</placeName>.
+          Aprés le souper de <persName key="louisxv">Sa Majesté</persName> , on servit la <tech
+            type="repas">Table</tech> de <persName>Monsieur le Duc d’Orleans</persName> ;
+            <persName>le Duc de Chartres</persName> en tint une seconde, &amp; les principaux
+          Officiers de <persName>Son Altesse Royale</persName> en tinrent d’autres à toutes les
+          heures, dans les apartements. Toutes les vivres consommées dans la
+            <placeName>Ville</placeName> ce jour-là &amp; les suivants, furent distribuées
+          gratuitement.</p>
+        <p><date when="1722">Le 3</date>, le <persName key="louisxv">Roy</persName> descendit de son
+            <placeName>Apartement</placeName> sur les dix heures du matin, pour se rendre à
+            <placeName>l’Amphiteatre</placeName> qui avoit esté dressé dans le petit
+            <placeName>Parc</placeName> , à la gauche du <placeName>Chasteau</placeName>, pour
+          donner à <persName key="louisxv">Sa Majesté</persName> le plaisir d’une Chasse de Sanglier
+          dans les Toiles : <persName>les Princes du Sang</persName> &amp; les principaux
+            <persName>Officiers</persName> de <persName key="louisxv">Sa Majesté</persName>, se
+          mirent auprés du <persName key="louisxv">Roy</persName> sur cet <tech type="construction"
+            >Amphiteatre</tech>, aux costez duquel on en avoit élevé deux autres</p>
+        <p>Mij</p>
+        <pb n="627"/>
+        <p>pour le reste de la Cour. L’équipage du <persName key="louisxv">Roy</persName> pour le
+            <tech type="animal">Sanglier</tech> commandé par le <persName>Marquis
+            d’Ecquevilly</persName>, qui en est Capitaine, fit entrer dans l’enceinte plusieurs
+            <tech type="animal">Sangliers</tech> sur lesquels le <persName key="louisxv"
+            >Roy</persName>, <persName>les Princes du Sang</persName> , &amp; plusieurs Seigneurs, à
+          qui <persName key="louisxv">Sa Majesté</persName> l’avoit permis, lancerent des Dards ; il
+          y eut cinq <tech type="animal">Sangliers</tech> de tuez dans cette Chasse, à laquelle le
+            <persName key="louisxv">Roy</persName> parut prendre plaisir.</p>
+        <p>L’aprés midy, le <persName key="louisxv">Roy</persName> monta en caleche au bas de
+            <placeName>la terrasse du Chasteau</placeName> , estant accomapgné du <persName>Comte de
+            Clermont</persName>, &amp; du <persName>Duc de Charost son Gouverneur</persName> :
+            <persName>Monsieur le Duc d’Orleans</persName>, le <persName>Duc de Chartres</persName>
+          , le <persName>Duc de Bourbon</persName>, le <persName>Comte de Charolois</persName>,
+          &amp; le <persName>Prince de Conty</persName>, estoient à cheval auprés de la caleche qui
+          estoit precedée du grand équipage du <persName key="louisxv">Roy</persName> pour le <tech
+            type="animal">Cerf</tech> ; <persName>le Comte de Toulouze Grand Veneur de
+            France</persName> estant à la teste : les <persName>Princes du Sang</persName> estoient
+          en habit de l’équipage du <persName key="louisxv">Roy</persName> pour le <tech
+            type="animal">Cerf</tech>, ainsi que plusieurs Seigneurs de la Cour. Le <tech
+            type="animal">Cerf</tech> fut pris aprés avoir esté chassé une heure &amp; demie,
+          pendant lequel temps la Chasse passa plusieurs fois devant la caleche de <persName
+            key="louisxv">Sa Majesté</persName> qui se promenoit dans les differentes routes du
+            <placeName>Parc</placeName>. Aprés la Chasse qui finit vers les cinq heures , le
+            <persName key="louisxv">Roy</persName> remonta dans son
+            <placeName>Apartement</placeName> , d’où il descendit quelque temps aprés, à la Foire
+          que <persName>Monsieur le Duc d’Orleans</persName> avoit fait preparer dans la
+            <placeName>Cour interieure du Chasteau</placeName> , avec une magnificence &amp; un
+          goût, qu’il est impossible de bien exprimer. On avoit construit dans les quatre faces de
+          cette <placeName>Cour</placeName> plusieurs <tech type="construction">Boutiques</tech>
+          au-dessus desquelles regnoit une <placeName>Gallerie</placeName> remplie d’Orangers, &amp;
+          dont la Balustrade estoit garnie d’une grande quantité de <tech type="lumieres"
+            >bougies</tech>. Dans l’une des faces, estoit une <tech type="construction"
+            >Boutique</tech> divisée par des <tech type="construction">Pilastres</tech> , &amp;
+          remplie de toutes sortes de Porcelaines du <placeName>Japon</placeName> , de la
+            <placeName>Chine</placeName> , &amp; des <placeName>Indes</placeName> , qui faisoient
+          partie des lots que <persName key="louisxv">Sa Majesté</persName> devoit tirer pour les
+          Seigneurs de la Cour. A la face opposée à cette <tech type="construction">Boutique</tech>
+          , on avoit élevé un petit <tech type="construction">Theatre</tech> , sur lequel les
+          Comediens de <persName>Son Altesse Royale</persName>, devoient re-</p>
+        <pb n="628"/>
+        <p>presenter quelques Scenes Italiennes. Aux deux autres faces de la
+            <placeName>Cour</placeName> , estoient de chaque costé , six <tech type="construction"
+            >Boutiques</tech> &amp; au milieu, on avoit construit deux Theatres ; le premier , pour
+          un <tech type="costume">jeu de Marionettes</tech> ; &amp; le second , pour un
+          Saltinbanque. Dans l’une de ces douze <tech type="construction">Boutiques</tech> , estoit
+          un jeu de <foreign>Pharaon</foreign>, tenu comme au <foreign>Ridotto</foreign> de
+            <placeName>Venise</placeName> par un homme masqué, ainsi que quelques joüeurs ; &amp;
+          vis-à-vis, estoit un jeu de Biriby , à costé duquel on avoit placé des Tables pour joüer
+          au Dez : on distribuoit dans deux <tech type="construction">Boutiques</tech>, du Caffé ,
+          du Chocolat, des Glaces , &amp; des Liqueurs fraîches ; &amp; les huit autres , estoient
+          occupées par un homme qui montroit des Tableaux changeants , par un joüeur de Gobelets,
+          par des Marchands de Bijoux , de Rubans , de Masques &amp; Habits de Bal , de Liqueurs
+          chaudes , de Dragées , &amp; par un Patissier : tous ces Marchands estoient des Acteurs
+          &amp; des Actrices de l’Opera, à qui on avoit donné des habits trésgalants , conformes aux
+          differents rolles qu’ils devoient joüer dans cette Feste. Le nom du Marchand , estoit
+          écrit au-dessus de chaque <tech type="construction">Boutique</tech> , dans un <tech
+            type="construction">Cartouche</tech>, accompagné de plusieurs ornements qui marquoient
+          les differentes Marchandises qui se devoient debiter dans chaque <tech type="construction"
+            >Boutique</tech>. Les Theatres estoient ornez dans le mesme goût ; le dedans des
+          Boutiques estoit garni de Glaces,&amp; éclairé par des <tech type="lumieres"
+            >Girandoles</tech> &amp; des <tech type="lumieres">Lustres</tech> : il y en avoit aussi
+          plusieurs dans le milieu de la Foire où on avoit dressé une <tech type="construction"
+            >Estrade</tech> élévée d’un demi pied ; le <tech type="construction">Fauteüil</tech> du
+            <persName key="louisxv">Roy</persName> avoit esté placé à l’un des bouts de cette <tech
+            type="construction">Estrade</tech> qui estoit fermée par des formes destinée aux
+          Seigneurs de la Cour.</p>
+        <p>Le <persName key="louisxv">Roy</persName> arriva dans la Foire par la porte qui estoit à
+          costé du <placeName>Theatre des Comediens Italiens</placeName> ; &amp; comme il n’estoit
+          resté personne sur <tech type="construction">l’Estrade</tech> ny devant les <tech
+            type="construction">Boutiques</tech>, <persName key="louisxv">Sa Majesté</persName> eut
+          le plaisir de voir en entrant l’effet magnifique que faisoit la disposition de cette
+          Foire. Lorsque le <persName key="louisxv">Roy</persName> parut, les Comediens Italiens,
+          &amp; les <tech type="costume">Marionettes</tech>, com</p>
+        <pb n="629"/>
+        <p>mencerent leur jeu, pendant que le Saltinbanque, &amp; les differents Marchands
+          faisoient, suivant l’usage qui leur est ordinaire, tous leurs effort pour attirer le
+            <persName key="louisxv">Roy</persName> dans leurs <tech type="construction"
+            >Boutiques</tech>, &amp; leur empressement à offrir leurs Marchandises par des cris
+          confus, imita trés-naturellement ce qui arrive dans toutes les Foires : le <persName
+            key="louisxv">Roy</persName> s’arresta d’abord devant<tech type="construction">le
+            Theatre des Comediens Italiens</tech>, &amp; aprés y avoir demeuré peu de temps, il se
+          promena le long des <tech type="construction">Boutiques</tech>, &amp; lorsque le <persName
+            key="louisxv">Roy</persName> passa devant le <tech type="construction">Theatre où
+            estoient les Marionnettes</tech>, il y resta un moment : <persName key="louisxv">Sa
+            Majesté</persName> entra dans <tech type="construction">l’endroit où se tenoit le
+            Biriby</tech>, &amp; y joüa, ainsi qu’au <foreign>Pharaon</foreign>, dont le Banquier
+          &amp; les joüeurs, qui estoient des courtisans, se demasquerent aussi-tost que <persName
+            key="louisxv">Sa Majesté</persName> parut dans la Boutique où se tenoit la Banque : le
+            <persName key="louisxv">Roy</persName> continuant à se promener dans la Foire, s’arresta
+          devant <tech type="construction">le Theatre du Saltinbanque</tech>, lequel aprés avoir
+          expliqué dans le langage ordinaire des gens de son metier, les differentes proprietez des
+          secrets qu’il avoit, remit au <persName key="louisxv">Roy</persName> une Tablette
+          magnifique, en assurant <persName key="louisxv">Sa Majesté</persName> qu’elle y trouveroit
+          la Liste de tous ses secrets. Le <persName>Saltinbanque</persName> distribua ensuite aux
+            <persName>Princes du Sang</persName> &amp; aux Seigneurs qui estoient auprés du
+            <persName key="louisxv">Roy</persName>, plusieurs Bijoux, dont il annonçoit les
+          proprietez &amp; l’usage, en conservant toûjours la façon de parler des Saltinbanques. Le
+            <persName key="louisxv">Roy</persName> fit plusieurs fois le tour de la Foire ; il vit
+          le Tableau changeant , &amp; quelques tours de Gobelets, aprés quoy <persName
+            key="louisxv">Sa Majesté</persName> revint à <tech type="construction">la Boutique du
+            Marchand de Bijoux</tech> ; ce fut pour lors qu’on presenta au <persName key="louisxv"
+            >Roy</persName> le Livre dans lequel devoient estre tirez tous les lots qui estoient
+          distribuez dans les plus riches <tech type="construction">Boutiques</tech>de la Foire : ce
+          Livre contenoit six cens feüillets, sur chacun desquels on avoit écrit un lot. Dans ces
+          six cens lots il y avoit un grand nombre de trés-beaux Bijoux, d’autres de moindre prix,
+          &amp; quelques uns de trés-peu de consequence, pour establir dans cette espece de Loterie,
+          dont tous les Billets estoient bons, une disproportion de lots qui donnat lieu au hazard,
+          de traiter plus ou moins favorable-</p>
+        <pb n="630"/>
+        <p>ment ceux pour lesquels on devoir tirer. Le <persName key="louisxv">Roy</persName>
+          ouvroit le Livre avec une éguille d’or, &amp; la feüille sur laquelle il avoit esté
+          ouvert, en estoit ostée sur le champ pour estre remise à celuy que <persName key="louisxv"
+            >Sa Majesté</persName> avoit nommé avant de tirer, &amp; qui alloit recevoir le lot
+          écrit sur cette feüille dans les differentes Boutiques où ils se distribuoient. Le
+            <persName key="louisxv">Roy</persName> tira pendant plus d’une heure &amp; demie pour
+          les <persName>Princes du Sang</persName>, &amp; les Seigneurs de la Cour, &amp; <persName
+            key="louisxv">Sa Majesté</persName> alla ensuite se placer dans le fauteüil qui avoit
+          ésté préparé sur <placeName>l’Estrade</placeName>. La simphonie qui estoit placée sur la
+            <placeName>Gallerie</placeName> au-dessus du <placeName>Theatre des
+            Italiens,</placeName> commença un divertissement meslé de <tech type="musique"
+            >Danses</tech>, &amp; <tech type="musique">de Musique</tech>, qui fut executé sur
+            <placeName>l’Estrade</placeName> placée au milieu de la Foire , par les Acteurs &amp;
+          Actrices de l’Opera : il fut terminé par un <tech type="musique">Chœur de Musique</tech>
+          en <tech type="bruitage">acclamations</tech> , ausquelles les <tech type="musique"
+            >Trompettes</tech> répondirent par leurs <tech type="musique">fanfares</tech>.</p>
+        <p>Aprés ce divertissement , le <persName key="louisxv">Roy</persName> sortit de la Foire,
+          &amp; remonta dans son <placeName>Apartement</placeName>, trés-satisfait de cette Feste
+          dans laquelle <persName>Monsieur le Duc d’Orleans</persName> a donné des marques de la
+          plus grande magnificence, d’une manière aussi galante que nouvelle. Lorsque le <persName
+            key="louisxv">Roy</persName> fut sorti de la Foire, on distribua à ceux qui s’y
+          trouverent tout ce qui restoit dans les Boutiques des Marchands : on servit ensuite un
+          grand nombre de <tech type="repas">Tables</tech>, &amp; on continua ce soir-là comme le
+          lendemain matin , à distribuer avec beaucoup de profusion, à ceux qui se presentoient,
+          tout ce qu’ils pouvoient desirer.</p>
+        <p><date when="1722">Le 4</date>, à huit heures du matin, le <persName key="louisxv"
+            >Roy</persName> partit de <placeName key="villers-cotterets"
+            >Villers-Coterets</placeName> ; <persName key="louisxv">Sa Majesté</persName> dîna à
+            <placeName>Fresnoy-le-Loir</placeName>, &amp; arriva au <placeName>Chasteau de
+            Chantilly</placeName> à l’entrée de la nuit, au bruit de <tech type="bruitage">trois
+            salves d’artillerie</tech>. Le <placeName>Chasteau</placeName> &amp;
+            <placeName>lavenuë</placeName> qui y fait face, estoient illuminez par un nombre infini
+          de <tech type="lumieres">pots à feu</tech>, &amp; de <tech type="lumieres"
+          >lampions</tech>. Le <persName key="louisxv">Roy</persName> estant arrivé dans la
+            <placeName>Cour du Chasteau</placeName>, fut reçû au bas de l’escalier, &amp; conduit
+          dans son <placeName>Apartement</placeName> , par la <persName>Duchesse de
+            Bourbon</persName> qui estoit accompagnée de <persName>Mademoiselle de
+            Clermont</persName> &amp; de plu-</p>
+        <pb n="631"/>
+        <p>sieurs <persName>Dames de la Cour</persName> : il y eut ce soir-là apartement &amp; jeux
+          de toute espece.</p>
+        <p><date when="1722">Le 5</date> au matin, le <persName key="louisxv">Roy</persName> alla se
+          promener dans le <placeName>Parc de Silvie</placeName> ; &amp; l’aprés-midy , le
+            <persName>Duc de Bourbon</persName> conduisit <persName key="louisxv">Sa
+            Majesté</persName> sur le bord du <placeName>Canal</placeName> qui est vis-à-vis le
+            <placeName>Chasteau</placeName>. Aussi-tost que le <persName key="louisxv"
+            >Roy</persName> y fut arrivé, on vit paroistre dans une <tech type="machine_eau">Conque
+            Marine</tech>, <name>Thetis</name> precedée de <name>Tritions</name>, qui conduisirent
+            <name>la Déesse</name> representée par une des principales Actrices de l’Opera, aux
+          pieds de <persName key="louisxv">Sa Majesté</persName>, à qui elle presenta une Ligne
+          garnie <tech type="eaux">de Perles</tech> &amp; <tech type="eaux">de Corail</tech>, <tech
+            type="machine_eau">des hameçons</tech> &amp; <tech type="machine_eau">des appas</tech>
+          dans <tech type="machine_eau">deux boëtes faites de coquilles</tech> trés rares.
+          Aussi-tost que le recit chanté par <name>Thetis</name> fut fini, on jeta les <tech
+            type="machine_eau">filets</tech>, dans lesquels on prit une grande quantité de <tech
+            type="animal">Poissons</tech>, &amp; principalement de tres belles <tech type="animal"
+            >Carpes</tech> de plusieurs couleurs.</p>
+        <p>Aprés le divertissement de la Pesche, le <persName key="louisxv">Roy</persName> fut
+          conduit par le <persName>Duc de Bourbon</persName> , à la
+          <placeName>Ménagerie</placeName> : <persName key="louisxv">Sa Majesté</persName> y vit
+          toutes <tech type="animal">les especes d’animaux</tech> qui y sont renfermez, &amp; entre
+          autres un <tech type="animal">Tigre</tech>, une <tech type="animal">Tigresse</tech>, &amp;
+          un jeune <tech type="animal">Tigre</tech> né à <placeName>Chantilly</placeName>. Lorsque
+          le <persName key="louisxv">Roy</persName> fut arrivé dans la derniere piece de la
+            <placeName>Ménagerie</placeName>, le <persName>sieur Aubert</persName> de la Musique du
+            <persName>Duc de Bourbon</persName>, representant <name>Orphée</name>, attira au son de
+          son <tech type="musique">violon</tech>, des <tech type="animal">Lions</tech>, des <tech
+            type="animal">Ours</tech>, &amp; des <tech type="animal">Tigres</tech> , qui estoient
+          des Sauteurs deguisez sous <tech type="costume">la forme de ces animaux</tech>.</p>
+        <p><tech type="bruitage">Un bruit de plusieurs Cors de Chasse</tech> , donna l’épouvante à
+          tous <tech type="animal">ces animaux</tech>, &amp; des <tech type="animal">Chiens</tech>
+          poursuivant <tech type="animal">L’Ours</tech>, il chercha un azile sur une <tech
+            type="machine">Corde</tech>, où il voltigea pendant que les autres Sauteurs firent
+          plusieurs tours &amp; differents sauts dans le caractere des animaux qu’il
+          representoient.</p>
+        <p>Le <persName key="louisxv">Roy</persName> sortit de la <placeName>Ménagerie</placeName>
+          vers les cinq heures du soir, &amp; remonta dans son <placeName>Apartement</placeName> :
+          il en descendit une heure aprés pour se rendre à <placeName>l’Orangerie</placeName>, dont
+          on avoit fait <tech type="construction">une Sale pour la Comedie</tech>. Les Acteurs de
+          l’Opera , les Comediens ordinaires du <persName key="louisxv">Roy</persName>, &amp; ceux
+          de <persName>Monsieur le Duc d’Orleans</persName> , representerent devant <persName
+            key="louisxv">Sa Majesté</persName>, le Ballet des vingt-quatre heures. Ce
+          divertissement qui</p>
+        <p>fut</p>
+        <pb n="632"/>
+        <p>fut precedé d’un Prologue, estoit entre-meslé, par une diversité trés-ingenieuse, de
+            <tech type="musique">Danses</tech> a de <tech type="musique">Musique</tech> , d’une
+          Comedie Françoise &amp; d’une Piece Italienne.</p>
+        <p>Lorsque <persName key="louisxv">Sa Majesté</persName> retourna au
+            <placeName>Chasteau</placeName>, elle trouva le Parterre de
+            <placeName>l’Orangerie</placeName>, &amp; celuy du petit <placeName>Château</placeName>
+          , illuminez par un grand nombre de <tech type="lumieres">pots à feu</tech>, dont la <tech
+            type="lumieres">lumiere</tech> estoit repetée dans <tech type="machine_eau">les pieces
+            d’eau</tech>, qui sont dans ces Parterres, ce qui formoit un spectacle magnifique. Le
+            <persName key="louisxv">Roy</persName> estant arrivé dans la Gallerie de son
+            <placeName>Apartement</placeName>, y joüa au Lansquenet , avec plusieurs
+            <persName>Dames</persName> &amp; Seigneurs de la Cour , &amp; ceux qui n’eurent pas
+          l’honneur d’estre du jeu de <persName>Sa Majesté </persName>, joüerent à d’autres Tables à
+          toutes sortes de jeux.</p>
+        <p><date when="1722">Le 6</date>, Le <persName key="louisxv">Roy</persName> voulant prendre
+          le divertissement de la Chasse, dans la <placeName>Forest de Chantilly</placeName> ,
+            <persName key="louisxv">Sa Majesté</persName> monta en carosse sur les onze heures du
+          matin , estant accompagnée de <persName>Mademoiselle de Clermont</persName>, de
+            <persName>la Marquise de Buse</persName>, &amp; de <persName>la Marquise de
+            Prie</persName> vêtuës pour monter à cheval, de l’habit de la Chasse de l’Equipage du
+            <persName>Duc de Bourbon</persName>. Le rendez-vous estoit à la Table ; &amp; lorsque le
+            <persName key="louisxv">Roy</persName> y arriva , il aperçût dans une <placeName>Grotte
+            de verdure</placeName>, <name>Diane</name> avec <name>ses Nymphes</name> , qui vint
+          au-devant de <persName key="louisxv">Sa Majesté</persName> sur le bord de sa
+            <placeName>Grotte</placeName>, &amp; qui <tech type="musique">chanta un Recit</tech>,
+          par lequel elle cedoit au <persName key="louisxv">Roy</persName> l’Empire de ses Forests :
+          elle luy presenta pour hommage , <tech type="costume">son Arc</tech> &amp; <tech
+            type="costume">son Carquois</tech> , &amp; les <name>Nymphes</name> qui l’accompagnoient
+          , formerent une <tech type="musique">Danse</tech> pendant laquelle elles vinrent offrir au
+            <persName key="louisxv">Roy</persName> differents <tech type="costume">attributs de la
+            Chasse</tech>. Les Seigneurs de la Cour vêtus de l’habit de Chasse de l’équipage du
+            <persName>Duc de Bourbon</persName>, estoient rangez au tour de <name>Diane</name>, dont
+          les <tech type="musique">Chants</tech> furent accompagnez par <tech type="musique">des
+            voix</tech> &amp; <tech type="musique">des instruments</tech> cachez dans le
+            <placeName>Bois</placeName>.</p>
+        <p>Aprés cette Feste, le <persName key="louisxv">Roy</persName> monta en caleche, &amp;
+          ensuite à Cheval , &amp; <persName key="louisxv">Sa Majesté</persName> suivit dans les
+          routes , la Chasse qui dura deux heures , &amp; pendant laquelle on prit deux Cerfs. La
+          Curée fut faite dans <placeName>la Cour du Chasteau</placeName> , en</p>
+        <p>N7</p>
+        <pb n="633"/>
+        <p>presence de <persName key="louisxv">Sa Majesté</persName> , &amp; le soir il y eut un
+            <tech type="musique">Concert</tech> dans <placeName>la petite Tour</placeName> qui est
+          au bout de <placeName>la Gallerie</placeName> , où le <persName key="louisxv"
+            >Roy</persName> avoit joüé pendant quelque temps.</p>
+        <p><date when="1722">Le 7</date>, le mauvais temps ayant empesché le <persName key="louisxv"
+            >Roy</persName> de prendre le plaisir de la Chasse à tirer, <persName key="louisxv">Sa
+            Majesté</persName> alla à la Chasse du Cerf, au retour de laquelle il y eut un <tech
+            type="musique">Concert</tech> dans <placeName>l’Apartement du Roy</placeName>, à qui on
+          donna ensuite le divertissement de quelques Scenes Italiennes , dont la representation
+          dura jusqu’à huit heures , que le <persName key="louisxv">Roy</persName> se mit à <tech
+            type="repas">Table</tech>. Dés l’entrée de la nuit on avoit <tech type="lumieres"
+            >illuminé l’endroit</tech> des <placeName>Jardins</placeName> , connu sous le nom de
+            <placeName>Vertugadin</placeName> : des <tech type="construction">Portiques</tech>
+          chargez d’un nombre infini de <tech type="lumieres">pots à feu</tech> , embrassoient tout
+          le Parterre , en-deçà &amp; en-delà du Canal , &amp; l’illumination estoit continuée par
+            <tech type="construction">des Piramides</tech> dont l’arrangement dessinoit la forme de
+          cette Piece du <placeName>Jardin</placeName>, ainsi que du <placeName>Canal</placeName>.
+          Le <persName key="louisxv">Roy</persName> se rendit aprés son souper , sous un
+            <placeName>Pavillon</placeName> qui avoit esté dressé dans <placeName>la Cour du
+            Connestable</placeName> , au haut du grand degré qui descend dans les Parterres. <tech
+            type="feux-artifice">Le feu d’Artifice</tech> commença assi-tost par un Combat entre des
+            <tech type="machine_eau">Chaloupes</tech> qui s’estoient avancées sur le le bord du
+            <placeName>Canal</placeName>, &amp; pendant <tech type="feux-artifice">l’artifice</tech>
+          qui en sortit , on repeta plusieurs <tech type="bruitage">salves de l’artillerie</tech>
+          rangée aux deux costez du <placeName>Canal</placeName>. Un grand nombre de <tech
+            type="feux-artifice">fusées</tech> partoit en mesme temps du centre du
+            <placeName>Vertugadin</placeName> où on vit paroistre aprés le Combat des <tech
+            type="machine_eau">Chaloupes</tech>, un <tech type="feux-artifice">Soleil
+            d’artifice</tech>, au tour duquel estoit écrit en lettres de feu : <foreign>Orbis
+            amor</foreign>. <tech type="feux-artifice">Le feu</tech> dura trois quarts d’heure avec
+          beaucoup de vivacité, &amp; il finit par une <tech type="feux-artifice">Girandole</tech>
+          qui répandit dans l’air un million d’étoiles, dont l’éclat estoit augmenté par <tech
+            type="lumieres">la reverberation</tech> du <placeName>Canal</placeName>. Pendant le
+          sejour du <persName key="louisxv">Roy</persName> à <placeName>Chantilly</placeName>, il y
+          eu dans <placeName>l’Apartement du Tasse</placeName>, quatre <tech type="repas"
+            >Tables</tech> magnifiquement servies , qui estoient tenuës par la <persName>Duchesse de
+            Bourbon</persName> , le <persName>Duc de Bourbon</persName>, <persName>le Comte de
+            Charolois</persName> , &amp; <persName>le Comte de Clermont</persName> : on en servit
+          aussi une pour les Cardinaux, &amp; plusieurs autres pour toute la Cour.</p>
+        <pb n="634"/>
+        <p><date when="1722">Le 8</date>, à neuf heures du matin , le <persName key="louisxv"
+            >Roy</persName> , aprés avoir entendu la Messe , partit de
+            <placeName>Chantilly</placeName> au <tech type="bruitage">bruit du canon</tech>, &amp;
+          il arriva vers les trois heures aprés midy dans la <placeName>Ville de Saint
+            Denis</placeName> , à la porte de laquelle , le <persName>Bailly</persName> à la teste
+          des Officiers de Justice, eut l’honneur de saluer <persName key="louisxv">Sa
+            Majesté</persName>, &amp; les Echevins luy en presenterent les Clefs. Le <persName
+            key="louisxv">Roy</persName> se rendit ensuite à <placeName>l’Eglise de
+            l’Abbaye</placeName>, où <persName key="louisxv">Sa Majesté</persName> fut reçûë sous un
+          Dais par les Religieux tous en chape. Le <persName key="louisxv">Roy</persName> étant
+          arrivé sous l’Orgue, le <persName>Grand Prieur</persName> de
+            <placeName>l’Abbaye</placeName> luy presenta de l’Eau benite, &amp; le complimenta.
+            <persName key="louisxv">Sa Majesté</persName> estant entrée dans le Chœur, alla se
+          mettre à genoux sur le Prie-Dieu qui luy avoit esté preparé, &amp; elle y resta pendant
+          que les Religieux chanterent l’Antienne de <name>Saint Denis</name> , &amp; celle de
+            <name>Saint Loüis</name>. Ensuite le <persName key="louisxv">Roy</persName> monta à
+          l’Autel, où il fit sa priere devant les Châsses <name>des Saints Martirs,</name> devant
+          celle de <name>Saint Loüis</name> , &amp; auprés de la Representation du feu <persName>Roy
+            Loüis XIV</persName>, son Bisayeul , où il dit un <foreign>De profundis</foreign>, aprés
+          lequel le <persName key="louisxv">Roy</persName> alla voir <placeName>les Tombeaux des
+            Rois</placeName> ses Predecesseurs, &amp; ceux du <persName>Vicomte de Turene</persName>
+          &amp; <persName>du Conestable du Guesclin</persName>. <persName key="louisxv">Sa
+            Majesté</persName> monta ensuite au <placeName>Tresor</placeName>, où elle resta trois
+          quarts d’heure à considerer toutes les raretez precieuses qu’il renferme.</p>
+        <p>Le <persName key="louisxv">Roy</persName> estant remonté en carosse , arriva sur les cinq
+          heures &amp; demie dans cette <placeName>Ville</placeName>. <persName key="louisxv">Sa
+            Majesté</persName> trouva dans le <placeName>Fauxbourg Saint Denis</placeName> , le
+          Corps de Ville, à la teste duquel le <persName>Duc de Tresmes</persName>,
+            <persName>Gouverneur de Paris</persName>, &amp; les Prevost des Marchands &amp; Echevins
+          , eurent l’honneur de complimenter <persName key="louisxv">Sa Majesté</persName> sur son
+          heureux retour : <persName>le sieur de Chateauneuf, Conseiller d’Estat &amp; Prevost des
+            Marchands</persName> , qui portoit la parole , ayant esté presenté au <persName
+            key="louisxv">Roy</persName> à la portiere de son carosse avec les ceremonies
+          accoutumées. Les respects que le Corps de Ville rendit au <persName key="louisxv"
+            >Roy</persName> furent suivis des acclamations du Peuple, au bruit desquelles le
+            <persName key="louisxv">Roy</persName> se rendit au <placeName
+            key="paris_tuileries_chateau">Palais des Tuilleries</placeName>. <persName key="louisxv"
+            >Sa Majesté</persName> estoit accompagnée dans son carosse , du <persName>Duc de
+            Chartres</persName>, du <persName>Duc de Bourbon</persName>, du <persName>Comte de
+            Clermont</persName>,</p>
+        <pb n="635"/>
+        <p>du <persName>Prince de Conty</persName> , &amp; du <persName>Duc de Charost, son
+            Gouverneur</persName>. Les Troupes de sa Maison qui l’ont suivi dans le Voyage,
+          marchoient devant &amp; aprés le carosse , &amp; les ruës qui conduisent de <placeName>la
+            Porte de Saint Denis</placeName> au <placeName key="paris_tuileries_chateau">Palais des
+            Tuilleries</placeName>, estoient occupées par les Regiments des Gardes Françoises &amp;
+          Suisses rangez en haye, &amp; sous les armes.</p>
+        <p><date when="1722">Le 9</date> au matin, le <placeName>Parlement</placeName> , le
+            <persName>sieur de Mesmes Premier President</persName> estant à la teste, eut l’honneur
+          de complimenter le <persName key="louisxv">Roy</persName> sur son heureux retour.
+            <placeName>La Chambre des Comptes</placeName>, <placeName>la Cour des Aydes</placeName>
+          &amp; le Corps de Ville, furent ensuite admis à l’audience de <persName key="louisxv">Sa
+            Majesté</persName>, &amp; s’acquiterent du mesme devoir , le <persName>sieur de Nicolaï
+            Premier President de la Chambre des Comptes</persName>, le <persName>sieur Ricard
+            President de la Cour des Aydes &amp; le Prevost des Marchands</persName> portant la
+          parole. L’aprés-midy le Grand Conseil , <placeName>la Cour des Monoyes</placeName> ,
+            <placeName>l’Université</placeName>, &amp; <placeName>l’Academie Françoise</placeName>,
+          eurent aussi l’honneur de complimenter le <persName key="louisxv">Roy</persName> sur le
+          mesme sujet, les Chefs portant la parole. Ils furent tous presentez à <persName
+            key="louisxv">Sa Majesté</persName> avec les ceremonies ordinaires, par le
+            <persName>Comte de Maurepas Secretaire d’Estat</persName>, &amp; conduit par
+            <persName>le Marquis de Dreux, Grand Maitre des Ceremonies</persName>, &amp; par
+            <persName>le sieur des Granges, Maitre des Ceremonies</persName>.</p>
+        <p>Le mesme jour , le <persName key="louisxv">Roy</persName> se rendit sur les cinq heures
+          au <placeName>Palais Royal</placeName>, &amp; il vit de la loge de <persName>Monsieur le
+            Duc d’Orleans</persName>, la representation de l’Opera de <name>Persée</name>.</p>
+        <p><date when="1722">Le lendemain 10</date>, le <persName key="louisxv">Roy</persName>
+          partit du <placeName key="paris_tuileries_chateau">Palais des Tuilleries</placeName> pour
+          retourner au <placeName key="versailles_chateau">Château de Versailles</placeName>, où
+            <persName key="louisxv">Sa Majesté</persName> arriva sur les cinq heures.</p>
+        <p rend="center">A <placeName key="paris">Paris</placeName> du <placeName>Bureau
+            d’Adresse</placeName>, aux <placeName>Galleries du Louvre</placeName>, devant
+            <placeName>la rue S. Thomas</placeName>, le <date when="1722">21 Novembre
+          1722</date>.</p>
+        <p>Avec Privilege.</p>
+        <pb n="636"/>
+      </div>
+    </body>
+  </text>
+</TEI>
