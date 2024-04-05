@@ -5,6 +5,69 @@
 
 <listPlace xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
   
+  <place xml:id="europe">
+    <name>Europe</name>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Europe</identifier>
+    <place xml:id="allemagne">
+      
+      <name>Allemagne</name>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Allemagne</identifier>
+    </place>
+    
+    <place xml:id="espagne">
+      <name>Espagne</name>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Espagne</identifier>
+      <identifier type="geonames">https://www.geonames.org/2510769</identifier>
+    </place>
+    
+    <place xml:id="grande_bretagne">
+      <name>Grande-Bretagne</name>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Grande-Bretagne</identifier>
+      
+      <place xml:id="angleterre">
+        <name>Angleterre</name>
+        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Angleterre</identifier>
+      </place>
+    </place>
+    
+    <place xml:id="hongrie">
+      <name>Hongrie</name>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Hongrie</identifier>
+      <identifier type="geonames">https://www.geonames.org/719819/hungary.html</identifier>
+    </place>
+    
+    <place xml:id="italie">
+      <name>Italie</name>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Italie</identifier>
+      
+      <place xml:id="bologne">
+        <name>Bologne</name>
+        <geo>44.46667, 11.43333</geo>
+        <country>Italie</country>
+        <settlement>Bologne</settlement>
+        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Bologne</identifier>
+        <identifier type="geonames">https://www.geonames.org/3181927/bologna.html</identifier>
+      </place>
+    </place>
+    
+    <place xml:id="pays_bas">
+      <name>Pays-Bas</name>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Pays-Bas</identifier>
+      <identifier type="geonames">https://www.geonames.org/2750405/kingdom-of-the-netherlands.html</identifier>
+    </place>
+    
+    <place xml:id="pologne">
+      <name>Pologne</name>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Pologne</identifier>
+      <identifier type="geonames">https://www.geonames.org/798544/republic-of-poland.html</identifier>      
+    </place>
+    
+    <place xml:id="suede">
+      <name>Suède</name>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Suède</identifier>
+      <identifier type="geonames">https://www.geonames.org/2661886/kingdom-of-sweden.html</identifier>
+    </place>
+
   <place xml:id="france">
     <name>France</name>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/France</identifier>
@@ -456,6 +519,7 @@
       <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Beaumont-sur-Oise</identifier>
       <identifier type="geonames">https://www.geonames.org/6452057</identifier>
     </place>
+    
     <place xml:id="vincennes_chateau">
       <name>Vincennes, Château de Vincennes</name>
       <geo>48.842646, 2.435955</geo>
@@ -463,10 +527,12 @@
       <settlement>Vincennes</settlement>
       <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Vincennes</identifier>
     </place>
+    
     <place xml:id="saint-cloud">
       <name>Saint-Cloud</name>
       <country>France</country>
       <settlement>Saint-Cloud</settlement>
+      
       <place xml:id="saint-cloud_chateau">
         <name>Saint-Cloud, Château de Saint-Cloud</name>
         <name>Dom. Nat de Saint Cloud</name>
@@ -474,6 +540,7 @@
         <country>France</country>
         <settlement>Saint-Cloud</settlement>
         <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Saint-Cloud</identifier>
+       
         <place xml:id="saint-cloud_jardins">
           <name>Saint-Cloud, Jardins du château de Saint-Cloud</name>
           <name>Dom. Nat de Saint Cloud</name>
@@ -483,6 +550,7 @@
           <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Domaine_national_de_Saint-Cloud</identifier>
         </place>
       </place>
+      
       <place xml:id="saint-cloud_ursulines">
         <name>Saint-Cloud, Monastère des Ursulines de Saint-Cloud</name>
         <name>9 rue d'Orléans (Saint-Cloud)</name>
@@ -492,6 +560,7 @@
         <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Domaine_national_de_Saint-Cloud</identifier>
       </place>
     </place>
+    
     <place xml:id="suresne_mont-valerien">
       <name>Suresne, Mont Valérien</name>
       <geo>48.873225, 2.213064</geo>
@@ -891,8 +960,7 @@
         </place>
       </place>
     </place>
-  </place>
-  <place xml:id="brest">
+    <place xml:id="brest">
       <name>Brest</name>
       <geo>48.46584, -4.43168</geo>
       <country>France</country>
@@ -900,6 +968,8 @@
       <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Brest</identifier>
       <identifier type="geonames">https://www.geonames.org/3030299/arrondissement-de-brest.html</identifier>
     </place>
+  </place>
+
   <place xml:id="franche-comte">
     <name>Franche-Comté</name>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Franche-Comt%C3%A9</identifier>
@@ -908,56 +978,6 @@
     <name>Savoie</name>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Savoie</identifier>
   </place>
-  <place xml:id="europe">
-    <name>Europe</name>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Europe</identifier>
-    <place xml:id="allemagne">
-    <name>Allemagne</name>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Allemagne</identifier>
-    </place>
-    <place xml:id="espagne">
-      <name>Espagne</name>
-      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Espagne</identifier>
-      <identifier type="geonames">https://www.geonames.org/2510769</identifier>
-    </place>
-    <place xml:id="grande_bretagne">
-    <name>Grande-Bretagne</name>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Grande-Bretagne</identifier>
-      <place xml:id="angleterre">
-      <name>Angleterre</name>
-      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Angleterre</identifier>
-      </place>
-    </place>
-    <place xml:id="hongrie">
-      <name>Hongrie</name>
-      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Hongrie</identifier>
-      <identifier type="geonames">https://www.geonames.org/719819/hungary.html</identifier>
-    </place>
-    <place xml:id="italie">
-      <name>Italie</name>
-      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Italie</identifier>
-      <place xml:id="bologne">
-        <name>Bologne</name>
-        <geo>44.46667, 11.43333</geo>
-        <country>Italie</country>
-        <settlement>Bologne</settlement>
-        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Bologne</identifier>
-        <identifier type="geonames">https://www.geonames.org/3181927/bologna.html</identifier>
-      </place>
-    </place>
-  <place xml:id="pays_bas">
-        <name>Pays-Bas</name>
-        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Pays-Bas</identifier>
-        <identifier type="geonames">https://www.geonames.org/2750405/kingdom-of-the-netherlands.html</identifier>
-      </place>
-      <place xml:id="pologne">
-        <name>Pologne</name>
-        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Pologne</identifier>
-        <identifier type="geonames">https://www.geonames.org/798544/republic-of-poland.html</identifier>      </place>
-      <place xml:id="suede">
-        <name>Suède</name>
-        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Suède</identifier>
-        <identifier type="geonames">https://www.geonames.org/2661886/kingdom-of-sweden.html</identifier>
-    </place>
-    </place>
+  </place>
+  
 </listPlace>
