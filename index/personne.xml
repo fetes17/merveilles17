@@ -280,6 +280,9 @@
   <person xml:id="amiot" sex="M">
     <name>Amiot, Pierre</name>
   </person>
+  <person xml:id="grandprieur" sex="M">
+    <name>François Anseaume;, grand prieur de l'Abbaye de Saint Denis</name>
+  </person>
   <person xml:id="d_anglebert" sex="M">
     <name>Anglebert, Jean-Henri d’, clavecin</name>
     <birth when="1628"/>
@@ -574,6 +577,13 @@
   <person xml:id="anna_bergerotti" sex="F">
     <name>Bergerotti, Anna</name>
     <identifier type="databnf">https://data.bnf.fr/fr/14843385/anna_bergerotti/</identifier>
+  </person>
+  <person xml:id="marquisedeprie" sex="F">
+    <name>Jeanne-Agnès Berthelot de Pléneuf</name>
+    <birth when="1698-08"/>
+    <death when="1727-10-07"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jeanne-Agn%C3%A8s_Berthelot_de_Pl%C3%A9neuf</identifier>
+    <identifier type="databnf">https://data.bnf.fr/fr/15035108/agnes_prie/</identifier>
   </person>
   <person xml:id="jbaptiste_besmaux" sex="M">
     <name>Besmaux (Besmos), Jean-Baptiste de Montlezun, marquis de</name>
@@ -2082,7 +2092,13 @@
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Godefroy-Maurice_de_La_Tour_d%27Auvergne</identifier>
     <identifier type="databnf">https://data.bnf.fr/fr/14953359/godefroy_maurice_de_la_tour_d_auvergne_bouillon/</identifier>
   </person>
-    <person xml:id="charles_trémoille" sex="M">
+  <person xml:id="vicomteturenne" sex="M">
+    <name>Emmanuel-Théodose de La Tour d'Auvergne</name>
+    <birth when="1668"/>
+    <death when="1730-04"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Emmanuel-Th%C3%A9odose_de_La_Tour_d%27Auvergne,_duc_de_Bouillon</identifier>
+  </person>
+  <person xml:id="charles_trémoille" sex="M">
       <name>La Trémoïlle, Charles Belgique Hollande de, duc de Thouars, prince de Tarante et de Talmond, puis duc de</name>
       <birth when="1661"/>
       <death when="1709"/>
