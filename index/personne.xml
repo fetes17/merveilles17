@@ -673,32 +673,23 @@
   <person xml:id="mademoiselle_borelle" sex="F">
     <name>Borelle, Mademoiselle</name>
   </person>
-  <person xml:id="comtetoulouze" sex="M">
-    <name>Louis-Alexandre de Bourbon</name>
+  <person xml:id="bernard_bouligneux" sex="M">
+    <name>Bouligneux, Bernard de la Palud, comte de</name>
+  </person>
+  <person xml:id="boulanger" sex="M">
+    <name>Boulanger, valet de pied</name>
+  </person>
+  
+  <person xml:id="comtetoulouse" sex="M">
+    <name>Bourbon, Louis-Alexandre de, comte de Toulouse</name>
     <birth when="1678-08-06"/>
     <death when="1737-12-01"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Louis-Alexandre_de_Bourbon</identifier>
     <identifier type="databnf">https://data.bnf.fr/fr/12570085/louis-alexandre_de_bourbon_toulouse/</identifier>
     <identifier type="isni">0000 0000 3699 8280</identifier>
   </person>
-  <person xml:id="louisarmandb" sex="M">
-    <name>Louis-Armand de Bourbon-Conti</name>
-    <birth when="1695-11-10"/>
-    <death when="1727-05-04"/>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Louis-Armand_de_Bourbon-Conti_(1695-1727)</identifier>
-    <identifier type="databnf">https://data.bnf.fr/fr/13237033/louis-armand_de_bourbon_conti/</identifier>
-    <identifier type="isni">0000 0000 1420 6983</identifier>
-  </person>
-  <person xml:id="duccharolois" sex="M">
-    <name>Charles de Bourbon-Condé</name>
-    <birth when="1700-06-19"/>
-    <death when="1760-07-23"/>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Charles_de_Bourbon-Cond%C3%A9_(1700-1760)</identifier>
-    <identifier type="databnf">https://data.bnf.fr/12300643/charles_de_bourbon_charolais/</identifier>
-    <identifier type="isni">0000 0000 1438 5846</identifier>
-  </person>
-  <person xml:id="ducbourbonconde" sex="M">
-    <name>Louis IV Henri de Bourbon-Condé</name>
+  <person xml:id="louisiv_henri_conde" sex="M">
+    <name>Bourbon-Condé, Louis IV Henri de Bourbon, septième prince de Condé (1710), dit "le duc de Bourbon"</name>
     <birth when="1692-08-18"/>
     <death when="1740-01-27"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Louis_IV_Henri_de_Bourbon-Cond%C3%A9</identifier>
@@ -706,7 +697,7 @@
     <identifier type="isni">0000 0001 0767 9296</identifier>
   </person>
   <person xml:id="compteclermontconde" sex="M">
-    <name>Louis de Bourbon-Condé</name>
+    <name>Bourbon-Condé, Louis de, comte de Clermont</name>
     <birth when="1709-06-15"/>
     <death when="1771-06-16"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Louis_de_Bourbon-Cond%C3%A9_(1709-1771)</identifier>
@@ -714,23 +705,26 @@
     <identifier type="isni">0000 0001 0782 5388</identifier>
   </person>
   <person xml:id="mlleclermont" sex="F">
-    <name>Marie-Anne de Bourbon-Condé</name>
+    <name>Marie-Anne de Bourbon-Condé, dite Mademoiselle de Clermont</name>
     <birth when="1697-10-16"/>
     <death when="1741-08-11"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Marie-Anne_de_Bourbon-Cond%C3%A9_(1697-1741)</identifier>
     <identifier type="databnf">https://data.bnf.fr/fr/16165552/marie-anne_de_bourbon-conde_joyeuse/</identifier>
     <identifier type="isni">0000 0003 8541 655X</identifier>
   </person>
-  <person xml:id="bernard_bouligneux" sex="M">
-    <name>Bouligneux, Bernard de la Palud, comte de</name>
-  </person>
-  <person xml:id="boulanger" sex="M">
-    <name>Boulanger, valet de pied</name>
-  </person>
+  
   <person xml:id="joachim_bouzols" sex="M">
     <name>Bouzols (Boussoles), Louis-Joachim de Montaigu, vicomte de Beaune, marquis de</name>
     <birth when="1662"/>
     <death when="1746"/>
+  </person>
+  <person xml:id="bullion_gabriel_jerome" sex="M">
+    <name>Bullion, Gabriel-Jérôme de, chevalier et comte d'Esclimont, prévôt de Paris (1721)</name>
+    <birth when="1695"/>
+    <death when="1752-12-21"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Gabriel-J%C3%A9r%C3%B4me_de_Bullion</identifier>
+    <identifier type="databnf">https://data.bnf.fr/fr/12217657/gabriel-jerome_de_bullion_d_esclimont/</identifier>
+    <identifier type="isni">0000 0000 0689 7454</identifier>
   </person>
   <person xml:id="bussy_rabutin" sex="M">
     <name>Bussy-Rabtin, Roger, comte de</name>
@@ -741,14 +735,7 @@
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Roger_de_Bussy-Rabutin</identifier>
     <identifier type="isni">0000 0001 1872 3301</identifier>
   </person>
-  <person xml:id="baillyparis" sex="M">
-    <name>Gabriel-Jérôme de Bullion, Bailli de Paris</name>
-    <birth when="1695"/>
-    <death when="1752-12-21"/>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Gabriel-J%C3%A9r%C3%B4me_de_Bullion</identifier>
-    <identifier type="databnf">https://data.bnf.fr/fr/12217657/gabriel-jerome_de_bullion_d_esclimont/</identifier>
-    <identifier type="isni">0000 0000 0689 7454</identifier>
-  </person>
+  
   <person xml:id="hj_bourbon_conde" sex="M">
     <name>Condé, Henri-Jules de Bourbon, duc d'Enghien, puis prince de</name>
     <birth when="1643"/>
@@ -758,8 +745,8 @@
       >https://fr.wikipedia.org/wiki/Henri-Jules_de_Bourbon-Cond%C3%A9</identifier>
     <identifier type="isni">0000 0001 1872 3301</identifier>
   </person>
-  <person xml:id="duchessebourbon" sex="F">
-    <name>Louise-Françoise de Bourbon</name>
+  <person xml:id="mlle_de_Nantes" sex="F">
+    <name>Bourbon, Louise-Françoise de, dite Mademoiselle de Nantes, duchesse de Bourbon puis princesse de Condé. Épouse de Louis III de Bourbon Condé.</name>
     <birth when="1673-06-01"/>
     <death when="1743-06-16"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Louise-Fran%C3%A7oise_de_Bourbon_(1673-1743)</identifier>
@@ -1057,6 +1044,14 @@
   <person xml:id="charmasel" sex="M">
     <name>Charmasel, Marquis de</name>
   </person>
+  <person xml:id="charles_de_bourbon_charolais" sex="M">
+    <name>Charolais, Charles de Bourbon, comte de</name>
+    <birth when="1700-06-19"/>
+    <death when="1760-07-23"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Charles_de_Bourbon-Cond%C3%A9_(1700-1760)</identifier>
+    <identifier type="databnf">https://data.bnf.fr/12300643/charles_de_bourbon_charolais/</identifier>
+    <identifier type="isni">0000 0000 1438 5846</identifier>
+  </person>
     <person xml:id="armand_charost" sex="M">
       <name>Charost, Armand de Béthune, marquis d’Ancenis et de</name>
       <birth when="1663"/>
@@ -1178,6 +1173,7 @@
   <person xml:id="cambrou" sex="M">
     <name>Combrou</name>
   </person>
+  
   <person xml:id="maille_breze_conde" sex="F">
     <name>Condé, Claire-Clémence de Maillé-Brézé, princesse de</name>
     <birth when="1628"/>
@@ -1189,6 +1185,16 @@
   <person xml:id="contaut" sex="M">
     <name>Contaut, grand valet de pied</name>
   </person>
+  <person xml:id="louis_armand_conti" sex="M">
+    <name>Conti, Louis-Armand de Bourbon, prince de Conti (1710)</name>
+    <birth when="1695-11-10"/>
+    <death when="1727-05-04"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Louis-Armand_de_Bourbon-Conti_(1695-1727)</identifier>
+    <identifier type="databnf">https://data.bnf.fr/fr/13237033/louis-armand_de_bourbon_conti/</identifier>
+    <identifier type="isni">0000 0000 1420 6983</identifier>
+  </person>
+  
+  
   <person xml:id="marche_coquet" sex="M">
     <name>Coquet, Jacques</name>
   </person>
@@ -2032,22 +2038,6 @@
   <person xml:id="philippe_sicault_la_noue" sex="M">
     <name>La Noue, Philippe Sicault de, valet de chambre ordinaire du roi</name>
   </person>
-  <person xml:id="ducchartres" sex="M">
-    <name>Louis d'Orléans</name>
-    <birth when="1703-08-04"/>
-    <death when="1752-02-04"/>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Louis_d%27Orl%C3%A9ans_(1703-1752)</identifier>
-    <identifier type="databnf">https://data.bnf.fr/fr/14965486/louis_d__orleans/</identifier>
-    <identifier type="isni">0000 0000 5141 2866</identifier>
-  </person>
-  <person xml:id="ducorleans" sex="M">
-    <name>Philippe d'Orléans</name>
-    <birth when="1674-08-02"/>
-    <death when="1723-12-02"/>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Philippe_d%27Orl%C3%A9ans_(1674-1723)</identifier>
-    <identifier type="databnf">https://data.bnf.fr/fr/11918201/philippe_d_orleans/</identifier>
-    <identifier type="isni">0000 0001 2138 6262</identifier>
-  </person>
   <person xml:id="la_pierre" sex="M">
     <name>La Pierre, danseur</name>
   </person>
@@ -2645,6 +2635,14 @@
       >https://data.bnf.fr/fr/12058424/anne-marie-louise-henriette_d_orleans_montpensier/</identifier>
     <identifier type="isni">0000 0001 0917 0813</identifier>
   </person>
+  <person xml:id="louis_orleans" sex="M">
+    <name>Orléans, Louis I d', duc de Chartres puis duc d'Orléans (1723)</name>
+    <birth when="1703-08-04"/>
+    <death when="1752-02-04"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Louis_d%27Orl%C3%A9ans_(1703-1752)</identifier>
+    <identifier type="databnf">https://data.bnf.fr/fr/14965486/louis_d__orleans/</identifier>
+    <identifier type="isni">0000 0000 5141 2866</identifier>
+  </person>
   <person xml:id="philippe_orleans" sex="M">
     <name>Orléans, Philippe d’, dit Monsieur</name>
     <birth when="1640"/>
@@ -2654,7 +2652,15 @@
       >https://fr.wikipedia.org/wiki/Philippe_d'Orl%C3%A9ans_(1640-1701)</identifier>
     <identifier type="isni">0000 0001 1944 2608</identifier>
   </person>
-  <person xml:id="orleans" sex="M">
+  <person xml:id="philippe_orleans_regent" sex="M">
+    <name>Orléans, Philippe d’, couramment appelé le Régent</name>
+    <birth when="1674-08-02"/>
+    <death when="1723-12-02"/>
+    <identifier type="databnf">https://data.bnf.fr/fr/11918201/philippe_d_orleans/</identifier>
+    <identifier type="wikipedia"
+      >https://fr.wikipedia.org/wiki/Philippe_d%27Orl%C3%A9ans_(1674-1723)</identifier>
+    <identifier type="isni">0000000121386262</identifier>
+  </person>  <person xml:id="orleans" sex="M">
     <name>Orléans, trompette</name>
   </person>
   <person xml:id="marie_nemours" sex="F">
