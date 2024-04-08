@@ -8,8 +8,8 @@
   <place xml:id="europe">
     <name>Europe</name>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Europe</identifier>
+    
     <place xml:id="allemagne">
-      
       <name>Allemagne</name>
       <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Allemagne</identifier>
     </place>
@@ -220,6 +220,12 @@
         <settlement>Lille</settlement>
         <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Lille</identifier>
         <identifier type="geonames">https://www.geonames.org/2998324/lille.html</identifier>
+        
+        <place xml:id="lille_grand_place">
+          <name>Grand'Place, Lille</name>
+          <settlement>Lille</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Place_du_G%C3%A9n%C3%A9ral-de-Gaulle_(Lille)</identifier>
+        </place>
       </place>
      
       <place xml:id="menin">

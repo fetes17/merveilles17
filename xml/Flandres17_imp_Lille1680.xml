@@ -12,11 +12,11 @@
         <author key="???"/>
         <respStmt>
           <resp>Imprimeur</resp>
-          <persName key="" role="imprimeur">Malte Jean Chrisostome</persName>
+          <persName key="jean_christophe_malte" role="imprimeur">Malte Jean Christophe</persName>
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition>Merveilles17</edition>
+        <edition>Flandres17</edition>
         <respStmt>
           <name>Laurine Meny</name>
           <resp>Transcription et indexation</resp>
@@ -36,7 +36,7 @@
             Ville, &amp; de la rejouissance publique de la Paix. l'an 1680., Lille, Malte,
             1680.</title>
           <note><pubPlace>Lille</pubPlace>, <publisher>Malte</publisher> - <date>1680</date></note>
-          <ptr target="http://source.numérique"/></bibl>
+          <ptr target="https://bibliotheque-numerique.inha.fr/viewer/60618"/></bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -49,163 +49,180 @@
     </profileDesc>
   </teiHeader>
   <text>
+
+    <front>
+      <pb n="np" xml:id="p6" facs="https://bibliotheque-numerique.inha.fr/idviewer/60618/6"/>
+      <titlePage>
+        <docTitle>
+          <titlePart>DESCRIPTION DES <tech type="feux-artifice">FEUX D'ARTIFICES</tech> FAITS A
+            L'HONNEUR DU <persName key="louisxiv" role="destinataire">ROY</persName> A <placeName
+              key="lille">LILLE</placeName>, Par un nouveau témoignage du zele de Messieurs du
+            Magistrat, ensuite de la venuë de <persName key="louisxiv">Sa MAJESTÉ</persName> en
+            cette <placeName key="lille">Ville</placeName>, &amp; de la rejouissance publique de la
+              Paix.<date when="1680">l'an 1680</date>.</titlePart>
+        </docTitle>
+        <docDate>
+          <date when="1680">1680</date>
+        </docDate>
+        <docImprint> A <placeName key="lille">LILLE</placeName>, De l'Imprimerie de <persName
+            key="jean_christophe_malte" role="imprimeur">Jean Christophe Malte</persName>, Imprimeur
+          juré, en la <placeName key="lille">place Saint Martin au bon Pasteur</placeName>. <date
+            when="1680">1680</date>
+        </docImprint>
+        <imprimatur>AVEC PRIVILEGE.</imprimatur>
+      </titlePage>
+    </front>
+
     <body>
 
-
-      <pb n="np" xml:id="p6" facs="https://bibliotheque-numerique.inha.fr/idviewer/60618/6"/>
-      <head>DESCRIPTION DES <tech type="feux-artifice">FEUX D'ARTIFICES</tech> FAITS A L'HONNEUR DU
-          <persName key="louisxiv" role="destinataire">ROY</persName> A <placeName key="lille"
-          >LILLE</placeName>, Par un nouveau témoignage du zele de Messieurs du Magistrat, ensuite
-        de la venuë de <persName key="louisxiv">Sa MAJESTÉ</persName> en cette <placeName
-          key="lille">Ville</placeName>, &amp; de la rejouissance publique de la Paix.<date when="1680">l'an 1680.</date></head>
       <pb n="np" xml:id="p7" facs="bibliotheque-numerique.inha.fr/idviewer/60618/7"/>
       <pb n="np" xml:id="p8" facs="bibliotheque-numerique.inha.fr/idviewer/60618/8"/>
-      <head>AU <persName key="louisxiv" role="destinataire">ROY</persName>.</head>
-      <p><persName key="louisxiv">SIRE</persName>,</p>
 
-      <p>La Paix, que <persName key="louisxiv">vôtre MAJESTÉ</persName> à
-        donnée à toute l’<placeName key="europe">Europe</placeName>, est le fruit d’une guerre
-        Glorieuse, &amp; une marque éclatante de sa bonté dont les ennemis mêmes ont profité. C’est
-        le comble de la gloire, ou <name ana="dieu">Dieu</name>, qui à voulu benir les armes de
-          <persName key="louisxiv">vôtre MAJESTÉ</persName>, à voulu l’elever pour faire voir à
-        toute la terre <persName key="louisxiv">LOUYS LE GRAND</persName> dans une elevation, qui
-        sera le sujet de l’admiration de tous les siecles. <placeName key="flandre">La
-          Flandre</placeName> est temoin de la multitude, &amp; de la rapidité de <pb n="np"
-          xml:id="p9"
-          facs="https://bibliotheque-numerique.inha.fr/viewer/60618/?offset=#page=9%26amp;viewer=picture%26amp;o=bookmark%26amp;n=0%26amp;q="
-        /> vos conquétes, qui paroitront incroiables à la posterité. Elle à vû le premier de tous
-        les Rois à la téte de ses armées contant autant de triomphes, qu’il à fait d’entreprises.
-        Enfin, il sembloit qu’il ne manquât plus rien à la gloire, qu’une generosité sans exemple
-        dans un <persName key="louisxiv">Roy Conquerant</persName>, laquelle a paru lors que
-          <persName key="louisxiv">vôtre MAJESTÉ</persName> a donné la <name ana="paix">Paix</name>
-        à toute l’<placeName key="europe">Europe</placeName> sacrifiant des victoires asseurées au
-        repos même de ses ennemis. La ville de <placeName key="lille">Lille</placeName>, qui est la
-        plus redevable à <persName key="louisxiv">vôtre MAJESTÉ</persName>, joüit heureusement des
-        avantages d’une <name ana="paix">Paix</name> si glorieuse. Elle a attendu, <persName
-          key="louisxiv">SIRE</persName>, l’occasion de faire éclater sa reconnoissance, &amp; de
-        vous donner des marques de la grandeur de sa joye. On a travaillé avec plaisir pour trouver
-        quelque chose, qui eut du rapport avec les actions Heroïques de <persName key="louisxiv"
-          >vôtre MAJESTÉ</persName> &amp; qui luy fit connoître les transports de joye qu’a ce
-        peuple voiant tant d’ennemis ligués étre redevables de la <name ana="paix">Paix</name>,
-        &amp; de leur conservation à vôtre generosité. Pour cét effet nous avons choisi le plus
-        actif, &amp; le plus éclatant de tous les élemens, qui est le Feu : &amp; pour donner une
-        idée legere de vôtre gloire, <pb n="np" xml:id="p10"
-          facs="https://bibliotheque-numerique.inha.fr/viewer/60618/?offset=#page=10%26amp;viewer=picture%26amp;o=bookmark%26amp;n=0%26amp;q="
-        /> nous nous sommes servi de l’<tech type="feux-artifice">artifice</tech> prodigieux de cét
-        élement pour representer un sujet guerrier, &amp; Heroïque, qui comme nous esperons, ne
-        desagréera pas à <persName key="louisxiv">vôtre MAJESTÉ</persName>. C’est la Gigantomachie,
-        ou la guerre des <name ana="géants">Geans</name>, que les Poëtes apellent les enfans de la
-        terre. Et de vray pour peu qu’on fasse reflexion sur la guerre derniere, on trouvera que ce
-        sujet, qui est l’un des plus illustres de la fable, renferme l’idée des actions Heroïques de
-          <persName key="louisxiv">LOUYS LE GRAND</persName> &amp; de la confusion de tant d’ennemis
-        ligués inutilement contre luy. Les Poëtes disent que ces <name ana="géants">Geans</name> se
-        laissant seduire par une présomption temeraire, &amp; contant trop sur la grandeur de leur
-        taille, &amp; de leurs forces prodigieuses ; s’alliérent, ensemble, &amp; entreprirent de
-        renverser le trône de <name ana="jupiter">Jupiter</name>. Ce <name ana="jupiter">Dieu</name>
-        sans s’allarmer se mit en état de faire avouër à ses ennemis, que toutes les forces de la
-        terre ne pouvoient ébranler sa puissance. Et comme ils s’obstinoient aveuglément dans leur
-        malheur sur de fausses, &amp; de trompeuses esperances, il foudroya le Mont Olympe que ses
-        ennemis avoient élevé pour l’attaquer, il aneantit ce grand ouvrage, il défit tous les <!-- (*) bas de page-->
-        <pb n="np" xml:id="p11"
-          facs="https://bibliotheque-numerique.inha.fr/viewer/60618/?offset=#page=11%26amp;viewer=picture%26amp;o=bookmark%26amp;n=0%26amp;q="
-        />ouvriers, &amp; donna ainsi à connoître, que toutes les forces de la terre n’égaloient ny
-        la grandeur de son courage, ny la puissance de son bras.</p>
-      <p>C’est aussi ce que toute l’<name key="europe">Europe</name> a admiré en cette derniere
-        guerre dans la personne de <persName key="louisxiv">LOUIS LE GRAND</persName>. Ouy,
-          <persName key="louisxiv">Grand Roy</persName>, <persName key="louisxiv">vôtre
-          MAJESTÉ</persName> a vû les plus jllustres, &amp; les plus puissans Princes liguez contre
-        elle : elle a vû les forces redoutables de ces alliés, qui pretendoient de mettre obstacle à
-        la rapidité de vos conquétes : &amp; elle a regardé cette multitude d’ennemis qui
-        allarmoient vos bons sujets, comme des gens qui venoient relever l’éclat de vos actions
-        guerrieres, &amp; recevoir de vôtre main Royale une <name ana="paix">Paix</name>, qu’ils
-        auroient inutilement essayé d’obtenir par le secours des armes. En effet <persName
-          key="louisxiv">vôtre MAJESTÉ</persName> deconcerta tous ces ligués par sa sage conduite
-        donnant elle-méme ordre à toutes choses. Elle les défit dans les batailles : elle força les
-        places les mieux fortifiées &amp; les plus imprenables de l’<placeName key="europe"
-          >Europe</placeName> : elle aneantit tous leurs desseins : elle soumit leurs volontés aux
-        siennes : &amp; voulant couronner sa gloire par un prodige de bonté, elle surmonta <name
-          ana="jupiter">Jupiter</name> ; puis qu’étouffant, pour ainsi dire, dans son ame le de- <pb
-          n="np" xml:id="p12"
-          facs="https://bibliotheque-numerique.inha.fr/viewer/60618/?offset=#page=12%26amp;viewer=picture%26amp;o=bookmark%26amp;n=0%26amp;q="
-        />sir de la gloire, qui luy est si naturel, Elle mît Elle-même des bornes à ses conquétes.
-        En effet toute l’<placeName key="europe">Europe</placeName> a été témoin de la generosité de
-          <persName key="louisxiv">LOUIS LE GRAND</persName>, qui tout couvert de gloire a donné la
-          <name ana="paix">Paix</name> à ses ennemis, &amp; a preferé le bien public à ses interets
-        dans un têms, ou la victoire sembloit étre fixée à son service. C’est ce qui a surpris toute
-        la terre, c’est ce qui rend le nom de <persName key="louisxiv">vôtre MAJESTÉ</persName>
-        immortel, &amp; qui luy donne avec justice le tître du plus grand, &amp; du plus genereux de
-        tous les Roys. C’est aufsi ce que nous reconnoissons avec toute la veneration que nous
-        devons à <persName key="louisxiv">vôtre MAJESTÉ</persName>, esperans qu’elle nous fera la
-        grace d’agreer nos respets, &amp; de croire que nous sommes &amp; que nous serons toûjours
-        avec toute la soumission possible.</p>
-      <p><persName key="louisxiv">SIRE</persName>,</p>
-      <p>DE <persName key="louisxiv">VÔTRE MAIESTÉ,</persName></p>
-      <p>Les tres-humbles tres-obeissans, &amp;</p>
-      <p>tres-fidelles sujets &amp; serviteurs</p>
-      <p>LES <persName>REWART</persName>, <persName>MAYEUR</persName>,
-          <persName>ESCHEVINS</persName>,</p>
-      <p><persName>CONSEIL</persName>, ET HUIT HOMMES DE</p>
-      <p>LA VILLE DE <placeName key="lille">LILLE</placeName>.</p>
-
-      <pb n="np" xml:id="p13"
-        facs="https://bibliotheque-numerique.inha.fr/viewer/60618/?offset=#page=13%26amp;viewer=picture%26amp;o=bookmark%26amp;n=0%26amp;q="/>
-      <pb n="np" xml:id="p14"
-        facs="https://bibliotheque-numerique.inha.fr/viewer/60618/?offset=#page=14%26amp;viewer=picture%26amp;o=bookmark%26amp;n=0%26amp;q="/>
-      <pb n="np" xml:id="p15"
-        facs="https://bibliotheque-numerique.inha.fr/viewer/60618/?offset=#page=15%26amp;viewer=picture%26amp;o=bookmark%26amp;n=0%26amp;q="/>
-
-      <pb n="np" xml:id="p16"
-        facs="https://bibliotheque-numerique.inha.fr/viewer/60618/?offset=#page=16%26amp;viewer=picture%26amp;o=bookmark%26amp;n=0%26amp;q="/>
+      <head>EPITRE.</head>
       <div>
+        <head>AU <persName key="louisxiv" role="destinataire">ROY</persName>.</head>
+        <p><persName key="louisxiv">SIRE</persName>,</p>
+        <p>La Paix, que <persName key="louisxiv">vôtre <hi rend="sup">MAJESTÉ</hi></persName> à
+          donnée à toute l’<placeName key="europe">Europe</placeName>, est le fruit d’une guerre
+          Glorieuse, &amp; une marque éclatante de sa bonté dont les ennemis mêmes ont profité.
+          C’est le comble de la gloire, ou <name ana="dieu">Dieu</name>, qui à voulu benir les armes
+          de <persName key="louisxiv">vôtre <hi rend="sup">MAJESTÉ</hi></persName>, à voulu l’elever
+          pour faire voir à toute la terre <persName key="louisxiv"><hi rend="sup">LOUYS LE
+              GRAND</hi></persName> dans une elevation, qui sera le sujet de l’admiration de tous
+          les siecles. <placeName key="flandre">La Flandre</placeName> est temoin de la multitude,
+          &amp; de la rapidité de <pb n="np" xml:id="p9"
+            facs="https://bibliotheque-numerique.inha.fr/viewer/60618/9"/> vos conquétes, qui
+          paroitront incroiables à la posterité. Elle à vû le premier de tous les Rois à la téte de
+          ses armées contant autant de triomphes, qu’il à fait d’entreprises. Enfin, il sembloit
+          qu’il ne manquât plus rien à la gloire, qu’une generosité sans exemple dans un <persName
+            key="louisxiv">Roy Conquerant</persName>, laquelle a paru lors que <persName
+            key="louisxiv">vôtre <hi rend="sup">MAJESTÉ</hi></persName> a donné la Paix à toute
+            l’<placeName key="europe">Europe</placeName> sacrifiant des victoires asseurées au repos
+          même de ses ennemis. La ville de <placeName key="lille">Lille</placeName>, qui est la plus
+          redevable à <persName key="louisxiv">vôtre <hi rend="sup">MAJESTÉ</hi></persName>, joüit
+          heureusement des avantages d’une Paix si glorieuse. Elle a attendu, <persName
+            key="louisxiv"><hi rend="sup">SIRE</hi></persName>, l’occasion de faire éclater sa
+          reconnoissance, &amp; de vous donner des marques de la grandeur de sa joye. On a travaillé
+          avec plaisir pour trouver quelque chose, qui eut du rapport avec les actions Heroïques de
+            <persName key="louisxiv">vôtre <hi rend="sup">MAJESTÉ</hi></persName> &amp; qui luy fit
+          connoître les transports de joye qu’a ce peuple voiant tant d’ennemis ligués étre
+          redevables de la Paix, &amp; de leur conservation à vôtre generosité. Pour cét effet nous
+          avons choisi le plus actif, &amp; le plus éclatant de tous les élemens, qui est le Feu :
+          &amp; pour donner une idée legere de vôtre gloire, <pb n="np" xml:id="p10"
+            facs="https://bibliotheque-numerique.inha.fr/viewer/60618/10"/> nous nous sommes servi
+          de l’<tech type="feux-artifice">artifice</tech> prodigieux de cét élement pour representer
+          un sujet guerrier, &amp; Heroïque, qui comme nous esperons, ne desagréera pas à <persName
+            key="louisxiv">vôtre <hi rend="sup">MAJESTÉ</hi></persName>. C’est la Gigantomachie, ou
+          la guerre des <name ana="géants">Geans</name>, que les Poëtes apellent les enfans de la
+          terre. Et de vray pour peu qu’on fasse reflexion sur la guerre derniere, on trouvera que
+          ce sujet, qui est l’un des plus illustres de la fable, renferme l’idée des actions
+          Heroïques de <persName key="louisxiv"><hi rend="sup">LOUYS LE GRAND</hi></persName> &amp;
+          de la confusion de tant d’ennemis ligués inutilement contre luy. Les Poëtes disent que ces
+            <name ana="géants">Geans</name> se laissant seduire par une présomption temeraire, &amp;
+          contant trop sur la grandeur de leur taille, &amp; de leurs forces prodigieuses ;
+          s’alliérent, ensemble, &amp; entreprirent de renverser le trône de <name ana="jupiter"
+            >Jupiter</name>. Ce <name ana="jupiter">Dieu</name> sans s’allarmer se mit en état de
+          faire avouër à ses ennemis, que toutes les forces de la terre ne pouvoient ébranler sa
+          puissance. Et comme ils s’obstinoient aveuglément dans leur malheur sur de fausses, &amp;
+          de trompeuses esperances, il foudroya le Mont Olympe que ses ennemis avoient élevé pour
+          l’attaquer, il aneantit ce grand ouvrage, il défit tous les <note>symbole étoile en indice
+            entre parenthèses "(*)" au bas de page</note>
+          <pb n="np" xml:id="p11" facs="https://bibliotheque-numerique.inha.fr/viewer/60618/11"
+          />ouvriers, &amp; donna ainsi à connoître, que toutes les forces de la terre n’égaloient
+          ny la grandeur de son courage, ny la puissance de son bras.</p>
+        <p>C’est aussi ce que toute l’<name key="europe">Europe</name> a admiré en cette derniere
+          guerre dans la personne de <persName key="louisxiv"><hi rend="sup">LOUIS LE
+            GRAND</hi></persName>. Ouy, <persName key="louisxiv">Grand Roy</persName>, <persName
+            key="louisxiv">vôtre MAJESTÉ</persName> a vû les plus jllustres, &amp; les plus puissans
+          Princes liguez contre elle : elle a vû les forces redoutables de ces alliés, qui
+          pretendoient de mettre obstacle à la rapidité de vos conquétes : &amp; elle a regardé
+          cette multitude d’ennemis qui allarmoient vos bons sujets, comme des gens qui venoient
+          relever l’éclat de vos actions guerrieres, &amp; recevoir de vôtre main Royale une Paix,
+          qu’ils auroient inutilement essayé d’obtenir par le secours des armes. En effet <persName
+            key="louisxiv">vôtre <hi rend="sup">MAJESTÉ</hi></persName> deconcerta tous ces ligués
+          par sa sage conduite donnant elle-méme ordre à toutes choses. Elle les défit dans les
+          batailles : elle força les places les mieux fortifiées &amp; les plus imprenables de
+            l’<placeName key="europe">Europe</placeName> : elle aneantit tous leurs desseins : elle
+          soumit leurs volontés aux siennes : &amp; voulant couronner sa gloire par un prodige de
+          bonté, elle surmonta <name ana="jupiter">Jupiter</name> ; puis qu’étouffant, pour ainsi
+          dire, dans son ame le de- <pb n="np" xml:id="p12"
+            facs="https://bibliotheque-numerique.inha.fr/viewer/60618/12"/>sir de la gloire, qui luy
+          est si naturel, Elle mît Elle-même des bornes à ses conquétes. En effet toute l’<placeName
+            key="europe">Europe</placeName> a été témoin de la generosité de <persName
+            key="louisxiv"><hi rend="sup">LOUIS LE GRAND</hi></persName>, qui tout couvert de gloire
+          a donné la Paix à ses ennemis, &amp; a preferé le bien public à ses interets dans un têms,
+          ou la victoire sembloit étre fixée à son service. C’est ce qui a surpris toute la terre,
+          c’est ce qui rend le nom de <persName key="louisxiv">vôtre <hi rend="sup"
+            >MAJESTÉ</hi></persName> immortel, &amp; qui luy donne avec justice le tître du plus
+          grand, &amp; du plus genereux de tous les Roys. C’est aussi ce que nous reconnoissons avec
+          toute la veneration que nous devons à <persName key="louisxiv">vôtre <hi rend="sup"
+              >MAJESTÉ</hi></persName>, esperans qu’elle nous fera la grace d’agreer nos respets,
+          &amp; de croire que nous sommes &amp; que nous serons toûjours avec toute la soumission
+          possible.</p>
+        <p><persName key="louisxiv">SIRE</persName>,</p>
+        <p>DE <persName key="louisxiv">VÔTRE MAIESTÉ</persName>,</p>
+        <p>Les tres-humbles tres-obeissans, &amp;</p>
+        <p>tres-fidelles sujets &amp; serviteurs</p>
+        <p>LES REWART, MAYEUR, ESCHEVINS,</p>
+        <p>CONSEIL, ET HUIT HOMMES DE</p>
+        <p>LA VILLE DE <placeName key="lille">LILLE</placeName>.</p>
+      </div>
+
+      <pb n="np" xml:id="p13" facs="https://bibliotheque-numerique.inha.fr/viewer/60618/13"/>
+      <pb n="np" xml:id="p14" facs="https://bibliotheque-numerique.inha.fr/viewer/60618/14"/>
+      <pb n="np" xml:id="p15" facs="https://bibliotheque-numerique.inha.fr/viewer/60618/15"/>
+
+      <div>
+        <pb n="np" xml:id="p16" facs="https://bibliotheque-numerique.inha.fr/viewer/60618/16"/>
         <head>PREMIER SPECTACLE. LA GIGANTOMACHIE ou la guerre des <name ana="géants"
           >Geans</name>.</head>
         <p>CEtte Representation étant la premiere, elle est aussi la plus étonnante tant par la
-          grandeur de sa <tech type="machine">machine</tech> que par l’<tech type="feux-artifice"
-            >artifice de ses feux</tech>.</p>
+          grandeur de sa <tech type="machine_terre">machine</tech> que par l’<tech
+            type="feux-artifice">artifice de ses feux</tech>.</p>
         <p>Une grande &amp; large <tech type="construction">Montagne</tech> est soutenuë sur un
             <tech type="construction">piedestal octogone</tech>, &amp; sur l’appuy de cette <tech
             type="construction">Montagne</tech> l’on y voit les <name ana="géants">Geans</name>
           d’une grandeur excessive, qui par leurs postures &amp; leur maintien font assez connoître
           qu’ils en veulent au <name ana="ciel">Ciel</name> &amp; qu’ils ont entrepris d’en usurper
-            l’<placeName>Empire</placeName>. Ainsi ils entassent Montagnes sur Montagnes afin de
-          l’escalader &amp; d’y faire irruption pour en chasser les Dieux à méme têms qu’ils mettent
-          la confusion dans toute la Terre. C’est ce qui se remarquera par le <tech
+          l’Empire. Ainsi ils entassent <tech type="construction">Montagnes sur Montagnes</tech>
+          afin de l’escalader &amp; d’y faire irruption pour en chasser les Dieux à méme têms qu’ils
+          mettent la confusion dans toute la Terre. C’est ce qui se remarquera par le <tech
             type="feux-artifice">feu</tech> &amp; par le <tech type="bruitage">bruit</tech>. Ils
           semblent tous s’animer l’un l’autre à bien faire par ce <tech type="bruitage">cry de
-            Guerre</tech> qui marque leur passion hautaine <foreign ana="devise">Præftat Victoria
-            Mundum</foreign> : C’est à dire, l’univers est le prix de nôtre victoire. Cette devise
-          est tirée du Poëte <persName>Claudien</persName>, qui décrit cette Guerre avec toutes ses
-          circonstances.</p>
+            Guerre</tech> qui marque leur passion hautaine <foreign ana="devise" xml:lang="la"
+            >Præftat Victoria Mundum</foreign> : C’est à dire, l’univers est le prix de nôtre
+          victoire. Cette devise est tirée du Poëte <persName key="claudien">Claudien</persName>,
+          qui décrit cette Guerre avec toutes ses circonstances.</p>
         <p>L’<tech type="feux-artifice">artifice du feu</tech> &amp; l’ordre qu’on y observe n’est
-          pas moins admirable que la <tech type="machine">machine</tech>.</p>
-        <!--§ au bas de page-->
-        <pb n="np" xml:id="p17"
-          facs="https://bibliotheque-numerique.inha.fr/viewer/60618/?offset=#page=17%26amp;viewer=picture%26amp;o=bookmark%26amp;n=0%26amp;q="/>
-        <p>PREMIEREMENT tout l’environnement est illuminé par quatre <name ana="nymphes"
-            >Nymphes</name> d’une grandeur proportionnée à la <tech type="machine">machine</tech>.
-          Ces <name ana="nymphes">Nymphes</name> representent les quatre parties de l’<placeName
-            key="europe">Europe</placeName> qui ont servi de Theatre à la Guerre, sçavoir la
-            <placeName key="france">France</placeName>, l’<placeName key="espagne"
-            >Espagne</placeName>, l’<placeName>Empire</placeName>, &amp; la <placeName key="suede"
-            >Suede</placeName>. Et comme la <name key="france">France</name> est le premier principe
-          &amp; la grande source de tant de biens qui nous vienent de la <name ana="paix"
-            >Paix</name>, une <tech type="feux-artifice">fusée</tech> partira du côté ou sera
-            <persName key="louisxiv">Sa MAIESTÉ</persName>, laissant par le chemin une <tech
-            type="lumieres">grosse queuë</tech> qui ne se separera point que la <tech
+          pas moins admirable que la <tech type="machine_terre">machine</tech>.<note>signe section
+            "§" au bas de page</note></p>
+        <pb n="np" xml:id="p17" facs="https://bibliotheque-numerique.inha.fr/viewer/60618/17"/>
+        <p><hi rend="sup">PREMIEREMENT</hi> tout l’environnement est illuminé par quatre <name
+            ana="nymphes">Nymphes</name> d’une grandeur proportionnée à la <tech
+            type="machine_terre">machine</tech>. Ces <name ana="nymphes">Nymphes</name> representent
+          les quatre parties de l’<placeName key="europe">Europe</placeName> qui ont servi de
+          Theatre à la Guerre, sçavoir la <placeName key="france">France</placeName>, l’<placeName
+            key="espagne">Espagne</placeName>, l’<placeName>Empire</placeName>, &amp; la <placeName
+            key="suede">Suede</placeName>. Et comme la <name key="france">France</name> est le
+          premier principe &amp; la grande source de tant de biens qui nous vienent de la Paix, une
+            <tech type="feux-artifice">fusée</tech> partira du côté ou sera <persName key="louisxiv"
+            >Sa <hi rend="sup">MAIESTÉ</hi></persName>, laissant par le chemin une <tech
+            type="feux-artifice">grosse queuë</tech> qui ne se separera point que la <tech
             type="feux-artifice">fusée</tech> n’ait communiqué son <tech type="feux-artifice"
             >feu</tech> à la matiere que la <name ana="nymphes">Nymphe</name>, qui sert de figure à
           la <name key="france">France</name>, porte dans son Couronnement &amp; qui fournit autant
-          de <tech type="lumieres">jour &amp; de lumiere</tech> qu’il en faut pour imprimer dans les
-          esprits une belle image de la joye qu’elle va communiquer aux autres parties de l’<name
-            key="europe">Europe</name>. A de si beaux effets se joindra le <tech type="bruitage"
-            >bruit</tech> des <tech type="feux-artifice">boëttes</tech> &amp; des <tech
-            type="feux-artifice">petars</tech>, qui contreferont la marche Françoise ; &amp; qui se
-          meslans avec le <tech type="bruitage">son confus des applaudissemens</tech> qui se feront
-          entendre de tous côtez à la veüe du bonheur qui accompagne par tout la conduite du
-            <persName key="louisxiv">ROY</persName>, feront außi retentir l’air de leurs <tech
-            type="bruitage">éclats</tech>, comme d’autant d’<tech type="bruitage">échos des
-            acclamations</tech> que <persName key="louisxiv">Sa MAIESTÉ</persName> reçoit de tous
-          les endroits de la <placeName>Place</placeName>.</p>
+          de <tech type="feux-artifice">jour &amp; de lumiere</tech> qu’il en faut pour imprimer
+          dans les esprits une belle image de la joye qu’elle va communiquer aux autres parties de
+            l’<name key="europe">Europe</name>. A de si beaux effets se joindra le <tech
+            type="bruitage">bruit</tech> des <tech type="feux-artifice">boëttes</tech> &amp; des
+            <tech type="feux-artifice">petars</tech>, qui contreferont la marche Françoise ; &amp;
+          qui se meslans avec le <tech type="bruitage">son confus des applaudissemens</tech> qui se
+          feront entendre de tous côtez à la veüe du bonheur qui accompagne par tout la conduite du
+            <persName key="louisxiv"><hi rend="sup">ROY</hi></persName>, feront außi retentir l’air
+          de leurs <tech type="bruitage">éclats</tech>, comme d’autant d’<tech type="bruitage">échos
+            des acclamations</tech> que <persName key="louisxiv">Sa <hi rend="sup"
+            >MAIESTÉ</hi></persName> reçoit de tous les endroits de la <placeName
+            key="lille_grand_place">Place</placeName>.</p>
         <p>Aprés que la <name key="france">France</name> semble bien éclairée, elle répand ensuite
           une infinité de <tech type="feux-artifice">feux</tech> qui se communiquent à la <name
             ana="nymphes">Nymphe</name> la plus voisine qui represente l’<name key="espagne"
@@ -215,254 +232,247 @@
             <name ana="nymphes">Nymphe</name> Communique les <tech type="feux-artifice">feux</tech>
           qu’elle à receus de la <name key="france">France</name> à la troisiéme, &amp; celle-cy à
           la derniere de sorte que toutes quatre semblent étre en un moment comme autant de sources
-          de <tech type="lumieres">lumieres</tech>.</p>
-        <p>C’est icy, qu’à la faveur de tant de <tech type="lumieres">clartés</tech> on voit le
+          de lumieres.</p>
+        <p>C’est icy, qu’à la faveur de tant de <tech type="feux-artifice">clartés</tech> on voit le
           commencement de la Gigantomachie &amp; le veritable portrait de cette Guerre fabuleuse.
           Car les <name ana="géants">Geans</name> se voyans tout à coup environnez d’<tech
-            type="lumieres">éclairs</tech> &amp; de <tech type="bruitage">coups de Tonnerre</tech>
-          qui font trembler toutes ces grandes <tech type="construction">Montagnes</tech> qu’ils ont
-          entaßées les unes sur les autres, sont tellement surpris, qu’ils perdent en un moment
-          toutes ces belles esperances qu’ils avoient conceuës d’envahir le <name ana="ciel"
-            >Ciel</name> &amp; l’Empire du monde ; Ils se sentent repoussez d’une force secrete
-          &amp; plus qu’humaine ; ils voient tous leurs desseins arrétez &amp; ils mettent eux-mémes
-          le d’esordre &amp; le desespoir par tout. Enfin un de ces desesperez ne sçachant pas à qui
-          s’en prendre, a la hardiesse d’aggresser <name ana="jupiter">Iupiter</name> &amp; de
-          lançer une grosse piece de rocher pour l’attaquer en sa personne : Cette temerité irrite
-          tellement ce <name ana="jupiter">Dieu</name> que laßé de tant d’insolences il dépesche le
-            <name ana="soleil">Soleil</name> (qui sert de symbole à la grandeur du <persName
-            key="louisxiv">ROY</persName>) armé de foudres pour écraser cét insolent.<tech
-            type="feux-artifice">Il paroit tout à coup en l’air</tech> avec cette inscription
-            <foreign>UNUS IN OMNES</foreign>. Son <tech type="lumieres">éclat</tech> surprend tout
-          le monde : car arrétant en un moment le cours impetueux de ce Rocher lancé par ce <name
-            ana="géants">Geant</name>, il le repousse d’une si grande force qu’il renverse tout,
-          &amp; fait le tombeau de ces temeraires sous le débris de ces <tech type="construction"
-            >Montagnes</tech>. Tout cela s’explique par cette devise qui paroit en l’air <tech
-            type="lumieres">tracée d’une lumiere tres-vive &amp; tres-pure</tech>
-          <foreign ana="devise">REDIT IN AUCTORES</foreign>.</p>
+            type="feux-artifice">éclairs</tech> &amp; de <tech type="bruitage">coups de
+            Tonnerre</tech> qui font trembler toutes ces grandes <tech type="construction"
+            >Montagnes</tech> qu’ils ont entaßées les unes sur les autres, sont tellement surpris,
+          qu’ils perdent en un moment toutes ces belles esperances qu’ils avoient conceuës d’envahir
+          le <name ana="ciel">Ciel</name> &amp; l’Empire du monde ; Ils se sentent repoussez d’une
+          force secrete &amp; plus qu’humaine ; ils voient tous leurs desseins arrétez &amp; ils
+          mettent eux-mémes le d’esordre &amp; le desespoir par tout. Enfin un de ces desesperez ne
+          sçachant pas à qui s’en prendre, a la hardiesse d’aggresser <name ana="jupiter"
+            >Iupiter</name> &amp; de lançer une grosse piece de rocher pour l’attaquer en sa
+          personne : Cette temerité irrite tellement ce <name ana="jupiter">Dieu</name> que laßé de
+          tant d’insolences il dépesche le <name ana="soleil">Soleil</name> (qui sert de symbole à
+          la grandeur du <persName key="louisxiv"><hi rend="sup">ROY</hi></persName>) armé de
+          foudres pour écraser cét insolent.<tech type="feux-artifice">Il paroit tout à coup en
+            l’air</tech> avec cette inscription <foreign xml:lang="la">UNUS IN OMNES</foreign>. Son
+            <tech type="feux-artifice">éclat</tech> surprend tout le monde : car arrétant en un
+          moment le cours impetueux de ce Rocher lancé par ce <name ana="géants">Geant</name>, il le
+          repousse d’une si grande force qu’il renverse tout, &amp; fait le tombeau de ces
+          temeraires sous le débris de ces <tech type="construction">Montagnes</tech>. Tout cela
+          s’explique par cette devise qui paroit en l’air <tech type="feux-artifice">tracée d’une
+            lumiere tres-vive &amp; tres-pure</tech>
+          <foreign xml:lang="la" ana="devise">REDIT IN AUCTORES</foreign>.</p>
       </div>
 
-      <pb n="np" xml:id="p18"
-        facs="https://bibliotheque-numerique.inha.fr/viewer/60618/?offset=#page=18%26amp;viewer=picture%26amp;o=bookmark%26amp;n=0%26amp;q="/>
-      <pb n="np" xml:id="p19"
-        facs="https://bibliotheque-numerique.inha.fr/viewer/60618/?offset=#page=19%26amp;viewer=picture%26amp;o=bookmark%26amp;n=0%26amp;q="/>
+      <pb n="np" xml:id="p18" facs="https://bibliotheque-numerique.inha.fr/viewer/60618/18"/>
+      <pb n="np" xml:id="p19" facs="https://bibliotheque-numerique.inha.fr/viewer/60618/19"/>
 
-      <pb n="np" xml:id="p20"
-        facs="https://bibliotheque-numerique.inha.fr/viewer/60618/?offset=#page=20%26amp;viewer=picture%26amp;o=bookmark%26amp;n=0%26amp;q="/>
+      <pb n="np" xml:id="p20" facs="https://bibliotheque-numerique.inha.fr/viewer/60618/20"/>
       <div>
         <head>SECOND SPECTACLE.</head>
-        <head>La <name ana="paix">Paix</name> renaissante des Cendres de la Guerre.</head>
+        <head>La <name key="paix">Paix</name> renaissante des Cendres de la Guerre.</head>
         <p>DEs Cendres &amp; des debris de ces <tech type="construction">Montagnes</tech> aussi bien
           que de ces <name ana="géants">Geans</name> renait tout à coup, la charmante <name
-            ana="paix">Paix</name>, que l’on voit <tech type="construction">Elevée sur un piedestal
+            ana="paix">Paix</name>, que l’on voit Elevée sur un <tech type="construction">piedestal
             quarré</tech>, au bas du quel on lit Cette devise qui sert d’ame à tout le Corps de
-          cette <tech type="machine">machine</tech>, <foreign ana="devise">è Cinere
-          Belli</foreign>.</p>
+          cette <tech type="machine_terre">machine</tech>, <foreign xml:lang="la" ana="devise">è
+            Cinere Belli</foreign>.</p>
         <p>Cette <name ana="paix">Paix</name> paroît d’autant plus aymable que ces <name
             ana="géants">Geans</name> paroissoient auparavant plus affreux puisqu’elle ne donne que
           du plaisir &amp; de l’admiration.</p>
-        <p>A la droite <tech type="lumieres">sur une belle nuë</tech> est le grand genie de
-            <persName key="louisxiv">Sa MAJESTÉ</persName>, qui appercevant à son côté un <tech
-            type="construction">Autel couvert de toutes sortes d’armes</tech>, met avec son arc le
-            <tech type="feux-artifice">feu</tech> a ce trophée. Les flames semblent faire un combat
+        <p>A la droite sur <tech type="feux-artifice">une belle nuë</tech> est le grand genie de
+            <persName key="louisxiv">Sa <hi rend="sup">MAJESTÉ</hi></persName>, qui appercevant à
+          son côté un <tech type="construction">Autel</tech>
+          <tech type="decor">couvert de toutes sortes d’armes</tech>, met avec son arc le <tech
+            type="feux-artifice">feu</tech> a ce trophée. Les flames semblent faire un combat
           entr’elles à cause du <tech type="bruitage">bruit</tech> qui les agite, &amp; qui quelque
           fois les confondant &amp; les separant semble faire voir en effet, qu’elles se disputent
-          la gloire de détruire ces Armes, qui cedent enfin à leurs <tech type="lumieres"
+          la gloire de détruire ces Armes, qui cedent enfin à leurs <tech type="feux-artifice"
             >éclats</tech>. Ce symbole est si clair qu’il n’a presque pas besoin d’explication,
           neanmoins l’on verra cette devise tracée en beau <tech type="feux-artifice">feu</tech>
-          <foreign ana="devise">A. I. M.</foreign> cét à dire <foreign ana="devise">Amori in
-            meos</foreign>. Ces mots signifient que <persName key="louisxiv">Sa MAIESTÉ</persName>
-          ne Sacrifie pas par contrainte ses armes à la paix, mais par une bonté que les siecles
-          suivans ne sauront assez admirer.</p>
-        <!--symbole bas de page-->
-        <pb n="np" xml:id="p21"
-          facs="https://bibliotheque-numerique.inha.fr/viewer/60618/?offset=#page=21%26amp;viewer=picture%26amp;o=bookmark%26amp;n=0%26amp;q="/>
-        <p>A gauche le <name ana="genie">Genie</name> de <placeName key="lille">Lille</placeName>
+          <foreign xml:lang="la" ana="devise">A. I. M.</foreign> cét à dire <foreign xml:lang="la"
+            ana="devise">Amori in meos</foreign>. Ces mots signifient que <persName key="louisxiv"
+            >Sa <hi rend="sup">MAIESTÉ</hi></persName> ne Sacrifie pas par contrainte ses armes à la
+          paix, mais par une bonté que les siecles suivans ne sauront assez admirer.<note>symbole
+            étoile * au bas de page</note></p>
+        <pb n="np" xml:id="p21" facs="https://bibliotheque-numerique.inha.fr/viewer/60618/21"/>
+        <p>A gauche le <name ana="lille">Genie</name> de <placeName key="lille">Lille</placeName>
           pour reconnoître l’affection, que le <persName key="louisxiv">Roy</persName> a pour cette
-            <placeName key="lille">Ville</placeName> ayant appercû de son côté <tech
-            type="construction">un autel</tech>, <tech type="decor">ou sont ramassez tous les Cœurs
-            de ce peuple</tech>, décoche pareillement une <tech type="feux-artifice">fléche de
-            feu</tech> qui va les embraser &amp; les consacrer tous au feu victorieux de l’amour
-          qu’ils ont pour <persName key="louisxiv">Sa MAJESTÉ</persName>. Ce qui se donne à entendre
-          par cette devise <foreign ana="devise">A. P.</foreign> c’est à dire <foreign ana="devise"
-            >Auctori Pacis</foreign> qui signifie que le <persName key="louisxiv">ROY</persName>
-          seul donne la paix &amp; le bonheur à cette <placeName key="lille">Ville</placeName>.</p>
-        <p>Cependant la <tech type="machine">machine</tech> paroîtra toute en <tech
-            type="feux-artifice">feu</tech>, si pur &amp; si serain, que cét Element fera le symbole
+            <placeName key="lille">Ville</placeName> ayant appercû de son côté un <tech
+            type="construction">autel</tech>, ou sont ramassez tous les Cœurs de ce peuple, décoche
+          pareillement une <tech type="feux-artifice">fléche de feu</tech> qui va les embraser &amp;
+          les consacrer tous au feu victorieux de l’amour qu’ils ont pour <persName key="louisxiv"
+            >Sa <hi rend="sup">MAJESTÉ</hi></persName>. Ce qui se donne à entendre par cette devise
+            <foreign xml:lang="la" ana="devise">A. P.</foreign> c’est à dire <foreign xml:lang="la"
+            ana="devise">Auctori Pacis</foreign> qui signifie que le <persName key="louisxiv"><hi
+              rend="sup">ROY</hi></persName> seul donne la paix &amp; le bonheur à cette <placeName
+            key="lille">Ville</placeName>.</p>
+        <p>Cependant la <tech type="machine_terre">machine</tech> paroîtra toute en <tech
+            type="feux-artifice">feu</tech>, si pur &amp; si serain, que cét Element sera le symbole
           de la brillante <name ana="paix">Paix</name> ; puis aprés un autre <tech
             type="feux-artifice">feu</tech> plus rouge &amp; plus vif donnera les derniers agrémens
           à cet <tech type="feux-artifice">artifice</tech>, &amp; marquera en grand caractere
-          détaché de la <tech type="machine">machine</tech>, ces mots, VIVE LE <persName
+          détaché de la <tech type="machine_terre">machine</tech>, ces mots, VIVE LE <persName
             key="louisxiv">ROY</persName> : ce qui durera environ une demie heure.</p>
         <p>A ces spectacles se joindra un grand nombre de <tech type="feux-artifice">fusées</tech>,
-          dont les unes se croisant dans l’air feront une <tech type="lumieres">espece de
-            berceau</tech> ; &amp; les autres s’éleveront tout droit <tech type="lumieres">laissant
-            jusques à terre une belle trace de lumieres</tech>. Il y en aura qui rempliront le <name
-            ana="ciel">Ciel</name> d’une <tech type="lumieres">luëur</tech> dans laquelle une
-          infinité de <tech type="feux-artifice">feux promps &amp; serpentans</tech> sembleront se
-          jouër au milieu d’une <tech type="lumieres">pluye dorée</tech> : d’autres enfin feront
-          briller l’air de <tech type="lumieres">mille Etoilles, &amp; d’une infinité d’autres
-            clartez</tech>.</p>
-        <pb n="np" xml:id="p22"
-          facs="https://bibliotheque-numerique.inha.fr/viewer/60618/?offset=#page=22%26amp;viewer=picture%26amp;o=bookmark%26amp;n=0%26amp;q="/>
+          dont les unes se croisant dans l’air feront une <tech type="feux-artifice">espece de
+            berceau</tech> ; &amp; les autres s’éleveront tout droit <tech type="feux-artifice"
+            >laissant jusques à terre une belle trace de lumieres</tech>. Il y en aura qui
+          rempliront le <name ana="ciel">Ciel</name> d’une luëur dans laquelle une infinité de <tech
+            type="feux-artifice">feux promps &amp; serpentans</tech> sembleront se jouër au milieu
+          d’une <tech type="feux-artifice">pluye dorée</tech> : d’autres enfin feront briller l’air
+          de <tech type="feux-artifice">mille Etoilles, &amp; d’une infinité d’autres
+          clartez</tech>.</p>
+        <pb n="np" xml:id="p22" facs="https://bibliotheque-numerique.inha.fr/viewer/60618/22"/>
         <p>Voila l’ordre qu’on observera en cette solennité. Il ne reste plus maintenant qu’à faire
           la description des <tech type="construction">pieds d’estaux</tech>, qui servent d’appuy
-          aux deux <tech type="machine">machines</tech>, leurs façades sont enrichies de <tech
-            type="decor">plusieurs Symboles &amp; dévises</tech>, qui par une double signification
-          representent également les incommoditez de la Guerre, &amp; les avantages de la <name
-            ana="paix">Paix</name>. Nous avons bien voulu les faire graver pour contenter les
-          curieux.</p>
-        <!-- illlustration au bas de page + symbole -->
-        <pb n="np" xml:id="p23"
-          facs="https://bibliotheque-numerique.inha.fr/viewer/60618/?offset=#page=23%26amp;viewer=picture%26amp;o=bookmark%26amp;n=0%26amp;q="/>
+          aux deux <tech type="machine_terre">machines</tech>, leurs <tech type="decor"
+            >façades</tech> sont enrichies de plusieurs Symboles &amp; dévises, qui par une double
+          signification representent également les incommoditez de la Guerre, &amp; les avantages de
+          la Paix. Nous avons bien voulu les faire graver pour contenter les curieux.<note>symbole ★
+            au bas de page</note></p>
+        <pb n="np" xml:id="p23" facs="https://bibliotheque-numerique.inha.fr/viewer/60618/23"/>
         <div>
           <div>
-            <head>Premiere Façade du Piedestal Octogone.</head>
+            <head>Premiere <tech type="decor">Façade</tech> du <tech type="construction">Piedestal
+                Octogone</tech>.</head>
             <head ana="devise"><name ana="bacciius">BACCIIUS</name> SANS VIN.</head>
-            <head>PREMIER TABLEAU DE LA GUERRE.</head>
+            <head>PREMIER <tech type="decor">TABLEAU</tech> DE LA <name key="guerre"
+              >GUERRE</name>.</head>
             <p>CE <name ana="bacciius">Dieu</name>, tout défait, pâle &amp; melancolique fait assez
               connoître les ressentimens qu’il a de se voir si mal traité des Partisans de <name
-                ana="mars">Mars</name>, qui luy ont cassé <tech type="decor">son tonneau, son verre
-                &amp; sa bouteille</tech> par une manie qui d’ordinaire les possede ; Delà vient
-              qu’il neglige le soin de cultiver sa Vigne qui ensuite demeure infructueuse ; c’est ce
-              qui luy fait dire que <name ana="mars">Mars</name> est un cruel, par la devise qu’on
-              voit ; &amp; qui le fait aspirer aprés la <name ana="paix">Paix</name>.</p>
-            <pb n="np" xml:id="p24"
-              facs="https://bibliotheque-numerique.inha.fr/viewer/60618/?offset=#page=24%26amp;viewer=picture%26amp;o=bookmark%26amp;n=0%26amp;q="
-            />
+                ana="mars">Mars</name>, qui luy ont cassé son tonneau, son verre &amp; sa bouteille
+              par une manie qui d’ordinaire les possede ; Delà vient qu’il neglige le soin de
+              cultiver sa Vigne qui ensuite demeure infructueuse ; c’est ce qui luy fait dire que
+                <name ana="mars">Mars</name> est un cruel, par la devise qu’on voit ; &amp; qui le
+              fait aspirer aprés la Paix.</p>
+            <pb n="np" xml:id="p24" facs="https://bibliotheque-numerique.inha.fr/viewer/60618/24"/>
           </div>
           <div>
-            <head>Seconde Façade du méme Piedestal.</head>
+            <head>Seconde <tech type="decor">Façade</tech> du méme <tech type="construction"
+                >Piedestal</tech>.</head>
             <head ana="devise"><name ana="ceres">CERES</name> SANS ÉPYS.</head>
-            <head>DEUXIEME TABLEAU DE LA GUERRE.</head>
-            <p>CEtte <name ana="ceres">Deese</name> déplore pareillement son malheur voyant la <tech
-                type="decor">moisson toute gâtée</tech>, par ces impitoiables, qui ravagent les
-              campagnes, &amp; qui se servent de ses outils pour en faire des instrumens de leur
-              fureur, &amp; pour causer la desolation par tout. Ce qui s’explique par sa devise.
-              Elle souhaite que par la <name ana="paix">Paix</name> ces outils reprennent leur plus
-              douce figure &amp; leur premier usage.</p>
-            <pb n="np" xml:id="p25"
-              facs="https://bibliotheque-numerique.inha.fr/viewer/60618/?offset=#page=25%26amp;viewer=picture%26amp;o=bookmark%26amp;n=0%26amp;q="
-            />
+            <head>DEUXIEME <tech type="decor">TABLEAU</tech> DE LA <name key="guerre"
+              >GUERRE</name>.</head>
+            <p>CEtte <name ana="ceres">Deese</name> déplore pareillement son malheur voyant la
+              moisson toute gâtée, par ces impitoiables, qui ravagent les campagnes, &amp; qui se
+              servent de ses outils pour en faire des instrumens de leur fureur, &amp; pour causer
+              la desolation par tout. Ce qui s’explique par sa devise. Elle souhaite que par la Paix
+              ces outils reprennent leur plus douce figure &amp; leur premier usage.</p>
+            <pb n="np" xml:id="p25" facs="https://bibliotheque-numerique.inha.fr/viewer/60618/25"/>
           </div>
           <div>
-            <head>Troisiéme Façade du méme Piedestal.</head>
+            <head>Troisiéme <tech type="decor">Façade</tech> du méme <tech type="construction"
+                >Piedestal</tech>.</head>
             <head ana="devise"><name ana="saturne">SATURNE</name> EN <tech type="costume">HABIT DE
                 FER</tech></head>
-            <head>TROISIEME TABLEAU.</head>
+            <head>TROISIEME <tech type="decor">TABLEAU</tech>.</head>
             <p>CE <name ana="saturne">Dieu</name> ennuié d’une si longue Guerre, se console par
               l’Esperance qu’il a que la <name ana="paix">Paix</name> changera en or son <tech
                 type="costume">habit de fer</tech>, &amp; qu’elle ramenera le premier âge du monde
               avec les richesses &amp; l’abondance de tous biens sans qu’il soit plus besoin d’épée
               ny d’autres armes, qui ne presagent que ruine.</p>
-            <pb n="np" xml:id="p26"
-              facs="https://bibliotheque-numerique.inha.fr/viewer/60618/?offset=#page=26%26amp;viewer=picture%26amp;o=bookmark%26amp;n=0%26amp;q="
-            />
+            <pb n="np" xml:id="p26" facs="https://bibliotheque-numerique.inha.fr/viewer/60618/26"/>
           </div>
           <div>
-            <head>Quatriéme façade du méme piedestal.</head>
+            <head>Quatriéme <tech type="decor">façade</tech> du méme <tech type="construction"
+                >piedestal</tech>.</head>
             <head ana="devise"><name ana="minerve">MINVERVE</name> SANS PALME ET SANS OLIVE.</head>
-            <head>QUATRIEME TABLEAU DE LA GUERRE.</head>
-            <p><name ana="minerve">MInerve</name> n’est pas moins desolée que les autres, voyant
-                <tech type="decor">les feuilles &amp; les branches de ses Olives pâlir &amp; les
-                belles lettres d’étruites</tech>. Elle en attend le rétablissement par la venuë de
-              la <name ana="paix">Paix</name>, come le dit sa devise.</p>
-            <pb n="np" xml:id="p27"
-              facs="https://bibliotheque-numerique.inha.fr/viewer/60618/?offset=#page=27%26amp;viewer=picture%26amp;o=bookmark%26amp;n=0%26amp;q="
-            />
+            <head>QUATRIEME <tech type="decor">TABLEAU</tech> DE LA <name key="guerre"
+              >GUERRE</name>.</head>
+            <p><name ana="minerve">MInerve</name> n’est pas moins desolée que les autres, voyant les
+              feuilles &amp; les branches de ses Olives pâlir &amp; les belles lettres d’étruites.
+              Elle en attend le rétablissement par la venuë de la <name ana="paix">Paix</name>, come
+              le dit sa devise.</p>
+            <pb n="np" xml:id="p27" facs="https://bibliotheque-numerique.inha.fr/viewer/60618/27"/>
           </div>
           <div>
-            <head>Cinquiéme façade du mémé piedestal.</head>
+            <head>Cinquiéme <tech type="decor">façade</tech> du mémé <tech type="construction"
+                >piedestal</tech>.</head>
             <head ana="devise"><name ana="apollon">APOLON</name> SANS LAURIERS.</head>
-            <head>CINQUIÉME TABLEAU DE LA GUERRE.</head>
-            <p><name ana="apollon">APollon</name> ne fait que penser voyant les <tech type="decor"
-                >Lauriers flétris</tech> lesquels il croyoit jmmortels. Il tire des sons lugubres de
-              sa Harpe qui font cóme les échos de ses gemißemens. Cependant l’esperance de la <name
-                ana="paix">Paix</name> le fait penser à reprendre bientôt ses doux concerts.</p>
-            <pb n="np" xml:id="p28"
-              facs="https://bibliotheque-numerique.inha.fr/viewer/60618/?offset=#page=28%26amp;viewer=picture%26amp;o=bookmark%26amp;n=0%26amp;q="
-            />
+            <head>CINQUIÉME <tech type="decor">TABLEAU</tech> DE LA <name key="guerre"
+              >GUERRE</name>.</head>
+            <p><name ana="apollon">APollon</name> ne fait que penser voyant les Lauriers flétris
+              lesquels il croyoit jmmortels. Il tire des sons lugubres de sa Harpe qui font cóme les
+              échos de ses gemißemens. Cependant l’esperance de la Paix le fait penser à reprendre
+              bientôt ses doux concerts.</p>
+            <pb n="np" xml:id="p28" facs="https://bibliotheque-numerique.inha.fr/viewer/60618/28"/>
           </div>
           <div>
-            <head>Sixiéme façade du méme piedestal.</head>
+            <head>Sixiéme <tech type="decor">façade</tech> du méme <tech type="construction"
+                >piedestal</tech>.</head>
             <head ana="devise"><name ana="pluton">PLUTON</name> SANS ARGENT.</head>
-            <head>SIXIEME TABLAEU DE LA GUERRE.</head>
+            <head>SIXIEME <tech type="decor">TABLEAU</tech> DE LA <name key="guerre"
+              >GUERRE</name>.</head>
             <p><name ana="pluton">PLUTON</name> tout epuisé d’argent, est bien étonné de voir ses
-                <tech type="decor">Coffres remplis de toutes sortes d’armes</tech> : Il espere que
-              le Caducée de <name>Mercure</name> (Symbole de la <name ana="paix">Paix</name>) par
-              son attouchement les changera en chaines d’or &amp; d’argent. Il se console par cette
-              pensée.</p>
-            <pb n="np" xml:id="p29"
-              facs="https://bibliotheque-numerique.inha.fr/viewer/60618/?offset=#page=29%26amp;viewer=picture%26amp;o=bookmark%26amp;n=0%26amp;q="
-            />
+              Coffres remplis de toutes sortes d’armes : Il espere que le Caducée de <name
+                key="mercure">Mercure</name> (Symbole de la Paix) par son attouchement les changera
+              en chaines d’or &amp; d’argent. Il se console par cette pensée.</p>
+            <pb n="np" xml:id="p29" facs="https://bibliotheque-numerique.inha.fr/viewer/60618/29"/>
           </div>
           <div>
-            <head>Septiéme façade du méme piedestal.</head>
+            <head>Septiéme <tech type="decor">façade</tech> du méme <tech type="construction"
+                >piedestal</tech>.</head>
             <head ana="devise"><name ana="flore">FLORE</name> SANS FLEURS.</head>
-            <head>SEPTIEME TABLEAU DE LA GUERRE.</head>
+            <head>SEPTIEME <tech type="decor">TABLEAU</tech> DE LA <name key="guerre"
+              >GUERRE</name>.</head>
             <p>CEtte <name ana="flore">Deesse</name> exprime parfaitement bien par sa posture
-              melancolique &amp; nonchalante, le dépit &amp; le chagrin qu’elle a de voir ses <tech
-                type="decor">jardins ravagez</tech>. Elle se plaint de ne plus jouïr de la douce
-              haleine des <name ana="zephirs">Zephirs</name>, qui par les horreurs de la Guerre
-              semblent n’ozer plus paroître pour entretenir l’éclat de ses fleurs : elle en attend
-              le retour avec la <name ana="paix">Paix</name>.</p>
-            <pb n="np" xml:id="p30"
-              facs="https://bibliotheque-numerique.inha.fr/viewer/60618/?offset=#page=30%26amp;viewer=picture%26amp;o=bookmark%26amp;n=0%26amp;q="
-            />
+              melancolique &amp; nonchalante, le dépit &amp; le chagrin qu’elle a de voir ses
+              jardins ravagez. Elle se plaint de ne plus jouïr de la douce haleine des <name
+                ana="zephirs">Zephirs</name>, qui par les horreurs de la Guerre semblent n’ozer plus
+              paroître pour entretenir l’éclat de ses fleurs : elle en attend le retour avec la
+              Paix.</p>
+            <pb n="np" xml:id="p30" facs="https://bibliotheque-numerique.inha.fr/viewer/60618/30"/>
           </div>
           <div>
-            <head>Huitiéme façade du méme piedestal.</head>
+            <head>Huitiéme <tech type="decor">façade</tech> du méme <tech type="construction"
+                >piedestal</tech>.</head>
             <head ana="devise"><name ana="neptune">NEPTUNE</name> SANS COMMERCE.</head>
-            <head>HUITIEME TABLEAU DE LA GUERRE.</head>
-            <p><name ana="neptune">NEptune</name> enfin est tout alarmé voyant la <tech type="decor"
-                >mer troublée par les armées Navales</tech>, qui luy empeschent de procurer au
-              publique les avantages, qu’il a coûtume de donner dans le paisible commerce ; &amp;
-              que pour ce trouble <tech type="decor">les Matelos sont obligez d’attendre au port
-                sans oser lever l’anchre ; ny tendre les voiles</tech>. Mais il prend courage par
-              l’esperance de la <name ana="paix">Paix</name>.</p>
-            <p>Suit la description des quatre Façades, qui composent le <tech type="construction"
-                >Piedestal quarré</tech>, qui sert d’appuy à la seconde <tech type="machine"
-                >machine</tech> ; lesquelles nous font voir autant de tableaux de la <name
-                ana="paix">Paix</name>.</p>
-            <pb n="np" xml:id="p31"
-              facs="https://bibliotheque-numerique.inha.fr/viewer/60618/?offset=#page=31%26amp;viewer=picture%26amp;o=bookmark%26amp;n=0%26amp;q="
-            />
+            <head>HUITIEME <tech type="decor">TABLEAU</tech> DE LA <name key="guerre"
+              >GUERRE</name>.</head>
+            <p><name ana="neptune">NEptune</name> enfin est tout alarmé voyant la mer troublée par
+              les armées Navales, qui luy empeschent de procurer au publique les avantages, qu’il a
+              coûtume de donner dans le paisible commerce ; &amp; que pour ce trouble les Matelos
+              sont obligez d’attendre au port sans oser lever l’anchre ; ny tendre les voiles. Mais
+              il prend courage par l’esperance de la Paix.</p>
+            <p>Suit la description des quatre <tech type="decor">Façades</tech>, qui composent le
+                <tech type="construction">Piedestal quarré</tech>, qui sert d’appuy à la seconde
+                <tech type="machine_terre">machine</tech> ; lesquelles nous font voir autant de
+                <tech type="decor">tableaux</tech> de la <name ana="paix">Paix</name>.</p>
+            <pb n="np" xml:id="p31" facs="https://bibliotheque-numerique.inha.fr/viewer/60618/31"/>
           </div>
         </div>
         <div>
           <div>
-            <head>PREMIER TABLEAU DE LA <name ana="paix">Paix</name>.</head>
-            <p>CEtte premiere Façade nous fait voir <tech type="decor">deux mains qui enfilent des
-                cœurs</tech>, qui sont les Symboles de la <name ana="paix">Paix</name>, &amp; de la
-              reunion des Princes, qui ont enfin trouvé le moyen de se reconcilier ensemble.</p>
+            <head>PREMIER <tech type="decor">TABLEAU</tech> DE LA <name ana="paix"
+              >Paix</name>.</head>
+            <p>CEtte premiere <tech type="decor">Façade</tech> nous fait voir deux mains qui
+              enfilent des cœurs, qui sont les Symboles de la Paix, &amp; de la reunion des Princes,
+              qui ont enfin trouvé le moyen de se reconcilier ensemble.</p>
           </div>
           <div>
-            <head>DEUXIEME TABLEAU DE LA <name ana="paix">Paix</name>.</head>
-            <p>DAns la seconde paroissent <tech type="decor">deux cornes d’abondance, dont l’une est
-                remplie de toute sorte de fruits, &amp; l’autre de carcans d’or &amp; d’argent : au
-                milieu est un caducée de <name ana="mercure">Mercure</name></tech>. Tout cela
+            <head>DEUXIEME <tech type="decor">TABLEAU</tech> DE LA <name ana="paix"
+              >Paix</name>.</head>
+            <p>DAns <tech type="decor">la seconde</tech> paroissent deux cornes d’abondance, dont
+              l’une est remplie de toute sorte de fruits, &amp; l’autre de carcans d’or &amp;
+              d’argent : au milieu est un caducée de <name ana="mercure">Mercure</name>. Tout cela
               signifie que la <name ana="paix">Paix</name> fait la felicité des peuples. <pb n="np"/>
-              <pb n="np" xml:id="p32"
-                facs="https://bibliotheque-numerique.inha.fr/viewer/60618/?offset=#page=32%26amp;viewer=picture%26amp;o=bookmark%26amp;n=0%26amp;q="
+              <pb n="np" xml:id="p32" facs="https://bibliotheque-numerique.inha.fr/viewer/60618/32"
               /></p>
           </div>
           <div>
-            <head>TROISIEME TABLEAU DE LA <name ana="paix">Paix</name>.</head>
-            <p>LA troisiéme façade represente <tech type="decor">plusieurs Rameaux pesle mesle,
-                &amp; une main qui en choisit un d’Olivier</tech>. Cecy montre que la <name
-                ana="paix">Paix</name> vaut mieux que la victoire.</p>
+            <head>TROISIEME <tech type="decor">TABLEAU</tech> DE LA <name ana="paix"
+              >Paix</name>.</head>
+            <p>LA troisiéme <tech type="decor">façade</tech> represente plusieurs Rameaux pesle
+              mesle, &amp; une main qui en choisit un d’Olivier. Cecy montre que la Paix vaut mieux
+              que la victoire.</p>
           </div>
           <div>
-            <head>QUATRIEME TABLEAU DE LA PAIX</head>
-            <p>LA derniere façade, qui contient une <tech type="decor">palme &amp; un laurier
-                croisés au milieu d’une courōne de fleurs</tech>, qui renferme ce mot
-                <foreign>Victori</foreign> : acheve les loüanges, que nous dōnons à <persName
-                key="louisxiv">LOUYS LE GRAND</persName> pour avoir accordé la <name ana="paix"
-                >Paix</name> à ses sujets ; qui sans plus respandre de sang, employeront leurs
-              palmes &amp; leurs lauriers, à embellir la Couronne de nôtre <persName key="louisxiv"
-                >Invincible MONARQUE</persName>.</p>
-            <pb n="np" xml:id="p33"
-              facs="https://bibliotheque-numerique.inha.fr/viewer/60618/?offset=#page=33%26amp;viewer=picture%26amp;o=bookmark%26amp;n=0%26amp;q="
-            />
+            <head>QUATRIEME <tech type="decor">TABLEAU</tech> DE LA <name key="paix"
+              >PAIX</name></head>
+            <p>LA derniere <tech type="decor">façade</tech>, qui contient une palme &amp; un laurier
+              croisés au milieu d’une courōne de fleurs, qui renferme ce mot <foreign xml:lang="la"
+                >Victori</foreign> : acheve les loüanges, que nous dōnons à <persName key="louisxiv"
+                  ><hi rend="sup">LOUYS LE GRAND</hi></persName> pour avoir accordé la Paix à ses
+              sujets ; qui sans plus respandre de sang, employeront leurs palmes &amp; leurs
+              lauriers, à embellir la Couronne de nôtre <persName key="louisxiv">Invincible <hi
+                  rend="sup">MONARQUE</hi></persName>.</p>
+            <pb n="np" xml:id="p33" facs="https://bibliotheque-numerique.inha.fr/viewer/60618/33"/>
           </div>
         </div>
       </div>
