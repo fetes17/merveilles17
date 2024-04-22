@@ -1123,28 +1123,11 @@
         </place>
       </place>
     </place>
-    <place xml:id="hauts_de_france">
+       <place xml:id="hauts_de_france">
       <name>Hauts-de-France</name>
       <country>France</country>
       <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Hauts-de-France</identifier>
       <identifier type="geonames">https://www.geonames.org/11071621/hauts-de-france.html</identifier>
-
-        <place xml:id="chantilly">
-        <name>Chantilly</name>
-        <geo>49.19461, 2.47124</geo>
-        <country>France</country>
-        <settlement>Chantilly</settlement>
-        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Chantilly</identifier>
-        <identifier type="geonames">https://www.geonames.org/3026827/chantilly.html</identifier>
-        
-        <place xml:id="chantillychateau">
-          <name>Château de Chantilly</name>
-          <geo>49.1138, 2.2909</geo>
-          <country>France</country>
-          <settlement>Chantilly</settlement>
-          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Chantilly</identifier>
-        </place>
-        </place>
       
       <place xml:id="fresnoylecheateau">
         <name>Fresnoy-le-Château</name>
@@ -1153,6 +1136,119 @@
         <settlement>Fresnoy-le-Château</settlement>
         <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Fresnoy-le-Ch%C3%A2teau</identifier>
       </place>
+      
+    </place>
+    
+      <place xml:id="chantilly">
+        <name>Chantilly</name>
+        <geo>49.19461, 2.47124</geo>
+        <country>France</country>
+        <settlement>Chantilly</settlement>
+        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Chantilly</identifier>
+        <identifier type="geonames">https://www.geonames.org/3026827/chantilly.html</identifier>
+        
+        <place xml:id="foretchantilly">
+          <name>Forêt de Chantilly</name>
+          <geo>49,1000, 2,3032</geo>
+          <country>France</country>
+          <settlement>Chantilly</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/For%C3%AAt_de_Chantilly</identifier>
+        </place>
+        
+        <place xml:id="parcsylvie">
+          <name>Parc de Silvie</name>
+          <geo>49.1117.8, 2.3025.6</geo>
+          <country>France</country>
+          <settlement>Chantilly</settlement>
+        </place>
+        
+        <place xml:id="chantillychateau">
+          <name>Château de Chantilly</name>
+          <geo>49.1138, 2.2909</geo>
+          <country>France</country>
+          <settlement>Chantilly</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Chantilly</identifier>
+          
+          <place xml:id="appartementroichantilly">
+            <name>Appartement du Roi dans le chateau</name>
+            <geo>49.1138.8, 2.2909.1</geo>
+            <country>France</country>
+            <settlement>Château de Chantilly</settlement>
+          </place>
+          <place xml:id="appartementprivechantilly">
+            <name>Appartements privés dans le chateau</name>
+            <geo>49.1138.2, 2.2909.1</geo>
+            <country>France</country>
+            <settlement>Château de Chantilly</settlement>
+          </place>
+          
+          <place xml:id="avenuechateauchantilly">
+            <name>Avenue du Château de Chantilly</name>
+            <geo>49.1137.4, 2.2911.1</geo>
+            <country>France</country>
+            <settlement>Château de Chantilly</settlement>
+          </place>
+          <place xml:id="canalchateauchantilly">
+            <name>Canal du Château de Chantilly</name>
+            <geo>49.1150.8, 2.2913.1</geo>
+            <country>France</country>
+            <settlement>Château de Chantilly</settlement>
+          </place>
+          <place xml:id="courchateauchantilly">
+            <name>Cour du Château de Chantilly</name>
+            <geo>49.1138.1, 2.2908.3</geo>
+            <country>France</country>
+            <settlement>Château de Chantilly</settlement>
+          </place>
+          <place xml:id="courconnestablechateauchantilly">
+            <name>la Cour du Connestable</name>
+            <geo>49.1137.5, 2.2910.4</geo>
+            <country>France</country>
+            <settlement>Château de Chantilly</settlement>
+          </place>
+          <place xml:id="galleriechateauchantilly">
+            <name>Gallerie du Château de Chantilly</name>
+            <geo>49.1138.9, 2.2907.1</geo>
+            <country>France</country>
+            <settlement>Château de Chantilly</settlement>
+          </place>
+          <place xml:id="grottechateauchantilly">
+            <name>Grotte</name>
+            <geo>49.1141.0, 2.2858.8</geo>
+            <country>France</country>
+            <settlement>Château de Chantilly</settlement>
+          </place>
+          <place xml:id="jardinchateauchantilly">
+            <name>Jardin du Château de Chantilly</name>
+            <geo>49.1144.6, 2.2910.7</geo>
+            <country>France</country>
+            <settlement>Château de Chantilly</settlement>
+          </place>
+          <place xml:id="menageriechateauchantilly">
+            <name>Ménagerie du Chateau de Chantilly</name>
+            <geo>49.1139.4, 2.2857.2</geo>
+            <country>France</country>
+            <settlement>Château de Chantilly</settlement>
+          </place>
+          <place xml:id="orangeriechateauchantilly">
+            <name>Orangerie </name>
+            <geo>49.1142.3, 2.2848.8</geo>
+            <country>France</country>
+            <settlement>Château de Chantilly</settlement>
+          </place>
+          <place xml:id="petitetourchateauchantilly">
+            <name></name>
+            <geo>49.1139.2, 2.2906.6</geo>
+            <country>France</country>
+            <settlement>Château de Chantilly</settlement>
+          </place>
+          <place xml:id="vertugadinchateauchantilly">
+            <name>Vertugadin</name>
+            <geo>49.1150.0, 2.2918.9</geo>
+            <country>France</country>
+            <settlement>Château de Chantilly</settlement>
+          </place>
+        </place> 
       
   <place xml:id="franche-comte">
     <name>Franche-Comté</name>
