@@ -537,14 +537,21 @@
         <country>France</country>
         <settlement>Villers-Cotterêts</settlement>
         <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Villers-Cotter%C3%AAts</identifier>
-        <identifier type="geonames"></identifier>
+        <identifier type="geonames">https://www.geonames.org/2968405/villers-cotterets.html</identifier>
         
         <place xml:id="chateauvillerscotteret">
           <name>Château de Villers-Cotterêts</name>
-          <geo>49.1521, 3.0532</geo>
+          <geo>49.1521, 3.0532</geo> <!-- coordonnées approximatives -->
           <country>France</country>
           <settlement>Villers-Cotterêts</settlement>
           <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Villers-Cotter%C3%AAts</identifier>
+          
+          <place xml:id="terrassechateauvillerscotteret">
+            <name>Terrasse du Château de Villers-Cotterêts</name>
+            <geo>49.1519.0 3.0532.7</geo> <!-- coordonnées approximatives -->
+            <country>France</country>
+            <settlement>Château de Villers-Cotterêts</settlement> 
+          </place>
           
           <place xml:id="avenuechateauvillerscotteret">
             <name>Grande avenue du Château de Villers-Cotterêts</name>
