@@ -1011,12 +1011,21 @@
         <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Reims</identifier>
         <identifier type="geonames">https://www.geonames.org/2984114/reims.html</identifier>
         
-        <place xml:id="chapellledereims">
-          <name>Chapelle du Palais Archiepiscopal de Reims</name>
-          <geo>49.1511, 4.0204</geo>
+        <place xml:id="rempartreims">
+          <name>Les remparts de Reims</name>
+          <geo>49.1546, 4.0205</geo>
           <country>France</country>
           <settlement>Reims</settlement>
-          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Palais_du_Tau_(Reims)</identifier>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Remparts_de_Reims</identifier>
+        </place>
+        
+        <place xml:id="reims_cathedral">
+          <name>Cathédrale Notre-Dame de Reims</name>
+          <geo>49.1513, 4.0202</geo>
+          <country>France</country>
+          <settlement>Reims</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Cath%C3%A9drale_Notre-Dame_de_Reims</identifier>
+          <identifier type="geonames">https://www.geonames.org/2984114/cathedrale-notre-dame-de-reims.html</identifier>
         </place>
       </place>
     </place>
