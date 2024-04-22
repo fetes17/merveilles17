@@ -1124,7 +1124,20 @@
         </place>
       </place>
     </place>
-
+    <place xml:id="hauts_de_france">
+      <name>Hauts-de-France</name>
+      <country>France</country>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Hauts-de-France</identifier>
+      <identifier type="geonames">https://www.geonames.org/11071621/hauts-de-france.html</identifier>
+      
+      <place xml:id="fresnoylecheateau">
+        <name>Fresnoy-le-Château</name>
+        <geo>48.2093, 4.2235</geo>
+        <country>France</country>
+        <settlement>Fresnoy-le-Château</settlement>
+        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Fresnoy-le-Ch%C3%A2teau</identifier>
+      </place>
+      
   <place xml:id="franche-comte">
     <name>Franche-Comté</name>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Franche-Comt%C3%A9</identifier>
@@ -1134,5 +1147,6 @@
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Savoie</identifier>
   </place>
   </place>
+  
   
 </listPlace>
