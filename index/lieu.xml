@@ -983,6 +983,26 @@
       <identifier type="geonames">https://www.geonames.org/3030299/arrondissement-de-brest.html</identifier>
     </place>
   </place>
+      <place xml:id="champagne">
+      <name>Champagne</name>
+      <country>France</country>
+      
+      <place xml:id="reims">
+        <name>Reims</name>
+        <country>France</country>
+        <settlement>Reims</settlement>
+        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Reims</identifier>
+        <identifier type="geonames">https://www.geonames.org/2984114/reims.html</identifier>
+        
+        <place xml:id="chapellledereims">
+          <name>Chapelle du Palais Archiepiscopal de Reims</name>
+          <geo>49.1511, 4.0204</geo>
+          <country>France</country>
+          <settlement>Reims</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Palais_du_Tau_(Reims)</identifier>
+        </place>
+      </place>
+    </place>
 
   <place xml:id="franche-comte">
     <name>Franche-Comté</name>
