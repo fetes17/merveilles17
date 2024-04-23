@@ -70,6 +70,11 @@
       <name>Pays-Bas</name>
       <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Pays-Bas</identifier>
       <identifier type="geonames">https://www.geonames.org/2750405/kingdom-of-the-netherlands.html</identifier>
+      <place xml:id="amsterdam">
+        <name>Amsterdam</name>
+        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Amsterdam</identifier>
+        <identifier type="geonames">https://www.geonames.org/2759794/amsterdam.html</identifier>
+      </place>
     </place>
     
     <place xml:id="pologne">
@@ -247,15 +252,31 @@
           <settlement>Lille</settlement>
           <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Place_du_G%C3%A9n%C3%A9ral-de-Gaulle_(Lille)</identifier>
         </place>
+        
         <place xml:id="lille_place_saint_martin">
           <name>Place Saint Martin au bon Pasteur</name>
         </place>
+        
         <place xml:id="lille_rue_saint_jacques">
           <name>Rue Saint-Jacques</name>
           <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Rue_Saint-Jacques_(Lille)</identifier>
         </place>
+        
         <place xml:id="lille_rue_du_platre">
           <name>Rue du Plâtre</name>
+        </place>
+        
+        <place xml:id="lille_fortifications">
+          <name>Forticiations Vauban, fortifications de Lille</name>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Fortifications_de_Lille</identifier>
+          
+          <place xml:id="jardin_contrescarpe">
+            <name>Jardin de la contrescarpe</name>
+          </place>
+        </place>
+        
+        <place xml:id="place_mx1_wzf_2bc">
+          <name></name>
         </place>
       </place>
      
