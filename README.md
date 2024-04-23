@@ -6,6 +6,7 @@
 * [Antilope_imp_gazette17221121.xml](https://fetes17.github.io/merveilles17/xml/Antilope_imp_gazette17221121.xml)
 * [Flandres17_imp_Lille1680.xml](https://fetes17.github.io/merveilles17/xml/Flandres17_imp_Lille1680.xml)
 * [Flandres17_imp_Valenciennes1680.xml](https://fetes17.github.io/merveilles17/xml/Flandres17_imp_Valenciennes1680.xml)
+* [Flandres17_imp_mg1680.xml](https://fetes17.github.io/merveilles17/xml/Flandres17_imp_mg1680.xml)
 * [merveilles17_img_ano13238_015.xml](https://fetes17.github.io/merveilles17/xml/merveilles17_img_ano13238_015.xml)
 * [merveilles17_img_ano13238_068.xml](https://fetes17.github.io/merveilles17/xml/merveilles17_img_ano13238_068.xml)
 * [merveilles17_img_ano13239_057.xml](https://fetes17.github.io/merveilles17/xml/merveilles17_img_ano13239_057.xml)
