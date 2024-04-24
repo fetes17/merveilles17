@@ -5,6 +5,18 @@
   <person xml:id="andre" sex="M">
     <name>André, officier du Gobelet</name>
   </person>
+  <person xml:id="badouiniv_flandre" sex="M">
+    <name>Badouin, Badouin IV de Flandre, le Barbu, Comte de Flandre</name>
+    <birth when="0980"/>
+    <death when="1035-05-30"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Baudouin_IV_de_Flandre</identifier>
+  </person>
+  <person xml:id="badouinv_flandre" sex="M">
+    <name>Badouin V de Flandre, Badouin le Debonnaire, Badouin le Pieux, Comte de Flandre</name>
+    <birth notBefore="1012"/>
+    <death when="1067-09-01"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Baudouin_V_de_Flandre</identifier>
+  </person>
   <person xml:id="blancas" sex="M">
     <name>Blancas, page</name>
   </person>
@@ -293,6 +305,13 @@
     <birth when="1625-08-20"/>
     <death when="1709-10-08"/>
     <identifier type="isni">http://isni.org/isni/000000012281648X</identifier>
+  </person>
+  <person xml:id="vauban" sex="M">
+    <name>Mr de Vauban, Vauban, Sébastien le Prestre de Vauban</name>
+    <birth when="1633-05-15"/>
+    <death when="1707-03-30"/>
+    <identifier type="databnf">https://data.bnf.fr/12016080/sebastien_le_prestre_vauban/</identifier>
+    <identifier type="isni">http://isni.org/isni/0000000121236096</identifier>
   </person>
   <person xml:id="agustin" sex="M">
     <name>Agustin, chanteur</name>
