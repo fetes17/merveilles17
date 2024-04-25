@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
+<?xml-stylesheet type="text/css" href="../style/tei-author.css" alternate="author"?>
+<?xml-model href="https://fetes17.github.io/merveilles17/merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>ODE SUR LE SACRE DU ROY.</title>
+        <author key="francoisxavier_tilly">Francois-Xavier De Tilly (?-?)</author>
+        <editor key="charles_fresny" role="Directeur de publication">Charles Du Fresny
+          (1648-1724)</editor>
+        <editor key="antoine_laroque" role="Directeur de publication">Antoine de La Roque
+          (1672-1744)</editor>
+        <editor key="louisfuzelier" role="Directeur de publication">Louis Fuzelier
+          (1672-1752)</editor>
+        <respStmt>
+          <persName/>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Merveilles17</edition>
+        <respStmt>
+          <name>Djewel Bennoura</name>
+          <resp>Transcription et Balisage</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université d’Artois - Lille, MESHS</publisher>
+        <date when="2024"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Le Mercure de Decembre 1722.Pieces fugitives en Vers&amp;en Prose.Ode sur le sacre
+            du Roy</title>
+          <note>Mercure,Paris,BNF</note>
+          <note><publisher>G. Cavelier</publisher><publisher>Veuve P. Ribou</publisher><publisher>G.
+              Cavelier fils</publisher><publisher>A. Cailleau</publisher><date>1er Décembre
+              1722</date><pubPlace>Paris</pubPlace></note>
+          <ptr target="https://gallica.bnf.fr/ark:/12148/bpt6k63284166/f7.item#"> </ptr>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1722-12-01">1er Décembre 1722</date>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <figure>
+        <graphic
+          url="https://gallica.bnf.fr/iiif/ark%3A%2F12148%2Fbpt6k63284166/f7/0%2C50%2C1800%2C400%2C/full/0/native"/>
+        <figDesc>Ornenement du début du périodique</figDesc>
+      </figure>
+      <head>LE MERCURE DE<date when="1722-12">DECEMBRE 1722</date>.</head>
+      <div>
+        <head>PIECES FUGITIVES, en Vers &amp; en Prose.</head>
+        <head>ODE SUR LE SACRE DU <persName key="louisxv">ROY</persName>.</head>
+        <figure>
+          <graphic
+            url="https://gallica.bnf.fr/iiif/ark%3A%2F12148%2Fbpt6k63284166/f7/0%2C1600%2C400%2C400%2C/full/0/native"/>
+          <figDesc>Letrine du poème</figDesc>
+        </figure>
+        <lg ana="vers" xml:lang="fr">
+          <l ana="vers" xml:lang="fr">Accourez, peuples, <name key="dieu">Dieu</name> lui-même</l>
+          <l ana="vers" xml:lang="fr">S’interesse à vôtre bonheur,</l>
+          <l ana="vers" xml:lang="fr">Aujourd’hui sa bonté suprême</l>
+          <l ana="vers" xml:lang="fr">Vous donne un <persName key="louisxv">Roy</persName> selon son
+            cœur:</l>
+          <l ana="vers" xml:lang="fr">Ciel! quelle splendeur l’environne!</l>
+          <l ana="vers" xml:lang="fr">Déjà brille dans <persName key="louisxv">sa
+              personne</persName></l>
+          <l ana="vers" xml:lang="fr">Tout l’éclat de la <persName key="louisxv"
+            >Majesté</persName>;</l>
+        </lg>
+        <p rend="right">Aij Sur</p>
+        <pb n="3" xml:id="p1" facs="https://gallica.bnf.fr/ark:/12148/bpt6k63284166/f7.item#"/>
+        <lg ana="vers" xml:lang="fr">
+          <l ana="vers" xml:lang="fr">Sur le front du <persName key="louisxv">jeune
+              Monarque</persName>, (a)</l>
+          <l ana="vers" xml:lang="fr">Je vois la pieté qui marque</l>
+          <l ana="vers" xml:lang="fr">Le trait de la <name key="divinite">Divinité</name>.</l>
+        </lg>
+        <lg ana="vers" xml:lang="fr">
+          <l ana="vers" xml:lang="fr"> Offrons, à l’envi, nôtre hommage</l>
+          <l ana="vers" xml:lang="fr">Au plus cheri de tous nos Rois;</l>
+          <l ana="vers" xml:lang="fr">Devoir, amour, tout nous engage</l>
+          <l ana="vers" xml:lang="fr">A vivre soûmis de ses loix:</l>
+          <l ana="vers" xml:lang="fr"><persName key="louisxv">Louis</persName>, des bons Rois le
+            modele, (b)</l>
+          <l ana="vers" xml:lang="fr">Veut aimer un peuple fidele,</l>
+          <l ana="vers" xml:lang="fr">En <persName key="louisxv">pere</persName> tendre, &amp;
+            genereux;</l>
+          <l ana="vers" xml:lang="fr">A peine <persName key="louisxv">il</persName> a le
+            Diadême,</l>
+          <l ana="vers" xml:lang="fr">Qu’attestant la verité même,</l>
+          <l ana="vers" xml:lang="fr"><persName key="louisxv">Il</persName> jure de nous rendre
+            heureux.</l>
+        </lg>
+        <lg ana="vers" xml:lang="fr">
+          <l ana="vers" xml:lang="fr"> O que la timide innocence</l>
+          <l ana="vers" xml:lang="fr">Doit esperer en sa bonté;</l>
+          <l ana="vers" xml:lang="fr"><persName key="louisxv">Il</persName> fait ceder à la
+            clemence,</l>
+          <l ana="vers" xml:lang="fr">Les droits de l’exacte équité:</l>
+          <l ana="vers" xml:lang="fr">Déjà des victimes sans nombres, (c)</l>
+          <l ana="vers" xml:lang="fr">Approchoient du rivage sombre,</l>
+          <l ana="vers" xml:lang="fr"><persName key="louisxv">Louis</persName> les arrache au
+            trépas:</l>
+        </lg>
+        <list>
+          <item>(a) L’Onction faite par <persName key="armand_jules_rohanguemene">M. L’Archevêque de
+              Rheims</persName>.</item>
+          <item>(b) Les Promesses.</item>
+          <item>(c) Les Prisonniers.</item>
+        </list>
+        <p rend="right">Sensible</p>
+
+        <pb n="4" xml:id="p2" facs="https://gallica.bnf.fr/ark:/12148/bpt6k63284166/f8.item"/>
+        <lg ana="vers" xml:lang="fr">
+          <l ana="vers" xml:lang="fr">Sensible à de justes allarmes,</l>
+          <l ana="vers" xml:lang="fr">Ah, <persName>Prince</persName>! en essuyant des larmes,</l>
+          <l ana="vers" xml:lang="fr">Que de cœurs ne gagne-<persName key="louisxv">tu</persName>
+            pas?</l>
+        </lg>
+        <lg ana="vers" xml:lang="fr">
+          <l ana="vers" xml:lang="fr"> Mais de quel glaive redoutable (a)</l>
+          <l ana="vers" xml:lang="fr">Arme-t-on le bras de <persName key="louisxv"
+            >Louis</persName>?</l>
+          <l ana="vers" xml:lang="fr">Est-il quelque tête coupable?</l>
+          <l ana="vers" xml:lang="fr">Est il encor des ennemis?</l>
+          <l ana="vers" xml:lang="fr">Va t-<persName key="louisxv">il</persName> sur les pas des
+              <name key="alcide">Alcides</name>,</l>
+          <l ana="vers" xml:lang="fr">Rappeler leurs exploits rapides,</l>
+          <l ana="vers" xml:lang="fr">Quel sang à nos yeux va couler…</l>
+          <l ana="vers" xml:lang="fr"><persName key="louisxv">Louis</persName> s’arme contre le
+            crime,</l>
+          <l ana="vers" xml:lang="fr">Le vice seul est la victime,</l>
+          <l ana="vers" xml:lang="fr">Que ce glaive doit immoler,</l>
+        </lg>
+        <lg ana="vers" xml:lang="fr">
+          <l ana="vers" xml:lang="fr"> Qu’entends-<persName>je</persName>? à ta voix menaçante
+            (b)</l>
+          <l ana="vers" xml:lang="fr">Tout <name key="enfer">l’Enfer</name> fremit de courroux;</l>
+          <l ana="vers" xml:lang="fr">Mais que peut sa rage impuissante</l>
+          <l ana="vers" xml:lang="fr">Contre d’inévitables coups?</l>
+          <l ana="vers" xml:lang="fr">Tes sermens annoncent la foudre,</l>
+          <l ana="vers" xml:lang="fr">Parle, <persName key="louisxv">tu</persName> vas réduire en
+            poudre</l>
+          <l ana="vers" xml:lang="fr">Ces monstres que <name key="enfer">l’Enfer</name> produit;</l>
+          <l ana="vers" xml:lang="fr">C’ enest fait, leur troupe éperduë</l>
+        </lg>
+        <list>
+          <item>(a) L’épée de <persName key="charlemagne">Charlemagne</persName>.</item>
+          <item>(b) Les sermens,</item>
+        </list>
+        <p rend="right">Aiij A</p>
+
+        <pb n="5" xml:id="p3" facs="https://gallica.bnf.fr/ark:/12148/bpt6k63284166/f9.item"/>
+        <lg ana="vers" xml:lang="fr">
+          <l ana="vers" xml:lang="fr">A ta parole, confonduë,</l>
+          <l ana="vers" xml:lang="fr">Rentre dans l’éternelle nuit.</l>
+        </lg>
+        <lg ana="vers" xml:lang="fr">
+          <l ana="vers" xml:lang="fr"> Ainsi le <persName key="louisxv">Maître de la
+              terre</persName></l>
+          <l ana="vers" xml:lang="fr">Sçait faire respecter sa loi,</l>
+          <l ana="vers" xml:lang="fr"><persName key="louisxv">Il</persName> parle, au bruit de son
+            tonnerre</l>
+          <l ana="vers" xml:lang="fr">Tout <name>l’Univers</name> tremble d’effroi:</l>
+          <l ana="vers" xml:lang="fr">A sa voix, la terre affermie,</l>
+          <l ana="vers" xml:lang="fr">Se rit d’une mer ennemie,</l>
+          <l ana="vers" xml:lang="fr">Et de tous ses fougueux assauts;</l>
+          <l ana="vers" xml:lang="fr"><persName key="louisxv">Il</persName> écrit sa loy sur le
+            sable,</l>
+          <l ana="vers" xml:lang="fr">Et c’est un arrest immuable</l>
+          <l ana="vers" xml:lang="fr">Qui calme la rage des flots.</l>
+        </lg>
+        <lg ana="vers" xml:lang="fr">
+          <l ana="vers" xml:lang="fr"> Tems heureux! désormais <name key="diable">l’impie</name></l>
+          <l ana="vers" xml:lang="fr">N’exhalera plus ses fureurs;</l>
+          <l ana="vers" xml:lang="fr">L’orgüeilleuse &amp; fiere heresie</l>
+          <l ana="vers" xml:lang="fr">N’osera souffler ses horreurs;</l>
+          <l ana="vers" xml:lang="fr">On ne verra plus le blasphême,</l>
+          <l ana="vers" xml:lang="fr">Bravant la <persName key="louisxv">majesté
+            suprême</persName>,</l>
+          <l ana="vers" xml:lang="fr">Faire pâlir la verité ;</l>
+          <l ana="vers" xml:lang="fr">Déjà le fer brille, étincelle,</l>
+          <l ana="vers" xml:lang="fr">Et d’une bouche criminelle</l>
+          <l ana="vers" xml:lang="fr">Punit l’affreuse impieté.</l>
+        </lg>
+        <p rend="right">Quoi!</p>
+        <pb n="6" xml:id="p4" facs="https://gallica.bnf.fr/ark:/12148/bpt6k63284166/f10.item"/>
+        <lg ana="vers" xml:lang="fr">
+          <l ana="vers" xml:lang="fr"> Quoy! du fond des <name key="cercledelenfer">Royaumes
+              sombres</name></l>
+          <l ana="vers" xml:lang="fr">S’éleve un <name key="chimere">monstre audacieux</name>?
+            (a)</l>
+          <l ana="vers" xml:lang="fr">Cent fois replongé dans les ombres,</l>
+          <l ana="vers" xml:lang="fr"><name key="chimere">Il</name> paroît encor à nos yeux?</l>
+          <l ana="vers" xml:lang="fr">Point d’honneur! <name key="chimere">chimere</name>fatale,</l>
+          <l ana="vers" xml:lang="fr">Ne viens plus d’une ardeur brutale</l>
+          <l ana="vers" xml:lang="fr">Tiranniser de nobles cœurs:</l>
+          <l ana="vers" xml:lang="fr">Valeur funeste à la <placeName key="france"
+            >Patrie</placeName> !</l>
+          <l ana="vers" xml:lang="fr">Des vaincus la gloire est flétrie,</l>
+          <l ana="vers" xml:lang="fr">La mort est le prix des vainqueurs.</l>
+        </lg>
+        <lg ana="vers" xml:lang="fr">
+          <l ana="vers" xml:lang="fr"> Mais d’un jour si rempli de charmes</l>
+          <l ana="vers" xml:lang="fr">N’allons pas troubler la douceur,</l>
+          <l ana="vers" xml:lang="fr">Bannissons de vaines allarmes</l>
+          <l ana="vers" xml:lang="fr">A l’aspect de nôtre bonheur:</l>
+          <l ana="vers" xml:lang="fr">Sous de favorables aúspices</l>
+          <l ana="vers" xml:lang="fr">Nous goûtons déjà les prémices</l>
+          <l ana="vers" xml:lang="fr">Du regne même de la paix:</l>
+          <l ana="vers" xml:lang="fr">Né pour la gloire de la <placeName key="france"
+              >France</placeName>,</l>
+          <l ana="vers" xml:lang="fr"><persName key="philippeiiauguste">Philippe</persName>, c’est à
+            ta prudence</l>
+          <l ana="vers" xml:lang="fr">Que nous devons tous ces bienfaits</l>
+        </lg>
+        <lg ana="vers" xml:lang="fr">
+          <l ana="vers" xml:lang="fr"> Puisse nôtre <persName key="louisxv">Auguste
+              Monarque</persName>,</l>
+          <l ana="vers" xml:lang="fr">L’exemple, un jour, des plus grands Rois</l>
+        </lg>
+        <list>
+          <item>(a) Le Duel.</item>
+        </list>
+        <p rend="right">A iiik Braver</p>
+        <pb n="7" xml:id="p5" facs="https://gallica.bnf.fr/ark:/12148/bpt6k63284166/f11.item"/>
+        <lg ana="vers" xml:lang="fr">
+          <l ana="vers" xml:lang="fr">Braver aussi long-temps la <name key="parque"
+            >Parque</name></l>
+          <l ana="vers" xml:lang="fr">Qu’il aura le cœur des François:</l>
+          <l ana="vers" xml:lang="fr"><persName key="louisxv">Ministre</persName>, que <name
+              key="themis">Themis</name> avouë,</l>
+          <l ana="vers" xml:lang="fr"><persName key="louisxv">Prélat</persName> dont tout
+              <name>l’Univers</name> louë</l>
+          <l ana="vers" xml:lang="fr">Les grands talens &amp; les vertus;</l>
+          <l ana="vers" xml:lang="fr">Si <persName>j’en</persName> crois ton zele sincere,</l>
+          <l ana="vers" xml:lang="fr">Renaitra sous ton Ministère</l>
+          <l ana="vers" xml:lang="fr">Le doux empire de <name key="titus">Titus</name>.</l>
+        </lg>
+        <byline><persName>Franc. Xavi. De Tilly</persName>, <foreign xml:lang="la">
+            D.L.C.D.J</foreign></byline>
+        <figure>
+          <graphic
+            url="https://gallica.bnf.fr/iiif/ark%3A%2F12148%2Fbpt6k63284166/f12/100%2C1000%2C1500%2C200%2C/full/0/native"/>
+          <figDesc>Ornenement de fin du poème</figDesc>
+        </figure>
+      </div>
+    </body>
+  </text>
+</TEI>
