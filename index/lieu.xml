@@ -72,7 +72,7 @@
       <identifier type="geonames"
         >https://www.geonames.org/2750405/kingdom-of-the-netherlands.html</identifier>
       <place xml:id="amsterdam">
-        <name>Amsterdam</name>
+        <name>Amsterdam, Amstredam</name>
         <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Amsterdam</identifier>
         <identifier type="geonames">https://www.geonames.org/2759794/amsterdam.html</identifier>
       </place>
@@ -134,13 +134,6 @@
             <identifier type="wikipedia"
               >https://fr.wikipedia.org/wiki/Enceinte_d%27Aire-sur-la-Lys</identifier>
           </place>
-        </place>
-        
-        <place xml:id="lyon">
-          <name>Lyon</name>
-          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Lyon</identifier>
-          <identifier type="googlemaps">https://www.google.com/maps/place/Lyon/@45.7580409,4.7527295,12z/data=!3m1!4b1!4m6!3m5!1s0x47f4ea516ae88797:0x408ab2ae4bb21f0!8m2!3d45.764043!4d4.835659!16zL20vMGRwcmc?hl=fr&amp;entry=ttu</identifier>
-          <identifier type="geonames">https://www.geonames.org/2996944/lyon.html</identifier>
         </place>
         
         <place xml:id="saint-omer">
@@ -819,6 +812,14 @@
             >https://fr.wikipedia.org/wiki/Fichier:Pavillon_d%27entree_de_l%27ancien_H%C3%B4tel_d%27Albret_15_place_d%27Armes_a_Fontainebleau_DSC_0035.jpg</identifier>
         </place>
       </place>
+        
+      <place xml:id="lyon">
+        <name>Lyon</name>
+        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Lyon</identifier>
+        <identifier type="googlemaps">https://www.google.com/maps/place/Lyon/@45.7580409,4.7527295,12z/data=!3m1!4b1!4m6!3m5!1s0x47f4ea516ae88797:0x408ab2ae4bb21f0!8m2!3d45.764043!4d4.835659!16zL20vMGRwcmc?hl=fr&amp;entry=ttu</identifier>
+        <identifier type="geonames">https://www.geonames.org/2996944/lyon.html</identifier>
+      </place>
+        
       <place xml:id="paris">
         <name>Paris</name>
         <country>France</country>
