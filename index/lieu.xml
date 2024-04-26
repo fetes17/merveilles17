@@ -98,12 +98,12 @@
         >https://fr.wikipedia.org/wiki/Mer_M%C3%A9diterran%C3%A9e</identifier>
     </place>
 
-  <place xml:id="france">
-    <name>France</name>
-    <country>France</country>
-    <settlement>France</settlement>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/France</identifier>
-    <identifier type="geonames">https://www.geonames.org/3017382</identifier>
+    <place xml:id="france">
+      <name>France</name>
+      <country>France</country>
+      <settlement>France</settlement>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/France</identifier>
+      <identifier type="geonames">https://www.geonames.org/3017382</identifier>
 
       <place xml:id="artois">
         <name>Artois</name>
@@ -135,7 +135,7 @@
               >https://fr.wikipedia.org/wiki/Enceinte_d%27Aire-sur-la-Lys</identifier>
           </place>
         </place>
-        
+
         <place xml:id="saint-omer">
           <name>Saint-Omer</name>
           <geo>50.7483, 2.2616</geo>
@@ -177,14 +177,15 @@
           <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Bourbourg</identifier>
           <identifier type="geonames">https://www.geonames.org/6455199/bourbourg.html</identifier>
         </place>
-        
+
         <place xml:id="cambrai">
           <name>cambrai, Cambray</name>
           <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Cambrai</identifier>
-          <identifier type="googlemaps">https://www.google.com/maps/place/Cambrai/@50.1745368,2.7807118,9.57z/data=!4m6!3m5!1s0x47c2bb7c37a4f9f3:0x144f3c3e5aba10fb!8m2!3d50.173538!4d3.236633!16zL20vMHBoamM?hl=fr&amp;entry=ttu</identifier>
+          <identifier type="googlemaps"
+            >https://www.google.com/maps/place/Cambrai/@50.1745368,2.7807118,9.57z/data=!4m6!3m5!1s0x47c2bb7c37a4f9f3:0x144f3c3e5aba10fb!8m2!3d50.173538!4d3.236633!16zL20vMHBoamM?hl=fr&amp;entry=ttu</identifier>
           <identifier type="googlemaps">https://www.geonames.org/3029030/cambrai.html</identifier>
         </place>
-        
+
         <place xml:id="dunkerque">
           <name>Dunkerque</name>
           <geo>50.84537, 2.47499</geo>
@@ -281,33 +282,60 @@
 
           <place xml:id="lille_place_saint_martin">
             <name>Place Saint Martin au bon Pasteur</name>
+            <settlement>Lille</settlement>
           </place>
 
           <place xml:id="lille_rue_saint_jacques">
             <name>Rue Saint-Jacques</name>
+            <settlement>Lille</settlement>
             <identifier type="wikipedia"
               >https://fr.wikipedia.org/wiki/Rue_Saint-Jacques_(Lille)</identifier>
           </place>
 
           <place xml:id="lille_rue_du_platre">
             <name>Rue du Plâtre</name>
+            <settlement>Lille</settlement>
           </place>
 
           <place xml:id="lille_fortifications">
             <name>Forticiations Vauban, fortifications de Lille</name>
+            <settlement>Lille</settlement>
             <identifier type="wikipedia"
               >https://fr.wikipedia.org/wiki/Fortifications_de_Lille</identifier>
 
+            <place xml:id="lille_citadelle">
+              <name>Citadelle de Lille</name>
+              <settlement>Lille</settlement>
+              <identifier type="wikipedia"
+                >https://fr.wikipedia.org/wiki/Citadelle_de_Lille</identifier>
+            </place>
+
             <place xml:id="jardin_contrescarpe">
               <name>Jardin de la contrescarpe</name>
+              <settlement>Lille</settlement>
             </place>
 
             <place xml:id="lille_eglise_saint_pierre">
-              <name>Église Saint PIerre de Lille</name>
-              <identifier type="wikipedia">https://fr.wikipedia.org/wiki/%C3%89glise_Saint-Pierre-Saint-Paul_de_Lille</identifier>
+              <name>Église Saint Pierre de Lille</name>
+              <settlement>Lille</settlement>              
+              <identifier type="wikipedia"
+                >https://fr.wikipedia.org/wiki/%C3%89glise_Saint-Pierre-Saint-Paul_de_Lille</identifier>
+            </place>
+            
+            <place xml:id="lille_esplanade">
+              <name>Esplanade de Lille, Esplanade du Champ de Mars</name>
+              <settlement>Lille</settlement>
+              <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Esplanade_du_Champ_de_Mars_(Lille)</identifier>
+            </place>
+  
+            <place xml:id="lille_place_armes">
+              <name>Place d'Armes, Place du Général de Gaulle</name>
+              <settlement>Lille</settlement>
+              <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Place_du_G%C3%A9n%C3%A9ral-de-Gaulle_(Lille)</identifier>
             </place>
           </place>
-          
+        </place>
+
         <place xml:id="menin">
           <name>Porte de Menin</name>
           <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Porte_de_Menin</identifier>
@@ -326,14 +354,15 @@
         <place xml:id="respoude">
           <name>Respoude</name>
         </place>
-          
+
         <place xml:id="therouanne">
           <name>Thérouanne, Téroüanne</name>
           <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Th%C3%A9rouanne</identifier>
-          <identifier type="googlemaps">https://www.google.com/maps/place/62129+Th%C3%A9rouanne/@50.6272456,2.1752964,13z/data=!3m1!4b1!4m6!3m5!1s0x47dd003ff12cd547:0x46fffac1ecbbb0b8!8m2!3d50.637833!4d2.256984!16zL20vMDI4M2Zu?hl=fr&amp;entry=ttu</identifier>
+          <identifier type="googlemaps"
+            >https://www.google.com/maps/place/62129+Th%C3%A9rouanne/@50.6272456,2.1752964,13z/data=!3m1!4b1!4m6!3m5!1s0x47dd003ff12cd547:0x46fffac1ecbbb0b8!8m2!3d50.637833!4d2.256984!16zL20vMDI4M2Zu?hl=fr&amp;entry=ttu</identifier>
           <identifier type="geonames">https://www.geonames.org/2972936/therouanne.html</identifier>
         </place>
-          
+
         <place xml:id="tournai">
           <name>Tournai</name>
           <geo>50.60715, 3.38932</geo>
@@ -354,18 +383,23 @@
             <identifier type="wikipedia"
               >https://fr.wikipedia.org/wiki/Citadelle_de_Tournai</identifier>
           </place>
-          
+
           <place xml:id="tournai_diocese">
             <name>Diocèse de Tournay</name>
             <settlement>Tournai</settlement>
-            <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Dioc%C3%A8se_de_Tournai</identifier>
+            <identifier type="wikipedia"
+              >https://fr.wikipedia.org/wiki/Dioc%C3%A8se_de_Tournai</identifier>
           </place>
-          
+
           <place xml:id="tournai_fortifications">
             <name>Tournay, fortifications</name>
             <settlement>Tournai</settlement>
             <identifier type="wikipedia"
               >https://fr.wikipedia.org/wiki/Fortifications_de_Tournai</identifier>
+          </place>
+          <place xml:id="tournai_parlement">
+            <name>Grand parlement de Tournai, Parlement de Flandres</name>
+            <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Parlement_de_Flandres</identifier>
           </place>
         </place>
 
@@ -812,14 +846,15 @@
             >https://fr.wikipedia.org/wiki/Fichier:Pavillon_d%27entree_de_l%27ancien_H%C3%B4tel_d%27Albret_15_place_d%27Armes_a_Fontainebleau_DSC_0035.jpg</identifier>
         </place>
       </place>
-        
+
       <place xml:id="lyon">
         <name>Lyon</name>
         <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Lyon</identifier>
-        <identifier type="googlemaps">https://www.google.com/maps/place/Lyon/@45.7580409,4.7527295,12z/data=!3m1!4b1!4m6!3m5!1s0x47f4ea516ae88797:0x408ab2ae4bb21f0!8m2!3d45.764043!4d4.835659!16zL20vMGRwcmc?hl=fr&amp;entry=ttu</identifier>
+        <identifier type="googlemaps"
+          >https://www.google.com/maps/place/Lyon/@45.7580409,4.7527295,12z/data=!3m1!4b1!4m6!3m5!1s0x47f4ea516ae88797:0x408ab2ae4bb21f0!8m2!3d45.764043!4d4.835659!16zL20vMGRwcmc?hl=fr&amp;entry=ttu</identifier>
         <identifier type="geonames">https://www.geonames.org/2996944/lyon.html</identifier>
       </place>
-        
+
       <place xml:id="paris">
         <name>Paris</name>
         <country>France</country>
