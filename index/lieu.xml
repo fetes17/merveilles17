@@ -273,6 +273,21 @@
           <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Lille</identifier>
           <identifier type="geonames">https://www.geonames.org/2998324/lille.html</identifier>
 
+          <place xml:id="lille_eglise_saint_etienne">
+            <name>Elise Sainct Estienne, Eglise Saint-Etienne</name>
+            <settlement>Lille</settlement>
+            <identifier type="wikipedia"
+              >https://fr.wikipedia.org/wiki/%C3%89glise_Saint-%C3%89tienne_de_Lille</identifier>
+            <identifier type="googlemaps"
+              >https://www.google.com/maps/place/%C3%89glise+catholique+Saint-%C3%89tienne+%C3%A0+Lille/@50.6352002,3.057429,17z/data=!3m1!4b1!4m6!3m5!1s0x47c32a78f9907b19:0x2dcd44cec90ec6b8!8m2!3d50.6351968!4d3.0600039!16s%2Fm%2F05h3c3g?entry=ttu</identifier>
+          </place>
+
+          <place xml:id="esquermes">
+            <name>Esquerme, Esquermes</name>
+            <settlement>Lille</settlement>
+            <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Esquermes</identifier>
+          </place>
+
           <place xml:id="lille_grand_place">
             <name>Grand'Place, Lille</name>
             <settlement>Lille</settlement>
@@ -317,22 +332,42 @@
 
             <place xml:id="lille_eglise_saint_pierre">
               <name>Église Saint Pierre de Lille</name>
-              <settlement>Lille</settlement>              
+              <settlement>Lille</settlement>
               <identifier type="wikipedia"
                 >https://fr.wikipedia.org/wiki/%C3%89glise_Saint-Pierre-Saint-Paul_de_Lille</identifier>
             </place>
-            
+
             <place xml:id="lille_esplanade">
               <name>Esplanade de Lille, Esplanade du Champ de Mars</name>
               <settlement>Lille</settlement>
-              <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Esplanade_du_Champ_de_Mars_(Lille)</identifier>
+              <identifier type="wikipedia"
+                >https://fr.wikipedia.org/wiki/Esplanade_du_Champ_de_Mars_(Lille)</identifier>
             </place>
-  
+
             <place xml:id="lille_place_armes">
               <name>Place d'Armes, Place du Général de Gaulle</name>
               <settlement>Lille</settlement>
-              <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Place_du_G%C3%A9n%C3%A9ral-de-Gaulle_(Lille)</identifier>
+              <identifier type="wikipedia"
+                >https://fr.wikipedia.org/wiki/Place_du_G%C3%A9n%C3%A9ral-de-Gaulle_(Lille)</identifier>
+              <identifier type="googlemaps"
+                >https://fr.wikipedia.org/wiki/Place_du_G%C3%A9n%C3%A9ral-de-Gaulle_(Lille)</identifier>
             </place>
+          </place>
+          <place xml:id="lille_rue_des_recollets">
+            <name>Rue des recolleth, rue des récollets, rue des arts</name>
+            <settlement>Lille</settlement>
+            <identifier type="wikipedia"
+              >https://fr.wikipedia.org/wiki/Rue_des_Arts_(Lille)</identifier>
+            <identifier type="googlemaps"
+              >https://www.google.com/maps/place/Rue+des+Arts,+59800+Lille/@50.6385319,3.0636264,17z/data=!3m1!4b1!4m6!3m5!1s0x47c2d5882da3a935:0x8fe42df8ab6270d1!8m2!3d50.6385285!4d3.0662013!16s%2Fg%2F121hxf_g?entry=ttu</identifier>
+          </place>
+          <place xml:id="lille_porte_courtrai">
+            <name>Porte de Courtrai</name>
+            <settlement>Lille</settlement>
+          </place>
+          <place xml:id="lille_porte_fives">
+            <name>Porte de Fives</name>
+            <settlement>Lille</settlement>
           </place>
         </place>
 
@@ -399,7 +434,8 @@
           </place>
           <place xml:id="tournai_parlement">
             <name>Grand parlement de Tournai, Parlement de Flandres</name>
-            <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Parlement_de_Flandres</identifier>
+            <identifier type="wikipedia"
+              >https://fr.wikipedia.org/wiki/Parlement_de_Flandres</identifier>
           </place>
         </place>
 
