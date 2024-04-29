@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
+<?xml-stylesheet type="text/css" href="../style/tei-author.css" alternate="author"?>
+<?xml-model href="https://fetes17.github.io/merveilles17/merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Chroniques générales des choses mémorables [de Lille]. Copie du livre Mathieu
+          Manteau, augmenté de plusieurs choses de par moi Pierre-Ignace Chavatte...</title>
+        <author key="pierre-ignace_chavatte">Pierre-Ignace Chavatte</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Flandres17</edition>
+        <respStmt>
+          <name>Laurine Meny</name>
+          <resp>Transcription et indexation</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université d’Artois - CPER Anamorphoses</publisher>
+        <date when="2024"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Chroniques générales des choses mémorables [de Lille]. Copie du livre Mathieu Manteau,
+          augmenté de plusieurs choses de par moi Pierre-Ignace Chavatte...<ptr
+            target="https://gallica.bnf.fr/ark:/12148/btv1b52517035j"/></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date from="1657" to="1693"/>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+
+    <front>
+      <pb n="1" xml:id="p1" facs="https://gallica.bnf.fr/ark:/12148/btv1b52517035j/f5"/>
+      <titlePage>
+        <docTitle>
+          <titlePart>Chronique Generales des choses memorables copié du livre <persName
+              key="mathieu_manteau">mathieu manteau</persName> augmenté de plusiuers choses de par
+            moi <persName key="pierre-ignace_chavatte">Pierre Ignace Chavatte</persName>. faict en
+            deux livres et durera jusques a deux pieces &amp; Dieu me fait la Grace de...<!--illisible-->
+            <date when="1500">l'an 1500</date></titlePart>
+        </docTitle>
+        <docDate>
+          <date from="1657" to="1693"/>
+        </docDate>
+      </titlePage>
+    </front>
+
+    <body>
+      <p><note>Les / , // et | sont ceux du manuscrit.</note></p>
+      <pb n="281r" xml:id="p281r" facs="https://gallica.bnf.fr/ark:/12148/btv1b52517035j/f564"/>
+      <div>
+        <head>Un jeune homme noiez</head>
+        <p>Le <date when="1680-07-06">6 jour de juillet</date> eut un jeune homme de noiez envers le
+            <placeName>chateau a
+          moucque</placeName><!-- peut-être le chateau de la Haye d'Esquermes ? --> pres du village
+            d'<placeName key="esquermes">esquerme</placeName></p>
+      </div>
+      <div>
+        <head>Un homme qui noia sa propre fille</head>
+        <p>Le <date when="1680-07-16">16 de juillet</date> fut print un homme aupres du
+            <placeName>marchez a pourceaux</placeName><!-- endroit introuvable --> dit louche / a
+            <placeName key="lille">lille</placeName> / pour avoir noiez sa propre fille dans un
+          village ici alentour et apres l’a enterrez dans un champ // et sitost prit / et sitost
+          emmenez au <placeName key="tournai_parlement">grand parlement</placeName> de <placeName
+            key="tournai">tournai</placeName></p>
+      </div>
+      <div>
+        <head>L’<persName key="gilbert_de_choiseil_du_plessis-praslin">evesque</persName> donna la
+          confirmation</head>
+        <p>Le <date when="1680-07-20">20 jour de juillet</date> l’<persName
+            key="gilbert_de_choiseil_du_plessis-praslin">evesque</persName> de <placeName
+            key="tournai">tournai</placeName> donna la confirmation en l’<placeName
+            key="lille_eglise_saint_etienne">eglise de sainct estienne</placeName> a <placeName
+            key="lille">lille</placeName></p>
+      </div>
+      <div>
+        <head>Fut tirez le oiselet pour le pris de <persName key="dideman">monsieur
+            dideman</persName> dit <persName key="dideman">l’aleandrie</persName></head>
+        <p>Le <date when="1680-07-21">21 de juillet</date> fut tirez le gai // ou l’oiselet| c’
+          estoit sur le pris que <persName key="dideman">monsieur
+          dideman</persName><!-- personne introuvable --> dit <persName key="dideman"
+            >l’aleandrie</persName> qui donnoit un becque d’argent de fort grand pris // et celui
+          qui fut roy ce fut un braseur nonmé <persName>andrè
+          desprez</persName><!-- peut-être André Louis Deprés, mais travail qui ne correspond pas -->
+          demeurant a la <placeName>brasserie de sourrietz</placeName><!-- lieu introuvable -->
+          <placeName key="lille_rue_des_recollets">rue des
+            recolleth</placeName><note>nonmé...recolleth d'une autre main.</note></p>
+      </div>
+      <div>
+        <head>Les patares d’<placeName key="espagne">Espagne</placeName> a 3 liares</head>
+        <p>Le <date when="1680-07-27">27 de juillet</date> les maistres des places allast de rue en
+          rues de maison en maisons de la ville de <placeName key="lille">lille</placeName>
+          deffendres a tous ceux de ne point prendre nul patares d’<placeName key="espagne"
+            >espagne</placeName> plus que 3 liares ou 5 pour 4 comme ceux de <placeName key="france"
+            >france</placeName> // sur peine d’amende</p>
+      </div>
+      <div>
+        <head>Un <tech type="musique">tambour</tech> arquebuser</head>
+        <p>Le <date when="1680-07-31">31 de juillet</date> fut arquebuser un <tech type="musique"
+            >tambour</tech> sur l’<placeName key="lille_esplanade">esplenade</placeName> devant la
+            <placeName key="lille_citadelle">citadelle</placeName> qui s’avoit venu rendre a son
+          capitaine</p>
+      </div>
+      <div>
+        <head>Le <persName key="louisxiv">roy</persName> et la <persName
+            key="marie_therese_autriche">reine</persName> et le <persName key="louis_grand_dauphin"
+            >d’aulphin</persName> vindrent en la ville de <placeName key="lille">lille</placeName>
+          // et fut fait une grande <tech type="construction">montaigne</tech> au milieu du
+          marchè<!-- lieu introuvable --></head>
+        <p>Le <date when="1680-08-01">premier jour d’aoust</date> par le jeudi entre 5 et six heures
+          apres midi // le <persName key="louisxiv">roy</persName> et la <persName
+            key="marie_therese_autriche">reine</persName>, <persName key="louis_grand_dauphin"
+            >d’aulphin</persName> et <persName key="marie_anne_baviere">d’aulphine</persName>
+          vindrent en la ville de <placeName key="lille">lille</placeName> par la <placeName
+            key="lille_porte_courtrai">porte de courtrai</placeName> // et allast en la cour environ
+          une demi heure // et apres la <persName key="marie_therese_autriche">reine</persName> elle
+          fut portè dans une litiere ou cheere aux peres ricolet<!-- personnes introuvables --> //
+          et a leurs entrees les cloches des paroisses et des cloites furent sonnez | a sept heures
+          le <persName key="louisxiv">roy</persName> alla visitè la <placeName key="lille_citadelle"
+            >citadelle</placeName> // et lendemain le <persName key="louisxivv">roy</persName>
+          visita ses <placeName key="lille_fortifications">fortifacations</placeName> au matin // et
+          apres midi la <persName key="marie_therese_autriche">reine</persName> et le <persName
+            key="louis_grand_dauphin">d’aulphin</persName> et la <persName key="marie_anne_baviere"
+            >d’aulphine</persName> allerent veoir juster sur les eaues et tirer a l’oison sur la
+          riviere aupres du jardin du <persName key="louis_crevant">mareschal d’humieres</persName>
+          a la <placeName key="lille_porte_fives">porte de fives</placeName> / et le <persName
+            key="louisxiv">roy</persName> n’y estoit pas et le soir venu / en peu apres 9 heures le
+            <persName key="louisxiv">roy</persName> alla monstè au corps de garde pour aller dans
+          une maison qu’on n’avoit perceè pour aller de l’ une a l’autre // et le <persName
+            key="louisxiv">roy</persName> estoit la / avec la <persName key="marie_therese_autriche"
+            >reine</persName> et le <persName key="louis_grand_dauphin">d’aulphin</persName> / et
+          toutes la cour // et a 9 heures et demi fut my le feu dans une <tech type="feux-artifice"
+            >boitte</tech> qu’elle estoit aupres du corps de garde // et puis premierement le <tech
+            type="feux-artifice">feu</tech> coura a une <name key="nymphes">deesse</name> qu’elle
+          representoit la <name key="france">france</name> / elle estoit acoustrez et parez de <tech
+            type="costume">perles a sa teste</tech> // et elle tenoit une <tech type="musique"
+            >trompette</tech> en la main // et a la <tech type="musique">trompette</tech> avoit une
+          panniere ou guidon blanc, et dessus<pb n="281v" xml:id="p281v"
+            facs="https://gallica.bnf.fr/ark:/12148/btv1b52517035j/f565"/> le guildon estoit escrit
+          | <foreign xml:lang="la">pax</foreign> en lettres d'or | et la le <tech
+            type="feux-artifice">feu</tech> se pris premieremement a la teste // et apres de la le
+            <tech type="feux-artifice">feu</tech> se prit a les <tech type="feux-artifice">pots a
+            feux</tech> ou <tech type="feux-artifice">petares</tech> / ont commencerent a jouerent
+          bien environ 50 jusques a une autre <name key="nymphes">deesse</name> qu'elle representoit
+            l’<placeName key="espagne">espagne</placeName> | et elle estoit comme les autres //
+          laquelle elle tenoit aussi une <tech type="musique">trompette</tech> en la main avec un
+          guidon qui tenoit a la <tech type="musique">trompette</tech> / le guidon estoit rouge et
+          estoit escrit en lettre d’or comme les autres | <foreign xml:lang="la">pax</foreign> // et
+          puis furent encores tirez les <tech type="feux-artifice">pots a feux</tech> / encore
+          environ 50 // et le <tech type="feux-artifice">feu</tech> alla encore a une <name
+            key="nymphes">deesse</name> laquelle elle representoit l’<placeName key="allemagne"
+            >alemagne</placeName> et elle avoit dessus sa teste comme une foulier pleine de <tech
+            type="feux-artifice">feu artificiel</tech> // et c'estoit la que le <tech
+            type="feux-artifice">feu</tech> prendoit premierement | et elle tenoit aussi une <tech
+            type="musique">trompette</tech> en la bouche / et a la <tech type="musique"
+            >trompette</tech> y avoit un guidon / lequelle estoit escript dessus | <foreign
+            xml:lang="la">pax</foreign> | en lettres d’or // et puis apres furent encore jouerent
+          environ 50 <tech type="feux-artifice">pots a feux</tech> l'une apres l’autre // jusque a
+          l’autre <name key="nymphes">deesse</name> qu’elle representoit la <placeName key="suede"
+            >suede</placeName> // et elle estoit aussi come les autres fort bien accoustrez avec
+            <tech type="costume">plusieurs perles a ses oreilles</tech> comme une dame // et elle
+          tenoit aussi une <tech type="musique">trompette</tech> en main // et a la <tech
+            type="musique">trompette</tech> avoit un guidon // et au guildon estoit escript dessus |
+            <foreign xml:lang="la">pax</foreign> | en lettre d’or // et puis apres de la // le <tech
+            type="feux-artifice">feu</tech> s’en alla prendre a une grande <tech type="construction"
+            >montaigne</tech> au milieu du marchè relevez aussi hautes que les maisons du marchè /
+          et au dessus de la <tech type="construction">montaigne</tech> yl y avoit 6 a 7 grands
+          personnages grand comme <name key="geants">geant</name> lesquels portoient et avoient
+          dessus eussent comme des grandes pieces de la <tech type="construction">montaigne</tech>
+          // et au sommet de la dite <tech type="construction">montaigne</tech> il y avoit un <name
+            key="jupiter">jupiter</name> avec une grosse pierre qui tenoit en ses deux mains comme
+          pour les jetter dessus les <name key="geants">geants</name> // et pour abbimer la dite
+            <tech type="construction">montagne</tech> | et sitost que le <tech type="feux-artifice"
+            >feu</tech> / fut dedans la <tech type="construction">montaigne</tech> elle se fendite
+          en 4 parties et tous ces <name key="dieux">dieux</name> et <name key="geants"
+            >geants</name> tomberent par terre et quand la <tech type="construction"
+            >montaigne</tech> fut tombeè fut veu au milieu de la <tech type="construction"
+            >montaigne</tech> une fort belle <name key="nymphes">deesse</name> avec une branche
+          d’olives ou pasme<note>pasme : palme</note> en la main / et elle signifioit la victoire /
+          ou la paix // et cestes <name key="nymphes">deesse</name> elle avoit a ses deux pieds deux
+          anges, et a cestes <name key="nymphes">deesse</name> le <tech type="feux-artifice"
+            >feu</tech> se pris en peu a sa teste et on l’estinda, et cela fut fait et la <tech
+            type="construction">montaigne</tech> ruez jus presque en un moment | et tant qu’elle
+          avoit coustè a le faire // il y avoit plus d’un an et demi qu’on ny travailloit a ceste
+            <tech type="construction">montaigne</tech> et on fut 18 jours durant pour le monter au
+          milieu du marchè<pb n="np282r" xml:id="p282r"
+            facs="https://gallica.bnf.fr/ark:/12148/btv1b52517035j/f566"/> et encore ne voiois t’on
+          pas les ouvriers qui travailloient a la dite <tech type="construction">montaigne</tech>
+          parce que la dite <tech type="construction">montaigne</tech> estoit toute couverte de
+          voilles de bateaux // et le jour qui le <persName key="louisxiv">roy</persName> vint a
+            <placeName key="lille">lille</placeName> au matin elle fut descouverte et apres ceci fut
+          mi le <tech type="feux-artifice">feu</tech> a un loing theatre aupres de l’<placeName
+            key="lille_eglise_saint_etienne">eglise de st estienne</placeName> laquelle estoit
+          escrit ces mots</p>
+        <l ana="devise"><foreign xml:lang="la">UNUS IN OMNES<note>dessin d'un soleil entre les mots
+              IN et OMNES</note></foreign></l>
+        <figure>
+          <graphic url=""/>
+          <!-- à compléter -->
+          <figDesc/>
+        </figure>
+        <l ana="devise"><foreign xml:lang="la">REDIT IN AUTORES</foreign></l>
+        <p>et ces mots ici // et ces lettres // et le <name key="soleil">soleil</name> qui estes au
+          milieux // estoient faicts de <tech type="feux-artifice">feu artificiel</tech> // et le
+            <name key="soleil">soleil</name> fut toute en feu et en flamme et tournoie tousiours
+          jusque a tant qu il fut tout comsommè // et tous ces mots ici escripts et tout ces lettres
+          estoient toutes en feu // de <tech type="feux-artifice">feux artificiel</tech> // et ils
+          illuminoient tousiours le <name key="soleil">soleil</name> / et puis apres de la // le
+            <tech type="feux-artifice">feu</tech> alla a une petite citadelle qu’elle estoit au
+          milieu de la <tech type="construction">montaigne</tech> et de ce theatre qui avoit ces
+          mots | <foreign xml:lang="la">unus in – sol – omnes // redit in autores</foreign> | et a
+          ces citadelle lequel y avoit au long d’une barre de fer qui estoit escript | vive le
+            <persName key="louisxiv">roy</persName> et c’ettoit tout <tech type="feux-artifice">feu
+            d’artifice</tech> avec une <tech type="feux-artifice">couronne d’impire</tech> au dessus
+          et plus bas ils y avoit 12 <tech type="feux-artifice">roues a poudre</tech> qu’elles
+          tournoient tousiours tant qu’elles furent comsommerent // et encores plus bas ils y en
+          avoit encore 12 plus grandes et elles faisoient de mesmes commes les autres // et de la
+          ils y avoit 18 <tech type="feux-artifice">coffes a poudre</tech> pleines de <tech
+            type="feux-artifice">bagettes sortante et vollantes</tech> hors des <tech
+            type="feux-artifice">coffres</tech> 20 – 30 – 40 – 50 a la fois encore plus // c’estoit
+          comme un gouffre d’enfer // et cela estoit plus recreatife que toutes les autres choses //
+          et la <tech type="construction">montaigne</tech> elle estoit plus belle a voir en n estes
+          qu’a jouez et le <persName key="louisxiv">roy</persName> ne vit pas jouez la citadelle |
+          il s’en alla devant que tout fut fait // et le <persName key="louis_grand_dauphin"
+            >d’aulphin</persName> et toutes les princes // seigneurs // princesses // et dames
+          virent tous cela a <placeName key="lille">lille</placeName> // ce fut a remerchez <name
+            key="dieu">dieu</name> qu’i n’advint mulle malheures // cela fut fait le <date
+            when="1680-08-02">2e jour d’aoust</date> par le vendredi entre 9 et 10 heures du soir //
+          et le <date when="1680-08-03">3 d’aoust</date> entre 9 et 10 heures du matin le <persName
+            key="louisxiv">roy</persName> et la <persName key="marie_therese_autriche"
+            >reine</persName> s’en allerent hors de la <placeName key="lille">ville</placeName> par
+          la <placeName key="lille_porte_tournai">porte de tournai</placeName>, et alla a <placeName
+            key="tournai">tournai</placeName>, et ces quatres <name key="nymphes">deesse</name> qu’
+          elles representoient les 4 roiaumes, la <placeName key="france">France</placeName>,
+            l’<placeName key="espagne">espagne</placeName> l’<placeName key="allemagne"
+            >allemaigne</placeName>, et la <placeName key="suede">suede</placeName>, elles portoient dessus
+          leurs testes come des foullieres pleines de <tech type="feux-artifice">feu
+            d’artifique</tech> et le <tech type="feux-artifice">feu</tech> se pris la premierement,
+          et cela illuminoit tous le marchè et elles ne furent pas brusleès, et a toutes les maisons
+          du marchè a les vitres c’estoit toutes <tech type="lumieres">chandelles</tech> allumees et
+          ne fut pas tirez un seul coup de <tech type="machine_terre">canon</tech> pour la
+          rejouissance</p>
+      </div>
+    </body>
+  </text>
+</TEI>
