@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
+<?xml-stylesheet type="text/css" href="../style/tei-author.css" alternate="author"?>
+<?xml-model href="https://fetes17.github.io/merveilles17/merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MERCURE GALANT Dédié A Monseigneur LE DAUPHIN, septembre 1680. SECONDE PARTIE.
+          Contenant le Voyage que le Roy a fait en Flandre en l’année 1680.</title>
+        <author key="jean_donneau_de_vize">Jean Donneau de Vizé</author>
+        <author key="thomas_corneille">Thomas Corneille</author>
+        <author key="charles_du_fresny">Charles Du Fresny</author>
+        <editor key="claude_blageart" role="editeur">Claude Blageart</editor>
+        <editor key="michel_gueroult" role="editeur">Michel Guéroult</editor>
+        <editor key="michel_brunet" role="editeur">Michel Brunet</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>Flandres17</edition>
+        <respStmt>
+          <name>Laurine Meny</name>
+          <resp>Transcription et indexation</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université d’Artois - CPER Anamorphoses</publisher>
+        <date when="2024"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>MERCURE GALANT Dédié A Monseigneur LE DAUPHIN, septembre 1680. SECONDE PARTIE.
+          Contenant le Voyage que le Roy a fait en Flandre en l’année 1680. A PARIS, AU PALAIS. <ptr
+            target="https://gallica.bnf.fr/ark:/12148/bpt6k62219294?rk=42918;4"/></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1680">1680</date>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+
+    <front>
+      <pb n="np" xml:id="p5" facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f5"/>
+      <titlePage>
+        <docTitle>
+          <titlePart>MERCURE GALANT Dédié A <persName key="louis_grand_dauphin" role="destinataire"
+              >Monseigneur LE DAUPHIN</persName>, <date when="1680-09">septembre 1680</date>.
+            SECONDE PARTIE. Contenant le Voyage que le <persName key="louisxiv">Roy</persName> a
+            fait en <placeName key="flandre">Flandre</placeName> en l’année <date when="1680"
+              >1680</date>.</titlePart>
+        </docTitle>
+        <docDate>
+          <date when="1680">1680</date>
+        </docDate>
+        <docImprint>A <placeName key="paris">PARIS</placeName>, AU <placeName
+            key="paris_palais_royal">PALAIS</placeName>.</docImprint>
+      </titlePage>
+    </front>
+    <body>
+      <pb n="np" xml:id="p6" facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f6"/>
+      <p>On donnera toûjours un Volume nouveau du Mercure Galant le premier jour de chaque Mois,
+        &amp; on le vendra, aussi-bien que l'Extraordinaire, Trente fois relié en Veau, &amp;
+        Ving-cinq fois en Parchemin.</p>
+      <p rend="center">A <placeName key="paris">PARIS</placeName></p>
+      <p rend="center">Chez <persName key="guillaume_de_luyne" role="imprimeur">G. DE
+          LUYNE</persName>, au <placeName key="paris_palais_royal">Palais</placeName>, dans la Salle
+        des Merciers, à la Justice.</p>
+      <p rend="center">Chez <persName key="claude_blageart">C. BLAGEART</persName>, <placeName
+          key="lille_rue_saint_jacques">Ruë S. Jacques</placeName>, à l'entrée de la <placeName
+          key="lille_rue_du_platre">Ruë du Plâtre</placeName>, Et en sa Boutique Court-Neuve du
+          <placeName key="paris_palais_royal">Palais</placeName>, AU <persName
+          key="louis_grand_dauphin" role="destinataire">DAUPHIN</persName>.</p>
+      <p rend="center">Et <persName key="theodore_girard">T. Girard</persName>, au <placeName
+          key="paris_palais_royal">Palais</placeName>, dans la Grande Salle, à l'Envie.</p>
+      <p><date when="1680">M. D. LXXX.</date></p>
+      <p>AVEC PRIVILEGE DU <persName key="louisxiv">ROY</persName></p>
+
+      <pb n="132" xml:id="p132" facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f140"/>
+      <p>Leurs Majestez arriverent à <placeName key="ypres">Ipres</placeName> sur les cinq heures du
+        soir. <persName key="louis_de_crevant">Mr le Maréchal <note hi="underline" resp="inconnu">de
+            Humieres</note></persName><note place="margin">crevant</note> Gouverneur General de
+          <placeName key="flandre">Flandre</placeName>, &amp; <persName
+          key="philippe_auguste_le_hardy_la_trousse">Mr le Marquis de la Trousse</persName>, les y
+        reçeurent. Ce dernier est Gouverneur de la <placeName key="ypres">Place</placeName>. Les
+        Clefs furent presentées au <persName key="louisxiv">Roy</persName>, qui apres avoir esté
+        harangué par les Magistrats, se rendit à la Maison de <persName
+          key="philippe_auguste_le_hardy_la_trousse">Mr le Marquis de la Trousse</persName>, où <pb
+          n="133" xml:id="p133" facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f141"/>
+        <persName key="louisxiv">Sa Majesté</persName> devoit loger, &amp; qu’Elle trouva
+        magnifiquement parée. Comme elle n’estoit jamais venuë à <placeName key="ypres"
+          >Ipres</placeName>, la joye que les Habitans eurent de la voir, fut si grande, qu’il m’est
+        impossible de vous la representer. Il n’y a aucun de mes Mémoires qui ne porte que cet
+          <persName key="louisxiv">auguste Monarque</persName> n’y a pas esté reçeu comme un Homme,
+        mais comme quelque chose de plus. Toutes les Ruës qui devoient servir à son passage,
+        estoient tapissées de <tech type="decor">plusieurs Lez de<pb n="134" xml:id="p134"
+            facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f142"/> Drap bleu &amp;
+          blanc</tech>, que l’on avoit tout <tech type="decor">couverts de Fleurs de Lys aussi
+          bleuës &amp; blanches, les bleuës sur le Drap blanc, &amp; les blanches sur le
+        bleu</tech>. On avoit non seulement <tech type="decor">semé le pavé de toute sorte de
+          Fleurs</tech>, mais le haut des Ruës en estoit encor remply de la mesme sorte que je l’ai
+        marqué en parlant de <placeName key="saint_omer">S. Omer</placeName>. On en voyoit différens
+          <tech type="decor">Festons</tech> en lair, qui joints à la verdure, produisoient un
+        tres-agreable effet, aussi-bien que les feüillages qui <pb n="135" xml:id="p135"
+          facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f143"/> couvroient les murailles des
+        Maisons, depuis le haut jusques sur le Drap, qui tenoit lieu de <tech type="decor"
+          >Tapisserie</tech>. On voyoit aussi de dix en dix pas, des <tech type="decor">Couronnes de
+          Fleurs soûtenuës en l’air</tech>. Dans trois de ces Ruës il y avoit un <tech
+          type="construction">Arc de Triomphe</tech>, avec des Trophées d’armes &amp; des
+        Inscriptions Latines à la gloire de <persName key="louisxiv">Sa Majesté</persName>. Depuis
+        la Porte par où l’on entre jusques au Logis qui lui avoit esté préparé, deux doubles hayes
+        de Soldats, vestus d’une manière qu’on <pb n="136" xml:id="p136"
+          facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f144"/> auroit pû dire magnifique,
+        occupoient les deux costez ; &amp; quatre mille Hommes qui sont en garnison dans la
+          <placeName key="ypres">Ville</placeName>, estoient en bataille sur la <placeName key=""
+          >Place d’Armes</placeName>. Quoy que les troupes du <persName>Roy</persName> soient
+        toûjours fort lestes, la beauté de leurs Habits ne laissa pas de surprendre. Le soir toutes
+        les Fenestres se trouverent remplies de <tech type="lumieres">lumieres</tech>, &amp; l’on
+        alluma un grand nombre de <tech type="lumieres">Pyramides de Lanternes</tech> qui avoiét
+        esté dressées en divers lieux de la <placeName>Ville</placeName>. Quatre <tech
+          type="lumieres">Soleils</tech>
+        <pb n="137" xml:id="p137" facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f145"/> de
+        vingt pieds de diametre, parurent en feu sur la Tour de la
+        <placeName>Cathédrale</placeName>. Il y avoit outre cela dans toutes les Places &amp; dans
+        la plûpart des Ruës, des <tech type="construction">Feux en pyramides</tech>, presque aussi
+        hauts que les Maisons les plus élevées ; de sorte que de quelque costé que l’on se tournast,
+        on ne voyoit que lumieres &amp; que feu. Les Roys de <placeName key="france"
+          >France</placeName> estoient points de leur hauteur dans toutes les Fenestres de
+          l’<placeName>Hostel de Ville</placeName>, ce qui faisoit un tres-bel effet, à cause de
+          l’ilumi-<pb n="138" xml:id="p138"
+          facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f146"/>nation ; &amp; sur la Porte
+        du mesme <placeName>Hostel</placeName> paroissoit une grande Figure du <persName
+          key="louisxiv">Roy</persName> couronnée par la <name key="victoire">Victoire</name>, avec
+        cette Inscription, <foreign xml:lang="la">Ludovico XIV. Senatus Yprensis Regi sui
+          pesuit</foreign>. Le <tech type="repas">Soupé</tech> du <persName key="louisxiv"
+          >Roy</persName> fut magnifique. Il y eut en suite <tech type="musique">Musique</tech>
+        &amp; Comédie. Les Dames d’<placeName key="ypres">Ipres</placeName> s’empresserent pour
+        entrer, &amp; virent <tech type="repas">souper</tech> Leurs Majestez, qui allerent le
+        lendemain <date when="1680-07-31">31.</date> a <placeName>Nostre Dame</placeName>. C’est une
+        des plus belles Eglises de <placeName key="flandre">Flandre</placeName>. Le <foreign>Te
+          Deum</foreign> y fut solemnellement <pb n="139" xml:id="p139"
+          facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f147"/> chanté. Le <persName
+          key="louisxiv">Roy</persName> &amp; <persName key="louis_grand_dauphin">Monseigneur le
+          Dauphin</persName> employerent le reste de cette journée à visiter la <placeName
+          key="ypres">Place</placeName>, &amp; à faire la revuë de la Garnison ; &amp; la
+          <persName>Reyne</persName> &amp; <persName>Madame la Dauphine</persName>, à voir les
+        autres Eglises, &amp; la plûpart des Couvents. Elles acheverent par les Jesuites, où le
+          <persName key="louisxiv">Roy</persName> se trouva avec un tres-grand nóbre de Seigneurs.
+        Toute la Jeunesse de la <placeName key="ypres">Ville</placeName> estoit en armes pour donner
+        à <persName key="louis_grand_dauphin">Monseigneur le Dauphin</persName> un Divertissement
+        qu’elle luy avoit préparé. Elle avoit <pb n="140" xml:id="p140"
+          facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f148"/> déjà paru à l’entrée de
+        Leurs Majestez, divisée en six Compagnies, représentant diférentes Nations. Le plus vieux de
+        cette troupe n’avoit pas douze ans, &amp; celuy qui la commandoit en avoit à peine quatorze.
+        Ils estoient tous habillez tres-proprement, &amp; firent l’Exercice aussi bien &amp; avec
+        autant de justesse que le meilleur Regiment l’auroit pû faire. On prit ce plaisir pendant
+        deux heures. Il y eut encor le soir de fort grands Divertissemens au <tech>Soupé</tech>,
+        &amp; pendant <pb n="141" xml:id="p141"
+          facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f149"/> le sejour que <persName
+          key="louisxiv">Sa Majesté</persName> a fait à <placeName key="ypres">Ipres</placeName>, ce
+        n’a esté jour &amp; nuit que réjoüissance. Elle estoit si générale, que les Religieuses
+        appellées Be…ines, arrestoient dans les Ruës tous les Officiers du <persName key="louisxiv"
+          >Roy</persName> pour les faire boire. On ne doit point s’étonner de l’amour de ce Peuple
+        pour les François. Il a esté fort longtemps sous leur domination avant que <persName
+          key="louisxiv">LOÜIS LE GRAND</persName> eust pris cette <placeName key="ypres"
+          >Place</placeName> sur la fin de la derniere guerre ; &amp; comme ses Habitans s’en
+        estoient tres-bien <pb n="142" xml:id="p142"
+          facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f150"/> trouvez, ainsi que de leur
+          <persName>Gouverneur</persName>, pour lequel ils avoient une affection particuliere, ils
+        ont toûjours conservé les mesmes sentimens pour la <placeName key="france"
+          >France</placeName>.</p>
+      <p><placeName key="ypres">Ipres</placeName> est une Vicomte dont le Domaine s’étend fort loin.
+        Il y a peu de Villes aussi riches &amp; aussi marchandes dans tout le
+          <placeName>Païs</placeName>. Le <persName key="badouiniv_flandre">Comte
+        Badoüin</persName>, Fils du <persName key="arnoul_ii_de_flandre">Comte Arnould</persName>,
+        en fut le Fondateur en <date when="0960">960</date>. Elle est bien bastie, environnée de
+        Marais, &amp; toute remplie de fort beaux Canaux. Janse<pb n="143" xml:id="p143"
+          facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f151"
+        /><!-- illisible, je pense que c'est Jansen Cornelius, mais il n'y a pas autant de lettres non visibles -->ius
+        en a esté Evesque, &amp; est enterré dans l’<placeName key="cathedrale_saint_martin">Eglise
+          de S. Martin</placeName>. Le <persName key="louisxiv">Roy</persName> fait fortifier la
+          <placeName key="ypres">Place</placeName> sur les Desseins de <persName key="vauban">Mr de
+          Vauban</persName>, &amp; c’est ce fameux Ingénieur qui en a le soin. Cette <placeName
+          key="ypres">Ville</placeName> a esté prise deux fois par les Françoïs. <persName>Mósieur
+          le Prince</persName> commandoit au premier Siege, &amp; le <persName key="louisxiv"
+          >Roy</persName> a commandé au second en propre personne. Le <persName
+          key="philippe_auguste_le_hardy_la_trousse">Gouverneur</persName> qui eut l’avantage de
+        soûtenir le dernier, s’acquita si bien de son devoir, qu’il mérita les loüanges de <persName
+          key="louisxiv">Sa Majesté</persName>, qui <pb n="144" xml:id="p144"
+          facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f152"/> s’estant trouvée à plusieurs
+        Sieges, avoüa qu’Elle avoit veü peu de Places qui se fussent mieux défenduës, &amp; que le
+          <tech type="machine_terre">Canon</tech> y avoit esté tres-bien servy.</p>
+    </body>
+  </text>
+</TEI>
