@@ -172,6 +172,10 @@
       <label>Combat Naval à Dunkerque</label>
       <ref target="../xml/merveilles17_imp_gazette16800808.xml"/>
     </event>  
+    <event when="1680-07-31" where="ypres" xml:id="Ypres1680">
+      <label>Voyage à Ypres</label>
+      <ref target="../xml/Flandres17_imp_mg1680_ypres.xml"/>
+    </event>
     <event when="1680-08-02" where="lille" xml:id="Lille1680">
       <label>Feu d'artifice de Lille</label>
       <ref target="../xml/Flandres17_imp_Lille1680"/>
