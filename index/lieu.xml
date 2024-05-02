@@ -27,6 +27,31 @@
       <place xml:id="angleterre">
         <name>Angleterre</name>
         <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Angleterre</identifier>
+
+        <place xml:id="canterbery">
+          <name>Canterbery, Cantorbery</name>
+          <identifier type="googlemaps"
+            >https://www.google.fr/maps/place/Canterbury,+Royaume-Uni/@51.2785904,1.0426514,13z/data=!3m1!4b1!4m6!3m5!1s0x47d94ac50d832c89:0x9ef1e5533783f98a!8m2!3d51.280233!4d1.0789089!16zL20vMGN5MDc?entry=ttu</identifier>
+          <identifier type="geonames">https://www.geonames.org/2653877/canterbury.html</identifier>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Canterbury</identifier>
+        </place>
+
+        <place xml:id="douvres">
+          <name>Douvres</name>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Douvres</identifier>
+          <identifier type="geonames">https://www.geonames.org/2651048/dover.html</identifier>
+          <identifier type="googlemaps"
+            >https://www.google.fr/maps/place/Douvres,+Royaume-Uni/@51.126331,1.2597898,13z/data=!3m1!4b1!4m6!3m5!1s0x47dea4d1553332ff:0x32785c875ad74851!8m2!3d51.1278758!4d1.3134027!16zL20vMGIyOGc?entry=ttu</identifier>
+        </place>
+
+        <place xml:id="londres">
+          <name>Londres</name>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Londres</identifier>
+          <identifier type="geonames">https://www.geonames.org/2643743/london.html</identifier>
+          <identifier type="googlemaps"
+            >https://www.google.fr/maps/place/Londres,+Royaume-Uni/@51.5287398,-0.2664049,11z/data=!3m1!4b1!4m6!3m5!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5072178!4d-0.1275862!16zL20vMDRqcGw?entry=ttu</identifier>
+        </place>
+
       </place>
     </place>
 
@@ -71,6 +96,7 @@
       <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Pays-Bas</identifier>
       <identifier type="geonames"
         >https://www.geonames.org/2750405/kingdom-of-the-netherlands.html</identifier>
+      
       <place xml:id="amsterdam">
         <name>Amsterdam, Amstredam</name>
         <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Amsterdam</identifier>
@@ -135,33 +161,29 @@
               >https://fr.wikipedia.org/wiki/Enceinte_d%27Aire-sur-la-Lys</identifier>
           </place>
         </place>
-
-        <place xml:id="saint-omer">
-          <name>Saint-Omer</name>
-          <geo>50.7483, 2.2616</geo>
-          <country>France</country>
-          <settlement>Saint-Omer</settlement>
-          <identifier type="wikipedia"
-            >https://fr.wikipedia.org/wiki/Saint-Omer_(Pas-de-Calais)</identifier>
-          <identifier type="geonames">https://www.geonames.org/6618320/saint-omer.html</identifier>
-        </place>
       </place>
 
       <place xml:id="flandre">
         <name>Flandre</name>
-        
+
         <place xml:id="audenarde">
           <name>Oudernarde, Odernaade, Audenarde</name>
           <settlement>Flandre</settlement>
           <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Audenarde</identifier>
         </place>
-        
+
+        <place xml:id="bethune">
+          <name>Béthune</name>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/B%C3%A9thune</identifier>
+          <identifier type="geonames">https://www.geonames.org/3033002/bethune.html</identifier>
+        </place>
+
         <place xml:id="bruxelles">
           <name>Bruxelles</name>
           <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Bruxelles</identifier>
           <identifier type="geonames">https://www.geonames.org/2800866/brussels.html</identifier>
         </place>
-        
+
         <place xml:id="bergues">
           <name>Bergues, anciennement Bergues-Saint-Winoc</name>
           <geo>50.96861, 2.43417</geo>
@@ -178,6 +200,12 @@
             <identifier type="wikipedia"
               >https://fr.wikipedia.org/wiki/Fort_Fran%C3%A7ois</identifier>
             <identifier type="geonames">https://www.geonames.org/6450061/bergues.html</identifier>
+          </place>
+
+          <place xml:id="fort_saint_louis">
+            <name>Fort Saint Louis</name>
+            <country>France</country>
+            <settlement>Bergues</settlement>
           </place>
         </place>
 
@@ -197,12 +225,12 @@
             >https://www.google.com/maps/place/Cambrai/@50.1745368,2.7807118,9.57z/data=!4m6!3m5!1s0x47c2bb7c37a4f9f3:0x144f3c3e5aba10fb!8m2!3d50.173538!4d3.236633!16zL20vMHBoamM?hl=fr&amp;entry=ttu</identifier>
           <identifier type="googlemaps">https://www.geonames.org/3029030/cambrai.html</identifier>
         </place>
-        
+
         <place xml:id="courtrai">
           <name>Courtray, Courtrai</name>
           <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Courtrai</identifier>
         </place>
-        
+
         <place xml:id="dunkerque">
           <name>Dunkerque</name>
           <geo>50.84537, 2.47499</geo>
@@ -222,7 +250,14 @@
             <country>France</country>
             <settlement>Dunkerque</settlement>
           </place>
-
+          
+          <place xml:id="cassel">
+            <name>Montcassel, Cassel</name>
+            <identifier type="googlemaps">https://www.google.com/maps/place/59670+Cassel/@50.7498502,2.2056091,10z/data=!4m6!3m5!1s0x47dce57463aa897d:0x3c6c4591ba7ac9ec!8m2!3d50.8000619!4d2.486235!16zL20vMDF6eHNm?entry=ttu</identifier>
+            <identifier type="geonames">https://www.geonames.org/3028440/cassel.html</identifier>
+            <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Cassel_(Nord)</identifier>
+          </place>
+          
           <place xml:id="dunkerque_citadelle">
             <name>Dunkerque, citadelle</name>
             <geo>51.04208, 2.37309</geo>
@@ -260,13 +295,13 @@
             <identifier type="geonames"
               >https://www.geonames.org/12524423/grand-port-maritime-de-dunkerque.html</identifier>
           </place>
-          
+
           <place xml:id="gand">
             <name>Gand</name>
             <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Gand</identifier>
             <identifier type="geonames">https://www.geonames.org/2797656/gent.html</identifier>
           </place>
-          
+
           <place xml:id="risban">
             <name>Phare du Risban ou phare de Dunkerque</name>
             <geo>50.96356, 1.84798</geo>
@@ -412,7 +447,24 @@
         <place xml:id="respoude">
           <name>Respoude</name>
         </place>
-
+        
+        <place xml:id="saint-omer">
+          <name>Saint-Omer</name>
+          <geo>50.7483, 2.2616</geo>
+          <country>France</country>
+          <settlement>Saint-Omer</settlement>
+          <identifier type="wikipedia"
+            >https://fr.wikipedia.org/wiki/Saint-Omer_(Pas-de-Calais)</identifier>
+          <identifier type="geonames">https://www.geonames.org/6618320/saint-omer.html</identifier>
+        </place>
+        
+        <place xml:id="saint_venant">
+          <name>S. Venant, Saint Venant</name>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Saint-Venant</identifier>
+          <identifier type="geonames">https://www.geonames.org/6439875/saint-venant.html</identifier>
+          <identifier type="googlemaps">https://www.google.fr/maps/place/Saint-Venant/@50.6628802,2.3018573,7.72z/data=!4m6!3m5!1s0x47dd1dd842acecd1:0x40af13e8163d590!8m2!3d50.6237973!4d2.5493497!16s%2Fm%2F03ck9kx?entry=ttu</identifier>
+        </place>
+        
         <place xml:id="therouanne">
           <name>Thérouanne, Téroüanne</name>
           <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Th%C3%A9rouanne</identifier>
@@ -922,8 +974,10 @@
         <identifier type="geonames">https://www.geonames.org/2988507</identifier>
         <place xml:id="paris_college_mazarin">
           <name>Collège Mazarin ou Collège des Quatre Nations, actuel Institut de France</name>
-          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Coll%C3%A8ge_des_Quatre-Nations</identifier>
-          <identifier type="googlemaps">https://www.google.com/maps/place/Institut+de+France/@48.8572897,2.3345527,17z/data=!3m2!4b1!5s0x47e671d0a0b762cd:0xb7292042577dbb9e!4m6!3m5!1s0x47e66e2741f52f39:0x5d84e08438fab869!8m2!3d48.8572862!4d2.3371276!16zL20vMDM2bGd2?entry=ttu</identifier>
+          <identifier type="wikipedia"
+            >https://fr.wikipedia.org/wiki/Coll%C3%A8ge_des_Quatre-Nations</identifier>
+          <identifier type="googlemaps"
+            >https://www.google.com/maps/place/Institut+de+France/@48.8572897,2.3345527,17z/data=!3m2!4b1!5s0x47e671d0a0b762cd:0xb7292042577dbb9e!4m6!3m5!1s0x47e66e2741f52f39:0x5d84e08438fab869!8m2!3d48.8572862!4d2.3371276!16zL20vMDM2bGd2?entry=ttu</identifier>
         </place>
         <place xml:id="parisacademiefrancaise">
           <name>Paris, Académie française</name>
