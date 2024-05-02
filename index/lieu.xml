@@ -540,6 +540,7 @@
           <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Wissant</identifier>
           <identifier type="geonames">https://www.geonames.org/6439982/wissant.html</identifier>
         </place>
+        
         <place xml:id="ypres">
           <name>Ypres</name>
           <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Ypres</identifier>
@@ -549,6 +550,23 @@
             <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Cath%C3%A9drale_Saint-Martin_d%27Ypres</identifier>
             <identifier type="googlemaps">https://www.google.fr/maps/place/St.+Martin's+Cathedral/@50.6893773,2.6269753,8.61z/data=!4m6!3m5!1s0x47dcceff55cf1f2b:0x34dfeb74ebfec35c!8m2!3d50.8517314!4d2.8843655!16s%2Fm%2F0gfd3yd?entry=ttu</identifier>
           </place>
+          
+          <place xml:id="ypres_grand_place">
+            <name>Place d'Armes d'Ypres, Grand Place d'Ypres</name>
+            <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Grand-Place_d%27Ypres</identifier>
+            <identifier type="googlemaps">https://www.google.fr/maps/place/Grote+Markt,+8900+Ieper,+Belgique/@50.8510821,2.8841946,17z/data=!3m1!4b1!4m6!3m5!1s0x47dcce5619244301:0x4c8c56e3aa8b8ed9!8m2!3d50.8510787!4d2.8867695!16s%2Fg%2F1tz70p88?entry=ttu</identifier>
+          </place>
+          
+          <place xml:id="ypres_hotel_de_ville">
+            <name>Hôtel de Ville d'Ypres</name>
+            <identifier type="googlemaps">https://www.google.fr/maps/place/Grote+Markt+34,+8900+Ieper,+Belgique/@50.8514394,2.8835941,17z/data=!3m1!4b1!4m6!3m5!1s0x47dcce56030a0bff:0xf59479ffe63312f!8m2!3d50.851436!4d2.886169!16s%2Fg%2F11ggsn7j1k?entry=ttu</identifier>
+          </place>
+          
+          <place xml:id="ypres_notre_dame_de_voormezele">
+            <name>Notre Dame de Voormezele</name>
+            <identifier type="googlemaps">https://www.google.fr/maps/place/Onze-Lieve-Vrouwkerk/@50.8169405,2.8350025,13z/data=!4m10!1m2!2m1!1sNotre-Dame+de+Voormezele+ypres!3m6!1s0x47dcce2ccbaceefb:0x9bdde82d78697b13!8m2!3d50.8169405!4d2.8762012!15sCh5Ob3RyZS1EYW1lIGRlIFZvb3JtZXplbGUgeXByZXOSAQ9jYXRob2xpY19jaHVyY2jgAQA!16s%2Fg%2F11fylq911r?entry=ttu</identifier>
+          </place>
+          
         </place>
       </place>
       <place xml:id="hainaut">
