@@ -9,6 +9,7 @@
 * [Flandres17_imp_Valenciennes1680.xml](https://fetes17.github.io/merveilles17/xml/Flandres17_imp_Valenciennes1680.xml)
 * [Flandres17_imp_Valenciennes1680_Mercure.xml](https://fetes17.github.io/merveilles17/xml/Flandres17_imp_Valenciennes1680_Mercure.xml)
 * [Flandres17_imp_mg1680.xml](https://fetes17.github.io/merveilles17/xml/Flandres17_imp_mg1680.xml)
+* [Flandres17_lettres_historiques(1670).xml](https://fetes17.github.io/merveilles17/xml/Flandres17_lettres_historiques(1670).xml)
 * [Flandres17_ms_Chavatte.xml](https://fetes17.github.io/merveilles17/xml/Flandres17_ms_Chavatte.xml)
 * [merveilles17_img_ano13238_015.xml](https://fetes17.github.io/merveilles17/xml/merveilles17_img_ano13238_015.xml)
 * [merveilles17_img_ano13238_068.xml](https://fetes17.github.io/merveilles17/xml/merveilles17_img_ano13238_068.xml)
