@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
+<?xml-stylesheet type="text/css" href="../style/tei-author.css" alternate="author"?>
+<?xml-model href="https://fetes17.github.io/merveilles17/merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettres historiques de Monsieur Pellisson.</title>
+        <author key="???"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Flandres17</edition>
+        <respStmt>
+          <name>Laurine Meny</name>
+          <resp>Transcription et indexation</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université d’Artois - Lille, MESHS</publisher>
+        <date when="2024"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>LETTRES HISTORIQUES DE MONSIEUR PELLISSON. TOME PREMIER. A PARIS, CHEZ JEAN-LUC NYON,
+          au premier Pavilon du College Mazarin, à Sainte Monique. M. DCC. XXIX. Avec Approbation,
+          &amp; Privilège du Roy. <ptr
+            target="https://www.google.fr/books/edition/Lettres_historiques_de_Monsieur_Pellisso/r1czAQAAMAAJ?hl=fr&amp;gbpv=1&amp;dq=inauthor:+Paul+Pellisson-Fontanier&amp;printsec=frontcover"
+          /></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1670"/>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <pb n="1" xml:id="p1"
+        facs="https://www.google.fr/books/edition/Lettres_historiques_de_Monsieur_Pellisso/r1czAQAAMAAJ?hl=fr&amp;gbpv=1&amp;dq=inauthor:+Paul+Pellisson-Fontanier&amp;printsec=frontcover"/>
+      <titlePage>
+        <docTitle>
+          <titlePart>LETTRES HISTORIQUES DE <persName key="paul_pellisson" role="destinataire"
+              >MONSIEUR PELLISSON</persName>. TOME PREMIER.</titlePart>
+        </docTitle>
+        <docImprint>A <placeName key="paris">PARIS</placeName>. Chez <persName key="jean_luc_nyon"
+            role="imprimeur">Jean-Luc Nyon</persName>, au Premier Pavillon du <placeName
+            key="paris_college_mazarin">College Mazarin</placeName>, à Sainte Monique.</docImprint>
+        <docDate>
+          <date when="1729">M. DCC. XXIX.</date></docDate>
+        <imprimatur>Avec Approbation et Privilege du <persName key="louisxiv"
+          >Roy</persName></imprimatur>
+      </titlePage>
+    </front>
+
+    <body>
+
+      <pb n="50" xml:id="p50"
+        facs="https://www.google.fr/books/edition/Lettres_historiques_de_Monsieur_Pellisso/r1czAQAAMAAJ?hl=fr&amp;gbpv=1&amp;dq=inauthor:+Paul+Pellisson-Fontanier&amp;printsec=frontcover"/>
+      <p rend="center">X.</p>
+      <p>A <placeName key="dunkerque">Dunkerque</placeName>, ce Jeudi <date when="1670-05-29">29.
+          Mai 1670</date>.</p>
+      <p>Le séjour de <placeName key="lille">Lille</placeName> finit par une fête galante, que
+          <persName key="louis_crevant">M.</persName> &amp; <persName key="chatre_humieres">Madame
+          d’Humieres</persName> donnérent au <persName key="louisxiv" role="convive">Roi</persName>
+        &amp; aux Dames. Je me trouvai mal &amp; ne la vis pas. C’est pourquoi j’en laisse la
+        description particuliére à <persName key="jean_de_montigny" role="convive">M. l’Abbé de
+          Montigny</persName>, qui ne manquera pas de s’en acquitter mieux que moi, quand même je
+        l’aurois vûë. Le lieu de la fête étoit un jardin de <persName key="louis_crevant">M. le
+          Maréchal</persName> dans les dehors de la <placeName key="lille">Ville</placeName>, où le
+        fossé plein d’eau courante fait un beau canal. On tira l’<tech type="animal">Oye</tech> sur
+        le canal. Cela fut suivi d’une joûte sur des batteaux, d’une promenade des Dames sur l’eau,
+        d’un très-beau <tech type="feux-artifice">feu d’artifice</tech> au bout d’un <tech
+          type="construction">bastion</tech> dont le pied est dans ce canal, <pb n="51" xml:id="p51"
+          facs="https://www.google.fr/books/edition/Lettres_historiques_de_Monsieur_Pellisso/r1czAQAAMAAJ?hl=fr&gbpv=1&pg=PA51&printsec=frontcover"
+        /> &amp; enfin deux grands <tech type="repas">soupers</tech> ou ambigu, dans la maison de
+          <persName key="louis°crevant">M. le Maréchal d’Humieres</persName>. La
+          <persName>Gouvernante de Bruxelles</persName> &amp; <persName>sa fille</persName> furent
+        de la fête du jardin. Le <persName key="louisxiv">Roi</persName> leur parla fort civilement
+        &amp; obligeamment, &amp; les fit même prier du <tech type="repas">souper</tech>. Elles s’en
+        excusérent sans manquer au respect, sur la seule crainte de se faire une affaire avec
+          l’<placeName key="espagne">Espagne</placeName>, en recevant cet honneur, &amp; même d’en
+        avoir déjà trop fait, par la curiosité qu’elles avoient euë de voir leurs Majestez de si
+        près. Le <persName key="louisxiv">Roi</persName> fit <tech type="repas">manger</tech> avec
+        lui parmi les Dames Françoises, deux Dames de qualité du <placeName key="flandre"
+          >pays</placeName>. La <persName>fille du Gouverneur de Bruxelles</persName> fut trouvée
+        jolie. C’est à-peu-près tout ce que j’en ai appris.</p>
+      <p>Depuis <placeName key="audenarde">Oudenarde</placeName> &amp; <placeName key="courtrai"
+          >Courtray</placeName> il y a toujours eû un nombre infini de personnes de <placeName
+          key="gand">Gand</placeName>, de <placeName key="bruxelles">Bruxelles</placeName> &amp; des
+        autres villes d’<placeName key="espagne">Espagne</placeName> à la suite du <persName
+          key="louisxiv">Roi</persName>. Cela ne plaît pas aux Espagnols, &amp; pas un de ceux qui
+        en ont demandé la permission ne l’a obtenuë ; mais comme il n’y a point eu aussi de défenses
+        publiques, on s’est servi de la liberré que la paix donne à tout le monde. <pb n="52"
+          xml:id="p52"
+          facs="https://www.google.fr/books/edition/Lettres_historiques_de_Monsieur_Pellisso/r1czAQAAMAAJ?hl=fr&gbpv=1&pg=PA52&printsec=frontcover"
+        /></p>
+      <p>Le <persName key="louisxiv">Roi</persName> fit plus de libéralitez à <placeName key="lille"
+          >Lille</placeName> ; qu’il n’en avoit fait ailleurs. Il ne sortoit point qu’il ne lui en
+        coûtât deux ou trois cent pistolles d’argent répandu sur le peuple, &amp; il sortoit aussi
+        beaucoup aux troupes ; il trouva le <persName key="regiment_de_turenne" role="organisation"
+          >Régiment de Turenne</persName> très-beau, &amp; fit donner cent écus à chacun des
+        Capitaines. J’eus la satisfaction d’apprendre que la seconde Compagnie, qui est celle de
+          <persName key="de_roger">M. de Roger</persName> mon cousin germain, que vous connoissez,
+        avoit été trouvée non seulement la plus belle du Régiment, mais la plus belle de toutes
+        celles qu’on avoit encore vûë, par le jugement de <persName
+          key="françois_michel_le_tellier_de_louvoy">M. de Louvoy</persName> lui-même.</p>
+      <p>A <placeName key="bethune">Bethune</placeName>, je ne trouve rien de fort remarquable que
+        la grande &amp; bonne chére du <persName key="antoine_le_prestre_de_vauban"
+          >Gouverneur</persName> votre ami, dont j’aurois tort de me taire, puisque j’en pris ma
+        part.</p>
+      <p>Le <persName key="louisxiv">Roi</persName> loüa extraordinairement la Compagnie de
+        Cavalerie de <persName>M. de Basleroy</persName>. C’est un fils de feu <persName>M. de
+          Choisy</persName>. Il lui fit donner quatre cens écus, qui est la récompense la plus forte
+        qu’on <pb n="53" xml:id="p53"
+          facs="https://www.google.fr/books/edition/Lettres_historiques_de_Monsieur_Pellisso/r1czAQAAMAAJ?hl=fr&gbpv=1&pg=PA53&printsec=frontcover"
+        /> ait encore vûë. Ceux qui ont été les mieux traitez entre les Capitaines de Cavalerie
+        n’ayant eû que mille francs. <persName>M. de Gombault</persName> qui ne demandoit jamais
+        qu’un sou plus que les autres, eût été bien content de cet honneur.</p>
+      <p>On a eû déjà deux fois des nouvelles du voyage de <persName
+          key="elisabeth-charlotte_baviere">Madame</persName> ; elle arriva à <placeName
+          key="dunkerque">Dunkerque</placeName> le <date when="1670-05-24">Samedi</date> au soir,
+        sur les cinq heures ; s’embarqua le <date when="1670-05-25">Dimanche</date> à cinq heures du
+        matin, &amp; n’arriva à <placeName key="douvres">Douvre</placeName> que le <date
+          when="1670-05-26">Lundi</date> à la même heure du matin, c’est-à-dire, qu’elle fut
+        vingt-quatre heures à passer. Le <persName key="louisxiv">Roi</persName> son frére y étoit
+        venu dès le <date when="1670-05-25">Dimanche</date> au soir en petite compagnie. Mais il
+        avoit envoyé au-devant d’elle jusques à 60. personnes, dont il y en avoit quinze ou vingt
+        Milords. Il tâcha de lui persuader d’aller jusques à <placeName key="londres"
+          >Londres</placeName> pour voir la
+        <persName>Reine</persName><!-- Peut-être Catherine de Bragance, reine consort au vu des dates -->,
+        qui ne pouvoit venir à <placeName key="douvres">Douvre</placeName>. Elle s’en excusa sur les
+        ordres qu’elle avoit eus du <persName key="louisxiv">Roi</persName> en partant, &amp; enfin
+        on convint qu’elle iroit <tech type="repas">dîner</tech> à <placeName key="canterbery"
+          >Cantorbery</placeName>, qui n’est qu’un chemin de trois heures, &amp; que la <persName
+          key="marie_therese_autriche">Reine</persName> sa sœur y viendroit aussi. On n’en fait pas
+        davantage jusqu’ici. On lui fit à <pb n="54" xml:id="p54"
+          facs="https://www.google.fr/books/edition/Lettres_historiques_de_Monsieur_Pellisso/r1czAQAAMAAJ?hl=fr&gbpv=1&pg=PA54&printsec=frontcover"/>
+        <placeName key="ypres">Ypres</placeName> une réception magnifique. Le <persName
+          key="louis_de_crevant">Gouverneur</persName> &amp; le <persName>fils du
+          Connérable</persName> allérent à sa rencontre à trois quarts de lieuës, avec cent
+        cinquante <tech type="animal">chevaux</tech>. Elle trouva auprès de la <placeName
+          key="ypres">Ville</placeName> sept escadrons de très-belle Cavalerie sous les armes, dont
+        le premier ayant fait une salve de trop près, &amp; qui faillit à brûler quelques-unes des
+        Dames de sa suite, elle fit prier les six autres escadrons d’attendre à tirer qu’elle eût
+        passé. A la porte elle reçut les complimens de la <placeName key="ypres">Ville</placeName>.
+        L’escorte Françoise s’arrêta là, excepté 50. chevaux qui traversérent la <placeName
+          key="ypres">Ville</placeName> avec elle, <tech type="musique">trompettes</tech> sonnantes,
+        le reste fit le tour pour l’aller rejoindre à l’autre porte. La Cavalerie Espagnole salua la
+        Françoise de l’épée, qui est le plus grand honneur qu’on puisse se rendre. Les nôtres furent
+        moins civils, par la crainte de faillir, &amp; ne saluérent que du chapeau, à cause que cet
+        autre salut leur a été défendu il y a long-temps, hors pour certaines personnes
+        très-privilégiées. C’étoit un nommé <persName>Carcadeau</persName> qui commandoit,
+        très-brave homme, mais dont le scrupule n’a pas été approuvé, ni du <persName key="louisxiv"
+          >Roi</persName>, ni <pb n="55" xml:id="p55"
+          facs="https://www.google.fr/books/edition/Lettres_historiques_de_Monsieur_Pellisso/r1czAQAAMAAJ?hl=fr&gbpv=1&pg=PA55&printsec=frontcover"
+        /> de la Cour, parce que le salut des Espagnols ayant précédé, le mettoit à couvert de tout
+        reproche.</p>
+      <p>De <placeName key="bethune">Bethune</placeName> nous avons été à <placeName
+          key="saint-venant">S. Venant</placeName>, &amp; de-là à <placeName key="bergues">Bergues
+          Saint-Vinox</placeName>, d’où nous sommes partis ce matin ; mais pour y venir il falloit
+        passer sur les terres d’<placeName key="espagne">Espagne</placeName>, à
+          <placeName>Montcassel</placeName>, &amp; ailleurs.</p>
+      <p>On ne peut pas en user mieux que le <persName>Connétable</persName> a fait. Il a envoyé un
+        Commis des Finances pour faire racommoder les chemins, qui en cet endroit-là sont
+        d’ordinaire très-mauvais. Nous les avons trouvez en fort bon état, avec quantité de <tech
+          type="construction">ponts</tech> &amp; <tech type="construction">garde-fous</tech> tous
+        neufs, &amp; qui sentoient encore la main de l’ouvrier. Les Villes d’<placeName
+          key="espagne">Espagne</placeName>, qui pouvoient découvrir le passage du <persName
+          key="louisxiv">Roi</persName>, comme <placeName key="saint_omer">S. Omer</placeName>, ont
+        tiré leurs <tech type="machine_terre">canons</tech> pour le saluer. Un Commissaire a
+        toujours suivi avec deux Escoüades de vingt-cinq Maîtres chacune, pour prendre garde aux
+        équipages &amp; aux chemins. Le <persName key="louisxiv">Roi</persName> a répondu à toutes
+        ces civilitez par sa libéralité. La journée d’hier lui coûta treize cent pistolles de
+        présens. Car il donna <pb n="56" xml:id="p56"
+          facs="https://www.google.fr/books/edition/Lettres_historiques_de_Monsieur_Pellisso/r1czAQAAMAAJ?hl=fr&gbpv=1&pg=PA56&printsec=frontcover"
+        /> une boëtte de diamans de six cent pistolles à celui que le
+          <persName>Connétable</persName> avoit envoyé pour faire accommode les chemins, &amp; sept
+        cens pistolles ou à ces deux Escoüades de Cavalerie Espagnole, ou à des femmes qui lui
+        présentérent des fleurs, ou à des Récolets qui lui vinrent offrir des salades, ou à mille
+        autres sortes de personnes que le bruit de son passage, &amp; des journées précédentes,
+        avoient fait venir de bien loin.</p>
+      <p>Aujourd’hui il n’est parti qu’à midi de <placeName key="bergues">Bergues</placeName>, n’y
+        ayant que deux heures de chemin à faire tout au plus. Il a <tech type="repas">dîné</tech> au
+          <placeName>Fort Saint Louis</placeName>, l’un des deux qui sont auprès de <placeName
+          key="bergues">Bergues</placeName> sur le canal qui vient ici. Il avoit eu dessein de venir
+        par eau sur ce canal avec la <persName key="marie_therese_autriche">Reine</persName>, les
+        Dames, &amp; <persName key="louis_grand_dauphin">M. le Dauphin</persName>. Mais la
+        résolution fut changée hier au soir, &amp; à mon avis, en faveur de la <persName
+          key="marie_therese_autriche">Reine</persName>, qui n’aime pas à aller sur l’eau.</p>
+    </body>
+  </text>
+</TEI>
