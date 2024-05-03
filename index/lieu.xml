@@ -354,8 +354,10 @@
           </place>
 
           <place xml:id="lille_place_saint_martin">
-            <name>Place Saint Martin au bon Pasteur</name>
+            <name>Place Saint Martin au bon Pasteur, actuelle place Louise-de-Bettignies</name>
             <settlement>Lille</settlement>
+            <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Place_Louise-de-Bettignies</identifier>
+            <identifier type="googlemaps">https://www.google.fr/maps/place/Pl.+Louise+de+Bettignies,+59800+Lille/@50.6409925,3.0649694,17z/data=!3m1!4b1!4m6!3m5!1s0x47c32a77964deda5:0x78c4efd3fb804bc1!8m2!3d50.6409925!4d3.0649694!16s%2Fg%2F11b6g7fxbg?entry=ttu</identifier>
           </place>
 
           <place xml:id="lille_rue_saint_jacques">
@@ -511,6 +513,7 @@
             <name>Grand parlement de Tournai, Parlement de Flandres</name>
             <identifier type="wikipedia"
               >https://fr.wikipedia.org/wiki/Parlement_de_Flandres</identifier>
+            <identifier type="googlemaps">https://www.google.fr/maps/place/Tribunal+Judiciaire/@50.3693022,3.0754059,17z/data=!4m10!1m2!2m1!1spalais+de+justice+de+Douai!3m6!1s0x47c2c9677d46fd51:0x1a66ff89d86dae54!8m2!3d50.369292!4d3.0779808!15sChpwYWxhaXMgZGUganVzdGljZSBkZSBEb3VhaZIBD2NpdHlfY291cnRob3VzZeABAA!16s%2Fg%2F1xfsmx78?entry=ttu</identifier>
           </place>
         </place>
 
@@ -1084,7 +1087,7 @@
           <identifier type="wikipedia"
             >https://fr.wikipedia.org/wiki/Palais_de_la_Cit%C3%A9</identifier>
         </place>
-        <place xml:id="paris_palais-royal">
+        <place xml:id="paris_palais_royal">
           <name>Paris, Palais Royal</name>
           <geo>48.863788, 2.337395</geo>
           <country>France</country>
@@ -1242,6 +1245,11 @@
         <settlement>Saint-Germain-en-Laye</settlement>
         <identifier type="wikipedia"
           >https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Saint-Germain-en-Laye</identifier>
+        <place xml:id="saint-germain_palais_episcopal">
+          <name>Palais Episcopal de Saint-Germain, actuel Musée de l'Oise</name>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/MUDO_-_Mus%C3%A9e_de_l%27Oise</identifier>
+          <identifier type="googlemaps">https://www.google.fr/maps/place/MUDO+-+Mus%C3%A9e+de+l'Oise/@49.4329623,2.0773628,17z/data=!3m1!4b1!4m6!3m5!1s0x47e706cc2557af19:0xb19b6e0a606f3e3b!8m2!3d49.4329588!4d2.0799377!16s%2Fg%2F11b77q_zx0?entry=ttu</identifier>
+        </place>
       </place>
       <place xml:id="saintdenis">
         <name>Saint-Denis</name>
