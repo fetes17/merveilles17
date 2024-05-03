@@ -6,30 +6,36 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>{title}</title>
-        <author key="???">{creator}</author>
+        <title>Abrégé de l'histoire de Valenciennes</title>
+        <author key="???">Deprès (de Valenciennes</author>
+        <respStmt>
+          <persName key="Balthasar Le Francq" role="imprimeur">Balthasar Le Francq</persName>
+        </respStmt>
       </titleStmt>
       <editionStmt>
         <edition>Merveilles17</edition>
         <respStmt>
-          <name>{copyeditor}</name>
-          <resp>Transcription</resp>
+          <name>Inès El Mejdoub</name>
+          <resp>Édition</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Université d’Artois - Lille, MESHS</publisher>
-        <date when="2021"/>
+        <publisher>Université d’Artois - CPER Anamorphose</publisher>
+        <date when="2024"/>
         <availability status="restricted">
           <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl>{bibl}</bibl>
+        <bibl>
+          <title>Abrégé de l'histoire de Valenciennes</title>
+          <note><pubPlace>Lille</pubPlace>, <publisher>Balthasar Le Francq</publisher></note>
+        </bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
       <creation>
-        <date when="{date}"/>
+        <date when="1688">1688</date>
       </creation>
       <langUsage>
         <language ident="fr"/>
