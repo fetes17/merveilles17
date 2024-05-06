@@ -171,10 +171,16 @@
     <ref target="../xml/Flandres17_lettres_historiques(1670)"/>
     <ref target="../xml/Flandres17_imp_mg1680_ypres.xml"/>
     <ref target="../xml/Flandres17_imp_mg1680_beauvais.xml"/>
+    <ref target="../xml/Flandres17_imp_mg1680_calais.xml"/>
     
     <event when="1680-07-14" where="beauvais" xml:id="Ypres1680">
       <label>Voyage à Beauvais</label>
       <ref target="../xml/Flandres17_imp_mg1680_beauvais.xml"/>
+    </event>
+    
+    <event from="1680-07-21" to="1680-07-22" where="calais" xml:id="Calais1680">
+      <label>Voyage à Calais</label>
+      <ref target="../xml/Flandres17_imp_mg1680_calais.xml"/>
     </event>
     
     <event when="1680-07-29" where="dunkerque" xml:id="Dunkerque1680">
