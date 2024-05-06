@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
+<?xml-stylesheet type="text/css" href="../style/tei-author.css" alternate="author"?>
+<?xml-model href="https://fetes17.github.io/merveilles17/merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MERCURE GALANT Dédié A Monseigneur LE DAUPHIN, septembre 1680. SECONDE PARTIE.
+          Contenant le Voyage que le Roy a fait en Flandre en l’année 1680.</title>
+        <author key="jean_donneau_de_vize">Jean Donneau de Vizé</author>
+        <author key="thomas_corneille">Thomas Corneille</author>
+        <author key="charles_du_fresny">Charles Du Fresny</author>
+        <editor key="claude_blageart" role="editeur">Claude Blageart</editor>
+        <editor key="michel_gueroult" role="editeur">Michel Guéroult</editor>
+        <editor key="michel_brunet" role="editeur">Michel Brunet</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>Flandres17</edition>
+        <respStmt>
+          <name>Laurine Meny</name>
+          <resp>Transcription et indexation</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université d’Artois - CPER Anamorphoses</publisher>
+        <date when="2024"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>MERCURE GALANT Dédié A Monseigneur LE DAUPHIN, septembre 1680. SECONDE PARTIE.
+          Contenant le Voyage que le Roy a fait en Flandre en l’année 1680. A PARIS, AU PALAIS. <ptr
+            target="https://gallica.bnf.fr/ark:/12148/bpt6k62219294?rk=42918;4"/></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1680">1680</date>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+
+    <front>
+      <pb n="np" xml:id="p5" facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f5"/>
+      <titlePage>
+        <docTitle>
+          <titlePart>MERCURE GALANT Dédié A <persName key="louis_grand_dauphin" role="destinataire"
+              >Monseigneur LE DAUPHIN</persName>, <date when="1680-09">septembre 1680</date>.
+            SECONDE PARTIE. Contenant le Voyage que le <persName key="louisxiv">Roy</persName> a
+            fait en <placeName key="flandre">Flandre</placeName> en l’année <date when="1680"
+              >1680</date>.</titlePart>
+        </docTitle>
+        <docDate>
+          <date when="1680">1680</date>
+        </docDate>
+        <docImprint>A <placeName key="paris">PARIS</placeName>, AU <placeName
+            key="paris_palais_royal">PALAIS</placeName>.</docImprint>
+      </titlePage>
+    </front>
+    <body>
+      <pb n="np" xml:id="p6" facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f6"/>
+      <p>On donnera toûjours un Volume nouveau du Mercure Galant le premier jour de chaque Mois,
+        &amp; on le vendra, aussi-bien que l'Extraordinaire, Trente fois relié en Veau, &amp;
+        Ving-cinq fois en Parchemin.</p>
+      <p rend="center">A <placeName key="paris">PARIS</placeName></p>
+      <p rend="center">Chez <persName key="guillaume_de_luyne" role="imprimeur">G. DE
+          LUYNE</persName>, au <placeName key="paris_palais_royal">Palais</placeName>, dans la Salle
+        des Merciers, à la Justice.</p>
+      <p rend="center">Chez <persName key="claude_blageart">C. BLAGEART</persName>, <placeName
+          key="lille_rue_saint_jacques">Ruë S. Jacques</placeName>, à l'entrée de la <placeName
+          key="lille_rue_du_platre">Ruë du Plâtre</placeName>, Et en sa Boutique Court-Neuve du
+          <placeName key="paris_palais_royal">Palais</placeName>, AU <persName
+          key="louis_grand_dauphin" role="destinataire">DAUPHIN</persName>.</p>
+      <p rend="center">Et <persName key="theodore_girard">T. Girard</persName>, au <placeName
+          key="paris_palais_royal">Palais</placeName>, dans la Grande Salle, à l'Envie.</p>
+      <p><date when="1680">M. D. LXXX.</date></p>
+      <p>AVEC PRIVILEGE DU <persName key="louisxiv">ROY</persName></p>
+
+      <div>
+        <pb n="52" xml:id="p52" facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f60"/>
+        <p><persName key="louisxiv">Sa Majesté</persName> apres avoir fait reveuë d’un Bataillon de
+            <placeName key="picardie">Picardie</placeName> qui est dans <placeName key="ardres"
+            >Ardres</placeName>, monta en <tech type="machine_terre">Carrosse</tech> pour se rendre
+          à <placeName key="saint-omer">S. Omer</placeName>. Elle n’y devoit aller selon la route
+          qu’Elle avoit reglée, qu’à son retour de <placeName key="dunkerque"
+          >Dunkerque</placeName> ; mais Elle changea de dessein, non seulement parce qu’Elle vouloit
+          voir sortir du <placeName key="dunkerque_port">Port</placeName>
+          <pb n="53" xml:id="p53" facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f61"/> de
+          cette derniere <placeName key="dunkerque">Ville</placeName> un fort grand <tech
+            type="machine_eau">Vaisseau</tech> qu’on avoit amené de <placeName key="brest"
+            >Brest</placeName> par son ordre, &amp; que pour cela il falloit attendre le temps de la
+          plus haute Marée ; mais parce qu’ayant résolu d’aller à <placeName key="ypres"
+            >Ipres</placeName>, la grande Chaussée qu’on fit il y a deux ans en rend le chemin
+          beaucoup plus beau, en y allant de <placeName key="dunkerque">Dunkerque</placeName>, que
+          la Cour ne l’eust trouvé , si Elle s’y fust renduë au sortir de <placeName
+            key="saint-omer">S. Omer</placeName>. Elle arriva donc le soir à cette derniere
+            <placeName key="saint-omer">Ville</placeName>, &amp; aussitost le <persName
+            key="louisxiv">Roy</persName>
+          <pb n="54" xml:id="p54" facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f62"/>
+          montant à <tech type="animal">cheval</tech>, alla faire la reveuë de la Garnison. Il la
+          trouva dans la <placeName key="saint-omer">Place</placeName> rangée en bataille. Il me
+          seroit bien difficile de vous bien representer la joye que firent paroistre les Habitans.
+          Ils n’avoient rien oublié pour marquer leur zele à leur nouveau <persName key="louisxiv"
+            >Maistre</persName>. Toutes les Portes estoient <tech type="decor">tapissées de trois
+            Lez de Draps de diférentes couleurs</tech> ; &amp; non seulement ils avoient <tech
+            type="decor">semé de Fleurs le pavé des Ruës</tech>, mais ils les en avoient couvertes
+          par le haut, en dres-<pb n="55" xml:id="p55"
+            facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f63"/>sant des <tech type="decor"
+            >cordes qui traversoient d’un costé à l’autre</tech>. Ainsi on ne découvroit que
+          ailleurs par tout, soit que l’on haussast les yeux sur les cordes qui en estoient pleines,
+          soit qu’on les baissast sur le pavé. <date when="1680-07-23">Ce jour</date> &amp; les deux
+          suivans, furent comme autant de jours d’une Feste solemnelle. On chanta le <foreign
+            xml:lang="la">Te Deum</foreign>, apres quoy on commença les réjoüissances. Elles furent
+          continuées dans toute la <placeName key="saint-omer">Ville</placeName> par des <tech
+            type="lumieres">lumieres</tech> qu’on mit aux fenêtres, par des <tech type="lumieres"
+            >feux</tech> qu’on al-<pb n="56" xml:id="p56"
+            facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f64"/>luma, par des <tech
+            type="bruitage">cris</tech> redoublez de <tech type="bruitage">Vive le <persName
+              key="louisxiv">Roy</persName></tech>, qui durerent toute la nuit, &amp; par des Tables
+          que l’on dressa devant la plûpart des Portes des Habitans.</p>
+        <p>On passa deux jours à <placeName key="saint-omer">S. Omer</placeName> ; &amp; si les
+          Dames prirent ce temps pour se donner un peu de repos, le <persName key="louisxiv"
+            >Roy</persName> toûjours vigilant, &amp; toûjours infatigable à de nouveaux soins qui
+          luy coûterent de nouvelles peines.</p>
+      </div>
+    </body>
+  </text>
+</TEI>
