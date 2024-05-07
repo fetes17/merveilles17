@@ -150,6 +150,11 @@
     <ref target="../xml/merveilles17_imp_gdv-felibien1668.xml"/>
   </event>
   
+  <event when="1670" where="lille" xml:id="lille1670">
+    <label>Voyage du roi à Lille en 1671</label>
+    <ref target="../xml/Flandres17_lettres_historiques1670.xml"/>
+  </event>
+  
   <event from="1674-07-04" to="1674-08-31" where="versailles_chateau" xml:id="dv">
     <label>Les Divertissements de Versailles</label>
     <ref target="../xml/merveilles17_imp_dv-felibien1676.xml"/>
@@ -164,11 +169,11 @@
   <event from="1680-07-13" to="1680-08-08" where="" xml:id="voyage_flandre1680">
     <label>Voyage en Flandre</label>
     <ref target="../xml/Flandres17_imp_Lille1680"/>
-    <ref target="../xml/Flandres17_imp_mg1680-08-02.xml"/>    
+    <ref target="../xml/Flandres17_imp_mg1680_lille.xml"/>    
     <ref target="../xml/merveilles17_imp_gazette16800807.xml"/>
     <ref target="../xml/merveilles17_imp_gazette16800808.xml"/>
     <ref target="../xml/Flandres17_ms_Chavatte.xml"/>
-    <ref target="../xml/Flandres17_lettres_historiques(1670)"/>
+    <ref target="../xml/Flandres17_lettres_historiques1670.xml"/>
     <ref target="../xml/Flandres17_imp_mg1680_ypres.xml"/>
     <ref target="../xml/Flandres17_imp_mg1680_beauvais.xml"/>
     <ref target="../xml/Flandres17_imp_mg1680_calais.xml"/>
@@ -200,7 +205,7 @@
     <event when="1680-08-02" where="lille" xml:id="Lille1680">
       <label>Feu d'artifice de Lille</label>
       <ref target="../xml/Flandres17_imp_Lille1680"/>
-      <ref target="../xml/Flandres17_imp_mg1680.xml"/>
+      <ref target="../xml/Flandres17_imp_mg1680_lille.xml"/>
       <ref target="../xml/Flandres17_ms_Chavatte.xml"/>
     </event>
     <event when="1680-08-05" where="valenciennes" xml:id="Valenciennes1680">
