@@ -13,6 +13,14 @@
     <identifier type="databnf">https://data.bnf.fr/12289241/alexandre_farnese/</identifier>
     <identifier type="isni">http://isni.org/isni/0000000121029417</identifier>
   </person>
+  <person xml:id="ambrogio_spinola" sex="M">
+    <name>Ambrogio Spinola, marquis de</name>
+    <birth when="1569"/>
+    <death when="1630"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Ambrogio_Spinola#:~:text=Ambrogio%20Sp%C3%ADnola%20Doria%2C%20n%C3%A9%20en,la%20guerre%20de%20Trente%20Ans.</identifier>
+    <identifier type="databnf">https://data.bnf.fr/15553919/ambrogio_spinola/</identifier>
+    <identifier type="isni">http://isni.org/isni/0000000108377679</identifier>
+  </person>
   <person xml:id="antoine_le_prestre_de_vauban" sex="M">
     <name>Antoine le Preste de Vauban, Dupuys-Vauban, gouverneur de Béthune</name>
     <birth when="1654"/>
@@ -37,12 +45,21 @@
     <death when="1067-09-01"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Baudouin_V_de_Flandre</identifier>
   </person>
+  <person xml:id="baron_des_adrets" sex="M">
+    <name>Mr le Baron des Adrets</name>
+  </person>
   <person xml:id="blancas" sex="M">
     <name>Blancas, page</name>
   </person>
   <!-- à corriger en Brancas ? À vérifier -->
   <person xml:id="albert" sex="M">
     <name>Albert, sieur, capitaine de frégate</name>
+  </person>
+  <person xml:id="carlos_de_gurrea" sex="M">
+    <name>Carlos de Gurrea, Gouverneur des Païs-Bas Espagnols</name>
+    <birth when="1634"/>
+    <death when="1692-04-14"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Carlos_de_Gurrea</identifier>
   </person>
   <person xml:id="charlesII" sex="M">
     <name>Charles II, Roi d'Angleterre</name>
@@ -68,14 +85,39 @@
   <person xml:id="combe" sex="M">
     <name>Combe, sieur de</name>
   </person>
+  <person xml:id="daniel_de_remy_de_courcelles" sex="M">
+    <name>Daniel de Rémy de Courcelles, lieutenant</name>    
+    <birth when="1626-05-03"/>
+    <death when="1698-10-24"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Daniel_de_R%C3%A9my_de_Courcelles</identifier>
+  </person>  
   <person xml:id="dauphin" sex="M">
     <name>Dauphin, ouvrier/artisan</name>
+  </person>
+  <person xml:id="de_beaujeu" sex="M">
+    <name>mr de Beaujeu, enseigne</name>
   </person>
   <person xml:id="de_briare" sex="M">
     <name>De Briare, officier du Gobelet</name>
   </person>
+  <person xml:id="de_desgleraux" sex="M">
+    <name>Mr de Desgleraux, enseigne</name>
+  </person>
   <person xml:id="de_forgues" sex="M">
     <name>De Forgues, page</name>
+  </person>
+  <person xml:id="de_gault_chevalier" sex="M">
+    <name>Chevalier de Gault, enseigne</name>
+  </person>
+  <person xml:id="de_paliere" sex="M">
+    <name>Mr de Paliere, capitaine second de la Compagnie du Chevalier de Lhéry</name>
+  </person>
+ 
+  <person xml:id="de_rouvroy" sex="M">
+    <name>Mr de Rouvroy, lieutenant</name>
+  </person>
+  <person xml:id="de_villars_chevalier" sex="M">
+    <name>Chevalier de Villars, lieutenant</name>
   </person>
   <person xml:id="edouardIII" sex="M">
     <name>Edouard III Roi d'Angleterre</name>
@@ -84,7 +126,13 @@
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/%C3%89douard_III</identifier>    
     <identifier type="databnf">https://data.bnf.fr/11963640/edouard_3/</identifier>
     <identifier type="isni">https://data.bnf.fr/11963640/edouard_3/</identifier>
-  </person>
+  </person>  
+  <person xml:id="françois_chevalier_de_saulx" sex="M">
+    <name>François Chevalier de Saulx</name>
+    <birth when="1643"/>
+    <death when="1712-10-27"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Chevalier_de_Saulx</identifier>
+  </person> 
   <person xml:id="françois_michel_le_tellier_de_louvoy" sex="M">
     <name>François Michel Le Tellier de Louvoy, marquis de Louvois, ministre</name>
     <birth when="1639-01-18"/>
@@ -130,6 +178,14 @@
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Bertrand_du_Guesclin</identifier>
     <identifier type="databnf">https://data.bnf.fr/fr/11935221/bertrand_du_guesclin/</identifier>
     <identifier type="isni">0000 0001 2134 0504</identifier>
+  </person>
+  <person xml:id="henri_de_la_tour_d_auvergne" sex="M">
+    <name>Henri de La Tour d'Avergne, maréchal de Turenne</name>
+    <birth when="1611-09-11"/>
+    <death when="1675-07-27"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Henri_de_La_Tour_d%27Auvergne_(1611-1675)</identifier>
+    <identifier type="databnf">https://data.bnf.fr/12511003/henri_de_la_tour_d_auvergne_turenne/</identifier>
+    <identifier type="isni">http://isni.org/isni/0000000083439713</identifier>
   </person>
   <person xml:id="hericour" sex="M">
     <name>Héricour, page</name>
@@ -276,12 +332,21 @@
   <person xml:id="loubie" sex="M">
     <name>Loubie, page de la Petite écurie</name>
   </person>
+  <person xml:id="louisII_de_bourbon" sex="M">
+    <name>Louis II de Bourbon, prince de, marquis d'Enguyen</name>
+    <birth when="1621-09-08"/>
+    <death when="1686-12-11"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Louis_II_de_Bourbon-Cond%C3%A9#:~:text=Louis%20II%20de%20Bourbon%2DCond%C3%A9%20dit%20le%20Grand%20Cond%C3%A9%2C%20d,des%20g%C3%A9n%C3%A9raux%20du%20Grand%20Si%C3%A8cle.</identifier>
+    <identifier type="databnf">https://data.bnf.fr/12350607/louis_conde/</identifier>
+    <identifier type="isni">http://isni.org/isni/0000000121209573</identifier>
+  </person>
   <person xml:id="louis_d_escre" sex="M">
     <name>D'Escre, Louis, tymballier</name>
   </person>
   <person xml:id="louis_desore" sex="M">
     <name>Desore, Louis, tymballier</name>
   </person>
+
   <person xml:id="louis_lazure" sex="M">
     <name>Lazure ou L'Azure, Louis, chef du Gobelet</name>
   </person>
@@ -334,8 +399,18 @@
   <person xml:id="morsique" sex="M">
     <name>Morisque, grand valet de pied</name>
   </person>
+  <person xml:id="nicolas-aujuste_de_harlay_de_bonneuil" sex="M">
+    <name>Nicolas-Auguste de Harlay de Bonneuil, Ambassadeur</name>
+    <birth when="1647"/>
+    <death when="1704-10-02"/>
+    <identifier type="databnf">https://data.bnf.fr/15138023/nicolas-auguste_de_harlay_de_bonneuil/</identifier>
+    <identifier type="isni">http://isni.org/isni/0000000428385918</identifier>
+  </person>
   <person xml:id="palluau" sex="M">
     <name>Palluau, grand valet de pied</name>
+  </person>
+  <person xml:id="panetier" sex="M">
+    <name>Mr Panetier</name>
   </person>
   <person xml:id="patriere" sex="M">
     <name>Patrière, page de la Petite écurie</name>
@@ -404,7 +479,7 @@
     <name>Rimberlieu, page</name>
   </person>
   <person xml:id="robert_harley" sex="M">
-    <name>Robert Harley, Compte d'Oxford, Chevalier de l’Ordre de la
+    <name>Robert Harley, Comte d'Oxford, Chevalier de l’Ordre de la
       Jartiere</name>
     <birth when="1661-12-05"/>
     <death when="1724-05-21"/>
