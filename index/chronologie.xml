@@ -177,6 +177,7 @@
     <ref target="../xml/Flandres17_imp_mg1680_beauvais.xml"/>
     <ref target="../xml/Flandres17_imp_mg1680_calais.xml"/>
     <ref target="../xml/Flandres17_imp_mg1680_saint_omer.xml"/>
+    <ref target="../xml/Flandres17_imp_mg1680_dunkerque.xml"/>
     
     <event when="1680-07-14" where="beauvais" xml:id="Beauvais1680">
       <label>Voyage à Beauvais</label>
@@ -191,6 +192,12 @@
     <event from="1680-07-23" to="1680-07-25" where="saint-omer" xml:id="Saint-Omer1680">
       <label>Voyage à Saint-Omer</label>
       <ref target="../xml/Flandres17_imp_mg1680_saint_omer.xml"/>
+    </event>
+    
+    <event from="1680-07-25" to="1680-07-30" where="dunkerque" xml:id="Dunkerque1680">
+      <label>Voyage à Dunkerque</label>
+      <ref target="../xml/Flandres17_imp_mg1680_dunkerque.xml"/>
+      <ref target="../xml/merveilles17_imp_gazette16800808.xml"/>
     </event>
     
     <event when="1680-07-29" where="dunkerque" xml:id="Dunkerque1680">
