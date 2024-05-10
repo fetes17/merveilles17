@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
+<?xml-stylesheet type="text/css" href="../style/tei-author.css" alternate="author"?>
+<?xml-model href="https://fetes17.github.io/merveilles17/merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MERCURE GALANT Dédié A Monseigneur LE DAUPHIN, septembre 1680. SECONDE PARTIE.
+          Contenant le Voyage que le Roy a fait en Flandre en l’année 1680.</title>
+        <author key="jean_donneau_de_vize">Jean Donneau de Vizé</author>
+        <author key="thomas_corneille">Thomas Corneille</author>
+        <author key="charles_du_fresny">Charles Du Fresny</author>
+        <editor key="claude_blageart" role="editeur">Claude Blageart</editor>
+        <editor key="michel_gueroult" role="editeur">Michel Guéroult</editor>
+        <editor key="michel_brunet" role="editeur">Michel Brunet</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>Flandres17</edition>
+        <respStmt>
+          <name>Laurine Meny</name>
+          <resp>Transcription et indexation</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université d’Artois - CPER Anamorphoses</publisher>
+        <date when="2024"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>MERCURE GALANT Dédié A Monseigneur LE DAUPHIN, septembre 1680. SECONDE PARTIE.
+          Contenant le Voyage que le Roy a fait en Flandre en l’année 1680. A PARIS, AU PALAIS.
+            <note>MERCURE, PARIS, AU PALAIS, 1680, BEAUVAIS, P.64-130.</note>
+          <ptr target="https://gallica.bnf.fr/ark:/12148/bpt6k62219294?rk=42918;4"/></bibl>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1680">1680</date>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+
+    <front>
+      <pb n="np" xml:id="p5" facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f5"/>
+      <titlePage>
+        <docTitle>
+          <titlePart>MERCURE GALANT Dédié A <persName key="louis_grand_dauphin" role="destinataire"
+              >Monseigneur LE DAUPHIN</persName>, <date when="1680-09">septembre 1680</date>.
+            SECONDE PARTIE. Contenant le Voyage que le <persName key="louisxiv">Roy</persName> a
+            fait en <placeName key="flandre">Flandre</placeName> en l’année <date when="1680"
+              >1680</date>.</titlePart>
+        </docTitle>
+        <docDate>
+          <date when="1680">1680</date>
+        </docDate>
+        <docImprint>A <placeName key="paris">PARIS</placeName>, AU <placeName
+            key="paris_palais_royal">PALAIS</placeName>.</docImprint>
+      </titlePage>
+    </front>
+    <body>
+      <pb n="np" xml:id="p6" facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f6"/>
+      <p>On donnera toûjours un Volume nouveau du Mercure Galant le premier jour de chaque Mois,
+        &amp; on le vendra, aussi-bien que l'Extraordinaire, Trente fois relié en Veau, &amp;
+        Ving-cinq fois en Parchemin.</p>
+      <p rend="center">A <placeName key="paris">PARIS</placeName></p>
+      <p rend="center">Chez <persName key="guillaume_de_luyne" role="imprimeur">G. DE
+          LUYNE</persName>, au <placeName key="paris_palais_royal">Palais</placeName>, dans la Salle
+        des Merciers, à la Justice.</p>
+      <p rend="center">Chez <persName key="claude_blageart">C. BLAGEART</persName>, <placeName
+          key="lille_rue_saint_jacques">Ruë S. Jacques</placeName>, à l'entrée de la <placeName
+          key="lille_rue_du_platre">Ruë du Plâtre</placeName>, Et en sa Boutique Court-Neuve du
+          <placeName key="paris_palais_royal">Palais</placeName>, AU <persName
+          key="louis_grand_dauphin" role="destinataire">DAUPHIN</persName>.</p>
+      <p rend="center">Et <persName key="theodore_girard">T. Girard</persName>, au <placeName
+          key="paris_palais_royal">Palais</placeName>, dans la Grande Salle, à l'Envie.</p>
+      <p><date when="1680">M. D. LXXX.</date></p>
+      <p>AVEC PRIVILEGE DU <persName key="louisxiv">ROY</persName></p>
+
+      <div>
+        <pb n="64" xml:id="p64" facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f72"/>
+        <p><persName key="louisxiv">Sa Majesté</persName> se rendit de là à <placeName
+            key="dunkerque">Dunkerque</placeName>, &amp; y entra sur les 8. heures du soir, ainsi
+          que toute la Cour. <persName key="louis_grad_dauphin">Monseigneur le Dauphin</persName>
+          estoit à <tech type="animal">cheval</tech>.</p>
+        <p>Avant que de vous parler de la reception qui luy fut faite par les Habitans de cette
+            <placeName key="dunkerque">Place</placeName>, il faut vous dire que <persName
+            key="seignelay_colbert">Mr le Marquis <hi rend="underline">de Seignelay</hi></persName>
+          y estoit arrivé dés le <date when="1680-07-15">15.</date> &amp; avoit donné tous ses <pb
+            n="65" xml:id="p65" facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f73"/> soins
+          depuis ce temps à regler quantité de choses pour la reception du <persName key="louisxiv"
+            >Roy</persName>, sur le superbe <tech type="machine_eau">Vaisseau</tech> qu’on luy
+          devoit faire voir, &amp; qui étoit cómandé par <persName key="lhery_chevalier">Mr le
+            Chevalier de Lery</persName>. (Il n’avoit pas laissé de se rendre le <date
+            when="1680-07-20">20.</date> à <placeName key="ambleteuse">Ambleteuse</placeName>.) Ce
+            <tech type="machine_eau">Vaisseau</tech> arriva le <date when="1680-07-23">23.</date> à
+          la Rade de <placeName key="dunkerque">Dunkerque</placeName>, &amp; aussitost qu’il y fut,
+            <persName key="seignelay_colbert">Mr <hi rend="underline">de Seignelay</hi></persName>
+          fit mettre tout l’Armement au mesme état qu’il devoit paroistre devant le <persName
+            key="louisxiv">Roy</persName>, &amp; fit faire l’exercice aux Soldats &amp; aux
+          Matelots. Il s’en acquite-<pb n="66" xml:id="p66"
+            facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f74"/>rent avec tant d’adresse,
+          que <persName key="godefroi_d_estrades">Mr le Marechal <hi rend="underline"
+              >d’Estrades</hi></persName> qui estoit présent, leur donna mille loüanges. Quand de
+          semblables Ministres prennent eux-mesmes ces sortes de soins, il est impossible que les
+          choses manquent de succès.</p>
+        <p><persName key="robert_harley">Mr le Comte <hi rend="underline">d’Oxford</hi></persName>,
+          Chevalier de l’Ordre de la Jartiere, &amp; <persName key="winston_churchill">Mr le Colonel
+              <hi rend="underline">Churchill</hi></persName>, Envoyez Extraordinaires du <persName
+            key="charlesII">Roy d’Angleterre</persName>, &amp; de <persName key="jacques_stuart">Mr
+            le Duc <hi rend="underline">d’Yorck</hi><note place="margin" resp="inconnu"
+              >d'angleterre</note></persName>, pour complimenter le <persName key="louisxiv"
+            >Roy</persName>, attendoient <persName key="louisxiv">Sa<pb n="67" xml:id="p67"
+              facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f75"/> Majesté</persName> à
+            <placeName key="dunkerque">Dunkerque</placeName>, &amp; y estoient arrivez le <date
+            when="1680-07-25">25.</date> Avec <persName key="">Mr <hi rend="underline"
+            >Savill</hi></persName><!-- introuvable --> Envoyé Extraordinaire en <placeName
+            key="france">France</placeName>. Ils avoient quatre <tech type="machine_eau">Jack</tech>
+          des mieux meublez, &amp; des plus magnifiques d’<placeName key="angletrre"
+            >Angleterre</placeName> ; mais ayant veu la beauté du <tech type="machine_eau"
+            >Vaisseau</tech> commandé par <persName key="lhery_chevalier">Mr le Chevalier <hi
+              rend="underline">de Lery</hi></persName>, &amp; la brillante somptuosité de ses
+          meubles, ils s’excuserent d’entrer dans le <placeName key="dunkerque_port"
+            >Port</placeName>.</p>
+        <p>Leurs Majestez furent reçeuës à la Porte par les Magistrats, qui avoient <persName
+            key="godefroi_d_estrades">Mr le Maréchal <hi rend="underline">d’Estrades</hi></persName>
+            à<pb n="68" xml:id="p68" facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f76"/>
+          leur teste. Vous sçavez, <persName key="henriette_anne_angleterre">Madame</persName>,
+          qu’il est <persName key="">Gouverneur de Dunkerque</persName><!-- introuvable -->. Ce
+            <persName key="godefroi_d_estrades">Maréchal</persName> les conduisit entre une double
+          haye d’Infanterie, au Logement qui leur avoit esté préparé dans l’<placeName
+            key="dunkerque_hotel_de_ville">Hostel de Ville</placeName>. Tous les autres Gouverneurs
+          ont esté les recevoir à la teste de la Cavalerie de leur Garnison, une lieuë au dela de
+          leurs Places ; mais <persName key="godefroi_d_estrades">Mr le Maréchal <hi
+              rend="underline">d’Estrades</hi></persName> eut ordre particulier de ne point passer
+          les Portes.</p>
+        <p>Si dans tous les Lieux que<pb n="69" xml:id="p69"
+            facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f77"/> le <persName key="louisxiv"
+            >Roy</persName> a honorez de sa presence, les Peuples ont témoigné de la joye de voir
+          leur <persName key="louisxiv">auguste Souverain</persName>, les Habitans de <placeName
+            key="dunkerque">Dunkerque</placeName> ont eu plus de sujet que les autres d’en faire
+          paroistre. Des raisons d’Etat les ayant fait tomber sous la domination d’un Prince d’une
+          Religion contraire à la leur, <persName key="louisxiv">Sa Majesté</persName> ne les y
+          laissa pas longtemps. Son zele pour les avantages de l’<name key="eglise">Eglise</name>,
+          &amp; son amitié pour ce Peuple, l’engagerent presque aussitost à offrir jusqu’à cinq
+            mil-<pb n="70" xml:id="p70" facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f78"
+          />lions pour racheter cette <placeName key="dunkerque">Place</placeName>, &amp; par là
+          elle fut remise en sa puissance. Ainsi l’on peut dire qu’elle luy doit estre prétieuse,
+          puis qu’il l’a conquise deux fois, &amp; qu’apres l’avoir soûmise par la force de ses
+          armes, il s’en est rendu le maistre tout de nouveau, en ouvrant les Trésors de son
+          Epargne. Cette <placeName key="dunkerque">Ville</placeName>, celebre aujourd’huy par son
+          Commerce, par l’abord des Etrangers, &amp; par la valeur &amp; le trafic de ses Habitans,
+          fut bastie par le <persName key="badouiniv_flandre">Comte Baudoüin</persName> vers <pb
+            n="71" xml:id="p71" facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f79"/> le
+          temps de <persName key="charlemagne">Charlemagne</persName>. Le <persName>Marquis de
+            Spinola</persName> luy a fait ouvrir la Mer par une espece de Digue, qui s’étendant fort
+          avant dans l’eau, défend les <tech>Vaisseaux</tech> contre les injures de l’air, &amp;
+          contre les attaques des Ennemis. Les François y ont fait achever une
+            <placeName>Citadelle</placeName> que les Anglois avoient commencée. Tout le monde sçait
+          qu’elle a esté prise deux fois sur les Espagnols. La premiere fut en <date>1646.</date>
+          par <persName>Monsieur le Prince</persName>, qui estoit alors <persName>Duc
+            d’Enguyen</persName> ; la <pb n="72" xml:id="p72"/> seconde en <date>1658.</date> par
+          feu <persName>Mr le Maréchal de Turenne</persName> ; &amp; parce que les Anglois qui
+          l’avoient assiegée par mer, nous aiderent à la prendre avec quelques autres Places, elle
+          demeura sous leur puissance jusqu’en <date>Janvier 1661.</date> que le
+            <persName>Roy</persName> la racheta. On peut juger par le peu de temps que <persName>Sa
+            Majesté</persName> l’a laissée entre leurs mains, de la bonté qu’Elle a pour les Peuples
+          qui ont esté une fois sous sa domination.</p>
+        <p>Le <persName>Roy</persName> estant arrivé à l’<placeName>Hostel de Ville</placeName>, où
+          je vous <pb n="73" xml:id="p73"/> ay dit qu’on l’avoit conduit, ne descendit de
+            <tech>Carrosse</tech> que pour monter à <tech>Cheval</tech>. Il estoit déja huit heures.
+          Cependant les jours estant longs, à cause de la belle Saison, il voulut voir les
+            <placeName>Fortifications</placeName> de la <placeName>Place</placeName>. C’estoit une
+          assez grande fatigue pour ce <persName>Prince</persName>, qui avoit déja visité celles de
+            <placeName>Gravelines</placeName> cette mesme apresdînée.</p>
+        <p><persName>Sa Majesté</persName> s’estant mise à table apres les nouvelles peines qu’il
+          luy avoit plû de se donner, <persName>Mr le Chevalier </persName>
+          <pb n="74" xml:id="p74"/><persName> de Lhery</persName> se présenta devant Elle. Le
+            <persName>Roy</persName> l’eut à peine veu, qu’il luy dit avec cet air agreable qui luy
+          gagne tous les cœurs ; <persName>Monsieur le Chevalier</persName>, vous serez le premier
+          Capitaine de mon Royaume, qui m’aurez fait voir un <tech>Vaisseau</tech> armé ; &amp; ce
+          sera demain que j’iray à votre Bord. <persName>Sa Majesté</persName> luy parla encor
+          plusieurs fois pendant son <tech>Soupé</tech>, &amp; toute la Cour luy fit mille
+          honnestetez à l’exemple de ce <persName>Prince</persName>.</p>
+        <p>Le lendemain <date>27.</date>
+          <persName>Mr de </persName>
+          <pb n="75" xml:id="p75"/><persName> Bonneüil</persName>, Introducteur des Ambassadeurs,
+          ayant esté prendre <persName>Mr le Comte d’Oxford </persName>&amp;<persName> Mr le Colonel
+            Churchill</persName> dans les <tech>Carrosses</tech> de Leurs Majestez, les mena à
+          l’Audience. Ils l’eurent du <persName>Roy</persName>, de la <persName>Reyne</persName>, de
+            <persName>Monseigneur le Dauphin</persName>, de <persName>Madame la Dauphine</persName>,
+          de <persName>Monsieur</persName>, &amp; de <persName>Madame</persName>.</p>
+        <p><persName>Mr le Duc de Villa-Hermosa</persName>, <persName>Gouverneur</persName> des
+            <placeName>Païs-Bas </placeName>Espagnols, ne pût voir <persName>Sa Majesté</persName>
+          si proche des Villes qui appartiennent au <persName>Roy</persName> son Maistre, sans luy
+            <pb n="76" xml:id="p76"/> envoyer faire compliment. Il choisit pour cela <persName>Mr le
+            Marquis de Warnies</persName>, <persName>Gouverneur de Courtray</persName>, qui eut
+          audience de <persName>Sa Majesté</persName> apres <persName>Mr le Comte
+            d’Oxford</persName>, &amp; luy présenta une Lettre de la part de <persName>Mr le Duc de
+            Villa-Hermosa</persName>.</p>
+        <p>Le mesme jour, le <persName>Roy</persName> monta sur le <tech>Vaisseau</tech> que je vous
+          ay dit avoir esté amené de <placeName>Brest</placeName>. Il se nomme
+            l’<name>Entreprenant</name>, &amp; est commandé par <persName>Mr le Chevalier de
+            Lhery</persName>. La construction en est tres-belle. Di- <pb n="77" xml:id="p77"/>verses
+            <tech>Figures</tech> en font l’ornement, avec des <tech>Festons</tech> &amp; des
+            <tech>Feüillages</tech>. Son Avant &amp; son Arriere sont remplis d’Ouvrages de
+            <tech>Sculpture</tech> bronzez et relevez en or sur un fond verd. Les Armes du
+            <persName>Roy</persName> sont au dessus de la <tech>Poupe</tech>. Elle soútient trois
+            <tech>Panaux</tech> qui sont dorez ainsi que ces Armes, &amp; tout le reste des
+          ornemens. Il y a au dessous une <tech>Galerie</tech> saillante. Elle est fermée d’une
+          Balustrade, &amp; sert de passage à la <tech>principale des quatre Chambres</tech> de ce
+            <tech>Vais</tech>- <pb n="78" xml:id="p78"/><tech>seau</tech>. C’est celle du
+            <persName>Roy</persName>. On n’y voit par tout que de l’or &amp; de la peinture. Sous
+          cette Chambre est <tech>celle où l’on mange</tech>. Elle est toute remplie de Rateliers
+          d’Armes, garnis de Mousquets, Mousquetons, Fusils, Pistolets, Haches &amp; Sabres, tout
+          cela en tres-grand nombre. Il y en a <tech>une troisiéme</tech> encor au dessous. Elle est
+          appellée la <name>Sainte Barbe</name>, &amp; sert comme de Magazin aux Canonniers pour y
+          enfermer tout ce qui appartient au <tech>Canon</tech>. On n’y trouve rien qui ne <pb
+            n="79" xml:id="p79"/> soit peint &amp; fleurdelisé. <tech>La quatriéme de ces
+            Chambres</tech> est à costé de celle du <persName>Roy</persName>. Il faut vous dire dans
+          quelle magnificence de Meubles ce <tech>Vaisseau</tech> parut. Il y avoit vingt-deux
+          Sieges-plians, &amp; deux Fauteüils, dans la Chambre du <persName>Roy</persName>, le tout
+          d’une Brocatelle de <placeName>Venise</placeName> en fond blanc, nuée de toutes couleurs,
+          outre deux Portieres de la mesme Etofe. Tout le Meuble estoit garny de ranges d’or, &amp;
+          les Bois des Sieges &amp; des Fauteüils estoient dorez &amp; sculptez. Il <pb n="80"
+            xml:id="p80"/> y avoit dans la mesme Chambre un grand Miroir à bordure de glace, avec
+          des ornemens de vermeil, &amp; une Table de marqueteries soûtenuë de quatre Figures &amp;
+          de Festons, dorez ainsi que les Guéridons, avec le Portrait du <persName>Roy</persName>
+          attaché comme le Miroir avec de gros Festons de Ruban couleur de feu &amp; argent.
+            <tech>La Chambre qui est à costé de celle-cy</tech>, estoit tapissée de Damas blanc, à
+          bandes &amp; bordures de Moüere d’or. Il y avoit un Lit de la mesme <pb n="81"
+            xml:id="p81"/> Etofe, garny par tout de Crêpines &amp; de Franges d’or, aussi-bien que
+          les Fauteüils, Tabourets &amp; Portieres. La Bordure du Miroir estoit de glace, &amp;
+          ornée de Chifres de vermeil doré. Un Bureau de pieces de rapport accompagnoit ce que je
+          viens de marquer, &amp; c’estoit par tout un si grand éclat, qu’il seroit fort malaisé de
+          rien voir de plus magnifique, de mieux entendu, &amp; de plus brillant. La
+            <tech>Balustrade</tech> qui ferme la Galerie, estoit couverte d’un <pb n="82"
+            xml:id="p82"/> riche Tapis pour s’appuyer. Le <tech>Vaisseau</tech> est monté de
+          cinquante-six Pieces de <tech>Canon</tech>, aupres de chacun desquels estoient d’un costé
+          son Refouloir, Tireboure &amp; Escouvillon, &amp; de l’autre, le Porte-gargousse &amp; le
+          Boutefeu. Voicy ce qui composoit l’<name>Equipage</name>. La Compagnie de <persName>Mr le
+            Chevalier de Lhery</persName>, formée de cent Hommes, tous Gens bien faits &amp;
+          choisis, ayant chacun environ cinq pieds huit pouces de hauteur, &amp; faisant
+          admirablement bien l’Exercice ; <pb n="83" xml:id="p83"/> un Capitaine en second, qui est
+            <persName>Mr de Paliere</persName> ; quatre Lieutenans, sçavoir, <persName>Mr de
+            Courcelles</persName>, <persName>Mr de Rouvroy</persName>, <persName>Mr le Chevalier de
+            Villars</persName>, &amp; <persName>Mr le Baron des Ardrets</persName> ; trois Enseignes
+          qui sont <persName>Mr Desgleraux</persName>, <persName>Mr de Beaujeu</persName>, &amp;
+            <persName>Mr le Chevalier de Gault</persName> ; seize Gardes de Marine ; soixante &amp;
+          huit Officiers Mariniers, &amp; cent quatre-vingts deux Matelots. Quantité de
+            <tech>Banderoles blanches</tech> ornoient le <tech>Vaisseau</tech>. Tout
+            l’<name>Equipage</name> parut dans une magnificence qui <pb n="84" xml:id="p84"/> ne se
+          peut concevoir.</p>
+        <p>Le fond des <tech>Juste-à-corps des Capitaines, Lieutenans &amp; Enseignes</tech>, estoit
+          bleu mais quant à l’or &amp; l’argent dont on les voyoit couverts à peine y en avoit il
+          deux d’une mesme sorte, les Galons d’or &amp; d’argent des uns n’estant pas moins diférens
+          que la Broderie des autres. Le reste de leur ajustement estoit d’un fort grand éclat. Si
+          la Noblesse Françoise sans le secours mesme d’aucun ornement, a toûjours un certain air
+          qui marque <pb n="8 5"/> les avantages que luy donne la naissance, jugez combien elle doit
+          paroistre quád elle cherche à se distinguer, &amp; qu’elle a dessein de plaire au
+            <persName>plus grand Prince du Monde</persName>. Le <persName>Roy</persName> qui devoit
+          donner à toute sa Cour le plaisir de voir un <tech>Vaisseau</tech> armé, n’avoit point
+          douté que les principaux Officiers qui seroient dessus, ne se missent en état d’estre
+          remarquez par la dépense qu’ils auroient faite ; mais comme il vouloit que tout répondist
+          à ce qu’il attendoit <pb n="86" xml:id="p86"/> d’eux, afin que la satisfaction des Dames
+          en fust plus entiere. Il avoit fait habiller à ses dépens les Gardes-Marines, les
+          Officiers Mariniers, les Soldats &amp; Matelots. Ainsi, jamais on ne vit rien de si leste
+          sur aucun <tech>Vaisseau</tech>.</p>
+        <p>Les <tech>Juste-à-corps des seize Gardes de la Marine, &amp; des quatre Sergens</tech>,
+          estoient d’Ecarlate, avec deux galons d’or par derriere, &amp; un sur chaque couture. Les
+          Paremens des Manches, &amp; la Veste, estoient de Velours <pb n="87" xml:id="p87"/> verd,
+          le tout orné d’un galon d’or de mesme que la Culote, qui estoit aussi d’Ecarlate. Ils
+          avoient des Bas de couleur de feu, des Baudriers de <tech>Buffle</tech> garnis d’un double
+          galon d’or, des Echarpes de Taffetas blanc, bordées de Frange ainsi que des Gans ; des
+          Sabres dorez, des Chapeaux noirs &amp; des Plumes blanches, des Cravates en manière de
+          Rabat, renoüées d’un Ruban verd &amp; rouge, &amp; des Nœuds d’épaule &amp; d’Epée de
+          mesme, avec une Crépine d’or au bout. <pb n="88" xml:id="p88"/></p>
+        <p>Les principaux Officiers Mariniers, qui sont deux Pilotes, le Maistre, le Contre-Maistre,
+          le Maistre Charpentier, deux Maistres Cannoniers, &amp; le Capitaine des Matelots,
+          diféroient des Gardes-Marines &amp; des Sergens, en ce que l’Etofe de leurs
+            <tech>Juste-à-corps</tech> estoit bleuë, leur Galon d’un autre dessein, &amp; meslé
+          d’argent, leur Sabre argenté, &amp; leurs Rubans de Ponceau.</p>
+        <p>Les <tech>Habits des Matelots</tech> qui devoient monter aux Voiles, estoient fort com-
+            <pb n="89" xml:id="p89"/>modes. C’estoit un demy Juste-à-corps, ayant les manches
+          serrées &amp; boutonnées sur le poignet. Il estoit d’Ecarlate, avec un Galon or &amp;
+          argent sur chaque couture. La mesme chose sur toutes les coutures de leurs Bonnets, dont
+          le bout retomboit avec une houpe or &amp; argent. Ils estoient rouges ainsi que leurs Bas,
+          mais le revers en étoit de Satin noir, avec un Galon or &amp; argent autour du bord. Ils
+          avoient des Chausses bleuës, avec un Galon aussi or &amp; argent sur <pb n="90"
+            xml:id="p90"/> les côtez, une Echarbe blanche garnie d’une Frange d’or, des Escarpins
+          blancs ouverts par les côtez, &amp; des Cravates de Tafetas noires avec une Frange
+          d’or.</p>
+        <p>Les Matelots destinez à demeurer sur le Gaillard, &amp; tous les Chefs de File,
+            <tech>avoient</tech> des Juste-à-corps de la grandeur ordinaire, garnis sur le devant,
+          sur les manches, le long des poches &amp; par derriere, de gros Boutons &amp; Boutonnieres
+          à queuë or &amp; argent, ainsi qu’on en mesur les Casaques qu’on ap- <pb n="91"
+            xml:id="p91"/>pelle Brandebourg. Leurs Culotes estoient bleuës avec deux Galons sur les
+          costez ; leurs Bas, rouges ; leurs Souliers, bronzez ; leurs Cravates, noires à pointes
+          renoüées de molet d’or &amp; d’argent, &amp; autour du col, sans Rubans. Ils avoient encor
+          chacun une Echarpe blanche garnie de franges par les bouts, &amp; de molet tout autour,
+          &amp; un Bonnet rouge à la Polonoise, doublé de Velours vert par le devant, avec des
+          Boutons &amp; des Boutonnieres comme ceux des <pb n="92" xml:id="p92"/> Juste-à-corps, un
+          Galon or &amp; argent sur les coutures &amp; une Houpe aussi or &amp; argent sur le
+          bout.</p>
+        <p>Tous les autres Matelots avoient un Bonnet semblable à ceux-cy, à la réserve qu’il n’y
+          avoit qu’un petit Galon or &amp; argent par tout sur les coutures. Ils avoient aussi des
+          Cravates, &amp; des Echarpes pareilles à celles que je viens de vous décrire ; un petit
+          Jupon rouge tombant un peu au dessous de la poche, garny sur les coutures d’un Galon or
+          &amp; ar- <pb n="93" xml:id="p93"/>gent large d’un grand doigt ; une Culote bleuë, avec un
+          Galon sur les costez ; des Bas rouges, &amp; des Souliers blancs &amp; fort plats.</p>
+        <p>Les Soldats qui composent la Compagnie de <persName>Mr le Chevalier de Lhery</persName>,
+            <tech>avoient</tech> tous des Juste-à-corps tirant sur la couleur de musc, avec un Galon
+          d’or sur chaque couture. Le revers de leurs Manches estoit orné d’un pareil Galon, ainsi
+          que leurs Chausses &amp; leurs Vestes ; la Veste estoit de Drap verd, &amp; les Chausses
+          rouges. On <pb n="94" xml:id="p94"/> ne peut rien voir de plus beau, ny de plus riche
+          qu’estoient leurs Bonnets. On les avoit faits à la Polonoise d’un Etofe rouge, doublée de
+          Velours verd avec un Galon d’or sur les coutures. Une Houpe d’or faisoit retomber la
+          pointe de ces Bonnets, au devant desquels on voyoit un Soleil d’or. Leurs Cravates
+          estoient de Tafetas noir, garnies d’une frange d’or, &amp; renoüées d’un Ruban verd &amp;
+          couleur de feu, avec des nœuds d’épaule des mesmes couleurs ayant une <pb n="95"
+            xml:id="p95"/> frange d’or au bout. Ils avoient des Echarpes blanches frangées d’or, des
+          Baudriers de <tech>Bufle</tech>, des Sabres dorez &amp; garnis d’un nœud de Ruban couleur
+          de feu &amp; verd, des Souliers bronzez, &amp; des Bandolieres de Cuir de Roussy, frangées
+          aussi d’or, ainsi que les Gans. Les Chifres du <persName>Roy</persName> estoient sur ces
+          Bandolieres avec des Couronnes en broderie d’or.</p>
+        <p>Les <tech>Tambours avoient</tech> des Juste-à-corps tout couverts de Galon d’or, des <pb
+            n="96" xml:id="p96"/> Bonnets d’Ecarlate d’une façon extraordinaire, garni du mesme
+          Galon, &amp; de Caisses magnifiques dont les Cordons estoient de soie bleuë, meslez de
+          fils d’or.</p>
+        <p>Il me reste à vous apprendre la disposition de tout l’<name>Equipage</name>. Les Gardes
+          de la Marine estoient sur la Dunete, mis en bataillon ; &amp; deux Files de Matelots
+          rangez sur les aîles depuis les Cabanes jusques au Fronteau, avoient à leur teste
+            <persName>Mr le Baron des Adrets</persName>. Chacun tenoit à la main une pe- <pb n="97"
+            xml:id="p97"/>tite Pertuisane toute dorée, &amp; au milieu de leurs Forts estoient les
+          Armes du <persName>Roy</persName>.</p>
+        <p>On voyoit sur le Gaillard dix-huit Matelots par bandes, avec chacun une Pertuisane comme
+          celle des Gardes-Marines. Les deux premiers Pilotes estoient aupres du Mats d’Artimont,
+          &amp; le Maistre sur le milieu du Gaillard.</p>
+        <p>Sur les Lisses d’entre les deux Chasteaux, estoit une File de Matelots avec des Habits
+          moins riches, ayant à leur teste <persName>Mr les Cheva-</persName>
+          <pb n="98" xml:id="p98"/><persName>liers de Beaujeu</persName> &amp; <persName>des
+            Saux</persName>. Les Chefs de File avoient tous des Brandebourgs, &amp; estoient armez
+          de Pertuisancs.</p>
+        <p>Quatre autres Files occupoient le Chasteau d’Avant deux d’un d’un costé, &amp; autant de
+          l’autre. Chaque Matelot estoit armé d’une Hallebarde, ayant seulement une moitié de son
+          fer dorée. <persName>Mr de Courcelles</persName> &amp; <persName>Desglereaux</persName>
+          estoient à leur teste. Il y avoit quatre Officiers Mariniers au milieu &amp; sur les
+          aîles. <pb n="99" xml:id="p99"/></p>
+        <p>Une autre File de Matelots estoit à droit &amp; à gauche, &amp; quatre petites aux deux
+          entrées du Corps-de-garde. Ils avoient aussi des Hallebardes ; mais aucun Officier
+          n’estoit à leur teste, parce qu’on n’est presque point en veuë en ce lieu-là.</p>
+        <p>On avoit rangé les Soldats en Bataillon entre les deux Chasteaux, avec <persName>Mr de
+            Rouvroy</persName> &amp; <persName>de Villars </persName>à leur teste. Quatre Sergens
+          estoient aussi à la teste &amp; à la queuë, mais ils se tenoient sur les aîles. Les deux
+          Maî- <pb n="100" xml:id="p100"/>tres Canonniers estoient à la <name>Sainte
+          Barbe</name>.</p>
+        <p>Toutes choses ayant esté ainsi préparées pour la reception du <persName>Roy</persName>
+          sur l’<name>Entreprenant</name>, (ce <tech>Vaisseau</tech> est du
+            <placeName>port</placeName> de mille Tonneaux, ). <persName>Sa Majesté</persName>
+          s’embarqua sur une <tech>Galiote</tech> toute dorée devant &amp; arriere, sur un fond
+          bleu. Elle estoit <tech>ornée</tech> par tout de divers ouvrages de Sculpture, &amp;
+          couverte d’un Tendelet de Velours rouge cramoisy à Fleurs d’argent, garny de Crêpines à
+          franges or &amp; argent. Les Matelas, <pb n="101" xml:id="p101"/> Rideaux &amp; Coussins,
+          estoient de la mesme Etofe. Elle avoit en Poupe &amp; au haut de son grand Mast, des
+          Pavillons de Damas blanc, &amp; au milieu de ces Pavillons, les Armes de <persName>Sa
+            Majesté</persName> en broderie d’or. Tous les endroits qui devoient estre garnis de
+          Cordages, l’estoient de Cordons de soye cramoisy &amp; or. Il y avoit dans la
+            <tech>Galiote</tech> vingt Rameurs <tech>vestus</tech> de Juste-à-corps d’Ecarlate,
+          garnis de Boutons appellez Brandebourg, or &amp; argent, &amp; fort relevez, &amp; ayant
+          des <pb n="102" xml:id="p102"/> Chausses bleuës, garnies de la mesme sorte. Leurs Bonnets
+          estoient rouges, avec une houpe &amp; un galon d’or sur les coutures. Des Brandebourgs
+          pareils aux premiers, ornoient le revers de ces Bonnets qui estoient de Velours verd. Ils
+          avoient de la frange or &amp; argent à leurs Cravates. <persName>Mr Panetier</persName>
+          tenoit le Gouvernail de la <tech>Galiote</tech>, &amp; <persName>Mr Julien
+            Enseigne</persName> estoit sur la Prouë pour obliger les Rameurs à observer l’ordre.
+          Cette <tech>Galiote</tech> estoit suivie de plusieurs <tech>Chaloupes</tech> pein- <pb
+            n="103" xml:id="p103"/>tes &amp; couvertes de Tendelets de Damas de diférentes
+          couleurs ; le tout garny de crêpines, frange, &amp; molet or &amp; argent, accompagnez de
+          Rideaux &amp; de Coussins de mesme parure. Tous les Seigneurs de la Cour estoient dans ces
+          petits <tech>Bastimens</tech>.</p>
+        <p>Si-tosts qu’on vit avancer <persName>Sa Majesté</persName>,<persName> Mr le Chevalier de
+            Lhery</persName> fit commandement à tous les Matelots du <tech>Vaisseau</tech> de poser
+          les armes à terre, &amp; de monter en haut sur les Vergues &amp; dans les <pb n="104"
+            xml:id="p104"/> hauts bouts. Chacun obeït avec une diligence merveilleuse. Jugez du
+          brillant effet que pouvoit produire la magnificence de tout l’<name>Equipage</name>,
+          jointe aux riches ornemens dont je vous ay fait la description. Le
+            <persName>Roy</persName> en fut tres-content, &amp; trouva, en arrivant au
+            <tech>Vaisseau</tech>, un <tech>Escalier</tech> fort commode, dont les Balustres
+          estoient de fer peint de bleu, avec des filets d’or. <persName>Mr de Paliere</persName>
+          l’attendoit au bas de cet Escalier. <persName>Mr de Courcelles</persName>, <persName>Mr de
+            Rouvroy</persName>, <persName>Mr le Chevalier</persName>
+          <pb n="105" xml:id="p105"/>
+          <persName>de Villars</persName>, <persName>Mr le Baron des Adrets</persName>, <persName>Mr
+            Desgleraux</persName>, <persName>Mr de Beaujeu</persName>, &amp; <persName>Mr le
+            Chevalier de Saulx</persName>, estoient tous en haye le long de la Balustrade.
+            <persName>Mr le Chevalier de Lhery </persName>reçeut le <persName>Roy</persName> au haut
+          du mesme Escalier. Il estoit accompagné de <persName>Monseineur le Dauphin</persName>, de
+            <persName>Monsieur</persName>, de <persName>Son Altesse Serénissime</persName>, de
+          Messieurs les <persName>Princes de Conty</persName> &amp; <persName>de la
+            Roche-sur-Yon</persName>, &amp; de plusieurs Seigneurs de sa Cour.</p>
+        <p>Ce <persName>Prince</persName> ayant ordonné d’abord à <persName>Mr le
+            Chevalier</persName>
+          <pb n="106" xml:id="p106"/>
+          <persName>de Lhery</persName> de faire descendre les Matelots, ils se remirent dans leurs
+          Postes avec beaucoup d’ordre, &amp; un silence qu’on n’avoit pû jusqu’à présent faire
+          garder aux Gens de Marine.</p>
+        <p><persName>Sa Majesté</persName> descendit en suite dans la <tech>Chambre des
+          Armes</tech>, qu’elle trouva en tres-bon état. Elles estoient rangées d’une manière
+          extraordinaire, &amp; qui luy plût fort. Elle descendit encor dans la <tech>Baterie
+            basse</tech>, qui estoit extrémement propre, &amp; dans le mesme état que <pb n="107"
+            xml:id="p107"/> si le <tech>Vaisseau</tech> dû compatre ; apres quoy Elle visita tout le
+            <persName>Vaisseau</persName> jusques à la Sonde aux Poudres, &amp; au Fond de cale,
+          faisant l’honneur à <persName>Mr le Chevalier de Lhery</persName> de luy donner
+          quelquefois la main pour se soûtenir, &amp; luy demandant le détail de toutes choses. La
+            <tech>Chambre</tech> du <persName>Roy</persName>, &amp; celle de <persName>Mr le
+            Chevalier de Lhery</persName>, parurent si propres, qu’il n’y eut personne qui n’en fust
+          surpris. <persName>Sa Majesté</persName> mesme en trouva les Meubles si sompteux, qu’elle
+            <pb n="108" xml:id="p108"/> crût qu’on les avoit achetez à ses dépens.</p>
+        <p>Le <persName>Roy</persName> estant remonté sur la Dunete du <tech>Vaisseau</tech>, voulut
+          voir faire l’Exercice des Voiles aux Matelots. Ils s’en acquiterent avec beaucoup d’ordre,
+          &amp; ce fut quelque chose de surprenant que leur silence. A cet Exercice succeda celuy
+          des Armes, qui fut fait par les Soldats. La justesse avec laquelle ils executerent tout ce
+          qui estoit de leur employ, les fit admirer. Apres cela<persName>, Mr le Chevalier de
+            Lhery</persName> fit dé- <pb n="109" xml:id="p109"/>fendre l’Abordage par les Soldats
+          &amp; par les Matelots ; &amp; comme ce <persName>Chevalier</persName> s’estoit mis à la
+          teste l’Epée à la main, &amp; qu’il alloit de costé &amp; d’autre avec beaucoup d’action,
+          le <persName>Roy</persName> dit à <persName>Monseigneur le Dauphin</persName>. Voyez-vous
+          le <persName>Chevalier</persName> comme il agit ? Il s’est trouvé dans une pareille
+          occasion, mais ce n’estoit pas un jeu ; il s’en tira fort glorieusement. <persName>Sa
+            Majesté</persName> commanda en suite qu’on fist l’Exercice du <tech>Canon</tech>, qui la
+          satisfit beaucoup ; &amp; apres avoir de- <pb n="110" xml:id="p110"/>meuré deux heures
+          &amp; demie dans le <tech>Vaisseau</tech>, Elle en sortit en loüant <persName>Mr le
+            Chevalier de Lhery</persName>, &amp; témoignant estre fort contente du silence, du bon
+          ordre, de la diligence des Maneuvres, &amp; de la discipline des Soldats, mais sur tout de
+          ses services, dont Elle se souviendroit, en prenant soin de son avancement &amp; de sa
+          fortune.</p>
+        <p>Le mesme jour, sur les trois heures apres midy, la <persName>Reyne</persName> vint voir
+          ce magnifique <tech>Vaisseau</tech>, accompa- <pb n="111" xml:id="p111"/>gnée de
+            <persName>Madame la Dauphine</persName>, de <persName>Madame</persName>, de
+            <persName>Mademoiselle d’Orleans</persName>, &amp; de la plus grande partie des Dames de
+          la Cour. On avoit fait faire un <tech>Pont</tech> qui alloit de terre jusques au
+            <tech>Vaisseau</tech>, afin qu’elle y montast plus commodement. Les mesmes Exercices qui
+          avoient esté faits devant le <persName>Roy</persName>, furent recómencez pour cette
+            <persName>Princesse</persName>. <persName>Sa Majesté</persName> y prit beaucoup de
+          plaisir, &amp; n’en eut pas moins à voir les <tech>Apartemens</tech> de ce grand &amp;
+          superbe <tech>Bastiment</tech>. La ri- <pb n="112" xml:id="p112"/>chesse &amp; la propreté
+          des Meubles, plûrent fort à toutes les Dames de la Cour. Aussi donnerent-elles beaucoup de
+          loüanges à <persName>Mr le Chevalier de Lhery</persName>, sur ce qu’il s’étendoit en
+          toutes choses. La <persName>Reyne</persName> se fit apporter la <tech>Collation</tech>
+          dans le <tech>Vaisseau</tech>, où Elle demeura pres de trois heures. <persName>Mr le
+            Chevalier de Lhery</persName> fit servir aux Dames quantité de Glaces ; &amp; pendant
+          que la Cour a sejourné à <placeName>Dunkerque</placeName>, il a donné plusieurs
+          magnifiques <tech>Collations</tech>. Il en donna <pb n="113" xml:id="p113"/>
+          <tech>une</tech> le <date>28.</date> à <persName>Monsieur le Prince de Conty</persName>, à
+            <persName>Mesdames les Duchesses de Chevreuse </persName>&amp; <persName>de
+            Beauvilliers</persName>, à <persName>Mr le Duc de Chevreuse</persName>, à <persName>Mr
+            l’Ambassadeur de Suede</persName>, à <persName>Mr le Marquis de Maulevrier</persName>, à
+            <persName>Mr de S. Géran</persName> &amp; <persName>de Thury</persName>, &amp; <tech>une
+            autre</tech> le <date>lendemain</date> à <persName>Mesdames les Duchesses de
+            Crussol</persName> &amp; <persName>de la Ferté</persName>, à <persName>Madame de la
+            Mothe</persName>, &amp; à <persName>Mesdames de Seignelay</persName> &amp; <persName>de
+            Maintenon</persName>.</p>
+        <p>L’apresdînée du mesme <date>jour</date> que le <persName>Roy</persName> eus testé sur <pb
+            n="114" xml:id="p114"/> ce <tech>Vaisseau</tech>, il fit le tour des <placeName>Remparts
+            de Dunkerque</placeName>, &amp; visita les <placeName>Fortifications</placeName> par
+          dehors, aussi-bien que le <name>Risban</name>, qui est une espece de petit
+            <tech>Fort</tech> que l’on fait faire au bord de la Mer<persName>. Sa Majesté</persName>
+          donna les ordres particulierement pour faire mettre le <tech>Port</tech> en bon état. Il y
+          a déjà quelque temps que pour le rendre meilleur, on commença deux Jettées, que l’on fait
+          en droit ligne au travers du Banc jusques à la <placeName>Rade</placeName>. Elles sont
+          éloignées l’une de l’autre d’environ <pb n="115" xml:id="p115"/> quarante toises, &amp;
+          fort avancées présentement, quoy qu’elles en ayent pres de mille de longuer. Pour donner
+          une entiere seûreté à cette <placeName>Rade</placeName>, on doit construire un
+            <tech>Risban</tech> au bout des Jettées, &amp; un autre dans la Mer vers la pointe
+          occidentale d’un Banc fait en croissant, &amp; qui ayant ses pointes tournées vers la
+          terre, semble n’avoir esté ainsi disposé que pour défendre la <placeName>Rade</placeName>.
+          Il y a plus de cent Pieces de <tech>Canon</tech> rangées sur le bord du
+            <placeName>Port</placeName>. Ce <placeName>Port</placeName> se vuide : <pb n="116"
+            xml:id="p116"/> entierement dans la basse Mer, &amp; alors on ouvre les
+            <tech>Ecluses</tech> dont l’eau le nettoye aussi-bien que le Canal. Dans les hautes
+          marées de la pleine &amp; nouvelle Lune, la Mer croist dans le <placeName>Port</placeName>
+          de plus de dix-huit pieds. Le Canal qui va du <placeName>Port</placeName> à la
+            <placeName>Rade</placeName>, a un ¼ de lieuë, &amp; il est accompagné presque dans toute
+          sa longueur d’une Jettée de bois garnie de pierres. On a fait un
+            <placeName>Risban</placeName> au bout du Canal, dans la Mer, en triangle sphérique, dont
+          un costé regarde le Canal, <pb n="117" xml:id="p117"/> l’autre la pleine Mer, &amp; le
+          troisiéme le Banc du <placeName>Château</placeName>.</p>
+        <p>Le <date>28.</date> ayant esté destiné pour faire la Reveuë de cinq Bataillons François,
+          &amp; de deux Bataillons Suisses, qui sont en garnison dans la
+            <placeName>Ville</placeName> &amp; dans la <placeName>Citadelle</placeName>, le
+            <persName>Roy</persName> les vist à son ordinaire, c’est-à-dire avec une application qui
+          luy fait aussitost connoistre le fort &amp; le foible de tout ce qu’il voit. Il visita en
+          suite la <placeName>Citadelle</placeName>, &amp; fit lâcher les <tech>Ecluses</tech>. Si
+          l’on examine tout ce <pb n="118" xml:id="p118"/> que <persName>Sa Majesté</persName> a
+          fait à <placeName>Dunkerque</placeName>, dans le peu de temps qu’Elle y a passé, on aura
+          peine à comprendre comment Elle a pû suffire à tant de fatigues. Joignez à tout ce que je
+          vous ay déjà dit, qu’Elle ne laissoit pas d’estre tous les jours au Conseil pendant
+          plusieurs heures.</p>
+        <p>Le <date>29.</date> apres midy, le <persName>Roy</persName> retourna sur le
+            <tech>Vaisseau</tech>
+          <name>l’Entrepreant</name>, &amp; y fit faire toutes les Maneuvres dont il est possible de
+          se servir. <persName>Mr le Chevalier de Lhery</persName> le reçeut avec son
+            <name>Equipage</name>, comme <pb n="119" xml:id="p119"/> s’il eust esté en Mer. La
+          moitié faisoit le quart, qui est la Garde, &amp; cette Garde fut relevée devant ce
+            <persName>Prince</persName>, par l’autre moitié de l’<name>Equipage</name>. Ensuite
+            <persName>Sa Majesté</persName> ordonna à <persName>Mr le Chevalier de Lhery</persName>,
+          de mettre son <tech>Vaisseau</tech> dans l’état où il doit estre quand il y a occasion de
+          combattre. Cela fut fait aussitost. On fit agir le <tech>Canon</tech> en confusion, comme
+          s’il eust tiré dans un Combat. Le <persName>Roy</persName>, &amp; toute la Cour, y prirent
+          beaucoup de plaisir. Apres cela, <name>l’Abordage</name> fut <pb n="120" xml:id="p120"/>
+          défendu aussi en confusion par les Soldats, &amp; les Matelots qui <tech>avoient</tech>
+          plusieurs Armes diférentes, les uns des Sabres, des Haches d’armes &amp; des
+          Pertuisannes ; &amp; les autres, des Hallebardes, des Epées, des Epontons, des
+          Mousquetons, &amp; des Pistolets. Cet Exercice finy, le <persName>Roy</persName> voulut
+          voir manger l’<name>Equipage</name>, &amp; ne sortir du <tech>Vaisseau</tech> qu’apres y
+          avoir demeuré plus de trois heures. Il entra de là dans sa <tech>Galiote</tech>,
+          accompagné de <persName>Monseigneur le Dauphin</persName>, de <persName>Son</persName>
+          <pb n="121" xml:id="p121"/>
+          <persName>Altesse Serénissime</persName>, de <persName>Messieurs les Princes de
+            Conty</persName> &amp; <persName>de la Roche-sur-Yon</persName>, &amp; de <persName>Mr
+            les Ducs de la Roche-foucaut</persName>, &amp; <persName>de Duras</persName>, pour aller
+          voir le Combat de deux <tech>Frégates</tech> qui se tenoient prestes à luy donner ce
+          plaisir.</p>
+        <p>L’une, appellée <name>l’Adroit</name>, estoit commandée par <persName>Mr
+            Panetier</persName>, Capitaine de <tech>Vaisseau</tech>, &amp; montée de trente-six
+          pieces de <tech>Canon</tech>. <persName>Mr Albert</persName>, Capitaine de
+            <tech>Frégate</tech> legere, commandoit l’autre qui estoit montée de trente. <pb n="122"
+            xml:id="p122"/> On la nomme <name>la Serpente</name>. <persName>Sa Majesté</persName>
+          fit l’honneur à <persName>Mr le Chevalier de Lhery</persName> de le faire entrer dans sa
+            <tech>Galiote</tech>, afin d’y tenir le Gouvernail. La <persName>Reyne</persName>,
+          accompagnée de <persName>Madame la Dauphine</persName>, de <persName>Madame</persName>, de
+            <persName>Mademoiselle d’Orleans</persName>, &amp; de <persName>Mesdames de
+            Montespan</persName>, <persName>de Créquy</persName>, <persName>de Richelieu</persName>,
+            <persName>de la Mothe</persName>, <persName>de la Ferté</persName>, &amp; <persName>de
+            Maintenon</persName>, suivit dans une autre que la peinture &amp; l’or rendoient
+          magnifique. Elle estoit <tech>couverte</tech> d’un Tendelet de Damas rouge-cra- <pb
+            n="123" xml:id="p123"/>moisy garny de Crêpine, de range, &amp; de Molet d’or, avec le
+          mesme ornement aux Matelas, Rideaux &amp; Coussins. <persName>Mr de Selingue</persName>,
+          Capitaine de <tech>Frégate</tech> légere, eut le soin du Gouvernail. Tout le reste de la
+          Cour entra dans d’autres <tech>Chaloupes</tech>, pareillement peintes &amp; dorées, &amp;
+            <tech>couvertes</tech> de Tendelets de Damas de diférentes couleurs, avec Rideaux &amp;
+          Coussins garnis aussi de Crêpine, de Frange, &amp; de Molet d’or.</p>
+        <p>Toutes ces <tech>Chaloupes</tech> s’es- <pb n="124" xml:id="p124"/>tant arrestées à
+          l’entrée du <placeName>Port</placeName>, le signal fut donné pour le Combat, &amp;
+          aussitost la <tech>Frégate</tech>
+          <name>l’Adroit</name> leva l’Ancre. Toutes les deux firent diverses Maneuvres pour se
+          disputer le vent. <name>L’Adroit</name> envoya sa bordée à <name>la Serpente</name>.
+            <name>La Serpente</name> prit son temps pour envoyer la sienne à <name>l’Adroit</name>.
+          Elles venoient quelquefois jusqu’à la portée du Pistolet, s’éloignoient ensuite,
+          regagnoiét le vent l’une sur l’autre, &amp; firent durer ainsi le Combat pendant plus
+          d’une heure, <pb n="125" xml:id="p125"/> avec une entiere satisfaction de toute la
+          Cour.</p>
+        <p>Pendant le séjour que le <persName>Roy</persName> fit à <placeName>Dunkerque</placeName>,
+          comme la Cavalerie de sa Maison est tres-nombreuse, les Gardes du Coprs, les Gensdarmes,
+          Chevaux-Legers, Mousquetaires, &amp; Grenadiers, camperent aux environs de la
+            <placeName>Ville</placeName>, sous le commandement de <persName>Mr le Duc de
+            Noailles</persName>. <persName>Sa Majesté</persName> avant son départ, marqua plus
+          particulierement à <persName>Mr le Chevalier de Lhery</persName> combien Elle estoit
+          contente de <pb n="126" xml:id="p126"/> la beauté du <tech>Vaisseau</tech>, &amp; de
+            l’<name>Equipage</name>, du bon ordre qu’Elle avoit vû observer en toutes choses, &amp;
+          fut tout de l’intelligence de ceux qui estoient dedans, par des gratifications dignes
+          d’Elle. Elle donna</p>
+        <p>12000 l. à ce <persName>Chevalier</persName>.</p>
+        <p>2000 l. au <persName>Capitaine en second</persName>.</p>
+        <p>1000 l. à chacun des quatre Lieutenans.</p>
+        <p>600 l. à chacun des Enseignes.</p>
+        <p>300 l. au <persName>Maistre du Navire</persName>. <pb n="127" xml:id="p127"/></p>
+        <p>100 l. à chaque Garde de Marine.</p>
+        <p>4000 l. au Soldats &amp; Matelots.</p>
+        <p>&amp; 100 l. à l’<persName>Aumônier</persName>.</p>
+        <p><persName>Monseigneur le Dauphin</persName> fit ressentir aussi des effets de sa
+          liberalité à tout l’<name>Equipage</name>. Il ne faut pas oublier à vous apprendre celle
+          de <persName>Mr le Prince de Conty</persName>. Le jour que ce <persName>Prince</persName>
+          alla voir <name>l’Entreprenant</name>, un Matelot faisant l’exercice de la Maneuvre, tomba
+          d’assez haut sur une Piece de <tech>Canon</tech>, &amp; de là dans l’eau. Il fut tiré <pb
+            n="128" xml:id="p128"/> de la Mer dangereusement blessé de sa chute. <persName>Mr le
+            Prince de Conty</persName> l’ayant appris, luy donna douze Loüis, le fit porter dans une
+          Maison, où il voulut qu’on prist soin de luy, &amp; envoya ordre en mesme temps pour faire
+          payer tous les jours de la dépense que feroit ce Malheureux. Je ne doute point,
+            <persName>Madame</persName>, que vous ne vous souveniez de tout ce que je vous ay dit de
+          ce jeune <persName>Prince</persName>, dans la Relation particuliere que je vous ay envoyée
+          de son Mariage. <pb n="129" xml:id="p129"/> Vous voyez qu’il soûtient en toutes choses son
+          caractere de bonté &amp; de genérosité, &amp; que c’estoit avec connoissance &amp; avec
+          justice, que dés sa plus tendre enfance, la Cour le regardoit avec admiration, &amp; en
+          avoit conçeu de si hautes espérances.</p>
+        <p>Le <date>30.</date> les Envoyez extraordinaires d’<placeName>Angleterre</placeName>,
+          apres avoir esté <tech>régalez</tech> par <persName>Sa Majesté</persName>, &amp; par
+          plusieurs Personnes de marque, eurent leur audience de congré, &amp; reçeurent chacun le
+            <pb n="130" xml:id="p130"/>
+          <tech>Portrait</tech> du <persName>Roy</persName> dans une <tech>Boëte</tech> enrichie de
+          Diamans.</p>
+        <p>Ce mesme jour le <persName>Roy</persName> partit de <placeName>Dunkerque</placeName>,
+          apres avoir donné quarante mille livres aux Magistrats, à cause qu’ils ont beaucoup
+          contribué aux Armemens de Mer.</p>
+      </div>
+    </body>
+  </text>
+</TEI>
