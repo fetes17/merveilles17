@@ -64,8 +64,7 @@
   <text>
     <body>
       <figure>
-        <graphic
-          url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6339961b/f31/full/full/0/native"/>
+        <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6339961b/f31/full/full/0/native"/>
         <figDesc>Ornement de début d'article</figDesc>
       </figure>
       <head rend="center">SUITE DU JOURNAL</head>
@@ -580,8 +579,13 @@
               firent éclater leur adresse &amp; leur intrepedité. Ils entrerent dans les toiles
               armez seulement d’un couteau de chasse &amp; d’un épieu. Cet exercice perilleux est
               fort usité parmi les Seigneurs Allemans.</p>
-            <list>
-              <item/>
+            <list ana="noms" xml:id="chasselist">
+              <item><persName key="louisxv" role="destinataire">Roy</persName> fut placé</item>
+              <item><persName key="mauricesaxe" role="convive">Le Comte de Saxe</persName></item>
+              <item><persName key="charles_auguste_waldeckpyrmont" role="convive">le Prince de
+                  Valdeik</persName></item>
+              <item>&amp; quelques Seigneurs François, y firent éclater leur adresse &amp; leur
+                intrepedité</item>
             </list>
             <p><persName key="mauricesaxe" role="convive">Le Comte de Saxe</persName> accula plus
               d’un <tech type="animal">Sanglier</tech> avec son épieu. Le <persName key="louisxv"
@@ -1094,15 +1098,15 @@
                 facs="https://gallica.bnf.fr/ark:/12148/bpt6k6339961b/f66.item"/>
               <figure>
                 <graphic url=""/>
-                <figDesc/>
+                <figDesc>partition de musique page 1</figDesc>
               </figure>
               <figure>
                 <graphic url=""/>
-                <figDesc/>
+                <figDesc>partition de musique page 2</figDesc>
               </figure>
               <figure>
                 <graphic url=""/>
-                <figDesc/>
+                <figDesc>partition de musique page 3</figDesc>
               </figure>
               <lg ana="vers" xml:lang="fr">
                 <l ana="vers" xml:lang="fr">Voici vôtre plus heureux jour,</l>
@@ -1348,7 +1352,7 @@
             key="armand_de_bethune" role="convive">du Duc de Charost, son Gouverneur</persName>,
           &amp; escorté par les détachemens des Gendarmes &amp; des Chevaux-Legers de la Garde, par
           ceux des deux Compagnies des Mousquetaires, &amp; par le Guet des Gardes du Corps.</p>
-        <list>
+        <list ana="noms">
           <item><persName key="louisxv" role="destinataire">Roy</persName> accompagné dans son
             carosse de</item>
           <item><persName key="philippe_orleans_regent" role="convive">Monsieur le Duc
@@ -1689,8 +1693,11 @@
         <p>specteur general de <placeName key="chantilly">Chantilly</placeName>, à laquelle
           mangeoient les Dessinateurs, Architectes &amp; Ordonnateurs des Bâtimens &amp; menus
           Plaisirs.</p>
-        <list>
-          <item/>
+        <list ana="description" xml:id="table8">
+          <item>les Dessinateurs</item>
+          <item>Architectes</item>
+          <item>Ordonnateurs des Bâtimens</item>
+          <item>menus Plaisirs</item>
         </list>
         <p>Une <tech type="repas">table</tech> à <placeName key="hotelbeauvaichantilly">l’Hôtel de
             Beauvais</placeName>, près <placeName key="paroissechantilly">la Paroisse</placeName>,
@@ -2388,7 +2395,7 @@
                 </lg>
                 <figure>
                   <graphic url=""/>
-                  <figDesc/>
+                  <figDesc>étoile</figDesc>
                 </figure>
                 <lg ana="vers" xml:lang="fr">
                   <l ana="vers" xml:lang="fr">La <name key="presidentepiece">Presidente</name> au
@@ -2704,13 +2711,41 @@
                 <persName key="marieisabelle_rohan" role="convive">la Duchesse de Talard</persName>,
                 <persName key="annejulie_demelun" role="convive">de Mademoiselle de
               Melun</persName>, &amp; des Dames <persName key="marie_victoire_savoie" role="convive"
-                >de Busc</persName>, <persName>d’Ancenis</persName>, <persName>de Nesle</persName>,
-                <persName>de Beaune</persName>, <persName key="jeanne_agnes_berthelot_pleneuf"
-                role="convive">de Prie</persName>, <persName>de la Vrilliere</persName>,
-                <persName>de Lassé</persName>, <persName>du Bellay</persName>, <persName>de
-                Tarannes</persName>, &amp;c.</p>
-            <list>
-              <item/>
+                >de Busc</persName>, <persName key="julie_christine_regine_georges_antraigues"
+                role="convive">d’Ancenis</persName>, <persName key="armande_felice_la_portemazarin"
+                role="convive">de Nesle</persName>, <persName>de Beaune</persName>, <persName
+                key="jeanne_agnes_berthelot_pleneuf" role="convive">de Prie</persName>, <persName
+                key="francoisedemailly" role="convive">de la Vrilliere</persName>, <persName
+                key="mariesophie_colbert" role="convive">de Lassé</persName>, <persName
+                key="catherinefelicitedubellaydelapallu" role="convive">du Bellay</persName>,
+                <persName>de Tarannes</persName>, &amp;c.</p>
+            <list ana="noms">
+              <item><persName key="louisxv" role="destinataire">S. M.</persName>étoit accompagné
+                de</item>
+              <item>Tous les Princes</item>
+              <item>Seigneurs de la Cour</item>
+              <item><persName key="mlle_de_Nantes" role="convive">de la Duchesse de
+                  Bourbon</persName></item>
+              <item><persName key="mlleclermont" role="convive">Mademoiselle de
+                Clermont</persName></item>
+              <item><persName key="marieisabelle_rohan" role="convive">la Duchesse de
+                  Talard</persName></item>
+              <item><persName key="annejulie_demelun" role="convive">de Mademoiselle de
+                  Melun</persName></item>
+              <item><persName key="marie_victoire_savoie" role="convive">de Busc</persName></item>
+              <item><persName key="julie_christine_regine_georges_antraigues" role="convive"
+                  >d’Ancenis</persName></item>
+              <item><persName key="armande_felice_la_portemazarin" role="convive">de
+                  Nesle</persName></item>
+              <item><persName>de Beaune</persName></item>
+              <item><persName key="jeanne_agnes_berthelot_pleneuf" role="convive">de
+                Prie</persName></item>
+              <item><persName key="francoisedemailly" role="convive">de la
+                Vrilliere</persName></item>
+              <item><persName key="mariesophie_colbert" role="convive">de Lassé</persName></item>
+              <item><persName key="catherinefelicitedubellaydelapallu" role="convive">du
+                  Bellay</persName></item>
+              <item><persName>de Tarannes</persName></item>
             </list>
             <p><tech type="feux-artifice">Le feu d’artifice</tech> commença par <tech
                 type="bruitage">le bruit de 300. boëtes</tech>, qui fut suivi de celui de <tech
@@ -2960,8 +2995,13 @@
                 >l’Université</placeName>, &amp; <placeName key="parisacademiefrancaise">l’Academie
                 Françoise</placeName>, <persName key="bernardlebouyerdefontenelle">M. de
                 Fontenelles</persName>, Directeur, portant la parole.</p>
-            <list>
-              <item/>
+            <list ana="noms">
+              <item><persName key="louisxv" role="destinataire">S. M.</persName></item>
+              <item><persName key="jean_aymard_nicolaÿ">M. de Nicolaï</persName></item>
+              <item><persName key="ricardpresident">M. Ricard</persName></item>
+              <item><persName key="pierre_antoine_castanier_auriac_chateauneuf">M. de
+                  Châteauneuf</persName></item>
+              <item><persName key="bernardlebouyerdefontenelle">M. de Fontenelles</persName></item>
             </list>
             <p>Ils furent tous presentez au <persName key="louisxv" role="destinataire"
                 >Roy</persName> avec</p>
@@ -2987,8 +3027,11 @@
               Ceremonies, &amp; par <persName key="sieurgranges">M. des Granges</persName>, Maître
               des Ceremonies. Les Chefs portans la parole eurent aussi l’honneur de baiser la main
               du <persName key="louisxv" role="destinataire">Roy</persName>.</p>
-            <list>
-              <item/>
+            <list ana="noms">
+              <item><persName key="jean_frederic_phelypeaux">Comte de Maurepas</persName></item>
+              <item><persName key="thomas_dreux_breze">le Marquis de Dreux</persName></item>
+              <item><persName key="sieurgranges">M. des Granges</persName></item>
+              <item><persName key="louisxv" role="destinataire">Roy</persName></item>
             </list>
             <p><date when="1722-11-09">Le même jour</date> le <persName key="louisxv"
                 role="destinataire">Roy</persName> alla sur les cinq heures au <placeName
@@ -3028,7 +3071,7 @@
                 type="lumieres">illuminations</tech>, &amp; autres marques de réjoüissance.</p>
             <figure>
               <graphic url=""/>
-              <figDesc/>
+              <figDesc>Ornement fin d'article</figDesc>
             </figure>
           </div>
         </div>
