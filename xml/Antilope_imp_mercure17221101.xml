@@ -419,8 +419,9 @@
           scenes de leur Theatre que le <persName key="louisriccoboni" role="acteur">Sieur
             Lelio</persName> rassembla, &amp; qui réjoüirent fort <persName key="louisxv"
             role="destinataire">Sa Majesté</persName>. Les <foreign xml:lang="it">Lassis</foreign>
-          d’Arlequin donnerent le temps de préparer <tech type="lumieres">l’illumination</tech> des
-            <placeName key="jardinchateauvillerscotteret">Jardins</placeName> &amp; du <placeName
+            d’<persName key="Thomasso_antonio_vicentini" role="chanteur">Arlequin</persName>
+          donnerent le temps de préparer <tech type="lumieres">l’illumination</tech> des <placeName
+            key="jardinchateauvillerscotteret">Jardins</placeName> &amp; du <placeName
             key="jardinchateauvillerscotteret">Parc</placeName> qui fut des plus brillantes &amp;
           des mieux entenduës.</p>
         <p>Les plus grands connoisseurs dans l’art du Jardinage, avouënt que rien n’est si
@@ -535,7 +536,7 @@
                 key="augustin_vincent_ennequin" role="convive">le Marquis d’Ecquevilly</persName>,
               qui en est Capitaine, devoit faire entrer plusieurs <tech type="animal"
                 >Sangliers</tech> dans l’enceinte qu’on avoit formée près du jardin de <placeName
-                  key="orangeriechateauvillerscotteret">l’Orangerie</placeName>.</p>
+                key="orangeriechateauvillerscotteret">l’Orangerie</placeName>.</p>
             <p>Pour placer le <persName key="louisxv" role="destinataire">Roy</persName> &amp; toute
               sa Cour, on avoit construit <tech type="construction">trois galeries</tech>
               découvertes dans la partie interieure de <placeName key="avenuechateauvillerscotteret"
@@ -902,7 +903,7 @@
                 type="construction">Magasin de Porcelaines</tech>, en tourant toûjours à droite,
               étoit la <tech type="construction">loge des Joüeurs de Gobelets</tech>, habitée par
               eux-mêmes, &amp; meublée de <tech type="decor">drap d’or avec des glaces</tech>. Dans
-              le cartouches étoient les noms <name key="debaptiste" rend="i">de Baptiste &amp; de
+              le cartouches étoient les noms <name key="de_baptiste" rend="i">de Baptiste &amp; de
                 Dimanche</name>, fameux par leurs tours &amp; subtilitez.</p>
             <p>La seconde intitulée <name rend="i" key="lesgu">Lesgu &amp; la Frenaye</name>, &amp;
               dont des Officiers de <persName key="philippe_orleans_regent" role="commanditaire"
@@ -1549,14 +1550,15 @@
           <item><persName key="louisiv_henri_conde" role="commanditaire">Duc de
             Bourbon</persName></item>
         </list>
-        <p>La troiséme, dressée dans la salle du <name rend="i" key="tasse">Tasse</name>, ainsi
-          nommée à cause des tableaux dont elle est ornée, representant la <name key="jerusalem"
-            rend="i">Jerusalem</name> délivrée, de ce <name key="tasse">Poëte</name>, étoit tenuë
-          par le <persName key="charles_de_bourbon_charolais" role="convive">Comte de
-            Charolois</persName>, où mangerent le <persName key="louis_orleans" role="convive">Duc
-            de Chartres</persName>, le <persName key="louis_armand_conti" role="convive">Prince de
-            Conti</persName>, le <persName key="jean_philippe_orlean" role="convive">Grand-Prieur de
-            France</persName> &amp; autres Seigneurs.</p>
+        <p>La troiséme, dressée dans la salle du <persName rend="i" key="letasse">Tasse</persName>,
+          ainsi nommée à cause des tableaux dont elle est ornée, representant la <name
+            key="jerusalem" rend="i">Jerusalem</name> délivrée, de ce <persName key="letasse"
+            >Poëte</persName>, étoit tenuë par le <persName key="charles_de_bourbon_charolais"
+            role="convive">Comte de Charolois</persName>, où mangerent le <persName
+            key="louis_orleans" role="convive">Duc de Chartres</persName>, le <persName
+            key="louis_armand_conti" role="convive">Prince de Conti</persName>, le <persName
+            key="jean_philippe_orlean" role="convive">Grand-Prieur de France</persName> &amp; autres
+          Seigneurs.</p>
         <list ana="noms" xml:id="table3">
           <item><persName key="charles_de_bourbon_charolais" role="convive">Comte de
               Charolois</persName></item>
@@ -2015,7 +2017,7 @@
               </lg>
               <pb n="94" xml:id="p64"
                 facs="https://gallica.bnf.fr/ark:/12148/bpt6k6339961b/f94.item"/>
-              <p rend="center" xml:lang="fr"><seg rend="uc">TROUPE DE <name key="plaisirperso"
+              <p rend="center" xml:lang="fr"><seg rend="uc">TROUPE DE <name key="plaisirsperso"
                     >PLAISIRS</name>.</seg></p>
               <p rend="center"><seg rend="uc"><name key="plaisirperso">UN PLAISIR</name>.</seg></p>
               <lg xml:lang="fr" rend="center" ana="quatrain">
@@ -2299,7 +2301,8 @@
               </div>
               <div>
                 <head rend="center">Sujet de la Comedie des Broüiileries.</head>
-                <p><name rend="i" key="arlequin">Arlequin</name> &amp; <name rend="i" key="trivelin"
+                <p><name rend="i" key="arlequin" corresp="Thomasso_antonio_vicentini"
+                    >Arlequin</name> &amp; <name rend="i" key="trivelin"
                     corresp="dominiquebianconelli">Trivelin</name> sont amoureux de <name
                     key="spinette">Spinette</name>; mais n’étant aimez, ni l’un ni l’autre, ils
                   s’unissent d’interests contre <name key="scapin" rend="i" corresp="bissoni"
@@ -2307,42 +2310,48 @@
                     corresp="bissoni">Scapin</name> avec <name key="spinette">Spinette</name> dépend
                   de celui de <name rend="i" key="lelio" corresp="louisriccoboni">Lelio</name> &amp;
                   de <name key="silvia" rend="i">Silvia</name>, dont ils sont domestiques, <name
-                    key="arlequin">Arlequin</name> &amp; <name key="trivelin"
-                    corresp="dominiquebianconelli">Trivelin</name> imaginent comment ils pourront
-                  apporter obstacle aux amours du maître de <name key="scapin" corresp="bissoni"
-                    >Scapin</name>, &amp; de la maîtresse de <name key="spinette">Spinette</name>,
-                  qui sont comme on vient de le dire, <name key="lelio" corresp="louisriccoboni"
-                    >Lelio</name> &amp; <name key="silvia">Sylvia</name>. <name key="trivelin"
-                    corresp="dominiquebianconelli">Trivelin</name> entreprend de broüiller les
-                  parens, &amp; <name key="arlequin">Arlequin</name> de semer la division parmi les
-                  Amans mêmes, entre diverses fourberies dont ils se servent; <name key="arlequin"
-                    >Arlequin</name> fait accroire à <name key="lelio" corresp="louisriccoboni"
-                    >Lelio</name> qu’il a un Rival, &amp; que ce Rival est actuellement caché chez
-                    <name key="silvia">Sylvia</name>. <name key="lelio" corresp="louisriccoboni"
-                    >Lelio</name> l’a fait venir pour s’en éclaircir, &amp; <name key="arlequin"
-                    >Arlequin</name> travesti, moitié en <name key="arlequin">Arlequin</name>,
-                  moitié en Petit-Maître, fait plusieurs <foreign xml:lang="it">Lazzis</foreign> qui
-                  trompent <name key="lelio" corresp="louisriccoboni">Lelio</name>, paroissant
-                  Petit-Maître à ses yeux, &amp; <name key="arlequin">Arlequin</name> aux yeux de
-                    <name key="silvia">Sylvia</name>. Il se sert du même travestissement pour
-                  éloigner <name key="scapin" corresp="bissoni">Scapin</name> de la maison de <name
-                    key="spinette">Spinette</name>. Il lui donne des <tech type="machine">coups de
-                    bâton</tech> comme Petit-Maître, &amp; feint de se mettre en deux comme <name
-                    key="arlequin">Ar</name></p>
+                    key="arlequin" corresp="Thomasso_antonio_vicentini">Arlequin</name> &amp; <name
+                    key="trivelin" corresp="dominiquebianconelli">Trivelin</name> imaginent comment
+                  ils pourront apporter obstacle aux amours du maître de <name key="scapin"
+                    corresp="bissoni">Scapin</name>, &amp; de la maîtresse de <name key="spinette"
+                    >Spinette</name>, qui sont comme on vient de le dire, <name key="lelio"
+                    corresp="louisriccoboni">Lelio</name> &amp; <name key="silvia">Sylvia</name>.
+                    <name key="trivelin" corresp="dominiquebianconelli">Trivelin</name> entreprend
+                  de broüiller les parens, &amp; <name key="arlequin"
+                    corresp="Thomasso_antonio_vicentini">Arlequin</name> de semer la division parmi
+                  les Amans mêmes, entre diverses fourberies dont ils se servent; <name
+                    key="arlequin" corresp="Thomasso_antonio_vicentini">Arlequin</name> fait
+                  accroire à <name key="lelio" corresp="louisriccoboni">Lelio</name> qu’il a un
+                  Rival, &amp; que ce Rival est actuellement caché chez <name key="silvia"
+                    >Sylvia</name>. <name key="lelio" corresp="louisriccoboni">Lelio</name> l’a fait
+                  venir pour s’en éclaircir, &amp; <name key="arlequin"
+                    corresp="Thomasso_antonio_vicentini">Arlequin</name> travesti, moitié en <name
+                    key="arlequin" corresp="Thomasso_antonio_vicentini">Arlequin</name>, moitié en
+                  Petit-Maître, fait plusieurs <foreign xml:lang="it">Lazzis</foreign> qui trompent
+                    <name key="lelio" corresp="louisriccoboni">Lelio</name>, paroissant Petit-Maître
+                  à ses yeux, &amp; <name key="arlequin" corresp="Thomasso_antonio_vicentini"
+                    >Arlequin</name> aux yeux de <name key="silvia">Sylvia</name>. Il se sert du
+                  même travestissement pour éloigner <name key="scapin" corresp="bissoni"
+                    >Scapin</name> de la maison de <name key="spinette">Spinette</name>. Il lui
+                  donne des <tech type="machine">coups de bâton</tech> comme Petit-Maître, &amp;
+                  feint de se mettre en deux comme <name key="arlequin"
+                    corresp="Thomasso_antonio_vicentini">Ar</name></p>
                 <pb n="104" xml:id="p74"
                   facs="https://gallica.bnf.fr/ark:/12148/bpt6k6339961b/f104.item"/>
-                <p><name key="arlequin">lequin</name>. Enfin <name key="arlequin">Arlequin</name>
-                  &amp; <name key="trivelin" corresp="dominiquebianconelli">Trivelin</name> ayant
-                  appris que <name key="spinette">Spinette</name> a donné un rendez-vous nocturne à
-                    <name key="scapin" corresp="bissoni">Scapin</name>, ils se proposent chacun en
-                  son particulier de troubler ce tête à tête; ils s’y trouvent tous deux déguisez,
+                <p><name key="arlequin" corresp="Thomasso_antonio_vicentini">lequin</name>. Enfin
+                    <name key="arlequin" corresp="Thomasso_antonio_vicentini">Arlequin</name> &amp;
+                    <name key="trivelin" corresp="dominiquebianconelli">Trivelin</name> ayant appris
+                  que <name key="spinette">Spinette</name> a donné un rendez-vous nocturne à <name
+                    key="scapin" corresp="bissoni">Scapin</name>, ils se proposent chacun en son
+                  particulier de troubler ce tête à tête; ils s’y trouvent tous deux déguisez,
                   sçavoir, <name key="trivelin" corresp="dominiquebianconelli">Trivelin</name> en
                     <name key="scapin" corresp="bissoni">Scapin</name>, &amp; <name key="arlequin"
-                    >Arlequin</name> en <name key="spinette">Spinette</name>. L’obscurité de la nuit
-                  favorise leur dessein, &amp; donne lieu à une Scene très-plaisante. L’arrivée de
-                    <name key="lelio" corresp="louisriccoboni">Lelio</name>, &amp; des autres
-                  Acteurs déconcerte nos deux fourbes; on apporte de la lumiere, <name
-                    key="arlequin">Arlequin</name> &amp; <name key="trivelin"
+                    corresp="Thomasso_antonio_vicentini">Arlequin</name> en <name key="spinette"
+                    >Spinette</name>. L’obscurité de la nuit favorise leur dessein, &amp; donne lieu
+                  à une Scene très-plaisante. L’arrivée de <name key="lelio"
+                    corresp="louisriccoboni">Lelio</name>, &amp; des autres Acteurs déconcerte nos
+                  deux fourbes; on apporte de la lumiere, <name key="arlequin"
+                    corresp="Thomasso_antonio_vicentini">Arlequin</name> &amp; <name key="trivelin"
                     corresp="dominiquebianconelli">Trivelin</name> sont découverts, &amp; tous deux
                   également surpris &amp; confus, avoüent toutes leur fourberies; ce qui réünit les
                   Amans broüillez, &amp; dénouë la piece.</p>
@@ -2351,7 +2360,8 @@
               </div>
               <div>
                 <head rend="center"><seg rend="i">Couplets de la comedie des Paniers.</seg></head>
-                <p rend="center"><name key="duresnesieur">Le sieur Dufresne.</name></p>
+                <p rend="center"><persName key="quinault_dufresne_abraham_alexis" role="chanteur">Le
+                    sieur Dufresne.</persName></p>
                 <figure>
                   <graphic url=""/>
                   <figDesc/>
@@ -2368,7 +2378,8 @@
                   <l ana="vers" xml:lang="fr">Elle répond, faisant des nœuds,</l>
                   <l ana="vers" xml:lang="fr">Il faut suivre la mode.</l>
                 </lg>
-                <p rend="center"><name key="dufresnedamoiselle">La Damoiselle Dufresne.</name></p>
+                <p rend="center"><persName key="dufresnemariedupré" role="chanteur">La Damoiselle
+                    Dufresne.</persName></p>
                 <lg ana="vers" xml:lang="fr">
                   <l ana="vers" xml:lang="fr">Autrefois de ses blonds cheveux,</l>
                   <l ana="vers" xml:lang="fr"><name key="celimene">Celimene</name> faisoit
@@ -2380,7 +2391,8 @@
                   <l ana="vers" xml:lang="fr">Peut-on se passer de ponpons?</l>
                   <l ana="vers" xml:lang="fr">Il faut suivre la mode.</l>
                 </lg>
-                <p rend="center"><name key="mothedamoiselle">La Damoiselle la Mothe.</name></p>
+                <p rend="center"><persName key="mariannehelenedelamotte" role="chanteur">La
+                    Damoiselle la Mothe.</persName></p>
                 <lg ana="vers" xml:lang="fr">
                   <l ana="vers" xml:lang="fr">Depuis un temps le Magistrat</l>
                   <l ana="vers" xml:lang="fr">Met d’une galante manière,</l>
@@ -2447,7 +2459,8 @@
                   <l ana="vers" xml:lang="fr">Rhumatisme, goutte &amp; le reste</l>
                   <l ana="vers" xml:lang="fr">Je le sens bien.</l>
                 </lg>
-                <p rend="center"><name key="sieurdun">Le Sieur Dun.</name></p>
+                <p rend="center"><persName key="jeandun" role="chanteur">Le Sieur
+                  Dun.</persName></p>
                 <lg ana="vers" xml:lang="fr">
                   <l ana="vers" xml:lang="fr">A porter une rude chaîne,</l>
                   <l ana="vers" xml:lang="fr">A languir près d’une inhumaine,</l>
@@ -2456,7 +2469,8 @@
                   <l ana="vers" xml:lang="fr">Mais quand l’heure du Berger sonne;</l>
                   <l ana="vers" xml:lang="fr">Je l’entends bien.</l>
                 </lg>
-                <p rend="center"><name key="arlequinpiece">Arlequin.</name></p>
+                <p rend="center"><persName key="Thomasso_antonio_vicentini" role="acteur"
+                    >Arlequin.</persName></p>
                 <lg ana="vers" xml:lang="fr">
                   <l ana="vers" xml:lang="fr">Qu’à coups redoublez l’on m’éveille,</l>
                   <l ana="vers" xml:lang="fr">Pour mes creanciers je sommeille,</l>
@@ -2663,11 +2677,10 @@
           <pb n="114" xml:id="p84" facs="https://gallica.bnf.fr/ark:/12148/bpt6k6339961b/f114.item"/>
           <p>me tour. Après la partie du <persName key="louisxv" role="destinataire">Roy</persName>,
             les Comediens Italiens representerent devant <persName key="louisxv" role="destinataire"
-              >S. M.</persName> une piece intitulée, <name key="arlequinlelio" rend="i"
-              >Arlequin</name> &amp; <name key="lelioarlequin" rend="i" corresp="louisriccoboni"
-              >Lelio</name>, Valets du même Maître; ces divertissemens durerent jusqu’à huit heures
-            que le <persName key="louisxv" role="destinataire">Roy</persName> se mit à <tech
-              type="repas">table</tech>.</p>
+              >S. M.</persName> une piece intitulée, <emph>Arlequin &amp; Lelio, Valets du même
+              Maître</emph>; ces divertissemens durerent jusqu’à huit heures que le <persName
+              key="louisxv" role="destinataire">Roy</persName> se mit à <tech type="repas"
+              >table</tech>.</p>
           <div>
             <head rend="center"><tech type="lumieres">Illuminations</tech> &amp; <tech
                 type="feux-artifice">feux d’artifice</tech>.</head>
