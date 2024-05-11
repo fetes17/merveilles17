@@ -1457,7 +1457,7 @@
         </place>
       </place>
     </place>
-<place xml:id="hauts_de_france">
+    <place xml:id="hauts_de_france">
       <name>Hauts-de-France</name>
       <country>France</country>
       <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Hauts-de-France</identifier>
@@ -1476,7 +1476,8 @@
         <geo>49.1945, 2.5415</geo>
         <country>France</country>
         <settlement>Haut-de-France</settlement>
-        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Avilly-Saint-L%C3%A9onard</identifier>
+        <identifier type="wikipedia"
+          >https://fr.wikipedia.org/wiki/Avilly-Saint-L%C3%A9onard</identifier>
       </place>
       <place xml:id="alatte">
         <name>Verneuil-en-Halatte</name>
@@ -1487,7 +1488,7 @@
         <identifier type="geonames"
           >https://www.geonames.org/2969806/verneuil-en-halatte.html</identifier>
       </place>
-      
+
       <place xml:id="chantilly">
         <name>Chantilly</name>
         <geo>49.19461, 2.47124</geo>
@@ -1605,6 +1606,22 @@
             <country>France</country>
             <settlement>Château de Chantilly</settlement>
           </place>
+          <place xml:id="coye">
+            <name>Coye-la-Forêt</name>
+            <geo>49.0834, 2.2827</geo>
+            <country>France</country>
+            <settlement>Haut-de-France</settlement>
+            <identifier type="wikipedia"
+              >https://fr.wikipedia.org/wiki/Coye-la-For%C3%AAt</identifier>
+            <place xml:id="chateaucoye">
+              <name>Chateau de Coye</name>
+              <geo>49.145069, 2.468224</geo>
+              <country>France</country>
+              <settlement>Coye</settlement>
+              <identifier type="wikipedia"
+                >https://fr.wikipedia.org/wiki/Coye-la-For%C3%AAt</identifier>
+            </place>
+          </place>
         </place>
         <place xml:id="fresnoylecheateau">
           <name>Fresnoy-le-Château</name>
@@ -1677,10 +1694,10 @@
               <settlement>Château de Villers-Cotterêts</settlement>
             </place>
             <place xml:id="chapellechateauvillerscotteret">
-                <name>Chapelle du Chateau de Villers-Cotterêts</name>
-                <geo>49.256446, 3.092033</geo>
-                <country>France</country>
-                <settlement>Chateau de Villers-Cotterêts</settlement>
+              <name>Chapelle du Chateau de Villers-Cotterêts</name>
+              <geo>49.256446, 3.092033</geo>
+              <country>France</country>
+              <settlement>Chateau de Villers-Cotterêts</settlement>
             </place>
             <place xml:id="courchateauvillerscotteret">
               <name>Cour du Château de Villers-Cotterêts</name>
