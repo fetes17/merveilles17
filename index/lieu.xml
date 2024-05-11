@@ -17,6 +17,11 @@
       <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Inde</identifier>
       <identifier type="geonames">https://www.geonames.org/countries/IN/india.html</identifier>
     </place>
+    <place xml:id="japon">
+      <name>Japon</name>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Japon</identifier>
+      <identifier type="geonames">https://www.geonames.org/1861060/japan.html</identifier>
+    </place>
   </place>
 
   <place xml:id="europe">
@@ -1471,7 +1476,7 @@
         </place>
       </place>
     </place>
-<place xml:id="hauts_de_france">
+    <place xml:id="hauts_de_france">
       <name>Hauts-de-France</name>
       <country>France</country>
       <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Hauts-de-France</identifier>
@@ -1519,7 +1524,20 @@
           <identifier type="wikipedia"
             >https://fr.wikipedia.org/wiki/For%C3%AAt_de_Chantilly</identifier>
         </place>
-
+        <place xml:id="hotelbeauvaischantilly">
+          <name>Hôtel de Beauvais de Chantilly</name>
+          <geo>49.194494, 2.477990</geo>
+          <country>France</country>
+          <settlement>Chantilly</settlement>
+          <identifier type="googlemaps"
+            >https://www.google.com/maps/place/H%C3%B4tel+de+Beauvais./@49.1946937,2.4787393,17z/data=!4m7!3m6!1s0x47e6492aa42b485d:0x139eba5a814dbf56!4b1!8m2!3d49.1946937!4d2.4787393!16s%2Fg%2F11kn0h7gy4?entry=ttu</identifier>
+        </place>
+        <place xml:id="hotellimogechantilly">
+          <name>Hôtel de Limoges de Chantilly</name>
+          <country>France</country>
+          <settlement>Chantilly</settlement>
+        </place>
+        
         <place xml:id="parcsylvie">
           <name>Parc de Silvie</name>
           <geo>49.1117.8, 2.3025.6</geo>
@@ -1759,6 +1777,14 @@
               <country>France</country>
               <settlement>Château de Villers-Cotterêts</settlement>
             </place>
+          </place>
+          <place xml:id="foretvillerscotteret">
+            <name>Forêt de Retz</name>
+            <geo>49.1533, 3.0533</geo>
+            <country>France</country>
+            <settlement>Haut-de-France</settlement>
+            <identifier type="wikipedia"
+              >https://fr.wikipedia.org/wiki/For%C3%AAt_de_Retz</identifier>
           </place>
         </place>
       </place>
