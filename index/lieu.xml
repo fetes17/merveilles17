@@ -4,6 +4,20 @@
 <?xml-stylesheet type="text/xsl" href="../build/xsl/lieu.xsl"?>
 
 <listPlace xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
+  <place xml:id="asie">
+    <name>Asie</name>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Asie</identifier>
+  <place xml:id="chine">
+  <name>Chine</name>
+  <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Chine</identifier>
+  <identifier type="geonames">https://www.geonames.org/countries/CN/china.html</identifier>
+  </place>
+    <place xml:id="inde">
+      <name>Inde</name>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Inde</identifier>
+      <identifier type="geonames">https://www.geonames.org/countries/IN/india.html</identifier>
+    </place>
+  </place>
 
   <place xml:id="europe">
     <name>Europe</name>
@@ -1457,7 +1471,7 @@
         </place>
       </place>
     </place>
-    <place xml:id="hauts_de_france">
+<place xml:id="hauts_de_france">
       <name>Hauts-de-France</name>
       <country>France</country>
       <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Hauts-de-France</identifier>
@@ -1511,6 +1525,12 @@
           <geo>49.1117.8, 2.3025.6</geo>
           <country>France</country>
           <settlement>Chantilly</settlement>
+          <place xml:id="chateausilvie">
+            <name>Maison de Sylvie</name>
+            <geo>49.190387, 2.490783</geo>
+            <country>France</country>
+            <settlement>Chantilly</settlement>
+          </place>
         </place>
 
         <place xml:id="chantillychateau">
@@ -1522,7 +1542,7 @@
             >https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Chantilly</identifier>
 
           <place xml:id="appartementroichantilly">
-            <name>Appartement du Roi dans le chateau</name>
+            <name>Appartement du Roi dans le Chateau de Chantilly</name>
             <geo>49.1138.8, 2.2909.1</geo>
             <country>France</country>
             <settlement>Château de Chantilly</settlement>
@@ -1543,6 +1563,12 @@
           <place xml:id="canalchateauchantilly">
             <name>Canal du Château de Chantilly</name>
             <geo>49.1150.8, 2.2913.1</geo>
+            <country>France</country>
+            <settlement>Château de Chantilly</settlement>
+          </place>
+          <place xml:id="canardierechateauchantilly">
+            <name>Canadiere du Château de Chantilly</name>
+            <geo>49.1144.6, 2.0910.7</geo>
             <country>France</country>
             <settlement>Château de Chantilly</settlement>
           </place>
