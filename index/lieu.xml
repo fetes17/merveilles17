@@ -1457,7 +1457,7 @@
         </place>
       </place>
     </place>
- <place xml:id="hauts_de_france">
+<place xml:id="hauts_de_france">
       <name>Hauts-de-France</name>
       <country>France</country>
       <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Hauts-de-France</identifier>
@@ -1471,6 +1471,13 @@
         <identifier type="geonames">https://www.geonames.org/3036784/arras.html</identifier>
         <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Arras</identifier>
       </place>
+      <place xml:id="avilly">
+        <name>Avilly-Saint-Léonard</name>
+        <geo>49.1945, 2.5415</geo>
+        <country>France</country>
+        <settlement>Haut-de-France</settlement>
+        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Avilly-Saint-L%C3%A9onard</identifier>
+      </place>
       <place xml:id="alatte">
         <name>Verneuil-en-Halatte</name>
         <geo>49.1638, 2.3123</geo>
@@ -1480,6 +1487,7 @@
         <identifier type="geonames"
           >https://www.geonames.org/2969806/verneuil-en-halatte.html</identifier>
       </place>
+      
       <place xml:id="chantilly">
         <name>Chantilly</name>
         <geo>49.19461, 2.47124</geo>
@@ -1536,6 +1544,12 @@
             <geo>49.1150.8, 2.2913.1</geo>
             <country>France</country>
             <settlement>Château de Chantilly</settlement>
+          </place>
+          <place xml:id="chapellechateauchantilly">
+            <name>Chapelle du Chateau de Chantilly</name>
+            <geo>49.1139.4, 2.2857.2</geo>
+            <country>France</country>
+            <settlement>Chateau de Chantilly</settlement>
           </place>
           <place xml:id="courchateauchantilly">
             <name>Cour du Château de Chantilly</name>
@@ -1700,7 +1714,7 @@
           </place>
         </place>
       </place>
-
+  
       <place xml:id="franche-comte">
         <name>Franche-Comté</name>
         <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Franche-Comt%C3%A9</identifier>
