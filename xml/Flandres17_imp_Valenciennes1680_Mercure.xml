@@ -6,11 +6,14 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>MERCURE GALANT. Dédié à Monseigneur LE DAUPHIN. Septembre 1680. SECONDE PARTIE. 
-          Contenant le Voyage que le Roy a fait en Flandre en l’année 1680</title>
+        <title>MERCURE GALANT. Dédié A Monseigneur LE DAUPHIN. Septembre 1680. SECONDE PARTIE. 
+          Contenant le Voyage que le Roy a fait en Flandre en l’année 1680.</title>
         <author key="jean_donneau_de_vize">DONNEAU DE VIZÉ, Jean (1638-1710)</author>
         <author key="charles_du_fresny"> DU FRESNY, Charles (1648-1724)</author>
-        <author key="thomas_corneille"> CORNEILLE, Thomas (1625-1709)</author> 
+        <author key="thomas_corneille"> CORNEILLE, Thomas (1625-1709)</author>
+        <editor key="claude_blageart" role="editeur">Claude Blageart</editor>
+        <editor key="michel_gueroult" role="editeur">Michel Guéroult</editor>
+        <editor key="michel_brunet" role="editeur">Michel Brunet</editor>
       </titleStmt>
       <editionStmt>
         <edition>Merveilles17</edition>
@@ -27,7 +30,10 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl>MERCURE GALANT. Dédié à Monseigneur LE DAUPHIN . Septembre 1680. Seconde partie. Contenant le Voyage que le Roy a fait en Flandre en l’année 1680 <ptr target="https://gallica.bnf.fr/ark:/12148/bpt6k62219294?rk=42918;4"/></bibl>
+        <bibl>MERCURE GALANT Dédié A Monseigneur LE DAUPHIN, septembre 1680. SECONDE PARTIE.
+        Contenant le Voyage que le Roy a fait en Flandre en l’année 1680. A PARIS, AU PALAIS.
+        <note>MERCURE, PARIS, AU PALAIS, 1680, Valenciennes, P.202-231.</note>
+        <ptr target="https://gallica.bnf.fr/ark:/12148/bpt6k62219294?rk=42918;4"/></bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -41,17 +47,44 @@
   </teiHeader>
   
   <text>
+    
     <front>
       <titlePage>
         <docTitle>
-          <titlePart>Mercure Galant. Dédié à <persName key="louis_grand_dauphin" role="destinataire">Monseigneur LE DAUPHIN</persName>. <date when="1680-09">Septembre 1680.</date> Seconde partie. Contenant le Voyage que <persName key="louisxiv">le Roy</persName> a fait en <placeName key="flandre">Flandre</placeName> en l’année <date when="1680">1680</date></titlePart>
+          <titlePart>MERCURE GALANT Dédié A <persName key="louis_grand_dauphin" role="destinataire"
+            >Monseigneur LE DAUPHIN</persName>, <date when="1680-09">septembre 1680</date>.
+            SECONDE PARTIE. Contenant le Voyage que le <persName key="louisxiv">Roy</persName> a
+            fait en <placeName key="flandre">Flandre</placeName> en l’année <date when="1680"
+              >1680</date>.</titlePart>
         </docTitle>
-        <docDate> <date when="1680">1680</date></docDate>
-        <docImprint> A <placeName key="paris">PARIS </placeName>, AU <placeName key="paris_palais_royal"> Palais</placeName></docImprint>
+        <docDate>
+          <date when="1680">1680</date>
+        </docDate>
+        <docImprint>A <placeName key="paris">PARIS</placeName>, AU <placeName
+          key="paris_palais_royal">PALAIS</placeName>.</docImprint>
       </titlePage>
     </front>
     
     <body>
+      <pb n="np" xml:id="p6" facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f6"/>
+      <p>On donnera toûjours un Volume nouveau du Mercure Galant le premier jour de chaque Mois,
+        &amp; on le vendra, aussi-bien que l'Extraordinaire, Trente fois relié en Veau, &amp;
+        Ving-cinq fois en Parchemin.</p>
+      <p rend="center">A <placeName key="paris">PARIS</placeName></p>
+      <p rend="center">Chez <persName key="guillaume_de_luyne" role="imprimeur">G. DE
+        LUYNE</persName>, au <placeName key="paris_palais_royal">Palais</placeName>, dans la Salle
+        des Merciers, à la Justice.</p>
+      <p rend="center">Chez <persName key="claude_blageart">C. BLAGEART</persName>, <placeName
+        key="lille_rue_saint_jacques">Ruë S. Jacques</placeName>, à l'entrée de la <placeName
+          key="lille_rue_du_platre">Ruë du Plâtre</placeName>, Et en sa Boutique Court-Neuve du
+        <placeName key="paris_palais_royal">Palais</placeName>, AU <persName
+          key="louis_grand_dauphin" role="destinataire">DAUPHIN</persName>.</p>
+      <p rend="center">Et <persName key="theodore_girard">T. Girard</persName>, au <placeName
+        key="paris_palais_royal">Palais</placeName>, dans la Grande Salle, à l'Envie.</p>
+      <p><date when="1680">M. D. LXXX.</date></p>
+      <p>AVEC PRIVILEGE DU <persName key="louisxiv">ROY</persName></p>    
+          
+
       <pb n="202" facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f210.item#"/>
       <p><persName key="louisxiv"><persName key="marie_therese_autriche">Leurs Majestez </persName></persName> partirent le <date when="1680-08-05">5.</date> De <placeName key="tournai">Tournay</placeName>, &amp; prirent le chemin de <placeName key="valenciennes">Valenciennes</placeName>. <persName key="louisxiv">Le Roy</persName> trouva à une lieuë de <placeName key="condé">Condé</placeName>, <placeName>un Camp de cavalerie</placeName> commandé par <persName key="monbron">Mr de Monbron</persName>, &amp; composé de huit Regimens, qui formoient dix-neuf escadrons rangez en bataille sur la mesme ligne, le tout se montant à pres de trois mille chevaux. Ces huit Regimens estoient celuy des Cuirassiers, d’Auger, de Grignan, de<pb n="203" xml:id="p203"/> Piémont-Royal, des Dauphins, de la Valete, d’Orleans, &amp; du Royal-Roussillon. <persName key="louis_grand_dauphin">Monseigneur le Dauphin</persName>, &amp; <persName key="philippe_orleans" >Monsieur</persName>, salüerent <persName key="louisxiv">le Roy</persName> à la teste de leurs Regimens. Ces Troupes estoient tres-lestes, &amp; tres-bien montées. <persName key="louisxiv">Sa Majesté</persName> les fit défiler par Compagnies, quoy qu’elle les eust déjà examinées le long de la ligne. Elle poursuivit en suite son chemin vers <placeName>Condé</placeName>, où Elle ne fut pas plutost arrivée, qu’elle en visita <placeName>les Fortifications</placeName>, &amp; fit lâcher <placeName>les</placeName> <pb n="204" xml:id="p204"/> <placeName>Ecluses</placeName> devant Elle ; apres quoy, sans vouloir se reposer, Elle alla faire la reveuë de la Garnison. <placeName key="condé">Condé</placeName> est sur l’<placeName key="escault">Escaut</placeName>, où le <placeName key="hayne">Hayne</placeName> perd son nom. <placeName key="valenciennes">Cette Ville</placeName> passe pour tres-forte, &amp; n’a pas le quart en terre-ferme, le reste estant environné de Marais. Du costé de <placeName key="tournai">Tournay</placeName>, elle est entourée d’une <placeName>double Enceinte</placeName>. La nouvelle qui est extérieure, présente de ce costé-la trois ou quatre Bastions qui défendent la terre-ferme, &amp; qui sont couverts <pb n="205" xml:id="p205"/> de Ravelins, le tout revestu. Du costé <placeName>des Marais</placeName>, il y a des Pieces irrégulieres pour s’accommoder au terrain &amp; aux Ecluses. <placeName>L’Enceinte inférieure &amp; ancienne</placeName>, est séparée de <placeName>la nouvelle</placeName> par un fossé profond, dans lequel passe <placeName>un Bras de la Riviere</placeName>. Toute la Cour arriva le soir à <placeName key="valenciennes">Valenciennes</placeName>, &amp; <persName key="louisxiv">le Roy</persName> y fut reçeu par <persName key="bardi_magalotti">Mr le Comte Bardi-Magalotti</persName>, qui en est Gouverneur, à la teste des Magistrats. Les Ruës estoient <tech type="decor">tapissées</tech>, &amp; bordées d’Infanterie jusqu’à la Maison de <persName key="bardi_magalotti"> <pb n="206" xml:id="p206"/> Comte</persName>, où <persName key="louisxiv">Sa Majesté</persName> logea. On avoit fait des <tech type="machine">Machines</tech> d’une invention particuliere, qui sortoient des Fenestres en beaucoup d’endroits, &amp; qui s’avançant dans le milieu du passage, jettoient des Fleurs sur le Carrosse du <persName key="louisxiv">Roy</persName>. Si-tost que la nuit parut, il y eut des <tech type="lumieres">lumieres</tech> à chaque Fenestre, &amp; on alluma des <tech type="feux-artifice">feux</tech> par tout.</p>
       <p>Le <date when="1680-08-06">6.</date> <persName>Mr de Bonneüil</persName>, Introducteur des Ambassadeurs, conduisit à l’Audience de <persName key="louisxiv"> <persName key="marie_therese_autriche"> leur Majestez </persName></persName>, de <persName key="louis_grand_dauphin">Monseigneur le Dauphin</persName>, <pb n="207" xml:id="p207"/> de <persName key="marie_anne_baviere">Madame la Dauphine</persName>, &amp; de <persName key="philippe_orleans"> <persName key="elisabeth-charlotte_baviere"> leurs Altesses Royales</persName></persName>, <persName key="nassau_zuilestein">Mr de Nassau de Zuilestein</persName>, envoyé des Etats Generaux des <placeName> Provinces Unies</placeName>, pour complimenter <persName key="louisxiv">le Roy</persName> et toute la Maison Royale, sur leur heureux Voyage.</p>
