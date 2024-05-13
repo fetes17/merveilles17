@@ -166,54 +166,50 @@
     <ref target="../xml/merveilles17_img_dv6illuminations.xml"/>
   </event>
   
-  <event from="1680-07-13" to="1680-08-08" where="" xml:id="voyage_flandre1680">
+  <event from="1680-07-13" to="1680-08-08" where="flandre" xml:id="voyage_flandre1680">
     <label>Voyage en Flandre</label>
-    <ref target="../xml/Flandres17_imp_Lille1680"/>
-    <ref target="../xml/Flandres17_imp_mg1680_lille.xml"/>    
     <ref target="../xml/merveilles17_imp_gazette16800807.xml"/>
     <ref target="../xml/merveilles17_imp_gazette16800808.xml"/>
-    <ref target="../xml/Flandres17_ms_Chavatte.xml"/>
-    <ref target="../xml/Flandres17_imp_mg1680_ypres.xml"/>
     <ref target="../xml/Flandres17_imp_mg1680_beauvais.xml"/>
     <ref target="../xml/Flandres17_imp_mg1680_calais.xml"/>
     <ref target="../xml/Flandres17_imp_mg1680_saint_omer.xml"/>
     <ref target="../xml/Flandres17_imp_mg1680_dunkerque.xml"/>
+    <ref target="../xml/Flandres17_imp_mg1680_ypres.xml"/>
+    <ref target="../xml/Flandres17_imp_mg1680_lille.xml"/>    
     
     <event when="1680-07-14" where="beauvais" xml:id="Beauvais1680">
-      <label>Voyage à Beauvais</label>
+      <label> Entrée solennelle à Beauvais</label>
       <ref target="../xml/Flandres17_imp_mg1680_beauvais.xml"/>
     </event>
     
     <event from="1680-07-21" to="1680-07-22" where="calais" xml:id="Calais1680">
-      <label>Voyage à Calais</label>
+      <label>Entrée à Calais</label>
       <ref target="../xml/Flandres17_imp_mg1680_calais.xml"/>
     </event>
     
     <event from="1680-07-23" to="1680-07-25" where="saint-omer" xml:id="Saint-Omer1680">
-      <label>Voyage à Saint-Omer</label>
+      <label>Entrée à Saint-Omer</label>
       <ref target="../xml/Flandres17_imp_mg1680_saint_omer.xml"/>
     </event>
     
     <event from="1680-07-25" to="1680-07-30" where="dunkerque" xml:id="Dunkerque1680">
-      <label>Voyage à Dunkerque</label>
+      <label>Entrée et combat naval à Dunkerque</label>
       <ref target="../xml/Flandres17_imp_mg1680_dunkerque.xml"/>
       <ref target="../xml/merveilles17_imp_gazette16800808.xml"/>
     </event>
     
-    <event when="1680-07-29" where="dunkerque" xml:id="Dunkerques1680">
-      <label>Combat Naval à Dunkerque</label>
-      <ref target="../xml/merveilles17_imp_gazette16800808.xml"/>
-    </event>  
     <event when="1680-07-31" where="ypres" xml:id="Ypres1680">
-      <label>Voyage à Ypres</label>
+      <label>Entrée à Ypres</label>
       <ref target="../xml/Flandres17_imp_mg1680_ypres.xml"/>
     </event>
+    
     <event when="1680-08-02" where="lille" xml:id="Lille1680">
       <label>Feu d'artifice de Lille</label>
       <ref target="../xml/Flandres17_imp_Lille1680"/>
       <ref target="../xml/Flandres17_imp_mg1680_lille.xml"/>
       <ref target="../xml/Flandres17_ms_Chavatte.xml"/>
     </event>
+    
     <event when="1680-08-05" where="valenciennes" xml:id="Valenciennes1680">
       <label>Feu d'artifice de Valenciennes</label>
       <ref target="../xml/Flandres17_imp_Valenciennes1680_Mercure.xml"/>
