@@ -46,7 +46,14 @@
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Baudouin_V_de_Flandre</identifier>
   </person>
   <person xml:id="baron_des_adrets" sex="M">
-    <name>Mr le Baron des Adrets</name>
+    <name>Baron des Adrets, Mr le </name>
+  </person>
+  <person xml:id="bernard_de_la_guiche" sex="M">
+    <name>Bernard de La Guiche, comte de Saint-Géran</name>
+    <birth when="1642-08-15"/>
+    <death when="1696-03-18"/>
+    <identifier type="databnf">https://data.bnf.fr/14974106/bernard_de_la_guiche/</identifier>
+    <identifier type="isni">http://isni.org/isni/0000000459535771</identifier>
   </person>
   <person xml:id="blancas" sex="M">
     <name>Blancas, page</name>
@@ -75,6 +82,14 @@
     <death when="1724-10-06"/>
     <identifier type="isni">http://isni.org/isni/0000000140935001</identifier>
   </person>
+  <person xml:id="charles_honore_albert_de_luynes" sex="M">
+    <name>Charles-Honoré d'Albert de Luynes, duc de Chevreuse</name>
+    <birth when="1646-10-07"/>
+    <death when="1712-11-05"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Charles-Honor%C3%A9_d%27Albert_de_Luynes</identifier>
+    <identifier type="databnf">https://data.bnf.fr/14953406/charles_honore_d_albert_chevreuse/</identifier>
+    <identifier type="isni">http://isni.org/isni/0000000017023031</identifier>
+  </person>
   <person xml:id="claude_blageart" sex="M">
     <name>Claude Blageart, éditeur</name>
     <birth notBefore="1630"/>
@@ -95,13 +110,13 @@
     <name>Dauphin, ouvrier/artisan</name>
   </person>
   <person xml:id="de_beaujeu" sex="M">
-    <name>mr de Beaujeu, enseigne</name>
+    <name>Beaujeu, mr de, enseigne</name>
   </person>
   <person xml:id="de_briare" sex="M">
     <name>De Briare, officier du Gobelet</name>
   </person>
   <person xml:id="de_desgleraux" sex="M">
-    <name>Mr de Desgleraux, enseigne</name>
+    <name>Desgleraux, mr de, enseigne</name>
   </person>
   <person xml:id="de_forgues" sex="M">
     <name>De Forgues, page</name>
@@ -110,11 +125,11 @@
     <name>Chevalier de Gault, enseigne</name>
   </person>
   <person xml:id="de_paliere" sex="M">
-    <name>Mr de Paliere, capitaine second de la Compagnie du Chevalier de Lhéry</name>
+    <name>Paliere, mr de, capitaine second de la Compagnie du Chevalier de Lhéry</name>
   </person>
  
   <person xml:id="de_rouvroy" sex="M">
-    <name>Mr de Rouvroy, lieutenant</name>
+    <name>Rouvroy, mr de, lieutenant</name>
   </person>
   <person xml:id="de_villars_chevalier" sex="M">
     <name>Chevalier de Villars, lieutenant</name>
@@ -154,6 +169,11 @@
   <person xml:id="dideman" sex="M">
     <name>Monsieur Dideman, l'aleandrie</name>
   </person>
+  <person xml:id="françois_andrault" sex="M">
+    <name>François Andrault, marquis de Maulevrier</name>
+    <birth notBefore="1640"/>
+    <death when="1715"/>
+  </person>
   <person xml:id="gilbert_de_choiseil_du_plessis-praslin" sex="M">
     <name>Gilbert de Choiseul du Plessis-Praslin, évêque</name>
     <birth when="1613"/>
@@ -189,6 +209,11 @@
   </person>
   <person xml:id="hericour" sex="M">
     <name>Héricour, page</name>
+  </person>
+  <person xml:id="henriette_louise_colbert" sex="F">
+    <name>Henriette-Louise Colbert, duchesse de Beauvilliers</name>
+    <birth when="1657"/>
+    <death when="1733"/>
   </person>
   <person xml:id="georges_ysore_hervault" sex="M">
     <name>Hervault, Georges Ysoré d', marquis d'Hervault et de Pleumartin</name>
@@ -255,6 +280,11 @@
   </person>
   <person xml:id="jean_moran" sex="M">
     <name>Moran, Jean, garde Suisse</name>
+  </person>
+  <person xml:id="jeanne_marie_therese_colbert" sex="F">
+    <name>Jeanne-Marie-Thérèse Colbert, duchesse de Chevreuse</name>
+    <birth when="1650"/>
+    <death when="1732"/>
   </person>
   <person xml:id="jemarie" sex="M">
     <name>Jemarie, officier du Gobelet</name>
@@ -356,6 +386,14 @@
   <person xml:id="irieux_magontier" sex="M">
     <name>Magontier Irieux, officier de la Bouche</name>
   </person>
+  <person xml:id="françoise_d_aubigne" sex="F">
+    <name>D'Aubigné, Françoise, Madame de Maintenon</name>
+    <birth when="1635-11-27"/>
+    <death when="1719-04-15"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Madame_de_Maintenon</identifier>
+    <identifier type="databnf">https://data.bnf.fr/12053775/francoise_d_aubigne_marquise_de_maintenon/</identifier>
+    <identifier type="isni">http://isni.org/isni/0000000109273521</identifier>
+  </person>
   <person xml:id="maheu" sex="M">
     <name>Maheu, ouvrier/artisan</name>
   </person>
@@ -389,6 +427,9 @@
     <death when="1691-12"/>
     <identifier type="databnf">https://data.bnf.fr/14572953/michel_gueroult/</identifier>
     <identifier type="isni">http://isni.org/isni/0000000361064916</identifier>
+  </person>
+  <person xml:id="charlotte_mothe_houdancourt" sex="F">
+    <name>Mothe-Houdancourt, Charlotte de la, madame de la Mothe</name>
   </person>
   <person xml:id="mongin" sex="M">
     <name>Mangin, grand valet de pied</name>
@@ -624,7 +665,7 @@
     <name>Antoine, ouvrier</name>
   </person>
   <person xml:id="mme_de_crussol" sex="F">
-    <name>Apchier, Marguerite d'</name>
+    <name>Apchier, Marguerite d', duchesse de Crussol</name>
     <birth when="1619"/>
     <death when="1708"/>
   </person>
@@ -1493,6 +1534,9 @@
     <identifier type="databnf">https://data.bnf.fr/13182885/jean-baptiste_antoine_colbert_seignelay/</identifier>
     <identifier type="isni">0000 0000 8396 4147</identifier>
   </person>
+  <person xml:id="seignelay_catherine_therese" sex="F">
+    <name>Seignelay, Catherine-Thérèse, madame de Seignelay</name>
+  </person>
   <person xml:id="sybille_de_comminge" sex="F">
     <name>Comminge, Sybille Angélique de,</name>
   </person>
@@ -1898,6 +1942,12 @@
       <death when="1703"/>
       <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Henri-Fran%C3%A7ois_de_Saint-Nectaire</identifier>
     </person>
+  <person xml:id="marie_ferte_senneterre" sex="F">
+    <name>Ferté-Senneterre, Marie, duchesse de Ferté</name>
+    <birth when="1654"/>
+    <death when="1726-04-29"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Marie_de_La_Fert%C3%A9-Senneterre</identifier>
+  </person>
   <person xml:id="marechale_de_la_ferte" sex="F">
     <name>Ferté, Madelaine de la, née d'Angennes, dame de la Loupe</name>
     <birth when="1629"/>
