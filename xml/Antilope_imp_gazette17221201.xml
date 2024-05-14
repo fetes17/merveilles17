@@ -75,15 +75,15 @@
         </figure>
       </div>
       <div>
-        <head>RELATION DE LA CEREMONIE DU SACRE ET COURONNEMENT DU <persName
-            key="louisxv" role="destinataire">Roy</persName>.</head>
-        <p rend="center"><emph>Faite en l’Eglise Metropolitaine de Reims, <date when="1722-10-25"
-              >le Dimanche 25 Octobre 1722</date>.</emph></p>
+        <head>RELATION DE LA CEREMONIE DU SACRE ET COURONNEMENT DU <persName key="louisxv"
+            role="destinataire">Roy</persName>.</head>
+        <p rend="center"><emph>Faite en l’Eglise Metropolitaine de Reims, <date when="1722-10-25">le
+              Dimanche 25 Octobre 1722</date>.</emph></p>
         <p><title>L</title>E depart du <persName key="louisxv" role="destinataire">Roy</persName>,
           pour se rendre à <placeName key="reims">Reims</placeName>, ayant esté fixé au <date
             when="1722-10-16">16 du mois d’Octobre</date>, <persName key="louisxv"
             role="destinataire">Sa Majesté</persName> partit ce jour là du <placeName
-            key="versaille_chateau">Chasteau de Versailles</placeName>sur les deux heures aprés
+            key="versailles_chateau">Chasteau de Versailles</placeName>sur les deux heures aprés
           midy, estant accompagnée dans son carosse, du <persName key="louis_orleans" role="convive"
             >Duc de Chartres</persName>, du <persName key="louisiv_henri_conde" role="convive">Duc
             de Bourbon</persName>, du <persName key="louis_de_bourbonconde" role="convive">Comte de
@@ -106,50 +106,67 @@
           Vol du Cabinet commandé par le <persName>sieur Forget</persName>, ayant l’honneur de
           suivre <persName key="louisxv" role="destinataire">Sa Majesté</persName> dans ses voyages,
           estoit immediatement devant le carosse de suite. Le <persName key="louisxv"
-            role="destinataire">Roy</persName> arriva, vers les cinq heures, au <placeName>Palais
-            des Tuilleries</placeName>, <tech>au bruit des acclamations de joye</tech> du peuple,
-          qui estoit accouru de tous costez sur son passage.</p>
+            role="destinataire">Roy</persName> arriva, vers les cinq heures, au <placeName
+            key="paris_tuileries_chateau">Palais des Tuilleries</placeName>, <tech type="bruitage"
+            >au bruit des acclamations de joye</tech> du peuple, qui estoit accouru de tous costez
+          sur son passage.</p>
         <p><date when="1722-10-17">Le 17</date> à onze heures du matin, le <persName key="louisxv"
-            role="destinataire">Roy</persName> partit de cette <placeName>Ville</placeName>: les
-          mesmes détachements de la Maison du <persName key="louisxv" role="destinataire"
-            >Roy</persName> qui l’avoient accompagné depuis <placeName>Versailles</placeName>,
-          precedoient &amp; suivoient le carosse dans lequel estoit <persName key="louisxv"
-            role="destinataire">Sa Majesté</persName>, accompagnée de<persName> Monsieur le Duc
-            d’Orleans</persName>, du <persName key="louis_orleans" role="convive">Duc de
-            Chartres</persName>, du <persName>Duc de Bourbon</persName>, du <persName
-            key="louis_de_bourbonconde" role="convive">Comte de Clermont</persName>, du
-            <persName>Prince de Conty</persName> &amp; du <persName role="convive"
-            key="armand_de_bethune">Duc de Charost</persName> son Gouverneur. Les ruës, qui
-          conduisent du <placeName>Palais des Thuilleries </placeName>au <placeName>Village de la
-            Villette</placeName>, estoient remplies d’une multitude prodigieuse de peuple, qui par
-          des <tech>acclamations continuelles</tech> &amp; d’autres démonstrations de joye,
-          témoignoit la sincerité de ses vœux, pour obtenir du <name>Ciel</name>, qu’il continuât de
-          répandre, sur l’Auguste Personne de <persName key="louisxv" role="destinataire">Sa
-            Majesté</persName>, les benedictions les plus abondantes, &amp; que son Sacre fût le
-          presage du plus long &amp; du plus glorieux Regne. Le concours des peuples a esté égal sur
-          toute la route de <persName key="louisxv" role="destinataire">Sa Majesté</persName>; les
-          habitants des Provinces par lesquelles le <persName key="louisxv" role="destinataire"
-            >Roy</persName> a passé, s’estant empressez de se trouver dans les Villes &amp; dans les
-          grands chemins, pour donner à <persName key="louisxv" role="destinataire">Sa
-            Majesté</persName> des marques de leur respect &amp; de leur joye.</p>
+            role="destinataire">Roy</persName> partit de cette <placeName key="paris"
+            >Ville</placeName>: les mesmes détachements de la Maison du <persName key="louisxv"
+            role="destinataire">Roy</persName> qui l’avoient accompagné depuis <placeName
+            key="versailles">Versailles</placeName>, precedoient &amp; suivoient le carosse dans
+          lequel estoit <persName key="louisxv" role="destinataire">Sa Majesté</persName>,
+          accompagnée de <persName key="philippe_orleans_regent" role="commanditaire">Monsieur le
+            Duc d’Orleans</persName>, du <persName key="louis_orleans" role="convive">Duc de
+            Chartres</persName>, du <persName key="louisiv_henri_conde" role="convive">Duc de
+            Bourbon</persName>, du <persName key="louis_de_bourbonconde" role="convive">Comte de
+            Clermont</persName>, du <persName key="louis_armand_conti" role="convive">Prince de
+            Conty</persName> &amp; du <persName role="convive" key="armand_de_bethune">Duc de
+            Charost</persName> son Gouverneur. Les ruës, qui conduisent du <placeName
+            key="paris_tuileries_chateau">Palais des Thuilleries </placeName>au <placeName
+            key="paris_lavillette">Village de la Villette</placeName>, estoient remplies d’une
+          multitude prodigieuse de peuple, qui par des <tech type="bruitage">acclamations
+            continuelles</tech> &amp; d’autres démonstrations de joye, témoignoit la sincerité de
+          ses vœux, pour obtenir du <name key="dieu">Ciel</name>, qu’il continuât de répandre, sur
+          l’Auguste Personne de <persName key="louisxv" role="destinataire">Sa Majesté</persName>,
+          les benedictions les plus abondantes, &amp; que son Sacre fût le presage du plus long
+          &amp; du plus glorieux Regne. Le concours des peuples a esté égal sur toute la route de
+            <persName key="louisxv" role="destinataire">Sa Majesté</persName>; les habitants des
+          Provinces par lesquelles le <persName key="louisxv" role="destinataire">Roy</persName> a
+          passé, s’estant empressez de se trouver dans les Villes &amp; dans les grands chemins,
+          pour donner à <persName key="louisxv" role="destinataire">Sa Majesté</persName> des
+          marques de leur respect &amp; de leur joye.</p>
         <list>
-          <item/>
+          <item><persName key="louisxv" role="destinataire">Sa Majesté</persName>, accompagnée
+            de</item>
+          <item><persName key="philippe_orleans_regent" role="commanditaire">Monsieur le Duc
+              d’Orleans</persName></item>
+          <item>
+            <persName key="louis_orleans" role="convive">Duc de Chartres</persName></item>
+          <item><persName key="louisiv_henri_conde" role="convive">Duc de Bourbon</persName></item>
+          <item><persName key="louis_de_bourbonconde" role="convive">Comte de
+            Clermont</persName></item>
+          <item><persName key="louis_armand_conti" role="convive">Prince de Conti</persName></item>
+          <item><persName role="convive" key="armand_de_bethune">Duc de Charost</persName></item>
         </list>
-        <p>Le <persName key="louisxv" role="destinataire">Roy</persName> alla coucher à
-            <placeName>Dammartin</placeName>; &amp; <date when="1722-10-18">le 18</date>, aprés
-          avoir entendu la Messe, il partit pour se rendre à
-            <placeName>Villers</placeName><placeName>-</placeName><placeName>Coterets</placeName>,
-            <placeName>Chasteau</placeName> apartenant à <persName>Monsieur le Duc
-            d’Orleans</persName>. Le <persName key="louisxv" role="destinataire">Roy</persName> y
-          fut reçû par <persName>Son Altesse Royale</persName> avec beaucoup de magnificence: on
-          servit <tech>des tables</tech> pour toute la Cour, &amp; <tech>tous les vivres</tech>
-          consommez ce jour là dans la <placeName>Ville</placeName>, furent distribuez
+        <p>Le <persName key="louisxv" role="destinataire">Roy</persName> alla coucher à <placeName
+            key="dammartin">Dammartin</placeName>; &amp; <date when="1722-10-18">le 18</date>, aprés
+          avoir entendu la Messe, il partit pour se rendre à <placeName key="villers-cotterets"
+            >Villers-Coterets</placeName>,<placeName key="chateauvillerscotteret"
+            >Chasteau</placeName> apartenant à <persName key="philippe_orleans_regent"
+            role="commanditaire">Monsieur le Duc d’Orleans</persName>. Le <persName key="louisxv"
+            role="destinataire">Roy</persName> y fut reçû par <persName
+            key="philippe_orleans_regent" role="commanditaire">Son Altesse Royale</persName> avec
+          beaucoup de magnificence: on servit <tech type="repas">des tables</tech> pour toute la
+          Cour, &amp; <tech type="repas">tous les vivres</tech> consommez ce jour là dans la
+            <placeName key="villers-cotterets">Ville</placeName>, furent distribuez
           gratuitement.</p>
         <p><date when="1722-10-19">Le 19</date>, le <persName key="louisxv" role="destinataire"
-            >Roy</persName> partit de <placeName>Villers-Coterets</placeName>, &amp; il arriva à
-            <placeName>Soissons</placeName> sur les trois heures aprés midy. <persName>Le Comte
-            d’Evreux</persName>, Gouverneur de <placeName>l’Isle de France</placeName>, qui estoit
-          allé</p>
+            >Roy</persName> partit de <placeName key="villers-cotterets"
+            >Villers-Coterets</placeName>, &amp; il arriva à <placeName key="soissons"
+            >Soissons</placeName> sur les trois heures aprés midy. <persName
+            key="louis_henri_de_la_tour_dauvergne" role="organisation">Le Comte d’Evreux</persName>,
+          Gouverneur de <placeName key="paris">l’Isle de France</placeName>, qui estoit allé</p>
         <pb n="652" xml:id="p652" facs="https://gallica.bnf.fr/ark:/12148/bpt6k6236260b/f4.highres"/>
         <p>au-devant de <persName key="louisxv" role="destinataire">Sa Majesté</persName>, se trouva
           à la teste du Corps de Ville, à la Porte de <placeName>la Ville</placeName>, &amp; il en
@@ -216,29 +233,30 @@
           Mousquetaires, &amp; la Brigade de quartier des Chevaux-Legers de la Garde qui ont suivi
           le <persName key="louisxv" role="destinataire">Roy</persName> pendant son voyage,
           marchoient à la teste: ensuite un carosse du <persName key="louis_orleans" role="convive"
-            >Duc de Chartres</persName>: deux de <persName>Monsieur le Duc d’Orleans</persName>,
-          dans lesquels estoient les principaux Officiers de <persName>Son Altesse
-          Royale</persName>: un carosse du <persName key="louisxv" role="destinataire"
-            >Roy</persName>: le Vol du Cabinet: un autre carosse de <persName key="louisxv"
-            role="destinataire">Sa Majesté</persName>, dans lequel estoient <persName>le Prince
-            Charles de Lorraine</persName> Grand Ecuyer de France, <persName>le Prince de
-            Turene</persName> Grand Chambellan de France, <persName>le Duc de Gesvres</persName>
-          Premier Gentilhomme de la Chambre &amp; quelques-uns des principaux Officiers de la Maison
-          de <persName key="louisxv" role="destinataire">Sa Majesté</persName>: les Pages de la
-          Grande &amp; de la Petite Ecurie: le détachement des quatre Chevaux-Legers de la Garde: le
-          magnifique carosse de <persName key="louisxv" role="destinataire">Sa Majesté</persName>
-          dans lequel le <persName key="louisxv" role="destinataire">Roy</persName> estoit
-          accompagné de <persName>Monsieur le Duc d’Orleans</persName>, <persName>du Duc de
-            Chartres</persName>, <persName>du Duc de Bourbon</persName>, <persName>du Comte de
-            Clermont</persName>, <persName>du Prince de Conty</persName>, &amp; <persName>du Duc de
-            Charost</persName> Gouverneur de <persName key="louisxv" role="destinataire">Sa
-            Majesté</persName>. <persName>Le Duc d’Harcourt</persName>, Capitaine des Gardes du
-          Corps en quartier, estoit à cheval à la portiere du carosse, autour duquel marchoient
-          vingt-quatre Valets de pied. Le Guet des Gardes du Corps qui avoit accompagné le <persName
-            key="louisxv" role="destinataire">Roy</persName> pendant son voyage, la Brigade de
-          quartier des Gendarmes de la Garde, les Grenadiers à cheval, les quatre Compagnies des
-          Gardes du Corps, les deux Compagnies des Mousquetaires, les Chevaux-Legers de la Garde,
-          conti-</p>
+            >Duc de Chartres</persName>: deux de <persName key="philippe_orleans_regent"
+            role="commanditaire">Monsieur le Duc d’Orleans</persName>, dans lesquels estoient les
+          principaux Officiers de <persName>Son Altesse Royale</persName>: un carosse du <persName
+            key="louisxv" role="destinataire">Roy</persName>: le Vol du Cabinet: un autre carosse de
+            <persName key="louisxv" role="destinataire">Sa Majesté</persName>, dans lequel estoient
+            <persName>le Prince Charles de Lorraine</persName> Grand Ecuyer de France, <persName>le
+            Prince de Turene</persName> Grand Chambellan de France, <persName>le Duc de
+            Gesvres</persName> Premier Gentilhomme de la Chambre &amp; quelques-uns des principaux
+          Officiers de la Maison de <persName key="louisxv" role="destinataire">Sa
+            Majesté</persName>: les Pages de la Grande &amp; de la Petite Ecurie: le détachement des
+          quatre Chevaux-Legers de la Garde: le magnifique carosse de <persName key="louisxv"
+            role="destinataire">Sa Majesté</persName> dans lequel le <persName key="louisxv"
+            role="destinataire">Roy</persName> estoit accompagné de <persName
+            key="philippe_orleans_regent" role="commanditaire">Monsieur le Duc d’Orleans</persName>,
+            <persName>du Duc de Chartres</persName>, <persName>du Duc de Bourbon</persName>,
+            <persName>du Comte de Clermont</persName>, <persName>du Prince de Conty</persName>,
+          &amp; <persName>du Duc de Charost</persName> Gouverneur de <persName key="louisxv"
+            role="destinataire">Sa Majesté</persName>. <persName>Le Duc d’Harcourt</persName>,
+          Capitaine des Gardes du Corps en quartier, estoit à cheval à la portiere du carosse,
+          autour duquel marchoient vingt-quatre Valets de pied. Le Guet des Gardes du Corps qui
+          avoit accompagné le <persName key="louisxv" role="destinataire">Roy</persName> pendant son
+          voyage, la Brigade de quartier des Gendarmes de la Garde, les Grenadiers à cheval, les
+          quatre Compagnies des Gardes du Corps, les deux Compagnies des Mousquetaires, les
+          Chevaux-Legers de la Garde, conti-</p>
         <list>
           <item/>
         </list>
@@ -275,12 +293,13 @@
           de la <placeName>Ville</placeName>, &amp; pendant lequel on apporta de la Sacristie un
           magnifique Soleil d’argent doré, du poids de cent vingt-cinq marcs, dont le <persName
             key="louisxv" role="destinataire">Roy</persName> faisoit present à <placeName>l’Eglise
-            de Reims</placeName>. <persName>Monsieur le Duc d’Orleans</persName> l’ayant reçû des
-          mains du <persName>Duc de Villequier</persName>, Premier Gentilhomme de la Chambre, le
-          presenta à <persName>Sa Majesté </persName>qui alla l’offrir à <name>Dieu</name> en le
-          posant sur l’Autel. Aprés la Benediction, le <persName key="louisxv" role="destinataire"
-            >Roy</persName> se retira dans <placeName>l’Archevêché</placeName>, qui avoit esté orné
-          des plus belles <tech>Tapisseries de la Couronne</tech>, &amp; des <tech>meubles les plus
+            de Reims</placeName>. <persName key="philippe_orleans_regent" role="commanditaire"
+            >Monsieur le Duc d’Orleans</persName> l’ayant reçû des mains du <persName>Duc de
+            Villequier</persName>, Premier Gentilhomme de la Chambre, le presenta à <persName>Sa
+            Majesté </persName>qui alla l’offrir à <name>Dieu</name> en le posant sur l’Autel. Aprés
+          la Benediction, le <persName key="louisxv" role="destinataire">Roy</persName> se retira
+          dans <placeName>l’Archevêché</placeName>, qui avoit esté orné des plus belles
+            <tech>Tapisseries de la Couronne</tech>, &amp; des <tech>meubles les plus
             precieux</tech>.</p>
         <p>Le <persName key="louisxv" role="destinataire">Roy</persName> reçût les hommages du
             <persName>Chapitre de Reims</persName>; <persName>l’Abbé Bachelier</persName>, Doyen,
@@ -296,18 +315,19 @@
           les ceremonies accoûtumées. </p>
         <p><date when="1722-10-23">Le 23</date> au matin, <persName>Madame la Duchesse de
             Lorraine</persName> alla rendre visite au <persName key="louisxv" role="destinataire"
-            >Roy</persName>; &amp; <persName>Sa Majesté </persName>accompapagnée de
-            <persName>Monsieur le Duc d’Orleans</persName>, du <persName key="louis_orleans"
-            role="convive">Duc de Chartres</persName>, du <persName key="louisiv_henri_conde"
-            role="convive">Duc de Bourbon</persName>, du <persName>Comte de Charolois</persName>, du
-            <persName key="louis_de_bourbonconde" role="convive">Comte de Clermont</persName>, du
-            <persName>Prince de Conty</persName>, du <persName role="convive"
-            key="armand_de_bethune">Duc de Charost</persName> son Gouverneur, &amp; des principaux
-          Seigneurs de sa Cour, alla entendre la Messe dans <placeName>l’Eglise de l’Abbaye de Saint
-            Nicaise</placeName>. L'aprés midy, le <persName key="louisxv" role="destinataire"
-            >Roy</persName> alla à <placeName>l’Abbaye de Saint Pierre-les-Dames</placeName>, voir
-          Madame qui estoit arrivée à <placeName>Reims</placeName> dés <date when="1722-10-18">le 18
-            du mois</date>. <persName>Madame la Duchesse de Lorraine</persName>, qui estoit avec
+            >Roy</persName>; &amp; <persName>Sa Majesté </persName>accompapagnée de <persName
+            key="philippe_orleans_regent" role="commanditaire">Monsieur le Duc d’Orleans</persName>,
+          du <persName key="louis_orleans" role="convive">Duc de Chartres</persName>, du <persName
+            key="louisiv_henri_conde" role="convive">Duc de Bourbon</persName>, du <persName>Comte
+            de Charolois</persName>, du <persName key="louis_de_bourbonconde" role="convive">Comte
+            de Clermont</persName>, du <persName>Prince de Conty</persName>, du <persName
+            role="convive" key="armand_de_bethune">Duc de Charost</persName> son Gouverneur, &amp;
+          des principaux Seigneurs de sa Cour, alla entendre la Messe dans <placeName>l’Eglise de
+            l’Abbaye de Saint Nicaise</placeName>. L'aprés midy, le <persName key="louisxv"
+            role="destinataire">Roy</persName> alla à <placeName>l’Abbaye de Saint
+            Pierre-les-Dames</placeName>, voir Madame qui estoit arrivée à
+            <placeName>Reims</placeName> dés <date when="1722-10-18">le 18 du mois</date>.
+            <persName>Madame la Duchesse de Lorraine</persName>, qui estoit avec
             <persName>Madame</persName>, alla recevoir <persName key="louisxv" role="destinataire"
             >Sa Majesté</persName> &amp; luy presenta les trois Princes, &amp; les deux Princesses
           de <placeName>Lorraine</placeName>, qui estoient venus incognito à
@@ -316,12 +336,13 @@
           <item/>
         </list>
         <p><date when="1722-10-24">Le 24</date>, le <persName key="louisxv" role="destinataire"
-            >Roy</persName> accompagné de <persName>Monsieur le Duc d’Orleans</persName>, des
-          Princes du Sang, <persName>du Duc de Charost</persName>, &amp; suivi de toute sa Cour,
-          retourna à <placeName>l’Eglise de l’Abbaye de Saint Pierre</placeName>, où <persName
-            key="louisxv" role="destinataire">Sa Majesté</persName> entendit la Messe, pendant
-          laquelle <persName>l’Archevesque d’Alby</persName> presta serment de fidelité entre les
-          mains du <persName key="louisxv" role="destinataire">Roy</persName> en presence de
+            >Roy</persName> accompagné de <persName key="philippe_orleans_regent"
+            role="commanditaire">Monsieur le Duc d’Orleans</persName>, des Princes du Sang,
+            <persName>du Duc de Charost</persName>, &amp; suivi de toute sa Cour, retourna à
+            <placeName>l’Eglise de l’Abbaye de Saint Pierre</placeName>, où <persName key="louisxv"
+            role="destinataire">Sa Majesté</persName> entendit la Messe, pendant laquelle
+            <persName>l’Archevesque d’Alby</persName> presta serment de fidelité entre les mains du
+            <persName key="louisxv" role="destinataire">Roy</persName> en presence de
             <persName>Monsieur le Duc d’Orleans.</persName> L'aprés-midy, le <persName key="louisxv"
             role="destinataire">Roy</persName> se rendit à <placeName>l’Eglise
             Metropolitaine</placeName> pour assister aux premieres Vespres du Sacre. <persName
@@ -357,9 +378,10 @@
             key="louisxv" role="destinataire">Roy</persName> en quartier, estoient en Rochet à la
           droite du <persName key="louisxv" role="destinataire">Roy</persName>, immediatement aprés
           le <persName>Cardinal de Rohan</persName> du costé de l’Autel, &amp; <persName>l’Evêque de
-            Nantes</persName> Premier Aumonier de <persName>Monsieur le Duc d’Orleans</persName>,
-          estoit en Rochet &amp; en Camail derriere <persName>Son Altesse Royale</persName>. Les
-          Archevêques de <persName>Toulouse</persName>, de <persName>Bordeaux</persName>, de
+            Nantes</persName> Premier Aumonier de <persName key="philippe_orleans_regent"
+            role="commanditaire">Monsieur le Duc d’Orleans</persName>, estoit en Rochet &amp; en
+          Camail derriere <persName>Son Altesse Royale</persName>. Les Archevêques de
+            <persName>Toulouse</persName>, de <persName>Bordeaux</persName>, de
             <persName>Sens</persName>, <persName>d’Alby</persName>, <persName>l’Evêque de
             Toul</persName> nommé à l’Archevêché de <placeName>Tours</placeName>, &amp; les Evêques
           de <persName>Metz</persName>, de <persName>Chartres</persName>, de
@@ -581,17 +603,18 @@
             de soye violette</tech>, &amp; par dessus leur longue <tech>veste</tech>
           <tech>un Manteau Ducal de drap violet, doublé &amp; bordé d’hermine</tech>; <tech>leur
             collet rond estoit aussi d’hermine</tech>. Ils avoient tous <tech>une Couronne sur un
-            bonnet de satin violet</tech>; <persName>Monsieur le Duc d’Orleans</persName>,
-          representant <persName>le Duc de Bourgogne</persName>, <persName>le Duc de
-            Chartres</persName>, representant <persName>le Duc de Normandie</persName>, &amp;
-            <persName>le Duc de Bourbon</persName>, representant <persName>le Duc
-            d’Aquitaine</persName>, avoient <tech>la Couronne Ducale</tech>: <persName>le Comte de
-            Charolois</persName>, representant <persName>le Comte de Toulouse</persName>,
-            <persName>le Comte de Clermont</persName>, representant <persName>le Comte de
-            Flandres</persName>, &amp;<persName> le Prince de Conty</persName> reprefentant
-            <persName>le Comte de Champagne</persName>, avoient <tech>des Couronnes de Comte</tech>.
-            <persName>Monsieur le Duc d’Orleans</persName>, <persName>le Duc de Bourbon</persName>
-          &amp; <persName>le Prince de Conty</persName>, avoient sur <tech>leurs manteaux</tech>
+            bonnet de satin violet</tech>; <persName key="philippe_orleans_regent"
+            role="commanditaire">Monsieur le Duc d’Orleans</persName>, representant <persName>le Duc
+            de Bourgogne</persName>, <persName>le Duc de Chartres</persName>, representant
+            <persName>le Duc de Normandie</persName>, &amp; <persName>le Duc de Bourbon</persName>,
+          representant <persName>le Duc d’Aquitaine</persName>, avoient <tech>la Couronne
+            Ducale</tech>: <persName>le Comte de Charolois</persName>, representant <persName>le
+            Comte de Toulouse</persName>, <persName>le Comte de Clermont</persName>, representant
+            <persName>le Comte de Flandres</persName>, &amp;<persName> le Prince de Conty</persName>
+          reprefentant <persName>le Comte de Champagne</persName>, avoient <tech>des Couronnes de
+            Comte</tech>. <persName key="philippe_orleans_regent" role="commanditaire">Monsieur le
+            Duc d’Orleans</persName>, <persName>le Duc de Bourbon</persName> &amp; <persName>le
+            Prince de Conty</persName>, avoient sur <tech>leurs manteaux</tech>
           <tech>le Collier de l’Ordre du Saint Esprit</tech>.</p>
         <p>Un moment aprés que les Pairs Laîcs eurent pris leurs</p>
         <list>
@@ -865,21 +888,22 @@
             <placeName>France</placeName>, vint chausser au <persName key="louisxv"
             role="destinataire">Roy</persName>
           <tech>des Botines ou Sandales de velours violet</tech>, semées de Fleurs de Lys d’or en
-          broderie, &amp; <persName>Monsieur le Duc d’Orleans</persName> representant <persName>le
-            Duc de Bourgogne</persName>, mit à <persName key="louisxv" role="destinataire">Sa
-            Majesté</persName> les Eperons d’or, qui avoient esté aportez de <placeName>l’Abbaye de
-            Saint Denis</placeName>, &amp; <persName>il</persName> les luy osta dans le mesme
-          instant. <persName>L'Archevêque de Reims</persName> fit alors la Benediction de l’Epée de
-            <name>Charlemagne</name>, qui estoit sur l’Autel avec les autres Ornements de la
-          Royauté, <persName>il</persName> la ceignit au <persName key="louisxv" role="destinataire"
-            >Roy</persName>, &amp; l’osta en mesme temps; puis l’ayant tirée du foureau,
-            <persName>il</persName> dit une Oraison, aprés laquelle <persName>il</persName> la remit
-          toute nuë entre les mains de <persName>Sa Majesté</persName>, qui aprés l’avoir tenuë
-          quelque temps, la baisa &amp; l’offrit a <name>Dieu</name>, en la posant sur l’Autel.
-            <persName>L'Archevêque</persName> Officiant la reprit pour la rendre au <persName
-            key="louisxv" role="destinataire">Roy</persName>; <persName key="louisxv"
-            role="destinataire">Sa Majesté</persName> la reçût à genoux, &amp; la deposa entre les
-          mains du <persName>Mareschal Duc de Villars</persName>, faisant fonction de Connes</p>
+          broderie, &amp; <persName key="philippe_orleans_regent" role="commanditaire">Monsieur le
+            Duc d’Orleans</persName> representant <persName>le Duc de Bourgogne</persName>, mit à
+            <persName key="louisxv" role="destinataire">Sa Majesté</persName> les Eperons d’or, qui
+          avoient esté aportez de <placeName>l’Abbaye de Saint Denis</placeName>, &amp;
+            <persName>il</persName> les luy osta dans le mesme instant. <persName>L'Archevêque de
+            Reims</persName> fit alors la Benediction de l’Epée de <name>Charlemagne</name>, qui
+          estoit sur l’Autel avec les autres Ornements de la Royauté, <persName>il</persName> la
+          ceignit au <persName key="louisxv" role="destinataire">Roy</persName>, &amp; l’osta en
+          mesme temps; puis l’ayant tirée du foureau, <persName>il</persName> dit une Oraison, aprés
+          laquelle <persName>il</persName> la remit toute nuë entre les mains de <persName>Sa
+            Majesté</persName>, qui aprés l’avoir tenuë quelque temps, la baisa &amp; l’offrit a
+            <name>Dieu</name>, en la posant sur l’Autel. <persName>L'Archevêque</persName> Officiant
+          la reprit pour la rendre au <persName key="louisxv" role="destinataire">Roy</persName>;
+            <persName key="louisxv" role="destinataire">Sa Majesté</persName> la reçût à genoux,
+          &amp; la deposa entre les mains du <persName>Mareschal Duc de Villars</persName>, faisant
+          fonction de Connes</p>
         <list>
           <item/>
         </list>
@@ -935,29 +959,30 @@
             <placeName>France</placeName> faisant la fonction de Chancelier de
             <placeName>France</placeName>, monta à l’Autel, &amp; s’estant mis du costé de
           l’Evangile, le visage tourné vers le Chœur, il apella les Pairs selon leur Rang; les Laîcs
-          les premiers, en la maniere suivante: <persName>Monsieur le Duc d’Orleans</persName> qui
-          representez <persName>le Duc de Bourgogne</persName>, presentez-vous à cet Acte, se
-          servant toûjours de la mesme formule, pour apeller <persName>le Duc de
-          Chartres</persName>, qui representoit <persName>le Duc de Normandie</persName>:
-            <persName>le Duc de Bourbon</persName>, representant <persName>le Duc
-            d’Aquitaine</persName>: <persName>le Comte de Charolois</persName>, representant
-            l<persName>e Comte de Toulouse</persName>: <persName>le Comte de Clermont</persName>,
-          representant <persName>le Comte de Flandres</persName>, &amp; <persName>le Prince de
-            Conty</persName>, representant <persName>le Comte de Champagne</persName>. Il apella
-          ensuite <persName>l’Eveque Duc de Laon</persName>: <persName>l’Evêque Comte de
-            Châlons</persName>, qui representoit <persName>l’Evêque Duc de Langres</persName>:
-            <persName>l’Evêque Comte de Beauvais</persName>: <persName>l’Evêque Comte de
-            Noyon</persName>, qui representoit <persName>l’Evêque Comte de Châlons</persName>, &amp;
-            <persName>l’ancien Evêque de Frejus</persName>, representant <persName>l’Evêque Comte de
-            Noyon</persName>. <persName>Le Garde des Sceaux de France</persName>, ayant pris sa
-          place, &amp; les Pairs s’estant aprochez du <persName key="louisxv" role="destinataire"
-            >Roy</persName>,<persName> l’Archevêque Duc de Reims </persName>prit sur l’Autel la
-          Grande Couronne de <placeName>Charlemagne</placeName>, qui avoit esté aportée de
-            <placeName>l’Abbaye de Saint Denis</placeName>; &amp; aprés en avoir fait la Benediction
-          par les prieres ordinaires, il la posa sur la teste du <persName key="louisxv"
-            role="destinataire">Roy</persName>, avec les ceremonies accoûtumées. Les Pairs Laîcs
-          &amp; Ecclesiastiques y porterent la main, pendant que <persName>l’Archevêque Duc de
-            Reims</persName>, recitoit les Oraisons du Couronnement. </p>
+          les premiers, en la maniere suivante: <persName key="philippe_orleans_regent"
+            role="commanditaire">Monsieur le Duc d’Orleans</persName> qui representez <persName>le
+            Duc de Bourgogne</persName>, presentez-vous à cet Acte, se servant toûjours de la mesme
+          formule, pour apeller <persName>le Duc de Chartres</persName>, qui representoit
+            <persName>le Duc de Normandie</persName>: <persName>le Duc de Bourbon</persName>,
+          representant <persName>le Duc d’Aquitaine</persName>: <persName>le Comte de
+            Charolois</persName>, representant l<persName>e Comte de Toulouse</persName>:
+            <persName>le Comte de Clermont</persName>, representant <persName>le Comte de
+            Flandres</persName>, &amp; <persName>le Prince de Conty</persName>, representant
+            <persName>le Comte de Champagne</persName>. Il apella ensuite <persName>l’Eveque Duc de
+            Laon</persName>: <persName>l’Evêque Comte de Châlons</persName>, qui representoit
+            <persName>l’Evêque Duc de Langres</persName>: <persName>l’Evêque Comte de
+            Beauvais</persName>: <persName>l’Evêque Comte de Noyon</persName>, qui representoit
+            <persName>l’Evêque Comte de Châlons</persName>, &amp; <persName>l’ancien Evêque de
+            Frejus</persName>, representant <persName>l’Evêque Comte de Noyon</persName>.
+            <persName>Le Garde des Sceaux de France</persName>, ayant pris sa place, &amp; les Pairs
+          s’estant aprochez du <persName key="louisxv" role="destinataire">Roy</persName>,<persName>
+            l’Archevêque Duc de Reims </persName>prit sur l’Autel la Grande Couronne de
+            <placeName>Charlemagne</placeName>, qui avoit esté aportée de <placeName>l’Abbaye de
+            Saint Denis</placeName>; &amp; aprés en avoir fait la Benediction par les prieres
+          ordinaires, il la posa sur la teste du <persName key="louisxv" role="destinataire"
+            >Roy</persName>, avec les ceremonies accoûtumées. Les Pairs Laîcs &amp; Ecclesiastiques
+          y porterent la main, pendant que <persName>l’Archevêque Duc de Reims</persName>, recitoit
+          les Oraisons du Couronnement. </p>
         <list>
           <item/>
         </list>
@@ -1040,9 +1065,10 @@
           l’Eglise, dont on celebroit l’Octave, <persName>l’Evêque d’Amiens</persName>, sans Mitre,
             <tech>chanta l’Epitre</tech>. Pendant l’Evangile, qui fut <tech>chanté</tech> par
             <persName>l’Evêque de Soissons</persName>, les Pairs Ecclesiastiques quitterent leurs
-            <tech>Mitres</tech>, les Pairs Laïcs leurs <tech>Couronnes</tech>, &amp;
-            <persName>Monsieur le Duc d’Orleans</persName>, representant l<persName>e Duc de
-            Bourgogne</persName>, osta au <persName key="louisxv" role="destinataire">Roy</persName>
+            <tech>Mitres</tech>, les Pairs Laïcs leurs <tech>Couronnes</tech>, &amp; <persName
+            key="philippe_orleans_regent" role="commanditaire">Monsieur le Duc d’Orleans</persName>,
+          representant l<persName>e Duc de Bourgogne</persName>, osta au <persName key="louisxv"
+            role="destinataire">Roy</persName>
           <tech>sa Couronne</tech>, &amp; la posa sur le Prie-Dicu. Il la reprit ensuite, aprés
           l’Evangile, &amp; la remit sur la teste de <persName key="louisxv" role="destinataire">Sa
             Majesté</persName>.</p>
@@ -1139,14 +1165,15 @@
           Grand Autel une grande Hostie, &amp; une petite qui devoit servir à la Communion du
             <persName key="louisxv" role="destinataire">Roy</persName>, aprés avoir, selon l’usage
           ordinaire, fait l’essay de l’une &amp; de l’autre. </p>
-        <p>Avant l’Elevation de la Messe, <persName>Monsieur le Duc d’Orleans</persName>,
-          representant le <persName>Duc de Bourgogne</persName>, osta au <persName key="louisxv"
-            role="destinataire">Roy</persName> sa Couronne &amp; la posa sur le Prie-Dicu. Les Pairs
-          Laïcs quitterent aussi leurs Couronnes, &amp; ne les reprirent qu’à la fin du Canon de la
-          Messe, lorsque <persName>Monsieur le Duc d’Orleans</persName> eut repris la Couronne du
-            <persName key="louisxv" role="destinataire">Roy</persName> sur le Prie-Dieu, &amp; qu’il
-          l’eut remis sur la teste de <persName key="louisxv" role="destinataire">Sa
-            Majesté</persName>.</p>
+        <p>Avant l’Elevation de la Messe, <persName key="philippe_orleans_regent"
+            role="commanditaire">Monsieur le Duc d’Orleans</persName>, representant le <persName>Duc
+            de Bourgogne</persName>, osta au <persName key="louisxv" role="destinataire"
+            >Roy</persName> sa Couronne &amp; la posa sur le Prie-Dicu. Les Pairs Laïcs quitterent
+          aussi leurs Couronnes, &amp; ne les reprirent qu’à la fin du Canon de la Messe, lorsque
+            <persName key="philippe_orleans_regent" role="commanditaire">Monsieur le Duc
+            d’Orleans</persName> eut repris la Couronne du <persName key="louisxv"
+            role="destinataire">Roy</persName> sur le Prie-Dieu, &amp; qu’il l’eut remis sur la
+          teste de <persName key="louisxv" role="destinataire">Sa Majesté</persName>.</p>
         <p>Vers la fin de la Messe, &amp; aprés que <persName>l’Archevêque de Reims</persName> eut
           donné la Benediction, les Herauts d’Armes, <persName>le Grand Maistre</persName>,
             <persName>le Maistre</persName>, &amp; <persName>l’Ayde de Ceremonies</persName>, avant
@@ -1182,9 +1209,9 @@
           de l’Autel, par <persName>le Cardinal de Rohan</persName>, Grand Aumônier de
             <placeName>France</placeName>, &amp; par <persName>l’Evêque de Metz</persName>, Premier
           Aumônier de <persName key="louisxv" role="destinataire">Sa Majesté</persName> &amp; du
-          costé du <persName key="louisxv" role="destinataire">Roy</persName>, par
-            <persName>Monsieur le Duc d’Orleans</persName>, &amp; par le <persName>Duc de
-            Chartres</persName>.</p>
+          costé du <persName key="louisxv" role="destinataire">Roy</persName>, par <persName
+            key="philippe_orleans_regent" role="commanditaire">Monsieur le Duc d’Orleans</persName>,
+          &amp; par le <persName>Duc de Chartres</persName>.</p>
         <list>
           <item/>
         </list>
@@ -1417,15 +1444,15 @@
           qui estoient placez à la mesme <tech>table</tech>, vis-à-vis les trois derniers Pairs
           Ecclesiasstiques, n’avoient que <tech>le Rochet</tech> &amp; <tech>le Camail
           violet</tech>. Les Pairs Laîcs se placerent à leur <tech>table</tech>, de cette sorte;
-            <persName>Monsieur le Duc d’Orleans</persName>, representant <persName>le Duc de
-            Bourgogne</persName>, se mit à la premiere place. <persName>Le Duc de
-            Chartres</persName>, representant <persName>le Duc de Normandie</persName>: <persName>le
-            Duc de Bourbon</persName>, representant <persName>le Duc d’Aquitaine</persName>;
-            <persName>le Comte de Charolois</persName>, representant <persName>le Comte de
-            Toulouse</persName>; <persName>le Comte de Clermont</persName>, representant
-            <persName>le Comte de Flandres</persName>; &amp; l<persName>e Prince de
-          Conty</persName>, representant <persName>le Comte de Champagne</persName>, occuperent les
-          cinq autres sur la mesme ligne. Ils avoient tous les mesmes <tech>Habits &amp;
+            <persName key="philippe_orleans_regent" role="commanditaire">Monsieur le Duc
+            d’Orleans</persName>, representant <persName>le Duc de Bourgogne</persName>, se mit à la
+          premiere place. <persName>Le Duc de Chartres</persName>, representant <persName>le Duc de
+            Normandie</persName>: <persName>le Duc de Bourbon</persName>, representant <persName>le
+            Duc d’Aquitaine</persName>; <persName>le Comte de Charolois</persName>, representant
+            <persName>le Comte de Toulouse</persName>; <persName>le Comte de Clermont</persName>,
+          representant <persName>le Comte de Flandres</persName>; &amp; l<persName>e Prince de
+            Conty</persName>, representant <persName>le Comte de Champagne</persName>, occuperent
+          les cinq autres sur la mesme ligne. Ils avoient tous les mesmes <tech>Habits &amp;
             Manteaux</tech>, dont ils estoient revêtus pendant la Ceremonie du Sacre, &amp; leur
             <tech>Couronne</tech> sur la teste. <persName>Le Nonce du Pape</persName>, &amp; les
           Ambassadeurs se placerent à leur <tech>Table</tech> de la maniere suivante: <persName>le
@@ -1518,12 +1545,13 @@
             <persName>Le Prince de Rohan</persName> &amp; <persName>le Duc de Chau-</persName></p>
         <pb n="684" xml:id="p684" facs="https://gallica.bnf.fr/ark:/12148/bpt6k6236260b/f40.highres"/>
         <p>nes, estoient aussi à <tech>cheval</tech> auprés du <persName key="louisxv"
-            role="destinataire">Roy</persName>. <persName>Monsieur le Duc d’Orleans</persName>,
-            <persName>le Duc de Chartres</persName>, <persName>le Duc de Bourbon</persName>,
-            l<persName>e Comte de Charolois</persName>, <persName>le Comte de Clermont</persName>
-          &amp; <persName>le Prince de Conty</persName>, marchoient à <tech>cheval</tech> aprés
-            <persName key="louisxv" role="destinataire">Sa Majesté</persName>: <persName>Monsieur le
-            Duc d’Orleans</persName> estoit accompagné du <persName>Marquis de Biron</persName> son
+            role="destinataire">Roy</persName>. <persName key="philippe_orleans_regent"
+            role="commanditaire">Monsieur le Duc d’Orleans</persName>, <persName>le Duc de
+            Chartres</persName>, <persName>le Duc de Bourbon</persName>, l<persName>e Comte de
+            Charolois</persName>, <persName>le Comte de Clermont</persName> &amp; <persName>le
+            Prince de Conty</persName>, marchoient à <tech>cheval</tech> aprés <persName
+            key="louisxv" role="destinataire">Sa Majesté</persName>: <persName>Monsieur le Duc
+            d’Orleans</persName> estoit accompagné du <persName>Marquis de Biron</persName> son
           Premier Ecuyer &amp; du <persName>Marquis de la Farre</persName>, Capitaine de ses Gardes
           du Corps; &amp; les Princes du Sang avoient auprés d’eux un de leurs Premiers Officiers.
           Aprés les Princes du Sang venoient les Officiers des Gardes du Corps de quartier, marchant
@@ -1595,7 +1623,8 @@
           Musique du Roy <tech>chanterent un Motet</tech>.</p>
         <p>L'Aprés-midy sur les deux heures, <persName>le Duc de Chartres</persName> &amp;
             <persName>le Comte de Charolois</persName>, furent faits Chevaliers de l’Ordre de
-            <name>Saint Michel</name>, par <persName>Monsieur le Duc d’Orleans</persName>.</p>
+            <name>Saint Michel</name>, par <persName key="philippe_orleans_regent"
+            role="commanditaire">Monsieur le Duc d’Orleans</persName>.</p>
         <p>Quelque temps aprés, les Cardinaux, les Archevesques. &amp; les Evesques invitez à cette
           Ceremonie, estant arrivez en Corps, à la porte du Chœur de <placeName>l’Eglise
             Metropolitaine</placeName>,</p>
@@ -1670,9 +1699,10 @@
             <persName>Mareschal Duc de Villars</persName>: <persName>le Mareschal de
             Tessé</persName> &amp; <persName>le Mareschal d’Estrées</persName>: puis <persName>le
             Prince de Conty</persName>, seul: <persName>le Duc de Bourbon</persName>, seul: &amp;
-            <persName>Monsieur le Duc d’Orleans</persName>, seul. Le <persName key="louisxv"
-            role="destinataire">Roy</persName> paroissoit ensuite <tech>en habit de Novice</tech>,
-          ayant à ses côtez, <persName>le Cardinal de Rohan</persName>, Grand Aumônier de
+            <persName key="philippe_orleans_regent" role="commanditaire">Monsieur le Duc
+            d’Orleans</persName>, seul. Le <persName key="louisxv" role="destinataire"
+            >Roy</persName> paroissoit ensuite <tech>en habit de Novice</tech>, ayant à ses côtez,
+            <persName>le Cardinal de Rohan</persName>, Grand Aumônier de
             <placeName>France</placeName>, à la droite, &amp; <persName>l’Evesque de
           Metz</persName>, Premier Aumônier de <persName key="louisxv" role="destinataire">Sa
             Majesté</persName>, à la gauche; tous deux Commandeurs de l’Ordre du Saint Esprit. Le
@@ -1740,11 +1770,11 @@
           costez du fauteüil de <persName key="louisxv" role="destinataire">Sa Majesté</persName>,
           auprés de laquelle le <persName role="convive" key="armand_de_bethune">Duc de
             Charost</persName> son Gouverneur, le Grand Chambellan, le Premier Gentilhomme de la
-          Chambre, &amp; <persName>le Marquis de Nelle</persName>, se placerent aussi.
-            <persName>Monsieur le Duc d’Orleans</persName> estoit dans la premiere place à la droite
-          du <persName key="louisxv" role="destinataire">Roy</persName>, ayant devant luy dans les
-          basses Stalles, <persName>l’Evêsque de Nantes</persName>, Premier Aumônier de
-            <persName>Son Altesse Royale</persName>.</p>
+          Chambre, &amp; <persName>le Marquis de Nelle</persName>, se placerent aussi. <persName
+            key="philippe_orleans_regent" role="commanditaire">Monsieur le Duc d’Orleans</persName>
+          estoit dans la premiere place à la droite du <persName key="louisxv" role="destinataire"
+            >Roy</persName>, ayant devant luy dans les basses Stalles, <persName>l’Evêsque de
+            Nantes</persName>, Premier Aumônier de <persName>Son Altesse Royale</persName>.</p>
         <list>
           <item/>
         </list>
@@ -1875,20 +1905,21 @@
             role="destinataire">Roy</persName>: aprés quoy il alla prendre ces deux Princes, qui,
           comme Novices, estoient restez au bas du Chœur, pendant qu’on avoit reçû le <persName
             key="louisxv" role="destinataire">Roy</persName> Grand Maistre Souverain de l’Ordre. Ces
-          deux Princes, conduits par <persName>Monsieur le Duc d’Orleans</persName> &amp; par le
-            <persName key="louisiv_henri_conde" role="convive">Duc de Bourbon</persName>, precedez
-          du <persName>sieur de Breteüil</persName> Prevôt &amp; Maistre des Ceremonies, du Herault
-          &amp; de l’Huissier, estant arrivez au bas du Sanctuaire, y firent leurs reverences. Ils
-          monterent ensuite sur l’Estrade du Trône du <persName key="louisxv" role="destinataire"
-            >Roy</persName>, aprés avoir fait, en y arrivant, une nouvelle reverence à <persName>Sa
-            Majesté</persName>. Le <persName>Duc de Chartres</persName> &amp; <persName>le Comte de
-            Charolois</persName> s’estant mis à genoux sur des <tech>Carreaux</tech>, devant le
-            <persName key="louisxv" role="destinataire">Roy</persName>, ils lûrent le Serment de
-          l’Ordre, qui leur fut presenté par<persName> le sieur de Montargis</persName> Secretaire,
-          &amp; ils le signerent a genoux, ainsi que la Profession de Foy écrite sur le mesme
-          Registre ou le <persName key="louisxv" role="destinataire">Roy</persName> avoit signé;
-            <persName>l’Abbé de Pompone</persName> Chancelier, tenant le Livre des Evangiles ouvert
-          sur les genoux du <persName key="louisxv" role="destinataire">Roy</persName>, pendant le
+          deux Princes, conduits par <persName key="philippe_orleans_regent" role="commanditaire"
+            >Monsieur le Duc d’Orleans</persName> &amp; par le <persName key="louisiv_henri_conde"
+            role="convive">Duc de Bourbon</persName>, precedez du <persName>sieur de
+            Breteüil</persName> Prevôt &amp; Maistre des Ceremonies, du Herault &amp; de l’Huissier,
+          estant arrivez au bas du Sanctuaire, y firent leurs reverences. Ils monterent ensuite sur
+          l’Estrade du Trône du <persName key="louisxv" role="destinataire">Roy</persName>, aprés
+          avoir fait, en y arrivant, une nouvelle reverence à <persName>Sa Majesté</persName>. Le
+            <persName>Duc de Chartres</persName> &amp; <persName>le Comte de Charolois</persName>
+          s’estant mis à genoux sur des <tech>Carreaux</tech>, devant le <persName key="louisxv"
+            role="destinataire">Roy</persName>, ils lûrent le Serment de l’Ordre, qui leur fut
+          presenté par<persName> le sieur de Montargis</persName> Secretaire, &amp; ils le signerent
+          a genoux, ainsi que la Profession de Foy écrite sur le mesme Registre ou le <persName
+            key="louisxv" role="destinataire">Roy</persName> avoit signé; <persName>l’Abbé de
+            Pompone</persName> Chancelier, tenant le Livre des Evangiles ouvert sur les genoux du
+            <persName key="louisxv" role="destinataire">Roy</persName>, pendant le
             Serment.<persName> Le sieur Hallé</persName> Herault, osta à ces deux Princes, leur
           Capot de Novice; le <persName>sieur Crozat</persName>, Grand Tresorier, presenta à
             <persName key="louisxv" role="destinataire">Sa Majesté</persName> le Cordon bleu, au bas
@@ -1966,13 +1997,14 @@
             <persName key="louisxv" role="destinataire">Sa Majesté</persName> se recommanda, aprés
           les avoir assuré de sa protection.</p>
         <p>L'Aprés-midy, le <persName key="louisxv" role="destinataire">Roy</persName> accompagné
-          dans son carosse de <persName>Monsieur le Duc d’Orleans</persName>, des Princes du Sang
-          &amp; du <persName role="convive" key="armand_de_bethune">Duc de Charost</persName> son
-          Gouverneur, se rendit au Camp formé prés du chemin de <placeName>Châlons</placeName>,
-          entre la Ville de <placeName>Reims</placeName> &amp; le Village de <placeName>Saint
-            Leonard</placeName>. <persName key="louisxv" role="destinataire">Sa Majesté</persName>
-          estant montée à <tech>cheval</tech> fit la reveuë des troupes de sa Maison &amp; des
-          Regiments des Gardes Françoises &amp; Suisses, &amp; aprés avoir vû faire aux Grenadiers à
+          dans son carosse de <persName key="philippe_orleans_regent" role="commanditaire">Monsieur
+            le Duc d’Orleans</persName>, des Princes du Sang &amp; du <persName role="convive"
+            key="armand_de_bethune">Duc de Charost</persName> son Gouverneur, se rendit au Camp
+          formé prés du chemin de <placeName>Châlons</placeName>, entre la Ville de
+            <placeName>Reims</placeName> &amp; le Village de <placeName>Saint Leonard</placeName>.
+            <persName key="louisxv" role="destinataire">Sa Majesté</persName> estant montée à
+            <tech>cheval</tech> fit la reveuë des troupes de sa Maison &amp; des Regiments des
+          Gardes Françoises &amp; Suisses, &amp; aprés avoir vû faire aux Grenadiers à
             <tech>cheval</tech> plusieurs mouvements, tant à pied qu’à <tech>cheval</tech>, dont le
             <persName key="louisxv" role="destinataire">Roy</persName> témoigna qu’il estoit trés
           satisfait, <persName key="louisxv" role="destinataire">Sa Majesté</persName> ordonna a ses
@@ -2000,29 +2032,29 @@
           Neuvaine, qui a esté continuée par <persName>l’Abbé d’Argentré</persName>, Doyen des
           Aumôniers de <persName key="louisxv" role="destinataire">Sa Majesté</persName>. Le
             <persName key="louisxv" role="destinataire">Roy</persName> estoit accompagné dans son
-          carosse, de <persName>Monsieur le Duc d’Orleans</persName>, du <persName>Duc de
-            Chartres</persName>, du <persName key="louisiv_henri_conde" role="convive">Duc de
-            Bourbon</persName>, du <persName>Comte de Clermont</persName>, du <persName>Prince de
-            Conty</persName>, &amp; du <persName>Duc de Charost</persName> son Gouverneur.
-            <persName>Sa Majesté </persName>qui estoit vêtuë d’un <tech>Manteau de drap d’or</tech>,
-          avec le <tech>Colier de l’Ordre du Saint Esprit</tech> par dessus, estant arrivée à la
-          porte de <placeName>l’Eglise</placeName>, y fur reçûe par les Religieux, tous en
-            <tech>chape</tech>, avec les ceremonies ordinaires. Lorsque le <persName key="louisxv"
-            role="destinataire">Roy</persName> fut arrivé au Prie-Dieu qui luy avoit esté preparé au
-          milieu du Chœur, <persName>le Cardinal de Rohan</persName>, Grand Aumônier de
-            <placeName>France</placeName>, commença une Messe basse, pendant laquelle <persName
-            key="louisxv" role="destinataire">Sa Majesté</persName> communia, la Nape estant tenuë,
-          du côté du <persName key="louisxv" role="destinataire">Roy</persName>, par
-            <persName>Monsieur le Duc d’Orleans</persName>, &amp; <persName>le Duc de
-            Chartres</persName>; &amp; du côté de l’Autel, par <persName>l’Abbé Milon</persName>,
-          &amp; <persName>l’Abbé de la Vieuville</persName>, Aumôniers de<persName> Sa
-            Majesté</persName>, en quartier, Aprés la Messe le <persName key="louisxv"
-            role="destinataire">Roy</persName> alla faire sa priere devant la Châsse de <name>Saint
-            Marcoul</name>, qui avoit esté aportée de <placeName>Corbeny</placeName>, &amp; qui
-          estoit placée prés l’Autel, du côté de l’Evangile <persName key="louisxv"
-            role="destinataire">Sa Majesté</persName> passa ensuite dans une des Sales de
-            <placeName>l’Abbaye de Saint Remy</placeName>, pour déjeuner, aprés quoy le <persName
-            key="louisxv" role="destinataire">Roy</persName> revint dans
+          carosse, de <persName key="philippe_orleans_regent" role="commanditaire">Monsieur le Duc
+            d’Orleans</persName>, du <persName>Duc de Chartres</persName>, du <persName
+            key="louisiv_henri_conde" role="convive">Duc de Bourbon</persName>, du <persName>Comte
+            de Clermont</persName>, du <persName>Prince de Conty</persName>, &amp; du <persName>Duc
+            de Charost</persName> son Gouverneur. <persName>Sa Majesté </persName>qui estoit vêtuë
+          d’un <tech>Manteau de drap d’or</tech>, avec le <tech>Colier de l’Ordre du Saint
+            Esprit</tech> par dessus, estant arrivée à la porte de <placeName>l’Eglise</placeName>,
+          y fur reçûe par les Religieux, tous en <tech>chape</tech>, avec les ceremonies ordinaires.
+          Lorsque le <persName key="louisxv" role="destinataire">Roy</persName> fut arrivé au
+          Prie-Dieu qui luy avoit esté preparé au milieu du Chœur, <persName>le Cardinal de
+            Rohan</persName>, Grand Aumônier de <placeName>France</placeName>, commença une Messe
+          basse, pendant laquelle <persName key="louisxv" role="destinataire">Sa Majesté</persName>
+          communia, la Nape estant tenuë, du côté du <persName key="louisxv" role="destinataire"
+            >Roy</persName>, par <persName key="philippe_orleans_regent" role="commanditaire"
+            >Monsieur le Duc d’Orleans</persName>, &amp; <persName>le Duc de Chartres</persName>;
+          &amp; du côté de l’Autel, par <persName>l’Abbé Milon</persName>, &amp; <persName>l’Abbé de
+            la Vieuville</persName>, Aumôniers de<persName> Sa Majesté</persName>, en quartier,
+          Aprés la Messe le <persName key="louisxv" role="destinataire">Roy</persName> alla faire sa
+          priere devant la Châsse de <name>Saint Marcoul</name>, qui avoit esté aportée de
+            <placeName>Corbeny</placeName>, &amp; qui estoit placée prés l’Autel, du côté de
+          l’Evangile <persName key="louisxv" role="destinataire">Sa Majesté</persName> passa ensuite
+          dans une des Sales de <placeName>l’Abbaye de Saint Remy</placeName>, pour déjeuner, aprés
+          quoy le <persName key="louisxv" role="destinataire">Roy</persName> revint dans
             <placeName>l’Eglise</placeName>, où il entendit une seconde Messe, qui fut dite par
             <persName>un Chapelain de Sa Majesté</persName>, &amp; pendant laquelle, on <tech>chanta
             un Motet</tech>.</p>
@@ -2151,8 +2183,9 @@
             avenuë</placeName> qui rend sur le grand chemin; &amp; <persName key="louisxv"
             role="destinataire">Sa Majesté</persName> vint descendre au pied de <placeName>la
             terrasse</placeName> qui regne le long du <placeName>Chasteau</placeName> du costé des
-            <placeName>Jardins</placeName>. <persName>Monsieur le Duc d’Orleans</persName> y reçut
-          le <persName key="louisxv" role="destinataire">Roy</persName>, &amp; le conduisit dans
+            <placeName>Jardins</placeName>. <persName key="philippe_orleans_regent"
+            role="commanditaire">Monsieur le Duc d’Orleans</persName> y reçut le <persName
+            key="louisxv" role="destinataire">Roy</persName>, &amp; le conduisit dans
             <placeName>l’Apartement</placeName> qui luy avoit esté preparé. Aprés que <persName
             key="louisxv" role="destinataire">Sa Majesté</persName> s’y fut reposée, elle descendit
           dans <placeName>l’avant-Cour du Chasteau</placeName>, ou des Danseurs de Corde, des
@@ -2163,13 +2196,14 @@
           estant remonté dans son <placeName>Apartement</placeName>, s’amusa à jouer pendant une
           heure; &amp; aprés le jeu, on donna à <persName key="louisxv" role="destinataire">Sa
             Majesté</persName> le divertissement de quelques Scenes Italiennes executées par les
-          Comediens ordinaires de <persName>Monsieur le Duc d’Orleans</persName>. Pendant cette
-          Comedie, dont le <persName key="louisxv" role="destinataire">Roy</persName> parut
-          trés-content, les parterres du <placeName>J</placeName><placeName>ardin</placeName>, la
-          grande allée du <placeName>Parc</placeName>, &amp; les deux qui sont à la droite &amp; à
-          la gauche du <placeName>Chasteau</placeName>, furent illuminez par une quantité
-          prodigieuse de <tech>pots à feu</tech>, dont l’arrangement marquoit les differens desseins
-          des <tech>Parterres</tech>, &amp; des <placeName>Jardins</placeName>. Le <persName
+          Comediens ordinaires de <persName key="philippe_orleans_regent" role="commanditaire"
+            >Monsieur le Duc d’Orleans</persName>. Pendant cette Comedie, dont le <persName
+            key="louisxv" role="destinataire">Roy</persName> parut trés-content, les parterres du
+            <placeName>J</placeName><placeName>ardin</placeName>, la grande allée du
+            <placeName>Parc</placeName>, &amp; les deux qui sont à la droite &amp; à la gauche du
+            <placeName>Chasteau</placeName>, furent illuminez par une quantité prodigieuse de
+            <tech>pots à feu</tech>, dont l’arrangement marquoit les differens desseins des
+            <tech>Parterres</tech>, &amp; des <placeName>Jardins</placeName>. Le <persName
             key="louisxv" role="destinataire">Roy</persName> estant descendu pour voir de plus près
           l’effet de cette magnifique <tech>illumination</tech>, trouva au bas de l’escalier de la
             <tech>Terrasse</tech>, plusieurs Acteurs &amp; Actrices de l’Opera qui venoient en
@@ -2183,11 +2217,11 @@
           laquelle on avoit formé <tech>une espece de Salle</tech>, par des <tech>Arcades de
             feuillages</tech> qui estoient <tech>illuminées</tech>, ainsi que les quatre faces de
           cette <placeName>Cour</placeName>. Aprés le souper de <persName key="louisxv"
-            role="destinataire">Sa Majesté</persName>, on servit la <tech>Table</tech> de
-            <persName>Monsieur le Duc d’Orleans</persName>, le<persName> Duc de Chartres</persName>
-          en tint une seconde, &amp; les principaux Officiers de <persName>son Altesse
-            Royale</persName> en tinrent d’autres à toutes les heures, dans les
-            <placeName>Apartements</placeName>. Tous les vivres consommez dans la
+            role="destinataire">Sa Majesté</persName>, on servit la <tech>Table</tech> de <persName
+            key="philippe_orleans_regent" role="commanditaire">Monsieur le Duc d’Orleans</persName>,
+            le<persName> Duc de Chartres</persName> en tint une seconde, &amp; les principaux
+          Officiers de <persName>son Altesse Royale</persName> en tinrent d’autres à toutes les
+          heures, dans les <placeName>Apartements</placeName>. Tous les vivres consommez dans la
             <placeName>Ville</placeName> ce jour-là &amp; les suivants, furent distribuez
           gratuitement. </p>
         <p><date when="1722-11-03">Le 3</date>, le <persName key="louisxv" role="destinataire"
@@ -2213,10 +2247,11 @@
             <tech>caleche</tech> au bas de la <placeName>terrasse du Chasteau</placeName>, estant
           accompagné du <persName key="louis_de_bourbonconde" role="convive">Comte de
             Clermont</persName>, &amp; du <persName>Duc de Charost</persName> son Gouverneur:
-            <persName>Monsieur le Duc d’Orleans</persName>, le <persName key="louis_orleans"
-            role="convive">Duc de Chartres</persName>, le <persName key="louisiv_henri_conde"
-            role="convive">Duc de Bourbon</persName>, le <persName>Comte de Charolois</persName>,
-          &amp; le <persName>Prince de Conty</persName>, estoient à <tech>cheval</tech> auprés de la
+            <persName key="philippe_orleans_regent" role="commanditaire">Monsieur le Duc
+            d’Orleans</persName>, le <persName key="louis_orleans" role="convive">Duc de
+            Chartres</persName>, le <persName key="louisiv_henri_conde" role="convive">Duc de
+            Bourbon</persName>, le <persName>Comte de Charolois</persName>, &amp; le
+            <persName>Prince de Conty</persName>, estoient à <tech>cheval</tech> auprés de la
             <tech>caleche</tech>, qui estoit precedée du grand Equipage du <persName key="louisxv"
             role="destinataire">Roy</persName> pour le <tech>Cerf</tech>, le <persName>Comte de
             Toulouse</persName>, Grand Veneur de <placeName>France</placeName>, estant à la teste.
