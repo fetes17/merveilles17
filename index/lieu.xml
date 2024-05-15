@@ -611,6 +611,9 @@
           <settlement>Wissant</settlement>
           <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Wissant</identifier>
           <identifier type="geonames">https://www.geonames.org/6439982/wissant.html</identifier>
+          <place xml:id="wissant_port">
+            <name>Port de Wissant</name>
+          </place>
         </place>
         
         <place xml:id="ypres">
@@ -798,15 +801,24 @@
           <settlement>Île-de-France</settlement>
           <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Claye-Souilly</identifier>
         </place>
-
-              
-      <place xml:id="ecouan">
-        <name>Écouen</name>
-        <geo>49.0100, 2.2300</geo>
-        <country>France</country>
-        <settlement>Île-de-France</settlement>
-        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/%C3%89couen</identifier>
-      </place>
+        
+        <place xml:id="crevecoeur_le_grand">
+          <name>Crèvecœeur-le-Grand</name>
+          <geo>49.60762, 2.07592</geo>
+          <country>France</country>
+          <settlement>Hauts-de-France</settlement>
+          <identifier type="geonames">https://www.geonames.org/3022498/crevecoeur-le-grand.html</identifier>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Cr%C3%A8vec%C5%93ur-le-Grand</identifier>
+          <identifier type="googlemaps">https://www.google.fr/maps/place/60360+Cr%C3%A8vec%C5%93ur-le-Grand/@49.6103241,2.0448553,13z/data=!3m1!4b1!4m6!3m5!1s0x47e70be98a268b6b:0xeaef2f23368b36f9!8m2!3d49.607696!4d2.076203!16s%2Fm%2F03qg4kv?entry=ttu</identifier>
+        </place>
+        
+        <place xml:id="ecouan">
+          <name>Écouen</name>
+          <geo>49.0100, 2.2300</geo>
+          <country>France</country>
+          <settlement>Île-de-France</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/%C3%89couen</identifier>
+        </place>
 
         <place xml:id="fort_louis">
           <name>Louis, Fort</name>
