@@ -1797,10 +1797,11 @@
           <pb n="87" xml:id="p57" facs="https://gallica.bnf.fr/ark:/12148/bpt6k6339961b/f87.item"/>
           <p><placeName key="chateausilvie">teau</placeName>, à quelque distance de <placeName
               key="chantilly">Chantily</placeName>, qui, à ce qu’on prétend, a reçû ce nom du Poëte
-              <persName>Theophile</persName>, qui étoit attaché à <persName>MM. de
-              Montmorency</persName>, lequel l’a habité long-temps, &amp; où <persName>il</persName>
-            a chanté &amp; celebré par quantité de vers, une beauté de son temps, qu’on n’a jamais
-            connuë que par le nom de <name key="silvie">Silvie</name>.</p>
+              <persName key="theophile_viau">Theophile</persName>, qui étoit attaché à <placeName
+              key="montmorency">MM. de Montmorency</placeName>, lequel l’a habité long-temps, &amp;
+            où <persName key="theophile_viau">il</persName> a chanté &amp; celebré par quantité de
+            vers, une beauté de son temps, qu’on n’a jamais connuë que par le nom de <name
+              key="silvie">Silvie</name>.</p>
           <p>Après la promenade, où le <persName key="louisxv" role="destinataire">Roy</persName>
             parut prendre beaucoup de plaisir, <persName key="louisxv" role="destinataire">Sa
               Majesté</persName> dîna dans son <placeName key="appartementroichantilly"
@@ -1835,16 +1836,17 @@
             <p>gneurs, on vit approcher de loin sur le canal, une troupe de <name key="thetis"
                 >Divinitez des Eaux</name>. <name key="thetis" corresp="marieantier">Thetis</name> y
               paroissoit dans une <tech type="machine_eau">conque marine</tech>, qui étoit d’un goût
-              &amp; d’une richesse admirable. <persName>Elle</persName> étoit précedée de <name
-                key="triton">Tritons</name>, qui, après avoir sonné plusieurs <tech type="musique"
-                >fanfares</tech>, conduisirent la <name key="thetis" corresp="marieantier"
-                >Déese</name> jusqu’aux pieds du <persName key="louisxv" role="destinataire"
-                >Roy</persName>. <persName>Elle</persName> presenta à <persName key="louisxv"
-                role="destinataire">S. M.</persName> une ligne précieuse, ornée de <tech
-                type="decor">perles</tech> &amp; de <tech type="decor">corail</tech>, &amp; <tech
-                type="bruitage">deux petites boëtes</tech> faites de coquilles très singulieres,
-              remplies <tech type="machine_eau">d’appas</tech> &amp; <tech type="machine_eau"
-                >d’hameçons</tech>.</p>
+              &amp; d’une richesse admirable. <persName key="marieantier" role="acteur"
+                >Elle</persName> étoit précedée de <name key="triton">Tritons</name>, qui, après
+              avoir sonné plusieurs <tech type="musique">fanfares</tech>, conduisirent la <name
+                key="thetis" corresp="marieantier">Déese</name> jusqu’aux pieds du <persName
+                key="louisxv" role="destinataire">Roy</persName>. <persName key="marieantier"
+                role="acteur">Elle</persName> presenta à <persName key="louisxv" role="destinataire"
+                >S. M.</persName> une ligne précieuse, ornée de <tech type="decor">perles</tech>
+              &amp; de <tech type="decor">corail</tech>, &amp; <tech type="bruitage">deux petites
+                boëtes</tech> faites de coquilles très singulieres, remplies <tech
+                type="machine_eau">d’appas</tech> &amp; <tech type="machine_eau"
+              >d’hameçons</tech>.</p>
             <p>La <persName key="marieantier" role="acteur">Dlle Antier</persName>, premiere Actrice
               de l’Academie Royale de Musique, habillée &amp; coëffée d’une manière qui
               caracterisoit parfaitement son personnage, <tech type="musique">chanta</tech> au
@@ -3031,20 +3033,20 @@
             </list>
             <p>Ils furent tous presentez au <persName key="louisxv" role="destinataire"
                 >Roy</persName> avec</p>
-            <p rend="i">*<persName>Le Premier</persName> &amp; <persName>le Second</persName>
-              President de la Cour des Aydes étant l’un &amp; l’autre veufs depuis peu, &amp; ne
-              pouvans à cause de leurs deüils fait si-tôt des fonctions publiques, celle de
-              complimenter le <persName key="louisxv" role="destinataire">Roy</persName> a été
-              dévoluë au President de <persName key="ricardpresident">Ricard</persName>, qui étoit
-              cy-devant Conseiller au Parlement de <placeName key="dijon">Dijon</placeName>, mais
-              qui est originaire de <placeName key="provence">Provence</placeName>, où <persName
-                key="joseph_paul_ricard">l’aîné</persName> de sa famille possede le Marquisat de
-              Ricard, terre érigée en ce titre, &amp; sous ce nom pour récompense des bons services
-              de cette famille qui a donné des Conseillers &amp; Presidens au Parlement <placeName
-                key="aixenprovence">d’Aix</placeName> d’une integrité parfaite, des Officiers à nos
-              armées de terre &amp; de mer d’une grande valeur, &amp; des Chevaliers, Commandeurs,
-              &amp; Grand Croix à l’ordre de <name key="saintjeanjerusalem">S. Jean de
-                Jerusalem</name>, très-zelez pour la gloire de la Religion.</p>
+            <p rend="i">*Le Premier &amp; le Second President de la Cour des Aydes étant l’un &amp;
+              l’autre veufs depuis peu, &amp; ne pouvans à cause de leurs deüils fait si-tôt des
+              fonctions publiques, celle de complimenter le <persName key="louisxv"
+                role="destinataire">Roy</persName> a été dévoluë au President de <persName
+                key="ricardpresident">Ricard</persName>, qui étoit cy-devant Conseiller au Parlement
+              de <placeName key="dijon">Dijon</placeName>, mais qui est originaire de <placeName
+                key="provence">Provence</placeName>, où <persName key="joseph_paul_ricard"
+                >l’aîné</persName> de sa famille possede le Marquisat de Ricard, terre érigée en ce
+              titre, &amp; sous ce nom pour récompense des bons services de cette famille qui a
+              donné des Conseillers &amp; Presidens au Parlement <placeName key="aixenprovence"
+                >d’Aix</placeName> d’une integrité parfaite, des Officiers à nos armées de terre
+              &amp; de mer d’une grande valeur, &amp; des Chevaliers, Commandeurs, &amp; Grand Croix
+              à l’ordre de <name key="saintjeanjerusalem">S. Jean de Jerusalem</name>, très-zelez
+              pour la gloire de la Religion.</p>
             <pb n="124" xml:id="p94"
               facs="https://gallica.bnf.fr/ark:/12148/bpt6k6339961b/f124.item"/>
             <p>les ceremonies ordinaires, par le <persName key="jean_frederic_phelypeaux">Comte de
