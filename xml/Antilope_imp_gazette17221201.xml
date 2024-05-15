@@ -77,8 +77,8 @@
       <div>
         <head>RELATION DE LA CEREMONIE DU SACRE ET COURONNEMENT DU <persName key="louisxv"
             role="destinataire">Roy</persName>.</head>
-        <p rend="center"><emph>Faite en l’Eglise Metropolitaine de Reims, <date when="1722-10-25">le
-              Dimanche 25 Octobre 1722</date>.</emph></p>
+        <byline><emph>Faite en l’Eglise Metropolitaine de Reims, <date when="1722-10-25">le Dimanche
+              25 Octobre 1722</date>.</emph></byline>
         <p><title>L</title>E depart du <persName key="louisxv" role="destinataire">Roy</persName>,
           pour se rendre à <placeName key="reims">Reims</placeName>, ayant esté fixé au <date
             when="1722-10-16">16 du mois d’Octobre</date>, <persName key="louisxv"
@@ -136,7 +136,7 @@
           passé, s’estant empressez de se trouver dans les Villes &amp; dans les grands chemins,
           pour donner à <persName key="louisxv" role="destinataire">Sa Majesté</persName> des
           marques de leur respect &amp; de leur joye.</p>
-        <list>
+        <list ana="noms">
           <item><persName key="louisxv" role="destinataire">Sa Majesté</persName>, accompagnée
             de</item>
           <item><persName key="philippe_orleans_regent" role="commanditaire">Monsieur le Duc
@@ -169,63 +169,74 @@
           Gouverneur de <placeName key="paris">l’Isle de France</placeName>, qui estoit allé</p>
         <pb n="652" xml:id="p652" facs="https://gallica.bnf.fr/ark:/12148/bpt6k6236260b/f4.highres"/>
         <p>au-devant de <persName key="louisxv" role="destinataire">Sa Majesté</persName>, se trouva
-          à la teste du Corps de Ville, à la Porte de <placeName>la Ville</placeName>, &amp; il en
-          presenta les clefs au <persName key="louisxv" role="destinataire">Roy</persName> qui alla
-          descendre à <placeName>l’Evesché</placeName>. <persName>L'Evesque de Soissons</persName>
-          reçût le <persName key="louisxv" role="destinataire">Roy</persName> à la descente de son
-          carosse &amp; &amp; le conduisit dans <placeName>les appartements</placeName>, où
-            <persName key="louisxv" role="destinataire">Sa Majesté</persName> reçût, un moment
-          aprés, les respects du Chapitre; le Prevost portant la parole. Le Corps de Ville, le
-          Presidial, les Tresoriers de France, l’Election &amp; plusieurs Communautez de la
-            <placeName>Ville</placeName>, furent ensuite admis à complimenter le <persName
-            key="louisxv" role="destinataire">Roy</persName>, aprés avoir esté presentez avec les
-          ceremonies ordinaires.</p>
+          à la teste du Corps de Ville, à la Porte de <placeName key="soissons">la
+          Ville</placeName>, &amp; il en presenta les clefs au <persName key="louisxv"
+            role="destinataire">Roy</persName> qui alla descendre à <placeName
+            key="eglisecathedralesoissons">l’Evesché</placeName>. <persName key="languet_gergy"
+            role="participant">L'Evesque de Soissons</persName> reçût le <persName key="louisxv"
+            role="destinataire">Roy</persName> à la descente de son carosse &amp; &amp; le conduisit
+          dans <placeName key="appartementroisoissons">les appartements</placeName>, où <persName
+            key="louisxv" role="destinataire">Sa Majesté</persName> reçût, un moment aprés, les
+          respects du Chapitre; <persName>le Prevost</persName> portant la parole. Le Corps de
+          Ville, le Presidial, les Tresoriers de <placeName key="france">France</placeName>,
+          l’Election &amp; plusieurs Communautez de la <placeName key="soissons">Ville</placeName>,
+          furent ensuite admis à complimenter le <persName key="louisxv" role="destinataire"
+            >Roy</persName>, aprés avoir esté presentez avec les ceremonies ordinaires.</p>
         <p><date when="1722-10-20">Le 20</date>, le <persName key="louisxv" role="destinataire"
-            >Roy</persName> sejourna à <placeName>Soissons</placeName> &amp; il entendit la Messe
-          dans <placeName>l’Eglise Cathedrale</placeName>, à la porte de laquelle <persName>Sa
-            Majesté </persName>fut reçûë &amp; complimentée par <persName>l’Evesque</persName>, à la
-          teste du Chapitre. Aprés la Messe, le <persName key="louisxv" role="destinataire"
-            >Roy</persName> retourna à <placeName>l’Evesché</placeName>, &amp;
-            <placeName>l’Academie</placeName> de cette <placeName>Ville</placeName>, ayant à sa
-          teste <persName>le Mareschal d’Estrées</persName>, l’un des Quarante de
-            <placeName>l’Academie</placeName><placeName> </placeName><placeName>Françoise</placeName>
-          &amp; Protecteur de celle de <placeName>Soissons</placeName>, y complimenta <persName>Sa
-            Majesté</persName>; le <persName>Directeur</persName> portant la parole. L'aprés midy le
-            <persName key="louisxv" role="destinataire">Roy</persName> alla voir <placeName>l’Eglise
-            de l’Abbaye de Saint Jean des</placeName><placeName
-            > </placeName><placeName>Vignes</placeName>, celle du <placeName>Monastere de
-            Nostre-Dame</placeName>, &amp; celle du <placeName>Monastere de Saint Paul</placeName>.
-          Toute la <placeName>Ville</placeName> fut <tech>illuminée</tech> pendant les deux nuits
-          que <persName key="louisxv" role="destinataire">Sa Majesté</persName> y coucha.</p>
+            >Roy</persName> sejourna à <placeName key="soissons">Soissons</placeName> &amp;
+            <persName key="louisxv" role="destinataire">il</persName> entendit la Messe dans
+            <placeName key="eglisecathedralesoissons">l’Eglise Cathedrale</placeName>, à la porte de
+          laquelle <persName key="louisxv" role="destinataire">Sa Majesté</persName>fut reçûë &amp;
+          complimentée par <persName key="languet_gergy" role="participant">l’Evesque</persName>, à
+          la teste du Chapitre. Aprés la Messe, le <persName key="louisxv" role="destinataire"
+            >Roy</persName> retourna à <placeName key="eglisecathedralesoissons"
+            >l’Evesché</placeName>, &amp; <placeName key="academiedesoissons">l’Academie</placeName>
+          de cette <placeName key="soissons">Ville</placeName>, ayant à sa teste <persName
+            key="victormarieestree" role="participant">le Mareschal d’Estrées</persName>, l’un des
+          Quarante de <placeName key="parisacademiefrancaise">l’Academie Françoise</placeName> &amp;
+          Protecteur de celle de <placeName key="soissons">Soissons</placeName>, y complimenta
+            <persName key="louisxv" role="destinataire">Sa Majesté</persName>; le <persName
+            key="philibert_orry" role="participant">Directeur</persName> portant la parole. L'aprés
+          midy le <persName key="louisxv" role="destinataire">Roy</persName> alla voir <placeName
+            key="abbaye_saintjeandesvignes">l’Eglise de l’Abbaye de Saint Jean des
+            Vignes</placeName>, celle du <placeName key="abbaye_notredamedesoissons">Monastere de
+            Nostre-Dame</placeName>, &amp; celle du <placeName key="abbaye_saintpauldesoissons"
+            >Monastere de Saint Paul</placeName>. Toute la <placeName key="soissons"
+            >Ville</placeName> fut <tech type="lumieres">illuminée</tech> pendant les deux nuits que
+            <persName key="louisxv" role="destinataire">Sa Majesté</persName> y coucha.</p>
         <p><date when="1722-10-21">Le 21</date>, le <persName key="louisxv" role="destinataire"
-            >Roy</persName> estant parti de <placeName>Soissons</placeName>, s’arresta à
-            <placeName>Bresnes</placeName>, où <persName>le Prince de Lambese</persName> qui en est
-          Seigneur avoit fait preparer pour les Officiers de <persName key="louisxv"
-            role="destinataire">Sa Majesté</persName> toute sorte de <tech>rafraichissemens</tech>
-          avec une grande abondance. <persName key="louisxv" role="destinataire">Sa
-            Majesté</persName> aprés avoir disné dans son carosse, alla coucher à
-            <placeName>Fismes</placeName>, où le <persName>Prince de Rohan</persName>, Gouverneur de
-          Champagne, accompagné du <persName>Marquis de Grandpré</persName> Lieutenant General de la
-          Province, &amp; de plusieurs Gentilshommes, estoit venu au-devant de<persName> Sa
-            Majesté</persName>. <date when="1722-10-22">Le 22</date>, le <persName key="louisxv"
-            role="destinataire">Roy</persName> partit de <placeName>Fismes</placeName>, &amp; il
-          arriva sur les deux heures aprés midy à quelque distance de <placeName>Reims</placeName>.
-          Les troupes de la Maison du <persName key="louisxv" role="destinataire">Roy</persName> qui
-          estoient campées prés de la <persName>Ville</persName>, sous les ordres au <persName>Duc
-            de Villeroy</persName>, Capitaine des Gardes du Corps, estoient rangées en bataille sur
-          le passage du <persName key="louisxv" role="destinataire">Roy</persName>, &amp; les mesmes
-          troupes accompagnerent <persName key="louisxv" role="destinataire">Sa Majesté</persName>
-          dans son</p>
+            >Roy</persName> estant parti de <placeName key="soissons">Soissons</placeName>,
+          s’arresta à <placeName key="bresnes">Bresnes</placeName>, où <persName>le Prince de
+            Lambese</persName> qui en est Seigneur avoit fait preparer pour les Officiers de
+            <persName key="louisxv" role="destinataire">Sa Majesté</persName> toute sorte de <tech
+            type="repas">rafraichissemens</tech> avec une grande abondance. <persName key="louisxv"
+            role="destinataire">Sa Majesté</persName> aprés avoir disné dans son carosse, alla
+          coucher à <placeName key="fismes">Fismes</placeName>, où le <persName
+            key="hercule_meriadec_rohan" role="participant">Prince de Rohan</persName>, Gouverneur
+          de Champagne, accompagné du <persName>Marquis de Grandpré</persName> Lieutenant General de
+          la Province, &amp; de plusieurs Gentilshommes, estoit venu au-devant de <persName
+            key="louisxv" role="destinataire">Sa Majesté</persName>. <date when="1722-10-22">Le
+            22</date>, le <persName key="louisxv" role="destinataire">Roy</persName> partit de
+            <placeName key="fismes">Fismes</placeName>, &amp; il arriva sur les deux heures aprés
+          midy à quelque distance de <placeName key="reims">Reims</placeName>. Les troupes de la
+          Maison du <persName key="louisxv" role="destinataire">Roy</persName> qui estoient campées
+          prés de la <placeName key="reims">Ville</placeName>, sous les ordres au <persName
+            key="francoisdeneufvilledevilleroy" role="participant">Duc de Villeroy</persName>,
+          Capitaine des Gardes du Corps, estoient rangées en bataille sur le passage du <persName
+            key="louisxv" role="destinataire">Roy</persName>, &amp; les mesmes troupes
+          accompagnerent <persName key="louisxv" role="destinataire">Sa Majesté</persName> dans
+          son</p>
         <pb n="653" xml:id="p653" facs="https://gallica.bnf.fr/ark:/12148/bpt6k6236260b/f5.highres"/>
-        <p>Entrée. Le <persName>Prince de Rohan</persName>, Gouverneur de Champagne, se trouva sur
-          le grand chemin, à la teste du Corps de Ville, dont les Officiers avoient fait dresser,
-          tant à la <placeName>Barriere</placeName>, qu’à la <placeName>porte de Vesle</placeName>
-          &amp; auprés de la <placeName>grande</placeName><placeName> </placeName><placeName>Place
-            de l’Eglise Metropolitaine</placeName>, des <tech>Arcs de Triomphe</tech> dont les
-          Emblêmes &amp; les Inscriptions avoient raport à la ceremonie du Sacre du <persName
-            key="louisxv" role="destinataire">Roy</persName>, &amp; à la joye universelle que sa
-          presence causoit à la <placeName>Ville</placeName>: ces <tech>Arcs de Triomphe</tech>
-          estoient gardez par des Bourgeois sous les armes.</p>
+        <p>Entrée. Le <persName key="hercule_meriadec_rohan" role="participant">Prince de
+            Rohan</persName>, Gouverneur de Champagne, se trouva sur le grand chemin, à la teste du
+          Corps de Ville, dont les Officiers avoient fait dresser, tant à la
+            <placeName>Barriere</placeName>, qu’à la <placeName>porte de Vesle</placeName> &amp;
+          auprés de la <placeName>grande</placeName><placeName> </placeName><placeName>Place de
+            l’Eglise Metropolitaine</placeName>, des <tech>Arcs de Triomphe</tech> dont les Emblêmes
+          &amp; les Inscriptions avoient raport à la ceremonie du Sacre du <persName key="louisxv"
+            role="destinataire">Roy</persName>, &amp; à la joye universelle que sa presence causoit
+          à la <placeName>Ville</placeName>: ces <tech>Arcs de Triomphe</tech> estoient gardez par
+          des Bourgeois sous les armes.</p>
         <p><persName>Le Prince de Rohan</persName> presenta au <persName key="louisxv"
             role="destinataire">Roy</persName> les clefs de la <placeName>Ville</placeName>, où
             <persName key="louisxv" role="destinataire">Sa Majesté</persName> fit son entrée sur les
@@ -275,8 +286,8 @@
           jusqu’à la porte de <placeName>l’Eglise Metropolitaine</placeName> où <persName
             key="louisxv" role="destinataire">Sa Majesté</persName> alla descendre. Le <persName
             key="louisxv" role="destinataire">Roy</persName> y fut reçû par <persName>l’Archevesque
-            Duc de Reims</persName> à la teste du Chapitre, &amp; assisté des Evesques de
-            <placeName>Soissons</placeName>, de <placeName>Laon</placeName>, de
+            Duc de Reims</persName> à la teste du Chapitre, &amp; assisté des Evesques de <placeName
+            key="soissons">Soissons</placeName>, de <placeName>Laon</placeName>, de
             <placeName>Beauvais</placeName>, de <placeName>Châlons</placeName>, de
             <placeName>Noyon</placeName>, <placeName>d’Amiens</placeName> &amp; de
             <placeName>Senlis</placeName>, ses Suffragans: ces Prelats estoient en <tech>Chape &amp;
@@ -349,7 +360,7 @@
             key="louisxv" role="destinataire">Sa Majesté</persName> fut reçûë à la porte de
             <placeName>l’Eglise</placeName>, par <persName>l’Archevesque Duc de Reims</persName>,
             <tech>en Chape &amp; en Mitre</tech>, à la teste du Chapitre, &amp; assisté des Evesques
-          de <placeName>Soissons</placeName>, de <placeName>Laor</placeName>, de
+          de <placeName key="soissons">Soissons</placeName>, de <placeName>Laor</placeName>, de
             <placeName>Beauvais</placeName>, de <placeName>Châlons</placeName>, de
             <placeName>Noyon</placeName>, <placeName>d’Amiens</placeName>, &amp; de
             <placeName>Senlis</placeName>, ses Suffragans, aussi en <tech>Chape &amp; en
@@ -2155,9 +2166,9 @@
             >Roy</persName>, &amp; les Regiments des Gardes Françoises &amp; Suisses quitterent le
           Camp de <placeName>Reims</placeName>, &amp; reprirent la route de leurs Quartiers. </p>
         <p><date when="1722-10-31">Le 31</date>, le <persName key="louisxv" role="destinataire"
-            >Roy</persName> partit de <placeName>Fismes</placeName>, &amp; il arriva à
-            <placeName>Soissons</placeName> sur les trois heures aprés midy; <persName key="louisxv"
-            role="destinataire">Sa Majesté</persName> alla descendre à
+            >Roy</persName> partit de <placeName>Fismes</placeName>, &amp; il arriva à <placeName
+            key="soissons">Soissons</placeName> sur les trois heures aprés midy; <persName
+            key="louisxv" role="destinataire">Sa Majesté</persName> alla descendre à
             <placeName>l’Evesché</placeName>, où <persName>elle</persName> fut reçuë à la portière
           de son carosse, par <persName>l’Evesque de Soissons</persName>. Le soir &amp; le
           lende-</p>
