@@ -311,48 +311,96 @@
           <item><persName role="convive" key="armand_de_bethune">du Duc de Charost</persName></item>
         </list>
         <pb n="654" xml:id="p654" facs="https://gallica.bnf.fr/ark:/12148/bpt6k6236260b/f6.highres"/>
-        <p>nuoient la marche qui estoit fermée par les Gendarmes de la Garde. <persName>Le Prince de
-            Rohan</persName>, Gouverneur de Champagne &amp; <persName>le Marquis de
-            Grandpré</persName> Lieutenant General de la Province, marchoient à cheval auprés du
-          carosse de <persName key="louisxv" role="destinataire">Sa Majesté</persName>. <persName>Le
-            Marquis de Dreux</persName> Grand Maistre des Ceremonies, &amp; le <persName>sieur des
-            Granges</persName> Maistre des Ceremonies occupoient, dans la marche, les places qui
+        <p>nuoient la marche qui estoit fermée par les Gendarmes de la Garde. <persName
+            key="hercule_meriadec_rohan" role="participant">Le Prince de Rohan</persName>,
+          Gouverneur de Champagne &amp; <persName>le Marquis de Grandpré</persName> Lieutenant
+          General de la Province, marchoient à <tech type="animal">cheval</tech> auprés du carosse
+          de <persName key="louisxv" role="destinataire">Sa Majesté</persName>. <persName
+            key="thomas_dreux_breze" role="organisation">Le Marquis de Dreux</persName> Grand
+          Maistre des Ceremonies, &amp; le <persName key="sieurgranges" role="organisation">sieur
+            des Granges</persName> Maistre des Ceremonies occupoient, dans la marche, les places qui
           leur sont destinées dans ces Ceremonies.</p>
-        <p>Le <persName key="louisxv" role="destinataire">Roy</persName> ayant passé sous <tech>les
-            Arcs de Triomphe</tech>, traversa <placeName>la grande ruë du Faubourg de
-            Ves</placeName><placeName>l</placeName><placeName>e</placeName>, occupée par les
+        <list>
+          <item><persName key="louisxv" role="destinataire">Sa Majesté</persName></item>
+          <item><persName key="hercule_meriadec_rohan" role="participant">Le Prince de
+              Rohan</persName></item>
+          <item><persName>le Marquis de Grandpré</persName></item>
+          <item><persName key="thomas_dreux_breze" role="organisation">Le Marquis de
+              Dreux</persName></item>
+          <item><persName key="sieurgranges" role="organisation">sieur des Granges</persName></item>
+        </list>
+        <p>Le <persName key="louisxv" role="destinataire">Roy</persName> ayant passé sous <tech
+            type="construction">les Arcs de Triomphe</tech>, traversa <placeName
+            key="rue_de_vesle_reims">la grande ruë du Faubourg de Vesle</placeName>, occupée par les
           Regiments des Gardes Françoises &amp; Suisses qui estoient en haye &amp; sous les armes,
-          jusqu’à la porte de <placeName>l’Eglise Metropolitaine</placeName> où <persName
-            key="louisxv" role="destinataire">Sa Majesté</persName> alla descendre. Le <persName
-            key="louisxv" role="destinataire">Roy</persName> y fut reçû par <persName>l’Archevesque
-            Duc de Reims</persName> à la teste du Chapitre, &amp; assisté des Evesques de <placeName
-            key="soissons">Soissons</placeName>, de <placeName>Laon</placeName>, de
-            <placeName>Beauvais</placeName>, de <placeName>Châlons</placeName>, de
-            <placeName>Noyon</placeName>, <placeName>d’Amiens</placeName> &amp; de
-            <placeName>Senlis</placeName>, ses Suffragans: ces Prelats estoient en <tech>Chape &amp;
-            en Mitre</tech>, &amp; les Chanoines en <tech>Chape</tech>. Le <persName key="louisxv"
-            role="destinataire">Roy</persName> se mit à genoux à la porte de
-            <placeName>l’Eglise</placeName>; &amp; aprés avoir baisé le Livre des Evangiles qui
-          estoit porté par le<persName> sieur Clocquet</persName> l’un des Chanoines, <persName
-            key="louisxv" role="destinataire">Sa Majesté</persName> fut complimentée par
-            <persName>l’Archevesque de Reims</persName>. Le Clergé retourna en Procession dans le
-          Chœur, où le <persName key="louisxv" role="destinataire">Roy</persName> estant entré aprés
-          les Evesques, il alla se placer sur un Prie-Dieu dressé au milieu du Chœur sous un Dais.
-            <persName key="louisxv" role="destinataire">Sa Majesté</persName> assista au <foreign>Te
-            Deum</foreign> qui fut chanté au bruit de plusieurs <tech>salves de l’artillerie</tech>
-          de la <placeName>Ville</placeName>, &amp; pendant lequel on apporta de la Sacristie un
-          magnifique Soleil d’argent doré, du poids de cent vingt-cinq marcs, dont le <persName
-            key="louisxv" role="destinataire">Roy</persName> faisoit present à <placeName>l’Eglise
-            de Reims</placeName>. <persName key="philippe_orleans_regent" role="commanditaire"
-            >Monsieur le Duc d’Orleans</persName> l’ayant reçû des mains du <persName>Duc de
-            Villequier</persName>, Premier Gentilhomme de la Chambre, le presenta à <persName>Sa
-            Majesté </persName>qui alla l’offrir à <name>Dieu</name> en le posant sur l’Autel. Aprés
-          la Benediction, le <persName key="louisxv" role="destinataire">Roy</persName> se retira
-          dans <placeName>l’Archevêché</placeName>, qui avoit esté orné des plus belles
-            <tech>Tapisseries de la Couronne</tech>, &amp; des <tech>meubles les plus
-            precieux</tech>.</p>
+          jusqu’à la porte de <placeName key="cathedrale_de_reims">l’Eglise
+            Metropolitaine</placeName> où <persName key="louisxv" role="destinataire">Sa
+            Majesté</persName> alla descendre. Le <persName key="louisxv" role="destinataire"
+            >Roy</persName> y fut reçû par <persName key="armand_jules_rohan_guemene"
+            role="organisation">l’Archevesque Duc de Reims</persName> à la teste du Chapitre, &amp;
+          assisté des Evesques de <persName key="languet_gergy" role="organisation"
+            >Soissons</persName>, de <persName key="charles_ii_de_saint_aubin" role="organisation"
+            >Laon</persName>, de <persName key="francoishonnoreantoine_de_beauvillierssaintaignan"
+            role="organisation">Beauvais</persName>, de <persName
+            key="nicolas_charles_saulx_tavanes" role="organisation">Châlons</persName>, de <persName
+            key="charlefrancois_chateauneuf_de_rochebonne" role="organisation">Noyon</persName>,
+            <persName key="pierre_sabatier" role="organisation">d’Amiens</persName> &amp; de
+            <persName key="francois_firmin_trudaine" role="organisation">Senlis</persName>, ses
+          Suffragans: ces Prelats estoient en <tech type="costume">Chape</tech> &amp;<tech
+            type="costume">en Mitre</tech>, &amp; les Chanoines en <tech type="costume"
+          >Chape</tech>. Le <persName key="louisxv" role="destinataire">Roy</persName> se mit à
+          genoux à la porte de <placeName key="cathedrale_de_reims">l’Eglise</placeName>; &amp;
+          aprés avoir baisé le Livre des Evangiles qui estoit porté par le <persName
+            key="nicolasjoseph_clocquet" role="organisation">sieur Clocquet</persName> l’un des
+          Chanoines, <persName key="louisxv" role="destinataire">Sa Majesté</persName> fut
+          complimentée par <persName key="armand_jules_rohan_guemene" role="organisation"
+            >l’Archevesque de Reims</persName>. Le Clergé retourna en Procession dans le Chœur, où
+          le <persName key="louisxv" role="destinataire">Roy</persName> estant entré aprés les
+          Evesques, il alla se placer sur un <tech type="construction">Prie-Dieu</tech> dressé au
+          milieu du Chœur sous un <tech type="construction">Dais</tech>. <persName key="louisxv"
+            role="destinataire">Sa Majesté</persName> assista au <foreign xml:lang="la">Te
+            Deum</foreign> qui fut chanté au bruit de plusieurs <tech type="bruitage">salves de
+            l’artillerie</tech> de la <placeName key="reims">Ville</placeName>, &amp; pendant lequel
+          on apporta de la Sacristie un magnifique Soleil d’argent doré, du poids de cent vingt-cinq
+          marcs, dont le <persName key="louisxv" role="destinataire">Roy</persName> faisoit present
+          à <placeName key="cathedrale_de_reims">l’Eglise de Reims</placeName>. <persName
+            key="philippe_orleans_regent" role="commanditaire">Monsieur le Duc d’Orleans</persName>
+          l’ayant reçû des mains du <persName key="louis_daumont_de_rochebaron" role="participant"
+            >Duc de Villequier</persName>, Premier Gentilhomme de la Chambre, le presenta à
+            <persName key="louisxv" role="destinataire">Sa Majesté</persName>qui alla l’offrir à
+            <name key="dieu">Dieu</name> en le posant sur l’Autel. Aprés la Benediction, le
+            <persName key="louisxv" role="destinataire">Roy</persName> se retira dans <placeName
+            key="cathedrale_de_reims">l’Archevêché</placeName>, qui avoit esté orné des plus belles
+            <tech type="decor">Tapisseries de la Couronne</tech>, &amp; des <tech type="decor"
+            >meubles les plus precieux</tech>.</p>
+        <list>
+          <label>Clergé</label>
+          <item><persName key="armand_jules_rohan_guemene" role="organisation">l’Archevesque Duc de
+              Reims</persName> à la teste du Chapitre, &amp; assisté des Evesques de</item>
+          <item>de <persName key="languet_gergy" role="organisation">Soissons</persName></item>
+          <item>de <persName key="charles_ii_de_saint_aubin" role="organisation"
+            >Laon</persName></item>
+          <item>de <persName key="francoishonnoreantoine_de_beauvillierssaintaignan"
+              role="organisation">Beauvais</persName></item>
+          <item>de <persName key="nicolas_charles_saulx_tavanes" role="organisation"
+              >Châlons</persName></item>
+          <item>de <persName key="charlefrancois_chateauneuf_de_rochebonne" role="organisation"
+              >Noyon</persName></item>
+          <item><persName key="pierre_sabatier" role="organisation">d’Amiens</persName></item>
+          <item>de <persName key="francois_firmin_trudaine" role="organisation"
+            >Senlis</persName></item>
+          <item><persName key="nicolasjoseph_clocquet" role="organisation">sieur Clocquet</persName>
+            l’un des Chanoines</item>
+          <label>Les nobles</label>
+          <item><persName key="louisxv" role="destinataire">Sa Majesté</persName></item>
+          <item><persName key="philippe_orleans_regent" role="commanditaire">Monsieur le Duc
+              d’Orleans</persName></item>
+          <item><persName key="louis_daumont_de_rochebaron" role="participant">Duc de
+              Villequier</persName></item>
+          <item><persName>l’Abbé Bachelier</persName></item>
+        </list>
         <p>Le <persName key="louisxv" role="destinataire">Roy</persName> reçût les hommages du
-            <persName>Chapitre de Reims</persName>; <persName>l’Abbé Bachelier</persName>, Doyen,
+            Chapitre de Reims; <persName>l’Abbé Bachelier</persName>, Doyen,
           &amp; deputé par le Chapitre</p>
         <pb n="655" xml:id="p655" facs="https://gallica.bnf.fr/ark:/12148/bpt6k6236260b/f7.highres"/>
         <p>pour cette fonction, portant la parole. Le Corps de Ville, presenta ensuite les presents
