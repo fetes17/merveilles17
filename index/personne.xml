@@ -2,6 +2,9 @@
 <?xml-model href="index.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listPerson xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
 
+  <person xml:id="adrienII_hanyvel" sex="M">
+    <name>Hanyvel, Adrien de, Mr de Manevillete, secrétaire des commandements</name>
+  </person>
   <person xml:id="andre" sex="M">
     <name>André, officier du Gobelet</name>
   </person>
@@ -45,6 +48,14 @@
     <death when="1067-09-01"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Baudouin_V_de_Flandre</identifier>
   </person>
+  <person xml:id="balthazar_phelypeaux_chateauneuf" sex="M">
+    <name>Phélypeaux, Balthazar, de Châteauneuf, marquis de</name>
+    <birth when="1638"/>
+    <death when="1700"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Balthazar_Ph%C3%A9lypeaux_de_Ch%C3%A2teauneuf</identifier>
+    <identifier type="databnf">https://data.bnf.fr/14977250/balthazar_phelypeaux_chateauneuf/</identifier>
+    <identifier type="isni">http://isni.org/isni/0000000384518060</identifier>
+  </person>
   <person xml:id="bernard_de_la_guiche" sex="M">
     <name>Bernard de La Guiche, comte de Saint-Géran</name>
     <birth when="1642-08-15"/>
@@ -56,6 +67,12 @@
     <name>Blancas, page</name>
   </person>
   <!-- à corriger en Brancas ? À vérifier -->
+  <person xml:id="pierre_de_bonzi" sex="M">
+    <name>Bonzi, Pierre de, cardinal</name>
+    <birth when="1631-04-15"/>
+    <death when="1703-07-11"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Pierre_de_Bonzi</identifier>
+  </person>
   <person xml:id="albert" sex="M">
     <name>Albert, sieur, capitaine de frégate</name>
   </person>
@@ -76,11 +93,25 @@
     <identifier type="databnf">https://data.bnf.fr/13197087/charles_2/</identifier>
     <identifier type="isni">http://isni.org/isni/0000000118675506</identifier>
   </person>
+  <person xml:id="charles_colbert_croissy" sex="M">
+    <name>Croissy, Charles Colbert de</name>
+    <birth when="1629-08-05"/>
+    <death when="1696-07-28"/>
+    <identifier type="databnf">https://data.bnf.fr/12597740/charles_colbert_croissy/</identifier>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Charles_Colbert_de_Croissy</identifier>
+    <identifier type="isni">http://isni.org/isni/0000000063071974</identifier>
+  </person>
   <person xml:id="charles_du_fresny" sex="M">
     <name>Charles Du Fresny, auteur</name>
     <birth when="1648"/>
     <death when="1724-10-06"/>
     <identifier type="isni">http://isni.org/isni/0000000140935001</identifier>
+  </person>
+  <person xml:id="charles_françois_lorraine" sex="M">
+    <name>Lorraine, Charles-François de, prince de Commercy</name>
+    <birth when="1661-07-11"/>
+    <death when="1702-08-15"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Charles-Fran%C3%A7ois_de_Lorraine#:~:text=Charles%2DFran%C3%A7ois%20de%20Lorraine%20(%2011,de%20la%20Maison%20de%20Lorraine.</identifier>
   </person>
   <person xml:id="charles_honore_albert_de_luynes" sex="M">
     <name>Charles-Honoré d'Albert de Luynes, duc de Chevreuse</name>
@@ -301,6 +332,14 @@
   <person xml:id="joannet" sex="M">
     <name>Joannet, petit valet de pied</name>
   </person>
+  <person xml:id="jules_cesar" sex="M">
+    <name>César, Jules</name>
+    <birth when="0100-07-12"/>
+    <death when="0044-03-15"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jules_C%C3%A9sar</identifier>
+    <identifier type="isni">http://isni.org/isni/0000000122834514</identifier>
+    <identifier type="databnf">https://data.bnf.fr/11894764/jules_cesar/</identifier>
+  </person>
   <person xml:id="julien_de_perse" sex="M">
     <name>Perse, Julien de, Enseigne de vaisseau</name>
   </person>
@@ -371,7 +410,25 @@
   <person xml:id="loubie" sex="M">
     <name>Loubie, page de la Petite écurie</name>
   </person>
-
+  <person xml:id="louisI_sanguin" sex="M">
+    <name>Sanguin, Louis I</name>
+  </person>
+  <person xml:id="louis_chatillon" sex="M">
+    <name>Chatillon, Louis de, ou Chastillon</name>
+    <birth when="1639"/>
+    <death when="1734"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Louis_de_Ch%C3%A2tillon</identifier>
+    <identifier type="databnf">https://data.bnf.fr/14971547/louis_de_chatillon/</identifier>
+    <identifier type="isni">http://isni.org/isni/000000006637003X</identifier>
+  </person>
+  <person xml:id="louis_oger_cavoye" sex="M">
+    <name>Cavoye, Louis Oger de</name>
+    <birth when="1640"/>
+    <death when="1715-02-03"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Louis_Oger_de_Cavoye</identifier>
+    <identifier type="databnf">https://data.bnf.fr/16071120/louis_d_oger_cavoye/</identifier>
+    <identifier type="isni">http://isni.org/isni/0000000450194587</identifier>
+  </person>
   <person xml:id="louis_d_escre" sex="M">
     <name>D'Escre, Louis, tymballier</name>
   </person>
@@ -2124,6 +2181,7 @@
     <name>Gesvres, Léon Potier de Luxembourg, comte de Sceaux, duc de Tresmes, marquis de</name>
     <birth when="1620"/>
     <death when="1704"/>
+    <identifier type="databnf">https://data.bnf.fr/14977248/leon_potier_gesvres/</identifier>
   </person>
   <person xml:id="bernardin_gigault_bellefonds" sex="M">
     <name>Gigault de Bellefonds, Bernardin de</name>
