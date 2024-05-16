@@ -792,6 +792,18 @@
               <name>Estran de Calais</name>
             </place>
           </place>
+          
+          <place xml:id="calais_port">
+            <name>Port de Calais</name>
+            <settlement>Calais</settlement>
+            <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Port_de_Calais</identifier>
+          </place>
+          
+          <place xml:id="calais_fort_risban">
+            <name>Fort Risban</name>
+            <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Fort_Risban</identifier>
+            <identifier type="googlemaps">https://www.google.fr/maps/place/Fort+Risban/@50.9636499,1.8449283,17z/data=!3m1!4b1!4m6!3m5!1s0x47dc3fa39cef5f59:0x6f674d89758101c7!8m2!3d50.9636465!4d1.8475032!16s%2Fm%2F0x298rq?entry=ttu</identifier>
+          </place>
         </place>
 
         <place xml:id="camps-en-amnienois">
