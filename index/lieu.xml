@@ -703,6 +703,10 @@
           <settlement>Ardres</settlement>
           <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Ardres</identifier>
           <identifier type="geonames">https://www.geonames.org/6618444/ardres.html</identifier>
+          
+          <place xml:id="ardres_fortifications">
+            <name>Fortifications d'Ardres</name>
+          </place>
         </place>
 
         <place xml:id="beauvais">
@@ -761,26 +765,32 @@
           <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Calais</identifier>
           <identifier type="geonames">https://www.geonames.org/3029162/calais.html</identifier>
           
-          <place xml:id="calais_citadelle">
-            <name>Citadelle de Calais</name>
-            <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Citadelle_de_Calais</identifier>
-            <identifier type="googlemaps">https://www.google.com/maps/place/Citadelle+de+Calais/@50.9564642,1.8404038,17z/data=!3m1!4b1!4m6!3m5!1s0x47dc3f09b3661cef:0xea892b0a912bb2f5!8m2!3d50.9564608!4d1.8429787!16s%2Fg%2F122kc926?entry=ttu</identifier>
-            <place xml:id="calais_rempart">
-              <name>Rempart, Rampart de la Citadelle de Calais</name>
+          <place xml:id="calais_fortifications">
+            <name>Fortifications de Calais</name>
+            <settlement>Calais</settlement>
+            <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Fortifications_de_Calais</identifier>
+                    
+            <place xml:id="calais_citadelle">
+              <name>Citadelle de Calais</name>
+              <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Citadelle_de_Calais</identifier>
+              <identifier type="googlemaps">https://www.google.com/maps/place/Citadelle+de+Calais/@50.9564642,1.8404038,17z/data=!3m1!4b1!4m6!3m5!1s0x47dc3f09b3661cef:0xea892b0a912bb2f5!8m2!3d50.9564608!4d1.8429787!16s%2Fg%2F122kc926?entry=ttu</identifier>
+              <place xml:id="calais_rempart">
+                <name>Rempart, Rampart de la Citadelle de Calais</name>
+              </place>
+            </place>          
+            
+            <place xml:id="calais_glacis">
+              <name>Glacis</name>
             </place>
-          </place>          
-          
-          <place xml:id="calais_glacis">
-            <name>Glacis</name>
-          </place>
-          
-          <place xml:id="calais_fort_nieulay">
-            <name>Fort Nieulat ou Fort de Nieulay</name>
-            <identifier type="googlemaps">https://www.google.com/maps/place//data=!4m2!3m1!1s0x47dc3ee5696313ef:0x2ceca23ad387dd62?sa=X&amp;ved=1t:8290&amp;ictx=111</identifier>
-          </place>
-          
-          <place xml:id="calais_estran">
-            <name>Estran de Calais</name>
+            
+            <place xml:id="calais_fort_nieulay">
+              <name>Fort Nieulat ou Fort de Nieulay</name>
+              <identifier type="googlemaps">https://www.google.com/maps/place//data=!4m2!3m1!1s0x47dc3ee5696313ef:0x2ceca23ad387dd62?sa=X&amp;ved=1t:8290&amp;ictx=111</identifier>
+            </place>
+            
+            <place xml:id="calais_estran">
+              <name>Estran de Calais</name>
+            </place>
           </place>
         </place>
 
