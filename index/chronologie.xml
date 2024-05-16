@@ -192,7 +192,12 @@
       <ref target="../xml/Flandres17_imp_mg1680_saint_omer.xml"/>
     </event>
     
-    <event from="1680-07-25" to="1680-07-30" where="dunkerque" xml:id="Dunkerque1680">
+    <event when="1680-07-26" where="monquebour_gravelines" xml:id="monquebour_gravelines1680">
+      <label>Entrée à Monquebour &amp; Gravelines</label>
+      <ref target="../xml/Flandres17_imp_mg1680_monquebour_gravelines.xml"/>
+    </event>
+    
+    <event from="1680-07-27" to="1680-07-30" where="dunkerque" xml:id="Dunkerque1680">
       <label>Entrée et combat naval à Dunkerque</label>
       <ref target="../xml/Flandres17_imp_mg1680_dunkerque.xml"/>
       <ref target="../xml/merveilles17_imp_gazette16800808.xml"/>
