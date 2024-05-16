@@ -8,6 +8,12 @@
   <person xml:id="andre" sex="M">
     <name>André, officier du Gobelet</name>
   </person>
+  <person xml:id="andre_autriche" sex="M">
+    <name>Autriche, André d', cardinal d'Autriche</name>
+    <birth when="1558-06-15"/>
+    <death when="1600-11-12"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Andr%C3%A9_d%27Autriche</identifier>
+  </person>
   <person xml:id="alexandre_farnese" sex="M">
     <name>Alexandre Farnèse, prince </name>
     <birth when="1545-08-27"/>
@@ -173,6 +179,13 @@
     <identifier type="databnf">https://data.bnf.fr/11963640/edouard_3/</identifier>
     <identifier type="isni">https://data.bnf.fr/11963640/edouard_3/</identifier>
   </person>  
+  <person xml:id="philippa_hainaut" sex="F">
+    <name>Hainaut, Philippa de, reine d'Angleterre, femme d'Edouard III</name>
+    <birth notBefore="1314"/>
+    <death when="1369"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Philippa_de_Hainaut</identifier>
+    <identifier type="databnf">https://data.bnf.fr/16641638/philippa_de_hainaut/</identifier>
+  </person>
   <person xml:id="françois_chevalier_de_saulx" sex="M">
     <name>François Chevalier de Saulx</name>
     <birth when="1643"/>
@@ -246,6 +259,22 @@
   </person>
   <person xml:id="hericour" sex="M">
     <name>Héricour, page</name>
+  </person>
+  <person xml:id="henryII" sex="M">
+    <name>Henri II, roi de France</name>
+    <birth when="1519-03-31"/>
+    <death when="1559-07-10"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Henri_II_(roi_de_France)</identifier>
+    <identifier type="databnf">https://data.bnf.fr/12066759/henri_2/</identifier>
+    <identifier type="isni">http://isni.org/isni/0000000395001884</identifier>
+  </person>
+  <person xml:id="henriIV" sex="M">
+    <name>Henri IV</name>
+    <birth when="1553-12-14"/>
+    <death when="1610-05-14"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Henri_IV_(roi_de_France)</identifier>
+    <identifier type="databnf">https://data.bnf.fr/12015401/henri_4/</identifier>
+    <identifier type="isni">http://isni.org/isni/0000000121348311</identifier>
   </person>
   <person xml:id="henriette_louise_colbert" sex="F">
     <name>Henriette-Louise Colbert, duchesse de Beauvilliers</name>
