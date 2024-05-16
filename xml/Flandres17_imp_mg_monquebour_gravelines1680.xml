@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
+<?xml-stylesheet type="text/css" href="../style/tei-author.css" alternate="author"?>
+<?xml-model href="https://fetes17.github.io/merveilles17/merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MERCURE GALANT Dédié A Monseigneur LE DAUPHIN, septembre 1680. SECONDE PARTIE.
+          Contenant le Voyage que le Roy a fait en Flandre en l’année 1680.</title>
+        <author key="jean_donneau_de_vize">Jean Donneau de Vizé</author>
+        <author key="thomas_corneille">Thomas Corneille</author>
+        <author key="charles_du_fresny">Charles Du Fresny</author>
+        <editor key="claude_blageart" role="editeur">Claude Blageart</editor>
+        <editor key="michel_gueroult" role="editeur">Michel Guéroult</editor>
+        <editor key="michel_brunet" role="editeur">Michel Brunet</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>Flandres17</edition>
+        <respStmt>
+          <name>Laurine Meny</name>
+          <resp>Transcription et indexation</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université d’Artois - CPER Anamorphoses</publisher>
+        <date when="2024"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>MERCURE GALANT Dédié A Monseigneur LE DAUPHIN, septembre 1680. SECONDE PARTIE.
+          Contenant le Voyage que le Roy a fait en Flandre en l’année 1680. A PARIS, AU PALAIS.
+            <note>MERCURE, PARIS, AU PALAIS, 1680, MONQUEBOUR, GRAVELINES P.62-64.</note>
+          <ptr target="https://gallica.bnf.fr/ark:/12148/bpt6k62219294?rk=42918;4"/></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1680">1680</date>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+
+    <front>
+      <pb n="np" xml:id="p5" facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f5"/>
+      <titlePage>
+        <docTitle>
+          <titlePart>MERCURE GALANT Dédié A <persName key="louis_grand_dauphin" role="destinataire"
+              >Monseigneur LE DAUPHIN</persName>, <date when="1680-09">septembre 1680</date>.
+            SECONDE PARTIE. Contenant le Voyage que le <persName key="louisxiv">Roy</persName> a
+            fait en <placeName key="flandre">Flandre</placeName> en l’année <date when="1680"
+              >1680</date>.</titlePart>
+        </docTitle>
+        <docDate>
+          <date when="1680">1680</date>
+        </docDate>
+        <docImprint>A <placeName key="paris">PARIS</placeName>, AU <placeName
+            key="paris_palais_royal">PALAIS</placeName>.</docImprint>
+      </titlePage>
+    </front>
+    <body>
+      <pb n="np" xml:id="p6" facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f6"/>
+      <p>On donnera toûjours un Volume nouveau du Mercure Galant le premier jour de chaque Mois,
+        &amp; on le vendra, aussi-bien que l'Extraordinaire, Trente fois relié en Veau, &amp;
+        Ving-cinq fois en Parchemin.</p>
+      <p rend="center">A <placeName key="paris">PARIS</placeName></p>
+      <p rend="center">Chez <persName key="guillaume_de_luyne" role="imprimeur">G. DE
+          LUYNE</persName>, au <placeName key="paris_palais_royal">Palais</placeName>, dans la Salle
+        des Merciers, à la Justice.</p>
+      <p rend="center">Chez <persName key="claude_blageart">C. BLAGEART</persName>, <placeName
+          key="lille_rue_saint_jacques">Ruë S. Jacques</placeName>, à l'entrée de la <placeName
+          key="lille_rue_du_platre">Ruë du Plâtre</placeName>, Et en sa Boutique Court-Neuve du
+          <placeName key="paris_palais_royal">Palais</placeName>, AU <persName
+          key="louis_grand_dauphin" role="destinataire">DAUPHIN</persName>.</p>
+      <p rend="center">Et <persName key="theodore_girard">T. Girard</persName>, au <placeName
+          key="paris_palais_royal">Palais</placeName>, dans la Grande Salle, à l'Envie.</p>
+      <p><date when="1680">M. D. LXXX.</date></p>
+      <p>AVEC PRIVILEGE DU <persName key="louisxiv">ROY</persName></p>
+
+      <div>
+        <pb n="62" xml:id="p62" facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f70"/>
+        <head rend="center">MERCURE GALANT.</head>
+        <p> Leurs Majestez estant parties le <date when="1680-07-26">26.</date> Allerent <tech
+            type="repas">dîner</tech> à <placeName key="monquebour">Monquebour</placeName>. Ce fut
+          sur cette route que <persName key="charles_sainte-maure_montausier">Mr le Duc de <hi
+              rend="underline">Montausier</hi></persName><note place="margin" resp="inconnu">De Ste
+            maure</note> reçeut à la jambe un coup de pied d’un <tech type="animal">Cheval</tech>
+          monté par <persName>Mademoiselle <hi rend="underline"
+          >Poitiers</hi></persName><!-- introuvable -->, Fille d’Honneur de <persName
+            key="henriette_anne_angleterre">Madame</persName>. Il fut pansé par <persName key="">Mr
+              <hi rend="underline">Lartet</hi></persName><!-- introuvable -->, Chirurgien du
+            <persName key="louisxiv">Roy</persName>, qui se trouva pour lors en quartier aupres de
+            <persName key="louis_grand_dauphin">Monseigneur le <pb n="63" xml:id="p63"
+              facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f71"/> Dauphin</persName>. La
+          blessure de <persName key="charles_sainte-maure_montausier">Mr de <hi rend="underline"
+              >Montausier</hi></persName>, quoy qu’assez considérable, auroit pû estre guerie en peu
+          de jours, si ce <persName key="charles_sainte-maure_montausier">Duc</persName> eust voulu
+          prendre le repos qui luy étoit necessaire ; mais l’impatiente ardeur de son zele ne luy
+          permit pas d’y consentir. Ainsi les remedes n’ont servy qu’avec le temps. Il ne luy reste
+          plus presentement qu’un peu de foiblesse. <placeName key="gravelines"
+            >Gravelines</placeName> estant à demy lieuë de <placeName key="monquebour"
+            >Monquebour</placeName>, le <persName key="louisxiv">Roy</persName> y alla, en visita
+          les <placeName key="gravelines_fortifications">Fortifications</placeName>, &amp; fit la
+          reveuë de la <pb n="64" xml:id="p64"
+            facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f72"/> Garnison. Cette <placeName
+            key="gravelines">Place</placeName> aussi forte que réguliere, est une des Clefs de
+            <placeName key="flandre">Flandres</placeName>. <persName key="charles_quint"
+            >Charles-Quint</persName> en a fait bâtir la <placeName key="gravelines_citadelle"
+            >Citadelle</placeName>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>
