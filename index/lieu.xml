@@ -673,9 +673,12 @@
           </place>
           <place xml:id="grand_place_Valenciennes">
             <name> Valenciennes, Grand-Place ou Grand-Marché</name>
-            <geo>50.2128, 3.3126</geo>/>
+            <geo>50.2128, 3.3126</geo>
             <settlement> Valenciennes</settlement>
             <identifier type="wikipedia">https://fr.wikipedia.org/wiki/H%C3%B4tel_de_ville_de_Valenciennes</identifier>
+          </place>
+          <place xml:id="valenciennes_escaut">
+            <name>Valenciennes, Escaut (fleuve)</name>
           </place>
         </place>
       </place>
@@ -2059,11 +2062,19 @@
             >https://fr.wikipedia.org/wiki/Vineuil_(Loir-et-Cher)</identifier>
         </place>
     </place>
+        
   </place>
         <place xml:id="turquie">
-          <name>Turquie</name>
-          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Turquie</identifier>
-          <identifier type="geonames">https://www.geonames.org/countries/TR/turkey.html</identifier>
+          <name>Empire Ottoman</name>
+          <identifier type="wikipedia"></identifier>
+          <identifier type="geonames"></identifier>
+          
+          <place xml:id="candie">
+            <name>Île de Candie (actuelle Crête)</name>
+            <geo> 35.20523, 24.90308</geo>
+            <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Duch%C3%A9_de_Candie</identifier>
+            <identifier type="geonames">https://www.geonames.org/258763/crete.html</identifier>
+          </place>
         </place>
   </place>
 
