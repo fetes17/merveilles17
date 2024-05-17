@@ -4,10 +4,11 @@
 <?xml-stylesheet type="text/xsl" href="../build/xsl/lieu.xsl"?>
 
 <listPlace xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
+  
   <place xml:id="asie">
     <name>Asie</name>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Asie</identifier>
-  <place xml:id="chine">
+    <place xml:id="chine">
   <name>Chine</name>
   <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Chine</identifier>
   <identifier type="geonames">https://www.geonames.org/countries/CN/china.html</identifier>
@@ -741,6 +742,7 @@
             <settlement>Beauvais</settlement>
             <identifier type="wikipedia"
               >https://fr.wikipedia.org/wiki/MUDO_-_Mus%C3%A9e_de_l%27Oise</identifier>
+            <identifier type="googlemaps">https://www.google.fr/maps/place/MUDO+-+Mus%C3%A9e+de+l'Oise/@49.4329623,2.0773628,17z/data=!3m1!4b1!4m6!3m5!1s0x47e706cc2557af19:0xb19b6e0a606f3e3b!8m2!3d49.4329588!4d2.0799377!16s%2Fg%2F11b77q_zx0?entry=ttu</identifier>
           </place>
         </place>
 
@@ -1324,9 +1326,9 @@
         <identifier type="wikipedia"
           >https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Saint-Germain-en-Laye</identifier>
         <place xml:id="saint-germain_palais_episcopal">
-          <name>Palais Episcopal de Saint-Germain, actuel Musée de l'Oise</name>
-          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/MUDO_-_Mus%C3%A9e_de_l%27Oise</identifier>
-          <identifier type="googlemaps">https://www.google.fr/maps/place/MUDO+-+Mus%C3%A9e+de+l'Oise/@49.4329623,2.0773628,17z/data=!3m1!4b1!4m6!3m5!1s0x47e706cc2557af19:0xb19b6e0a606f3e3b!8m2!3d49.4329588!4d2.0799377!16s%2Fg%2F11b77q_zx0?entry=ttu</identifier>
+          <name>Palais Episcopal de Saint-Germain</name>
+          <identifier type="wikipedia"></identifier>
+          <identifier type="googlemaps"></identifier>
         </place>
       </place>
       <place xml:id="saintdenis">
