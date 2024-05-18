@@ -907,7 +907,7 @@
           <item><persName key="armandpierre_de_la_croix_de_castries" role="participant"
               >d’Alby</persName></item>
         </list>
-        <pb n="660" xml:id="p660" facs="https://gallica.bnf.fr/ark:/12148/bpt6k6236260b/f12.item"/>
+        <pb n="660" xml:id="p660" facs="https://gallica.bnf.fr/ark:/12148/bpt6k6236260b/f12"/>
         <p>estoient placez sur des formes derriere le banc des Pairs Ecclesiastiques: <persName
             key="henriignace_de_brancas" role="convive">l’Abbé de Brancas</persName> &amp; <persName
             key="edmond_ii_perrot" role="convive">l’Abbé de Premeaux</persName>Agents du Clergé,
@@ -1978,8 +1978,24 @@
             >Roy</persName>, par <persName key="philippe_orleans_regent" role="commanditaire"
             >Monsieur le Duc d’Orleans</persName>, &amp; par le <persName key="louis_orleans"
             role="convive">Duc de Chartres</persName>.</p>
-        <list>
-          <item/>
+        <list ana="noms">
+          <item><persName key="louisxv" role="destinataire">Sa Majesté</persName></item>
+          <item><persName key="rene_de_froulay_de_tesse" role="convive">Mareschal de
+              Tessé</persName></item>
+          <item><persName key="nicolas_chalon_du_ble" role="convive">Mareschal
+            d’Huxelles</persName></item>
+          <item>
+            <persName key="victormarieestree" role="participant">le Mareschal
+            d’Estrées</persName></item>
+          <item><persName key="philippe_orleans_regent" role="commanditaire">Monsieur le Duc
+              d’Orleans</persName></item>
+          <item><persName key="armand_jules_rohan_guemene" role="organisation">L'Archevêque de
+              Reims</persName></item>
+          <item><persName key="armandgaston_maximilien_de_rohan" role="participant">le Cardinal de
+              Rohan</persName></item>
+          <item><persName key="henri_charles_du_cambout_de_coislin" role="participant">l’Evêque de
+              Metz</persName></item>
+          <item><persName key="louis_orleans" role="convive">Duc de Chartres</persName></item>
         </list>
         <p>Aprés la Communion, le <persName key="louisxv" role="destinataire">Roy</persName> ayant
           repris la Couronne de <name key="charlemagne">Charlemagne</name>, <persName
@@ -2010,57 +2026,67 @@
             Mareschal d’Huxelles</persName> destinez à porter le Sceptre &amp; la Main de Justice.
           Ces trois Mareschaux de <placeName key="france">France</placeName> estoient suivis des
           Pairs Ecclesiastiques &amp; des Pairs Laîcs, marchant à la droite, &amp; à la</p>
-        <list>
-          <item/>
-        </list>
         <pb n="677" xml:id="p677" facs="https://gallica.bnf.fr/ark:/12148/bpt6k6236260b/f33.item"/>
         <p>gauche du <persName key="louisxv" role="destinataire">Roy</persName>, qui tenoit dans ses
-          mains le Sceptre &amp; la Main de Justice, &amp; qui estoit precedé du <persName>Mareschal
-            Duc de Villars</persName> faisant la Charge de Connestable, tenant l’Epée nuë, &amp;
-          ayant à ses côtez les deux Huissiers de la Chambre portant leurs Masses. <persName>Le
-            Prince Charles de Lorraine </persName>Grand Ecuyer de <placeName key="france"
-            >France</placeName> portoit <tech type="costume">la queüe du Manteau Roya</tech>l de
-            <persName key="louisxv" role="destinataire">Sa Majesté</persName>, qui estoit suivie des
-          Ducs <persName>de Villeroy</persName> &amp; <persName>d’Harcourt</persName> ses Capitaines
-          des Gardes. <persName>L'Archevesque Duc de Reims</persName>, &amp; <persName>Monsicur le
-            Duc d’Orleans</persName>, representant le <persName>Duc de Bourgogne</persName>,
-          marchoient aux deux costez du <persName key="louisxv" role="destinataire">Roy</persName>;
-            <persName>l’Archevesque</persName> estant precedé de sa Croix &amp; de sa Crosse, &amp;
-          accompagnè des deux Chanoines Assistans en chape. Les six Gardes Ecossois estoient auprés
-          du <persName key="louisxv" role="destinataire">Roy</persName>. <persName>Le Garde des
-            Sceaux </persName>de <placeName key="france">France</placeName>, faisant fonction de
-          Chancelier, marchoit seul derriere <persName key="louisxv" role="destinataire">Sa
-            Majesté</persName>, &amp; il estoit suivi, <persName>du Prince de Rohan</persName>,
-          faisant la Charge de Grand Maistre; &amp; ayant à sa droite, <persName>le Prince de
-            Turene</persName> Grand Chambellan de <placeName key="france">France</placeName>, &amp;
-          à sa gauche <persName>le Duc de Villequier</persName>, Premier Gentilhomme de la Chambre:
-            <persName>le Duc de Charost</persName>, Gouverneur du <persName key="louisxv"
-            role="destinataire">Roy</persName>, marchoit auprès de <persName key="louisxv"
-            role="destinataire">Sa Majesté</persName>. Les Officiers des Gardes du Corps fermoient
-          cette marche qui se fit par la Gallerie découverte, <tech type="bruitage">au bruit des
-            acclamations</tech> de joye du peuple qui remplissoit la Place devant
-            <placeName>l’Eglise</placeName>, &amp; les Cours de
-          <placeName>l’Archevesché</placeName>.</p>
+          mains le Sceptre &amp; la Main de Justice, &amp; qui estoit precedé du <persName
+            key="claude_louis_hector_de_villars" role="participant">Mareschal Duc de
+            Villars</persName> faisant la Charge de Connestable, tenant l’Epée nuë, &amp; ayant à
+          ses côtez les deux Huissiers de la Chambre portant leurs Masses. <persName
+            key="charlesalexandre_de_lorraine" role="convive">Le Prince Charles de Lorraine
+          </persName>Grand Ecuyer de <placeName key="france">France</placeName> portoit <tech
+            type="costume">la queüe du Manteau Royal</tech> de <persName key="louisxv"
+            role="destinataire">Sa Majesté</persName>, qui estoit suivie des Ducs <persName
+            key="francoisdeneufvilledevilleroy" role="participant">de Villeroy</persName> &amp;
+            <persName role="participant" key="francois_dharcourt">d’Harcourt</persName> ses
+          Capitaines des Gardes. <persName key="armand_jules_rohan_guemene" role="organisation"
+            >L'Archevesque Duc de Reims</persName>, &amp; <persName key="philippe_orleans_regent"
+            role="commanditaire">Monsieur le Duc d’Orleans</persName>, representant le <persName
+            key="louis_de_france">Duc de Bourgogne</persName>, marchoient aux deux costez du
+            <persName key="louisxv" role="destinataire">Roy</persName>; <persName
+            key="armand_jules_rohan_guemene" role="organisation">l’Archevesque</persName> estant
+          precedé de sa Croix &amp; de sa Crosse, &amp; accompagnè des deux Chanoines Assistans en
+          chape. Les six Gardes Ecossois estoient auprés du <persName key="louisxv"
+            role="destinataire">Roy</persName>. <persName key="josephfleurieuarmenonville"
+            role="convive">Le Garde des Sceaux </persName>de <placeName key="france"
+            >France</placeName>, faisant fonction de Chancelier, marchoit seul derriere <persName
+            key="louisxv" role="destinataire">Sa Majesté</persName>, &amp; il estoit suivi,
+            <persName key="hercule_meriadec_rohan" role="participant">du Prince de Rohan</persName>,
+          faisant la Charge de Grand Maistre; &amp; ayant à sa droite, <persName
+            key="henry_tour_auvergne" role="participant">le Prince de Turene</persName> Grand
+          Chambellan de <placeName key="france">France</placeName>, &amp; à sa gauche <persName
+            key="louis_daumont_de_rochebaron" role="participant">le Duc de Villequier</persName>,
+          Premier Gentilhomme de la Chambre: <persName role="convive" key="armand_de_bethune">le Duc
+            de Charost</persName>, Gouverneur du <persName key="louisxv" role="destinataire"
+            >Roy</persName>, marchoit auprès de <persName key="louisxv" role="destinataire">Sa
+            Majesté</persName>. Les Officiers des Gardes du Corps fermoient cette marche qui se fit
+          par la Gallerie découverte, <tech type="bruitage">au bruit des acclamations</tech> de joye
+          du peuple qui remplissoit la Place devant <placeName key="cathedrale_de_reims"
+            >l’Eglise</placeName>, &amp; les Cours de <placeName key="cathedrale_de_reims"
+            >l’Archevesché</placeName>.</p>
         <p>A la fin de la Messe, <persName>le Grand Prieur de l’Abbaye de Saint Remy</persName>,
-          ayant reçù la Sainte Ampoule des mains de <persName>l’Archevesque de Reims</persName>,
-            <persName>il</persName> la reporta avec les mesmes ceremonies qui avoient esté observées
-          le matin, lorsqu’elle avoit esté aportée à <placeName>l’Eglise Metropolitaine</placeName>,
-          &amp; les quatre Seigneurs nommez pour l’accompagner, la reconduisirent à
-            <placeName>l’Abbaye de Saint Remy</placeName>, avec le mesme cortege; l’Ayde des
-          ceremonies marchant immediatement devant le <tech type="construction">Dais</tech>.</p>
+          ayant reçù la Sainte Ampoule des mains de <persName key="armand_jules_rohan_guemene"
+            role="organisation">l’Archevesque de Reims</persName>, <persName
+            key="armand_jules_rohan_guemene" role="organisation">il</persName> la reporta avec les
+          mesmes ceremonies qui avoient esté observées le matin, lorsqu’elle avoit esté aportée à
+            <placeName key="cathedrale_de_reims">l’Eglise Metropolitaine</placeName>, &amp; les
+          quatre Seigneurs nommez pour l’accompagner, la reconduisirent à <placeName
+            key="abbaye_saint_remy_reims">l’Abbaye de Saint Remy</placeName>, avec le mesme cortege;
+          l’Ayde des ceremonies marchant immediatement devant le <tech type="construction"
+            >Dais</tech>.</p>
         <p>Lorsque le <persName key="louisxv" role="destinataire">Roy</persName> fut arrivé dans
-            <placeName>son Appartement</placeName>, <persName key="louisxv" role="destinataire">Sa
-            Majesté</persName> se deshabilla; &amp; ses Gans &amp; sa Chemise, qui avoient touché
-          aux Onctions, furent remises au <persName key="armandgaston_maximilien_de_rohan"
-            role="participant">Cardinal de Rohan</persName>, Grand Aumonier de <placeName
-            key="france">France</placeName>, pour les brûler. Le <persName key="louisxv"
-            role="destinataire">Roy</persName> s’estant reposè quelque temps, fut revêtu <tech
-            type="costume">d’autres Habits &amp; de son Manteau Royal</tech> par dessus; <persName
-            key="louisxv" role="destinataire">Sa Majesté</persName></p>
+            <placeName key="appartement_roi_reims">son Appartement</placeName>, <persName
+            key="louisxv" role="destinataire">Sa Majesté</persName> se deshabilla; &amp; ses Gans
+          &amp; sa Chemise, qui avoient touché aux Onctions, furent remises au <persName
+            key="armandgaston_maximilien_de_rohan" role="participant">Cardinal de Rohan</persName>,
+          Grand Aumonier de <placeName key="france">France</placeName>, pour les brûler. Le
+            <persName key="louisxv" role="destinataire">Roy</persName> s’estant reposè quelque
+          temps, fut revêtu <tech type="costume">d’autres Habits &amp; de son Manteau Royal</tech>
+          par dessus; <persName key="louisxv" role="destinataire">Sa Majesté</persName></p>
         <pb n="678" xml:id="p678" facs="https://gallica.bnf.fr/ark:/12148/bpt6k6236260b/f34"/>
         <p>conserva sa Couronne de Diamans sur sa teste, &amp; elle remit le Sceptre &amp; la Main
-          de Justice, au <persName>Mareschal de Tessé</persName>, &amp; au <persName>Mareschal
-            d’Huxelles</persName>.</p>
+          de Justice, au <persName key="rene_de_froulay_de_tesse" role="convive">Mareschal de
+            Tessé</persName>, &amp; au <persName key="nicolas_chalon_du_ble" role="convive"
+            >Mareschal d’Huxelles</persName>.</p>
         <p>Pendant que le <persName key="louisxv" role="destinataire">Roy</persName> se reposoit, on
           prepara <tech type="construction">la grande Sale</tech> du <placeName>Palais
             Archiepiscopal</placeName>, destinee pour le <tech type="repas">Festin Royal</tech>. On
@@ -2819,34 +2845,34 @@
         </list>
         <p><date when="1722-10-29">Le 29</date>, le <persName key="louisxv" role="destinataire"
             >Roy</persName> se rendit en ceremonie à<placeName> l’Eglise de l’Abbaye de Saint
-            Remy</placeName>, pour y commencer, devant la Châsse de <name key="saint_marcoul">Saint Marcoul</name>, une
-          Neuvaine, qui a esté continuée par <persName>l’Abbé d’Argentré</persName>, Doyen des
-          Aumôniers de <persName key="louisxv" role="destinataire">Sa Majesté</persName>. Le
-            <persName key="louisxv" role="destinataire">Roy</persName> estoit accompagné dans son
-          carosse, de <persName key="philippe_orleans_regent" role="commanditaire">Monsieur le Duc
-            d’Orleans</persName>, du <persName>Duc de Chartres</persName>, du <persName
-            key="louisiv_henri_conde" role="convive">Duc de Bourbon</persName>, du <persName>Comte
-            de Clermont</persName>, du <persName>Prince de Conty</persName>, &amp; du <persName>Duc
-            de Charost</persName> son Gouverneur. <persName>Sa Majesté </persName>qui estoit vêtuë
-          d’un <tech>Manteau de drap d’or</tech>, avec le <tech>Colier de l’Ordre du Saint
-            Esprit</tech> par dessus, estant arrivée à la porte de <placeName>l’Eglise</placeName>,
-          y fur reçûe par les Religieux, tous en <tech>chape</tech>, avec les ceremonies ordinaires.
-          Lorsque le <persName key="louisxv" role="destinataire">Roy</persName> fut arrivé au
-          Prie-Dieu qui luy avoit esté preparé au milieu du Chœur, <persName>le Cardinal de
-            Rohan</persName>, Grand Aumônier de <placeName key="france">France</placeName>, commença
-          une Messe basse, pendant laquelle <persName key="louisxv" role="destinataire">Sa
-            Majesté</persName> communia, la Nape estant tenuë, du côté du <persName key="louisxv"
-            role="destinataire">Roy</persName>, par <persName key="philippe_orleans_regent"
-            role="commanditaire">Monsieur le Duc d’Orleans</persName>, &amp; <persName>le Duc de
-            Chartres</persName>; &amp; du côté de l’Autel, par <persName>l’Abbé Milon</persName>,
-          &amp; <persName>l’Abbé de la Vieuville</persName>, Aumôniers de<persName> Sa
-            Majesté</persName>, en quartier, Aprés la Messe le <persName key="louisxv"
-            role="destinataire">Roy</persName> alla faire sa priere devant la Châsse de <name key="saint marcoul">Saint
-            Marcoul</name>, qui avoit esté aportée de <placeName>Corbeny</placeName>, &amp; qui
-          estoit placée prés l’Autel, du côté de l’Evangile <persName key="louisxv"
-            role="destinataire">Sa Majesté</persName> passa ensuite dans une des Sales de
-            <placeName>l’Abbaye de Saint Remy</placeName>, pour déjeuner, aprés quoy le <persName
-            key="louisxv" role="destinataire">Roy</persName> revint dans
+            Remy</placeName>, pour y commencer, devant la Châsse de <name key="saint_marcoul">Saint
+            Marcoul</name>, une Neuvaine, qui a esté continuée par <persName>l’Abbé
+            d’Argentré</persName>, Doyen des Aumôniers de <persName key="louisxv"
+            role="destinataire">Sa Majesté</persName>. Le <persName key="louisxv"
+            role="destinataire">Roy</persName> estoit accompagné dans son carosse, de <persName
+            key="philippe_orleans_regent" role="commanditaire">Monsieur le Duc d’Orleans</persName>,
+          du <persName>Duc de Chartres</persName>, du <persName key="louisiv_henri_conde"
+            role="convive">Duc de Bourbon</persName>, du <persName>Comte de Clermont</persName>, du
+            <persName>Prince de Conty</persName>, &amp; du <persName>Duc de Charost</persName> son
+          Gouverneur. <persName>Sa Majesté </persName>qui estoit vêtuë d’un <tech>Manteau de drap
+            d’or</tech>, avec le <tech>Colier de l’Ordre du Saint Esprit</tech> par dessus, estant
+          arrivée à la porte de <placeName>l’Eglise</placeName>, y fur reçûe par les Religieux, tous
+          en <tech>chape</tech>, avec les ceremonies ordinaires. Lorsque le <persName key="louisxv"
+            role="destinataire">Roy</persName> fut arrivé au Prie-Dieu qui luy avoit esté preparé au
+          milieu du Chœur, <persName>le Cardinal de Rohan</persName>, Grand Aumônier de <placeName
+            key="france">France</placeName>, commença une Messe basse, pendant laquelle <persName
+            key="louisxv" role="destinataire">Sa Majesté</persName> communia, la Nape estant tenuë,
+          du côté du <persName key="louisxv" role="destinataire">Roy</persName>, par <persName
+            key="philippe_orleans_regent" role="commanditaire">Monsieur le Duc d’Orleans</persName>,
+          &amp; <persName>le Duc de Chartres</persName>; &amp; du côté de l’Autel, par
+            <persName>l’Abbé Milon</persName>, &amp; <persName>l’Abbé de la Vieuville</persName>,
+          Aumôniers de<persName> Sa Majesté</persName>, en quartier, Aprés la Messe le <persName
+            key="louisxv" role="destinataire">Roy</persName> alla faire sa priere devant la Châsse
+          de <name key="saint marcoul">Saint Marcoul</name>, qui avoit esté aportée de
+            <placeName>Corbeny</placeName>, &amp; qui estoit placée prés l’Autel, du côté de
+          l’Evangile <persName key="louisxv" role="destinataire">Sa Majesté</persName> passa ensuite
+          dans une des Sales de <placeName>l’Abbaye de Saint Remy</placeName>, pour déjeuner, aprés
+          quoy le <persName key="louisxv" role="destinataire">Roy</persName> revint dans
             <placeName>l’Eglise</placeName>, où il entendit une seconde Messe, qui fut dite par
             <persName>un Chapelain de Sa Majesté</persName>, &amp; pendant laquelle, on <tech>chanta
             un Motet</tech>.</p>
@@ -3414,8 +3440,7 @@
             d’Adresse aux Galleries du Louvre</placeName>, devant la <placeName
             key="parisruesaintthomas">ruë S. Thomas</placeName>, le <date when="1722-12-01">1
             Decembre 1722</date>. Avec Privilege.</byline>
-        <pb n="708" xml:id="p708" facs="https://gallica.bnf.fr/ark:/12148/bpt6k6236260b/f68"
-        />
+        <pb n="708" xml:id="p708" facs="https://gallica.bnf.fr/ark:/12148/bpt6k6236260b/f68"/>
       </div>
     </body>
   </text>
