@@ -2824,13 +2824,13 @@
           <item/>
         </list>
         <pb n="693" xml:id="p693" facs="https://gallica.bnf.fr/ark:/12148/bpt6k6236260b/f51"/>
-        <p>les révêtit du <tech>Grand Manteau de l’Ordre</tech> &amp; le Grand Tresorier ayant
-          presenté <persName>le Colier</persName> à <persName key="louisxv" role="destinataire">Sa
+        <p>les révêtit du <tech type="costume">Grand Manteau de l’Ordre</tech> &amp; <persName>le Grand Tresorier</persName> ayant
+          presenté <tech type="costume">le Colier</tech> à <persName key="louisxv" role="destinataire">Sa
             Majesté</persName>, le <persName key="louisxv" role="destinataire">Roy</persName> le
-          leur passa au col sur <tech>le grand Manteau</tech>; aprés quoy ces deux Princes se
+          leur passa au col sur <tech type="costume">le grand Manteau</tech>; aprés quoy ces deux Princes se
           releverent, firent une reverence au <persName key="louisxv" role="destinataire"
             >Roy</persName> en descendant du Trône, &amp; allerent se mettre dans le rang qu’ils
-          devoient occuper prés l’Autel. Le sieur de <persName>Breteüil Maistre</persName> des
+          devoient occuper prés l’Autel. Le sieur de <persName>Breteüil</persName> Maistre des
           Ceremonies ayant fait une reverence au <persName key="louisxv" role="destinataire"
             >Roy</persName>, les Officiers qui estoient restez sur <tech>l’Estrade</tech> prés de
             <persName key="louisxv" role="destinataire">Sa Majesté</persName>, en descendirent,
@@ -2866,26 +2866,29 @@
         <p>deurs, les Chevaliers, &amp; les Officiers de l’Ordre se rangerent en haye à droite &amp;
           à gauche, chacun suivant leur rang &amp; dignité, pour voir passer <persName key="louisxv"
             role="destinataire">Sa Majesté</persName>, &amp; ils se retirerent aussi-tost qu’elle
-          fut entrée dans <placeName>son Cabinet</placeName>.</p>
+          fut entrée dans <placeName key="appartementroireims">son Cabinet</placeName>.</p>
         <p><date when="1722-10-28">Le 28</date>, les Cardinaux, les Archevesques &amp; les Evesques
           qui composoient le Clergé invité à la Ceremonie du Sacre, sassemblerent dans la Chapelle
-          du <placeName>Palais Archiepiscopal</placeName>, pour aller à l’Audience du <persName
-            key="louisxv" role="destinataire">Roy</persName>, &amp; le complimenter.
-            <persName>L'Archevesque de Toulouse</persName> portant la parole au nom du Clergé,
-          remercia <persName key="louisxv" role="destinataire">Sa Majesté</persName> par un discours
-          trés-éloquent de la protection qu’elle avoit toûjours accordé au Clergé &amp; des
-          nouvelles assurances que le <persName key="louisxv" role="destinataire">Roy</persName> luy
-          en avoit données le jour de son Sacre. Ils furent presentez à l’Audience du <persName
-            key="louisxv" role="destinataire">Roy</persName>, avec les ceremonies accoutumées, par
-          le <persName>Comte de Maurepas</persName>, Secretaire d’Estat; &amp; ils furent conduits
-          par le <persName>Marquis de Dreux</persName>, Grand Maistre des Ceremonies, &amp;
-            le<persName> sieur Desgranges</persName>, Maistre des Ceremonies.</p>
+          du <placeName key="cathedrale_de_reims">Palais Archiepiscopal</placeName>, pour aller à
+          l’Audience du <persName key="louisxv" role="destinataire">Roy</persName>, &amp; le
+          complimenter. <persName key="henri_de_nesmond" role="participant">L'Archevesque de
+            Toulouse</persName> portant la parole au nom du Clergé, remercia <persName key="louisxv"
+            role="destinataire">Sa Majesté</persName> par un discours trés-éloquent de la protection
+          qu’elle avoit toûjours accordé au Clergé &amp; des nouvelles assurances que le <persName
+            key="louisxv" role="destinataire">Roy</persName> luy en avoit données le jour de son
+          Sacre. Ils furent presentez à l’Audience du <persName key="louisxv" role="destinataire"
+            >Roy</persName>, avec les ceremonies accoutumées, par le <persName
+            key="jeanfrederic_phelypeaux_maurepas" role="convive">Comte de Maurepas</persName>,
+          Secretaire d’Estat; &amp; ils furent conduits par le <persName key="thomas_dreux_breze"
+            role="organisation">Marquis de Dreux</persName>, Grand Maistre des Ceremonies, &amp; le
+            <persName key="sieurgranges" role="organisation">sieur Desgranges</persName>, Maistre
+          des Ceremonies.</p>
         <p>Le mesme jour, le <persName key="louisxv" role="destinataire">Roy</persName> alla à
-          l’Eglise de <persName>l’Abbaye des Religieuses Benedictines de Saint Estienne</persName>,
-          où <persName key="louisxv" role="destinataire">Sa Majesté</persName> entendit la Messe,
-          pendant laquelle la <tech>Musique</tech> du <persName key="louisxv" role="destinataire"
-            >Roy</persName>
-          <tech>chanta un Motet</tech>. Aprés la Messe, le <persName key="louisxv"
+            <placeName key="abbaye_saint_etienne">l’Eglise de l’Abbaye des Religieuses Benedictines
+            de Saint Estienne</placeName>, où <persName key="louisxv" role="destinataire">Sa
+            Majesté</persName> entendit la Messe, pendant laquelle la <tech>Musique</tech> du
+            <persName key="louisxv" role="destinataire">Roy</persName>
+          <tech type="musique">chanta un Motet</tech>. Aprés la Messe, le <persName key="louisxv"
             role="destinataire">Roy</persName> s’estant aproché de la grille, reçût les respects de
           l’Abbesse, de la Coadjutrice &amp; de toutes les Religieuses, aux prieres desquelles
             <persName key="louisxv" role="destinataire">Sa Majesté</persName> se recommanda, aprés
@@ -2894,73 +2897,83 @@
           dans son carosse de <persName key="philippe_orleans_regent" role="commanditaire">Monsieur
             le Duc d’Orleans</persName>, des Princes du Sang &amp; du <persName role="convive"
             key="armand_de_bethune">Duc de Charost</persName> son Gouverneur, se rendit au Camp
-          formé prés du chemin de <placeName>Châlons</placeName>, entre la Ville de
-            <placeName>Reims</placeName> &amp; le Village de <placeName>Saint Leonard</placeName>.
-            <persName key="louisxv" role="destinataire">Sa Majesté</persName> estant montée à
-            <tech>cheval</tech> fit la reveuë des troupes de sa Maison &amp; des Regiments des
-          Gardes Françoises &amp; Suisses, &amp; aprés avoir vû faire aux Grenadiers à
-            <tech>cheval</tech> plusieurs mouvements, tant à pied qu’à <tech>cheval</tech>, dont le
-            <persName key="louisxv" role="destinataire">Roy</persName> témoigna qu’il estoit trés
-          satisfait, <persName key="louisxv" role="destinataire">Sa Majesté</persName> ordonna a ses
-          troupes de rentrer dans leur Camp. Elles se rangerent en haye &amp; sans armes devant
-          leurs tentes, où le <persName key="louisxv" role="destinataire">Roy</persName> les vit une
-          seconde fois; <persName key="louisxv" role="destinataire">Sa Majesté</persName> ayant
-          passé le long de la ligne en retournant à <placeName>la Ville</placeName>.</p>
-        <list>
-          <item/>
-        </list>
+          formé prés du chemin de <placeName key="chalons">Châlons</placeName>, entre la Ville de
+            <placeName key="reims">Reims</placeName> &amp; le Village de <placeName
+            key="saint_leonard_village">Saint Leonard</placeName>. <persName key="louisxv"
+            role="destinataire">Sa Majesté</persName> estant montée à <tech type="animal">cheval</tech> fit la
+          reveuë des troupes de sa Maison &amp; des Regiments des Gardes Françoises &amp; Suisses,
+          &amp; aprés avoir vû faire aux Grenadiers à <tech type="animal">cheval</tech> plusieurs mouvements, tant
+          à pied qu’à <tech type="animal">cheval</tech>, dont le <persName key="louisxv" role="destinataire"
+            >Roy</persName> témoigna qu’il estoit trés satisfait, <persName key="louisxv"
+            role="destinataire">Sa Majesté</persName> ordonna a ses troupes de rentrer dans leur
+          Camp. Elles se rangerent en haye &amp; sans armes devant leurs tentes, où le <persName
+            key="louisxv" role="destinataire">Roy</persName> les vit une seconde fois; <persName
+            key="louisxv" role="destinataire">Sa Majesté</persName> ayant passé le long de la ligne
+          en retournant à <placeName key="reims">la Ville</placeName>.</p>
         <pb n="695" xml:id="p695" facs="https://gallica.bnf.fr/ark:/12148/bpt6k6236260b/f53"/>
         <p>Pendant cette reveuë le <persName key="louisxv" role="destinataire">Roy</persName> fut
-          accompagné de <persName>Monsieur le Duc d’Orleans</persName>, des Princes du Sang, &amp;
-          d’un grand nombre de Seigneurs de sa Cour, &amp; <persName key="louisxv"
-            role="destinataire">Sa Majesté</persName> eut toûjours auprés d’elle, le <persName>Duc
-            de Villeroy</persName>, Lieutenant-General de ses Armées, &amp; Capitaine de ses Gardes
-          du Corps, qui à commandé ces Troupes, &amp; qui a donné pendant leur sejour auprés de
-            <placeName>Reims</placeName>, de grandes preuves de sa magnificence. </p>
-        <list>
-          <item/>
-        </list>
+          accompagné de <persName key="philippe_orleans_regent" role="commanditaire">Monsieur le Duc
+            d’Orleans</persName>, des Princes du Sang, &amp; d’un grand nombre de Seigneurs de sa
+          Cour, &amp; <persName key="louisxv" role="destinataire">Sa Majesté</persName> eut toûjours
+          auprés d’elle, le <persName key="francoisdeneufvilledevilleroy" role="participant">Duc de
+            Villeroy</persName>, Lieutenant-General de ses Armées, &amp; Capitaine de ses Gardes du
+          Corps, qui à commandé ces Troupes, &amp; qui a donné pendant leur sejour auprés de
+            <placeName key="reims">Reims</placeName>, de grandes preuves de sa magnificence. </p>
         <p><date when="1722-10-29">Le 29</date>, le <persName key="louisxv" role="destinataire"
-            >Roy</persName> se rendit en ceremonie à<placeName> l’Eglise de l’Abbaye de Saint
-            Remy</placeName>, pour y commencer, devant la Châsse de <name key="saint_marcoul">Saint
-            Marcoul</name>, une Neuvaine, qui a esté continuée par <persName>l’Abbé
-            d’Argentré</persName>, Doyen des Aumôniers de <persName key="louisxv"
-            role="destinataire">Sa Majesté</persName>. Le <persName key="louisxv"
-            role="destinataire">Roy</persName> estoit accompagné dans son carosse, de <persName
-            key="philippe_orleans_regent" role="commanditaire">Monsieur le Duc d’Orleans</persName>,
-          du <persName>Duc de Chartres</persName>, du <persName key="louisiv_henri_conde"
-            role="convive">Duc de Bourbon</persName>, du <persName>Comte de Clermont</persName>, du
-            <persName>Prince de Conty</persName>, &amp; du <persName>Duc de Charost</persName> son
-          Gouverneur. <persName>Sa Majesté </persName>qui estoit vêtuë d’un <tech>Manteau de drap
-            d’or</tech>, avec le <tech>Colier de l’Ordre du Saint Esprit</tech> par dessus, estant
-          arrivée à la porte de <placeName>l’Eglise</placeName>, y fur reçûe par les Religieux, tous
-          en <tech>chape</tech>, avec les ceremonies ordinaires. Lorsque le <persName key="louisxv"
+            >Roy</persName> se rendit en ceremonie à <placeName key="abbaye_saint_remy_reims"
+            >l’Eglise de l’Abbaye de Saint Remy</placeName>, pour y commencer, devant la Châsse de
+            <name key="saint_marcoul">Saint Marcoul</name>, une Neuvaine, qui a esté continuée par
+            <persName key="charles_du_plessis_dargentre" role="convive">l’Abbé
+          d’Argentré</persName>, Doyen des Aumôniers de <persName key="louisxv" role="destinataire"
+            >Sa Majesté</persName>. Le <persName key="louisxv" role="destinataire">Roy</persName>
+          estoit accompagné dans son carosse, de <persName key="philippe_orleans_regent"
+            role="commanditaire">Monsieur le Duc d’Orleans</persName>, du <persName
+            key="louis_orleans" role="convive">Duc de Chartres</persName>, du <persName
+            key="louisiv_henri_conde" role="convive">Duc de Bourbon</persName>, du <persName
+            key="louis_de_bourbonconde" role="convive">Comte de Clermont</persName>, du <persName
+            key="louis_armand_conti" role="convive">Prince de Conty</persName>, &amp; du <persName
+            role="convive" key="armand_de_bethune">Duc de Charost</persName> son Gouverneur.
+            <persName>Sa Majesté </persName>qui estoit vêtuë d’un <tech type="costume">Manteau de
+            drap d’or</tech>, avec le <tech type="costume">Colier de l’Ordre du Saint Esprit</tech>
+          par dessus, estant arrivée à la porte de <placeName key="cathedrale_de_reims"
+            >l’Eglise</placeName>, y fur reçûe par les Religieux, tous en <tech type="costume"
+            >chape</tech>, avec les ceremonies ordinaires. Lorsque le <persName key="louisxv"
             role="destinataire">Roy</persName> fut arrivé au Prie-Dieu qui luy avoit esté preparé au
-          milieu du Chœur, <persName>le Cardinal de Rohan</persName>, Grand Aumônier de <placeName
-            key="france">France</placeName>, commença une Messe basse, pendant laquelle <persName
-            key="louisxv" role="destinataire">Sa Majesté</persName> communia, la Nape estant tenuë,
-          du côté du <persName key="louisxv" role="destinataire">Roy</persName>, par <persName
+          milieu du Chœur, <persName key="armandgaston_maximilien_de_rohan" role="participant">le
+            Cardinal de Rohan</persName>, Grand Aumônier de <placeName key="france"
+            >France</placeName>, commença une Messe basse, pendant laquelle <persName key="louisxv"
+            role="destinataire">Sa Majesté</persName> communia, la Nape estant tenuë, du côté du
+            <persName key="louisxv" role="destinataire">Roy</persName>, par <persName
             key="philippe_orleans_regent" role="commanditaire">Monsieur le Duc d’Orleans</persName>,
-          &amp; <persName>le Duc de Chartres</persName>; &amp; du côté de l’Autel, par
-            <persName>l’Abbé Milon</persName>, &amp; <persName>l’Abbé de la Vieuville</persName>,
-          Aumôniers de<persName> Sa Majesté</persName>, en quartier, Aprés la Messe le <persName
-            key="louisxv" role="destinataire">Roy</persName> alla faire sa priere devant la Châsse
-          de <name key="saint marcoul">Saint Marcoul</name>, qui avoit esté aportée de
-            <placeName>Corbeny</placeName>, &amp; qui estoit placée prés l’Autel, du côté de
+          &amp; <persName key="louis_orleans" role="convive">le Duc de Chartres</persName>; &amp; du
+          côté de l’Autel, par <persName key="alexandre_milon_de_mesmes" role="participant">l’Abbé
+            Milon</persName>, &amp; <persName key="antoine_fagon" role="participant">l’Abbé de la
+            Vieuville</persName>, Aumôniers de <persName key="louisxv" role="destinataire">Sa
+            Majesté</persName>, en quartier, Aprés la Messe le <persName key="louisxv"
+            role="destinataire">Roy</persName> alla faire sa priere devant la Châsse de <name
+            key="saint marcoul">Saint Marcoul</name>, qui avoit esté aportée de <placeName
+            key="corbeny">Corbeny</placeName>, &amp; qui estoit placée prés l’Autel, du côté de
           l’Evangile <persName key="louisxv" role="destinataire">Sa Majesté</persName> passa ensuite
-          dans une des Sales de <placeName>l’Abbaye de Saint Remy</placeName>, pour déjeuner, aprés
-          quoy le <persName key="louisxv" role="destinataire">Roy</persName> revint dans
-            <placeName>l’Eglise</placeName>, où il entendit une seconde Messe, qui fut dite par
-            <persName>un Chapelain de Sa Majesté</persName>, &amp; pendant laquelle, on <tech>chanta
-            un Motet</tech>.</p>
-        <list>
-          <item/>
+          dans une des Sales de <placeName key="abbaye_saint_remy_reims">l’Abbaye de Saint
+            Remy</placeName>, pour déjeuner, aprés quoy le <persName key="louisxv"
+            role="destinataire">Roy</persName> revint dans <placeName key="abbaye_saint_remy_reims"
+            >l’Eglise</placeName>, où il entendit une seconde Messe, qui fut dite par <persName>un
+            Chapelain de Sa Majesté</persName>, &amp; pendant laquelle, on <tech type="musique"
+            >chanta un Motet</tech>.</p>
+        <list ana="noms">
+          <item><persName key="louisxv" role="destinataire">Sa Majesté</persName></item>
+          <item><persName key="louis_orleans" role="convive">Duc de Chartres</persName></item>
+          <item><persName key="louisiv_henri_conde" role="convive">Duc de Bourbon</persName></item>
+          <item><persName key="louis_de_bourbonconde" role="convive">Comte de
+            Clermont</persName></item>
+          <item><persName key="louis_armand_conti" role="convive">Prince de Conti</persName></item>
+          <item><persName role="convive" key="armand_de_bethune">Duc de Charost</persName></item>
         </list>
         <p>La Messe estant finie, le <persName key="louisxv" role="destinataire">Roy</persName>
-          entra dans <placeName>le Parc de l’Abbé</placeName>, pour y toucher plus de deux mille
-          malades <placeName>des Ecrouelles</placeName>, qui estoient rangez dans les Allées de ce
-            <placeName>Parc</placeName>. <persName key="louisxv" role="destinataire">Sa
-            Majesté</persName></p>
+          entra dans <placeName key="abbaye_saint_remy_reims">le Parc de l’Abbé</placeName>, pour y
+          toucher plus de deux mille malades des Ecrouelles, qui estoient rangez dans les Allées de
+          ce <placeName key="abbaye_saint_remy_reims">Parc</placeName>. <persName key="louisxv"
+            role="destinataire">Sa Majesté</persName></p>
         <pb n="696" xml:id="p696" facs="https://gallica.bnf.fr/ark:/12148/bpt6k6236260b/f54"/>
         <p>estoit precedée des Gardes de la Prévôté de l’Hôtel, des Cent Suisses de la Garde, des
           Gardes du Corps, &amp; d’un grand nombre de Seigneurs de sa Cour. Les deux Huissiers de la
