@@ -1072,7 +1072,7 @@
           Princesses de <placeName key="lorraine">Lorraine</placeName>, gardant aussi
             <emph>l’incognito</emph>, estoient auprés de <persName key="marie_leszczynska"
             role="convive">Madame</persName>.</p>
-        <list>
+        <list ana="noms">
           <item><persName key="bartolomeo_massei" role="convive">Le Nonce du Pape</persName></item>
           <label>les Ambassadeurs</label>
           <item><persName key="patricio_laules" role="convive">d’Espagne</persName></item>
@@ -2315,16 +2315,22 @@
             role="organisation">l’Archevesque Duc de Reims</persName>, ayant derriere luy debout,
           les deux Chanoines Assistans de la Messe, en chape, &amp; vis-à-vis, deux Ecclesiastiques
           en surplis qui tenoient, aussi debout, sa Croix &amp; sa Crosse. <persName
-            key="charles_ii_de_saint_aubin" role="organisation">L'Evesque, Duc de
-            Laon</persName>;<persName key="nicolas_charles_saulx_tavanes" role="organisation"
-            >l’Evesque, Comte de Châlons</persName>, representant <persName>l’Evesque Duc de
-            Langres</persName>; <persName>l’Evesque Comte de Beauvais,</persName>
-          <persName>l’Evesque Comte de Noyon</persName>, representant <persName>l’Evesque Comte de
-            Châlons</persName>; &amp; <persName>l’ancien Evesque de Frejus</persName>, representant
-            <persName>l’Evesque Comte de Noyon</persName>, estoient sur la mesme ligne que
-            <persName>l’Archevesque de Reims</persName>; tous en <tech type="costume">chape</tech>
-          &amp; en <tech type="costume">Mitre</tech>, comme à la Ceremonie du Sacre: mais les
-          Evesques de <persName>Soissons</persName>, <persName key="pierre_sabatier"
+            key="charles_ii_de_saint_aubin" role="organisation">L'Evesque, Duc de Laon</persName>;
+            <persName key="nicolas_charles_saulx_tavanes" role="organisation">l’Evesque, Comte de
+            Châlons</persName>, representant <persName key="francois_louis_de_clermont_tonnerre"
+            role="convive">l’Evesque Duc de Langres</persName>; <persName
+            key="francoishonnoreantoine_de_beauvillierssaintaignan" role="organisation">l’Evesque
+            Comte de Beauvais,</persName>
+          <persName key="charlefrancois_chateauneuf_de_rochebonne" role="organisation">l’Evesque
+            Comte de Noyon</persName>, representant <persName key="nicolas_charles_saulx_tavanes"
+            role="organisation">l’Evesque Comte de Châlons</persName>; &amp; <persName
+            key="andre_hercule_de_fleury" role="participant">l’ancien Evesque de Frejus</persName>,
+          representant <persName key="charlefrancois_chateauneuf_de_rochebonne" role="organisation"
+            >l’Evesque Comte de Noyon</persName>, estoient sur la mesme ligne que <persName
+            key="armand_jules_rohan_guemene" role="organisation">l’Archevesque de Reims</persName>;
+          tous en <tech type="costume">chape</tech> &amp; en <tech type="costume">Mitre</tech>,
+          comme à la Ceremonie du Sacre: mais les Evesques de <persName key="languet_gergy"
+            role="organisation">Soissons</persName>, <persName key="pierre_sabatier"
             role="organisation">d’Amiens</persName>, &amp; de <persName
             key="francois_firmin_trudaine" role="organisation">Senlis</persName>, Suffragans de
             <persName key="armand_jules_rohan_guemene" role="organisation">l’Archevesque de
@@ -2333,64 +2339,140 @@
             Rochet</tech> &amp; <tech type="costume">le Camail violet</tech>. Les Pairs Laîcs se
           placerent à leur <tech type="repas">table</tech>, de cette sorte; <persName
             key="philippe_orleans_regent" role="commanditaire">Monsieur le Duc d’Orleans</persName>,
-          representant <persName>le Duc de Bourgogne</persName>, se mit à la premiere place.
-            <persName>Le Duc de Chartres</persName>, representant <persName>le Duc de
-            Normandie</persName>: <persName>le Duc de Bourbon</persName>, representant <persName>le
-            Duc d’Aquitaine</persName>; <persName>le Comte de Charolois</persName>, representant
-            <persName>le Comte de Toulouse</persName>; <persName>le Comte de Clermont</persName>,
-          representant <persName>le Comte de Flandres</persName>; &amp; l<persName>e Prince de
-            Conty</persName>, representant <persName>le Comte de Champagne</persName>, occuperent
-          les cinq autres sur la mesme ligne. Ils avoient tous les mesmes <tech type="costume"
-            >Habits &amp; Manteaux</tech>, dont ils estoient revêtus pendant la Ceremonie du Sacre,
-          &amp; leur <tech type="costume">Couronne</tech> sur la teste. <persName>Le Nonce du
-            Pape</persName>, &amp; les Ambassadeurs se placerent à leur <tech type="repas"
-            >Table</tech> de la maniere suivante: <persName>le Nonce</persName>, à la premiere place
-          du côté des fenestres; <persName>l’Ambassadeur d’Espagne</persName>, vis-à-vis de luy;
-            <persName>l’Ambassadeur de Sardaigne</persName>, à côte du <persName>Nonce</persName>;
-            <persName>l’Ambassadeur de Hollande</persName>, vis-a-vis celuy de
-            <persName>Sardaigne</persName>, &amp;</p>
-        <list>
-          <item/>
+          representant <persName key="louis_de_france">le Duc de Bourgogne</persName>, se mit à la
+          premiere place. <persName role="convive" key="armand_de_bethune">Le Duc de
+            Chartres</persName>, representant le Duc de Normandie: <persName
+            key="louisiv_henri_conde" role="convive">le Duc de Bourbon</persName>, representant le
+          Duc d’Aquitaine; <persName key="charles_de_bourbon_charolais" role="convive">le Comte de
+            Charolois</persName>, representant <persName key="louis_alexandre_bourbon">le Comte de
+            Toulouse</persName>; <persName key="louis_de_bourbonconde" role="convive">le Comte de
+            Clermont</persName>, representant <persName key="charles_de_habsbourg">le Comte de
+            Flandres</persName>; &amp; <persName key="louis_armand_conti" role="convive">le Prince
+            de Conty</persName>, representant le Comte de Champagne, occuperent les cinq autres sur
+          la mesme ligne. Ils avoient tous les mesmes <tech type="costume">Habits &amp;
+            Manteaux</tech>, dont ils estoient revêtus pendant la Ceremonie du Sacre, &amp; leur
+            <tech type="costume">Couronne</tech> sur la teste. <persName key="bartolomeo_massei"
+            role="convive">Le Nonce du Pape</persName>, &amp; les Ambassadeurs se placerent à leur
+            <tech type="repas">Table</tech> de la maniere suivante: <persName
+            key="bartolomeo_massei" role="convive">le Nonce</persName>, à la premiere place du côté
+          des fenestres; <persName key="patricio_laules" role="convive">l’Ambassadeur
+            d’Espagne</persName>, vis-à-vis de luy; <persName key="perone" role="convive"
+            >l’Ambassadeur de Sardaigne</persName>, à côte du <persName key="bartolomeo_massei"
+            role="convive">Nonce</persName>; <persName
+            key="charles_jean_baptiste_fleuriau_de_morville" role="convive">l’Ambassadeur de
+            Hollande</persName>, vis-a-vis celuy de <persName key="perone" role="convive"
+            >Sardaigne</persName>, &amp;</p>
+        <list ana="noms">
+          <label>Le clergé</label>
+          <item><persName key="armand_jules_rohan_guemene" role="organisation">l’Archevesque de
+              Reims</persName></item>
+          <label>les Evesques</label>
+          <item><persName key="charles_ii_de_saint_aubin" role="organisation">L'Evesque, Duc de
+              Laon</persName></item>
+          <item><persName key="nicolas_charles_saulx_tavanes" role="organisation">l’Evesque, Comte
+              de Châlons</persName></item>
+          <item><persName key="charlefrancois_chateauneuf_de_rochebonne" role="organisation"
+              >l’Evesque Comte de Noyon</persName></item>
+          <item><persName key="languet_gergy" role="organisation">Soissons</persName></item>
+          <item><persName key="pierre_sabatier" role="organisation">d’Amiens</persName></item>
+          <item><persName key="francois_firmin_trudaine" role="organisation"
+            >Senlis</persName></item>
+          <label>Les nobles</label>
+          <item><persName key="philippe_orleans_regent" role="commanditaire">Monsieur le Duc
+              d’Orleans</persName></item>
+          <item><persName key="louis_orleans" role="convive">le Duc de Chartres</persName></item>
+          <item><persName key="louisiv_henri_conde" role="convive">le Duc de
+            Bourbon</persName></item>
+          <item><persName key="charles_de_bourbon_charolais" role="convive">le Comte de
+              Charolois</persName></item>
+          <item><persName key="louis_de_bourbonconde" role="convive">le Comte de
+            Clermont</persName></item>
+          <item><persName key="louis_armand_conti" role="convive">le Prince de
+            Conty</persName></item>
+          <label>Les ambassadeurs</label>
+          <item><persName key="bartolomeo_massei" role="convive">Le Nonce du Pape</persName></item>
+          <item><persName key="patricio_laules" role="convive">l’Ambassadeur
+            d’Espagne</persName></item>
+          <item><persName key="perone" role="convive">l’Ambassadeur de Sardaigne</persName></item>
+          <item><persName key="charles_jean_baptiste_fleuriau_de_morville" role="convive"
+              >l’Ambassadeur de Hollande</persName></item>
         </list>
         <pb n="682" xml:id="p682" facs="https://gallica.bnf.fr/ark:/12148/bpt6k6236260b/f38"/>
-        <p><persName>L'Ambassadeur de Malte</persName>, à côté de ce dernier. <persName>Le Garde des
-            Sceaux de France</persName>, faisant fonction de Chancelier, estoit vis-à-vis
-            <persName>l’Ambassadeur de Malte</persName>, aprés lequel estoient assis sur la mesme
-          ligne, <persName>le Chevalier de Sainctot</persName>, &amp; <persName>le sieur de
-            Remond</persName>, Introducteurs des Ambassadeurs. <tech type="repas">A la Table des
-            Honneurs</tech>, vis-à-vis celle des Ambassadeurs, &amp; au-dessous de celle des Pairs
-          Laïcs, estoient placez sur la mesme ligne; <persName>le Prince de Turenne</persName>,
-          Grand Chambellan de <placeName key="france">France</placeName>; <persName>le Duc de
+        <p><persName key="jean_jacques_de_mesmes" role="convive">L'Ambassadeur de Malte</persName>,
+          à côté de ce dernier. <persName key="josephfleurieuarmenonville" role="convive">Le Garde
+            des Sceaux de France</persName>, faisant fonction de Chancelier, estoit vis-à-vis
+            <persName key="jean_jacques_de_mesmes" role="convive">l’Ambassadeur de Malte</persName>,
+          aprés lequel estoient assis sur la mesme ligne, <persName key="nicolas_ii_de_sainctot"
+            role="convive">le Chevalier de Sainctot</persName>, &amp; <persName
+            key="jacques_ii_remond" role="convive">le sieur de Remond</persName>, Introducteurs des
+          Ambassadeurs. <tech type="repas">A la Table des Honneurs</tech>, vis-à-vis celle des
+          Ambassadeurs, &amp; au-dessous de celle des Pairs Laïcs, estoient placez sur la mesme
+          ligne; <persName key="henry_tour_auvergne" role="participant">le Prince de
+            Turenne</persName>, Grand Chambellan de <placeName key="france">France</placeName>;
+            <persName key="louis_daumont_de_rochebaron" role="participant">le Duc de
             Villequier</persName>, Premier Gentilhomme de la Chambre, &amp; les quatre Chevaliers de
           l’Ordre du Saint Esprit qui avoient porté les Offrandes, tous revêtus des <tech
             type="costume">mesmes Habits</tech> qu’ils avoient à la Ceremonie du Sacre. Ces quatre
           dernieres <tech type="repas">Tables</tech> furent servies par les Officiers du Corps de
           Ville; &amp; par les Notables Bourgeois, &amp; toutes mesme celle du <persName
-            key="louisxv" role="destinataire">Roy</persName>, aux dépens de la Ville de
-            <placeName>Reims</placeName>.</p>
-        <list>
-          <item/>
+            key="louisxv" role="destinataire">Roy</persName>, aux dépens de la Ville de <placeName
+            key="reims">Reims</placeName>.</p>
+        <list ana="noms">
+          <item><persName key="jean_jacques_de_mesmes" role="convive">L'Ambassadeur de
+              Malte</persName></item>
+          <item><persName key="josephfleurieuarmenonville" role="convive">Le Garde des Sceaux de
+              France</persName></item>
+          <item><persName key="nicolas_ii_de_sainctot" role="convive">le Chevalier de
+              Sainctot</persName></item>
+          <item><persName key="henry_tour_auvergne" role="participant">le Prince de
+              Turenne</persName></item>
         </list>
-        <p>Aprés le Disner, <persName>l’Archevesque de Reims</persName> dit les Graces, &amp; le Roy
-          fut reconduit à son <placeName>Apartement</placeName> dans le mesme ordre, &amp; avec les
-          mesmes ceremonies qui avoient esté observées, lorsque<persName> Sa Majesté</persName>
-          estoit entrée dans la Sale du <tech type="repas">Festin Royal</tech>.</p>
+        <p>Aprés le Disner, <persName key="armand_jules_rohan_guemene" role="organisation"
+            >l’Archevesque de Reims</persName> dit les Graces, &amp; le Roy fut reconduit à son
+            <placeName key="appartementroireims">Apartement</placeName> dans le mesme ordre, &amp;
+          avec les mesmes ceremonies qui avoient esté observées, lorsque <persName key="louisxv"
+            role="destinataire">Sa Majesté</persName> estoit entrée dans la Sale du <tech
+            type="repas">Festin Royal</tech>.</p>
         <p>Sur les trois heures aprés midy, on servit <tech type="repas">deux tables</tech> dans les
-          Sales de <placeName>l’Hotel de Ville</placeName>, Le <persName>Mareschal Duc de
-            Villars</persName>, representant le <persName>Connestable</persName>, tint la premiere,
-          où mangerent <persName>le Prince de Rohan</persName>, representant <persName>le Grand
+          Sales de <placeName key="hotel_de_ville_reims">l’Hotel de Ville</placeName>, Le <persName
+            key="claude_louis_hector_de_villars" role="participant">Mareschal Duc de
+            Villars</persName>, representant le Connestabl, tint la premiere, où mangerent <persName
+            key="hercule_meriadec_rohan" role="participant">le Prince de Rohan</persName>,
+          representant <persName key="louisiv_henri_conde" role="convive">le Grand
             Maistre</persName>; les Mareschaux de <placeName key="france">France</placeName> qui
-          avoient porté les Honneurs; les deux Capitaines des Gardes du Corps; <persName>le
-            Capitaine des Cent Suisses</persName>; <persName>le Grand Maistre</persName>, &amp;
-            <persName>le Maistre des Ceremonies</persName>, <persName>Le Grand Pannetier</persName>,
-            <persName>le Grand Echanson</persName>, le <persName>Grand Ecuyer Tranchant</persName>
-          &amp; l<persName>e Premier Maistre d’Hostel du Roy</persName> y mangerent aussi. Les
-          quatre Barons qui avoient reconduit la Sainte Ampoule, tinrent une autre table, où
-          plusieurs Seigneurs de la Cour se placerent. Ces deux tables furent servies, par les
-          Officiers du Corps de Ville, &amp; par les Notables Bourgeois, avec autant d’abondance que
-          de magnificence. </p>
-        <list>
-          <item/>
+          avoient porté les Honneurs; les deux Capitaines des Gardes du Corps; <persName
+            key="francois_mace_le_tellier_de_louvois" role="participant">le Capitaine des Cent
+            Suisses</persName>; <persName key="thomas_dreux_breze" role="organisation">le Grand
+            Maistre</persName>, &amp; <persName key="sieurgranges" role="organisation">le Maistre
+            des Ceremonies</persName>, <persName key="charles_timoleon_louis_de_cosse"
+            role="convive">Le Grand Pannetier</persName>, <persName
+            key="marc_antoine_front_de_beaupoil_de_saint_aulaire" role="convive">le Grand
+            Echanson</persName>, le <persName key="francois_alexandre_aubert_de_la_chesnaye_desbois"
+            role="convive">Grand Ecuyer Tranchant</persName> &amp; <persName
+            key="hercule_meriadec_rohan" role="convive">le Premier Maistre d’Hostel du
+            Roy</persName> y mangerent aussi. Les quatre Barons qui avoient reconduit la Sainte
+          Ampoule, tinrent une autre table, où plusieurs Seigneurs de la Cour se placerent. Ces deux
+          tables furent servies, par les Officiers du Corps de Ville, &amp; par les Notables
+          Bourgeois, avec autant d’abondance que de magnificence. </p>
+        <list ana="noms">
+          <item><persName key="claude_louis_hector_de_villars" role="participant">Mareschal Duc de
+              Villars</persName></item>
+          <item><persName key="hercule_meriadec_rohan" role="participant">le Prince de
+              Rohan</persName></item>
+          <item><persName key="francois_mace_le_tellier_de_louvois" role="participant">le Capitaine
+              des Cent Suisses</persName></item>
+          <item><persName key="thomas_dreux_breze" role="organisation">le Grand
+            Maistre</persName></item>
+          <item><persName key="sieurgranges" role="organisation">le Maistre des
+              Ceremonies</persName></item>
+          <item><persName key="charles_timoleon_louis_de_cosse" role="convive">Le Grand
+              Pannetier</persName></item>
+          <item><persName key="marc_antoine_front_de_beaupoil_de_saint_aulaire" role="convive">le
+              Grand Echanson</persName></item>
+          <item><persName key="francois_alexandre_aubert_de_la_chesnaye_desbois" role="convive"
+              >Grand Ecuyer Tranchant</persName></item>
+          <item><persName key="hercule_meriadec_rohan" role="convive">le Premier Maistre d’Hostel du
+              Roy</persName></item>
         </list>
         <p><date when="1722-10-26">Le 26 d’Octobre</date>, lendemain de la Ceremonie du Sacre &amp;
           Couronnement du <persName key="louisxv" role="destinataire">Roy</persName>, les Regiments
@@ -2589,7 +2671,7 @@
             <persName key="bartolomeo_massei" role="convive">le Nonce du Pape</persName>, &amp; les
           Ambassadeurs; &amp; <tech type="construction">les Amphitheatres</tech> dressez au-dessus
           des Stales des Chanoines, par un grand nombre de personnes de distinction. </p>
-        <list>
+        <list ana="noms">
           <label>Les cardinaux de</label>
           <item><persName key="henri_pons_de_thiard_de_bissy" role="participant"
             >Bissy</persName></item>
@@ -3755,7 +3837,7 @@
             key="charles_de_bourbon_charolais" role="convive">Comte de Charolois</persName>, &amp;
           le <persName key="louis_de_bourbonconde" role="convive">Comte de Clermont</persName>: on
           en a servi aussi une pour les Cardinaux, &amp; plusieurs autres pour toute la Cour.</p>
-        <list>
+        <list ana="noms">
           <item><persName key="mlle_de_Nantes" role="organisation">Duchesse de
             Bourbon</persName></item>
           <item><persName key="louisiv_henri_conde" role="commanditaire">Duc de
