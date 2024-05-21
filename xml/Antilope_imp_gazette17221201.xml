@@ -401,11 +401,11 @@
               d’Orleans</persName></item>
           <item><persName key="louis_daumont_de_rochebaron" role="participant">Duc de
               Villequier</persName></item>
-          <item><persName>l’Abbé Bachelier</persName></item>
+          <item><persName key="bachelier_abbe" role="participant">l’Abbé Bachelier</persName></item>
         </list>
         <p>Le <persName key="louisxv" role="destinataire">Roy</persName> reçût les hommages du
-          Chapitre de Reims; <persName>l’Abbé Bachelier</persName>, Doyen, &amp; deputé par le
-          Chapitre</p>
+          Chapitre de Reims; <persName key="bachelier_abbe" role="participant">l’Abbé
+            Bachelier</persName>, Doyen, &amp; deputé par le Chapitre</p>
         <pb n="655" xml:id="p655" facs="https://gallica.bnf.fr/ark:/12148/bpt6k6236260b/f7"/>
         <p>pour cette fonction, portant la parole. Le Corps de Ville, presenta ensuite les presents
           de la <placeName key="reims">Ville</placeName>, à <persName key="louisxv"
@@ -1386,25 +1386,25 @@
         <pb n="666" xml:id="p666" facs="https://gallica.bnf.fr/ark:/12148/bpt6k6236260b/f22"/>
         <p>poule arriva à la porte de <placeName key="cathedrale_de_reims">l’Eglise</placeName>.
           Elle avoit esté aportée en Procession de <placeName key="abbaye_saint_remy_reims">l’Eglise
-            de Saint Remy</placeName> par le <persName>Pere Gaudart</persName>, Grand Prieur de
-          l’Abbaye, <tech type="costume">en Chape d’étoffe</tech> d’or &amp; monté sur un <tech
-            type="decor">Cheval blanc</tech> de l’Ecurie au <persName key="louisxv"
-            role="destinataire">Roy</persName>, couvert d’une <tech type="decor">Housse d’étoffe
-            d’argent richement brodee</tech>, &amp; sous un <tech type="construction">Dais</tech> de
-          pareille étoffe, qui estoit porté par les sieurs de <persName key="claude_de_romance"
-            role="fournisseur">Romance</persName>, <persName key="godet" role="fournisseur"
-            >Godet</persName>, &amp; <persName key="de_sainte_catherine_chevalier"
-            role="fournisseur">de Sainte Catherine</persName>, Chevaliers de la Sainte Ampoule,
-            <tech type="costume">vêtus de satin blanc, d’un manteau de soye noire, &amp; d’une
-            écharpe de velours blanc garnie de franges d’argent</tech>. Le quatrieme bâton du Dais
-          estoit porté en l’absence du <persName key="louis_alexandre_dauger">Baron de
-            Neuvisy</persName>, par le <persName key="Clignet" role="fournisseur">sieur
-            Clignet</persName>, Bailly de <persName key="abbaye_saint_remy_reims">l’Abbaye de Saint
-            Remy</persName>, lequel, ainsi que les trois Chevaliers de la Sainte Ampoule, avoit la
-            <tech type="costume">Croix de Chevalier passée au col &amp; atrachée à un Ruban
-            noir</tech>. Les Religieux Minimes, les Chanoines de <placeName
-            key="collegiale_saint_timothee_de_reims">l’Eglise Collegiale de Saint
-            Timothée</placeName>, &amp; les Religieux de <placeName key="abbaye_de_clairvaux"
+            de Saint Remy</placeName> par le <persName key="peregaudart" role="participant">Pere
+            Gaudart</persName>, Grand Prieur de l’Abbaye, <tech type="costume">en Chape
+            d’étoffe</tech> d’or &amp; monté sur un <tech type="decor">Cheval blanc</tech> de
+          l’Ecurie au <persName key="louisxv" role="destinataire">Roy</persName>, couvert d’une
+            <tech type="decor">Housse d’étoffe d’argent richement brodee</tech>, &amp; sous un <tech
+            type="construction">Dais</tech> de pareille étoffe, qui estoit porté par les sieurs de
+            <persName key="claude_de_romance" role="fournisseur">Romance</persName>, <persName
+            key="godet" role="fournisseur">Godet</persName>, &amp; <persName
+            key="de_sainte_catherine_chevalier" role="fournisseur">de Sainte Catherine</persName>,
+          Chevaliers de la Sainte Ampoule, <tech type="costume">vêtus de satin blanc, d’un manteau
+            de soye noire, &amp; d’une écharpe de velours blanc garnie de franges d’argent</tech>.
+          Le quatrieme bâton du Dais estoit porté en l’absence du <persName
+            key="louis_alexandre_dauger">Baron de Neuvisy</persName>, par le <persName key="Clignet"
+            role="fournisseur">sieur Clignet</persName>, Bailly de <persName
+            key="abbaye_saint_remy_reims">l’Abbaye de Saint Remy</persName>, lequel, ainsi que les
+          trois Chevaliers de la Sainte Ampoule, avoit la <tech type="costume">Croix de Chevalier
+            passée au col &amp; atrachée à un Ruban noir</tech>. Les Religieux Minimes, les
+          Chanoines de <placeName key="collegiale_saint_timothee_de_reims">l’Eglise Collegiale de
+            Saint Timothée</placeName>, &amp; les Religieux de <placeName key="abbaye_de_clairvaux"
             >l’Abbaye en Aubes</placeName>, precedoient le <tech type="construction">Dais</tech>,
           devant lequel <persName key="jean_francois_de_bourlamaque" role="participant">le sieur de
             Bourlamaque</persName> Ayde des Ceremonies marchoit immediatement devant <persName
@@ -1423,14 +1423,16 @@
           ayant esté averti par <persName key="sieurgranges" role="organisation">le Maistre des
             Ceremonies</persName>, de l’arrivée de la Sainte Ampoule, alla à la porte de <placeName
             key="cathedrale_de_reims">l’Eglise</placeName>, avec les ceremonies accoutumées, la
-          recevoir des mains du <persName>Grand Prieur de l’Abbaye de Saint Remy</persName>, qui la
-          luy remit, aprés que ce <persName>Prelat</persName> eut fait solemnellement la promesse
-          ordinaire de la rendre.<persName key="armand_jules_rohan_guemene" role="organisation"
-            >L'Archevesque de Reims</persName> precede de tous les Chanoines, rentra ensuite dans le
-          Chœur, &amp; posa la Sainte Ampoule sur l’Autel, à costé duquel <persName>le Grand
-            Prieur</persName> &amp;<persName>le Tresorier de l’Abbaye</persName>, prirent place,
-          pour y rester pendant toute la Ceremonie, &amp; les quatre Barons allerent se placer dans
-          les quatre premieres Stalles des Chanoines, du costé de l’Evangile; leurs</p>
+          recevoir des mains du <persName key="peregaudart" role="participant">Grand Prieur de
+            l’Abbaye de Saint Remy</persName>, qui la luy remit, aprés que ce <persName
+            key="peregaudart" role="participant">Prelat</persName> eut fait solemnellement la
+          promesse ordinaire de la rendre.<persName key="armand_jules_rohan_guemene"
+            role="organisation">L'Archevesque de Reims</persName> precede de tous les Chanoines,
+          rentra ensuite dans le Chœur, &amp; posa la Sainte Ampoule sur l’Autel, à costé duquel
+            <persName key="peregaudart" role="participant">le Grand Prieur</persName>
+            &amp;<persName>le Tresorier de l’Abbaye</persName>, prirent place, pour y rester pendant
+          toute la Ceremonie, &amp; les quatre Barons allerent se placer dans les quatre premieres
+          Stalles des Chanoines, du costé de l’Evangile; leurs</p>
         <list ana="noms">
           <item><persName key="jean_francois_de_bourlamaque" role="participant">le sieur de
               Bourlamaque</persName></item>
@@ -1445,7 +1447,7 @@
               Beauvau</persName></item>
           <item><persName key="sieurgranges" role="organisation">le Maistre des
               Ceremonies</persName></item>
-          <item><persName>le Grand Prieur</persName></item>
+          <item><persName key="peregaudart" role="participant">le Grand Prieur</persName></item>
           <item><persName>le Tresorier de l’Abbaye</persName></item>
           <label>Les chevaliers de la Sainte Ampoule</label>
           <item><persName key="claude_de_romance" role="fournisseur">Romance</persName></item>
@@ -1559,12 +1561,14 @@
         <p>table, qui la tint la pointe levée, pendant toute la Ceremonie du Sacre &amp; du
           Couronnement, &amp; pendant le <tech type="repas">Festin Royal</tech>.</p>
         <p><persName key="armand_jules_rohan_guemene" role="organisation">L'Archevêque de
-            Reims</persName> retourna ensuite à l’Autel; <persName>le Grand Prieur de l’Abbaye de
-            Saint Remy</persName>, &amp; le <persName>Tresorier</persName>, ayant ouvert la Sainte
-          Ampoule, ce <persName>Prelat</persName> prit la Patene d’or du Calice de <name
-            key="saint_remy">Saint Remy</name>, sur laquelle <persName>il</persName> mit de l’Huile
-          de la Sainte Ampoule qu’il messa avec du Saint Cresme. Ensuite les Evêques <persName
-            key="francois_firmin_trudaine" role="organisation">de Senlis</persName>, <persName
+            Reims</persName> retourna ensuite à l’Autel; <persName key="peregaudart"
+            role="participant">le Grand Prieur de l’Abbaye de Saint Remy</persName>, &amp; le
+            <persName>Tresorier</persName>, ayant ouvert la Sainte Ampoule, ce <persName
+            key="peregaudart" role="participant">Prelat</persName> prit la Patene d’or du Calice de
+            <name key="saint_remy">Saint Remy</name>, sur laquelle <persName key="peregaudart"
+            role="participant">il</persName> mit de l’Huile de la Sainte Ampoule qu’il messa avec du
+          Saint Cresme. Ensuite les Evêques <persName key="francois_firmin_trudaine"
+            role="organisation">de Senlis</persName>, <persName
             key="charlesfrancois_dhallencourt_de_dromesnil" role="participant">de Verdun</persName>,
             <persName key="louis_ii_de_la_vergbe_de_tressan" role="participant">de
           Nantes</persName>, &amp; <persName key="gabrielflorent_de_choiseulbeaupre"
@@ -1760,20 +1764,20 @@
           </placeName>entonnerent au milieu du Chœur, <tech type="musique">l’Introîte</tech> qui fut
           chanté par la Musique du <persName key="louisxv" role="destinataire">Roy</persName>:
             <persName key="armand_jules_rohan_guemene" role="organisation">l’Archevêque de
-            Reims</persName> commença la Messe au Grand Autel, &amp; dans le mesme temps
-            <persName>l’Abbé Guinaut</persName>Chapelain du <persName key="louisxv"
-            role="destinataire">Roy</persName> commença une Messe basse à l’Autel du Jubé; <persName
-            key="alexandre_milon_de_mesmes" role="participant">l’Abbé Milon</persName> Aumonier du
-            <persName key="louisxv" role="destinataire">Roy</persName> ayant presenté l’eau benite à
-            <persName key="louisxv" role="destinataire">Sa Majesté</persName>, suivant l’usage
-          ordinaire. Aprés que <persName key="armand_jules_rohan_guemene" role="organisation"
-            >l’Archevêque</persName> Officiant eut dit l’Oraison de la Dedicace de l’Eglise, dont on
-          celebroit l’Octave, <persName key="pierre_sabatier" role="organisation">l’Evêque
-            d’Amiens</persName>, sans Mitre, <tech type="musique">chanta l’Epitre</tech>. Pendant
-          l’Evangile, qui fut <tech type="musique">chanté</tech> par <persName key="languet_gergy"
-            role="organisation">l’Evêque de Soissons</persName>, les Pairs Ecclesiastiques
-          quitterent leurs <tech type="costume">Mitres</tech>, les Pairs Laïcs leurs <tech
-            type="costume">Couronnes</tech>, &amp; <persName key="philippe_orleans_regent"
+            Reims</persName> commença la Messe au Grand Autel, &amp; dans le mesme temps <persName
+            key="guinaut_abbe" role="participant">l’Abbé Guinaut</persName>Chapelain du <persName
+            key="louisxv" role="destinataire">Roy</persName> commença une Messe basse à l’Autel du
+          Jubé; <persName key="alexandre_milon_de_mesmes" role="participant">l’Abbé Milon</persName>
+          Aumonier du <persName key="louisxv" role="destinataire">Roy</persName> ayant presenté
+          l’eau benite à <persName key="louisxv" role="destinataire">Sa Majesté</persName>, suivant
+          l’usage ordinaire. Aprés que <persName key="armand_jules_rohan_guemene"
+            role="organisation">l’Archevêque</persName> Officiant eut dit l’Oraison de la Dedicace
+          de l’Eglise, dont on celebroit l’Octave, <persName key="pierre_sabatier"
+            role="organisation">l’Evêque d’Amiens</persName>, sans Mitre, <tech type="musique"
+            >chanta l’Epitre</tech>. Pendant l’Evangile, qui fut <tech type="musique">chanté</tech>
+          par <persName key="languet_gergy" role="organisation">l’Evêque de Soissons</persName>, les
+          Pairs Ecclesiastiques quitterent leurs <tech type="costume">Mitres</tech>, les Pairs Laïcs
+          leurs <tech type="costume">Couronnes</tech>, &amp; <persName key="philippe_orleans_regent"
             role="commanditaire">Monsieur le Duc d’Orleans</persName>, representant <persName
             key="louis_de_france">le Duc de Bourgogne</persName>, osta au <persName key="louisxv"
             role="destinataire">Roy</persName>
@@ -2066,13 +2070,13 @@
           du peuple qui remplissoit la Place devant <placeName key="cathedrale_de_reims"
             >l’Eglise</placeName>, &amp; les Cours de <placeName key="cathedrale_de_reims"
             >l’Archevesché</placeName>.</p>
-        <p>A la fin de la Messe, <persName>le Grand Prieur de l’Abbaye de Saint Remy</persName>,
-          ayant reçù la Sainte Ampoule des mains de <persName key="armand_jules_rohan_guemene"
-            role="organisation">l’Archevesque de Reims</persName>, <persName
-            key="armand_jules_rohan_guemene" role="organisation">il</persName> la reporta avec les
-          mesmes ceremonies qui avoient esté observées le matin, lorsqu’elle avoit esté aportée à
-            <placeName key="cathedrale_de_reims">l’Eglise Metropolitaine</placeName>, &amp; les
-          quatre Seigneurs nommez pour l’accompagner, la reconduisirent à <placeName
+        <p>A la fin de la Messe, <persName key="peregaudart" role="participant">le Grand Prieur de
+            l’Abbaye de Saint Remy</persName>, ayant reçù la Sainte Ampoule des mains de <persName
+            key="armand_jules_rohan_guemene" role="organisation">l’Archevesque de Reims</persName>,
+            <persName key="armand_jules_rohan_guemene" role="organisation">il</persName> la reporta
+          avec les mesmes ceremonies qui avoient esté observées le matin, lorsqu’elle avoit esté
+          aportée à <placeName key="cathedrale_de_reims">l’Eglise Metropolitaine</placeName>, &amp;
+          les quatre Seigneurs nommez pour l’accompagner, la reconduisirent à <placeName
             key="abbaye_saint_remy_reims">l’Abbaye de Saint Remy</placeName>, avec le mesme cortege;
           l’Ayde des ceremonies marchant immediatement devant le <tech type="construction"
             >Dais</tech>.</p>
@@ -2570,12 +2574,12 @@
             key="abbaye_saint_remy_reims">l’Abbaye de Saint Remy</placeName>, <tech type="bruitage"
             >au bruit des acclamations reiterées du peuple</tech> qui y estoit accouru, fut reçû
           &amp; complimenté à la porte de l’Eglise de cette <placeName key="abbaye_saint_remy_reims"
-            >Abbaye</placeName>, par <persName>le Grand Prieur</persName> à la teste de tous les
-          Religieux qui estoient en <tech type="costume">Chape</tech>. <persName key="louisxv"
-            role="destinataire">Sa Majesté</persName> entra ensuite dans le Chœur, &amp; elle y
-          entendit une Messe basse qui fut dite par un Chapelain du <persName key="louisxv"
-            role="destinataire">Roy</persName>, &amp; pendant laquelle la musique de <persName
-            key="louisxv" role="destinataire">Sa Majesté</persName>
+            >Abbaye</placeName>, par <persName key="peregaudart" role="participant">le Grand
+            Prieur</persName> à la teste de tous les Religieux qui estoient en <tech type="costume"
+            >Chape</tech>. <persName key="louisxv" role="destinataire">Sa Majesté</persName> entra
+          ensuite dans le Chœur, &amp; elle y entendit une Messe basse qui fut dite par un Chapelain
+          du <persName key="louisxv" role="destinataire">Roy</persName>, &amp; pendant laquelle la
+          musique de <persName key="louisxv" role="destinataire">Sa Majesté</persName>
           <tech type="musique">chanta un Motet</tech>.</p>
         <p>Aprés la Messe, le <persName key="louisxv" role="destinataire">Roy</persName> alla faire
           sa priere derriere le Grand Autel, prés du <placeName key="abbaye_saint_remy_reims"
@@ -3243,9 +3247,9 @@
           dans une des Sales de <placeName key="abbaye_saint_remy_reims">l’Abbaye de Saint
             Remy</placeName>, pour déjeuner, aprés quoy le <persName key="louisxv"
             role="destinataire">Roy</persName> revint dans <placeName key="abbaye_saint_remy_reims"
-            >l’Eglise</placeName>, où il entendit une seconde Messe, qui fut dite par <persName>un
-            Chapelain de Sa Majesté</persName>, &amp; pendant laquelle, on <tech type="musique"
-            >chanta un Motet</tech>.</p>
+            >l’Eglise</placeName>, où il entendit une seconde Messe, qui fut dite par <persName
+            key="guinaut_abbe" role="participant">un Chapelain de Sa Majesté</persName>, &amp;
+          pendant laquelle, on <tech type="musique">chanta un Motet</tech>.</p>
         <list ana="noms">
           <item><persName key="louisxv" role="destinataire">Sa Majesté</persName></item>
           <item><persName key="louis_orleans" role="convive">Duc de Chartres</persName></item>
