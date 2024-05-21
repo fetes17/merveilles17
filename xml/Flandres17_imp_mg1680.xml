@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
+<?xml-stylesheet type="text/css" href="../style/tei-author.css" alternate="author"?>
+<?xml-model href="https://fetes17.github.io/merveilles17/merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MERCURE GALANT Dédié A Monseigneur LE DAUPHIN, septembre 1680. SECONDE PARTIE.
+               Contenant le Voyage que le Roy a fait en Flandre en l’année 1680.</title>
+            <author key="jean_donneau_de_vize">Jean Donneau de Vizé</author>
+            <author key="thomas_corneille">Thomas Corneille</author>
+            <author key="charles_du_fresny">Charles Du Fresny</author>
+            <editor key="claude_blageart" role="editeur">Claude Blageart</editor>
+            <editor key="michel_gueroult" role="editeur">Michel Guéroult</editor>
+            <editor key="michel_brunet" role="editeur">Michel Brunet</editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>Flandres17</edition>
+            <respStmt>
+               <name>Laurine Meny</name>
+               <resp>Transcription et indexation</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Université d’Artois - CPER Anamorphoses</publisher>
+            <date when="2024"/>
+            <availability status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>MERCURE GALANT Dédié A Monseigneur LE DAUPHIN, septembre 1680. SECONDE PARTIE.
+               Contenant le Voyage que le Roy a fait en Flandre en l’année 1680. A PARIS, AU PALAIS.
+                  <note>MERCURE, PARIS, AU PALAIS, 1680, P.19-195.</note>
+               <ptr target="https://gallica.bnf.fr/ark:/12148/bpt6k62219294?rk=42918;4"/></bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date when="1680">1680</date>
+         </creation>
+         <langUsage>
+            <language ident="fr"/>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+
+      <front>
+         <pb n="np" xml:id="p5" facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f5"/>
+         <titlePage>
+            <docTitle>
+               <titlePart>MERCURE GALANT Dédié A <persName key="louis_grand_dauphin"
+                     role="destinataire">Monseigneur LE DAUPHIN</persName>, <date when="1680-09"
+                     >septembre 1680</date>. SECONDE PARTIE. Contenant le Voyage que le <persName
+                     key="louisxiv">Roy</persName> a fait en <placeName key="flandre"
+                     >Flandre</placeName> en l’année <date when="1680">1680</date>.</titlePart>
+            </docTitle>
+            <docDate>
+               <date when="1680">1680</date>
+            </docDate>
+            <docImprint>A <placeName key="paris">PARIS</placeName>, AU <placeName
+                  key="paris_palais_royal">PALAIS</placeName>.</docImprint>
+         </titlePage>
+      </front>
+      <body>
+         <div>
+            <head rend="center">MERCURE GALANT.</head>
+            <pb n="np" xml:id="p6" facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f6"/>
+            <p>On donnera toûjours un Volume nouveau du Mercure Galant le premier jour de chaque
+               Mois, &amp; on le vendra, aussi-bien que l'Extraordinaire, Trente fois relié en Veau,
+               &amp; Ving-cinq fois en Parchemin.</p>
+            <p rend="center">A <placeName key="paris">PARIS</placeName></p>
+            <p rend="center">Chez <persName key="guillaume_de_luyne" role="imprimeur">G. DE
+                  LUYNE</persName>, au <placeName key="paris_palais_royal">Palais</placeName>, dans
+               la Salle des Merciers, à la Justice.</p>
+            <p rend="center">Chez <persName key="claude_blageart">C. BLAGEART</persName>, <placeName
+                  key="lille_rue_saint_jacques">Ruë S. Jacques</placeName>, à l'entrée de la
+                  <placeName key="lille_rue_du_platre">Ruë du Plâtre</placeName>, Et en sa Boutique
+               Court-Neuve du <placeName key="paris_palais_royal">Palais</placeName>, AU <persName
+                  key="louis_grand_dauphin" role="destinataire">DAUPHIN</persName>.</p>
+            <p rend="center">Et <persName key="theodore_girard">T. Girard</persName>, au <placeName
+                  key="paris_palais_royal">Palais</placeName>, dans la Grande Salle, à l'Envie.</p>
+            <p><date when="1680">M. D. LXXX.</date></p>
+            <p>AVEC PRIVILEGE DU <persName key="louisxiv">ROY</persName></p>
+
+            <div type="chapitre">
+               <head rend="center">BEAUVAIS</head>
+               <pb n="19" xml:id="p19" facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f27"/>
+               <p>Le soir de ce mesme <date when="1680-07-14">jour</date>, toute la Cour arriva à
+                     <placeName key="beauvais">Beauvais</placeName>, où Leurs Majestez furent
+                  reçeuës par le Corps de Ville, &amp; conduites au <placeName
+                     key="palais_episcopal_beauvais">Palais Episcopal</placeName> qui avoit esté
+                  préparé pour leur Logement. Le <persName key="louisxiv">Roy</persName> avoit
+                  declaré qu’il <pb n="20" xml:id="p20"
+                     facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f28"/>ne vouloit point
+                  qu’on le haranguast ny qu’on tirast le Canon dans aucune des Villes où il
+                  passeroit. Cependant comme ses nouveaux Sujets avoient déja fait de fort grands
+                  préparatifs pour le recevoir lors qu’ils apprirent cet ordre, <persName
+                     key="louisxiv">Sa Majesté</persName> n’a pû refuser à leurs instantes prieres,
+                  la premission de luy faire voir par tout ce qui peut marquer la plus vive joye,
+                  combien ils se tiennent glorieux d’avoir pour Maistre le plus grand de tous les
+                  Roys. <pb n="21" xml:id="p21"
+                     facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f29"/>Ainsi, Madame, vous
+                  ne devez point estre surprise, si contre les ordres que ce <persName
+                     key="louisxiv">Prince</persName> avoit donnez avant son depart de <placeName
+                     key="saint-germain">S. Germain</placeName>, vous le voyez reçeu en beaucoup de
+                  lieux avec l’appareil des plus grandes Festes. Leurs Majestez parurent
+                  tres-satisfaites de la Reception que leur fit <persName
+                     key="toussaint_de_forbin-janson">Mr l’Evesque &amp; Comte de Beauvais, Pair de
+                     France</persName>. Le mesme soir, <persName key="toussaint_de_forbin-janson">ce
+                     Prélat</persName> donna un magnifique <tech type="repas">Soupé</tech> à la plus
+                  grande partie de la Cour.</p>
+            </div>
+            <div type="chapitre">
+               <head rend="center">OUDEÜIL</head>
+               <pb n="22" xml:id="p22" facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f30"/>
+               <p>Le <date when="1680-07-15">15.</date> on alla <tech type="repas">dîner</tech> à un
+                  Village appellé <placeName key="oudeuil">Oudeüil</placeName> ; &amp; comme le
+                  Chasteau de <placeName key="crevecoeur_le_grand">Crevecœur</placeName> est presque
+                  sur cette route, <persName key="adrienII_hanyvel">Mr <hi rend="underline">de
+                        Manevillete</hi></persName><note place="margin" resp="inconnu"
+                     >Hannivel.</note>, Secretaire des Commandemens de <persName key="louisxiv">Son
+                     Altesse Royale</persName>, eut l’honneur d’y donner à <tech type="repas"
+                     >dîner</tech> à Messieurs les <persName key="louis_armand_bourbon_conti"
+                     >Princes de Conty</persName> &amp; <persName key="françois_louis_bourbon_conti"
+                     >de la Roche-sur-Yon</persName>, &amp; à plusieurs Personnes des plus
+                  qualifiées de la Cour qui ses détacherent de la Suite de Leurs Majestez. Je vous
+                  ay déjà marqué ailleurs que ce Château luy appartient. Le <pb n="23" xml:id="p23"
+                     facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f31"/>
+                  <tech type="repas">Régal</tech> fut magnifique. <persName key="pierre_de_bonzi">Mr
+                     le Cardinal <hi rend="underline">de Bonzy</hi></persName> en estoit, avec
+                     <persName>Mr le Grand</persName><!-- introuvable -->, <persName
+                     key="henri_brionne">Mr le Comte <hi rend="underline">de
+                     Brionne</hi></persName><note place="margin" resp="inconnu">(1) de
+                     Lorraine.</note>, <persName key="charles_françois_lorraine">Mr le Prince <hi
+                        rend="underline">de Commercy</hi></persName><note place="margin"
+                     resp="inconnu">(2) de Lorraine.</note>, Mrs les <persName
+                     key="francois_alincourt">Ducs <hi rend="underline">de
+                     Villeroy</hi></persName><note place="margin" resp="inconnu">(3) de
+                     Neufville</note>, <persName key="blanchefort_crequy">de <hi rend="underline"
+                        >Créquy</hi></persName>, <persName key="francois_iii_d_aubusson"
+                     rend="underline">de la Feüillade</persName><note place="margin" resp="inconnnu"
+                     >(4) D'aubusson.</note>, &amp; <persName key="marquis_de_gesvres">de <hi
+                        rend="underline">Gesvres</hi></persName><note place="margin" resp="inconnu"
+                     >(5) Potier.</note>, <persName key="charles_colbert_croissy">Mr <hi
+                        rend="underline">Colbert de Croissy</hi></persName>, <persName
+                     key="balthazar_phelypeaux_chateauneuf">Mr de Chasteauneuf</persName><note
+                     place="margin" resp="inconnu">(6) Phélypeaux.</note> Secretaire d’Etat,
+                     <persName key="gaston_hotel">Mr le <hi rend="underline">Comte du
+                     Plessis</hi></persName><note>De Choiseul.</note>, <persName
+                     key="françois_andrault">Mr de <hi rend="underline"
+                     >Maulevrier</hi></persName><note place="margin" resp="inconnu">(7)
+                     Andrault.</note>, Mrs <persName key="louis_oger_cavoye" rend="underline"
+                     >Cavois</persName><note place="margin" resp="inconnu">(8) Ogier.</note>,
+                     <persName key="francois_iii_harcourt">de <hi rend="underline"
+                     >Beuvron</hi></persName><note place="margin" resp="inconnu">(9)
+                     Harcourt.</note>, <persName key="louis_chatillon" rend="underline"
+                     >Chastillon</persName>, <persName key="louisI_sanguin" rend="underline"
+                     >Sanguin</persName>, &amp; autres principaux Officiers de la Maison de
+                     <persName key="philippe_orleans">Monsieur</persName>.</p>
+            </div>
+            <div type="chapitre">
+               <head rend="center">POIX</head>
+               <p>Leurs Majestez estant ar-<pb n="24" xml:id="p24"
+                     facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f32"/>rivées à <placeName
+                     key="poix-de-picardie">Poix</placeName>, où Elles coucherent ( <placeName
+                     key="poix-de-picardie">Poix</placeName> est une Principauté appartenante à
+                     <persName key="blanchefort_crequy">Mr le Duc <hi rend="underline">de
+                        Créquy</hi></persName> ) le <persName key="louisxiv">Roy</persName> &amp;
+                     <persName key="louis_grand_dauphin">Monseigneur le Dauphin</persName> monterent
+                  aussitost à <tech type="animal">cheval</tech>, &amp; allerent prendre le
+                  divertissement de la Chasse. Si elle délasse au sortir du Cabinet, parce que le
+                  corps s’estant longtemps reposé, a quelquefois besoin de plaisirs meslez
+                  d’agitation, il est certain qu’apres la marche d’une journée, qui est toûjours une
+                  espece de travail pour ceux mesmes qui voya-<pb n="25" xml:id="p25"
+                     facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f33"/>gent avec le plus
+                  de commodité, elle ne peut estre que tres-fatiguante, quand on ne s’est point
+                  accoûtumé aux grands exercices ; mais <persName key="louisxiv">Sa
+                     Majesté</persName> s’en est toûjours fait une si forte habitude, que c’est sans
+                  aucune peine qu’Elle resiste aux plus violens.</p>
+            </div>
+            <div type="chapitre">
+               <head rend="center">ABBEVILLE</head>
+               <p>On <tech type="repas">dîna</tech> le <date when="1680-07-16">16</date> à
+                     <placeName key="camps-en-amnienois">Calaminoy</placeName>, &amp; on arriva le
+                  soir à <placeName key="abbeville">Abbeville</placeName>. <persName
+                     key="armand_de_bethune">Mr le Duc de <hi rend="underline"
+                     >Charost</hi></persName>, Lieutenant de <persName key="louisxiv">Roy</persName>
+                  de <placeName key="picardie">Picardie</placeName>, reçeut Leurs Majestez hors les
+                  Portes, à la teste de la Noblesse des <pb n="26" xml:id="p26"
+                     facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f34"/>environs. Elle
+                  estoit tres-lente ; &amp; le soin qu’elle avoit pris de se bien monter, répondant
+                  à la propreté de son équipage, faisoit connoistre son zele, &amp; le plaisir
+                  qu’elle ressentoit de voir son <persName key="louisxiv">Prince</persName>. La Cour
+                  passa le <date when="1680-07-17">17.</date> à <placeName key="abbeville"
+                     >Abbeville</placeName> ; &amp; le <persName key="louisxiv">Roy</persName>
+                  accompagné de <persName key="louis_grand_dauphin">Monseigneur le
+                     Dauphin</persName>, alla encor se divertir à la Chasse, tandis que la <persName
+                     key="marie_therese">Reyne</persName>, <persName key="marie_anne_baviere">Madame
+                     la Dauphine</persName>, &amp; <persName key="elisabeth-charlotte_baviere"
+                     >Madame</persName>, visiterent les principales Eglises, suivant leur pieté
+                  ordinaire. <pb n="27" xml:id="p27"
+                     facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f35"/></p>
+            </div>
+            <div type="chapitre">
+               <head rend="center">MONTREÜIL</head>
+               <p>Le <date when="1680-07-18">18.</date> Leurs Majestez vinrent <tech type="repas"
+                     >dîner</tech> à <placeName key="bernay-en-ponthieu">Bernay</placeName>, &amp;
+                  arriverent le soir à <placeName key="montreuil">Montreüil</placeName>. <persName
+                     key="henri_elbeuf">Mr le <hi rend="underline">Duc d’Elbeuf</hi></persName><note
+                     place="margin" resp="inconnu">Lorraine</note>, qui en est Gouverneur, ainsi que
+                  de la <placeName key="montreuil_citadelle">Citadelle</placeName>, ne s’y estant pû
+                  trouver, le mesme <persName key="armand_de_bethune">Mr de Charost</persName> les
+                  reçeut en son absence à la Porte de la <placeName key="montreuil"
+                     >Ville</placeName>.</p>
+            </div>
+            <div type="chapitre">
+               <head rend="center">NEUFCHATEL</head>
+               <p>Elles en partirent le <date when="1680-07-19">19.</date> &amp; <tech type="repas"
+                     >dînerent</tech> à <placeName key="neufchatel">Neufchastel</placeName>, où
+                     <persName key="louis_marie_aumont_rochebaron">Mr le <hi rend="underline">Duc
+                        d’Aumont</hi></persName>, Gouverneur du Boulenois, s’estoit rendu pour les
+                  recevoir. Il y vint suivy de toute la Noblesse du <persName key="flandre"
+                     >Païs</persName>. Rien n’estoit plus magnifique. <pb n="28" xml:id="p28"
+                     facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f36"/> Aussi tous ceux
+                  qui composoient cet illustre Corps, avoient-ils fait dépense à l’envy, afin de
+                  paroistre dans une rencontre si glorieuse pour eux.</p>
+            </div>
+            <div type="chapitre">
+               <head rend="center">BOULOGNE-SUR-MER</head>
+               <p>De <placeName key="neufchatel">Neufchastel</placeName>, on vint coucher à
+                     <placeName key="boulogne-sur-mer">Bologne</placeName> ; &amp; comme le
+                     <persName key="louisxiv">Roy</persName> n’avoit en veuë dans tout ce Voyage que
+                  de travailler au bien de l’<name key="etat">Etat</name>, il n’y fut pas si-tost
+                  arrivé, que sans se donner aucun repos, il en visita les <placeName
+                     key="boulogne-sur-mer_fortifications">Fortifications</placeName>, &amp; y
+                  employa le reste du soir.</p>
+            </div>
+            <div type="chapitre">
+               <head rend="center">AMBLETEUSE</head>
+               <p>Le <date when="1680-07-20">20.</date>
+                  <persName key="louisxiv">Sa Majesté</persName> apres avoir <tech type="repas"
+                     >dîné</tech> à <placeName key="wimille">Wimille</placeName>, monta <pb n="29"
+                     xml:id="p29" facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f37"/>a
+                     <tech type="animal">cheval</tech>, &amp; alla voir le <placeName
+                     key="ambleteuse_port">Port d’Ambleteuse</placeName>, qui est à deux lieuës de
+                     <placeName key="boulogne-sur-mer">Bologne</placeName>. Elle estoit accompagnée
+                  de <persName key="louis_grand_dauphin">Monseigneur le Dauphin</persName>, &amp;
+                  suivie des principaux Seigneurs de sa Cour. <persName key="seignelay_colbert">Mr
+                     le Marquis de <hi rend="underline">Seignelay</hi></persName><note
+                     place="margin" resp="inconnu">Colbert</note> s’y estant trouvé, ce fut avec luy
+                  &amp; avec <persName key="combe">Mr <hi rend="underline">de
+                  Combe</hi></persName><!-- identité incertaine -->, qu’Elle examina tres-exactement
+                  la situation de ce <placeName key="ambleteuse_port">Port</placeName>. Ce dernier
+                  avoit eu ordre de le visiter quelque temps auparavant, aussi bien qu’un autre
+                  Lieu, nommé le <placeName key="wissant_port">Port de Wissan</placeName>, qu’on
+                  trouve à deux lieuës de là. <pb n="30" xml:id="p30"
+                     facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f38"/> Celuy d’<placeName
+                     key="ambleteuse">Ambleteuse</placeName> a cela d’avantageux, qu’il est le seul
+                  dans la Manche, du costé de <placeName key="france">France</placeName>, d’où les
+                     <tech type="machine_eau">Vaisseaux</tech> puissent faire voile par un vent du
+                  Nord. Outre que la Rade en est aussi bonne que la Rade de <placeName
+                     key="dunkerque">Dunkerque</placeName>, la Mer s’en éloigne beaucoup moins. Il y
+                  a plus de six cens toises à dire. L’air &amp; les eaux y sont admirables. Le
+                     <persName key="louisxiv">Roy</persName> se rendit en suite au <placeName
+                     key="wissant_port">Port de Wissan</placeName>. On croit que ce soit le lieu
+                  d’où <name ana="Jules César">Jules César</name> passa dans la <placeName
+                     key="grande_bretagne">Grand’ Bretagne</placeName>, &amp; qu’il nomme <pb n="31"
+                     xml:id="p31" facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f39"/>
+                  <foreign xml:lang="la">Iccius Portus</foreign> dans ses Commentaires. On y voit
+                  encor de vieux vestiges, qu’on appelle <hi rend="i">Camp de <persName
+                        key="jules_cesar">César</persName></hi>. De ce <placeName key="wissant_port"
+                     >Port</placeName>, il n’y a que cinq lieuës de trajet pour passer en <placeName
+                     key="angleterre">Angleterre</placeName>. Apres que <persName key="louisxiv">Sa
+                     Majesté</persName> en eut consideré la situation pendant quelque temps, celle
+                     d’<placeName key="ambleteuse">Ambleteuse</placeName> luy parut beaucoup plus
+                  commode pour ses desseins, &amp; ainsi Elle résolut de donner ses ordres pour y
+                  faire travailler. Dans le temps qu’Elle avançoit le long de la Coste, on enten-
+                     <pb n="32" xml:id="p32"
+                     facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f40"/>dit tirer quantité
+                  de coups vers le rivage. Quelques Gardes du Corps &amp; Mousquetaires y estant
+                  courus, apperçeurent une <tech type="machine_eau">Barque</tech> poursuivie par une
+                     <tech type="machine_eau">Patache Angloise</tech>. La <tech type="machine_eau"
+                     >Barque</tech> estoit chargée de Laine d’<placeName key="angleterre"
+                     >Angleterre</placeName>, que le Capitaine de la <tech type="machine_eau"
+                     >Patache</tech> vouloit enlever. Toute la Cour arriva presque aussitost sur le
+                  rivage, où <persName key="louis_grand_dauphin">Monseigneur le Dauphin</persName>
+                  parut des premiers. Ce Capitaine ayant esté arresté, fut conduit devant le
+                     <persName key="louisxiv">Roy</persName>, qu’on informa de la chose.<pb n="33"
+                     xml:id="p33" facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f41"/>
+                  <persName key="louisxiv">Sa Majesté</persName> demanda à <persName
+                     key="louis_marie_aumont_rochebaron">Mr le Duc <hi rend="underline"
+                        >d’Aumont</hi></persName> ce qu’il auroit fait si Elle n’eust pas esté
+                  présente. <persName key="louis_marie_aumont_rochebaron">Mr d’Aumont</persName>
+                  répondit, <hi rend="i">que ses Costes estoient des lieux de refuge inviolables,
+                     qu’on n’y pouvoit attaquer personne impunément, &amp; qu’il n’auroit pû se
+                     dispenser de punir de mort celuy qui avoit eu la temerité de violer ce droit de
+                     franchise ; mais que le Coupable ayant eu l’honneur de paroistre devant
+                        <persName key="louisxiv">Sa Majesté</persName>, c’estoit à Elle à prononcer
+                     son Arrest.</hi> Le <persName key="louisxiv">Roy</persName> par un effet de
+                  cette cle-<pb n="34" xml:id="p34"
+                     facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f42"/>mence qui luy est
+                  si naturelle, pardonna au Capitaine, &amp; cet heureux Teméraire fut obligé de la
+                  vie au bonheur qu’il eut d’avoir ce <persName key="louisxiv">grand
+                     Monarque</persName> pour Juge.</p>
+            </div>
+            <div type="chapitre">
+               <head rend="center">CALAIS</head>
+               <p>On suivit la Coste, &amp; <persName key="louisxiv">Sa Majesté</persName> s’estant
+                  trouvée sur les six heures du soir aupres du nouveau <placeName
+                     key="calais_fort_nieulay">Fort de Nieulay</placeName>, en alla voir les
+                  Travaux. Elle fut tres-satisfaite de la beauté de l’Ouvrage, &amp; trouva la
+                  situation du Lieu fort avantageuse, non seulement pour sa force, mais pour les
+                  utili- <pb n="35" xml:id="p35"
+                     facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f43"/>tez qu’on y peut
+                  tirer des eaux de la Mer, &amp; des eaux douces.</p>
+               <p>Tandis que le <persName key="louisxiv">Roy</persName> &amp; <persName
+                     key="louis_grand_dauphin">Monseigneur le Dauphin</persName> visitoient ainsi la
+                  Coste à <tech type="animal">cheval</tech>, &amp; avançoient vers <placeName
+                     key="calais">Calais</placeName>, la <persName key="marie_therese"
+                     >Reyne</persName> avoit pris le grand chemin, &amp; y estoit déja arrivée avec
+                     <persName key="marie_anne_baviere">Madame la Dauphine</persName> &amp; Leurs
+                  Altesses Royales. <persName key="elisabeth-charlotte_baviere">Madame</persName>,
+                  accompagnée de plusieurs Personnes du premier rang, alla voir le <placeName
+                     key="wissant_port">Port</placeName> dés ce mesme jour, &amp; toute celle
+                  illustre Compagnie se pro- <pb n="36" xml:id="p36"
+                     facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f44"/>mena quelque temps
+                  dans des <tech type="machine_eau">Chaloupes</tech> à un quart de lieuë de Mer.</p>
+               <p>Le <date when="1680-07-21">21.</date>
+                  <persName key="louisxiv">Sa Majesté</persName>, arrivée à <placeName key="calais"
+                     >Calais</placeName> le <date when="1680-07-20">soir précedent</date>, monta à
+                     <tech type="animal">cheval</tech>, vit six Compagnies Suisses du <persName
+                     key="regiment_de_phisfer" role="organisation">Regiment de Phisfer</persName>,
+                  &amp; fit connoistre à leur Colonel combien Elle en estoit satisfaite. Ce
+                     <persName key="louisxiv">Prince</persName> alla visiter en suite les Ouvrages
+                  de la <placeName key="calais_fortifications">Place</placeName>, qu’il admira,
+                  &amp; particulierement le <placeName key="calais_glacis">Glacis</placeName> qui
+                  regarde <placeName key="gravelines">Gravelines</placeName>. Il est d’une
+                  tres-grande beauté, &amp; on ne peut rien voir de plus propre. Apres<pb n="37"
+                     xml:id="p37" facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f45"/>
+                  l’avoir bien consideré, <persName key="louisxiv">Sa Majesté</persName> se rendit
+                  sur le <placeName key="calais_rempart">Rampart</placeName>, &amp; en fit le tour.
+                  Elle trouva que rien n’y manquoit ; apres quoy estant entrée dans la <placeName
+                     key="calais_citadelle">Citadelle</placeName>, Elle témoigna vouloir qu’on y
+                  travaillast si-tost qu’on auroit finy les Ouvrages commencez.</p>
+               <p>Le <date when="1680-07-22">22.</date> Elle retourna au <placeName
+                     key="calais_fort_nieulay">Fort de Nieulay</placeName> pour l’examiner avec
+                  toute l’attention que mérite un Poste de cette importance. Elle s’en fit apporter
+                  le Plan ; &amp; comme les Ouvrages de <placeName key="calais">Calais</placeName>
+                  luy a-<pb n="38" xml:id="p38"
+                     facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f46"/>voient paru fort
+                  beaux, Elle voulut encor les voir ce jour-là. On luy servit la <tech type="repas"
+                     >Collation</tech> sur l’extrémité du <placeName key="calais_glacis"
+                     >Glacis</placeName> qui a sa veuë sur la Mer. La <persName key="marie_therese"
+                     >Reyne</persName>, <persName key="louis_grand_dauphin">Monseigneur le
+                     Dauphin</persName>, &amp; <persName key="marie_anne_baviere">Madame la
+                     Dauphine</persName>, qui luy faisoient compagnie, découvroient de là
+                  tres-distinctement les Châteaux de <placeName key="douvres">Douvres</placeName>,
+                  &amp; les Dunes d’<placeName key="angleterre">Angleterre</placeName>. Ce leur fut
+                  à tous un fort grand plaisir de voir la Mer qui montoit, &amp; qui dans son plein
+                  moüille les bords du <placeName key="calais_glacis">Glacis</placeName>. <persName
+                     key="louisxiv">Sa Majesté</persName> fut tres-<pb n="39" xml:id="p39"
+                     facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f47"/>satisfaite de tous
+                  ceux qui donnent le soin des Fortifications, &amp; le fit partoistre à <persName
+                     key="thomas_françois_quien_moyenneville">Mr <hi rend="underline">de
+                        Moyenneville</hi></persName>, Commis à l’Intendance des Travaux, &amp; à
+                     <persName key="dupuys">Mr <hi rend="underline">du Puis</hi></persName>qui en
+                  est Ingénieur. Elle ne le fut pas moins de la vigilance de <persName
+                     key="armand_saint_lo">Mr <hi rend="underline">de S. Lo</hi></persName> Major de
+                  la <placeName key="calais">Ville</placeName>, qu'Elle augmenta ses appointemens.
+                  Il est Frere de ce fameux <persName key="dupuys">Ingénieur</persName>, qui apres
+                  avoir pris <placeName key="aire-sur-la-lys">Aire</placeName>, fut tué en donnant
+                  ses soins pour le service.</p>
+               <p>J’ay oublié de vous dire que la <persName key="marie_therese">Reyne</persName>, à
+                  l’issuë de<pb n="40" xml:id="p40"
+                     facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f48"/> son <tech
+                     type="repas">Dîner</tech>, s’estoit divertie à voir dancer un Ballet de guerre
+                  au son du <tech type="musique">Tambour</tech>, par douze petits Garçons, dont le
+                  plus âgé n’avoit pas dix ans. Ils firent cent tours de souplesse avec l’Epée, dont
+                  ils se servirent si adroitement, que la <persName key="marie_therese"
+                     >Reyne</persName> leur fit connoistre la satisfaction qu’elle avoit reçeuë, par
+                  une somme d’argent qui leur fut distribuée. Ils donnerent en suite le mesme
+                  divertissement à <persName key="louis_grand_dauphin">Monseigneur le
+                     Dauphin</persName>, qui les fit venir dancer sur l’<placeName
+                     key="calais_estran">Estran</placeName>, &amp; qui, à<pb n="41" xml:id="p41"
+                     facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f49"/> l'exemple de la
+                     <persName key="marie_therese">Reyne</persName>, leur fit sentir des effets de
+                  sa libéralité. Ce n’est pas d’aujourd’huy que ceux de <placeName key="calais"
+                     >Calais</placeName> se meslent de manier les armes. Leurs Peres s’en sont
+                  servis avec gloire pour la défence de leur Patrie. <name ana="Bourgeois de Calais"
+                     >Témoin Eustache <hi rend="underline">de S. Pierre</hi></name> &amp; ses
+                  Compatriotes, dont <name ana="philippeVI">Philippes de Valois</name> récompensa la
+                  valeur. Ils en avoient donné d’éclatantes preuves contre <name ana="edouardIII"
+                     >Edoüard Roy d’Angleterre</name>, qui vint assieger leur <placeName
+                     key="calais">Ville</placeName> en <date when="1346">1346</date>. <name
+                     ana="Jean de Vienne">Jean <hi rend="underline">de Vienne</hi></name> Maréchal
+                  de France, &amp; le <pb n="42" xml:id="p42"
+                     facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f50"/> Seigneur <hi
+                     rend="underline">d’Andreghan</hi>, Personnage des plus fameux de son temps, y
+                  commandoient, secondez d’une forte Garnison Françoise, &amp; de l’inébranlable
+                  fermeté des Habitans. Ces fidelles &amp; zelez Sujets se défendirent avec tant de
+                  vigueur &amp; de courage, &amp; ce Siege qui dura un an, coûta tant de milliers
+                  d’Hommes aux Ennemis, qu’<name ana="edouardIII">Edoüard</name> jura qu’il ne
+                  seroit jamais maistre de <placeName key="calais">Calais</placeName>, qu’il ne fist
+                  regorger la Ville de sang. Cette Place fut enfin forcée de se <pb n="43"
+                     xml:id="p43" facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f51"/>
+                  rendre à discrétion apres une cruelle famine, sur la fin d’<date when="1347-08"
+                     >Aoust de l’année 1347</date>. &amp; ce <name ana="edouardIII">Roy</name> pour
+                  expier son Serment, voulut qu’on luy livrast six des principaux Citoyens. Leur
+                  résolution est remarquable. Ils s’estoient tous assemblez à la Maison commune, où
+                  cet ordre ayant esté apporté, un d’entr’eux prit aussitost la parole, &amp; dit
+                  sans la moindre marque d’étónement, <hi rend="i">Qu’ayant tant de fois exposé sa
+                     vie pour son Païs, il tenoit à gloire de ne point survivre à son mal-</hi><pb
+                     n="44" xml:id="p44" facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f52"
+                     /><hi rend="i">heur, &amp; offroit sa teste au triomphe d’<name
+                        ana="edouardIII">Edoüard</name></hi>. En mesme temps ils crierent tous
+                  qu’ils vouloient mourir, &amp; il y eut dispute parmy ce grand nombre à qui auroit
+                  l’avantage d’estre choisy pour Victime. On en nomma six, on les lia, &amp; on les
+                  conduisoit au Suplice, quand la <name ana="philippa_hainaut">Reyne</name>, Féme
+                     d’<name ana="edouardIII">Edoüard</name>, les voulut voir, &amp; se les fit
+                  amener ainsi garrotez. Ce triste spéctacle luy tira des larmes, &amp; la
+                  compassion qu’elle eut de leur infortune luy fit demander leur grace au <pb n="45"
+                     xml:id="p45" facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f53"/>
+                  <name ana="edouardIII">Roy</name> avec de si instantes prieres, qu’il ne la put
+                  refuser. Il accorda toute entiere, en leur permettant de demeurer à <placeName
+                     key="calais">Calais</placeName>, dans l’assurance que ceux qui s’estoient
+                  montrez si fidelles pour leur Patrie, ne trahiroient pas leur Libérateur. Ils se
+                  retierent la plûpart en <placeName key="france">France</placeName>, où <name
+                     ana="philippeVI">Philippes de Valois</name> ordonna que toutes les Chartes qui
+                  vaqueroient leur seroient distribuées selon leur mérite. <name ana="edouardIII"
+                     >Edoüard</name> envoya en leur place une Colonie d’Anglois, &amp; laissa
+                     <placeName key="calais">Calais</placeName> herédi- <pb n="46" xml:id="p46"
+                     facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f54"/>taire à ses
+                  Successeurs, qui l’ont possedé deux cens dix ans, c’est à dire jusqu’au mois de
+                     <date when="1558-01">Janvier de l’année 1558.</date> qu’il fut repris par la
+                  sage conduite du <name ana="François de Guise">Duc de Guise</name> sous le Regne
+                  de <name ana="henryII">Henry II</name>. On peut encor voir la fidelité &amp; le
+                  courage de ceux de <placeName key="calais">Calais</placeName>, par la vigoureuse
+                  &amp; opiniâtre resistance qu’ils firét en <date when="1596">1596.</date> sous
+                     <name key="henriIV">Henry IV</name>. Le Cardinal d’<placeName key="autriche"
+                     >Austriche</placeName> qui les assiegoit, ayant pris la <placeName key="calais"
+                     >Ville</placeName> d’assaut, tous les Habitans se retirerent dans la <placeName
+                     key="calais_citadelle">Citadelle</placeName>, où en défendant la <pb n="47"
+                     xml:id="p47" facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f55"/>
+                  Bréche, ils preférerent une glorieuse mort à la honte de se rendre à l’Ennemy ;
+                  &amp; sous ce glorieux Regne, leurs Descendans ont repoussé l’Insulte des
+                  Espagnols en <date when="1658">1658.</date> avec autant d’intrépidité que de
+                  valeur. Ce que je viens de vous dire à la gloire de ce Peuple, mérite bien une
+                  legere description de la <placeName key="calais">Ville</placeName>. Elle est bâtie
+                  en triangle, &amp; tres-bien fortifiée. D’un costé elle regarde la Mer, &amp; de
+                  l’autre elle est environnée d’Etangs &amp; de Plaines. Neuf Bastions la <pb n="48"
+                     xml:id="p48" facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f56"/>
+                  défendent, outre la <placeName key="calais_citadelle">Citadelle</placeName>, qui
+                  est fort grande, &amp; entourée de Fossez profonds &amp; de Marais, qui sont tous
+                  remplis de l’eau de la Mer. Toutes les cómoditez qu’on peut souhaiter dans une
+                  Place de guerre, sont dans cette <placeName key="calais_citadelle"
+                     >Citadelle</placeName>. La <placeName key="calais">Ville</placeName> est des
+                  plus marchandes, c’est ce qui la rend fort peuplée. Tous ceux qui ont veu son
+                     <placeName key="calais_port">Port</placeName>, l’estiment également pour sa
+                  grandeur &amp; pour sa beauté. Il est fort seûr, &amp; separé en deux Bras pour
+                  recevoir les <tech type="machine_eau">Vaisseaux</tech> qu’on y <pb n="49"
+                     xml:id="p49" facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f57"/> voit
+                  toûjours en tres-grand nombre. Ils sont défendus par un <tech type="construction"
+                     >Fort</tech> nommé le <placeName key="calais_fort_risban">Fort de
+                     Risban</placeName>, qui est à gauche du <placeName key="calais_port"
+                     >Port</placeName>.</p>
+               <p>Le <persName key="louisxiv">Roy</persName> fut tres-commodément logé à <placeName
+                     key="calais">Calais</placeName>, &amp; cette Ville luy plût tellement, que pour
+                  témoigner combien il estoit content du zele &amp; des acclamations des Habitans,
+                  il dit que s’il ne luy survenoit point d’affaires, il vouloit y venir tous les
+                  deux ans. Pendant les deux jours qu’on s’y arresta, <persName
+                     key="louis_grand_dauphin">Monseigneur</persName> le Dau-<pb n="50" xml:id="p50"
+                     facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f58"/> phin prit tous les
+                  matins le divertissement de la Chasse de l’<tech type="animal">Oyseau</tech> le
+                  long de la Coste, &amp; y fit paroistre son adresse accoûtumée.</p>
+               <p>Avant que la Cour partist de <placeName key="calais">Calais</placeName>, <persName
+                     key="philippe_dangeau">Mr le Marquis <hi rend="underline">de
+                     Dangeau</hi></persName><note>De Courcillon</note> s’embarqua pour aller
+                  complimenter le <persName key="charlesII">Roy d’Angleterre</persName>, suivant les
+                  ordres qu’il avoit reçeus de <persName key="louisxiv">Sa Majesté</persName>
+                  quelques jours auparavant. Ces deux Souverains se rendent ordinairement une
+                  semblable civilité, quand le <persName key="louisxiv">Roy</persName> vient de ce
+                  costé là sur la Frontiere. <pb n="51" xml:id="p51"
+                     facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f59"/>
+                  <persName key="philippe_dangeau">Mr le Marquis <hi rend="underline">de
+                        Dangeau</hi></persName> a l’esprit si délicat &amp; si éclairé, &amp; il est
+                  d’ailleurs si magnifique en tout ce qu’il fait, que ses Emplois de cette nature
+                  luy seront toûjours tres-dignement confiez.</p>
+            </div>
+            <div type="chapitre">
+               <head rend="center">SAINT-OMER</head>
+               <p>Le <date when="1680-07-23">23.</date> Leurs Majestez estant parties de <placeName
+                     key="calais">Calais</placeName>, allerent <tech type="repas">dîner</tech> à
+                     <placeName key="ardres">Ardres</placeName>. C’est une petite Ville assez bien
+                  fortifiée, qu’on trouve à moitié chemin de <placeName key="calais"
+                     >Calais</placeName> &amp; <placeName key="saint-omer">S. Omer</placeName>. Le
+                     <persName key="louisxiv">Roy</persName> en examina toutes les <placeName
+                     key="ardres_fortifications">Fortifications</placeName>. Elles luy parurent en
+                  fort bon état ; &amp; <pb n="52" xml:id="p52"
+                     facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f60"/> &amp; ce fut un
+                  nouveau sujet de gloire pour ceux que je vous ay déja nommez, puis qu’ils avoient
+                  pris soin de <placeName key="ardres_fortifications">celles-cy</placeName>,
+                  aussibien que de <placeName key="calais_fortifications">celles de
+                     Calais</placeName>. <persName key="louisxiv">Sa Majesté</persName> apres avoir
+                  fait reveuë d’un Bataillon de <placeName key="picardie">Picardie</placeName> qui
+                  est dans <placeName key="ardres">Ardres</placeName>, monta en <tech
+                     type="machine_terre">Carrosse</tech> pour se rendre à <placeName
+                     key="saint-omer">S. Omer</placeName>. Elle n’y devoit aller selon la route
+                  qu’Elle avoit reglée, qu’à son retour de <placeName key="dunkerque"
+                     >Dunkerque</placeName> ; mais Elle changea de dessein, non seulement parce
+                  qu’Elle vouloit voir sortir du <placeName key="dunkerque_port">Port</placeName>
+                  <pb n="53" xml:id="p53" facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f61"
+                  /> de cette derniere <placeName key="dunkerque">Ville</placeName> un fort grand
+                     <tech type="machine_eau">Vaisseau</tech> qu’on avoit amené de <placeName
+                     key="brest">Brest</placeName> par son ordre, &amp; que pour cela il falloit
+                  attendre le temps de la plus haute Marée ; mais parce qu’ayant résolu d’aller à
+                     <placeName key="ypres">Ipres</placeName>, la grande Chaussée qu’on fit il y a
+                  deux ans en rend le chemin beaucoup plus beau, en y allant de <placeName
+                     key="dunkerque">Dunkerque</placeName>, que la Cour ne l’eust trouvé , si Elle
+                  s’y fust renduë au sortir de <placeName key="saint-omer">S. Omer</placeName>. Elle
+                  arriva donc le soir à cette derniere <placeName key="saint-omer"
+                  >Ville</placeName>, &amp; aussitost le <persName key="louisxiv">Roy</persName>
+                  <pb n="54" xml:id="p54" facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f62"
+                  /> montant à <tech type="animal">cheval</tech>, alla faire la reveuë de la
+                  Garnison. Il la trouva dans la Place rangée en bataille. Il me seroit bien
+                  difficile de vous bien representer la joye que firent paroistre les Habitans. Ils
+                  n’avoient rien oublié pour marquer leur zele à leur nouveau <persName
+                     key="louisxiv">Maistre</persName>. Toutes les Portes estoient <tech
+                     type="decor">tapissées de trois Lez de Draps de diférentes couleurs</tech> ;
+                  &amp; non seulement ils avoient <tech type="decor">semé de Fleurs le pavé des
+                     Ruës</tech>, mais ils les en avoient couvertes par le haut, en dres-<pb n="55"
+                     xml:id="p55" facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f63"/>sant
+                  des <tech type="decor">cordes qui traversoient d’un costé à l’autre</tech>. Ainsi
+                  on ne découvroit que ailleurs par tout, soit que l’on haussast les yeux sur les
+                  cordes qui en estoient pleines, soit qu’on les baissast sur le pavé. <date
+                     when="1680-07-23">Ce jour</date> &amp; les deux suivans, furent comme autant de
+                  jours d’une Feste solemnelle. On chanta le <foreign xml:lang="la">Te
+                     Deum</foreign>, apres quoy on commença les réjoüissances. Elles furent
+                  continuées dans toute la <placeName key="saint-omer">Ville</placeName> par des
+                     <tech type="lumieres">lumieres</tech> qu’on mit aux fenêtres, par des <tech
+                     type="lumieres">feux</tech> qu’on al-<pb n="56" xml:id="p56"
+                     facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f64"/>luma, par des <tech
+                     type="bruitage">cris</tech> redoublez de <tech type="bruitage" rend="i">Vive le
+                        <persName key="louisxiv">Roy</persName></tech>, qui durerent toute la nuit,
+                  &amp; par des <tech type="decor">Tables</tech> que l’on dressa devant la plûpart
+                  des Portes des Habitans.</p>
+               <p>On passa deux jours à <placeName key="saint-omer">S. Omer</placeName> ; &amp; si
+                  les Dames prirent ce temps pour se donner un peu de repos, le <persName
+                     key="louisxiv">Roy</persName> toûjours vigilant, &amp; toûjours infatigable,
+                  s'en servit pour satisfaire à de nouveaux soins qui luy coûterent de nouvelles
+                  peines. Apres avoir employé le <date when="1680-07-24">24.</date> entier à voir
+                  attentivement <pb n="57" xml:id="p57"
+                     facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f65"/> les travaux de
+                  cette <placeName key="saint-omer">Place</placeName>, il alla <tech type="repas"
+                     >dîner</tech> le <date when="1680-07-25">25.</date> à <placeName
+                     key="aire-sur-la-lys">Aire</placeName>, accompagné de <persName
+                     key="louis_grand_dauphin">Monseigneur le Dauphin</persName>, &amp; suivy des
+                  plus considérables Seigneurs de la Cour. <persName key="louisxiv">Sa
+                     Majeste</persName> y fut reçeuë comme Elle l’avoit esté <placeName
+                     key="saint-omer">à S. Omer</placeName>, quoy qu’Elle n’y fust venuë que pour en
+                  voir la Garnison &amp; les <placeName key="aire-sur-la-lys_fortifications"
+                     >Fortifications</placeName>. Elle les visita, fit reveuë des Troupes qui
+                  gardoient la <placeName key="aire-sur-la-lys">Place</placeName>, &amp; se rendit
+                  au <placeName key="fort-saint-françois">Fort S. François</placeName>, qui en est à
+                  la portée du <tech type="machine_terre">Canon</tech>, avec <persName
+                     key="françois_michel_le_tellier_de_louvoy">M le Marquis <hi rend="underline">de
+                        Louvois</hi></persName><note place="margin" resp="inconnu">Le
+                  Tellier</note>. Elle <pb n="58" xml:id="p58"
+                     facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f66"/> examina les
+                  Ouvrages commencez, &amp; donna ordre qu’on les achevast.</p>
+               <p>Il sembloit apres ces diférentes fatigues, que ce <persName key="louisxiv">Grand
+                     Prince</persName> ne deust plus songer qu’à aller prendre du repos à <placeName
+                     key="saint-omer">S. Omer</placeName>, dont il estoit éloigné de plus de trois
+                  lieuës. Cependant, il avoit encor à faire la reveuë de cinq mille Hommes, qui
+                  l’attendoient, campez à demy lieuë d’<placeName key="aire-sur-la-lys"
+                     >Aire</placeName>. <persName>Mr le Chevalier <hi rend="underline">de
+                        Sourdis</hi></persName><note place="margin" resp="inconnu"
+                     >d'Escoubleau</note><!-- introuvable --> les commandoit. Ces Troupes estoient
+                  rangées en bataille <pb n="59" xml:id="p59"
+                     facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f67"/> sur une mesme
+                  ligne, &amp; composées de Regimens de <persName key="regiment_de_koenigsmarck"
+                     rend="underline">Konismarck</persName>, de <persName key="regiment_de_vivans"
+                     rend="underline">Vivans</persName>, de <persName key="regiment_de_villeroy"
+                     rend="underline">Villeroy</persName>, de <persName key="regiment_de_quincy"
+                     rend="underline">Quincy</persName>, de <persName key="regiment_de_lumbres"
+                     rend="underline">Lumbres</persName>, &amp; de <persName key="regiment_de_rose"
+                     rend="underline">Rose</persName>. Le <persName key="louisxiv">Roy</persName>
+                  les examina Compagnie par Compagnie, &amp; leur fit faire divers mouvemens. Le bon
+                  état de ces Troupes, qui estoient aussi lestes que bien montées, &amp; qui
+                  formoient environ vingt Escadrons, plût fort à <persName key="louisxiv">Sa
+                     Majesté</persName>. Elle les fit avancer jusques à trois quarts de lieuës de
+                     <placeName key="saint-omer">S. Omer</placeName>, où la <persName
+                     key="marie_therese">Reyne</persName>, <persName key="marie_anne_baviere">Madame
+                        la<pb n="60" xml:id="p60"
+                        facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f68"/>
+                     Dauphine</persName>, &amp; la plus grande partie des Dames de la Cour, qui
+                  venoient au devant du <persName key="louisxiv">Roy</persName> &amp; de <persName
+                     key="louis_grand_dauphin">Monseigneur le Dauphin</persName>, eurent le plaisir
+                  de les voir. Le Regiment de <persName key="regiment_de_koenigsmarck"
+                     rend="underline">Konismarck</persName> attiroit la curiosité par plusieurs
+                  Compagnies de Polaques, <tech type="costume">vêtus &amp; armez en Croates</tech>.
+                  Il estoit temps que <persName key="louisxiv">Sa Majesté</persName> se reposast,
+                  puis qu’outre tout ce que je vous ay marqué qu’Elle avoit fait le matin, Elle
+                  avoit esté huit heures à <tech type="animal">cheval</tech> l’apres-dînée. On
+                  rentra dans <placeName key="saint-omer">S. Omer</placeName>. <pb n="61"
+                     xml:id="p61" facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f69"/> Comme
+                  je vous fis un fort long détail de cette <placeName key="saint-omer"
+                     >Place</placeName>, lors qu’elle fut prise il y a trois ans, je vous en diray
+                  aujourd’huy fort peu de chose. Ce n’estoit d’abord qu’un petit Chasteau, &amp;
+                  dans la suite des temps elle a esté érigée en Ville. Elle est la seconde du Comté
+                     d’<placeName key="artois">Artois</placeName>, située sur la Riviere d’Ha, &amp;
+                  passe à present pour une des plus fortes Places de toute l’<placeName key="europe"
+                     >Europe</placeName>. Les <tech type="construction">Edifice</tech> en sont
+                  beaux, &amp; les Ruës longues, larges &amp; propres. Je croy vous avoir déja
+                  marqué <pb n="62" xml:id="p62"
+                     facs="https://gallica.bnf.fr/ark:/12148/bpt6k62219294/f70"/> qu’elle a pris son
+                  nom de <placeName key="saint-omer">S. Omer</placeName>, Evesque de Teroüanne,
+                  &amp; natif de <placeName key="constance">Constance</placeName> en <placeName
+                     key="allemagne">Allemagne</placeName>.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
