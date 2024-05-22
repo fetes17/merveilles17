@@ -1940,6 +1940,13 @@
     <identifier type="isni">0000 0001 2117 9570</identifier>
     <identifier type="mg">chauveau_françois_(1613-1676)</identifier>
   </person>
+
+    <person xml:id="bernard_chauvelin" sex="M">
+    <name>Chauvelin,Bernard,Maitre des requêtes (1722)</name>
+    <birth when="1662"/>
+    <death when="1755"/>
+    <!-- https://fr.wikipedia.org/wiki/Bernard-Louis_Chauvelin son fils -->
+  </person>
   
   <person xml:id="chiarini" sex="M">
     <name>Chiarini, Guiseppe, chanteur </name>
@@ -3579,6 +3586,14 @@
   <person xml:id="martineau" sex="M">
     <name>Martineau, violon</name>
   </person>
+  
+  <person xml:id="bartolomeo_massei" sex="M">
+    <name>Massei,Bartolomeo,Nonce du Pape</name>
+    <birth when="1663-01-02"/>
+    <death when="1745-11-20"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Bartolomeo_Massei</identifier>
+  </person>
+  
   <person xml:id="massignai" sex="M">
     <name>Massignai, Sieur de, écuyer ordinaire du Roi</name>
   </person>
@@ -3781,6 +3796,10 @@
   </person>
   <person xml:id="noblet" sex="M">
     <name>Noblet, danseur</name>
+  </person>
+    <person xml:id="bernard_de_noblet" sex="m">
+    <name>Noblet,Bernard de,Maitre des requêtes (1722)</name>
+    <!-- https://brionnais.fr/pm/site/Noblet_armorial.htm -->
   </person>
     <person xml:id="louis_novion" sex="M">
       <name>Novion, Louis-Anne-Armand-Jules Potier, marquis de</name>
