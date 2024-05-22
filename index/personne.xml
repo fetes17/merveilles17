@@ -90,6 +90,12 @@
     <identifier type="databnf">https://data.bnf.fr/14974106/bernard_de_la_guiche/</identifier>
     <identifier type="isni">http://isni.org/isni/0000000459535771</identifier>
   </person>
+
+  <person xml:id="bissoni" sex="M">
+  <name>Bissoni, Giovani,interprète de Scapin et comédien du Régent</name>
+  <death when="1739"/>
+   <!-- https://www.persee.fr/doc/rhmc_0048-8003_1977_num_24_2_973 -->
+  </person>
   
   <person xml:id="blancas" sex="M">
     <name>Blancas, page</name>
@@ -2045,14 +2051,14 @@
   </person>
   
   <person xml:id="louis_armand_bourbon_conti" sex="M">
-    <name>Louis-Armand de Bourbon-Conti, prince de Conti</name>
+    <name>Bourbon-Conti,Louis-Armand de, prince de Conti</name>
     <birth when="1661"/>
     <death when="1685"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Louis-Armand_de_Bourbon-Conti_(1661-1685)</identifier>
   </person>
   
   <person xml:id="louis_armand_conti" sex="M">
-    <name>Louis-Armand de Bourbon-Conti, Prince de Conti (1722)</name>
+    <name>Bourbon-Conti,Louis-Armand de, Prince de Conti (1722)</name>
     <birth when="1695-11-10"/>
     <death when="1727-05-04"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Louis-Armand_de_Bourbon-Conti_(1695-1727)</identifier>
@@ -3970,12 +3976,17 @@
     <identifier type="databnf">https://data.bnf.fr/ark:/12148/cb13898976g</identifier>
   </person>
     <person xml:id="sieurricard" sex="M">
-    <name>sieur Ricard President de la Cour des Aydes,le Prevost des Marchands</name>
+    <name>Ricard,François-Dominique,President de la Cour des Aydes,le Prevost des Marchands</name>
+    <birth when="1692*"/>
+    <death when="1768-05-30"/>
     <!-- Il n'est mentionné nul part dans la liste des prévost de Paris donc je ne suis pas sur exactement de l'identité de ce dernier -->
+      <!-- http://genobco.free.fr/provence/RicardGrambois1.htm -->
   </person>
     <person xml:id="sieurgranges" sex="M">
-    <name>sieur des Granges, Maitre des Ceremonies (1722)</name>
+    <name>Des granges,Michel II Ancel, Maitre des Ceremonies (1722)</name>
     <!-- Il n'est mentionné nul part dans la liste des maitre de cérémonie donc je ne suis pas sur exactement de l'identité de ce dernier -->
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Liste_des_responsables_des_principales_fonctions_de_la_Maison_du_roi</identifier>
+      <!-- https://cour-de-france.fr/representation-et-festivites/ceremonies-representation/etudes-modernes/article/les-grands-maitres-des-ceremonies-et-le-service-des -->
   </person>
   <person xml:id="anne_de_richelieu" sex="F">
     <name>Richelieu, Anne, née Poussard de Fors du Vigean, duchesse de</name>
