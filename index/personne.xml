@@ -141,6 +141,13 @@
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Charles_Colbert_de_Croissy</identifier>
     <identifier type="isni">http://isni.org/isni/0000000063071974</identifier>
   </person>
+
+  <person xml:id="pierre_crozat" sex="M">
+    <name>Crozat,Pierre,Trésorier de France</name>
+    <birth when="1661"/>
+    <death when="1740-05-23"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Pierre_Crozat</identifier>
+  </person>
   
   <person xml:id="charles_du_fresny" sex="M">
     <name>Du Fresny, Charles</name>
@@ -2467,6 +2474,14 @@
     <birth when="1590*"/>
     <death when="1673"/>
   </person>
+
+  <person xml:id="antoine_fagon" sex="m">
+    <name>Fagon,Antoine, Abbé de la Vieuville (1722)</name>
+    <birth when="1665"/>
+    <death when="1742-02-16"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Antoine_Fagon</identifier>
+    <!-- https://fr.wikipedia.org/wiki/Abbaye_Notre-Dame_de_la_Vieuville#:~:text=L'abbaye%20Notre%2DDame%20de,le%20sud%20de%20la%20Manche. -->
+  </person>
   
   <person xml:id="mme_de_villequier" sex="F">
     <name>Fare Le Tellier, Madeleine, épouse de Louis Marie Victor d'Aumont, marquise de
@@ -2483,6 +2498,11 @@
   
   <person xml:id="faure" sex="M">
     <name>Faure, garde suisse</name>
+  </person>
+
+  <person xml:id="antoine_de_fauvel" sex="M">
+    <name>Fauvel,Antoine de,lieutenant et exempt de la compagnie du régiment écossois (1722)</name>
+    <!-- https://francearchives.gouv.fr/fr/facomponent/f415dda4313140da1f062ce1abf58eff2c246fa5 -->
   </person>
   
   <person xml:id="favier" sex="M">
