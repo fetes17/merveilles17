@@ -115,7 +115,12 @@
     <name>Blancas, page</name>
   </person>
   <!-- à corriger en Brancas ? À vérifier -->
-  
+  <person xml:id="claude_le_blanc" sex="M">
+    <name>Le Blanc,Claude,officier du Roi</name>
+    <birth when="1669-12-01"/>
+    <death when="1728-05-19"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Claude_Le_Blanc</identifier>
+</person>  
   <person xml:id="pierre_de_bonzi" sex="M">
     <name>Bonzi, Pierre de, cardinal</name>
     <birth when="1631-04-15"/>
@@ -254,6 +259,12 @@
   <person xml:id="de_villars_chevalier" sex="M">
     <name>Villars, chevalier de, lieutenant</name>
   </person>
+    <person xml:id="claude_louis_hector_de_villars" sex="M">
+    <name>Hector de Villars,Claude Louis,Maréchal Duc de Villars</name>
+    <birth when="1653-05-08"/>
+    <death when="1734-06-17"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Claude_Louis_Hector_de_Villars</identifier>
+</person>
   
   <person xml:id="dupuys" sex="M">
     <name>Du Puis ou Dupuys, ingénieur du roi</name>
@@ -863,6 +874,14 @@
   <person xml:id="robbe" sex="M">
     <name>Robbe, garde suisse</name>
   </person>
+
+  <person xml:id="claude_de_romance" sex="M">
+  <name>Romance,Godefroy IV de,Baron de Terrier</name>
+    <!-- https://articleslibres.over-blog.com/2020/03/les-chevaliers-de-la-sainte-ampoule.html -->
+    <birth when="1678"/>
+    <death when="1760"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Famille_de_Romance</identifier>
+</person>
   
   <person xml:id="romecourt" sex="M">
     <name>Romécourt, Antoine de, lieutenant des gardes du corps <!-- de qui ? --></name>
@@ -2389,6 +2408,12 @@
     <death when="1736-06-25"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Charles_Gaspard_Dodun</identifier>
 </person>
+  <person xml:id="claude_jean_baptiste_dodart" sex="M">
+    <name>Dodart,Claude-Jean-Baptiste,premier médecin du roi Louis XV</name>
+    <birth when="1664"/>
+    <death when="1730-11-25"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Claude-Jean-Baptiste_Dodart</identifier>
+</person>
   <person xml:id="mlle_du_bellay" sex="F">
     <name>Du Bellay, mademoiselle</name>
   </person>
@@ -3045,6 +3070,12 @@
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Andr%C3%A9_Hercule_de_Fleury</identifier>
     <identifier type="databnf">https://data.bnf.fr/fr/12449248/andre-hercule_de_fleury/</identifier>
     <identifier type="isni">0000 0001 2275 5760</identifier>
+</person>
+    <person xml:id="claude_fleury" sex="M">
+  <name>Fleury,Claude,confesseur de Louis XV dit Pere de Lignieres</name>
+   <birth when="1640-12-06"/>
+    <death when="1723-07-14"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Claude_Fleury</identifier>
 </person>
   
   <person xml:id="heuge" sex="M">
@@ -3780,6 +3811,13 @@
     <birth when="1607"/>
     <death when="1671"/>
   </person>
+  <person xml:id="claude_le_bas_de_montargis" sex="M">
+    <name>Le Bas de Montargis,Claude,secrétaire du sacre et trésorier de l'extraordinaire des guerres sous le règne de Louis XIV</name>
+    <birth when="1659-01-29"/>
+    <death when="1741-03-25"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Claude_Le_Bas_de_Montargis</identifier>
+</person>
+  
     <person xml:id="henri_montchevreuil" sex="M">
       <name>Montchevreüil, Henri-Charles de Mornay, marquis de</name>
       <death when="1688"/>
