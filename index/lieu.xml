@@ -356,7 +356,15 @@
             <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Gand</identifier>
             <identifier type="geonames">https://www.geonames.org/2797656/gent.html</identifier>
           </place>
-
+          
+          <place xml:id="geluwe">
+            <name>Geluwe <!-- autre nom : Geleuve --></name>
+            <geo>50.80978, 3.07695</geo>
+            <identifier type="geonames">https://www.geonames.org/2797719/geluwe.html</identifier>
+            <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Geluwe</identifier>
+            <identifier type="googlemaps">https://www.google.com/maps/place/Geluwe,+8940+Wervik,+Belgique/@50.6786718,2.5729111,9.7z/data=!4m6!3m5!1s0x47c332795634552f:0xc7e2fea0255ff966!8m2!3d50.8099859!4d3.0767048!16s%2Fm%2F080j9kq?entry=ttu</identifier>
+          </place>
+          
           <place xml:id="risban">
             <name>Phare du Risban ou phare de Dunkerque</name>
             <geo>50.96356, 1.84798</geo>
@@ -414,7 +422,12 @@
             <identifier type="wikipedia"
               >https://fr.wikipedia.org/wiki/Place_du_G%C3%A9n%C3%A9ral-de-Gaulle_(Lille)</identifier>
           </place>
-
+          
+          <place xml:id="lille_hotel_de_ville">
+            <name>Hôtel de ville de Lille</name>
+            <settlement>Lille</settlement>
+          </place>
+          
           <place xml:id="lille_place_saint_martin">
             <name>Place Saint Martin au bon Pasteur, actuelle place Louise-de-Bettignies</name>
             <settlement>Lille</settlement>
@@ -492,7 +505,21 @@
             <settlement>Lille</settlement>
           </place>
         </place>
-
+        
+        <place xml:id="longwy">
+          <name>Longwy</name>
+          <geo>49.5217, 5.76192</geo>
+          <identifier type="googlemaps">https://www.google.fr/maps/place/Longwy/@49.648313,5.6392201,9.34z/data=!4m6!3m5!1s0x47eac87163779663:0x40a5fb99a3afa40!8m2!3d49.519919!4d5.761773!16zL20vMDRoMjl5?entry=ttu</identifier>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Longwy</identifier>
+          <identifier type="geonames">https://www.geonames.org/2997638/longwy.html</identifier>
+          
+          <place xml:id="longwy_fortifications">
+            <name>Fortifications de Longwy</name>
+            <settlement>Longwy</settlement>
+            <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Enceinte_de_Longwy</identifier>
+          </place>
+        </place>
+        
         <place xml:id="menin">
           <name>Porte de Menin</name>
           <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Porte_de_Menin</identifier>
@@ -609,7 +636,16 @@
           <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Tressin</identifier>
           <identifier type="geonames">https://www.geonames.org/2971771/tressin.html</identifier>
         </place>
-
+        
+        <place xml:id="warneton">
+          <name>Warneton</name>
+          <geo>50.75158, 2.94635</geo>
+          <country>France</country>
+          <identifier type="googlemaps">https://www.google.com/maps/place/59560+Warneton/@50.7466115,2.9248073,13z/data=!3m1!4b1!4m28!1m21!4m20!1m11!1m2!1s0x47dcceff4c20e3e7:0x99f335bef4843f40!2sYpres,+Belgique!2m2!1d2.8779388!2d50.8492265!3m4!1m2!1d2.8765732!2d50.8177614!3s0x47dcce2cd66c5121:0x10c62095f64e379a!1m6!1m2!1s0x47c2d579b3256e11:0x40af13e81646360!2sLille!2m2!1d3.057256!2d50.62925!3e0!3m5!1s0x47dcd30aa725a409:0x40af13e816451a0!8m2!3d50.7427942!4d2.9744234!16s%2Fm%2F03h29_3?entry=ttu</identifier>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Warneton_(Belgique)</identifier>
+          <identifier type="geonames">https://www.geonames.org/2784033/warneton.html</identifier>
+        </place>
+        
         <place xml:id="wimille">
           <name>Wimille</name>
           <geo>50.76306, 1.6325</geo>
