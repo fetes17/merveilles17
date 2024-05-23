@@ -38,6 +38,13 @@
     <!-- à supprimer ? -->
   </person>
 
+    <person xml:id="josephfleurieuarmenonville" sex="M">
+    <name>Armenonville,Joseph Fleuriau d',Garde des Sceaux de France</name>
+    <birth when="1661-01-22"/>
+    <death when="1728-11-27"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Joseph_Fleuriau_d%27Armenonville</identifier>
+</person>
+
   <person xml:id="charles_armelot" sex="M">
     <name>Amelot de Gournay,Michel-Charles,Conseiller d'état</name>
     <birth when="1679"/>
@@ -116,6 +123,10 @@
     <death when="1733-05-22"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jacques_Bazin_de_Bezons</identifier>
 </person>
+  <person xml:id="julie_bercaville" sex="F">
+  <name>Bercaville,Julie,Actrice à la Comédie Française</name>
+  <!-- http://www.pastellists.com/Essays/LaTour_Puvigne.pdf -->
+</person>
     <person xml:id="jacques_begnigne_bossuet" sex="M">
     <name>Bénigne Bossuet,Jacques,évêque de Troyes</name>
     <birth when="1664-12-11"/>
@@ -129,6 +140,13 @@
     <death when="1761-10-17"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Famille_Binet_de_Boisgiroult_de_Sainte-Preuve#:~:text=Georges%2DRen%C3%A9%20Binet%20(1688%2D,%2DElisabeth%2DC%C3%A9cile%20et%20Elisabeth.</identifier>
 </person>
+    <person xml:id="jerome_bignon_de_blanzy" sex="M">
+    <name>Bignon de Blanzy,Jérôme,grand commis d'État et bibliothécaire du roi</name>
+    <birth when="1698-02-26"/>
+    <death when="1743-03-08"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/J%C3%A9r%C3%B4me_Bignon_de_Blanzy</identifier>
+</person>  
+
   
   <person xml:id="bernard_de_la_guiche" sex="M">
     <name>La Guiche, Bernard de, comte de Saint-Géran</name>
@@ -154,6 +172,12 @@
     <death when="1728-05-19"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Claude_Le_Blanc</identifier>
 </person>  
+  
+  <person xml:id="joseph_henry_de_bogue" sex="M">
+    <name>BOGUE,Joseph Henry de,provisions de lieutenant français de la Compagnie des Cent-Suisses</name>
+    <!-- https://francearchives.gouv.fr/fr/facomponent/5a9817e37c9ac710ff1f3e993ed6d4b4adb2237d -->
+</person>
+  
   <person xml:id="pierre_de_bonzi" sex="M">
     <name>Bonzi, Pierre de, cardinal</name>
     <birth when="1631-04-15"/>
@@ -2906,6 +2930,11 @@
     <birth when="1631"/>
     <death when="1713"/>
   </person>
+  
+  <person xml:id="jeanclaude_forget" sex="M">
+  <name>Forget,Jean-Claude,capitaine général des fauconneries du roi</name>
+  <!-- https://fr.wikipedia.org/wiki/Breuil-le-Vert il est mentionné -->
+</person>
 
   <person xml:id="charles_cesar_flahaut_de_la_billarderie" sex="M">
     <name>Flahaut de La Billarderie,Charles César, Marquis de La Billarderie</name>
@@ -3044,6 +3073,12 @@
     <death when="1704"/>
     <identifier type="databnf">https://data.bnf.fr/14977248/leon_potier_gesvres/</identifier>
   </person>
+    <person xml:id="leon_potier_de_gesvres" sex="M">
+    <name>Gesvres,Léon Potier de,Cardinal</name>
+    <birth when="1656-08-15"/>
+    <death when="1744-11-12"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/L%C3%A9on_Potier_de_Gesvres</identifier>
+</person>
   
   <person xml:id="bernardin_gigault_bellefonds" sex="M">
     <name>Gigault de Bellefonds, Bernardin de</name>
@@ -3062,6 +3097,13 @@
     <birth when="1640"/>
     <death when="1720"/>
   </person>
+  
+  <person xml:id="jeanbaptiste_girard" sex="M">
+    <name>Girard,Jean-Baptiste,Recteur et jésuite</name>
+    <birth when="1680"/>
+    <death when="1733-07-04"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jean-Baptiste_Girard_(j%C3%A9suite)</identifier>
+</person>
   
   <person xml:id="henri_gissey" sex="M">
     <name>Gissey, Henri</name>
@@ -3366,7 +3408,12 @@
     <identifier type="databnf">https://data.bnf.fr/ark:/12148/cb124630332</identifier>
     <identifier type="isni">0000 0003 7483 6065</identifier>
   </person>
-  
+  <person xml:id="jean_v_de_portugal" sex="M">
+  <name>Jean V, Roi du Portugal</name>
+    <birth when="1689-10-22"/>
+    <death when="1750-07-31"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jean_V_(roi_de_Portugal)</identifier>
+</person>
   <person xml:id="jolicoeur" sex="M">
     <name>Jolicoeur, tymballier</name>
   </person>
@@ -3647,6 +3694,12 @@
   <person xml:id="francois_le_fouin" sex="M">
     <name>Le Fouin, François, notaire</name>
   </person>
+   <person xml:id="jeanpaulfrancois_lefevre_de_caumartin" sex="M">
+    <name>Lefebvre de Caumartin,François,évêque de Blois</name>
+    <birth when="1668-12-16"/>
+    <death when="1733-08-30"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Lefebvre_de_Caumartin</identifier>
+</person>
   <person xml:id="le_grais" sex="M">
     <name>Le Grais, violon</name>
   </person>
@@ -3975,11 +4028,12 @@
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Gédéon_Berbier_du_Mets</identifier>
   </person>
   <person xml:id="jean_jacques_iv_mesmes" sex="M">
-    <name>Jean-Jacques IV de Mesmes, Premier président du Parlement (1722)</name>
+    <name>Mesmes,Jean-Jacques IV de, Premier président du Parlement (1722)</name>
     <birth when="1675"/>
     <death when="1741"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Famille_de_Mesmes</identifier>
   </person>
+  
   <person xml:id="alexandre_milon_de_mesmes" sex="M">
     <name>Milon de Mesme,Alexandre,abbé (1722) puis évêque de Valence (1725)</name>
     <birth when="1688-06-04"/>
@@ -4873,6 +4927,12 @@
     <birth when="1664-02-25"/>
     <death when="1727-11-27"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Fran%C3%A7ois_de_Valbelle-Tourves</identifier>
+  </person>
+    <person xml:id="josephalphonse_de_valbelle_tourves" sex="M">
+    <name>Valbelle-Tourves,Joseph-Alphonse de,Abbé puis évêque de Saint-Omer</name>
+    <birth when="1686-11-24"/>
+    <death when="1754-06-12"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Joseph-Alphonse_de_Valbelle-Tourves</identifier>
   </person>
   <person xml:id="varin" sex="M">
     <name>Varin, Nicolas</name>
