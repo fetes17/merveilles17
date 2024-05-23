@@ -293,7 +293,14 @@
     <birth when="1626-05-03"/>
     <death when="1698-10-24"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Daniel_de_R%C3%A9my_de_Courcelles</identifier>
-  </person>  
+  </person>
+   
+  <person xml:id="louis_alexandre_dauger" sex="M">
+  <name>Dauger,Louis Alexandre,Baron de Neuvizy</name>
+    <birth when="1701-10-07"/>
+    <death when="1785-02-18"/>
+    <!-- https://man8rove.com/fr/profile/obkai56kp-louis-alexandre-dauger -->
+</person>
   
   <person xml:id="dauphin" sex="M">
     <name>Dauphin, ouvrier/artisan</name>
@@ -893,12 +900,27 @@
     <death when="1691"/>
     <identifier type="databnf">https://data.bnf.fr/fr/14976123/philippe_auguste_le_hardy_la_trousse/</identifier>
   </person>
+    <person xml:id="louis_auguste_dalbert_dailly" sex="M">
+    <name>Albert d'Ailly,Louis-Auguste d',4e duc de Chaulnes</name>
+    <birth when="1676-12-22"/>
+    <death when="1744-11-09"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Louis-Auguste_d%27Albert_d%27Ailly</identifier>
+</person>
+  
   
   <person xml:id="philippe_guillaume_albert_anneux" sex="M">
     <name>Anneux, Philippe Guillaume Albert d', marquis de Wargnies, baron de Crèvecoeur, seigneur de Rumilly</name>
     <birth when="1635"/>
     <death when="?"/>
   </person>
+    <person xml:id="louis_daumont_de_rochebaron" sex="M">
+    <name>Aumont,Louis-Marie-Augustin d'Aumont de Rochebaron, marquis de Villequier, duc d'</name>
+    <birth when="1709-08-28"/>
+    <death when="1782-04-15"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Louis-Marie-Augustin_d%27Aumont</identifier>
+    <!-- c'est probablement son père mais je n'ai rien trouvé sur lui durant mes recherches -->
+    <!-- http://www.chateauversailles-recherche-ressources.fr/jlbweb/jlbWeb?html=notdictionnaire&ref=641 -->
+</person>
   
   <person xml:id="philippeVI" sex="M">
     <name>Philippe VI de France ou de Valois</name>
