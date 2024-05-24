@@ -2,6 +2,14 @@
 <?xml-model href="index.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listPerson xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
 
+
+  <person xml:id="yves_dalegere" sex="M">
+    <name>Alègre,Yves d',Marquis d'Alègre</name>
+    <birth when="1653"/>
+    <death when="1733-02-03"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Yves_d%27Al%C3%A8gre</identifier>
+</person>
+  
   <person xml:id="adrienII_hanyvel" sex="M">
     <name>Hanyvel, Adrien de, Mr de Manevillete, secrétaire des commandements de Monsieur</name>
   </person>
