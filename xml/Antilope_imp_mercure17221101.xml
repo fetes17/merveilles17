@@ -662,8 +662,7 @@
                 de</item>
               <item><persName key="louis_de_bourbonconde" role="convive">Comte de
                   Clermont</persName></item>
-              <item><persName role="convive" key="armand_charost">Duc de
-                Charost</persName></item>
+              <item><persName role="convive" key="armand_charost">Duc de Charost</persName></item>
               <item><persName key="philippe_orleans_regent" role="commanditaire">Monsieur le Duc
                   d’Orleans</persName></item>
               <item><persName key="louis_orleans" role="convive">Duc de Chartres</persName></item>
@@ -817,14 +816,15 @@
                 type="decor">cuir agenté</tech> le fonds separé au milieu par <tech
                 type="construction">un trumeau de glace</tech>, laissoit voir dans ses côtez le
               lieux destiné au travail du métier, avec toutes les <tech type="costume"
-                >ustanciles</tech> necessaires. <persName rend="i">Me Thierry</persName>, Danseuse,
-              représentoit la Pâtissiere, elle avoit pour garçons le <persName rend="i">Sieurs
-                Malterre</persName> &amp; <persName rend="i">Javiliers</persName>, le fils, qui,
-                <tech type="costume">habillez de toile d’argent</tech>, &amp; portant des <tech
-                type="repas">clayons chargez de ratons tout chauds</tech>, couroient si vîte les
-              debiter dans la Foire, qu’ils ne laissoient pas refroidir leur marchandise. Cette
-                <tech type="construction">boutique</tech> étoit garnie de toute sorte de <tech
-                type="repas">pâtisserie fine</tech>.</p>
+                >ustanciles</tech> necessaires. <persName rend="i" key="me_thierry" role="danseur"
+                >Me Thierry</persName>, Danseuse, représentoit la Pâtissiere, elle avoit pour
+              garçons le <persName rend="i" role="acteur" key="sieur_malterre">Sieurs
+                Malterre</persName> &amp; <persName rend="i" key="sieur_javiliers" role="acteur"
+                >Javiliers</persName>, le fils, qui, <tech type="costume">habillez de toile
+                d’argent</tech>, &amp; portant des <tech type="repas">clayons chargez de ratons tout
+                chauds</tech>, couroient si vîte les debiter dans la Foire, qu’ils ne laissoient pas
+              refroidir leur marchandise. Cette <tech type="construction">boutique</tech> étoit
+              garnie de toute sorte de <tech type="repas">pâtisserie fine</tech>.</p>
             <p>La <tech type="construction">boutique</tech> suivante avoit pour inscription, <name
                 rend="i" key="perdrigeon">Perdrigeon</name>. Elle étoit meublée</p>
             <pb n="57" xml:id="p27" facs="https://gallica.bnf.fr/ark:/12148/bpt6k6339961b/f57"/>
@@ -845,19 +845,20 @@
               &amp; cabarets du <placeName key="japon">Japon</placeName> &amp; des <placeName
                 key="inde">Indes</placeName>, &amp; de <tech type="lumieres">girandoles</tech>, de
                 <tech type="lumieres">lumieres</tech> qui se repetoient dans les trumeaux. Le
-                <persName rend="i">Sieur Corbie</persName> &amp; la <persName rend="i"
-                key="julie_bercaville" role="acteur">Dlle Julie</persName>, Chanteur &amp;
-              Chanteuse, déguisez en <tech type="costume">Turc &amp; Turquesse</tech>, aussi bien
-              que le <persName key="jeanbaptistedeshayes" rend="i" role="chanteur">Sieur
-                Deshayes</persName>, Chanteur, qui leur servoit de garçon, distribuoient le <tech
-                type="repas">Caffé</tech>, le <tech type="repas">Thé</tech> &amp; le <tech
-                type="repas">Chocolat</tech>.</p>
+                <persName rend="i" role="acteur" key="sieur_corbie">Sieur Corbie</persName> &amp; la
+                <persName rend="i" key="julie_bercaville" role="acteur">Dlle Julie</persName>,
+              Chanteur &amp; Chanteuse, déguisez en <tech type="costume">Turc &amp;
+              Turquesse</tech>, aussi bien que le <persName key="jeanbaptistedeshayes" rend="i"
+                role="chanteur">Sieur Deshayes</persName>, Chanteur, qui leur servoit de garçon,
+              distribuoient le <tech type="repas">Caffé</tech>, le <tech type="repas">Thé</tech>
+              &amp; le <tech type="repas">Chocolat</tech>.</p>
             <p>La quatriéme boutique, élevée en <tech type="construction">Theatre
               d’Operateur</tech>, étoit inscrite, <name rend="i" key="docteurbarry">le Docteur
                 Barry</name>. La forme de ce <tech type="construction">Theatre</tech> representoit
-              une Place publique &amp; les ruës adjacentes. <persName rend="i">Scapui</persName> en
-              Operateur, <persName rend="i" key="dominiquebianconelli" role="acteur"
-                >Trivelin</persName>, son garçon, le <persName rend="i">Sieur Paqueti</persName> en
+              une Place publique &amp; les ruës adjacentes. <persName rend="i" key="bissoni"
+                role="acteur">Scapui</persName> en Operateur, <persName rend="i"
+                key="dominiquebianconelli" role="acteur">Trivelin</persName>, son garçon, le
+                <persName rend="i" key="sieur_paqueti" role="acteur">Sieur Paqueti</persName> en
               aveugle, &amp; la <persName rend="i" key="flaminialadelle" role="acteur">Dlle
                 Flaminia</persName>, femme de</p>
             <pb n="58" xml:id="p28" facs="https://gallica.bnf.fr/ark:/12148/bpt6k6339961b/f58"/>
@@ -881,13 +882,13 @@
                 type="costume">Domino</tech>, de toutes les couleurs &amp; de toutes les
               tailles.</p>
             <p>Dans la septiéme, où estoient le <persName key="sieur_saint_martin_acteur"
-                role="acteur">Sieur S. Martin</persName> &amp; la <persName rend="i">Dlle
-                Souris</persName>, la cadette, en <tech type="costume">Allemand &amp;
-                Allemande</tech>, on montroit un <tech type="decor">Tableau changeant</tech>, d’une
-              invention, &amp; d’une varieté très-ingenieuse; &amp; un monstre singulier; c’étoit un
-                <tech type="animal">veau vivant</tech>, ayant huit jambes. Cette loge étoit meublée
-              de <tech type="decor">damas</tech>, &amp; s’appelloit <name rend="i"
-                key="cadetboutique">Cadet</name>.</p>
+                role="acteur">Sieur S. Martin</persName> &amp; la <persName rend="i" role="acteur"
+                key="dlle_souris">Dlle Souris</persName>, la cadette, en <tech type="costume"
+                >Allemand &amp; Allemande</tech>, on montroit un <tech type="decor">Tableau
+                changeant</tech>, d’une invention, &amp; d’une varieté très-ingenieuse; &amp; un
+              monstre singulier; c’étoit un <tech type="animal">veau vivant</tech>, ayant huit
+              jambes. Cette loge étoit meublée de <tech type="decor">damas</tech>, &amp; s’appelloit
+                <name rend="i" key="cadetboutique">Cadet</name>.</p>
             <p>Ensuite on tournoit, &amp; on trouvoit la</p>
             <pb n="59" xml:id="p29" facs="https://gallica.bnf.fr/ark:/12148/bpt6k6339961b/f59"/>
             <p>face de la <placeName key="courchateauvillerscotteret">Cour</placeName> opposée à
@@ -900,8 +901,9 @@
                 <placeName key="chine">Chine</placeName> que du <placeName key="japon"
                 >Japon</placeName> &amp; des <placeName key="inde">Indes</placeName>, qui faisoient
               partie des lots que le <persName key="louisxv" role="destinataire">Roy</persName>
-              devoit tirer. Le <persName rend="i">Sieur Javilliers</persName>, père &amp; la
-                <persName rend="i">Dlle Mangot</persName> en Hollandois &amp; Hollandoise occupoient
+              devoit tirer. Le <persName rend="i" role="acteur" key="sieur_javiliers">Sieur
+                Javilliers</persName>, père &amp; la <persName rend="i" key="dlle_mangot"
+                role="acteur">Dlle Mangot</persName> en Hollandois &amp; Hollandoise occupoient
               cette riche <tech type="construction">Boutique</tech>, qui avoit pour inscription
                 <name rend="i" key="messagerboutique">Messager</name>.</p>
             <p>La premiere <tech type="construction">Boutique</tech> après le <tech
@@ -933,9 +935,9 @@
                 trumeaux de glaces</tech>, &amp; de <tech type="lumieres">girandoles</tech>; elle
               étoit destinée pour la distribution de toutes <tech type="repas">les liqueurs
                 fraîches</tech>, &amp; les <tech type="repas">glaces</tech>. Le Sieur <persName
-                rend="i">Buzeau</persName> en Armenien, &amp; <persName rend="i">Dlle
-                Perignon</persName> en <tech type="costume">Armenienne</tech> présidoient à cette
-              distribution.</p>
+                rend="i">Buzeau</persName> en Armenien, &amp; <persName rend="i" role="acteur"
+                key="dlle_perignon">Dlle Perignon</persName> en <tech type="costume"
+                >Armenienne</tech> présidoient à cette distribution.</p>
             <p>La sixiéme tenduë de brocatelle, s’appelloit <name key="breadboutique" rend="i"
                 >Breard</name>. <persName key="vincent_charles_delestoile" role="danseur">Le Sieur
                 Dumirail</persName>, Danseur en étoit le maître, &amp; y débitoit les <tech
@@ -943,9 +945,10 @@
                 chaudes</tech> de toutes les sortes.</p>
             <p>La derniere qui se trouvoit dans l’encognure, près du <tech type="construction"
                 >Theatre Italien</tech>, étoit enfin intitulée <name rend="i" key="meblanchetheatre"
-                >Me Blanche</name>, &amp; occupée par les Dlles <persName rend="i">Souris</persName>
-              l’aînée &amp; <persName rend="i">du Coudray</persName>, Marchandes de <tech
-                type="repas">dragées</tech>, &amp; de toutes sortes de <tech type="repas"
+                >Me Blanche</name>, &amp; occupée par les Dlles <persName rend="i"
+                key="dlle_souris_aine" role="acteur">Souris</persName> l’aînée &amp; <persName
+                rend="i" role="acteur" key="dlle_du_coudray">du Coudray</persName>, Marchandes de
+                <tech type="repas">dragées</tech>, &amp; de toutes sortes de <tech type="repas"
                 >confitures</tech> fines.</p>
             <p>Un grand <tech type="construction">Amphitheatre</tech> paré de <tech type="costume"
                 >tapis</tech>, &amp; bien <tech type="lumieres">illuminé</tech>, regnoit tout le
@@ -1350,9 +1353,9 @@
             <persName key="louis_orleans" role="convive">du Duc de Chartres</persName>, <persName
             key="louis_de_bourbonconde" role="convive">du Comte de Clermont</persName>, du <persName
             key="louis_armand_conti" role="convive">Prince de Conti</persName>, &amp; <persName
-            key="armand_charost" role="convive">du Duc de Charost, son Gouverneur</persName>,
-          &amp; escorté par les détachemens des Gendarmes &amp; des Chevaux-Legers de la Garde, par
-          ceux des deux Compagnies des Mousquetaires, &amp; par le Guet des Gardes du Corps.</p>
+            key="armand_charost" role="convive">du Duc de Charost, son Gouverneur</persName>, &amp;
+          escorté par les détachemens des Gendarmes &amp; des Chevaux-Legers de la Garde, par ceux
+          des deux Compagnies des Mousquetaires, &amp; par le Guet des Gardes du Corps.</p>
         <list ana="noms">
           <item><persName key="louisxv" role="destinataire">Roy</persName> accompagné dans son
             carosse de</item>
@@ -1551,15 +1554,14 @@
           <item><persName key="louisiv_henri_conde" role="commanditaire">Duc de
             Bourbon</persName></item>
         </list>
-        <p>La troiséme, dressée dans la salle du <persName rend="i" key="letasse">Tasse</persName>,
-          ainsi nommée à cause des tableaux dont elle est ornée, representant la <name
-            key="jerusalem" rend="i">Jerusalem</name> délivrée, de ce <persName key="letasse"
-            >Poëte</persName>, étoit tenuë par le <persName key="charles_de_bourbon_charolais"
-            role="convive">Comte de Charolois</persName>, où mangerent le <persName
-            key="louis_orleans" role="convive">Duc de Chartres</persName>, le <persName
-            key="louis_armand_conti" role="convive">Prince de Conti</persName>, le <persName
-            key="jean_philippe_orlean" role="convive">Grand-Prieur de France</persName> &amp; autres
-          Seigneurs.</p>
+        <p>La troiséme, dressée dans la salle du <name rend="i" key="letasse">Tasse</name>, ainsi
+          nommée à cause des tableaux dont elle est ornée, representant la <name key="jerusalem"
+            rend="i">Jerusalem</name> délivrée, de ce <name key="letasse">Poëte</name>, étoit tenuë
+          par le <persName key="charles_de_bourbon_charolais" role="convive">Comte de
+            Charolois</persName>, où mangerent le <persName key="louis_orleans" role="convive">Duc
+            de Chartres</persName>, le <persName key="louis_armand_conti" role="convive">Prince de
+            Conti</persName>, le <persName key="jean_philippe_orlean" role="convive">Grand-Prieur de
+            France</persName> &amp; autres Seigneurs.</p>
         <list ana="noms" xml:id="table3">
           <item><persName key="charles_de_bourbon_charolais" role="convive">Comte de
               Charolois</persName></item>
@@ -2180,9 +2182,10 @@
                 <l ana="vers" xml:lang="fr">Répandre en ces climats vos rayons favorables ;</l>
                 <l ana="vers" xml:lang="fr">Brillez,puissiez vous toûjours</l>
                 <l ana="vers" xml:lang="fr">Nous donner de beaux jours.</l>
-                <p>La <persName role="acteur" key="dlle_autier">Dlle Autier</persName>, l’aînée, qui representoit le point du jour,
-                  a <tech type="musique">chanté ces six vers allegoriques</tech>, avec cette grace
-                  &amp; cette justesse qui lui sont si familieres.</p>
+                <p>La <persName role="acteur" key="dlle_autier">Dlle Autier</persName>, l’aînée, qui
+                  representoit le point du jour, a <tech type="musique">chanté ces six vers
+                    allegoriques</tech>, avec cette grace &amp; cette justesse qui lui sont si
+                  familieres.</p>
                 <pb n="99" xml:id="p69" facs="https://gallica.bnf.fr/ark:/12148/bpt6k6339961b/f99"/>
               </div>
               <div>
