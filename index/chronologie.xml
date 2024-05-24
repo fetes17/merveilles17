@@ -153,7 +153,7 @@
   
   <event when="1670" where="lille" xml:id="lille1670">
     <label>Voyage du roi à Lille en 1670</label>
-    <ref target="../xml/Flandres17_lettres_historiques1670.xml"/>
+    <ref target="../xml/Flandres17_imp_lettres_historiques1670.xml"/>
   </event>
   
   <event from="1674-07-04" to="1674-08-31" where="versailles_chateau" xml:id="dv">
@@ -177,7 +177,12 @@
     <label> Entrée solennelle à Beauvais</label>
     <ref target="../xml/Flandres17_imp_mg1680_beauvais.xml"/>
   </event>
-  
+    
+    <event from="1680-07-15" where="oudeuil_poix_abbeville_montreuil_neufchatel_boulogne-sur-mer_ambleteuse" to="1680-07-20" xml:id="oudeuil_poix_abbeville_montreuil_neufchatel_boulogne-sur-mer_ambleteuse">
+   <label>Entrée à Oudeüil, Poix, Abbeville, Montreüil, Neufchatel, Boulogne-sur-Mer, &amp; Ambleteuse</label>
+      <ref target="../xml/Flandres17_imp_mg1680_entre_beauvais_et_calais.xml"/>
+ </event>
+    
   <event from="1680-07-21" to="1680-07-22" where="calais" xml:id="Calais1680">
     <label>Entrée à Calais</label>
     <ref target="../xml/Flandres17_imp_mg1680_calais.xml"/>
