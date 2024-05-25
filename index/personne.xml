@@ -394,6 +394,10 @@
     <name>BLONDY,danseur de l'Opéra</name>
     <!-- https://www.theatre-classique.fr/pages/bio/comediens.htm#blondy -->
   </person>
+    <person xml:id="jeanlouismansienne" sex="M">
+    <name>Mansienne,Jean-Louis,musicien de l'Académie royale</name>
+    <!-- https://francearchives.gouv.fr/fr/subject/130949414?aug=True&es_digitized=False&es_originators=Origines%20diverses&es_originators=Le%20pr%C3%A9vost%2C%20Nicolas-Charles&indexentry=130949414&items_per_page=50&restrict_to_single_etype=False&sort=publisher -->
+  </person>
     <person xml:id="dupredanseur" sex="M">
     <name>Dupré,danseur de l'Opéra</name>
     <!-- https://www.theatre-classique.fr/pages/bio/comediens.htm#dupré -->
@@ -1999,6 +2003,20 @@
   <person xml:id="breuet" sex="M">
     <name>Brevet, officier du Gobelet</name>
   </person>
+    <person xml:id="jean_berin" sex="M">
+    <name>Bérain,Jean, peintre, aquarelliste, dessinateur, graveur, ornemaniste et décorateur de théâtre français</name>
+    <birth when="1640-06-04"/>
+    <death when="1711-01-24"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jean_B%C3%A9rain_p%C3%A8re</identifier>
+  </person>
+  
+  <person xml:id="jean_ii_berin" sex="M">
+    <name>Bérin,Jean fils,Dessinateur ordinaire du Cabinet du Roi</name>
+    <birth when="1674"/>
+    <death when="1726"/>
+    <!-- il est mentionné dans la page de son père -->
+    <identifier type="wikipedia">https://en.wikipedia.org/wiki/Jean_B%C3%A9rain_the_Younger</identifier>
+  </person>
   
   <person xml:id="n_brassac" sex="M">
       <name>Brassac, N de Galard de Bearn, comte de</name>
@@ -2877,6 +2895,20 @@
 
   <person xml:id="di_pre" sex="M">
     <name>Du Pré, Grand valet de pied</name>
+  </person>
+
+    
+  <person xml:id="jeanbaptistedeshayes" sex="M">
+    <name>Dehesse,Jean-Baptiste, danseur, chorégraphe et maître de ballet</name>
+    <birth when="1705-09"/>
+    <death when="1779-05-22"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jean-Baptiste_Dehesse</identifier>
+    <!-- Bibliothèque musicale de l’Opéra (BMO), Thomas-Simon Gueullette, Notes et souvenirs sur le Théâtre italien, ms. B., Réserve 625, t. II, ff.os 139 et 474. N. Lecomte, « Jean-Baptiste François Dehesse », p. 152. -->
+  </person>
+    <person xml:id="jeandun" sex="M">
+    <name>Dun,Jean,Chanteur à l'Opéra</name>
+    <death when="1735"/>
+    <identifier type="wikipedia">https://en.wikipedia.org/wiki/Jean_Dun</identifier>
   </person>
 
   <person xml:id="du_manoir" sex="M">
@@ -4434,6 +4466,12 @@
   <person xml:id="mlle_montlaur" sex="F">
     <name>Montlaur, Mademoiselle de</name>
   </person>
+    <person xml:id="jeanjosephmouret" sex="M">
+    <name>Mouret,Jean-Joseph,Compositeur</name>
+    <birth when="1682-04-11"/>
+    <death when="1738-12-22"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jean-Joseph_Mouret</identifier>
+  </person>
   <person xml:id="julie_montausier" sex="F">
     <name>Montausier, Julie d'Angennes de Rambouillet, duchesse de</name>
     <birth when="1607"/>
@@ -5012,6 +5050,12 @@
     <death when="1768-05-30"/>
     <!-- Il n'est mentionné nul part dans la liste des prévost de Paris donc je ne suis pas sur exactement de l'identité de ce dernier -->
       <!-- http://genobco.free.fr/provence/RicardGrambois1.htm -->
+  </person>
+    <person xml:id="joseph_paul_ricard" sex="M">
+    <name>Ricard de Brégançon,Joseph-Paul de,Seigneur du Domaine de Ricard</name>
+    <birth when="1665-09-07"/>
+    <death when="1741-07-04"/>
+    <!-- https://gw.geneanet.org/saorsel?lang=en&n=ricard+de+bregancon+de&p=joseph+paul -->
   </person>
     <person xml:id="sieurgranges" sex="M">
     <name>Des granges,Michel II Ancel, Maitre des Ceremonies (1722)</name>
