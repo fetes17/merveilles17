@@ -213,6 +213,23 @@
           <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Audenarde</identifier>
         </place>
 
+
+  <place xml:id="abbaye_de_clairvaux">
+    <name>Abbaye de Clairvaux</name>
+    <geo>48.0848, 4.4722</geo>
+    <country>France</country>
+    <settlement>Ville-sous-la-Ferté</settlement>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Abbaye_de_Clairvaux</identifier>
+</place>
+
+        <place xml:id="abbaye_saintjeandesvignes">
+          <name>Abbaye Saint-Jean-des-Vignes</name>
+          <geo>49.2232, 3.1926</geo>
+          <country>France</country>
+          <settlement>la colline Saint-Jean</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Abbaye_Saint-Jean-des-Vignes</identifier>
+        </place>
+
         <place xml:id="bethune">
           <name>Béthune</name>
           <identifier type="wikipedia">https://fr.wikipedia.org/wiki/B%C3%A9thune</identifier>
@@ -1653,6 +1670,21 @@
         <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Reims</identifier>
         <identifier type="geonames">https://www.geonames.org/2984114/reims.html</identifier>
 
+<place xml:id="abbaye_saint_pierre_les_dames">
+  <name>Abbaye Saint-Pierre-les-Dames</name>
+  <geo>49.151023, 4.021575</geo>
+  <country>France</country>
+  <settlement>Reims</settlement>
+  <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Abbaye_Saint-Pierre-les-Dames</identifier>
+</place>
+<place xml:id="abbaye_saint_remy_reims">
+          <name>Abbaye Saint-Remi</name>
+          <geo>49.1436, 4.0229</geo>
+          <country>France</country>
+          <settlement>Reims</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Abbaye_Saint-Remi_de_Reims</identifier>
+</place>
+
         <place xml:id="rempartreims">
           <name>Les remparts de Reims</name>
           <geo>49.1546, 4.0205</geo>
@@ -1905,6 +1937,26 @@
           <settlement>Soissons</settlement>
           <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Soissons</identifier>
           <identifier type="geonames">https://www.geonames.org/2974389/soissons.html</identifier>
+  <place xml:id="abbaye_notredamedesoissons">
+    <name>Abbaye Notre-Dame de Soissons</name>
+    <geo>49.2251, 3.1943</geo>
+    <country>France</country>
+    <settlement>Soissons</settlement>
+     <!-- démoli en 1913 -->
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Abbaye_Notre-Dame_de_Soissons</identifier>
+</place>
+        <place xml:id="abbaye_saintpauldesoissons">
+          <name>Abbaye Saint-Paul de Soissons</name>
+          <country>France</country>
+          <settlement>Soissons</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Abbaye_Saint-Paul_de_Soissons</identifier>
+        </place>
+          <place xml:id="academiedesoissons">
+          <name>Académie de Soissons</name>
+          <country>France</country>
+          <settlement>Soissons</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Acad%C3%A9mie_de_Soissons</identifier>
+        </place>
           <place xml:id="eglisecathedralesoissons">
             <name>Cathédrale Saint-Gervais-et-Saint-Protais de Soissons</name>
             <geo>49.2251, 3.1931</geo>
@@ -2047,6 +2099,13 @@
           <country>France</country>
           <settlement>Franche-Comté</settlement>
           <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Dijon</identifier>
+  <place xml:id="abbaye_saint_etienne">
+    <name>Abbaye Saint-Étienne</name>
+    <geo>47.1915, 5.0239</geo>
+    <country>France</country>
+    <settlement>Dijon</settlement>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Abbaye_Saint-%C3%89tienne_de_Dijon#:~:text=L'abbaye%20Saint%2D%C3%89tienne%20est,patrimoine%20mondial%20de%20l'UNESCO.</identifier>
+</place>
         </place>
         <place xml:id="saintantoine">
           <name>Saint-Antoine (Doubs)</name>
