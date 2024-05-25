@@ -17,6 +17,11 @@
   <person xml:id="andre" sex="M">
     <name>André, officier du Gobelet</name>
   </person>
+    <person xml:id="marieantier" sex="F">
+    <name>Antier,Marie,Actrice</name>
+    <death when="1747"/>
+    <!-- https://www.theatre-classique.fr/pages/bio/comediens.htm#gautier -->
+  </person>
   
   <person xml:id="andre_autriche" sex="M">
     <name>Autriche, André d', cardinal d'Autriche</name>
@@ -293,6 +298,12 @@
     <identifier type="databnf">https://data.bnf.fr/12597740/charles_colbert_croissy/</identifier>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Charles_Colbert_de_Croissy</identifier>
     <identifier type="isni">http://isni.org/isni/0000000063071974</identifier>
+  </person>
+    <person xml:id="mariesophie_colbert" sex="F">
+    <name>Colbert,Marie Sophie de,Marquise de Seignelay</name>
+    <birth when="1709-09-20"/>
+    <death when="1747-10-29"/>
+    <identifier type="wikipedia">https://www.wikidata.org/wiki/Q107293853</identifier>
   </person>
 
   <person xml:id="pierre_crozat" sex="M">
@@ -1016,6 +1027,13 @@
   
   <person xml:id="charlotte_mothe_houdancourt" sex="F">
     <name>La Mothe-Houdancourt, Charlotte de </name>
+  </person>
+    
+  <person xml:id="mariefertesenneterre" sex="F">
+    <name>La Mothe-Houdancourt,Marie Isabelle Gabrielle Angélique de,Duchesse de La Ferté-Senneterre</name>
+    <birth when="1654"/>
+    <death when="1726-04-29"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Marie_de_La_Fert%C3%A9-Senneterre</identifier>
   </person>
   
   <person xml:id="mongin" sex="M">
@@ -3134,6 +3152,11 @@
     <death when="1725-03-30"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Ren%C3%A9_de_Froulay_de_Tess%C3%A9</identifier>
 </person>  
+    <person xml:id="marie_françoise_de_froulay_de_tesse" sex="F">
+    <name>Froulay de Tessé, Marie Françoise de,Dame de Tarannes</name>
+    <death when="1744-12-29"/>
+    <!-- https://gw.geneanet.org/pierfit?lang=fr&n=de+froulay+de+tesse&p=marie+francoise -->
+  </person>
   
   <person xml:id="madame_de_la_fayette" sex="F">
     <name>La Fayette, Marie-Madeleine Pioche de La Vergne, comtesse de</name>
@@ -5205,6 +5228,12 @@
     <death when="1686"/>
     <identifier type="databnf">https://data.bnf.fr/fr/12259348/gilles_rousselet/</identifier>
     <identifier type="isni">0000 0001 0872 0748</identifier>
+  </person>
+    <person xml:id="marieisabelle_rohan" sex="F">
+    <name>Rohan,Marie-Isabelle de,Duchesse de</name>
+    <birth when="1699-01-17"/>
+    <death when="1754-01-05"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Marie-Isabelle_de_Rohan</identifier>
   </person>
   <person xml:id="hercule_meriadec_rohan" sex="M">
     <name>Rohan, Hercule Meriadec de Rohan Soubise, dit le Duc de Rohan</name>
