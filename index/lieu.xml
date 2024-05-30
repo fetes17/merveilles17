@@ -137,6 +137,11 @@
       <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Pays-Bas</identifier>
       <identifier type="geonames"
         >https://www.geonames.org/2750405/kingdom-of-the-netherlands.html</identifier>
+      <place xml:id="provinces_unies">
+        <name>Provinces Unies</name>
+        <settlement>Pays-Bas</settlement>
+        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Provinces-Unies</identifier>
+      </place>
       
       <place xml:id="amsterdam">
         <name>Amsterdam, Amstredam</name>
@@ -160,7 +165,7 @@
     </place>
 
     <place xml:id="mer_méditéranée">
-      <name> Mer Méditéranée</name>
+      <name>Mer Méditéranée</name>
       <identifier type="wikipedia"
         >https://fr.wikipedia.org/wiki/Mer_M%C3%A9diterran%C3%A9e</identifier>
     </place>
@@ -749,6 +754,42 @@
         <identifier type="wikipedia"
           >https://fr.wikipedia.org/wiki/Hainaut_(r%C3%A9gion_transfrontali%C3%A8re)</identifier>
         <identifier type="geonames"/>
+        <place xml:id="bouchain">
+          <name>Bouchain</name>
+          <geo>50.1704, 3.1904</geo>
+          <settlement>Hainaut</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Bouchain_(Nord)</identifier>
+        </place>
+        <place xml:id="condé_sur_escaut">
+          <name>Condé-sur-l'escaut</name>
+          <geo>50.2700, 3.3529</geo>
+          <settlement>Hainaut</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Cond%C3%A9-sur-l%27Escaut</identifier>
+         </place>
+        <place xml:id="haine">
+          <name>Haine (rivière)</name>
+          <geo>50.2308, 4.14.30</geo>
+          <settlement>Condé-sur-l'escaut</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Haine_(rivi%C3%A8re)</identifier>
+        </place>
+        <place xml:id="quesnoy">
+          <name>Quesnoy</name>
+          <geo>50.1459, 3.3818</geo>
+          <settlement>Hainaut</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Le_Quesnoy</identifier>
+        </place>
+        <place xml:id="raismes">
+          <name>Raismes</name>
+          <geo>50.2323, 3.2912</geo>
+          <settlement>Hainaut</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Raismes</identifier>
+        </place>
+        <place xml:id="abbaye_vicogne">
+          <name>Abbaye de Vicogne</name>
+          <geo>50.24000, 3.2759</geo>
+          <settlement>Raismes</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Abbaye_de_Vicogne</identifier>
+        </place>
         <place xml:id="valenciennes">
           <name>Valenciennes</name>
           <geo/>
@@ -760,6 +801,16 @@
             <name> Valenciennes, Eglise Saint Vaast</name>
             <geo/>
             <settlement> Valenciennes</settlement>
+          </place>
+          <place xml:id="valenciennes_citadelle">
+            <name>Valenciennes, Citadelle</name>
+            <geo>50.2128, 3.3055</geo>
+            <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Citadelle_de_Valenciennes</identifier>
+          </place>
+          <place xml:id="valenciennes_fortifications">
+            <name>Valenciennes, Fortifications</name>
+            <settlement>Valenciennes</settlement>
+            <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Enceinte_de_Valenciennes</identifier>
           </place>
           <place xml:id="grand_place_Valenciennes">
             <name> Valenciennes, Grand-Place ou Grand-Marché</name>
