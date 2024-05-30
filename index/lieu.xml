@@ -863,6 +863,9 @@
             <settlement>Valenciennes</settlement>
             <identifier type="googlemaps">https://maps.app.goo.gl/1LDNz2KfM8kuhjbR7</identifier>
           </place>
+          <place xml:id="mont_hauvis">
+            <name>Valenciennes, Mont-Hauvis</name>
+          </place>
           <place xml:id="place_quatre_batteries">
             <name>Valenciennes, Place des quatre batteries</name>
             <settlement>Valenciennes</settlement>
@@ -896,6 +899,16 @@
               <place xml:id="porte_tournai">
                 <name>Valenciennes, Porte de Tournai</name>
                 <settlement>Valenciennes</settlement>
+              </place>
+              <place xml:id="valenciennes_porte_cambrai">
+                <name>Valenciennes, Porte Cambraisienne</name>
+                <settlement>valenciennes</settlement>
+              </place>
+              <place xml:id="valenciennes_porte_mons">
+                <name>Valenciennes, Porte de Mons</name>
+                <geo>50.36014220769193, 3.5288615814023356</geo>
+                <settlement>valenciennes</settlement>
+                <identifier type="googlemaps">https://maps.app.goo.gl/tGqg8PDv3tHmtaWZ7</identifier>
               </place>
               <place xml:id="valenciennes_pont_ecluse">
                 <name>Valenciennes, Pont de l'Ecluse</name>
