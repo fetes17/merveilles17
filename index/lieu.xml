@@ -46,7 +46,13 @@
     <place xml:id="autriche">
       <name>Autriche</name>
       <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Autriche</identifier>
+      <place xml:id="vienne">
+        <name>Vienne</name>
+        <settlement>Autriche</settlement>
+        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Vienne_(Autriche)</identifier>
+      </place>
     </place>
+   
     
     <place xml:id="espagne">
       <name>Espagne</name>
@@ -107,6 +113,13 @@
         <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Bologne</identifier>
         <identifier type="geonames">https://www.geonames.org/3181927/bologna.html</identifier>
       </place>
+      <place xml:id="genes">
+        <name>Gênes</name>
+        <geo>44.2424, 8.5600</geo>
+        <country>Italie</country>
+        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/G%C3%AAnes</identifier>
+        <identifier type="geonames">https://www.geonames.org/6542282/genova.html</identifier>
+      </place>
       <place xml:id="rome">
         <name>Rome</name>
         <geo>41.89193, 12.51133</geo>
@@ -131,7 +144,11 @@
 
       </place>
     </place>
-
+<place xml:id="luxembourg">
+  <name>Luxembourg</name>
+  <geo>49.3633, 6.0755</geo>
+  <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Luxembourg</identifier>
+</place>
     <place xml:id="pays_bas">
       <name>Pays-Bas</name>
       <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Pays-Bas</identifier>
@@ -299,7 +316,7 @@
         </place>
 
         <place xml:id="cambrai">
-          <name>cambrai, Cambray</name>
+          <name>Cambrai, Cambray</name>
           <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Cambrai</identifier>
           <identifier type="googlemaps"
             >https://www.google.com/maps/place/Cambrai/@50.1745368,2.7807118,9.57z/data=!4m6!3m5!1s0x47c2bb7c37a4f9f3:0x144f3c3e5aba10fb!8m2!3d50.173538!4d3.236633!16zL20vMHBoamM?hl=fr&amp;entry=ttu</identifier>
@@ -765,13 +782,14 @@
           <geo>50.2700, 3.3529</geo>
           <settlement>Hainaut</settlement>
           <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Cond%C3%A9-sur-l%27Escaut</identifier>
+          <place xml:id="haine">
+            <name>Haine (rivière)</name>
+            <geo>50.2308, 4.14.30</geo>
+            <settlement>Condé-sur-l'escaut</settlement>
+            <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Haine_(rivi%C3%A8re)</identifier>
+          </place>
          </place>
-        <place xml:id="haine">
-          <name>Haine (rivière)</name>
-          <geo>50.2308, 4.14.30</geo>
-          <settlement>Condé-sur-l'escaut</settlement>
-          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Haine_(rivi%C3%A8re)</identifier>
-        </place>
+        
         <place xml:id="quesnoy">
           <name>Quesnoy</name>
           <geo>50.1459, 3.3818</geo>
@@ -783,12 +801,12 @@
           <geo>50.2323, 3.2912</geo>
           <settlement>Hainaut</settlement>
           <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Raismes</identifier>
-        </place>
-        <place xml:id="abbaye_vicogne">
-          <name>Abbaye de Vicogne</name>
-          <geo>50.24000, 3.2759</geo>
-          <settlement>Raismes</settlement>
-          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Abbaye_de_Vicogne</identifier>
+          <place xml:id="abbaye_vicogne">
+            <name>Abbaye de Vicogne</name>
+            <geo>50.24000, 3.2759</geo>
+            <settlement>Raismes</settlement>
+            <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Abbaye_de_Vicogne</identifier>
+          </place>
         </place>
         <place xml:id="valenciennes">
           <name>Valenciennes</name>
@@ -797,15 +815,36 @@
           <settlement/>
           <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Valenciennes</identifier>
           <identifier type="geonames"/>
+          <place xml:id="batterie_du_calvaire">
+            <name>Valenciennes, Batterie du Calvaire</name>
+            <settlement>Valenciennes</settlement>
+          </place>
+          <place xml:id="caserne_clairisses">
+            <name>Valenciennes, Caserne des Clairisses</name>
+            <settlement>Valenciennes</settlement>
+          </place>
+          <place xml:id="caserne_malanois">
+            <name>Caserne des Malanois</name>
+            <settlement>Valenciennes</settlement>
+          </place>
           <place xml:id="eglise-saint-vaast">
             <name> Valenciennes, Eglise Saint Vaast</name>
             <geo/>
             <settlement> Valenciennes</settlement>
           </place>
+          <place xml:id="valenciennes_eglise_saint-jean">
+            <name>Valenciennes, Eglise Saint-Jean</name>
+          </place>
           <place xml:id="valenciennes_citadelle">
             <name>Valenciennes, Citadelle</name>
             <geo>50.2128, 3.3055</geo>
             <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Citadelle_de_Valenciennes</identifier>
+          </place>
+          <place xml:id="chemin_noir_mouton">
+            <name>Valenciennes, Chemin du Noir Mouton</name>
+            <geo>50.36888, 3.52003</geo>
+            <settlement>Valenciennes</settlement>
+            <identifier type="googlemaps">https://maps.app.goo.gl/8FGrX6odsNYLA3cT8</identifier>
           </place>
           <place xml:id="valenciennes_fortifications">
             <name>Valenciennes, Fortifications</name>
@@ -818,8 +857,57 @@
             <settlement> Valenciennes</settlement>
             <identifier type="wikipedia">https://fr.wikipedia.org/wiki/H%C3%B4tel_de_ville_de_Valenciennes</identifier>
           </place>
+          <place xml:id="valenciennes_hotel_ville">
+            <name>Valenciennes; Hôtel de Ville</name>
+            <geo>50.357850430785746, 3.523842710238238</geo>
+            <settlement>Valenciennes</settlement>
+            <identifier type="googlemaps">https://maps.app.goo.gl/1LDNz2KfM8kuhjbR7</identifier>
+          </place>
+          <place xml:id="place_quatre_batteries">
+            <name>Valenciennes, Place des quatre batteries</name>
+            <settlement>Valenciennes</settlement>
+          </place>
+          <place xml:id="place_neuf_bourg">
+            <name>Valenciennes, Place du Neuf Bourg</name>
+            <geo>50.35816, 3.51870</geo>
+            <settlement>Valenciennes</settlement>
+            <identifier type="googlemaps">https://maps.app.goo.gl/acfQebDJp96WQzmM7</identifier>
+          </place>
           <place xml:id="valenciennes_escaut">
             <name>Valenciennes, Escaut (fleuve)</name>
+          </place>
+          <place xml:id="fontaine_notre_dame">
+            <name>Valenciennes, Fontaine Notre-Dame</name>
+            <settlement>Valenciennes</settlement>
+          </place>
+          <place xml:id="valenciennes_paté">
+            <name>Valenciennes, Paté</name>
+          </place>
+          <place xml:id="porte_anzin">
+            <name>Valenciennes, Porte d'Anzin</name>
+            <settlement>Valenciennes</settlement>
+            <place xml:id="rue_anzin">
+              <name>Valenciennes, Rue d'Anzin</name>
+              <geo>50.36412, 3.49561</geo>
+              <identifier type="googlemaps">https://maps.app.goo.gl/cGe38HKFRrMQ4xRr6</identifier>
+            </place>
+            <place xml:id="glacis_anzin">
+              <name>Valenciennes, Glacis d'Anzin</name>
+              <place xml:id="porte_tournai">
+                <name>Valenciennes, Porte de Tournai</name>
+                <settlement>Valenciennes</settlement>
+              </place>
+              <place xml:id="valenciennes_pont_ecluse">
+                <name>Valenciennes, Pont de l'Ecluse</name>
+                <geo>50.36146, 3.53192</geo>
+                <settlement>Valenciennes</settlement>
+                <identifier type="googlemaps">https://maps.app.goo.gl/QxTAAUymVbzXHjgU8</identifier>
+              </place>
+              <place xml:id="pont_moulins_anzin">
+                <name>Valenciennes, Pont des Moulins d'Anzin</name>
+                <settlement>Valenciennes</settlement>
+              </place>
+            </place>
           </place>
         </place>
       </place>
