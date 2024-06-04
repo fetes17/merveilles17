@@ -807,7 +807,13 @@
             <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Haine_(rivi%C3%A8re)</identifier>
           </place>
          </place>
-        
+        <place xml:id="douai">
+          <name>Douai</name>
+          <geo>50.2217, 3.0448</geo>
+          <settlement>France</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Douai</identifier>
+          <identifier type="googlemaps">https://maps.app.goo.gl/XLucAM6zVEUPHFeVA</identifier>
+        </place>
         <place xml:id="quesnoy">
           <name>Quesnoy</name>
           <geo>50.1459, 3.3818</geo>
@@ -893,6 +899,18 @@
           <place xml:id="valenciennes_escaut">
             <name>Valenciennes, Escaut (fleuve)</name>
           </place>
+          <place xml:id="valenciennes_rue_notre_dame">
+            <name>Valenciennes, Rue Notre Dame</name>
+            <geo>50.35641329949003, 3.519374027434828</geo>
+            <settlement>Valenciennes</settlement>
+            <identifier type="googlemaps">https://maps.app.goo.gl/GhniMFjLqru12ZT38</identifier>
+          </place>
+          <place xml:id="valenciennes_porte_notre_dame">
+            <name>Valenciennes, Porte Notre Dame </name>
+            <geo>50.35641329949003, 3.519374027434828</geo>
+            <settlement>Valenciennes</settlement>
+            <identifier type="googlemaps">https://maps.app.goo.gl/GhniMFjLqru12ZT38</identifier>
+          </place>
           <place xml:id="fontaine_notre_dame">
             <name>Valenciennes, Fontaine Notre-Dame</name>
             <settlement>Valenciennes</settlement>
@@ -920,7 +938,10 @@
                 <name>Valenciennes, Porte Cambraisienne</name>
                 <settlement>valenciennes</settlement>
               </place>
-              <place xml:id="valenciennes_porte_mons">
+          <place xml:id="valenciennes_rue_cambrai">
+            <name>Valenciennes, Rue de Cambrai</name>
+          </place>
+          <place xml:id="valenciennes_porte_mons">
                 <name>Valenciennes, Porte de Mons</name>
                 <geo>50.36014220769193, 3.5288615814023356</geo>
                 <settlement>valenciennes</settlement>
