@@ -75,7 +75,7 @@ CREATE TABLE lieu (
   docs           INTEGER,               -- ! nombre de documents,  calculé, pour tri
   occs           INTEGER,               -- ! nombre d’occurrences, calculé, pour tri
   PRIMARY KEY(id ASC)
-);
+); 
 CREATE INDEX lieu_path ON lieu(path);
 CREATE INDEX lieu_occs ON lieu(occs, code);
 CREATE INDEX lieu_docs ON lieu(docs, code);
