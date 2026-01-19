@@ -1096,6 +1096,207 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
     $stmt = null;
 
   }
+
+  /**
+ * Génération des pages corpus
+ */
+public static function corpus()
+{
+  $csvfile = self::$home."index/corpus.csv";
+  
+  // Vérifier que le fichier existe
+  if (!file_exists($csvfile)) {
+    echo "  !! Pas de fichier corpus.csv, skip\n";
+    return;
+  }
+  
+  // 1. Charger les définitions de corpus
+  $corpus_insert = self::$pdo->prepare("INSERT INTO corpus (code, titre, description) VALUES (?, ?, ?)");
+  $corpus_doc_insert = self::$pdo->prepare("INSERT INTO corpus_document (corpus_code, document_code) VALUES (?, ?)");
+  
+  self::$pdo->beginTransaction();
+  
+  $handle = fopen($csvfile, 'r');
+  $first = true;
+  
+  while (($row = fgetcsv($handle, 0, ';')) !== FALSE) {
+    // Ignorer l'en-tête
+    if ($first) {
+      $first = false;
+      continue;
+    }
+    
+    list($code, $titre, $description, $sql_where) = $row;
+    
+    echo "  -- Corpus: $titre\n";
+    
+    // Insérer la définition du corpus
+    $corpus_insert->execute(array($code, $titre, $description));
+    $corpus_id = self::$pdo->lastInsertId();
+    
+    // Récupérer les documents correspondants via requête SQL
+    try {
+      $sql = "SELECT code FROM document WHERE " . $sql_where;
+      $stmt = self::$pdo->query($sql);
+      
+      while ($doc = $stmt->fetch(PDO::FETCH_ASSOC)) {
+        $corpus_doc_insert->execute(array($code, $doc['code']));
+      }
+    } catch (PDOException $e) {
+      echo "  !! Erreur SQL pour corpus '$code': " . $e->getMessage() . "\n";
+    }
+  }
+  
+  fclose($handle);
+  self::$pdo->commit();
+  
+  // 2. Mise à jour des références
+  self::$pdo->exec("
+    UPDATE corpus_document SET
+      corpus=(SELECT id FROM corpus WHERE code=corpus_document.corpus_code),
+      document=(SELECT id FROM document WHERE code=corpus_document.document_code)
+    ;
+    UPDATE corpus SET
+      docs=(SELECT COUNT(*) FROM corpus_document WHERE corpus=corpus.id)
+    ;
+  ");
+  
+  // 3. Générer les pages HTML
+  Build::mkdir(Build::rmdir(self::$home."site/corpus/"));
+  $template = str_replace("%relpath%", "../", self::$template);
+  
+  // Page index des corpus
+  $index = self::corpus_index();
+  file_put_contents(self::$home."site/corpus/index.html", str_replace("%main%", $index, $template));
+  
+  // Pages détail pour chaque corpus
+  $qcorpus = self::$pdo->prepare("SELECT * FROM corpus ORDER BY titre");
+  $qcorpus->execute();
+  
+  while ($corpus = $qcorpus->fetch(PDO::FETCH_ASSOC)) {
+    $page = self::corpus_page($corpus);
+    file_put_contents(
+      self::$home."site/corpus/".$corpus['code'].".html",
+      str_replace("%main%", $page, $template)
+    );
+  }
+}
+
+/**
+ * Page index des corpus (tuiles comme sur l'accueil)
+ */
+private static function corpus_index()
+{
+  $html = '<div class="container">'."\n";
+  $html .= '  <h1>Corpus thématiques</h1>'."\n";
+  $html .= '  <p>Collections de documents organisées par thèmes, événements ou critères particuliers.</p>'."\n";
+  $html .= '  <div class="card-deck corpus">'."\n";
+  
+  $qcorpus = self::$pdo->prepare("SELECT * FROM corpus ORDER BY titre");
+  $qcorpus->execute();
+  
+  while ($row = $qcorpus->fetch(PDO::FETCH_ASSOC)) {
+    // Chercher une image représentative (premier document du corpus)
+    $qimg = self::$pdo->prepare("
+      SELECT document.code 
+      FROM corpus_document, document 
+      WHERE corpus_document.corpus = ? 
+        AND corpus_document.document = document.id 
+      LIMIT 1
+    ");
+    $qimg->execute(array($row['id']));
+    $doc = $qimg->fetch(PDO::FETCH_ASSOC);
+    $img = $doc ? $doc['code'] : 'default';
+    
+    $html .= '    <a href="'.$row['code'].'.html" class="card corpus">'."\n";
+    $html .= '      <img src="../document/S/'.$img.',S.jpg" onerror="this.src=\'../images/accueil/doctype_ms.jpg\'"/>'."\n";
+    $html .= '      <div class="card-body">'."\n";
+    $html .= '        <h5>'.$row['titre'].'</h5>'."\n";
+    $html .= '        <p class="card-text"><small>'.$row['docs'].' documents</small></p>'."\n";
+    $html .= '      </div>'."\n";
+    $html .= '    </a>'."\n";
+  }
+  
+  $html .= '  </div>'."\n";
+  $html .= '</div>'."\n";
+  
+  return $html;
+}
+
+/**
+ * Page détail d'un corpus (comme page lieu/personne)
+ */
+private static function corpus_page($corpus)
+{
+  $html = '<div class="container">'."\n";
+  $html .= '  <div class="row align-items-start">'."\n";
+  $html .= '    <div class="col-9">'."\n";
+  $html .= '      <h1>'.$corpus['titre'].'</h1>'."\n";
+  
+  if ($corpus['description']) {
+    $html .= '      <p class="lead">'.$corpus['description'].'</p>'."\n";
+  }
+  
+  $html .= '      <section>'."\n";
+  $html .= '        <h2>Documents ('.$corpus['docs'].')</h2>'."\n";
+  
+  // Réutiliser la fonction uldocs existante
+  $html .= self::uldocs("corpus", $corpus['id']);
+  
+  $html .= '      </section>'."\n";
+  $html .= '    </div>'."\n";
+  
+  // Colonne latérale avec stats
+  $html .= '    <div class="col-3">'."\n";
+  $html .= '      <section class="stats">'."\n";
+  $html .= '        <h3>Statistiques</h3>'."\n";
+  
+  // Stats par type
+  $qstats = self::$pdo->prepare("
+    SELECT document.type, COUNT(*) as count 
+    FROM corpus_document, document 
+    WHERE corpus_document.corpus = ? 
+      AND corpus_document.document = document.id 
+    GROUP BY document.type
+  ");
+  $qstats->execute(array($corpus['id']));
+  
+  $html .= '        <ul class="list-unstyled">'."\n";
+  while ($stat = $qstats->fetch(PDO::FETCH_ASSOC)) {
+    $label = self::$doctype[$stat['type']];
+    $html .= '          <li>'.$stat['count'].' '.$label.'</li>'."\n";
+  }
+  $html .= '        </ul>'."\n";
+  
+  // Lieux principaux
+  $qlieux = self::$pdo->prepare("
+    SELECT lieu.label, COUNT(DISTINCT corpus_document.document) as count
+    FROM corpus_document, lieu_document, lieu
+    WHERE corpus_document.corpus = ?
+      AND corpus_document.document = lieu_document.document
+      AND lieu_document.lieu = lieu.id
+    GROUP BY lieu.id
+    ORDER BY count DESC
+    LIMIT 5
+  ");
+  $qlieux->execute(array($corpus['id']));
+  
+  if ($qlieux->rowCount() > 0) {
+    $html .= '        <h4>Lieux principaux</h4>'."\n";
+    $html .= '        <ul class="list-unstyled">'."\n";
+    while ($lieu = $qlieux->fetch(PDO::FETCH_ASSOC)) {
+      $html .= '          <li>'.$lieu['label'].' ('.$lieu['count'].')</li>'."\n";
+    }
+    $html .= '        </ul>'."\n";
+  }
+  
+  $html .= '      </section>'."\n";
+  $html .= '    </div>'."\n";
+  $html .= '  </div>'."\n";
+  $html .= '</div>'."\n";
+  
+  return $html;
+}
   
   private static function uldocs($table=null, $id=null)
   {
@@ -1120,6 +1321,18 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
       $path .= '%';
       $stmt->bindParam(':path', $path, PDO::PARAM_STR);
     }
+    else if ($table == 'corpus') {
+    $sql = "
+      SELECT DISTINCT chrono_document.* 
+      FROM chrono_document, corpus_document 
+      WHERE corpus_document.corpus = ? 
+        AND corpus_document.document = chrono_document.document 
+      ORDER BY chrono_document.id;
+    ";
+    $stmt = self::$pdo->prepare($sql);
+    $stmt->bindParam(1, $id, PDO::PARAM_INT);
+    }
+      
     else if ($table) {
       $sql = "SELECT DISTINCT chrono_document.* FROM chrono_document, %table%_document WHERE %table%_document.%table% = ? AND %table%_document.document = chrono_document.document ORDER BY chrono_document.id;";
       $sql = str_replace('%table%', $table, $sql);
