@@ -226,7 +226,7 @@ CREATE TABLE corpus (
 CREATE TABLE corpus_document (
   -- Documents appartenant à chaque corpus
   id             INTEGER PRIMARY KEY,
-  corpus         INTEGER NOT NULL,      -- corpus.id
+  corpus         INTEGER,      -- corpus.id
   corpus_code    TEXT NOT NULL,         -- corpus.code (provisoire)
   document       INTEGER,               -- document.id (calculé)
   document_code  TEXT NOT NULL          -- document.code
