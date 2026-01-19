@@ -212,6 +212,26 @@ CREATE INDEX chrono_document_chrono ON chrono_document(chrono);
 CREATE INDEX chrono_document_document ON chrono_document(document);
 
 
+CREATE TABLE corpus (
+  -- Définition des corpus thématiques
+  id             INTEGER PRIMARY KEY,
+  code           TEXT UNIQUE NOT NULL,  -- identifiant technique
+  titre          TEXT NOT NULL,         -- titre affiché
+  description    TEXT,                  -- texte descriptif
+  docs           INTEGER DEFAULT 0      -- nombre de documents (calculé)
+);
+
+CREATE TABLE corpus_document (
+  -- Documents appartenant à chaque corpus
+  id             INTEGER PRIMARY KEY,
+  corpus         INTEGER NOT NULL,      -- corpus.id
+  corpus_code    TEXT NOT NULL,         -- corpus.code (provisoire)
+  document       INTEGER,               -- document.id (calculé)
+  document_code  TEXT NOT NULL          -- document.code
+);
+CREATE INDEX corpus_document_corpus ON corpus_document(corpus);
+CREATE INDEX corpus_document_document ON corpus_document(document);
+
   ";
   static private $doctype = array(
     "ms" => "Manuscrits",
