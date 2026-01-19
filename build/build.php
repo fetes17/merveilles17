@@ -1104,7 +1104,7 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
  */
 public static function corpus()
 {
-  $csvfile = self::$home."index/corpus.csv";
+  $csvfile = self::$home."build/corpus.csv";
   
   // Vérifier que le fichier existe
   if (!file_exists($csvfile)) {
