@@ -1105,6 +1105,9 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
 /**
  * Génération des pages corpus
  */
+/**
+ * Génération des pages corpus
+ */
 public static function corpus()
 {
   $csvfile = self::$home."index/corpus.csv";
@@ -1124,14 +1127,15 @@ public static function corpus()
   
   $debug_log .= "<p class='success'>✓ Fichier CSV trouvé : $csvfile</p>";
   
+  // ===== PHASE 1 : Charger les définitions (sans documents) =====
   $corpus_insert = self::$pdo->prepare("INSERT INTO corpus (code, titre, description) VALUES (?, ?, ?)");
-  $corpus_doc_insert = self::$pdo->prepare("INSERT INTO corpus_document (corpus_code, document_code) VALUES (?, ?)");
   
   self::$pdo->beginTransaction();
   
   $handle = fopen($csvfile, 'r');
   $first = true;
   $ligne_num = 0;
+  $corpus_list = array(); // Stocker les corpus pour la phase 2
   
   while (($row = fgetcsv($handle, 0, ';')) !== FALSE) {
     $ligne_num++;
@@ -1146,37 +1150,68 @@ public static function corpus()
     
     if (count($row) < 4) {
       $debug_log .= "<p class='error'>⚠️  Ligne $ligne_num : seulement " . count($row) . " colonnes</p>";
-      $debug_log .= "<pre>" . print_r($row, true) . "</pre>";
       continue;
     }
     
     list($code, $titre, $description, $sql_where) = $row;
     
-    $debug_log .= "<hr><h2>Corpus : $titre</h2>";
-    $debug_log .= "<p><strong>Code:</strong> '$code'</p>";
-    $debug_log .= "<p><strong>Description:</strong> $description</p>";
-    $debug_log .= "<p><strong>SQL WHERE:</strong><br><code>$sql_where</code></p>";
+    // Insérer seulement la définition du corpus
+    $corpus_insert->execute(array($code, $titre, $description));
+    
+    // Stocker pour la phase 2
+    $corpus_list[] = array(
+      'code' => $code,
+      'titre' => $titre,
+      'description' => $description,
+      'sql_where' => $sql_where
+    );
     
     echo "  -- Corpus: $titre\n";
+  }
+  
+  fclose($handle);
+  self::$pdo->commit(); // Commiter les définitions
+  
+  // ===== PHASE 2 : Ajouter les documents (HORS transaction) =====
+  $corpus_doc_insert = self::$pdo->prepare("INSERT INTO corpus_document (corpus_code, document_code) VALUES (?, ?)");
+  
+  foreach ($corpus_list as $corpus_def) {
+    $code = $corpus_def['code'];
+    $titre = $corpus_def['titre'];
+    $sql_where = $corpus_def['sql_where'];
     
-    $corpus_insert->execute(array($code, $titre, $description));
-    $corpus_id = self::$pdo->lastInsertId();
+    $debug_log .= "<hr><h2>Corpus : $titre</h2>";
+    $debug_log .= "<p><strong>Code:</strong> '$code'</p>";
+    $debug_log .= "<p><strong>Description:</strong> {$corpus_def['description']}</p>";
+    $debug_log .= "<p><strong>SQL WHERE:</strong><br><code>" . htmlspecialchars($sql_where) . "</code></p>";
     
     try {
       $sql = "SELECT code FROM document WHERE " . $sql_where;
       $debug_log .= "<p><strong>Requête SQL complète:</strong></p>";
       $debug_log .= "<pre>" . htmlspecialchars($sql) . "</pre>";
       
+      // IMPORTANT : Exécuter HORS transaction
       $stmt = self::$pdo->query($sql);
       $count = 0;
       $examples = array();
       
+      // Collecter tous les résultats d'abord
+      $documents = array();
       while ($doc = $stmt->fetch(PDO::FETCH_ASSOC)) {
-        $corpus_doc_insert->execute(array($code, $doc['code']));
-        $count++;
-        if ($count <= 5) {
+        $documents[] = $doc['code'];
+        if ($count < 5) {
           $examples[] = $doc['code'];
         }
+        $count++;
+      }
+      
+      // Insérer les relations dans une transaction séparée
+      if ($count > 0) {
+        self::$pdo->beginTransaction();
+        foreach ($documents as $doc_code) {
+          $corpus_doc_insert->execute(array($code, $doc_code));
+        }
+        self::$pdo->commit();
       }
       
       if ($count > 0) {
@@ -1192,14 +1227,12 @@ public static function corpus()
         // Tests de diagnostic
         $debug_log .= "<h3>Tests de diagnostic :</h3>";
         
-        // Test 1 : Combien de documents au total ?
         $total = self::$pdo->query("SELECT COUNT(*) FROM document")->fetchColumn();
         $debug_log .= "<p>Total documents en base : $total</p>";
         
-        // Test 2 : La sous-requête retourne-t-elle quelque chose ?
-        if (strpos($sql_where, 'SELECT') !== false) {
-          // Extraire la sous-requête (approximatif)
-          preg_match('/IN \((SELECT.*?)\)(?:\s|$)/i', $sql_where, $matches);
+        // Test la sous-requête si elle existe
+        if (strpos($sql_where, 'IN (SELECT') !== false) {
+          preg_match('/IN \((SELECT[^)]+(?:\([^)]+\))*[^)]*)\)/i', $sql_where, $matches);
           if (isset($matches[1])) {
             $subquery = $matches[1];
             try {
@@ -1207,10 +1240,10 @@ public static function corpus()
               $subresults = $test_stmt->fetchAll(PDO::FETCH_COLUMN);
               $debug_log .= "<p>Sous-requête retourne " . count($subresults) . " résultats</p>";
               if (count($subresults) > 0 && count($subresults) <= 10) {
-                $debug_log .= "<pre>" . print_r($subresults, true) . "</pre>";
+                $debug_log .= "<p>Exemples :</p><pre>" . implode("\n", array_slice($subresults, 0, 10)) . "</pre>";
               }
             } catch (PDOException $e) {
-              $debug_log .= "<p class='error'>Erreur sous-requête : " . htmlspecialchars($e->getMessage()) . "</p>";
+              $debug_log .= "<p class='error'>Erreur test sous-requête : " . htmlspecialchars($e->getMessage()) . "</p>";
             }
           }
         }
@@ -1222,10 +1255,7 @@ public static function corpus()
     }
   }
   
-  fclose($handle);
-  self::$pdo->commit();
-  
-  // Mise à jour des références
+  // ===== PHASE 3 : Mise à jour des références =====
   self::$pdo->exec("
     UPDATE corpus_document SET
       corpus=(SELECT id FROM corpus WHERE code=corpus_document.corpus_code),
@@ -1257,7 +1287,7 @@ public static function corpus()
   file_put_contents(self::$home."site/debug_corpus.html", $debug_log);
   echo "  ✓ Debug écrit dans site/debug_corpus.html\n";
   
-  // Générer les pages HTML (reste du code inchangé)
+  // ===== PHASE 4 : Générer les pages HTML =====
   Build::mkdir(Build::rmdir(self::$home."site/corpus/"));
   $template = str_replace("%relpath%", "../", self::$template);
   
