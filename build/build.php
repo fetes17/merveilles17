@@ -8,6 +8,7 @@ Merveilles17::documents();
 Merveilles17::lieux();
 Merveilles17::personnes();
 Merveilles17::techniques();
+Merveilles17::corpus(); 
 Merveilles17::control();
 
 
