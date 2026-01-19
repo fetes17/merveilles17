@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
+<?xml-stylesheet type="text/css" href="../tei-author.css" alternate="author"?>
+<?xml-model href="../merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Deuxième journée des Plaisirs de l'île enchantée. Moron et un ours, scène de
+                    la Princesse d’Elide</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Merveilles17</edition>
+                <respStmt>
+                    <name>Mathilde Nicolas</name>
+                    <resp>Encodage</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Gaëlle Lafage</name>
+                    <resp>Corrections</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Université d’Artois - Lille, MESHS</publisher>
+                <date when="2019"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl><title>Deuxième journée des Plaisirs de l'île enchantée. Moron et un ours,
+                        scène de la Princesse d’Elide</title>. <note>Dessin à la plume, à l'encre
+                        noire et au lavis gris, 57,4 x 41,8 cm, Paris, Archives nationales, O1 3239,
+                        n° 57</note><ptr
+                        target="http://www2.culture.gouv.fr/documentation/archim/menus-plaisirs.html"
+                    /></bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives Nationales</institution>
+                        <repository/>
+                        <idno>Cartes et plans, O1 3239, n° 57</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem/>
+                    </msContents>
+                    <physDesc>
+                        <p>Dessin à la plume, à l'encre noire et au lavis gris</p>
+                        <objectDesc form="dessin">
+                            <supportDesc>
+                                <extent>
+                                    <dimensions unit="cm">
+                                        <height>57,4</height>
+                                        <width>41,8</width>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date notBefore="1664">1664 ou postérieur</date>
+            </creation>
+        </profileDesc>
+    </teiHeader>
+    <sourceDoc>
+        <figure>
+            <graphic
+                url="https://api.nakala.fr/iiif/10.34847/nkl.f4e8bu90/a2bf92d6b390355aed87f04d47978c761b14aad7/full/full/0/default.jpg"/>
+
+            <figDesc>Dans une forêt, un homme est attaqué par un ours. Sa fourche est posée sur le
+                sol. <name key="moron"/><tech type="animal"/></figDesc>
+        </figure>
+    </sourceDoc>
+</TEI>
