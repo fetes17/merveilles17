@@ -1184,6 +1184,69 @@ public static function corpus()
   }
 }
 
+  public static function homepage()
+{
+  echo "=== Génération homepage ===\n";
+  
+  $template = str_replace("%relpath%", "", self::$template);
+  $html = file_get_contents(self::$home."build/pages/index.html");
+  
+  // Injecter la chronologie
+  $chrono = Build::transform(self::$home."index/chronologie.xml", self::$home."build/xsl/chrono.xsl");
+  $html = str_replace("%chrono%", $chrono, $html);
+  
+  // Injecter les corpus
+  $corpus = self::corpus_accueil();
+  $html = str_replace("%corpus%", $corpus, $html);
+  
+  file_put_contents(self::$home."site/index.html", str_replace("%main%", $html, $template));
+  
+  echo "Fichier écrit : site/index.html\n";
+}
+
+/**
+ * Génère les tuiles corpus pour la page d'accueil (max 6)
+ */
+private static function corpus_accueil()
+{
+  // Vérifie que les corpus existent
+  $count = self::$pdo->query("SELECT COUNT(*) FROM corpus")->fetchColumn();
+  if ($count == 0) {
+    return '';  // Pas de corpus → section vide
+  }
+  
+  $html = '<div class="card-deck corpus">'."\n";
+  
+  // Récupère les 6 premiers corpus (par ordre alphabétique)
+  $qcorpus = self::$pdo->prepare("SELECT * FROM corpus ORDER BY titre LIMIT 6");
+  $qcorpus->execute();
+  
+  while ($row = $qcorpus->fetch(PDO::FETCH_ASSOC)) {
+    // Cherche l'image du premier document du corpus
+    $qimg = self::$pdo->prepare("
+      SELECT document.code 
+      FROM corpus_document, document 
+      WHERE corpus_document.corpus = ? 
+        AND corpus_document.document = document.id 
+      LIMIT 1
+    ");
+    $qimg->execute(array($row['id']));
+    $doc = $qimg->fetch(PDO::FETCH_ASSOC);
+    
+    // Utilise l'image du document ou image par défaut
+    $img = $doc ? $doc['code'] : 'default';
+    
+    $html .= '  <a href="corpus/'.$row['code'].'.html" class="card corpus">'."\n";
+    $html .= '    <img src="document/S/'.$img.',S.jpg" onerror="this.src=\'images/accueil/doctype_ms.jpg\'"/>'."\n";
+    $html .= '    <div>'.$row['titre'].'</div>'."\n";
+    $html .= '  </a>'."\n";
+  }
+  
+  $html .= '</div>'."\n";
+  
+  return $html;
+}
+
 /**
  * Page index des corpus (tuiles comme sur l'accueil)
  */
