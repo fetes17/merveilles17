@@ -476,6 +476,8 @@ header.doctype>div:hover>span,
     overflow: scroll;
 }
 
+
+
 nav .role,
 .caldate {
     display: block;
@@ -566,6 +568,126 @@ nav a.role.active {
   height: 4rem;
   */
     text-align: center;
+}
+
+/* ========================================
+   CORPUS - Tuiles sur 2 lignes
+   ======================================== */
+
+.card-deck.corpus {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.card.corpus {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    background: white;
+}
+
+.card.corpus:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+    border-color: var(--rose);
+}
+
+.card.corpus img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    background: var(--grege);
+}
+
+.card.corpus:hover img {
+    opacity: 0.9;
+}
+
+.card.corpus .card-body {
+    padding: 1.5rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card.corpus h5 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #000;
+    line-height: 1.3;
+}
+
+.card.corpus:hover h5 {
+    color: var(--rose);
+}
+
+.card.corpus .card-text {
+    margin: 0;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.card.corpus .card-text small {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--bleu);
+}
+
+/* Page d'accueil - style simplifié */
+#accueil_corpus .card.corpus {
+    text-align: center;
+}
+
+#accueil_corpus .card.corpus > div {
+    padding: 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #000;
+    background: white;
+}
+
+#accueil_corpus .card.corpus:hover > div {
+    color: var(--rose);
+}
+
+/* Responsive - Tablettes (2 colonnes) */
+@media (max-width: 992px) {
+    .card-deck.corpus {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+    
+    .card.corpus img {
+        height: 240px;
+    }
+}
+
+/* Responsive - Mobile (1 colonne) */
+@media (max-width: 576px) {
+    .card-deck.corpus {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .card.corpus img {
+        height: 200px;
+    }
+    
+    .card.corpus .card-body {
+        padding: 1rem;
+    }
+    
+    .card.corpus h5 {
+        font-size: 1.1rem;
+    }
 }
 
 #accueil_tech {
