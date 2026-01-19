@@ -10,6 +10,7 @@ Merveilles17::personnes();
 Merveilles17::techniques();
 Merveilles17::corpus(); 
 Merveilles17::control();
+Merveilles17::homepage();
 
 
 
@@ -1506,22 +1507,26 @@ private static function corpus_page($corpus)
    * Copy ressources to site
    */
   public static function copy()
-  {
-    Build::rcopy(self::$home."build/images", self::$home."site/images");
-    Build::rcopy(self::$home."build/theme", self::$home."site/theme");
-    $template = str_replace("%relpath%", "", self::$template);
-    // copy static page
-    foreach (glob(self::$home."build/pages/*.html") as $srcfile) {
-      $html = file_get_contents($srcfile);
-      $basename = basename($srcfile);
-      if ($basename == 'index.html') {
-        $chrono = Build::transform(self::$home."index/chronologie.xml", self::$home."build/xsl/chrono.xsl");
-        $html = str_replace("%chrono%", $chrono, $html);
-      }
-      file_put_contents(self::$home."site/".$basename, str_replace("%main%", $html, $template));
+{
+  Build::rcopy(self::$home."build/images", self::$home."site/images");
+  Build::rcopy(self::$home."build/theme", self::$home."site/theme");
+  $template = str_replace("%relpath%", "", self::$template);
+  
+  // copy static page
+  foreach (glob(self::$home."build/pages/*.html") as $srcfile) {
+    $html = file_get_contents($srcfile);
+    $basename = basename($srcfile);
+    
+    if ($basename == 'index.html') {
+      // index.html sera généré plus tard par homepage()
+      continue;
     }
-    Build::mkdir(self::$home."site/data");
+    
+    file_put_contents(self::$home."site/".$basename, str_replace("%main%", $html, $template));
   }
+  
+  Build::mkdir(self::$home."site/data");
+}
 
 }
 
