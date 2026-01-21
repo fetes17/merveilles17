@@ -10,7 +10,7 @@ Merveilles17::personnes();
 Merveilles17::techniques();
 Merveilles17::corpus(); 
 Merveilles17::control();
-Merveilles17::homepage();
+Merveilles17::homepage(); 
 
 
 
@@ -1154,8 +1154,6 @@ public static function corpus()
     }
     
     list($code, $titre, $description, $sql_where) = $row;
-    // Décoder les entités HTML dans sql_where
-    $sql_where = html_entity_decode($sql_where, ENT_QUOTES | ENT_HTML5, 'UTF-8');
     
     // Insérer seulement la définition du corpus
     $corpus_insert->execute(array($code, $titre, $description));
