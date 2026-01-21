@@ -148,11 +148,13 @@
 
       </place>
     </place>
+    
 <place xml:id="luxembourg">
   <name>Luxembourg</name>
   <geo>49.3633, 6.0755</geo>
   <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Luxembourg</identifier>
 </place>
+    
     <place xml:id="pays_bas">
       <name>Pays-Bas</name>
       <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Pays-Bas</identifier>
@@ -238,6 +240,7 @@
           </place>
         </place>
       </place>
+      
       <place xml:id="Champagne">
         <name>Champagne</name>
         
@@ -788,6 +791,7 @@
           
         </place>
       </place>
+      
       <place xml:id="hainaut">
         <name>Hainaut</name>
         <identifier type="wikipedia"
@@ -963,6 +967,7 @@
               </place>
         </place>
       </place>
+      
       <place xml:id="picardie">
         <name>Picardie</name>
         <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Picardie</identifier>
@@ -1239,103 +1244,7 @@
         </place>
       </place>
 
-      <place xml:id="beaumont-sur-oise">
-        <name>Beaumont-sur-Oise</name>
-        <geo>49.1418, 2.2843</geo>
-        <country>France</country>
-        <settlement>Beaumont-sur-Oise</settlement>
-        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Beaumont-sur-Oise</identifier>
-        <identifier type="geonames">https://www.geonames.org/6452057</identifier>
-      </place>
-
-      <place xml:id="vincennes_chateau">
-        <name>Vincennes, Château de Vincennes</name>
-        <geo>48.842646, 2.435955</geo>
-        <country>France</country>
-        <settlement>Vincennes</settlement>
-        <identifier type="wikipedia"
-          >https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Vincennes</identifier>
-      </place>
-
-      <place xml:id="saint-cloud">
-        <name>Saint-Cloud</name>
-        <country>France</country>
-        <settlement>Saint-Cloud</settlement>
-
-        <place xml:id="saint-cloud_chateau">
-          <name>Saint-Cloud, Château de Saint-Cloud</name>
-          <name>Dom. Nat de Saint Cloud</name>
-          <geo>48.837627, 2.216655</geo>
-          <country>France</country>
-          <settlement>Saint-Cloud</settlement>
-          <identifier type="wikipedia"
-            >https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Saint-Cloud</identifier>
-
-          <place xml:id="saint-cloud_jardins">
-            <name>Saint-Cloud, Jardins du château de Saint-Cloud</name>
-            <name>Dom. Nat de Saint Cloud</name>
-            <geo>48.837486, 2.213790 </geo>
-            <country>France</country>
-            <settlement>Saint-Cloud</settlement>
-            <identifier type="wikipedia"
-              >https://fr.wikipedia.org/wiki/Domaine_national_de_Saint-Cloud</identifier>
-          </place>
-        </place>
-
-        <place xml:id="saint-cloud_ursulines">
-          <name>Saint-Cloud, Monastère des Ursulines de Saint-Cloud</name>
-          <name>9 rue d'Orléans (Saint-Cloud)</name>
-          <geo>48.840129, 2.219135</geo>
-          <country>France</country>
-          <settlement>Saint-Cloud</settlement>
-          <identifier type="wikipedia"
-            >https://fr.wikipedia.org/wiki/Domaine_national_de_Saint-Cloud</identifier>
-        </place>
-      </place>
-
-      <place xml:id="suresne_mont-valerien">
-        <name>Suresne, Mont Valérien</name>
-        <geo>48.873225, 2.213064</geo>
-        <country>France</country>
-        <settlement>Suresne</settlement>
-        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Mont_Val%C3%A9rien</identifier>
-      </place>
-      <place xml:id="fontainebleau">
-        <name>Fontainebleau</name>
-        <country>France</country>
-        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Fontainebleau</identifier>
-        <identifier type="mg">289</identifier>
-        <identifier type="geonames">http://sws.geonames.org/6443660</identifier>
-        <place xml:id="fontainebleau_chateau">
-          <name>Fontainebleau, Château de Fontainebleau</name>
-          <geo>48.402445, 2.701357</geo>
-          <country>France</country>
-          <settlement>Fontainebleau</settlement>
-          <identifier type="wikipedia"
-            >https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Fontainebleau</identifier>
-          <identifier type="geonames">https://www.geonames.org/7535589</identifier>
-          <identifier type="mg">290</identifier>
-          <place xml:id="fontainebleau_chapelle">
-            <name>Fontainebleau, Chapelle de Fréminet</name>
-            <name>Chapelle de la Trinité</name>
-            <geo>48.402140, 2.699699</geo>
-            <country>France</country>
-            <settlement>Fontainebleau</settlement>
-            <identifier type="wikipedia"
-              >https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Fontainebleau</identifier>
-            <identifier type="mg">295</identifier>
-          </place>
-        </place>
-        <place xml:id="fontainebleau_hotel-albret">
-          <name>Fontainebleau, Hôtel d'Albret</name>
-          <name>4 rue d'Avon</name>
-          <geo>48.403888, 2.703131</geo>
-          <country>France</country>
-          <settlement>Fontainebleau</settlement>
-          <identifier type="wikipedia"
-            >https://fr.wikipedia.org/wiki/Fichier:Pavillon_d%27entree_de_l%27ancien_H%C3%B4tel_d%27Albret_15_place_d%27Armes_a_Fontainebleau_DSC_0035.jpg</identifier>
-        </place>
-      </place>
+     
 
       <place xml:id="lyon">
         <name>Lyon</name>
@@ -1348,6 +1257,103 @@
 <place xml:id="ile_de_france">
   <name>Île-de-France</name>
   
+  <place xml:id="beaumont-sur-oise">
+    <name>Beaumont-sur-Oise</name>
+    <geo>49.1418, 2.2843</geo>
+    <country>France</country>
+    <settlement>Beaumont-sur-Oise</settlement>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Beaumont-sur-Oise</identifier>
+    <identifier type="geonames">https://www.geonames.org/6452057</identifier>
+  </place>
+  
+  <place xml:id="vincennes_chateau">
+    <name>Vincennes, Château de Vincennes</name>
+    <geo>48.842646, 2.435955</geo>
+    <country>France</country>
+    <settlement>Vincennes</settlement>
+    <identifier type="wikipedia"
+      >https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Vincennes</identifier>
+  </place>
+  
+  <place xml:id="saint-cloud">
+    <name>Saint-Cloud</name>
+    <country>France</country>
+    <settlement>Saint-Cloud</settlement>
+    
+    <place xml:id="saint-cloud_chateau">
+      <name>Saint-Cloud, Château de Saint-Cloud</name>
+      <name>Dom. Nat de Saint Cloud</name>
+      <geo>48.837627, 2.216655</geo>
+      <country>France</country>
+      <settlement>Saint-Cloud</settlement>
+      <identifier type="wikipedia"
+        >https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Saint-Cloud</identifier>
+      
+      <place xml:id="saint-cloud_jardins">
+        <name>Saint-Cloud, Jardins du château de Saint-Cloud</name>
+        <name>Dom. Nat de Saint Cloud</name>
+        <geo>48.837486, 2.213790 </geo>
+        <country>France</country>
+        <settlement>Saint-Cloud</settlement>
+        <identifier type="wikipedia"
+          >https://fr.wikipedia.org/wiki/Domaine_national_de_Saint-Cloud</identifier>
+      </place>
+    </place>
+    
+    <place xml:id="saint-cloud_ursulines">
+      <name>Saint-Cloud, Monastère des Ursulines de Saint-Cloud</name>
+      <name>9 rue d'Orléans (Saint-Cloud)</name>
+      <geo>48.840129, 2.219135</geo>
+      <country>France</country>
+      <settlement>Saint-Cloud</settlement>
+      <identifier type="wikipedia"
+        >https://fr.wikipedia.org/wiki/Domaine_national_de_Saint-Cloud</identifier>
+    </place>
+  </place>
+  
+  <place xml:id="suresne_mont-valerien">
+    <name>Suresne, Mont Valérien</name>
+    <geo>48.873225, 2.213064</geo>
+    <country>France</country>
+    <settlement>Suresne</settlement>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Mont_Val%C3%A9rien</identifier>
+  </place>
+  <place xml:id="fontainebleau">
+    <name>Fontainebleau</name>
+    <country>France</country>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Fontainebleau</identifier>
+    <identifier type="mg">289</identifier>
+    <identifier type="geonames">http://sws.geonames.org/6443660</identifier>
+    <place xml:id="fontainebleau_chateau">
+      <name>Fontainebleau, Château de Fontainebleau</name>
+      <geo>48.402445, 2.701357</geo>
+      <country>France</country>
+      <settlement>Fontainebleau</settlement>
+      <identifier type="wikipedia"
+        >https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Fontainebleau</identifier>
+      <identifier type="geonames">https://www.geonames.org/7535589</identifier>
+      <identifier type="mg">290</identifier>
+      <place xml:id="fontainebleau_chapelle">
+        <name>Fontainebleau, Chapelle de Fréminet</name>
+        <name>Chapelle de la Trinité</name>
+        <geo>48.402140, 2.699699</geo>
+        <country>France</country>
+        <settlement>Fontainebleau</settlement>
+        <identifier type="wikipedia"
+          >https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Fontainebleau</identifier>
+        <identifier type="mg">295</identifier>
+      </place>
+    </place>
+    <place xml:id="fontainebleau_hotel-albret">
+      <name>Fontainebleau, Hôtel d'Albret</name>
+      <name>4 rue d'Avon</name>
+      <geo>48.403888, 2.703131</geo>
+      <country>France</country>
+      <settlement>Fontainebleau</settlement>
+      <identifier type="wikipedia"
+        >https://fr.wikipedia.org/wiki/Fichier:Pavillon_d%27entree_de_l%27ancien_H%C3%B4tel_d%27Albret_15_place_d%27Armes_a_Fontainebleau_DSC_0035.jpg</identifier>
+    </place>
+  </place>
   <place xml:id="chantilly">
     <name>Chantilly</name>
     <geo>49.19461, 2.47124</geo>
@@ -2504,6 +2510,6 @@
             <identifier type="geonames">https://www.geonames.org/258763/crete.html</identifier>
           </place>
         </place>
-  </place>
+
 
 </listPlace>
