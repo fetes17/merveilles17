@@ -1154,6 +1154,7 @@ public static function corpus()
     }
     
     list($code, $titre, $description, $sql_where) = $row;
+    $sql_where = html_entity_decode($sql_where, ENT_QUOTES | ENT_HTML5, 'UTF-8');
     
     // Insérer seulement la définition du corpus
     $corpus_insert->execute(array($code, $titre, $description));
