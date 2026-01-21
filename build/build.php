@@ -10,7 +10,7 @@ Merveilles17::personnes();
 Merveilles17::techniques();
 Merveilles17::corpus(); 
 Merveilles17::control();
-Merveilles17::homepage();
+Merveilles17::homepage(); 
 
 
 
