@@ -2,6 +2,6 @@ code;titre;description;sql_where
 div1664;Les divertissements de la cour en 1664;Tous les divertissements de la cour en 1664;code IN (SELECT document_code FROM chrono_document WHERE chrono IN (SELECT id FROM chrono WHERE start LIKE '1664%'))
 versailles;Les fêtes de Versailles;Les divertissements de la cour à Versailles;code IN (SELECT document_code FROM lieu_document WHERE lieu IN (SELECT id FROM lieu WHERE path LIKE '/france/versailles%'))
 ballets;Les ballets à la cour;Sélection de ballets et de comédies-ballets dansées à la cour;code IN (SELECT document_code FROM chrono_document WHERE chrono IN (SELECT id FROM chrono WHERE label LIKE '%ballet%' COLLATE NOCASE))
-improyale;Les livres de fêtes de l'Imprimerie royale;Les fêtes dans la collection du Cabinet du Roi;publine LIKE '%Imprimerie royale%'
+improyale;Les livres de fêtes de l'Imprimerie royale;Les fêtes dans la coll. du Cabinet du Roi;publine LIKE '%Imprimerie royale%'
 flandres17;Voyages de Louis XIV dans les Flandres;Publications entourant les entrées et fêtes dans les Flandres;code LIKE '%flandres17%' COLLATE NOCASE
 antilope;Villers-Cotterêts;Publications entourant la fête célébrant le sacre de Louis XV;code LIKE '%antilope%' COLLATE NOCASE
