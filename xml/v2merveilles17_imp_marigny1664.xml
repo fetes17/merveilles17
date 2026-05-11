@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
+<?xml-stylesheet type="text/css" href="../style/tei-author.css" alternate="author"?>
+<?xml-model href="https://fetes17.github.io/merveilles17/merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Relation des divertissements que le roi a donné aux reines dans le parc de Versailles, écrite à un gentilhomme qui est présentement hors de France.</title>
+        <author key="">Marigny, Jacques Carpentier de (1615, 1673)</author> <!-- Pas de @key -->
+      </titleStmt>
+      <editionStmt>
+        <edition>Merveilles17</edition>
+        <respStmt>
+          <name>DAENINCKX, Mickaël</name>
+          <resp>Transcription et balisage</resp>
+        </respStmt>
+        <respStmt>
+          <name>BORDAGE, Eliot</name>
+          <resp>Relecture</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université d’Artois - Lille, MESHS</publisher>
+        <date when="2026"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Marigny, 
+          <title>Relation des divertissements que le roi a donné aux reines dans le parc de Versailles, écrite à un gentilhomme qui est présentement hors de France.</title> 
+          <note>Paris, Barbin, 1664.</note>
+          <ptr target="https://gallica.bnf.fr/ark:/12148/bpt6k71691f/f4.item"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1664">1664</date>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <pb n="np" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f5.item"/>
+      <titlePage>
+        <docTitle>
+          <titlePart>RELATION DES DIVERTISSEMENS que le <persName key="louisxiv" role="commanditaire">Roy</persName> a donnés aux <persName key="marie_therese" role="destinataire">Reines</persName> <!-- Qui sont désignées par cette expression ? -->
+            dans le <placeName key="versailles_grand-parc">Parc de Versaille</placeName>.</titlePart>
+          <titlePart>ECRITE A UN <name key="monsieur">GENTIL-HOMME</name> qui est presentement hors de <placeName key="france">France</placeName>.</titlePart>
+        </docTitle>
+        <docImprint>A <placeName key="paris">PARIS</placeName>,</docImprint>
+        <docImprint>Chez <persName key="" role="imprimeur">CHARLES DE SERCY</persName> <!-- Pas de @key -->, au Palais,
+          au sixième Pilier de la grand’Salle, vis à vis la montée de la Cour des Aydes, à la bonne Foy couronnée</docImprint>
+        <docDate><date when="1664">M. DC. LXIV</date>.</docDate>
+        <imprimatur>Avec Privilege du <persName key="louisxiv">Roy</persName>.</imprimatur>
+      </titlePage>
+    </front>
+    <body>
+      <pb n="1" xml:id="p1" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f7.item"/>
+      <head><name key="monsieur">MONSIEUR</name></head>
+      <p>A MON retour de <placeName key="versailles">Versaille</placeName>, j’ay trouvé une de vos Lettres,
+        dans laquelle vous me paroissez fort curieux de sçavoir des nouvelles, qui puissent vous divertir agreablement pen
+        <pb n="2" xml:id="p2" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f8.item"/>
+        dant vostre voyage. Il est certain, <name key="monsieur">Monsieur</name>,
+        que les plus belles &amp; les plus importantes que l’on pourroit vous écrire, se font au lieu d’où je viens ;
+        mais comme à force de ne rien faire, l’on devient paresseux, dispensez-moy, de grace,
+        d’un employ qui n’est pas propre à un faineant, comme je suis, &amp; contentez-vous,
+        que je vous adresse à des gens que vous connoissez, &amp; qui s’en acquitteront le plus
+        <pb n="3" xml:id="p3" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f9.item"/>
+        aisément du monde, pour peu qu’ils ayent envie de vous complaire.
+        N’est-il pas vray, que si <persName key="colbert">Monsieur Colbert</persName> vouloit, il pourroit vous faire part des salutaires
+        avis qu’il donne au <persName key="louisxiv">Roy</persName>, pour reformer les abus, qui s’estoient glissez dans l’administration des Finances,
+        &amp; des sages resolutions que prend <persName key="louisxiv">Sa Majesté</persName>, pour y rétablir un ordre
+        aussi necessaire pour le bien de ses affaires, qu’il est avantageux 
+        <pb n="4" xml:id="p4" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f10.item"/>
+        pour le soulagement de ses Sujets ? Si <persName key="françois_michel_le_tellier_de_louvoy">Monsieur le Tellier</persName>
+        se vouloit donner la peine de vous écrire le détail des affaires qui luy passent par les mains,
+        ne seriez-vous pas beaucoup mieux instruit du secret de tous les mouvemens que font toutes les trouppes du Royaume,
+        que ceux mesmes que les commandent ? Et s’il plaisoit à <persName key="">Monsieur de Lyonne</persName> <!-- Pas de @key -->
+        de vous donner quelque connoissance des affaires étrangeres, n’en 
+        <pb n="5" xml:id="p5" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f11.item"/>
+        apprendriez-vous pas beaucoup plus par un seul ordinaire, que n’en ont appris pour leur
+        argent les Ministres des Princes Etrangers qui achetoient les faux Extraits de ce miserable <name key="copiste">Copiste</name>,
+        qui expliqua, il y a quelque temps, ses dernieres volontez en Gréve ?</p>
+      <p>Hé bien, <name key="monsieur">Monsieur</name>, vous voyez ce me semble, que je vous donne d’assez bons expediens pour vous instruire des 
+        <pb n="6" xml:id="p6" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f12.item"/>
+        plus fines nouvelles de la Cour. Car ne croyez pas que depuis que vous estes party,
+        il y ait eu quelque changement au Ministere, &amp; que le <persName key="louisxiv">Roy</persName>
+        ait ajouté quelque nouvelle rouë à la machine de l’Estat, afin de la faire mouvoir plus aisément.
+        Il a creu jusqu’icy, que le nombre de trois, étoit le nombre de perfection, &amp; se servant de ces trois Ministres,
+        comme <name key="dieu">Dieu</name> se sert des causes secondes, il les ho
+        <pb n="7" xml:id="p7" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f13.item"/>
+        nore seuls autant qu’il luy plaist du secret de ses affaires.
+        Ils ont seuls la connoissance qu’il veut leur donner de ce qui se passe dans <tech type="construction">le Cabinet</tech> ;
+        le reste de la Cour pour ne point demeurer dans l’oisiveté, a la liberté de méditer sur ce qui se passe au dehors.</p>
+      <p>Vous voilà maintenant aussi bien informé que vous le pouvez estre par un homme comme moy, &amp; je pense que je pourrois honnestement 
+        <pb n="8" xml:id="p8" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f14.item"/>
+        fermer mon pacquet, en y adjoûtant les imprimez que je vous envoye
+        des divertissemens que le <persName key="louisxiv" role="commanditaire">Roy</persName> a donnez aux <persName key="marie_therese" role="destinataire">Reines</persName> <!-- Qui sont désignées par cette expression ? -->, pendant quelques jours ;
+        si je n’apprehendois quelque reproche de ne vous avoir pas dit mon sentiment sur une Feste, aussi galante que magnifique,
+        puisque j’ay esté assez heureux pour estre du nombre des spectateurs.</p>
+      <p>Il n’est pas necessaire que je vous fasse icy la 
+        <pb n="9" xml:id="p9" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f15.item"/>
+        peinture de <placeName key="versailles">Versaille</placeName>, vous en connoissez toutes les beautez,
+        &amp; vous sçavez avec quel art le <persName key="louisxiv">Roy</persName> a renfermé dans la petitesse de cette Maison,
+        tout ce qui se peut trouver de magnifique &amp; de galand, dans <tech type="construction">les plus superbes Palais</tech>
+        que l’Architecture puisse imaginer.</p>
+      <lg>
+        <l>Quand le grand <name key="archimede">Archimede</name> estonnant nos ayeux</l>
+        <l>Leur fit voir comme une merveille,</l>
+        <l>Dans un petit cristal la beauté nompareille,</l>
+        <l>Et tous les mouvemens des Cieux.</l>
+        <l>
+          <pb n="10" xml:id="p10" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f16.item"/>
+          <name key="jupiter">Juppiter</name> fut surpris voyant que sur la terre</l>
+        <l>L’art ingenieux des humains</l>
+        <l>S’estoit ainsi joüé dans un fragile verre,</l>
+        <l>De plus grand œuvre de ses mains.</l>
+      </lg>
+      
+      <p>L’on arrive par <placeName key="versailles_jardins_grande-allee">la grande Allée</placeName> <!-- Pas de @key -->, qui est au bout du <placeName key="">Parterre</placeName> <!-- Pas de @key -->,
+        dans un rond fort spacieux, coupé par <placeName key="">une autre Allée de mesme
+          largeur </placeName> <!-- Pas de @key -->; ce lieu qui est à cinq ou six cens pas du <placeName key="versailles_chateau">Chasteau</placeName>,
+        fut choisi pour le plus propre à faire paroistre les premiers divertissemens du <place key="palais_alcine">Palais enchanté</place>
+        d’<name key="alcine">Al</name>
+        <pb n="11" xml:id="p11" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f17.item"/>
+        <name key="alcine">cine</name>. L’on avoit élevé dans <placeName key="versailles_jardins_avenues">les quatre avenuës du Rond</placeName>,
+        de <tech type="construction">grands Portiques ornez</tech> au dehors &amp; au dedans, des <tech type="decor">Armes</tech>,
+        &amp; des <tech type="decor">Chiffres</tech> de <persName key="louisxiv">Sa Majesté</persName>.
+        L’on avoit mis le haut Dais justement à l’entrée du Rond &amp; derriere en remontant dans l’<placeName key="">Allée</placeName> <!-- Pas de @key -->, l’on avoit arrangé
+        des bancs en forme d’<tech type="construction">Amphitheatre</tech> pour placer deux cent personnes.
+        De <tech type="machine">grandes Machines</tech> entrelacées dans les <tech type="decor">Arbres</tech> du Rond, soûte
+        <pb n="12" xml:id="p12" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f18.item"/>
+        noient des <tech type="decor">Chandeliers</tech> garnis d’un <tech type="lumieres">nombre infiny de Flambeaux</tech>,
+        pour faire, s’il estoit possible, <tech type="lumieres">une lumiere égale à celle du Soleil</tech>,
+        lors qu’il auroit fait place à la nuit.</p>
+      <p>Aussi-tost que <persName key="marie_therese">les Reines</persName> <!-- Qui sont désignées par cette expression ? --> surent arrivées, l’on entendit
+        <tech type="bruitage">un grand bruit de Timbales &amp; de Trompettes</tech>, qui estoit le signal que
+        <name key="paladin">les Paladins</name> estoient prests à parestre dans le Camp. N’attendez pas,
+        <name key="monsieur">Monsieur</name>, que je vous 
+        <pb n="13" xml:id="p13" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f19.item"/>
+        décrive en détail <tech type="costume">la magnificence de leurs Habits</tech>, &amp; de toute leur suitte ;
+        qu’il vous suffise d’apprendre par cette Relation, quelques particularitez que vous ne trouverrez point
+        dans les Imprimez, &amp; que l’on n’y avoit pas voulu mettre à dessein de surprendre plus agréablement
+        toute l’assemblée.</p>
+      <p>On vit donc entrer d’abord par l’<placeName>Allée</placeName> qui estoit à la gauche du haut Dais un Herault 
+        <pb n="14" xml:id="p14" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f20.item"/>
+        d’Armes avec le <name key="page">Page</name> du <name key="roger">Paladin Roger</name>,
+        celuy du <name key="marechal_camp">Mareschal de Camp</name>, &amp; celuy du <name key="juge_courses">Juge des Courses</name>,
+        avec les <tech type="decor">Lances</tech> &amp; les <tech type="decor">Ecus</tech> de leurs Maistres :
+        ils estoient suivis de <tech type="musique">deux Timbaliers</tech>, &amp; de <tech type="musique">quatre Trompettes</tech>
+        qui marchoient devant le <name key="marechal_camp">Mareschal de Camp</name>, suivy de <tech type="musique">huit autres Trompettes</tech>,
+        &amp; de <tech type="musique">quatre Timbaliers</tech> qui marchoient devant <name key="roger">l’incomparable Roger</name>,
+        Chef de cette illustre Quadrille. 
+        <pb n="15" xml:id="p15" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f21.item"/>
+        A peine parut-il dans la place, que l’on entendit des <tech type="bruitage">cris de joye &amp; d’admiration</tech>,
+        que le respect, &amp; l’amour que l’on a pour luy, faisoient éclater de toutes parts :
+        Car, <name key="monsieur">Monsieur</name>,</p>
+      <lg>
+        <l>Soit qu’il marche pour faire une illustre conqueste,</l>
+        <l>Soit que se delassant avecques ses <name>guerriers</name>,</l>
+        <l>Pour joindre quelque <name key="mirthe">Mirthe</name> à ses fameux Lauriers</l>
+        <l>Il vueille honorer une Feste ;</l>
+        <l>Il a beau se cacher sous l’habit d’un <name key="berger">Berger</name>,</l>
+        <l>D’un <name key="romain">Romain</name>, de <name key="mars">Mars</name>, de <name key="roger">Roger</name></l>
+        <l>
+        <pb n="16" xml:id="p16" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f22.item"/>
+        Soudain sa grace sans seconde,</l>
+        <l>Son air majestueux, certain je ne sçay quoy,</l>
+        <l>Fait connoistre que c’est le <persName key="louisxiv">Roy</persName>,</l>
+        <l>Et le <persName key="louisxiv">Roy</persName> le plus grand du monde.</l>
+      </lg>
+      
+      <p>Aprés <name key="paladin">les Paladins</name> l’on vit entrer <name key="apollon">Apollon</name>
+        sur <tech type="machine">un Char d’une hauteur prodigieuse</tech>, &amp; tout <tech type="lumieres">brillant d’or, d’azur,
+          &amp; de cent autres couleurs differentes</tech>. Ce <tech type="musique">Char</tech>
+        estoit traisné par <tech type="animal">quatre superbes chevaux de different poil</tech>,
+        attelez tous quatre de front. Ne vous allez pas imaginer qu’on les eust pris dans 
+        <place key="ecurie_apollon">l’Ecurie</place> d’<name key="apollon">A</name>
+        <pb n="17" xml:id="p17" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f23.item"/>
+        <name key="apollon">pollon</name>, &amp; que ce fussent ceux, dont il se sert pour faire sa course journaliere ;
+        on les avoit pris dans l’Ecurie du <persName key="louisxiv">Roy</persName>,
+        &amp; si leur fierté paroissoit meslée de quelque inquietude, c’est qu’ils sentoient bien
+        qu’ils n’avoient pas une charge si Auguste, que celle qu’ils ont coustume d’avoir tous les jours.</p>
+      
+      <lg>
+        <l>Ainsi l’on nous a fait entendre</l>
+        <l>Que jadis le fier <tech type="animal">Bucefal</tech></l>
+        <l>Poussé d’un mesme orgueil, &amp; d’un dépit égal</l>
+        <l>Ne vouloit porter qu’<name key="alexandre">Alexandre</name>.</l>
+      </lg>
+      
+      <p>
+        <pb n="18" xml:id="p18" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f24.item"/>
+        <name key="apollon">Apollon</name> avoit à ses pieds les <name key="siecle">quatre Siècles</name>,
+        &amp; moy qui vous écris, j’avois aux miens <name key="barbon">deux Barbons</name> &amp; 
+        <name key="duenne">trois <!-- Eliot Bordage : 2026-04-28T13:41:00
+      Orthographiquement, d’après mes recherches, ça s’écrit «Duennes», il y a pas d’apostrophe. -->Duen’nes</name>, 
+      qui avoient assez d’âge pour en composer quatre autres, &amp; quelque chose mesme de plus,
+      si l’on en eust eu besoin pour achever de remplir le <tech type="machine">Char</tech>.</p>
+      <p><persName key="" role="participant">Milet</persName> <!-- Pas de @key --> le premier conducteur qui soit au monde, faisoit voir son addresse en cette occasion,
+        il estoit vestu comme 
+        <pb n="19" xml:id="p19" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f25.item"/>
+        l’on peint le <name key="temps">Temps</name>, il sembloit estre d’une taille plus grande que la naturelle,
+        je croy que vous ne vous en estonnerez pas, non plus que beaucoup d’autres qui sçavent, que</p>
+      
+      <lg>
+        <l>Quelquefois à la Cour le Temps</l>
+        <l>Paroist fort long aux Courtisans.</l>
+      </lg>
+      
+      <p>Le <tech type="machine">Char</tech> estoit environné des <name key="heure">douze Heures du jour</name>
+        &amp; des <name key="zodiaque">douze Signes du Zodiaque</name>, &amp; suivy des <name key="page">Pages</name>
+        des <name key="chevalier">Chevaliers</name> portans leur <tech type="decor">Lan</tech>
+        <pb n="20" xml:id="p20" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f26.item"/>
+        <tech type="decor">ces</tech>, &amp; <tech type="decor">les Ecus de leurs Devises</tech>,
+        &amp; de vingt Pasteurs chargez des pieces de la Barriere, dont la lice fut formée dans un moment,
+        lors que les <name key="paladin">Paladins</name> voulurent courre la Bague.</p>
+      <p>Le Temps <persName key="" role="participant">Milet</persName> <!-- Pas de @key --> fit tourner deux ou trois fois au tour de la place,
+        le <tech type="machine">Char</tech> d’<name key="apollon">Apollon</name>,
+        il ne paroissoit point du tout embarassé de son employ ; car menant tous les jours aussi heureusement,
+        &amp; aussi adroittement qu’il 
+        <pb n="21" xml:id="p21" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f27.item"/>
+        fait le plus pretieux <tech type="machine">Char</tech> du monde, il sçavoit bien que quand celuy-cy
+        seroit renversé, l’accident au pis aller, n’auroit esté fatal qu’au Theatre de <persName key="moliere">Moliere</persName>,
+        &amp; que celuy de l’<placeName key="paris_hotel-bourgogne">Hostel de Bourgogne</placeName>
+        s’en seroit aisément consolé. Le <tech type="machine">Char</tech> s’estant arresté devant 
+        <persName key="marie_therese" role="spectateur">les Reines</persName> <!-- Qui sont désignées par cette expression ? -->, <name key="apollon">Apollon</name> &amp; les 
+        <name key="siecle">quatre Siecles</name> reciterent les vers, que vous pouvez lire dans le Livre imprimé.
+        Ce recit estant achevé, <name key="apollon">Apollon</name> &amp; tous veux qui le 
+        <pb n="22" xml:id="p22" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f28.item"/>
+        suivoient sortirent de la place, &amp; les <name key="chevalier">Chevaliers</name> commencerent la course de Bague.</p>
+      <p>Je ne m’amuseray point icy à vous en faire tout le détail, il suffit de vous dire que tous firent parfaitement leur devoir,
+        &amp; que la voix publique donna le prix des plus belles &amp; des plus justes courses au 
+        <name key="roger">Paladin Roger</name>. Toutes les fois que le <persName key="" role="participant">grand Soyecour</persName> <!-- Pas de @key --> couroit,
+        l’on entendoit quelques voix feminines se recrier en sa 
+        <pb n="23" xml:id="p23" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f29.item"/>
+        faveur. Cependant la Bague fut long-temps disputée, entre <persName key="henri_ii_de_guise" role="participant">Monsieur le Duc de Guise</persName>
+        &amp; le <persName key="jf_de_labaume" role="participant">Marquis de la Valiere</persName> qui eut enfin l’avantage,
+        &amp; quoy que l’on n’eust proposé aucun prix pour la couse de Bague, la <persName key="anne_d_autriche" role="spectateur">Reine Mere</persName>
+        qui ne sçauroit s’empescher d’estre magnifique, lors qu’il s’en presente la moindre occasion,
+        recompensa l’addresse du <persName key="jf_de_labaume" role="participant">Marquis de la Valiere</persName>,
+        en luy donnant une Espée &amp; un <tech type="costume">Bau</tech>
+        <pb n="24" xml:id="p24" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f30.item"/>
+        <tech type="costume">drier garnis de Diamans</tech>, je suis tres-persuadé que vous ne ferez point surpris
+        du procedé de <persName key="anne_d_autriche" role="spectateur">Sa Majesté </persName>; car vous sçavez bien, que</p>
+      
+      <lg>
+        <l>Afin qu’elle enseignast aux plus grand Souverains</l>
+        <l>Quelles sont les vertus Royales,</l>
+        <l>Le <name key="ciel">Ciel</name> luy fit present de mains</l>
+        <l>Belles, blanches, &amp; liberales.</l>
+      </lg>
+      
+      <p>La nuit estant survenuë, le <placeName key="">Camp</placeName><!-- Pas de @key --> fut éclairé
+        d’<tech type="lumieres">un nombre infiny de lumieres</tech>, &amp; tous les <name key="chevalier">Chevaliers</name>
+        s’estant retirez, l’on vit entrer l’<name key="orphee">Orphée</name> 
+        <pb n="25" xml:id="p25" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f31.item"/>
+        de nos jours, vous entendez bien que je veux dire <persName key="lully">Lully</persName>,
+        à la teste d’une grande trouppe de Concertants, qui s’estant approchez au petit pas,
+        &amp; à la cadence de leurs instruments prés des <persName key="marie_therese" role="spectateur">Reines</persName> <!-- Qui sont désignées par cette expression ? -->,
+        se separerent en deux bandes à droit &amp; à gauche du haut Dais, en bordant les 
+        <tech type="construction">pallissades</tech> du <placeName key="">Rond</placeName><!-- Pas de @key -->,
+        &amp; en mesme temps l’on vit arriver par l’<placeName key="">Allée</placeName><!-- Pas de @key --> qui estoit à la main droite
+        les <name key="printemps"><name key="ete"><name key="automne"><name key="hiver">quatre Saisons</name></name></name></name> ;
+        le <name key="printemps">Printemps</name> 
+        <pb n="26" xml:id="p26" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f32.item"/>
+        sur un <tech type="animal">grand cheval d'Espagne</tech>, l’<name key="ete">Esté</name>
+        sur un <tech type="animal">Elephant</tech>, l’<name key="automne">Automne</name> sur un
+        <tech type="animal">Chameau</tech>, &amp; l’<name key="hiver">Hyver</name> sur un
+        <tech type="animal">Ours</tech> ; les <name key="printemps"><name key="ete"><name key="automne"><name key="hiver">Saisons</name></name></name></name>
+        estoient accompagnées de <name key="jardinier">douze Jardiniers</name>,
+        <name key="moissonneur">douze Moissonneurs</name>, <name key="vendangeur">douze Vendangeurs</name>,
+        &amp; <name key="vieillard">douze Vieillards </name>; ils marquoient la difference de leurs saisons par
+        <tech type="decor">des Fleurs, des Epics, des Fruits</tech>, &amp; <tech type="decor">des Glaces</tech>,
+        &amp; portoient sur leurs testes les bassins de la collation.</p>
+      <p>
+        <pb n="27" xml:id="p27" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f33.item"/>
+        Une <tech type="machine">grande Machine d’Arbres</tech> artistement entremeslez,
+        &amp; qui s’élevoient presque à la hauteur de ceux des <placeName key="">Allées</placeName><!-- Pas de @key -->,
+        parut dans la place, &amp; s’approcha insensiblement des <persName key="marie_therese" role="spectateur">Reines</persName> <!-- Qui sont désignées par cette expression ? -->.
+        <name key="pan">Pan</name> &amp; <name key="diane">Diane</name>
+        estoient assis sur <tech type="decor">les plus hautes branches</tech> de ces <tech type="decor">Arbres</tech>,
+        &amp; cette <tech type="machine">Machine</tech> estoit devancée par un 
+        <tech type="musique">Concert de Haubois, &amp; de Flûtes</tech>, &amp; suivie d’une 
+        <name key="troupe_faune">trouppe de Faunes</name> qui portoient des viandes de la <place key="menagerie_pan">ména</place>
+        <pb n="28" xml:id="p28" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f34.item"/>
+        <place key="menagerie_pan">gerie</place> de <name key="pan">Pan</name>,
+        &amp; de la chasse de <name key="diane">Diane </name>;
+        aprés marchoient les <name key="page">Pages</name> qui devoient servir les Dames à la table.</p>
+      <p>Aussi-tost que cette grand <name key="troupe_faune">Trouppe</name> eut pris place, <name key="printemps"><name key="ete"><name key="automne"><name key="hiver">les quatre Saisons</name></name></name></name>,
+        <name key="pan">Pan</name>, &amp; <name key="diane">Dianne</name>
+        s’approcherent de la <persName key="marie_therese" role="spectateur">Reine</persName>, &amp; luy dirent les Vers,
+        que vous prendrez, s’il vous plaist, la peine de lire dans l’imprimé.</p>
+      <p>Ce Recit fait, les <name key="heure">Heures</name> qui avoient accompagné le <tech type="machine">Char</tech>
+        d’<name key="apollon">Apol</name>
+        <pb n="29" xml:id="p29" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f35.item"/>
+        <name key="apollon">lon</name>, vinrent danser une entrée de Balet,
+        avec les <name key="zodiaque">douze Signes du Zodiaque</name>,
+        pendant que les <persName key="">Controlleurs</persName><!-- Pas de @key --> de la Maison du <persName key="louisxiv">Roy</persName>,
+        qui represensoient l’abondance, la joye, la propreté, &amp; la bonne chere,
+        firent apporter vis à vis du haut Dais, de l’autre costé du <placeName key="">Rond</placeName><!-- Pas de @key -->,
+        une <tech type="construction">grande Table en forme de Croissant, ornée de Festons</tech>,
+        &amp; enrichie d’<tech type="lumieres">un nombre infiny de Fleurs</tech>, &amp; si-tost qu’elle fût cou
+        <pb n="30" xml:id="p30" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f36.item"/>
+        verte, par les Jeux, les Ris, &amp; les Delices, l’on ouvrit le milieu de la
+        <tech type="construction">Barriere</tech> pour laisser passer <persName key="louisxiv" role="convive"><persName key="marie_therese" role="convive">leurs Majestez</persName></persName>,
+        &amp; les Dames qui devoient étre de la <tech type="repas">collation</tech>,
+        dont la magnificence peut être comparée à celle du Festin des <name key="dieu">Dieux</name> de l’antiquité.
+        Tous les Concertans passerent à droit &amp; à gauche de la <tech type="construction">Barriere</tech>,
+        &amp; s’allerent placer sur un <tech type="construction">Amphiteatre</tech>
+        qui estoit derriere la <tech type="construction">table</tech> ; &amp; certes, il faut avoüer 
+        <pb n="31" xml:id="p31" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f37.item"/>
+        qu’en ce moment là, les yeux, &amp; les oreilles eurent toute la satisfaction que la nature, l’art,
+        &amp; l’harmonie estoient capables de leur donner, &amp; que jamais rien n’eut tant l’air d’un enchantement,
+        que ce que l’on vit dans cette place, où cent objets differents occupoient toute l’imagination des spectateurs.
+        Il est vray, qu’un certain envieux de la joye publique, pour diminuer le plaisir des yeux, esteignit 
+        <pb n="32" xml:id="p32" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f38.item"/>
+        une partie des <tech type="lumieres">lumieres</tech> : vous comprenez bien que ce fut le vent,
+        car vous vous tromperiez fort, si vous pensiez qu’il y eust eu quelque creature vivante assez estourdie,
+        ou assez insolente pour l’oser faire ;</p>
+      
+      <lg>
+        <l>Et vous sçavez comme je croy</l>
+        <l>La crainte, &amp; le respect que l’on a pour le <persName key="louisxiv">Roy</persName>,</l>
+        <l>Que son Empire est calme, &amp; sans orage,</l>
+        <l>Qu’il ne voit rien qui le puisse troubler,</l>
+        <l>Et qu’il rend le monde si sage</l>
+        <l>Que personne n’ose souffler.</l>
+      </lg>
+      
+      <p>Ce superbe <tech type="repas">Festin</tech> fi
+        <pb n="33" xml:id="p33" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f39.item"/>
+        nit avec la premiere journée des plaisirs du <place key="palais_alcine">Palais</place>
+        d’<name key="alcine">Alcine</name>. Le jour suivant on eut le divertissement de la Comedie.
+        L’on avoit dressé un grand <tech type="construction">Theatre</tech> environ cent pas au dessous du
+        <placeName key="">Rond</placeName><!-- Pas de @key --> où les <name key="chevalier">Chevaliers</name> avoient couru la Bague,
+        &amp; l’on avoit fait une espece de <tech type="construction">Salon</tech>,
+        entre les <tech type="construction">pallissades</tech> de l’<placeName key="">Allée</placeName><!-- Pas de @key -->,
+        dont le haut estoit couvert de <tech type="construction">toiles</tech>
+        pour deffendre les Dames contre les injures du temps. Vous ne 
+        <pb n="34" xml:id="p34" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f40.item"/>
+        pretendez pas, que je vous raconte Sceine par Sceine le sujet de la Comedie, &amp; vous faites fort bien ;
+        car mon intention n’est pas de vous écrire un Volume. En attendant que vous la voyez imprimée,
+        si <persName key="moliere">Moliere</persName> qui en est l’Autheur la veut donner au Public,
+        vous sçaurez qu’il avoit qu’il avoit eu si peu de temps pour la composer, qu’il n’y avoit qu’un Acte
+        &amp; demy en Vers, &amp; le reste estoit en Prose, de sorte qu’il 
+        <pb n="35" xml:id="p35" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f41.item"/>
+        sembloit que pour obeïr promptement au pouvoir de <name key="alcine">l’Enchanteresse Alcine</name>,
+        la Comedie n’avoit eu le temps que de prendre un de ses Brodequins, &amp; qu’elle estoit venuë donner
+        des marques de son obeïssance un pied chassé &amp; l’autre nud. Elle ne laissa pas d’estre fort galante,
+        &amp; l’on prit assez de plaisir à voir un <name key="prince">jeune Prince amoureux</name>,
+        d’une <name key="princesse">Princesse fort dedaigneuse</name>, &amp; qui n’aimoit 
+        <pb n="36" xml:id="p36" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f42.item"/>
+        que la chasse, venir à bout de sa fierté, par une indifference affectée,
+        &amp; tout cela selon les bons advis d’une espece d’<name key="angelie">Angelie</name>,
+        c’est à dire d’un Fou ou soy disant, plus heureux &amp; plus sage,
+        que trente Docteurs qui se picquent d’estre des Catons.</p>
+      
+      <lg>
+        <l>Tous ne sçauroient par les mesmes emplois</l>
+        <l>Avoir de l’accez prés des Rois,</l>
+        <l>Cependant chacun y veut estre,</l>
+        <l>On gronde, on peste tout le jour</l>
+        <l>Contre tel qui n’est pas ce qu’il veut y parestre,</l>
+        <l>Mais pour moy je tiens qu’à la Cour</l>
+        <l>N’est pas Fou qui plaist à son Maistre.</l>
+      </lg>
+      
+      <p>
+        <pb n="37" xml:id="p37" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f43.item"/>
+        Toute la piece estoit meslée de Danses &amp; de <tech type="musique">Concert, des plus belles voix du monde</tech>,
+        &amp; comme <name key="amant">les Amants</name> ne se broüillent jamais si fort, qu’ils ne se marient à la fin
+        de la Comedie, cela ne manqua pas d’arriver, &amp; pour les divertir le soir de leurs nopces,
+        leurs Courtisans se deguiserent &amp; finirent la piece, par la plus belle &amp; la plus surprenante Entrée
+        que l’on ait jamais veuë. Au fonds du 
+        <pb n="38" xml:id="p38" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f44.item"/>
+        <tech type="construction">Theatre</tech>, sur un <tech type="decor">grand Arbre</tech>,
+        dont les branches estoient entrelacées les unes dans les autres, <name key="troupe_faune">seize Faunes</name>
+        faisoient un agreable <tech type="musique">concert de Flûtes</tech>,
+        &amp; dans le temps qu’ils reprenoient haleine, <name key="berger">deux Bergers</name>
+        &amp; <name key="bergere">deux Bergeres Heroïques</name> chantoient une <tech type="musique">Chanson à danser</tech>,
+        par leurs noms qui sont dans l’imprimé vous jugerez de la beauté de leurs voix,
+        &amp; du plaisir que l’on avoit de les enten
+        <pb n="39" xml:id="p39" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f45.item"/>
+        dre. Cependant, <tech type="decor">l’Arbre</tech> sur lequel les <name key="troupe_faune">Faunes</name>
+        étoient assis, s’avança jusques au milieu du <tech type="construction">Theatre</tech>
+        par un enchantement d’<name key="alcine">Alcine</name>. Lors ceux qui dansoient aux Chansons s’arresterent,
+        &amp; l’on vit entrer <name key="berger">quatre autres Bergers</name>
+        &amp; <name key="bergere">quatre Bergeres</name>, dont <tech type="costume">les habits estoient aussi
+          galands que ceux des Celadons</tech>, des <name key="sylvandre">Sylvandres</name>, des <name key="astree">Astrées</name>
+        &amp; des <name key="dianes">Dianes</name> du <placeName key="">Païs de Lignon</placeName><!-- Pas de @key --> :
+        lors qu’ils avoient dansé quelque 
+        <pb n="40" xml:id="p40" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f46.item"/>
+        temps, les premiers <name key="berger">Bergers</name> &amp; les <name key="bergere">Bergeres</name>
+        recommençoient à danser aux <tech type="musique">Chansons</tech> ; ceux-cy n’avoient pas finy que les autres
+        rentroient au son de <tech type="musique">mille Instruments</tech>, &amp; leur Entrée estoit meslée,
+        de celle de quelques <name key="satyre">Satyres</name>, tantost avec des <tech type="musique">Flûtes</tech>
+        &amp; tantost avec des <tech type="musique">Tambours de Basque, dont la Musique s’accordoit au reste
+          de la Simphonie avec une justesse merveilleuse</tech>. Enfin l’on eut tout à la fois le plaisir 
+        <pb n="41" xml:id="p41" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f47.item"/>
+        d’un meslange de toutes ces sortes de Danses &amp; de <tech type="musique">Musiques</tech>
+        qui s’estoient faites separement, &amp; tout cela fût executé avec tant d’ordre,
+        que toute le monde avoüa qu’il falloit que <persName key="lully">Lully</persName> qui estoit l’inventeur
+        de toute cette harmonie, &amp; de cette Entrée si belle &amp; si galante fust cent fois plus Diable,
+        que la <name key="alcine">Diablesse Alcine</name> mesme. Toute l’Assemblée sortit charmée de ce divertissement, les 
+        <pb n="42" xml:id="p42" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f48.item"/>
+        Dames avoüerent de bonne foy, que l’on avoit découvert dans la Comedie le veritable moyen de les ramener à la raison,
+        lors qu’elles font les difficiles &amp; les farouches ; les Cavaliers jurerent de se servir plutost de cet expedient,
+        que de se pendre de desespoir pour la plus belle <name key="anaxarete">Anaxarete</name> de la terre ;
+        &amp; je fus fort aise de les voir dans ces sentiments ; car j’ay tousjours trouvé le desespoir en amour 
+        <pb n="43" xml:id="p43" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f49.item"/>
+        une vilaine chose, &amp; je me souviens d’avoir fait des Vers qui sont assez conformes à la resolution
+        de ces Messieurs, qui avoient si bien profité à la Comedie, il faut que je vous les écrive icy.</p>
+      
+      <lg>
+        <l>Les yeux d’<name key="aminte">Aminte</name> m’ont charmé,</l>
+        <l>Mon cœur brûle &amp; languit pour elle</l>
+        <l>Et je ne puis en estre aimé :</l>
+        <l>Ma flamme seroit immortelle</l>
+        <l>Si la <name key="pitie">pitié</name> vouloit quelque jour m’exaucer ;</l>
+        <l>Elle est adorable, elle est belle,</l>
+        <l>Mais elle est cruelle,</l>
+        <l>Il s’en faut passer.</l>
+      </lg>
+      
+      <p>Voilà, <name key="monsieur">Monsieur</name>, comment se termina la 
+        <pb n="44" xml:id="p44" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f50.item"/>
+        seconde journée. Le jour suivant la Cour eut le plaisir d’un <tech type="musique">Ballet</tech>,
+        qui se fit dans le <place key="palais_alcine">Palais</place> d’<name key="alcine">Alcine</name>,
+        sur les dix heures du soir.</p>
+      <p>Le <placeName key="">Rond-d’eau</placeName><!-- Pas de @key --> qui est au bas de la mesme <placeName key="">Allée</placeName><!-- Pas de @key -->,
+        par laquelle l’on estoit descendu de la <placeName key="">Place</placeName><!-- Pas de @key --> où s’estoit faite la course de Bague,
+        au <placeName key="">Salon de la Comedie</placeName><!-- Pas de @key -->, fut choisi pour representer le <placeName key="versailles_jardins_bassin-apollon">Lac</placeName>
+        au milieu duquel estoit l’<placeName key="">Isle enchantée</placeName><!-- Pas de @key --> de cette fameuse <name key="alcine">Magicien</name>
+        <pb n="45" xml:id="p45" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f51.item"/>
+        <name key="alcine">ne</name> ; le haut Dais fut placé sur le bord de <placeName key="">l’Allée</placeName><!-- Pas de @key -->,
+        &amp; sur les costez du <placeName key="">Rondeau</placeName><!-- Pas de @key -->, prés des <tech type="construction">pallissades</tech>
+        à droit &amp; à gauche, il y avoit des 
+        <tech type="construction">Amphitheatres qui faisoient une forme de Croissant</tech>,
+        qui aboutissoit aux bords de <tech type="construction">deux petites Isles</tech>,
+        qui estoient aux deux costez de <place key="palais_alcine">Palais</place> d’<name key="alcine">Alcine</name>.
+        Ces <tech type="construction">deux Isles</tech> furent en un moment éclairées
+        d’<tech type="lumieres">un nombre infiny de lumieres</tech>, &amp; l’on vit sur celle qui estoit à la main-droi
+        <pb n="46" xml:id="p46" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f52.item"/>
+        te des spectateurs, un grand nombre de Concertans, dont l’harmonie répondoit à celle des
+        <tech type="musique">Trompettes</tech>, &amp; des <tech type="musique">Timbales</tech>,
+        qui estoient dans la <tech type="construction">petite Isle</tech> de la main-gauche.
+        Peu de temps aprés l’on apperceut de loin <tech type="animal">trois grosses Baleines</tech>,
+        qui sortoient des deux costez du <place key="palais_alcine">Palais</place>,
+        &amp; qui en nageant s’approchoient des bords du <placeName key="versailles_jardins_bassin-apollon">Lac enchantée</placeName><!-- Pas de @key -->.
+        L’une portoit sur son dos <name key="alcine">Alcine</name>, &amp; les deux autres 
+        <pb n="47" xml:id="p47" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f53.item"/>
+        por-toient <name key="compagne_alcine"><name key="compagne_alcine">les deux Compagnes de cette Magicienne</name></name>.
+        Comme l’on raisonne differemment sur toutes les choses de ce monde, les uns soutenoient que
+        <tech type="animal">ces Monstres</tech> estoient vivants, &amp; que des
+        <name key="biscayin">Biscayins</name> les avoient pris à la dernière Pesche,
+        &amp; les avoient amenez au <persName key="louisxiv">Roy </persName>;
+        d’autres disoient que c’estoient des <tech type="animal">Poissons</tech> que l’on avoit jettez,
+        il y a peu de temps, dans le <placeName key="">Rond-d’eau</placeName><!-- Pas de @key -->, &amp; qui étoient devenus assez 
+        <pb n="48" xml:id="p48" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f54.item"/>
+        grands pour servir en cette occasion, &amp; ceux derniers appuyoient leur opinion en disant, que</p>
+      
+      <lg>
+        <l>Sans se donner beaucoup de peines</l>
+        <l>L’on fait aux champs des Rois de fertiles moissons,</l>
+        <l>Et leurs eaux sont tousiours si bonnes, &amp; si saines,</l>
+        <l>Que les moindres <tech type="animal">petits poissons</tech></l>
+        <l>Y deviennent dans peu de fort <tech type="animal">grosses Baleines</tech>.</l>
+      </lg>
+      
+      <p><name key="alcine">Alcine</name> à <name key="compagne_alcine"><name key="compagne_alcine">ses Compagnes</name></name>
+        s’estant approchées du bord du <placeName key="versailles_jardins_bassin-apollon">Lac</placeName><!-- Pas de @key -->, vis à vis de
+        <persName key="louisxiv" role="spectateur"><persName key="marie_therese" role="spectateur">leurs Majestez</persName></persName>,
+        firent le recit que vous trouverez imprimé, &amp; s’en retournerent aprés du costé 
+        <pb n="49" xml:id="p49" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f55.item"/>
+        de <placeName key="">l’Isle enchantée</placeName><!-- Pas de @key -->, où estoit le <place key="palais_alcine">Palais</place>
+        qui s’ouvrant à leur arrivée surprit agreablement les yeux par les beautez d’une
+        <tech type="construction">Architecture</tech> si merveilleuse, que l’on eust creu que c’estoit de l’invention
+        de <persName key="vigarani">Bigarrani</persName>, si l’on n’eust esté prevenu que c’estoit un enchantement
+        d’<name key="alcine">Alcine</name>. Alors les Concertants redoublerent leurs accords,
+        &amp; l’on vit des <name key="geant">geants</name> d’une prodigieuse grandeur, qui firent la premiere 
+        <pb n="50" xml:id="p50" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f56.item"/>
+        entrée du <tech type="musique">Balet</tech>, de la manière qu’ils dansoient &amp; qu’ils estoient chaussez,
+        il semboit qu’ils eussent appris à danser à <placeName key="venise">Venise</placeName>,
+        &amp; qu’ils se fussent servis d’un Cordonnier de quelque gentille Donne. L’imprimé vous instruira du détail
+        de toutes les entrées, &amp; vous apprendra que la <name key="melisse">sage Melisse</name>
+        ayant apporté au <name key="roger">brave Roger</name> l’anneau fatal aux enchantements afin de le delivrer,
+        &amp; les autres <name key="chevalier">Chevaliers</name>, 
+        <pb n="51" xml:id="p51" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f57.item"/>
+        <name key="alcine">Alcine</name> parut comme une desesperée, &amp; lors
+        <tech type="bruitage">un grand coup de Tonerre</tech> suivy d’une <tech type="lumieres">infinité d’éclairs</tech>
+        marqua la ruine de son <place key="palais_alcine">Palais</place> qui fut embrasé par un
+        <tech type="feux-artifice">feu d’artifice</tech>. Jamais l’on n’a veu d’<tech type="lumieres">incendie</tech>
+        plus agreable ; l’air, la terre, &amp; l’eau estoient couverts tantost de
+        <tech type="feux-artifice">fusées volantes</tech>, &amp; tantost de <tech type="lumieres">gerbes de feu</tech>,
+        tantost <tech type="feux-artifice">mille serpenteaux</tech> s’élancoient de l’<placeName key="">Isle</placeName><!-- Pas de @key -->
+        sur les spectateurs, &amp; il y en eut tel qui 
+        <pb n="52" xml:id="p52" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f58.item"/>
+        tombant parmy des Dames fut assez indiscret, pour se glisser, &amp; crever en endroicts fort sujets au feu.</p>
+      <p>Voilà quelle fut la fin de l’avanture, &amp; des plaisirs de l’<placeName key="">Isle enchantée</placeName><!-- Pas de @key -->
+        d’<name key="alcine">Alcine</name>. Et si vous desirez sçavoir mon sentiment sur les beautés de ces trois
+        d’ifferentes journées, je vous diray ce que je dis à <name key="monsieur">Monsieur</name>
+        lors qu’il me fit l’honneur de me demander ce qu’il m’en sembloit. 
+        <pb n="53" xml:id="p53" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f59.item"/>
+        Je luy répondis que j’avois trouvé la premiere journée surprenante ; la seconde galante &amp; agreablement diversifée ;
+        la troisiesme ingenieuse, &amp; toutes trois tres magnifiques, &amp; tout à fait Royales.
+        Et certes <persName key="saint_aignan" role="organisation">Monsieur le Duc de Sainct Aignan</persName>
+        doit estre bien satisfaict d’avoir esté l’auteur d’une feste si belle, &amp; si bien conduitte ;
+        Car enfin jamais rien ne se passa avec tant d’ordre, &amp; 
+        <pb n="54" xml:id="p54" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f60.item"/>
+        pour prevenir mesme la confusion que la curiosité du peuple auroit pû apporter au passant par dessus les
+        <tech type="construction">murailles</tech> du <placeName key="versailles_grand-parc">Parc</placeName><!-- Pas de @key -->,
+        on les avoit bordées de soldats des Gardes,
+        &amp; <persName key="antoine_iii_de_gramont" role="organisation">Monsieur le Mareschal de Gramont</persName>
+        avoit faict tendre <tech type="construction">deux tentes</tech>,
+        sous lesquelles on servit <tech type="construction">deux tables</tech> pour les <persName key="">principaux Officiers</persName><!-- Pas de @key -->,
+        tandis que l’on donnoit avec <tech type="repas">profusion du vin</tech> au reste des soldats.
+        Vous sçavez si ce <persName key="antoine_iii_de_gramont">Mareschal</persName> est ma
+        <pb n="55" xml:id="p55" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f61.item"/>
+        gnifique en tout temps, &amp; s’il sçait bien faire l’honneur d’une feste, &amp; je pense que vous vous
+        souvenez encore, de quel air il soutenoit en <placeName key="allemagne">Allemagne</placeName>
+        la dignité de l’Ambassade, &amp; la gesne cruelle que sa spleudeur donnoit aux Ambassadeurs estrangers
+        qui la vouloient copier.</p>
+      <p><persName key="louisxiv" role="spectateur">Le Roy</persName> pour continuer à divertir <persName key="marie_therese" role="spectateur">les Reines</persName> <!-- Qui sont désignées par cette expression ? -->,
+        fit succeder aux plaisirs du <place key="palais_alcine">Palais</place> d’<name key="alcine">Alcine</name>,
+        celuy de la Course 
+        <pb n="56" xml:id="p56" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f62.item"/>
+        des Testes qui se fit dans le fossez du <placeName key="versailles_chateau">Chasteau</placeName>,
+        il remporta par son addresse le prix que tous les vœux de l’assemblée luy donnoient,
+        &amp; il le redonna sur le champ à courre aux <name key="chevalier">Chevaliers</name>
+        qui avoient eu l’honneur d’estre de sa Quadrille ; &amp; le <persName key="armand_du_cambout" role="participant">Duc de Coaslin</persName> qui le gagna,
+        receut le Diamant de la main de <persName key="marie_therese" role="spectateur">la Reine</persName>.
+        Il n’est pas necessaire que je vous exagere la valeur du present, vous sçavez bien 
+        <pb n="57" xml:id="p57" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f63.item"/>
+        que <persName key="marie_therese" role="spectateur">sa Majesté</persName> n’en fait que de grands.</p>
+      
+      <lg>
+        <l>Parmi ceux qu’elle nous a faits</l>
+        <l>En échange de cette gloire</l>
+        <l>Qu’apportoient à l’Estat la guerre &amp; la victoire</l>
+        <l>Elle nous a donné la Paix ;</l>
+        <l>En se donnant, <persName key="marie_therese">cette adorable Reine</persName></l>
+        <l>A fait present, eu <name key="dieu">Dieu de Seyne</name></l>
+        <l>Du plus riche Thresor que l’<placeName key="espagne">Espagne</placeName> eut jamais :</l>
+        <l>Le ciel par <persName key="marie_therese">cette Souveraine</persName></l>
+        <l>Nous a comblez de biens, car pour tout dire enfin</l>
+        <l>Et Louys &amp; l’Estat ont eu d’elle un Daufin</l>
+        <l>Qui fera de cette Couronne</l>
+        <l>Quelque jour l’infaillible appuy,</l>
+        <l>Car tout petit qu’il est l’on voit dans sa personne</l>
+        <l>De quoy donner un jour un Daufin comme luy.</l>
+      </lg>
+      
+      <p>Mais afin que les Dames 
+        <pb n="58" xml:id="p58" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f64.item"/>
+        apres avoir esté Royalement regalées pendant leur sejour à <placeName key="versailles">Versaille</placeName>,
+        ne s’en retournassent point sans emporter quelques faveurs du <persName key="louisxiv">Roy</persName>,
+        il fit une magnifique Lotterie, dans laquelle il y avoit autant de billets heureux que de Dames,
+        &amp; la fortune qui se mesle ordinairement des graces que se font à la Cour, fut l’arbitre de cette galanterie,
+        qui fit confesser à tout le monde que le <persName key="louisxiv">Roy</persName> n’est pas moins 
+        <pb n="59" xml:id="p59" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f65.item"/>
+        l’ame des plaisirs de la Cour ; que celle des conseils qui font prosperer son <placeName key="france">Empire</placeName>.
+        Car enfin, <name key="monsieur">Monsieur</name>, comme l’ame, si nous le sçavons, ou si nous ne le sçavons pas,
+        est toute dans tout le corps, &amp; toute dans chacune de ses parties, à voir agir le
+        <persName key="louisxiv">Roy</persName> dans les affaires importantes à la gloire, &amp; au salut de l’Estat,
+        à voir son assiduité dans les Conseils, l’on diroit qu’il auroit renoncé à tous les plai
+        <pb n="60" xml:id="p60" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f66.item"/>
+        sirs où sa jeunesse le peut inviter, &amp; quand il donne quelques heures de son temps aux Divertissements,
+        &amp; à la joye, il le fait avec une application qui feroit dire aux Duppes, que ne le connestroient pas,
+        qu’il a laissé à quelque autre le soin de ses affaires. Grace à <name>Dieu</name> nous nous appercevons chaque jour
+        de mieux en mieux qu’il est le grand, &amp; le maistre ressort qui fait mouvoir la Machine, qu’il est 
+        <pb n="61" xml:id="p61" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f67.item"/>
+        quand il veut impenetrable à ceux qui l’approchent de plus prés, en un mot qu’il est impossible
+        de s’aquitter mieux qu’il fait des devoirs d’un Roy, Politique, Jeune, puissant &amp; fortuné.
+        En verité, l’on peut bien dire qu’heureux est celuy qui trouverra quelque occasion de servir
+        <persName key="louisxiv">un Monarque si parfaict</persName>, plus heureux qui le sert,
+        &amp; plus heureux encore qui l’a toûjours servy. Je vous connois, <name key="monsieur">Monsieur</name>, 
+        <pb n="62" xml:id="p62" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f68.item"/>
+        &amp; je suis assuré, que ce n’est pas la curiosité de voir les <name key="marmouset">marmousets</name>
+        de l’antiquité, &amp; quelques vieux hierogliphiques gravez sur des piramides à demy rompues
+        qui vous a fait entreprendre le voyage où vous estes embarqué, mais le desir d’observer attentivement
+        les Cours estrangeres. Voyez en tant qu’il vous plaira, examinez avec soin la prudence,
+        &amp; la conduite des autres Princes, je suis tres assuré qu’a 
+        <pb n="63" xml:id="p63" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f69.item"/>
+        vostre retour vous serez de mon advis, &amp; que vous direz avec moy</p>
+      
+      <lg>
+        <l>Que l’on propose sur la Terre</l>
+        <l>Un prix à disputer entre les Potentats</l>
+        <l>Qui sçavent mieux gouverner des Estats</l>
+        <l>Et dans la paix, &amp; dans la guerre,</l>
+        <l>Que part des charmes inouïs</l>
+        <l>Une Trouppe de Rois s’assemble,</l>
+        <l>Je gage pour le seul <persName key="louisxiv">LOUIS</persName></l>
+        <l>Contre touts les autres ensemble.</l>
+      </lg>
+      
+      <p>DE <persName key="" role="auteur">MARIGNY</persName><!-- Pas de @key -->.</p>
+      <p>A <placeName key="paris">Paris</placeName> le <date when="1664-05-14">14. May 1664</date>.</p>
+      <p>
+        <pb n="np" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f70.item"/>
+        Extrait du Privilege du <persName key="louisxiv">Roy</persName>.</p>
+      <p>Par grace &amp; Privilege du <persName key="louisxiv">Roy</persName>,
+        donné à <placeName key="paris">Paris</placeName>, le <date when="1664-06-11">onziéme jour de Juin, 1664</date>.
+        Et signé <persName key="">BOUCHARD</persName><!-- Pas de @key -->. Il est permis à <persName key="imprimeur">CHARLES DE SERCY</persName><!-- Pas de @key -->,
+        Marchand Libraire à <placeName key="paris">Paris</placeName>,
+        d’Imprimer vendre &amp; distribuer un Livre intitulé, Relation des divertissements de Versailles :
+        Et deffences sont faites à tous autres de l’imprimer, vendre &amp; distribuer, pendant sept années,
+        à peine de trois mil livres d’amende, &amp; autres peines portées par ledit Privilege.</p>
+      <p>Achevé d’Imprimer le <date when="1664-06-17">17. Juin 1664</date>.</p>
+      <p>Les Exemplaires ont esté fournis.</p>
+      <p>Registré sur le Livre de la Communauté des Imprimeurs &amp; Marchands Libraires de cette Ville,
+        suivant &amp; conformément à l’Arrest de la Cour de Parlement du <date when="1653-04-08">8. Avril 1653</date>.
+        &amp; aux charges portées par le present Privilege. A <placeName key="paris">Paris</placeName>
+        ce <date when="1664-06-14">14. du mois de Juin 1664</date>.</p>
+      <p>Ledit <persName key="imprimeur">de Sercy</persName><!-- Pas de @key --> a associé audit Privilege <persName key="imprimeur">Claude Barbin</persName><!-- Pas de @key -->,
+        aussi Marchand Libraire, pour en jouir suivant l’accord fait entr’eux.</p>
+    </body>
+  </text>
+</TEI>
