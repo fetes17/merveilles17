@@ -101,3 +101,5 @@
 * [merveilles17_ms_versbm_fromageotaiiic.xml](https://fetes17.github.io/merveilles17/xml/merveilles17_ms_versbm_fromageotaiiic.xml)
 * [v2merveilles17_imp_gazette16680721.xml](https://fetes17.github.io/merveilles17/xml/v2merveilles17_imp_gazette16680721.xml)
 * [v2merveilles17_imp_gazette16740720.xml](https://fetes17.github.io/merveilles17/xml/v2merveilles17_imp_gazette16740720.xml)
+* [v2merveilles17_imp_marigny1664.xml](https://fetes17.github.io/merveilles17/xml/v2merveilles17_imp_marigny1664.xml)
+* [v2merveilles17_imp_moliere1668.xml](https://fetes17.github.io/merveilles17/xml/v2merveilles17_imp_moliere1668.xml)
