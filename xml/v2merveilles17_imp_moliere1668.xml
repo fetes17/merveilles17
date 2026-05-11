@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
+<?xml-stylesheet type="text/css" href="../style/tei-author.css" alternate="author"?>
+<?xml-model href="https://fetes17.github.io/merveilles17/merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>LE GRAND DIVERTISSEMENT ROYAL DE VERSAILLES</title>
+        <author key="moliere">Molière, Poquelin Jean-Baptiste, dit (1622 – 1673) [attribution]</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Merveilles17</edition>
+        <respStmt>
+          <name>DAENINCKX, Mickaël</name>
+          <resp>Transcription et balisage</resp>
+        </respStmt>
+        <respStmt>
+          <name>CHAPON, Axelanne</name>
+          <resp>Relecture</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université d’Artois - Lille, MESHS</publisher>
+        <date when="2026"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Moliere, 
+          <title>Le Grand Divertissement Royal de Versailles.</title> 
+          <note>Paris, Robert Ballard, 1668.</note>
+          <ptr target="https://gallica.bnf.fr/ark:/12148/bpt6k1526239b"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1668">1668</date>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <pb n="np" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526239b"/>
+      <titlePage>
+        <docTitle>
+          <titlePart>LE GRAND DIVERTISSEMENT ROYAL DE <placeName key="versailles">VERSAILLES</placeName>.</titlePart>
+        </docTitle>
+        <docImprint>A <placeName key="paris">PARIS</placeName>,</docImprint>
+        <docImprint>Par <persName key="" role="imprimeur">ROBERT BALLARD</persName>,
+          seul Imprimeur du <persName key="louisxiv">Roy</persName> pour la Musique.</docImprint>
+        <docDate><date when="1668">M. DC. LXVIII</date>.</docDate>
+        <imprimatur>Avec Privilege de <persName key="louisxiv">sa Majesté</persName>.</imprimatur>
+      </titlePage>
+    </front>
+    <body>
+      <pb n="3" xml:id="p3" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526239b/f6.item"/>
+      <head>LE GRAND DIVERTISSEMENT ROYAL DE <placeName key="versailles">VERSAILLES</placeName></head>
+      <head>Sujet de la Comedie qui se doit faire à la grande Feste de <placeName key="versailles">Versailles</placeName>.</head>
+      
+      <lg>
+        <l>Du <persName key="louisxiv">Prince des François</persName> rien de borne la Gloire,</l>
+        <l>A tout elle s’estend, &amp; chez les Nations</l>
+        <l>Les veritez de son Histoire</l>
+        <l>Vont passer des vieux temps toutes les fictions ;</l>
+        <l>On aura beau chanter les restes magnifiques</l>
+        <l>De tous ces destins heroïques</l>
+        <l>Qu’un bel art prit plaisir d’élever jusqu’aux Cieux.</l>
+        <l>On en void par ses Faits la splendeur effacée,</l>
+        <l>Et tous <name key="dieu">ces fameux demy-dieux</name></l>
+        <l>Dont fait bruit l’Histoire passée,</l>
+        <l>Ne sont point à nostre pensée</l>
+        <l>Ce que <persName key="louisxiv">LOUIS</persName> est à nos yeux.</l>
+      </lg>
+      
+      <p>
+        <pb n="4" xml:id="p4" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526239b/f7.item"/>
+        POUR passer du langage des <name key="dieu">Dieux</name> au langage des Hommes,
+        le <persName key="louisxiv">ROY</persName> est un grand Roy en tout,
+        &amp; nous ne voyons point que sa gloire soit retranchée à quelques qualitez hors desquelles
+        il tombe dans le commun des Hommes. Tout se soûtient d’égale force en luy,
+        il n’y a point d’endroit par où il luy soit desavantageux d’estre regardé,
+        &amp; de quelque veuë que vous le preniez, mesme Grandeur, mesme Eclat se rencontre ;
+        C’est un Roy de tous les costez : nul employ ne l’abaisse, aucune action ne le defigure ;
+        il est toûjours luy-mesme, &amp; par tout on le reconnoist. Il y a du Heros dans toutes les choses qu’il fait,
+        &amp; jusques aux affaires de plaisir, il y fait éclatter une grandeur qui passe tout
+        ce qui a esté veu jusques icy.</p>
+      <p>Cette nouvelle Feste de <placeName key="versailles">Versailles</placeName> le montre pleinement,
+        ce sont des prodiges &amp; des miracles aussi bien que le reste de ses actions ;
+        &amp; si vous avez veu sur nos Frontieres les Provinces conquises en une semaine d’Hyver,
+        &amp; les puissantes Villes forcées en faisant chemin, on void icy sortir, en moins de rien,
+        du milieu des <placeName key="">Jardins</placeName><!-- Pas de @key --> les <tech type="construction">superbes Palais</tech>
+        &amp; les <tech type="construction">magnifiques Theatres</tech>,
+        de tous costez <tech type="decor">enrichis d’or &amp; de grandes Statuës</tech>,
+        que <tech type="decor">la verdure égaye</tech>, &amp; 
+        <pb n="5" xml:id="p5" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526239b/f8.item"/>
+        que <tech type="eaux">cent jets d’eau</tech> rafraichissent.
+        On ne peut rien imaginer de plus pompeux ny de plus surprenant ;
+        &amp; l’on diroit que ce <persName key="louisxiv">digne Monarque</persName>
+        a voulu faire voir icy qu’il sçait maîtriser pleinement l’ardeur de son Courage,
+        prenant soin de parer de toutes ces magnificences les beaux jours d’une Paix, où son grand Cœur a resisté,
+        &amp; à laquelle il ne s’est relâché que par les prieres de ses sujets.</p>
+      <p>Je n’entereprens point de vous écrire le détail de toutes ces merveilles :
+        <persName key="moliere">Un de nos beaux esprits</persName> est chargé d’en faire le recit,
+        &amp; je m’arreste à la Comedie, dont par avance vous me demandez des nouvelles.</p>
+      <p>C’est <persName key="moliere">Moliere</persName> qui l’a faite ;
+        comme je suis fort de ses amis, je trouve à propos de ne vous en dire ny bien ny mal,
+        &amp; vous en jugerez quand vous l’aurez veuë : Je diray seulement qu’il seroit à souhaiter
+        pour luy que chacun eust les yeux qu’il faut pour tous les Impromptus de Comedie,
+        &amp; que l’honneur d’obeyr promptement au <persName key="louisxiv">Roy</persName> pust faire dans les esprits
+        des Auditeurs une partie du merite de ces sortes d’ouvrages.</p>
+      <p>Le sujet est <name key="paysan">un Paysan</name> qui s’est marié à
+        <name key="fille_gentilhomme">la fille d’un Gentilhomme</name>, &amp; qui dans tout le 
+        <pb n="6" xml:id="p6" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526239b/f9.item"/>
+        cours de la Comedie se trouve puny de son ambition : Puisque vous le devez voir, je me garderay,
+        pour l’amour de vous, de toucher au détail ; &amp; je ne veux point luy oster la grace de la nouveauté,
+        &amp; à vous le plaisir de la surprise : Mais comme ce sujet est meslé avec une espece de Comedie en musique
+        &amp; Ballet ; il est bon de vous expliquer l’ordre de tout cela, &amp; de vous dire les Vers qui se chantent.</p>
+      <p>Nostre Nation n’est gueres faite à la Comedie en Musique, &amp; je ne puis pas répondre
+        comme cette nouveauté-cy reüssira ; Il ne faut rien, souvent, pour effaroucher les esprits des François ;
+        un petit mot tourné en ridicule, une syllabe qui avec un air un peu rude s’approchera d’une oreille delicate,
+        un geste d’un <name key="musicien">Musicien</name> qui n’aura pas peut-estre encore au Theatre la liberté
+        qu’il faudroit, une <tech type="costume">peruque</tech> tant soit peu de costé, un <tech type="costume">ruban</tech>
+        qui pendra, la moindre chose est capable de gaster toute une affaire : Mais, enfin, il est asseuré,
+        au sentiment des connoisseus qui ont veu la repetition, que <persName key="lully">Lully</persName>
+        n’a jamais rien fait de plus beau, soit pour la Musique, soit pour les Dances,
+        &amp; que tout y brille d’invention ; En verité c’est un 
+        <pb n="7" xml:id="p7" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526239b/f10.item"/>
+        admirable homme, &amp; <persName key="louisxiv">le Roy</persName>
+        pourroit perdre beaucoup de gens considerables qui ne luy seroient pas si malaisez à remplacer que celuy-là.</p>
+      <p>Toute l’affaire se passe dans une grande Feste champestre.</p>
+      
+      <div>
+       <head>L’OUVERTURE</head>
+        <p>En est faite par <name key="berger">quatre illustres Bergers</name>
+          <tech type="costume">déguisez en valets de Festes</tech> ;
+          <note place="margin"><persName key="beauchamp" role="acteur">Beauchamp</persName> <persName key="saint_andre" role="acteur">S. André></persName>,
+            <persName key="la_pierre" role="acteur">la Pierre</persName>, <persName key="favier" role="acteur">Favier</persName></note>
+          lesquels accompagnez de <name key="berger">quatre autres Bergers</name> qui <tech type="musique">joüent de la Flutte</tech>,
+          <note place="margin"><persName key="descouteaux" role="acteur">Descouteaux</persName>, <persName key="philbert" role="acteur">Philbert</persName>,
+            <persName key="jean_hottere" role="acteur">Jean</persName> &amp; <persName key="martin_hottere" role="acteur">Martin Hottere</persName>.</note>
+          font une dance qui interrompt les resveries
+          du <name key="paysan">Paysan Marié</name>, &amp; l’oblige à se retirer apres quelque contrainte.</p>
+       <p><name key="climene">Climene</name> &amp; <name key="cloris">Cloris</name>,
+         <note place="margin"><persName key="hilaire_dupuis" role="acteur">Mad<hi rend="sup">lle</hi> Hylaire</persName>.
+           <persName key="mlle_de_froteaux" role="acteur">Mad<hi rend="sup">lle</hi> Des Fronteaux</persName></note>
+         deux <name key="bergere"><name key="climene" corresp="hilaire_dupuis"><name key="cloris" corresp="mlle_de_froteaux">Bergeres</name></name></name>
+         amies, s’avisent au <tech type="musique">son de ces Flutes</tech> de chanter cette</p>
+       
+        <label type="head">CHANSONNETTE</label>
+       <lg>
+         <l>L’Autre jour d’<name corresp="annette">Annette</name></l>
+         <l>J’entendis la voix,</l>
+         <l>Que sur la musette</l>
+         <l>Chantoit dans nos bois ;</l>
+         <l><name key="amour">Amour</name>, que sous ton empire</l>
+         <l>On soussre de maux cuisans,</l>
+         <l>Je le puis bien dire</l>
+         <l>Puisque je le sens.</l>
+         
+         <l>La jeune <name key="lisette">Lisette</name>,</l>
+         <l>Au mesme moment,</l>
+         
+         <l>
+           <pb n="8" xml:id="p8" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526239b/f11.item"/>
+           Sur le ton d’<name key="annette">Annette</name></l>
+         <l>Reprit tendrement,</l>
+         <l><name key="amour">Amour</name>, si sous ton empire</l>
+         <l>Je souffre des maux cuisans,</l>
+         <l>C’est de n’oser dire</l>
+         <l>Tout ce que je sens.</l>
+       </lg>
+        
+        <p><name key="tircis" corresp="simon_blondel">Tircis</name> &amp; <name key="philene" corresp="jean_gaye">Philene</name>
+          <note place="margin"><persName key="simon_blondel" role="acteur">Blondel</persName>, <persName key="jean_gaye" role="acteur">Gaye</persName></note>
+         amans de ces deux <name key="bergere">Bergeres</name>, les abordent pour leur parler de leur passion,
+         &amp; font avec elle une</p>
+        
+       <label type="head">SCENE EN MUSIQUE.</label>
+        <label type="speaker"><name key="cloris" corresp="mlle_de_froteaux">Cloris</name>.</label>
+        <l>Laissez-nous en repos, <name key="philene" corresp="jean_gaye">Philene</name>.</l>
+        
+        <label type="speaker"><name key="climene" corresp="hilaire_dupuis">Climene</name>.</label>
+        <l><name key="tircis" corresp="simon_blondel">Tircis</name>, ne viens point m’arrester.</l>
+        
+        <label type="speaker"><name key="tircis" corresp="simon_blondel">Tircis</name>, &amp; 
+          <name key="philene" corresp="jean_gaye">Philene</name>.</label>
+       <l>Ah ! belle inhumaine,</l>
+       <l>Daigne un moment m’écouter ?</l>
+        
+        <label type="speaker"><name key="climene" corresp="hilaire_dupuis">Climene</name>, &amp; 
+         <name key="cloris" corresp="mlle_de_froteaux">Cloris</name>.</label>
+       <l>Mais, que me veux-tu conter ?</l>
+        
+        <label type="speaker"><name key="tircis" corresp="simon_blondel">
+            <name key="philene" corresp="jean_gaye">Les deux Bergers</name></name>.</label>
+       <l>Que d’une flamme immortelle</l>
+       <l>Mon cœur brûle sous tes loix.</l>
+        
+        <label type="speaker"><name key="climene" corresp="hilaire_dupuis">
+            <name key="cloris" corresp="mlle_de_froteaux">Les deux Bergeres</name></name>.</label>
+       <l>Ce n’est pas une nouvelle,</l>
+       <l>Tu me l’as dit mille fois.</l>
+        
+        <label type="speaker"><name key="philene" corresp="jean_gaye">Philene</name>.</label>
+       <l>Quoy ? veux-tu toute ma vie</l>
+       <l>Que j’ayme &amp; n’obtienne rien ?</l>
+        
+       <label type="speaker">
+         <pb n="9" xml:id="p9" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526239b/f12.item"/> <name>Cloris</name>.</label>
+       <l>Non, ce n’est pas mon envie,</l>
+       <l>N’ayme plus, je le veux bien.</l>
+        
+        <label type="speaker"><name key="tircis" corresp="simon_blondel">Tircis</name>.</label>
+       <l><name>Le Ciel</name> me force à l’hommage</l>
+       <l>Dont tous ces bois sont témoins.</l>
+        
+        <label type="speaker"><name key="climene" corresp="hilaire_dupuis">Climene</name>.</label>
+       <l>C’est au <name key="ciel">Ciel</name>, puis qu’il t’engage,</l>
+       <l>A te payer de tes soins.</l>
+        
+        <label type="speaker"><name key="philene" corresp="jean_gaye">Philene</name>.</label>
+       <l>C’est par ton merite extréme</l>
+       <l>Que tu captive mes vœux.</l>
+        
+        <label type="speaker"><name key="cloris" corresp="mlle_de_froteaux">Cloris</name>.</label>
+       <l>Si je merite qu’on m’ayme</l>
+       <l>Je ne dois rien à tes feux.</l>
+        
+        <label type="speaker"><name key="berger"><name key="tircis" corresp="simon_blondel">
+            <name key="philene" corresp="jean_gaye">Les deux Bergers</name></name></name>.</label>
+       <l>L’éclat de tes yeux me tuë.</l>
+        
+        <label type="speaker"><name key="bergere"><name key="climene" corresp="hilaire_dupuis">
+            <name key="cloris" corresp="mlle_de_froteaux">Les deux bergeres</name></name></name>.</label>
+       <l>Destourne de moy tes pas.</l>
+        
+        <label type="speaker"><name key="berger"><name key="tircis" corresp="simon_blondel">
+              <name key="philene" corresp="jean_gaye">Les deux Bergers</name></name></name>.</label>
+       <l>Je me plais dans cette veüe.</l>
+        
+        <label type="speaker"><name key="bergere"><name key="climene" corresp="hilaire_dupuis">
+            <name key="cloris" corresp="mlle_de_froteaux">Les deux Bergeres</name></name></name>.</label>
+        <l><name key="berger"><name key="tircis" corresp="simon_blondel">
+              <name key="philene" corresp="jean_gaye">Berger</name></name></name>, ne t’en plains donc pas.</l>
+        
+        <label type="speaker"><name key="philene" corresp="jean_gaye">Philene</name>.</label>
+        <l>Ah ! belle <name key="climene" corresp="hilaire_dupuis">Climene</name>.</l>
+        
+        <label type="speaker"><name key="tircis" corresp="simon_blondel">Tircis</name>.</label>
+        <l>Ah ! belle <name key="cloris" corresp="mlle_de_froteaux">Cloris</name>.</l>
+        
+       <label type="speaker">
+         <pb n="10" xml:id="p10" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526239b/f13.item"/> <name key="philene" corresp="jean_gaye">Philene</name>.</label>
+       <l>Rends-là pour moy plus humaine.</l>
+        
+        <label type="speaker"><name key="tircis" corresp="simon_blondel">Tircis</name>.</label>
+       <l>Dompte pour moy ses mépris.</l>
+        
+        <label type="speaker"><name key="climene" corresp="hilaire_dupuis">Climene</name>,
+          à <name key="cloris" corresp="mlle_de_froteaux">Cloris</name>.</label>
+        <l>Sois sensible à l’amour que te porte <name key="philene" corresp="jean_gaye">Philene</name>.</l>
+        
+        <label type="speaker"><name key="cloris" corresp="mlle_de_froteaux">Cloris</name>,
+          à <name key="climene" corresp="hilaire_dupuis">Climene</name>.</label>
+        <l>Sois sensible à l’ardeur dont <name key="tircis" corresp="simon_blondel">Tircis</name> est épris.</l>
+        
+        <label type="speaker"><name key="climene" corresp="hilaire_dupuis">Climene</name>.</label>
+        <l>Si tu veux me donner ton exemple, <name key="bergere"><name key="cloris" corresp="mlle_de_froteaux">Bergere</name></name>,</l>
+       <l>Peut-estre je le recevray.</l>
+        
+        <label type="speaker"><name key="cloris" corresp="mlle_de_froteaux">Cloris</name>.</label>
+       <l>Si tu veux te resoudre à marcher la premiere</l>
+       <l>Possible que je te suivray.</l>
+        
+        <label type="speaker"><name key="climene" corresp="hilaire_dupuis">Climene</name>,
+          à <name key="philene" corresp="jean_gaye">Philene</name>.</label>
+        <l>Adieu, <name key="berger"><name key="philene" corresp="jean_gaye">Berger</name></name>.</l>
+        
+        <label type="speaker"><name key="cloris" corresp="mlle_de_froteaux">Cloris</name>,
+          à <name key="tircis" corresp="simon_blondel">Tircis</name>.</label>
+        <l>Adieu, <name key="berger"><name key="tircis" corresp="simon_blondel">Berger</name></name>.</l>
+        
+        <label type="speaker"><name key="climene" corresp="hilaire_dupuis">Climene</name>.</label>
+       <l>Attend un favorable sort.</l>
+        
+        <label type="speaker"><name key="cloris" corresp="mlle_de_froteaux">Cloris</name>.</label>
+       <l>Attens un doux succez du mal qui te possede.</l>
+        
+        <label type="speaker"><name key="tircis" corresp="simon_blondel">Tircis</name>.</label>
+       <l>Je n’attens aucun remede.</l>
+        
+        <label type="speaker"><name key="philene" corresp="jean_gaye">Philene</name>.</label>
+       <l>Et je n’attens que la mort.</l>
+        
+       <label type="speaker">
+         <pb n="11" xml:id="p11" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526239b/f14.item"/>
+         <name key="tircis" corresp="simon_blondel">Tircis</name>,
+         &amp; <name key="philene" corresp="jean_gaye">Philene</name>.</label>
+       <l>Puis qu’il nous faut languir en de tels déplaisirs,</l>
+       <l>Mettons fin en mourant à nos tristes soûpirs.</l>
+       
+        <p>Ces deux <name key="berger"><name key="tircis" corresp="simon_blondel"><name key="philene" corresp="jean_gaye">Bergers</name></name></name>
+          s’en vont desesperez, suivant la coustume des anciens Amans
+          qui se desesperoient de peu de chose ; en suite de cette Musique vient</p>
+      </div>
+      <div>
+        <head>LE PREMIER ACTE DE LA COMEDIE qui se recite.</head>
+        <p><name key="paysan">LE Paysan marié</name> y reçoit des mortifications de son Mariage,
+          &amp; sur la fin de l’Acte dans un chagrin assez puissant,
+          il est interrompu par une <name key="bergere">Bergere</name> qui luy vient faire le recit du desespoir
+          des <name key="berger"><name key="tircis" corresp="simon_blondel"><name key="philene" corresp="jean_gaye">deux Bergers</name></name></name>;
+          il la quitte en colere, &amp; fait place à <name key="cloris" corresp="mlle_de_froteaux">Cloris</name>,
+          qui sur la mort de son <name key="philene" corresp="jean_gaye">Amant</name> vient faire une</p>
+        
+        <label type="head">PLAINTE EN MUSIQUE.</label>
+        <lg>
+          <l>Ah ! mortelles douleurs !</l>
+          <l>Qu’ay-je plus à prétendre ?</l>
+          <l>Coulez, coulez mes pleurs,</l>
+          <l>Je n’en puis trop répandre.</l>
+            
+          <l>
+            <pb n="12" xml:id="p12" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526239b/f15.item"/> Pourquoy faut-il qu’un tirannique honneur</l>
+          <l>Tienne nostre ame en esclave asservie ?</l>
+          <l>Helas ! pour contenter sa barbare rigueur</l>
+          <l>J’ay reduit mon <name key="philene" corresp="jean_gaye">Amant</name> à sortir de la vie.</l>
+          <l>Ah ! mortelles douleurs !</l>
+          <l>Qu’ay-je plus à pretendre ?</l>
+          <l>Coulez, coulez mes pleurs,</l>
+          <l>Je n’en puis trop répandre.</l>
+            
+          <l>Me puis-je pardonner dans ce funeste sort</l>
+          <l>Les severes froideurs dont je m’estois armée ?</l>
+          <l>Quoy donc, mon cher <name key="philene" corresp="jean_gaye">amant</name>, je t’ay donné la mort,</l>
+          <l>Est-ce le prix, helas ! de m’avoir tant aymée ?</l>
+          <l>Ah ! mortelles douleurs ! Etc.</l>
+        </lg>
+        
+        <p>La fin de ces plaintes fait venir</p>
+      </div>
+      
+      <div>
+        <head>LE SECOND ACTE DE LA COMEDIE qui se recite.</head>
+        <p>C’Est une suite des déplaisirs de <name key="paysan">Paysan marié</name>,
+          &amp; la mesme <name key="bergere"><name key="cloris" corresp="mlle_de_froteaux">Bergere</name></name>
+          ne manque pas de venir encore l’interrompre dans sa douleur.
+          Elle luy racontre comme <name key="tircis" corresp="simon_blondel">Tircis</name> &amp; <name key="philene" corresp="jean_gaye">Philene</name>
+          ne sont point morts, &amp; luy montre <name key="batelier" corresp="jouan">
+            <name key="batelier" corresp="beauchamp"><name key="batelier" corresp="chicanneau">
+                <name key="batelier" corresp="favier"><name key="batelier" corresp="noblet">
+                    <name key="batelier" corresp="mayeu">six Bateliers</name></name></name></name></name></name> 
+          <pb n="13" xml:id="p13" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526239b/f16.item"/>
+          qui les ont sauvez ; <note place="margin"><persName key="jouan" role="acteur">Joüan</persName>,
+            <persName key="beauchamp" role="acteur">Beauchamp</persName>, <persName key="chicanneau" role="acteur">Chicanneau</persName>,
+            <persName key="favier" role="acteur">Favier</persName>, <persName key="noblet" role="acteur">Noblet</persName><persName key="mayeu" role="acteur">Mayeu</persName></note>
+          il ne veut point s’arrester à les voir, &amp; les <name key="batelier" corresp="jouan">
+            <name key="batelier" corresp="beauchamp"><name key="batelier" corresp="chicanneau">
+                <name key="batelier" corresp="favier"><name key="batelier" corresp="noblet">
+                    <name key="batelier" corresp="mayeu">Bateliers</name></name></name></name></name></name> 
+          ravis de la recompense qu’ils ont receuë, dançent avec les crocs
+          &amp; se joüent ensemble, apres quoy commence</p>
+      </div>
+      
+      <div>
+        <head>LE TROISIESME ACTE DE LA COMEDIE qui se recite.</head>
+        <p>QUi est le comble des douleurs du <name key="paysan">Paysan marié </name>:
+          Enfin un de ses amis luy conseille de noyer dans le vin toutes ses inquietudes,
+          &amp; part avec luy pour joindre sa trouppe, voyant venir toute <name key="berger">la foule des Bergers amoureux</name>,
+          qui à la maniere des <name key="berger">anciens Bergers</name>, commencent à celebrer par des chants
+          &amp; des dances le pouvoir de <name key="amour">l’Amour</name>.</p>
+        
+        <label type="speaker"><name key="cloris" corresp="mlle_de_froteaux">CLORIS</name>.</label>
+        <l>Icy l’ombre des ormeaux</l>
+        <l>Donne un teint frais aux herbettes,</l>
+        <l>Et les bords de ces Ruisseaux</l>
+        <l>Brillent de mille fleurettes</l>
+        <l>Qui se mirent dans les eaux.</l>
+        <l>Prenez, <name key="berger">Bergers</name>, vos musettes</l>
+        <l>Ajustez vos chalumeaux,</l>
+        <l>
+          <pb n="14" xml:id="p14" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526239b/f17.item"/> Et mestons nos chansonnettes</l>
+        <l>Aux chants des <tech type="animal">petits oyseaux</tech>.</l>
+          
+        <l>Le Zephire entre ces eaux</l>
+        <l>Fait mille courses secretes,</l>
+        <l>Et les <tech type="animal">Rossignols</tech> nouveaux</l>
+        <l>De leurs douces amourettes</l>
+        <l>Parlent aux tendres rameaux.</l>
+        <l>Prenez, <name key="berger">Bergers</name>, vos musettes</l>
+        <l>Ajustez vos chalumeaux,</l>
+          
+        <l>Et mestons nos chansonnettes</l>
+        <l>Aux chants des <tech type="animal">petits oyseaux</tech>.</l>
+        
+        <p><name>Plusieurs Bergers</name> &amp; <name>Bergeres</name> galantes 
+          *[<name key="berger">Bergers</name>. <persName key="chicanneau" role="acteur">Chicanneau</persName>,
+          <persName key="saint_andre" role="acteur">S. André</persName>, <persName key="la_pierre" role="acteur">la Pierre</persName>,
+          <persName key="favier" role="acteur">Favier</persName>. <name key="bergere">Bergeres</name>.
+          <persName key="bonard" role="acteur">Bonard</persName>, <persName key="arnald" role="acteur">Arnald</persName>,
+          <persName key="noblet" role="acteur">Noblet</persName>, <persName key="foignard" role="acteur">Foignard</persName>.]
+          mélent aussi leurs pas à tout cecy, &amp; occupent les yeux tandis que la Musique occupe les oreilles.</p>
+        
+        <label type="speaker"><name key="climene" corresp="hilaire_dupuis">CLIMENE</name>.</label>
+        <l>Ah ! qu’il est doux, <name key="silvie">belle Silvie</name>,</l>
+        <l>Ah ! qu’il est doux de s’enflammer ;</l>
+        <l>Il faut retrancher de la vie</l>
+        <l>Ce qu’on passe sans aymer.</l>
+        
+        <label type="speaker"><name key="cloris" corresp="mlle_de_froteaux">Cloris</name>.</label>
+        <l>Ah ! les beaux jours qu’<name>Amour</name> nous donne</l>
+        <l>Lors que sa flame unit les cœurs ;</l>
+        <l>Est-il ny gloire ny Couronne</l>
+        <l>Qui vaille ses moindres douceurs ?</l>
+        
+        <label type="speaker">
+          <pb n="15" xml:id="p15" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526239b/f18.item"/> <name key="tircis" corresp="simon_blondel">Tircis</name>.</label>
+        <l>Qu’avec peu de raison on se plaint d’un martire</l>
+        <l>Que suivent de si doux plaisirs.</l>
+        
+        <label type="speaker"><name key="philene" corresp="jean_gaye">Philene</name>.</label>
+        <l>Un moment de bon-heur dans l’amoureux Empire</l>
+        <l>Repare dix ans de soûpirs.</l>
+        
+        <label type="speaker"><name key="philene" corresp="jean_gaye"><name key="tircis" corresp="simon_blondel">
+              <name key="cloris" corresp="mlle_de_froteaux"><name key="climene" corresp="hilaire_dupuis">Tous ensemble</name></name></name></name>.</label>
+        <l>Chantons tous de l’<name key="amour">Amour</name> le pouvoir adorable,</l>
+        <l>Chantons tous dans ces lieux</l>
+        <l>Ses attraits glorieux ;</l>
+        <l>Il est le plus aymable</l>
+        <l>Et <name key="dieu"><name key="amour">le plus grand des Dieux</name></name>.</l>
+        
+        <p>A ces mots toute <name key="choeur_bacchus">la Troupe de Bachus</name> arrive,
+          &amp; l’un deux s’avançant à la teste *[<persName key="estival" role="acteur">d’Estival</persName>.]
+          chante fierement ces paroles.</p>
+        
+        <lg>
+          <l>Arrestez, c’est trop entreprendre,</l>
+          <l>Un autre <name key="bacchus"><name key="dieu">Dieu</name></name> dont nous suivons les loix</l>
+          <l>S’oppose à cet honneur qu’à l’<name key="amour">Amour</name> osent rendre</l>
+          <l>Vos musettes et vos voix :</l>
+          <l>A des titres si beaux, <name key="bacchus">Bachus</name> seul peut pretendre,</l>
+          <l>Et nous sommes icy pour défendre ses droits.</l>
+        </lg>
+        
+        <label type="speaker">
+          <pb n="16" xml:id="p16" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526239b/f19.item"/><name key="choeur_bacchus">Chœur de Bachus</name>.</label>
+        <l>Nous suivons de <name key="bacchus">Bachus</name> le pouvoir adorable,</l>
+        <l>Nous suivons en tous lieux</l>
+        <l>Ses attraits glorieux,</l>
+        <l>Il est le plus aymable,</l>
+        <l>Et <name key="bacchus"><name key="dieu">le plus grand des Dieux</name></name>.</l>
+        
+        <p>Plusieurs du <name key="choeur_bacchus">party de Bachus</name> meslent aussi leurs pas à la Musique,
+          <note place="margin"><name key="choeur_bacchus">Suivans de Bachus dançant</name>. <persName key="beauchamp" role="acteur">Beauchamp</persName>,
+            <persName key="dolivet" role="acteur">Dolivet</persName>, <persName key="chicanneau" role="acteur">Chicanneau</persName>,
+            <persName key="mayeu" role="acteur">Mayeu</persName>. <name key="bachante">Bachantes</name>. <name key="paysan">Paysan</name>,
+            <persName key="manceau" role="acteur">Mançeau</persName>, <persName key="louisxiv">le Roy</persName><!-- est-ce le vrai Roy ou un personnage ? -->,
+            <persName key="pesan" role="acteur">Pesan</persName>.</note> &amp; l’on void icy un combat de <name key="danseur">dançeurs</name>
+          contre <name key="danseur">dançeurs</name>, &amp; de <name key="chanteur">chantres</name> contre <name key="chanteur">chantres</name>.</p>
+        <label type="speaker"><name key="cloris" corresp="mlle_de_froteaux">Cloris</name>.</label>
+        <l>C’est le <name key="printemps">Printemps</name> qui rend l’ame</l>
+        <l>A nos champs semez de fleurs ;</l>
+        <l>Mais c’est l’<name key="amour">Amour</name> et la flame</l>
+        <l>Qui font revivre nos cœurs.</l>
+        
+        <label type="speaker"><name key="bacchus">Un suivant de Bachus</name>.
+          <note place="margin"><persName key="gingan" role="acteur">Gingan</persName>.</note></label>
+        <l>Le <name key="soleil">Soleil</name> chasse les ombres</l>
+        <l>Dont le <name key="ciel">Ciel</name> est obscurcy,</l>
+        <l>Et des ames les plus sombres</l>
+        <l><name key="bacchus">Bachus</name> chasse le soucy.</l>
+        
+        <label type="speaker"><name key="choeur_bacchus">Chœur de Bachus</name>.</label>
+        <l><name>Bachus</name> est reveré sur la terre et sur l’onde.</l>
+        
+        <label type="speaker"><name key="choeur_amour">Chœur de l’Amour</name>.</label>
+        <l>Et l’<name>Amour</name> est un <name>Dieu</name> qu’on adore en tous lieux.</l>
+        
+        <label type="speaker"><name key="choeur_bacchus">Chœur de Bachus</name>.</label>
+        <l><name>Bachus</name> à son pouvoir a soûmis tout le monde.</l>
+        
+        <label type="speaker">
+          <pb n="17" xml:id="p17" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526239b/f20.item"/><name key="choeur_amour">Chœur de l’Amour</name>.</label>
+        <l>Et l’<name>Amour</name> a dompté les Hommes et <name>les Dieux</name>.</l>
+        
+        <label type="speaker"><name key="choeur_bacchus">Chœur de Bachus</name>.</label>
+        <l>Rien peut-il égaler sa douceur sans seconde ?</l>
+        
+        <label type="speaker"><name key="choeur_amour">Chœur de l’Amour</name>.</label>
+        <l>Rien peut-il égaler ses charmes precieux ?</l>
+        
+        <label type="speaker"><name key="choeur_bacchus">Chœur de Bachus</name>.</label>
+        <l>Fy de l’<name>Amour</name> et de ses feux.</l>
+        
+        <label type="speaker"><name key="choeur_amour">Chœur de l’Amour</name>.</label>
+        <l>Ah ! quel plaisir d’aymer.</l>
+        
+        <label type="speaker"><name key="choeur_bacchus">Le party de Bachus</name>.</label>
+        <l>Ah ! Quel plaisir de boire.</l>
+        
+        <label type="speaker"><name key="choeur_amour">Le party de l’Amour</name>.</label>
+        <l>A qui vit sans amour, la vie est sans appas.</l>
+        
+        <label type="speaker"><name key="choeur_bacchus">Le party de Bachus</name>.</label>
+        <l>C’est mourir que de vivre, et de ne boire pas.</l>
+        
+        <label type="speaker"><name key="choeur_amour">Le party de l’Amour</name>.</label>
+        <l>Aymables fers,</l>
+        
+        <label type="speaker"><name key="choeur_bacchus">Le party de Bachus</name>.</label>
+        <l>Douce victoire.</l>
+        
+        <label type="speaker"><name key="choeur_amour">Le party de l’Amour</name>.</label>
+        <l>Ah ! quel plaisir d’aymer.</l>
+        
+        <label type="speaker"><name key="choeur_bacchus">Le party de Bachus</name>.</label>
+        <l>Ah ! quel plaisir de boire.</l>
+        
+        <label type="speaker">
+          <pb n="18" xml:id="p18" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526239b/f21.item"/> <name key="choeur_amour"><name key="choeur_bacchus">Les deux partis</name></name>.</label>
+        <l>Non, non c’est un abus,</l>
+        <l><name>Le plus grand <name key="dieu">Dieu</name> de tous</name>.</l>
+        
+        <label type="speaker"><name key="choeur_amour">Le party de l’Amour</name>.</label>
+        <l>C’est l’<name key="amour">Amour</name>.</l>
+        
+        <label type="speaker"><name key="choeur_bacchus">Le party de Bachus</name>.</label>
+        <l>C’est <name key="bacchus">Bachus</name>.</l>
+        
+        <p><name key="berger">Un Berger</name> se jette au milieu de cette dispute <note place="margin"><persName key="le_gros" role="acteur">Le Gros</persName>.</note>
+          &amp; chante ces Vers aux deux partis.</p>
+        
+        <l>C’est trop, c’est trop, <name key="berger">Bergers</name>, hé pourquoy ces debats ?</l>
+        <l>Souffrons qu’en un party la raison nous assemble,</l>
+        <l>L’<name key="amour">Amour</name> a des douceurs, <name key="bacchus">Bachus</name> a des appas,</l>
+        <l>Ce sont <name key="dieu"><name key="amour"><name key="bacchus">deux Deïtez</name></name></name>
+          qui sont fort bien ensemble,</l>
+        <l>Ne les separons pas.</l>
+        
+        <label type="speaker"><name key="choeur_bacchus"><name key="choeur_amour">Les deux Chœurs ensemble</name></name>.</label>
+        <l>Meslons donc leurs douceurs aymables,</l>
+        <l>Meslons nos voix dans ces lieux agreables,</l>
+        <l>Et faisons repeter aux Echos d’alentour</l>
+        <l>Qu’il n’est rien de plus doux que <name key="bacchus">Bachus</name> et l’<name key="amour">Amour</name>.</l>
+        
+        <p>Tous les <name key="danseur">dançeurs</name> se meslent ensemble à l’exemple des autres,
+          &amp; avec cette pleine réjouyssance de tous les <name key="berger">Bergers</name>
+          &amp; <name key="bergere">Bergeres</name> finira le divertissement de la Comedie d’où l’on passera aux autres merveilles,
+          dont vous aurez la Relation.</p>
+      </div>
+      
+      <div>
+        <head>
+          <pb n="19" xml:id="p19" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526239b/f22.item"/> <name key="bergers">BERGERS</name>.</head>
+        <label type="speaker"><name key="choeur_amour">Chœurs d’Amour</name>.</label>
+        <list>
+          <item><persName key="">Herbert <!-- Se réfère à André Hubert ? aussi présent ici https://www.gutenberg.org/cache/epub/57270/pg57270-images.html --></persName>.</item>
+          <item><persName key="petit_beaumont">Beaumont</persName>.</item>
+          <item><persName key="louisriccoboni">Boni</persName>.</item>
+          <item><persName key="">Fernon le Cadet <!-- Aussi présent ici https://www.gutenberg.org/cache/epub/57270/pg57270-images.html --></persName>.</item>
+          <item><persName key="">Rebel <!-- Aussi présent ici https://www.gutenberg.org/cache/epub/57270/pg57270-images.html --></persName>.</item>
+          <item><persName key="gingan">Gingan le Cadet</persName>.</item>
+          <item><persName key="">Longüeil <!-- Aussi présent dans la fiche personnage de Louis de MOLLIER https://operabaroque.fr/MOLLIER.htm et ici https://operabaroque.fr/LULLY_ESCARBAGNAS.htm --></persName>.</item>
+          <item><persName key="">Cottereau</persName>.</item>
+          <item><persName key="">Jeannot <!-- Aussi orthographié Jannot https://moliere21.cnrs.fr/livret-de-ballet-de-psyche/ --></persName> (Pages).</item>
+          <item><persName key="">Laigu <!-- Aussi présent ici https://moliere21.cnrs.fr/livret-du-grand-divertissement-royal-de-versailles/ --></persName> (Pages).</item>
+          <item><persName key="">Piesche Pere <!-- Surement Pierre Piesche, https://francearchives.gouv.fr/fr/facomponent/b90e649e42d466b8ba1ccf290196344e31c2466e | Aussi présent ici https://moliere21.cnrs.fr/livret-du-grand-divertissement-royal-de-versailles/ --></persName>.</item>
+          <item><persName key="">Piesche fils <!-- Aussi présent ici https://moliere21.cnrs.fr/livret-du-grand-divertissement-royal-de-versailles/ --></persName>.</item>
+          <item><persName key="destouches">Destouche</persName>.</item>
+          <item><persName key="la_caisse">La Caisse Cadet</persName>.</item>
+          <item><persName key="marchand">Marchand</persName>.</item>
+          <item><persName key="huguenet">Huguenet</persName>.</item>
+          <item><persName key="la_caisse">La Caisse Cadet</persName>.</item>
+          <item><persName key="la_fontaine">La Fontaine</persName>.</item>
+          <item><persName key="charlot">Charlot</persName>.</item>
+          <item><persName key="">Martinot Pere <!-- Aussi présent ici https://moliere21.cnrs.fr/livret-du-grand-divertissement-royal-de-versailles/ --></persName>.</item>
+          <item><persName key="">Martinot fils <!-- Aussi présent ici https://moliere21.cnrs.fr/livret-du-grand-divertissement-royal-de-versailles/ --></persName>.</item>
+          <item><persName key="le_roux_aine">Le Roux, laisné</persName>.</item>
+          <item><persName key="le_roux_cadet">Le Roux Cadet</persName>.</item>
+          <item><persName key="">Guenin <!-- Aussi présent ici https://moliere21.cnrs.fr/livret-du-grand-divertissement-royal-de-versailles/ --></persName>.</item>
+          <item><persName key="le_grais">Le Grais</persName>.</item>
+          <item><persName key="">Brüard <!-- Se réfère à Brouard ? https://classiques-garnier.com/dictionnaire-des-musiciens-et-danseurs-a-la-cour-de-louis-xiv-et-des-princes-1643-1661-tome-i-a-c-table-des-entrees.html?displaymode=full --></persName>.</item>
+          <item><persName key="roulle">Roullé</persName>.</item>
+          <item><persName key="magny">Magny</persName>.</item>
+          <item><persName key="">Chevallier <!-- Aussi présent ici https://moliere21.cnrs.fr/livret-de-ballet-de-psyche/ --></persName>.</item>
+        </list>
+      </div>
+      
+      <div>
+        <head>
+          <pb n="20" xml:id="p20" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526239b/f23.item"/> <name key="satyre">SATYRES</name>.</head>
+        <label type="speaker"><name key="choeur_bacchus">Chœurs de Bachus</name>.</label>
+        <list>
+          <item><persName key="">Hedoüin <!-- aussi orthographié "Hédoin" https://www.gutenberg.org/cache/epub/57270/pg57270-images.html et aussi ici Aussi présent ici https://moliere21.cnrs.fr/livret-de-ballet-de-psyche/ --></persName>.</item>
+          <item><persName key="louis_don">Dom</persName>.</item>
+          <item><persName key="">Fernon Laisné <!-- aussi présent ici https://www.gutenberg.org/cache/epub/57270/pg57270-images.html --></persName>.</item>
+          <item><persName key="">Deschamps <!-- Aussi présent ici https://moliere21.cnrs.fr/livret-de-ballet-de-psyche/ --></persName>.</item>
+          <item><persName key="">Orat <!-- aussi orthographié "Aurat" https://www.gutenberg.org/cache/epub/57270/pg57270-images.html --></persName>.</item>
+          <item><persName key="du_pron">David</persName>.</item>
+          <item><persName key="">Monier <!-- Aussi présent ici https://moliere21.cnrs.fr/livret-du-grand-divertissement-royal-de-versailles/ --></persName>.</item>
+          <item><persName key="">Serignan <!-- aussi présent ici https://www.gutenberg.org/cache/epub/57270/pg57270-images.html --></persName>.</item>
+          <item><persName key="">Sanson <!-- Aussi présent ici https://moliere21.cnrs.fr/livret-du-grand-divertissement-royal-de-versailles/ --></persName>.</item>
+          <item><persName key="">Oudot <!-- Aussi présent ici https://moliere21.cnrs.fr/livret-de-ballet-de-psyche/ --></persName>.</item>
+          <item><persName key="simon_blondel">Simon</persName>. (Pages).</item>
+          <item><persName key="">Thiery <!-- Aussi présent ici https://moliere21.cnrs.fr/livret-du-grand-divertissement-royal-de-versailles/ --></persName>. (Pages).</item>
+          <item><persName key="">Truslon <!-- Aussi présent ici https://moliere21.cnrs.fr/livret-du-grand-divertissement-royal-de-versailles/ --></persName>. (Pages).</item>
+          <item><persName key="">Augé <!-- Se réfère à Maugé ? Présent ici https://moliere21.cnrs.fr/livret-de-ballet-de-psyche/ --></persName>. (Pages).</item>
+          <item><persName key="jean_hottere">Jean</persName>. (Hottere).</item>
+          <item><persName key="louis_hottere">Louys</persName>. (Hottere).</item>
+          <item><persName key="nicolas_hottere">Nicolas</persName>. (Hottere).</item>
+          <item><persName key="martin_hottere">Martin</persName>. (Hottere).</item>
+          <item><persName key="du_manoir">Dumanoir</persName>.</item>
+          <item><persName key="mazuel">Mazuel</persName>.</item>
+          <item><persName key="chaudron">Chauderon</persName>.</item>
+          <item><persName key="favier">Favier</persName>.</item>
+          <item><persName key="???">Bruslard</persName>.</item>
+          <item><persName key="balus">Balus</persName>.</item>
+          <item><persName key="des_matins">Des-Matins</persName>.</item>
+          <item><persName key="feugre">Feugré</persName>.</item>
+          <item><persName key="">Du Pain <!-- Aussi présent ici https://moliere21.cnrs.fr/livret-du-grand-divertissement-royal-de-versailles/ | https://classiques-garnier.com/dictionnaire-des-musiciens-et-danseurs-a-la-cour-de-louis-xiv-et-des-princes-1643-1661-tome-ii-d-l-table-des-entrees.html?displaymode=full --></persName>.</item>
+          <item><persName key="">L’Espine <!-- Aussi présent ici https://moliere21.cnrs.fr/livret-de-ballet-de-psyche/ --></persName>.</item>
+          <item><persName key="camille">Camille</persName>.</item>
+          <item><persName key="">Bernard <!-- Aussi présent ici https://moliere21.cnrs.fr/livret-de-ballet-de-psyche/ --></persName>.</item>
+          <item><persName key="">Bruslard <!-- Aussi présent ici https://moliere21.cnrs.fr/livret-du-grand-divertissement-royal-de-versailles/ | https://classiques-garnier.com/dictionnaire-des-musiciens-et-danseurs-a-la-cour-de-louis-xiv-et-des-princes-1643-1661-tome-i-a-c-table-des-entrees.html?displaymode=full --></persName>.</item>
+          <item><persName key="des_noyers">Desnoyers</persName>.</item>
+          <item><persName key="">S. Pere <!-- Aussi présent ici https://moliere21.cnrs.fr/livret-de-ballet-de-psyche/ --></persName>.</item>
+          <item><persName key="varin">Varin</persName>.</item>
+          <item><persName key="mercier">Mercier</persName>.</item>
+          <item><persName key="">Chevalier <!-- Se réfère à Chevallier ? Présent ici https://moliere21.cnrs.fr/livret-de-ballet-de-psyche/ --></persName>.</item>
+          <item><persName key="joubert">Joubert</persName>.</item>
+          <item><persName key="la_place">La Place</persName>.</item>
+          <item><persName key="">Fossart <!-- Aussi présent ici https://moliere21.cnrs.fr/livret-de-ballet-de-psyche/ --></persName>.</item>
+          <item><persName key="">Lique <!-- Aussi présent ici https://moliere21.cnrs.fr/livret-de-ballet-de-psyche/ --></persName>.</item>
+        </list>
+        <p>FIN.</p>
+      </div>
+    </body>
+  </text>
+</TEI>
