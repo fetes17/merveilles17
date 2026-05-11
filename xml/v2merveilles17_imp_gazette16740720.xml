@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
+<?xml-stylesheet type="text/css" href="../style/tei-author.css" alternate="author"?>
+<?xml-model href="https://fetes17.github.io/merveilles17/merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nouvelles Ordinaires du 20 Juillet 1674.</title>
+        <author key="renaudot">Renaudot, Théophraste (1586-1653).</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Merveilles17</edition>
+        <respStmt>
+          <name>DAENINCKX, Mickaël</name>
+          <resp>Transcription et balisage</resp>
+        </respStmt>
+        <respStmt>
+          <name>CHAPON, Axelanne</name>
+          <resp>Relecture</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université d’Artois - Lille, MESHS</publisher>
+        <date when="2026"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Renaudot Théophraste, <title>Recueil des gazettes, nouvelles ordinaires et extraordinaires,
+            relations et autres récits des choses avenues tant en ce royaume qu’ailleurs, pendant l’année mil six cent soixante-quatorze.</title>
+          <note>Paris, Bureau d’adresse, 1674, n°87, p. 714.</note>
+          <ptr target="https://gallica.bnf.fr/ark:/12148/bpt6k6280445v/f8.item"/></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1674-07-20">1674-07-20</date>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="714" xml:id="p714" facs="https://gallica.bnf.fr/ark:/12148/bpt6k6280445v/f8.item"/>
+      <head>De <placeName key="versailles">Versailles</placeName>, <date when="1674-07-20">le 20 Juillet 1674</date></head>
+      <p>Ces jours passez, le <persName key="jacques_louis_de_beringhen">Marquis de Beringhen</persName> presta le serment entre les mains du <persName key="louisxiv">Roy</persName>,
+        pour la survivance de la charge de premier Escüyer, que <persName key="louisxiv">Sa Majesté</persName> avoit donnée au defunt <persName key="">Marquis de Beringhen son frére</persName> <!-- Pas de @key -->,
+        qui fut tüé devant <placeName key="">Besançon</placeName> <!-- Pas de @key -->, &amp; qu’Elle luy a voulu accorder, en considération de leurs services.</p>
+      <p><date when="1674-07-17">Le 17 de ce mois</date>, l’Académie Françoise vinst complimenter le <persName key="louisxiv">Roy</persName> sur ses derniéres conquestes :
+        &amp; <persName key="">l’Abbé Fléchier</persName> <!-- Quel rôle ? --> <!-- Pas de @key --> fit au nom de cette Compagnie un Discours tres-éloquent, dont <persName key="louisxiv" role="spectateur">Sa Majessté</persName> fut extrémement satisfaite.</p>
+      <p><date when="1674-07-18">Le lendemain</date>, <persName key="marie_therese"><persName key="louisxiv">Leurs Majestez</persName></persName>, avec lesquelles estoyent <persName key="louis_grand_dauphin">Monseigneur le Dauphin</persName>,
+        <persName key="louis_grand_dauphin">Monsieur</persName> &amp; <persName key="marie_anne_baviere">Madame</persName>, &amp; toute la Cour, prirent le divertissement de la Comédie, joüée par la Troupe du <persName key="louisxiv">Roy</persName>,
+        devant <placeName key="versailles_jardins_bassin-flore">la grote</placeName>, <tech type="lumieres">tres-agréablement éclairée</tech> : ayans auparavant esté faire collation en la <placeName key="versailles_jardins_menagerie">Ménagerie</placeName>,
+        &amp; la promenade sur le <placeName key="versailles_canal">Canal</placeName>.</p>
+     </body>
+  </text>
+</TEI>
