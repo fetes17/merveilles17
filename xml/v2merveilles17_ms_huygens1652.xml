@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
+<?xml-stylesheet type="text/css" href="../style/tei-author.css" alternate="author"?>
+<?xml-model href="https://fetes17.github.io/merveilles17/merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Œuvres complètes de Christiann Huygens</title>
+        <author key="???">Huygens, Christiaan (1629-1695). </author>
+        <editor key="???" role="éditeur">M. Nijhoff</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>Merveilles17</edition>
+        <respStmt>
+          <name>Axelanne Chapon</name>
+          <resp>Transcription et Balisage</resp>
+        </respStmt>
+        <respStmt>
+          <name>Eliot Bordage</name>
+          <resp>Correction et Relecture</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université d’Artois - Lille, MESHS</publisher>
+        <date when="2026"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Huygens, Christiaan , <title>Œuvres complètes de Christiann Huygens</title>, <note>publié par 
+            la <publisher>société Hollandaise des sciences</publisher>, M. Nijhoff (<pubPlace>La Haye</pubPlace>La Haye), <date>1895</date>1895, p. 239 (lettre 1652, 20 juillet 1668)
+        </note>.<ptr target="https://gallica.bnf.fr/ark:/12148/bpt6k778547/f250.item"/></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1895"/>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>N°1652.</p>
+      <p><persName key="" role="auteur">Christiaan Huygens</persName> à [<persName key="" role="destinataire">Lodewijk Huygens</persName>]</p>
+      <p><date when="1668-07-20">20 juillet 1668</date></p>
+      <p>[...]<pb n="239" xml:id="p239" facs="https://gallica.bnf.fr/ark:/12148/bpt6k778547/f250.item"/></p>
+      <p>Je revins hier matin de <placeName key="versailles">Versailles</placeName> ou il y avoit de belles choses a voir comme vous verrez par la description 
+        <note>Consultez la Lettre N°. 1655, note 5</note> qui en paroistra dans peu de jours, mais la fatigue en diminuoit bien le plaisir, car outre la presse 
+        et le froid qu’il falut souffrir l’on estoit 24 heures sans dormir et plus.</p>
+    </body>
+  </text>
+</TEI>
