@@ -108,5 +108,6 @@
 * [v2merveilles17_imp_marigny1664.xml](https://fetes17.github.io/merveilles17/xml/v2merveilles17_imp_marigny1664.xml)
 * [v2merveilles17_imp_moliere1668.xml](https://fetes17.github.io/merveilles17/xml/v2merveilles17_imp_moliere1668.xml)
 * [v2merveilles17_imp_robinetcharles.xml](https://fetes17.github.io/merveilles17/xml/v2merveilles17_imp_robinetcharles.xml)
+* [v2merveilles17_imp_stenckerjeandaniel.xml](https://fetes17.github.io/merveilles17/xml/v2merveilles17_imp_stenckerjeandaniel.xml)
 * [v2merveilles17_ms_huygens1652.xml](https://fetes17.github.io/merveilles17/xml/v2merveilles17_ms_huygens1652.xml)
 * [v2merveilles17_ms_huygens1655.xml](https://fetes17.github.io/merveilles17/xml/v2merveilles17_ms_huygens1655.xml)
