@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
+<?xml-stylesheet type="text/css" href="../style/tei-author.css" alternate="author"?>
+<?xml-model href="https://fetes17.github.io/merveilles17/merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>De Versailles, le 6. Juillet 1674.</title>
+        <author key="???">{creator}</author>
+        <respStmt>
+          <resp>Imprimeur</resp>
+          <persName key="valfrey" role="imprimeur">P. Valfray</persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Merveilles17</edition>
+        <respStmt>
+          <name>Eliot Bordage</name>
+          <resp>Transcription et balisage</resp>
+        </respStmt>
+        <respStmt>
+          <name>Mickaël Daeninckx</name>
+          <resp>Correcteur</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université d’Artois - Lille, MESHS</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Gazette (Lyon), De Versailles, le 6. Juillet 1674, volume 46, page 350</title>
+          <ptr target="https://books.google.fr/books?id=rIyDIpZFxBcC"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1674-07-06">1674-07-06</date>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head rend="center">De <placeName key="versailles">Versailles</placeName>, le <date
+            when="1674-07-06">6. Juillet 1674.</date></head>
+        <pb n="350" xml:id="p350" facs="https://books.google.fr/books?id=rIyDIpZFxBcC"/>
+        <p><date when="1674-06-30">Le 30. du Passé,</date> Leurs <persName key="louisxiv"><persName
+              key="marie_therese">Majestez</persName></persName>, avec lesquelles estoient <persName
+            key="louis_grand_dauphin">Monseigneur le Dauphin</persName>, arrivérent ici en très
+          parfaite santé, &amp; avec une extréme joye des Peuples, de voir nostre grand <persName
+            key="louisxiv">Monarque</persName>, ainsi heureusement de retour d’une Campagne aussi
+          pénible que glorieuse.</p>
+        <p><date when="1674-07-03">Le 3. de ce mois,</date> le Grand Conseil vint le Complimenter
+          sur ce sujet, par la bouche du <persName key="???">Presidant Barentin</persName>, lequel s’en
+          acquita avec beaucoup d’eloquence.</p>
+        <p><date when="1674-07-04">Le 4</date>. Leursdites <persName key="louisxiv"><persName
+              key="marie_therese">Majestez</persName></persName>, avec lesquelles estoient
+          <persName key="louis_grand_dauphin">Monseigneur le Dauphin</persName>, <persName key="philippe_orleans">Monsieur</persName>, &amp; <persName key="elisabeth-charlotte_baviere">Madame</persName>, prirent ici le
+          Divertissement de la<name key="alceste"> Tragedie d’Alceste</name>, ou du <name
+            key="alcide">Triomphe d’Alcide</name>, representée par l’Academie Royale de Musique : ce
+          qui fut accompagné d’une splendide Collation dans la <placeName>Sale des
+            Marais</placeName>, &amp; <tech type="lumieres">d’illuminations</tech> dans la
+          <placeName key="versailles_cour">Cour du Chasteau</placeName>.</p>
+        <p><date when="1674-07-05">Hier,</date> le <persName key="louisxiv">Roy</persName> reçeut la
+          nouvelle de la reduction du <placeName>Chasteau de Joux</placeName>, dans la Comté.</p>
+      </div>
+    </body>
+  </text>
+</TEI>
