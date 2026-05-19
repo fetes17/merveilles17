@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
+<?xml-stylesheet type="text/css" href="../style/tei-author.css" alternate="author"?>
+<?xml-model href="https://fetes17.github.io/merveilles17/merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Relation de la feste de Versailles. Du dix-huitiéme Iuillet mil six cens soixante-huit.</title>
+          <author key="lepautre">Le Pautre (1618-1682) </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Merveilles17</edition>
+        <respStmt>
+          <name>Axelanne Chapon</name>
+          <resp>Encodage</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université d’Artois - Lille, MESHS</publisher>
+        <date when="2026"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+        <notesStmt>
+            <note>Cette gravure est la premiere planche du <ref target="v2merveilles17_imp_IR-delibien1668.xml"> livre de la fête publié en 1679 par l'imprimerie royale"></ref></note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl>Jean Le Pautre, <title>I. Collation donnée dans le petit Parc de Versailles</title>, <note><!-- je ne sais pas trop quoi mettre là --></note><ptr target="https://gallica.bnf.fr/ark:/12148/btv1b8626217x/f8.item"/></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1678"/>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <sourceDoc>
+      <figure xml:id="fel-collation">
+          <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8626217x/f8/543.0786669966704,547.7257338472414,7042.391547719003,5173.057654631961/761,559/0/native.jpg"></graphic>
+          <figDesc><!-- mettre là --></figDesc>
+          <head>I.</head>
+          <p>Collation donnée dans le <placeName key="versailles_jardins_petit-parc">petit Parc de Versailles</placeName></p>
+          <p xml:lang="la">Comessatio ante coenam data, In Hortis Versalianis</p>
+          <byline><persName key="lepautre">Le Pautre</persName>sculps. 1678.</byline>
+      </figure>
+  </sourceDoc>
+</TEI>
