@@ -12,12 +12,8 @@
       <editionStmt>
         <edition>Merveilles17</edition>
         <respStmt>
-          <name>???</name>
-          <resp>Transcription</resp>
-        </respStmt>
-        <respStmt>
           <name>Axelanne Chapon</name>
-          <resp>Balisage</resp>
+          <resp>Transcription et Balisage</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -54,8 +50,8 @@
     <body>
       <pb n="3" xml:id="p3" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626217x/f3.item"/>
       <head> Relation de la Feste de <placeName key="versailles">Versailles</placeName>.</head>
-      <head>Du <date when="1668-07-18">18. juillet mil six cens soixante-huit</date>.</head>
-      <p><persName key="louisxiv" role="destinataire">LE Roy</persName> ayant accordé la Paix aux instances de ses Alliez &amp; 
+      <head>Du <date when="1668-07-18">18. juillet mil six cens soixante-huit</date>.</head>      
+      <p><persName key="louisxiv" role="destinataire">lE Roy</persName> ayant accordé la Paix aux instances de ses Alliez &amp; 
         aux vœux de toute <placeName key="europe">l’Europe</placeName>, &amp; donné des marques d’une modération &amp; d’une 
         bonté sans exemple, mesme dans le plus fort de ses conquestes, ne pensoit plus qu’à s’appliquer aux affaires de 
         son <placeName key="france">Royaume</placeName>, lors que pour reparer en quelque sorte ce que la Cour avoit perdu 
@@ -113,7 +109,7 @@
         exprimées. Les deux autres plus hardis parce que le monstre n’est pas tourné de leur costé, l’attaquent de 
         leurs armes. Entre <tech type="decor">ces Amours</tech> sont des <tech type="eaux">Dauphins de bronze dont 
           la gueule ouverte pousse en l’air de gros boüillons d’eau.</tech></p>
-      <pb n="np"/>
+      <pb n="np" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626217x/f8.item"/>
       <ptr target="v2merveilles17_img_fel-collation.xml" type="include"/>
       <pb n="7" xml:id="p7" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626217x/f10.item"/> 
       <p><persName key="louisxiv" role="convive"><persName key="marie_therese" role="convive">Leur Majestez</persName></persName> 
@@ -156,7 +152,7 @@
           dont la quantité, la grosseur &amp; la bonté estoit surprenante pour la saison</tech>. Ces couches 
         estoient faites d’une maniere toute extraordinaire, &amp; à bien considerer la beauté de ce lieu l’on 
         auroit pû dire autrefois que les hommes n’auroient point eu de part à un si bel arangement, mais que 
-        quelques <name key="divinite">Divinitez</name> de ces bois auroient employé leurs soins pour l’embellir <!-- je suis pas sûre de divinité -->
+        quelques <name key="divinite">Divinitez</name> de ces bois auroient employé leurs soins pour l’embellir
         de la sorte.</p>
       <p>Comme il y a cinq allées qui se terminent toutes dans ce <placeName key="versailles_jardins">cabinet</placeName> 
         &amp; qui forment une étoile, l’on trouvoit ces allées ornées de chacun costé de vingt-six <tech type="construction">
@@ -201,10 +197,8 @@
         demi-ronds ; Sa longueur est de soixante toises sur quarante de large. Dans son milieu il y a une infinité 
         de <tech type="eaux">jets d’eau, qui réünis ensemble font une gerbe d’une hauteur &amp; d’une grosseur 
           extraordinaire</tech>.</p>
-      <figure>
-        <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8626217x/f15/751.2967324980451,753.8146226005393,6669.103274559195,4962.080604534005/797,593/0/native.jpg"></graphic>
-        <figDesc/>
-      </figure>
+      <pb n="np" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626217x/f15.item"></pb>
+      <ptr target="v2merveilles17_img_fel-comedie.xml" type="include"/>
       <pb n="11" xml:id="p11" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626217x/f17.item"/>
       <p>A costé de la <placeName key="versailles_jardins_allee-royale">grande allée royale</placeName> il y en a deux autres 
         qui en sont éloignées d’environ deux cens pas. Celle qui est à droit en montant vers le 
@@ -217,7 +211,7 @@
           l’allée du Roy</placeName> que le <persName key="vigarani" role="organisation">sieur Vigarani</persName> avoit 
         disposé le lieu de la Comedie. <tech type="construction">Le Theatre</tech> qui avançoit un peu dans le quarré de 
         la place s’enfonçoit de dix toises dans l’allée qui monte vers le <placeName key="versailles_chateau">Chasteau
-        </placeName>, &amp; laissoit pour <tech>la Salle<!-- je ne sais pas --></tech> un espace de treize toises de face 
+        </placeName>, &amp; laissoit pour <tech type="construction">la Salle</tech> un espace de treize toises de face 
         sur neuf de large. L’exhaussement de ce <tech>Salon</tech> estoit de trente pieds jusques à 
         <tech type="construction">la corniche</tech>, d’où les costez du <tech type="construction">plat-fond</tech> 
         s’élevoient encore de huit pieds jusques au dernier enfoncement. Il estoit couvert de <tech type="decor">feüillée</tech> 
@@ -237,8 +231,8 @@
         <tech type="construction">corniche</tech> aussi de marbre dans le milieu de laquelle on voyoit 
         <tech type="decor">les armes du Roy sur un cartouche doré accompagné de trophées</tech> ; l’architecture 
         estoit d’ordre Ionique. Entre chaque <tech type="construction">colomne</tech> il y avoit une <tech type="decor">figure</tech> : 
-        Celle qui estoit à droit representoit <name key="???">la Paix</name>, &amp; Celle qui estoit à gauche figuroit 
-        <name key="???">la Victoire</name>, pour monstrer que <persName key="louisxiv" role="destinataire">sa Majesté</persName> 
+        Celle qui estoit à droit representoit <name key="paix">la Paix</name>, &amp; Celle qui estoit à gauche figuroit 
+        <name key="victoire">la Victoire</name>, pour monstrer que <persName key="louisxiv" role="destinataire">sa Majesté</persName> 
         est toûjours en estat de faire que ses peuples joüissent d’une paix heureuse &amp; pleine d’abondance, en 
         établissant le repos dans <placeName key="europe">l’Europe</placeName>, Où <pb n="12" xml:id="p12" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626217x/f18.item"/> 
         d’une victoire glorieuse &amp; remplie de joye, quand <persName key="louisxiv" role="commanditaire">Elle</persName> est 
@@ -299,7 +293,7 @@
                       autres Bergers</name></name></name></name> <note><persName key="descouteaux" role="musicien">Descouteaux</persName>, 
                         <persName key="philbert" role="musicien">Philibert</persName>, <persName key="jean_hottere" role="musicien">Jean</persName> 
                         &amp; <persName key="martin_hottere" role="musicien">Martin Hottere</persName>.</note> qui joiient de la 
-        <tech type="musique">flûte</tech>, sont une danse où ils obligent d’entrer avec eux <name key="paysan_mari">un riche Païsan</name> 
+        <tech type="musique">flûte</tech>, sont une danse où ils obligent d’entrer avec eux <name key="paysan">un riche Païsan</name> 
         qu’ils rencontrent &amp; qui mal satisfait de son mariage, n’a l’esprit remply que de fascheuses pensées : Aussi l’on voit 
         qu’il se retire bien-tost de leur compagnie où il n’a demeuré que par contrainte. <name key="climene" corresp="hilaire_dupuis">Climene</name> <note><persName 
             key="hilaire_dupuis" role="chanteur">Mlle Hylaire</persName>.</note> &amp; <name key="cloris" corresp="mlle_de_fronteaux">Cloris</name> 
@@ -410,17 +404,17 @@
       </lg>
       <p>Ces deux <name key="tircis" corresp="simon_blondel"><name key="philene" corresp="jean_gaye">Bergers</name></name> se retirent 
         l’ame pleine de douleur &amp; de desespoir, &amp; ensuite de cette Musique commence le premier Acte de la Comedie en prose.</p>
-      <p>Le sujet est qu’<name key="paysan_mari">un riche Païsan</name> s’estant marié à <name key="paysan_femme">la fille d’un Gentilhomme</name> <!-- maybe changer pour fille gentilhomme -->
+      <p>Le sujet est qu’<name key="paysan">un riche Païsan</name> s’estant marié à <name key="paysan_femme">la fille d’un Gentilhomme</name>
         de campagne, ne reçoit que du mépris de <name key="paysan_femme">sa femme</name> aussi bien que de <name key="paysan_beau_pere">
           son beau-pere</name> &amp; de <name key="paysan_belle_mere">sa belle-mere</name>, qui ne l’avoient pris pour leur 
-        <name key="paysan_mari">gendre</name> qu’à cause de ses grands biens.</p>
+        <name key="paysan">gendre</name> qu’à cause de ses grands biens.</p>
       <p>Toute cette Piece est traitée de la mesme sorte que le sieur de <persName key="moliere">Moliere</persName> a de coûtume de 
         faire les autres Pieces de theatre ; c’est à dire qu’il y represente avec des couleurs si na<pb n="17" xml:id="p17" 
           facs="https://gallica.bnf.fr/ark:/12148/btv1b8626217x/f23.item"/>turelles le caractere des personnes qu’il introduit, 
         qu’il ne se peut rien voir de plus ressemblant que ce qu’il a fait pour montrer la peine &amp; les chagrins où se trouvent 
         souvent ceux qui s’allient au dessus de leur condition. Et quand il dépeint l’humeur &amp; la maniere de faire de certains 
         Nobles campagnards, il ne forme point de traits qui n’expriment parfaitement leur veritable image. Sur la fin de l’Acte 
-        le <name key="paysan_mari">Paysan</name> est interrompu par une <name key="bergere">Bergere</name> qui luy vient apprendre le desespoir 
+        le <name key="paysan">Paysan</name> est interrompu par une <name key="bergere">Bergere</name> qui luy vient apprendre le desespoir 
         des <name key="tircis" corresp="simon_blondel"><name key="philene" corresp="jean_gaye"> deux Bergers</name></name> : mais comme 
         il est agité d’autres inquietudes, il la quitte en colere, &amp; <name key="cloris" corresp="mlle_de_fronteaux">Cloris.</name> entre 
         qui vient faire une plainte sur la mort de son <name key="tircis" corresp="simon_blondel">Amant</name>.</p>
@@ -443,7 +437,7 @@
         <l>Est-ce le prix, helas ! de m’avoir tant aimée ?</l>
         <l>Ah ! mortelles douleurs, etc.</l>
       </lg>
-      <p>Aprés cette plainte commença le second Acte de la Comedie en prose. C’est une suite des déplaisirs du <name key="paysan_marie">
+      <p>Aprés cette plainte commença le second Acte de la Comedie en prose. C’est une suite des déplaisirs du <name key="paysan">
           Païsan</name> marié qui se trouve encore interrompu par la mesme <name key="bergere">Bergere</name>, qui vient luy dire que 
         <name key="tircis" corresp="simon_blondel">Tircis</name> &amp; <name key="philene" corresp="jean_gaye">Philene</name> ne sont 
         point morts, &amp; luy monstre six <name key="battelier" corresp="jouan"><name key="battelier" corresp="beauchamp"><name 
@@ -452,12 +446,12 @@
                         role="danseur">Joüan</persName>, <persName key="beauchamp" role="danseur">Beauchamp</persName>, <persName 
                           key="chicanneau" role="danseur">Chicanneau</persName>, <persName key="favier" role="danseur">Favier</persName>, 
                       <persName key="noblet" role="danseur">Noblet</persName>, <persName key="mayeu" role="danseur">Mayeu</persName>.</note> 
-        qui les ont sauvez. <name key="paysan_mari">Le Païsan</name> importuné de tous ces avis se retire &amp; quitte la place 
+        qui les ont sauvez. <name key="paysan">Le Païsan</name> importuné de tous ces avis se retire &amp; quitte la place 
         aux <name key="battelier" corresp="jouan"><name key="battelier" corresp="beauchamp"><name 
               key="battelier" corresp="chicanneau"><name key="battelier" corresp="favier"><name key="battelier" corresp="noblet"><name 
                     key="battelier" corresp="mayeu" >Batteliers</name></name></name></name></name></name>, qui ravis de la recompense 
         qu’ils ont receuë dansent avec leurs crocs &amp; se joüent ensemble, aprés quoy se recite le troisiéme acte de la Comedie en prose.</p>
-      <p>Dans ce dernier Acte l’on voit <name key="paysan_mari">le Païsan</name> dans le comble <pb n="18" xml:id="p18" 
+      <p>Dans ce dernier Acte l’on voit <name key="paysan">le Païsan</name> dans le comble <pb n="18" xml:id="p18" 
           facs="https://gallica.bnf.fr/ark:/12148/btv1b8626217x/f24.item"/> de la douleur par les mauvais traitements de sa <name 
             key="paysan_femme">femme</name>. Enfin un de ses amis luy conseille de noyer dans le vin toutes ses inquietudes, &amp; 
         l’emmene pour joindre sa troupe, voyant benir toute la foule des <name key="berger">Bergers</name> amoureux qui commence à 
@@ -625,10 +619,8 @@
           personnes</tech> que l’on a veuës toutes à la fois sur un mesme <tech type="construction">Theatre</tech> joindre ensemble 
         <tech type="musique">leurs instrumens, leurs voix &amp; leurs pas, dans un accord &amp; une cadence</tech> qui finit la 
         Piece, en laissant tout le monde dans une admiration qu’on ne peut assez exprimer.</p>
-      <figure>
-        <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8626217x/f30/775.9122323677581,861.8790931989925,6643.999999999998,4895.138539042821/794,585/0/native.jpg"></graphic>
-        <figDesc/>
-      </figure>
+      <pb n="nb" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626217x/f30.item"/>
+      <ptr target="v2merveilles17_img_fel-festin.xml" type="include"/>
       <pb n="23" xml:id="p23" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626217x/f32.item"/>
       <p>Cet agreable spectacle estant finir de la for-te, <persName key="louisxiv" role="spectateur">le Roy</persName> &amp; toute 
         la Cour sortirent par le Portique du costé gauche du <tech type="construction">Salon</tech>, &amp; qui rend dans l’allée 
@@ -813,7 +805,7 @@
         <item><persName key="madame_de_mekelbourg" role="convive">Madame de Mekelbourg</persName>.</item>
         <item><persName key="???" role="convive">Madame la grande Mareschalle</persName>.</item>
         <item><persName key="madame_de_marre" role="convive">Madame de Marré</persName>.</item>
-        <item><persName key="marie_nemours" role="convive">Madame de Nemours</persName>.</item> <!-- je ne suis pas sûre y en a deux des nemours -->
+        <item><persName key="marie_nemours" role="convive">Madame de Nemours</persName>.</item>
         <item><persName key="anne_de_richelieu" role="convive">Madame de Richelieu</persName>.</item>
         <item><persName key="duchesse_de_richemont" role="convive">Madame la Duchesse de Richemont</persName>.</item>
         <item><persName key="mlle_de_tresme" role="convive">Mademoiselle de Tresme</persName>.</item>
@@ -885,10 +877,8 @@
           abondance des viandes, des vins &amp; des liqueurs ; la beauté &amp; l’excellence des fruits &amp; des confitures</tech>, &amp; une infinité 
         d’autres choses delicatement apprestées, faisoit bien voir que la magnificience du <persName key="louisxiv" role="destinataire">Roy</persName> le 
         répandoit de tous costez.</p>
-      <figure>
-        <graphic url=""></graphic>
-        <figDesc/>
-      </figure>
+      <pb n="np" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626217x/f43.item"/>
+      <ptr target="v2merveilles17_img_fel-salle.xml" type="include"/>
       <pb n="33" xml:id="p33" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626217x/f44.item"/>
       <p><persName key="louisxiv" role="convive">Le Roy</persName> s’estant levé de table pour donner un nouveau divertissement aux Dames, &amp; passant par le 
         Portique, où l’allée monte vers <placeName key="versailles_chateau">le Chasteau</placeName> les conduisit dans <placeName key="versailles_jardins_bassin-ceres">
@@ -935,10 +925,8 @@
       <p>Ces <tech type="decor">canaux</tech> estoient bordez de gazon de part &amp; d’autre : Du côté des <tech type="construction">cabinets</tech> &amp; entre les <tech type="construction">thermes</tech> qui en marquoient les encoigneures, il y avoit dans de grands <tech type="decor">vases</tech>, des orangers chargez de <tech type="decor">fleurs &amp; de fruits</tech>, &amp; le milieu de l’allée estoit d’un sable jaune qui partageoit les deux litieres de gazon.</p>
       <p>Dans le <tech type="eaux">bassin</tech> qui separoit l’allée d’avec le Salon, il y avoit un groupe de quatre <tech type="decor">dauphins dans des coquilles de bronze doré posées sur un petit rocher</tech> : C’est quatre <tech type="decor">dauphins</tech> ne formoient qu’une seule teste, qui estoit renversée, &amp; qui ouvrant la gueuel en haut poussoit un <tech type="eaux">jet d’eau</tech> d’une grosseur extraordinaire. Aprés que cette <tech type="eaux">eau</tech> qui s’élevoit de plus de trente pieds de haut, avoit frappé la feüillée avec violence, elle retomboit dans le <tech type="eaux">bassin</tech> en mille petites boules de crystal.</p>
       <p>Aux deux costez de ce <tech type="eaux">bassin</tech> il y avoit quatre grandes <tech type="decor">plaques</tech> en ovale, chargées chacune de quinze <tech type="lumieres">bougies</tech> ; mais comme toutes les autres <tech type="lumieres">lumieres</tech> qui éclairoient cette allée, estoient cachées derriere les <tech type="construction">pilastres</tech>, &amp; les <tech type="construction">thermes</tech> qui marquoient les <tech type="construction">cabinets</tech>, l’on ne voyoit qu’un jour universel qui se répandoit si agreablement dans tout ce lieu, &amp; en découvroit le parties avec tant de beauté, que tout le monde preferoit cette clarté à la lumiere des plus beaux jours. Il n’y avoit point de <tech type="eaux">Jets-d’eau</tech> qui ne fist paroître mille brillans ; &amp; l’on reconnoissoit principalement dans ce lieu &amp; dans <placeName key="versailles_jardins_bassin-flore">la Grotte</placeName> où <persName key="louisxiv" role="convive">le Roy</persName> avoit soupé, <tech type="eaux">une distribution d’eaux</tech> si belle &amp; si extraordinaire, que jamais il ne s’est rien veu de <pb n="37" xml:id="p37" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626217x/f49.item"/>pareil. <persName key="denis_jolly">Le sieur Joly</persName> qui en avoit eu la conduite, les avoit si bien menagées, que produisant toutes des effets differens ; il y avoit encore une union &amp; un certain accord qui faisoit paroître par tout une agreable beauté ; la chûte des unes, servant en plusieurs endroits à donner plus d’éclat à la chute des autres. Les <tech type="eaux">Jets-d’eau</tech> qui s’élevoient de quinze pieds sur le devant des deux <tech type="eaux">canaux</tech>, venoient peu à peu à se diminuer de hauteur &amp; de force à mesure qu’ils s’éloignoient de la veüe ; de sorte que s’accordant avec la belle maniere dont l’on avoit disposé l’allée, il sembloit que cette allée qui n’avoit guere plus de quinze toises de long, en eust quatre fois davantage : tant toutes choses y estoients bien conduites.</p>
-      <figure> <!-- probablement -->
-        <graphic url=""></graphic>
-        <figDesc></figDesc>
-      </figure>
+      <pb n="np" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626217x/f52.item"/>
+      <ptr target="v2merveilles17_img_fel-illuminations.xml" type="include"/>
       <pb n="39" xml:id="p39" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626217x/f54.item"/>
       <p>Pendant que dans un sejour si charmant, <persName key="louisxiv"><persName key="marie_therese">leurs Majestez</persName></persName> &amp; toute la Cour prenoient le divertissement du Bal, à la veuë de ces beaux <tech type="decor">objets</tech>, &amp; au bruit de ces <tech type="eaux">eaux</tech> qui n’interrompoit qu’agreablement <tech type="musique">le son des instrumens</tech> ; l’on preparoit ailleurs d’autres spectacles dont personne ne s’estoit apperceu &amp; qui devoient surprendre tout le monde. <persName key="henri_gissey" role="organisation">Le sieur Gissey</persName> outre le soin qu’il avoit pris du lieu où <persName key="louisxiv" role="convive">le Roy</persName> avoit soupé, &amp; des desseins de tous les habits de la Comedie, se trouvant encore chargé des Illuminations qu’on devoit mettre au <placeName key="versailles_chateau">Chasteau</placeName>, &amp; en plusieurs endroits du <placeName key="versailles_jardins_petit-parc">parc</placeName>, travailloit à mettre toutes ces choses en ordre, pour faire que ce beau divertissement eust une fin aussi heureuse &amp; aussi agreable, que le succez en avoit esté faborable jusques alors : ce qui arrive en effet par les soins qu’il y prit. Car en un moment toutes les choses furent si bien ordonnées, que quand <persName key="louisxiv" role="convive"><persName key="marie_therese" role="convive">leurs Majestez</persName></persName> sortirent du Bal, Elles apperceurent le tour <placeName key="versailles_jardins_parterre-latone">du fer à cheval</placeName> &amp; <placeName key="versailles_chateau">le Chasteau</placeName> tout en <tech type="lumieres">feu</tech>, mais d’un <tech type="lumieres">feu si beau &amp; si agreable, que cet élement qui ne paroît guere dans l’obscurité de la nuit sans donner de la crainte &amp; de la frayeur, ne causoit que du plaisir &amp; de l’admiration</tech>. Deux cens <tech type="decor">vases</tech> de quatre pieds de haut de plusieurs façons, &amp; ornez de differentes manieres, entourroient ce grand espace qui enferme les parterres de gazon, &amp; qui forme <placeName key="versailles_jardins_parterre-latone">le fer à cheval</placeName>. Au bas des <tech type="decor">degrez</tech> qui sont au milieu, on voyoit quatre <tech type="decor">figures representant quatre Fleuves</tech> ; &amp; au dessus, sur quatre <tech type="decor">pieds d’estaux</tech> qui sont aux extremitez des rampes, quatre autres <tech type="decor">figures qui representoient les quatre parties du mon-de</tech>. Sur les angles du <placeName key="versailles_jardins_parterre-latone">fer à cheval</placeName> &amp; entre les <tech type="decor">vases</tech>, il y avoit trente-huit <tech type="lumieres">candelabres ou chandeliers antiques</tech> de six pieds de haut. Et ces <tech type="decor">vases, ces candelabres, &amp; ces figures</tech> estant éclairées de la mesme sorte que celles qui avoient paru dans la frise du <tech type="construction">Salon</tech> où l’on avoit soupé, faisoient un spectacle merveilleux. Mais la Cour estant arrivée au haut du <placeName key="versailles_jardins_parterre-latone">fer à cheval</placeName>, &amp; découvrant encore mieux tout le <placeName key="versailles_chateau">Château</placeName>, ce fut alors que tout le monde demeura dans une surprise qui ne se peut connoître qu’en la ressentant.</p>
       <p>Il estoit orné de quarante-cinq <tech type="decor">figures</tech> : Dans le milieu de la porte du <placeName key="versailles_chateau">Chasteau</placeName>, il y en avoit une qui representoit <name key="janus">Janus</name> ; &amp; des deux côtez dans les quatorze fenestres d’en bas, l’on voyoit differens <tech type="decor">trophées de guerre</tech>. A l’estage d’en haut, il y avoit quinze <tech type="decor">figures qui representoient diverses Vertus, <pb n="40" xml:id="p40" facs="https://gallica.bnf.fr/ark:/12148/btv1b8626217x/f55.item"/>&amp; au dessus, un Soleil avec des lyres, &amp; d’autres instrumens, ayant rapport à</tech> <name key="apollon">Apollon</name>, qui paroissoient en quinze differens endroits. Toutes ces <tech type="decor">figures</tech> estoient de diverses couleurs, mais si brillantes &amp; si belles, que l’on ne pouvoit dire si c’estoient differens metaux allumez, ou des pierres de plusieurs couleurs qui fussent éclairées par un artifice inconnu. Les <tech type="construction">balustrades</tech> qui environnent le fossé du <placeName key="versailles_chateau">Chasteau</placeName>, estoient illuminées de la mesme sorte, &amp; dans les endroits où durant le jour on avoit veu des <tech type="decor">vases remplis d’orangers &amp; de fleurs</tech>, l’on y voyoit cent <tech type="decor">vases de diverses sortes allumez de differentes couleurs</tech>.</p>
@@ -960,5 +948,3 @@
     </body>   
   </text>
 </TEI>
-
-<!-- regarder les Name -->

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
+<?xml-stylesheet type="text/css" href="../style/tei-author.css" alternate="author"?>
+<?xml-model href="https://fetes17.github.io/merveilles17/merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>V. Illuminations du Palais et des Jardins de Versailles</title>
+                <author key="lepautre">Le Pautre, Jean (1618-1682) </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Merveilles17</edition>
+                <respStmt>
+                    <name>Axelanne Chapon</name>
+                    <resp>Encodage</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Université d’Artois - Lille, MESHS</publisher>
+                <date when="2026"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note>Cette estampe est également relié dans<ref target="v2merveilles17_imp_IR-delibien1668.xml"> le livre de la fête publié en 1679 par l'imprimerie royale"></ref></note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl>Jean Le Pautre, <title>V. Illuminations du Palais et des Jardins de Versailles</title>, <publisher>Imprimerie Royale</publisher>, Estampe, Paris, BNF, RESERVE GR FOL-RAE-85 (14)<ptr target="https://catalogue.bnf.fr/ark:/12148/cb459527919"/></bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>>Arts du spectacle</repository>
+                        <idno>RESERVE GR FOL-RAE-85 (14)</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <author key="lepautre">Lepautre, Jean</author>
+                            <title>V. Illuminations du Palais et des Jardins de Versailles. Nocturnae Illuminationes, vasis, statuisque incluso igne pellucentibus, ad Palatij Versaliani fenestras, et per omnes hortorum areas et xystos aptè dispositis</title>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="estampe">
+                            <supportDesc>
+                                <extent>
+                                    <dimensions unit="cm">
+                                        <height>48,5</height>
+                                        <width>66,5</width>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1679"/>
+            </creation>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <sourceDoc>
+        <figure xml:id="fel-illuminations">
+            <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8626217x/f52/813.9528691750616,963.5957178841302,6602.725440806045,4826.357682619649/788,576/0/native.jpg"></graphic>
+            <figDesc><tech type="feux-artifice">Illuminations nocturnes</tech>, comprenant des vases et des statues illuminés par le feu, aux fenêtres du <placeName key="versailles_chateau">château de Versailles</placeName>.</figDesc>
+            <head>V.</head>
+            <p>Illuminations du <placeName key="versailles_chateau">Palais</placeName> et des <placeName key="versailles_jardins">Jardins de Versailles</placeName></p>
+            <p xml:lang="la">Nocturna Illumonationes, vasis Statuisque incluso igne pellucentibus, ad Palatij Versaliani fenestras, et per omnes hortorum areas et xystos aptè dispositis.</p>
+            <byline><persName key="lepautre">Le Pautre</persName>sculps. 1679.</byline>
+        </figure>
+    </sourceDoc>
+</TEI>
+
+

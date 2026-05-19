@@ -6,7 +6,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Relation de la feste de Versailles. Du dix-huitiéme Iuillet mil six cens soixante-huit.</title>
+        <title>I. collation donnée dans le petit Parc de Versailles</title>
           <author key="lepautre">Le Pautre (1618-1682) </author>
       </titleStmt>
       <editionStmt>
@@ -23,11 +23,38 @@
           <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
         </availability>
       </publicationStmt>
-        <notesStmt>
-            <note>Cette gravure est la premiere planche du <ref target="v2merveilles17_imp_IR-delibien1668.xml"> livre de la fête publié en 1679 par l'imprimerie royale"></ref></note>
-        </notesStmt>
-        <sourceDesc>
-            <bibl>Jean Le Pautre, <title>I. Collation donnée dans le petit Parc de Versailles</title>, <note><!-- je ne sais pas trop quoi mettre là --></note><ptr target="https://gallica.bnf.fr/ark:/12148/btv1b8626217x/f8.item"/></bibl>
+      <notesStmt>
+        <note>Cette estampe est reliée dans<ref target="v2merveilles17_imp_IR-delibien1668.xml"> livre de la fête publié en 1679 par l'imprimerie royale"></ref></note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl>Jean Le Pautre, <title>I. Collation donnée dans le petit Parc de Versailles</title>, <publisher>Imprimerie Royale</publisher>, Estampe, Paris, BNF, RESERVE GR FOL-RAE-85 (10)<ptr target="https://catalogue.bnf.fr/ark:/12148/cb459527872"/></bibl>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque nationale de France</institution>
+            <repository>>Arts du spectacle</repository>
+            <idno>RESERVE GR FOL-RAE-85 (10)</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <author key="lepautre">Lepautre, Jean</author>
+              <title>I. collation donnée dans le petit Parc de Versailles. Comessatio ante caenam data, Jn hortis Versalianis</title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="estampe">
+              <supportDesc>
+                <extent>
+                  <dimensions unit="cm">
+                    <height>48,8</height>
+                    <width>65,9</width>
+                  </dimensions>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -42,7 +69,7 @@
   <sourceDoc>
       <figure xml:id="fel-collation">
           <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8626217x/f8/543.0786669966704,547.7257338472414,7042.391547719003,5173.057654631961/761,559/0/native.jpg"></graphic>
-          <figDesc><!-- mettre là --></figDesc>
+        <figDesc>Une <tech type="repas">collation</tech> donnée au centre d'un <tech type="construction">cabinet de verdure</tech></figDesc>
           <head>I.</head>
           <p>Collation donnée dans le <placeName key="versailles_jardins_petit-parc">petit Parc de Versailles</placeName></p>
           <p xml:lang="la">Comessatio ante coenam data, In Hortis Versalianis</p>
