@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
+<?xml-stylesheet type="text/css" href="../style/tei-author.css" alternate="author"?>
+<?xml-model href="https://fetes17.github.io/merveilles17/merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>III. Festin donné dans le petit Parc de Versailles</title>
+                <author key="lepautre">Le Pautre, Jean (1618-1682) </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Merveilles17</edition>
+                <respStmt>
+                    <name>Axelanne Chapon</name>
+                    <resp>Encodage</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Université d’Artois - Lille, MESHS</publisher>
+                <date when="2026"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note>Cette estampe se trouve également relié dans <ref target="v2merveilles17_imp_IR-delibien1668.xml">le livre de la fête publié en 1679 par l'imprimerie royale"></ref></note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl>Jean Le Pautre, <title>III. Festin donné dans le petit Parc de Versailles</title>, <publisher>Imprimerie Royale</publisher>, Estampe, Paris, BNF, RESERVE GR FOL-RAE-85 (12)<ptr target="https://catalogue.bnf.fr/ark:/12148/cb45952789r"/></bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>>Arts du spectacle</repository>
+                        <idno>RESERVE GR FOL-RAE-85 (12)</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <author key="lepautre">Lepautre, Jean</author>
+                            <title>III.  Festin donné dans le petit Parc de Versailles. Coenaculum jmplexis ramis concameratum, et Regiæ coenæ adumbration, Jn Hortis Versalianis</title>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="estampe">
+                            <supportDesc>
+                                <extent>
+                                    <dimensions unit="cm">
+                                        <height>48,7</height>
+                                        <width>66,4</width>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1678"/>
+            </creation>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <sourceDoc>
+        <figure xml:id="fel-festin">
+            <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8626217x/f30/775.9122323677581,861.8790931989925,6643.999999999998,4895.138539042821/794,585/0/native.jpg"></graphic>
+            <figDesc>Une représentation d'une<tech type="construction">salle voûtée</tech> ornée de <tech type="decor">rameaux finement ouvragés</tech>, et du <tech type="repas">banquet royal</tech>, dans les <placeName key="versailles_jardins">jardins de Versailles</placeName>.</figDesc>
+            <head>III.</head>
+            <p>Festin donné dans le <placeName key="versailles_jardins_petit-parc">petit Parc de Versailles</placeName></p>
+            <p xml:lang="la">Coenaculum jmplexis ramis concameratum, et Regiœ coenæ adumbratio, Jn Hortis Versalianis.</p>
+            <byline><persName key="lepautre">Le Pautre</persName>sculps. 1678.</byline>
+        </figure>
+    </sourceDoc>
+</TEI>
