@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
+<?xml-stylesheet type="text/css" href="../style/tei-author.css" alternate="author"?>
+<?xml-model href="https://fetes17.github.io/merveilles17/merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Décorations et machines aprestées aux nopces de Tétis , ballet royal, représenté en la salle du Petit Bourbon par Jacques Torelli, inventeur... </title>
+        <author key="???">Torelli, Giacomo (1608-1678) </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Merveilles17</edition>
+        <respStmt>
+          <name>Axelanne Chapon</name>
+          <resp>Transcription et Balisage</resp>
+        </respStmt>
+        <respStmt>
+          <name>Eliot Bordage</name>
+          <resp>Correction</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université d’Artois - Lille, MESHS</publisher>
+        <date when="2026"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Torelli, <title>Décorations et machines aprestées aux nopces de Tétis , ballet royal, représenté en la salle du Petit Bourbon par Jacques Torelli, inventeur...</title> <note><pubPlace>Paris</pubPlace>, <date>1654</date></note><ptr target="https://gallica.bnf.fr/ark:/12148/bpt6k111050d"/></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1654"/>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="nb" facs="https://gallica.bnf.fr/ark:/12148/bpt6k111050d/f1.item"/>
+      <ptr target="../xml/v2merveilles17_img_tor-frontispice.xml" type="include"/>
+      <div>
+        <pb n="nb" facs="https://gallica.bnf.fr/ark:/12148/bpt6k111050d/f2.item"/>
+        <head><foreign xml:lang="it">DICHIARAZIONE DEL FRONTISPICIO DEL LIBRO.</foreign></head>
+        <p><foreign xml:lang="it">LA Maestà, cherisplende nel volto del Monarca, che Dio hà dato alla Francia, con tromba 
+            gloriosa dichiara, che del suo vasto Cielo egli è l’augustissimo Gioue. Da lui, come da primo pianeta, e supremo 
+            motore deruiano gl’influssi, che con Raggi serenissimi percuotendo nell’idea,e nella virtù dell’Eminentissimo 
+            Signore Cardinal Mazarino, iui formano il riflesso, che compartisce alle più nobili prefessioni, &amp; all’arti 
+            più industriose, i benefizij, e’l sostegno. Gioifcono queste nobili figliuole della Gallica erudizione in riceuere 
+            la vita da un Apollo di Roma, mentre egli tutto conuerso al fuo Monarca quanto di lume, e di bene da lui riceue, tanto 
+            diffusamente altrui ne compartisce. Questa imagine esemplare di tanta verità può segnare un principio alla vafta 
+            considerazione d’un mistero, che malgrado d’ogn’altra sinistra influenza, tiene da un Nume superiore, e da un Ministro 
+            incontaminato, per questi popoli, vita, serenità, e contento.</foreign></p>
+      </div>
+      <div>
+        <pb n="nb" facs="https://gallica.bnf.fr/ark:/12148/bpt6k111050d/f3.item"/>
+        <head>DECLARATION DU FRONTISPICE DU LIVRE.</head>
+        <p>LA Majesté qui reluit dans le visage du <persName key="louis_xiv" role="">Monarque</persName> que Dieu a donné à la 
+          <placeName key="france">France</placeName>, fait voir par la lumiere dont elle est environnée, que ce <persName 
+            key="louis_xiv" role="">Monarque</persName> est l’auguste <name key="jupiter">Jupiter</name> de son Ciel spatieux. 
+          De luy comme du premier astre &amp; du supreme moteur sortent des influences, qui avec des rayons tres-serains touchant 
+          l’esprit &amp; la vertu de l’<persName key="eminenceid" role="organisation">Eminentissime Cardinal Mazarin</persName>, font que par reflexion 
+          il distribuë aux plus nobles emplois &amp; aux arts les plus ingenieux les graces &amp; l’appuy. Ces nobles filles de la 
+          discipline Françoise se réjoüyssent de recevoir la vie d’un Apollon Romain. Cependant cét Apollon 
+          ayant les yeux arrestez sur son <persName key="louis_xiv" role="destinataire">Monarque</persName>, donne aux autres abondamment toute 
+          la lumiere &amp; tout le bien qu’il reçoit de luy. Cette image qui represente cette verité peut conduire l’esprit à la 
+          consideration d’un mystere, &amp; luy peut faire cognoistre, que malgré tout autre influence funeste, les peuples tiennent 
+          la vie, le calme, &amp; le contentement d’un <name key="dieu">Dieu</name> superieur, &amp; d’un Ministre fidelle.</p>
+      </div>
+      <div>
+        <pb n="nb" facs="https://gallica.bnf.fr/ark:/12148/bpt6k111050d/f4.item"/>
+        <head><foreign xml:lang="it">ALL’ EMINENTISSIMO PRENCIPE IL SIGNOR CARONALE GIULIO MAZARINO.</foreign></head>
+        <p><foreign xml:lang="it">EMINENTISSIMO E REVERENDISSIMO SIGNORE, L’esscuzione del moi impiego, che con tanta mia 
+            fortuna esercito in questa Corte, e che non sà haver più nobil fine che di compiarce  à fua Maestà , e al 
+            Genio sublime dell, EMINa V. à lei si rivolge colla riverenza, che deve in quefta. mia fatica teatrale, che 
+            illustrata dà Raggi serenissimi di untanto Monarca, non hà che più desiderarsi, oltre la benigna approvazione 
+            di V. EMINa. Il mio instinto, e'l mio debito mi fanno conoscere altrettanto sollecito à questo Real servizio, 
+            quanto mi vi fon mostrato divoto in molte occasioni delle passate turbulenze; à segno che, quando io confidero, 
+            che le persecuzioni, le prigionie, e la perdita di quanto haveuo, fono stati testimonij del mio zelo , e che la 
+            gloria di soffrire per l’EMINa V. m’è stata più cara della propria vita; mi pare di poco, ò nulla operare per 
+            lei in questa occorenza ; mà perche il solo disegno di contribuire al suo divertimento si qualifica abastanza, 
+            mi devo consolare in questo del tributo, che benche picciolo à lei porto. Nel mentre però che fugati i turbini, 
+            e rasseranata la Francia dalla Maestà del Rè, e dall’ottima condotta di V. EMINa. Si ristorano le grazie, 
+            ripatriano le Muse, e si ricreano gli animi di questi popoli; applaudiscono sù le scene ancora le arti più 
+            sublimi alla tutela favorevole, che loro conserva l’EMINa V. A’ lei però s’inchina questa mia divota espressione, 
+            ed offerendo in carta quanto su'l Teatro espose ,lasupplica di grazioso aggradimento, mentre s’augura eterna la di 
+            lei protezione chi vive, e sarà sempre</foreign></p>
+        <p><foreign>DI VOSTRA EMINENZA</foreign></p>
+        <byline><foreign>Hummo diumo servitore</foreign></byline>
+        <byline><foreign>GIACOMO TORELLI.</foreign></byline>
+      </div>
+      <div>
+        <pb n="nb" facs="https://gallica.bnf.fr/ark:/12148/bpt6k111050d/f5.item"/>
+        <p><persName key="eminenceid">MONSEIGNEUR</persName>,</p>
+        <p>L’employ qui m’occupe depuis si long-temps à la Cour, &amp; que j’y exerce avec un bon-heur qui contente 
+          pleinement mon ambition, ne sçauroit avoir une fin plus juste ny plus glorieuse, que celle de plaire à 
+          <persName key="louis_xiv" role="destinataire">sa Majesté</persName>, &amp; de délasser par quelque agreable 
+          divertissement l’esprit de <persName key="eminenceid" role="destinataire">V. E.</persName> C’est la douce loy que je me suis 
+          imposée en cette occasion, où je luy consacre avec tout le respect que je luy dois, tous les soins &amp; 
+          toute l’industrie dont je suis capable de relever le Theatre François : &amp; s’il arrive que sa <tech type="???">
+            pompe</tech> puisse paroistre superbe à des yeux si delicats, que ceux de <persName key="eminenceid">
+              V. E</persName>. il ne manquera rien à mes souhaits, ny à ma gloire. Certes, <persName key="eminenceid" 
+                role="destinataire">MONSEIGNEUR</persName>, il me semble que je suis obligé de l’esperer, quand je considere que 
+          l’auguste preference du <persName key="louis_xiv" role="destinataire">Roy</persName> fera la meilleure partie de son 
+          esclat, &amp; que la lumiere que <persName key="louis_xiv" role="">sa Majesté</persName> respandra sur 
+          toutes mes décorations en reparera si bien les deffauts, qu’elle ne fera rien voir à <persName key="eminenceid"
+             role="destinataire">V. E.</persName> qui ne luy soit tres-agreable. Mais quelque favorable succés que j’attende 
+          de mon entreprise, je diray librement à <persName key="eminenceid" role="destinataire">V. E.</persName> que je ne 
+          croy pas que la passion que j’ai à luy rendre service en soit satisfaite : &amp; quand je songe que 
+          les persecutions, les emprisonnements, &amp; la perte de tout mon bien, ont esté les tesmoignages de mon 
+          zele ; &amp; que la gloire de souffrir pour <persName key="eminenceid" role="destinataire">V. E.</persName> ma 
+          paru plus chere &amp; plus precieuse, que ma propre vie : il me semble qu’en cette occasion je ne fais 
+          rien pour elle. Mais comme le dessein de contribuer à son divertissement releve les moindres choses ; 
+          je me consoleray par-là de l’offrande que je luy fais, quelque petite quelle puisse estre : &amp; maintenant 
+          que <placeName key="paris">Paris</placeName> joüyt en repos de la presence de son <persName key="louis_xiv">
+            Roy</persName> ; que la prudence de <persName key="eminenceid">V. E.</persName> 
+          a dissipé tous les orages menaçoient la <placeName key="france">France</placeName> ; que les graces se 
+          restablissent ; qu’on voit revenir les <name key="muses">Muses</name>, resjoüyr les peuples, &amp; les plus 
+          nobles arts applaudir à la protection favorable, dont <persName key="eminenceid">V. E.
+          </persName> les honore : Je me contenteray de luy tracer dans ce livre une fidelle peinture de toutes les agreables 
+          diversitez dont j’ay tasché d’embellir le theatre ; suppliant tres-humblement <persName key="eminenceid" role="destinataire">
+            V. E.</persName> d’agréer ce que j’ose luy offrir, &amp; de ne refuser point l’honneur de sa protection à celuy, 
+          qui sera toute sa vie avec toute sorte de respect,</p>
+        <byline>De <persName key="eminenceid" role="destinataire">VOSTRE EMINENCE</persName>,</byline>
+        <byline>Le tres-humbre &amp; tres-obeïssant serviteur <persName key="" role="auteur">J. Torelli</persName>.</byline> 
+      </div>
+      <pb n="nb" facs="https://gallica.bnf.fr/ark:/12148/bpt6k111050d/f6.item"/>
+      <ptr target="../xml/v2merveilles17_img_tor-1erdeco.xml" type="include"/>
+      <div>
+        <pb n="nb" facs="https://gallica.bnf.fr/ark:/12148/bpt6k111050d/f7.item"/>
+        <head><foreign xml:lang="it">DESCRIZIONE REGOLARE DELLE MACHINE, DELLE MUTAZIONI DEL TEATRO, E INCIDENZE DELL'OPERA PRESENTE.</foreign></head>
+        <head><foreign xml:lang="it">Del Cavalier AMALTEO.</foreign></head>
+        <p><foreign xml:lang="it">LA prima Scena, che serve di Prologo, rappresenta il monte Pierio della Tessaglia, 
+            situato trà li due fiumi Apidano, e Onochono, doue succede l’azione. Il monte sudetto sorge nell’altezza di 
+            22 piedi circondato da un bosco, e porta sopra di se le nove Muse con Apollo cinto d’Allori, che intrecciandosi 
+            nelle cime, sostengono i tre Gigli, e la corona di Francia sopra la sua testa.</foreign></p>
+        <p><foreign xml:lang="it">Si vede questo monte Isolato dalle parti, e aperto nel mezzo da una caverna, per la 
+            quale vedonsi nel bosco molte Alee d’arbori, che da ogni parte del prospetto sono intieramente godute.</foreign></p>
+        <p><foreign xml:lang="it">All’entrata della scena sono assisi li due fiumi sudetti : sopra due sassi circondati 
+            da gionchi, &amp; altre erbe aquose ; e su le loro rive due cori di Ninfe cogliendo fiori, e intrecciando 
+            corone, cantando il Prologo dell’opera in lode dApollo, rappresentato dal Rè, la cui Maestà calando 
+            insensibilmente il monte, e concentrandosi, hà luogo di uscire fu’l teatro con le nove Muse, che rappresentate 
+            da Principesse, e Dame delle Corte, compongono una deliziosissima danza.</foreign></p>
+      </div>
+      <div>
+        <pb n="nb" facs="https://gallica.bnf.fr/ark:/12148/bpt6k111050d/f8.item"/>
+        <head>DESCRIPTION REGULIERE DES MACHINES, DES CHANGEMENTS DU THEATRE, ET DES INCIDENS DU PRESENT OUVRAGE.</head>
+        <p>LA premiere Scene qui sert de Prologue, reprensente le mont Pierien dans la Thessalie, situé entre les deux 
+          fleuves Appidan &amp; Onochon, où se passe toute l’action : il a vingt-deux pieds de hauteur ; il est environné 
+          d’un bois, &amp; là paroissent les <name key="muses">neuf Muses</name> avec <name key="apollon">Appollon</name> 
+          <tech type="costume">couronné de lauriers, qui entrelacez par le bout soustiennent les trois Fleurs de lys 
+            &amp; la Couronne de France</tech>.</p>
+        <p>Ce mont dont les <tech type="decor">costes forment une isle, est ouvert au milieu par une caverne</tech>, de 
+          laquelle il se descouvre dans le <tech type="decor">bois d’un bout à autre plusieurs belles allées</tech></p>
+        <p>A l’entrée de la Scene les deux <tech type="decor">fleuves</tech>, dont nous avons parlé, <tech type="decor">
+            coulent sur deux roches entourées de joncs &amp; autres herbes qui naissent dans l’eau</tech> ; &amp; sur 
+          leur rive deux chœurs de <name key="nymphes">Nymphes</name>, en cueillant des fleurs &amp; faisant des 
+          couronnes, <tech type="musique">chantent le Prologue</tech> de cét Ouvrage à la loüange <name key="apollon" corresp="louis_xiv">
+            d’Appollon</name> representé par le <persName key="louis_xiv">Roy</persName>, que la montagne, qui descend 
+          insensiblement, &amp; se retire vers le centre, laisse sur le theatre avec les neuf <name key="muses">Muses</name> 
+          representées par les Princesses &amp; Dames de la Cour, qui composent une danse tres-delicieuse.</p>
+      </div>
+      <pb n="nb" facs="https://gallica.bnf.fr/ark:/12148/bpt6k111050d/f9.item"/>
+      <ptr target="../xml/v2merveilles17_img_tor-2emdeco.xml" type="include"/>
+      <div>
+        <pb n="nb" facs="https://gallica.bnf.fr/ark:/12148/bpt6k111050d/f10.item"/>
+        <head>II.</head>
+        <p><foreign xml:lang="it">LA prima Scena dell’Atto primo rappresenta la Grotta di Chirone Centauro, è composta tutta di sassi, 
+            e scogli horridis-simi, e coperta da un vastissimo volto pure di sassi ; rende insieme vaghezza, &amp; horrore.
+            Nell’alto si vede un’ apertura, per la quale la Grotta riceve il lume, e per doue si vedono le strade di una 
+            montagna, e paesaggio di fuori, che condu-ce all’entrata della sudetta Grotta, che aprono due porte di rustica 
+            architettura fabricate d’una parte, e d’altra. Si vedono molti, e diversi sepolcri di maestosa costruttura, 
+            che chiudono quegli Eroi, che sono stati degni di morir dis-cepoli di cosi gran maestro : Sotto la medesima 
+            apertura dell’alto, se ne vede un’altra, che mostra i più intimi luoghi della sudetta habitazione ; e con ingegnosa 
+            regola di prospettiua appare di lontano il fondo, in cui vedesi ancora un più superbo sepolcro de gli altri. Quì 
+            all’incanto de' maghi, addittati da Chirone, trà tuoni, e lampi sorge un carro, sopra di cui montato Peleo, si 
+            leva in aria in mezzo di fiamme, e fumosi vapori, che lasciati à mezzo corso, vola à traverso della Grotta, uscendo 
+            per la sudetta apertura, il fumo suanisce in aria, e la fiamma ricade al fondo.</foreign></p>
+      </div>
+      <div>
+        <pb n="nb" facs="https://gallica.bnf.fr/ark:/12148/bpt6k111050d/f11.item"/>
+        <head>II.</head>
+        <p>LA premiere Scene du premier Acte represente la Grote du <name key="chiron">Centaure Chiron</name> : <tech 
+            type="decor">les rochers affreux</tech> qui seuls en forment la grandeur ne donnent pas moins de plaisir que 
+          d’horreur à la veuë. Au plus haut <tech type="construction">elle a une ouverture, par laquelle elle reçoit le jour, 
+            &amp; qui descouvre au dehors un païsage, &amp; les chemins d’une montagne qui aboutissent à l’entrée de cette 
+            Grotte</tech>, qui s’ouvrent par deux portes, où paroist de toutes parts un travail rustique. On voit plusieurs 
+          &amp; divers tombeaux d’une <tech type="construction">superbe Architecture</tech>, qui enferment les Heros qui ont 
+          merité l’honneur d’estre &amp; de mourir disciples d’un si <name key="chiron">grand Maistre</name>. Soubs la plus haute 
+          ouverture on en voit un autre qui en descouvre les endroits les plus secrets, &amp; <tech type="construction">l’art 
+            de la perspective en fait paroistre de loing le fonds</tech>, où il y a <tech type="decor">un sepulchre encore plus 
+              magnifique que les autres</tech>. Là par l’enchantement des Magiciens montrez par <name key="chiron">Chiron</name> 
+          entre les tonnerres &amp; esclairs un char sur lequel <name key="???">Pelı́e</name> est porté s’éleve en l’air au milieu 
+          de la flamme &amp; de la fumée ; &amp; laissant l’un &amp; l’autre au milieu de sa course, il vole au travers de la 
+          Grotte sortant par l’ouverture, la fumée s’évanoüit en l’air, &amp; la flamme retombe au fonds.</p>
+      </div>
+      <pb n="nb" facs="https://gallica.bnf.fr/ark:/12148/bpt6k111050d/f12.item"/>
+      <ptr target="../xml/v2merveilles17_img_tor-3emdeco.xml" type="include"/>
+      <pb n="nb" facs="https://gallica.bnf.fr/ark:/12148/bpt6k111050d/f13.item"/>
+      <ptr target="../xml/v2merveilles17_img_tor-4emdeco.xml" type="include"/>
+      <div>
+        <pb n="nb" facs="https://gallica.bnf.fr/ark:/12148/bpt6k111050d/f14.item"/>
+        <head>IV.</head>
+        <p><foreign xml:lang="it">QUì cangiata tutta la prospettiua della Grotta, in luogo di una lontananza di scogli, si 
+            vede un placidissimo mare, cir-condato di rive piaceuoli, de colli ameni, e deliziose habitazioni. Comparisce 
+            da una parte una gran conchiglia piena di pescatori di coralli, che sostenendone nel mezzo loro un’altra più 
+            picciola, n’è portata Teti Dea maritima. Viene sor-gendo dal mare di lei invaghito Nettuno, accompagnato da un 
+            coro di Tritoni, e Sirene ; e discendendo su’l lito la Dea sudetta, insieme co’ Pescatori, Nettuno rientra nel 
+            mare, e quelli fanno una danza. Giove intanto apparisce in aria nel mezzo di una gran nuvola sopra l’aquila che 
+            spiccatasi dal fondo della sudetta nuvola; poi pas-seggiando, e volgendosi hor da una, hor d’all’altra parte, 
+            viene anch’esso come Amante di Teti à lusingarla; dalla qua-le rifiutato, si sdegna, e commanda à i turbini di 
+            rapirla, Dalla gran nuvola si vede spiccarsene una più picciola, che per linea retta avanzandozi verso il teatro, 
+            viene à terra, la circonda, e la solleva in aria. In questo mentre Giunone gelosa discende su’l proprio carro, e 
+            sgridando il marito, egli se ne vola al Cielo sù l’aquila, e fa chiudere la gran nuvola. Giove intanto, chiamate 
+            dall’inferno le furie ; sorge dalla terra una testa di formidabil mostro, che esalando fiamme, e fumi sulfurei, 
+            vomita quattro furie, che accompagnare da quantità d’altre fanno una stravagante e curiosissima danza ; doppo la 
+            quale, quelle, che sono uscite di sotto terra, montano, e partono veloci colla sudetta machina di Giunone ; e si 
+            dà fine al primo Atto.</foreign></p>
+      </div>
+      <div>
+        <pb n="nb" facs="https://gallica.bnf.fr/ark:/12148/bpt6k111050d/f15.item"/>
+        <head>IV.</head>
+        <p>LA toute la perspective de la Grotte estant changée à la place d’une <tech type="decor">longue suite de rochers</tech>, 
+          on voit une <tech type="decor">mer tranquille environnée de rivages</tech> qui plaisent à la veuë, &amp; de <tech 
+            type="decor">petites sallies agreables &amp; de demeures delicieuses</tech> : d’un costé on voit paraistre une 
+          <tech type="decor">grande coquille</tech> pleine de gens qui peschent le corail, qui au milieu de la leur en soustiennent 
+          une autre plus petite, qui porte <name key="thetis">Thetis</name> Deesse de la mer. Alors <name key="neptune">Neptune</name> 
+          amoureux d’elle, sort de l’onde accompagné d’un chœur de <name key="tritons">Tritons</name> &amp; de <name key="sirenes">
+            Syrenes</name> ; mais il se renferme, voyant sa <name key="thetis">Deesse</name> avec ses pescheurs descenduë sur le rivage, 
+          ensuite ses pescheurs dansent ensemble. Cependant <name key="jupiter">Jupiter</name> paraist en l’air au milieu d’un grand 
+          nuage sur son aigle, qui estant sorty du sein de la nuë ; on voit ce <name key="jupiter">Dieu</name> se promener tantost 
+          d’un costé tantost de l’autre : &amp; comme il vient en qualité d’amant pour carresser <name key="thetis">Thetis</name>, il 
+          en est mesprisé : ce mespris le met en tel excés de colere, qu’il commande aux vents de l’enlever. Aprés on voit sortir de ce 
+          <tech type="decor">grand nuage</tech> un plus petit qui s’avançant en droicte ligne vers le theatre, descend, environne la 
+          <name key="thetis">Deesse</name>, &amp; l’emporte au milieu de l’air : cependant <name key="junon">Junon</name> jalouse 
+          paroist sur son <tech type="machine">char</tech>, &amp; querellant son <name key="jupiter">mary</name>, elle est cause qu’il 
+          s’envole vers le Ciel sur son aigle, &amp; qu’il fait fermer son grand nuage : <name key="junon">Junon</name> ayant appellé 
+          les <name key="furies">furies</name> de l’enfer, une teste d’un horrible monstre sort de la terre, qui poussant des flammes 
+          &amp; des fumées meslées avec le soulfre, vomit quatre <name key="furies">furies</name>, qui estant accompagnées de plusieurs 
+          autres, font une danse aussi extravagante que curieuse ; aprés laquelle les furies qui sont sorties du sein de la terre, 
+          montent avec la <tech type="machine">machine</tech> de <name key="junon">Junon</name>, &amp; partent d’une extreme vitesse : 
+          &amp; leur départ fait la fin du premier Acte.</p>
+      </div>
+      <div>
+        <pb n="nb" facs="https://gallica.bnf.fr/ark:/12148/bpt6k111050d/f16.item"/>
+        <figure>
+          <graphic url=""/><!-- pas trouvé l'estampe, à insérer -->
+          <figDesc/>
+        </figure>
+      </div>
+      <div>
+        <pb n="nb" facs="https://gallica.bnf.fr/ark:/12148/bpt6k111050d/f17.item"/>
+        <head>III.</head>
+        <p><foreign xml:lang="it">COMINCIA il secondo Atto co’l monte Caucaso, e questa Scena reppresenta una strada che conduce alla 
+            cima del detto monte : si vedono però dalle parti alcune rupi, sopra le quali sono costrutte molte case villareccie, tutte 
+            all’intorno di frondi, &amp; arboscelli adombrate. Di lontano sù la cima del monte si vede un Tempio, ò Palazzo tutto 
+            d’oro, e di là oltre il Palazzo, si vede la montagna discendere verso il mare. Su’l principio della sudetta strada si vede 
+            Prometheo legato ad vn gran sasso, e’l augello che lo tormenta. Dirimpetto al medesimo sasso vedesi discendere il carro di 
+            Peleo sino à terra, seguito da gran nubi di fumo, causate dalle fiamme, che avvampano sotto di lui. Discelo egli dal carro, 
+            consulta con Prometheo circa i suoi amori ; poi vi rimonta, e asceso trà quei fumi sino à mezz’aria, quelli si distruggono 
+            à poco à poco, &amp; egli rapido se ne vola d’altra parte. Intanto un coro di Selvaggi per allegrezza delle buone speranze 
+            di Peleo, fanno una bizarissima Danza.</foreign></p>
+      </div>
+      <div>
+        <pb n="nb" facs="https://gallica.bnf.fr/ark:/12148/bpt6k111050d/f18.item"/>
+        <head>III.</head>
+        <p>AU commencement du second Acte on voit paraistre la montagne de Caucase, &amp; cette Scene represente <tech type="decor">un 
+            chemin qui aboutit au sommet de la mesme montagne</tech> : on y voit quelques <tech type="decor">rochers</tech>, sur 
+          lesquels plusieurs <tech type="construction">maisons rustiques</tech>, toutes ornées de <tech type="decor">petits arbres</tech>, 
+          &amp; ombragées de leur feüillages, se trouvent basties. De loing sur le sommet du mont paraist un <tech type="construction">
+            Temple ou Palais tout d’or</tech> ; &amp; au delà de ce superbe Palais, on voit la montagne pancher du costé de la mer. A 
+          l’entrée de ce chemin on voit <name key="promethee">Promethée</name> lié à un grand rocher, &amp; <name key="???">l’oyseau</name>
+          qui le tourmente. Droict à ce mesme rocher on voit descendre le <tech type="machine_vol">char</tech> de <persName key="pelee">Pelée
+          </persName> jusqu’à terre, environné d’un grand nuage de fumées causé par les flammes qui sont au dessous de luy : il descend 
+          de son char, &amp; consulte <name key="promethee">Promethée</name> sur le sujet de son amour : aprés il se remet dans son char, 
+          &amp; passant à travers les fumées qui se détruisent peu à peu, se sauve vistement de l’autre costé. Cependant plusieurs 
+          Sauvages pour tesmoigner la joye qu’ils ont des bonnes esperances de <name key="pelee">Pelée</name>, forment une danse 
+          tres-bizare.</p>
+      </div>
+      <pb n="nb" facs="https://gallica.bnf.fr/ark:/12148/bpt6k111050d/f19.item"/>
+      <ptr target="../xml/v2merveilles17_img_tor-5emdeco.xml" type="include"/>
+      <div>
+        <pb n="nb" facs="https://gallica.bnf.fr/ark:/12148/bpt6k111050d/f20.item"/>
+        <head>V.</head>
+        <p><foreign xml:lang="it">NELLA Scena seconda comparisce il Palazzo sontuosissimo di Giove, il quale composto di architettura 
+            con Pilastri Corinthi tutti d’oro ; sopra li termini de’ balaustri in luogo di statue vi sono aquile pur tutte d’oro; Ne 
+            i riguardi de’ Pilastri si vedono molte gioie con ordine incastrate di più colori in in fondo di lapis lazuli. Frà i 
+            Pilastri , che fono doppij, sopra richissimi Piedestalli s’alzano statue di più Corti d’antiche Deità. Al terzo della 
+            fabrica vi è un passaggio, ò galeria co-perta, come pure ne segue col medesimo ordine un’altro simile nell’altro terzo, e 
+            nel fondo si vede un volto coperto tutto incastrato delle medesime richezze, come sono pure li Frisi, e i riguardi de’ 
+            piedestalli de’ Pilastri. Mà de’ balaus-tri, che sono fatti in forma di fogliami, e cartocci, cosa più ricca, ne più 
+            sontuosa non può rappresentarsi, doue la pros-pettiva è sì bene osservata, che pare una lega di paese, consistendo di 
+            ventitre tellari per ciascheduna parte, che con quello dell ultima prospettiva fanno una pomposa, lunghissima veduta. In 
+            questa Scena sì divisano da Giove i suoi Amori con Mercurio, il quale recevuti gli ordini del suo Signore vola per linea 
+            obliqua fino sù la faccia della Scena ; E Giove in questo mentre ordina alle Driadi, che festeggino per le sue allegrezze, 
+            e finita la danza, ch’è una delle più belle, si dà adito al susseguente cambiamento.</foreign></p>
+      </div>
+      <div>
+        <pb n="nb" facs="https://gallica.bnf.fr/ark:/12148/bpt6k111050d/f21.item"/>
+        <head>V.</head>
+        <p>DANS la seconde Scene paroist le riche Palais de <name key="jupiter">Jupiter</name> remarquable pour <tech type="construction">
+            l’architecture</tech> &amp; les <tech type="construction">Pilastres Corinthiens tout d’or</tech> ; sur les <tech type="decor">
+              termes des balustres il y a aussi des aigles d’or au lieu de statues</tech>. Dans les <tech type="decor">faces des 
+                Pilastres on voit quantité de pierres precieuses de diverses couleurs enchassées en un fonds de pierre d’azur.</tech> 
+          Entre les Pilastres qui sont doubles, s’eslevent des <tech type="decor">statues</tech> de plusieurs sortent des anciennes 
+          <name key="divinite">Deitez</name>. Aux deux tiers de ce bastiment il y a un passage &amp; une galerie couverte, &amp; au 
+          fonds une <tech type="construction">voûte</tech> mesme, où des mesmes <tech type="decor">pierreries sont enchassées qui 
+            esclattent autant dans les frises &amp; en la face des peidestaux des pilastres</tech>. Mais on ne sçauroit s’imaginer 
+          rien de plus riche &amp; de plus superbe que les cartouches &amp; les balustres, qui sont faits en forme de <tech type="decor">
+            feüillages</tech>, &amp; où la perspective est si bien observée, qu’il semble qu’il y ait une lieue de pays. Vingt-trois 
+          chassis d’un costé &amp; d’autre avec celuy de la derniere perspective donnent le plaisir d’une veuë fort agreable et fort estenduë. 
+          En cette Scene <name key="jupiter">Jupiter</name> devise de ses amours avec <name key="mercure">Mercure</name>, qui ayant receu ses 
+          commandemens, par un tour oblique vole jusques sur la face de la Scene. Cependant <name key="jupiter">Jupiter</name> ordonne aux 
+          <name key="driades">Driades</name> qu’elles celebrent ses divertissements par une danse, &amp; qui en sont une qui est des plus 
+          belles qui puisse voir.</p>
+      </div>
+      <div>
+        <pb n="nb" facs="https://gallica.bnf.fr/ark:/12148/bpt6k111050d/f22.item"/>
+        <figure>
+          <graphic url=""></graphic> <!-- pas trouvé l'estampe, à insérer -->
+          <figDesc></figDesc>
+        </figure>
+      </div>
+      <div>
+        <pb n="nb"/>
+        <head>VI.</head>
+        <p><foreign xml:lang="it">RAPPRESENTA questa mutazione un Amfiteatro pomposamente ordinario, con scalinate, e quantità numerosa 
+            di genti vestite d’habito Romano antico, iui ridotte spettatori de’ Giochi, che vi si devono rappresentare. Vi sono posati 
+            sopra l’ultimo scalino quancità di grossisimi pilastri, frà quali vi sono sontuose arcate ; che serrate sino à mezzo, danno 
+            commodo à buon numero di curiosi di vagheggiare le feste. Soprà li pilastri vi sono grandissimi modiglioni, che sos-tengono 
+            una renghiera, che camina tutt’all’intorno coperta d’un drappo di scarlarto, per diffender dall’aria, e dal Sole i 
+            riguardanti. In faccia si vede un gran’ arco con l’istesso ordine dalle parti ; e più lontano un’altra architettura Dorica 
+            di tre archi, trà i fori de' i quali appariscono tre srade della Città concorrenti à tre punti, di modo che quelli chesono 
+            nel mezzo vedono in tre termini, il vasto della Città sudetta. Gl’ornamenti dell’ Amfiteatro sono tutti di rame, come pure 
+            la statua di Marte, che stà posta sotto al volto del sudetto grand’arco, e avanti di quella il tripode con la tazza, 
+            preparati per far’il sagrifizio. Quivi però mentre i Sacerdoti della detta Deità sagrificano, i Cavalieri di Tessaglia fanno 
+            una Barrie-ra à piedi à colpi di pica, e di spada, che venendo condotta da due dispostissimi Campioni, riesce una delle più 
+            curio-se, e superbe apparenze dell’Opera.</foreign></p>
+      </div>
+      <div>
+        <pb n="nb" facs="https://gallica.bnf.fr/ark:/12148/bpt6k111050d/f24.item"/>
+        <head>VI.</head>
+        <p>LE changement qui suit represente l’ordre pompeux d’un <tech type="construction">Amphitheatre</tech> avec ses escaliers, &amp; 
+          un grand nombre de spectateurs <tech type="costume">vestus à la Romaine ancienne</tech>. Il y a sur le dernier degré quantité 
+          de fort gros <tech type="decor">pilastres</tech>, entre lesquels il y a de fort <tech type="construction">belles arches</tech>, 
+          qui estant enserrées jusques à la moitié, donnent la commodité à plusieürs personnes de voir les jeux. Sur les pilastres il y a 
+          de tres grands <tech type="construction">modilions soustenans une terrasse qui marche tout à l’entour, couverte d’un drap rouge, 
+            afin de defendre du Soleil les spectateurs</tech>. On void en face un grand arc, avec le mesme ordre qu’aux costez ; &amp; plus 
+          loin une autre <tech type="construction">architecture Dorique de trois arcs</tech>, parmy les ouvertures desquels on apperçoit 
+          trois chemins, qui aboutissent à trois poincts ; de sorte que ceux qui sont au milieu voyent descouvert par trois endroits 
+          l’estenduë de la Ville. Les <tech type="decor">ornemens</tech> de l’Amphiteatre sont tous d’airain, comme la <tech type="decor">
+            statuë de <name key="mars">Mars</name></tech>, posee sous la voute de grand arc, au devant de laquelle il y a un <tech 
+              type="decor">Trepié avec la Coupe</tech> preparez pour le sacrifice. Et là tandis que les Prestres du <name key="mars">Dieu
+              </name> sacrifient, les Chevaliers de Thessalie font une barriere à pied a coups de pique &amp; d’éspée ; &amp; cette entrée 
+          est conduite par deux Champions, qui par leur adresse &amp; leur disposition font une veuë des plus merveilleuses de la Piece.</p>
+      </div>
+      <div>
+        <pb n="nb" facs="https://gallica.bnf.fr/ark:/12148/bpt6k111050d/f25.item"/>
+        <figure>
+          <graphic url=""></graphic>
+          <figDesc></figDesc>
+        </figure>
+      </div>
+      <div>
+        <pb n="nb" facs="https://gallica.bnf.fr/ark:/12148/bpt6k111050d/f26.item"/>
+        <figure>
+          <graphic url=""></graphic>
+          <figDesc></figDesc>
+        </figure>
+      </div>
+      <div>
+        <pb n="nb" facs="https://gallica.bnf.fr/ark:/12148/bpt6k111050d/f27.item"/>
+        <head>VII.</head>
+        <p><foreign xml:lang="it">SUCCEDE all’Amfiteatro la decorazione del Palazzo di Theti, che dà principio al terzo Atto. E’ egli di 
+            architettura Ro-mana, camposto di colonne doppie di marmo rosso, cinte di cerchi d’argento, del qual metallo sono ancora le 
+            basi, capitelli, e armature, che in luogo di statue sono poste sopra i rissalci, che fanno le colonne, e’l fregio, &amp; 
+            altri ornamen-ti, che si risserano entro grandissimi fronțispizij, che soprastano il vano delle colonne : frà le quali vi 
+            sono grandissimi fenestroni, come in una galeria, che circonda tutto il Palazzo: Sù le zocche, che sagliono avanti le colonne, 
+            vi stanno vasi d’argento d’ornamento antico, e perfettissimo. In faccia si vede un Portaglio di maestosa grandezza, con un’eguale 
+            frontispizio, sostenuro da termini, che posano sopra colonne simili à quelle delle parti. Questa mole viene da doppie colonne in 
+            tre vani, essendo quello di mezzo ben più grande, e maestoso ; e seguendo otto altre colonne, formano sette aperture, e vi si 
+            sostiene un maestoso sositto. Oltre questa si cospicua fabrica, segue un vastissimo Cortile d’ordine Dorico ; vi siede in 
+            faccia un gran Palazzo, sotto il quale si vedono molte Arcate del medesimo ordine. Dietro quello segue un’altro spazio con un 
+            Cortile, che mostra in faccia il suo edifizio, adornato di colonne d’ordine Ionico, che dilettevolmente vi separano le finestre. 
+            Per il foro di questa fabrica, vedefi per ultimo punto un’amenissimo giardino con habitazioni di delizia, fontane, &amp; altre 
+            gentilezze. In questa Scena invitati da Peleo, e da Chirone un Coro di Accademitti, adornati di bizarissime vesti, fanno un 
+            curiosissimo ballo. In questo mentre Theti uscita, e instigata da Peleo viene circondata da una nuvola, in cui si cangia in 
+            scoglio, e rivenuta in sua prima forma, segue l’esito desidera-to de gli Amori del Rè di Tessaglia ; applaudendo à i cui 
+            contenti i Corteggiani formano graziosissima danza.</foreign></p>
+      </div>
+      <div>
+        <pb n="nb" facs="https://gallica.bnf.fr/ark:/12148/bpt6k111050d/f28.item"/>
+        <head>VII.</head>
+        <p>LA decoration du Palais de <name key="thetis">Thetis</name> succede à l’Amphiteatre, &amp; fait le commencement du troisiesme 
+          Acte. Il est d’<tech type="construction">architecture Romaine, orné de colomnes doubles de marbre rouge, environnées de cercles 
+            d’argent, &amp; du mesme metal sont les bases, les chapiteaux, &amp; les cuirasses garnies d’autres armes, qui au lieu de 
+            statuës sont posées sur les saillies, qui font les colomnes, les frises, &amp; autres ornemens, qui se resserrent entre des 
+            grands frontispices, qui sont au dessus de l’espace des colomnes, entre lesquelles il y a de grandes fenestres, comme en une 
+            galerie qui environne tout le Palais</tech>. Sur les zoques qui s’avancent par devant les colomnes sont placez des <tech 
+              type="decor">vases d’argent</tech>, dont l’ornement qui est antique n’en est pas moins parfait. On void en face un portail 
+          d’une grandeur magnifique, avec un frontispice égal soustenu des Termes qui sont sur des colomnes semblables à celle des costez. 
+          Ce bastiment est divisé par des <tech type="construction">doubles colomnes en trois separations, estant celle du milieu bien plus 
+            grande &amp; plus magnifique ; &amp; suivent huit autres colomnes, qui font sept ouvertures</tech> ; &amp; un tres-beau <tech 
+              type="construction">plat-fonds</tech> en est soustenu. Il y a en suite une tres-grande <tech type="construction">Cour à 
+                la Dorique</tech> ; on y void un <tech type="construction">grand Palais</tech>, sous lequel sont descouvertes plusieurs 
+          arches de mesme. Au dernier il y a aussi un autre espace d’une nouvelle Cour, qui monstre en face son edifice orné de <tech 
+            type="construction">colomnes à la Ionique</tech>, qui font une agreable separation des fenestres. On void pour le dernier poinct 
+          de cét edifice un <tech type="decor">Jardin</tech>, que <tech type="decor">les cabinets, les fontaines</tech>, &amp; autres 
+          raretez rendent tres-delicieux. En cette Scene un chœur d’Academiens invitez par <name key="chiron">Chiron</name>, &amp; <name 
+            key="pelee">Pelée</name>, &amp; bizarement vestus dansent d’une manière fort curieuse. Cependant <name key="thetis">Thetis</name> qui 
+          sort, &amp; que <name>Pelée</name> sollicite, est environnée d’une nuë, dans laquelle elle se change en rocher ; &amp; ayant repris 
+          sa premiere forme donne le succés tres-desiré aux amours du <name key="pelee">Roy de Thessalie</name> ; &amp; ses Courtisans 
+          applaudissans à leur joye font une danse tres-agreable.</p>
+      </div>
+      <div>
+        <pb n="nb" facs="https://gallica.bnf.fr/ark:/12148/bpt6k111050d/f29.item"/>
+        <figure>
+          <graphic url=""/>
+          <figDesc></figDesc>
+        </figure>
+      </div>
+      <div>
+        <pb n="nb" facs="https://gallica.bnf.fr/ark:/12148/bpt6k111050d/f30.item"/>
+        <head>VIII.</head>
+        <p><foreign xml:lang="it">ERCOLE in fine con Promerheo liberato conducono le Arti liberali sue figliuole, che danzano mentre che dal 
+            Cielo cominciano à scendere sei nuvole da’ fianchi con diciotto persone sopra, coprendo in parte l’architetture del Palazzo; cangiasi 
+            intanto il Prospetto della fabrica in nuvolè, &amp; apparisce di sotto un grandissimo fondo pur di nuvole con molte Deità: Di sopra 
+            si vede un’altra apertura, doue siedono dalle parti diciotto persone, che sono le Intelligenze celesti, che con gratissima melodia 
+            componendo i loro suoni, attendono Giunone, e Imeneo. Queste due Deità discele dal Cielo nel grembo delle nuvole, vengono sopra una 
+            delle più grandi avanzandosi fino nel mezzo delle sudette Intelligenze, di doue tutti calano à terra, e scendendo le sei per parte 
+            si vengono dolcemente ad accostare alla machina di Giunone. Squarciandosi lentamente intanto le altre nuvole nel fondo scuoprono 
+            un Palaggio cucto d’oro, e di cristalli di più colori fabricato. Alla quale prodigiofa vista si aggiunge, che danzando à terra 
+            Giunone., &amp; Imeneo, esce davanti il suderro Palazzo frà le nuvole un coro di Amori, che componendo sopra di quelle leggiadrissino 
+            ballo, vengono à dar fine à șì Regià, é maestosa rappresentatione.</foreign></p>
+      </div>
+      <div>
+        <pb n="nb" facs="https://gallica.bnf.fr/ark:/12148/bpt6k111050d/f31.item"/>
+        <head>VIII.</head>
+        <p>A la fin <name key="hercule">Hercule</name> avec <name key="promethee">Promethée</name> delivré viennent les Arts liberaux, 
+          qui dansent aussi, tandis que dix-huit personnes descendent du Ciel sur six nuës, qui couvrent en partie les architectures du 
+          Palais : cependant sa perspective se change en nuës ; &amp; il en paraist au dessous un grand fonds avec beaucoup de Dieux : 
+          au dessus on voit une grande ouverture, où aux costez sont assises dix-huit personnes, ce sont les Intelligences celestes, qui 
+          attendant <name key="junon">Junon</name> &amp; <name key="hymenee">Hymenée</name>, par l’<tech type="musique">accord de leur 
+            son forment une douce melodie</tech>. Ces deux <name key="divinite">Divinitez</name> descenduës du Ciel au sein des nuës sur 
+          une des plus grandes, s’avancent jusques au milieu des Intelligences ; &amp; aprés l’autre s’approchent doucement de la <tech 
+            type="machine">machine</tech> de <name>Junon</name> : lors que les autres nuës s’entrouvant lentement au fonds descouvrent 
+          un <tech type="construction">Palais tout d’or &amp; de cristal de diverses couleurs</tech> ; &amp; cette veuë est dautant plus 
+          merveilleuse, que <name key="junon">Junon</name> &amp; <name key="hymenee">Hymenée</name> dansant, il sort d’entre les nuës &amp; 
+          devant le Palais un Chœur d’Amours, qui dansent sur elles, avec beaucoup de grace, &amp; finissent ainsi une si superbe 
+          representation.</p>
+      </div>
+    </body>
+  </text>
+</TEI>
+
+<!-- changer tous les eminenceid par le key du cardinal quand il sera indexé -->
