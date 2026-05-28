@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
+<?xml-stylesheet type="text/css" href="../style/tei-author.css" alternate="author"?>
+<?xml-model href="https://fetes17.github.io/merveilles17/merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Frontispice de :] Décorations et machines aprestées aux nopces de Tétis, Ballet royal représenté en la salle du petit Bourbon par Jacques Torelli, inventeur, dédiées à l'Eminentissime Prince Cardinal Mazzarin</title>
+                <author key="isilvestre"> Silvestre, Israël (1621-1691)</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Merveilles17</edition>
+                <respStmt>
+                    <name>Axelanne Chapon</name>
+                    <resp>Encodage</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Université d’Artois - Lille, MESHS</publisher>
+                <date when="2026"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note>Cette estampe est le frontispice du <ref target="v2merveilles17_imp_torelli">livre du Ballet des Nopces de Téthis, reprensenté 
+                        en 1654"></ref></note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl>Silvestre, <title>[Frontispice de :] Décorations et machines aprestées aux nopces de Tétis, Ballet royal représenté en 
+                        la salle du petit Bourbon par Jacques Torelli, inventeur, dédiées à l'Eminentissime Prince Cardinal Mazzarin</title>, 
+                    <note>Estampe, <pubPlace>Paris</pubPlace>, BNF, RESERVE RESERVE QB-201 (41)-FOL p.42</note><ptr target="https://gallica.bnf.fr/ark:/12148/btv1b84043166?rk=450646;0"/></bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Estampes et photographie</repository>
+                        <idno>RESERVE RESERVE QB-201 (41)-FOL p.42</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <author key="lepautre">Silvestre, Israël</author>
+                            <title>[Frontispice de :] Décorations et machines aprestées aux nopces de Tétis, Ballet royal représenté en la salle du petit Bourbon par Jacques Torelli, inventeur, dédiées à l'Eminentissime Prince Cardinal Mazzarin</title>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="estampe">
+                            <supportDesc>
+                                <extent>
+                                    <dimensions unit="cm">
+                                        <height></height>
+                                        <width></width>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1654"/>
+            </creation>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <sourceDoc>
+        <figure xml:id="tor-frontispice">
+            <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84043166/f1/23.935372005043686,13.76040353089577,3894.194199243379,5380.317780580075/566,782/0/native.jpg"></graphic>
+            <figDesc>Au fond de la planche se trouve une vue du Pont-Neuf et de la place Dauphine,</figDesc><!-- developper la légende -->
+            <p>Décorations et machines aprestées aux Nopces de Tetis, Ballet ROYAL ; Représenté en la salle du 
+                petit Bourbon par Jacques Torelli, inventeur, dédiées à l'Eminentissime Prince CARDINAL MAZZARIN</p>
+            <p><foreign xml:lang="it"></foreign>SCene e Machine preparate alle Nozze di Teti Balletto REALE represenrato 
+                netta sala del poccolo Borbone et da Giacomo Torello Inventore dedicate all Eminentissimo Prencipe CARDINAL MAZZARINO</p>
+            <byline>F. Francart del. Israel Silverstre secit.</byline>
+        </figure>
+    </sourceDoc>
+</TEI>
+
+

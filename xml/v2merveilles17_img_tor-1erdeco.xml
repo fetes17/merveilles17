@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
+<?xml-stylesheet type="text/css" href="../style/tei-author.css" alternate="author"?>
+<?xml-model href="https://fetes17.github.io/merveilles17/merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Première décoration</title>
+                <author key="isilvestre"> Silvestre, Israël (1621-1691)</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Merveilles17</edition>
+                <respStmt>
+                    <name>Axelanne Chapon</name>
+                    <resp>Encodage</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Université d’Artois - Lille, MESHS</publisher>
+                <date when="2026"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note>Cette estampe est reliée dans <ref target="v2merveilles17_imp_torelli"> le livre du Ballet des Nopces de Téthis, reprensenté 
+                        en 1654"></ref></note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl>Silvestre, <title>Première décoration</title>, 
+                    <note>Estampe, <pubPlace>Paris</pubPlace>, BNF, RESERVE RESERVE QB-201 (41)-FOL p.43</note><ptr target="https://gallica.bnf.fr/ark:/12148/btv1b8404317m?rk=922751;2"/></bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Estampes et photographie</repository>
+                        <idno>RESERVE RESERVE QB-201 (41)-FOL p.43</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <author key="lepautre">Silvestre, Israël</author>
+                            <title>Première décoration</title>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="estampe">
+                            <supportDesc>
+                                <extent>
+                                    <dimensions unit="cm">
+                                        <height></height>
+                                        <width></width>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1654"/>
+            </creation>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <sourceDoc>
+        <figure xml:id="tor-1erdeco">
+            <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8404317m/f1/50.47099621689791,29.25598991172829,5663.959646910465,4558.083228247163/968,779/0/native.jpg"></graphic>
+            <figDesc>Apollon et les neuf Muses</figDesc><!-- developper la légende -->
+            <byline>F. Francart del. J. Torelli in. Israel Silverstre F.</byline>
+        </figure>
+    </sourceDoc>
+</TEI>
+
+
+
