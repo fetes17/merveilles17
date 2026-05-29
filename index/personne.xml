@@ -57,14 +57,14 @@
   </person>
 
     <person xml:id="josephfleurieuarmenonville" sex="M">
-    <name>Armenonville,Joseph Fleuriau d',Garde des Sceaux de France</name>
+    <name type="cour">Armenonville,Joseph Fleuriau d',Garde des Sceaux de France</name>
     <birth when="1661-01-22"/>
     <death when="1728-11-27"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Joseph_Fleuriau_d%27Armenonville</identifier>
 </person>
 
     <person xml:id="josephpierrecastelanne" sex="M">
-    <name>Castellane,Joseph-Pierre de,Évêque de Fréjus</name>
+    <name type="cour">Castellane,Joseph-Pierre de,Évêque de Fréjus</name>
     <birth when="1661"/>
     <death when="1739-03-21"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Joseph-Pierre_de_Castellane</identifier>
@@ -72,7 +72,7 @@
   
   
   <person xml:id="catherine_bragance" sex="F">
-    <name>Bragance, Catherine de, reine d'Angleterre</name>
+    <name type="foreign">Bragance, Catherine de, reine d'Angleterre</name>
     <birth when="1638-11-25"/>
     <death when="1705-12-31"/>
     <identifier type="databnf">https://data.bnf.fr/16258771/catherine_de_bragance/</identifier>
@@ -81,7 +81,7 @@
   </person>
   
   <person xml:id="charles_II" sex="M">
-    <name>Charles II, roi d'Angleterre</name>
+    <name type="foreign">Charles II, roi d'Angleterre</name>
     <birth when="1630-05-29"/>
     <death when="1685-02-06"/>
     <identifier type="databnf">https://data.bnf.fr/13197087/charles_2/</identifier>
@@ -89,91 +89,67 @@
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Charles_II_(roi_d%27Angleterre)</identifier>
   </person>
    
-  <person xml:id="charlesvi" sex="M">
-    <name>Charles VI,dit « le Bien-Aimé »</name>
-    <birth when="1368-12-03"/>
-    <death when="1422-10-21"/>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Charles_VI_(roi_de_France)</identifier>
-  </person>
     
   <person xml:id="empereurcharlevii" sex="M">
-    <name>Bavière,Charles Albert de,dit Charles VII empereur du Saint-Empire</name>
+    <name type="foreign">Bavière,Charles Albert de,dit Charles VII empereur du Saint-Empire</name>
     <birth when="1697-08-06"/>
     <death when="1745-01-20"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Charles_VII_(empereur_du_Saint-Empire)#:~:text=Charles%20Albert%20de%20Bavi%C3%A8re%2C%20dit,roi%20polonais%20Jean%20III%20Sobieski.</identifier>
   </person>
     <person xml:id="felipeiv" sex="M">
-    <name>Felipe IV,dit le Grand ou le « roi-Planète » Roi des Espagnes et des Indes</name>
+    <name type="foreign">Felipe IV,dit le Grand ou le « roi-Planète » Roi des Espagnes et des Indes</name>
     <birth when="1605-04-08"/>
     <death when="1665-09-17"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Philippe_IV_(roi_d%27Espagne)</identifier>
   </person>
     <person xml:id="marie_anne_victoire_espagne" sex="F">
-    <name>Espagne,Marie-Anne-Victoire d', dite "l'Infante-reine" Reine consort de Portugal et des Algarves (1750)</name>
+      <name type="foreign">Espagne,Marie-Anne-Victoire d', dite "l'Infante-reine" Reine consort de Portugal et des Algarves (1750)</name>
     <birth when="1718-03-31"/>
     <death when="1781-01-15"/>
   </person>
   
   
   <person xml:id="charles_armelot" sex="M">
-    <name>Amelot de Gournay,Michel-Charles,Conseiller d'état</name>
+    <name type="cour">Amelot de Gournay,Michel-Charles,Conseiller d'état</name>
     <birth when="1679"/>
     <death when="1730-12-25"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Famille_Amelot</identifier>
   </person>
 
   <person xml:id="claude_auguste_de_goyon_de_matignon" sex="M">
-    <name>Goyon de Matignon,Charles Auguste de,Maréchal de France</name>
+    <name type="cour">Goyon de Matignon,Charles Auguste de,Maréchal de France</name>
     <birth when="1647-05-28"/>
     <death when="1729-09-06"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Charles_Auguste_de_Goyon_de_Matignon</identifier>
 </person>
   
   <person xml:id="antoine_le_prestre_de_vauban" sex="M">
-    <name>Dupuys-Vauban, Antoine le Preste de Vauban, dit, gouverneur de Béthune</name>
+    <name type="cour local">Dupuys-Vauban, Antoine le Preste de Vauban, dit, gouverneur de Béthune</name>
     <birth when="1654"/>
     <death when="1731"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Antoine_Le_Prestre_de_Vauban</identifier>
   </person>
   
   <person xml:id="armand_saint_lo" sex="M">
-    <name>Saint-Lô, Armand de, Mr de Saint-Lô, sieur de Brigny, major de Calais</name>
+    <name type="local">Saint-Lô, Armand de, Mr de Saint-Lô, sieur de Brigny, major de Calais</name>
     <death when="1694"/>
   </person>
   
-  <person xml:id="arnoul_ii_de_flandre" sex="M">
-    <name>Arnoul II de Flandre, Arnould II, Comte de Flandre, père de Badouin IV</name>
-    <birth notBefore="0961"/>
-    <death when="0987-03-30"/>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Arnoul_II_de_Flandre</identifier>
-    <!-- à supprimer ? -->
-  </person>
+
   
-  <person xml:id="badouiniv_flandre" sex="M">
-    <name>Baudouin IV de Flandre, le Barbu, Comte de Flandre</name>
-    <birth when="0980"/>
-    <death when="1035-05-30"/>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Baudouin_IV_de_Flandre</identifier>
-    <!-- à supprimer ? -->
-  </person>
+
   
-  <person xml:id="badouinv_flandre" sex="M">
-    <name>Baudouin V de Flandre, Badouin le Debonnaire, Badouin le Pieux, Comte de Flandre</name>
-    <birth notBefore="1012"/>
-    <death when="1067-09-01"/>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Baudouin_V_de_Flandre</identifier>
-    <!-- à supprimer ? -->
-  </person>
+
   
   <person xml:id="henri_camille_de_beringhen" sex="M">
-    <name>Beringhen,Henri-Camille de,marquis de Beringhen et d'Uxelles</name>
+    <name type="cour">Beringhen,Henri-Camille de,marquis de Beringhen et d'Uxelles</name>
     <birth when="1693-08-01"/>
     <death when="1770-02-01"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Henri-Camille_de_Beringhen</identifier>
 </person>
   
   <person xml:id="jacques_louis_de_beringhen" sex="M">
-    <name>Beringhen,Jacques-Louis de,marquis de Beringhen</name>
+    <name type="cour">Beringhen,Jacques-Louis de,marquis de Beringhen</name>
     <birth when="1651-10-20"/>
     <death when="1723-05-01"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jacques-Louis_de_Beringhen</identifier>
