@@ -581,7 +581,7 @@
   </person>
   
   <person xml:id="henri_de_la_tour_d_auvergne" sex="M">
-    <name>Turenne, Henri de La Tour d'Auvergne, maréchal de </name>
+    <name type="cour">Turenne, Henri de La Tour d'Auvergne, maréchal de </name>
     <birth when="1611-09-11"/>
     <death when="1675-07-27"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Henri_de_La_Tour_d%27Auvergne_(1611-1675)</identifier>
@@ -589,7 +589,7 @@
     <identifier type="isni">http://isni.org/isni/0000000083439713</identifier>
   </person>
     <person xml:id="louis_henri_de_la_tour_dauvergne" sex="M">
-    <name>La Tour d'Auvergne,Louis-Henri de,Comte d'Évreux</name>
+    <name type="cour">La Tour d'Auvergne,Louis-Henri de,Comte d'Évreux</name>
     <birth when="1679-08-02"/>
     <death when="1753-08-03"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Louis-Henri_de_La_Tour_d%27Auvergne</identifier>
@@ -597,55 +597,35 @@
   
 
   <person xml:id="christophelouis_turpin_de_crisse_de_sanzay" sex="M">
-    <name>Turpin de Crissé de Sanzay,Christophe-Louis,évêque de Rennes</name>
+    <name type="cour">Turpin de Crissé de Sanzay,Christophe-Louis,évêque de Rennes</name>
     <birth when="1670-09-19"/>
     <death when="1746-03-29"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Christophe-Louis_Turpin_de_Criss%C3%A9_de_Sanzay</identifier>
 </person>
   
   <person xml:id="hericour" sex="M">
-    <name>Héricour, page</name>
-  </person>
-  
-  <person xml:id="henryII" sex="M">
-    <name>Henri II, roi de France</name>
-    <birth when="1519-03-31"/>
-    <death when="1559-07-10"/>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Henri_II_(roi_de_France)</identifier>
-    <identifier type="databnf">https://data.bnf.fr/12066759/henri_2/</identifier>
-    <identifier type="isni">http://isni.org/isni/0000000395001884</identifier>
-    <!-- à supprimer ? -->
-  </person>
-  
-  <person xml:id="henriIV" sex="M">
-    <name>Henri IV</name>
-    <birth when="1553-12-14"/>
-    <death when="1610-05-14"/>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Henri_IV_(roi_de_France)</identifier>
-    <identifier type="databnf">https://data.bnf.fr/12015401/henri_4/</identifier>
-    <identifier type="isni">http://isni.org/isni/0000000121348311</identifier>
-    <!-- à supprimer ? -->
+    <name type="cour">Héricour, page</name>
   </person>
   
   <person xml:id="henriette_louise_colbert" sex="F">
-    <name>Colbert, Henriette-Louise, duchesse de Beauvilliers</name>
+    <name type="cour">Colbert, Henriette-Louise, duchesse de Beauvilliers</name>
     <birth when="1657"/>
     <death when="1733"/>
   </person>
   
   <person xml:id="francoishonnoreantoine_de_beauvillierssaintaignan" sex="M">
-    <name>Beauvilliers de Saint-Aignan,François Honoré Antoine de,Évêques de Beauvais</name>
+    <name type="cour">Beauvilliers de Saint-Aignan, François Honoré Antoine de, Évêques de Beauvais</name>
     <birth when="1682-10-06"/>
     <death when="1751-08-19"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Honor%C3%A9_Antoine_de_Beauvilliers_de_Saint-Aignan</identifier>
 </person>
   
   <person xml:id="georges_ysore_hervault" sex="M">
-    <name>Hervault, Georges Ysoré d', marquis d'Hervault et de Pleumartin</name>
+    <name type="cour">Hervault, Georges Ysoré d', marquis d'Hervault et de Pleumartin</name>
   </person>
   
   <person xml:id="guillaume_de_luyne" sex="M">
-    <name>De Luyne, Guillaume</name>
+    <name type="pro">De Luyne, Guillaume</name>
     <birth when="1627"/>
     <death from="1710" to="1719"/>
     <identifier type="databnf">https://data.bnf.fr/fr/12289718/guillaume_de_luynes/</identifier>
@@ -653,23 +633,23 @@
   </person>
   
   <person xml:id="huguenet" sex="M">
-    <name>Huguenet, violon</name>
+    <name type="pro">Huguenet, violon</name>
   </person>
   
   <person xml:id="humberk" sex="M">
-    <name>Humberk, garde Suisse</name>
+    <name type="militaire">Humberk, garde Suisse</name>
   </person>
   
   <person xml:id="hurlot" sex="M">
-    <name>Hurlot, grand valet de pied</name>
+    <name type="cour">Hurlot, grand valet de pied</name>
   </person>
   
   <person xml:id="jacques_moussu" sex="M">
-    <name>Moussu, Jacques, garde Suisse</name>
+    <name type="militaire">Moussu, Jacques, garde Suisse</name>
   </person>
   
   <person xml:id="jacques_stuart" sex="M">
-    <name>Stuart, Jacques, duc d'Yorck</name>
+    <name type="foreign">Stuart, Jacques, duc d'Yorck</name>
     <birth when="1633-10-14"/>
     <death when="1701-09-05"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jacques_II_(roi_d%27Angleterre)</identifier>
@@ -678,7 +658,7 @@
   </person>
   
   <person xml:id="jean_chrysostome_malte" sex="M">
-    <name>Malte, Jean-Chrysostome</name>
+    <name type="pro">Malte, Jean-Chrysostome</name>
     <birth when="1648"/>
     <death when="1709"/>
     <identifier type="databnf">https://data.bnf.fr/de/13548322/jean-chrysostome_malte/</identifier>
@@ -686,24 +666,25 @@
   </person>
   
   <person xml:id="montevecchio" sex="M">
-    <name>Montevecchio, lieutenant au Royal-italien</name>
+    <name type="foreign">Montevecchio, lieutenant au Royal-italien</name>
   </person>
+  
   <person xml:id="charlesfrancois_des_monstiers_de_merinville" sex="M">
-    <name>Monstiers de Mérinville,Charles-François des,évêque de Chartres</name>
+    <name type="cour">Monstiers de Mérinville,Charles-François des,évêque de Chartres</name>
     <birth when="1682-02-02"/>
     <death when="1746-05-10"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Charles-Fran%C3%A7ois_des_Monstiers_de_M%C3%A9rinville</identifier>
 </person>
   
   <person xml:id="jean_de_montigny" sex="M">
-    <name>Montigny, Jean de </name>
+    <name type="cour">Montigny, Jean de </name>
     <birth when="1637"/>
     <death when="1671-09-26"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jean_de_Montigny</identifier>
   </person>
   
   <person xml:id="jean_donneau_de_vize" sex="M">
-    <name>Donneau de Visé, Jean</name>
+    <name type="pro">Donneau de Visé, Jean</name>
     <birth when="1638-12"/>
     <death when="1710-07-08"/>
     <identifier type="databnf">https://data.bnf.fr/11900398/jean_donneau_de_vize/</identifier>
@@ -711,7 +692,7 @@
   </person>
   
   <person xml:id="jean_de_flandres" sex="M">
-    <name>De Flandres, Jean, ouvrier/artisan</name>
+    <name type="pro">De Flandres, Jean, ouvrier/artisan</name>
   </person>
   
   <person xml:id="jean_de_vienne" sex="M">
