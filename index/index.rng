@@ -111,6 +111,20 @@
             <value>local</value>
             <a:documentation>O, “other”, autre</a:documentation>
             <value>O</value>
+            <choice>
+              <a:documentation>courtisan</a:documentation>
+              <value>cour</value>
+              <a:documentation>professionnel des spectacles, de l'ingénierie, ouvrier</a:documentation>
+              <value>pro</value>
+              <a:documentation>militaire, armée</a:documentation>
+              <value>militaire</value>
+              <a:documentation>prince étranger, ambassadeur</a:documentation>
+              <value>foreign</value>
+              <a:documentation>élite locale</a:documentation>
+              <value>local</value>
+              <a:documentation>O, “other”, autre</a:documentation>
+              <value>O</value>
+            </choice>
           </choice>
         </attribute>
       </element>
