@@ -5757,7 +5757,7 @@
   </person>
   
   <person xml:id="scott_james" sex="M">
-    <name>Scott, James, duc de Monmouth</name>
+    <name type="cour">Scott, James, duc de Monmouth</name>
     <birth when="1649"/>
     <death when="1685"/>
     <identifier type="databnf">https://data.bnf.fr/fr/see_all_activities/17935495/page1</identifier>
@@ -5766,7 +5766,7 @@
   </person>
   
   <person xml:id="gourville" sex="M">
-    <name> Hérault de Gourville, Jean</name>
+    <name type="cour">Hérault de Gourville, Jean</name>
     <birth when="1625-07-10"/>
       <death when="1703-06-14"/>
         <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jean_H%C3%A9rault_de_Gourville</identifier>
@@ -5775,7 +5775,7 @@
   </person>
   
   <person xml:id="saint-maurice" sex="M">
-    <name>Chabod, Thomas-François, Marquis de Saint-Maurice, ambassadeur de Savoie </name>
+    <name type="foreign">Chabod, Thomas-François, Marquis de Saint-Maurice, ambassadeur de Savoie </name>
     <birth when="1624"/>
     <death when="1682"/>
     <identifier type="databnf">https://data.bnf.fr/fr/ark:/12148/cb10724791t </identifier>
@@ -5784,18 +5784,18 @@
   </person>
   
   <person xml:id="san_martino_aglie" sex="F">
-    <name>San Martino d'Agliè di San Germano, Lodovica Maria, marquise de Saint-Maurice, ambassadrice de Savoie</name>
+    <name type="foreign">San Martino d'Agliè di San Germano, Lodovica Maria, marquise de Saint-Maurice, ambassadrice de Savoie</name>
     <birth when="1627*"/>
     <death when="1682*"/>
   </person>
   
   <person xml:id="chabod_angelique" sex="F">
-    <name>Chabod de Saint-Maurice, Angélique Christine</name>
+    <name type="foreign">Chabod de Saint-Maurice, Angélique Christine</name>
     <!--https://gw.geneanet.org/fcicogna?lang=en&p=lodovica+maria&n=san+martino+d+aglie+di+san+germano-->
   </person>
 
   <person xml:id="charles-emmanuel-II-savoie" sex="M">
-    <name>Charles-Emmanuel II, duc de Savoie et prince de Piémont</name>
+    <name type="foreign">Charles-Emmanuel II, duc de Savoie et prince de Piémont</name>
     <birth when="1634-06-20"/>
     <death when="1675-06-12"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Charles-Emmanuel_II</identifier>
@@ -5804,7 +5804,7 @@
   </person>
   
   <person xml:id="huygens" sex="M">
-    <name>Huygens, Christiann ou Christian</name>
+    <name type="foreign cour">Huygens, Christiann ou Christian</name>
     <birth when="1629-06-14"/>
     <death when="1695-07-08"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Christian_Huygens</identifier>
@@ -5813,7 +5813,7 @@
   </person>
   
   <person xml:id="costardais_gabrielle" sex="F">
-    <name>la Vallière, Gabrielle Glé de la Costardais, marquise de</name>
+    <name type="cour">la Vallière, Gabrielle Glé de la Costardais, marquise de</name>
     <birth when="1648"/>
     <death when="1707"/>
     <!--mention dans une page dédiée à sa fille https://www.scandaleuses.fr/?p=1800#more-1800 -->
@@ -5821,7 +5821,7 @@
     <!--https://man8rove.com/fr/blason/9arjhr3-la-baume-le-blanc -->
   </person>
   <person xml:id="spada_fabrizio" sex="M">
-    <name>Spada, Frabrizio. Nonce du Pape (1673-1675)</name>
+    <name type="foreign">Spada, Frabrizio. Nonce du Pape (1673-1675)</name>
     <birth when="1643-03-17"/>
     <death when="1717-06-15"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Fabrizio_Spada</identifier>
@@ -5830,7 +5830,7 @@
   </person>
   
   <person xml:id="bargellini_nicolas" sex="M">
-    <name>Bargellini, Niccolò Pietro. Nonce du Pape (1668-1671)</name>
+    <name type="foreign ">Bargellini, Niccolò Pietro. Nonce du Pape (1668-1671)</name>
     <birth when="1630"/>
     <death when="1694-09-24"/>
     <identifier type="wikipedia">https://it.wikipedia.org/wiki/Niccol%C3%B2_Pietro_Bargellini</identifier>
@@ -5838,28 +5838,28 @@
   </person>
   
   <person xml:id="marie-anne_mancini" sex="F">
-    <name>Mancini, Marie-Annne, Duchesse de Bouillion, comtesse d’Evreux</name>
+    <name type="cour">Mancini, Marie-Annne, Duchesse de Bouillion, comtesse d’Evreux</name>
     <birth when="1649"/>
     <death when="1714"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Marie-Anne_Mancini</identifier>
   </person>
   
   <person xml:id="gramont_monaco" sex="F">
-    <name>Gramont, Catherine-Charlotte de, Princesse de Monaco</name>
+    <name type="cour">Gramont, Catherine-Charlotte de, Princesse de Monaco</name>
     <birth when="1639"/>
     <death when="1678"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Catherine_Charlotte_de_Gramont</identifier>
   </person>
   
   <person xml:id="crequy_madeleine" sex="F">
-    <name>Créquy, Madeleine de Blanchefort, Maréchale de Villeroy, épouse  de Nicolas V de Neuville de Villeroy (1617)</name>
+    <name type="cour">Créquy, Madeleine de Blanchefort, Maréchale de Villeroy, épouse  de Nicolas V de Neuville de Villeroy (1617)</name>
     <birth when="1609"/>
     <death when="1675"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Fichier:French_School_-_Madeleine_de_Cr%C3%A9quy,_mar%C3%A9chale_de_Villeroy.jpg</identifier>
   </person>
   
   <person xml:id="Levis-Ventadour_Marguerite" sex="F">
-    <name>Lévis-Ventadour, Marguerite Félice de, épouse du duc de Duras (à partir de 1668)</name>
+    <name type="cour">Lévis-Ventadour, Marguerite Félice de, épouse du duc de Duras (à partir de 1668)</name>
     <birth when="1648"/>
     <death when="1717"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jacques_Henri_de_Durfort</identifier>
@@ -5867,14 +5867,14 @@
   </person>
   
   <person xml:id="charron_marie" sex="F">
-    <name>Charron de Menars, Marie, épouse de Jean-Baptiste Colbert (1648) </name>
+    <name type="cour">Charron de Menars, Marie, épouse de Jean-Baptiste Colbert (1648) </name>
     <birth when="1630"/>
     <death when="1687"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jean-Baptiste_Colbert</identifier>
   </person>
   
   <person xml:id="beraud_françoise" sex="F">
-    <name>Béraud, Françoise, épouse Charles Colbert (1664)</name>
+    <name type="cour">Béraud, Françoise, épouse Charles Colbert (1664)</name>
     <birth when="1642"/>
     <death when="1719"/>
     <!--http://racineshistoire.free.fr/LGN/PDF/Colbert.pdf-->
@@ -5882,7 +5882,7 @@
   </person>
   
   <person xml:id="hamilton_elizabeth" sex="F">
-    <name>Hamilton, Elizabeth, comtesse de Gramont</name>
+    <name type="cour">Hamilton, Elizabeth, comtesse de Gramont</name>
     <birth when="1641"/>
     <death when="1708"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Elizabeth_Hamilton_(1641-1708) </identifier>
@@ -5891,32 +5891,78 @@
   </person>
   
   <person xml:id="bouille_eleonore" sex="F">
-    <name>Bouillé, Eléonore-Renée de, duchesse de  Ludes </name>
+    <name type="cour">Bouillé, Eléonore-Renée de, duchesse de  Ludes </name>
     <birth when="1632"/>
     <death when="1681"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Henry_de_Daillon</identifier>
   </person>
   
   <person xml:id="valie" sex="M">
-    <name>Valié, le sieur. Chanteur</name>
+    <name type="pro">Valié, le sieur. Chanteur</name>
     <!--https://classiques-garnier.com/dictionnaire-des-musiciens-et-danseurs-a-la-cour-de-louis-xiv-et-des-princes-1643-1661-tome-iii-m-z.html à la page 634-->
   </person>
   
   <person xml:id="stafford_thomas" sex="M">
-    <name>Stafford, Thomas. Chanteur, compositeur</name>
+    <name type="pro">Stafford, Thomas. Chanteur, compositeur</name>
     <!--https://classiques-garnier.com/dictionnaire-des-musiciens-et-danseurs-a-la-cour-de-louis-xiv-et-des-princes-1643-1661-tome-iii-m-z.html à la page 575-->
   </person>
   
   <person xml:id="pignani_girolamo" sex="M">
-    <name>Pignani, Girolamo. Castrat, danseur, chorégraphe, compositeur</name>
+    <name type="pro">Pignani, Girolamo. Castrat, danseur, chorégraphe, compositeur</name>
     <birth when=""/>
     <death when=""/>
     <!--https://classiques-garnier.com/dictionnaire-des-musiciens-et-danseurs-a-la-cour-de-louis-xiv-et-des-princes-1643-1661-tome-iii-m-z.html à la page 307-->
   </person>
   
   <person xml:id="coulon" sex="M">
-    <name>Coulon, page</name>
+    <name type="pro">Coulon, page</name>
     <!--https://classiques-garnier.com/dictionnaire-des-musiciens-et-danseurs-a-la-cour-de-louis-xiv-et-des-princes-1643-1661-tome-i-a-c.html à la page 619-->
+  </person>
+  
+  <person xml:id="rohan_marguerite" sex="?">
+    <name type="cour">Rohan, Marguerite de </name>
+    <birth when="1617"/>
+    <death when="1684-04-09"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Marguerite_de_Rohan_(1617-1684)</identifier>
+  </person>
+  
+  <person xml:id="sainte-maure_rambouillet" sex="F">
+    <name type="cour">Saint-Maure, Marie-Julie de, Marquise de Rambouillet, Comtesse de Crusol (1664), Duchesse d’Uzès </name>
+    <birth when="1646"/>
+    <death when="1695"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Marie-Julie_de_Sainte-Maure</identifier>
+    <!-- https://gw.geneanet.org/frebault?lang=fr&p=marie+julie&n=de+sainte+maure-->
+  </person>
+  
+  <person xml:id="rouhan-chabot_jeanne-pelagie" sex="F">
+    <name type="cour">Jeanne Pélagie de Rohan-Chabot </name>
+    <birth when="1651"/>
+    <death when="1698-08-18"/>
+    <identifier type=""></identifier>
+    <!-- https://gw.geneanet.org/frebault?lang=fr&n=de+rohan+chabot&p=jeanne+pelagie -->
+  </person>
+  
+  <person xml:id="budos_diane-henriette" sex="F">
+    <name type="cour">Budos, Diane Henriette de, Duchesse de Saint-Simon</name>
+    <birth when="1629"/>
+    <death when="1670 "/>
+    <!--https://gw.geneanet.org/pierfit?lang=fr&n=de+budos&p=diane+henriette-->
+  </person>
+  
+  <person xml:id="rohan-chabot_soubise" sex="F">
+    <name type="cour">Rohan-Chabot, Anne Julie de, dame de Frontenay, Princesse de Soubise (1667)</name>
+    <birth when="1648"/>
+    <death when="1709"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Anne_de_Rohan-Chabot</indentifier>
+  </person>
+  
+  <person xml:id="rohan_chevreuse" sex="F">
+    <name type="cour">Rohan, Marie Aimée de, Duchesse de Chevreuse</name>
+    <birth when="1600"/>
+    <death when="1679"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Marie_de_Rohan</indentifier>
+      <identifier type="databnf">https://data.bnf.fr/ark:/12148/cb13559558b</identifier>
+      <identifier type="isni">0000 0001 0124 059X </identifier>
   </person>
   
 </listPerson>
