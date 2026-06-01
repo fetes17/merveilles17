@@ -2,6 +2,11 @@
 <?xml-model href="index.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <listEvent xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   
+  <event from="1654-04-14" to="1654-05-24" where="" xml:id="nopcesthetis">
+    <label>Nopces de Pelée et Thetis, Ballet </label>
+    <ref target="../xml/v2merveilles17_imp_torelli1654.xml"/>
+  </event>
+  
   <event from="1662-06-05" to="1662-06-06" where="paris_louvre" xml:id="ctb">
     <label>Courses de têtes et de bagues</label>
     <ref target="../xml/merveilles17_imp_ctb-perrault1670.xml"/>

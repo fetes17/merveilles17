@@ -924,13 +924,13 @@ Note : la sémantique de certains éléments a été assouplie pour simplifier 
     </define>
     <define name="name">
       <element name="name">
-        <a:documentation>Non de personnage fictif</a:documentation>
+        <a:documentation>Nom de personnage fictif</a:documentation>
         <optional>
           <ref name="key"/>
         </optional>
         <optional>
           <attribute name="corresp">
-            <a:documentation>Clé de la personnage qui joue le rôle</a:documentation>
+            <a:documentation>Clé de la personne qui joue le rôle</a:documentation>
           </attribute>
         </optional>
         <optional>
