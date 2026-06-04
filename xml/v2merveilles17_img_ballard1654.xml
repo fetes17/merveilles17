@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
+<?xml-stylesheet type="text/css" href="../style/tei-author.css" alternate="author"?>
+<?xml-model href="https://fetes17.github.io/merveilles17/merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Description particulière du Grand Ballet et Comédie des Nopces de de Pelée &amp; de
+          Thetis</title>
+        <author key="???">{creator}</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Merveilles17</edition>
+        <respStmt>
+          <name>Eliot Bordage</name>
+          <resp>Transcription, correction et balisage</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université d’Artois - Lille, MESHS</publisher>
+        <date when="2026"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>Description particulière du Grand Ballet et Comédie des Nopces de de Pelée
+            &amp; de Thetis</title>, <note><pubPlace>Paris</pubPlace>,
+              <publisher>Ballard</publisher>, <date>1654</date></note><ptr
+                target="https://bibnum.institutdefrance.fr/viewer/24383"/></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1654"/>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb n="f1" xml:id="f1r"/>
+        <figure>
+          <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/42"/>
+          <figDesc><name key="Apollon">Apollon</name>
+            <persName key="louisxiv" role="acteur">Le Roy</persName></figDesc>
+        </figure>
+      </div>
+      <div>
+        <pb n="f2" xml:id="f2r"/>
+        <figure>
+          <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/46"/>
+          <figDesc><name key="Muse">Muses. </name><name key="Erato">Erato. </name><persName key=""
+              role="acteur">Madame la Princesse D'Angleterre.</persName>les autres huic estoient
+            vestues demesme, distinguées seulement par les Couleurs des habits.</figDesc>
+        </figure>
+      </div>
+      <div>
+        <pb n="f3" xml:id="f3r"/>
+        <figure>
+          <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/50"/>
+          <figDesc><name key="Epidan">L'Epidan, <name key="Fleuve">Fleuve.</name></name><persName
+              key="" role="acteur"> Le Sieur l’Allemand.</persName></figDesc>
+        </figure>
+      </div>
+      <div>
+        <pb n="f4" xml:id="f4r"/>
+        <figure>
+          <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/54"/>
+          <figDesc><name key="Onochone">L'Onochone. </name><name key="Fleuve">Fleuve</name><persName
+              key="" role="acteur"> Le Sieur Valié.</persName></figDesc>
+        </figure>
+      </div>
+      <div>
+        <pb n="f5" xml:id="f5r"/>
+        <figure>
+          <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/58"/>
+          <figDesc><name key="Nereïdes">Nereïdes. </name>Musiciens et Pages dela musique de la
+            Chambre du Roy.</figDesc>
+        </figure>
+      </div>
+      <div>
+        <pb n="f6" xml:id="f6r"/>
+        <figure>
+          <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/62"/>
+          <figDesc><name key="Pelée">Pelée. </name><name key="Roy de Thessalie"> Roy de
+              Thessallie.</name><persName key="" role="acteur"> Le Sign.
+            Gioseppe</persName></figDesc>
+        </figure>
+      </div>
+      <div>
+        <pb n="f7" xml:id="f7r"/>
+        <figure>
+          <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/66"/>
+          <figDesc><name key="Chiron">Chiron. </name><name key="Centaure">Centaure. </name><persName
+              key="" role="acteur">Le Sign. Philiberto.</persName></figDesc>
+        </figure>
+      </div>
+      <div>
+        <pb n="f8" xml:id="f8r"/>
+        <figure>
+          <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/70"/>
+          <figDesc><name key="Magiciens">Magiciens. </name><persName key="">Le Comte de Lude.
+              </persName><persName key="" role="acteur">Le Marquis de Villequier et de <persName
+                key="" role="acteur">Genlis</persName>; </persName>et le <persName key=""
+              role="acteur">le Sr Vuerbech.</persName></figDesc>
+        </figure>
+      </div>
+      <div>
+        <pb n="f9" xml:id="f9r"/>
+        <figure>
+          <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/74"/>
+          <figDesc><name>Sorcières. </name><persName key="" role="acteur">Mr Bontemps</persName> et
+              <persName key="" role="acteur">Cabou</persName>. <persName key="" role="acteur">Les Sr
+              Baptiste</persName> et <persName key="" role="acteur">Lambert.</persName></figDesc>
+        </figure>
+      </div>
+      <div>
+        <pb n="f10" xml:id="f10r"/>
+        <figure>
+          <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/78"/>
+          <figDesc><name key="Thetis">Thetis. </name><persName key="" role="acteur">La Signora
+              Vittoria</persName></figDesc>
+        </figure>
+      </div>
+      <div>
+        <pb n="f11" xml:id="f11r"/>
+        <figure>
+          <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/82"/>
+          <figDesc><name key="Demy Dieu marin">Demy Dieu marin. </name><persName key=""
+              role="acteur">Le Comte de St Aignan</persName> premier gentilhomme de la Chambre du
+            Roy.</figDesc>
+        </figure>
+      </div>
+      <div>
+        <pb n="f12" xml:id="f12r"/>
+        <figure>
+          <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/86"/>
+          <figDesc><name key="Pescheurs de Corail">Pescheurs de Corail.</name>
+            <persName key="" role="acteur">Monsieur frere unique du Roy. </persName><persName key=""
+              role="acteur">Monsieur le Duc d'York. </persName><persName key="" role="acteur">Le Duc
+              d'Anville. </persName><persName key="" role="acteur">Le Comte de Guiche.
+              </persName><persName key="" role="acteur">Le petit Comte de St Aignan fils.
+              </persName><persName key="" role="acteur">Le Marquis de Mirepoix. </persName><persName
+              key="" role="acteur">Mr Saintot</persName> et de <persName key="" role="acteur">la
+              Chesnaye.</persName>
+            <persName key="" role="acteur">Les Srs Bruneau. </persName>St. Fré. <persName key=""
+              role="acteur">Langlois</persName>et <persName key="" role="acteur"
+            >Raynal.</persName></figDesc>
+        </figure>
+      </div>
+      <div>
+        <pb n="f13" xml:id="f13r"/>
+        <figure>
+          <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/90"/>
+          <figDesc><name key="Neptune">Neptune. </name><persName key="" role="acteur">Il Signor
+              Antonio d'Imola.</persName></figDesc>
+        </figure>
+      </div>
+      <div>
+        <pb n="f14" xml:id="f14r"/>
+        <figure>
+          <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/94"/>
+          <figDesc><name key="Tritons">Tritons. </name>Les mesmes musiciens de la Chambre du Roy qui
+            avoient representé les <name key="Fleuves">Fleuves</name> et les <name key="Nereides"
+              >Nereides.</name></figDesc>
+        </figure>
+      </div>
+      <div>
+        <pb n="f15" xml:id="f15r"/>
+        <figure>
+          <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/98"/>
+          <figDesc><name key="Sireines">Sireines. </name>Le reste des dictz musiciens de la chambre
+            du Roy qui avoient representé les (*)tritons et Nereïdes.</figDesc>
+        </figure>
+      </div>
+      <div>
+        <pb n="f16" xml:id="f16r"/>
+        <figure>
+          <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/102"/>
+          <figDesc><name key="Jupiter">Jupiter. </name><persName key="" role="acteur">Il Signor
+              Antonio d'Imola</persName></figDesc>
+        </figure>
+      </div>
+      <div>
+        <pb n="f17" xml:id="f17r"/>
+        <figure>
+          <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/106"/>
+          <figDesc><name key="Junon">Junon. </name><persName key="" role="acteur">il Signor
+              Girolamo.</persName></figDesc>
+        </figure>
+      </div>
+      <div>
+        <pb n="f18" xml:id="f18r"/>
+        <figure>
+          <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/110"/>
+          <figDesc><name key="Furies">Furies. </name><persName key="" role="acteur">Le Roy.
+              </persName><persName key="" role="acteur">Le Duc de Joyeuse. </persName><persName
+              key="" role="acteur">Le Marquis de Gentis. </persName>
+            <persName key="" role="acteur">Mr Bontemps. </persName><persName key="" role="acteur"
+              >Les Srs de Lorge. </persName><persName key="" role="acteur">Verpré.</persName>
+            <persName key="" role="acteur">Beauchamp. </persName><persName key="" role="acteur"
+              >Mollier. </persName><persName key="" role="acteur">Le Vacher
+              Des-airs.</persName><persName key="" role="acteur">Dolieut. </persName><persName
+              key="" role="acteur"> Baptiste.</persName></figDesc>
+        </figure>
+      </div>
+      <div>
+        <pb n="f19" xml:id="f19r"/>
+        <figure>
+          <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/114"/>
+          <figDesc><name key="Promethée">Promethée tourmenté. </name><persName key="" role="acteur"
+              >il Signor Staforde.</persName></figDesc>
+        </figure>
+      </div>
+      <div>
+        <pb n="f20" xml:id="f20r"/>
+        <figure>
+          <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/118"/>
+          <figDesc><name key="Sauvages">Sauvages. </name><persName key="" role="acteur">Mr de la
+              Chesnaye. </persName><persName key="" role="acteur">,de Joyeux.</persName><persName
+              key="" role="acteur"> Les Srs de la Marre.</persName><persName key="" role="acteur">
+              Monglas.</persName><persName key="" role="acteur"> Laleu.</persName><persName key=""
+              role="acteur"> Raynal,</persName><persName key="" role="acteur"> et
+              Roddier.</persName></figDesc>
+        </figure>
+      </div>
+      <div>
+        <pb n="f21" xml:id="f21r"/>
+        <figure>
+          <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/122"/>
+          <figDesc><name key="Mercure">Mercure. </name><persName key="" role="acteur">il Signor
+              Girolamo.</persName></figDesc>
+        </figure>
+      </div>
+      <div>
+        <pb n="f22" xml:id="f22r"/>
+        <figure>
+          <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/126"/>
+          <figDesc><name key="Dryades">Dryades. </name><persName key="" role="acteur">Le Roy.
+            </persName>et ceux la mesmes que avoient representé les furies hors le <persName key=""
+              role="acteur">Duc de Roquelaure</persName> au lieu de St Baptiste.</figDesc>
+        </figure>
+        <div>
+          <pb n="f23" xml:id="f23r"/>
+          <figure>
+            <graphic url=""/>
+            <figDesc><name key="Sacrificateurs">Anciens Sacrificateurs de Mars.</name> Musiciens de
+              la Chambre du Roy.</figDesc>
+          </figure>
+        </div>
+        <div>
+          <pb n="f24" xml:id="f24r"/>
+          <figure>
+            <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/134"/>
+            <figDesc><name key="Jeunes Ministres du Sacrifice">Jeunes Ministres du Sacrifice.
+              </name>Les mesmes Musiciens de la Chambre.</figDesc>
+          </figure>
+        </div>
+        <div>
+          <pb n="f25" xml:id="f25r"/>
+          <figure>
+            <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/138"/>
+            <figDesc><name>Herault des tenans au Combat a la Barriere.</name><persName key=""
+                role="acteur"> St de Chambonnieres.</persName></figDesc>
+          </figure>
+        </div>
+        <div>
+          <pb n="f26" xml:id="f26r"/>
+          <figure>
+            <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/142"/>
+            <figDesc><name>Esclaves. </name>Domestiques du premier gentilhomme de la
+              chambre..</figDesc>
+          </figure>
+        </div>
+        <div>
+          <pb n="f27" xml:id="f27r"/>
+          <figure>
+            <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/146"/>
+            <figDesc><name key="Estafiers">Estafiers. </name>Domestiques du premier gentilhomme de
+              la chambre..</figDesc>
+          </figure>
+        </div>
+        <div>
+          <pb n="f28" xml:id="f28r"/>
+          <figure>
+            <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/150"/>
+            <figDesc><name key="Pages">Pages. </name>Pages du mesmes.</figDesc>
+          </figure>
+        </div>
+        <div>
+          <pb n="f29" xml:id="f29r"/>
+          <figure>
+            <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/154"/>
+            <figDesc><name key="Tambours">Tambours. </name>Tambours du Roy.</figDesc>
+          </figure>
+        </div>
+        <div>
+          <pb n="f30" xml:id="f30r"/>
+          <figure>
+            <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/158"/>
+            <figDesc><name key="Phifres">Phifres. </name>Phifres du Roy.</figDesc>
+          </figure>
+        </div>
+        <div>
+          <pb n="f31" xml:id="f31r"/>
+          <figure>
+            <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/162"/>
+            <figDesc><name key="Trompettes">Trompettes. </name>Trompettes de la Chambre du
+              Roy.</figDesc>
+          </figure>
+        </div>
+        <div>
+          <pb n="f32" xml:id="f32r"/>
+          <figure>
+            <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/166"/>
+            <figDesc><name key="La Renommée">La Renommée. </name><persName key="" role="acteur">Le
+                Sieur Geoffroy.</persName></figDesc>
+          </figure>
+        </div>
+        <div>
+          <pb n="f33" xml:id="f33r"/>
+          <figure>
+            <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/170"/>
+            <figDesc><name key="Juge des tenans">Juge des tenans. </name><persName key=""
+                role="acteur">Le Sieur Beaubrun</persName></figDesc>
+          </figure>
+        </div>
+        <div>
+          <pb n="f34" xml:id="f34r"/>
+          <figure>
+            <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/174"/>
+            <figDesc><name key="Parrain des tenans">Parrain des tenans. </name><persName key=""
+                role="acteur">Le Sieur Pesneau</persName></figDesc>
+          </figure>
+        </div>
+        <div>
+          <pb n="f35" xml:id="f35r"/>
+          <figure>
+            <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/178"/>
+            <figDesc><name key="Nain du Chef des tenans">Nain du Chef des tenans. </name><persName
+                key="" role="acteur">Le petit Bonart.</persName></figDesc>
+          </figure>
+        </div>
+        <div>
+          <pb n="f36" xml:id="f36r"/>
+          <figure>
+            <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/182"/>
+            <figDesc><name key="Chef des tenans">Chef des tenans. </name><persName key=""
+                role="acteur">Le Comte de St-Aignan</persName> premier gentilhomme de la Chambre du
+              Roy.</figDesc>
+          </figure>
+        </div>
+        <div>
+          <pb n="f37" xml:id="f37r"/>
+          <figure>
+            <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/186"/>
+            <figDesc><name key="Combattans">Combattans. </name><persName key="" role="acteur">Mrs de
+                Beaufort le Jeune. </persName><persName key="" role="acteur">St
+                Maury.</persName><persName key="" role="acteur"> De Sens</persName> et <persName
+                key="" role="acteur">d’Erville.</persName></figDesc>
+          </figure>
+        </div>
+        <div>
+          <pb n="f38" xml:id="f38r"/>
+          <figure>
+            <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/190"/>
+            <figDesc><name key="Escuiers des tenans">Escuiers des tenans. </name>Les <persName
+                key="" role="acteur">Srs Malo</persName> et de la <persName key="" role="acteur"
+                >Vernette</persName>.</figDesc>
+          </figure>
+        </div>
+        <div>
+          <pb n="f39" xml:id="f39r"/>
+          <figure>
+            <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/194"/>
+            <figDesc><name key="Herault des assaillans">Herault des assaillans. </name><persName
+                key="" role="acteur">Mr de la Chappelle.</persName></figDesc>
+          </figure>
+        </div>
+        <div>
+          <pb n="f40" xml:id="f40r"/>
+          <figure>
+            <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/198"/>
+            <figDesc><name key="Pages">Pages. </name>Divers payes.</figDesc>
+          </figure>
+        </div>
+        <div>
+          <pb n="f41" xml:id="f41r"/>
+          <figure>
+            <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/202"/>
+            <figDesc><name key="Juge des assaillans">Juge des assaillans. </name><persName key=""
+                role="acteur">Le Sr du Val.</persName></figDesc>
+          </figure>
+        </div>
+        <div>
+          <pb n="f42" xml:id="f42r"/>
+          <figure>
+            <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/206"/>
+            <figDesc><name key="Parrain des assaillans">Parrain des assaillans. </name><persName
+                key="" role="acteur">Le Sr Parque</persName></figDesc>
+          </figure>
+        </div>
+        <div>
+          <pb n="f43" xml:id="f43r"/>
+          <figure>
+            <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/210"/>
+            <figDesc><name key="Nain du chef des assaillans">Nain du chef des assaillans.
+                </name><persName key="" role="acteur">Le petit Aubry.</persName></figDesc>
+          </figure>
+        </div>
+        <div>
+          <pb n="f44" xml:id="f44r"/>
+          <figure>
+            <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/214"/>
+            <figDesc><name key="Chef des assaillans">Chef des assaillans. </name><persName key=""
+                role="acteur">Mr de Beaufort.</persName></figDesc>
+          </figure>
+        </div>
+        <div>
+          <pb n="f45" xml:id="f45r"/>
+          <figure>
+            <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/218"/>
+            <figDesc><name key="Escuiers des assaillans">Escuiers des assaillans. </name>Les Srs
+              Mongé et Pinçon.</figDesc>
+          </figure>
+        </div>
+        <div>
+          <pb n="f46" xml:id="f46r"/>
+          <figure>
+            <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/222"/>
+            <figDesc><name key="Academistes de Chiron">Academistes de Chiron. </name><persName
+                key="louisxiv" role="acteur">Le Roy.</persName><persName key="" role="acteur">Mrs
+                Sainctot </persName><persName key="" role="acteur">Bontemps ;</persName><persName
+                key="" role="acteur">Cabou. </persName><persName key="" role="acteur">Les Srs
+                Mollier, </persName><persName key="" role="acteur">Bruneau. </persName><persName
+                key="" role="acteur">Langlois, </persName><persName key="" role="acteur">Baptiste,
+                </persName><persName key="" role="acteur">le Vacher, </persName><persName key=""
+                role="acteur">Beauchamps, </persName><persName key="" role="acteur">de Lorge,
+              </persName> et <persName key="" role="acteur">Dolieut.</persName></figDesc>
+          </figure>
+        </div>
+        <div>
+          <pb n="f47" xml:id="f47r"/>
+          <figure>
+            <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/226"/>
+            <figDesc><name key="Courtisans de Pelée">Courtisans de Pelée. </name>Les <persName
+                key="" role="acteur">Ducs de Joyeuse</persName> et de <persName key="" role="acteur"
+                >Candalles</persName>, les <persName key="" role="acteur">Marquis de
+                Villequier</persName> , et de <persName key="" role="acteur">Gentils</persName> et
+              le <persName key="" role="acteur">Sr le Comte.</persName></figDesc>
+          </figure>
+        </div>
+        <div>
+          <pb n="f48" xml:id="f48r"/>
+          <figure>
+            <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/230"/>
+            <figDesc><name key="Dames de la Cour de Pelée">Dames de la Cour de Pelée. </name>Les
+                <persName key="" role="acteur">Srs de Verpré</persName><persName key=""
+                role="acteur"> Beauchamp</persName>. <persName key="" role="acteur"
+                >Doluet</persName>, <persName key="" role="acteur">le Vachet</persName>, et
+                <persName key="" role="acteur">Desairs.</persName></figDesc>
+          </figure>
+        </div>
+        <div>
+          <pb n="f49" xml:id="f49r"/>
+          <figure>
+            <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/234"/>
+            <figDesc><name key="Eunuque.">Eunuque. Conducteur des petites fille. </name><persName
+                key="" role="acteur">Le Sr Ribera.</persName></figDesc>
+          </figure>
+        </div>
+        <div>
+          <pb n="f50" xml:id="f50r"/>
+          <figure>
+            <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/238"/>
+            <figDesc><name key="Petites filles de la Cour de Pelée">Petites filles de la Cour de
+                Pelée.</name> Les petites <persName key="" role="acteur">Mollier</persName>,
+                <persName key="" role="acteur">Taloit</persName>, <persName key="" role="acteur"
+                >Ribera</persName>, <persName key="" role="acteur">du Clou</persName>, <persName
+                key="" role="acteur">Mesnard</persName>, <persName key="" role="acteur"
+                >Berthelot</persName>, <persName key="" role="acteur">de Verlu</persName> , et
+                <persName key="" role="acteur">Bonart</persName>.</figDesc>
+          </figure>
+        </div>
+        <div>
+          <pb n="f51" xml:id="f51r"/>
+          <figure>
+            <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/242"/>
+            <figDesc><name key="Prométhée">Prométhée délivré. </name><persName key="" role="acteur"
+                >il Signor Stafort.</persName></figDesc>
+          </figure>
+        </div>
+        <div>
+          <pb n="f52" xml:id="f52r"/>
+          <figure>
+            <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/246"/>
+            <figDesc><name key="Artes liberaulx"/>Arts liberaulx. <name key="L'astrologie"
+                >L'astrologie. </name><persName key="" role="acteur">Mademoiselle Destree.
+              </persName>Les autres six estoient vestues de mesmes, distinguées seullement par les
+              Couleurs des habits.</figDesc>
+          </figure>
+        </div>
+        <div>
+          <pb n="f53" xml:id="f53r"/>
+          <figure>
+            <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/250"/>
+            <figDesc><name key="Arts seruiles">Arts seruiles. </name><name key="La guerre">La
+                guerre. </name><persName key="louisxiv" role="acteur">Le Roy.</persName></figDesc>
+          </figure>
+        </div>
+        <div>
+          <pb n="f54" xml:id="f54r"/>
+          <figure>
+            <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/254"/>
+            <figDesc><name key="L'agriculture">L'agriculture. </name><persName key="" role="acteur"
+                >Le Comte de St Aingan</persName>, premier gentilhomme de la Chambre du
+              Roy.</figDesc>
+          </figure>
+        </div>
+        <div>
+          <pb n="f56" xml:id="f56r"/>
+          <figure>
+            <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/258"/>
+            <figDesc><name key="La Chasse">La Chasse. </name><persName key="" role="acteur">Le Srs
+                de Lorges</persName></figDesc>
+          </figure>
+        </div>
+        <div>
+          <pb n="f57" xml:id="f57r"/>
+          <figure>
+            <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/262"/>
+            <figDesc><name key="La Tapisserie">La Tappisserie. </name><persName key="" role="acteur"
+                >Le Srs de Verpré.</persName></figDesc>
+          </figure>
+        </div>
+        <div>
+          <pb n="f58" xml:id="f58r"/>
+          <figure>
+            <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/266"/>
+            <figDesc><name key="L'Orfeurerie">L'Orfeurerie. </name><persName key="" role="acteur">Le
+                Srs Le Vacher.</persName></figDesc>
+          </figure>
+        </div>
+        <div>
+          <pb n="f59" xml:id="f59r"/>
+          <figure>
+            <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/270"/>
+            <figDesc><name key="La Navigation">La Navigation. </name><persName key="" role="acteur"
+                >Le Srs Doliuet</persName></figDesc>
+          </figure>
+        </div>
+        <div>
+          <pb n="f60" xml:id="f60r"/>
+          <figure>
+            <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/274"/>
+            <figDesc><name key="La Chirurgie">La Chirurgie. </name><persName key="" role="acteur">Le
+                Srs Beauchamp.</persName></figDesc>
+          </figure>
+        </div>
+        <div>
+          <pb n="f61" xml:id="f61r"/>
+          <figure>
+            <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/278"/>
+            <figDesc><name key="Intelligences">Itelligences. </name><persName key="" role="acteur"
+                >Mrs de Chambonnieres</persName>, et dixsept Joueurs de divers instrumens de
+              musiques.</figDesc>
+          </figure>
+        </div>
+        <div>
+          <pb n="f62" xml:id="f62r"/>
+          <figure>
+            <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/282"/>
+            <figDesc><name key="Mars">Mars. </name><persName key="" role="acteur">Le Srs de la
+                Neuville.</persName></figDesc>
+          </figure>
+        </div>
+        <div>
+          <pb n="f63" xml:id="f63r"/>
+          <figure>
+            <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/286"/>
+            <figDesc><name key="Venus">Venus. </name><persName key="" role="acteur">Le Srs Le
+                Verd.</persName></figDesc>
+          </figure>
+        </div>
+        <div>
+          <pb n="f64" xml:id="f64r"/>
+          <figure>
+            <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/290"/>
+            <figDesc><name key="Pallas">Pallas. </name><persName key="" role="acteur">Le Srs
+                Cambefort.</persName></figDesc>
+          </figure>
+        </div>
+        <div>
+          <pb n="f65" xml:id="f65r"/>
+          <figure>
+            <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/294"/>
+            <figDesc><name key="Baccus">Baccus. </name><persName key="" role="acteur">Le Srs
+                Valié</persName></figDesc>
+          </figure>
+        </div>
+        <div>
+          <pb n="f66" xml:id="f66r"/>
+          <figure>
+            <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/298"/>
+            <figDesc><name key="Ceres">Ceres. </name><persName key="" role="acteur">Le Srs
+                l’Allemand.</persName></figDesc>
+          </figure>
+        </div>
+        <div>
+          <pb n="f67" xml:id="f67r"/>
+          <figure>
+            <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/302"/>
+            <figDesc><name key="Diane">Diane. </name><persName key="" role="acteur"
+                >Coullon</persName> page.</figDesc>
+          </figure>
+        </div>
+        <div>
+          <pb n="f68" xml:id="f68r"/>
+          <figure>
+            <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/306"/>
+            <figDesc><name key="Saturne">Saturne. </name><persName key="" role="acteur">Le Sr
+                Hedouin.</persName></figDesc>
+          </figure>
+        </div>
+        <div>
+          <pb n="f69" xml:id="f69r"/>
+          <figure>
+            <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/310"/>
+            <figDesc><name key="Pluton">Pluton. </name>Le Sr Plutiberto.</figDesc>
+          </figure>
+        </div>
+        <div>
+          <pb n="f70" xml:id="f70r"/>
+          <figure>
+            <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/314"/>
+            <figDesc><name key="Cybelle">Cybelle. </name><persName key="" role="acteur">Le Lorain
+                page.</persName></figDesc>
+          </figure>
+        </div>
+        <div>
+          <pb n="f71" xml:id="f71r"/>
+          <figure>
+            <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/318"/>
+            <figDesc><name key="Amours">Amours. </name><persName key="" role="acteur">MONSIEUR Frere
+                unique du Roy. </persName><persName key="" role="acteur">Le Comte de Guiche.
+                </persName><persName key="" role="acteur">Le Marquis de Villeroy.
+                </persName><persName key="" role="acteur">Le petit Conte de S. Aignan
+                fils.</persName>
+              <persName key="" role="acteur">Le petit Rassent</persName>, page de la Chambre du Roy.
+                <persName key="" role="acteur">Laleu</persName>, <persName key="" role="acteur"
+                >Bonart</persName>, <persName key="" role="acteur">Aubry.</persName></figDesc>
+          </figure>
+        </div>
+        <div>
+          <pb n="f72" xml:id="f72r"/>
+          <figure>
+            <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/322"/>
+            <figDesc><name key="Hercules">Hercules. </name><persName key="" role="acteur"/>Le Duc
+              Damuille.</figDesc>
+          </figure>
+        </div>
+        <div>
+          <pb n="f73" xml:id="f73r"/>
+          <figure>
+            <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/326"/>
+            <figDesc><name key="Hyménée">Hyménée. </name><persName key="" role="acteur">Le Duc de
+                Joyeuse </persName>grand <persName key="" role="acteur"
+              >Chambellan.</persName></figDesc>
+          </figure>
+        </div>
+        <div>
+          <pb n="f74" xml:id="f74r"/>
+          <figure>
+            <graphic url="https://bibnum.institutdefrance.fr/idviewer/24383/330"></graphic>
+            <figDesc><name key="Junon Pronubi">Junon Pronubi. </name><persName key="" role="acteur">Madame de Cormenge.</persName></figDesc>
+          </figure>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
