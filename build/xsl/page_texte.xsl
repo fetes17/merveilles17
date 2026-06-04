@@ -236,15 +236,25 @@ Sortie : site/texte/*.html
   </xsl:template>
   <xsl:template match="tei:pb" name="pb">
     <xsl:variable name="facs" select="@facs"/>
+    <xsl:variable name="endsWithItem" select="substring($facs, string-length($facs) - 4) = '.item'" />
     <xsl:choose>
       <xsl:when test="contains($facs, 'gallica.bnf.fr/ark:/')">
-        <!-- https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f104.image -->
+        <!-- https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f104 or https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f104.image or https://gallica.bnf.fr/ark:/12148/bpt6k1526131p/f104.item -->
         <a class="pb facs" href="{$facs}" id="{@xml:id}" target="_blank">
           <span class="n">
             <xsl:if test="translate(@n, '1234567890', '') = ''">p. </xsl:if>
             <xsl:value-of select="@n"/>
           </span>
-          <img data-bigger="{substring-before($facs, '/ark:/')}/iiif/ark:/{substring-after(substring-before(concat($facs, '.image'), '.image'), '/ark:/')}/full/700,/0/native.jpg" src="{substring-before($facs, '/ark:/')}/iiif/ark:/{substring-after(substring-before(concat($facs, '.image'), '.image'), '/ark:/')}/full/150,/0/native.jpg"/>
+          <xsl:choose>
+            <xsl:when test="$endsWithItem">
+              <!-- Pour les facs utilisant ".item" à la fin du lien -->
+              <img data-bigger="{substring-before($facs, '/ark:/')}/iiif/ark:/{substring-after(substring-before($facs, '.item'), '/ark:/')}/full/700,/0/native.jpg" src="{substring-before($facs, '/ark:/')}/iiif/ark:/{substring-after(substring-before($facs, '.item'), '/ark:/')}/full/150,/0/native.jpg"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <!-- Pour les facs utilisant ".image" ou rien à la fin du lien -->
+              <img data-bigger="{substring-before($facs, '/ark:/')}/iiif/ark:/{substring-after(substring-before(concat($facs, '.image'), '.image'), '/ark:/')}/full/700,/0/native.jpg" src="{substring-before($facs, '/ark:/')}/iiif/ark:/{substring-after(substring-before(concat($facs, '.image'), '.image'), '/ark:/')}/full/150,/0/native.jpg"/>
+            </xsl:otherwise>
+          </xsl:choose>
         </a>
       </xsl:when>
       <xsl:otherwise>
