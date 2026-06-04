@@ -63,136 +63,7 @@
       <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Espagne</identifier>
       <identifier type="geonames">https://www.geonames.org/2510769</identifier>
     </place>
-
-    <place xml:id="grande_bretagne">
-      <name>Grande-Bretagne</name>
-      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Grande-Bretagne</identifier>
-
-      <place xml:id="angleterre">
-        <name>Angleterre</name>
-        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Angleterre</identifier>
-
-        <place xml:id="canterbery">
-          <name>Canterbery, Cantorbery</name>
-          <identifier type="googlemaps"
-            >https://www.google.fr/maps/place/Canterbury,+Royaume-Uni/@51.2785904,1.0426514,13z/data=!3m1!4b1!4m6!3m5!1s0x47d94ac50d832c89:0x9ef1e5533783f98a!8m2!3d51.280233!4d1.0789089!16zL20vMGN5MDc?entry=ttu</identifier>
-          <identifier type="geonames">https://www.geonames.org/2653877/canterbury.html</identifier>
-          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Canterbury</identifier>
-        </place>
-
-        <place xml:id="douvres">
-          <name>Douvres</name>
-          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Douvres</identifier>
-          <identifier type="geonames">https://www.geonames.org/2651048/dover.html</identifier>
-          <identifier type="googlemaps"
-            >https://www.google.fr/maps/place/Douvres,+Royaume-Uni/@51.126331,1.2597898,13z/data=!3m1!4b1!4m6!3m5!1s0x47dea4d1553332ff:0x32785c875ad74851!8m2!3d51.1278758!4d1.3134027!16zL20vMGIyOGc?entry=ttu</identifier>
-        </place>
-
-        <place xml:id="londres">
-          <name>Londres</name>
-          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Londres</identifier>
-          <identifier type="geonames">https://www.geonames.org/2643743/london.html</identifier>
-          <identifier type="googlemaps"
-            >https://www.google.fr/maps/place/Londres,+Royaume-Uni/@51.5287398,-0.2664049,11z/data=!3m1!4b1!4m6!3m5!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5072178!4d-0.1275862!16zL20vMDRqcGw?entry=ttu</identifier>
-        </place>
-
-      </place>
-    </place>
-
-    <place xml:id="hongrie">
-      <name>Hongrie</name>
-      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Hongrie</identifier>
-      <identifier type="geonames">https://www.geonames.org/719819/hungary.html</identifier>
-    </place>
-
-    <place xml:id="italie">
-      <name>Italie</name>
-      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Italie</identifier>
-
-      <place xml:id="bologne">
-        <name>Bologne</name>
-        <geo>44.46667, 11.43333</geo>
-        <country>Italie</country>
-        <settlement>Bologne</settlement>
-        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Bologne</identifier>
-        <identifier type="geonames">https://www.geonames.org/3181927/bologna.html</identifier>
-      </place>
-      <place xml:id="genes">
-        <name>Gênes</name>
-        <geo>44.2424, 8.5600</geo>
-        <country>Italie</country>
-        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/G%C3%AAnes</identifier>
-        <identifier type="geonames">https://www.geonames.org/6542282/genova.html</identifier>
-      </place>
-      <place xml:id="rome">
-        <name>Rome</name>
-        <geo>41.89193, 12.51133</geo>
-        <country>Italie</country>
-        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Rome</identifier>
-        <identifier type="geonames">https://www.geonames.org/3169070/rome.html</identifier>
-      </place>
-      <place xml:id="veneto">
-        <name>Vénétie</name>
-        <country>Italie</country>
-        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/V%C3%A9n%C3%A9tie</identifier>
-        <identifier type="geonames">https://www.geonames.org/3164600/veneto.html</identifier>
-
-        <place xml:id="venise">
-          <name>Venise</name>
-          <geo>45.43713, 12.33265</geo>
-          <country>Italie</country>
-          <settlement>Venise</settlement>
-          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Venise</identifier>
-          <identifier type="geonames">https://www.geonames.org/3164603/venise.html</identifier>
-        </place>
-
-      </place>
-    </place>
     
-<place xml:id="luxembourg">
-  <name>Luxembourg</name>
-  <geo>49.3633, 6.0755</geo>
-  <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Luxembourg</identifier>
-</place>
-    
-    <place xml:id="pays_bas">
-      <name>Pays-Bas</name>
-      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Pays-Bas</identifier>
-      <identifier type="geonames"
-        >https://www.geonames.org/2750405/kingdom-of-the-netherlands.html</identifier>
-      <place xml:id="provinces_unies">
-        <name>Provinces Unies</name>
-        <settlement>Pays-Bas</settlement>
-        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Provinces-Unies</identifier>
-      </place>
-      
-      <place xml:id="amsterdam">
-        <name>Amsterdam, Amstredam</name>
-        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Amsterdam</identifier>
-        <identifier type="geonames">https://www.geonames.org/2759794/amsterdam.html</identifier>
-      </place>
-    </place>
-
-    <place xml:id="pologne">
-      <name>Pologne</name>
-      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Pologne</identifier>
-      <identifier type="geonames"
-        >https://www.geonames.org/798544/republic-of-poland.html</identifier>
-    </place>
-
-    <place xml:id="suede">
-      <name>Suède</name>
-      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Suède</identifier>
-      <identifier type="geonames"
-        >https://www.geonames.org/2661886/kingdom-of-sweden.html</identifier>
-    </place>
-
-    <place xml:id="mer_méditéranée">
-      <name>Mer Méditéranée</name>
-      <identifier type="wikipedia"
-        >https://fr.wikipedia.org/wiki/Mer_M%C3%A9diterran%C3%A9e</identifier>
-    </place>
-
     <place xml:id="france">
       <name>France</name>
       <country>France</country>
@@ -241,7 +112,7 @@
         </place>
       </place>
       
-      <place xml:id="Champagne">
+      <place xml:id="champagne">
         <name>Champagne</name>
         
         <place xml:id="bossus_lès_rumigny">
@@ -257,6 +128,397 @@
           <settlement>France</settlement>
           <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Stenay</identifier>
           <identifier type="googlemaps">https://maps.app.goo.gl/JDihs3AdMLmgy68r5</identifier>
+        </place>
+        
+        <place xml:id="corbeny">
+          <name>Corbeny</name>
+          <geo>49.2746, 3.4928</geo>
+          <country>France</country>
+          <settlement>Corbeny</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Corbeny</identifier>
+        </place> 
+        
+        <place xml:id="chalons">
+          <name>Châlons-en-Champagne</name>
+          <geo>48.5727, 4.2154</geo>
+          <country>France</country>
+          <settlement>Châlons-en-Champagne</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Ch%C3%A2lons-en-Champagne</identifier>
+        </place>
+        
+        <place xml:id="fismes">
+          <name>Fismes</name>
+          <geo>49.30773, 3.68607</geo>
+          <country>France</country>
+          <settlement>Fismes</settlement>
+          <identifier type="geonames">https://www.geonames.org/3018453/fismes.html</identifier>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Fismes</identifier>
+          
+          <place xml:id="eglisefismes">
+            <name>Église Sainte-Macre de Fismes</name>
+            <geo>49.1827, 3.4104</geo>
+            <country>France</country>
+            <settlement>Fismes</settlement>
+            <identifier type="wikipedia"
+              >https://fr.wikipedia.org/wiki/%C3%89glise_Sainte-Macre_de_Fismes</identifier>
+          </place>
+        </place>
+        
+        <place xml:id="reims">
+          <name>Reims</name>
+          <country>France</country>
+          <settlement>Reims</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Reims</identifier>
+          <identifier type="geonames">https://www.geonames.org/2984114/reims.html</identifier>
+          
+          <place xml:id="abbaye_saint_pierre_les_dames">
+            <name>Abbaye Saint-Pierre-les-Dames</name>
+            <geo>49.151023, 4.021575</geo>
+            <country>France</country>
+            <settlement>Reims</settlement>
+            <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Abbaye_Saint-Pierre-les-Dames</identifier>
+          </place>
+          <place xml:id="abbaye_saint_remy_reims">
+            <name>Abbaye Saint-Remi</name>
+            <geo>49.1436, 4.0229</geo>
+            <country>France</country>
+            <settlement>Reims</settlement>
+            <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Abbaye_Saint-Remi_de_Reims</identifier>
+          </place>
+          <place xml:id="cathedrale_de_reims">
+            <name>Cathédrale Notre-Dame de Reims</name>
+            <geo>49.1513, 4.0202</geo>
+            <country>France</country>
+            <settlement>Reims</settlement>
+            <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Cath%C3%A9drale_Notre-Dame_de_Reims</identifier>
+          </place>
+          
+          <place xml:id="collegiale_saint_timothee_de_reims">
+            <name>Collégiale Saint-Timothée de Reims</name>
+            <country>France</country>
+            <settlement>Reims</settlement>
+            <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Coll%C3%A9giale_Saint-Timoth%C3%A9e_de_Reims#:~:text=L'ancienne%20coll%C3%A9giale%20Saint%2DTimoth%C3%A9e,abbaye%20Saint%2DRemi%20de%20Reims.</identifier>
+          </place>
+          
+          <place xml:id="eglise_saint_maurice_reims">
+            <name>Église Saint-Maurice de Reims</name>
+            <geo>49.144817, 4.022741</geo>
+            <settlement>Reims</settlement>
+            <identifier type="wikipedia">https://fr.wikipedia.org/wiki/%C3%89glise_Saint-Maurice_de_Reims</identifier>
+          </place>
+          
+          <place xml:id="eglise_saintnicaire_reims">
+            <name>Église Saint-Nicaise de Reims</name>
+            <geo>49.1439, 4.0244</geo>
+            <settlement>Reims</settlement>
+            <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Ancienne_%C3%A9glise_Saint-Nicaise_de_Reims</identifier>
+          </place>
+          
+          <place xml:id="hotel_de_ville_reims">
+            <name>Hôtel de ville de Reims</name>
+            <geo>49.1529, 4.0154</geo>
+            <settlement>Reims</settlement>
+            <identifier type="wikipedia">https://fr.wikipedia.org/wiki/H%C3%B4tel_de_ville_de_Reims</identifier>
+          </place>
+          
+          <place xml:id="portedeparis_reims">
+            <name>Porte de Paris (Reims)</name>
+            <geo>49.1518, 4.0120</geo>
+            <settlement>Reims</settlement>
+            <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Porte_de_Paris_(Reims)</identifier>
+          </place>
+          
+          <place xml:id="rempartreims">
+            <name>Les remparts de Reims</name>
+            <geo>49.1546, 4.0205</geo>
+            <country>France</country>
+            <settlement>Reims</settlement>
+            <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Remparts_de_Reims</identifier>
+          </place>
+          
+          <place xml:id="rue_de_vesle_reims">
+            <name>Rue de Vesle</name>
+            <geo>49.1512, 4.0143</geo>
+            <settlement>Reims</settlement>
+            <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Rue_de_Vesle</identifier>
+          </place>
+          
+          <place xml:id="chapellereims">
+            <name>Palais du Tau</name>
+            <geo>49.1511, 4.0204</geo>
+            <country>France</country>
+            <settlement>Reims</settlement>
+            <identifier type="wikipedia"
+              >https://fr.wikipedia.org/wiki/Palais_du_Tau_(Reims)</identifier>
+          </place>
+        </place>
+        
+        <place xml:id="rethel">
+          <name>Rethel</name>
+          <geo>49.3038, 4.2200</geo>
+          <country>France</country>
+          <settlement>Rethel</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Rethel</identifier>
+        </place>
+        
+        <place xml:id="rocroy">
+          <name>Rocroi</name>
+          <geo> 49.5534, 4.3120</geo>
+          <country>France</country>
+          <settlement>Rocroi</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Rocroi</identifier>
+        </place>
+      </place>
+      
+      <place xml:id="hauts_de_france">
+        <name>Hauts-de-France</name>
+        <country>France</country>
+        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Hauts-de-France</identifier>
+        <identifier type="geonames"
+          >https://www.geonames.org/11071621/hauts-de-france.html</identifier>
+        <place xml:id="avilly">
+          <name>Avilly-Saint-Léonard</name>
+          <geo>49.1945, 2.5415</geo>
+          <country>France</country>
+          <settlement>Haut-de-France</settlement>
+          <identifier type="wikipedia"
+            >https://fr.wikipedia.org/wiki/Avilly-Saint-L%C3%A9onard</identifier>
+        </place>
+        <place xml:id="alatte">
+          <name>Verneuil-en-Halatte</name>
+          <geo>49.1638, 2.3123</geo>
+          <country>France</country>
+          <settlement>Haut-de-France</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Verneuil-en-Halatte</identifier>
+          <identifier type="geonames"
+            >https://www.geonames.org/2969806/verneuil-en-halatte.html</identifier>
+        </place>
+        
+        
+        <place xml:id="fresnoylecheateau">
+          <name>Fresnoy-le-Château</name>
+          <geo>48.2093, 4.2235</geo>
+          <country>France</country>
+          <settlement>Fresnoy-le-Château</settlement>
+          <identifier type="wikipedia"
+            >https://fr.wikipedia.org/wiki/Fresnoy-le-Ch%C3%A2teau</identifier>
+        </place>
+        
+        
+        <place xml:id="villers-cotterets">
+          <name>Villers-Cotterêts</name>
+          <geo/>
+          <country>France</country>
+          <settlement>Villers-Cotterêts</settlement>
+          <identifier type="wikipedia"
+            >https://fr.wikipedia.org/wiki/Villers-Cotter%C3%AAts</identifier>
+          <identifier type="geonames"
+            >https://www.geonames.org/2968405/villers-cotterets.html</identifier>
+          
+          <place xml:id="chateauvillerscotteret">
+            <name>Château de Villers-Cotterêts</name>
+            <geo>49.1521, 3.0532</geo>
+            <!-- coordonnées approximatives -->
+            <country>France</country>
+            <settlement>Villers-Cotterêts</settlement>
+            <identifier type="wikipedia"
+              >https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Villers-Cotter%C3%AAts</identifier>
+            
+            <place xml:id="appartementroivillerscotteret">
+              <name>Appartement du Roi Château de Villers-Cotterêts</name>
+              <geo>49°15'22.6, 3.0530.7</geo>
+              <country>France</country>
+              <settlement>Château de Villers-Cotterêts</settlement>
+            </place>
+            <place xml:id="appartementprivechateauvillerscotteret">
+              <name>Appartement privé Chateau de Villers-Cotterêts</name>
+              <geo>49°15'22.6, 3.0500.7</geo>
+              <country>France</country>
+              <settlement>Château de Villers-Cotterêts</settlement>
+            </place>
+            
+            <place xml:id="avantcourchateauvillerscotteret">
+              <name>l’avant-Cour du Chateau</name>
+              <geo>49.1521.2, 3.0532.2</geo>
+              <country>France</country>
+              <settlement>Château de Villers-Cotterêts</settlement>
+            </place>
+            
+            <place xml:id="avenuechateauvillerscotteret">
+              <name>Grande avenue du Château de Villers-Cotterêts</name>
+              <geo>49.1527.2, 3.0532.4</geo>
+              <country>France</country>
+              <settlement>Château de Villers-Cotterêts</settlement>
+            </place>
+            <place xml:id="chapellechateauvillerscotteret">
+              <name>Chapelle du Chateau de Villers-Cotterêts</name>
+              <geo>49.256446, 3.092033</geo>
+              <country>France</country>
+              <settlement>Chateau de Villers-Cotterêts</settlement>
+            </place>
+            <place xml:id="courchateauvillerscotteret">
+              <name>Cour du Château de Villers-Cotterêts</name>
+              <geo>49.1520.5 3.0532.2</geo>
+              <country>France</country>
+              <settlement>Château de Villers-Cotterêts</settlement>
+            </place>
+            <place xml:id="courinterieurvillerscotteret">
+              <name>Cour intérieure du Château de Villers-Cotterêts</name>
+              <geo>49.1522.0, 3.0532.2</geo>
+              <country>France</country>
+              <settlement>Château de Villers-Cotterêts</settlement>
+            </place>
+            
+            <place xml:id="galleriechateauvillerscotteret">
+              <name>La Gallerie du Château de Villers-Cotterêts</name>
+              <geo>49.1523.0, 3.0531.0</geo>
+              <country>France</country>
+              <settlement>Château de Villers-Cotterêts</settlement>
+            </place>
+            
+            <place xml:id="jardinchateauvillerscotteret">
+              <name>Parc du Château de Villers-Cotterêts</name>
+              <geo>49.1524.1, 3.0532.2</geo>
+              <country>France</country>
+              <settlement>Château de Villers-Cotterêts</settlement>
+            </place>
+            <place xml:id="orangeriechateauvillerscotteret">
+              <name>Orangerie du Chateau de Villers-Cotterêts</name>
+              <geo>49.1524.1, 3.0132.2</geo>
+              <country>France</country>
+              <settlement>Château de Villers-Cotterêts</settlement>
+            </place>
+            <place xml:id="petitchateauvillerscotteret">
+              <name>Petit Chateau de Villers-Cotterêts</name>
+              <geo>49.1024.1, 3.0132.2</geo>
+              <country>France</country>
+              <settlement>Château de Villers-Cotterêts</settlement>
+            </place>
+            <place xml:id="terrassechateauvillerscotteret">
+              <name>Terrasse du Château de Villers-Cotterêts</name>
+              <geo>49.1519.0, 3.0532.7</geo>
+              <!-- coordonnées approximatives -->
+              <country>France</country>
+              <settlement>Château de Villers-Cotterêts</settlement>
+            </place>
+          </place>
+          <place xml:id="foretvillerscotteret">
+            <name>Forêt de Retz</name>
+            <geo>49.1533, 3.0533</geo>
+            <country>France</country>
+            <settlement>Haut-de-France</settlement>
+            <identifier type="wikipedia"
+              >https://fr.wikipedia.org/wiki/For%C3%AAt_de_Retz</identifier>
+          </place>
+        </place>
+        <place xml:id="senlis">
+          <name>Senlis</name>
+          <geo>49.1229, 2.3515</geo>
+          <country>France</country>
+          <settlement>Haut-de-France</settlement>
+          <identifier type="wikipedia"
+            >https://fr.wikipedia.org/wiki/Senlis_(Oise)</identifier>
+        </place>
+      </place>
+      
+      <place xml:id="franche-comte">
+        <name>Franche-Comté</name>
+        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Franche-Comt%C3%A9</identifier>
+        <place xml:id="bleneau">
+          <name>Bléneau</name>
+          <geo>47.4208, 2.5659</geo>
+          <country>France</country>
+          <settlement>Franche-Comté</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Bl%C3%A9neau</identifier>
+        </place>
+        <place xml:id="dijon">
+          <name>Dijon</name>
+          <geo>47.1918, 5.0229</geo>
+          <country>France</country>
+          <settlement>Franche-Comté</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Dijon</identifier>
+          <place xml:id="abbaye_saint_etienne">
+            <name>Abbaye Saint-Étienne</name>
+            <geo>47.1915, 5.0239</geo>
+            <country>France</country>
+            <settlement>Dijon</settlement>
+            <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Abbaye_Saint-%C3%89tienne_de_Dijon#:~:text=L'abbaye%20Saint%2D%C3%89tienne%20est,patrimoine%20mondial%20de%20l'UNESCO.</identifier>
+          </place>
+        </place>
+        <place xml:id="saintantoine">
+          <name>Saint-Antoine (Doubs)</name>
+          <geo>46.4639, 6.2018</geo>
+          <country>France</country>
+          <settlement>Franche-Comté</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Saint-Antoine_(Doubs)</identifier>
+        </place>
+        <place xml:id="saintfirmin">
+          <name>Saint-Firmin</name>
+          <geo>46.4948, 4.2811</geo>
+          <country>France</country>
+          <settlement>Franche-Comté</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Saint-Firmin_(Sa%C3%B4ne-et-Loire)</identifier>
+        </place>
+      </place>
+      <place xml:id="nouvelle_aquitaine">
+        <name>Nouvelle-Aquitaine</name>
+        <country>France</country>
+        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Nouvelle-Aquitaine</identifier>
+        <place xml:id="barville">
+          <name>Bar</name>
+          <geo>45.2046, 1.4855</geo>
+          <country>France</country>
+          <settlement>Nouvelle-Aquitaine</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Bar_(Corr%C3%A8ze)</identifier>
+        </place>
+      </place>
+      <place xml:id="provence">
+        <name>Provence</name>
+        <country>France</country>
+        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Provence</identifier>
+        <place xml:id="aixenprovence">
+          <name>Aix-en-Provence</name>
+          <geo>43.3152, 5.2714</geo>
+          <country>France</country>
+          <settlement>Provence</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Aix-en-Provence</identifier>
+        </place>
+      </place>
+      <place xml:id="savoie">
+        <name>Savoie</name>
+        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Savoie</identifier>
+      </place>
+      <place xml:id="val_de_loire">
+        <name>Val de Loire</name>
+        <country>France</country>
+        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Centre-Val_de_Loire</identifier>
+        <place xml:id="armenonville">
+          <name>Bailleau-Armenonville</name>
+          <geo>48.5333, 1.6519</geo>
+          <country>France</country>
+          <settlement>Val de Loire</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Bailleau-Armenonville</identifier>
+        </place>
+        <place xml:id="vineul">
+          <name>Vineuil</name>
+          <geo>47.3453, 1.2224</geo>
+          <country>France</country>
+          <settlement>Val de Loire</settlement>
+          <identifier type="wikipedia"
+            >https://fr.wikipedia.org/wiki/Vineuil_(Loir-et-Cher)</identifier>
+        </place>
+        <place xml:id="touraine">
+          <name>Touraine</name>
+          <country>France</country>
+          
+          <place xml:id="tours">
+            <name>Tours</name>
+            <geo>47.2337, 0.4121</geo>
+            <country>France</country>
+            <settlement>Tours</settlement>
+            <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Tours</identifier>
+          </place> 
+          
         </place>
       </place>
       
@@ -2086,7 +2348,8 @@
           </place>
         </place>
       </place>
-</place>
+      </place>
+      
       <place xml:id="brest">
         <name>Brest</name>
         <geo>48.46584, -4.43168</geo>
@@ -2097,407 +2360,144 @@
           >https://www.geonames.org/3030299/arrondissement-de-brest.html</identifier>
       </place>
     </place>
-    <place xml:id="champagne">
-      <name>Champagne</name>
-      <country>France</country>
-      
-      <place xml:id="corbeny">
-        <name>Corbeny</name>
-        <geo>49.2746, 3.4928</geo>
-        <country>France</country>
-        <settlement>Corbeny</settlement>
-        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Corbeny</identifier>
-      </place> 
-      
-      <place xml:id="chalons">
-        <name>Châlons-en-Champagne</name>
-        <geo>48.5727, 4.2154</geo>
-        <country>France</country>
-        <settlement>Châlons-en-Champagne</settlement>
-        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Ch%C3%A2lons-en-Champagne</identifier>
+
+    <place xml:id="grande_bretagne">
+      <name>Grande-Bretagne</name>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Grande-Bretagne</identifier>
+
+      <place xml:id="angleterre">
+        <name>Angleterre</name>
+        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Angleterre</identifier>
+
+        <place xml:id="canterbery">
+          <name>Canterbery, Cantorbery</name>
+          <identifier type="googlemaps"
+            >https://www.google.fr/maps/place/Canterbury,+Royaume-Uni/@51.2785904,1.0426514,13z/data=!3m1!4b1!4m6!3m5!1s0x47d94ac50d832c89:0x9ef1e5533783f98a!8m2!3d51.280233!4d1.0789089!16zL20vMGN5MDc?entry=ttu</identifier>
+          <identifier type="geonames">https://www.geonames.org/2653877/canterbury.html</identifier>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Canterbury</identifier>
+        </place>
+
+        <place xml:id="douvres">
+          <name>Douvres</name>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Douvres</identifier>
+          <identifier type="geonames">https://www.geonames.org/2651048/dover.html</identifier>
+          <identifier type="googlemaps"
+            >https://www.google.fr/maps/place/Douvres,+Royaume-Uni/@51.126331,1.2597898,13z/data=!3m1!4b1!4m6!3m5!1s0x47dea4d1553332ff:0x32785c875ad74851!8m2!3d51.1278758!4d1.3134027!16zL20vMGIyOGc?entry=ttu</identifier>
+        </place>
+
+        <place xml:id="londres">
+          <name>Londres</name>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Londres</identifier>
+          <identifier type="geonames">https://www.geonames.org/2643743/london.html</identifier>
+          <identifier type="googlemaps"
+            >https://www.google.fr/maps/place/Londres,+Royaume-Uni/@51.5287398,-0.2664049,11z/data=!3m1!4b1!4m6!3m5!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5072178!4d-0.1275862!16zL20vMDRqcGw?entry=ttu</identifier>
+        </place>
+
       </place>
-
-      <place xml:id="fismes">
-        <name>Fismes</name>
-        <geo>49.30773, 3.68607</geo>
-        <country>France</country>
-        <settlement>Fismes</settlement>
-        <identifier type="geonames">https://www.geonames.org/3018453/fismes.html</identifier>
-        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Fismes</identifier>
-
-        <place xml:id="eglisefismes">
-          <name>Église Sainte-Macre de Fismes</name>
-          <geo>49.1827, 3.4104</geo>
-          <country>France</country>
-          <settlement>Fismes</settlement>
-          <identifier type="wikipedia"
-            >https://fr.wikipedia.org/wiki/%C3%89glise_Sainte-Macre_de_Fismes</identifier>
-        </place>
-      </place>
-
-      <place xml:id="reims">
-        <name>Reims</name>
-        <country>France</country>
-        <settlement>Reims</settlement>
-        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Reims</identifier>
-        <identifier type="geonames">https://www.geonames.org/2984114/reims.html</identifier>
-
-<place xml:id="abbaye_saint_pierre_les_dames">
-  <name>Abbaye Saint-Pierre-les-Dames</name>
-  <geo>49.151023, 4.021575</geo>
-  <country>France</country>
-  <settlement>Reims</settlement>
-  <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Abbaye_Saint-Pierre-les-Dames</identifier>
-</place>
-<place xml:id="abbaye_saint_remy_reims">
-          <name>Abbaye Saint-Remi</name>
-          <geo>49.1436, 4.0229</geo>
-          <country>France</country>
-          <settlement>Reims</settlement>
-          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Abbaye_Saint-Remi_de_Reims</identifier>
-</place>
-          <place xml:id="cathedrale_de_reims">
-          <name>Cathédrale Notre-Dame de Reims</name>
-          <geo>49.1513, 4.0202</geo>
-          <country>France</country>
-          <settlement>Reims</settlement>
-          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Cath%C3%A9drale_Notre-Dame_de_Reims</identifier>
-        </place>
-
-        <place xml:id="collegiale_saint_timothee_de_reims">
-          <name>Collégiale Saint-Timothée de Reims</name>
-          <country>France</country>
-          <settlement>Reims</settlement>
-          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Coll%C3%A9giale_Saint-Timoth%C3%A9e_de_Reims#:~:text=L'ancienne%20coll%C3%A9giale%20Saint%2DTimoth%C3%A9e,abbaye%20Saint%2DRemi%20de%20Reims.</identifier>
-        </place>
-
-        <place xml:id="eglise_saint_maurice_reims">
-          <name>Église Saint-Maurice de Reims</name>
-          <geo>49.144817, 4.022741</geo>
-          <settlement>Reims</settlement>
-          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/%C3%89glise_Saint-Maurice_de_Reims</identifier>
-       </place>
-        
-        <place xml:id="eglise_saintnicaire_reims">
-          <name>Église Saint-Nicaise de Reims</name>
-          <geo>49.1439, 4.0244</geo>
-          <settlement>Reims</settlement>
-          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Ancienne_%C3%A9glise_Saint-Nicaise_de_Reims</identifier>
-        </place>
-
-        <place xml:id="hotel_de_ville_reims">
-          <name>Hôtel de ville de Reims</name>
-          <geo>49.1529, 4.0154</geo>
-          <settlement>Reims</settlement>
-          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/H%C3%B4tel_de_ville_de_Reims</identifier>
-        </place>
-        
-        <place xml:id="portedeparis_reims">
-          <name>Porte de Paris (Reims)</name>
-          <geo>49.1518, 4.0120</geo>
-          <settlement>Reims</settlement>
-          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Porte_de_Paris_(Reims)</identifier>
-        </place>
-        
-        <place xml:id="rempartreims">
-          <name>Les remparts de Reims</name>
-          <geo>49.1546, 4.0205</geo>
-          <country>France</country>
-          <settlement>Reims</settlement>
-          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Remparts_de_Reims</identifier>
-        </place>
-
-        
-
-        <place xml:id="rue_de_vesle_reims">
-          <name>Rue de Vesle</name>
-          <geo>49.1512, 4.0143</geo>
-          <settlement>Reims</settlement>
-          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Rue_de_Vesle</identifier>
-        </place>
-
-        <place xml:id="chapellereims">
-          <name>Palais du Tau</name>
-          <geo>49.1511, 4.0204</geo>
-          <country>France</country>
-          <settlement>Reims</settlement>
-          <identifier type="wikipedia"
-            >https://fr.wikipedia.org/wiki/Palais_du_Tau_(Reims)</identifier>
-        </place>
-      </place>
-            <place xml:id="rethel">
-              <name>Rethel</name>
-              <geo>49.3038, 4.2200</geo>
-              <country>France</country>
-              <settlement>Rethel</settlement>
-              <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Rethel</identifier>
-            </place>
-            <place xml:id="rocroy">
-              <name>Rocroi</name>
-              <geo> 49.5534, 4.3120</geo>
-              <country>France</country>
-              <settlement>Rocroi</settlement>
-              <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Rocroi</identifier>
-            </place>
     </place>
-      <place xml:id="hauts_de_france">
-      <name>Hauts-de-France</name>
-      <country>France</country>
-      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Hauts-de-France</identifier>
+
+    <place xml:id="hongrie">
+      <name>Hongrie</name>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Hongrie</identifier>
+      <identifier type="geonames">https://www.geonames.org/719819/hungary.html</identifier>
+    </place>
+
+    <place xml:id="italie">
+      <name>Italie</name>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Italie</identifier>
+
+      <place xml:id="bologne">
+        <name>Bologne</name>
+        <geo>44.46667, 11.43333</geo>
+        <country>Italie</country>
+        <settlement>Bologne</settlement>
+        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Bologne</identifier>
+        <identifier type="geonames">https://www.geonames.org/3181927/bologna.html</identifier>
+      </place>
+      <place xml:id="genes">
+        <name>Gênes</name>
+        <geo>44.2424, 8.5600</geo>
+        <country>Italie</country>
+        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/G%C3%AAnes</identifier>
+        <identifier type="geonames">https://www.geonames.org/6542282/genova.html</identifier>
+      </place>
+      <place xml:id="rome">
+        <name>Rome</name>
+        <geo>41.89193, 12.51133</geo>
+        <country>Italie</country>
+        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Rome</identifier>
+        <identifier type="geonames">https://www.geonames.org/3169070/rome.html</identifier>
+      </place>
+      <place xml:id="veneto">
+        <name>Vénétie</name>
+        <country>Italie</country>
+        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/V%C3%A9n%C3%A9tie</identifier>
+        <identifier type="geonames">https://www.geonames.org/3164600/veneto.html</identifier>
+
+        <place xml:id="venise">
+          <name>Venise</name>
+          <geo>45.43713, 12.33265</geo>
+          <country>Italie</country>
+          <settlement>Venise</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Venise</identifier>
+          <identifier type="geonames">https://www.geonames.org/3164603/venise.html</identifier>
+        </place>
+
+      </place>
+    </place>
+    
+    <place xml:id="luxembourg">
+      <name>Luxembourg</name>
+      <geo>49.3633, 6.0755</geo>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Luxembourg</identifier>
+    </place>
+    
+    <place xml:id="mer_méditéranée">
+      <name>Mer Méditéranée</name>
+      <identifier type="wikipedia"
+        >https://fr.wikipedia.org/wiki/Mer_M%C3%A9diterran%C3%A9e</identifier>
+    </place>
+    
+    <place xml:id="pays_bas">
+      <name>Pays-Bas</name>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Pays-Bas</identifier>
       <identifier type="geonames"
-        >https://www.geonames.org/11071621/hauts-de-france.html</identifier>
-      <place xml:id="avilly">
-        <name>Avilly-Saint-Léonard</name>
-        <geo>49.1945, 2.5415</geo>
-        <country>France</country>
-        <settlement>Haut-de-France</settlement>
-        <identifier type="wikipedia"
-          >https://fr.wikipedia.org/wiki/Avilly-Saint-L%C3%A9onard</identifier>
+        >https://www.geonames.org/2750405/kingdom-of-the-netherlands.html</identifier>
+      <place xml:id="provinces_unies">
+        <name>Provinces Unies</name>
+        <settlement>Pays-Bas</settlement>
+        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Provinces-Unies</identifier>
       </place>
-      <place xml:id="alatte">
-        <name>Verneuil-en-Halatte</name>
-        <geo>49.1638, 2.3123</geo>
-        <country>France</country>
-        <settlement>Haut-de-France</settlement>
-        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Verneuil-en-Halatte</identifier>
-        <identifier type="geonames"
-          >https://www.geonames.org/2969806/verneuil-en-halatte.html</identifier>
-      </place>
-
-
-        <place xml:id="fresnoylecheateau">
-          <name>Fresnoy-le-Château</name>
-          <geo>48.2093, 4.2235</geo>
-          <country>France</country>
-          <settlement>Fresnoy-le-Château</settlement>
-          <identifier type="wikipedia"
-            >https://fr.wikipedia.org/wiki/Fresnoy-le-Ch%C3%A2teau</identifier>
-        </place>
-       
-
-        <place xml:id="villers-cotterets">
-          <name>Villers-Cotterêts</name>
-          <geo/>
-          <country>France</country>
-          <settlement>Villers-Cotterêts</settlement>
-          <identifier type="wikipedia"
-            >https://fr.wikipedia.org/wiki/Villers-Cotter%C3%AAts</identifier>
-          <identifier type="geonames"
-            >https://www.geonames.org/2968405/villers-cotterets.html</identifier>
-
-          <place xml:id="chateauvillerscotteret">
-            <name>Château de Villers-Cotterêts</name>
-            <geo>49.1521, 3.0532</geo>
-            <!-- coordonnées approximatives -->
-            <country>France</country>
-            <settlement>Villers-Cotterêts</settlement>
-            <identifier type="wikipedia"
-              >https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Villers-Cotter%C3%AAts</identifier>
-
-            <place xml:id="appartementroivillerscotteret">
-              <name>Appartement du Roi Château de Villers-Cotterêts</name>
-              <geo>49°15'22.6, 3.0530.7</geo>
-              <country>France</country>
-              <settlement>Château de Villers-Cotterêts</settlement>
-            </place>
-            <place xml:id="appartementprivechateauvillerscotteret">
-              <name>Appartement privé Chateau de Villers-Cotterêts</name>
-              <geo>49°15'22.6, 3.0500.7</geo>
-              <country>France</country>
-              <settlement>Château de Villers-Cotterêts</settlement>
-            </place>
-
-            <place xml:id="avantcourchateauvillerscotteret">
-              <name>l’avant-Cour du Chateau</name>
-              <geo>49.1521.2, 3.0532.2</geo>
-              <country>France</country>
-              <settlement>Château de Villers-Cotterêts</settlement>
-            </place>
-
-            <place xml:id="avenuechateauvillerscotteret">
-              <name>Grande avenue du Château de Villers-Cotterêts</name>
-              <geo>49.1527.2, 3.0532.4</geo>
-              <country>France</country>
-              <settlement>Château de Villers-Cotterêts</settlement>
-            </place>
-            <place xml:id="chapellechateauvillerscotteret">
-              <name>Chapelle du Chateau de Villers-Cotterêts</name>
-              <geo>49.256446, 3.092033</geo>
-              <country>France</country>
-              <settlement>Chateau de Villers-Cotterêts</settlement>
-            </place>
-            <place xml:id="courchateauvillerscotteret">
-              <name>Cour du Château de Villers-Cotterêts</name>
-              <geo>49.1520.5 3.0532.2</geo>
-              <country>France</country>
-              <settlement>Château de Villers-Cotterêts</settlement>
-            </place>
-            <place xml:id="courinterieurvillerscotteret">
-              <name>Cour intérieure du Château de Villers-Cotterêts</name>
-              <geo>49.1522.0, 3.0532.2</geo>
-              <country>France</country>
-              <settlement>Château de Villers-Cotterêts</settlement>
-            </place>
-
-            <place xml:id="galleriechateauvillerscotteret">
-              <name>La Gallerie du Château de Villers-Cotterêts</name>
-              <geo>49.1523.0, 3.0531.0</geo>
-              <country>France</country>
-              <settlement>Château de Villers-Cotterêts</settlement>
-            </place>
-
-            <place xml:id="jardinchateauvillerscotteret">
-              <name>Parc du Château de Villers-Cotterêts</name>
-              <geo>49.1524.1, 3.0532.2</geo>
-              <country>France</country>
-              <settlement>Château de Villers-Cotterêts</settlement>
-            </place>
-            <place xml:id="orangeriechateauvillerscotteret">
-              <name>Orangerie du Chateau de Villers-Cotterêts</name>
-              <geo>49.1524.1, 3.0132.2</geo>
-              <country>France</country>
-              <settlement>Château de Villers-Cotterêts</settlement>
-            </place>
-            <place xml:id="petitchateauvillerscotteret">
-              <name>Petit Chateau de Villers-Cotterêts</name>
-              <geo>49.1024.1, 3.0132.2</geo>
-              <country>France</country>
-              <settlement>Château de Villers-Cotterêts</settlement>
-            </place>
-            <place xml:id="terrassechateauvillerscotteret">
-              <name>Terrasse du Château de Villers-Cotterêts</name>
-              <geo>49.1519.0, 3.0532.7</geo>
-              <!-- coordonnées approximatives -->
-              <country>France</country>
-              <settlement>Château de Villers-Cotterêts</settlement>
-            </place>
-          </place>
-          <place xml:id="foretvillerscotteret">
-            <name>Forêt de Retz</name>
-            <geo>49.1533, 3.0533</geo>
-            <country>France</country>
-            <settlement>Haut-de-France</settlement>
-            <identifier type="wikipedia"
-              >https://fr.wikipedia.org/wiki/For%C3%AAt_de_Retz</identifier>
-          </place>
-        </place>
-          <place xml:id="senlis">
-          <name>Senlis</name>
-          <geo>49.1229, 2.3515</geo>
-          <country>France</country>
-          <settlement>Haut-de-France</settlement>
-          <identifier type="wikipedia"
-            >https://fr.wikipedia.org/wiki/Senlis_(Oise)</identifier>
-        </place>
-      </place>
-  
-      <place xml:id="franche-comte">
-        <name>Franche-Comté</name>
-        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Franche-Comt%C3%A9</identifier>
-        <place xml:id="bleneau">
-          <name>Bléneau</name>
-          <geo>47.4208, 2.5659</geo>
-          <country>France</country>
-          <settlement>Franche-Comté</settlement>
-          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Bl%C3%A9neau</identifier>
-        </place>
-        <place xml:id="dijon">
-          <name>Dijon</name>
-          <geo>47.1918, 5.0229</geo>
-          <country>France</country>
-          <settlement>Franche-Comté</settlement>
-          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Dijon</identifier>
-  <place xml:id="abbaye_saint_etienne">
-    <name>Abbaye Saint-Étienne</name>
-    <geo>47.1915, 5.0239</geo>
-    <country>France</country>
-    <settlement>Dijon</settlement>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Abbaye_Saint-%C3%89tienne_de_Dijon#:~:text=L'abbaye%20Saint%2D%C3%89tienne%20est,patrimoine%20mondial%20de%20l'UNESCO.</identifier>
-</place>
-        </place>
-        <place xml:id="saintantoine">
-          <name>Saint-Antoine (Doubs)</name>
-          <geo>46.4639, 6.2018</geo>
-          <country>France</country>
-          <settlement>Franche-Comté</settlement>
-          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Saint-Antoine_(Doubs)</identifier>
-        </place>
-          <place xml:id="saintfirmin">
-          <name>Saint-Firmin</name>
-          <geo>46.4948, 4.2811</geo>
-          <country>France</country>
-          <settlement>Franche-Comté</settlement>
-          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Saint-Firmin_(Sa%C3%B4ne-et-Loire)</identifier>
-        </place>
-      </place>
-      <place xml:id="nouvelle_aquitaine">
-        <name>Nouvelle-Aquitaine</name>
-        <country>France</country>
-        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Nouvelle-Aquitaine</identifier>
-        <place xml:id="barville">
-          <name>Bar</name>
-          <geo>45.2046, 1.4855</geo>
-          <country>France</country>
-          <settlement>Nouvelle-Aquitaine</settlement>
-          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Bar_(Corr%C3%A8ze)</identifier>
-        </place>
-      </place>
-  <place xml:id="provence">
-    <name>Provence</name>
-    <country>France</country>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Provence</identifier>
-    <place xml:id="aixenprovence">
-      <name>Aix-en-Provence</name>
-      <geo>43.3152, 5.2714</geo>
-      <country>France</country>
-      <settlement>Provence</settlement>
-      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Aix-en-Provence</identifier>
-    </place>
-  </place>
-      <place xml:id="savoie">
-        <name>Savoie</name>
-        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Savoie</identifier>
-      </place>
-      <place xml:id="val_de_loire">
-        <name>Val de Loire</name>
-        <country>France</country>
-        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Centre-Val_de_Loire</identifier>
-        <place xml:id="armenonville">
-          <name>Bailleau-Armenonville</name>
-          <geo>48.5333, 1.6519</geo>
-          <country>France</country>
-          <settlement>Val de Loire</settlement>
-          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Bailleau-Armenonville</identifier>
-        </place>
-          <place xml:id="vineul">
-          <name>Vineuil</name>
-          <geo>47.3453, 1.2224</geo>
-          <country>France</country>
-          <settlement>Val de Loire</settlement>
-          <identifier type="wikipedia"
-            >https://fr.wikipedia.org/wiki/Vineuil_(Loir-et-Cher)</identifier>
-        </place>
-    <place xml:id="touraine">
-      <name>Touraine</name>
-      <country>France</country>
       
-      <place xml:id="tours">
-        <name>Tours</name>
-        <geo>47.2337, 0.4121</geo>
-        <country>France</country>
-        <settlement>Tours</settlement>
-        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Tours</identifier>
-      </place> 
-      
+      <place xml:id="amsterdam">
+        <name>Amsterdam, Amstredam</name>
+        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Amsterdam</identifier>
+        <identifier type="geonames">https://www.geonames.org/2759794/amsterdam.html</identifier>
+      </place>
     </place>
+
+    <place xml:id="pologne">
+      <name>Pologne</name>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Pologne</identifier>
+      <identifier type="geonames"
+        >https://www.geonames.org/798544/republic-of-poland.html</identifier>
     </place>
+    
     <place xml:id="portugal">
-    <name>Portugal</name>
-    <country>Portugal</country>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Portugal</identifier>
-    <identifier type="geonames">http://www.geonames.org/countries/PT/portugal.html</identifier>
+      <name>Portugal</name>
+      <country>Portugal</country>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Portugal</identifier>
+      <identifier type="geonames">http://www.geonames.org/countries/PT/portugal.html</identifier>
+    </place>
+
+    <place xml:id="suede">
+      <name>Suède</name>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Suède</identifier>
+      <identifier type="geonames"
+        >https://www.geonames.org/2661886/kingdom-of-sweden.html</identifier>
+    </place>
   </place>
-  </place>
+  
         <place xml:id="turquie">
           <name>Empire Ottoman</name>
           <identifier type="wikipedia"></identifier>
@@ -2510,6 +2510,5 @@
             <identifier type="geonames">https://www.geonames.org/258763/crete.html</identifier>
           </place>
         </place>
-
-
+  
 </listPlace>
