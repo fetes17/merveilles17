@@ -111,6 +111,7 @@
 * [v2merveilles17_img_tor-5emdeco.xml](https://fetes17.github.io/merveilles17/xml/v2merveilles17_img_tor-5emdeco.xml)
 * [v2merveilles17_img_tor-frontispice.xml](https://fetes17.github.io/merveilles17/xml/v2merveilles17_img_tor-frontispice.xml)
 * [v2merveilles17_imp_IR-felibien1668.xml](https://fetes17.github.io/merveilles17/xml/v2merveilles17_imp_IR-felibien1668.xml)
+* [v2merveilles17_imp_ballard1654.xml](https://fetes17.github.io/merveilles17/xml/v2merveilles17_imp_ballard1654.xml)
 * [v2merveilles17_imp_gazette16680721.xml](https://fetes17.github.io/merveilles17/xml/v2merveilles17_imp_gazette16680721.xml)
 * [v2merveilles17_imp_gazette16740706.xml](https://fetes17.github.io/merveilles17/xml/v2merveilles17_imp_gazette16740706.xml)
 * [v2merveilles17_imp_gazette16740713.xml](https://fetes17.github.io/merveilles17/xml/v2merveilles17_imp_gazette16740713.xml)
