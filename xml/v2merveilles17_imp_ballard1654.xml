@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
+<?xml-stylesheet type="text/css" href="../style/tei-author.css" alternate="author"?>
+<?xml-model href="https://fetes17.github.io/merveilles17/merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Description particulière du Grand Ballet et Comédie des Nopces de  de Pelée &amp; de Thetis</title>
+        <author key="???">{creator}</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Merveilles17</edition>
+        <respStmt>
+          <name>Axelanne Chapon</name>
+          <resp>Transcription, correction et balisage</resp>
+        </respStmt>
+        <respStmt>
+          <name>Eliot Bordage</name>
+          <resp>Transcription, correction et balisage</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université d’Artois - Lille, MESHS</publisher>
+        <date when="2026"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>???, <title>Description particulière du Grand Ballet et Comédie des Nopces de  de Pelée &amp; de Thetis</title>, <note><pubPlace>Paris</pubPlace>, <publisher>Ballard</publisher>, <date>1654</date></note><ptr target="https://bibnum.institutdefrance.fr/viewer/24383/"></ptr></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1654"/>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart>DESCRIPTION PARTICULIERE DU GRAND BALLET ET COMEDIE DES NOPCES de Pelée &amp; de Thetis</titlePart>
+          <titlePart>AVEC LES MACHINES, Changements de Scene, Habits, &amp; tout ce qui a fait admirer ces merveilleuses representations.</titlePart>
+          <titlePart>Dédié à  MONSEIGNEUR LE COMTE DE S. AIGNAN, PREMIER GENTILHOMME DE LA CHAMBRE DU ROY.</titlePart><!--c'est pas vraiment un titre mais pas trouvé de balise adaptée pour l'instant-->
+        </docTitle>
+        <docImprint>A PARIS, Chez <persName key="ballard" role="imprimeur">ROBERT BALLARD</persName>, seul Imprimeur du Roy pour la Musique.</docImprint>
+        <docDate>M. DC. LIV.</docDate>
+      </titlePage>
+    </front>
+    <body>
+      <div>
+        <pb n="nb" facs=""/>
+        <head>A MONSEINEUR</head>
+        <head>MONSEIGNEUR <persName key="saint_aignan" role="destinataire">LE COMTE DE S. AIGNAN</persName>, PREMIER GENTILHOMME DE LA CHAMBRE 
+          DU ROY.</head>
+        <p><persName key="saint_aignan" role="destinataire">MONSEGNEUR</persName>, A qui pourrois-je offrir plus justement ce Livre, qu’à vous 
+          qui en avez fourny le principal sujet, &amp; par les soins de qui la plus grande partie de toutes les choses qu’il contient ont esté 
+          faites ; Je dis la plus grande partie, pource qu’estant content de vostre propre gloire, vous ne voulez point toucher à celle 
+          d’autruy : On sçait bien <persName key="saint_aignan">MONSEIGNEUR</persName>, que son <persName key="mazarin_jules">EMINENCE</persName> 
+          qui s’interesse jusques dans les moindres choses qui regardent la grandeur &amp; la reputation du Royaume, avec ce mesme Genie qui 
+          agit si bien dans les plus importantes affaires, s’est donnée la peine de former luy-mesme le dessein de ce grand Ballet &amp; de cette 
+          superbe Comedi ; Que <persName key="???" role="auteur">Monsieur Bouty</persName> l’un des plus beaux esprits de ce temps, a fait 
+          les vers qui ont esté chantez par la <tech type="musique">Musique</tech> ; Que <persName key="benserade" role="auteur">Monsieur de 
+            Bensserade</persName> toujours admirable en ses productions a fait les Arguments &amp; les Vers du Ballet : Et que le <persName 
+              key="torelli_giacomo" role="artificier">Seign. Torel</persName> en a in<pb n="nb" facs=""/>venté 
+          les superbes <tech type="">Machines</tech> : Mais, <persName key="saint_aignan" role="destinataire">MONSEIGNEUR</persName>, la 
+          <tech type="costume">richesse des habits</tech>, le choix des Airs &amp; des pas, &amp; l’assortiment merveilleux de tant de differentes 
+          pieces qui ont composé cét admirable tout, ne sont deubs qu’à vous seul : Vous ne vous estes pas contenté d’ayder à la pompe des 
+          spectacles, vous avez mesme charmé les spectateurs, &amp; ce que vous avez fait en cette occasion a sans doute eu l’honneur de 
+          plaire à nostre grand &amp; charmant <persName key="louisxiv" role="destinataire">Monarque</persName>, en attirent l’approbation du public : Vos 
+          Entrées ont fait admirer vostre dance, &amp; le Combat à la Barriere vostre grace &amp; votre addresse : Vous en avez esté non 
+          seulement le chef, mais encores le principal ornement ; &amp; la pompe majestueuse de cette Entrée, suivie de tant d’applaudissements, 
+          doit tout son esclat au soin que vous avez voulu prendre de la disposer ainsi : Apres tant de blessures receuës pour la grandeur de cét 
+          Estat, celuy où vous vous trouveZ maintenant est tel, que personne ne sçauroit donner de plus grands exemples de vigueur &amp; de force, 
+          que vous en avez fait voir unze fois de suite dançant tant d’Entrées differentes, &amp; soustenant armé de si rudes Combats ; Ce sont les 
+          marques d’une valeur qui ne sera pas inutile à la France, qui attend de vous en des choses plus importantes &amp; plus serieuses ce que 
+          vous faites paroistre en toutes occasions, &amp; les souhaits &amp; la creance,</p>
+        <p><persName key="saint_aignan">MONSEIGNEUR</persName>,</p>
+        <byline>De Vostre tres-humblre &amp; tres obeïssant serviteur. <persName key="ballard">R. BALLARD</persName>.</byline>
+      </div>
+      <div>
+        <pb n="1" xml:id="p1" facs=""/>
+        <head>DESCRIPTION PARTICULIERE DU GRAND BALLET ET COMEDIE DES NOPCES de Pelée &amp; de Thetis.</head>
+        <head>AVEC LES MACHINES, Changements de Scene, Habits, &amp; tout ce qui a fait admirer ces merveilleuses representations.</head>
+        <p>AVANT-PROPOS.</p>
+        <p>LA grandeur &amp; la puissance de ce Royaume ne paroist pas moins dans les divertissements, que dans les choses les plus serieuses : 
+          L’addresse incomparable du <persName key="louisxiv">Roy</persName>, qui surpasse aussi bien les autres hommes par les 
+          qualitez de sa personne que par la naissance, le rend capable de tout ce qu’il y a de plus galand : Et cependant que la pieté de la 
+          <persName key="anne_d_autriche">Reyne</persName> nous met à couvert des dangers, par les graces qu’elle obtient du Ciel pour 
+          cet Estat, la magnificence de <persName key="mazarin_jules" role="commanditaire">Monseigneur le Cardinal Mazarin</persName> luy fait 
+          donner des spectacles aussi superbes durant la <pb n="2" xml:id="p2" facs=""/>
+          guerre, que si nous estions au milieu d’une profonde paix : Ainsi nous joüissons du calme parmy les orages, &amp; donnons aux autres 
+          Estats des matieres d’admiration, par la felicité de celuy-ci : ce que vous cognoistrez par les particularitez, &amp; la veritable 
+          description de ce magnifique Ballet, &amp; de cette charmante Comedie.</p>
+      </div>
+      <div>
+        <head>PROLOGUE ET PREMIERE ENTREE.</head>
+        <p>JAMAIS impatience ne fust plus juste &amp; raisonnable que celle que tesmoigna cette grande &amp; admirable Assemblée, dans 
+          l’empressement où elle estoit pour entendre cette melodieuse Comedie &amp; voir ce beau Ballet, dancé par <persName key="louisxiv" 
+            role="danseur">sa Majesté</persName> dans la grande <placeName key="???">salle de Bourbon</placeName> : Les divertissemens qui 
+          se rencontrent dans un si grand nombre de personnes ne soulageoient point leurs desirs, &amp; les charmants objets de tant de beautez 
+          ne diminuoient rien de leur curiosité, lors que d’un coup surprenant ils virent enlever la Toille qui estoit au devant du Theatre, 
+          lequel se trouva <tech type="lumieres">remply de tant de lumieres, que ce premier esclat les laissa quelque temps dans l’admiration</tech> 
+          : Apres que la veuë s’y fust accoustumée, &amp; qu’elle eust le temps de discerner tant de merveilles, elle descouvrit au fonds du Theatre 
+          <tech type="decor">une grande Montagne</tech>, sur le sommet de laquelle le <persName key="louisxiv" role="danseur">Roy</persName> 
+          representant <name key="apollon">Apollon</name> estoit assis accompagné des <name key="muses">neufs Muses</name>, qui estoient aussi 
+          assises sur les deux costez de la mesme Montagne.</p>
+        <p><tech type="costume">L’habit du <persName key="louisxiv" role="danseur">Roy</persName> estoit couvert d’une riche broderie d’or avec 
+            quantité de rubis, les rayons qui paroissoient autour de sa teste estoient de diamants, &amp; la Couronne qui environnoit cette coiffure 
+            estoit de rubis &amp; de perles, chargée de nombre de plumes incarnates &amp; blanches</tech>.</p>
+        <p>Les <name key="muses">Muses</name> esclatoient aussi tant par leurs habillements que par le <tech type="costume">nombre des pierreries &amp; 
+            des perles dont elles estoient<pb n="3" xml:id="p3" facs=""/> 
+            parées</tech>, leurs <tech type="costume">vestemens estoient de diverses couleurs conforme à leurs personnages, tous en broderie d’or, &amp; 
+              de pierres precieuses</tech> : Elles estoient representées par des Dames de la Cour, si belles que jamais rien n’a mieux exprimé les appas 
+          de ces aymables Sœurs, que ces vivantes peintures, qui donnoient de l’esclat aux richesses qui les environnoient au lieu d’en recevoir d’elles.</p>
+        <list>
+          <item><persName key="henriette_anne_angleterre" role="chanteur">Madame la Princesse d’Angleterre</persName>, representoit <name key="erato">Erato</name>.</item>
+          <item><persName key="villeroy_catherine" role="chanteur">Mademoiselle de Villeroy</persName>, <name key="clio">Clio</name>.</item>
+          <item><persName key="lansac_crequi" role="chanteur">M. la Duchesse de Crequy</persName>, <name key="euterpe">Euterpe</name></item>
+          <item><persName key="daillon-du-ludes_charlotte" role="chanteur">M. la Duchesse de Roquelaure</persName>, <name key="thalie">Thalie</name>.</item>
+          <item><persName key="martinozzi_anne-marie" role="chanteur">M. la Princesse de Conty</persName>, <name key="uranie">Uranie</name>.</item>
+          <item><persName key="???" role="chanteur">Madame de Montloüet</persName> ; <name key="terpsycore">Terpsycore</name>.</item>
+          <item><persName key="budos_diane-henriette" role="chanteur">M. la Duchesse de S. Simon</persName>, <name key="calliope">Calliope</name>.</item>
+          <item><persName key="angennes_olonne" role="chanteur">Madame d’Olonne</persName>, <name key="melpomene">Melpomene</name>.</item>
+          <item><persName key="???" role="chanteur">Mademoiselle de Gourdon</persName>, <name key="polymnie">Polymnie</name>.</item>
+        </list>
+        <p>La <tech type="decor">Montagne</tech> qui soustenoit une si belle charge, avoit des deux costez <tech type="decor">deux rangs d’arbres qui formoient 
+            une forest tres-delicieuse, estant ouverte au milieu par une caverne, qui faisoit paroistre (aydée par la Perspective) un fort grand esloignement</tech> ; 
+          <name key="epidan">L’Epidan</name> &amp; <name key="onochone">l’Onochone</name> deux fleuves principaux de la Thessalie, en formes de deux vieillards 
+          <tech type="costume">vestus à l’antique de satin bleu en broderie d’argent par ondes</tech>, estoient appuyez sur des <tech type="decor">rochers, d’où 
+            sortoient les sources de leurs eaux</tech> ; Au deux bords de cette Forest six <name key="nereides">Nereïdes</name> <tech type="costume">vestuës de 
+              mesmes, &amp; ornées de nageoires &amp; d’escailles</tech>, cueilloient des fleurs sur leurs bords, &amp; tous ensemble <tech type="musique">
+                chantoient des vers</tech> à la loüange <name key="apollon">d’Apollon</name>, qui seruoient de Prologue à la Comedie, &amp; ausquels <tech 
+                  type="musique">les Instruments, des Luths, des Clavessins &amp; des Theorbes, &amp; le Concert des Violons respondoient alternativement avec une 
+                  charmante harmonie</tech>. Le Prologue finy <tech type="decor">la Montagne s’abbaissa entierement, &amp; rentrant toute dans la terre qui se referma
+                  </tech>, <name key="apollon">Apollon</name> &amp; les <name key="muses">neuf Muses</name> commencerent une fort belle Entrée, en laquelle le <persName 
+                    key="louisxiv" role="danseur">Roy</persName> dit confesser à tout le monde par sa grace &amp; sa dance, qu’il estoit incomparable en tout ce qu’il 
+          entreprenoit.</p>
+        <p>Les deux Fleuves estoient representez par le <persName key="???" role="danseur">Sign. Antonio</persName>, &amp; le <persName key="valie" role="danseur">Sieur 
+            Valié</persName>. Les six <name key="nereides">Nereïdes</name> par les <persName key="cambefort_jean" role="danseur">Sieurs Cambefort</persName>, <persName key="hedouin_nicolas" 
+              role="danseur">Hedoüin</persName>, <persName key="" role="danseur">Beaumont</persName>, <persName key="stafford_thomas" role="danseur">Sig. Stafort</persName>, <persName 
+                key="pignani_girolamo" role="danseur">Sig. Giorolamo</persName>, &amp; <persName key="coulon" role="danseur">Coulon</persName>.</p>
+      </div>
+      <pb n="4" xml:id="p4"/>
+      <div>
+        <head>ACTE PREMIER.</head>
+        <head>DEUXIESME ENTRÉE.</head>
+        <p>APRES que le <persName key="louisxiv" role="danseur">Roy</persName> &amp; les neufs <name key="muses">Muses</name> eurent finy leur Entrée, le Theatre 
+          changea de face en un moment, &amp; au lieu de Bois &amp; de Forests agreables, l’on vid des <tech type="decor">Rochers affreux, des ruines, une Caverne 
+            fort obscure, des nuages noirs qui s’espandirent par tout, amenant en ce lieu l’horreur &amp; l’obscurité</tech>, qui rendirent la Scene fort convenable 
+          à l’affliction qu’avoit <name key="pelee">Pelée</name> par la cruauté de <name key="thetis">Thetis</name>, lequel representé par le <persName key="???" 
+            role="danseur">Sign. Gioseppe di Torino</persName> parut incontinent apres accompagné du <name key="chiron">Centaure Chiron</name>, representé par le 
+          <persName key="???" role="danseur">Sign. Philiberto</persName>, auquel il se plaignit de la rigueur de sa <name key="thetis">Maistresse</name>.</p>
+        <p><tech type="costume">Son habit estoit tout couvert de broderie d’or et d’argent à lames ; sa Mante fort riche esclatoit de couleur de feu aussi bien que 
+            ses plumes, son Turban estoit orné d’une Aigrette noire, une chaisne d’argent attachoit à son costé un riche Cimeterre, &amp; il portoit à la main un 
+            baston argenté</tech> : Lors qu’il eut conferé quelque temps de ses amours avec le <name key="chiron">Centaure</name>, qui luy offrit le secours des 
+          enchantements, quatre <name key="magicien">Magiciens</name> &amp; quatre <name key="sorciere">Sorcieres</name> sortirent du fonds de la Grotte qu’ils 
+          ouvrirent, <tech type="costume">vestus d’habits brodez d’or &amp; de soye noire, &amp; en divers lieux de talc couleur de feu sous des fueilles d’or : 
+            Ils avoient des dragons sur leurs testes qui formoient leurs coiffures</tech>.</p>
+        <list>
+          <head><name>Magiciens</name>.</head>
+          <item><persName key="henri_de_daillon" role="danseur">Le Comte du Lude</persName>,</item>
+          <item><persName key="???" role="danseur">Le Marquis de Villequier</persName>,</item>
+          <item><persName key="florimond_ier_brulart" role="danseur">Le Marquis de Genlis</persName>,</item>
+          <item>Le S<hi rend="sup">r</hi> <persName key="" role="danseur">Verbec</persName>,</item>
+        </list>
+        <list>
+          <head><name key="sorcieres">Sorcieres</name>.</head>
+          <item><persName key="bontemps" role="danseur">M<hi rend="sup">r</hi> Bontemps</persName>,</item>
+          <item><persName key="???" role="danseur">M<hi rend="sup">r</hi> Cabou</persName>,</item>
+          <item><persName key="lully" role="danseur">Le S<hi rend="sup">r</hi> Baptiste</persName>,</item>
+          <item><persName key="lambert_michel" role="danseur">Le S<hi rend="sup">r</hi> Lambert</persName>,</item>
+        </list>
+        <p>Lors qu’ils eurent dancé leur Entrée avec beaucoup de disposition, <name key="pelee">Pelée</name> monta dans un <tech type="machine_vol">Char 
+            volant</tech>, &amp; fut emporté dans l’air avec une extreme vistesse, la flame qui l’environnoit s’esleva autour de luy, puis retombant tout 
+          d’un coup en bas, il n’en resta que la fumée.</p>
+      </div>
+      <pb n="5" xml:id="p5" facs=""/>
+      <div>
+        <head>SCENE SECONDE.</head>
+        <head>TROISIESME ENTRÉE</head>
+        <p>APEINE avoit-on perdu de veuë <name key="pelee">Pelée</name> que la Scene changea entierement, tous les premiers objets estans dissipez, on vid 
+          paroistre une <tech type="decor">Mer paisible, dont les vagues doucement agitées faisoient voir dans un grand esloignemet des eaux d’une vaste 
+            estenduë, au bord de laquelle paroissoient quelques rochers fort bien representez</tech> : Une <tech type="decor">coquille qui servoit de 
+              Barque</tech> à <name key="thetis">Thetis</name>, sortit alors d’entre les rochers &amp; s’avança dans la mer ; La <name key="thetis">Nymphe
+              </name> y estoit assise representée par la <persName key="" role="chanteur">Signora Vittoria</persName>, dont l’<tech type="costume">habit 
+                estoit couvert de broderie d’argent et de pierrerie</tech>s : Deux <name key="pecheur">Pescheurs de Corail</name>, qui estoient <persName 
+                  key="philippe_orleans" role="danseur">MONSIEUR</persName> Frere unique du Roy, &amp; le <persName key="gramont_armand" role="danseur">Comte de Guiche</persName> 
+          se voyoient à ses pieds : <tech type="costume">Leurs habits estoient noirs couverts de reths d’or, de grains de Corail, de Perles &amp; de 
+            Coquilles en broderie, leurs coiffures garnies de quantité de plumes blanches paroissoient ornées de plusieurs branches de Corail</tech> : Un 
+          <name key="???">Demy-dieu Marin</name> estoit assis à la Proüe de cette petite barque, &amp; sembloit en avoir la conduite ; Le 
+          <persName key="saint_aignan" role="danseur">Comte de S. Aignan</persName>, premier Gentilhomme de la Chambre du Roy, le representoit, son <tech 
+            type="costume">habit de satin bleu estoit en broderie d’escailles d’argent, semées de Diamants qui marquoient autant de goutes d’eau ; Sa 
+            Coiffure de Coquilles d’argent &amp; de branches de Corail estoit couverte de plumes blanches &amp; bleuës, &amp; des nageoires d’une nüance 
+            incarnate &amp; argent , ornoient le bas de son saye &amp; ses brodequins</tech>.</p>
+        <p>Cette Barque s’approchant toûjours il en sortir tout à coup une autre de dessous les ondes tirée par deux <name key="cheval_marin">Chevaux 
+            Marins</name> ; <name key="neptune">Neptune</name> representé par le <persName key="" role="danseur">Sign. Antonio Dimola</persName>, 
+          venoit seul dans ce <tech type="machine_vol">Char</tech>, vestu d’un <tech type="costume">habit en broderie d’or &amp; d’argent, hors depuis la 
+            ceinture en haut, le reste du corps paroissant nud par artifice</tech> ; <tech type="costume">Une riche Mante de satin bleu luy couvroit 
+              les espaules, &amp; la teste estoit ornée d’une Couronne de Diamants &amp; de Perles</tech> : <pb n="6" xml:id="p6" facs=""/> 
+          Quatre <name key="tritons">Tritons</name> &amp; autant de <name key="sirenes">Sireines</name> se joüoient dans la Mer autour de luy, les premiers 
+          ayant à la main de petits Tridents, &amp; les autres des Miroirs &amp; des Peignes, representez par</p>
+        <list>
+          <head><name key="sirenes">Sireines</name></head>
+          <item><persName key="cambefort_jean" role="danseur">Le Sieur Cambefort</persName>.</item>
+          <item><persName key="" role="danseur">Le Sieur Baumont</persName>.</item>
+          <item><persName key="coulon" role="danseur">Coulon</persName>, page.</item>
+          <item><persName role="danseur" key="">Le Lorain</persName>, page.</item>
+        </list>
+        <list>
+          <head><name key="tritons">Tritions</name>.</head>
+          <item><persName key="" role="danseur">Le Sieur l’Alleman</persName>.</item>
+          <item><persName key="hedouin_nicolas" role="danseur">Le Sieur Hedouin</persName>.</item>
+          <item><persName key="valie" role="danseur">Le Sieur Valié</persName>.</item>
+          <item><persName key="" role="danseur">Le Sieur le Verd</persName>.</item>
+        </list>
+        <p>Ce <tech type="musique">Chœur commença avec une fort agreable Musique</tech> à vanter le pouvoir de l’Amour, &amp; <name key="neptune">Neptune</name> 
+          applaudissant leur <tech type="musique">Concert</tech>, le confirma par son exemple, &amp; offrit à mesme temps son service à <name key="thetis">Thetis</name>, 
+          à laquelle il dit beaucoup de choses passionnées croyant la fleschir ; mais voyant par ses reparties qu’à cause de son aage il es estoit mesprisé, il frappa de 
+          son Trident la Mer, qui s’ouvrit &amp; le receut en son sein, demeurant si furieusement esmeuë que <name key="thetis">Thetis</name> fut contrainte de gaigner le 
+          rivage, où estant descenduë le <name key="???">Demy-Dieu Marin</name> qui la conduisoit dansa seul un beau pas, auquel les douze <name key="pecheur">Pescheurs de 
+            Corail</name> se meslerent, &amp; s’acquitterent fort bien de la troisiesme Entrée : C’estoit</p>
+        <list>
+          <item><persName key="philippe_orleans" role="danseur">MONSIEUR</persName> frere unicque du Roy.</item>
+          <item><persName key="jacques_stuart" role="danseur">Monsieur le Duc d’York</persName>.</item>
+          <item><persName key="gramont_armand" role="danseur">Le Comte de Guiche</persName>.</item>
+          <item><persName key="" role="danseur">Le petit Comte de S. Aignan</persName>, fils.</item>
+          <item><persName key="gaston_levis_loumagne" role="danseur">Le Marquis de Mirepoix</persName></item>
+          <item><persName key="" role="danseur">M<hi rend="sup">r</hi> Saintot</persName>.</item>
+          <item><persName key="" role="danseur">M<hi rend="sup">r</hi> de la Chesnaye</persName>.</item>
+          <item>Les S<hi rend="sup">rs</hi> <persName key="bruneau" role="danseur">Bruneau</persName>.</item>
+          <item><persName key="" role="danseur">S. Fré</persName>.</item>
+          <item><persName key="" role="danseur">Langlois</persName>.</item>
+          <item><persName key="raynal" role="danseur">Raynal</persName>.</item>
+        </list>
+      </div>
+      <div>
+        <head>SCENE TROISIESME,</head>
+        <head>QUATRIESME ENTRÉE.</head>
+        <p>LA Perspective de la Mer se fermant alors, &amp; la Scene changeant de face, un <tech type="decor">Ciel brillant de lumiere s’ouvrit tout à coup</tech>, &amp; 
+          <name key="jupiter">Jupiter</name> sur un Aigle parut en l’air, representé par le <persName key="" role="danseur">Sign. Antonio</persName>, avec toute la pompe &amp; 
+          la majesté que l’on despeint en luy ; Son <tech type="costume">habit esclattoit d’une superbe broderie d’or, &amp; son Diadesme brilloit de force pierreries</tech> : 
+          <name key="thetis">Thetis</name> n’en fut pourtant pas plus touchée que de son <pb n="7" xml:id="p7" facs=""/>
+          discours, &amp; resista toûjours fortement à ses amoureuses prieres, dont <name key="jupiter">Jupiter</name> indigné commande à une partie des nuages qui l’environnoient, 
+          de ravir cette cruelle <name key="thetis">Nymphe</name> ; elle en fut aussitost enlevée, mais <name key="junon">Junon</name> dans un <tech type="machine_vol">Char volant
+          </tech> parut incontinent à son secours ; A cette veuë <name key="jupiter">Jupiter</name> s’envola comme un esclair, &amp; la <name key="junon">Deesse</name> irritée ayant 
+          appellé les <name key="furie">Furies de la Jalousie</name> ; La teste d’un effroyable <tech type="decor">Dragon</tech> sortit de la terre, &amp; les vomit avec beaucoup 
+          de feu &amp; de fumée.</p>
+        <p>Ces horribles <name key="furie">Sœurs</name> commencerent lors une dance sortable à leur inclination, &amp; formerent des pas dont la beauté estoit encore augmentée par 
+          leur mesure toute extraordinaire : Leur <tech type="costume">habit avoit un merveilleux esclat, il estoit tout semé de flames en broderie d’or, des serpents vomissoient 
+            des plumes couleur de feu &amp; noires, dont leur coiffure estoient chargées ; Leur masques paroissoient affreux, elles portoient en une main deux serpents, &amp; dans 
+            l’autre des flambeaux allumez</tech> : Le <persName key="louisxiv" role="danseur">Roy</persName> qui ne dansa pas moins en cette Entrée qu’en toutes les autres où il 
+          fit des merveilles, representoit une de ces <name key="furie">Furies</name>, les autres l’estoient par</p>
+        <list>
+          <item><persName key="fm_lorraine" role="danseur">Le Duc de Joyeuse</persName>.</item>
+          <item><persName key="florimond_ier_brulart" role="danseur">Le Marquis de Genlis</persName>.</item>
+          <item><persName key="bontemps" role="danseur">M<hi rend="sup">r</hi> Bontemps</persName>.</item>
+          <item>Les S<hi rend="sup">rs</hi> <persName key="de_lorges" role="danseur">de Lorge.</persName></item>
+          <item><persName key="" role="danseur">Verpré</persName>.</item>
+          <item><persName key="beauchamp" role="danseur">Beauchamp</persName>.</item>
+          <item><persName key="mollier" role="danseur">Mollier</persName>.</item>
+          <item><persName key="" role="danseur">Le Vacher</persName></item>
+          <item><persName key="" role="danseur">Des-airs</persName>.</item>
+          <item><persName key="dolivet" role="danseur">Dolivet</persName>.</item>
+          <item><persName key="lully" role="danseur">Baptiste</persName>.</item>
+        </list>
+      </div>
+      <div>
+        <head>ACTE SECOND.</head>
+        <head>CINQUIESME ENTRÉE.</head>
+        <p>CETTE Entrée finissant la Scene changea encores de face, &amp; la <tech type="decor">cime du Mont-Caucase parut</tech>, un <tech type="decor">Palais d’or et d’azur se 
+            voyait dans l’esloignement, &amp; des deux costez des Maisons rustiques &amp; des Bois formoient un agreable païsage</tech> : <name key="promethee">Promethée</name> 
+          nud &amp; attaché à un rocher y estoit devoré par un Aigle, representé par le <persName key="stafford_thomas" role="chanteur">Sig. Staford</persName>,<pb n="8" xml:id="p8" 
+            facs=""/>&amp; plaignoit son malheur avec des accents aussi charmants que pitoyables: 
+          <name key="pelee">Pelée</name> y arriva dans ce mesme <tech type="machine_vol">Char volant</tech> où les <name key="magicien">Magiciens</name> l’auvoient fait monter ; 
+          &amp; pource qu’en sa conversation avec <name key="promethee">Promethée</name>, l’un &amp; l’autre descouvrit quelque rayon d’esperance de sortir de leurs miseres, sept 
+          <name key="sauvage">Sauvages</name> habitans de ces deserts en tesmoignerent leur joye par une dance ; <tech type="costume">ils estoient vestus d’un poil assez rude, 
+            ayans leurs testes seulement couronnées de fleurs, de longues barbes leur tomboient jusques à l’estomach, &amp; leurs mains estoient chargées de Massus</tech>, avec 
+          lesquels ils firent cent choses adroites &amp; extraordinaires ; Des <tech type="decor">Arbres qui formoient un delicieux ombrage</tech> dançoient avec eux, &amp; 
+          faisoient les mesmes figures : Cette Entrée toute particuliere eut les applaudissements que meritoit un dessein si nouveau ; Les <name key="sauvage">Sauvages</name> estoient</p>
+        <list>
+          <item><persName key="" role="danseur">M<hi rend="sup">r</hi> de la Chesnaye</persName>.</item>
+          <item><persName key="" role="danseur">De Joyeux</persName>.</item><!-- je pense que c'est pas le même que le marquis de la joyeuse -->
+          <item>Les S<hi rend="sup">rs</hi> <persName key="la_marre" role="danseur">de la Marre</persName>.</item>
+          <item><persName role="danseur" key="">Monglas</persName>.</item>
+          <item><persName key="laleu" role="danseur">Laleu</persName></item>
+          <item><persName role="danseur" key="raynal">Raynal</persName>.</item>
+          <item><persName key="" role="danseur">Roddier</persName>.</item>
+        </list>
+      </div>
+      <div>
+        <head>SCENE SECONDE.</head>
+        <head>SIXIESME ENTRÉE.</head>
+        <p>UNE nouvelle Scene succedant alors à celle de ce païsage, le <tech type="decor">Palais fermé qui avoit paru dans l’esloignement se fit voir ouvert avec toutes ses richesses, 
+            jamais decoration ne fut plus magnifique</tech>, &amp; ne contenta davantage les yeux ; Des <tech type="decor">feuillages d’or &amp; d’azur</tech> esclatoient sur toutes les 
+          parties de cet admirable Bastiment, &amp; le fonds en estant ouvert par une excellente Perspective, la veuë en paroissoit extremement esloignée ; Dans cette superbe demeure 
+          que <name key="jupiter">Jupiter</name> avoit fait bastir expres, pour y celebrer au deceu de <name key="junon">Junon</name> ses nopces avec <name key="thetis">Thetis</name>, 
+          lors qu’il l’auroit enlevée, ce <name key="jupiter">Dieu</name> parut avec <name key="mercure">Mercure</name>, que representoit le <persName key="pignani_girolamo" 
+            role="danseur">Sig. Girolamo</persName>, <tech type="costume">vestu de verd en broderie d’argent</tech>, leur contestation touchant ce nouveau Mariage finit par la cognoissance 
+          que <name key="mercure">Mercure</name><pb n="9" xml:id="p9" facs=""/> 
+          luy donna, d’un <name key="oracle">Oracle</name> qui menaçoit l’espoux de <name key="thetis">Thetis</name> d’avoir quelque jour d’elle un fils qui seroit plus grand que son père ; 
+          &amp; comme l’ambition se trouvoit encores plus forte en ce <name key="jupiter">Dieu</name> que son amour, il ne voulut pas courre fortune de perdre un Empire comme celuy du Ciel, 
+          &amp; ayant envoyé <name key="mercure">Mercure</name> publier qu’il n’y pensoit plus, ce <name key="mercure">Messager</name> fut emporté dans l’air en volant par un mouvement 
+          tres-rapide, &amp; douze <name key="dryade">Dryades</name> voisines de ce beau <tech type="decor">Palais</tech> ayans eu ordre de celebrer le recouvrement de la liberté de <name 
+            key="jupiter">Jupiter</name> par une dance ; Ces <name key="nymphe">Nymphes</name> parurent <tech type="costume">vestuës de toille d’argent en broderie d’or, des feuilles de 
+              chesne faites de bouqueterie ornoient leurs habits, &amp; leurs Coiffures estoient couvertes de plumes vertes &amp; blanches</tech> ; elles dancerent avec beaucoup de 
+          disposition, &amp; le <persName key="louisxiv" role="danseur">Roy</persName> qui en estoit encores, ne s’y fit pas moins admirer que dans les autres Entrées, les mesmes qui 
+          avoient representé les <name key="furie">Furies</name>, furent aussi les <name key="dryade">Dryades</name>, hors que le <persName key="???" role="danseur">Duc de Roquelaure
+          </persName> en estoit, &amp; non <persName key="lulli">le Sieur Baptiste</persName>.</p>
+        <list>
+          <item><persName key="louisxiv" role="danseur">LE ROY</persName>.</item>
+          <item><persName role="danseur" key="fm_lorraine">Le Duc de Joyeuse</persName>.</item>
+          <item><persName key="??" role="danseur">Le Duc de Roquelaure</persName>.</item>
+          <item><persName key="florimond_ier_brulart" role="danseur">Le Marquis de Genlis</persName>.</item>
+          <item><persName role="danseur" key="bontemps">M<hi rend="sup">r</hi> Bontemps</persName>.</item>
+          <item>Les S<hi rend="sup">rs</hi> <persName key="de_lorges" role="danseur">de Lorges</persName>.</item>
+          <item><persName role="danseur" key="">Des-Airs</persName>.</item>
+          <item><persName key="" role="danseur">Le Vacher</persName>.</item>
+          <item><persName role="danseur" key="">Verpré</persName>.</item>
+          <item><persName key="beauchamp" role="danseur">Beauchamp</persName>.</item>
+          <item><persName key="mollier" role="danseur">Mollier</persName>.</item>
+          <item><persName role="danseur" key="dolivet">Dolivet</persName>.</item>
+        </list>
+      </div>
+      <div>
+        <head>SCENE TROISIESME,</head>
+        <head>SEPTIESME ENTRÉE.</head>
+        <p>LES <name key="dryade">Dryades</name> s’estans retirées apres avoir fait admirer la justesse &amp; la beauté de leur dance, ce beau <tech type="decor">Palais d’or et d’azur</tech> 
+          fit place à une autre decoration qui n’attira pas moins les yeux ; c’estoit un <tech type="decor">Amphitheatre orné de Colomnes de marbres enrichies de Bronze</tech>, qui portoient 
+          une <tech type="decor">terrasse</tech> pleine de spectacteurs <tech type="costume">vestus &amp; armez à la Romaine</tech> ; tous les degrez de l’Amphitheatre en estoient aussi remplis, 
+          &amp; cela faisoit le plus bel effect du monde ; Dans l’enfonce<pb n="10" xml:id="p10" facs=""/>ment 
+          du Theatre on voyoit une <tech type="decor">Statuë de <name key="mars">Mars</name></tech>, devant laquelle un <tech type="decor">brasier</tech> estoit allumé, huict <name 
+            key="sacrificateur">Sacrificateurs</name> richement vestus chantoient des vers à l’honneur de ce <name key="mars">Dieu de la guerre</name>, &amp; le priant d’estre favorable au retour 
+          &amp; à l’amour de <name key="pelee">Pelée</name>, convioient les <name key="chevalier">Chevaliers</name> de Thessalie de celebrer des Jeux guerriers à l’honneur de celuy qui preside aux 
+          armes. Les <name key="sacrificateur">Sacrificateurs</name> estoient</p>
+        <list>
+          <item><persName key="???" role="chanteur">Le Sieur Cambefort</persName>.</item>
+          <item><persName role="chanteur" key="">Le Sieur l’Alleman</persName>.</item>
+          <item><persName key="" role="chanteur">Le Sieur Hedouin</persName>.</item>
+          <item><persName role="chanteur" key="">Le Sieur Beaumont</persName>.</item>
+          <item><persName key="stafford_thomas" role="chanteur">Sign. Staford</persName>.</item>
+          <item><persName role="chanteur" key="">Sign. Antonio</persName>.</item>
+          <item><persName key="pignani_girolamo" role="chanteur">Sign. Girolamo</persName>.</item>
+          <item><persName role="chanteur" key="">Coulon</persName>, page.</item>
+        </list>
+        <p>A peine avoient-ils cessé de chanter qu’un <name key="???">Herault</name> representé par <persName key="" role="danseur">M. De Chambonnieres</persName>, parut sur le Theatre <tech type="costume">
+            vestu de satin incarnat tout chamarré d’argent, le devant de sa casaque portoit dans une ovale un nuage plain d’esclairs</tech>, avec ces mots, <seg ana="devise"><foreign xml:lang="la">Fulmina parturiet</foreign>Fulmina parturiet</seg>: 
+          <tech type="costume">Sa toque estoit couverte d’un grand nombre de plumes incarnates &amp; blanches</tech>, livrée des Tenans, ayant à sa main un Baston argenté ; il fut suivy de quatre Esclaves 
+          portants une Barriere argentée, qu’ils poserent dans le milieu du Camp dont ils firent le tour ; Deux Estafiers portans chacun deux flambeaux de cire blanches les suivoient ; Deux Pages venoient 
+          apres, à <tech type="musique">deux Tambours, deux Fifres &amp; deux Trompettes</tech> deux à deux tous <tech type="costume">vestus de la mesme livrée &amp; couverts de plumes</tech>; Le 
+          <persName role="danseur" key="???">Sieur Geoffroy</persName> sous le nom de la <name key="">Renommée</name> les suivoit sa <tech type="musique">Trompette</tech> à la main, 
+          les aisles estenduës &amp; couronnée de Lauriers ; Le <persName key="" role="danseur">Sieur Beaubrun</persName> Juge des Tenans, &amp; le <persName role="danseur" key="">Sieur Pesneau</persName> 
+          qui estoit Parrain marchoient apres, ils estoient <tech type="costume">vestus comme les autres d’incarnat tout couvert d’argent, leurs Mantes de la mesme couleur doublées de gaze d’argent, &amp; 
+            leurs toques parées d’aigrettes blanches, &amp; de quantité de plumes incarnates</tech> ; Un Nain fort petit venoit apres eux tout caché sous l’escu de son Maistre, qui portoit la mesme devise 
+          que la Casaque du Herault &amp; les banderolles des Trompettes.</p>
+        <p>Le <persName key="saint_aignan" role="danseur">Comte de S. Aignan</persName> Chef des Tenans parut enfin tout seul dans un equipage aussi agreable que superbe ; <tech type="costume">Il estoit 
+            armé d’armes argentées, si claires &amp; si polies qu’elles paroissoient au<pb n="11" xml:id="p11" facs=""/>tant 
+            de miroirs ; son bas de saye ou gyrel estoit de satin blanc, tout couvert de broderie d’or &amp; d’argent, &amp; de couronnes de pierreries, ses brodequins estoient de mesmes renoüez de 
+            rubans incarnats &amp; blancs, son casque dont la visiere estoit haussée, avoit un Cimier fort eslevé, &amp; composé d’un nombre infiny de plumes incarnates &amp; blanches ; quatre 
+            aigrettes blanches paroissoient encores au dessus</tech>, dont l’effect en estoit aussi beau qu’on se peut imaginer ; <tech type="costume">Sa Mante toute brodée d’or &amp; d’argent estoit 
+              relevée par de grosses houpes avec des cordons, &amp; doublée de toille d’argent, elle estoit portée par un Page vestu de la livrée, il avoit une pique à la main</tech>, &amp; fit le 
+          tour du Camp en cet équipage, ayant salüé en passant leur <persName role="danseur" key="louisxiv">Majestez</persName> de fort bonne grace : Quatre <persName key="chevalier">Chevaliers</persName> 
+          le suivoient de loin, &amp; marchoient deux à deux, c’estoient Messieurs <persName key="" role="danseur">Beaufort le jeune</persName>, &amp; <persName role="danseur" key="">
+            S.Maury</persName>, puis Messieurs <persName key="" role="danseur">de Sens</persName> &amp; <persName role="danseur" key="">d’Erville</persName>, <tech type="costume">leurs armes, 
+              estoient noires couvertes de filets d’argent, leurs gyrels en broderie d’argent, leurs Mantes incarnates, &amp; les Cimiers de leurs casques ornez de plumes &amp; d’aigrettes de la livrée
+            </tech> : Apres avoir fait le tour du Camp ils se mirent en bataille derriere leur <name key="??">Chef</name>, &amp; deux <name key="escuyer">Escuyers</name> representez par Messieurs 
+          <persName key="" role="danseur">de S. Malo</persName> &amp; <persName role="danseur" key="">de la Vernette</persName>, l’un chargé de piques &amp; l’autre d’espées, marcherent les derniers de 
+          cette trouppe, qui ne fut pas plustost placée que <persName key="" role="danseur">M. De la Chappelle</persName> <tech type="costume">vestu de satin jaune &amp; noir tout chamarré 
+            d’argent</tech>, parut sur le Theatre ; Il portoit la devise du Chef des Assaillans, sçavoir une Grenade que le feu dont elle estoit remplie faisoit 
+          mettre en pieces, avec ces mots <seg ana="devise"><foreign xml:lang="la">Fracta Frango</foreign></seg> ; <tech type="costume">ses plumes estoient jaunes &amp; noires</tech>, &amp; les Estafiers, les Pages, <tech 
+            type="musique">les Tambours, les Fifres &amp; les Trompettes</tech> estoient tous <tech type="costume">vestus de la mesme livrée</tech>, &amp; faisoient le tour du Camp deux à deux, 
+          suivis par les Sieurs <persName role="danseur" key="">Parques</persName> &amp; <persName key="" role="danseur">du Val</persName> Juge &amp; Parrain des Assaillans, &amp; d’un Nain portant l’escu : 
+          <persName role="danseur" key="">Monsieur Beaufort</persName> Chef des Assaillans marchoit seul <tech type="costume">armé d’armes grises enrichies d’or, son bas de saye estoit de satin jaune 
+            en broderie d’argent fort riche, &amp; en quelques endroits d’escailles noires, ses brodequins garnis de mesmes, sa Mante fort superbe portée par un Page esclatoit de la mesme broderie, 
+            &amp; le Cimier de son casque estoit couvert de plumes jaunes &amp; noires &amp; d’aigrettes blanches</tech>, ayant la pique à la main : Il estoit suivy de Mes<pb n="12" xml:id="p12" 
+              facs=""/>sieurs <persName key="" role="danseur">Gamard</persName> ; <persName role="danseur" key="">Clinchant</persName>, <persName key="" role="danseur">Ourdault</persName>, 
+          &amp; <persName role="danseur" key="">de Hallus</persName>, Assaillans, dont les <tech type="costume">armes estoient grises à filets d’or, leurs plumes &amp; gyrels estans de la mesme 
+            couleur</tech>, &amp; des Sieurs <persName key="" role="danseur">Mongé</persName> &amp; <persName role="danseur" key="">Picot</persName> Escuyers portans des piques &amp; espées.</p>
+        <p>Si tost que les Assaillans parurent devant les Tenans, <tech type="musique">les Tambours, Trompettes &amp; Fifres</tech> les ayans animez au combat, apres une contremarche qu’ils firent 
+          &amp; plusieurs menaces, les uns &amp; les autres se placerent aux postes qu’ils devoient occuper pour voir combatre leurs Chefs, à qui les Parrains ayans osté les Mantes &amp; abbaissé 
+          les visieres, ils marcherent l’un contre l’autre avec beacoup de fierté, &amp; ne rompirent pas leurs piques avec moins d’adresse &amp; de force ; ils tirerent apres leurs espées dont ils 
+          se donnerent de si rudes coups qu’ils faisoient sortir à chaque moment du feu de leurs armes : Enfin les Parrains les ayans separez, comme ils retournoient pour la troisiesme fois au Combat, 
+          ils leverent les visieres, &amp; se mirent en estat de voir combattre à leur tour la moitié de leur trouppe, qui rompit aussi des piques &amp; donna de grands coups d’espées ; Puis tous 
+          ensemble marcherent au combat en foule, chacun choisissant son homme &amp; cherchant son avantage ; Enfin tout marche à la Barriere pour rompre d’un mesme temps, là plusieurs coups d’espées 
+          redoublez, donnez &amp; receus en si peu d’espace, causerent beaucoup de plaisir aux spectateurs : Ils paroissoient aussi frais qu’au commencement du Combat lors qu’un des Sacrificateurs les 
+          obligea de se separer pour escouter <name key="oracle">l’Oracle</name> que les asseuroit du retour de <name key="pelee">Pelée</name>, à quoy tout le chœur s’estant joint, la Musique qui avoit 
+          invité les Chevaliers à combatre, les convia à la Paix &amp; à la réjoüyssance ; Et lors <tech type="musique">les Violons ayans commencé à joüer</tech>, ils sortirent par un agreable pirrique, 
+          qui termina cette Scene avec de grands applaudissemens, qui ont continué depuis toutes les fois que le Ballet s’est dancé : Le <persName key="saint_aignan" role="danseur">Comte de S. Aignan
+          </persName> y ayant tesmoigné tant d’adresse, que neuf fois de suite il a rompu toutes les six piques sans en manquer pas une &amp; plusieurs espées.</p>
+      </div>
+      <pb n="13" xml:id="p13" facs=""/>
+      <div>
+        <head>ACTE TROISIESME,</head>
+        <head>HUICTIESME ENTRÉE.</head>
+        <p>A CETTE Scene en succeda un autre, dont la decoration eut aussi ses charmes &amp; ses agréements ; Ce fut le Palais de <name key="thetis">Thetis</name>, <tech type="decor">composé de doubles 
+            piliers de marbre rouge, avec des bazes, des chapiteaux, des corniches, des trophées &amp; des vases d’argent</tech> ; Dans cette superbe demeure <name key="pelee">Pelée</name> fut abordé par 
+          le <name key="chiron">Centaure Chiron</name>, qui pour luy tesmoigner la joye qu’il avoit du retour de sa personne &amp; de ses esperances, fit venir le Maistre de son Academie &amp; douze des 
+          plus dispos &amp; des mieux faits de ses disciples pour dancer devant luy &amp; le divertir ; <persName key="" role="danseur">M. Hesselin</persName> estoit le Maistre de cette Academie, 
+          lequel se desguisant avec les siens, en <tech type="costume">s’habillant à l’Indienne, entra richement vestu</tech>, monté sur un Chameau environné d’Esclaves noirs, de Perroquets &amp; de Singes ; 
+          Ayant dancé seul il fit entrer les douze qui dancerent une des plus superbe Entrée qu’on se puisse imaginer ; <tech type="costume">Leurs habits estoient moitié de broderie d’or, &amp; moitié de 
+            broderie d’argent par escailles, des plumes couleur de feu les ornoient en divers lieux, avec une Aigrette noire &amp; grand nombre de plumes blanches</tech> ; ils avoient à la main de petits 
+          <tech type="musique">Tambours</tech> fait en forme de miroirs, qu’ils frappoient en cadence avec beaucoup d’agilité &amp; de justesse : Le <persName role="danseur" key="louisxiv">Roy</persName> 
+          toujours admirable estoit l’un de ces Academistes &amp; les autres estoient representez par</p>
+        <list>
+          <item><persName key="" role="danseur">M<hi rend="sup">r</hi> Sainctot</persName>.</item>
+          <item><persName role="danseur" key="bontemps">M<hi rend="sup">r</hi> Bontemps</persName>.</item>
+          <item><persName key="" role="danseur">M<hi rend="sup">r</hi> Cabou</persName>.</item>
+          <item>Les S<hi rend="sup">rs</hi> <persName role="danseur" key="mollier">Mollier</persName>.</item>
+          <item><persName key="" role="danseur">Bruneau</persName>.</item>
+          <item><persName role="danseur" key="">Langlois</persName></item>
+          <item><persName key="lulli" role="danseur">Baptiste</persName></item>
+          <item><persName role="danseur" key="">Le Vacher</persName></item>
+          <item><persName key="beauchamp" role="danseur">Beauchamp</persName>.</item>
+          <item><persName role="danseur" key="">De Lorges</persName>.</item>
+          <item><persName key="dolivet" role="danseur">Dolivet</persName>.</item>
+        </list>
+      </div>
+      <pb n="14" xml:id="p14" facs=""/>
+      <div>
+        <head>SCENE SECONDE.</head>
+        <head>NEUFIESME ENTRÉÉE.</head>
+        <p>CETTE Entrée finie <name key="thetis">Thetis</name> arriva dans son Palais, &amp; lors l’amoureux de <name key="pelee">Pelée</name> n’oublia ny prieres, ny persuasions, ny larmes ; mais la <name 
+            key="thetis">Nymphe</name> toujours inexorable se changea en un rocher qu’il embrassa, protestant de mourir plustost que de le quitter.</p>
+        <p><name key="thetis">Thetis</name> vivement touchée de cette marque de son amour, se rendit pour lors &amp; l’accepta pour Mary, ce qui donna sujet à la dixiesme Entrée, qui fut de cinq Courtisants 
+          &amp; de cinq Dames de la Cour de <name key="pelee">Pelée</name>, <tech type="costume">vestuës de satin couleur de rose brodé d’or &amp; d’argent &amp; de pierreries</tech> ; Les Hommes ayant sur 
+          leurs testes des <tech type="costume">Turbans tous couverts de plumes</tech>, &amp; les femmes de <tech type="costume">petites coiffures à la Turque garnies d’aigrettes &amp; de plumes de diverse 
+            couleurs</tech> : Ceux qui dancerent cette agreable Entrée furent</p>
+        <list>
+          <head>Courtisants.</head>
+          <item><persName key="nogaret_candale" role="danseur">Le Duc de Candalle</persName>.</item>
+          <item><persName role="danseur" key="???">Le Marquis de Villequier</persName>.</item>
+          <item><persName key="florimond_ier_brulart" role="danseur">Le Marquis de Genlis</persName>.</item>
+          <item>Les Srs <persName role="danseur" key="verpre">Verpré</persName>.</item>
+          <item><persName key="???" role="danseur">Le Comte</persName>.</item>
+        </list>
+        <list>
+          <head>Dames.</head>
+          <item>Les Srs <persName role="danseur" key="???">Le Vacher</persName>.</item>
+          <item><persName key="beauchamp" role="danseur">Beauchamp</persName>.</item>
+          <item><persName role="danseur" key="dolivet">Dolivet</persName>.</item>
+          <item><persName key="???" role="danseur">Des-Airs</persName>.</item>
+          <item><persName role="danseur" key="???">Langlois</persName>.</item>
+        </list>
+        <p>A cette trouppe de Courtisans en succeda une autre de petites filles de cette mesme Cour, qui avec <tech type="musique">des Castagnettes &amp; des Tambours de Basque</tech>, <tech type="costume">
+            coiffées à la Persienne &amp; vestuës de jaune &amp; de noir</tech>, sous la conduite d’un <name key="eunuque">Eunuque</name>, solemnisoient avec une extreme gayeté le jour bien-heureux où <name key="thetis">Thetis</name> 
+          s’estoit renduë à la passion de leur <name key="pelee">Prince</name> : <name key="eunuque">L’Eunuque</name> estoit representé par le <persName>Sieur Ribera</persName>, &amp; les petites filles par</p>
+        <list>  
+          <item><persName key="mollier_marie" role="danseur">La petite Mollier</persName>.</item>
+          <item><persName key="???" role="danseur">La petite Taloit</persName>.</item>
+          <item><persName key="???" role="danseur">La petite Ribera</persName>.</item>
+          <item><persName key="???" role="danseur">La petite du Clou</persName>.</item>
+          <item><persName key="???" role="danseur">La petite Mesnard</persName>.</item>
+          <item><persName key="???" role="danseur">La petite Berthelot</persName>.</item>
+          <item><persName key="???" role="danseur">La petite de Verlu</persName>.</item>
+          <item><persName key="???" role="danseur">La petite Bonart.</persName></item>
+        </list>
+      </div>
+      <pb n="15" xml:id="p15"/>
+      <div>
+        <head>SCENE DERNIERE.</head>
+        <head>DIXIESME ET DERNIERE ENTREE.</head>
+        <p>CEPENDANT <name key="rpomethee">Promethée</name> delivré du tourment c’estoit rendu aupres de ces <name key="???">Amans</name>, <!--les amants c'est pelee et thetis?-->&amp; tous trois bien d’accord par un agreable <tech type="musique">
+            Concert</tech>, prisoient la Fidelité, &amp; le bon-heur qui la couronne d’ordinaire, lors qu’un <tech type="decor">Ciel s’ouvrit, &amp; sur les divers nuages</tech> parurent les <name key="divinite">
+              Deïtez</name> qui venoient honorer les Nopces de <name key="pelee">Pelée</name> &amp; de <name key="thetis">Thetis</name>.</p>
+        <p>Le <persName key="louisxiv">Roy</persName> representant la <name key="guerre">Guerre</name>, l’un des Arts servilles, estoit assis dans ce Ciel à la main gauche ; Le <persName key="saint_aignan" 
+            role="danseur">Comte de S. Aignan</persName> qui faisoit le personnage de l’<name key="agriculture">Agriculture</name>, estoit assis à l’un de ses costez, &amp; le <persName role="danseur" key="levis-ventadour_damville">Duc Damville</persName> sous 
+          celuy <name key="hercule">d’Hercule</name> à l’autre : La <name key="chasse">Chasse</name> representée par le <persName key="" role="danseur">Sieur de Lorges</persName>, la <name key="tapisserie">Tapisserie</name> par le <persName role="danseur" key="verpre">
+            Sieur de Verpré</persName>, l’<name key="orfevrerie">Orfevrerie</name> par le <persName key="" role="danseur">Sieur le Vacher</persName>, la <name key="navigation">Navigation</name> par le <persName role="danseur" key="dolivet">Sieur 
+              Dolivet</persName>, &amp; la <name key="chirurgie">Chirurgie</name> par le <persName key="beauchamp" role="danseur">Sieur Beauchamp</persName>, estoient autour d’eux en divers nuages, vestus d’
+          <tech type="costume">habits tres-riches</tech> &amp; sortables à ce qu’ils representoient ; Celuy du <persName role="danseur" key="louisxic">Roy</persName> estoit couvert de <tech type="costume">petits 
+            quarrez de pierreries qui marquoient un corps de cuirasse à l’antique &amp; une cotte d’armes ; Son Casque avoit pour creste un affreux Dragon qui vomissoit des plumes bleuës, isabelle &amp; 
+            blanches</tech>, sa <persName key="louisxiv" role="danseur">Majesté</persName> tenoit d’une contenance toute Martiale une espée à la main. Le <persName role="danseur" key="saint_aignan">
+              Comte de S. Aignan</persName> estoit <tech type="costume">vestu de satin blanc, couvert d’une broderie d’espies d’or &amp; de pierreries, &amp; la coiffure aussi d’espies soustenoit grand 
+                nombre de plumes blanches, une petite besche fort enrichie marquoit la Profession du personnage qu’il representoit</tech>. La <name key="chasse">Chasse</name> estoit <tech type="costume">vestuë de vert en broderie 
+                  d’or &amp; d’argent, &amp; portoit un dard à la main</tech>. La <name key="tapisserie">Tapisseries</name> se couvroit d’un <tech type="costume">poinct de Hongrie d’or &amp; de soye</tech>, qui imitoit fort bien les ouvrages des Dames. 
+          L’<name key="orfevrerie">Orfevrerie</name> brilloit de <tech type="costume">chaisnes d’or et de pierreries</tech>. <name key="navigation">La Navigation</name> <tech type="costume">vestuë comme les Matelots 
+            d’un riche satin de la Chine enrichy d’or, portoit sur sa teste un vaisseau le mieux fait du monde, dont les Mats &amp; le corps estoient d’or &amp; de cordages d’argent</tech> : Et <tech type="costume">l’habit 
+              de la <name key="chirurgie">Chirurgie</name> faisoit voir quasi par tout sous les couleurs de feu, de bleu &amp; d’argent, les instruments qui servent à cet impitoyable mestier</tech>. <name key="hercule">
+                Hercules</name> assis au rang de ces Arts serviles estoit fort bien vestu, &amp; <tech type="costume">la peau de Lion qui couvroit un habit superbe &amp; agreable, paroissoit d’un or qui n’imitoit pas mal 
+                  le poil de cette beste ; Son casque orné de plumes couleur de feu revenoit fort bien à l’habit</tech>, le <persName key="levis-ventadour_damville" role="danseur">Duc Damville</persName> qui representoit ce personnage 
+          avoit à la main une Massuë fort proprement ajustée.</p>
+        <p>Vis-à-vis de ces Arts serviles esclatoient les Arts liberaux, <tech type="costume">plus parez de leur beauté que de la richesse de leurs habits, bien qu’ils fussent tous brillant d’or &amp; de pierreries ; 
+            ils estoient quasi d’une mesme sorte, distinguez seulement par les couleurs qui leurs estoient les plus convenables</tech>.</p>
+        <list>
+          <item><persName role="danseur" key="">Madame de Brancas</persName>, representoit la <name key="geometrie">Geometrie</name>.</item>
+          <item><persName key="olympe_mancini_soissons" role="danseur">Mademoiselle de Mancini</persName>, la <name key="musique">Musique</name></item> <!--je pense que c'est elle et pas sa sour marie mais a verifier-->
+          <item><persName role="danseur" key="">Mademoiselle de Mortemart</persName>, la <name key="dialectique">Dialectique</name>.</item>
+          <item><persName key="estree_christine" role="danseur">Mademoiselle d’Estrée</persName>, l’<name key="astrologie">Astrologie</name>.</item>
+          <item><persName key="" role="danseur">Mademoiselle de la Riviere-Bonneüil</persName>, la <name key="grammaire">Grammaire</name>.</item>
+          <item><persName role="danseur" key="">Mademoiselle de Foüilloux</persName>, la <name key="rhetorique">Rhetorique</name>.</item>
+          <item><persName key="" role="danseur">Mademoiselle de la Loupe</persName>, l’<name key="arithetique">Arithetique</name>.</item>
+        </list>
+        <p>Au fonds du Ciel <name key="junon">Junon</name> Pronube representée par <persName>Madame de Commenge</persName>, descendoit sur une <tech type="machine_vol">Machine</tech>, une <tech type="costume">
+            Couronne de Diamants sur la teste &amp; un riche Sceptre à la main</tech>, l’esclat de son visage respondoit fort bien à la magnificence de son habit, &amp; rien que de beau ne paroissoit en elle.</p>
+        <p>Le <persName key="fm_lorraine" role="danseur">Duc de Joyeuse</persName> representant <name key="hymenee">Hymenée</name> estoit sur un siege plus bas que le sien, &amp; s’avançant avec elle vers le bord du 
+          Ciel, passoit entre les Arts liberaux et serviles, <tech type="costume">vestu d’un habit couvert d’une tres-superbe broderie &amp; fort proprement assorty</tech> ; cependant qu’au plus haut du Ciel 
+          un <tech type="decor">Palais</tech> se descouvroit tel que l’imagination mesme auroit peine à s’en representer un plus beau : <tech type="decor">Il estoit tout fait de pieces de Cristal, dont les unes 
+            demeurées dans leur naturelle blancheur, &amp; aydées de l’artifice des lumieres attachées par le dehors, exprimoient le beau feu des <pb n="17" xml:id="p17" facs=""/>
+            Diamants ; pendant que les autres avec des feuilles rouges, bleuës, vertes &amp; violettes, marquoient autant de Rubis, de Turquoises, d’Esmeraudes, &amp; d’Amanthistes</tech> : Huict <name 
+              key="amour">Amours</name> estoient au pied de ce riche Palais ; representez par</p>
+        <list>
+          <item><persName key="philippe_orleans" role="danseur">MONSIEUR</persName> Frere unique du Roy.</item>
+          <item><persName role="danseur" key="gramont_armand">Le Comte de Guiche</persName>.</item>
+          <item><persName key="nicolas_neufville_villeroy" role="danseur">Le Marquis de Villeroy</persName>.</item>
+          <item><persName role="danseur" key="">Le petit Conte de S. Aignan</persName>, fils.</item>
+          <item><persName key="" role="danseur">Le petit Rassent</persName>, Page de la Chambre du Roy.</item>
+          <item><persName role="danseur" key="laleu">Laleu</persName><persName key="" role="danseur">Bonart</persName>.</item>
+          <item>&amp; <persName role="danseur" key="">Aubry</persName>.</item>
+        </list>
+        <p><tech type="costume">Le corps de leurs habits representoit une nudité que les superbes Escharpes de leurs Carquois paroit infiniment, leurs bas de sayes estoient isabelle, or &amp; argent ; des aisles 
+            de toutes couleurs marquoient leur legereté, &amp; les flesches qu’ils descochoient faisoient apprehender leur pouvoir</tech>.</p>
+        <p>La <tech type="machine_vol">Machine</tech> qui portoit tous les Arts bien que chargée de seize personnes, descendit cependant par un mouvement imperceptible jusques à terre, où arriverent aussi par plusieurs 
+          endroits sur divers nuages , <name key="mars">Mars</name>, <name key="saturne">Saturne</name>, <name key="venus">Venus</name>, <name key="bacchus">Bacchus</name>, <name key="pallas">Pallas</name>, <name 
+            key="diane">Diane</name>, <name key="ceres">Ceres</name>, &amp; <name key="cibelle">Cibelle</name> ; <name key="pluton">Pluton</name> sortant de ses abismes s’y rendit aussi, &amp; <name key="neptune">Neptune
+            </name> hors de ces eaux, &amp; toutes ses <name key="divinite">Deïtez</name>, commencerent un Air à la loüange des deux <name key="thetis"><name key="pelee">Amans</name></name>, auquel les <tech type="musique">
+              Violons</tech> se meslerent, <name key="junon">Junon</name> Pronube, <name key="hymenee">Hymenée</name>, <name key="hercule">Hercules</name>, &amp; les Arts liberaux &amp; serviles, dancerent la dixiesme &amp; 
+          derniere Entrée, puis tous se demasquerent, laissans les spectateurs si satisfaits, si charmez &amp; si esbloüys, que parmy tant de matieres d’estonnement, quoy que des-ja sortis de la salle, ils ne se pouvoient 
+          lasser de repasser en leur memoire les merveilles qu’ils avoient veuës : Mais plus que tout les perfections du <persName key="louisxiv" role="danseur">ROY</persName>, &amp; la gentillesse de <persName 
+            role="danseur" key="philippe_orleans">MONSIEUR</persName> son Frere unique, leur souhaitant tout le bon-heur dont ils sont dignes.</p>
+        <p>Et pour une preuve infaillible de la beauté de ces representations, dix fois n’ont pas esté suffisantes de satisfaire la curiosité du nombre infiny de ceux qui se pressoient pour en estre les tesmoins, ce qui obligea 
+          sa <persName key="louisxiv" role="danseur">Majesté</persName> de le redancer encores, pour ne pas faire dans un si grand nombre d’heureux un petit nombre de miserables, &amp; pour donner à ceux qui y accouroient des 
+          Provinces esloignées, le contentement que ceux de la Cour &amp; de Paris ont des-ja gousté.</p>
+        <p>FIN.</p>
+      </div>
+    </body>
+  </text>
+</TEI>
