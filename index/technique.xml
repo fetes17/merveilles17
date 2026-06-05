@@ -10,39 +10,30 @@ Ce qui est inscrit ici s’applique à tous les descendants.-->
   <entry xml:id="animal">
     <form>Animaux et créatures</form>
   </entry>
-  
-  <entry xml:id="construction">
-    <form>Constructions</form>
+  <entry xml:id="construction_decor">
+    <form>Constructions et décors</form>
+    <entry xml:id="construction">
+      <form>Constructions</form>
+    </entry>
+    <entry xml:id="decor">
+      <form>Décors</form>
+    </entry>
   </entry>
-  
-  <entry xml:id="decor">
-    <form>Décors</form>
-  </entry>
-  
   <entry xml:id="costume">
     <form>Costumes</form>
   </entry>
-  
-  <entry xml:id="eaux">
-    <form>Jeux d’eaux</form>
+    <entry xml:id="eaux">
+      <form>Jeux d’eaux</form>
+    </entry>
+  <entry xml:id="feux">
+    <form>Feux et lumières</form>
+    <entry xml:id="feux-artifice">
+      <form>Feux d’artifice</form>
+    </entry>
+    <entry xml:id="lumieres">
+      <form>Lumières</form>
+    </entry>
   </entry>
-  
-  <entry xml:id="feux-artifice">
-    <form>Feux d’artifice</form>
-  </entry>
-  
-  <entry xml:id="lumieres">
-    <form>Lumières</form>
-  </entry>
-  
-  <entry xml:id="bruitage">
-    <form>Bruitages</form>
-  </entry>
-  
-  <entry xml:id="repas">
-    <form>Collations et festins</form>
-  </entry>
-  
   <entry xml:id="machine">
     <form>Machines</form>
     <entry xml:id="machine_vol">
@@ -64,7 +55,15 @@ Ce qui est inscrit ici s’applique à tous les descendants.-->
       <form>Trappes</form>
     </entry>
   </entry>
+
+    <entry xml:id="bruitage">
+      <form>Bruitages</form>
+    </entry>
   
+  <entry xml:id="repas">
+    <form>Collations et festins</form>
+  </entry>
+    
   <entry xml:id="ecriture">
     <form>Techniques d'écriture</form>
     <entry xml:id="devise">
@@ -87,4 +86,5 @@ Ce qui est inscrit ici s’applique à tous les descendants.-->
     </entry>
   </entry>
   
+
 </superEntry>
