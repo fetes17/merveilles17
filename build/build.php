@@ -269,7 +269,6 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
     "foreign" => "Membres de la royauté étrangère",
     "militaire" => "Militaires",
     "pro" => "Professionnel·le·s",
-    "local" => "Personnes liées à un lieu",
     "O" => "Groupe inconnu",
   );
 
