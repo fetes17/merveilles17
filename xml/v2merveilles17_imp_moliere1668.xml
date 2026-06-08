@@ -46,13 +46,13 @@
   </teiHeader>
   <text>
     <front>
-      <pb n="np" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526239b"/>
+      <pb n="np" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526239b/f4.item"/>
       <titlePage>
         <docTitle>
           <titlePart>LE GRAND DIVERTISSEMENT ROYAL DE <placeName key="versailles">VERSAILLES</placeName>.</titlePart>
         </docTitle>
         <docImprint>A <placeName key="paris">PARIS</placeName>,</docImprint>
-        <docImprint>Par <persName key="" role="imprimeur">ROBERT BALLARD</persName>,
+        <docImprint>Par <persName key="ballard" role="imprimeur">ROBERT BALLARD</persName>,
           seul Imprimeur du <persName key="louisxiv">Roy</persName> pour la Musique.</docImprint>
         <docDate><date when="1668">M. DC. LXVIII</date>.</docDate>
         <imprimatur>Avec Privilege de <persName key="louisxiv">sa Majesté</persName>.</imprimatur>
@@ -560,18 +560,18 @@
           <pb n="19" xml:id="p19" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526239b/f22.item"/> <name key="bergers">BERGERS</name>.</head>
         <label type="speaker"><name key="choeur_amour">Chœurs d’Amour</name>.</label>
         <list>
-          <item><persName key="">Herbert <!-- Se réfère à André Hubert ? aussi présent ici https://www.gutenberg.org/cache/epub/57270/pg57270-images.html --></persName>.</item>
+          <item><persName key="hebert_laurent">Herbert</persName>.</item>
           <item><persName key="petit_beaumont">Beaumont</persName>.</item>
           <item><persName key="louisriccoboni">Boni</persName>.</item>
-          <item><persName key="">Fernon le Cadet <!-- Aussi présent ici https://www.gutenberg.org/cache/epub/57270/pg57270-images.html --></persName>.</item>
-          <item><persName key="">Rebel <!-- Aussi présent ici https://www.gutenberg.org/cache/epub/57270/pg57270-images.html --></persName>.</item>
+          <item><persName key="fernon_louis">Fernon le Cadet</persName>.</item>
+          <item><persName key="rebel_jean">Rebel</persName>.</item>
           <item><persName key="gingan">Gingan le Cadet</persName>.</item>
-          <item><persName key="">Longüeil <!-- Aussi présent dans la fiche personnage de Louis de MOLLIER https://operabaroque.fr/MOLLIER.htm et ici https://operabaroque.fr/LULLY_ESCARBAGNAS.htm --></persName>.</item>
+          <item><persName key="longueil_pierre">Longüeil</persName>.</item>
           <item><persName key="">Cottereau</persName>.</item>
-          <item><persName key="">Jeannot <!-- Aussi orthographié Jannot https://moliere21.cnrs.fr/livret-de-ballet-de-psyche/ --></persName> (Pages).</item>
-          <item><persName key="">Laigu <!-- Aussi présent ici https://moliere21.cnrs.fr/livret-du-grand-divertissement-royal-de-versailles/ --></persName> (Pages).</item>
-          <item><persName key="">Piesche Pere <!-- Surement Pierre Piesche, https://francearchives.gouv.fr/fr/facomponent/b90e649e42d466b8ba1ccf290196344e31c2466e | Aussi présent ici https://moliere21.cnrs.fr/livret-du-grand-divertissement-royal-de-versailles/ --></persName>.</item>
-          <item><persName key="">Piesche fils <!-- Aussi présent ici https://moliere21.cnrs.fr/livret-du-grand-divertissement-royal-de-versailles/ --></persName>.</item>
+          <item><persName key="jeannot_chanteur">Jeannot</persName> (Pages).</item>
+          <item><persName key="laigu">Laigu</persName> (Pages).</item>
+          <item><persName key="piesche_pierre">Piesche Pere</persName>.</item>
+          <item><persName key="piesche_fils">Piesche fils</persName>.</item>
           <item><persName key="destouches">Destouche</persName>.</item>
           <item><persName key="la_caisse">La Caisse Cadet</persName>.</item>
           <item><persName key="marchand">Marchand</persName>.</item>
@@ -579,16 +579,16 @@
           <item><persName key="la_caisse">La Caisse Cadet</persName>.</item>
           <item><persName key="la_fontaine">La Fontaine</persName>.</item>
           <item><persName key="charlot">Charlot</persName>.</item>
-          <item><persName key="">Martinot Pere <!-- Aussi présent ici https://moliere21.cnrs.fr/livret-du-grand-divertissement-royal-de-versailles/ --></persName>.</item>
-          <item><persName key="">Martinot fils <!-- Aussi présent ici https://moliere21.cnrs.fr/livret-du-grand-divertissement-royal-de-versailles/ --></persName>.</item>
+          <item><persName key="martinot_edmee">Martinot Pere</persName>.</item>
+          <item><persName key="martino_fils">Martinot fils</persName>.</item>
           <item><persName key="le_roux_aine">Le Roux, laisné</persName>.</item>
           <item><persName key="le_roux_cadet">Le Roux Cadet</persName>.</item>
-          <item><persName key="">Guenin <!-- Aussi présent ici https://moliere21.cnrs.fr/livret-du-grand-divertissement-royal-de-versailles/ --></persName>.</item>
+          <item><persName key="guenin_violon">Guenin</persName>.</item>
           <item><persName key="le_grais">Le Grais</persName>.</item>
-          <item><persName key="">Brüard <!-- Se réfère à Brouard ? https://classiques-garnier.com/dictionnaire-des-musiciens-et-danseurs-a-la-cour-de-louis-xiv-et-des-princes-1643-1661-tome-i-a-c-table-des-entrees.html?displaymode=full --></persName>.</item>
+          <item><persName key="brouart_jeanII">Brüard</persName>.</item>
           <item><persName key="roulle">Roullé</persName>.</item>
           <item><persName key="magny">Magny</persName>.</item>
-          <item><persName key="">Chevallier <!-- Aussi présent ici https://moliere21.cnrs.fr/livret-de-ballet-de-psyche/ --></persName>.</item>
+          <item><persName key="chevallier">Chevallier</persName>.</item>
         </list>
       </div>
       
@@ -597,20 +597,20 @@
           <pb n="20" xml:id="p20" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1526239b/f23.item"/> <name key="satyre">SATYRES</name>.</head>
         <label type="speaker"><name key="choeur_bacchus">Chœurs de Bachus</name>.</label>
         <list>
-          <item><persName key="">Hedoüin <!-- aussi orthographié "Hédoin" https://www.gutenberg.org/cache/epub/57270/pg57270-images.html et aussi ici Aussi présent ici https://moliere21.cnrs.fr/livret-de-ballet-de-psyche/ --></persName>.</item>
+          <item><persName key="hedouin_nicolas">Hedoüin</persName>.</item>
           <item><persName key="louis_don">Dom</persName>.</item>
-          <item><persName key="">Fernon Laisné <!-- aussi présent ici https://www.gutenberg.org/cache/epub/57270/pg57270-images.html --></persName>.</item>
-          <item><persName key="">Deschamps <!-- Aussi présent ici https://moliere21.cnrs.fr/livret-de-ballet-de-psyche/ --></persName>.</item>
-          <item><persName key="">Orat <!-- aussi orthographié "Aurat" https://www.gutenberg.org/cache/epub/57270/pg57270-images.html --></persName>.</item>
+          <item><persName key="fernon_nicolas">Fernon Laisné</persName>.</item>
+          <item><persName key="deschamps_charles">Deschamps</persName>.</item>
+          <item><persName key="orat">Orat</persName>.</item>
           <item><persName key="du_pron">David</persName>.</item>
-          <item><persName key="">Monier <!-- Aussi présent ici https://moliere21.cnrs.fr/livret-du-grand-divertissement-royal-de-versailles/ --></persName>.</item>
-          <item><persName key="">Serignan <!-- aussi présent ici https://www.gutenberg.org/cache/epub/57270/pg57270-images.html --></persName>.</item>
-          <item><persName key="">Sanson <!-- Aussi présent ici https://moliere21.cnrs.fr/livret-du-grand-divertissement-royal-de-versailles/ --></persName>.</item>
-          <item><persName key="">Oudot <!-- Aussi présent ici https://moliere21.cnrs.fr/livret-de-ballet-de-psyche/ --></persName>.</item>
+          <item><persName key="monier">Monier</persName>.</item>
+          <item><persName key="vallin_vincent">Serignan</persName>.</item>
+          <item><persName key="">Sanson</persName>.</item>
+          <item><persName key="oudot_chanteur">Oudot</persName>.</item>
           <item><persName key="simon_blondel">Simon</persName>. (Pages).</item>
-          <item><persName key="">Thiery <!-- Aussi présent ici https://moliere21.cnrs.fr/livret-du-grand-divertissement-royal-de-versailles/ --></persName>. (Pages).</item>
-          <item><persName key="">Truslon <!-- Aussi présent ici https://moliere21.cnrs.fr/livret-du-grand-divertissement-royal-de-versailles/ --></persName>. (Pages).</item>
-          <item><persName key="">Augé <!-- Se réfère à Maugé ? Présent ici https://moliere21.cnrs.fr/livret-de-ballet-de-psyche/ --></persName>. (Pages).</item>
+          <item><persName key="thierry_danseuse">Thiery</persName>. (Pages).</item>
+          <item><persName key="">Truslon</persName>. (Pages).</item>
+          <item><persName key="auge">Augé</persName>. (Pages).</item>
           <item><persName key="jean_hottere">Jean</persName>. (Hottere).</item>
           <item><persName key="louis_hottere">Louys</persName>. (Hottere).</item>
           <item><persName key="nicolas_hottere">Nicolas</persName>. (Hottere).</item>
@@ -623,20 +623,20 @@
           <item><persName key="balus">Balus</persName>.</item>
           <item><persName key="des_matins">Des-Matins</persName>.</item>
           <item><persName key="feugre">Feugré</persName>.</item>
-          <item><persName key="">Du Pain <!-- Aussi présent ici https://moliere21.cnrs.fr/livret-du-grand-divertissement-royal-de-versailles/ | https://classiques-garnier.com/dictionnaire-des-musiciens-et-danseurs-a-la-cour-de-louis-xiv-et-des-princes-1643-1661-tome-ii-d-l-table-des-entrees.html?displaymode=full --></persName>.</item>
-          <item><persName key="">L’Espine <!-- Aussi présent ici https://moliere21.cnrs.fr/livret-de-ballet-de-psyche/ --></persName>.</item>
+          <item><persName key="">Du Pain</persName>.</item>
+          <item><persName key="lespine_violon">L’Espine</persName>.</item>
           <item><persName key="camille">Camille</persName>.</item>
-          <item><persName key="">Bernard <!-- Aussi présent ici https://moliere21.cnrs.fr/livret-de-ballet-de-psyche/ --></persName>.</item>
-          <item><persName key="">Bruslard <!-- Aussi présent ici https://moliere21.cnrs.fr/livret-du-grand-divertissement-royal-de-versailles/ | https://classiques-garnier.com/dictionnaire-des-musiciens-et-danseurs-a-la-cour-de-louis-xiv-et-des-princes-1643-1661-tome-i-a-c-table-des-entrees.html?displaymode=full --></persName>.</item>
+          <item><persName key="bernard">Bernard</persName>.</item>
+          <item><persName key="bruslard_jacques">Bruslard</persName>.</item>
           <item><persName key="des_noyers">Desnoyers</persName>.</item>
-          <item><persName key="">S. Pere <!-- Aussi présent ici https://moliere21.cnrs.fr/livret-de-ballet-de-psyche/ --></persName>.</item>
+          <item><persName key="s-pere">S. Pere</persName>.</item>
           <item><persName key="varin">Varin</persName>.</item>
           <item><persName key="mercier">Mercier</persName>.</item>
-          <item><persName key="">Chevalier <!-- Se réfère à Chevallier ? Présent ici https://moliere21.cnrs.fr/livret-de-ballet-de-psyche/ --></persName>.</item>
+          <item><persName key="chevalier">Chevalier</persName>.</item>
           <item><persName key="joubert">Joubert</persName>.</item>
           <item><persName key="la_place">La Place</persName>.</item>
-          <item><persName key="">Fossart <!-- Aussi présent ici https://moliere21.cnrs.fr/livret-de-ballet-de-psyche/ --></persName>.</item>
-          <item><persName key="">Lique <!-- Aussi présent ici https://moliere21.cnrs.fr/livret-de-ballet-de-psyche/ --></persName>.</item>
+          <item><persName key="fossart_violon">Fossart</persName>.</item>
+          <item><persName key="lique_violon">Lique</persName>.</item>
         </list>
         <p>FIN.</p>
       </div>

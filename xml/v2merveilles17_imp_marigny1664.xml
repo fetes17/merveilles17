@@ -54,7 +54,7 @@
           <titlePart>ECRITE A UN <name key="monsieur">GENTIL-HOMME</name> qui est presentement hors de <placeName key="france">France</placeName>.</titlePart>
         </docTitle>
         <docImprint>A <placeName key="paris">PARIS</placeName>,</docImprint>
-        <docImprint>Chez <persName key="" role="imprimeur">CHARLES DE SERCY</persName> <!-- Pas de @key -->, au Palais,
+        <docImprint>Chez <persName key="sercy_charles" role="imprimeur">CHARLES DE SERCY</persName> <!-- Pas de @key -->, au Palais,
           au sixième Pilier de la grand’Salle, vis à vis la montée de la Cour des Aydes, à la bonne Foy couronnée</docImprint>
         <docDate><date when="1664">M. DC. LXIV</date>.</docDate>
         <imprimatur>Avec Privilege du <persName key="louisxiv">Roy</persName>.</imprimatur>
@@ -81,7 +81,7 @@
         pour le soulagement de ses Sujets ? Si <persName key="françois_michel_le_tellier_de_louvoy">Monsieur le Tellier</persName>
         se vouloit donner la peine de vous écrire le détail des affaires qui luy passent par les mains,
         ne seriez-vous pas beaucoup mieux instruit du secret de tous les mouvemens que font toutes les trouppes du Royaume,
-        que ceux mesmes que les commandent ? Et s’il plaisoit à <persName key="">Monsieur de Lyonne</persName> <!-- Pas de @key -->
+        que ceux mesmes que les commandent ? Et s’il plaisoit à <persName key="delionne_hugues">Monsieur de Lyonne</persName> <!-- Pas de @key -->
         de vous donner quelque connoissance des affaires étrangeres, n’en 
         <pb n="5" xml:id="p5" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f11.item"/>
         apprendriez-vous pas beaucoup plus par un seul ordinaire, que n’en ont appris pour leur
@@ -134,7 +134,7 @@
         &amp; des <tech type="decor">Chiffres</tech> de <persName key="louisxiv">Sa Majesté</persName>.
         L’on avoit mis le haut Dais justement à l’entrée du Rond &amp; derriere en remontant dans l’<placeName key="">Allée</placeName> <!-- Pas de @key -->, l’on avoit arrangé
         des bancs en forme d’<tech type="construction">Amphitheatre</tech> pour placer deux cent personnes.
-        De <tech type="machine">grandes Machines</tech> entrelacées dans les <tech type="decor">Arbres</tech> du Rond, soûte
+        De <tech type="machine_terre">grandes Machines</tech> entrelacées dans les <tech type="decor">Arbres</tech> du Rond, soûte
         <pb n="12" xml:id="p12" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f18.item"/>
         noient des <tech type="decor">Chandeliers</tech> garnis d’un <tech type="lumieres">nombre infiny de Flambeaux</tech>,
         pour faire, s’il estoit possible, <tech type="lumieres">une lumiere égale à celle du Soleil</tech>,
@@ -177,7 +177,7 @@
       </lg>
       
       <p>Aprés <name key="paladin">les Paladins</name> l’on vit entrer <name key="apollon">Apollon</name>
-        sur <tech type="machine">un Char d’une hauteur prodigieuse</tech>, &amp; tout <tech type="lumieres">brillant d’or, d’azur,
+        sur <tech type="machine_terre">un Char d’une hauteur prodigieuse</tech>, &amp; tout <tech type="lumieres">brillant d’or, d’azur,
           &amp; de cent autres couleurs differentes</tech>. Ce <tech type="musique">Char</tech>
         estoit traisné par <tech type="animal">quatre superbes chevaux de different poil</tech>,
         attelez tous quatre de front. Ne vous allez pas imaginer qu’on les eust pris dans 
@@ -202,8 +202,8 @@
         <name key="duenne">trois <!-- Eliot Bordage : 2026-04-28T13:41:00
       Orthographiquement, d’après mes recherches, ça s’écrit «Duennes», il y a pas d’apostrophe. -->Duen’nes</name>, 
       qui avoient assez d’âge pour en composer quatre autres, &amp; quelque chose mesme de plus,
-      si l’on en eust eu besoin pour achever de remplir le <tech type="machine">Char</tech>.</p>
-      <p><persName key="" role="participant">Milet</persName> <!-- Pas de @key --> le premier conducteur qui soit au monde, faisoit voir son addresse en cette occasion,
+      si l’on en eust eu besoin pour achever de remplir le <tech type="machine_terre">Char</tech>.</p>
+      <p>Milet le premier conducteur qui soit au monde, faisoit voir son addresse en cette occasion,
         il estoit vestu comme 
         <pb n="19" xml:id="p19" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f25.item"/>
         l’on peint le <name key="temps">Temps</name>, il sembloit estre d’une taille plus grande que la naturelle,
@@ -214,22 +214,22 @@
         <l>Paroist fort long aux Courtisans.</l>
       </lg>
       
-      <p>Le <tech type="machine">Char</tech> estoit environné des <name key="heure">douze Heures du jour</name>
+      <p>Le <tech type="machine_terre">Char</tech> estoit environné des <name key="heure">douze Heures du jour</name>
         &amp; des <name key="zodiaque">douze Signes du Zodiaque</name>, &amp; suivy des <name key="page">Pages</name>
         des <name key="chevalier">Chevaliers</name> portans leur <tech type="decor">Lan</tech>
         <pb n="20" xml:id="p20" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f26.item"/>
         <tech type="decor">ces</tech>, &amp; <tech type="decor">les Ecus de leurs Devises</tech>,
         &amp; de vingt Pasteurs chargez des pieces de la Barriere, dont la lice fut formée dans un moment,
         lors que les <name key="paladin">Paladins</name> voulurent courre la Bague.</p>
-      <p>Le Temps <persName key="" role="participant">Milet</persName> <!-- Pas de @key --> fit tourner deux ou trois fois au tour de la place,
-        le <tech type="machine">Char</tech> d’<name key="apollon">Apollon</name>,
+      <p>Le Temps Milet fit tourner deux ou trois fois au tour de la place,
+        le <tech type="machine_terre">Char</tech> d’<name key="apollon">Apollon</name>,
         il ne paroissoit point du tout embarassé de son employ ; car menant tous les jours aussi heureusement,
         &amp; aussi adroittement qu’il 
         <pb n="21" xml:id="p21" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f27.item"/>
-        fait le plus pretieux <tech type="machine">Char</tech> du monde, il sçavoit bien que quand celuy-cy
+        fait le plus pretieux <tech type="machine_terre">Char</tech> du monde, il sçavoit bien que quand celuy-cy
         seroit renversé, l’accident au pis aller, n’auroit esté fatal qu’au Theatre de <persName key="moliere">Moliere</persName>,
         &amp; que celuy de l’<placeName key="paris_hotel-bourgogne">Hostel de Bourgogne</placeName>
-        s’en seroit aisément consolé. Le <tech type="machine">Char</tech> s’estant arresté devant 
+        s’en seroit aisément consolé. Le <tech type="machine_terre">Char</tech> s’estant arresté devant 
         <persName key="marie_therese" role="spectateur">les Reines</persName> <!-- Qui sont désignées par cette expression ? -->, <name key="apollon">Apollon</name> &amp; les 
         <name key="siecle">quatre Siecles</name> reciterent les vers, que vous pouvez lire dans le Livre imprimé.
         Ce recit estant achevé, <name key="apollon">Apollon</name> &amp; tous veux qui le 
@@ -237,7 +237,7 @@
         suivoient sortirent de la place, &amp; les <name key="chevalier">Chevaliers</name> commencerent la course de Bague.</p>
       <p>Je ne m’amuseray point icy à vous en faire tout le détail, il suffit de vous dire que tous firent parfaitement leur devoir,
         &amp; que la voix publique donna le prix des plus belles &amp; des plus justes courses au 
-        <name key="roger">Paladin Roger</name>. Toutes les fois que le <persName key="" role="participant">grand Soyecour</persName> <!-- Pas de @key --> couroit,
+        <name key="roger">Paladin Roger</name>. Toutes les fois que le grand Soyecour couroit,
         l’on entendoit quelques voix feminines se recrier en sa 
         <pb n="23" xml:id="p23" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f29.item"/>
         faveur. Cependant la Bague fut long-temps disputée, entre <persName key="henri_ii_de_guise" role="participant">Monsieur le Duc de Guise</persName>
@@ -281,12 +281,12 @@
         &amp; portoient sur leurs testes les bassins de la collation.</p>
       <p>
         <pb n="27" xml:id="p27" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f33.item"/>
-        Une <tech type="machine">grande Machine d’Arbres</tech> artistement entremeslez,
+        Une <tech type="machine_terre">grande Machine d’Arbres</tech> artistement entremeslez,
         &amp; qui s’élevoient presque à la hauteur de ceux des <placeName key="">Allées</placeName><!-- Pas de @key -->,
         parut dans la place, &amp; s’approcha insensiblement des <persName key="marie_therese" role="spectateur"><persName key="anne_d_autriche" role="spectateur">Reines</persName></persName>.
         <name key="pan">Pan</name> &amp; <name key="diane">Diane</name>
         estoient assis sur <tech type="decor">les plus hautes branches</tech> de ces <tech type="decor">Arbres</tech>,
-        &amp; cette <tech type="machine">Machine</tech> estoit devancée par un 
+        &amp; cette <tech type="machine_terre">Machine</tech> estoit devancée par un 
         <tech type="musique">Concert de Haubois, &amp; de Flûtes</tech>, &amp; suivie d’une 
         <name key="troupe_faune">trouppe de Faunes</name> qui portoient des viandes de la <place key="menagerie_pan">ména</place>
         <pb n="28" xml:id="p28" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f34.item"/>
@@ -297,12 +297,12 @@
         <name key="pan">Pan</name>, &amp; <name key="diane">Dianne</name>
         s’approcherent de la <persName key="marie_therese" role="spectateur">Reine</persName>, &amp; luy dirent les Vers,
         que vous prendrez, s’il vous plaist, la peine de lire dans l’imprimé.</p>
-      <p>Ce Recit fait, les <name key="heure">Heures</name> qui avoient accompagné le <tech type="machine">Char</tech>
+      <p>Ce Recit fait, les <name key="heure">Heures</name> qui avoient accompagné le <tech type="machine_terre">Char</tech>
         d’<name key="apollon">Apol</name>
         <pb n="29" xml:id="p29" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f35.item"/>
         <name key="apollon">lon</name>, vinrent danser une entrée de Balet,
         avec les <name key="zodiaque">douze Signes du Zodiaque</name>,
-        pendant que les <persName key="">Controlleurs</persName><!-- Pas de @key --> de la Maison du <persName key="louisxiv">Roy</persName>,
+        pendant que les Controlleurs de la Maison du <persName key="louisxiv">Roy</persName>,
         qui represensoient l’abondance, la joye, la propreté, &amp; la bonne chere,
         firent apporter vis à vis du haut Dais, de l’autre costé du <placeName key="">Rond</placeName><!-- Pas de @key -->,
         une <tech type="construction">grande Table en forme de Croissant, ornée de Festons</tech>,
@@ -519,7 +519,7 @@
         on les avoit bordées de soldats des Gardes,
         &amp; <persName key="antoine_iii_de_gramont" role="organisation">Monsieur le Mareschal de Gramont</persName>
         avoit faict tendre <tech type="construction">deux tentes</tech>,
-        sous lesquelles on servit <tech type="construction">deux tables</tech> pour les <persName key="">principaux Officiers</persName><!-- Pas de @key -->,
+        sous lesquelles on servit <tech type="construction">deux tables</tech> pour les principaux Officiers,
         tandis que l’on donnoit avec <tech type="repas">profusion du vin</tech> au reste des soldats.
         Vous sçavez si ce <persName key="antoine_iii_de_gramont">Mareschal</persName> est ma
         <pb n="55" xml:id="p55" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f61.item"/>
@@ -601,14 +601,14 @@
         <l>Contre touts les autres ensemble.</l>
       </lg>
       
-      <p>DE <persName key="" role="auteur">MARIGNY</persName><!-- Pas de @key -->.</p>
+      <p>DE <persName key="marigny_jacques" role="auteur">MARIGNY</persName><!-- Pas de @key -->.</p>
       <p>A <placeName key="paris">Paris</placeName> le <date when="1664-05-14">14. May 1664</date>.</p>
       <p>
         <pb n="np" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3117924/f70.item"/>
         Extrait du Privilege du <persName key="louisxiv">Roy</persName>.</p>
       <p>Par grace &amp; Privilege du <persName key="louisxiv">Roy</persName>,
         donné à <placeName key="paris">Paris</placeName>, le <date when="1664-06-11">onziéme jour de Juin, 1664</date>.
-        Et signé <persName key="">BOUCHARD</persName><!-- Pas de @key -->. Il est permis à <persName key="imprimeur">CHARLES DE SERCY</persName><!-- Pas de @key -->,
+        Et signé BOUCHARD. Il est permis à <persName key="sercy_charles" role="imprimeur">CHARLES DE SERCY</persName><!-- Pas de @key -->,
         Marchand Libraire à <placeName key="paris">Paris</placeName>,
         d’Imprimer vendre &amp; distribuer un Livre intitulé, Relation des divertissements de Versailles :
         Et deffences sont faites à tous autres de l’imprimer, vendre &amp; distribuer, pendant sept années,
@@ -619,7 +619,7 @@
         suivant &amp; conformément à l’Arrest de la Cour de Parlement du <date when="1653-04-08">8. Avril 1653</date>.
         &amp; aux charges portées par le present Privilege. A <placeName key="paris">Paris</placeName>
         ce <date when="1664-06-14">14. du mois de Juin 1664</date>.</p>
-      <p>Ledit <persName key="imprimeur">de Sercy</persName><!-- Pas de @key --> a associé audit Privilege <persName key="imprimeur">Claude Barbin</persName><!-- Pas de @key -->,
+      <p>Ledit <persName key="imprimeur">de Sercy</persName><!-- Pas de @key --> a associé audit Privilege <persName key="barbin_claude">Claude Barbin</persName><!-- Pas de @key -->,
         aussi Marchand Libraire, pour en jouir suivant l’accord fait entr’eux.</p>
     </body>
   </text>
