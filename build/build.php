@@ -1098,12 +1098,31 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
     $template = str_replace("%relpath%", "../", self::$template);
 
     $index = "";
-    $index .= '<div class="container">' . "\n";
-    $index .= '<h1>Lieux</h1>' . "\n";
+    $index .= '<div class="container">
+<div class="row">
+<div class="col-3">
+    <nav class="filters">';
+    $lieux = self::$pdo->prepare("SELECT id, parent, label, code FROM lieu");
+    $lieux->execute();
+    while ($row = $lieux->fetch(PDO::FETCH_ASSOC)) {
+      if ($row["parent"] == 0) {
+        $index .= '<a class="place rootplace" href="#' . $row['id'] . '#0' . '">' . $row['label'] . '</a>' . "\n";
+      } else {
+        $index .= '<a class="place" href="#' . $row['id'] . '#' . $row['parent'] . '">' . $row['label'] . '</a>' . "\n";
+      }
+    }
+    $index .= '</nav>';
+    $index .= '</div>';
+    $index .= '<div class="col-9 placelist">';
+    $index .= self::uldocs("lieu", null);
+    $index .= '</div>';
+    $index .= '</div></div>';
+
+    // $index .= '<h1>Lieux</h1>' . "\n";
     // passer les stats $row['docs'], $row['occs'] ?
-    $index .= Build::transform(self::$home . "index/lieu.xml", self::$home . "build/xsl/lieu.xsl");
-    $index .= '<p> </p>' . "\n";
-    $index .= '</div>' . "\n";
+    // $index .= Build::transform(self::$home . "index/lieu.xml", self::$home . "build/xsl/lieu.xsl");
+    // $index .= '<p> </p>' . "\n";
+
     file_put_contents(self::$home . "site/lieu/index.html", str_replace("%main%", $index, $template));
     // 
 
@@ -1562,7 +1581,14 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
     $qdocument = self::$pdo->prepare('SELECT * FROM document WHERE id = ?');
     $qchrono = self::$pdo->prepare('SELECT * FROM chrono WHERE id = ?');
 
-    if ($table == 'lieu') {
+    if ($table == 'lieu' and $id == null) {
+      $sql = "SELECT DISTINCT chrono_document.*
+      FROM chrono_document
+      JOIN lieu_document ON lieu_document.document = chrono_document.document 
+      ORDER BY chrono_document.id;
+      ";
+      $stmt = self::$pdo->prepare($sql);
+    } else if ($table == 'lieu') {
       $qlieupath = self::$pdo->prepare('SELECT path FROM lieu WHERE id = ?');
       $qlieupath->execute(array($id));
       list($path) = $qlieupath->fetch();
@@ -1637,7 +1663,7 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
       else if ($table == 'technique')
         $html .= self::htdocument($qdocument->fetch(), "technique");
       else if ($table == 'lieu')
-        $html .= self::htdocument($qdocument->fetch(), null, true);
+        $html .= self::htdocument($qdocument->fetch(), "lieu");
       else
         $html .= self::htdocument($qdocument->fetch());
     }
@@ -1693,6 +1719,7 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
   {
     $rolist = array();
     $techlist = array();
+    $placelist = array();
     if (is_integer($persid)) {
       $qrole = self::$pdo->prepare("SELECT role_code FROM personne_document WHERE document = ? AND personne = ? GROUP BY role ORDER BY role");
       $qrole->execute(array($row['id'], $persid));
@@ -1707,6 +1734,13 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
         $techlist[] = $res['code'];
       }
     }
+    if ($persid == "lieu") {
+      $qplace = self::$pdo->prepare("SELECT DISTINCT lieu.id FROM lieu_document JOIN lieu ON lieu_document.lieu = lieu.id WHERE lieu_document.document = ? ORDER BY lieu.code");
+      $qplace->execute(array($row['id']));
+      while ($res = $qplace->fetch(PDO::FETCH_ASSOC)) {
+        $placelist[] = $res['id'];
+      }
+    }
 
     $html = "\n";
     $html .= '<a target="_blank" class="document ' . $row['type'];
@@ -1714,12 +1748,14 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
       $html .= ' ' . implode(' ', $rolist);
     if (count($techlist))
       $html .= ' ' . implode(' ', $techlist);
+    if (count($placelist))
+      $html .= ' ' . implode(' ', $placelist);
     $html .= '" href="../document/' . $row['code'] . self::$_html . '">' . "\n";
     $html .= '<div class="coldoc">' . "\n";
 
     $html .= '  <div class="vignette" style="background-image:url(\'../document/S/' . $row['code'] . ',S.jpg\');"></div>' . "\n";
     // role ?
-    if ($persid) {
+    if (is_integer($persid)) {
       $html .= '  <div class="roles">' . "\n";
       foreach ($rolist as $role_code) {
         $html .= '<div class="role ' . $role_code . '">' . self::$role[$role_code] . '</div>';
