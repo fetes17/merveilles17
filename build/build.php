@@ -130,9 +130,11 @@ CREATE TABLE personne (
   id             INTEGER,               -- ! rowid auto
   code           TEXT UNIQUE NOT NULL,  -- ! code unique
   label          TEXT,                  -- ! forme d’autorité
+  role_label     TEXT,                  -- ! titre ou fonction
   gender         TEXT,                  -- M male, F femme
   birth          TEXT,                  -- date de naissance
   death          TEXT,                  -- date de mort
+  group_code     TEXT,                  -- groupe d'appartenance
   databnf        TEXT,                  -- autorité BNF
   wikipedia      TEXT,                  -- URL wikipedia
   isni           TEXT,                  -- code ISNI
@@ -262,6 +264,20 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
     "none" => "(non précisé)",
   );
 
+  static $group_list = array(
+    "cour" => "Membres de la Cour",
+    "foreign" => "Membres de la royauté étrangère",
+    "militaire" => "Militaires",
+    "pro" => "Professionnel·le·s",
+    "local" => "Personnes liées à un lieu",
+    "O" => "Groupe inconnu",
+  );
+
+  static $gender_list = array(
+    "F" => "Femme",
+    "M" => "Homme",
+  );
+
   static $technique_list = array(
     "machine",
     "ecriture"
@@ -345,21 +361,29 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
    */
   public static function load_personne()
   {
-    $qpersonne = self::$pdo->prepare("INSERT INTO personne (code, label, gender, birth, death, databnf, wikipedia, isni) VALUES (?, ?, ?, ?, ?, ?, ?, ?)");
+    $qpersonne = self::$pdo->prepare("INSERT INTO personne (code, label, role_label, gender, birth, death, group_code, databnf, wikipedia, isni) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
     $listPerson = simplexml_load_file(self::$home . "index/personne.xml");
     self::$pdo->beginTransaction();
     foreach ($listPerson->person as $person) {
       $code = $person->attributes('xml', true)->id;
-      $gender = $person->sex;
+      $gender = $person['sex'];
+      if (!$gender)
+        $gender = null;
       $label = (string) $person->name;
       if (!$label)
         $label = null;
+      $role_label = $person->name->roleName;
+      if (!$role_label)
+        $role_label = null;
       $birth = $person->birth['when'];
       if (!$birth)
         $birth = null;
       $death = $person->death['when'];
       if (!$death)
         $death = null;
+      $group_code = $person->name->roleName['type'];
+      if (!$group_code)
+        $group_code = null;
       $databnf = $wikipedia = $isni = null;
       foreach ($person->identifier as $identifier) {
         $type = $identifier['type'];
@@ -370,7 +394,7 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
         elseif ($type == 'isni')
           $isni = $identifier;
       }
-      $qpersonne->execute(array($code, $label, $gender, $birth, $death, $databnf, $wikipedia, $isni));
+      $qpersonne->execute(array($code, $label, $role_label, $gender, $birth, $death, $group_code, $databnf, $wikipedia, $isni));
     }
     self::$pdo->commit();
   }
@@ -945,7 +969,8 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
    */
   public static function personnes()
   {
-    $qroles = self::$pdo->prepare("SELECT role_code, count(*) AS count FROM personne_document WHERE personne = ? GROUP BY role ORDER BY role");
+    //$qroles = self::$pdo->prepare("SELECT role_code, count(*) AS count FROM personne_document WHERE personne = ? GROUP BY role ORDER BY role");
+    $qroles = self::$pdo->prepare("SELECT role_code, count(DISTINCT document) AS count FROM personne_document WHERE personne = ? GROUP BY role ORDER BY role");
     Build::rmdir(self::$home . "site/personne/");
     Build::mkdir(self::$home . "site/personne/");
     $template = str_replace("%relpath%", "../", self::$template);
@@ -966,7 +991,7 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
         $dates = ' (' . $row['birth'] . ' – ?)';
       else if ($row['death'])
         $dates = ' (? – ' . $row['death'] . ')';
-      $page .= '    <h1>' . $row['label'] . $dates . '</h1>' . "\n";
+      $page .= '    <h1>' . $row['label'] . $row['role_label'] . $dates . '</h1>' . "\n";
       // $page .= '<p>Courte notice ? à ajouter à personne.csv</p>'."\n";
       if ($row['wikipedia'] || $row['databnf'] || $row['isni']) {
         $page .= '<ul>' . "\n";
@@ -1018,15 +1043,36 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
 
     $index = '<div class="container">
 <div class="row">
+<div class="col-3">
+    <nav class="filters">
+    <h3 class="filter">Groupe</h3>';
+    foreach (self::$group_list as $code => $label) {
+      $index .= '<a class="group" href="#' . $code . '">' . $label . '</a>' . "\n";
+    }
+    $index .= '
+    <h3 class="filter">Genre</h3>';
+    foreach (self::$gender_list as $code => $label) {
+      $index .= '<a class="gender" href="#' . $code . '">' . $label . '</a>' . "\n";
+    }
+    $index .= '
+    <h3 class="filter">Rôles</h3>';
+    foreach (self::$role as $code => $label) {
+      $index .= '<a class="role" href="#' . $code . '">' . $label . '</a>' . "\n";
+    }
+    $index .= '
+    </nav>
+  </div>
 <div class="col-9">';
 
     // boucler sur les roles
     $qpers = self::$pdo->prepare("
-    SELECT personne.*, role_code, COUNT(DISTINCT personne_document.document) AS role_docs, COUNT(*) as role_occs 
-        FROM personne_document, personne 
-        WHERE personne_document.personne = personne.id 
-        GROUP BY personne, role
-        ORDER BY personne.label;");
+    SELECT personne.*, GROUP_CONCAT(DISTINCT role_code) AS role_codes,
+       COUNT(DISTINCT personne_document.document) AS docs,
+       COUNT(*) AS occs
+    FROM personne
+    JOIN personne_document ON personne_document.personne = personne.id
+    GROUP BY personne.id
+    ORDER BY personne.label");
 
     $index .= '
 ';
@@ -1035,9 +1081,8 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
       <thead>
         <tr>
           <th class="label" width="100%">Personne</th>
-          <th title="Nombre de documents">Rôle</th>
-          <th class="docs" title="Nombre de documents où une personne apparait en tenant ce rôle">docs.</th>
-          <th class="occs" title="Nombre d’occurrences  où une personne apparait en tenant ce rôle">occs.</th>
+          <th class="docs" title="Nombre de documents où une personne est mentionnée">docs.</th>
+          <th class="occs" title="Nombre d’occurrences total">occs.</th>
         </tr>
       </thead>
       <tbody>
@@ -1053,13 +1098,16 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
         $date = ' (? – ' . $row['birth'] . ')';
       if (!$row['label'])
         $row['label'] = '[<i>' . $row['code'] . '</i>]';
-      $code = $row['role_code'];
+      if (!$row['role_label'])
+        $row['role_label'] = '';
+      $group_code = $row['group_code'];
+      $gender = $row['gender'];
+      $role_codes = isset($row['role_codes']) ? trim(str_replace(',', ' ', $row['role_codes'])) : '';
       $index .= '
-        <tr class="' . $code . '">
-          <td class="label"><a target="_blank" href="' . $row['code'] . self::$_html . '">' . $row['label'] . $date . '</a></td>
-          <td class="role ' . $code . '">' . self::$role[$row['role_code']] . '</td>
-          <td class="docs">' . $row['role_docs'] . '</td>
-          <td class="occs">' . $row['role_occs'] . '</td>
+        <tr class="' . trim($group_code . ' ' . $gender . ' ' . $role_codes) . '">
+          <td class="label"><a target="_blank" href="' . $row['code'] . self::$_html . '">' . $row['label'] . $row['role_label'] . $date . '</a></td>
+          <td class="docs">' . $row['docs'] . '</td>
+          <td class="occs">' . $row['occs'] . '</td>
         </tr>';
 
     }
@@ -1071,15 +1119,6 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
 
     $index .= '
     <p> </p>
-  </div>
-  <div class="col-3">
-    <nav class="roles">
-';
-    foreach (self::$role as $code => $label) {
-      $index .= '<a class="role" href="#' . $code . '">' . $label . '</a>' . "\n";
-    }
-    $index .= '
-    </nav>
   </div>
   </div>
 </div>
