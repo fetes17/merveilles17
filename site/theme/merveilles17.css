@@ -39,6 +39,10 @@ body {
 figure,
 .caldate,
 nav .role,
+nav .group,
+nav .technique,
+nav .gender,
+nav .place,
 .moto,
 h2,
 h3 {
@@ -473,6 +477,10 @@ header.doctype > div:hover > span,
 }
 
 nav .role,
+nav .group,
+nav .technique,
+nav .gender,
+nav .place,
 .caldate {
   display: block;
   text-decoration: none;
@@ -484,16 +492,44 @@ nav .role,
   border: 1px solid var(--grege);
 }
 
-nav .role {
+nav .role,
+nav .group,
+nav .technique,
+nav .gender,
+nav .place {
   background-color: transparent;
 }
 
-nav a.role:hover {
+nav a.role:hover,
+nav a.group:hover,
+nav a.technique:hover,
+nav a.gender:hover,
+nav a.place:hover {
   border-color: #000;
 }
 
 nav a.role:hover,
 nav a.role.active {
+  background-color: var(--grege);
+}
+
+nav a.group:hover,
+nav a.group.active {
+  background-color: var(--grege);
+}
+
+nav a.gender:hover,
+nav a.gender.active {
+  background-color: var(--grege);
+}
+
+nav a.technique:hover,
+nav a.technique.active {
+  background-color: var(--grege);
+}
+
+nav a.place:hover,
+nav a.place.active {
   background-color: var(--grege);
 }
 
@@ -1266,9 +1302,19 @@ thead {
 
 nav.roles {
   position: sticky;
-  top: 0;
+  top: 50px;
   max-height: 100vh;
   overflow: auto;
+  margin-top: 50px;
+}
+
+nav.filters {
+  position: sticky;
+  top: 50px;
+  height: calc(100vh - 100px);
+  max-height: 100vh;
+  overflow: auto;
+  margin-top: 50px;
 }
 
 #persName th,
@@ -1462,6 +1508,20 @@ table.sortable {
   display: none;
 }
 
+.rolist.cour tbody tr,
+.rolist.foreign tbody tr,
+.rolist.militaire tbody tr,
+.rolist.pro tbody tr,
+.rolist.local tbody tr,
+.rolist.O tbody tr {
+  display: none;
+}
+
+.rolist.F tbody tr,
+.rolist.M tbody tr {
+  display: none;
+}
+
 .rolist.commanditaire .document,
 .rolist.destinataire .document,
 .rolist.organisation .document,
@@ -1498,24 +1558,6 @@ table.sortable {
   display: none;
 }
 
-.rolist.commanditaire .event:has(a.commanditaire),
-.rolist.destinataire .event:has(a.destinataire),
-.rolist.organisation .event:has(a.organisation),
-.rolist.participant .event:has(a.participant),
-.rolist.spectateur .event:has(a.spectateur),
-.rolist.convive .event:has(a.convive),
-.rolist.acteur .event:has(a.acteur),
-.rolist.chanteur .event:has(a.chanteur),
-.rolist.danseur .event:has(a.danseur),
-.rolist.musicien .event:has(a.musicien),
-.rolist.artificier .event:has(a.artificier),
-.rolist.fournisseur .event:has(a.fournisseur),
-.rolist.auteur .event:has(a.auteur),
-.rolist.imprimeur .event:has(a.imprimeur),
-.rolist.none .event:has(a.none) {
-  display: inline-block;
-}
-
 .rolist.commanditaire tr.commanditaire,
 .rolist.destinataire tr.destinataire,
 .rolist.organisation tr.organisation,
@@ -1531,6 +1573,20 @@ table.sortable {
 .rolist.auteur tr.auteur,
 .rolist.imprimeur tr.imprimeur,
 .rolist.none tr.none {
+  display: table-row;
+}
+
+.rolist.cour tr.cour,
+.rolist.foreign tr.foreign,
+.rolist.militaire tr.militaire,
+.rolist.pro tr.pro,
+.rolist.local tr.local,
+.rolist.O tr.O {
+  display: table-row;
+}
+
+.rolist.F tr.F,
+.rolist.M tr.M {
   display: table-row;
 }
 
@@ -1552,6 +1608,24 @@ table.sortable {
   display: flex;
 }
 
+.rolist.commanditaire .event:has(a.commanditaire),
+.rolist.destinataire .event:has(a.destinataire),
+.rolist.organisation .event:has(a.organisation),
+.rolist.participant .event:has(a.participant),
+.rolist.spectateur .event:has(a.spectateur),
+.rolist.convive .event:has(a.convive),
+.rolist.acteur .event:has(a.acteur),
+.rolist.chanteur .event:has(a.chanteur),
+.rolist.danseur .event:has(a.danseur),
+.rolist.musicien .event:has(a.musicien),
+.rolist.artificier .event:has(a.artificier),
+.rolist.fournisseur .event:has(a.fournisseur),
+.rolist.auteur .event:has(a.auteur),
+.rolist.imprimeur .event:has(a.imprimeur),
+.rolist.none .event:has(a.none) {
+  display: inline-block;
+}
+
 .rolist.commanditaire .role.commanditaire,
 .rolist.destinataire .role.destinataire,
 .rolist.organisation .role.organisation,
@@ -1571,6 +1645,113 @@ table.sortable {
   color: #fff;
 }
 
+.rolist.foreign,
+.rolist tr.foreign {
+  font-style: normal;
+}
+
+.techlist.animal .document,
+.techlist.construction .document,
+.techlist.decor .document,
+.techlist.costume .document,
+.techlist.eaux .document,
+.techlist.feux-artifice .document,
+.techlist.lumieres .document,
+.techlist.bruitage .document,
+.techlist.repas .document,
+.techlist.machine_eau .document,
+.techlist.machine_terre .document,
+.techlist.machine_vol .document,
+.techlist.machine_temps .document,
+.techlist.machine_musique .document,
+.techlist.trappe .document,
+.techlist.devise .document,
+.techlist.noms .document,
+.techlist.vers .document,
+.techlist.madrigal .document,
+.techlist.sonnet .document,
+.techlist.quatrain .document {
+  display: none;
+}
+
+.techlist.animal .event,
+.techlist.construction .event,
+.techlist.decor .event,
+.techlist.costume .event,
+.techlist.eaux .event,
+.techlist.feux-artifice .event,
+.techlist.lumieres .event,
+.techlist.bruitage .event,
+.techlist.repas .event,
+.techlist.machine_eau .event,
+.techlist.machine_terre .event,
+.techlist.machine_vol .event,
+.techlist.machine_temps .event,
+.techlist.machine_musique .event,
+.techlist.trappe .event,
+.techlist.devise .event,
+.techlist.noms .event,
+.techlist.vers .event,
+.techlist.madrigal .event,
+.techlist.sonnet .event,
+.techlist.quatrain .event {
+  display: none;
+}
+
+.techlist.animal .document.animal,
+.techlist.construction .document.construction,
+.techlist.decor .document.decor,
+.techlist.costume .document.costume,
+.techlist.eaux .document.eaux,
+.techlist.feux-artifice .document.feux-artifice,
+.techlist.lumieres .document.lumieres,
+.techlist.bruitage .document.bruitage,
+.techlist.repas .document.repas,
+.techlist.machine_eau .document.machine_eau,
+.techlist.machine_terre .document.machine_terre,
+.techlist.machine_vol .document.machine_vol,
+.techlist.machine_temps .document.machine_temps,
+.techlist.machine_musique .document.machine_musique,
+.techlist.trappe .document.trappe,
+.techlist.devise .document.devise,
+.techlist.noms .document.noms,
+.techlist.vers .document.vers,
+.techlist.madrigal .document.madrigal,
+.techlist.sonnet .document.sonnet,
+.techlist.quatrain .document.quatrain {
+  display: block;
+}
+
+.techlist.animal .event:has(a.animal),
+.techlist.construction .event:has(a.construction),
+.techlist.decor .event:has(a.decor),
+.techlist.costume .event:has(a.costume),
+.techlist.eaux .event:has(a.eaux),
+.techlist.feux-artifice .event:has(a.feux-artifice),
+.techlist.lumieres .event:has(a.lumieres),
+.techlist.bruitage .event:has(a.bruitage),
+.techlist.repas .event:has(a.repas),
+.techlist.machine_eau .event:has(a.machine_eau),
+.techlist.machine_terre .event:has(a.machine_terre),
+.techlist.machine_vol .event:has(a.machine_vol),
+.techlist.machine_temps .event:has(a.machine_temps),
+.techlist.machine_musique .event:has(a.machine_musique),
+.techlist.trappe .event:has(a.trappe),
+.techlist.devise .event:has(a.devise),
+.techlist.noms .event:has(a.noms),
+.techlist.vers .event:has(a.vers),
+.techlist.madrigal .event:has(a.madrigal),
+.techlist.sonnet .event:has(a.sonnet),
+.techlist.quatrain .event:has(a.quatrain) {
+  display: block;
+}
+
+/* Places */
+
+nav.filters a.place:not(.rootplace):not(.active) {
+  display: none;
+}
+
 .sortable tr td {
   border: none;
   border-top: 1px solid transparent;
@@ -1582,8 +1763,12 @@ table.sortable {
   border-bottom: 1px solid #000;
 }
 
-tr.mod3 td,
+/* tr.mod3 td,
 tr.mod8 td {
+  background-color: var(--grege);
+} */
+
+tr:nth-child(5n + 3) td {
   background-color: var(--grege);
 }
 
@@ -1634,6 +1819,18 @@ table.sortable a:hover {
 
 figure .devise {
   font-size: inherit;
+}
+
+a.devise {
+  font-size: inherit;
+  text-align: left;
+  font-style: normal;
+}
+
+.techlist.devise {
+  font-size: inherit;
+  text-align: inherit;
+  font-style: inherit;
 }
 
 .l {
