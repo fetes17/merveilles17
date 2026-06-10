@@ -130,7 +130,6 @@ CREATE TABLE personne (
   id             INTEGER,               -- ! rowid auto
   code           TEXT UNIQUE NOT NULL,  -- ! code unique
   label          TEXT,                  -- ! forme d’autorité
-  role_label     TEXT,                  -- ! titre ou fonction
   gender         TEXT,                  -- M male, F femme
   birth          TEXT,                  -- date de naissance
   death          TEXT,                  -- date de mort
@@ -360,7 +359,7 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
    */
   public static function load_personne()
   {
-    $qpersonne = self::$pdo->prepare("INSERT INTO personne (code, label, role_label, gender, birth, death, group_code, databnf, wikipedia, isni) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
+    $qpersonne = self::$pdo->prepare("INSERT INTO personne (code, label, gender, birth, death, group_code, databnf, wikipedia, isni) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)");
     $listPerson = simplexml_load_file(self::$home . "index/personne.xml");
     self::$pdo->beginTransaction();
     foreach ($listPerson->person as $person) {
@@ -371,16 +370,13 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
       $label = (string) $person->name;
       if (!$label)
         $label = null;
-      $role_label = $person->name->roleName;
-      if (!$role_label)
-        $role_label = null;
       $birth = $person->birth['when'];
       if (!$birth)
         $birth = null;
       $death = $person->death['when'];
       if (!$death)
         $death = null;
-      $group_code = $person->name->roleName['type'];
+      $group_code = $person->socecStatus['type'];
       if (!$group_code)
         $group_code = null;
       $databnf = $wikipedia = $isni = null;
@@ -393,7 +389,7 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
         elseif ($type == 'isni')
           $isni = $identifier;
       }
-      $qpersonne->execute(array($code, $label, $role_label, $gender, $birth, $death, $group_code, $databnf, $wikipedia, $isni));
+      $qpersonne->execute(array($code, $label, $gender, $birth, $death, $group_code, $databnf, $wikipedia, $isni));
     }
     self::$pdo->commit();
   }
@@ -990,7 +986,7 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
         $dates = ' (' . $row['birth'] . ' – ?)';
       else if ($row['death'])
         $dates = ' (? – ' . $row['death'] . ')';
-      $page .= '    <h1>' . $row['label'] . $row['role_label'] . $dates . '</h1>' . "\n";
+      $page .= '    <h1>' . $row['label'] . $dates . '</h1>' . "\n";
       // $page .= '<p>Courte notice ? à ajouter à personne.csv</p>'."\n";
       if ($row['wikipedia'] || $row['databnf'] || $row['isni']) {
         $page .= '<ul>' . "\n";
@@ -1097,14 +1093,12 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
         $date = ' (? – ' . $row['birth'] . ')';
       if (!$row['label'])
         $row['label'] = '[<i>' . $row['code'] . '</i>]';
-      if (!$row['role_label'])
-        $row['role_label'] = '';
       $group_code = $row['group_code'];
       $gender = $row['gender'];
       $role_codes = isset($row['role_codes']) ? trim(str_replace(',', ' ', $row['role_codes'])) : '';
       $index .= '
         <tr class="' . trim($group_code . ' ' . $gender . ' ' . $role_codes) . '">
-          <td class="label"><a target="_blank" href="' . $row['code'] . self::$_html . '">' . $row['label'] . $row['role_label'] . $date . '</a></td>
+          <td class="label"><a target="_blank" href="' . $row['code'] . self::$_html . '">' . $row['label'] . $date . '</a></td>
           <td class="docs">' . $row['docs'] . '</td>
           <td class="occs">' . $row['occs'] . '</td>
         </tr>';
