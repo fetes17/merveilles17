@@ -1803,19 +1803,23 @@
   </person>
   
   <person xml:id="beaumont" sex="M">
-    <name type="cour">Beaumont, Sieur de, écuyer du Roi et membre des gardes du corps</name>
+    <name>Beaumont, Sieur de, écuyer du Roi et membre des gardes du corps</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="beaupre" sex="M">
-    <name type="pro">Beaupré, tymballe</name>
+    <name>Beaupré, tymballe</name>
+    <socecStatus type="pro"/>
   </person>
   
   <person xml:id="francois_beauvilliers" sex="M">
-    <name type="cour">Beauvilliers, François de, comte de Séry, premier gentilhomme de la chambre du roi</name>
+    <name>Beauvilliers, François de, comte de Séry, premier gentilhomme de la chambre du roi</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="saint_aignan" sex="M">
-    <name type="cour">Beauvilliers Saint-Aignan, François-Honorat de</name>
+    <name>Beauvilliers, François-Honorat de, comte puis duc de Saint-Aignan</name>
+    <socecStatus type="cour"/>
     <birth when="1607"/>
     <death when="1687"/>
     <identifier type="databnf">https://data.bnf.fr/fr/10735898/francois-honorat_de_beauvilliers_saint-aignan/</identifier>
@@ -1824,13 +1828,15 @@
   </person>
   
   <person xml:id="louis_bellefonds" sex="M">
-    <name type="cour">Bellefonds, Louis-Christophe Gigault, marquis de</name>
+    <name>Bellefonds, Louis-Christophe Gigault, marquis de</name>
+    <socecStatus type="cour"/>
     <birth when="1668"/>
     <death when="1692"/>
   </person>
   
   <person xml:id="cm_de_belleforiere" sex="M">
-    <name type="cour">Belleforière de Soyecourt, Charles Maximilien Antoine de</name>
+    <name>Belleforière de Soyecourt, Charles Maximilien Antoine de</name>
+    <socecStatus type="cour"/>
     <birth when="1619*"/>
     <death when="1679"/>
     <identifier type="wikipedia"
@@ -1838,18 +1844,22 @@
   </person>
   
   <person xml:id="catherine_bellier" sex="F">
-    <name type="cour">Bellier, Catherine-Henriette, dite Cateau-la-Borgnesse, baronne de Beauvais</name>
+    <name>Bellier, Catherine-Henriette, dite Cateau-la-Borgnesse, baronne de Beauvais</name>
+    <socecStatus type="cour"/>
     <birth when="1614"/>
     <death when="1689"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Catherine_Bellier</identifier>
   </person>
   
   <person xml:id="benoist" sex="M">
-    <name type="cour">Benoist, officier de la bouche</name>
+    <name>Benoist, officier de la bouche</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="benserade" sex="M">
-    <name type="pro">Benserade, Isaac de</name>
+    <name>Benserade, Isaac de</name>
+    <socecStatus type="cour"/>
+    <socecStatus type="pro"/>
     <birth when="1613"/>
     <death when="1691"/>
     <identifier type="databnf">https://data.bnf.fr/fr/11891290/isaac_de_benserade/</identifier>
@@ -1858,12 +1868,16 @@
   </person>
   
   <person xml:id="anna_bergerotti" sex="F">
-    <name type="pro">Bergerotti, Anna</name>
+    <name>Bergerotti, Anna</name>
+    <socecStatus type="pro"/>
+    <socecStatus type="foreign"/>
     <identifier type="databnf">https://data.bnf.fr/fr/14843385/anna_bergerotti/</identifier>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Anna_Bergerotti</identifier>
   </person>
   
   <person xml:id="jeanne_agnes_berthelot_pleneuf" sex="F">
-    <name type="cour">Berthelot de Pléneuf, Jeanne-Agnès, Marquise de Prie</name>
+    <name>Berthelot de Pléneuf, Jeanne-Agnès, Marquise de Prie</name>
+    <socecStatus type="cour"/>
     <birth when="1698-08"/>
     <death when="1727-10-07"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jeanne-Agn%C3%A8s_Berthelot_de_Pl%C3%A9neuf</identifier>
@@ -1871,29 +1885,34 @@
   </person>
   
   <person xml:id="francois_bernard_potier" sex="M">
-    <name type="cour">Potier, François-Bernard, Duc de Tresmes et Gouverneur de Paris</name>
+    <name>Potier, François-Bernard, Duc de Tresmes et Gouverneur de Paris</name>
+    <socecStatus type="cour"/>
     <!-- à compléter -->
   </person>
   
   <person xml:id="louise_de_prie" sex="F">
-    <name type="cour">La Mothe Houdancourt, Louise de Prie de, gouvernante des enfants royaux </name>
+    <name>La Mothe Houdancourt, Louise de Prie de, gouvernante des enfants royaux </name>
+    <socecStatus type="cour"/>
     <birth when="1624"/>
     <death when="1709"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Louise_de_Prie</identifier>
   </person>
   
   <person xml:id="jbaptiste_besmaux" sex="M">
-    <name type="cour">Besmaux (Besmos), Jean-Baptiste de Montlezun, marquis de</name>
+    <name>Besmaux (Besmos), Jean-Baptiste de Montlezun, marquis de</name>
+    <socecStatus type="cour"/>
     <birth when="1660"/>
     <death when="1696"/>
   </person>
   
   <person xml:id="besson" sex="M">
-    <name type="pro">Besson, violon</name>
+    <name>Besson, violon</name>
+    <socecStatus type="pro"/>
   </person>
   
   <person xml:id="suzanne_bignon" sex="F">
-    <name type="cour">Bignon, Suzanne, née Phélypeaux, épouse de Jérôme II Bignon</name>
+    <name>Bignon, Suzanne, née Phélypeaux, épouse de Jérôme II Bignon</name>
+    <socecStatus type="cour"/>
     <birth when="1641"/>
     <death when="1690"/>
     <identifier type="wikipedia"
@@ -1902,7 +1921,8 @@
   </person>
   
   <person xml:id="bigot" sex="M">
-    <name type="cour">Bigot, Jean</name>
+    <name>Bigot, Jean</name>
+    <socecStatus type="cour"/>
     <!-- Plutôt Bigot, Guillaume, si j'en crois l'état de la France -->
     <identifier type="databnf">https://data.bnf.fr/fr/16709261/jean_bigot/</identifier>
   </person>
