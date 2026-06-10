@@ -276,7 +276,7 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
 
   static $group_list = array(
     "cour" => "Membres de la Cour",
-    "foreign" => "Membres de la royauté étrangère",
+    "foreign" => "Personnalités étrangères",
     "militaire" => "Militaires",
     "pro" => "Professionnel·le·s",
     "local" => "Élites locales",
