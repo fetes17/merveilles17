@@ -148,11 +148,11 @@ CREATE INDEX personne_docs ON personne(docs, code);
 CREATE TABLE personne_document (
   -- Occurences d’un nom de personne dans un document
   id             INTEGER,               -- ! rowid auto
-  personne       INTEGER,               -- ! personne.id obtenu avec par personne.code
+  personne       INTEGER,               -- ! personne.id obtenu avec personne.code
   personne_code  TEXT NOT NULL,         -- ! personne.code
-  document       INTEGER,               -- ! document.id obtenu avec par document.code
-  document_code  TEXT NOT NULL,         -- ! sera obtenu avec par document.code
-  anchor         TEXT NOT NULL,         -- ! ancre dans le ficheir source
+  document       INTEGER,               -- ! document.id obtenu avec document.code
+  document_code  TEXT NOT NULL,         -- ! sera obtenu avec document.code
+  anchor         TEXT NOT NULL,         -- ! ancre dans le fichier source
   occurrence     TEXT NOT NULL,         -- ! forme dans le texte
   role           INT,                   -- ? sort
   role_code      TEXT,                  -- ? @role
@@ -164,6 +164,17 @@ CREATE INDEX personne_document_document ON personne_document(document, personne_
 CREATE INDEX personne_document_role ON personne_document(personne, role, document, anchor);
 CREATE INDEX personne_document_docs ON personne_document(personne, role_code, document);
 CREATE INDEX personne_document_occs ON personne_document(personne, role_code);
+
+CREATE TABLE name_document (
+  -- Occurences des noms de personnages dans les documents
+  id             INTEGER,               -- ! rowid auto
+  name           TEXT NOT NULL,         -- ! nom tel que dans le texte
+  document       INTEGER,               -- ! document.id obtenu avec document.code
+  document_code  TEXT NOT NULL,         -- ! sera obtenu avec document.code
+  anchor         TEXT NOT NULL,         -- ! ancre dans le fichier source
+  occurrence     TEXT NOT NULL,         -- ! forme dans le texte
+  PRIMARY KEY(id ASC)
+);
 
 CREATE TABLE role (
   -- liste des roles
@@ -268,6 +279,7 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
     "foreign" => "Membres de la royauté étrangère",
     "militaire" => "Militaires",
     "pro" => "Professionnel·le·s",
+    "local" => "Élites locales",
     "O" => "Groupe inconnu",
   );
 
@@ -500,6 +512,7 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
     $personne_document = "personne_code\tdocument_code\tanchor\toccurrence\trole_code\n";
     $document_include = "src_code\tdst_code\n";
     $document_resp = "document_code\tpersonne_code\tresp\n";
+    $name_document = "name\tdocument_code\tanchor\toccurrence\n";
 
     // loop on all xml files, and do lots of work
     foreach (glob(self::$home . "xml/*.xml") as $srcfile) {
@@ -524,6 +537,7 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
       $lieu_document .= Build::transformDoc($dom, self::$home . "build/xsl/tsv_lieu_document.xsl", null, array('filename' => $dstname));
       $document_include .= Build::transformDoc($dom, self::$home . "build/xsl/tsv_document_include.xsl", null, array('filename' => $dstname));
       $document_resp .= Build::transformDoc($dom, self::$home . "build/xsl/tsv_document_resp.xsl", null, array('filename' => $dstname));
+      $name_document .= Build::transformDoc($dom, self::$home . "build/xsl/tsv_name_document.xsl", null, array('filename' => $dstname));
     }
     file_put_contents(self::$home . "README.md", $readme);
 
@@ -532,7 +546,7 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
     file_put_contents(self::$home . "site/data/lieu_document.tsv", $lieu_document);
     file_put_contents(self::$home . "site/data/technique_document.tsv", $technique_document);
     file_put_contents(self::$home . "site/data/personne_document.tsv", $personne_document);
-
+    file_put_contents(self::$home . "site/data/name_document.tsv", $name_document);
     // charger les tsv en base
     self::tsv_insert("document", $document_cols, $document);
     self::tsv_insert("lieu_document", array("lieu_code", "document_code", "anchor", "occurrence", "desc"), $lieu_document);
@@ -540,6 +554,7 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
     self::tsv_insert("personne_document", array("personne_code", "document_code", "anchor", "occurrence", "role_code"), $personne_document);
     self::tsv_insert("document_include", array("src_code", "dst_code"), $document_include);
     self::tsv_insert("document_resp", array("document_code", "personne_code", "resp"), $document_resp);
+    self::tsv_insert("name_document", array("name", "document_code", "anchor", "occurrence"), $name_document);
 
     // mise à jour des index 
     self::$pdo->exec("
@@ -561,10 +576,14 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
         personne=(SELECT id FROM personne WHERE code=document_resp.personne_code),
         document=(SELECT id FROM document WHERE code=document_resp.document_code)
       ;
+
       UPDATE document_include SET
         src=(SELECT id FROM document WHERE code=document_include.src_code),
         dst=(SELECT id FROM document WHERE code=document_include.dst_code)
       ;
+
+      UPDATE name_document SET
+        document=(SELECT id FROM document WHERE code=name_document.document_code)
     ");
 
 
