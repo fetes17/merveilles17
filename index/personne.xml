@@ -17,11 +17,13 @@
   </person>
   
   <person xml:id="andre" sex="M">
-    <name type="cour">André, officier du Gobelet</name>
+    <name>André, officier du Gobelet</name>
+    <socecStatus type="cour"/>
   </person>
   
     <person xml:id="marieantier" sex="F">
-    <name type="pro">Antier,Marie, actrice</name>
+    <name>Antier,Marie, actrice</name>
+      <socecStatus type="pro"/>
     <death when="1747"/>
     <!-- https://www.theatre-classique.fr/pages/bio/comediens.htm#gautier -->
   </person>
@@ -29,12 +31,14 @@
 
   
   <person xml:id="rene_francois_archambault" sex="M">
-    <name type="cour">Archambault,René-François,grand bailli d’épée de Châtillon-sur-Indre</name>
+    <name>Archambault,René-François,grand bailli d’épée de Châtillon-sur-Indre</name>
+    <socecStatus type="cour"/>
     <!-- http://racineshistoire.free.fr/LGN/PDF/Languedoue.pdf page 9 -->
 </person>
 
   <person xml:id="alexandre_farnese" sex="M">
-    <name type="foreign">Alexandre Farnèse, prince </name>
+    <name>Alexandre Farnèse, prince </name>
+    <socecStatus type="foreign"/>
     <birth when="1545-08-27"/>
     <death when="1592-12-03"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Alexandre_Farn%C3%A8se_(1545-1592)</identifier>
@@ -44,7 +48,8 @@
   </person>
   
   <person xml:id="ambrogio_spinola" sex="M">
-    <name type="foreign">Spinola, Ambrogio, marquis de</name>
+    <name>Spinola, Ambrogio, marquis de</name>
+    <socecStatus type="foreign"/>
     <birth when="1569"/>
     <death when="1630"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Ambrogio_Spinola</identifier>
@@ -54,22 +59,25 @@
   </person>
 
     <person xml:id="josephfleurieuarmenonville" sex="M">
-    <name type="cour">Armenonville,Joseph Fleuriau d',Garde des Sceaux de France</name>
-    <birth when="1661-01-22"/>
+    <name>Armenonville,Joseph Fleuriau d',Garde des Sceaux de France</name>
+      <socecStatus type="cour"/>
+      <birth when="1661-01-22"/>
     <death when="1728-11-27"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Joseph_Fleuriau_d%27Armenonville</identifier>
 </person>
 
     <person xml:id="josephpierrecastelanne" sex="M">
-    <name type="cour">Castellane,Joseph-Pierre de,Évêque de Fréjus</name>
-    <birth when="1661"/>
+    <name>Castellane,Joseph-Pierre de,Évêque de Fréjus</name>
+      <socecStatus type="cour"/>
+      <birth when="1661"/>
     <death when="1739-03-21"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Joseph-Pierre_de_Castellane</identifier>
   </person>
   
   
   <person xml:id="catherine_bragance" sex="F">
-    <name type="foreign">Bragance, Catherine de, reine d'Angleterre</name>
+    <name>Bragance, Catherine de, reine d'Angleterre</name>
+    <socecStatus type="foreign"/>
     <birth when="1638-11-25"/>
     <death when="1705-12-31"/>
     <identifier type="databnf">https://data.bnf.fr/16258771/catherine_de_bragance/</identifier>
@@ -78,7 +86,8 @@
   </person>
   
   <person xml:id="charles_II" sex="M">
-    <name type="foreign">Charles II, roi d'Angleterre</name>
+    <name>Charles II, roi d'Angleterre</name>
+    <socecStatus type="foreign"/>
     <birth when="1630-05-29"/>
     <death when="1685-02-06"/>
     <identifier type="databnf">https://data.bnf.fr/13197087/charles_2/</identifier>
@@ -88,66 +97,78 @@
    
     
   <person xml:id="empereurcharlevii" sex="M">
-    <name type="foreign">Bavière,Charles Albert de,dit Charles VII empereur du Saint-Empire</name>
+    <name>Bavière,Charles Albert de,dit Charles VII empereur du Saint-Empire</name>
+    <socecStatus type="foreign"/>
     <birth when="1697-08-06"/>
     <death when="1745-01-20"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Charles_VII_(empereur_du_Saint-Empire)#:~:text=Charles%20Albert%20de%20Bavi%C3%A8re%2C%20dit,roi%20polonais%20Jean%20III%20Sobieski.</identifier>
   </person>
+  
     <person xml:id="felipeiv" sex="M">
-    <name type="foreign">Felipe IV,dit le Grand ou le « roi-Planète » Roi des Espagnes et des Indes</name>
-    <birth when="1605-04-08"/>
+    <name>Felipe IV,dit le Grand ou le « roi-Planète » Roi des Espagnes et des Indes</name>
+      <socecStatus type="foreign"/>
+      <birth when="1605-04-08"/>
     <death when="1665-09-17"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Philippe_IV_(roi_d%27Espagne)</identifier>
   </person>
+  
     <person xml:id="marie_anne_victoire_espagne" sex="F">
-      <name type="foreign">Espagne,Marie-Anne-Victoire d', dite "l'Infante-reine" Reine consort de Portugal et des Algarves (1750)</name>
-    <birth when="1718-03-31"/>
+      <name>Espagne,Marie-Anne-Victoire d', dite "l'Infante-reine" Reine consort de Portugal et des Algarves (1750)</name>
+      <socecStatus type="foreign"/>
+      <birth when="1718-03-31"/>
     <death when="1781-01-15"/>
   </person>
   
   
   <person xml:id="charles_armelot" sex="M">
-    <name type="cour">Amelot de Gournay,Michel-Charles,Conseiller d'état</name>
+    <name>Amelot de Gournay,Michel-Charles,Conseiller d'état</name>
+    <socecStatus type="cour"/>
     <birth when="1679"/>
     <death when="1730-12-25"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Famille_Amelot</identifier>
   </person>
 
   <person xml:id="claude_auguste_de_goyon_de_matignon" sex="M">
-    <name type="cour">Goyon de Matignon,Charles Auguste de,Maréchal de France</name>
+    <name>Goyon de Matignon,Charles Auguste de,Maréchal de France</name>
+    <socecStatus type="cour"/>
     <birth when="1647-05-28"/>
     <death when="1729-09-06"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Charles_Auguste_de_Goyon_de_Matignon</identifier>
 </person>
   
   <person xml:id="antoine_le_prestre_de_vauban" sex="M">
-    <name type="local">Dupuys-Vauban, Antoine le Preste de Vauban, dit, gouverneur de Béthune</name>
+    <name>Dupuys-Vauban, Antoine le Preste de Vauban, dit, gouverneur de Béthune</name>
+    <socecStatus type="local"/>
     <birth when="1654"/>
     <death when="1731"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Antoine_Le_Prestre_de_Vauban</identifier>
   </person>
   
   <person xml:id="armand_saint_lo" sex="M">
-    <name type="local">Saint-Lô, Armand de, Mr de Saint-Lô, sieur de Brigny, major de Calais</name>
+    <name>Saint-Lô, Armand de, Mr de Saint-Lô, sieur de Brigny, major de Calais</name>
+    <socecStatus type="local"/>
     <death when="1694"/>
   </person>
   
   <person xml:id="henri_camille_de_beringhen" sex="M">
-    <name type="cour">Beringhen,Henri-Camille de,marquis de Beringhen et d'Uxelles</name>
+    <name>Beringhen,Henri-Camille de,marquis de Beringhen et d'Uxelles</name>
+    <socecStatus type="cour"/>
     <birth when="1693-08-01"/>
     <death when="1770-02-01"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Henri-Camille_de_Beringhen</identifier>
 </person>
   
   <person xml:id="jacques_louis_de_beringhen" sex="M">
-    <name type="cour">Beringhen,Jacques-Louis de,marquis de Beringhen</name>
+    <name>Beringhen,Jacques-Louis de,marquis de Beringhen</name>
+    <socecStatus type="cour"/>
     <birth when="1651-10-20"/>
     <death when="1723-05-01"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jacques-Louis_de_Beringhen</identifier>
 </person>
   
   <person xml:id="balthazar_phelypeaux_chateauneuf" sex="M">
-    <name type="cour">Phélypeaux de Châteauneuf, Balthazar</name>
+    <name>Phélypeaux de Châteauneuf, Balthazar</name>
+    <socecStatus type="cour"/>
     <birth when="1638"/>
     <death when="1700"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Balthazar_Ph%C3%A9lypeaux_de_Ch%C3%A2teauneuf</identifier>
@@ -156,33 +177,38 @@
   </person>
   
     <person xml:id="jacques_bazin_de_bezons" sex="M">
-    <name type="cour">Bazin de Bezons,Jacques,Maréchal de France et Marquis de Bezons</name>
-    <birth when="1646-11-14"/>
+    <name>Bazin de Bezons, Jacques, Maréchal de France et Marquis de Bezons</name>
+      <socecStatus type="cour"/>
+      <birth when="1646-11-14"/>
     <death when="1733-05-22"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jacques_Bazin_de_Bezons</identifier>
 </person>
   
   <person xml:id="julie_bercaville" sex="F">
-  <name type="pro">Bercaville,Julie,Actrice à la Comédie Française</name>
+  <name>Bercaville, Julie, actrice à la Comédie Française</name>
+    <socecStatus type="pro"/>
   <!-- http://www.pastellists.com/Essays/LaTour_Puvigne.pdf -->
 </person>
 
   <person xml:id="jacques_begnigne_bossuet" sex="M">
-    <name type="cour">Bénigne Bossuet,Jacques,évêque de Troyes</name>
+    <name>Bénigne Bossuet, Jacques, évêque de Troyes</name>
+    <socecStatus type="cour"/>
     <birth when="1664-12-11"/>
     <death when="1743-07-12"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jacques_B%C3%A9nigne_Bossuet_(%C3%A9v%C3%AAque_de_Troyes)</identifier>
 </person>
 
   <person xml:id="georges_rene_binet" sex="M">
-    <name type="cour">Binet,Georges-René,Valet de chambre de Louis XV.</name>
+    <name>Binet, Georges-René, valet de chambre de Louis XV.</name>
+    <socecStatus type="cour"/>
     <birth when="1688-01-29"/>
     <death when="1761-10-17"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Famille_Binet_de_Boisgiroult_de_Sainte-Preuve#:~:text=Georges%2DRen%C3%A9%20Binet%20(1688%2D,%2DElisabeth%2DC%C3%A9cile%20et%20Elisabeth.</identifier>
 </person>
   
   <person xml:id="jerome_bignon_de_blanzy" sex="M">
-    <name type="cour">Bignon de Blanzy,Jérôme,grand commis d'État et bibliothécaire du roi</name>
+    <name>Bignon de Blanzy, Jérôme, grand commis d'État et bibliothécaire du roi</name>
+    <socecStatus type="cour"/>
     <birth when="1698-02-26"/>
     <death when="1743-03-08"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/J%C3%A9r%C3%B4me_Bignon_de_Blanzy</identifier>
@@ -190,7 +216,8 @@
 
   
   <person xml:id="bernard_de_la_guiche" sex="M">
-    <name type="cour">La Guiche, Bernard de, comte de Saint-Géran</name>
+    <name>La Guiche, Bernard de, comte de Saint-Géran</name>
+    <socecStatus type="cour"/>
     <birth when="1642-08-15"/>
     <death when="1696-03-18"/>
     <identifier type="databnf">https://data.bnf.fr/14974106/bernard_de_la_guiche/</identifier>
@@ -198,150 +225,177 @@
   </person>
 
   <person xml:id="bissoni" sex="M">
-  <name type="pro">Bissoni, Giovani,interprète de Scapin et comédien du Régent</name>
-  <death when="1739"/>
+  <name>Bissoni, Giovani, interprète de Scapin et comédien du Régent</name>
+    <socecStatus type="pro"/>
+    <death when="1739"/>
    <!-- https://www.persee.fr/doc/rhmc_0048-8003_1977_num_24_2_973 -->
   </person>
   
   <person xml:id="blancas" sex="M">
-    <name type="cour">Blancas, page</name>
+    <name>Blancas, page</name>
+    <socecStatus type="cour"/>
   </person>
   <!-- à corriger en Brancas ? À vérifier -->
   <person xml:id="claude_le_blanc" sex="M">
-    <name type="cour">Le Blanc,Claude,officier du Roi</name>
+    <name>Le Blanc,Claude,officier du Roi</name>
+    <socecStatus type="cour"/>
     <birth when="1669-12-01"/>
     <death when="1728-05-19"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Claude_Le_Blanc</identifier>
 </person>  
   
   <person xml:id="joseph_henry_de_bogue" sex="M">
-    <name type="cour">BOGUE, Joseph Henry de, provisions de lieutenant français de la Compagnie des Cent-Suisses</name>
+    <name>Bogue, Joseph Henry de, lieutenant français de la Compagnie des Cent-Suisses</name>
+    <socecStatus type="militaire"/>
     <!-- https://francearchives.gouv.fr/fr/facomponent/5a9817e37c9ac710ff1f3e993ed6d4b4adb2237d -->
 </person>
 
   <person xml:id="louis_ier_du_bouchet" sex="M">
-  <name type="cour">Bouchet de Sourches,Louis 1er du, Comte de Montsoreau</name>
+  <name>Bouchet de Sourches,Louis 1er du, Comte de Montsoreau</name>
+    <socecStatus type="cour"/>
     <birth when="1666-07-06"/>
     <death when="1746-05-05"/>
     <!-- https://gw.geneanet.org/antistar?lang=fr&p=louis+ier&n=du+bouchet+de+sourches -->
 </person>
   
   <person xml:id="pierre_de_bonzi" sex="M">
-    <name type="cour">Bonzi, Pierre de, cardinal</name>
+    <name>Bonzi, Pierre de, cardinal</name>
+    <socecStatus type="cour"/>
     <birth when="1631-04-15"/>
     <death when="1703-07-11"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Pierre_de_Bonzi</identifier>
   </person>
   
   <person xml:id="albert" sex="M">
-    <name type="militaire">Albert, sieur, capitaine de frégate</name>
+    <name>Albert, sieur, capitaine de frégate</name>
+    <socecStatus type="militaire"/>
   </person>
   
   <person xml:id="carlos_de_gurrea" sex="M">
-    <name type="foreign">Aragon de Gurrea, Carlos, duc de Villahermosa, Gouverneur des Pays-Bas espagnols de 1675 à 1677</name>
+    <name>Aragon de Gurrea, Carlos, duc de Villahermosa, Gouverneur des Pays-Bas espagnols de 1675 à 1677</name>
+    <socecStatus type="foreign"/>
     <birth when="1634"/>
     <death when="1692-04-14"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Carlos_de_Gurrea</identifier>
   </person>
   
   <person xml:id="cesar_de_vaulserre" sex="M">
-    <name type="militaire">Vaulserre, César de, baron des Adrets</name>
+    <name>Vaulserre, César de, baron des Adrets</name>
+    <socecStatus type="militaire"/>
   </person>
   
   <person xml:id="charlesII" sex="M">
-    <name type="foreign">Charles II d'Angleterre</name>
+    <name>Charles II d'Angleterre</name>
+    <socecStatus type="foreign"/>
     <birth when="1630-05-29"/>
     <death when="1685-02-06"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Charles_II_(roi_d%27Angleterre)</identifier>
     <identifier type="databnf">https://data.bnf.fr/13197087/charles_2/</identifier>
     <identifier type="isni">http://isni.org/isni/0000000118675506</identifier>
   </person>
+  
     <person xml:id="nicolas_prosper_bauyn_dangervilliers" sex="M">
-    <name type="cour">Bauyn d'Angervilliers, Nicolas-Prosper, Intendant de la généralité de Paris</name>
-    <birth when="1675-01-15"/>
+    <name>Bauyn d'Angervilliers, Nicolas-Prosper, Intendant de la généralité de Paris</name>
+      <socecStatus type="cour"/>
+      <birth when="1675-01-15"/>
     <death when="1740-02-15"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Nicolas-Prosper_Bauyn_d%27Angervilliers</identifier>
 </person>
   
   <person xml:id="charles_colbert_croissy" sex="M">
-    <name type="cour">Colbert de Croissy, Charles</name>
+    <name>Colbert de Croissy, Charles</name>
+    <socecStatus type="cour"/>
     <birth when="1629-08-05"/>
     <death when="1696-07-28"/>
     <identifier type="databnf">https://data.bnf.fr/12597740/charles_colbert_croissy/</identifier>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Charles_Colbert_de_Croissy</identifier>
     <identifier type="isni">http://isni.org/isni/0000000063071974</identifier>
   </person>
-    <person xml:id="mariesophie_colbert" sex="F">
-    <name type="cour">Colbert,Marie Sophie de,Marquise de Seignelay</name>
+   
+  <person xml:id="mariesophie_colbert" sex="F">
+    <name>Colbert, Marie Sophie de, Marquise de Seignelay</name>
+    <socecStatus type="cour"/>
     <birth when="1709-09-20"/>
     <death when="1747-10-29"/>
     <identifier type="wikipedia">https://www.wikidata.org/wiki/Q107293853</identifier>
   </person>
 
   <person xml:id="pierre_crozat" sex="M">
-    <name type="cour">Crozat,Pierre,Trésorier de France</name>
+    <name>Crozat, Pierre, Trésorier de France</name>
+    <socecStatus type="cour"/>
     <birth when="1661"/>
     <death when="1740-05-23"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Pierre_Crozat</identifier>
   </person>
   
   <person xml:id="charles_du_fresny" sex="M">
-    <name type="pro">Du Fresny, Charles</name>
+    <name>Du Fresny, Charles</name>
+    <socecStatus type="pro"/>
     <birth when="1648"/>
     <death when="1724-10-06"/>
     <identifier type="isni">http://isni.org/isni/0000000140935001</identifier>
   </person>
   
   <person xml:id="charles_françois_lorraine" sex="M">
-    <name type="foreign">Lorraine, Charles-François de, prince de Commercy</name>
+    <name>Lorraine, Charles-François de, prince de Commercy</name>
+    <socecStatus type="foreign"/>
     <birth when="1661-07-11"/>
     <death when="1702-08-15"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Charles-Fran%C3%A7ois_de_Lorraine#:~:text=Charles%2DFran%C3%A7ois%20de%20Lorraine%20(%2011,de%20la%20Maison%20de%20Lorraine.</identifier>
   </person>
   
   <person xml:id="louis_de_lorraine" sex="M">
-  <name type="cour">Lorraine,Louis de,Prince de Lambese</name>
-  <birth when="1692-02-13"/>
+  <name>Lorraine,Louis de,Prince de Lambese</name>
+    <socecStatus type="cour"/>
+    <birth when="1692-02-13"/>
   <death when="1743-09-09"/>
   <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Louis_de_Lorraine_(1692-1743)</identifier>
 </person>
 
     <person xml:id="nicolasjoseph_clocquet" sex="M">
-    <name type="local">Cloquet,Nicolas Joseph,chanoine régulier de l'abbaïe de Coudenberg</name>
-    <death when="1769-03-10"/>
+    <name>Cloquet,Nicolas Joseph,chanoine régulier de l'abbaïe de Coudenberg</name>
+      <socecStatus type="local"/>
+      <death when="1769-03-10"/>
     <!-- https://books.google.pt/books/about/Les_chanoines_r%C3%A9guliers_de_l_abba%C3%AFe_de.html?id=yxxu0AEACAAJ&redir_esc=y -->
 </person>
   
   <person xml:id="charles_honore_albert_de_luynes" sex="M">
-    <name type="cour">Albert, Charles-Honoré d', duc de Chevreuse puis de Luynes</name>
+    <name>Albert, Charles-Honoré d', duc de Chevreuse puis de Luynes</name>
+    <socecStatus type="cour"/>
     <birth when="1646-10-07"/>
     <death when="1712-11-05"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Charles-Honor%C3%A9_d%27Albert_de_Luynes</identifier>
     <identifier type="databnf">https://data.bnf.fr/14953406/charles_honore_d_albert_chevreuse/</identifier>
     <identifier type="isni">http://isni.org/isni/0000000017023031</identifier>
   </person>
+ 
   <person xml:id="alexandre_chevard" sex="M">
-    <name type="cour">Chevard,Alexandre,chevalier de Saint-Louis, huissier des Ordres du Roi</name>
+    <name>Chevard, Alexandre, chevalier de Saint-Louis, huissier des Ordres du Roi</name>
+    <socecStatus type="cour"/>
     <!-- https://fr.wikipedia.org/wiki/Liste_des_officiers_de_l%27ordre_du_Saint-Esprit -->
   </person>
+  
     <person xml:id="guillaume_francois_de_la_chevardiere" sex="M">
-    <name type="cour">La Chevardière,Guillaume-François de,seigneur de La Grandville</name>
-    <birth when="1708"/>
+    <name>La Chevardière, Guillaume-François de, seigneur de La Grandville</name>
+      <socecStatus type="cour"/>
+      <birth when="1708"/>
     <death when="1769"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Famille_de_La_Chevardi%C3%A8re_de_La_Grandville</identifier>
 </person>
   
 
     <person xml:id="godefred_ii_de_conflans" sex="M">
-    <name type="cour">Conflans,Godefred de,Évêque du Puy-en-Velay</name>
-    <birth when="1684"/>
+    <name>Conflans,Godefred de,Évêque du Puy-en-Velay</name>
+      <socecStatus type="cour"/>
+      <birth when="1684"/>
     <death when="1725-03-14"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Godefred_de_Conflans</identifier>
 </person>  
 
   
   <person xml:id="claude_blageart" sex="M">
-    <name type="pro">Blageart, Claude</name>
+    <name>Blageart, Claude</name>
+    <socecStatus type="pro"/>
     <birth notBefore="1630"/>
     <death when="1685"/>
     <identifier type="databnf">https://data.bnf.fr/12238935/claude_blageart/</identifier>
@@ -349,132 +403,170 @@
   </person>
   
   <person xml:id="combe" sex="M">
-    <name type="cour">Combe, sieur de</name>
+    <name>Combe, sieur de</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="daniel_de_remy_de_courcelles" sex="M">
-    <name type="militaire">Rémy de Courcelles, Daniel de, lieutenant</name>    
+    <name>Rémy de Courcelles, Daniel de, lieutenant</name>
+    <socecStatus type="militaire"/>    
     <birth when="1626-05-03"/>
     <death when="1698-10-24"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Daniel_de_R%C3%A9my_de_Courcelles</identifier>
   </person>
    
   <person xml:id="louis_alexandre_dauger" sex="M">
-  <name type="cour">Dauger,Louis Alexandre,Baron de Neuvizy</name>
+  <name>Dauger, Louis Alexandre, Baron de Neuvizy</name>
+    <socecStatus type="cour"/>
     <birth when="1701-10-07"/>
     <death when="1785-02-18"/>
     <!-- https://man8rove.com/fr/profile/obkai56kp-louis-alexandre-dauger -->
 </person>
   
   <person xml:id="dauphin" sex="M">
-    <name type="pro">Dauphin, ouvrier/artisan</name>
+    <name>Dauphin, ouvrier/artisan</name>
+    <socecStatus type="pro"/>
   </person>
+  
     <person xml:id="francoisdumoulin" sex="M">
-      <name type="pro">Du Moulin,François, acteur issu de l'Académie royale de Musique</name>
+      <name>Du Moulin, François, acteur issu de l'Académie royale de Musique</name>
+      <socecStatus type="pro"/>
     <!-- https://www.theatre-classique.fr/pages/bio/comediens.htm#flaminia ils sont 3 frères donc pas sur du quel est-ce -->
   </person>
   
   <person xml:id="pierredumoulin" sex="M">
-    <name type="pro">Du Moulin,Pierre, acteur issue de l'Académie royale de Musique</name>
+    <name>Du Moulin, Pierre, acteur issue de l'Académie royale de Musique</name>
+    <socecStatus type="pro"/>
     <!-- https://www.theatre-classique.fr/pages/bio/comediens.htm#flaminia ils sont 3 frères donc pas sur du quel est-ce -->
   </person>
+  
     <person xml:id="sieurblondi" sex="M">
-      <name type="pro">BLONDY,danseur de l'Opéra</name>
+      <name>Blondy, danseur de l'Opéra</name>
+      <socecStatus type="pro"/>
     <!-- https://www.theatre-classique.fr/pages/bio/comediens.htm#blondy -->
   </person>
+  
     <person xml:id="jeanlouismansienne" sex="M">
-      <name type="pro">Mansienne,Jean-Louis,musicien de l'Académie royale</name>
+      <name>Mansienne, Jean-Louis, musicien de l'Académie royale</name>
+      <socecStatus type="pro"/>
     <!-- https://francearchives.gouv.fr/fr/subject/130949414?aug=True&es_digitized=False&es_originators=Origines%20diverses&es_originators=Le%20pr%C3%A9vost%2C%20Nicolas-Charles&indexentry=130949414&items_per_page=50&restrict_to_single_etype=False&sort=publisher -->
   </person>
+  
     <person xml:id="dupredanseur" sex="M">
-      <name type="pro">Dupré,danseur de l'Opéra</name>
+      <name>Dupré, danseur de l'Opéra</name>
+      <socecStatus type="pro"/>
     <!-- https://www.theatre-classique.fr/pages/bio/comediens.htm#dupré -->
   </person>
+  
     <person xml:id="demoiselleduvalpseudo" sex="F">
-      <name type="pro">Mademoiselle Duval,Danseuse</name>
+      <name>Mademoiselle Duval, danseuse</name>
+      <socecStatus type="pro"/>
     <!-- peu information sont disponible sur elle cependant je pense que c'est soit elle -->
     <!-- première possibilité https://en.wikipedia.org/wiki/Mlle_Duval (mais les dates ne match pas)  -->
     <!-- https://operabaroque.fr/DUVAL.htm ou elle qui est musicinne -->
   </person>
+  
     <person xml:id="dlle_mangot" sex="F">
-      <name type="pro">Mangot, Marie Louise, actrice</name>
+      <name>Mangot, Marie Louise, actrice</name>
+      <socecStatus type="pro"/>
     <birth when="1706"/>
     <death when="1785"/>
     <!-- https://www.kronobase.org/chronologie-categorie-Marie-Louise+Mangot.html -->
     <!-- https://francearchives.gouv.fr/agent/19518850 -->
   </person>
+  
     <person xml:id="sieurlaval" sex="M">
-      <name type="pro">Banière, Antoine,maître à danser de l’Académie des Treize du roi</name>
+      <name>Banière, Antoine, sieur de Laval, maître à danser de l’Académie des Treize du roi</name>
+      <socecStatus type="pro"/>
     <!-- https://books.openedition.org/cvz/21739?lang=fr -->
   </person>
     <person xml:id="demoiselle_rey" sex="F">
-      <name type="pro">Rey, Danseuse</name>
+      <name>Rey, danseuse</name>
+      <socecStatus type="pro"/>
     <!-- https://mediatheque.cnd.fr/IMG/pdf/aid35_1_11.pdf page 2 -->
   </person>
+  
   <person xml:id="dlle_souris" sex="F">
-    <name type="pro">Souris, Emilie, Danseuse</name>
+    <name>Souris, Emilie, Danseuse</name>
+    <socecStatus type="pro"/>
   <!-- je pense que c'est la cadette mais rien de sur au vue des maigres informations sur elle -->
   <!-- http://favoritesroyales.canalblog.com/archives/2012/07/21/24750358.html -->
   <!-- https://gw.geneanet.org/edehults?lang=no&n=de+la+vieuville&p=marie+madeleine -->
 </person>
   
   <person xml:id="dlle_souris_aine" sex="F">
-    <name type="pro">Souris,Uzée,Danseuse</name>
+    <name>Souris, Uzée, danseuse</name>
+    <socecStatus type="pro"/>
     <!-- je pense que c'est l'ainée -->
     <!-- http://favoritesroyales.canalblog.com/archives/2012/07/21/24750358.html -->
     <!-- https://gw.geneanet.org/edehults?lang=no&n=de+la+vieuville&p=marie+madeleine -->
   </person>
+  
   <person xml:id="dllecorail" sex="F">
-    <name type="pro">Corail, Mademoiselle, Danseuse</name>
+    <name>Corail, Mademoiselle, Danseuse</name>
+    <socecStatus type="pro"/>
   <!-- très peu d'informartion disponible sur elle -->
   <!-- http://visualiseur.bnf.fr/CadresFenetre?O=NUMM-108375&I=7&M=tdm page 216 -->
 </person>
+  
   <person xml:id="dupreactrice" sex="F">
-    <name type="pro">Dupré, Marie-Geneviève, Mademoiselle Grandval, actrice</name>
+    <name>Dupré, Marie-Geneviève, Mademoiselle Grandval, actrice</name>
+    <socecStatus type="pro"/>
   <birth when="1711-10-25"/>
   <death when="1783-08-09"/>
   <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Mademoiselle_Grandval</identifier>
 </person>
   
   <person xml:id="sieurpercourt" sex="M">
-    <name type="pro">Pécourd, danseur de ballets de l'Académie Royale</name>
+    <name>Pécourd, danseur de ballets de l'Académie Royale</name>
+    <socecStatus type="pro"/>
     <!-- https://www.theatre-classique.fr/pages/bio/comediens.htm#blondy -->
   </person>
   
   
   <person xml:id="de_beaujeu" sex="M">
-    <name type="cour">Beaujeu, mr de, enseigne</name>
+    <name>Beaujeu, mr de, enseigne</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="de_briare" sex="M">
-    <name type="cour">De Briare, officier du Gobelet</name>
+    <name>De Briare, officier du Gobelet</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="de_desgleraux" sex="M">
-    <name type="cour">Desgleraux, mr de, enseigne</name>
+    <name>Desgleraux, mr de, enseigne</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="de_forgues" sex="M">
-    <name type="cour">De Forgues, page</name>
+    <name>De Forgues, page</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="de_gault_chevalier" sex="M">
-    <name type="cour">Gault, chevalier de, enseigne</name>
+    <name>Gault, chevalier de, enseigne</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="de_paliere" sex="M">
-    <name type="militaire">Paliere, mr de, capitaine second de la Compagnie du Chevalier de Lhéry</name>
+    <name>Paliere, mr de, capitaine second de la Compagnie du Chevalier de Lhéry</name>
+    <socecStatus type="militaire"/>
   </person>
  
   <person xml:id="de_rouvroy" sex="M">
-    <name type="militaire">Rouvroy, mr de, lieutenant</name>
+    <name>Rouvroy, mr de, lieutenant</name>
+    <socecStatus type="militaire"/>
   </person>
   
   <person xml:id="de_villars_chevalier" sex="M">
-    <name type="militaire">Villars, chevalier de, lieutenant</name>
+    <name>Villars, chevalier de, lieutenant</name>
+    <socecStatus type="militaire"/>
   </person>
+  
     <person xml:id="claude_louis_hector_de_villars" sex="M">
-    <name type="cour">Hector de Villars,Claude Louis,Maréchal Duc de Villars</name>
+    <name>Hector de Villars,Claude Louis,Maréchal Duc de Villars</name>
+      <socecStatus type="cour"/>
     <birth when="1653-05-08"/>
     <death when="1734-06-17"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Claude_Louis_Hector_de_Villars</identifier>
