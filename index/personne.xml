@@ -573,32 +573,38 @@
 </person>
   
   <person xml:id="dupuys" sex="M">
-    <name type="pro">Du Puis ou Dupuys, ingénieur du roi</name>
+    <name>Du Puis ou Dupuys, ingénieur du roi</name>
+    <socecStatus type="pro"/>
     <death when="1676-08-09"/>
   </person>
 
     <person xml:id="guillaume_dubois" sex="M">
-    <name type="cour">Dubois,Guillaume ,dit le cardinal Dubois  principal ministre d'État</name>
-    <birth when="1656-09-06"/>
+    <name>Dubois,Guillaume ,dit le cardinal Dubois  principal ministre d'État</name>
+      <socecStatus type="cour"/>
+      <birth when="1656-09-06"/>
     <death when="1723-08-10"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Guillaume_Dubois</identifier>
 </person>
   
   <person xml:id="françois_chevalier_de_saulx" sex="M">
-    <name type="cour">Chevalier de Saulx, François, évêque d'Alais</name>
+    <name>Chevalier de Saulx, François, évêque d'Alais</name>
+    <socecStatus type="cour"/>
     <birth when="1643"/>
     <death when="1712-10-27"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Chevalier_de_Saulx</identifier>
   </person> 
+  
     <person xml:id="nicolas_charles_saulx_tavanes" sex="M">
-    <name type="cour">Saulx-Tavannes,Nicolas de,Évêque-comte de Châlons (1722)</name>
+    <name>Saulx-Tavannes,Nicolas de,Évêque-comte de Châlons (1722)</name>
+      <socecStatus type="cour"/>
     <birth when="1690-09-19"/>
     <death when="1759-03-10"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Nicolas_de_Saulx-Tavannes</identifier>
 </person>
   
   <person xml:id="françois_michel_le_tellier_de_louvoy" sex="M">
-    <name type="cour">Le Tellier, François Michel, marquis de Louvois</name>
+    <name>Le Tellier, François Michel, marquis de Louvois</name>
+    <socecStatus type="cour"/>
     <birth when="1639-01-18"/>
     <death when="1691-07-16"/>
     <identifier type="databnf">https://data.bnf.fr/11961961/francois_michel_le_tellier_louvois/</identifier>
@@ -607,73 +613,89 @@
   </person>
   
   <person xml:id="de_nier" sex="M">
-    <name type="cour">De Nier, officier du Gobelet</name>
+    <name>De Nier, officier du Gobelet</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="de_roger" sex="M">
-    <name type="militaire">Roger, M. de, Capitaine de la seconde Compagnie du régiment de Turenne</name>
+    <name>Roger, M. de, Capitaine de la seconde Compagnie du régiment de Turenne</name>
+    <socecStatus type="militaire"/>
   </person>
   
   <person xml:id="de_sourdis" sex="M">
-    <name type="cour">De Sourdis, chevalier</name>
+    <name>De Sourdis, chevalier</name>
+    <socecStatus type="cour"/>
   </person>
   <!-- Attribut à corriger: il s'agit de François Hannibal I + attention, confusion avec le comte -->
   
   <person xml:id="dideman" sex="M">
-    <name type="local">Monsieur Dideman, l'aleandrie</name>
+    <name>Monsieur Dideman, l'aleandrie</name>
+    <socecStatus type="local"/>
     <!-- à compléter (aleandrie???) -->
   </person>
   
   <person xml:id="françois_andrault" sex="M">
-    <name type="cour">Andrault, François, marquis de Maulevrier</name>
+    <name>Andrault, François, marquis de Maulevrier</name>
+    <socecStatus type="cour"/>
     <birth notBefore="1640"/>
     <death when="1715"/>
   </person>
   
   <person xml:id="françois_panetie" sex="M">
-    <name type="O">Panetié ou Pannetier, François </name>
+    <name>Panetié ou Pannetier, François </name>
+    <socecStatus type="militaire"/>
     <birth when="1626"/>
     <death when="1696-04-26"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Paneti%C3%A9</identifier>
   </person>
   
   <person xml:id="gilbert_de_choiseil_du_plessis-praslin" sex="M">
-    <name type="cour">Choiseul du Plessis-Praslin, Gilbert de, évêque de Comminges puis de Tournai</name>
+    <name>Choiseul du Plessis-Praslin, Gilbert de, évêque de Comminges puis de Tournai</name>
+    <socecStatus type="cour"/>
     <birth when="1613"/>
     <death when="1683"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Gilbert_de_Choiseul_du_Plessis-Praslin</identifier>
     <identifier type="databnf">https://data.bnf.fr/12157495/gilbert_de_choiseul_du_plessis-praslin/</identifier>
     <identifier type="isni">http://isni.org/isni/0000000080331248</identifier>
   </person>
+  
     <person xml:id="gabrielflorent_de_choiseulbeaupre" sex="M">
-    <name type="cour">Choiseul-Beaupré,Gabriel-Florent de,évêque de Saint-Papoul</name>
-    <birth when="1685-06-16"/>
+    <name>Choiseul-Beaupré,Gabriel-Florent de,évêque de Saint-Papoul</name>
+      <socecStatus type="cour"/>
+      <birth when="1685-06-16"/>
     <death when="1767-07-07"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Gabriel-Florent_de_Choiseul-Beaupr%C3%A9</identifier>
   </person>
   
   <person xml:id="giraut" sex="M">
-    <name type="pro">Giraut, ouvrier/artisan</name>
+    <name>Giraut, ouvrier/artisan</name>
+    <socecStatus type="pro"/>
   </person>
   
   <person xml:id="gonvalin" sex="M">
-    <name type="cour">Gonvalin, page</name>
+    <name>Gonvalin, page</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="guichon" sex="M">
-    <name type="cour">Guichon, officier du Gobelet</name>
+    <name>Guichon, officier du Gobelet</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="henri_de_la_tour_d_auvergne" sex="M">
-    <name type="cour">Turenne, Henri de La Tour d'Auvergne, maréchal de </name>
+    <name>Turenne, Henri de La Tour d'Auvergne, maréchal de </name>
+    <socecStatus type="cour"/>
+    <socecStatus type="militaire"/>
     <birth when="1611-09-11"/>
     <death when="1675-07-27"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Henri_de_La_Tour_d%27Auvergne_(1611-1675)</identifier>
     <identifier type="databnf">https://data.bnf.fr/12511003/henri_de_la_tour_d_auvergne_turenne/</identifier>
     <identifier type="isni">http://isni.org/isni/0000000083439713</identifier>
   </person>
+  
     <person xml:id="louis_henri_de_la_tour_dauvergne" sex="M">
-    <name type="cour">La Tour d'Auvergne,Louis-Henri de,Comte d'Évreux</name>
+    <name>La Tour d'Auvergne,Louis-Henri de,Comte d'Évreux</name>
+      <socecStatus type="cour"/>
     <birth when="1679-08-02"/>
     <death when="1753-08-03"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Louis-Henri_de_La_Tour_d%27Auvergne</identifier>
@@ -681,35 +703,41 @@
   
 
   <person xml:id="christophelouis_turpin_de_crisse_de_sanzay" sex="M">
-    <name type="cour">Turpin de Crissé de Sanzay,Christophe-Louis,évêque de Rennes</name>
+    <name>Turpin de Crissé de Sanzay, Christophe-Louis, évêque de Rennes</name>
+    <socecStatus type="cour"/>
     <birth when="1670-09-19"/>
     <death when="1746-03-29"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Christophe-Louis_Turpin_de_Criss%C3%A9_de_Sanzay</identifier>
 </person>
   
   <person xml:id="hericour" sex="M">
-    <name type="cour">Héricour, page</name>
+    <name>Héricour, page</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="henriette_louise_colbert" sex="F">
-    <name type="cour">Colbert, Henriette-Louise, duchesse de Beauvilliers</name>
+    <name>Colbert, Henriette-Louise, duchesse de Beauvilliers</name>
+    <socecStatus type="cour"/>
     <birth when="1657"/>
     <death when="1733"/>
   </person>
   
   <person xml:id="francoishonnoreantoine_de_beauvillierssaintaignan" sex="M">
-    <name type="cour">Beauvilliers de Saint-Aignan, François Honoré Antoine de, Évêques de Beauvais</name>
+    <name>Beauvilliers de Saint-Aignan, François Honoré Antoine de, Évêques de Beauvais</name>
+    <socecStatus type="cour"/>
     <birth when="1682-10-06"/>
     <death when="1751-08-19"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Honor%C3%A9_Antoine_de_Beauvilliers_de_Saint-Aignan</identifier>
 </person>
   
   <person xml:id="georges_ysore_hervault" sex="M">
-    <name type="cour">Hervault, Georges Ysoré d', marquis d'Hervault et de Pleumartin</name>
+    <name>Hervault, Georges Ysoré d', marquis d'Hervault et de Pleumartin</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="guillaume_de_luyne" sex="M">
-    <name type="pro">De Luyne, Guillaume</name>
+    <name>De Luyne, Guillaume</name>
+    <socecStatus type="pro"/>
     <birth when="1627"/>
     <death from="1710" to="1719"/>
     <identifier type="databnf">https://data.bnf.fr/fr/12289718/guillaume_de_luynes/</identifier>
@@ -717,23 +745,28 @@
   </person>
   
   <person xml:id="huguenet" sex="M">
-    <name type="pro">Huguenet, violon</name>
+    <name>Huguenet, violon</name>
+    <socecStatus type="pro"/>
   </person>
   
   <person xml:id="humberk" sex="M">
-    <name type="militaire">Humberk, garde Suisse</name>
+    <name>Humberk, garde Suisse</name>
+    <socecStatus type="militaire"/>
   </person>
   
   <person xml:id="hurlot" sex="M">
-    <name type="cour">Hurlot, grand valet de pied</name>
+    <name>Hurlot, grand valet de pied</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="jacques_moussu" sex="M">
-    <name type="militaire">Moussu, Jacques, garde Suisse</name>
+    <name>Moussu, Jacques, garde Suisse</name>
+    <socecStatus type="militaire"/>
   </person>
   
   <person xml:id="jacques_stuart" sex="M">
-    <name type="foreign">Stuart, Jacques, duc d'Yorck</name>
+    <name>Stuart, Jacques, duc d'Yorck</name>
+    <socecStatus type="foreign"/>
     <birth when="1633-10-14"/>
     <death when="1701-09-05"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jacques_II_(roi_d%27Angleterre)</identifier>
@@ -742,7 +775,8 @@
   </person>
   
   <person xml:id="jean_chrysostome_malte" sex="M">
-    <name type="pro">Malte, Jean-Chrysostome</name>
+    <name>Malte, Jean-Chrysostome</name>
+    <socecStatus type="pro"/>
     <birth when="1648"/>
     <death when="1709"/>
     <identifier type="databnf">https://data.bnf.fr/de/13548322/jean-chrysostome_malte/</identifier>
@@ -750,25 +784,30 @@
   </person>
   
   <person xml:id="montevecchio" sex="M">
-    <name type="foreign">Montevecchio, lieutenant au Royal-italien</name>
+    <name>Montevecchio, lieutenant au Royal-italien</name>
+    <socecStatus type="foreign"/>
+    <socecStatus type="militaire"/>
   </person>
   
   <person xml:id="charlesfrancois_des_monstiers_de_merinville" sex="M">
-    <name type="cour">Monstiers de Mérinville,Charles-François des,évêque de Chartres</name>
+    <name>Monstiers de Mérinville,Charles-François des,évêque de Chartres</name>
+    <socecStatus type="cour"/>
     <birth when="1682-02-02"/>
     <death when="1746-05-10"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Charles-Fran%C3%A7ois_des_Monstiers_de_M%C3%A9rinville</identifier>
 </person>
   
   <person xml:id="jean_de_montigny" sex="M">
-    <name type="cour">Montigny, Jean de </name>
+    <name>Montigny, Jean de </name>
+    <socecStatus type="cour"/>
     <birth when="1637"/>
     <death when="1671-09-26"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jean_de_Montigny</identifier>
   </person>
   
   <person xml:id="jean_donneau_de_vize" sex="M">
-    <name type="pro">Donneau de Visé, Jean</name>
+    <name>Donneau de Visé, Jean</name>
+    <socecStatus type="pro"/>
     <birth when="1638-12"/>
     <death when="1710-07-08"/>
     <identifier type="databnf">https://data.bnf.fr/11900398/jean_donneau_de_vize/</identifier>
@@ -776,18 +815,21 @@
   </person>
   
   <person xml:id="jean_de_flandres" sex="M">
-    <name type="pro">De Flandres, Jean, ouvrier/artisan</name>
+    <name>De Flandres, Jean, ouvrier/artisan</name>
+    <socecStatus type="pro"/>
   </person>
 
   <person xml:id="charles_de_habsbourg" sex="M">
-    <name type="foreign">Charles VI,comte de Flandres et empereur du Saint-Empire</name>
+    <name>Charles VI,comte de Flandres et empereur du Saint-Empire</name>
+    <socecStatus type="foreign"/>
     <birth when="1685-10-01"/>
     <death when="1740-10-20"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Charles_VI_(empereur_du_Saint-Empire)</identifier>
   </person>
   
   <person xml:id="jean_luc_nyon" sex="M">
-    <name type="pro">Nyon I, Jean Luc</name>
+    <name>Nyon I, Jean Luc</name>
+    <socecStatus type="pro"/>
     <birth when="1675"/>
     <death when="1754-12-14"/>
     <identifier type="databnf">https://data.bnf.fr/12470202/jean-luc_nyon/</identifier>
@@ -795,132 +837,162 @@
   </person>
   
   <person xml:id="jean_magontier" sex="M">
-    <name type="cour">Magontier, Jean, officier de la Bouche</name>
+    <name>Magontier, Jean, officier de la Bouche</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="jean_moran" sex="M">
-    <name type="militaire">Moran, Jean, garde Suisse</name>
+    <name>Moran, Jean, garde Suisse</name>
+    <socecStatus type="militaire"/>
   </person>
   
   <person xml:id="jeanne_marie_therese_colbert" sex="F">
-    <name type="cour">Colbert, Jeanne-Marie-Thérèse, duchesse de Chevreuse</name>
+    <name>Colbert, Jeanne-Marie-Thérèse, duchesse de Chevreuse</name>
+    <socecStatus type="cour"/>
     <birth when="1650"/>
     <death when="1732"/>
   </person>
   
   <person xml:id="jemarie" sex="M">
-    <name type="cour">Jemarie, officier du Gobelet</name>
+    <name>Jemarie, officier du Gobelet</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="jennesson" sex="M">
-    <name type="cour">Jennesson, officier du Gobelet</name>
+    <name>Jennesson, officier du Gobelet</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="joannet" sex="M">
-    <name type="cour">Joannet, petit valet de pied</name>
+    <name>Joannet, petit valet de pied</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="julien_de_perse" sex="M">
-    <name type="militaire">Perse, Julien de, Enseigne de vaisseau</name>
+    <name>Perse, Julien de, Enseigne de vaisseau</name>
+    <socecStatus type="militaire"/>
   </person>
   
   <person xml:id="la_boire" sex="M">
-    <name type="cour">La Boire, officier du Gobelet</name>
+    <name>La Boire, officier du Gobelet</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="la_borde" sex="M">
-    <name type="cour">La Borde, page</name>
+    <name>La Borde, page</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="la_caisse" sex="M">
-    <name type="pro">La Caisse, petit violon</name>
+    <name>La Caisse, petit violon</name>
+    <socecStatus type="pro"/>
   </person>
   
   <person xml:id="la_couderelle" sex="M">
-    <name type="cour">La Couderelle, page de la Petite écurie</name>
+    <name>La Couderelle, page de la Petite écurie</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="la_fleur_valet" sex="M">
-    <name type="cour">La Fleur, petit valet de pied</name>
+    <name>La Fleur, petit valet de pied</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="la_fontaine" sex="M">
-    <name type="pro">La Fontaine, petit violon</name>
+    <name>La Fontaine, petit violon</name>
+    <socecStatus type="pro"/>
   </person>
    
   <person xml:id="gaspard_moise_augustin_de_fontanieu" sex="M"> 
-  <name type="cour">Augustin de Fontanieu,Gaspard Moïse,Intendant-contrôleur général du Garde-Meuble de la Couronne</name>
+  <name>Augustin de Fontanieu,Gaspard Moïse,Intendant-contrôleur général du Garde-Meuble de la Couronne</name>
+    <socecStatus type="cour"/>
     <birth when="1694-09-01"/>
     <death when="1767-09-27"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Gaspard_Mo%C3%AFse_Augustin_de_Fontanieu</identifier>
 </person>
   
   <person xml:id="la_jeunesse" sex="M">
-    <name type="cour">La Jeunesse, petit valet de pied</name>
+    <name>La Jeunesse, petit valet de pied</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="le_lievre" sex="M">
-    <name type="cour">Le Lièvre, petit valet de pied</name>
+    <name>Le Lièvre, petit valet de pied</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="la_place" sex="M">
-    <name type="pro">La Place, ouvrier/artisan</name>
+    <name>La Place, ouvrier/artisan</name>
+    <socecStatus type="pro"/>
   </person>
   
   <person xml:id="la_rose" sex="M">
-    <name type="cour">La Rose, grand valet de pied</name>
+    <name>La Rose, grand valet de pied</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="laleu" sex="M">
-    <name type="pro">Laleu</name>
+    <name>Laleu, danseur</name>
+    <socecStatus type="pro"/>
     <!-- danseur dans les AD. -->
   </person>
   
   <person xml:id="laloin" sex="M">
-    <name type="cour">Laloin, officier du Gobelet</name>
+    <name>Laloin, officier du Gobelet</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="lambelot" sex="M">
-    <name type="cour">Lambelot, petit valet de pied</name>
+    <name>Lambelot, petit valet de pied</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="langlois_l_aine" sex="M">
-    <name type="cour">Langlois, l'aîné, grand valet de pied</name>
+    <name>Langlois, l'aîné, grand valet de pied</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="langlois_le_cadet" sex="M">
-    <name type="cour">Langlois, le cadet, grand valet de pied</name>
+    <name>Langlois, le cadet, grand valet de pied</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="le_cocq" sex="M">
-    <name type="cour">Le Cocq, petit valet de pied</name>
+    <name>Le Cocq, petit valet de pied</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="le_noble" sex="M">
-    <name type="cour">Le Noble, petit valet de pied</name>
+    <name>Le Noble, petit valet de pied</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="balthasar_le_francq" sex="M">
-    <name type="pro">Balthasar Le Francq, imprimeur de la ville de Lille</name>
+    <name>Balthasar Le Francq, imprimeur de la ville de Lille</name>
+    <socecStatus type="pro"/>
     <birth when="1637"/>
     <death when="1713"/>
     <identifier type="databnf">https://data.bnf.fr/fr/17706943/balthazar_le_francq/</identifier>
   </person>
   
   <person xml:id="leger_trompette" sex="M">
-    <name type="pro">Léger, trompette</name>
+    <name>Léger, trompette</name>
+    <socecStatus type="pro"/>
   </person>
   
   <person xml:id="leger_violon" sex="M">
-    <name type="pro">Léger, violon</name>
+    <name>Léger, violon</name>
+    <socecStatus type="pro"/>
   </person>
   
   <person xml:id="lienard" sex="M">
-    <name type="cour">Liénard, officier du Gobelet</name>
+    <name>Liénard, officier du Gobelet</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="lionnois" sex="M">
-    <name type="pro">Lionnois, ouvrier/artisan</name>
+    <name>Lionnois, ouvrier/artisan</name>
+    <socecStatus type="pro"/>
   </person>
   
   <person xml:id="loubie" sex="M">
@@ -928,11 +1000,13 @@
   </person>
   
   <person xml:id="louisI_sanguin" sex="M">
-    <name type="pro">Sanguin, Louis I</name>
+    <name>Sanguin, Louis I</name>
+    <socecStatus type="pro"/>
   </person>
   
   <person xml:id="louis_chatillon" sex="M">
-    <name type="pro">Chatillon, Louis de, ou Chastillon</name>
+    <name>Chatillon, Louis de, ou Chastillon</name>
+    <socecStatus type="pro"/>
     <birth when="1639"/>
     <death when="1734"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Louis_de_Ch%C3%A2tillon</identifier>
@@ -941,7 +1015,8 @@
   </person>
   
   <person xml:id="louis_oger_cavoye" sex="M">
-    <name type="cour">Oger ou Augier, Louis d', marquis de Cavoye</name>
+    <name>Oger ou Augier, Louis d', marquis de Cavoye</name>
+    <socecStatus type="cour"/>
     <birth when="1640"/>
     <death when="1715-02-03"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Louis_Oger_de_Cavoye</identifier>
@@ -950,27 +1025,33 @@
   </person>
   
   <person xml:id="louis_d_escre" sex="M">
-    <name type="pro">D'Escre, Louis, tymballier</name>
+    <name>D'Escre, Louis, tymballier</name>
+    <socecStatus type="pro"/>
   </person>
   
   <person xml:id="louis_desore" sex="M">
-    <name type="pro">Desore, Louis, tymballier</name>
+    <name>Desore, Louis, tymballier</name>
+    <socecStatus type="pro"/>
   </person>
 
   <person xml:id="louis_lazure" sex="M">
-    <name type="cour">Lazure ou L'Azure, Louis, chef du Gobelet</name>
+    <name>Lazure ou L'Azure, Louis, chef du Gobelet</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="magontier_garde_vaisselle" sex="M">
-    <name type="cour">Magontier, garde vaisselle, officier de la Bouche</name>
+    <name>Magontier, garde vaisselle, officier de la Bouche</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="irieux_magontier" sex="M">
-    <name type="cour">Magontier Irieux, officier de la Bouche</name>
+    <name>Magontier Irieux, officier de la Bouche</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="françoise_d_aubigne" sex="F">
-    <name type="cour">Aubigné, Françoise d', Madame Scarron puis Madame de Maintenon</name>
+    <name>Aubigné, Françoise d', Madame Scarron puis Madame de Maintenon</name>
+    <socecStatus type="cour"/>
     <birth when="1635-11-27"/>
     <death when="1719-04-15"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Madame_de_Maintenon</identifier>
@@ -979,34 +1060,41 @@
   </person>
   
   <person xml:id="maheu" sex="M">
-    <name type="pro">Maheu, ouvrier/artisan</name>
+    <name>Maheu, ouvrier/artisan</name>
+    <socecStatus type="pro"/>
   </person>
   
   <person xml:id="maslou" sex="M">
-    <name type="cour">Maslou, page</name>
+    <name>Maslou, page</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="mathieu_manteau" sex="M">
-    <name type="local">Manteau, Mahieu</name>
+    <name>Manteau, Mahieu</name>
+    <socecStatus type="local"/>
   </person>
   
   <person xml:id="mespas" sex="M">
-    <name type="cour">Mespas, page</name>
+    <name>Mespas, page</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="mettayer" sex="M">
-    <name type="cour">Mettayer, officier du Gobelet</name>
+    <name>Mettayer, officier du Gobelet</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="michel_brunet" sex="M">
-    <name type="pro">Brunet, Michel</name>
+    <name>Brunet, Michel</name>
+    <socecStatus type="pro"/>
     <birth notBefore="1600"/>
     <death when="1697"/>
     <identifier type="databnf">https://data.bnf.fr/12243025/michel_brunet/</identifier>
   </person>
   
   <person xml:id="michel_gueroult" sex="M">
-    <name type="pro">Guéroult, Michel</name>
+    <name>Guéroult, Michel</name>
+    <socecStatus type="pro"/>
     <birth notBefore="1600"/>
     <death when="1691-12"/>
     <identifier type="databnf">https://data.bnf.fr/14572953/michel_gueroult/</identifier>
@@ -1014,30 +1102,36 @@
   </person>
   
   <person xml:id="charlotte_mothe_houdancourt" sex="F">
-    <name type="cour">La Mothe-Houdancourt, Charlotte de </name>
+    <name>La Mothe-Houdancourt, Charlotte de </name>
+    <socecStatus type="cour"/>
   </person>
     
   <person xml:id="mariefertesenneterre" sex="F">
-    <name type="cour">La Mothe-Houdancourt,Marie Isabelle Gabrielle Angélique de, Duchesse de La Ferté-Senneterre</name>
+    <name>La Mothe-Houdancourt, Marie Isabelle Gabrielle Angélique de, Duchesse de La Ferté-Senneterre</name>
+    <socecStatus type="cour"/>
     <birth when="1654"/>
     <death when="1726-04-29"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Marie_de_La_Fert%C3%A9-Senneterre</identifier>
   </person>
   
   <person xml:id="mongin" sex="M">
-    <name type="cour">Mangin, grand valet de pied</name>
+    <name>Mangin, grand valet de pied</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="mont_plaisir" sex="M">
-    <name type="cour">Monplaisir ou Mont-Plaisir, page</name>
+    <name>Monplaisir ou Mont-Plaisir, page</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="morsique" sex="M">
-    <name type="cour">Morisque, grand valet de pied</name>
+    <name>Morisque, grand valet de pied</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="nicolas-auguste_de_harlay_de_bonneuil" sex="M">
-    <name type="cour">Harlay de Bonneuil, Nicolas-Auguste de </name>
+    <name>Harlay de Bonneuil, Nicolas-Auguste de </name>
+    <socecStatus type="cour"/>
     <birth when="1647"/>
     <death when="1704-10-02"/>
     <identifier type="databnf">https://data.bnf.fr/15138023/nicolas-auguste_de_harlay_de_bonneuil/</identifier>
@@ -1045,11 +1139,8 @@
   </person>
   
   <person xml:id="palluau" sex="M">
-    <name type="cour">Palluau, grand valet de pied</name>
-  </person>
-  
-  <person xml:id="panetier" sex="M">
-    <name type="O">Mr Panetier</name>
+    <name>Palluau, grand valet de pied</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="patriere" sex="M">
@@ -4799,6 +4890,7 @@
   </person>
   <person xml:id="pannetier" sex="M">
     <name>François Pannetier ou Panetié, sieur</name>
+    <socecStatus type="militaire"/>
     <birth when="1626"/>
     <death when="1696"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Paneti%C3%A9</identifier>
