@@ -133,6 +133,7 @@ CREATE TABLE personne (
   gender         TEXT,                  -- M male, F femme
   birth          TEXT,                  -- date de naissance
   death          TEXT,                  -- date de mort
+  group_code     TEXT,                  -- groupe d'appartenance
   databnf        TEXT,                  -- autorité BNF
   wikipedia      TEXT,                  -- URL wikipedia
   isni           TEXT,                  -- code ISNI
@@ -147,11 +148,11 @@ CREATE INDEX personne_docs ON personne(docs, code);
 CREATE TABLE personne_document (
   -- Occurences d’un nom de personne dans un document
   id             INTEGER,               -- ! rowid auto
-  personne       INTEGER,               -- ! personne.id obtenu avec par personne.code
+  personne       INTEGER,               -- ! personne.id obtenu avec personne.code
   personne_code  TEXT NOT NULL,         -- ! personne.code
-  document       INTEGER,               -- ! document.id obtenu avec par document.code
-  document_code  TEXT NOT NULL,         -- ! sera obtenu avec par document.code
-  anchor         TEXT NOT NULL,         -- ! ancre dans le ficheir source
+  document       INTEGER,               -- ! document.id obtenu avec document.code
+  document_code  TEXT NOT NULL,         -- ! sera obtenu avec document.code
+  anchor         TEXT NOT NULL,         -- ! ancre dans le fichier source
   occurrence     TEXT NOT NULL,         -- ! forme dans le texte
   role           INT,                   -- ? sort
   role_code      TEXT,                  -- ? @role
@@ -163,6 +164,17 @@ CREATE INDEX personne_document_document ON personne_document(document, personne_
 CREATE INDEX personne_document_role ON personne_document(personne, role, document, anchor);
 CREATE INDEX personne_document_docs ON personne_document(personne, role_code, document);
 CREATE INDEX personne_document_occs ON personne_document(personne, role_code);
+
+CREATE TABLE name_document (
+  -- Occurences des noms de personnages dans les documents
+  id             INTEGER,               -- ! rowid auto
+  name           TEXT NOT NULL,         -- ! nom tel que dans le texte
+  document       INTEGER,               -- ! document.id obtenu avec document.code
+  document_code  TEXT NOT NULL,         -- ! sera obtenu avec document.code
+  anchor         TEXT NOT NULL,         -- ! ancre dans le fichier source
+  occurrence     TEXT NOT NULL,         -- ! forme dans le texte
+  PRIMARY KEY(id ASC)
+);
 
 CREATE TABLE role (
   -- liste des roles
@@ -262,6 +274,20 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
     "none" => "(non précisé)",
   );
 
+  static $group_list = array(
+    "cour" => "Membres de la Cour",
+    "foreign" => "Membres de la royauté étrangère",
+    "militaire" => "Militaires",
+    "pro" => "Professionnel·le·s",
+    "local" => "Élites locales",
+    "O" => "Groupe inconnu",
+  );
+
+  static $gender_list = array(
+    "F" => "Femme",
+    "M" => "Homme",
+  );
+
   static $technique_list = array(
     "machine",
     "ecriture"
@@ -345,12 +371,14 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
    */
   public static function load_personne()
   {
-    $qpersonne = self::$pdo->prepare("INSERT INTO personne (code, label, gender, birth, death, databnf, wikipedia, isni) VALUES (?, ?, ?, ?, ?, ?, ?, ?)");
+    $qpersonne = self::$pdo->prepare("INSERT INTO personne (code, label, gender, birth, death, group_code, databnf, wikipedia, isni) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)");
     $listPerson = simplexml_load_file(self::$home . "index/personne.xml");
     self::$pdo->beginTransaction();
     foreach ($listPerson->person as $person) {
       $code = $person->attributes('xml', true)->id;
-      $gender = $person->sex;
+      $gender = $person['sex'];
+      if (!$gender)
+        $gender = null;
       $label = (string) $person->name;
       if (!$label)
         $label = null;
@@ -360,6 +388,9 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
       $death = $person->death['when'];
       if (!$death)
         $death = null;
+      $group_code = $person->socecStatus['type'];
+      if (!$group_code)
+        $group_code = null;
       $databnf = $wikipedia = $isni = null;
       foreach ($person->identifier as $identifier) {
         $type = $identifier['type'];
@@ -370,7 +401,7 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
         elseif ($type == 'isni')
           $isni = $identifier;
       }
-      $qpersonne->execute(array($code, $label, $gender, $birth, $death, $databnf, $wikipedia, $isni));
+      $qpersonne->execute(array($code, $label, $gender, $birth, $death, $group_code, $databnf, $wikipedia, $isni));
     }
     self::$pdo->commit();
   }
@@ -481,6 +512,7 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
     $personne_document = "personne_code\tdocument_code\tanchor\toccurrence\trole_code\n";
     $document_include = "src_code\tdst_code\n";
     $document_resp = "document_code\tpersonne_code\tresp\n";
+    $name_document = "name\tdocument_code\tanchor\toccurrence\n";
 
     // loop on all xml files, and do lots of work
     foreach (glob(self::$home . "xml/*.xml") as $srcfile) {
@@ -505,6 +537,7 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
       $lieu_document .= Build::transformDoc($dom, self::$home . "build/xsl/tsv_lieu_document.xsl", null, array('filename' => $dstname));
       $document_include .= Build::transformDoc($dom, self::$home . "build/xsl/tsv_document_include.xsl", null, array('filename' => $dstname));
       $document_resp .= Build::transformDoc($dom, self::$home . "build/xsl/tsv_document_resp.xsl", null, array('filename' => $dstname));
+      $name_document .= Build::transformDoc($dom, self::$home . "build/xsl/tsv_name_document.xsl", null, array('filename' => $dstname));
     }
     file_put_contents(self::$home . "README.md", $readme);
 
@@ -513,7 +546,7 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
     file_put_contents(self::$home . "site/data/lieu_document.tsv", $lieu_document);
     file_put_contents(self::$home . "site/data/technique_document.tsv", $technique_document);
     file_put_contents(self::$home . "site/data/personne_document.tsv", $personne_document);
-
+    file_put_contents(self::$home . "site/data/name_document.tsv", $name_document);
     // charger les tsv en base
     self::tsv_insert("document", $document_cols, $document);
     self::tsv_insert("lieu_document", array("lieu_code", "document_code", "anchor", "occurrence", "desc"), $lieu_document);
@@ -521,6 +554,7 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
     self::tsv_insert("personne_document", array("personne_code", "document_code", "anchor", "occurrence", "role_code"), $personne_document);
     self::tsv_insert("document_include", array("src_code", "dst_code"), $document_include);
     self::tsv_insert("document_resp", array("document_code", "personne_code", "resp"), $document_resp);
+    self::tsv_insert("name_document", array("name", "document_code", "anchor", "occurrence"), $name_document);
 
     // mise à jour des index 
     self::$pdo->exec("
@@ -542,10 +576,14 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
         personne=(SELECT id FROM personne WHERE code=document_resp.personne_code),
         document=(SELECT id FROM document WHERE code=document_resp.document_code)
       ;
+
       UPDATE document_include SET
         src=(SELECT id FROM document WHERE code=document_include.src_code),
         dst=(SELECT id FROM document WHERE code=document_include.dst_code)
       ;
+
+      UPDATE name_document SET
+        document=(SELECT id FROM document WHERE code=name_document.document_code)
     ");
 
 
@@ -945,7 +983,8 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
    */
   public static function personnes()
   {
-    $qroles = self::$pdo->prepare("SELECT role_code, count(*) AS count FROM personne_document WHERE personne = ? GROUP BY role ORDER BY role");
+    //$qroles = self::$pdo->prepare("SELECT role_code, count(*) AS count FROM personne_document WHERE personne = ? GROUP BY role ORDER BY role");
+    $qroles = self::$pdo->prepare("SELECT role_code, count(DISTINCT document) AS count FROM personne_document WHERE personne = ? GROUP BY role ORDER BY role");
     Build::rmdir(self::$home . "site/personne/");
     Build::mkdir(self::$home . "site/personne/");
     $template = str_replace("%relpath%", "../", self::$template);
@@ -1018,15 +1057,36 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
 
     $index = '<div class="container">
 <div class="row">
+<div class="col-3">
+    <nav class="filters">
+    <h3 class="filter">Groupe</h3>';
+    foreach (self::$group_list as $code => $label) {
+      $index .= '<a class="group" href="#' . $code . '">' . $label . '</a>' . "\n";
+    }
+    $index .= '
+    <h3 class="filter">Genre</h3>';
+    foreach (self::$gender_list as $code => $label) {
+      $index .= '<a class="gender" href="#' . $code . '">' . $label . '</a>' . "\n";
+    }
+    $index .= '
+    <h3 class="filter">Rôles</h3>';
+    foreach (self::$role as $code => $label) {
+      $index .= '<a class="role" href="#' . $code . '">' . $label . '</a>' . "\n";
+    }
+    $index .= '
+    </nav>
+  </div>
 <div class="col-9">';
 
     // boucler sur les roles
     $qpers = self::$pdo->prepare("
-    SELECT personne.*, role_code, COUNT(DISTINCT personne_document.document) AS role_docs, COUNT(*) as role_occs 
-        FROM personne_document, personne 
-        WHERE personne_document.personne = personne.id 
-        GROUP BY personne, role
-        ORDER BY personne.label;");
+    SELECT personne.*, GROUP_CONCAT(DISTINCT role_code) AS role_codes,
+       COUNT(DISTINCT personne_document.document) AS docs,
+       COUNT(*) AS occs
+    FROM personne
+    JOIN personne_document ON personne_document.personne = personne.id
+    GROUP BY personne.id
+    ORDER BY personne.label");
 
     $index .= '
 ';
@@ -1035,9 +1095,8 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
       <thead>
         <tr>
           <th class="label" width="100%">Personne</th>
-          <th title="Nombre de documents">Rôle</th>
-          <th class="docs" title="Nombre de documents où une personne apparait en tenant ce rôle">docs.</th>
-          <th class="occs" title="Nombre d’occurrences  où une personne apparait en tenant ce rôle">occs.</th>
+          <th class="docs" title="Nombre de documents où une personne est mentionnée">docs.</th>
+          <th class="occs" title="Nombre d’occurrences total">occs.</th>
         </tr>
       </thead>
       <tbody>
@@ -1053,13 +1112,14 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
         $date = ' (? – ' . $row['birth'] . ')';
       if (!$row['label'])
         $row['label'] = '[<i>' . $row['code'] . '</i>]';
-      $code = $row['role_code'];
+      $group_code = $row['group_code'];
+      $gender = $row['gender'];
+      $role_codes = isset($row['role_codes']) ? trim(str_replace(',', ' ', $row['role_codes'])) : '';
       $index .= '
-        <tr class="' . $code . '">
+        <tr class="' . trim($group_code . ' ' . $gender . ' ' . $role_codes) . '">
           <td class="label"><a target="_blank" href="' . $row['code'] . self::$_html . '">' . $row['label'] . $date . '</a></td>
-          <td class="role ' . $code . '">' . self::$role[$row['role_code']] . '</td>
-          <td class="docs">' . $row['role_docs'] . '</td>
-          <td class="occs">' . $row['role_occs'] . '</td>
+          <td class="docs">' . $row['docs'] . '</td>
+          <td class="occs">' . $row['occs'] . '</td>
         </tr>';
 
     }
@@ -1071,15 +1131,6 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
 
     $index .= '
     <p> </p>
-  </div>
-  <div class="col-3">
-    <nav class="roles">
-';
-    foreach (self::$role as $code => $label) {
-      $index .= '<a class="role" href="#' . $code . '">' . $label . '</a>' . "\n";
-    }
-    $index .= '
-    </nav>
   </div>
   </div>
 </div>
@@ -1098,12 +1149,31 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
     $template = str_replace("%relpath%", "../", self::$template);
 
     $index = "";
-    $index .= '<div class="container">' . "\n";
-    $index .= '<h1>Lieux</h1>' . "\n";
+    $index .= '<div class="container">
+<div class="row">
+<div class="col-3">
+    <nav class="filters">';
+    $lieux = self::$pdo->prepare("SELECT id, parent, label, code FROM lieu");
+    $lieux->execute();
+    while ($row = $lieux->fetch(PDO::FETCH_ASSOC)) {
+      if ($row["parent"] == 0) {
+        $index .= '<a class="place rootplace" href="#' . $row['id'] . '#0' . '">' . $row['label'] . '</a>' . "\n";
+      } else {
+        $index .= '<a class="place" href="#' . $row['id'] . '#' . $row['parent'] . '">' . $row['label'] . '</a>' . "\n";
+      }
+    }
+    $index .= '</nav>';
+    $index .= '</div>';
+    $index .= '<div class="col-9 placelist">';
+    $index .= self::uldocs("lieu", null);
+    $index .= '</div>';
+    $index .= '</div></div>';
+
+    // $index .= '<h1>Lieux</h1>' . "\n";
     // passer les stats $row['docs'], $row['occs'] ?
-    $index .= Build::transform(self::$home . "index/lieu.xml", self::$home . "build/xsl/lieu.xsl");
-    $index .= '<p> </p>' . "\n";
-    $index .= '</div>' . "\n";
+    // $index .= Build::transform(self::$home . "index/lieu.xml", self::$home . "build/xsl/lieu.xsl");
+    // $index .= '<p> </p>' . "\n";
+
     file_put_contents(self::$home . "site/lieu/index.html", str_replace("%main%", $index, $template));
     // 
 
@@ -1562,7 +1632,14 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
     $qdocument = self::$pdo->prepare('SELECT * FROM document WHERE id = ?');
     $qchrono = self::$pdo->prepare('SELECT * FROM chrono WHERE id = ?');
 
-    if ($table == 'lieu') {
+    if ($table == 'lieu' and $id == null) {
+      $sql = "SELECT DISTINCT chrono_document.*
+      FROM chrono_document
+      JOIN lieu_document ON lieu_document.document = chrono_document.document 
+      ORDER BY chrono_document.id;
+      ";
+      $stmt = self::$pdo->prepare($sql);
+    } else if ($table == 'lieu') {
       $qlieupath = self::$pdo->prepare('SELECT path FROM lieu WHERE id = ?');
       $qlieupath->execute(array($id));
       list($path) = $qlieupath->fetch();
@@ -1637,7 +1714,7 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
       else if ($table == 'technique')
         $html .= self::htdocument($qdocument->fetch(), "technique");
       else if ($table == 'lieu')
-        $html .= self::htdocument($qdocument->fetch(), null, true);
+        $html .= self::htdocument($qdocument->fetch(), "lieu");
       else
         $html .= self::htdocument($qdocument->fetch());
     }
@@ -1693,6 +1770,7 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
   {
     $rolist = array();
     $techlist = array();
+    $placelist = array();
     if (is_integer($persid)) {
       $qrole = self::$pdo->prepare("SELECT role_code FROM personne_document WHERE document = ? AND personne = ? GROUP BY role ORDER BY role");
       $qrole->execute(array($row['id'], $persid));
@@ -1707,6 +1785,13 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
         $techlist[] = $res['code'];
       }
     }
+    if ($persid == "lieu") {
+      $qplace = self::$pdo->prepare("SELECT DISTINCT lieu.id FROM lieu_document JOIN lieu ON lieu_document.lieu = lieu.id WHERE lieu_document.document = ? ORDER BY lieu.code");
+      $qplace->execute(array($row['id']));
+      while ($res = $qplace->fetch(PDO::FETCH_ASSOC)) {
+        $placelist[] = $res['id'];
+      }
+    }
 
     $html = "\n";
     $html .= '<a target="_blank" class="document ' . $row['type'];
@@ -1714,12 +1799,14 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
       $html .= ' ' . implode(' ', $rolist);
     if (count($techlist))
       $html .= ' ' . implode(' ', $techlist);
+    if (count($placelist))
+      $html .= ' ' . implode(' ', $placelist);
     $html .= '" href="../document/' . $row['code'] . self::$_html . '">' . "\n";
     $html .= '<div class="coldoc">' . "\n";
 
     $html .= '  <div class="vignette" style="background-image:url(\'../document/S/' . $row['code'] . ',S.jpg\');"></div>' . "\n";
     // role ?
-    if ($persid) {
+    if (is_integer($persid)) {
       $html .= '  <div class="roles">' . "\n";
       foreach ($rolist as $role_code) {
         $html .= '<div class="role ' . $role_code . '">' . self::$role[$role_code] . '</div>';
