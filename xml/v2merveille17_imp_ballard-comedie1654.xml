@@ -92,51 +92,56 @@
       <pb n="4" xml:id="p4"/>
       <div>
         <head rend="center">Personnages.</head>
-        <list>
-          <label type="head">Ceux qui Chantent.</label>
-          <item><name key="Epidan">L’Epidan,</name></item>
-          <item><name key="Onochone">L’Onochone,</name></item>
-          <item><name key="Fleuves de la Thessalie">} Fleuves de la Thessalie</name></item>
-          <item><name key="Jupiter">Jupiter.</name></item>
-          <item><name key="Neptune">Neptune.</name></item>
-          <item><name key="Junon">Junon.</name></item>
-          <item><name key="Mercure">Mercure.</name></item>
-          <item><name key="Pelée">Pelée, Roy de Thessalie.</name></item>
-          <item><name key="Thetis">Thetis.</name></item>
-          <item><name key="Chiron">Chiron.</name></item>
-          <item><name key="Promethée">Promethée.</name></item>
-          <item><tech type="musique">Chœur de <name key="Nereïdes">Nereïdes.</name></tech></item>
-          <item><tech type="musique">Chœur de <name key="Sirenes">Sirenes</name> &amp; de <name
-                key="Tritons">Tritons</name>.</tech></item>
-          <item><tech type="musique">Chœur de <name key="Sacrificateurs de Mars">Sacrificateurs de
-                Mars.</name></tech></item>
-          <item><tech type="musique">Chœur de toutes les <name>deïtez</name>.</tech></item>
-        </list>
+        <div>
+          <list>
+            <label type="head">Ceux qui Chantent.</label>
+            <item><name key="Epidan">L’Epidan,</name></item>
+            <item><name key="Onochone">L’Onochone,</name></item>
+            <item><name key="Fleuves de la Thessalie">} Fleuves de la Thessalie</name></item>
+            <item><name key="Jupiter">Jupiter.</name></item>
+            <item><name key="Neptune">Neptune.</name></item>
+            <item><name key="Junon">Junon.</name></item>
+            <item><name key="Mercure">Mercure.</name></item>
+            <item><name key="Pelée">Pelée, Roy de Thessalie.</name></item>
+            <item><name key="Thetis">Thetis.</name></item>
+            <item><name key="Chiron">Chiron.</name></item>
+            <item><name key="Promethée">Promethée.</name></item>
+            <item><tech type="musique">Chœur de <name key="Nereïdes">Nereïdes.</name></tech></item>
+            <item><tech type="musique">Chœur de <name key="Sirenes">Sirenes</name> &amp; de <name
+                  key="Tritons">Tritons</name>.</tech></item>
+            <item><tech type="musique">Chœur de <name key="Sacrificateurs de Mars">Sacrificateurs de
+                  Mars.</name></tech></item>
+            <item><tech type="musique">Chœur de toutes les <name>deïtez</name>.</tech></item>
+          </list>
+        </div>
+
+        <div>
+          <list>
+            <label type="head">Ceux qui Dansent.</label>
+            <item><name key="Apollon">Apollon &amp; les neuf Muses.</name></item>
+            <item><name key="Magiciens">Magiciens.</name></item>
+            <item><name key="Pescheurs de Corail">Pescheurs de Corail.</name></item>
+            <item><name key="Furies de la Jalousie">Furies de la Jalousie.</name></item>
+            <item><name key="hommes sauvages">Hommes</name> &amp; <name key="femmes sauvages">femmes
+                sauvages.</name></item>
+            <item><name key="Dryades">Dryades.</name></item>
+            <item><name key="Chevaliers de Thessalie">Chevaliers de Thessalie.</name></item>
+            <item><name key="Academistes de Chiron">Academistes de Chiron.</name></item>
+            <item><name key="Courtisans de Pelée">Courtisans de Pelée.</name></item>
+            <item><name key="Petites filles de la Cour de Thetis">Petites filles de la Cour de
+                Thetis.</name></item>
+            <item><name key="Arts liberaux">Arts liberaux</name> &amp; <name key="Arts de Serviles"
+                >serviles.</name></item>
+            <item><name key="Amours">Amours.</name></item>
+            <item><name key="Junon">Junon, Pronube.</name></item>
+            <item><name key="Hymenée">Hymenée.</name></item>
+            <item><name key="Hercule">Hercule.</name></item>
+            <item><name key="Harmonie Celeste">Harmonie Celeste.</name></item>
+          </list>
+        </div>
       </div>
-      <div>
-        <label type="head">Ceux qui Dansent.</label>
-        <list>
-          <item><name key="Apollon">Apollon &amp; les neuf Muses.</name></item>
-          <item><name key="Magiciens">Magiciens.</name></item>
-          <item><name key="Pescheurs de Corail">Pescheurs de Corail.</name></item>
-          <item><name key="Furies de la Jalousie">Furies de la Jalousie.</name></item>
-          <item><name key="hommes sauvages">Hommes</name> &amp; <name key="femmes sauvages">femmes
-              sauvages.</name></item>
-          <item><name key="Dryades">Dryades.</name></item>
-          <item><name key="Chevaliers de Thessalie">Chevaliers de Thessalie.</name></item>
-          <item><name key="Academistes de Chiron">Academistes de Chiron.</name></item>
-          <item><name key="Courtisans de Pelée">Courtisans de Pelée.</name></item>
-          <item><name key="Petites filles de la Cour de Thetis">Petites filles de la Cour de
-              Thetis.</name></item>
-          <item><name key="Arts liberaux">Arts liberaux</name> &amp; <name key="Arts de Serviles"
-              >serviles.</name></item>
-          <item><name key="Amours">Amours.</name></item>
-          <item><name key="Junon">Junon, Pronube.</name></item>
-          <item><name key="Hymenée">Hymenée.</name></item>
-          <item><name key="Hercule">Hercule.</name></item>
-          <item><name key="Harmonie Celeste">Harmonie Celeste.</name></item>
-        </list>
-      </div>
+
+
       <pb n="5" xml:id="p5"/>
       <div>
         <head rend="center">PROLOGUE.</head>
@@ -696,7 +701,8 @@
               representant une <name key="Furie">Furie</name>.</p>
             <lg rend="i">
               <l> ESuite si tu peux cette jeune <name key="Furie">Furie</name>,</l>
-              <l><placeName key="espagne">Espagne</placeName>, dont l’orgueil est trop long-temps debout,</l>
+              <l><placeName key="espagne">Espagne</placeName>, dont l’orgueil est trop long-temps
+                debout,</l>
               <l>Elle te va dompter d’une force aguerrie,</l>
               <l>Et la torche à la main s’en va de bout en bout</l>
               <l>Mettre le feu par tout.</l>
@@ -934,14 +940,14 @@
                 <name key="Chevaliers de Thessalie">Chevaliers de Thessalie</name>.</label>
 
               <p><name key="Chevaliers de Thessalie">LES Chevaliers</name> de la principale ville de
-                  <placeName key="">Thessalie</placeName> affligez de la cruauté de <name key="Thetis"
-                  >Thetis</name> envers leur <name key="Pelée">Monarque Pelée</name>, entreprennent
-                un Combat à la Barriere en l’honneur de <name key="Mars">Mars</name> ; Cependant que
-                d’un autre costé l’on fait des sacrifices à ce mesme <name key="Mars">Dieu</name>,
-                afin qu’il employe son credit aupres de <name key="Venus">Venus</name> pour le
-                retour de <name key="Pelée">Pelée</name>, &amp; pour l’attendrissement du cœur de
-                  <name key="Thetis">Thetis</name>. A mesme temps la <tech type="decor">Statuë
-                  de</tech>
+                  <placeName key="">Thessalie</placeName> affligez de la cruauté de <name
+                  key="Thetis">Thetis</name> envers leur <name key="Pelée">Monarque Pelée</name>,
+                entreprennent un Combat à la Barriere en l’honneur de <name key="Mars">Mars</name> ;
+                Cependant que d’un autre costé l’on fait des sacrifices à ce mesme <name key="Mars"
+                  >Dieu</name>, afin qu’il employe son credit aupres de <name key="Venus"
+                  >Venus</name> pour le retour de <name key="Pelée">Pelée</name>, &amp; pour
+                l’attendrissement du cœur de <name key="Thetis">Thetis</name>. A mesme temps la
+                  <tech type="decor">Statuë de</tech>
                 <name key="Mars">Mars</name> ayant parlé &amp; predit toute sorte bon-heur, ces
                   <name key="Chevaliers de Thessalie">Chevaliers </name>quittent leurs armes &amp;
                 dansent.</p>
@@ -999,9 +1005,9 @@
                   <tech type="musique">Chœur des <name key="Academistes">Academistes de <name
                       key="Chiron">Chiron</name></name>.</tech></label>
 
-              <p><name key="Pelée">Pelée</name> revenu du <placeName key="">Caucase</placeName> &amp; ayant
-                rencontré <name key="Chiron">Chiron</name>, se resout par son Conseil de se
-                presenter à <name key="Thetis">Thetis</name>, &amp; d’en venir aupres d’elle à la
+              <p><name key="Pelée">Pelée</name> revenu du <placeName key="">Caucase</placeName>
+                &amp; ayant rencontré <name key="Chiron">Chiron</name>, se resout par son Conseil de
+                se presenter à <name key="Thetis">Thetis</name>, &amp; d’en venir aupres d’elle à la
                 dernier violence des prieres amoureuses, d’autant plus hardiment qu’il se trouve
                 fortifié de la declaration qu’a fait <name key="Jupiter">Jupiter</name> de ne plus
                 songer à elle. Les <name key="Academistes">Academistes de ce mesme <name
@@ -1022,11 +1028,13 @@
               <label><persName key="louisxiv" role="danseur">LE ROY.</persName>
                 <persName key="nicolas_ii_de_sainctot" role="danseur">Mrs Sainctot</persName>,
                   <persName key="bontemps" role="danseur">Bontemps</persName>, &amp; <persName
-                  key="" role="danseur">Cabou</persName>. Les Srs <persName key="mollier" role="danseur">Mollier</persName>,
-                <persName key="bruneau" role="danseur">Bruneau</persName>, <persName key="" role="danseur">Langlois</persName>,
-                <persName key="beauchamp" role="danseur">Beauchamp</persName>, <persName key="" role="danseur">Le Vacher</persName>,
-                <persName key="lully" role="danseur">Baptiste</persName>, <persName key="dolivet" role="danseur">Dolivet</persName>, &amp; <persName key="de_lorges" role="danseur">de
-                  Lorges.</persName></label>
+                  key="" role="danseur">Cabou</persName>. Les Srs <persName key="mollier"
+                  role="danseur">Mollier</persName>, <persName key="bruneau" role="danseur"
+                  >Bruneau</persName>, <persName key="" role="danseur">Langlois</persName>,
+                  <persName key="beauchamp" role="danseur">Beauchamp</persName>, <persName key=""
+                  role="danseur">Le Vacher</persName>, <persName key="lully" role="danseur"
+                  >Baptiste</persName>, <persName key="dolivet" role="danseur">Dolivet</persName>,
+                &amp; <persName key="de_lorges" role="danseur">de Lorges.</persName></label>
 
               <div>
                 <p rend="center"><name key="Chiron">Chiron Centaure</name> qui devoit estre
@@ -1065,8 +1073,8 @@
                 </lg>
               </div>
               <div>
-                <p>Pour le <persName key="louisxiv" role="danseur">ROY</persName> representant un <name key="Adacemiste"
-                    >Academiste</name>.</p>
+                <p>Pour le <persName key="louisxiv" role="danseur">ROY</persName> representant un
+                    <name key="Adacemiste">Academiste</name>.</p>
                 <lg rend="i">
                   <l>Ce jeune <name key="Adacemiste">Academiste</name> est dans une posture</l>
                   <l>A n’apprehender pas qu’on l’esgale jamais,</l>
@@ -1082,7 +1090,8 @@
                   <l>Il a battu le fer, &amp; les a desarmez,</l>
                   <l>Pour un bel Avenir ce sont de beaux indices :</l>
                   <l>Il s’appreste a des coups encor plus importans,</l>
-                  <l>Et <placeName key="espagne">l’Espagne</placeName> à son dam sçaura dans quelque temps</l>
+                  <l>Et <placeName key="espagne">l’Espagne</placeName> à son dam sçaura dans quelque
+                    temps</l>
                   <l>Combien il est adroit à tous ses exercices.</l>
                 </lg>
                 <lg rend="i">
@@ -1120,15 +1129,18 @@
               <div>
                 <head>IX. ENTRÉE.</head>
                 <p rend="i"><name key="Courtisans de Pelée">Courtisans.</name></p>
-                <label rend="i"><persName key="nogaret_candale" role="danseur">Le Duc de Candale</persName>. <persName key="louis_marie_aumont_rochebaron" role="danseur">Les Marquis de
-                    Villequier</persName> &amp; de <persName key="florimond_ier_brulart" role="danseur">Genlis</persName>. Le
-                    <persName key="" role="danseur">Comte</persName>.</label>
+                <label rend="i"><persName key="nogaret_candale" role="danseur">Le Duc de
+                    Candale</persName>. <persName key="louis_marie_aumont_rochebaron" role="danseur"
+                    >Les Marquis de Villequier</persName> &amp; de <persName
+                    key="florimond_ier_brulart" role="danseur">Genlis</persName>. Le <persName
+                    key="" role="danseur">Comte</persName>.</label>
 
                 <div>
-                  <p rend="center">Pour <persName key="louisxiv" role="danseur">LE ROY</persName>, qui devoit representer un <name
-                      key="Courtisans de Pelée">Courtisan</name>.</p>
+                  <p rend="center">Pour <persName key="louisxiv" role="danseur">LE ROY</persName>,
+                    qui devoit representer un <name key="Courtisans de Pelée">Courtisan</name>.</p>
                   <lg rend="i">
-                    <l>Ce parfait <name key="Courtisans de Pelée">Courtisan</name> a la mine si haute,</l>
+                    <l>Ce parfait <name key="Courtisans de Pelée">Courtisan</name> a la mine si
+                      haute,</l>
                     <l>Qu’en le croyant un <persName>Roy</persName> si c’est faire une faute</l>
                     <l>C’est conscience aussi de la vouloir punir,</l>
                     <l>Il est jeune, il se pousse, il entreprend, il ose,</l>
@@ -1163,8 +1175,9 @@
                 </div>
 
                 <div>
-                  <p rend="center"><persName key="nogaret_candale" role="danseur">Le Duc de Candale</persName> representant un <name
-                      key="Courtisans de Pelée">Courtisan</name>.</p>
+                  <p rend="center"><persName key="nogaret_candale" role="danseur">Le Duc de
+                      Candale</persName> representant un <name key="Courtisans de Pelée"
+                      >Courtisan</name>.</p>
                   <lg rend="i">
                     <l> LA Cour a peu d’esclat qui le dispute au nostre,</l>
                     <l>Et sa Faveur nous garde un assez digne prix,</l>
@@ -1177,8 +1190,9 @@
                   </lg>
                 </div>
                 <div>
-                  <p rend="center"><persName key="louis_marie_aumont_rochebaron" role="danseur">Le Marquis de Villequier </persName>representant un
-                    <name key="Courtisans de Pelée">Courtisan</name>.</p>
+                  <p rend="center"><persName key="louis_marie_aumont_rochebaron" role="danseur">Le
+                      Marquis de Villequier </persName>representant un <name
+                      key="Courtisans de Pelée">Courtisan</name>.</p>
                   <lg rend="i">
                     <l>Pour arriver à <name key="Amour">l’Amour</name>,</l>
                     <l>Et venir à la Fortune,</l>
@@ -1196,8 +1210,9 @@
                   </lg>
                 </div>
                 <div>
-                  <p rend="center"><persName key="florimond_ier_brulart" role="danseur">Le Marquis de Genlis</persName> representant un <name
-                      key="Courtisans de Pelée">Courtisan</name>.</p>
+                  <p rend="center"><persName key="florimond_ier_brulart" role="danseur">Le Marquis
+                      de Genlis</persName> representant un <name key="Courtisans de Pelée"
+                      >Courtisan</name>.</p>
                   <lg rend="i">
                     <l>Comme chacun tend à ses fins,</l>
                     <l>Dans la Cour par divers chemins</l>
@@ -1243,11 +1258,13 @@
             <div>
               <head>DERNIERE ENTRÉE.</head>
               <p rend="center"><name key="Arts liberaux">Arts liberaux.</name></p>
-              <label rend="center"><persName key="" role="danseur">Madame de Brancas.</persName> <persName key="olympe_mancini_soissons" role="danseur">Mademoiselle de Mancini</persName>.
-                  <persName key="" role="danseur">Mademoiselle de Mortemart</persName>. <persName key="" role="danseur">Mademoiselle de la
+              <label rend="center"><persName key="" role="danseur">Madame de Brancas.</persName>
+                <persName key="olympe_mancini_soissons" role="danseur">Mademoiselle de
+                  Mancini</persName>. <persName key="" role="danseur">Mademoiselle de
+                  Mortemart</persName>. <persName key="" role="danseur">Mademoiselle de la
                   Riviere-Bonneüil</persName>. <persName>Mademoiselle du Foüilloux</persName>.
-                  <persName key="" role="danseur">Mademoiselle d’Estrée</persName>. <persName key="" role="danseur">Mademoiselle de la
-                  Loupe</persName>.</label>
+                  <persName key="" role="danseur">Mademoiselle d’Estrée</persName>. <persName key=""
+                  role="danseur">Mademoiselle de la Loupe</persName>.</label>
 
               <div>
                 <p rend="center"><persName>Madame de Brancas</persName>, representant la <name
@@ -1265,8 +1282,8 @@
               </div>
               <div>
                 <pb n="26" xml:id="p26"/>
-                <p rend="center"><persName key="olympe_mancini_soissons" role="danseur">Mademoiselle de Mancini</persName>, representant la <name
-                    key="Musique">Musique</name>.</p>
+                <p rend="center"><persName key="olympe_mancini_soissons" role="danseur">Mademoiselle
+                    de Mancini</persName>, representant la <name key="Musique">Musique</name>.</p>
                 <lg rend="i">
                   <l> EN moy la grace infinie</l>
                   <l>A mille charmans thresors</l>
@@ -1283,8 +1300,9 @@
                 </lg>
               </div>
               <div>
-                <p rend="center"><persName key="" role="danseur">Mademoiselle de Mortemart</persName>, representant la
-                    <name key="Dialectique">Dialectique</name>.</p>
+                <p rend="center"><persName key="" role="danseur">Mademoiselle de
+                    Mortemart</persName>, representant la <name key="Dialectique"
+                  >Dialectique</name>.</p>
                 <lg rend="i">
                   <l> MA jeunesse, mon teint &amp; mes regards vainqueurs</l>
                   <l>Sont de fortes raisons qui n’ont point de pareilles,</l>
@@ -1299,8 +1317,8 @@
                 </lg>
               </div>
               <div>
-                <p rend="center"><persName key="" role="danseur">Mademoiselle d’Estrée</persName>, representant <name
-                    key="l’Astrologie">l’Astrologie</name>.</p>
+                <p rend="center"><persName key="" role="danseur">Mademoiselle d’Estrée</persName>,
+                  representant <name key="l’Astrologie">l’Astrologie</name>.</p>
                 <lg rend="i">
                   <l>JE n’ay pas mon esprit tellement dans les Nuës</l>
                   <l>Que les choses d’embas ne me soient bien cognuës</l>
@@ -1316,8 +1334,9 @@
               </div>
               <div>
                 <pb n="27" xml:id="p27"/>
-                <p rend="center"><persName key="" role="danseur">Mademoiselle de la Riviere-Bonneüil</persName>,
-                  representant la <name key="Grammaire">Grammaire</name>.</p>
+                <p rend="center"><persName key="" role="danseur">Mademoiselle de la
+                    Riviere-Bonneüil</persName>, representant la <name key="Grammaire"
+                    >Grammaire</name>.</p>
                 <lg rend="i">
                   <l>Sans honte on ne me peut choquer dans l’entretien,</l>
                   <l>J’ay beaucoup d’innocence, &amp; la pasleur chagrine</l>
@@ -1338,8 +1357,9 @@
                 </lg>
               </div>
               <div>
-                <p rend="center"><persName key="" role="danseur">Mademoiselle du Foüilloux</persName>, representant la
-                    <name key="Rhetorique">Rhetorique</name>.</p>
+                <p rend="center"><persName key="" role="danseur">Mademoiselle du
+                    Foüilloux</persName>, representant la <name key="Rhetorique"
+                  >Rhetorique</name>.</p>
                 <lg rend="i">
                   <l>Sans que je parle mesme on m’admire à la Cour,</l>
                   <l>J’arrache tous les cœurs si l’on ne me les donne,</l>
@@ -1348,8 +1368,9 @@
                 </lg>
               </div>
               <div>
-                <p rend="center"><persName key="" role="danseur">Mademoiselle de la Loupe,</persName> representant <name
-                    key="l’Arithmetique">l’Arithmetique</name>.</p>
+                <p rend="center"><persName key="" role="danseur">Mademoiselle de la
+                    Loupe,</persName> representant <name key="l’Arithmetique"
+                  >l’Arithmetique</name>.</p>
                 <lg rend="i">
                   <l>Mes jeunes charmes quoy que sombres,</l>
                   <l>A de pauvres <name key="Amans">Amans</name> que je voy sanglotter,</l>
@@ -1362,8 +1383,8 @@
               </div>
               <div>
                 <pb n="28" xml:id="p28"/>
-                <p rend="center"><persName key="" role="danseur">Madame de Commenge</persName>, representant <name
-                    key="Junon">Junon</name>.</p>
+                <p rend="center"><persName key="" role="danseur">Madame de Commenge</persName>,
+                  representant <name key="Junon">Junon</name>.</p>
                 <lg rend="i">
                   <l> A Voir de ce beau teint l’immortelle fraischeur</l>
                   <l>Où le rouge éclatant &amp; la vive blancheur</l>
@@ -1383,7 +1404,7 @@
               </div>
               <div>
                 <p rend="center"><name key="Hymenée">Hymenée ou le Mariage</name> representé par le
-                  <persName key="fm_lorraine" role="danseur">Duc de Joyeuse.</persName></p>
+                    <persName key="fm_lorraine" role="danseur">Duc de Joyeuse.</persName></p>
                 <lg rend="i">
                   <l> TOut aussi serieux que l’Amour est badin,</l>
                   <l>Je détruis le pouvoir qu’il prend dans les familles,</l>
@@ -1392,8 +1413,8 @@
                 </lg>
               </div>
               <div>
-                <p rend="center"><name key="Hercule">Hercule</name> representé par le<persName key="levis-ventadour_damville" role="danseur"> Duc
-                    Damville</persName>.</p>
+                <p rend="center"><name key="Hercule">Hercule</name> representé par le<persName
+                    key="levis-ventadour_damville" role="danseur"> Duc Damville</persName>.</p>
                 <lg rend="i">
                   <l> EN faveur de <name key="l'Amour">l’Amour</name> dont les douces amorces</l>
                   <l>M’ont fait de si grands biens &amp; de si cruels maux,</l>
@@ -1412,24 +1433,25 @@
                 <pb n="29" xml:id="p29"/>
                 <head><name key="Mechaniques">Mechaniques.</name></head>
                 <list>
-                  <item><persName key="louisxiv" role="danseur">LE ROY</persName>. <name key="La Guerre">La Guerre</name>.</item>
-                  <item><persName key="saint_aignan" role="danseur">Le Comte de S. Aignan</persName>. <name key="L'Agriculture"
-                      >L’Agriculture</name>.</item>
-                  <item><persName key="" role="danseur">De Verpé</persName>. <name key="La Navigation">La
-                      Navigation.</name></item>
-                  <item><persName key="" role="danseur">Le Lorges</persName>. <name key="La Chasse">La
-                    Chasse</name>.</item>
-                  <item><persName key="" role="danseur">La Vachet</persName>. <name key="L’Orfeverie"
-                    >L’Orfeverie</name>.</item>
-                  <item><persName key="beauchamp" role="danseur">Beauchamp</persName>. <name key="La Peinture">La
-                    Peinture.</name></item>
-                  <item><persName key="dolivet" role="danseur">D'Olivet</persName>. <name key="La Chirurgie">La
-                    Chirurgie</name>.</item>
+                  <item><persName key="louisxiv" role="danseur">LE ROY</persName>. <name
+                      key="La Guerre">La Guerre</name>.</item>
+                  <item><persName key="saint_aignan" role="danseur">Le Comte de S.
+                    Aignan</persName>. <name key="L'Agriculture">L’Agriculture</name>.</item>
+                  <item><persName key="" role="danseur">De Verpé</persName>. <name
+                      key="La Navigation">La Navigation.</name></item>
+                  <item><persName key="" role="danseur">Le Lorges</persName>. <name key="La Chasse"
+                      >La Chasse</name>.</item>
+                  <item><persName key="" role="danseur">La Vachet</persName>. <name
+                      key="L’Orfeverie">L’Orfeverie</name>.</item>
+                  <item><persName key="beauchamp" role="danseur">Beauchamp</persName>. <name
+                      key="La Peinture">La Peinture.</name></item>
+                  <item><persName key="dolivet" role="danseur">D'Olivet</persName>. <name
+                      key="La Chirurgie">La Chirurgie</name>.</item>
                 </list>
 
                 <div>
-                  <p rend="center">Pour <persName key="louisxiv" role="danseur">LE ROY</persName> representant la <name
-                      key="La Guerre">Guerre</name>.</p>
+                  <p rend="center">Pour <persName key="louisxiv" role="danseur">LE ROY</persName>
+                    representant la <name key="La Guerre">Guerre</name>.</p>
                   <lg rend="i">
                     <l>Nous l’aurons cette <name key="Paix">Paix</name> tant de fois desirée,</l>
                     <l>Qui depuis si long-temps s’est au <name key="Ciel">Ciel</name> retirée,</l>
@@ -1441,7 +1463,8 @@
                   </lg>
                   <lg rend="i">
                     <l>La voicy qui s’avance, &amp; nous est envoyée</l>
-                    <l>Pour imposer des loix à <placeName key="europe">l’Europe</placeName> effroyée</l>
+                    <l>Pour imposer des loix à <placeName key="europe">l’Europe</placeName>
+                      effroyée</l>
                     <l>Du cours impetueux de tant d’actes guerriers :</l>
                     <l>Elle vient dans ces lieux qu’elle va rendre calmes</l>
                     <l>Y moissonner tous les lauriers,</l>
@@ -1458,8 +1481,8 @@
                   </lg>
                 </div>
                 <div>
-                  <p rend="center"><persName key="saint_aignan" role="danseur">Le Comte de S. Aignan r</persName>epresentant <name
-                      key="l'Agriculture">l’Agriculture</name>.</p>
+                  <p rend="center"><persName key="saint_aignan" role="danseur">Le Comte de S. Aignan
+                      r</persName>epresentant <name key="l'Agriculture">l’Agriculture</name>.</p>
                   <lg>
                     <l> EN travaillant nuict &amp; journaliers</l>
                     <l>Au champ de <name key="Mars">Mars</name> &amp; <name key="l'Amour"
@@ -1475,16 +1498,20 @@
                 <pb n="30" xml:id="p30"/>
                 <head><name key="Amours">Amours</name>.</head>
                 <list>
-                  <item><persName key="philippe_orleans" role="danseur">MONSIEUR, Frere unique du Roy.</persName></item>
-                  <item><persName key="gramont_armand" role="danseur">Le Comte de Guiche</persName>. <persName key="nicolas_neufville_villeroy" role="danseur">Le Marquis de
-                      Villeroy</persName>. <persName key="" role="danseur">Le petit Comte de S. Aignan</persName>.
-                      <persName key="" role="danseur">Le petit Rassent</persName>, page de la Chambre. <persName key="" role="danseur">Laleu</persName>,
-                      <persName key="" role="danseur">Bonart</persName>, &amp; <persName key="" role="danseur">Aubry</persName>.</item>
+                  <item><persName key="philippe_orleans" role="danseur">MONSIEUR, Frere unique du
+                      Roy.</persName></item>
+                  <item><persName key="gramont_armand" role="danseur">Le Comte de Guiche</persName>.
+                      <persName key="nicolas_neufville_villeroy" role="danseur">Le Marquis de
+                      Villeroy</persName>. <persName key="" role="danseur">Le petit Comte de S.
+                      Aignan</persName>. <persName key="" role="danseur">Le petit
+                    Rassent</persName>, page de la Chambre. <persName key="" role="danseur"
+                      >Laleu</persName>, <persName key="" role="danseur">Bonart</persName>, &amp;
+                      <persName key="" role="danseur">Aubry</persName>.</item>
                 </list>
 
                 <div>
-                  <p rend="center">Pour <persName key="philippe_orleans" role="danseur">MONSIEUR</persName>, representant un <name
-                      key="Amour">Amour</name>.</p>
+                  <p rend="center">Pour <persName key="philippe_orleans" role="danseur"
+                      >MONSIEUR</persName>, representant un <name key="Amour">Amour</name>.</p>
                   <lg rend="i">
                     <l> QUe ce jeune &amp; ce tendre <name key="Amour">Amour</name></l>
                     <l>Sera dangereux quelque jour :</l>
@@ -1511,8 +1538,8 @@
                   </lg>
                 </div>
                 <div>
-                  <p rend="center"><persName key="gramont_armand" role="danseur">Le Comte de Guiche</persName>, representant un <name
-                      key="Amour">Amour</name>.</p>
+                  <p rend="center"><persName key="gramont_armand" role="danseur">Le Comte de
+                      Guiche</persName>, representant un <name key="Amour">Amour</name>.</p>
                   <lg rend="i">
                     <l>TOus ces <name key="Amours">Amours</name> que je voy</l>
                     <l>D’une beauté singuliere</l>
@@ -1532,8 +1559,9 @@
                 </div>
                 <div>
                   <pb n="31" xml:id="p31"/>
-                  <p rend="center"><persName key="nicolas_neufville_villeroy" role="danseur">Le Marquis de Villeroy,</persName> representant un
-                      <name key="Amour" rend="i">Amour</name>.</p>
+                  <p rend="center"><persName key="nicolas_neufville_villeroy" role="danseur">Le
+                      Marquis de Villeroy,</persName> representant un <name key="Amour" rend="i"
+                      >Amour</name>.</p>
                   <lg>
                     <l>Pour écouter je me glisse,</l>
                     <l>Sçachant bien que c’est toujours</l>
@@ -1553,8 +1581,8 @@
                   </lg>
                 </div>
                 <div>
-                  <p rend="center">Pour <persName key="" role="danseur">le petit R assent</persName>, representant un
-                      <name key="Amour">Amour</name>.</p>
+                  <p rend="center">Pour <persName key="" role="danseur">le petit R
+                    assent</persName>, representant un <name key="Amour">Amour</name>.</p>
                   <lg rend="i">
                     <l>Tous nos talants sont diversifiez,</l>
                     <l>Et chacun a ses graces naturelles :</l>
