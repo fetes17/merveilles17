@@ -2922,6 +2922,7 @@
 
   <person xml:id="corneille" sex="M">
     <name>Corneille, Pierre</name>
+    <socecStatus type="pro"/>
     <birth when="1606"/>
     <death when="1684"/>
     <identifier type="databnf">https://data.bnf.fr/fr/11897704/pierre_corneille/</identifier>
@@ -2932,18 +2933,21 @@
 
   <person xml:id="artur_cossé" sex="M">
       <name>Cossé, Artus Timoleon, duc de Brissac, comte de</name>
+    <socecStatus type="cour"/>
       <birth when="1668"/>
       <death when="1709"/>
     </person>
   
   <person xml:id="henri_albert_cosse_brissac" sex="M">
     <name>Cossé-Brissac, Henri-Albert de</name>
+    <socecStatus type="cour"/>
     <birth when="1645"/>
     <death when="1698"/>
   </person>
   
   <person xml:id="marie_angelique_de_coulange" sex="F">
-    <name>Coulange, Marie-Angélique de, née du Gué de Bagnoles</name>
+    <name>Gué de Bagnoles, Marie-Angélique du, dame de Coulanges (1659)</name>
+    <socecStatus type="cour"/>
     <birth when="1641"/>
     <death when="1723"/>
     <identifier type="wikipedia"
@@ -2955,23 +2959,28 @@
   
   <person xml:id="courtet" sex="M">
     <name>Courtet, Pierre, Contrôleur d'Office</name>
+    <socecStatus type="cour"/>
   </person>
 
     <person xml:id="francois_mace_le_tellier_de_louvois" sex="M">
-    <name>Tellier de Courtanvaux,François-César Le,Marquis de Courtanvaux</name>
+      <name>Le Tellier de Courtanvaux,François-César, Marquis de Courtanvaux</name>
+      <socecStatus type="cour"/>
     <!-- https://fr.wikipedia.org/wiki/Fran%C3%A7ois-C%C3%A9sar_Le_Tellier_de_Courtanvaux son fils -->
 </person>
   
   <person xml:id="courtille" sex="M">
     <name>Courtille, petit valet de pied</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="coyrin" sex="M">
     <name>Coyrin, officier du gobelet</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="mlle_de_cologon" sex="F">
     <name>Coëtlogon, Louise-Philippe de</name>
+    <socecStatus type="cour"/>
     <birth when="1646-04-16"/>
     <death when="1729-03-31"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Louis_Oger_de_Cavoye</identifier>
@@ -2981,17 +2990,20 @@
   <person xml:id="pierre_pernin_crenan" sex="M">
     <name>Crenan, Pierre Perrien, marquis de (grand échanson de la maison du roi de 1665 à
       1670)</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="alphonse_crequy" sex="M">
     <name>Créquy, Alphonse de, comte de Canaples puis duc de Lesdiguières</name>
+    <socecStatus type="cour"/>
     <birth when="1629"/>
     <death when="1711"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Alphonse_de_Cr%C3%A9quy</identifier>
   </person>
   
   <person xml:id="blanchefort_crequy" sex="M">
-    <name>Créquy, Charles III Blanchefort, prince de Poix, duc de</name>
+    <name>Blanchefort Créquy, Charles III, prince de Poix, duc de Créqui</name>
+    <socecStatus type="cour"/>
     <birth when="1623"/>
     <death when="1687"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Charles_III_de_Créquy</identifier>
@@ -3000,7 +3012,8 @@
   </person>
   
   <person xml:id="francois_blanchefort_crequy" sex="M">
-    <name>Créquy de Bonne, François de Blanchefort de, marquis de Marines, maréchal de France, dit Maréchal de Créquy</name>
+    <name>Blanchefort de Créquy de Bonne, François de, marquis de Marines, maréchal de France, dit Maréchal de Créquy</name>
+    <socecStatus type="cour"/>
     <birth when="1625"/>
     <death when="1687"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Fran%C3%A7ois_de_Cr%C3%A9quy</identifier>
@@ -3009,17 +3022,21 @@
   
     <person xml:id="francois_poisson" sex="M">
   <name>Poisson,François,Secrétaire du Roi</name>
+      <socecStatus type="cour"/>
   <!-- https://fr.wikipedia.org/wiki/Madame_de_Pompadour Sa fille -->
 </person>
 
   
   <person xml:id="charles_nicolas_crequi" sex="M">
     <name>Créquy, Charles Nicolas de, marquis de Ragny, colonel de cavalerie et lieutenant-général en Dauphiné</name>
+    <socecStatus type="cour"/>
+    <socecStatus type="militaire"/>
     <death when="1674"/>
   </person>
   
   <person xml:id="francois_rene_crespin_bec_vardes" sex="M">
-    <name>Crespin du Bec de Vardes, François-René</name>
+    <name>Crespin du Bec, François-René, marquis de Vardes</name>
+    <socecStatus type="cour"/>
     <birth when="1621*"/>
     <death when="1688"/>
     <identifier type="wikipedia"
@@ -3028,10 +3045,12 @@
   
   <person xml:id="d_heureux" sex="M">
     <name>D'Heureux, danseur</name>
+    <socecStatus type="pro"/>
   </person>
   
   <person xml:id="henri_de_daillon" sex="M">
     <name>Daillon, Henri de, marquis d'Illiers, comte puis duc de Lude en 1673</name>
+    <socecStatus type="cour"/>
     <birth when="1622"/>
     <death when="1685"/>
     <identifier type="databnf"
@@ -3042,14 +3061,17 @@
   
   <person xml:id="mlle_de_dampierre" sex="F">
     <name>Dampierre, mademoiselle de</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="danucourt" sex="M">
     <name>Danucourt, page de la petite écurie</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="philippe_dangeau" sex="M">
       <name>Dangeau, Philippe de Courcillon, marquis de</name>
+    <socecStatus type="cour"/>
       <birth when="1638"/>
       <death when="1720"/>
       <identifier type="databnf">https://data.bnf.fr/fr/12738882/philippe_de_courcillon_dangeau/</identifier>
@@ -3059,40 +3081,49 @@
 
   <person xml:id="jacques_davy_perron" sex="M">
     <name>Davy du Perron, Jacques</name>
+    <socecStatus type="pro"/>
     <birth when="1556"/>
     <death when="1618"/>
     <identifier type="databnf">https://data.bnf.fr/fr/12039228/jacques_du_perron/</identifier>
     <identifier type="isni">0000 0001 2123 6301</identifier>
   </person>
+  
 <person xml:id="edmond_ii_perrot" sex="M">
   <name>Perrot,Edmon II,Abbé de Premeaux</name>
+  <socecStatus type="cour"/>
     <death when="1727-01-31"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Abbaye_de_C%C3%AEteaux</identifier>
 </person>
 
   <person xml:id="de_casaux" sex="M">
     <name>De Casaux, sieur, gouverneur de Bergue</name>
+    <socecStatus type="local"/>
   </person>
 
   <person xml:id="de_gan" sex="M">
     <name>De Gan, danseur</name>
+    <socecStatus type="pro"/>
   </person>
 
   <person xml:id="de_lorges" sex="M">
     <name>De Lorges, Nicolas, danseur</name>
+    <socecStatus type="pro"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Acad%C3%A9mie_royale_de_danse</identifier>
   </person>
 
   <person xml:id="souville" sex="M">
     <name>De Souville, danseur</name>
+    <socecStatus type="pro"/>
   </person>
 
   <person xml:id="des_airs_le_second" sex="M">
     <name>Des Airs ou Desairs ou Desert, Fleurand Galland, dit le jeune ou le cadet, danseur</name>
+    <socecStatus type="pro"/>
   </person>
 
   <person xml:id="charles_jean_baptiste_fleuriau_de_morville" sex="M">
     <name>Fleuriau de Morville,Charles-Jean-Baptiste,comte de Morville et Ambassadeur</name>
+    <socecStatus type="cour"/>
     <birth when="1686-10-30"/>
     <death when="1732-02-02"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Charles-Jean-Baptiste_Fleuriau_de_Morville</identifier>
@@ -3100,22 +3131,27 @@
 
   <person xml:id="des_airs_l_aine" sex="M">
     <name>Des Airs ou Desairs ou Desert, François Galland, dit l'aîné, danseur</name>
+    <socecStatus type="pro"/>
   </person>
 
   <person xml:id="des_airs_fils1" sex="M">
     <name>Des Airs, fils, danseur</name>
+    <socecStatus type="pro"/>
   </person>
 
   <person xml:id="des_airs_fils2" sex="M">
     <name>Des Airs, fils, danseur</name>
+    <socecStatus type="pro"/>
   </person>
 
   <person xml:id="desbardins" sex="M">
     <name>Desbardins ou des Bardins, François de Boutevilain</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="denisfrancois_bouthilier_de_chavigny" sex="M">
     <name>Bouthillier de Chavigny,Denis-François,évêque de Sens</name>
+    <socecStatus type="cour"/>
     <birth when="1665-06-23"/>
     <death when="1730-11-09"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Denis-Fran%C3%A7ois_Bouthillier_de_Chavigny</identifier>
@@ -3123,36 +3159,44 @@
 
   <person xml:id="desbordes" sex="M">
     <name>Desbordes, Sieur, écuyer cavalcadour de Philippe d'Orléans</name>
+    <socecStatus type="cour"/>
   </person>
 
   <person xml:id="desbrosses" sex="M">
     <name>Desbrosses, danseur</name>
+    <socecStatus type="pro"/>
   </person>
 
   <person xml:id="descouteaux" sex="M">
     <name>Descoteaux, François ou René Pignon, musicien</name>
+    <socecStatus type="pro"/>
     <!-- À cette date, difficile de savoir si c'est le fils ou le père. Comment faire ? Pour les dates, voir : http://shsds.deux-sevres.fr/etude_congres_2016_musicien.pdf -->
     <identifier type="isni">0000 0000 0352 8231</identifier>
   </person>
 
   <person xml:id="des_matins" sex="M">
     <name>Desmatins, Claude, violon du roi</name>
+    <socecStatus type="pro"/>
   </person>
   
   <person xml:id="des_noyers" sex="M">
     <name>Desnoyers, Antoine, violon du roi</name>
+    <socecStatus type="pro"/>
   </person>
   
   <person xml:id="desonnets" sex="M">
     <name>Desonets, danseur</name>
+    <socecStatus type="pro"/>
   </person>
   
   <person xml:id="despaux" sex="M">
     <name>Despaux, page de la petite écurie</name>
+    <socecStatus type="cour"/>
   </person>
 
     <person xml:id="bachelier_abbe" sex="M">
-    <name>Desaulx,Pierre,Abbé Bachelier et doyen du Chapitre de l'église de Reims (1722)</name>
+    <name>Desaulx, Pierre, Abbé Bachelier et doyen du Chapitre de l'église de Reims (1722)</name>
+      <socecStatus type="local"/>
     <birth when="1698"/>
     <death when="1789"/>
     <!-- https://fr.wikipedia.org/wiki/Coll%C3%A9giale_Sainte-Balsamie_de_Reims -->
@@ -3160,10 +3204,12 @@
   
   <person xml:id="destouches" sex="M">
     <name>Destouches, musicien</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="thomas_dreux_breze" sex="M">
     <name>Dreux-Brézé, Thomas de, Grand Maitre des Ceremonies</name>
+    <socecStatus type="cour"/>
     <birth when="1677-07-10"/>
     <death when="1749-03-26"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Thomas_de_Dreux-Br%C3%A9z%C3%A9</identifier>
@@ -3172,26 +3218,35 @@
   </person>
   
   <person xml:id="dolivet" sex="M">
-    <name>Dolivet ou Doliuet</name>
+    <name>Dolivet ou D'Olivet, Hilaire, danseur</name>
+    <socecStatus type="pro"/>
     <!-- AD -->
   </person>
+  
   <person xml:id="charlesgasparddodun" sex="M">
-    <name>Dodun,Charles Gaspard,Contrôleur général des Finances</name>
+    <name>Dodun, Charles Gaspard, Contrôleur général des Finances</name>
+    <socecStatus type="cour"/>
     <birth when="1679-07-07"/>
     <death when="1736-06-25"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Charles_Gaspard_Dodun</identifier>
 </person>
   <person xml:id="claude_jean_baptiste_dodart" sex="M">
-    <name>Dodart,Claude-Jean-Baptiste,premier médecin du roi Louis XV</name>
+    <name>Dodart, Claude-Jean-Baptiste, premier médecin du roi Louis XV</name>
+    <socecStatus type="cour"/>
+    <socecStatus type="pro"/>
     <birth when="1664"/>
     <death when="1730-11-25"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Claude-Jean-Baptiste_Dodart</identifier>
 </person>
+  
   <person xml:id="mlle_du_bellay" sex="F">
     <name>Du Bellay, mademoiselle</name>
+    <socecStatus type="cour"/>
   </person>
+  
     <person xml:id="catherinefelicitedubellaydelapallu" sex="F">
-    <name>Bellay,Catherine Félicité du,dame de Villarnoul</name>
+    <name>Bellay, Catherine Félicité du, dame de Villarnoul</name>
+      <socecStatus type="cour"/>
     <birth when="1708"/>
     <death when="1727-07-03"/>
     <!-- https://man8rove.com/fr/profile/nt57l12x6-catherine-felicite-du-bellay -->
@@ -3199,6 +3254,7 @@
   
   <person xml:id="doilly" sex="M">
     <name>Doilly, Sieur</name>
+    <socecStatus type="local"/>
   </person>
   
   <person xml:id="du_croisy" sex="M">
