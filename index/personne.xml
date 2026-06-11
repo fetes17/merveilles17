@@ -985,7 +985,7 @@
   </person>
   
   <person xml:id="loubie" sex="M">
-    <name type="cour">Loubie, page de la Petite écurie</name>
+    <name>Loubie, page de la Petite écurie</name>
   </person>
   
   <person xml:id="louisI_sanguin" sex="M">
@@ -1158,7 +1158,7 @@
   </person>
 
   <person xml:id="philippe_auguste_le_hardy_la_trousse" sex="M">
-    <name type="local">Le Hardy La Trousse, Philippe Auguste, Gouverneur d'Ypres</name>
+    <name>Le Hardy La Trousse, Philippe Auguste, Gouverneur d'Ypres</name>
     <socecStatus type="local"/>
     <birth notBefore="1600"/>
     <death when="1691"/>
@@ -1484,7 +1484,7 @@
   </person>
   
   <person xml:id="marguerite_cambout_armagnac" sex="F">
-    <name>Cambout de Coislin, Marguerite Philippe du, comtesse d'Harcourt et d'Armagnac</name>
+    <name>Cambout de Coislin, Marguerite Philippe du, dite "mademoiselle de Pontchâteau", puis duchesse de Puylaurens (1634), comtesse d'Harcourt et d'Armagnac et princesse de Lorraine (1639)</name>
     <socecStatus type="cour"/>
     <birth when="1624"/>
     <death when="1674"/>
@@ -2317,32 +2317,39 @@
   </person>
   
   <person xml:id="bruslard_basse" sex="M">
-    <name type="pro">Bruslard, Louis ou Jacques, violon du roi (basse)</name>
+    <name>Bruslard, Louis ou Jacques, violon du roi (basse)</name>
+    <socecStatus type="pro"/>
     <!-- à distinguer du suivant -->
   </person>
   
   <person xml:id="bruslard_dessus" sex="M">
-    <name type="pro">Bruslard, Louis ou Jacques, violon du roi (dessus)</name>
+    <name>Bruslard, Louis ou Jacques, violon du roi (dessus)</name>
+    <socecStatus type="pro"/>
   </person>
   
   <person xml:id="bruslevert" sex="M">
-    <name type="cour">Bruslevert, page de la petite écurie</name>
+    <name>Bruslevert, page de la petite écurie</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="bureau" sex="M">
-    <name type="pro">Bureau, danseur</name>
+    <name>Bureau, danseur</name>
+    <socecStatus type="pro"/>
   </person>
   
   <person xml:id="denis_buret" sex="M">
-    <name type="pro">Buret, Denis, menuisier</name>
+    <name>Buret, Denis, menuisier</name>
+    <socecStatus type="pro"/>
   </person>
   
   <person xml:id="butin" sex="M">
-    <name type="cour">Butin, petit valet de pied</name>
+    <name>Butin, petit valet de pied</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="armande_bejart" sex="F">
-    <name type="pro">Béjart, Armande</name>
+    <name>Béjart, Armande</name>
+    <socecStatus type="pro"/>
     <birth when="1642"/>
     <death when="1700"/>
     <identifier type="databnf">https://data.bnf.fr/fr/13182923/armande_bejart/</identifier>
@@ -2352,13 +2359,15 @@
   </person>
   
   <person xml:id="louis_bejart" sex="M">
-    <name type="pro">Béjart, Louis</name>
+    <name>Béjart, Louis</name>
+    <socecStatus type="pro"/>
     <birth when="1630"/>
     <death when="1678"/>
   </person>
   
   <person xml:id="madeleine_bejart" sex="F">
-    <name type="pro">Béjart, Madeleine</name>
+    <name>Béjart, Madeleine</name>
+    <socecStatus type="pro"/>
     <birth when="1617*"/>
     <death when="1672"/>
     <identifier type="databnf">https://data.bnf.fr/fr/13484160/madeleine_bejart/</identifier>
@@ -2367,20 +2376,24 @@
   </person>
   
   <person xml:id="beauvilliers_bethune" sex="F">
-    <name type="cour">Béthune, Anne-Marie de Beauvilliers, comtesse de</name>
+    <name>Beauvilliers, Anne Marie de, comtesse de Béthune</name>
+    <socecStatus type="cour"/>
     <birth when="1610*"/>
     <death when="1688"/>
     <identifier type="mg">bethune_anne-marie_beauvillier_(1617-1688)_comtesse_de</identifier>
   </person>
+  
     <person xml:id="marc_de_beauvau_craon" sex="M">
-    <name type="cour">Beauvau-Craon,Marc de,marquis de Beauvau</name>
-    <birth when="1676-04-02"/>
+    <name>Beauvau-Craon, Marc de, marquis de Beauvau</name>
+      <socecStatus type="cour"/>
+      <birth when="1676-04-02"/>
     <death when="1754-03-10"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Marc_de_Beauvau-Craon_(1676-1754)</identifier>
 </person>
   
   <person xml:id="louis_bethune" sex="M">
-    <name type="cour">Béthune-Chârost, Louis de</name>
+    <name>Béthune-Chârost, Louis de</name>
+    <socecStatus type="cour"/>
     <birth when="1605"/>
     <death when="1681"/>
     <identifier type="databnf">https://data.bnf.fr/fr/12005108/armand-louis_de_bethune_charost/</identifier>
@@ -2390,7 +2403,8 @@
   </person>
   
   <person xml:id="maximilien_iv_pierre_bethune" sex="M">
-    <name type="cour">Béthune, Maximilien IV Pierre de, duc de Sully, marquis de Rosny, prince d'Henrichemont et Boisbelle, gouverneur de Mantes, comte de Gien</name>
+    <name>Béthune, Maximilien IV Pierre de, duc de Sully, marquis de Rosny, prince d'Henrichemont et Boisbelle, gouverneur de Mantes, comte de Gien</name>
+    <socecStatus type="cour"/>
     <birth when="1640"/>
     <death when="1694"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Maximilien_II_de_B%C3%A9thune</identifier> 
@@ -2398,101 +2412,117 @@
   </person>
   
   <person xml:id="hippolyte_bethune" sex="M">
-    <name type="cour">Béthune, Hippolyte de, marquis de Chabris, dit le comte de Béthune, chevalier d'honneur de Marie-Thérèse d'Autriche puis chevalier des ordres du Roi</name>
+    <name>Béthune, Hippolyte de, marquis de Chabris, dit le comte de Béthune, chevalier d'honneur de Marie-Thérèse d'Autriche puis chevalier des ordres du Roi</name>
+    <socecStatus type="cour"/>
     <birth when="1603"/>
     <death when="1665"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Hippolyte_de_B%C3%A9thune_(1603-1665)</identifier>
   </person>
   
   <person xml:id="alexandre_bournonville" sex="M">
-      <name type="cour">Bournonville, Alexandre-Albert-François-Barthelemy, prince de</name>
+      <name>Bournonville, Alexandre-Albert-François-Barthelemy, prince de</name>
+    <socecStatus type="cour"/>
       <birth when="1662"/>
       <death when="1705"/>
       <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Alexandre_de_Bournonville</identifier>
     </person>
   
   <person xml:id="brenonville" sex="M">
-    <name type="cour">Brenonville, écuyer de la grande écurie</name>
+    <name>Brenonville, écuyer de la grande écurie</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="cabou" sex="M">
-    <name type="pro">Cabou, danseur</name>
+    <name>Cabou, danseur</name>
+    <socecStatus type="pro"/>
     <!-- danseur dans les Amours déguisés -->
   </person>
   
   <person xml:id="caliavet" sex="M">
-    <name type="cour">Caliavet, page de la petite écurie</name>
+    <name>Caliavet, page de la petite écurie</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="jean_iii_calvisson" sex="M">
-      <name type="cour">Calvisson, Jean-Louis III de Louet, seigneur de Murat et de Nogaret, marquis de</name>
+    <name>Louet, Jean-Louis III de, seigneur de Murat et de Nogaret, marquis de Calvisson</name>
+    <socecStatus type="cour"/>
       <birth when="1661"/>
       <death when="1690"/>
     </person>
 
   <person xml:id="mlle_cambray" sex="F">
-    <name type="cour">Cambray, Mademoiselle de</name>
+    <name>Cambray, Mademoiselle de</name>
+    <socecStatus type="cour"/>
   </person>
 
   <person xml:id="camille" sex="M">
-    <name type="pro">Camille, violon</name>
+    <name>Camille, violon</name>
+    <socecStatus type="pro"/>
   </person>
 
   <person xml:id="francesco_carpegna" sex="M">
-      <name type="cour">Carpegna, Francesco Maria di, comte de</name>
+      <name>Carpegna, Francesco Maria di, comte de</name>
+    <socecStatus type="cour"/>
       <birth when="1661"/>
       <death when="1749"/>
     </person>
    
   <person xml:id="michel_francois_louis_carpot" sex="M">
-    <name type="cour">Carpot,Michel François Louis,Secrétaire du Roi</name>
+    <name>Carpot, Michel François Louis, Secrétaire du Roi</name>
+    <socecStatus type="cour"/>
     <!-- https://francearchives.gouv.fr/fr/facomponent/77c2e7735878a98d3b73e3f6b3647135fd732330 -->
 </person>
 
-  
-
   <person xml:id="henri_casaus" sex="M">
-      <name type="cour">Casaus (Cazaux), Henri de, écuyer du dauphin dès 1683</name>
+      <name>Casaus (Cazaux), Henri de, écuyer du dauphin dès 1683</name>
+    <socecStatus type="cour"/>
     </person>
   
     <person xml:id="pierre_antoine_castanier_auriac_chateauneuf" sex="M">
-      <name type="cour">Châteauneuf, Pierre-Antoine de Castanier d'Auriac de, Conseiller d’Estat, Prevost des
-            Marchands <!-- de Paris ? --></name>
+      <name>Castagnery, Pierre-Antoine de, marquis de Châteauneuf, Conseiller d’État, ambassadeur, Prévôt des
+            Marchands de Paris</name>
+      <socecStatus type="cour"/> 
     <birth when="1644"/>
     <death when="1728"/>
-    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Pierre-Antoine_de_Ch%C3%A2teauneuf</identifier>
+      <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Pierre-Antoine_de_Ch%C3%A2teauneuf</identifier>
   </person>
   
   <person xml:id="marechale_de_castelnau" sex="F">
-    <name type="cour">Castelnau, Marie Girard, née de l'Espinay, maréchale de</name>
+    <name>Girard de l'Espinay, Marie, marquise (1642) puis maréchale (1658) de Castelnau</name>
+    <socecStatus type="cour"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jacques_de_Castelnau</identifier>
   </person>
   
   <person xml:id="marquise_de_castelnau" sex="F">
-    <name type="cour"> Castelnau, Marquise de</name>
+    <name> Castelnau, Marquise de, épouse de Michel de Castelnau</name>
+    <socecStatus type="cour"/>
     <!-- à compléter et distinguer de la précédente -->
   </person>
   
     <person xml:id="joseph_castries" sex="M">
-      <name type="cour">La Croix de Castries, Joseph-François de</name>
+      <name>La Croix de Castries, Joseph-François de</name>
+      <socecStatus type="cour"/>
       <birth when="1663"/>
       <death when="1728"/>
       <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Maison_de_La_Croix_de_Castries</identifier>
     </person>
     
   <person xml:id="armand_pierre_croix_de_castries" sex="M">
-    <name type="cour">La Croix de Castries, Armand Pierre de,archevêque de Tours (1717) puis archevêque d'Alby (1722)</name>
+    <name>La Croix de Castries, Armand Pierre de,archevêque de Tours (1717) puis archevêque d'Alby (1722)</name>
+    <socecStatus type="cour"/>
     <birth when="1659"/>
     <death when="1747-04-15"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Armand_Pierre_de_La_Croix_de_Castries</identifier>
   </person>
   
   <person xml:id="castel" sex="M">
-    <name type="militaire">Catel, garde suisse</name>
+    <name>Catel, garde suisse</name>
+    <socecStatus type="militaire"/>
   </person>
   
   <person xml:id="henri_cauchon_de_maupas" sex="M">
-    <name type="cour">Cauchon de Maupas du Tour, Henri</name>
+    <name>Cauchon de Maupas du Tour, Henri</name>
+    <socecStatus type="cour"/>
     <birth when="1604"/>
     <death when="1680"/>
     <identifier type="databnf"
@@ -2502,7 +2532,9 @@
   </person>
   
   <person xml:id="antonin_nompar_caumont" sex="M">
-    <name type="cour">Nompar de Caumont, Antonin, premier duc de Lauzun, marquis de Puyguilhem (dit Péguilin à la Cour de France), comte de Saint-Fargeau, capitaine des Gardes du corps du Roi et colonel général</name>
+    <name>Nompar de Caumont, Antonin, premier duc de Lauzun, marquis de Puyguilhem (dit Péguilin à la Cour de France), comte de Saint-Fargeau, capitaine des Gardes du corps du Roi et colonel général</name>
+    <socecStatus type="cour"/>
+    <socecStatus type="militaire"/>
     <birth when="1632"/>
     <death when="1723"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Antonin_Nompar_de_Caumont</identifier>
@@ -2511,29 +2543,35 @@
   </person>
   
   <person xml:id="jean_de_caulet" sex="M">
-    <name type="cour">Caulet,Jean de, Abbé (1722) puis Évêque de Grenoble (1727</name>
+    <name>Caulet, Jean de, Abbé (1722) puis Évêque de Grenoble (1727)</name>
+    <socecStatus type="cour"/>
     <birth when="1693-04-07"/>
     <death when="1771-09-27"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jean_de_Caulet</identifier>
 </person>
   
   <person xml:id="jean_caylus" sex="M">
-      <name type="cour">Caylus, Jean Anne Claude de Thubières de Grimoard de Pestels de Lévis, comte de</name>
+    <name>Caylus, Jean Anne Claude de Thubières de Grimoard de Pestels de Lévis, comte de Caylus</name>
       <birth when="1666"/>
       <death when="1704"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Anne_III_de_Grimoard_de_Caylus</identifier>
     </person>
   
   <person xml:id="cercamanan" sex="F">
-    <name type="cour">Cercamanan, Anne Fonteaux de</name>
+    <name>Cercamaran, Anne Fonteaux de, chanteuse</name>
+    <socecStatus type="pro"/>
+    <birth notAfter="1640"/>
+    <death when="1719"/>
   </person>
   
   <person xml:id="ceton" sex="M">
-    <name type="cour">Ceton, page</name>
+    <name>Ceton, page</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="nicolas_chalon_du_ble" sex="M">
-    <name type="cour">Chalon du Blé, Nicolas, marquis d'Uxelles</name>
+    <name>Chalon du Blé, Nicolas, marquis d'Uxelles</name>
+    <socecStatus type="cour"/>
     <birth when="1652"/>
     <death when="1730"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Nicolas_Chalon_du_Bl%C3%A9</identifier>
@@ -2542,21 +2580,26 @@
   </person>
   
   <person xml:id="louis_chamarande" sex="M">
-      <name type="cour">Chamarande, Louis d’Ornaison, comte de</name>
+    <name>Ornaison, Louis d', comte de Chamarande</name>
+    <socecStatus type="cour"/>
     <birth when="1660"/>
     <death when="1737"/>
     </person>
   
   <person xml:id="chamois" sex="M">
-    <name type="cour">Chamois, Contrôleur d'Office</name>
+    <name>Chamois, Contrôleur d'Office</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="champagne" sex="M">
-    <name type="pro">Champagne, trompette</name>
+    <name>Champagne, trompette</name>
+    <socecStatus type="pro"/>
   </person>
   
   <person xml:id="paul_chantelou" sex="M">
-    <name type="cour">Chantelou, Paul Fréart de</name>
+    <name>Fréart de Chantelou, Paul </name>
+    <socecStatus type="pro"/>
+    <socecStatus type="cour"/>
     <birth when="1609"/>
     <death when="1694"/>
     <identifier type="databnf"
@@ -2567,7 +2610,8 @@
   </person>
   
   <person xml:id="jean_chapelain" sex="M">
-    <name type="pro">Chapelain, Jean</name>
+    <name>Chapelain, Jean</name>
+    <socecStatus type="pro"/>
     <birth when="1595"/>
     <death when="1674"/>
     <identifier type="databnf">https://data.bnf.fr/fr/12395715/jean_chapelain/</identifier>
@@ -2575,15 +2619,18 @@
   </person>
   
   <person xml:id="charlot" sex="M">
-    <name type="pro">Charlot, Claude, violon du roi</name>
+    <name>Charlot, Claude, violon du roi</name>
+    <socecStatus type="pro"/>
   </person>
   
   <person xml:id="charmasel" sex="M">
-    <name type="cour">Charmasel, Marquis de</name>
+    <name>Charmasel, Marquis de</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="charles_de_bourbon_charolais" sex="M">
-    <name type="cour">Charolais, Charles de Bourbon, comte de</name>
+    <name>Bourbon Condé, Charles de, comte de Charolais</name>
+    <socecStatus type="cour"/>
     <birth when="1700-06-19"/>
     <death when="1760-07-23"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Charles_de_Bourbon-Cond%C3%A9_(1700-1760)</identifier>
@@ -2593,29 +2640,33 @@
   
   
   <person xml:id="armand_charost" sex="M">
-      <name type="cour">Charost, Armand de Béthune, marquis d’Ancenis et duc de, gouverneur de Louis XV pendant sa minorité</name>
+    <name>Béthune, Armand de, marquis d’Ancenis et duc de Charost, gouverneur de Louis XV pendant sa minorité</name>
+    <socecStatus type="cour"/>
     <birth when="1663-03-25"/>
     <death when="1747-10-23"/>
     <!-- à compléter -->
     </person>
 
     <person xml:id="julie_christine_regine_georges_antraigues" sex="F">
-    <name type="cour">Régine George d'Antraigues, Julie Christine, Dame d'Ancenis</name>
+      <name>Gorge d'Antraigues, Régine Julie Christine, Dame d'Ancenis, duchesse de Béthune Charost (mariée à Paul François de Béthune en 1709)</name>
     <birth when="1686"/>
     <death when="1737-08-28"/>
     <!-- https://ancestors.familysearch.org/en/LC53-S21/julie-christine-r%C3%A9gine-george-d%27antraigues-1686-1737 -->
   </person>
 
   <person xml:id="chasteau_neuf" sex="M">
-    <name type="cour">Chasteauneuf, petit valet de pied</name>
+    <name>Chasteauneuf, petit valet de pied</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="chaudron" sex="M">
-    <name type="pro">Chaudron, Guillaume, violon du roi</name>
+    <name>Chaudron, Guillaume, violon du roi</name>
+    <socecStatus type="pro"/>
   </person>
   
   <person xml:id="charles_albert_ailly" sex="M">
-    <name type="cour">Chaulnes, Charles Albert d’Ailly, duc de</name>
+    <name>Ailly, Charles Albert d’, duc de Chaulnes</name>
+    <socecStatus type="cour"/>
     <birth when="1625"/>
     <death when="1698"/>
     <identifier type="wikipedia"
@@ -2624,7 +2675,8 @@
   </person>
   
   <person xml:id="chauveau" sex="M">
-    <name type="pro">Chauveau, François</name>
+    <name>Chauveau, François</name>
+    <socecStatus type="pro"/>
     <birth when="1613"/>
     <death when="1676"/>
     <identifier type="databnf">https://data.bnf.fr/fr/12197733/francois_chauveau/</identifier>
@@ -2633,22 +2685,26 @@
   </person>
 
     <person xml:id="bernard_chauvelin" sex="M">
-    <name type="cour">Chauvelin,Bernard,Maitre des requêtes (1722)</name>
+    <name>Chauvelin, Bernard, Maitre des requêtes (1722)</name>
+      <socecStatus type="cour"/>
     <birth when="1662"/>
     <death when="1755"/>
     <!-- https://fr.wikipedia.org/wiki/Bernard-Louis_Chauvelin son fils -->
   </person>
   
   <person xml:id="chiarini" sex="M">
-    <name type="pro">Chiarini, Guiseppe, chanteur </name>
+    <name>Chiarini, Guiseppe, chanteur </name>
+    <socecStatus type="pro"/>
   </person>
   
   <person xml:id="chicanneau" sex="M">
-    <name type="pro">Chicanneau, danseur</name>
+    <name>Chicanneau, danseur</name>
+    <socecStatus type="pro"/>
   </person>
   
   <person xml:id="flavio_chigi" sex="M">
-    <name type="foreign">Chigi, Flavio</name>
+    <name>Chigi, Flavio</name>
+    <socecStatus type="foreign"/>
     <birth when="1631"/>
     <death when="1693"/>
     <identifier type="databnf">https://data.bnf.fr/fr/13511245/flavio_chigi/</identifier>
@@ -2657,14 +2713,16 @@
   </person>
   
   <person xml:id="sigismondo_chigi" sex="M">
-    <name type="foreign">Chigi, Sigismondo</name>
+    <name>Chigi, Sigismondo</name>
+    <socecStatus type="foreign"/>
     <birth when="1649"/>
     <death when="1678"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Sigismondo_Chigi</identifier>
   </person>
   
   <person xml:id="cesar_choiseul_plessis" sex="M">
-    <name type="cour">Choiseul du Plessis-Praslin, César de</name>
+    <name>Choiseul du Plessis-Praslin, César de</name>
+    <socecStatus type="cour"/>
     <birth when="1602"/>
     <death when="1675"/>
     <identifier type="databnf"
@@ -2675,69 +2733,87 @@
   </person>
   
   <person xml:id="cesar_auguste_choiseul_plessis" sex="M">
-    <name type="cour">Choiseul du Plessis-Praslin, César III Auguste de, dit le Chevalier de Plessis-Praslin, lieutenant général des armées du Roi</name>
+    <name>Choiseul du Plessis-Praslin, César III Auguste de, dit le Chevalier de Plessis-Praslin, lieutenant général des armées du Roi</name>
+    <socecStatus type="cour"/>
+    <socecStatus type="militaire"/>
     <birth when="1637"/>
     <death when="1705"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/C%C3%A9sar_Auguste_de_Choiseul_de_Plessis-Praslin</identifier>
   </person>
   
   <person xml:id="jean_chuppin" sex="M">
-    <name type="pro">Chuppin, Jean, notaire</name>
+    <name>Chuppin, Jean, notaire</name>
+    <socecStatus type="pro"/>
   </person>
   
   <person xml:id="cleiret" sex="M">
-    <name type="cour">Cleiret, officier du gobelet</name>
+    <name>Cleiret, officier du gobelet</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="marechale_de_clerembaut" sex="F">
-    <name type="cour">Clairembaut, Maréchale de</name>
+    <name>Bouthillier de Chavigny, Louise, épouse de Philippe de Clérambault Palluau (1654)</name>
+    <socecStatus type="cour"/>
+    <birth when="1634"/>
+    <death when="1722"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Philippe_de_Cl%C3%A9rambault</identifier>
   </person>
   
   <person xml:id="pierre_clairambault" sex="M">
-    <name type="cour">Clairambault,Pierre,Généalogiste des Ordres de Roi</name>
+    <name>Clairambault, Pierre, Généalogiste des Ordres de Roi</name>
+    <socecStatus type="cour"/>
     <birth when="1651-05-30"/>
     <death when="1740-01-14"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Pierre_Clairambault</identifier>
 </person>
   
   <person xml:id="charles_coatelles" sex="M">
-      <name type="cour">Coatellés, Charles Leni, marquis de</name>
+      <name>Leny, Charles, marquis de Coateles</name>
+    <socecStatus type="cour"/>
     </person>
 
   <person xml:id="armand_du_cambout" sex="M">
-    <name type="cour">Coislin, Armand du Cambout, duc de</name>
+    <name>Cambout, Armand du, duc de Coislin</name>
+    <socecStatus type="cour"/>
     <birth when="1635"/>
     <death when="1702"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Armand_du_Cambout</identifier>
     <identifier type="isni">0000 0000 2030 9583</identifier>
     <identifier type="mg">coislin_armand_du_cambout_(1635-1702)_duc_de</identifier>
   </person>
+  
     <person xml:id="henri_charles_du_cambout_de_coislin" sex="M">
-    <name type="cour">Coislin,Henri-Charles de,Évêque de Metz</name>
-    <birth when="1665-09-15"/>
+    <name>Cambout, Henri-Charles de, duc de Coislin (1710) Évêque de Metz</name>
+      <socecStatus type="cour"/>
+      <birth when="1665-09-15"/>
     <death when="1732-11-28"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Henri-Charles_de_Coislin</identifier>
 </person>
+  
     <person xml:id="henri_hubert_de_courtavel_de_peze" sex="M">
-    <name type="cour">Courtavel,Hubert de,marquis de Pezé</name>
-    <birth when="1680"/>
+    <name>Courtavel, Hubert de, marquis de Pezé</name>
+      <socecStatus type="cour"/>
+      <birth when="1680"/>
     <death when="1734-11-24"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Hubert_de_Courtarvel</identifier>
 </person>
 
   <person xml:id="colambert" sex="M">
-    <name type="cour">Colambert, page de la petite écurie</name>
+    <name>Colambert, page de la petite écurie</name>
+    <socecStatus type="cour"/>
   </person>
 
   <person xml:id="antoine_colbert" sex="M">
-      <name type="cour">Colbert, Antoine Martin, dit chevalier Colbert</name>
+      <name>Colbert, Antoine Martin, dit chevalier Colbert</name>
+    <socecStatus type="cour"/>
       <birth when="1659"/>
       <death when="1689"/>
       <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Famille_Colbert</identifier>
     </person>
   
   <person xml:id="colbert" sex="M">
-    <name type="cour">Colbert, Jean-Baptiste</name>
+    <name>Colbert, Jean-Baptiste</name>
+    <socecStatus type="cour"/>
     <birth when="1619"/>
     <death when="1683"/>
     <identifier type="databnf">https://data.bnf.fr/fr/12428884/jean-baptiste_colbert/</identifier>
@@ -2747,7 +2823,8 @@
   </person>
   
   <person xml:id="seignelay_colbert" sex="M">
-    <name type="cour">Colbert de Seignelay, Jean-Baptiste </name>
+    <name>Colbert de Seignelay, Jean-Baptiste </name>
+    <socecStatus type="cour"/>
     <birth when="1651-11-01"/>
     <death when="1690-11-03"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jean-Baptiste_Colbert_de_Seignelay</identifier>
@@ -2756,32 +2833,38 @@
   </person>
   
   <person xml:id="seignelay_catherine_therese" sex="F">
-    <name type="cour">Matignon Thorigny, Catherine-Thérèse de, marquise de Seignelay (1679) puis comtesse de Marsan (1696)</name>
+    <name>Matignon Thorigny, Catherine-Thérèse de, marquise de Seignelay (1679) puis comtesse de Marsan (1696)</name>
+    <socecStatus type="cour"/>
     <birth when="1662"/>
     <death when="1699"/>
   </person>
   
   <person xml:id="sybille_de_comminge" sex="F">
-    <name type="cour">Comminge, Sybille Angélique de,</name>
+    <name>Comminge, Sybille Angélique de</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="louis_comminges_vervins" sex="M">
-    <name type="cour">Comminges, Louis de, marquis de Vervins</name>
+    <name>Comminges, Louis de, marquis de Vervins</name>
+    <socecStatus type="cour"/>
     <birth when="1631"/>
     <death when="1663"/>
   </person>
   
   <person xml:id="louis_cominges_ii" sex="M">
-    <name type="cour">Comminges, Louis Joseph de, marquis de Vervins</name>
+    <name>Comminges, Louis Joseph de, marquis de Vervins</name>
+    <socecStatus type="cour"/>
       <birth when="1664"/>
     </person>
 
   <person xml:id="cambrou" sex="M">
-    <name type="O">Combrou</name>
+    <name>Combrou, page</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="maille_breze_conde" sex="F">
-    <name type="cour">Maillé-Brézé, Claire-Clémence de, princesse de Condé</name>
+    <name>Maillé-Brézé, Claire-Clémence de, princesse de Condé</name>
+    <socecStatus type="cour"/>
     <birth when="1628"/>
     <death when="1694"/>
     <identifier type="databnf"
@@ -2790,18 +2873,21 @@
   </person>
   
   <person xml:id="contaut" sex="M">
-    <name type="cour">Contaut, grand valet de pied</name>
+    <name>Contaut, grand valet de pied</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="louis_armand_bourbon_conti" sex="M">
-    <name type="cour">Bourbon-Conti,Louis-Armand de, prince de Conti</name>
+    <name>Bourbon-Conti,Louis-Armand de, prince de Conti</name>
+    <socecStatus type="cour"/>
     <birth when="1661"/>
     <death when="1685"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Louis-Armand_de_Bourbon-Conti_(1661-1685)</identifier>
   </person>
   
   <person xml:id="louis_armand_conti" sex="M">
-    <name type="cour">Bourbon-Conti,Louis-Armand de, Prince de Conti (1722)</name>
+    <name>Bourbon-Conti,Louis-Armand de, Prince de Conti (1722)</name>
+    <socecStatus type="cour"/>
     <birth when="1695-11-10"/>
     <death when="1727-05-04"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Louis-Armand_de_Bourbon-Conti_(1695-1727)</identifier>
@@ -2810,7 +2896,8 @@
   </person>
   
   <person xml:id="françois_louis_bourbon_conti" sex="M">
-    <name type="cour">Bourbon-Conti, François-Louis de, prince de la Roche-sur-Yon, prince de Conti</name>
+    <name>Bourbon-Conti, François-Louis de, prince de la Roche-sur-Yon, prince de Conti</name>
+    <socecStatus type="cour"/>
     <birth when="1664-04-30"/>
     <death when="1709-02-22"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Fran%C3%A7ois-Louis_de_Bourbon-Conti#cite_note</identifier>
@@ -2818,12 +2905,24 @@
     <identifier type="isni">http://isni.org/isni/0000000109034635</identifier>
   </person>
   
-  <person xml:id="marche_coquet" sex="M">
-    <name type="pro">Coquet, Jacques</name>
+  <person xml:id="coquet_antoine" sex="M">
+    <name>Coquet, Antoine, controleur général de la maison du Roi</name>
+    <socecStatus type="cour"/>
+  </person>
+  
+  <person xml:id="coquet_jacques" sex="M">
+    <name>Coquet, Jacques, controleur général de la maison du Roi, fils d'Antoine Coquet</name>
+    <socecStatus type="cour"/>
+  </person>
+  
+  <person xml:id="marche" sex="M">
+    <name>M. de La Marche, commis du controleur général de la maison du roi.</name>
+    <socecStatus type="cour"/>
   </person>
 
   <person xml:id="corneille" sex="M">
-    <name type="pro">Corneille, Pierre</name>
+    <name>Corneille, Pierre</name>
+    <socecStatus type="pro"/>
     <birth when="1606"/>
     <death when="1684"/>
     <identifier type="databnf">https://data.bnf.fr/fr/11897704/pierre_corneille/</identifier>
@@ -2833,19 +2932,22 @@
   </person>
 
   <person xml:id="artur_cossé" sex="M">
-      <name type="cour">Cossé, Artus Timoleon, duc de Brissac, comte de</name>
+      <name>Cossé, Artus Timoleon, duc de Brissac, comte de</name>
+    <socecStatus type="cour"/>
       <birth when="1668"/>
       <death when="1709"/>
     </person>
   
   <person xml:id="henri_albert_cosse_brissac" sex="M">
-    <name type="cour">Cossé-Brissac, Henri-Albert de</name>
+    <name>Cossé-Brissac, Henri-Albert de</name>
+    <socecStatus type="cour"/>
     <birth when="1645"/>
     <death when="1698"/>
   </person>
   
   <person xml:id="marie_angelique_de_coulange" sex="F">
-    <name type="cour">Coulange, Marie-Angélique de, née du Gué de Bagnoles</name>
+    <name>Gué de Bagnoles, Marie-Angélique du, dame de Coulanges (1659)</name>
+    <socecStatus type="cour"/>
     <birth when="1641"/>
     <death when="1723"/>
     <identifier type="wikipedia"
@@ -2856,24 +2958,29 @@
   </person>
   
   <person xml:id="courtet" sex="M">
-    <name type="cour">Courtet, Pierre, Contrôleur d'Office</name>
+    <name>Courtet, Pierre, Contrôleur d'Office</name>
+    <socecStatus type="cour"/>
   </person>
 
     <person xml:id="francois_mace_le_tellier_de_louvois" sex="M">
-    <name type="cour">Tellier de Courtanvaux,François-César Le,Marquis de Courtanvaux</name>
+      <name>Le Tellier de Courtanvaux,François-César, Marquis de Courtanvaux</name>
+      <socecStatus type="cour"/>
     <!-- https://fr.wikipedia.org/wiki/Fran%C3%A7ois-C%C3%A9sar_Le_Tellier_de_Courtanvaux son fils -->
 </person>
   
   <person xml:id="courtille" sex="M">
     <name>Courtille, petit valet de pied</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="coyrin" sex="M">
     <name>Coyrin, officier du gobelet</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="mlle_de_cologon" sex="F">
     <name>Coëtlogon, Louise-Philippe de</name>
+    <socecStatus type="cour"/>
     <birth when="1646-04-16"/>
     <death when="1729-03-31"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Louis_Oger_de_Cavoye</identifier>
@@ -2883,17 +2990,20 @@
   <person xml:id="pierre_pernin_crenan" sex="M">
     <name>Crenan, Pierre Perrien, marquis de (grand échanson de la maison du roi de 1665 à
       1670)</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="alphonse_crequy" sex="M">
     <name>Créquy, Alphonse de, comte de Canaples puis duc de Lesdiguières</name>
+    <socecStatus type="cour"/>
     <birth when="1629"/>
     <death when="1711"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Alphonse_de_Cr%C3%A9quy</identifier>
   </person>
   
   <person xml:id="blanchefort_crequy" sex="M">
-    <name>Créquy, Charles III Blanchefort, prince de Poix, duc de</name>
+    <name>Blanchefort Créquy, Charles III, prince de Poix, duc de Créqui</name>
+    <socecStatus type="cour"/>
     <birth when="1623"/>
     <death when="1687"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Charles_III_de_Créquy</identifier>
@@ -2902,7 +3012,8 @@
   </person>
   
   <person xml:id="francois_blanchefort_crequy" sex="M">
-    <name>Créquy de Bonne, François de Blanchefort de, marquis de Marines, maréchal de France, dit Maréchal de Créquy</name>
+    <name>Blanchefort de Créquy de Bonne, François de, marquis de Marines, maréchal de France, dit Maréchal de Créquy</name>
+    <socecStatus type="cour"/>
     <birth when="1625"/>
     <death when="1687"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Fran%C3%A7ois_de_Cr%C3%A9quy</identifier>
@@ -2911,17 +3022,21 @@
   
     <person xml:id="francois_poisson" sex="M">
   <name>Poisson,François,Secrétaire du Roi</name>
+      <socecStatus type="cour"/>
   <!-- https://fr.wikipedia.org/wiki/Madame_de_Pompadour Sa fille -->
 </person>
 
   
   <person xml:id="charles_nicolas_crequi" sex="M">
     <name>Créquy, Charles Nicolas de, marquis de Ragny, colonel de cavalerie et lieutenant-général en Dauphiné</name>
+    <socecStatus type="cour"/>
+    <socecStatus type="militaire"/>
     <death when="1674"/>
   </person>
   
   <person xml:id="francois_rene_crespin_bec_vardes" sex="M">
-    <name>Crespin du Bec de Vardes, François-René</name>
+    <name>Crespin du Bec, François-René, marquis de Vardes</name>
+    <socecStatus type="cour"/>
     <birth when="1621*"/>
     <death when="1688"/>
     <identifier type="wikipedia"
@@ -2930,10 +3045,12 @@
   
   <person xml:id="d_heureux" sex="M">
     <name>D'Heureux, danseur</name>
+    <socecStatus type="pro"/>
   </person>
   
   <person xml:id="henri_de_daillon" sex="M">
     <name>Daillon, Henri de, marquis d'Illiers, comte puis duc de Lude en 1673</name>
+    <socecStatus type="cour"/>
     <birth when="1622"/>
     <death when="1685"/>
     <identifier type="databnf"
@@ -2944,14 +3061,17 @@
   
   <person xml:id="mlle_de_dampierre" sex="F">
     <name>Dampierre, mademoiselle de</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="danucourt" sex="M">
     <name>Danucourt, page de la petite écurie</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="philippe_dangeau" sex="M">
       <name>Dangeau, Philippe de Courcillon, marquis de</name>
+    <socecStatus type="cour"/>
       <birth when="1638"/>
       <death when="1720"/>
       <identifier type="databnf">https://data.bnf.fr/fr/12738882/philippe_de_courcillon_dangeau/</identifier>
@@ -2961,40 +3081,49 @@
 
   <person xml:id="jacques_davy_perron" sex="M">
     <name>Davy du Perron, Jacques</name>
+    <socecStatus type="pro"/>
     <birth when="1556"/>
     <death when="1618"/>
     <identifier type="databnf">https://data.bnf.fr/fr/12039228/jacques_du_perron/</identifier>
     <identifier type="isni">0000 0001 2123 6301</identifier>
   </person>
+  
 <person xml:id="edmond_ii_perrot" sex="M">
   <name>Perrot,Edmon II,Abbé de Premeaux</name>
+  <socecStatus type="cour"/>
     <death when="1727-01-31"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Abbaye_de_C%C3%AEteaux</identifier>
 </person>
 
   <person xml:id="de_casaux" sex="M">
     <name>De Casaux, sieur, gouverneur de Bergue</name>
+    <socecStatus type="local"/>
   </person>
 
   <person xml:id="de_gan" sex="M">
     <name>De Gan, danseur</name>
+    <socecStatus type="pro"/>
   </person>
 
   <person xml:id="de_lorges" sex="M">
     <name>De Lorges, Nicolas, danseur</name>
+    <socecStatus type="pro"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Acad%C3%A9mie_royale_de_danse</identifier>
   </person>
 
   <person xml:id="souville" sex="M">
     <name>De Souville, danseur</name>
+    <socecStatus type="pro"/>
   </person>
 
   <person xml:id="des_airs_le_second" sex="M">
     <name>Des Airs ou Desairs ou Desert, Fleurand Galland, dit le jeune ou le cadet, danseur</name>
+    <socecStatus type="pro"/>
   </person>
 
   <person xml:id="charles_jean_baptiste_fleuriau_de_morville" sex="M">
     <name>Fleuriau de Morville,Charles-Jean-Baptiste,comte de Morville et Ambassadeur</name>
+    <socecStatus type="cour"/>
     <birth when="1686-10-30"/>
     <death when="1732-02-02"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Charles-Jean-Baptiste_Fleuriau_de_Morville</identifier>
@@ -3002,22 +3131,27 @@
 
   <person xml:id="des_airs_l_aine" sex="M">
     <name>Des Airs ou Desairs ou Desert, François Galland, dit l'aîné, danseur</name>
+    <socecStatus type="pro"/>
   </person>
 
   <person xml:id="des_airs_fils1" sex="M">
     <name>Des Airs, fils, danseur</name>
+    <socecStatus type="pro"/>
   </person>
 
   <person xml:id="des_airs_fils2" sex="M">
     <name>Des Airs, fils, danseur</name>
+    <socecStatus type="pro"/>
   </person>
 
   <person xml:id="desbardins" sex="M">
     <name>Desbardins ou des Bardins, François de Boutevilain</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="denisfrancois_bouthilier_de_chavigny" sex="M">
     <name>Bouthillier de Chavigny,Denis-François,évêque de Sens</name>
+    <socecStatus type="cour"/>
     <birth when="1665-06-23"/>
     <death when="1730-11-09"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Denis-Fran%C3%A7ois_Bouthillier_de_Chavigny</identifier>
@@ -3025,36 +3159,44 @@
 
   <person xml:id="desbordes" sex="M">
     <name>Desbordes, Sieur, écuyer cavalcadour de Philippe d'Orléans</name>
+    <socecStatus type="cour"/>
   </person>
 
   <person xml:id="desbrosses" sex="M">
     <name>Desbrosses, danseur</name>
+    <socecStatus type="pro"/>
   </person>
 
   <person xml:id="descouteaux" sex="M">
     <name>Descoteaux, François ou René Pignon, musicien</name>
+    <socecStatus type="pro"/>
     <!-- À cette date, difficile de savoir si c'est le fils ou le père. Comment faire ? Pour les dates, voir : http://shsds.deux-sevres.fr/etude_congres_2016_musicien.pdf -->
     <identifier type="isni">0000 0000 0352 8231</identifier>
   </person>
 
   <person xml:id="des_matins" sex="M">
     <name>Desmatins, Claude, violon du roi</name>
+    <socecStatus type="pro"/>
   </person>
   
   <person xml:id="des_noyers" sex="M">
     <name>Desnoyers, Antoine, violon du roi</name>
+    <socecStatus type="pro"/>
   </person>
   
   <person xml:id="desonnets" sex="M">
     <name>Desonets, danseur</name>
+    <socecStatus type="pro"/>
   </person>
   
   <person xml:id="despaux" sex="M">
     <name>Despaux, page de la petite écurie</name>
+    <socecStatus type="cour"/>
   </person>
 
     <person xml:id="bachelier_abbe" sex="M">
-    <name>Desaulx,Pierre,Abbé Bachelier et doyen du Chapitre de l'église de Reims (1722)</name>
+    <name>Desaulx, Pierre, Abbé Bachelier et doyen du Chapitre de l'église de Reims (1722)</name>
+      <socecStatus type="local"/>
     <birth when="1698"/>
     <death when="1789"/>
     <!-- https://fr.wikipedia.org/wiki/Coll%C3%A9giale_Sainte-Balsamie_de_Reims -->
@@ -3062,10 +3204,12 @@
   
   <person xml:id="destouches" sex="M">
     <name>Destouches, musicien</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="thomas_dreux_breze" sex="M">
     <name>Dreux-Brézé, Thomas de, Grand Maitre des Ceremonies</name>
+    <socecStatus type="cour"/>
     <birth when="1677-07-10"/>
     <death when="1749-03-26"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Thomas_de_Dreux-Br%C3%A9z%C3%A9</identifier>
@@ -3074,26 +3218,35 @@
   </person>
   
   <person xml:id="dolivet" sex="M">
-    <name>Dolivet ou Doliuet</name>
+    <name>Dolivet ou D'Olivet, Hilaire, danseur</name>
+    <socecStatus type="pro"/>
     <!-- AD -->
   </person>
+  
   <person xml:id="charlesgasparddodun" sex="M">
-    <name>Dodun,Charles Gaspard,Contrôleur général des Finances</name>
+    <name>Dodun, Charles Gaspard, Contrôleur général des Finances</name>
+    <socecStatus type="cour"/>
     <birth when="1679-07-07"/>
     <death when="1736-06-25"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Charles_Gaspard_Dodun</identifier>
 </person>
   <person xml:id="claude_jean_baptiste_dodart" sex="M">
-    <name>Dodart,Claude-Jean-Baptiste,premier médecin du roi Louis XV</name>
+    <name>Dodart, Claude-Jean-Baptiste, premier médecin du roi Louis XV</name>
+    <socecStatus type="cour"/>
+    <socecStatus type="pro"/>
     <birth when="1664"/>
     <death when="1730-11-25"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Claude-Jean-Baptiste_Dodart</identifier>
 </person>
+  
   <person xml:id="mlle_du_bellay" sex="F">
     <name>Du Bellay, mademoiselle</name>
+    <socecStatus type="cour"/>
   </person>
+  
     <person xml:id="catherinefelicitedubellaydelapallu" sex="F">
-    <name>Bellay,Catherine Félicité du,dame de Villarnoul</name>
+    <name>Bellay, Catherine Félicité du, dame de Villarnoul</name>
+      <socecStatus type="cour"/>
     <birth when="1708"/>
     <death when="1727-07-03"/>
     <!-- https://man8rove.com/fr/profile/nt57l12x6-catherine-felicite-du-bellay -->
@@ -3101,6 +3254,7 @@
   
   <person xml:id="doilly" sex="M">
     <name>Doilly, Sieur</name>
+    <socecStatus type="local"/>
   </person>
   
   <person xml:id="du_croisy" sex="M">
@@ -3115,7 +3269,7 @@
       <death when="1730"/>
     </person>
     <person xml:id="guillaumedubois" sex="M">
-    <name>Dubois,Guillaume,dit « l'abbé Dubois », puis « le cardinal Dubois » ministre d'état du Régent</name>
+    <name>Dubois, Guillaume, dit « l'abbé Dubois », puis « le cardinal Dubois » ministre d'état du Régent</name>
     <birth when="1656-09-06"/>
     <death when="1723-08-10"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Guillaume_Dubois</identifier>
@@ -4249,7 +4403,7 @@
       >https://data.bnf.fr/fr/17089697/jean-francois_de_la_baume_le_blanc_la_valliere/</identifier>
     <identifier type="isni">0000 0004 5979 2671</identifier>
   </person>
-   <person xml:id="francoiscesar_le_blanc" sex="">
+   <person xml:id="francoiscesar_le_blanc" sex="M">
   <name>Le Blanc,François-César, évêque d'Avranches (1722)</name>
   <birth when="1672-03-15"/>
   <death when="1746-05-13"/>
@@ -4260,7 +4414,7 @@
     <name>Langlois, Paul Armand, maître d'hôtel de la maison du roi</name>
   </person>
   <person xml:id="lansac_crequi" sex="F">
-    <name>Lansac, Anne-Armande de Saint Gelais de, épouse de Charles III de Blanchefort-Créquy
+    <name>Saint Gelais de Lansac, Anne-Armande de, épouse de Charles III de Blanchefort-Créquy
       duchesse de Créquy</name>
     <birth when="1637"/>
     <death when="1709"/>
@@ -5162,7 +5316,7 @@
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jean-Baptiste_Amador_de_Vignerot_du_Plessis</identifier>
   </person>
     <person xml:id="armand_jean_plessis_richelieu" sex="F">
-    <name>Plessis de Richelieu,Armand Jean du,dit le cardinal de Richelieu, cardinal (1622), duc de Richelieu (1631) et duc de Fronsac (1634)</name>
+    <name>Plessis de Richelieu, Armand Jean du, dit le cardinal de Richelieu, cardinal (1622), duc de Richelieu (1631) et duc de Fronsac (1634)</name>
     <birth when="1585-09-09"/>
    <death when="1642-12-04"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Armand_Jean_du_Plessis_de_Richelieu</identifier>
@@ -5212,8 +5366,6 @@
 </person>
     <person xml:id="michel_iii_poncet_de_la_riviere" sex="M">
     <name>Poncet de La Rivière,Michel de,évêque d’Angers</name>
-    <birth/>
-    <death/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Michel_Poncet_de_La_Rivi%C3%A8re</identifier>
   </person>
     <person xml:id="henri_charles_arnauld_de_pomponne" sex="M">
@@ -5643,7 +5795,7 @@
     </person>
     <person xml:id="jean_soyécourt" sex="M">
       <name>Soyécourt, Jean-Maximilien de Belleforière, marquis de</name>
-      <birth when="c.1656"/>
+      <birth when="1656*"/>
       <death when="1690"/>
       <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Famille_de_Soy%C3%A9court</identifier>
     </person>
@@ -5780,7 +5932,7 @@
     <name>Tutin, fils, danseur</name>
   </person>
     <person xml:id="emmanuel_usez" sex="M">
-      <name>Usez, Emmanuel de Crussol, duc d’</name>
+      <name>Crussol, Emmanuel de,  duc d’Uzès</name>
     </person>
   <person xml:id="vagnac" sex="M">
     <name>Vagnac, acteur</name>
@@ -6013,7 +6165,7 @@
   </person>
   
   <person xml:id="scott_james" sex="M">
-    <name type="cour">Scott, James, duc de Monmouth</name>
+    <name>Scott, James, duc de Monmouth</name>
     <birth when="1649"/>
     <death when="1685"/>
     <identifier type="databnf">https://data.bnf.fr/fr/see_all_activities/17935495/page1</identifier>
@@ -6022,7 +6174,7 @@
   </person>
   
   <person xml:id="gourville" sex="M">
-    <name type="cour">Hérault de Gourville, Jean</name>
+    <name>Hérault de Gourville, Jean</name>
     <birth when="1625-07-10"/>
       <death when="1703-06-14"/>
         <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jean_H%C3%A9rault_de_Gourville</identifier>
@@ -6031,7 +6183,7 @@
   </person>
   
   <person xml:id="saint-maurice" sex="M">
-    <name type="foreign">Chabod, Thomas-François, Marquis de Saint-Maurice, ambassadeur de Savoie </name>
+    <name>Chabod, Thomas-François, Marquis de Saint-Maurice, ambassadeur de Savoie </name>
     <birth when="1624"/>
     <death when="1682"/>
     <identifier type="databnf">https://data.bnf.fr/fr/ark:/12148/cb10724791t </identifier>
@@ -6040,18 +6192,18 @@
   </person>
   
   <person xml:id="san_martino_aglie" sex="F">
-    <name type="foreign">San Martino d'Agliè di San Germano, Lodovica Maria, marquise de Saint-Maurice, ambassadrice de Savoie</name>
+    <name>San Martino d'Agliè di San Germano, Lodovica Maria, marquise de Saint-Maurice, ambassadrice de Savoie</name>
     <birth when="1627*"/>
     <death when="1682*"/>
   </person>
   
   <person xml:id="chabod_angelique" sex="F">
-    <name type="foreign">Chabod de Saint-Maurice, Angélique Christine</name>
+    <name>Chabod de Saint-Maurice, Angélique Christine</name>
     <!--https://gw.geneanet.org/fcicogna?lang=en&p=lodovica+maria&n=san+martino+d+aglie+di+san+germano-->
   </person>
 
   <person xml:id="charles-emmanuel-II-savoie" sex="M">
-    <name type="foreign">Charles-Emmanuel II, duc de Savoie et prince de Piémont</name>
+    <name>Charles-Emmanuel II, duc de Savoie et prince de Piémont</name>
     <birth when="1634-06-20"/>
     <death when="1675-06-12"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Charles-Emmanuel_II</identifier>
@@ -6060,7 +6212,8 @@
   </person>
   
   <person xml:id="huygens" sex="M">
-    <name type="foreign cour">Huygens, Christiann ou Christian</name>
+    <name>Huygens, Christiann ou Christian</name>
+    <socecStatus type="foreign"/>
     <birth when="1629-06-14"/>
     <death when="1695-07-08"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Christian_Huygens</identifier>
@@ -6069,7 +6222,7 @@
   </person>
   
   <person xml:id="costardais_gabrielle" sex="F">
-    <name type="cour">la Vallière, Gabrielle Glé de la Costardais, marquise de</name>
+    <name>la Vallière, Gabrielle Glé de la Costardais, marquise de</name>
     <birth when="1648"/>
     <death when="1707"/>
     <!--mention dans une page dédiée à sa fille https://www.scandaleuses.fr/?p=1800#more-1800 -->
@@ -6077,7 +6230,7 @@
     <!--https://man8rove.com/fr/blason/9arjhr3-la-baume-le-blanc -->
   </person>
   <person xml:id="spada_fabrizio" sex="M">
-    <name type="foreign">Spada, Frabrizio. Nonce du Pape (1673-1675)</name>
+    <name>Spada, Frabrizio. Nonce du Pape (1673-1675)</name>
     <birth when="1643-03-17"/>
     <death when="1717-06-15"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Fabrizio_Spada</identifier>
@@ -6086,7 +6239,8 @@
   </person>
   
   <person xml:id="bargellini_nicolas" sex="M">
-    <name type="foreign ">Bargellini, Niccolò Pietro. Nonce du Pape (1668-1671)</name>
+    <name>Bargellini, Niccolò Pietro. Nonce du Pape (1668-1671)</name>
+    <socecStatus type="foreign"/>
     <birth when="1630"/>
     <death when="1694-09-24"/>
     <identifier type="wikipedia">https://it.wikipedia.org/wiki/Niccol%C3%B2_Pietro_Bargellini</identifier>
@@ -6094,28 +6248,28 @@
   </person>
   
   <person xml:id="marie-anne_mancini" sex="F">
-    <name type="cour">Mancini, Marie-Annne, Duchesse de Bouillion, comtesse d’Evreux</name>
+    <name>Mancini, Marie-Annne, Duchesse de Bouillion, comtesse d’Evreux</name>
     <birth when="1649"/>
     <death when="1714"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Marie-Anne_Mancini</identifier>
   </person>
   
   <person xml:id="gramont_monaco" sex="F">
-    <name type="cour">Gramont, Catherine-Charlotte de, Princesse de Monaco</name>
+    <name>Gramont, Catherine-Charlotte de, Princesse de Monaco</name>
     <birth when="1639"/>
     <death when="1678"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Catherine_Charlotte_de_Gramont</identifier>
   </person>
   
   <person xml:id="crequy_madeleine" sex="F">
-    <name type="cour">Créquy, Madeleine de Blanchefort, Maréchale de Villeroy, épouse  de Nicolas V de Neuville de Villeroy (1617)</name>
+    <name>Créquy, Madeleine de Blanchefort, Maréchale de Villeroy, épouse  de Nicolas V de Neuville de Villeroy (1617)</name>
     <birth when="1609"/>
     <death when="1675"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Fichier:French_School_-_Madeleine_de_Cr%C3%A9quy,_mar%C3%A9chale_de_Villeroy.jpg</identifier>
   </person>
   
   <person xml:id="Levis-Ventadour_Marguerite" sex="F">
-    <name type="cour">Lévis-Ventadour, Marguerite Félice de, épouse du duc de Duras (à partir de 1668)</name>
+    <name>Lévis-Ventadour, Marguerite Félice de, épouse du duc de Duras (à partir de 1668)</name>
     <birth when="1648"/>
     <death when="1717"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jacques_Henri_de_Durfort</identifier>
@@ -6123,14 +6277,14 @@
   </person>
   
   <person xml:id="charron_marie" sex="F">
-    <name type="cour">Charron de Menars, Marie, épouse de Jean-Baptiste Colbert (1648) </name>
+    <name>Charron de Menars, Marie, épouse de Jean-Baptiste Colbert (1648) </name>
     <birth when="1630"/>
     <death when="1687"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jean-Baptiste_Colbert</identifier>
   </person>
   
   <person xml:id="beraud_françoise" sex="F">
-    <name type="cour">Béraud, Françoise, épouse Charles Colbert (1664)</name>
+    <name>Béraud, Françoise, épouse Charles Colbert (1664)</name>
     <birth when="1642"/>
     <death when="1719"/>
     <!--http://racineshistoire.free.fr/LGN/PDF/Colbert.pdf-->
@@ -6138,7 +6292,7 @@
   </person>
   
   <person xml:id="hamilton_elizabeth" sex="F">
-    <name type="cour">Hamilton, Elizabeth, comtesse de Gramont</name>
+    <name>Hamilton, Elizabeth, comtesse de Gramont</name>
     <birth when="1641"/>
     <death when="1708"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Elizabeth_Hamilton_(1641-1708) </identifier>
@@ -6147,43 +6301,43 @@
   </person>
   
   <person xml:id="bouille_eleonore" sex="F">
-    <name type="cour">Bouillé, Eléonore-Renée de, duchesse de  Ludes </name>
+    <name>Bouillé, Eléonore-Renée de, duchesse de  Ludes </name>
     <birth when="1632"/>
     <death when="1681"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Henry_de_Daillon</identifier>
   </person>
   
   <person xml:id="valie" sex="M">
-    <name type="pro">Valié, le sieur. Chanteur</name>
+    <name>Valié, le sieur. Chanteur</name>
     <!--https://classiques-garnier.com/dictionnaire-des-musiciens-et-danseurs-a-la-cour-de-louis-xiv-et-des-princes-1643-1661-tome-iii-m-z.html à la page 634-->
   </person>
   
   <person xml:id="stafford_thomas" sex="M">
-    <name type="pro">Stafford, Thomas. Chanteur, compositeur</name>
+    <name>Stafford, Thomas. Chanteur, compositeur</name>
     <!--https://classiques-garnier.com/dictionnaire-des-musiciens-et-danseurs-a-la-cour-de-louis-xiv-et-des-princes-1643-1661-tome-iii-m-z.html à la page 575-->
   </person>
   
   <person xml:id="pignani_girolamo" sex="M">
-    <name type="pro">Pignani, Girolamo. Castrat, danseur, chorégraphe, compositeur</name>
+    <name>Pignani, Girolamo. Castrat, danseur, chorégraphe, compositeur</name>
     <birth when=""/>
     <death when=""/>
     <!--https://classiques-garnier.com/dictionnaire-des-musiciens-et-danseurs-a-la-cour-de-louis-xiv-et-des-princes-1643-1661-tome-iii-m-z.html à la page 307-->
   </person>
   
   <person xml:id="coulon" sex="M">
-    <name type="pro">Coulon, page</name>
+    <name>Coulon, page</name>
     <!--https://classiques-garnier.com/dictionnaire-des-musiciens-et-danseurs-a-la-cour-de-louis-xiv-et-des-princes-1643-1661-tome-i-a-c.html à la page 619-->
   </person>
   
-  <person xml:id="rohan_marguerite" sex="?">
-    <name type="cour">Rohan, Marguerite de </name>
+  <person xml:id="rohan_marguerite" sex="F">
+    <name>Rohan, Marguerite de </name>
     <birth when="1617"/>
     <death when="1684-04-09"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Marguerite_de_Rohan_(1617-1684)</identifier>
   </person>
   
   <person xml:id="sainte-maure_rambouillet" sex="F">
-    <name type="cour">Saint-Maure, Marie-Julie de, Marquise de Rambouillet, Comtesse de Crusol (1664), Duchesse d’Uzès </name>
+    <name>Saint-Maure, Marie-Julie de, Marquise de Rambouillet, Comtesse de Crusol (1664), Duchesse d’Uzès </name>
     <birth when="1646"/>
     <death when="1695"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Marie-Julie_de_Sainte-Maure</identifier>
@@ -6191,29 +6345,28 @@
   </person>
   
   <person xml:id="rouhan-chabot_jeanne-pelagie" sex="F">
-    <name type="cour">Jeanne Pélagie de Rohan-Chabot </name>
+    <name>Jeanne Pélagie de Rohan-Chabot </name>
     <birth when="1651"/>
     <death when="1698-08-18"/>
-    <identifier type=""></identifier>
     <!-- https://gw.geneanet.org/frebault?lang=fr&n=de+rohan+chabot&p=jeanne+pelagie -->
   </person>
   
   <person xml:id="budos_diane-henriette" sex="F">
-    <name type="cour">Budos, Diane Henriette de, Duchesse de Saint-Simon</name>
+    <name>Budos, Diane Henriette de, Duchesse de Saint-Simon</name>
     <birth when="1629"/>
-    <death when="1670 "/>
+    <death when="1670"/>
     <!--https://gw.geneanet.org/pierfit?lang=fr&n=de+budos&p=diane+henriette-->
   </person>
   
   <person xml:id="rohan-chabot_soubise" sex="F">
-    <name type="cour">Rohan-Chabot, Anne Julie de, dame de Frontenay, Princesse de Soubise (1667)</name>
+    <name>Rohan-Chabot, Anne Julie de, dame de Frontenay, Princesse de Soubise (1667)</name>
     <birth when="1648"/>
     <death when="1709"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Anne_de_Rohan-Chabot</identifier>
   </person>
   
   <person xml:id="rohan_chevreuse" sex="F">
-    <name type="cour">Rohan, Marie Aimée de, Duchesse de Chevreuse</name>
+    <name>Rohan, Marie Aimée de, Duchesse de Chevreuse</name>
     <birth when="1600"/>
     <death when="1679"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Marie_de_Rohan</identifier>
@@ -6222,14 +6375,14 @@
   </person>
   
   <person xml:id="brancas_harcourt" sex="F">
-    <name type="cour">Brancas, Marie Françoise de, Princesse d’Harcourt, marquise de Maubec</name>
+    <name>Brancas, Marie Françoise de, Princesse d’Harcourt, marquise de Maubec</name>
     <birth when="1650"/>
     <death when="1715"/>
     <identifier type="wikipedia">https://en.wikipedia.org/wiki/Marie_Fran%C3%A7oise_de_Brancas,_Princess_of_Harcourt</identifier>
   </person>
   
   <person xml:id="aubigne-françoise" sex="F">
-    <name type="cour">Aubigné, Françoise, ou d’Aubigny</name>
+    <name>Aubigné, Françoise, ou d’Aubigny</name>
     <birth when="1635"/>
     <death when="1719"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Madame_de_Maintenon</identifier>
@@ -6238,28 +6391,28 @@
   </person>
   
   <person xml:id="angennes_olonne" sex="F">
-    <name type="cour">Angennes de La Loupe, Catherine Henriette d’, Comtesse d’Olonne</name>
+    <name>Angennes de La Loupe, Catherine Henriette d’, Comtesse d’Olonne</name>
     <birth when="1634"/>
     <death when="1714"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Catherine_Henriette_d%27Angennes#:~:text=Catherine%20Henriette%20d'Angennes%20de,Paris%20le%2013%20juin%201714%20.</identifier>
   </person>
   
   <person xml:id="bellefonds_villars" sex="F">
-    <name type="cour">Bellefonds, Marie Gigault de, marquise de Villars </name>
+    <name>Bellefonds, Marie Gigault de, marquise de Villars </name>
     <birth when="1624"/>
     <death when="1706"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Marie_Gigault_de_Bellefonds </identifier>
   </person>
   
   <person xml:id="colbert_marie" sex="F">
-    <name type="cour">Colbert, Marie, épouse de Louis Béchameil (1648)</name>
-    <birth when="**"/>
+    <name>Colbert, Marie, épouse de Louis Béchameil (1648)</name>
+    <birth when=""/>
     <death when="1686"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Louis_B%C3%A9chameil_de_Nointel </identifier>
   </person>
   
   <person xml:id="chavigny_marie" sex="F">
-    <name type="cour">Bouthillier de Chavigny, Marie</name>
+    <name>Bouthillier de Chavigny, Marie</name>
     <birth when="1646"/>
     <death when="1728"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/L%C3%A9on_Bouthillier</identifier>
@@ -6267,14 +6420,16 @@
   </person>
   
   <person xml:id="Arquien_Marie-Casimire" sex="F">
-    <name type="cour foreign">La Grange d'Arquien, Marie-Casimire-Louise de, la grande Mareschalle de Pologne</name>
-    <birth when="1641 "/>
+    <name>La Grange d'Arquien, Marie-Casimire-Louise de, la grande Mareschalle de Pologne</name>
+    <socecStatus type="foreign"/>
+    <socecStatus type="cour"/>
+    <birth when="1641"/>
     <death when="1716"/>
-    <identifier type="">https://fr.wikipedia.org/wiki/Marie-Casimire-Louise_de_La_Grange_d%27Arquien</identifier>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Marie-Casimire-Louise_de_La_Grange_d%27Arquien</identifier>
   </person>
 
   <person xml:id="torelli_giacomo" sex="M">
-    <name type="pro">Torelli, Giacomo </name>
+    <name>Torelli, Giacomo </name>
     <birth when="1608-09-01"/>
     <death when="1678-06-17"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Giacomo_Torelli</identifier>
@@ -6283,7 +6438,7 @@
   </person>
   
   <person xml:id="mazarin_jules" sex="M">
-    <name type="cour">Mazarin, Jules Raymond. Cardinal</name>
+    <name>Mazarin, Jules Raymond. Cardinal</name>
     <birth when="1602-07-14"/>
     <death when="1661-03-09"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jules_Mazarin</identifier>
@@ -6310,7 +6465,7 @@
   
   <person xml:id="flechier_esprit" sex="M">
     <name>Fléchier, Esprit</name>
-    <birth when="1632 "/>
+    <birth when="1632"/>
     <death when="1710"/>
     <identifier type="databnf">ark:/12148/cb11902896d</identifier>
     <identifier type="isni">0000 0001 0874 4010</identifier>
@@ -6319,7 +6474,7 @@
   
   <person xml:id="delionne_hugues" sex="M">
     <name>De Lionne, Hugues</name>
-    <birth when="1611 "/>
+    <birth when="1611"/>
     <death when="1671"/>
     <identifier type="databnf">ark:/12148/cb121477707</identifier>
     <identifier type="isni">0000 0001 2132 7537</identifier>
@@ -6328,7 +6483,7 @@
   
   <person xml:id="marigny_jacques" sex="M">
     <name>Carpentier de Marigny, Jacques</name>
-    <birth when="1615 "/>
+    <birth when="1615"/>
     <death when="1673"/>
     <identifier type="databnf">ark:/12148/cb125313360</identifier>
     <identifier type="isni">0000 0001 2249 3086</identifier>
@@ -6336,8 +6491,9 @@
   </person>
   
   <person xml:id="sercy_charles" sex="M">
-    <name type="">De Sercy, Charles</name>
-    <birth when="1623 "/>
+    <name>De Sercy, Charles</name>
+    <socecStatus type="pro"/>
+    <birth when="1623"/>
     <death when="1700*"/>
     <identifier type="databnf">ark:/12148/cb122408135</identifier>
     <identifier type="isni">0000 0001 2121 564X</identifier>
@@ -6345,7 +6501,7 @@
   
   <person xml:id="barbin_claude" sex="M">
     <name>Barbin, Claude</name>
-    <birth when="1628* "/>
+    <birth when="1628*"/>
     <death when="1698"/>
     <identifier type="databnf">ark:/12148/cb12238812j</identifier>
     <identifier type="isni">0000 0001 2125 2707</identifier>
@@ -6367,7 +6523,7 @@
   
   <person xml:id="fernon_nicolas" sex="M">
     <name>Fernon, Nicolas, chantre haute-contre, compositeur, dit “Fernon l'aîné”</name>
-    <birth when="1640 "/>
+    <birth when="1640"/>
     <death when="1687"/>
   </person>
   
@@ -6382,13 +6538,13 @@
   
   <person xml:id="brouart_jeanII" sex="M">
     <name>Brouart, Jean II, violon</name>
-        <birth when="1609 "/>
+        <birth when="1609"/>
         <death when="1671"/>
   </person>
   
   <person xml:id="bruslard_jacques" sex="M">
     <name>Bruslard, Jacques, violon</name>
-        <birth when="1617 "/>
+        <birth when="1617"/>
         <death when="1670"/>
   </person>
   
@@ -6541,7 +6697,7 @@
     <name>Louis II de Bourbon-Vendôme, duc et cardinal de Vendôme, comte de Penthièvre</name>
     <birth when="1612"/>
     <death when="1669"/>
-    <identifier type="">https://fr.wikipedia.org/wiki/Louis_II_de_Bourbon-Vend%C3%B4me</identifier>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Louis_II_de_Bourbon-Vend%C3%B4me</identifier>
     <identifier type="databnf">https://data.bnf.fr/ark:/12148/cb10066546j</identifier>
     <identifier type="isni">0000 0000 6138 3077 </identifier>
   </person>
@@ -6556,10 +6712,10 @@
   </person>
   
   
-  <person xml:id="amat_marie" sex="">
+  <person xml:id="amat_marie" sex="F">
     <name>Amat, Marie d’, épouse du marquis de Volx, dit le marquis de Valavoire à partir de 1652</name>
-    <birth when="*"/>
-    <death when="*"/>
+    <birth when=""/>
+    <death when=""/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Auguste_de_Valavoire </identifier>
   </person>
   
@@ -6670,7 +6826,7 @@
   <person xml:id="vignerotduplessis_elisabeth" sex="F">
     <name>Vignerot du Plessis-Richelieu. Elisabeth de, épouse de Nicolas Quelain (1696)</name>
     <birth when="1657"/>
-    <death when="*"/>
+    <death when=""/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jean-Baptiste_Amador_de_Vignerot_du_Plessis</identifier>
     <!-- https://man8rove.com/fr/profile/7y5xz49na-elisabeth-de-vignerot-du-plessis-de-richelieu -->
   </person>
