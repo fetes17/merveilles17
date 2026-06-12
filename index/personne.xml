@@ -6291,18 +6291,27 @@
   
   <person xml:id="saint_jean" sex="M">
     <name>Saint-Jean, musicien</name>
+    <socecStatus type="pro"/>
   </person>
+  
   <person xml:id="saint_paul" sex="M">
     <name>Saint-Paul, ouvrier</name>
+    <socecStatus type="pro"/>
   </person>
+  
   <person xml:id="selingue" sex="M">
     <name>Sélingue, sieur, capitaine de frégate légère</name>
+    <socecStatus type="militaire"/>
   </person>
+  
   <person xml:id="paul_frique" sex="M">
-      <name>Sainte Frique, Paul-Michel-Henri de Baud, seigneur de</name>
+    <name>Baud, Paul-Michel-Henri de, seigneur de Sainte Frique</name>
+    <socecStatus type="cour"/>
     </person>
+  
   <person xml:id="charles_sainte-maure_montausier" sex="M">
-    <name>Sainte-Maure, Charles de Montausier, marquis et duc de</name>
+    <name>Montausier, Charles de, marquis et duc de Sainte-Maure</name>
+    <socecStatus type="cour"/>
     <birth when="1610"/>
     <death when="1690"/>
     <identifier type="databnf"
@@ -6312,37 +6321,51 @@
     <identifier type="isni">0000 0001 1474 3217</identifier>
     <identifier type="mg">montausier_charles_de_sainte-maure_(1610-1690)_duc_de</identifier>
   </person>
+  
   <person xml:id="sainte_maure" sex="M">
     <name>Sainte-Maure, page de la petite écurie</name>
+    <socecStatus type="cour"/>
   </person>
   
   <person xml:id="nicolas_ii_de_sainctot" sex="M">
-  <name>Sainctot,Nicolas II de,Chevalier</name>
+  <name>Sainctot, Nicolas II de, Chevalier</name>
+    <socecStatus type="cour"/>
     <!-- https://journals.openedition.org/crcv/27641?lang=en -->
 </person>
   
   <person xml:id="samufin" sex="M">
     <name>Samufin, officier de la bouche</name>
+    <socecStatus type="cour"/>
   </person>
+  
   <person xml:id="sandricourt" sex="M">
     <name>Sandricourt, page de la petite écurie</name>
+    <socecStatus type="cour"/>
   </person>
+  
   <person xml:id="isaac_courtin" sex="M">
     <name>Saussoy, Isaac Courtin de</name>
+    <socecStatus type="cour"/>
     <birth when="1641"/>
     <death when="1726"/>
   </person>
+  
     <person xml:id="denisdesaintmarthe" sex="M">
-    <name>Sainte-Marthe,Denis de,Général de la congrégation de Saint-Maur.</name>
+    <name>Sainte-Marthe, Denis de, Général de la congrégation de Saint-Maur.</name>
+      <socecStatus type="cour"/>
     <birth when="1650-08-24"/>
     <death when="1725-03-30"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Denis_de_Sainte-Marthe</identifier>
   </person>
+  
   <person xml:id="savile_henry" sex="M">
     <name>Henry Savile, ambassade d'Angleterre à Paris, envoyé extraordinaire auprès de Louis XIV à partir de 1679</name>
+    <socecStatus type="foreign"/>
   </person>
+  
   <person xml:id="louise_savoie_bade" sex="F">
     <name>Savoie Carignan, Louise-Christine de</name>
+    <socecStatus type="cour"/>
     <birth when="1627"/>
     <death when="1689"/>
     <identifier type="databnf"
@@ -6351,28 +6374,35 @@
       >https://fr.wikipedia.org/wiki/Louise-Christine_de_Savoie-Carignan</identifier>
     <identifier type="isni">0000 0003 6055 8615</identifier>
   </person>
+  
     <person xml:id="marie_victoire_savoie" sex="F">
     <name>Marie-Victoire de Savoie, princesse de Carignan et Marquise de Busc (1722)</name>
+      <socecStatus type="foreign"/>
     <birth when="1690-02-09"/>
     <death when="1766-07-08"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Marie-Victoire_de_Savoie</identifier>
   </person>
+  
   <person xml:id="marie_francoise_d_aumale" sex="F">
-    <name>Savoie, Marie-Françoise-Élisabeth de</name>
+    <name>Savoie, Marie-Françoise-Élisabeth de, reine consort de Portugal</name>
+    <socecStatus type="foreign"/>
     <birth when="1646"/>
     <death when="1683"/>
     <identifier type="isni">0000 0003 5615 6787</identifier>
     <identifier type="wikipedia"
       >https://fr.wikipedia.org/wiki/Marie-Françoise-Élisabeth_de_Savoie</identifier>
   </person>
+  
   <person xml:id="marie_bourbon_carignan" sex="F">
     <name>Savoie-Carignan, Marie de Bourbon, duchesse de</name>
+    <socecStatus type="cour"/>
     <birth when="1606"/>
     <death when="1692"/>
     <identifier type="wikipedia"
       >https://fr.wikipedia.org/wiki/Marie_de_Bourbon_(1606-1692)</identifier>
     <identifier type="isni">0000000359904349</identifier>
   </person>
+  
   <person xml:id="mlle_de_nemours" sex="F">
     <name>Savoie-Nemours, Marie Jeanne Baptiste de, dite Mademoiselle de Nemours</name>
     <birth when="1644"/>
