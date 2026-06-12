@@ -4255,7 +4255,7 @@
     <birth when="1635"/>
     <death when="1700"/>
     <identifier type="databnf">https://data.bnf.fr/fr/15008433/andre_hubert/</identifier>
-    <identifier type="wikipedia"https://fr.wikipedia.org/wiki/Andr%C3%A9_Hubert></identifier>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Andr%C3%A9_Hubert></identifier>
     <identifier type="isni">0000 0000 0219 4452</identifier>
     <identifier type="mg">hubert_andre_(16-1700)</identifier>
   </person>
@@ -4327,23 +4327,28 @@
   
   <person xml:id="denis_jolly" sex="M">
     <name>Jolly, Denis, fontainier du roi</name>
+    <socecStatus type="pro"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Denis_Jolly</identifier>
   </person>
   
   <person xml:id="Jon" sex="M">
     <name>Jon, chanteur</name>
+    <socecStatus type="pro"/>
   </person>
   
   <person xml:id="jouan" sex="M">
     <name>Joüan</name>
+    <socecStatus type="pro"/>
   </person>
   
   <person xml:id="joubert" sex="M">
     <name>Joubert, Hierosme, violon et danseur</name>
+    <socecStatus type="pro"/>
   </person>
 
   <person xml:id="jean_gedeon_andre_de_joyeuse" sex="M">
-    <name>Joyeuses,Jean-Gédéon André,Marquis de Grandpré</name>
+    <name>Joyeuses, Jean-Gédéon André, Marquis de Grandpré</name>
+    <socecStatus type="cour"/>
     <birth when="1691-11"/>
     <death when="1744-06"/>
     <!-- http://racineshistoire.free.fr/LGN/PDF/Joyeuse.pdf page 11 -->
@@ -4351,41 +4356,49 @@
   
   <person xml:id="jumel_menuisier" sex="M">
     <name>Jumel, menuisier</name>
+    <socecStatus type="pro"/>
   </person>
   
   <person xml:id="jumel_sculpteur" sex="M">
     <name>Jumel, Pierre*, sculpteur</name>
+    <socecStatus type="pro"/>
   </person>
   
   <person xml:id="paul_kerouartz" sex="M">
       <name>Kerouartz, Paul-François-Xavier, seigneur de</name>
+    <socecStatus type="cour"/>
       <birth when="1649"/>
       <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Famille_de_Kerouartz</identifier>
     </person>
   
-  <!-- Relecture à reprendre ici -->
-
   <person xml:id="charles_koegnismark" sex="M">
       <name>Kœnigsmark, Charles-Jean comte de</name>
+    <socecStatus type="foreign"/>
       <birth when="1659"/>
       <death when="1686"/>
       <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Charles-Jean_de_K%C5%93nigsmark</identifier>
     </person>
+  
     <person xml:id="pierrefrancois_lafitau" sex="M">
-    <name>Lafitau,Pierre-François,Évêque de Sisteron</name>
+    <name>Lafitau, Pierre-François, Évêque de Sisteron</name>
+      <socecStatus type="cour"/>
     <birth when="1685-02-07"/>
     <death when="1764-04-05"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Pierre-Fran%C3%A7ois_Lafitau</identifier>
 </person>
+  
   <person xml:id="mlle_de_la_barre" sex="F">
     <name>La Barre, Anne Chabanceau de</name>
+    <socecStatus type="pro"/>
     <birth when="1628"/>
     <death when="1688"/>
     <identifier type="databnf">https://data.bnf.fr/fr/14842781/anne_de_la_barre/</identifier>
     <identifier type="isni">0000 0003 6424 1551</identifier>
   </person>
+  
   <person xml:id="joseph_chabanceau_la_barre" sex="M">
     <name>La Barre, Joseph Chabanceau de</name>
+    <socecStatus type="pro"/>
     <birth when="1633"/>
     <death when="1678"/>
     <identifier type="databnf">https://data.bnf.fr/13896222/joseph_de_la_barre/</identifier>
@@ -4393,46 +4406,66 @@
   </person>
   <person xml:id="la_barre_cadet" sex="M">
     <name>La Barre, Pierre Chabanceau de, luth</name>
+    <socecStatus type="pro"/>
   </person>
   <person xml:id="la_brodiere" sex="M">
     <name>La Brodière, danseur</name>
+    <socecStatus type="pro"/>
   </person>
   <person xml:id="la_chapelle" sex="M">
     <name>La Chapelle, trompette</name>
+    <socecStatus type="pro"/>
   </person>
+  
   <person xml:id="la_chastre" sex="F">
     <name>La Châtre, Marquis de</name>
+    <socecStatus type="cour"/>
   </person>
+  
   <person xml:id="la_croix" sex="M">
     <name>La Croix, violon</name>
+    <socecStatus type="pro"/>
   </person>
+  
   <person xml:id="la_fleur" sex="M">
     <name>La Fleur, trompette</name>
+    <socecStatus type="pro"/>
   </person>
+  
     <person xml:id="bernardlebouyerdefontenelle" sex="M">
-    <name>Le Bouyer de Fontenelle,Bernard,Fauteuil 27 de l'Académie française (1691) Secrétaire perpétuel Académie des sciences (1697)</name>
+    <name>Le Bouyer de Fontenelle, Bernard</name>
+      <socecStatus type="pro"/>
+      <socecStatus type="cour"/>
     <birth when="1657-02-11"/>
     <death when="1757-01-09"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Bernard_Le_Bouyer_de_Fontenelle</identifier>
   </person>
+  
   <person xml:id="sieur_de_la_grande" sex="M">
     <name>La Grande, Sieur de, Contrôleur d'Office</name>
+    <socecStatus type="cour"/>
   </person>
+  
   <person xml:id="la_grange" sex="M">
     <name>La Grange, Charles Varlet de</name>
+    <socecStatus type="pro"/>
     <birth when="1635"/>
     <death when="1692"/>
     <identifier type="databnf">https://data.bnf.fr/fr/11910280/la_grange/</identifier>
     <identifier type="isni">0000 0001 2188 1693</identifier>
   </person>
+  
     <person xml:id="philippe_charles_de_la_fare" sex="M">
-    <name>La Fare,Philippe-Charles de,le marquis de La Fare</name>
+    <name>La Fare, Philippe-Charles de, marquis de La Fare</name>
+      <socecStatus type="cour"/>
     <birth when="1687-02-16"/>
     <death when="1752-09-14"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Philippe-Charles_de_La_Fare</identifier>
 </person>
+  
   <person xml:id="marechale_de_l_hospital" sex="F">
-    <name>L'Hospital, Françoise Marie, née Mignot, maréchale de</name>
+    <name>Mignot, Françoise Marie, maréchale de L'Hospital</name>
+    <socecStatus type="cour"/>
     <birth when="1624"/>
     <death when="1711"/>
     <identifier type="wikipedia"
@@ -4440,17 +4473,21 @@
     <identifier type="databnf">https://data.bnf.fr/fr/13506372/francoise_mignot/</identifier>
     <identifier type="isni">0000 0003 5700 8866</identifier>
   </person>
+  
     <person xml:id="camille_dhostun" sex="M">
-    <name>Hostun,Camille D',Maréchal Duc de Tallard</name>
+    <name>Hostun, Camille d', Maréchal Duc de Tallard</name>
+      <socecStatus type="cour"/>
     <birth when="1652-02-14"/>
     <death when="1728-03-20"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Camille_d%27Hostun</identifier>
     <identifier type="databnf">https://data.bnf.fr/fr/14953798/camille_d_hostun_de_la_baume_tallard/</identifier>
     <identifier type="isni">0000 0000 7986 8566</identifier>  
   </person>
+  
   <person xml:id="la_lanne" sex="M">
     <name>La Lanne</name>
   </person>
+  
   <person xml:id="la_marche" sex="M">
     <name>La Marche, trompette</name>
   </person>
