@@ -4171,7 +4171,7 @@
   
   <person xml:id="augustin_vincent_ennequin" sex="M">
     <name>Hennequin, Augustin-Vincent, marquis de Fresnes puis d'Ecquevilly, capitaine du vautrait</name>
-    <socecStatus type="O"/>
+    <socecStatus type="cour"/>
     <birth when="1684-05-01"/>
     <death when="1749-12-08"/>
   </person>
@@ -5490,88 +5490,118 @@
       <socecStatus type="cour"/>
       <death when="1718?"/>
     </person>
+  
     <person xml:id="henri_de_nesmond" sex="M">
-    <name>Nesmond,Henri de,Archevêque de Toulouse</name>
+    <name>Nesmond, Henri de, Archevêque de Toulouse</name>
+      <socecStatus type="cour"/>
     <birth when="1655-01-27"/>
     <death when="1727-05-27"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Henri_de_Nesmond</identifier>
 </person>
+  
   <person xml:id="anne_de_noailles" sex="M">
     <name>Noailles, Anne de</name>
+    <socecStatus type="cour"/>
     <birth when="1620"/>
     <death when="1678"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Anne_de_Noailles</identifier>
   </person>
+  
   <person xml:id="anne-jules_de_noailles" sex="M">
     <name>Noailles, Anne-Jules de</name>
+    <socecStatus type="cour"/>
     <birth when="1650"/>
     <death when="1708"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Anne-Jules_de_Noailles</identifier>
   </person>
+  
     <person xml:id="louisantoinedenoaille" sex="M">
-    <name>Noailles,Louis-Antoine de,Cardinal de</name>
+    <name>Noailles, Louis-Antoine de, cardinal de</name>
+      <socecStatus type="cour"/>
     <birth when="1651-05-27"/>
     <death when="1729-05-04"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Louis-Antoine_de_Noailles</identifier>
 </person>
+  
   <person xml:id="noblet" sex="M">
     <name>Noblet, danseur</name>
+    <socecStatus type="pro"/>
   </person>
+  
     <person xml:id="bernard_de_noblet" sex="M">
     <name>Noblet,Bernard de,Maitre des requêtes (1722)</name>
+      <socecStatus type="cour"/>
     <!-- https://brionnais.fr/pm/site/Noblet_armorial.htm -->
   </person>
+  
     <person xml:id="louis_novion" sex="M">
-      <name>Novion, Louis-Anne-Armand-Jules Potier, marquis de</name>
+      <name>Potier, Louis-Anne-Armand-Jules, marquis de Novion</name>
+      <socecStatus type="cour"/>
       <birth when="c.1666"/>
       <death when="1707"/>
       <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Famille_Potier</identifier>
     </person>
+  
   <person xml:id="jean_aymard_nicolaÿ" sex="M">
-    <name>Nicolaÿ,Jean-Aymard de,3e marquis de Goussainville (1686-1737), conseiller du Roi en ses Conseils d'État et privé, Premier président de la chambre des comptes de Paris (1686-1734)</name>
+    <name>Nicolaÿ, Jean-Aymard de, 3e marquis de Goussainville (1686-1737), conseiller du Roi en ses Conseils d'État et privé, Premier président de la chambre des comptes de Paris (1686-1734)</name>
+    <socecStatus type="cour"/>
     <birth when="1658"/>
     <death when="1737"/>
   </person>
+  
     <person xml:id="louis_vincent_de_goesbriand" sex="M">
-    <name>Goësbriand,Louis Vincent de,Chevalier du Saint-Esprit</name>
+    <name>Goësbriand, Louis Vincent de, Chevalier du Saint-Esprit</name>
+      <socecStatus type="cour"/>
     <birth when="1659"/>
     <death when="1744"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Famille_de_Go%C3%ABsbriand</identifier>
 </person>
+  
     <person xml:id="louis_de_nyert" sex="M">
-    <name>Nyert,Louis de,Premier Valet de Chambre du Roi</name>
+    <name>Nyert, Louis de, Premier Valet de Chambre du Roi</name>
+      <socecStatus type="cour"/>
     <!-- https://francearchives.gouv.fr/agent/19061822 -->
 </person>
+  
   <person xml:id="catherine_opalinska" sex="F">
-    <name>Opalińska,Catherine,Madame la duchesse de Lorraine</name>
+    <name>Opalińska, Catherine, reine de Pologne et duchesse de Lorraine</name>
+    <socecStatus type="foreign"/>
     <birth when="1680-10-13"/>
     <death when="1747-03-19"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Catherine_Opalinska</identifier>
   </person>
+  
     <person xml:id="marie_leszczynska" sex="F">
-    <name>Leszczynska,Marie,Reine de France et de Navarre sous Louis XV</name>
+    <name>Leszczynska, Marie, Reine de France et de Navarre sous Louis XV</name>
+      <socecStatus type="cour"/>
     <birth when="1703-06-23"/>
     <death when="1768-06-04"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Marie_Leszczynska</identifier>
 </person>
+  
   <person xml:id="anne_marie_louise_henriette_orleans" sex="F">
     <name>Orléans, Anne Marie Louise d', dite la Grande Mademoiselle</name>
+    <socecStatus type="cour"/>
     <birth when="1627"/>
     <death when="1693"/>
     <identifier type="databnf"
       >https://data.bnf.fr/fr/12058424/anne-marie-louise-henriette_d_orleans_montpensier/</identifier>
     <identifier type="isni">0000 0001 0917 0813</identifier>
   </person>
+  
   <person xml:id="louis_orleans" sex="M">
     <name>Orléans, Louis I d', duc de Chartres puis duc d'Orléans (1723)</name>
+    <socecStatus type="cour"/>
     <birth when="1703-08-04"/>
     <death when="1752-02-04"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Louis_d%27Orl%C3%A9ans_(1703-1752)</identifier>
     <identifier type="databnf">https://data.bnf.fr/fr/14965486/louis_d__orleans/</identifier>
     <identifier type="isni">0000 0000 5141 2866</identifier>
   </person>
+  
     <person xml:id="elisabeth_charlotte_dorleans" sex="F">
-    <name>Orléans,Élisabeth-Charlotte d',Mademoiselle de Chartres</name>
+    <name>Orléans, Élisabeth-Charlotte d', Mademoiselle de Chartres</name>
+      <socecStatus type="cour"/>
     <birth when="1676-09-13"/>
     <death when="1744-12-23"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/%C3%89lisabeth-Charlotte_d%27Orl%C3%A9ans</identifier>
@@ -5579,6 +5609,7 @@
   
   <person xml:id="philippe_orleans" sex="M">
     <name>Orléans, Philippe d’, dit Monsieur</name>
+    <socecStatus type="cour"/>
     <birth when="1640"/>
     <death when="1701"/>
     <identifier type="databnf">https://data.bnf.fr/fr/11945197/philippe/</identifier>
@@ -5586,19 +5617,26 @@
       >https://fr.wikipedia.org/wiki/Philippe_d'Orl%C3%A9ans_(1640-1701)</identifier>
     <identifier type="isni">0000 0001 1944 2608</identifier>
   </person>
+  
   <person xml:id="philippe_orleans_regent" sex="M">
-    <name>Orléans, Philippe d’, couramment appelé le Régent</name>
+    <name>Orléans, Philippe d’, régent</name>
+    <socecStatus type="cour"/>
     <birth when="1674-08-02"/>
     <death when="1723-12-02"/>
     <identifier type="databnf">https://data.bnf.fr/fr/11918201/philippe_d_orleans/</identifier>
     <identifier type="wikipedia"
       >https://fr.wikipedia.org/wiki/Philippe_d%27Orl%C3%A9ans_(1674-1723)</identifier>
     <identifier type="isni">0000000121386262</identifier>
-  </person>  <person xml:id="orleans" sex="M">
+  </person>  
+  
+  <person xml:id="orleans" sex="M">
     <name>Orléans, trompette</name>
+    <socecStatus type="pro"/>
   </person>
+  
   <person xml:id="marie_nemours" sex="F">
     <name>Orléans-Longueville Nemours, Marie d’</name>
+    <socecStatus type="cour"/>
     <birth when="1625"/>
     <death when="1707"/>
     <identifier type="databnf"
@@ -5606,57 +5644,78 @@
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Marie_de_Nemours</identifier>
     <identifier type="isni">0000 0000 8081 8398</identifier>
   </person>
+  
     <person xml:id="jean_philippe_orlean" sex="M">
     <name>Jean Philippe d'Orléans, Grand prieur de France</name>
+      <socecStatus type="cour"/>
     <birth when="1702-08-28"/>
     <death when="1748-06-16"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jean_Philippe_d%27Orl%C3%A9ans</identifier>
   </person>
+  
   <person xml:id="lefevre_ormesson" sex="M">
-    <name>Ormesson, Olivier III Lefèvre de, Magistrat, Administrateur, Auteur</name>
+    <name>Ormesson, Olivier III Lefèvre de</name>
+    <socecStatus type="cour"/>
     <birth when="1616"/>
     <death when="1685"/>
     <identifier type="wikipedia"
       >https://fr.wikipedia.org/wiki/Olivier_Lef%C3%A8vre_d%27Ormesson</identifier>
   </person>
+  
     <person xml:id="philibert_orry" sex="M">
-    <name>Orry,Philibert,seigneur de La Chapelle-Godefroy et Intendant de la généralité de Soissons (1722)</name>
+    <name>Orry, Philibert, seigneur de La Chapelle-Godefroy et Intendant de la généralité de Soissons (1722)</name>
+      <socecStatus type="cour"/>
     <birth when="1689-01-22"/>
     <death when="1747-11-09"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Philibert_Orry</identifier>
 </person>
+  
     <person xml:id="gillemarieoppenort" sex="M">
-    <name>Gille Marie Oppenord Ecuier Directeur général des bâtiments et jardins de son Altesse Royale Monseigneur le Duc d'Orléans Régen</name>
+      <name>Oppenord, Gille Marie</name>
+      <socecStatus type="pro"/>
     <birth when="1672-07-27"/>
     <death when="1742-03-13"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Gilles-Marie_Oppenord</identifier>
     <identifier type="databnf">https://data.bnf.fr/12266678/gilles-marie_oppenord/</identifier>
     <identifier type="isni">0000 0000 0889 9808</identifier>
   </person>
+  
   <person xml:id="paisible" sex="M">
     <name>Paisible, flutiste</name>
+    <socecStatus type="pro"/>
   </person>
+  
   <person xml:id="pannetier" sex="M">
-    <name>François Pannetier ou Panetié, sieur</name>
+    <name>Pannetier ou Panetié, François</name>
     <socecStatus type="militaire"/>
     <birth when="1626"/>
     <death when="1696"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Paneti%C3%A9</identifier>
   </person>
+  
   <person xml:id="parfait_frere" sex="M">
     <name>Parfait, François</name>
+    <socecStatus type="cour"/>
   </person>
+  
   <person xml:id="parfait_pere" sex="M">
     <name>Parfait, Honoré sieur de la Saussaye</name>
+    <socecStatus type="cour"/>
   </person>
+  
   <person xml:id="parfait_fils" sex="M">
     <name>Parfait, fils d'Honoré</name>
+    <socecStatus type="cour"/>
   </person>
+  
   <person xml:id="paysan" sex="M">
     <name>Paysan, danseur</name>
+    <socecStatus type="pro"/>
   </person>
+  
   <person xml:id="charles_perrault" sex="M">
     <name>Perrault, Charles</name>
+    <socecStatus type="pro"/>
     <birth when="1628"/>
     <death when="1703"/>
     <identifier type="databnf">https://data.bnf.fr/fr/11919216/charles_perrault/</identifier>
@@ -5664,66 +5723,87 @@
     <identifier type="isni">0000 0001 2127 2484</identifier>
     <identifier type="mg">perrault_charles_(1628-1703)</identifier>
   </person>
+  
     <person xml:id="charles_du_plessis_dargentre" sex="M">
-    <name>Plessis d'Argentré,Charles du,évêque d'Argentré (1722)</name>
+    <name>Plessis d'Argentré, Charles du, évêque d'Argentré (1722)</name>
+      <socecStatus type="cour"/>
     <birth when="1673-05-16"/>
     <death when="1740-10-27"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Charles_du_Plessis_d%27Argentr%C3%A9</identifier>
   </person>
+  
     <person xml:id="francois_elie_de_voyer_de_paulny_dagenson" sex="M">
-    <name>Voyer de Paulmy d'Argenson,François-Elie de,archevêque de Bordeaux</name>
+    <name>Voyer de Paulmy d'Argenson, François-Elie de, archevêque de Bordeaux</name>
+      <socecStatus type="cour"/>
     <birth when="1656-09-22"/>
     <death when="1728-10-25"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Fran%C3%A7ois-Elie_de_Voyer_de_Paulmy_d%27Argenson</identifier>
 </person>
   
   <person xml:id="rene_louis_de_voyer_de_paulmy" sex="M">
-    <name>Voyer de Paulmy d'Argenson,René Louis de,2e marquis d'Argenson</name>
+    <name>Voyer de Paulmy d'Argenson, René Louis de, 2e marquis d'Argenson</name>
+    <socecStatus type="cour"/>
     <birth when="1694-10-18"/>
     <death when="1757-01-26"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Ren%C3%A9_Louis_de_Voyer_de_Paulmy_d%27Argenson</identifier>
 </person>
+  
     <person xml:id="jean_frederic_phelypeaux" sex="M">
-    <name>Phélypeaux,Jean-Frédéric,Comte de Maurepas</name>
+    <name>Phélypeaux, Jean-Frédéric, Comte de Maurepas</name>
+      <socecStatus type="cour"/>
     <birth when="1701-07-09"/>
     <death when="1781-11-21"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jean-Fr%C3%A9d%C3%A9ric_Ph%C3%A9lypeaux_de_Maurepas</identifier>
     <identifier type="databnf">https://data.bnf.fr/fr/12540288/jean-frederic_phelypeaux_maurepas/</identifier>
     <identifier type="isni">0000 0001 2277 2085</identifier>
   </person>
+  
     <person xml:id="louis_ii_phelypeaux_de_la_vrilliere" sex="M">
-    <name>Phélypeaux de La Vrillière,Louis II,marquis de La Vrillière</name>
+    <name>Phélypeaux de La Vrillière, Louis II, marquis de La Vrillière</name>
+      <socecStatus type="cour"/>
     <birth when="1672-04-14"/>
     <death when="1725-09-07"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Louis_II_Ph%C3%A9lypeaux_de_La_Vrilli%C3%A8re</identifier>
 </person>
+  
     <person xml:id="francoisedemailly" sex="M">
-    <name>Mailly,Françoise de,duchesse de Mazarin</name>
+    <name>Mailly, Françoise de, duchesse de Mazarin</name>
+      <socecStatus type="cour"/>
     <birth when="1688-08-30"/>
     <death when="1742-09-11"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Fran%C3%A7oise_de_Mailly</identifier>
   </person>
+  
   <person xml:id="pesan" sex="M">
     <name>Pesan, danseur</name>
+    <socecStatus type="pro"/>
   </person>
+  
   <person xml:id="antoine_petit" sex="M">
-    <name>Petit, Antoine</name>
+    <name>Petit, Antoine, maître charpentier</name>
+    <socecStatus type="pro"/>
     <death when="1699"/>
     <identifier type="mg">petit_antoine_(-1699)</identifier>
   </person>
+  
   <person xml:id="jean_petitot" sex="M">
-    <name>Petitot, Jean, peintre, auteur</name>
+    <name>Petitot, Jean, peintre</name>
+    <socecStatus type="pro"/>
     <birth when="1607"/>
     <death when="1691"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jean_Petitot_(peintre)</identifier>
     <identifier type="databnf">https://data.bnf.fr/fr/14922539/jean_petitot/</identifier>
     <identifier type="isni">0000 0001 1677 1596</identifier>
   </person>
+  
   <person xml:id="philbert" sex="M">
     <name>Philbert, musicien</name>
+    <socecStatus type="pro"/>
   </person>
+  
   <person xml:id="philidor_andre" sex="M">
     <name>Philidor, André Danican, dit "Philidor l'Aîné", compositeur et musicien</name>
+    <socecStatus type="pro"/>
     <birth when="1652*"/>
     <death when="1730"/>
     <identifier type="wikipedia"
@@ -5731,8 +5811,10 @@
     <identifier type="databnf">https://data.bnf.fr/12452843/andre_philidor/</identifier>
     <identifier type="isni">0000 0001 1060 7314</identifier>
   </person>
+  
   <person xml:id="felipeiii" sex="M">
     <name>Philippe III, roi d'Espagne</name>
+    <socecStatus type="foreign"/>
     <birth when="1598"/>
     <death when="1621"/>
     <identifier type="databnf">https://data.bnf.fr/ark:/12148/cb12240811g</identifier>
@@ -5741,101 +5823,136 @@
       >https://fr.wikipedia.org/wiki/Philippe_III_(roi_d%27Espagne)</identifier>
     <identifier type="mg">philippe_iii_(1578-1621)_roi_despagne</identifier>
   </person>
+  
   <person xml:id="jb_amador_vignerot_plessis" sex="M">
-    <name>Plessis, Jean-Baptiste Amador de Vignerot du, marquis de Richelieu, lieutenant général des armées et abbé</name>
+    <name>Vignerot du Plessis, Jean-Baptiste Amador de, marquis de Richelieu, lieutenant général des armées et abbé</name>
+    <socecStatus type="cour"/>
     <birth when="1632"/>
     <death when="1662"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jean-Baptiste_Amador_de_Vignerot_du_Plessis</identifier>
   </person>
+  
     <person xml:id="armand_jean_plessis_richelieu" sex="F">
     <name>Plessis de Richelieu, Armand Jean du, dit le cardinal de Richelieu, cardinal (1622), duc de Richelieu (1631) et duc de Fronsac (1634)</name>
-    <birth when="1585-09-09"/>
+    <socecStatus type="cour"/>
+      <birth when="1585-09-09"/>
    <death when="1642-12-04"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Armand_Jean_du_Plessis_de_Richelieu</identifier>
   </person>
+  
     <person xml:id="georges_pleumartin" sex="M">
       <name>Pleumartin, George Isoré, marquis de</name>
+      <socecStatus type="cour"/>
     </person>
+  
   <person xml:id="mlle_de_pons" sex="F">
     <name>Pons, Mlle de</name>
+    <socecStatus type="cour"/>
   </person>
+  
   <person xml:id="celio_piccolomini" sex="M">
-    <name>Piccolomini, Célio</name>
+    <name>Piccolomini, Célio, marquis de</name>
+    <socecStatus type="foreign"/>
     <birth when="1609"/>
     <death when="1681"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Celio_Piccolomini</identifier>
   </person>
+  
   <person xml:id="piesche" sex="M">
     <name>Piesche, flutiste</name>
+    <socecStatus type="pro"/>
   </person>
+  
     <person xml:id="françois_II_du_prat_barbençon" sex="M">
-    <name>Prat de Barbençon,François II du,marquis de Barbençon</name>
+    <name>Prat de Barbençon, François II du, marquis de Barbençon</name>
+      <socecStatus type="cour"/>
     <birth when="1684"/>
     <death when="1748-12-15"/>
     <!-- http://racineshistoire.free.fr/LGN/PDF/du_Prat.pdf -->
   </person>
+  
   <person xml:id="charron_du_plessis" sex="F">
-    <name>Plessis-Praslin, Colombe Le Charron, maréchale du</name>
+    <name>Le Charron, Colombe, maréchale du Plessis-Praslin</name>
+    <socecStatus type="cour"/>
     <birth when="1603"/>
     <death when="1681"/>
   </person>
+  
     <person xml:id="francoiseprevot" sex="F">
-    <name>PREVOST,Françoise,danseuse</name>
+    <name>Prevost, Françoise, danseuse</name>
+      <socecStatus type="pro"/>
     <birth when="1679"/>
     <death when="1741"/>
     <!-- https://www.theatre-classique.fr/pages/bio/comediens.htm#pecourd -->
   </person>
+  
     <person xml:id="scipion_polignac" sex="M">
-      <name>Polignac, Scipion-Sidoine Apollinaire Gaspard de Polignac, marquis de</name>
+      <name>Polignac, Scipion-Sidoine Apollinaire Gaspard de, marquis de Polignac</name>
+      <socecStatus type="cour"/>
       <birth when="1660"/>
       <death when="1739"/>
     </person>
+  
     <person xml:id="melchior_de_polignac" sex="M">
-    <name>Polignac,Melchior de, Cardinal</name>
+    <name>Polignac, Melchior de, Cardinal</name>
+      <socecStatus type="cour"/>
     <birth when="1661-10-11"/>
     <death when="1741-11-20"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Melchior_de_Polignac</identifier>
 </person>
+  
     <person xml:id="michel_iii_poncet_de_la_riviere" sex="M">
-    <name>Poncet de La Rivière,Michel de,évêque d’Angers</name>
+    <name>Poncet de La Rivière, Michel de, évêque d’Angers</name>
+      <socecStatus type="cour"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Michel_Poncet_de_La_Rivi%C3%A8re</identifier>
   </person>
+  
     <person xml:id="henri_charles_arnauld_de_pomponne" sex="M">
-    <name>Pomponne,Henri-Charles Arnauld de,Abbé et Ambassadeur de France auprès de la République de Venise</name>
+    <name>Pomponne, Henri-Charles Arnauld de, abbé et ambassadeur de France auprès de la République de Venise</name>
+      <socecStatus type="cour"/>
     <birth when="1669-07-10"/>
     <death when="1756-06-26"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Henri-Charles_Arnauld_de_Pomponne</identifier>
 </person>
 
     <person xml:id="perone" sex="M">
-    <name>Péronne,Baron et ambassadeur du Roi de Sicile (1715)</name>
+    <name>Péronne, baron et ambassadeur du Roi de Sicile (1715)</name>
+      <socecStatus type="foreign"/>
     <!-- https://www.jstor.org/stable/23399397?seq=44 -->
 </person>
   
   <person xml:id="marin_prevost" sex="M">
     <name>Prévost, Marin, comédien</name>
+    <socecStatus type="pro"/>
   </person>
+  
   <person xml:id="perigny" sex="M">
     <name>Périgny, Octave</name>
+    <socecStatus type="pro"/>
     <birth when="1625"/>
     <death when="1670"/>
     <identifier type="databnf">https://data.bnf.fr/fr/13195143/octave_de_perigny/</identifier>
     <identifier type="isni">0000 0000 2347 3688</identifier>
   </person>
+  
   <person xml:id="philippe_quinault" sex="M">
     <name>Quinault, Philippe</name>
+    <socecStatus type="pro"/>
     <birth when="1635"/>
     <death when="1688"/>
     <identifier type="databnf">https://data.bnf.fr/fr/12006897/philippe_quinault/</identifier>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Philippe_Quinault</identifier>
     <identifier type="isni">0000 0001 2096 2483</identifier>
   </person>
+  
     <person xml:id="dufresnemariedupré" sex="F">
-    <name>Dupré Deseine,Catherine-Marie-Jeanne,dite Mlle de Seine puis Mme Quinault-Dufresne,Actrice</name>
+    <name>Dupré Deseine, Catherine-Marie-Jeanne, dite Mlle de Seine puis Mme Quinault-Dufresne, actrice</name>
+      <socecStatus type="pro"/>
     <birth when="1705-09-05"/>
     <death when="1767-07-15"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Madame_Quinault-Dufresne</identifier>
   </person>
+  
   <person xml:id="mme_de_sevigne" sex="F">
     <name>Sévigné, Marie de Rabutin-Chantal, marquise de</name>
     <birth when="1626"/>
