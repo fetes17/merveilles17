@@ -5954,27 +5954,35 @@
   </person>
   
   <person xml:id="mme_de_sevigne" sex="F">
-    <name>Sévigné, Marie de Rabutin-Chantal, marquise de</name>
+    <name>Rabutin-Chantal, Marie de, marquise de Sévigné</name>
+    <socecStatus type="cour"/>
     <birth when="1626"/>
     <death when="1696"/>
     <identifier type="databnf">https://data.bnf.fr/fr/11924578/marie_de_rabutin-chantal_sevigne/</identifier>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Madame_de_S%C3%A9vign%C3%A9</identifier>
     <identifier type="isni">0000 0001 2278 0157</identifier>
   </person>
+  
     <person xml:id="louis_charles_de_saint_albin" sex="M">
-    <name>Saint-Albin,Charles de, évêque de Laon</name>
+    <name>Saint-Albin, Charles de, évêque de Laon</name>
+      <socecStatus type="cour"/>
     <birth when="1698-04-05"/>
     <death when="1764-05-09"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Charles_de_Saint-Albin</identifier>
   </person>
+  
     <person xml:id="quinault_dufresne_abraham_alexis" sex="M">
-    <name>Quinault,Abraham-Alexis,dit Quinault-Dufresne,Acteur</name>
+    <name>Quinault, Abraham-Alexis, dit Quinault-Dufresne, acteur</name>
+      <socecStatus type="pro"/>
     <birth when="1693-09-09"/>
     <death when="1767-02-12"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Quinault-Dufresne</identifier>
   </person>
+  
     <person xml:id="mauricesaxe" sex="M">
-    <name>Saxe,Maurice de,Comte de Saxe</name>
+    <name>Saxe, Maurice de, Comte de Saxe</name>
+      <socecStatus type="cour"/>
+      <socecStatus type="militaire"/>
     <birth when="1696-10-28"/>
     <death when="1750-11-30"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Maurice_de_Saxe_(1696-1750)</identifier>
@@ -5982,6 +5990,7 @@
   
   <person xml:id="racine" sex="M">
     <name>Racine, Jean</name>
+    <socecStatus type="pro"/>
     <birth when="1639"/>
     <death when="1699"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jean_Racine</identifier>
@@ -5989,26 +5998,35 @@
     <identifier type="isni">0000 0001 2321 2338</identifier>
     <identifier type="mg">racine_jean_(1639-1699)</identifier>
   </person>
+  
   <person xml:id="rassan" sex="M">
     <name>Rassan, marquis de</name>
+    <socecStatus type="cour"/>
     <!-- À rechercher -->
   </person>
+  
   <person xml:id="raynal" sex="M">
     <name>Raynal ou Raynald, danseur</name>
+    <socecStatus type="pro"/>
   </person>
+  
     <person xml:id="louisriccoboni" sex="M">
-    <name>Riccoboni,Luigi,dit Lélio écrivain et acteur de la Comédie Italienne</name>
+    <name>Riccoboni, Luigi, dit Lélio</name>
+      <socecStatus type="pro"/>
     <birth when="1676-04-01"/>
     <death when="1753"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Luigi_Riccoboni</identifier>
   </person>
   
   <person xml:id="jacques_ii_remond" sex="M">
-  <name>Rémond,Jacques II,Seigneur de la Renouillère</name>
+  <name>Rémond, Jacques II, seigneur de la Renouillère</name>
+    <socecStatus type="cour"/>
   <!-- https://guyderambaud.fandom.com/fr/wiki/Famille_R%C3%A9mond -->
 </person>
+  
   <person xml:id="renaudot" sex="M">
-    <name>Renaudot, Théophraste, journaliste, secrétaire et médecin du roi</name>
+    <name>Renaudot, Théophraste</name>
+    <socecStatus type="pro"/>
     <birth when="1586"/>
     <death when="1653"/>
     <identifier type="wikipedia"
@@ -6016,55 +6034,73 @@
     <identifier type="databnf">https://data.bnf.fr/fr/12335203/theophraste_renaudot/</identifier>
     <identifier type="isni">0000 0001 2141 565X</identifier>
   </person>
+  
   <person xml:id="renaudotfils" sex="M">
     <name>Eusèbe Renaudot</name>
+    <socecStatus type="pro"/>
     <birth when="1646-07-20"/>
     <death when="1720-09-01"/>
     <identifier type="databnf">https://data.bnf.fr/fr/11997624/eusebe_renaudot/</identifier>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Eus%C3%A8be_Renaudot</identifier>
     <identifier type="isni">0000 0001 0787 143X</identifier>
   </person>
+  
   <person xml:id="mlle_de_ribera" sex="F">
     <name>Ribera, Mademoiselle de</name>
+    <socecStatus type="cour"/>
   </person>
+  
   <person xml:id="richard" sex="M">
     <name>Richard, Etienne</name>
+    <socecStatus type="pro"/>
     <birth when="1621*"/>
     <death when="1669"/>
     <identifier type="isni">0000 0000 8350 8002</identifier>
     <identifier type="databnf">https://data.bnf.fr/ark:/12148/cb13898976g</identifier>
   </person>
+  
     <person xml:id="niclas_ravot_dombreval" sex="M">
-    <name>Ravot d'Ombreval,Nicolas Jean-Baptiste,seigneur d'Ombreval</name>
+    <name>Ravot d'Ombreval, Nicolas Jean-Baptiste, seigneur d'Ombreval</name>
+      <socecStatus type="cour"/>
     <birth when="1680-09-28"/>
     <death when="1729-10-18"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Nicolas_Ravot_d%27Ombreval</identifier>
   </person>
+  
     <person xml:id="sieurricard" sex="M">
-    <name>Ricard,François-Dominique,President de la Cour des Aydes,le Prevost des Marchands</name>
+    <name>Ricard, François-Dominique, President de la Cour des Aides, Prevost des Marchands</name>
+      <socecStatus type="cour"/>
     <birth when="1692*"/>
     <death when="1768-05-30"/>
     <!-- Il n'est mentionné nul part dans la liste des prévost de Paris donc je ne suis pas sur exactement de l'identité de ce dernier -->
       <!-- http://genobco.free.fr/provence/RicardGrambois1.htm -->
   </person>
+  
     <person xml:id="joseph_paul_ricard" sex="M">
-    <name>Ricard de Brégançon,Joseph-Paul de,Seigneur du Domaine de Ricard</name>
+    <name>Ricard de Brégançon, Joseph-Paul de, seigneur du Domaine de Ricard</name>
+      <socecStatus type="cour"/>
     <birth when="1665-09-07"/>
     <death when="1741-07-04"/>
     <!-- https://gw.geneanet.org/saorsel?lang=en&n=ricard+de+bregancon+de&p=joseph+paul -->
   </person>
+  
     <person xml:id="sieurgranges" sex="M">
-    <name>Des granges,Michel II Ancel, Maitre des Ceremonies (1722)</name>
+      <name>Ancel Des granges, Michel II, maître des Ceremonies (1722)</name>
+      <socecStatus type="cour"/>
     <!-- Il n'est mentionné nul part dans la liste des maitre de cérémonie donc je ne suis pas sur exactement de l'identité de ce dernier -->
       <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Liste_des_responsables_des_principales_fonctions_de_la_Maison_du_roi</identifier>
       <!-- https://cour-de-france.fr/representation-et-festivites/ceremonies-representation/etudes-modernes/article/les-grands-maitres-des-ceremonies-et-le-service-des -->
   </person>
+  
       <person xml:id="sieurgrangessenior" sex="M">
-    <name>Des granges,Michel Ancel, Maitre des Ceremonies</name>
+        <name>Ancel Des granges, Michel, maître des Ceremonies</name>
+        <socecStatus type="cour"/>
     <!-- Le père -->
   </person>
+  
   <person xml:id="anne_de_richelieu" sex="F">
     <name>Richelieu, Anne, née Poussard de Fors du Vigean, duchesse de</name>
+    <socecStatus type="cour"/>
     <birth when="1622"/>
     <death when="1684"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Anne_de_Richelieu</identifier>
@@ -6072,16 +6108,22 @@
       >https://data.bnf.fr/fr/14976009/anne_poussart_de_fors_de_vigean_richelieu/</identifier>
     <identifier type="isni">0000 0003 9361 8418</identifier>
   </person>
+  
   <person xml:id="duchesse_de_richemont" sex="F">
     <name>Richemont, duchesse de</name>
+    <socecStatus type="cour"/>
   </person>
+  
     <person xml:id="louis_rochefort" sex="M">
       <name>Rochefort, Louis d'Aloigny, marquis de</name>
+      <socecStatus type="cour"/>
       <birth when="1670"/>
       <death when="1701"/>
     </person>
+  
   <person xml:id="madame_montespan" sex="F">
-    <name>Montespan, Françoise Athnénaïs de Rochechouart-Mortemart, marquise de</name>
+    <name>Rochechouart-Mortemart, Françoise Athnénaïs de, marquise de Montespan</name>
+    <socecStatus type="cour"/>
     <birth when="1641"/>
     <death when="1707"/>
     <identifier type="databnf"
@@ -6089,107 +6131,138 @@
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Madame_de_Montespan</identifier>
     <identifier type="isni">0000 0000 8086 1089</identifier>
   </person>
+  
   <person xml:id="lv_rochechouart_mortemart_vivonne" sex="M">
     <name>Rochechouart, Louis-Victor de, comte puis duc de Vivonne, duc de Mortemart, général des galères du Roi et maréchal de France</name>
+    <socecStatus type="cour"/>
     <birth when="1636"/>
     <death when="1688"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Louis_Victor_de_Rochechouart_de_Mortemart</identifier>
     <identifier type="databnf">https://data.bnf.fr/fr/14953831/louis_victor_de_rochechouart/</identifier>
     <identifier type="isni">0000 0000 7971 0128</identifier>
   </person>
+  
   <person xml:id="frederic_charles_roye" sex="M">
     <name>Roye-de-la-Rochefoucaud, Frédéric Charles de, comte de Roye et de Roucy, Lieutnenant-Général des Armées de France</name>
+    <socecStatus type="cour"/>
+    <socecStatus type="militaire"/>
     <birth when="1632"/>
     <death when="1680"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/R%C3%A9giment_Royal-%C3%89tranger_cavalerie</identifier>
   </person>
+  
     <person xml:id="pedro_robinet" sex="M">
-  <name>Robinet,Pedro,Père Jésuite</name>
+  <name>Robinet, Pedro, Père Jésuite</name>
+      <socecStatus type="cour"/>
     <birth when="1652-03-22"/>
     <death when="1738-11-07"/>
     <identifier type="wikipedia">https://es.wikipedia.org/wiki/Pedro_Robinet</identifier>
 </person>
+  
   <person xml:id="rhodes" sex="M">
     <name>Roddes, trompette</name>
+    <socecStatus type="pro"/>
   </person>
+  
     <person xml:id="francois_roucy" sex="M">
-      <name>Roucy, François de Roye de la Rochefoucaud, comte de</name>
+      <name>Roye de la Rochefoucaud, François de, comte de Roucy</name>
+      <socecStatus type="cour"/>
       <birth when="1660"/>
       <death when="1721"/>
       <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Liste_des_comtes_de_Roucy#Maison_de_Roye</identifier>
     </person>
+  
   <person xml:id="roulle" sex="M">
     <name>Roullé, violon</name>
+    <socecStatus type="pro"/>
   </person>
+  
   <person xml:id="gilles_rousselet" sex="M">
     <name>Rousselet, Gilles</name>
+    <socecStatus type="pro"/>
     <birth when="1610"/>
     <death when="1686"/>
     <identifier type="databnf">https://data.bnf.fr/fr/12259348/gilles_rousselet/</identifier>
     <identifier type="isni">0000 0001 0872 0748</identifier>
   </person>
+  
     <person xml:id="marieisabelle_rohan" sex="F">
-    <name>Rohan,Marie-Isabelle de,Duchesse de</name>
+    <name>Rohan, Marie-Isabelle de, duchesse de</name>
+      <socecStatus type="cour"/>
     <birth when="1699-01-17"/>
     <death when="1754-01-05"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Marie-Isabelle_de_Rohan</identifier>
   </person>
+  
   <person xml:id="hercule_meriadec_rohan" sex="M">
-    <name>Rohan, Hercule Meriadec de Rohan Soubise, dit le Duc de Rohan</name>
+    <name>Rohan Soubise, Hercule Meriadec de, duc de Rohan</name>
+    <socecStatus type="cour"/>
     <birth when="1669-04-08"/>
     <death when="1749-01-26"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Hercule-M%C3%A9riadec_de_Rohan-Soubise</identifier>
     <identifier type="databnf">https://data.bnf.fr/fr/14957806/hercule_meriadec_de_rohan_soubise/</identifier>
     <identifier type="isni">0000 0000 0253 8753</identifier>
   </person>
+  
     <person xml:id="armandgaston_maximilien_de_rohan" sex="M">
-    <name>Rohan, Armand-Gaston-Maximilien de, dit le prince de Rohan</name>
+    <name>Rohan, Armand-Gaston-Maximilien de, prince de Rohan</name>
+      <socecStatus type="cour"/>
     <birth when="1674-06-20"/>
     <death when="1749-07-19"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Armand-Gaston-Maximilien_de_Rohan</identifier>
     <identifier type="databnf">https://data.bnf.fr/fr/12108274/armand-gaston-maximilien_de_rohan/</identifier>
     <identifier type="isni">0000 0001 2128 1292</identifier>
   </person>
+  
   <person xml:id="louis_rohan" sex="M">
       <name>Rohan, Louis prince de</name>
+    <socecStatus type="cour"/>
       <birth when="1666"/>
       <death when="1689"/>
     </person>
+  
   <person xml:id="louis_de_rohan" sex="M">
     <name>Rohan-Guémené, Louis de, dit le chevalier de Rohan, grand veneur de France puis colonel des gardes du Roi</name>
+    <socecStatus type="cour"/>
     <birth when="1635"/>
     <death when="1674"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Louis_de_Rohan_(1635-1674)</identifier>
   </person>
+  
     <person xml:id="armand_jules_rohanguemene" sex="M">
-    <name>Rohan-Guémené,Armand-Jules de,Archevêque de Reims (1722)</name>
+    <name>Rohan-Guémené, Armand-Jules de, Archevêque de Reims (1722)</name>
+      <socecStatus type="cour"/>
     <birth when="1695-02-10"/>
     <death when="1762-08-28"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Armand-Jules_de_Rohan-Gu%C3%A9men%C3%A9</identifier>
     <identifier type="databnf">https://data.bnf.fr/10722818/armand_jules_de_rohan/</identifier>
     <identifier type="isni">0000 0001 2139 9960</identifier>
   </person>
+  
   <person xml:id="anne_rohan_montbazon" sex="F">
     <name>Rohan-Montbazon, Anne de, duchesse de Luynes</name>
+    <socecStatus type="cour"/>
     <birth when="1640"/>
     <death when="1684"/>
   </person>
+  
     <person xml:id="antoine_roquelaure" sex="M">
       <name>Roquelaure, Antoine-Gaston, duc de</name>
+      <socecStatus type="cour"/>
       <birth when="1656"/>
       <death when="1738"/>
       <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Antoine-Gaston_de_Roquelaure</identifier>
     </person>
-  <person xml:id="diane_budos_rouvroy" sex="F">
-    <name>Rouvroy, Diane-Henriette de Budos de Portes, de</name>
-    <birth when="1629"/>
-    <death when="1670"/>
-  </person>
+  
+
   <person xml:id="salin" sex="M">
     <name>Salin, Sieur, écuyer du Roi, membre des garde du corps</name>
+    <socecStatus type="cour"/>
   </person>
+  
   <person xml:id="saint-amant" sex="M">
-    <name>Saint-Amant, Marc Antoine Girard de</name>
+    <name>Girard de Saint-Amant, Marc Antoine</name>
+    <socecStatus type="pro"/>
     <birth when="1594"/>
     <death when="1661"/>
     <identifier type="isni">0000 0001 2134 0352</identifier>
@@ -6197,28 +6270,25 @@
     <identifier type="wikipedia"
       >https://fr.wikipedia.org/wiki/Marc-Antoine_Girard_de_Saint-Amant</identifier>
   </person>
+  
    <person xml:id="pierre_sabatier" sex="M">
-    <name>Sabatier,Pierre,Évêque d'Amiens</name>
+    <name>Sabatier, Pierre, évêque d'Amiens</name>
+     <socecStatus type="cour"/>
     <birth when="1654-11-14"/>
     <death when="1733-01-20"/>
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Pierre_Sabatier_(pr%C3%A9lat)</identifier>
 </person>  
+  
   <person xml:id="saint_andre" sex="M">
     <name>Saint-André, danseur</name>
+    <socecStatus type="pro"/>
   </person>
+  
   <person xml:id="madame_de_saint_arbre" sex="F">
     <name>Saint Arbre, Madame de</name>
+    <socecStatus type="cour"/>
   </person>
-  <person xml:id="saint_amant" sex="M">
-    <name>Saint-Amant, Marc-Antoine Girard de, poète et membre de l'Académie française</name>
-    <birth when="1594"/>
-    <death when="1661"/>
-    <identifier type="wikipedia"
-      >https://fr.wikipedia.org/wiki/Marc-Antoine_Girard_de_Saint-Amant</identifier>
-    <identifier type="databnf"
-      >https://data.bnf.fr/fr/11923324/marc-antoine_girard_de_saint-amant/</identifier>
-    <identifier type="isni">0000 0001 2134 0352</identifier>
-  </person>
+  
   <person xml:id="saint_jean" sex="M">
     <name>Saint-Jean, musicien</name>
   </person>
@@ -6970,7 +7040,7 @@
   </person>
   
   <person xml:id="budos_diane-henriette" sex="F">
-    <name>Budos, Diane Henriette de, Duchesse de Saint-Simon</name>
+    <name>Budos, Diane Henriette de, duchesse de Saint-Simon</name>
     <socecStatus type="cour"/>
     <birth when="1629"/>
     <death when="1670"/>
