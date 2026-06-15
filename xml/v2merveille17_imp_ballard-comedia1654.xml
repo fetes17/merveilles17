@@ -1,0 +1,2500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../merveilles17.xsl"?>
+<?xml-stylesheet type="text/css" href="../style/tei-author.css" alternate="author"?>
+<?xml-model href="https://fetes17.github.io/merveilles17/merveilles17.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>LE NOZZE DI PELEO E DI TETHI. Commedia.</title>
+        <author key="???">{creator}</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Merveilles17</edition>
+        <respStmt>
+          <name>Eliot Bordage</name>
+          <resp>Transcription et encodage</resp>
+        </respStmt>
+        <respStmt>
+          <name>Axelanne Chapon</name>
+          <resp>Correction</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université d’Artois - Lille, MESHS</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>Les nopces de Pelée et de Thetis. Comédie italienne en musique, entre-meslée
+            d'un ballet sur le mesme sujét, dansé par sa Majesté, chez Robert Ballard, 1654.</title>
+          <title>LE NOZZE DI PELEO E DI TETHI. Commedia</title>
+          <ptr target="https://gallica.bnf.fr/ark:/12148/bpt6k15181986/f1.item"/></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1654"/>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb n="1" xml:id="p1" facs="https://gallica.bnf.fr/ark:/12148/bpt6k15181986/f33.item"/>
+        <head rend="center">LE NOZZE DI <name key="Pelée">PELEO</name> E DI <name key="Thetis"
+            >TETHI</name></head>
+        <head rend="center">Commedia</head>
+
+        <head rend="center">LES NOPCES DE <name key="Pelée">PELEE</name> ET DE <name key="Thetis"
+            >THETIS</name></head>
+        <head rend="center">Comedie.</head>
+
+        <pb n="2" xml:id="p2" facs="https://gallica.bnf.fr/ark:/12148/bpt6k15181986/f34.item"/>
+      </div>
+
+      <div>
+        <div>
+          <head rend="center">PROLOGO.</head>
+          <label xml:lang="it" rend="center"><name key="Apollon">Appolo</name>, e le <name
+              key="Muses">Muse</name> nel Monte Piero. <tech type="musique">Due Chori di <name
+                key="Nereïdes">Nereïdi</name></tech> su le Rive dell’ <name key="Epidan"
+              >Epidano</name>, e dell <name key="Onochone">Onochono</name>
+            <name key="fleuves de la Thessalie">Fiumi di Thessaglia.</name></label>
+
+          <p xml:lang="it" rend="center"><name key="Chœurs des Nereïdes">Li. Chor</name></p>
+          <lg xml:lang="it">
+            <l>O Del Ciel vivo Tesoro</l>
+            <l>D’ogni ben Nume fecondo</l>
+            <l>Allegrezza del Mondo</l>
+            <l>E vincitor dell’ ombre in armi d’oro ;</l>
+            <l>Trà l’Aonie Sorelle</l>
+            <l>Non sei men chiaro no, che trà le stelle.</l>
+            <l>Mà scendi anchor quà giu</l>
+            <l>A Festeggiar trà noi</l>
+            <l>Tanto trionfi tù</l>
+            <l>Da gl’Esperi à gl’Eoi.</l>
+            <l>Deh lieto augurio dà</l>
+            <l>All’ amor di <name key="Pelée">Peléo</name>.</l>
+            <l>La cui fede potrà</l>
+            <l>Far i <name key="Divinité">Dei</name> suo Trefeo.</l>
+            <l>Alle leggi d’amar’</l>
+            <l>Per eterni costumi</l>
+            <l>Soggetti humili al par’</l>
+            <l>Sono i mortali, e i <name key="Divinité">Numi</name>,</l>
+            <l>E quando è giust’ Amore</l>
+            <l>Si si cede ogni preggio à un vero ardore.</l>
+          </lg>
+        </div>
+        <!-- Acte premier - scène première (it) -->
+        <div>
+          <head rend="center">ATTO PRIMO.</head>
+          <head rend="center">SCENA PRIMA.</head>
+          <label rend="center" xml:lang="it"><name key="Amour">Amourirone</name>. <name key="Pelée"
+              >Peléo</name>. <tech type="musique">Choro muto di <name key="Magiciens"
+              >Maghi</name></tech>.</label>
+          <p xml:lang="it"><name key="Amour">Amour</name>. Deh lascia le pene.</p>
+          <p xml:lang="it"><name key="Pelée">Pel</name>. E come farò ?</p>
+          <p xml:lang="it"><name key="Amour">Amour</name>. O segui la spene.</p>
+
+          <pb n="3" xml:id="p3" facs="https://gallica.bnf.fr/ark:/12148/bpt6k15181986/f35.item"/>
+        </div>
+      </div>
+
+      <div>
+        <div>
+          <head rend="center">PROLOGUE.</head>
+          <label rend="center"><name key="Apollon">Apollon</name> &amp; les <name key="Muses"
+              >Muses</name> sur le Mont Piereide. <tech type="musique">Deux Chœurs de</tech>
+            <name key="Nereïdes">Nereïdes</name> sur les rives de l'<name key="Epidan"
+            >Epidan</name>&amp; de <name key="Onochone">l’Onochone</name>, <name
+              key="fleuves de la Thessalie">fleuves de la Thessalie</name>.</label>
+
+          <p rend="center"><tech type="musique">Chœurs des <name key="Nereïdes"
+              >Nereïdes</name>.</tech></p>
+          <lg>
+            <l>Thresor vivant des Cieux divinité feconde</l>
+            <l>Qui donne la lumiere &amp; tant de biens au monde,</l>
+            <l>Sçachant qu’environné de ces aymables sœurs</l>
+            <l>Tu ne charmes pas moins ny les yeux les cœurs</l>
+            <l>Qu’alors que la nuict rompant les sombres voiles,</l>
+            <l>Ta divine splendeur obscurcit les estoilles.</l>
+            <l><name key="Divinité">Grand Dieu</name>, descends en terre &amp; ne desdaigne
+              passionné</l>
+            <l>De venir prendre part aux plaisirs d’icy bas ;</l>
+            <l>A <name key="Hymen">l’Hymen de ce Roy</name> donne un heureux augure,</l>
+            <l>De ce <persName key="Thetis">Roy</persName> dont la flame est si belle &amp; si
+              pure,</l>
+            <l>Que sans honte elle peut s’exposer à tes yeux</l>
+            <l>Et se voir preferer aux feux mesmes des <name key="Divinité">Dieux</name>.</l>
+            <l>Des justes Loix d’Amour l’eternelle puissance</l>
+            <l>Fait des hommes aux Dieux fort peu de difference,</l>
+            <l>Et souvent à l’éclat d’une vaine grandeur</l>
+            <l>Prefere une constante &amp; legitime ardeur.</l>
+          </lg>
+        </div>
+        <!-- Acte premier - scène première -->
+        <div>
+          <head rend="center">ACTE PREMIER.</head>
+          <head rend="center">SCENE PREMIERE.</head>
+          <label rend="center" xml:lang="it"><name key="Amour">Amouriron</name>. <name key="Pelée"
+              >Pelée</name>. <tech type="musique">Choeur des</tech>
+            <name key="Magiciens">Magiciens</name>.</label>
+
+          <p rend="center"><name key="Chirons">Chirons</name>.</p>
+          <lg>
+            <l>Quitte de ton amour les inutiles soins,</l>
+            <l>Espere davantage ou bien ayme un peu moins.</l>
+          </lg>
+        </div>
+      </div>
+
+      <div>
+        <pb n="4" xml:id="p4" facs="https://gallica.bnf.fr/ark:/12148/bpt6k15181986/f36.item"/>
+
+        <p><name key="Pelée">Pel</name>.</p>
+        <lg xml:lang="it" rend="i">
+          <l> E come potrò ?</l>
+          <l>Se soura il moi core</l>
+          <l>Bellezza ch ‘è immensa.</l>
+          <l>Hà l’onnipotenza</l>
+          <l>De fatti, e d’amore,</l>
+          <l>Se à ciò che più fieri</l>
+          <l>Sian sempre i miei mali</l>
+          <l>Mi trovo rivali</l>
+          <l>I Numi piu alteri :</l>
+          <l>Trà queste Catene</l>
+          <l>Che scampo da i guai</l>
+          <l>Che lampo giamai</l>
+          <l>Di bene vedrò ?</l>
+        </lg>
+
+        <p xml:lang="it"><name key="Amour">Amour</name></p>
+        <l>. Deh lascia le pene.</l>
+        <p xml:lang="it"><name key="Pelée">Pel</name>.</p>
+        <l> E come farò ?</l>
+        <p xml:lang="it"><name key="Amour">Amour</name>.</p>
+        <l> O segui la spene.</l>
+        <p xml:lang="it"><name key="Pelée">Pel</name>.</p>
+        <l> E come potrò ?</l>
+
+        <lg xml:lang="it">
+          <l><name key="Amour">Amour</name>. Odi, alfin con le Donne in van presume</l>
+          <l>Canuto amante, e sia ben’ anche un <name key="Divinité">Nume</name>,</l>
+          <l>E però di <placeName>Nettuno</placeName></l>
+          <l>D’Anni ricco non men che di Tesori</l>
+          <l>Non ti faccian geloso i freddi amori,</l>
+          <l>Ne di <placeName>Giove</placeName> dirrei, se tù di lui</l>
+          <l>Paventar non dovessi</l>
+          <l>Più ch’ il merto subline</l>
+          <l>E le solite frodi, e le rapine,</l>
+          <l>Mà se brami da queste</l>
+          <l>Utilmente schermirti : Ecco quei <name key="Magiciens">Maghi</name></l>
+          <l>Che ti faran con incantato volo</l>
+          <l>Gir à <name key="Promethé">Prometheo</name>, la cui mente ardita</l>
+          <l>Come tanto sagace, e à <name key="Jupiter">Giove</name> avversa</l>
+          <l>Sola può darti in si grand’ vopo aita.</l>
+          <l>Dunque t’appiglia al mino conseglio, e poggia</l>
+          <l>Sù gl’ eccelsi confini</l>
+          <l>Dello scita, e del l’Indo e non tardare</l>
+          <l>Ch’ ogni indugio potrìa</l>
+          <l>Rendersi à te cagion d’eterni danni</l>
+          <l>Non son d’amor fregio superfluo i vanni.</l>
+          <l>Eh, che all’ alto viaggio io ben m’affretto,</l>
+          <l>Mà quand’ anche m’arrida in ciò fortuna</l>
+          <l>Nulla devo sperar, che nel suo petto</l>
+          <l>Troppo rigor la bella <name key="Thetis">Theti</name> aduna.</l>
+        </lg>
+      </div>
+
+      <div>
+        <pb n="5" xml:id="p5" facs="https://gallica.bnf.fr/ark:/12148/bpt6k15181986/f37.item"/>
+        <p><name key="Pelée">Pelée.</name>.</p>
+        <lg>
+          <l>Helas ! Ce que tu veux est hors de la puissance,</l>
+          <l>Pourrois-je voir <name key="Thetis">Thetis</name> avecque indifference ?</l>
+          <l>Elle que mon destin, l’amour &amp; sa beauté</l>
+          <l>Font regner sur mon cœur avecque authorité ;</l>
+          <l>Et quelque ambition qui s’éleve en mon ame,</l>
+          <l>Puis-je du moindre espoir entretenir ma flame ?</l>
+          <l>Quand apres de <name key="Thetis">Thetis</name> pour augmenter mes maux,</l>
+          <l><name key="Divinité">Les deux plus grands des Dieux</name> deviennent mes rivaux.</l>
+        </lg>
+
+        <p><name key="Chiron">Chiron.</name>.</p>
+        <lg>
+          <l>Croy-moy, quelque grandeur dont un amant se vante,</l>
+          <l>S’il n’a plus de jeunesse il n’aura plus d’amante :</l>
+          <l><name key="Neptune">Neptune est Roy des eaux</name>, mais cette dignité</l>
+          <l>Tentera foiblement une jeune beauté,</l>
+          <l>Qui s’armant contre luy de rigueurs obstinées,</l>
+          <l>Plustost que ses thresors contera ses années,</l>
+          <l>Et fera bien-tost voir que c’est mal à propos</l>
+          <l>Que ses froides amours ont troublé ton repos :</l>
+          <l>Et mesmes <name key="Jupiter">Jupiter</name> de qui la concurrence</l>
+          <l>Te donne tant d’ennuis &amp; t’oste l’esperance,</l>
+          <l>Devroit estre de nous aussi peu redouté,</l>
+          <l>Si plus que son merite &amp; que sa <persName key="Thetis">Mesjesté</persName></l>
+          <l>Tant d’exemples recens de rapt &amp; d’injustice,</l>
+          <l>Ne faisoient craindre en luy la fourbe &amp; l’artifice :</l>
+          <l>Mais pour en garentir l’objet de tes amours</l>
+          <l>Ces doctes Enchanteurs viennent à ton secours ;</l>
+          <l>Par leur <name key="Art">Art</name> une nuë entre les airs portée,</l>
+          <l>Te conduira bien-tost vers le grand <name key="Promethée">Promethée</name>,</l>
+          <l>Qui contre <name key="Jupiter">Jupiter</name>, dont il est mal traitté,</l>
+          <l>T’aydera volontiers en cette extremité.</l>
+        </lg>
+
+        <p><name key="Pelée">Pelée.</name>.</p>
+        <lg>
+          <l>J’iray : Mais quand le sort me seroit favorable,</l>
+          <l><name key="Thetis">Thetis</name> demeura toujours inexorable.</l>
+        </lg>
+
+      </div>
+
+      <div>
+        <pb n="6" xml:id="p6" facs="https://gallica.bnf.fr/ark:/12148/bpt6k15181986/f38.item"/>
+        <lg xml:lang="it">
+          <l><name key="Chiron">Ch</name>. Quand’ honesta beltà</l>
+          <l>Fiera si mostra ad amator che prega</l>
+          <l>Non è sempre crudeltà,</l>
+          <l>Spesso cela il desio di quel che nega</l>
+          <l>Che può legge d’honore</l>
+          <l>Porzar la lingua si, mà non già il core.</l>
+        </lg>
+
+
+        <lg xml:lang="it">
+          <l><name key="Pelée">Pel</name>. Oh se per me potesse</l>
+          <l>L’afflitto moi pensiero</l>
+          <l>Creder ciò mai per vero,</l>
+          <l>Gioirian nel moi sen le pene istesse.</l>
+          <l>Pur sia ciò che dispone</l>
+          <l>Il moi crudel, ma non però men caro</l>
+          <l>Amoroso destin, quel fin, ch’io bramo</l>
+          <l>Gioia è tant’ infinita</l>
+          <l>Che diffonde ne mezzi anchor che vani</l>
+          <l>Smisurata dolcezza, &amp; à seguirli</l>
+          <l>Con forza inevitabile m’invita.</l>
+        </lg>
+
+        <lg xml:lang="it">
+          <l><name key="Chiron">Ch.</name>
+            <name key="Pelée">Pel</name>. Ne la speme ne l’ardire</l>
+          <l>Mai non perda un amor vero</l>
+          <l>Il soffrire è un gran sentiero</l>
+          <l>Ch’alfin poi mena à gioire,</l>
+          <l>Spesso trova un cor piu fido</l>
+          <l>Più difficile la merce,</l>
+          <l>Mà nel Regno di <name key="Cupidon">Cupido</name></l>
+          <l>L’impossibile non v’é.</l>
+        </lg>
+
+        <lg xml:lang="it">
+          <l><name key="Chiron">Ch</name>. Vanne dunque felice</l>
+          <l>Chi sa ? che la tua fede</l>
+          <l>Dar non si possa un dì gl’istessi vanti.</l>
+        </lg>
+
+        <lg xml:lang="it">
+          <l><name key="Pelée">Pel</name>. Sù, sù, dunque à gl’incanti.</l>
+        </lg>
+      </div>
+
+      <div>
+        <pb n="7" xml:id="p7" facs="https://gallica.bnf.fr/ark:/12148/bpt6k15181986/f39.item"/>
+        <lg>
+          <l><name key="Chiron">Chiron.</name></l>
+          <l>Quand aux vœux d’un Amant une chaste beauté</l>
+          <l>Refuse une faveur avec plus de fierté,</l>
+          <l>Elle cache souvent (en soy-mesme confuse)</l>
+          <l>Un desir violent du bien qu’elle refuse,</l>
+          <l>Et cette dure loy que l’on appelle honneur</l>
+          <l>A pouvoir sur sa langue &amp; non pas sur son cœur.</l>
+        </lg>
+
+        <lg>
+          <l><name key="Pelée">Pelée.</name></l>
+          <l>Que j’aurois de plaisir au fort de mes souffrances</l>
+          <l>Si j’osois concevoir ces douces esperances !</l>
+          <l>Mais quoy qu’ait resolu mon destin amoureux,</l>
+          <l>Ce destin qui m’est cher, bien qu’il soit rigoureux,</l>
+          <l>La glorieuse fin où mon desir aspire</l>
+          <l>A pour moy tant d’appas, &amp; sur moy tant d’empire,</l>
+          <l>Qu’elle rend agreable &amp; me force à chercher</l>
+          <l>Ce qui mesme sans fruict semble m’en approcher.</l>
+        </lg>
+
+        <lg>
+          <l><name key="Chiron">Chiron</name> &amp; <name key="Pelée">Pelée</name>.</l>
+          <l><name key="Amour">Amour</name> ne veut pas qu’on se lasse</l>
+          <l>D’entreprendre ny d’esperer,</l>
+          <l>Ce n’est qu’à force d’endurer</l>
+          <l>Que l’on en obtient quelque grace :</l>
+          <l>Quelque-fois un fidele amant</l>
+          <l>Voit long-temps à ses maux sa maistresse insensible ;</l>
+          <l>Mais il peut à la fin trouver un bon moment :</l>
+          <l>En amour rien n’est impossible.</l>
+        </lg>
+
+        <lg>
+          <l><name key="Chiron">Chiron</name>.</l>
+          <l>Va, malheureux Amant, nous verrons quelque jour</l>
+          <l>Un semblable succés couronner ton amour.</l>
+        </lg>
+
+        <lg>
+          <l><name key="Pelée">Pelée</name> parlant aux <name key="Magicien">Magicien</name>.</l>
+          <l>Je vais donc me servir du secours charitable</l>
+          <l>Dont vous daignez ayder un <name key="Prince">Prince</name> miserable.</l>
+        </lg>
+      </div>
+
+      <!-- Acte premier - Scène Seconde (it) -->
+
+      <div>
+        <pb n="8" xml:id="p8" facs="https://gallica.bnf.fr/ark:/12148/bpt6k15181986/f40.item"/>
+        <head>SCENA SECONDA.</head>
+        <label><name key="Thetis">Theti</name>. <name key="Neptune">Nettuno</name>. <tech
+            type="musique">Choro di <name key="Triton">Tritoni</name> e <name key="Sirene"
+              >Sirene</name></tech><tech type="musique">.Choro muto di <name
+              key="Pescheurs de Corail">Pescatori Coralli</name></tech>.</label>
+
+        <p><tech type="musique">Choro di <name key="Triton">Tritoni</name> e <name key="Sirene"
+              >Sirene</name></tech>ATanto splendore</p>
+        <lg>
+          <l>Ch’in mole</l>
+          <l>D’ardore</l>
+          <l>Quest aria cangiò</l>
+          <l>Non arda chi può,</l>
+          <l>Mai pompe si rare</l>
+          <l>Ne l’ Alba ne il sole</l>
+          <l>Sù l’ Mare</l>
+          <l>Spiegò.</l>
+          <l>A tanto splendore</l>
+          <l>Non arda chi può.</l>
+        </lg>
+        <lg>
+          <l><name key="Neptune">Nett</name>. Ahi, che non v’è riparo, io bene il provo</l>
+          <l>Ch’in questi humidi campi</l>
+          <l>Correndo in van per moi soccorso ì Fiumi,</l>
+          <l>Al foco di quei lumi</l>
+          <l>Fors’ è ch’ad onta di tant’ onde avampi.</l>
+          <l>Mà <name key="Thetis">Theti</name> ah come sei</l>
+          <l>Per te folle non men, che per mè cruda,</l>
+          <l>Rifiutar l’Hymenci</l>
+          <l>Del più ricco de Numi</l>
+          <l>Entro al cui vasto, e pretioso impero</l>
+          <l>Nascono i più bei freggi</l>
+          <l>Onde beltà s’adorni, e nulla preggi ?</l>
+          <l>Di regnar sù quest acque</l>
+          <l>Doue <name key="Venus">la Dea d’amor</name> subdita nacque ?</l>
+        </lg>
+        <lg>
+          <l><name key="Thetis">Thet</name>. Spunta l’Alba in <placeName>Oriente</placeName>,</l>
+          <l>Trà tesori, e lieti canti,</l>
+          <l>E pur pallida, e languente</l>
+          <l>Si disfa’ sù i fiori in pianti</l>
+          <l>Mà dite perche ?</l>
+          <l>In si lieta sorte</l>
+          <l>Il duol non affrena ?</l>
+          <l>Perche vecchio consorte il Ciel gli dié</l>
+          <l>Et à cor mal contento il tutto è pena.</l>
+        </lg>
+      </div>
+
+      <!-- Acte premier - scène seconde (fr) -->
+      <div>
+        <pb n="9" xml:id="p9" facs="https://gallica.bnf.fr/ark:/12148/bpt6k15181986/f41.item"/>
+        <head>SCENE SECONDE.</head>
+        <label><name key="Thetis">Thetis</name>. <name key="Neptune">Neptune</name>. <tech
+            type="musique">Chœur de <name key="Tritons">Tritons</name> &amp; de <name key="Sirenes"
+              >Sirenes</name></tech>. <tech type="musique">Chœur de <name key="Pescheurs de Corail"
+              >pescheurs de Corail</name></tech>.</label>
+
+        <p><tech type="musique">Chœur de <name key="Tritons">Tritons</name> &amp; de <name
+              key="Sirenes">Sirenes</name></tech>.</p>
+        <lg>
+          <l> DE tant d’esclat, de tant d’ardeur</l>
+          <l>Qui nous esclaire &amp; nous estonne,</l>
+          <l>Et met en feu tout l’air qui l’environne,</l>
+          <l>Qui pourroit garentir son cœur ?</l>
+          <l>Jamais le <name key="Soleil">Soleil</name> ny <name key="Aurore">l’Aurore</name></l>
+          <l>N’étalerent dessus nos bors</l>
+          <l>De si magnifiques thresors,</l>
+          <l>Soit que le jour finisse ou commence d’éclore,</l>
+          <l>De tant d’éclat de tant d’ardeur</l>
+          <l>Qui pourroit garentir son cœur.</l>
+        </lg>
+
+        <p><name key="Neptune">Neptune.</name></p>
+        <lg>
+          <l>Helas ! Je le sens bien, en vain pour me defendre</l>
+          <l>Du feu de ces beaux yeux qui mettent tout en cendre,</l>
+          <l>Viennent à mon secours &amp; fleuves &amp; ruisseaux,</l>
+          <l>Je me sens embraser au milieu de leurs eaux :</l>
+          <l>Mais toy qui contredis à ce que je desire,</l>
+          <l>Sçais-tu que je suis Roy d’un riche &amp; vaste Empire ?</l>
+          <l>Où partagent mon sceptre &amp; mon authorité,</l>
+          <l>Tout ce qui peut servir à parer la beauté</l>
+          <l>Et ce qui des humains fait toute l’opulence,</l>
+          <l>Seroit, si tu voulois, sousmis à ta puissance.</l>
+          <l>Tu peux regir en Reine un estat florissant</l>
+          <l>Dont la <name key="Mere d'Amour">Mere d’Amour</name> fut sujette en naissant :</l>
+          <l>Et ta rigueur enfin n’est pas moins ennemie</l>
+          <l>De ta propre grandeur que de ma juste enuie.</l>
+        </lg>
+
+        <p><name key="Thetis">Thetis.</name></p>
+        <lg>
+          <l><name key="Aurore">L’Aurore</name> pour montrer dessus nostre horison</l>
+          <l>Sort en grand appareil de sa riche maison,</l>
+          <l>Mille chans d’allegresse honorent sa venuë ;</l>
+          <l>Mais dans la pourpre &amp; l’or dont elle est revestuê,</l>
+          <l>Chaque jour pasle &amp; triste elle arrouse de pleurs</l>
+          <l>La terre qui luy rit, les herbes &amp; les fleurs ;</l>
+          <l>Et dans ces grand éclat ce qui fait sa tristesse,</l>
+          <l>C’est du jaloux <name key="Titon">Titon</name> l’humeur &amp; la vieillesse,</l>
+          <l>Et qu’un coeur malcontent au milieu des plaisirs</l>
+          <l>Sent croistre sa douleur &amp; naistre des soupirs. </l>
+        </lg>
+      </div>
+
+      <div>
+        <pb n="10" xml:id="p10" facs="https://gallica.bnf.fr/ark:/12148/bpt6k15181986/f42.item"/>
+        <lg xml:lang="it">
+          <l><name key="Neptune">Nett</name>. Dunque il cener del crine</l>
+          <l>Fia dannoso all’ ardor, che porto in seno ?</l>
+          <l>E di mia speme il verbe ah verrà meno</l>
+          <l>Sol perche sparso è di canute brine ?</l>
+          <l>Eh, che quando il cieco Duce</l>
+          <l>Pone il foco à un giovin petto</l>
+          <l>Vi produce</l>
+          <l>Grand’ arsura, e poco affeto</l>
+          <l>Mà dou’ è maggiore</l>
+          <l>Il senno e l’età</l>
+          <l>S’appigliarsi amore</l>
+          <l>Misura non ha.</l>
+        </lg>
+
+        <lg xml:lang="it">
+          <l><name key="Thetis">Thet</name>. Ingegniosa ragione</l>
+          <l>D’accorto amante in cui sia già sfiorita</l>
+          <l>L’amorosa stagione.</l>
+          <l>Fece il Ciel sol per Amor</l>
+          <l>La ridente Gioventù</l>
+          <l>E fè pur scender qu’à giù</l>
+          <l>Sol per lei quel dolce ardor,</l>
+          <l>Altr’ età non s’inganni</l>
+          <l>Che d’amor non haurà se mon gl’affanni.</l>
+        </lg>
+
+        <lg xml:lang="it">
+          <l><name key="Neptune">Nett</name>. Ah perfida t’intendo</l>
+          <l>Per qualch’ altro tuo Vago</l>
+          <l>Ch’è su’l fiorir ancor tù mi rifiuti.</l>
+          <l>A che restar più muti ?</l>
+          <l>Austri, Aquiloni, e voi più avversi venti ?</l>
+          <l>Unite ì vostri gridi a i miei lamenti</l>
+          <l>E voi che più tardate à vendicarmi</l>
+          <l>Neghittose tempeste ?</l>
+          <l>Dall’ algose caverne uscite à noto</l>
+          <l>E le fauci spumanti</l>
+          <l>Spalancate in voragini funeste,</l>
+          <l>E con urli, e con fremiti sbandite</l>
+          <l>Dal mieo Regno quest’ empia ; ah non conviene</l>
+          <l>Che qui si soffra in pace una sleale</l>
+          <l>Che m’accende nel Cor guerra mortale.</l>
+        </lg>
+
+        <lg xml:lang="it">
+          <l><name key="Pescheurs de Corail">Chor</name>. <name key="Nymphe">Ninfa</name>
+            ingrata</l>
+          <l>Ben ti stà</l>
+          <l>Adorata</l>
+          <l>Cosi fai ?</l>
+          <l>Chi sà poi forse chi sà ?</l>
+        </lg>
+      </div>
+
+      <div>
+        <pb n="11" xml:id="p11" facs="https://gallica.bnf.fr/ark:/12148/bpt6k15181986/f43.item"/>
+        <p><name key="Neptune">Neptune</name>.</p>
+        <lg>
+          <l>Dans le feu violent dont je ressens l’outrage,</l>
+          <l>On ne remarque rien des froideurs de mon aage :</l>
+          <l>L’amour aux jeunes cœurs donne ordinairement</l>
+          <l>Pour un peu d’amitié beaucoup d’emportement :</l>
+          <l>Mais quand d’un trait perçant ce petit Dieu nous blesse,</l>
+          <l>Nous en qui l’aage meur augmente la sagesse,</l>
+          <l>Nos vœux sont plus soumis, plus discrets, plus ardents,</l>
+          <l>Et nostre foy constante à l’épreuve du temps.</l>
+        </lg>
+
+        <p><name key="Thetis">Thetis.</name></p>
+        <lg>
+          <l>Par quel adroit discours tu deffens ta vieillesse !</l>
+          <l>Pour les plaisirs d’Amour le Ciel fit la jeunesse,</l>
+          <l>Et ce fut seulement pour la jeunesse aussi</l>
+          <l>Qu’Amour quitta le Ciel &amp; descendit icy.</l>
+          <l>Quiconque entreprendra d’aymer en un autre aage,</l>
+          <l>N’aura jamais d’amour que les maux en partage.</l>
+        </lg>
+        <p><name key="Neptune">Neptune.</name></p>
+        <lg>
+          <l>Perfide, je t’entens, un plus jeune que moy</l>
+          <l>T’oblige à mespriser mon amour &amp; ma foy</l>
+          <l>Venez, vents ; Hastez-vous, tempestes furieuses,</l>
+          <l>A vanger vostre <persName>Roy</persName> vous estes paresseuses :</l>
+          <l>Sortez de vos cachots, &amp; faites ce que ces mers</l>
+          <l>Monstrent en un instant mille gouffres ouvers :</l>
+          <l>Que de vos siflemens le murmure terrible</l>
+          <l>Remplisse de frayeur cette <name key="Nymphe">Nymphe</name> insensible,</l>
+          <l>Et bannisse bien loin de ce vaste élement</l>
+          <l>Celle dont la rigeur me traite indignement :</l>
+          <l>Laisserez-vous en paix cette ame criminelle</l>
+          <l>Qui suscite en mon cœur une guerre mortelle ?</l>
+        </lg>
+
+        <p><tech type="musique">Chœur de <name key="Tritons">Tritons</name> &amp; de <name
+              key="Sirenes">Sirenes</name></tech>.</p>
+        <lg>
+          <l>O vous <name key="Nymphe">Nymphe</name> qui jeune &amp; belle</l>
+          <l>Faites maintenant la cruelle,</l>
+          <l>Et de qui la folle rigueur</l>
+          <l>Rebute l’offrande d’un cœur ;</l>
+          <l>Quand vous mesprisez qui vous ayme,</l>
+          <l>Scaurez vous que peut-estre un jour</l>
+          <l>Vous aymerez à vostre tour,</l>
+          <l>Et qu’on vous traitera de mesme. </l>
+        </lg>
+      </div>
+
+      <div>
+        <pb n="12" xml:id="p12" facs="https://gallica.bnf.fr/ark:/12148/bpt6k15181986/f44.item"/>
+        <lg>
+          <l>Dispreggiata</l>
+          <l>Adorerai ;</l>
+          <l>Lasciate i pianti</l>
+          <l>Scherniti amanti</l>
+          <l>E sia da voi crudel beltà negletta</l>
+          <l>Seruirà di remedio, ò di vendetta.</l>
+        </lg>
+      </div>
+
+      <!-- Acte premier - scène troisieme (it) -->
+
+      <div>
+        <head>SCENA TERZA.</head>
+        <label><name key="Thetis">Theti</name>. <name key="Jupiter">Giove</name>. <name key="Junon"
+            >Giunone</name>. <tech type="musique">Choro muto di <name key="Furie de la Jalousie"
+              >Furie della Gelosia</name></tech>.</label>
+        <lg xml:lang="it">
+          <l><name key="Thetis">Thet</name>. Per lo scampo dall’ ire</l>
+          <l>Del procelloso mar gioiste assai</l>
+          <l>Hor perch’ io meglio udire</l>
+          <l>Possa un pensier, che favellando meco</l>
+          <l>Ad ogn’ altro pensier spesso m’invola</l>
+          <l>Lasciatemi qui sola,</l>
+          <l>Che sarà di tè moi core ?</l>
+          <l>Ahi ch’ amore</l>
+          <l>Gia ti pon l’infidie ohimè</l>
+          <l>Che sarà di tè moi core</l>
+          <l>Che farà di tè ?</l>
+          <l>E gli ha feco altieri vanti</l>
+          <l>Preghi e pianti</l>
+          <l>Vezzi, &amp; armi g’ogni sorte.</l>
+          <l>Pur tù sei di lui più forte</l>
+          <l>Ma se à lui s’unisce, oh <name key="Divinité">Dio</name>,</l>
+          <l>Un fesio, ch’in questo seno</l>
+          <l>Di ragion stancando il freno</l>
+          <l>Debil rende il tuo valore</l>
+          <l>Che farà di tè moi core ?</l>
+        </lg>
+        <lg xml:lang="it">
+          <l><name key="Jupiter">Giou</name>. E che mi val’ il Ciel senza il moi bene ?</l>
+          <l>Come al’ hora in ottima sostanza</l>
+          <l>Degenerar in pessima si vede</l>
+          <l>Cosi pur anche in sù l’eterea stanza</l>
+          <l>Con prodigio amoroso bog gi succede</l>
+          <l>Che le beate gioie</l>
+          <l>Per mè cangiate in noie</l>
+          <l>Sian peggio assai delle tartare e pense</l>
+          <l>E che mi val’il Ciel senza il moi bene ?</l>
+        </lg>
+      </div>
+
+      <div>
+        <pb n="13" xml:id="p13" facs="https://gallica.bnf.fr/ark:/12148/bpt6k15181986/f45.item"/>
+        <lg>
+          <l>Vous, Amans, quittez vostre deüil,</l>
+          <l>De ces beautez plaines d’orgueil</l>
+          <l>Mesprisez l’injuste puissance :</l>
+          <l>Que <name key="Amour">l’Amour</name> cede à la raison,</l>
+          <l>Vous trouverez vostre vengeance</l>
+          <l>En cherchant vostre guerison. </l>
+        </lg>
+      </div>
+      <!-- Acte premier - scene troisieme (fr) -->
+
+      <div>
+        <head>SCENE TROISIESME.</head>
+        <label><name key="Thetis">Thetis</name>. <name key="Jupiter">Jupiter</name>. <name
+            key="Junon">Junon</name>. <tech type="musique">Chœur de <name
+              key="Furies de la Jalousie">furies</name></tech>.</label>
+
+        <p><name key="Thetis">Thethis</name>.</p>
+        <lg>
+          <l> C’Est assez, mes Amis, laissez-moy je vous prie,</l>
+          <l>M’entretenir icy dedans ma resverie.</l>
+        </lg>
+
+        <p><note>[Les <name key="Pescheurs de Corail">pescheurs</name> se retirent.]</note></p>
+        <lg>
+          <l>Helas ! Que feras-tu, mon cœur,</l>
+          <l>Amour tasche de te surprendre ?</l>
+          <l>Comment te pourras-tu deffendre</l>
+          <l>Contre ce <name key="Divinité">Dieu</name> toujours vainqueur ?</l>
+          <l>Rien n’est esgal à sa valeur,</l>
+          <l>Il a de toutes sortes d’armes,</l>
+          <l>Des pleurs, des pierres, des charmes,</l>
+          <l>Helas ! Que feras-tu, mon cœur ?</l>
+        </lg>
+        <lg>
+          <l>Mais plus que ses appas &amp; plus que sa puissance</l>
+          <l>Je crains qu’avecque luy des-ja d’intelligence</l>
+          <l>Quelque desir ardent ait pris place chez toy,</l>
+          <l>Qui s’y rende le Maistre &amp; te donne la loy.</l>
+        </lg>
+
+        <p><name key="Jupiter">Jupiter</name>.</p>
+        <lg>
+          <l>Que me sert de regner en ce celestre Empire,</l>
+          <l>Si je ne puis joüyr du seul bien où j’aspire ?</l>
+          <l>Dans la gloire des dieux &amp; leurs contentemens</l>
+          <l>Mon cœur ne trouve plus qu’ennuis &amp; que tourmens,</l>
+          <l>Et <name key="Jupiter">Monarque du Ciel</name> au milieu des delices</l>
+          <l>J’esprouve des Enfers les plus rudes supplices :</l>
+        </lg>
+      </div>
+
+      <div>
+        <pb n="14" xml:id="p14" facs="https://gallica.bnf.fr/ark:/12148/bpt6k15181986/f46.item"/>
+        <lg xml:lang="it">
+          <l>E tu sola, ò bella <name key="Thetis">Theti</name>,</l>
+          <l>Fai soggetto à tal suentura</l>
+          <l>Chi suol dar legge à i Pianeti,</l>
+          <l>E può solo il tuo sembiante</l>
+          <l>Far veder’ in tant’ arsura</l>
+          <l>Fulminato il <name key="Divinité">Dio</name> tonante.</l>
+          <l>Mà vieni, omai deh vieni</l>
+          <l>A ricondur sù queste sfere il riso,</l>
+          <l>A ravvivar le gioie in Paradiso.</l>
+          <l>Vieni Bella.</l>
+        </lg>
+        <lg xml:lang="it">
+          <l><name key="Thetis">Thet</name>. O questo nò.</l>
+        </lg>
+        <lg xml:lang="it">
+          <l><name key="Jupiter">Gio</name>. Vieni à parte del moi Throno</l>
+          <l>Ch’Imenèo già t’offre in dono</l>
+          <l>Quell’ Impèro, ch’ amor ti destinò,</l>
+          <l>Bella vieni.</l>
+        </lg>
+        <lg xml:lang="it">
+          <l><name key="Thetis">Th</name>. O questo nò.</l>
+          <l>Non fia per fort’ alcuna</l>
+          <l>Chi’ io sia mai si rubbella</l>
+          <l>Ch’ oltraggi renda al <placeName>Talamo</placeName> di quella,</l>
+          <l>Che già gratie versò sù la mia Cuna.</l>
+          <l>Più tosto gradirei gir nell’ Inferne</l>
+          <l>Regioni di morte, ou’ arde <name key="Pluton">Pluto</name>,</l>
+          <l>Che le delitie eterne,</l>
+          <l>S’ingrata hò da goderle, io le rifiuto.</l>
+        </lg>
+        <lg xml:lang="it">
+          <l><name key="Jupiter">Gio</name>. E per lieve rispetto</l>
+          <l>D’immaginate leggi haurò à s’offrire,</l>
+          <l>Che sia schernito il moi divino affetto ?</l>
+          <l>E ch’io contr’ ogni legge habbia à languire ?</l>
+          <l>Ah che la forz’ è d’uopo</l>
+          <l>Per levar me d’affanni, e te’ d’errori</l>
+          <l>Che dia rimedio, e fine</l>
+          <l>Alle tue scuse infieme, e à i miei dolori,</l>
+          <l>Nembi rapite.</l>
+        </lg>
+        <lg xml:lang="it">
+          <l><name key="Thetis">The</name>. Ohime.</l>
+        </lg>
+        <lg xml:lang="it">
+          <l><name key="Jupiter">Gio</name>. Chi l’alma.</l>
+        </lg>
+        <lg xml:lang="it">
+          <l><name key="Thetis">The</name>. Ahi.</l>
+        </lg>
+        <lg xml:lang="it">
+          <l><name key="Jupiter">Gio</name>. Mi rapi ?</l>
+        </lg>
+        <lg xml:lang="it">
+          <l><name key="Thetis">The</name>. Achi chi’ m’aita ?</l>
+        </lg>
+        <lg xml:lang="it">
+          <l><name key="Jupiter">Gio</name>. E chi ?</l>
+          <l>Ti può ritorre à mè ?</l>
+        </lg>
+      </div>
+
+      <div>
+        <pb n="15" xml:id="p15" facs="https://gallica.bnf.fr/ark:/12148/bpt6k15181986/f47.item"/>
+        <lg>
+          <l>Et toy seule, ô <name key="Thetis">Thetis</name> ! Rends sujet à ces maux</l>
+          <l>Un dieu dont tous les dieux ne sont que les vassaux ;</l>
+          <l>Et tu peux faire voir en mon ardeur extrême</l>
+          <l>Que qui lance la foudre est foudroyé luy-mesme :</l>
+          <l>Viens rendre aux Cieux, viens rendre à mon cœur agité</l>
+          <l>La joye &amp; le repos que tu leur as osté :</l>
+          <l>Viens au Ciel partager ma gloire &amp; ma couronne,</l>
+          <l>Et consens qu’aujourd’huy le <name key="Hymen">Dieu d’Hymen</name> te donne</l>
+          <l>Ce haut rang qu’en secret mon amour &amp; ma foy</l>
+          <l>Avoient depuis long-temps jugé digne de toy.</l>
+        </lg>
+        <p><name key="Thetis">Thetis</name>.</p>
+        <lg>
+          <l>Je conserve, <name key="">Seigneur</name>, trop de recognoissance</l>
+          <!-- Qui est nommé par Seigneur ? -->
+          <l>Des bontez dont <name key="Junon">Junon</name> honora mon enfance,</l>
+          <l>Pour oser maintenant par un lasche attentat</l>
+          <l>Envahir à ses yeux son lict &amp; son estat ;</l>
+          <l>Et je fuy la grandeur ou ta faveur m’appelle,</l>
+          <l>Si je n’en puis jouyr qu’ingrate &amp; criminelle.</l>
+        </lg>
+
+        <p><name key="Jupiter">Jupiter</name>.</p>
+        <lg>
+          <l>Un pretexte leger d’imaginaires loix</l>
+          <l>Fera donc mespriser mon amour &amp; mon chois :</l>
+          <l>Pour te desabuser &amp; me tirer de peine,</l>
+          <l>Il faut user de force ou la raison est vaine.</l>
+        </lg>
+
+        <p><name key="Thetis">Thetis</name>.</p>
+        <lg>
+          <l>A mon secours, <name key="Pescheurs de Corail">Pescheurs</name>,</l>
+        </lg>
+        <p><name key="Jupiter">Jupiter</name>.</p>
+        <lg>
+          <l><name key="Thetis">Nymphe</name>, qui des humains</l>
+          <l>Seroit assez puissant pour t’oster de mes mains.</l>
+        </lg>
+      </div>
+
+      <div>
+        <pb n="16" xml:id="p16" facs="https://gallica.bnf.fr/ark:/12148/bpt6k15181986/f48.item"/>
+        <lg xml:lang="it">
+          <l><name key="Junon">Giu</name>. Ah perfido così</l>
+          <l>Mancarmi ogn’ hor di fé ?</l>
+          <l>Ah poich’ in <name key="Ciel">Ciel</name> non trovo</l>
+          <l>Ne pietà ne giustitia apresi il suolo,</l>
+          <l>E vomiti l’Abbisso in moi soccorso</l>
+          <l>Di scatenate furie horrido stuolo.</l>
+          <l>Sù, sù, di Gelofia Mostri accorrecte,</l>
+          <l>E se per colpa di costui mai sempre</l>
+          <l> Mi riovaste al cor doglia infinita</l>
+          <l>Porgetemi una volta</l>
+          <l>Contro di lui vendicatrice aita.</l>
+        </lg>
+
+        <lg xml:lang="it">
+          <l><name key="Jupiter">Gio</name>. Adio cara Beltà</l>
+          <l>Dolce mia <name key="Thetis">Theti</name>, adio,</l>
+          <l>Io parto Idolo mio</l>
+          <l>Mà non ti lascio già.</l>
+        </lg>
+
+        <lg xml:lang="it">
+          <l><name key="Thetis">The</name>. Sol pietà chiedo, o Diva, e non perdono,</l>
+          <l>Che suenturata sì, mà rea non sono.</l>
+        </lg>
+
+        <lg xml:lang="it">
+          <l><name key="Junon">Giu</name>. Ne crime, ne suentura è mai d’un’ alma</l>
+          <l>Trar da pugna maggior più nobil Palma.</l>
+        </lg>
+
+        <lg>
+          <l><name key="Thetis">The</name>. <name key="Junon">Giu</name>. Grat’ affetto,</l>
+          <l>Un gentil petto,</l>
+          <l>Vero preggio è di virtù</l>
+          <l>Che qual’ hor delle gratie è pur riflesso</l>
+          <l>D’ogni Tesor val più,</l>
+          <l>E sol di lui s’appaga il <name key="Ciel">Ciel</name>’ istesso.</l>
+        </lg>
+      </div>
+
+      <!-- Deuxième Acte - scène première (it) -->
+      <div>
+        <head>ATTO SECONDO.</head>
+        <head>SCENA PRIMA.</head>
+        <label><name key="Pelée">Peléo</name>. <name key="Promethée">Prometeo</name>. <tech
+            type="musique">Choro muto <name key="Hommes et Femmes sauvages">d’Huomini, e Donne
+              salvatici.</name></tech></label>
+
+        <lg xml:lang="it">
+          <l><name key="Pelée">Peléo</name>.</l>
+          <l>OH <name key="Promethée">Prometeo</name> infelice</l>
+          <l>Qual sei di mie sventure</l>
+          <l>Somiglianza dolente.</l>
+        </lg>
+        <lg xml:lang="it">
+          <l><name key="Promethée">Pro</name>. Ahi chi ciò dice ?</l>
+        </lg>
+        <lg xml:lang="it">
+          <l><name key="Pelée">Pel</name>. <name key="Pelée">Pelée</name> Ré di Tessaglia</l>
+          <l>Che te ne falli, e nelle pene aguaglia.</l>
+        </lg>
+      </div>
+
+      <div>
+        <pb n="17" xml:id="p17" facs="https://gallica.bnf.fr/ark:/12148/bpt6k15181986/f49.item"/>
+        <p><name key="Junon">Junon</name>.</p>
+        <lg>
+          <l>Perfide, quoy toujours quelque intrigue nouvelle</l>
+          <l>Soüille de nostre hymen l’alliance immortelle ?</l>
+          <l>Si le <name key="Ciel">Ciel</name> &amp; les <name key="Divinité">Dieux</name> en mon
+            affiction</l>
+          <l>Demeurant sans Justice &amp; sans compassion :</l>
+          <l>Sortez, horribles sœurs, du profond des abismes ;</l>
+          <l>Venez me secourir &amp; vanger tant de crimes :</l>
+          <l>Toy terreur des humains de qui cent fois mon cœur</l>
+          <l>Pour cet ingrat espoux esprouva la fureur ;</l>
+          <l>Jalousie, une fois à mes desirs propice,</l>
+          <l>De ce grand criminel viens me faire Justice.</l>
+        </lg>
+
+        <lg>
+          <l><name key="Jupiter">Jupiter</name>.</l>
+          <l>Digne objet de mes vœux, belle <name key="Thetis">Thetis</name>, adieu</l>
+          <l>Je te quitte ; mais croy qu’en partant de ce lieu</l>
+          <l>Mon esprit amoureux malgré ta resistance,</l>
+          <l>Se flattera souvent de ta douce presence.</l>
+        </lg>
+
+
+        <p><name key="Thetis">Thetis</name>.</p>
+        <lg>
+          <l><name key="Junon">Déesse</name> j’ay besoin de ta compassion</l>
+          <l>Plus que de ta clemence en cette occasion,</l>
+          <l>Et quoy qu’ait entrepris ton espoux infidelle,</l>
+          <l>Je me croy malheureuse &amp; non pas criminelle.</l>
+        </lg>
+
+        <p><name key="Junon">Junon</name>.</p>
+        <lg>
+          <l>Sortir d’un tel combat avec tant d’honneur,</l>
+          <l>Ne se doit appeler ny crime ny malheur.</l>
+        </lg>
+
+        <p><name key="Thetis">Thetis</name> &amp; <name key="Junon">Junon.</name></p>
+        <lg>
+          <l>L’ornement de grands cœurs c’est la recognoissance,</l>
+          <l>C’est des hautes vertus la digne recompence,</l>
+          <l>C’est pour tant de bien-faits versez à plaine-mains,</l>
+          <l>Ce que les immortels demandent aux humains.</l>
+        </lg>
+      </div>
+
+      <div>
+        <!-- Acte second - scène première (fr) -->
+        <head>ACTE SECOND.</head>
+        <head>SCENE PREMIERE.</head>
+        <label><name key="Pelée">Pelée</name>. <name key="Promethée">Promethée</name>. <tech
+            type="musique">Chœur <name key="Hommes et Femmes sauvages">d’Hommes &amp; de femmes
+              sauvages</name></tech>.</label>
+
+        <p><name key="Pelée">Pelée</name>.</p>
+        <lg>
+          <l> HElas ! Que dans ton fort, malheureux <name key="Promethée">Promethée</name> ;</l>
+          <l>L’infortune où je suis est bien representée !</l>
+          <l><name key="Promethée">Promethée</name>.</l>
+          <l>Qui me tiens ce discours ?</l>
+        </lg>
+      </div>
+
+      <div>
+        <pb n="18" xml:id="p18" facs="https://gallica.bnf.fr/ark:/12148/bpt6k15181986/f50.item"/>
+        <lg xml:lang="it">
+          <l><name key="Promethée">Pro</name>. Dal sole ahi troppo audace il foco io presi.</l>
+        </lg>
+        <lg xml:lang="it">
+          <l><name key="Pelée">Pel</name>. Et io di <name key="Thetis">Theti</name> à i rai l’anima
+            accesi.</l>
+        </lg>
+        <lg xml:lang="it">
+          <l><name key="Promethée">Pro</name>. Mercè di <name key="Jupiter">Giove</name>.</l>
+        </lg>
+        <lg xml:lang="it">
+          <l><name key="Pelée">Pel</name>. E sua merced’ ancòra.</l>
+        </lg>
+        <lg xml:lang="it">
+          <l><name key="Promethée">Pro</name>. Me trassigge con doglia ogn’ hor più ria</l>
+          <l>Questo vorace augel.</l>
+        </lg>
+        <lg xml:lang="it">
+          <l><name key="Pelée">Pel</name>. Mà Gelosia.</l>
+        </lg>
+        <lg xml:lang="it">
+          <l><name key="Promethée">Pro</name>. Mi per tè pur s’aggira</l>
+          <l>Qualch’ aura di speranza.</l>
+        </lg>
+        <lg xml:lang="it">
+          <l><name key="Pelée">Pel</name>. E donde spira ?</l>
+        </lg>
+        <lg xml:lang="it">
+          <l><name key="Promethée">Pro</name>. Di quà.</l>
+        </lg>
+        <lg xml:lang="it">
+          <l><name key="Pelée">Pel</name>. Come ?</l>
+        </lg>
+        <lg xml:lang="it">
+          <l><name key="Promethée">Pro</name>. (Ahi dolor)</l>
+        </lg>
+        <lg xml:lang="it">
+          <l><name key="Pelée">Pel</name>. Stratij crudeli</l>
+          <l>Tanta tregua à lui date</l>
+          <l>Ch’almen quatche conforto à me riveli.</l>
+        </lg>
+        <lg xml:lang="it">
+          <l><name key="Promethée">Pro</name>. Di Maia figlio (ahi ahi)</l>
+          <l>Si fatte Note hor hora</l>
+          <l>Della Cortina Delfica narrai,</l>
+          <l>Che già credo il Tonante</l>
+          <l>Ambitioso al fin viè più, ch’amante.</l>
+          <l>Riniega la Beltà che l’innamora.</l>
+        </lg>
+        <lg xml:lang="it">
+          <l><name key="Pelée">Pel</name>. E sè ciò fia mi basta.</l>
+          <l>Spera cor moi deh spera</l>
+          <l>Che Donna ancor che fera</l>
+          <l>Se da un solo è seguita in van contrasta.</l>
+        </lg>
+        <lg xml:lang="it">
+          <l><name key="Promethée">Pro</name>. Sì, sì, torna colà</l>
+          <l>Dove lasciasti il core</l>
+          <l>E troverasti pietà</l>
+          <l>Nell’ imprese d’amore</l>
+          <l>Chi sà piangere à tempo oh quanto fà.</l>
+        </lg>
+        <lg xml:lang="it">
+          <l><name key="Pelée">Pel</name>. Deh che ti renda il <name key="Ciel">Ciel</name></l>
+          <l>Mercè di tal ristoro.</l>
+        </lg>
+      </div>
+
+      <div>
+        <pb n="19" xml:id="p19" facs="https://gallica.bnf.fr/ark:/12148/bpt6k15181986/f19.item"/>
+
+        <p><name key="Pelée">Pelée.</name></p>
+        <lg>
+          <l>C’est <name key="Pelée">Pelée</name>, c’est moy,</l>
+          <l>Qui pour avoir autant ou plus osé que toy</l>
+          <l>Suis aussi tourmenté d’un semblable supplice.</l>
+        </lg>
+
+        <p><name key="Promethée">Promethée.</name></p>
+        <lg>
+          <l>Moy, par un sacrilege &amp; dangereux caprice</l>
+          <l>J’ay pris des feux sacrez du bel Astre du jour</l>
+        </lg>
+
+        <p><name key="Pelée">Pelée.</name></p>
+        <lg>
+          <l>Des beaux yeux de <name key="Thetis">Thetis</name>, moy j’ay pris de l’amour.</l>
+        </lg>
+
+        <p><name key="Promethée">Promethée</name>.</p>
+        <lg>
+          <l>Le puissant <name key="Jupiter">Jupiter</name> irrité de mon crime</l>
+          <l>M’a fait de cet oyseau l’éternelle victime.</l>
+        </lg>
+
+        <p><name key="Pelée">Pelée.</name></p>
+        <lg>
+          <l>Son amour que je crains autant que son courrou</l>
+          <l>M’a fait bien plus de mal en me faisant jaloux.</l>
+        </lg>
+
+        <p><name key="Promethée">Promethée</name>.</p>
+        <lg>
+          <l>Encor en ton malheur je voy quelque esperance.</l>
+        </lg>
+
+        <p><name key="Pelée">Pelée.</name></p>
+        <lg>
+          <l>Qu’elle est-elle ?</l>
+        </lg>
+
+        <p><name key="Promethée">Promethée.</name></p>
+        <lg>
+          <l><name key="Mercure">Mercure</name>, ah !</l>
+        </lg>
+
+        <p><name key="Pelée">Pelée.</name></p>
+        <lg>
+          <l>Cruelle souffrance</l>
+          <l>Donne à ce malheureux au moins assez de temps</l>
+          <l>Pour pouvoir reveler ses secrets importans :</l>
+          <l>Dis donc ?</l>
+        </lg>
+
+        <p><name key="Promethée">Promethée.</name></p>
+        <lg>
+          <l>Je viens d’aprendre un Oracle à <name key="Mercure">Mercure</name>.</l>
+          <l>Qui te mettra bien-tost en meilleure posture :</l>
+          <l>Ton superbe Rival vaincra sa passion,</l>
+          <l>Sçachant qu’elle peut nuire a son ambition.</l>
+        </lg>
+
+        <p><name key="Pelée">Pelée.</name></p>
+        <lg>
+          <l>Si ce discours est vray, que la pitié t’inspire,</l>
+          <l>Je verray quelque jour la fin de mon martire : </l>
+          <l>Car une femme, enfin, qui n’a qu’un seul amant,</l>
+          <l>Pour fiere qu’elle soit s’en deffend vainement.</l>
+        </lg>
+
+        <p><name key="Promethée">Promethée</name>.</p>
+        <lg>
+          <l><name key="Thetis">Thetis</name> à ton abord va mettre bas les armes ;</l>
+          <l>Va te plaindre à ses pieds, va les baigner de larmes :</l>
+          <l>O Dieux ! Qu’un peu de pleurs (à qui prend bien son temps)</l>
+          <l>Pour attendrir un cœur sont des charmes puissans.</l>
+        </lg>
+
+        <p><name key="Pelée">Pelée.</name></p>
+        <lg>
+          <l>Que des <name key="Divinité">Dieux</name> immortels l’adorable <name key="Justice"
+              >Justice</name></l>
+          <l>Daigne recompenser ce charitable office.</l>
+        </lg>
+      </div>
+
+      <div>
+        <pb n="20" xml:id="p20" facs="https://gallica.bnf.fr/ark:/12148/bpt6k15181986/f52.item"/>
+        <lg xml:lang="it">
+          <l><name key="Prométhée">Pro</name>. Forse’ ch’ al mio martoro</l>
+          <l>Sarrà pur men crudel.</l>
+        </lg>
+
+        <lg xml:lang="it">
+          <l><name key="Prométhée">Pro</name>. <name key="Pelée">Pel</name>. Speme pietosa, e
+            cara</l>
+          <l>Come sei dolce (ob Dio)</l>
+          <l>Tù fai porre in oblio</l>
+          <l>Ogni sorte più amara,</l>
+          <l>E a tè si chiud’ Averno</l>
+          <l>Per non scemar di duolo.</l>
+          <l>Ch’à un tuo respiro solo</l>
+          <l>S’addolciria, s’ammorseria l’Inferno.</l>
+        </lg>
+
+        <lg xml:lang="it">
+          <l><name key="Pelée">Pel</name>. E voi, che quà mi foste amiche scorte,</l>
+          <l>Già che ne cor, benche seluaggi, il varco</l>
+          <l>Alla pietà de nostri guai cedete,</l>
+          <l>Delle nostre speranze anche godete.</l>
+        </lg>
+      </div>
+
+      <div>
+        <head>SCENA SECONDA.</head>
+        <label><name key="Jupiter">Giove</name>. <name key="Mercure">Mercurio</name>. <tech
+            type="musique">Choro muto di <name key="Driade">Driadi</name></tech>.</label>
+
+        <p><name key="Jupiter">Giove</name>.</p>
+        <lg xml:lang="it">
+          <l> QVa ! su l’Oracol dunque ? Onde paventi,</l>
+          <l>Ch’io soggiaccia per <name key="Thetis">Theti</name> à grand periglio.</l>
+        </lg>
+
+        <lg xml:lang="it">
+          <l><name key="Mercure">Mer</name>. D’<name key="Apollon">Appollo </name>in Delfo tali fur
+            gl’accenti,</l>
+          <l>Fia del Padre maggior di <name key="Thetis">Theti</name> il Figlio.</l>
+        </lg>
+
+        <lg xml:lang="it">
+          <l><name key="Jupiter">Gio</name>. Et ardiriano i Fati</l>
+          <l>Qual già propitij, hor meco avversi, &amp; empi</l>
+          <l>Rinouar di <name key="Saturne">Saturno</name> in me’ gl’ esempi ?</l>
+        </lg>
+
+        <lg xml:lang="it">
+          <l><name key="Mercure">Mer</name>. Ciò che <name key="Promethée">Prometeo</name>, &amp;
+            altri à mè narraro</l>
+          <l>Non è meno infallibile, che chiaro.</l>
+        </lg>
+
+        <lg xml:lang="it">
+          <l><name key="Jupiter">Gio</name>. Dunque che sar degg’ io ? Lasciar d’amare ?</l>
+          <l>O lasciar di regnare ?</l>
+        </lg>
+
+        <lg xml:lang="it">
+          <l><name key="Mercure">Mer</name>. Qual à più tuo desire</l>
+          <l>Dominare, ò seruire ?</l>
+        </lg>
+
+        <lg xml:lang="it">
+          <l><name key="Jupiter">Gio</name>. D’amor la servitù</l>
+          <l>D’ogni impéro val più,</l>
+          <l>E l’amoroso adore</l>
+          <l>Ah che più d’ogni ben content un core.</l>
+        </lg>
+      </div>
+
+      <div>
+        <pb n="21" xml:id="p21" facs="https://gallica.bnf.fr/ark:/12148/bpt6k15181986/f53.item"/>
+
+        <p><name key="Promethée">Promethée</name>.</p>
+        <lg>
+          <l>Peu-estre satisfait apres tant de douleur,</l>
+          <l>Le <name key="Ciel">Ciel</name> me va traitter avec moins de rigueur.</l>
+        </lg>
+
+        <p><name key="Pelée">Pelée</name> &amp; <name key="Promethée">Promethée</name>.</p>
+        <lg>
+          <l>Charme des plus grands maux, secourable esperance,</l>
+          <l>Qui suis les malheureux avec tant de constance,</l>
+          <l>Et leur fais oublier leur tourmens &amp; leur fers,</l>
+          <l>Les <name key="Divinité">Dieux</name> avec raison t’ont fermé les Enfers :</l>
+          <l>Car d’un soufle éteignant les flammes eternelles</l>
+          <l>Tu rendrois le repos aux ames criminelles.</l>
+        </lg>
+
+        <p><name key="Pelée">Pelée</name> parlant aux <name key="Hommes et Femmes sauvages"
+            >sauvages</name>.</p>
+        <lg>
+          <l>Et vous qui prenant part à mon triste soucy,</l>
+          <l>Avez eu la bonté de m’amener icy,</l>
+          <l>Prenez part maintenant à la réjoüyssance</l>
+          <l>Que me cause des-ja cette douce esperance.</l>
+        </lg>
+
+      </div>
+
+      <div>
+        <head>SCENE DEUXIESME.</head>
+        <label><name key="Jupiter">Jupiter</name>. <name key="Mercure">Mercure</name>. <tech>Chœur
+            de</tech>
+          <name key="Driades">Driades</name>.</label>
+
+        <p><name key="Jupiter">Jupiter</name>.</p>
+        <lg>
+          <l>QUel est donc cet Oracle ? &amp; pourquoy Jupiter</l>
+          <l>Des nopces de <name key="Thetis">Thetis</name> doit-il tant redouter ?</l>
+        </lg>
+
+        <p><name key="Mercure">Mercure</name>.</p>
+        <lg>
+          <l>Voicy les propres mots : belle <name key="Thetis">Thetis</name> espere,</l>
+          <l>Que ton fils deviendra plus puissant que son pere.</l>
+        </lg>
+
+        <p><name key="Jupiter">Jupiter</name>.</p>
+        <lg>
+          <l>Le destin croiroit donc qu’il luy seroit permis</l>
+          <l>De m’abbatre du throsne où luy-mesme m’a mis,</l>
+          <l>Et par une entreprise impie &amp; temeraire,</l>
+          <l>Renouveller en moy l’exemple de mon Pere.</l>
+        </lg>
+
+        <p><name key="Mercure">Mercure.</name></p>
+        <lg>
+          <l>Cet Oracle est de <name key="Delphe">Delphe</name> &amp; sans obscurité.</l>
+        </lg>
+
+        <p><name key="Jupiter">Jupiter</name>.</p>
+        <lg>
+          <l><name key="Mercure">Mercure</name>, que ferais-je en cette extremité ?</l>
+          <l>Dois-je perdre <name key="Thetis">Thethis</name>, ou perdre ma couronne ?</l>
+        </lg>
+
+        <p><name key="Mercure">Mercure</name>.</p>
+        <lg>
+          <l>De ce doute, <name key="Seigneur">Seigneur</name>, souffrez que je m’estonne,</l>
+          <l>Servir ou commander ?</l>
+        </lg>
+
+        <p><name key="Jupiter">Jupiter</name>.</p>
+        <lg>
+          <l>Ouy, <name key="Mercure">Mercure</name>, il vaut mieux</l>
+          <l>Obeïr à <name key="Thetis">Thetis</name>, que commander aux <name key="Divinités"
+              >Dieux</name>,</l>
+          <l>Et ces aymables maux où <name key="Amour">l’Amour</name> nous expose,</l>
+          <l>Valent mieux que les biens dont le destin dispose.</l>
+        </lg>
+      </div>
+
+      <div>
+        <pb n="22" xml:id="p22" facs="https://gallica.bnf.fr/ark:/12148/bpt6k15181986/f54.item"/>
+        <lg xml:lang="it">
+          <l><name key="Mercure">Mer</name>. Son follie de mortali,</l>
+          <l>Che per scherzar con le miserie loro</l>
+          <l>Di finto ben van mascherando i mali.</l>
+          <l>Mà tu, che sù le sfere</l>
+          <l>Signoreggi le vere</l>
+          <l>Felicità, deh non voler soffrire</l>
+          <l>Ch’ un Fanciul menzognier te pure inganni,</l>
+          <l>E trà le proue sue vanti ì tuoi danni.</l>
+          <l>Quando <name key="Thetis">Theti</name> à te manchi</l>
+          <l>Mancan Dive per far cambio più degno</l>
+          <l>Di più leggiadro aspetto, e più gentile ?</l>
+          <l>Mà sè per lei del Ciel tu perdi il Regno,</l>
+          <l>Doue più troverai scttro simìle ?</l>
+        </lg>
+
+        <lg xml:lang="it">
+          <l><name key="Jupiter">Gio</name>. Saggiamente favelli</l>
+          <l>Onde il moi cor benchè mal volontieri,</l>
+          <l>Forz’è pur che consenta a i tuoi pensieri.</l>
+        </lg>
+
+        <lg xml:lang="it">
+          <l><name key="Mercure">Mer</name>. Ne da tè si portrìa</l>
+          <l>Sperar’ in tal’ ardor contento alcuno ;</l>
+          <l>Mentre del pari ò disdegnosa, ò ria</l>
+          <l>Ti fugge <name key="Thetis">Theti</name>, e ti persegue <name key="Junon"
+            >Giuno.</name></l>
+          <l>E poi per un’ Marito,</l>
+          <l>Che d’altro stral che d’Imenèo ferito</l>
+          <l>Porti pur’altra al pie’ dura catena</l>
+          <l>Une Moglie gelosa e’ una grand pena.</l>
+        </lg>
+
+        <lg xml:lang="it">
+          <l><name key="Jupiter">Gio</name>. È ver, ne ben sicuro</l>
+          <l>Son da sue furie in sì romìta parte.</l>
+        </lg>
+
+        <lg>
+          <l><name key="Mercure">Mer</name>. Certo, per ritrouarte</l>
+          <l>Ella già scorre i luminosi sospiri.</l>
+          <l>E turba tutt’il <name key="Ciel">Ciel</name> co’ suoi sospiri.</l>
+        </lg>
+
+        <lg xml:lang="it">
+          <l><name key="Jupiter">Gio</name>. <name key="Dryades">Driadi</name> belle
+            festeggiate.</l>
+          <l>La mia noua libertà ;</l>
+          <l>Sù scherzate, sù danzate,</l>
+          <l>Ch’il moi cor pur così fà</l>
+          <l>Per l’insidie c’chà scampate</l>
+          <l>D’empiò destino, e di crudel Beltà.</l>
+          <l><name key="Dryades">Driadi</name> belle festeggiate</l>
+          <l>La mia noua libertà.</l>
+        </lg>
+      </div>
+
+      <div>
+        <pb n="23" xml:id="p23" facs="https://gallica.bnf.fr/ark:/12148/bpt6k15181986/f55.item"/>
+        <p><name key="Mercure">Mercure</name>.</p>
+        <lg>
+          <l>Ces discours aux mortels, doivent estre permis,</l>
+          <l>Qui pour charmer les maux ausquels ils sont soûmis,</l>
+          <l>Leur ont donné du bien le nom &amp; l’apparence ;</l>
+          <l>Mais toy, qui du vray bien te vois en joüyssance,</l>
+          <l>Faut-il qu’<name key="Amour">Amour </name>te trompe ? &amp; soumis à ses <name
+              key="Loix">Loix</name></l>
+          <l>Veux-tu voir ta deffaite au rang de ses exploits ?</l>
+          <l>Quand tu perdrois <name key="Thetis">Thetis</name>, qui te paroist si belle,</l>
+          <l>On en peut rencontrer qui te plairont plus qu’elle ;</l>
+          <l>Tant de <name key="Nymphes">Nymphes</name>, <name key="Seigneur">Seigneur</name>, &amp;
+            de <name key="Divinités">divinitez</name>,</l>
+          <l>Estalent à tes yeux de plus grandes beautez :</l>
+          <l>Mais helas ! Si tu pers ce sacré diadesme,</l>
+          <l>Où pourras-tu jamais en trouver un de mesme ?</l>
+        </lg>
+
+        <p><name key="Jupiter">Jupiter</name>.</p>
+        <lg>
+          <l>Ton discours est prudent, &amp; quoy qu’avec douleur,</l>
+          <l>Il faut à tes raisons assubjetir mon cœur.</l>
+        </lg>
+
+        <p><name key="Mercure">Mercure</name>.</p>
+        <lg>
+          <l>Et je ne sçay d’ailleurs comme iroient tes affaires,</l>
+          <l>Pendant qu’esgalement à tes desirs contraires</l>
+          <l>Et <name key="Thetis">Thetis</name> &amp; <name key="Junon">Junon</name> se voudront
+            accorder,</l>
+          <l>L’une à se bien deffendre, &amp; l’autre à te garder :</l>
+          <l>Pour un mary galand, qu’on le fuye ou qu’on l’ayme,</l>
+          <l>Une femme jalouse est une peine extrême.</l>
+        </lg>
+
+        <p><name key="Jupiter">Jupiter</name>.</p>
+        <lg>
+          <l>Je ne le sens que trop, &amp; mesme en ce desert</l>
+          <l>Des fureurs de <name key="Junon">Junon</name> me tiens mal à couvert.</l>
+        </lg>
+
+        <p><name key="Mercure">Mercure</name>.</p>
+        <lg>
+          <l>Sans toute elle te cherche, &amp; ses plaintes ameres</l>
+          <l>Auront des-ja troublé toutes les Spheres.</l>
+        </lg>
+
+        <p><name key="Jupiter">Jupiter</name>.</p>
+        <lg>
+          <l>Va donc par tous les Cieux publier promptement</l>
+          <l>Quel est de mes desirs le subit changement.</l>
+          <l>Va.</l>
+        </lg>
+
+        <p><name key="Mercure">Mercure</name>.</p>
+        <lg>
+          <l><name key="Seigneur">Seigneur</name>, j’obeis.</l>
+        </lg>
+
+        <p><name key="Jupiter">Jupiter</name>.</p>
+        <lg>
+          <l>Dans le plaisir extrême</l>
+          <l>Que je sens d’estre libre &amp; maistre de moy-mesme,</l>
+          <l>Et d’avoir esvité par un coup genereux</l>
+          <l>D’<name key="Amour">Amour</name> &amp; du destin le dessein dangereux :</l>
+          <l>Avec vos chants, vos jeux, vos ris &amp; vostre dance,</l>
+          <l>Driades, prenez part à ma réjouyssance.</l>
+        </lg>
+      </div>
+
+      <!-- Scène troisième -->
+      <div>
+        <pb n="24" xml:id="p24" facs="https://gallica.bnf.fr/ark:/12148/bpt6k15181986/f56.item"/>
+        <head>SCENA TERZA.</head>
+        <label><tech type="musique">Chrono di <name key="Sacrificateurs"
+            >sacerdoti</name></tech><tech type="musique">.Choro muto di <name key="Chevaliers"
+              >Cavalieri</name> giostranti.</tech></label>
+
+        <lg xml:lang="it">
+          <l><tech type="musique">Chrono di <name key="Sacrificateurs">sacerdoti</name></tech>.</l>
+          <l> NUme altero</l>
+          <l>D’ogn’ Impèro</l>
+          <l>Forte origine, e sostegno</l>
+          <l>Dalla Diva à cui sol cedi</l>
+          <l>Intercedi</l>
+          <l>Che <name key="Pelée">Peléo</name> torni al suo Regno,</l>
+          <l>Deh non sia giamai mancante</l>
+          <l>Tuo favor à un Duce amante ;</l>
+          <l>Mà Guerrieri se bramate</l>
+          <l>Far più gratte</l>
+          <l>Queste voici, incensi, e fochi</l>
+          <l>Aggiungete a i sacrifici</l>
+          <l>Vostri uffici</l>
+          <l>Con formar bellici giochi,</l>
+          <l>Delle trombe udite i carmi</l>
+          <label rend="i"><note>[Si Giostra.]</note></label>
+          <l>Sù Guerrieri all’ armi all’ armi</l>
+        </lg>
+
+        <p><tech type="musique">Uno del Chor.<name key="Sacrificateurs"> De
+          Sacerdoti.</name></tech></p>
+        <lg>
+          <l>Mà fermate, fermate,</l>
+          <l>Isoliti preludij, ecco già sento</l>
+          <l>Di qualche lieto Oracolo. Ascoltate.</l>
+        </lg>
+
+        <p xml:lang="it">L’Oracol. Torna il <name key="Pelée">Ré di Thessaglia</name> al fin
+          contento.</p>
+
+        <lg xml:lang="it">
+          <l><name key="Chiron">Ch</name>.di Sacerd. Oh Novella</l>
+          <l>Per noi bella</l>
+          <l>Più d’ogni altra felicità,</l>
+          <l>Dolce più del miele Iblèo.</l>
+          <l>Tornera dinque <name key="Pelée">Pelée</name>,</l>
+          <l>E <placeName>Tessaglia</placeName> respirerà :</l>
+          <l>O Novella</l>
+          <l>Per noi bella</l>
+          <l>Più di ogn’altra felicità.</l>
+        </lg>
+      </div>
+
+      <!-- Scène troisième -->
+      <div>
+        <pb n="25" xml:id="p25" facs="https://gallica.bnf.fr/ark:/12148/bpt6k15181986/f57.item"/>
+        <head>SCENE TROISIESME.</head>
+        <label><tech>Chœur de <name key="Sacrificateurs">Sacrificateurs</name></tech>.<tech>Chœur de
+              <name key="Chevaliers">Chevaliers</name>.</tech></label>
+
+        <p><tech>Chœur de</tech>
+          <name key="Sacrificateurs">Sacrificateurs</name>.</p>
+        <lg>
+          <l> PUissant <name key="Divinités">Dieu de la guerre</name>, arbitre des combats,</l>
+          <l>Toy dont la main conserve &amp; donne les estats,</l>
+          <l>Fais que cette beauté qui fleschit ton courage,</l>
+          <l>Cette seule <name key="Divinités">Déesse</name> à qui tu rends hommage,</l>
+          <l>Bien-tost de nostre <name key="Thetis">Roy</name> par un heureux retour</l>
+          <l>Finisse le voyage &amp; couronne l’<name key="Amour">Amour</name> :</l>
+          <l>L’on pourroit t’imputer a defaut de puissance,</l>
+          <l>Qu’un guerrier amoureux languit sans assistance :</l>
+          <l>Mais, braves Champions, pour rendre plus heureux</l>
+          <l>Nos vœux &amp; nos Autels, nostre encens &amp; nos feux,</l>
+          <l>Qu’en l’honneur de ce <name key="Divinités">Dieu</name> vostre adresse guerriere</l>
+          <l>S’exerce en sa presence au combat de barriere.</l>
+          <label>[L’on combat.]</label>
+        </lg>
+
+        <p><name key="Sacrificateurs">Un des Sacrificateurs.</name></p>
+        <lg>
+          <l>Nostre <name key="Divinités">Dieu</name> va parler, &amp; ce bruit que j’entens</l>
+          <l>Est un heureux presage : Escoutez, Combatans.</l>
+        </lg>
+
+        <p><tech>La Statuë de <name key="Mars">Mars</name>.</tech></p>
+        <lg>
+          <l>Vos vœux sont exaucez, &amp; bien-tost vostre <name>Prince</name></l>
+          <l>Reviendra satisfait gouverner sa Province.</l>
+        </lg>
+
+        <p><tech type="musique">Chœur de <name key="Sacrificateurs"
+          >Sacrificateurs</name>.</tech></p>
+        <lg>
+          <l>O jour cent fois heureux ! <name key="Pelée">Pelée</name> reviendra,</l>
+          <l>Son estat languissant enfin respirera.</l>
+        </lg>
+      </div>
+
+      <!-- Acte troisème - Scène première (it) -->
+      <div>
+        <pb n="26" xml:id="p26" facs="https://gallica.bnf.fr/ark:/12148/bpt6k15181986/f58.item"/>
+        <head>ATTO TERZO.</head>
+        <head>SCENA PRIMA.</head>
+        <label><name key="Pelée">Peléo</name>. <name key="Chiron">Chirone</name>. <tech
+            type="musique">Choro muto di <name key="Academiste">Accademici di
+          Chirone</name>.</tech></label>
+
+        <lg xml:lang="it">
+          <l><name key="Pelée">Pel</name>. Per chi parte dal suo bene</l>
+          <l>Troppo rapide son l’hore</l>
+          <l>A portarlo ne i tormenti,</l>
+          <l>E per chi torna al suo amore</l>
+          <l>Affrettaro dalle pene</l>
+          <l>Sono secoli i momenti.</l>
+          <l>Ha più affanni chì hà più speme,</l>
+          <l>Chì più gode ahi che più teme</l>
+          <l>Ond’ è un istesso fato, e un destin solo.</l>
+          <l>L’essere amante, e condannato al duolo.</l>
+        </lg>
+
+        <lg xml:lang="it">
+          <l><name key="Chiron">Ch</name>. Credea co’ miei Compagni</l>
+          <l>Rivederti giocondo, e ancor ti lagni ?</l>
+          <l>Hor che vinti in fermezza i Dei Rivali</l>
+          <l>Nell’ amoroso agone</l>
+          <l>Unico, e sol campione</l>
+          <l>Sei già vicino à trionfar de mali</l>
+          <l>Tù pur t’affligi ? ah prendi ardire, e’ tenta :</l>
+          <l>Non arride fortuna a chi paventa.</l>
+        </lg>
+
+        <lg xml:lang="it">
+          <l><name key="Pelée">Pel</name>. Tal’ hor sono i miei spirti arditi, e’ lieti ;</l>
+          <l>Mà si cangian ben poi, che mi souviene</l>
+          <l>Quai sian le tempre ohime del cor di <name key="Thetis">Theti.</name></l>
+        </lg>
+
+        <lg xml:lang="it">
+          <l><name key="Chiron">Ch</name>. T’inganni, all’ hor ch’ intese,</l>
+          <l>Che tù lasciato il Regno e i patrij liti</l>
+          <l>Giui sotto lontan barbaro Cielo</l>
+          <l>Disperato, e dolente</l>
+          <l>Scompagnato, e rammingo</l>
+          <l>Ricercando al tuo mal qualche soccorso,</l>
+        </lg>
+      </div>
+
+      <!-- Acte troisème - Scène première (fr) -->
+      <div>
+        <pb n="27" xml:id="p27" facs="https://gallica.bnf.fr/ark:/12148/bpt6k15181986/f59.item"/>
+        <head>ACTE TROISIESME.</head>
+        <head>SCENE PREMIERE.</head>
+        <label><name key="Pelée">Pelée</name>. <name key="Chiron">Chiron</name>. <name
+            key="Trouppe des disciples de Chiron">Trouppe des disciples de Chiron.</name></label>
+
+        <p><name key="Pelée">Pelée</name>.</p>
+        <lg>
+          <l> UN Amant sur le point de quitter sa Maistresse,</l>
+          <l>Trouve que le temps coule avec trop de vitesse,</l>
+          <l>Et l’emporte trop tost, à ce triste moment</l>
+          <l>Où doit finir sa joye &amp; naistre son tourment :</l>
+          <l>Mais apres les ennuis d’une fascheuse absence,</l>
+          <l>Si d’un heureux retour il conçoit l’esperance,</l>
+          <l>Alors inquieté d’un desir violent</l>
+          <l>Il reproche au Soleil que son cours est trop lent,</l>
+          <l>Il est toujours en trouble, &amp; son ame incertaine</l>
+          <l>Avecque son espoir sent augmenter sa peine ;</l>
+          <l>Plus le bien qu’il possede a pour luy de douceur,</l>
+          <l>Plus il pense à sa perte &amp; plus il a de peur :</l>
+          <l>Enfin qu’il ait <name key="Amour">l’Amour</name> contraire ou favorable,</l>
+          <l>Quiconque dit Amant dit toujours miserable.</l>
+        </lg>
+
+        <p><name key="Chiron">Chiron</name>.</p>
+        <lg>
+          <l>Apres avoir vaincu ton malheur &amp; les <name key="Divinités">Dieux</name></l>
+          <l>Je te croyois content autant que glorieux,</l>
+          <l>Et loin de te voir gay de ta bonne fortune,</l>
+          <l>Je te trouve saisi d’une crainte importune :</l>
+          <l><name key="Pelée">Pelée</name>, asseure-toy, tout respond à tes vœux,</l>
+          <l>Un homme qui craint trop est rarement heureux.</l>
+        </lg>
+
+        <p><name key="Pelée">Pelée</name>.</p>
+        <lg>
+          <l>Il est de bons momens où s’armant de constance</l>
+          <l>Mon cœur bannit la crainte &amp; reprend esperance ;</l>
+          <l>Mais pensant aux froideurs que <name key="Thetis">Thetis</name> a pour moy,</l>
+          <l>Je quitte mon espoir &amp; reprens mon effroy.</l>
+        </lg>
+
+        <p><name key="Chiron">Chiron</name>.</p>
+        <lg>
+          <l>Que tu la cognois mal ! Lors qu’elle fut instruite</l>
+          <l>De ton soudain départ ou plustost de ta fuite ;</l>
+          <l>Quand elle sceut que triste &amp; pressé de ton mal</l>
+          <l>Tu quittois tes sujets &amp; ton païs natal,</l>
+          <l>Et qu’errant sans amis en des terres loingtaines,</l>
+          <l>Tu cherchois un remede à tes cruelles peines,</l>
+          <l>Quelque dessein qu’elle eut de cacher sa douleur,</l>
+          <l>Son front nous la fit voir en changeant de couleur ;</l>
+        </lg>
+      </div>
+
+      <div>
+        <pb n="28" xml:id="p28" facs="https://gallica.bnf.fr/ark:/12148/bpt6k15181986/f60.item"/>
+        <lg xml:lang="it">
+          <l>D’un pietoso pallore ella sì tinse</l>
+          <l>E giurarei, che dalle labbra al core</l>
+          <l>Qualch’ incauto sospiro ancho respinse.</l>
+          <l>Vanne tenta co’ preghi,</l>
+          <l>Che da douero ella ti creda amante,</l>
+          <l>E vincerai l’impresa.</l>
+          <l>Donna che crede à chi l’adora e’ presa.</l>
+        </lg>
+
+        <lg xml:lang="it">
+          <l><name key="Pelée">Pel</name>. Sento da tuoi consigli</l>
+          <l>Non men, che da tant’ altri</l>
+          <l><name key="Amour">D’Amor</name>, e di Fortuna</l>
+          <l>Favorevoli aspetti,</l>
+          <l>Inspirarmi nel sen si vivo ardire,</l>
+          <l>Che voglio alfin verdere</l>
+          <l>S’io sò farmi felice, ò pur morire ;</l>
+          <l>Dou’e dunque colei</l>
+          <l>Ch’in mio soccorso invoco ?</l>
+        </lg>
+
+        <lg xml:lang="it">
+          <l><name key="Chiron">Ch</name>. Tu non ravvisi il loco ?</l>
+          <l>Nella sua Reggia sei.</l>
+        </lg>
+
+        <lg xml:lang="it">
+          <l><name key="Pelée">Pel</name>. A cercarla men vò per quà d’intorno.</l>
+        </lg>
+
+        <lg xml:lang="it">
+          <l><name key="Chiron">Ch</name>. E questi miei fra tanto</l>
+          <l>Studiosi seguaci</l>
+          <l>Con già disposte danze</l>
+          <l>Faran festoso applauso al tuo ritorno.</l>
+        </lg>
+      </div>
+
+      <div>
+        <head>SCENA SECONDA.</head>
+        <label><name key="Thetis">Theti</name>. <name key="Pelée">Peléo</name>.<tech> Choro muto di
+              <name key="Courtisan de Pelée">Cortigiani</name> di <name key="Pelée"
+            >Peléo</name>.</tech></label>
+
+        <p rend="center"><name key="Thetis">Theti</name>.</p>
+        <lg>
+          <l><name key="Amour">Amor</name> se nel pio petto</l>
+          <l>Vuoi com’amico entrar metti giù l’armi,</l>
+          <l>Vieni in pace à bearni</l>
+          <l>Et io t’accetto ;</l>
+          <l>Mà se d’affanni empir pensi il cor mio,</l>
+          <l>Adio crudele, adio.</l>
+        </lg>
+        <lg>
+          <l><name key="Pelée">Pel</name>. Dunque, <name key="Thetis">Theti</name>, vie più</l>
+          <l>Crudele empia sei tù</l>
+          <l>Che ne dai tanti à mè.</l>
+        </lg>
+      </div>
+
+      <div>
+        <pb n="29" xml:id="p29" facs="https://gallica.bnf.fr/ark:/12148/bpt6k15181986/f61.item"/>
+        <lg>
+          <l>Je vis qu’à ce recit ses yeux tout pleins de charmes</l>
+          <l>Avoient bien de la peine à retenir leurs larmes,</l>
+          <l>Et j’oserois jurer que cent fois sa pudeur</l>
+          <l>Estouffa les soupirs qui partoient de son cœur :</l>
+          <l>Va, ne perds plus le temps ; ce qui te reste à faire</l>
+          <l>C’est de persuader que ta flamme est sincere :</l>
+          <l>Car une femme enfin resiste rarement</l>
+          <l>A celuy qu’elle croit son veritable Amant.</l>
+        </lg>
+
+        <p><name key="Pelée">Pelée</name>.</p>
+        <lg>
+          <l>La <name key="Fortune">Fortune</name> &amp; <name key="Amour">l’Amour</name> par tant
+            de bons presages,</l>
+          <l>Joints à tant de conseils si prudens &amp; si sages,</l>
+          <l>Inspirent à mon cœur un dessein genereux,</l>
+          <l>De mourir promptement ou de me rendre heureux.</l>
+          <l>Courrons donc à l’objet qui cruël ou propice</l>
+          <l>Doit ou finir mes jours ou finir mon supplice.</l>
+        </lg>
+
+        <p><name key="Chiron">Chiron</name>.</p>
+        <lg>
+          <l>Peux-tu bien mescognoistre un lieu qui t’est si cher ?</l>
+          <l>Te voila dans sa court.</l>
+        </lg>
+
+        <p><name key="Pelée">Pelée</name>.</p>
+        <lg>
+          <l>Je vais donc la chercher.</l>
+        </lg>
+
+        <p><name key="Chiron">Chiron</name>.</p>
+        <lg>
+          <l>Cependant cette trouppe à danser toute preste</l>
+          <l>De ton heureux retour va celebrer la feste.</l>
+        </lg>
+      </div>
+
+      <div>
+        <head>SCENE SECONDE.</head>
+        <label><name key="Thetis">Thetis</name>. <name key="Pelée">Pelée</name>. <name
+            key="Trouppe de Courtisans">Trouppe de Courtisans.</name></label>
+
+        <p><name key="Thetis">Thetis</name>.</p>
+        <lg>
+          <l>Amour, si comme amy tu veux entrer chez moy,</l>
+          <l>J’y consens, mais pose les armes ;</l>
+          <l>Fais-moy gouster en paix tes douceurs &amp; tes charmes :</l>
+          <l>Mais si pour vivre sous ta loy</l>
+          <l>Il faut souffrir se plaindre &amp; respandre des larmes,</l>
+          <l>Adieu, cruel, retire-toy.</l>
+        </lg>
+
+        <p><name key="Pelée">Pelée</name>.</p>
+        <lg>
+          <l>Peux-tu parler ainsi, toy qui bien plus cruelle,</l>
+          <l>Fais si long-temps souffrir un Amant si fidelle.</l>
+        </lg>
+      </div>
+
+      <div>
+        <pb n="30" xml:id="p30" facs="https://gallica.bnf.fr/ark:/12148/bpt6k15181986/f62.item"/>
+        <lg xml:lang="it">
+          <l><name key="Thetis">Th</name>. Ohimè.</l>
+        </lg>
+
+        <lg xml:lang="it">
+          <l><name key="Pelée">Pel</name>. Che temi ?</l>
+        </lg>
+
+        <lg xml:lang="it">
+          <l><name key="Thetis">Th</name>. Ohimè.</l>
+          <l>Già da lunge per tè</l>
+          <l>Guerra assai vigorosa Amor mi fà,</l>
+          <l>Vanne pur dunque, và,</l>
+          <l>Che troppo è d’assalirmi ancho d’apresso,</l>
+          <l>Amerei lo confesso.</l>
+        </lg>
+
+        <lg xml:lang="it">
+          <l><name key="Pelée">Pel</name>. E tant’ eccede, (oh Dio) tua ferità ?</l>
+          <l>Che mi cangi in tormenti i più penosi</l>
+          <l>Quei sensi anchor pietosi</l>
+          <l>Che per farmi felice Amor ti fà,</l>
+          <l>Vanne pu dunque, và,</l>
+          <l>Che troppo è d’assalirmi ancho d’apresso,</l>
+          <l>Amerei lo confesso.</l>
+        </lg>
+        <lg xml:lang="it">
+          <l><name key="Pelée">Pel</name>. E tant’ eccede, (oh Dio) tua ferità ?</l>
+          <l>Che mi cangi in tormenti i più penosi</l>
+          <l>Quei sensi anchor pietosi</l>
+          <l>Che per farmi felice Amor ti dà ?</l>
+          <l>E tant’ eccede (oh Dio) tua ferità ?</l>
+          <l>E poi, deh, contro chi ?</l>
+          <l>Contro un tuo vero amante</l>
+          <l>Di cui fedele al par, ne sì costante</l>
+          <l>Altri mai nn languì.</l>
+        </lg>
+        <lg xml:lang="it">
+          <l><name key="Thetis">The</name>. L’amoroso veleno</l>
+          <l>Che cresce à tai lusinghe entro il mio seno</l>
+          <l>Ahi, che giunto è fin quì.</l>
+          <l>Mà folle ? io che giurai</l>
+          <l>Di non amar giarai.</l>
+          <l>Io che fei delle Nozze</l>
+          <l>Di due Numi sì grandi</l>
+          <l>Generoso risiuto, hor cederò ?</l>
+          <l>Nò.</l>
+        </lg>
+
+        <lg xml:lang="it">
+          <l><name key="Pelée">Pel</name>. Deh mio ben.</l>
+        </lg>
+
+        <lg xml:lang="it">
+          <l><name key="Thetis">The</name>. Nò, nò,</l>
+          <l>Parti dunque, e mi lascia.</l>
+        </lg>
+
+        <lg xml:lang="it">
+          <l><name key="Pelée">Pel</name>. Ah più non fià</l>
+          <l>Ch’ io ti lasci un momento, anima mia,</l>
+          <l>D’affanni, ò di contenti</l>
+          <l>Che tù mi carchi, io mon mai satio ò stanco</l>
+          <l>Ti seguirò meco portando intorno</l>
+          <l>I contenti, e gl’affanni</l>
+          <l>Pompe di tua bellezza, e di mia fede,</l>
+          <l>E sarò pago à pieno,</l>
+          <l>Di baciar l’orme sol del tuo bel piede.</l>
+        </lg>
+
+        <lg xml:lang="it">
+          <l><name key="Thetis">The</name>. Sè riparo non trovo</l>
+          <l>Da sì gradite violenze io pero ;</l>
+        </lg>
+      </div>
+
+      <div>
+        <pb n="31" xml:id="p31" facs="https://gallica.bnf.fr/ark:/12148/bpt6k15181986/f63.item"/>
+        <p><name key="Thetis">Thethis</name>.</p>
+        <lg>
+          <l>Ah !</l>
+        </lg>
+
+        <p><name key="Pelée">Pelée</name>.</p>
+        <lg>
+          <l>Que crains-tu ?</l>
+        </lg>
+
+        <p><name key="Thetis">Thetis</name>.</p>
+        <lg>
+          <l>Tout loin que tu fusse de moy,</l>
+          <l>Amour dedans mon cœur n’a que trop fait pour toy,</l>
+          <l>Et alors que son pouvoir croistra par ta presence,</l>
+          <l>Pourray-je resister à tant de violence ?</l>
+          <l>Retire-toy d’icy.</l>
+        </lg>
+
+        <p><name key="Pelée">Pelée</name>.</p>
+        <lg>
+          <l>Quel exces de rigueur ?</l>
+          <l>Quoy donc, ce qui devroit establir mon bon-heur,</l>
+          <l>Et ce qu’en ma faveur le <name key="Venus">Dieu d’Amour</name> t’inspire,</l>
+          <l>Par un contraire effet augmente mon martyre ?</l>
+          <l>Ah ! Sçais-tu que celuy que tu traites si mal</l>
+          <l>En sa fidele ardeur n’a jamais eu d’esgal ?</l>
+        </lg>
+
+        <p><name key="Thetis">Thetis</name>.</p>
+        <lg>
+          <l>Ces discours obligeans ces marques de tendresse,</l>
+          <l>Ces plaintes, ces soupirs augmentent ma foiblesse ;</l>
+          <l>Je sens que c’en est fait, &amp; que des-ja mon cœur.</l>
+          <l>A receu ce poison charmé de sa douceur.</l>
+          <l>Mais n’ais-je pas juré de n’aymer que moy-mesme ?</l>
+          <l>Moy que l’amour des <name key="Divinités">Dieux</name> ny leur grandeur supresme</l>
+          <l>N’ont peu faire resoudre à rompre ce serment,</l>
+          <l>Puis-je pour un mortel changer de sentiment ?</l>
+          <l>Non, non, en vain pour toy <name key="Amour">l’Amour</name> me sollicite :</l>
+          <l>Va,</l>
+        </lg>
+
+        <p><name key="Pelée">Pelée.</name></p>
+        <lg>
+          <l>mon unique bien, que jamais je te quitte !</l>
+        </lg>
+
+        <p><name key="Thetis">Thetis</name>.</p>
+        <lg>
+          <l>Va, dis-je, laisse-moy ; tu me suis vainement.</l>
+        </lg>
+
+        <p><name key="Pelée">Pelée</name>.</p>
+        <lg>
+          <l>Je ne puis desormais te quitter un moment,</l>
+          <l>Que tu me sois propice ou me sois inhumaine,</l>
+          <l>Je porteray content ou ma gloire ou ma peine,</l>
+          <l>Et pour faire admirer ton merite &amp; ma foy,</l>
+          <l>J’iray baisant tes pas sans me plaindre de toy.</l>
+        </lg>
+
+        <p><name key="Thetis">Thetis</name> parle bas.</p>
+        <lg>
+          <l>Contre une violence où je treuve des charmes,</l>
+          <l>Si je suis sans secours je vais rendre les armes :</l>
+        </lg>
+      </div>
+
+      <div>
+        <pb n="32" xml:id="p32" facs="https://gallica.bnf.fr/ark:/12148/bpt6k15181986/f64.item"/>
+
+        <lg xml:lang="it">
+          <l>Amerò dunque ? ah no’ non fia mai vero ;</l>
+          <l>Mà scampo haurò nella virtù, che trassi</l>
+          <l>Da <name key="Prothée">Proteo</name> il Genitor, è in tant forme</l>
+          <l>Pur io mi cangierò, che s’ ei non vole</l>
+          <l>Amar le fere, e i saissi</l>
+          <l>O sia mi smarrisca, ò che mi lassi.</l>
+        </lg>
+
+        <lg xml:lang="it">
+          <l><name key="Pelée">Pel</name>. Che mormori crudel ? deh cangia omai</l>
+          <l>Tanta tua rigidezza :</l>
+          <l>E Deità d’ Inferno empia bellezza.</l>
+        </lg>
+
+        <lg xml:lang="it">
+          <l><name key="Thetis">Th</name>. Quind’ è che palesarti hor mi conuiene</l>
+          <l>Ch’ altro non è ch’inganno</l>
+          <l>La cagion di tue pene.</l>
+        </lg>
+
+        <lg xml:lang="it">
+          <l><name key="Pelée">Pel</name>. E che dir vuoi ?</l>
+          <l>Temo l’inganno sol ne detti tuoì.</l>
+        </lg>
+
+        <lg xml:lang="it">
+          <l><name key="Thetis">The</name>. Tu m’adori, <name key="Pelée">Peléeo</name>, perche mi
+            credi,</l>
+          <l>Qual’ apunto mi vedi</l>
+          <l><name key="Nymphe">Ninfa</name> bella, e leggiadra, &amp; io non sono </l>
+          <l>Ch’un feroce leone, un mostro horrendo,</l>
+          <l>Un durissimo scoglio.</l>
+        </lg>
+
+        <lg xml:lang="it">
+          <l><name key="Pelée">Pel</name>. Ohime, che fai ?</l>
+        </lg>
+
+        <lg xml:lang="it">
+          <l><name key="Thetis">The</name>. Attendi sol che questa</l>
+          <l>Folta nebbia mi cinga, e lo vedrai.</l>
+        </lg>
+
+        <lg xml:lang="it">
+          <l><name key="Pelée">Pel</name>. Doue sei bella <name key="Thetis">Theti</name> ?</l>
+        </lg>
+
+        <lg xml:lang="it">
+          <l><name key="Thetis">The</name>. Eccomi.</l>
+        </lg>
+
+        <p><note>[Si cangia in Leone.]</note></p>
+        <lg xml:lang="it">
+          <l><name key="Pelée">Pel</name>. Ahi, ahi</l>
+          <l>In sembiante si fiero</l>
+          <l>Altro non sì ravvisa</l>
+          <l>Ch’il tuo spietato orgoglio, e se in tal guisa</l>
+          <l>Pensi darmi spavento è van pensiero.</l>
+          <l>Che non teme il morire</l>
+          <l>Chi’ sanza speme in mieserabil’ sorte</l>
+          <l>In perpetuo languire</l>
+          <l>Soffre una vita assai peggior, che morte.</l>
+          <l>Mà per pietà riprendi</l>
+          <l>La tua forma primera.</l>
+        </lg>
+      </div>
+
+      <div>
+        <pb n="33" xml:id="p33" facs="https://gallica.bnf.fr/ark:/12148/bpt6k15181986/f65.item"/>
+        <lg>
+          <l>Mais pour m’en garentir en ce besoin pressant</l>
+          <l>J’useray des secrets que j’appris en naissant,</l>
+          <l>Et par cet Art fameux que je tiens de <name key="Prothée">Protée</name>,</l>
+          <l>Me couvrant à mon gré d’une forme empruntée,</l>
+          <l>J’esloigneray de moy cet Amant dangereux,</l>
+          <l>S’il n’ayme les rochers &amp; les monstres affreux.</l>
+        </lg>
+
+        <p><name key="Pelée">Pelée</name>.</p>
+        <lg>
+          <l>Que me prepares-tu ? change d’humeur, cruelle. </l>
+        </lg>
+
+        <p><name key="Thetis">Thetis</name>.</p>
+        <lg>
+          <l>Enfin, mon cœur se rend.</l>
+        </lg>
+
+        <p><name key="Pelée">Pelée</name>.</p>
+        <lg>
+          <l>Agreable nouvelle.</l>
+        </lg>
+
+        <p><name key="Thetis">Thetis</name>.</p>
+        <lg>
+          <l>Je te veux descouvrir, pour preuve de ma foy,</l>
+          <l>Un secret qui t’importe &amp; qui fait contre moy ;</l>
+          <l>C’est que le faux esclat d’une belle apparence</l>
+          <l>Te trompe en ma faveur &amp; cause ta souffrance.</l>
+        </lg>
+
+        <p><name key="Pelée">Pelée</name>.</p>
+        <lg>
+          <l>Je crains d’estre trompé, mais c’est par tes discours.</l>
+        </lg>
+
+        <p><name key="Thetis">Thetis</name>.</p>
+        <lg>
+          <l>Prince, quand tu me dis l’objet de tes amours,</l>
+          <l>Tu croyois que je fusse une <name key="Nymphe">Nymphe</name> agreable ;</l>
+          <l>Mais sçachant que je suis un Monstre espouventable.</l>
+        </lg>
+
+        <p><name key="Pelée">Pelée</name>.</p>
+        <lg>
+          <l>Helas ! Que me dis-tu ? Que veux-tu faire ?</l>
+        </lg>
+
+        <p><note>[Il paroist une nuë]</note></p>
+        <p><name key="Thetis">Thethis</name>.</p>
+        <lg>
+          <l>Attens</l>
+          <l>Que j’entre en ce nuage, &amp; puis voy si je ments.</l>
+        </lg>
+
+        <p><name key="Pelée">Pelée</name>.</p>
+        <lg>
+          <l>Où fuis-tu, belle <name key="Nymphe">Nymphe</name> ? Arreste.</l>
+        </lg>
+
+        <p><note>[La nuë disparoist &amp; <name key="Thetis">Thetis</name> demeure changée en
+            Lion]</note></p>
+
+        <p><name key="Thetis">Thethis</name>.</p>
+        <lg>
+          <l>Me voicy.</l>
+        </lg>
+
+        <p><name key="Pelée">Pelée</name>.</p>
+        <lg>
+          <l>Dans ce Lion affreux qui me paroist icy,</l>
+          <l>De ton cruel orgueil je cognois la peinture ;</l>
+          <l>Mais crois-tu m’estonner avec cette imposture ?</l>
+          <l>Non, cruelle <name key="Thetis">Thetis</name>, non, ne le pense pas,</l>
+          <l>Quiconque est sans espoir est sans peur du trespas ;</l>
+          <l>Et pour te dire plus, la mort mesme a des charmes</l>
+          <l>Pour qui vit comme moy de soupirs &amp; de larmes ;</l>
+        </lg>
+      </div>
+
+      <div>
+        <pb n="34" xml:id="p34" facs="https://gallica.bnf.fr/ark:/12148/bpt6k15181986/f66.item"/>
+        <p><note>[Si cangia in va Mostro.]</note></p>
+        <lg xml:lang="it">
+          <l>Ohime ? qual mi ti rendi ?</l>
+          <l>Quest’ è del tuo rigor l’imagin vera</l>
+          <l>Pur ne tema, ne horrore</l>
+          <l>Può dar qualunque aspetto in cuit ù sia,</l>
+          <l>Che non può <name key="Thetis">Theti</name> mia spirar ch’amore.</l>
+          <l>Così pur ogni spoglia in cui riposta</l>
+          <l>Fia, ch’io ti creda, adorerò qual segno</l>
+          <l>Di tua beltà nascosta</l>
+          <l>Ch’occhio mortal di vagheggiarla e’ indegno.</l>
+          <l>Anzi ch’a quest’ ancòra</l>
+          <l>Maggica nebbia, che qual sacro velo</l>
+          <l>Ti cela à me cò suoi sì spessi giri</l>
+          <l>Faran divoto ossequio i miei sospiri ;</l>
+          <l>Mà com’ avvien, ch’ io ti riveda ?</l>
+        </lg>
+
+        <lg xml:lang="it">
+          <l><name key="Thetis">Th</name>. Oh Dio</l>
+          <l>Che di larve feroci armata, e cinta</l>
+          <l>Non hò poi cor di Fera ;</l>
+          <l>Onde già la tua fè quasi m’hà vinta.</l>
+        </lg>
+
+        <lg xml:lang="it">
+          <l><name key="Pelée">Pel</name>. Quasi ? Oh voce crudele</l>
+          <l>Che sol tanto di vita</l>
+          <l>Rede al cor moribondo</l>
+          <l>Che basta à far più longo il moi morire,</l>
+          <l>E che m’inalza al <name key="Ciel">Ciel</name> d’ogni gioire</l>
+          <l>Perch’ io ricada ne miei guai più al fondo,</l>
+          <l>Mà bella e chi resiste ?</l>
+          <l>Con tal perfidia al tuo pietoso affetto ?</l>
+        </lg>
+
+        <lg xml:lang="it">
+          <l><name key="Thetis">The</name>. Dir nol saprei, tanto confuse, e miste</l>
+          <l>Son le voglie discordi entro il mio petto</l>
+          <l>Tal’ hor penso d’amarti,</l>
+          <l>E risoluo fuggirti ;</l>
+          <l>Mà non sò poi lasciarti,</l>
+          <l>E molto men seguirti,</l>
+          <l>Tal’ hor nel sen mi trovo</l>
+          <l>Un rinascente adore ;</l>
+          <l>Mà l’ammorza il rigore</l>
+          <l>E in un medesmo instante</l>
+          <l>E condanno, &amp; approvo</l>
+          <l>Non men l’esser crudel, ch’essere amante.</l>
+          <l>Onde non sò che sia</l>
+          <l>Quel ch’il moi cor più brama.</l>
+        </lg>
+      </div>
+
+      <div>
+        <pb n="35" xml:id="p35" facs="https://gallica.bnf.fr/ark:/12148/bpt6k15181986/f67.item"/>
+
+        <lg>
+          <l>Mais la grace reprens ta premiere beauté.</l>
+          <l><name key="Divinités">Dieux</name> ! Fous ce nouveau <name key="Monstre">Monstre</name>
+            on voit ta cruauté :</l>
+          <label>[Elle se change en <name key="Monstre">Monstre</name>]</label>
+          <l>Quelque déguisement que ta rigueur invente,</l>
+          <l>Je n’en prendray jamais d’horreur ny d’épouvante ;</l>
+          <l>Mon cœur qui te cognoist sous ces masques affreux,</l>
+          <l>Loin d’en estre estonné r’allume tous ses feux,</l>
+          <l>Et void avec respect ces despoüilles horribles,</l>
+          <l>Qui de tes traits cachez sont les signes visibles :</l>
+          <l>De ces traits dont l’esclat digne de nos Autels</l>
+          <l>Ne peut à descouvert estre veu des mortels.</l>
+          <l>Mais te revois-je ? Ô Dieux ! &amp; par quelle adventure ?</l>
+        </lg>
+
+        <p><name key="Thetis">Thetis</name>.</p>
+        <lg>
+          <l>De ces <name key="Monstre">Monstres</name> cruels dont j’ay pris la figure,</l>
+          <l>Que ne pourrois-je encor emprunter la fureur.</l>
+          <l>Je ne suis quasi plus maistresse de mon cœur.</l>
+        </lg>
+
+        <p><name key="Pelée">Pelée</name>.</p>
+        <lg>
+          <l>Quasi : Banis ce mot contraire à mon enuie,</l>
+          <l>Et dont le sens fascheux ne m’a laissé de vie</l>
+          <l>Que ce qu’il en falloit pour mourir plus long-temps :</l>
+          <l>Le plaisir imparfait dont il flatte mes sens,</l>
+          <l>Loin de donner la paix à mon ame incertaine,</l>
+          <l>Ne fait que redoubler mes desirs &amp; ma peine :</l>
+          <l>Mais qu’est-ce qui s’oppose à ton affection ?</l>
+        </lg>
+
+        <p><name key="Thetis">Thetis</name>.</p>
+        <lg>
+          <l>Je ne sçay, mon esprit est en confusion,</l>
+          <l>Cent contraires desseins tour à tour y paroissent,</l>
+          <l>S’y destruisent l’un l’autre, &amp; sans cesse y renaissent ;</l>
+          <l>Tantost ma vertu cede à des pensers plus doux,</l>
+          <l>Puis bruslant à la fois d’amour &amp; de courroux,</l>
+          <l>Dedans le mesme instant &amp; j’approuve &amp; je blasme</l>
+          <l>L’exces de ma rigueur &amp; celuy de ma flame,</l>
+          <l>Ta rencontre me plaist &amp; je veux l’esviter,</l>
+          <l>Je ne te veux pas suivre &amp; ne te puis quitter,</l>
+          <l>Et mon coeur inquiet en ce cruel martyre</l>
+          <l>Ne sçait quel mal il craint ny quel bien il desire.</l>
+        </lg>
+      </div>
+
+      <div>
+        <pb n="36" xml:id="p36" facs="https://gallica.bnf.fr/ark:/12148/bpt6k15181986/f68.item"/>
+
+        <lg xml:lang="it">
+          <l><name key="Pelée">Pel</name>. Lo sò ben io. <name key="Thetis">The</name>. Di pur.</l>
+        </lg>
+
+        <lg xml:lang="it">
+          <l><name key="Pelée">Pel</name>. Ch’ ami chi t’ama.</l>
+        </lg>
+
+        <lg xml:lang="it">
+          <l><name key="Thetis">The</name>. Ohime che troppo e’ vero anima mia.</l>
+          <l>Anima mia ? tal suono ha dunque espresso</l>
+          <l>Questa lingua ? ella errò, mà però è degna.</l>
+          <l>Di scusa, ch’ errò seco il core anch’ esso.</l>
+          <l>E così à poco à poco</l>
+          <l>Cado sotto l’impero</l>
+          <l>Di quel nemico Arciero</l>
+          <l>Che per comun esempio</l>
+          <l>Quanto fui più ritrosa</l>
+          <l>Tantò farà di me pièu crudo scempio ?</l>
+          <l>Ah che periglio estremo</l>
+          <l>Uvopo hà d’egual difesa, ah sì ch’io voglio</l>
+          <l>Per non udir più lagrimosi prieghi</l>
+          <l>Cangiarmi in duro, &amp; insensato scoglio.</l>
+        </lg>
+
+        <lg xml:lang="it">
+          <l><name key="Pelée">Pel</name>. Ohimè, ch’io ti riperdo, ohimè che fù</l>
+          <l>Più forte in te’il rigor, che la pietà</l>
+          <label>Et il <name key="Ciel">Ciel</name> sà, se ti vedrò mai più.</label>
+          <l>Oh pretioso scoglio oue si cela</l>
+          <l>D’amor tutto il tesoro,</l>
+          <l>Pompa del mio martòro,</l>
+          <l>Paragon di mia fede,</l>
+          <l>Memoria di mie pene,</l>
+          <l>A piè di cui si vede</l>
+          <l>Naufraga la mia spene.</l>
+          <l>Se posson l’onde in tenerire i sassi,</l>
+          <l>Ah che pur’ il mio pianto</l>
+          <l>Haurà teco tal vanto ;</l>
+          <l>O resteran mai sempre</l>
+          <l>Le mie ceneri sparse in questo loco</l>
+          <l>Intorno à te, che chiudi il mio bel foco.</l>
+        </lg>
+
+        <lg xml:lang="it">
+          <l><name key="Thetis">The</name>. Amor difendere</l>
+          <l>Dà tè quest’alma</l>
+          <l>Io più non sò,</l>
+          <l>Ne più contendere</l>
+          <l>A tè la Palma</l>
+          <l>Non voglio nò ;</l>
+          <l>Vanta pur tù</l>
+          <l>Superbo Arcier</l>
+          <l>Trà le tue glorie</l>
+          <l>Mià servitù.</l>
+        </lg>
+      </div>
+
+      <div>
+        <pb n="37" xml:id="p37" facs="https://gallica.bnf.fr/ark:/12148/bpt6k15181986/f69.item"/>
+        <p><name key="Pelée">Pelée</name>.</p>
+        <lg>
+          <l>Je fçay bien qu’il veut :</l>
+        </lg>
+
+        <p><name key="Thetis">Thetis</name>.</p>
+        <lg>
+          <l>Qu’est-ce donc, dis-le moy ?</l>
+        </lg>
+
+        <p><name key="Pelée">Pelée</name>.</p>
+        <lg>
+          <l>Il se voudroit donner à qui n’ayme que toy.</l>
+        </lg>
+
+        <p><name key="Thetis">Thetis</name>.</p>
+        <lg>
+          <l>Chere ame, il est trop vray. Chere ame ! Suis-je folle ?</l>
+          <l>Ma langue as-tu bien pû former cette parole ?</l>
+          <l>Ouy, ma langue a failly ; mais bien peu, si mon cœur</l>
+          <l>Du crime qu’elle a fait est l’excuse &amp; l’Autheur.</l>
+          <l>Helas ! dedans ce cœur, Amour des-ja le maistre,</l>
+          <l>Voulant donner exemple &amp; se faire cognoistre,</l>
+          <l>Aura pour le punir autant de cruauté</l>
+          <l>Que pour luy resister il eut de fermeté :</l>
+          <l>Cet extreme peril veut un remede extreme ;</l>
+          <l>Doncques pour ne plus voir un homme qui nous ayme,</l>
+          <l>Et faire que ses pleurs ne nous puissent toucher,</l>
+          <l>Par un dernier effort changeons-nous en Rocher.</l>
+        </lg>
+
+        <p><name key="Pelée">Pelée</name>.</p>
+        <lg>
+          <l>Ah ! <name key="Thetis">Thetis</name>, ah ! Cruelle, à peine t’ay-je veuë,</l>
+          <label>[Elle entre encore dans un nuage]</label>
+          <l>Que tu te pers encore en cette obscure nuë ;</l>
+          <l>Ta rigueur a banny tous ces doux sentimens</l>
+          <l>Dont tu m’avois flatté durant quelques momens.</l>
+          <label>[Elle paroist changée en Rocher]</label>
+          <l>Escueil du Dieu d’Amour de threfor &amp; la gloire,</l>
+          <l>Des maux que j’ay souffers glorieuse memoire :</l>
+          <l>Helas ! Que tu m’es cher, mysterieux escueil,</l>
+          <l>Où je pers mon espoir, &amp; trouve mon cercueil :</l>
+          <l>Toy, dont la fermeté paroist inébranlable,</l>
+          <l>Que tu figures bien ma constance immuable ;</l>
+          <l>Mais sçache que les pleurs que mes yeux verseront.</l>
+          <l>Quelque dur que tu sois, enfin t’amoliront.</l>
+        </lg>
+
+        <p><name key="Thetis">Thetis</name>.</p>
+        <lg>
+          <label>[Le Rocher disparoist &amp; l’on revoid Thetis.]</label>
+          <l>Amour, je me rends, je suis prise,</l>
+          <l>Je consens de suivre tes Loix,</l>
+          <l>Loins si tu veux à tes exploits</l>
+          <l>La gloire de m’avoir soubmise ;</l>
+        </lg>
+
+      </div>
+
+      <div>
+        <pb n="38" xml:id="p38" facs="https://gallica.bnf.fr/ark:/12148/bpt6k15181986/f70.item"/>
+
+        <lg>
+          <l>Che solo in ver</l>
+          <l>Da tue vittorie</l>
+          <l>Saluo sen và</l>
+          <l>Chi cor non hà.</l>
+          <l>Tropo il tuo ardore, e la tua fè potèo</l>
+          <l>Eccomi tua <name key="Pelée">Peléo</name>.</l>
+        </lg>
+
+        <lg>
+          <l><name key="Pelée">Pel</name>. Ah ch’ al mio cor dove improvisa arriva</l>
+          <l>Allegrezza si bella</l>
+          <l>Corre cò sensi miei la voce anch’ ella ;</l>
+          <l>Onde non sò ridìre</l>
+          <l>Il moi immenzo gioire.</l>
+          <l>Mà voi serui fedeli,</l>
+          <l>Che giungete opportuni à rivedermi</l>
+          <l>Nel più felice stato</l>
+          <l>Al qual dal centro di penose noie</l>
+          <l>Mai s’inlsasse un core innamortato.</l>
+          <l>Deh gioite festosi alle mie gioie.</l>
+        </lg>
+
+      </div>
+
+      <div>
+        <head rend="i">SCENA ULTIMA.</head>
+        <label><name key="Thetis">Theti</name>. <name key="Pelée">Peléo</name>. <name
+            key="Promethée">Prometeo</name>. <tech>Choro di</tech>
+          <name>Dietà</name><tech>.Choro muto di</tech>
+          <name>Hercole</name>, <name>Giunone</name>, <name>Imeneo</name>, &amp; <name>Arti
+            liberali</name>, e <name>Servili</name>.</label>
+
+        <lg xml:lang="it">
+          <l><name key="Thetis">The</name>.e <name key="Pelée">Pel</name>. Eco del pari i nostri
+            petti ardenti.</l>
+        </lg>
+        <lg xml:lang="it">
+          <l><name key="Pelée">Pel</name>. Tù la fierezza.</l>
+        </lg>
+        <lg xml:lang="it">
+          <l><name key="Thetis">The</name>. E tù le pene.</l>
+        </lg>
+        <lg xml:lang="it">
+          <l><name key="Thetis">The</name>. E <name key="Pelée">Pel</name>. Oblia.</l>
+        </lg>
+        <lg xml:lang="it">
+          <l><name key="Pelée">Pel</name>. Non più rigori.</l>
+        </lg>
+        <lg xml:lang="it">
+          <l><name key="Thetis">The</name>. e <name key="Pelée">Pel</name>. Nò.</l>
+        </lg>
+        <lg xml:lang="it">
+          <l><name key="Thetis">The</name>. Non più lamenti.</l>
+        </lg>
+        <lg xml:lang="it">
+          <l><name key="Thetis">The</name>. e <name key="Pelée">Pel</name>. Temp’ e’ sol che di
+            contenti anima mia,</l>
+          <l>Temp’ e’ sol che tra di noi</l>
+          <l>Si garreggi di costanza.</l>
+        </lg>
+        <lg xml:lang="it">
+          <l><name key="Pelée">Pel</name>. Ogni bene.</l>
+        </lg>
+        <lg xml:lang="it">
+          <l><name key="Thetis">The</name>. Ohni speranza.</l>
+        </lg>
+
+        <lg xml:lang="it">
+          <l><name key="Thetis">The</name>. <name key="Pelée">Pel</name>. Fian per me gl’ affetti
+            tuoi ;</l>
+          <l>Poi che sol nel nostro ardore</l>
+          <l>Ah che versò quant’ hà di dolce amore,</l>
+          <l>E alle nostre allegrezza</l>
+          <l>Vengono i Dei per imparar dolcezze.</l>
+        </lg>
+      </div>
+
+      <div>
+        <pb n="39" xml:id="p39" facs="https://gallica.bnf.fr/ark:/12148/bpt6k15181986/f71.item"/>
+        <lg>
+          <l>Je puis l’avouër sans rougeur,</l>
+          <l>Puisque pour garder sa franchise</l>
+          <l>Devant un si charmant vainqueur,</l>
+          <l>Il  faudroit n’avoir point de cœur.</l>
+          <l>La crainte à ses desirs ne sera plus meslée,</l>
+          <l>Ton amour a vaincu, je suis à toy, <name key="Pelée">Pelée</name>.</l>
+        </lg>
+
+        <p><name key="Pelée">Pelée</name>.</p>
+        <lg>
+          <l>Ah ! l’exces du plaisir qui surprend tous mes sens</l>
+          <l>M’en interdit l’usage &amp; les rend languissans ;</l>
+          <l>Ma voix s’en assoiblit, &amp; ma langue muëtte</l>
+          <l>A peine en peut donner une idée imparfaite :</l>
+          <l>Mais vous, mes chers subjets, publiez le bon-heur</l>
+          <l>Où m’esleve <name key="Thetis">Thetis</name> apres tant de douleur.</l>
+        </lg>
+      </div>
+
+      <div>
+        <head>SCENE DERNIERE.</head>
+        <label><name key="Thetis">Thetis</name>. <name key="Pelée">Pelée</name>. <name
+            key="Promethée">Promethée</name>. <tech type="musique">Chœur de <name key="Divinités"
+              >Dieux</name>.</tech>
+          <tech type="musique">Chœur des <name key="Arts">Arts</name>.</tech><tech type="musique"
+            >Chœur <name key="Intelligences">d’Intelligences</name>.</tech></label>
+
+        <p><name key="Thetis">Thetis</name> et <name key="Pelée">Pelée</name>.</p>
+
+        <lg>
+          <l>DEssous les mesmes loix &amp; dans les mesmes flames,</l>
+          <l>Amour brusle nos cœurs &amp; captive nos ames.</l>
+        </lg>
+
+        <lg>
+          <l><name key="Pelée">Pelée</name>.</l>
+          <l>Oublie ton orgueil.</l>
+        </lg>
+
+        <lg>
+          <l><name key="Thetis">Thetis</name>.</l>
+          <l>Oublie tes douleurs.</l>
+        </lg>
+
+        <lg>
+          <l><name key="Pelée">Pelée</name>.</l>
+          <l><name key="Nymphe">Nimphe</name>, perds ta rigueur.</l>
+        </lg>
+
+        <lg>
+          <l><name key="Thetis">Thetis</name>.</l>
+          <l><name>Prince</name>, taris tes pleurs.</l>
+        </lg>
+
+        <lg>
+          <l><name key="Thetis">Thetis</name> &amp; <name key="Pelée">Pelée</name>.</l>
+          <l>Donnons-nous aux plaisirs, disputons de constance.</l>
+        </lg>
+
+        <lg>
+          <l><name key="Pelée">Pelée</name>.</l>
+          <l>Desormais tout mon bien.</l>
+        </lg>
+
+        <lg>
+          <l><name key="Thetis">Thetis</name>.</l>
+          <l>toute mon esperance.</l>
+        </lg>
+
+        <lg>
+          <l><name key="Pelée">Pelée</name>.</l>
+          <l>Mon unique desir,</l>
+        </lg>
+
+        <lg>
+          <l><name key="Thetis">Thetis</name>.</l>
+          <l>Ma seule ambition</l>
+        </lg>
+
+        <lg>
+          <l><name key="Thetis">Thetis</name> &amp; <name key="Pelée">Pelée</name>.</l>
+          <l>Sera dans la douceur de ta possession,</l>
+          <l>Puisqu’Hymen &amp; l’Amour à nos desirs propices</l>
+          <l>Ont versé dessus nous ce qu’ils ont de delices,</l>
+          <l>Et les <name key="Divinités">Dieux</name> admirans nos plaisirs amoureux</l>
+          <l>Viennent apprendr icy ce que c’est qu’estre heureux.</l>
+        </lg>
+      </div>
+
+      <div>
+        <pb n="40" xml:id="p40" facs="https://gallica.bnf.fr/ark:/12148/bpt6k15181986/f72.item"/>
+
+        <lg xml:lang="it">
+          <l><name key="Prométhée">Pro</name>. Ecco oh <name key="Pelée">Peléo</name></l>
+          <l>Che pur t’avvolse</l>
+          <l>Imeneo trà cari lacci,</l>
+          <l>E che me da fieri impacci</l>
+          <l>Il valor <name key="Hercule">d’Hercole</name> sciolse,</l>
+          <l>Onde meco con queste</l>
+          <l>Che son della mia mente</l>
+          <l>Dotte figlie, &amp; induustri</l>
+          <l>Vien’il gran semideo</l>
+          <l>Per festeggiar in così nobil campo</l>
+          <l>La tua prigion insieme, &amp; il mio scampo.</l>
+        </lg>
+
+
+        <lg xml:lang="it">
+          <l><name>Cho</name>. De Deità. Quei che languiscono</l>
+          <l>Al fin gioscono</l>
+          <l>E d’ogni grand rigor</l>
+          <l>Al fin trionfa Amor.</l>
+        </lg>
+
+        <lg xml:lang="it">
+          <l><name key="Thetis">The</name>. <name key="Pelée">Pel</name>. <name key="Promethée"
+              >Pr</name>. Non lascia mai</l>
+          <l>Il <name key="Ciel">Ciel</name> quà giù</l>
+          <l>Sempre trà guaì</l>
+          <l>Vera virtù ;</l>
+          <l>Mà per lei fà,</l>
+          <l>Ch’ ogni più fiera</l>
+          <l>Aversità</l>
+          <l>Sià di beate gioie ampia meniera.</l>
+        </lg>
+      </div>
+
+      <div>
+        <head rend="center">FINE.</head>
+      </div>
+
+      <div>
+        <pb n="41" xml:id="p41" facs="https://gallica.bnf.fr/ark:/12148/bpt6k15181986/f73.item"/>
+
+        <p rend="center"><name key="Promethée">Promethée.</name></p>
+
+        <lg>
+          <l><name key="Pelée">Pelée</name> vois l’effect de nostre destinée</l>
+          <l>Dans ce jour fortuné que le Dieu d’Hymenée</l>
+          <l>T’engage heureusement dedans ses doux liens,</l>
+          <l>Le puissant bras d’Hercule a sceu rompre les miens,</l>
+          <l>Et pour nous voir heureux apres tant de souffrance,</l>
+          <l>Suivy de tous les <name key="Arts">Arts</name> ce <name key="Divinité">demy-Dieu</name>
+            s’advance,</l>
+          <l>Et vient pour celebrer avec solemnité</l>
+          <l>Le jour de ta prison &amp; de ma liberté.</l>
+        </lg>
+
+        <p rend="center"><tech>Chœur des <name key="Divinités">Dieux</name>.</tech></p>
+        <lg>
+          <l>Ceux qui semblent estre la proye</l>
+          <l>Des ennuis &amp; de leur malheur,</l>
+          <l>Voyent enfin à la douleur</l>
+          <l>Succeder la paix &amp; la joye,</l>
+          <l>Et l’Amour souverain des cœurs</l>
+          <l>Surmonte avec le temps les plus grandes rigueurs.</l>
+        </lg>
+
+        <p rend="center"><name key="Thetis">Thetis</name>, <name key="Pelée">Pelée</name>, <name
+            key="Promethée">Promethée</name>.</p>
+        <lg>
+          <l>Des justes immortels l’equité souveraine</l>
+          <l>N’abandonne jamais la vertu dans la peine :</l>
+          <l>Elle veut seulement que son adversité</l>
+          <l>Luy serve de passage à la felicité.</l>
+        </lg>
+      </div>
+      
+      <div>
+        <label type="head">FIN.</label>
+      </div>
+
+    </body>
+  </text>
+</TEI>
