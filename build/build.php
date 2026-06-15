@@ -281,6 +281,7 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
     "pro" => "Professionnel·le·s",
     "local" => "Élites locales",
     "O" => "Groupe inconnu",
+    "null" => "Groupe orphelin"
   );
 
   static $gender_list = array(
@@ -390,7 +391,7 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
         $death = null;
       $group_code = $person->socecStatus['type'];
       if (!$group_code)
-        $group_code = null;
+        $group_code = "null";
       $databnf = $wikipedia = $isni = null;
       foreach ($person->identifier as $identifier) {
         $type = $identifier['type'];
