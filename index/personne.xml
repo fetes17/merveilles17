@@ -5384,8 +5384,11 @@
     </person>
   
   <person xml:id="madame_de_mekelbourg" sex="F">
-    <name>Mekelbourg, Madame de</name>
+    <name>Montmorency-Bouteville, Élisabeth-Angélique de, épouse de Christian-Louis Ier, duc de Mecklembourg-Schwerin (1664)</name>
     <socecStatus type="cour"/>
+    <birth when="1627"/>
+    <death when="1695"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/%C3%89lisabeth-Ang%C3%A9lique_de_Montmorency-Bouteville</identifier>
   </person>
   
   <person xml:id="monbron" sex="M">
@@ -7734,9 +7737,62 @@
     <socecStatus type="cour"/>
     <birth when=""/>
     <death when="1710"/>
-    <identifier type=""></identifier>
     <!-- https://richelieuletters.hypotheses.org/54480#footnote_4_54480 -->
     <!-- https://francearchives.gouv.fr/facomponent/abd7cf113d43a066f3d20114ba7978cccc985e51 -->
+  </person>
+  
+  <person xml:id="latourdauvergne_elisabeth" sex="F">
+    <name>La Tour d'Auvergne. Élisabeth de, épouse de Charles III de Lorraine-Guise, duc d’Elbeuf (1656)</name>
+    <socecStatus type="cour"/>
+    <birth when="1635"/>
+    <death when="1680"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Charles_III_d%27Elbeuf</identifier>
+    <!--https://www.wikidata.org/wiki/Q75291249-->
+  </person>
+  
+  <person xml:id="rochechouart-mortemart_gabrielle" sex="F">
+    <name>Rochechouart de Mortemart. Gabrielle de, épouse de Claude-Leonor de Damas de Thianges, marquis de Thianges (1655)</name>
+    <socecStatus type="cour"/>
+    <birth when="1631*"/>
+    <death when="1693"/>
+    <identifier type="databnf">https://data.bnf.fr/fr/ark:/12148/cb16925337b</identifier>
+    <identifier type="isni">0000 0004 5100 2794</identifier>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Gabrielle_de_Rochechouart_de_Mortemart</identifier>
+  </person>
+  
+  <person xml:id="tresmes_anne-madeleine" sex="F">
+    <name>Potier de Tresmes. Anne-Marie-Madeleine, dame de Blérancourt, de Montjay, Torigny</name>
+    <socecStatus type="cour"/>
+    <birth when="1623*"/>
+    <death when="1705"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Ren%C3%A9_Potier_de_Tresmes</identifier>
+    <!--http://racineshistoire.free.fr/LGN/PDF/Potier.pdf-->
+  </person>
+  
+  <person xml:id="colbert_marie_desmaret" sex="F">
+    <name>Colbert. Marie, épouse de Jean Desmarets (1646)</name>
+    <socecStatus type="cour"/>
+    <birth when="1626"/>
+    <death when="1703"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Nicolas_Desmarets_(contr%C3%B4leur_g%C3%A9n%C3%A9ral_des_finances)</identifier> <!--mention dans la page de son fils Nicolas Desmarts-->
+  </person>
+  
+  <person xml:id="charin_catherine" sex="F">
+    <name>Charon, Catherine, épouse Jacques de Johanne de La Carre, marquis de Saumery (1650)</name>
+    <socecStatus type="cour"/>
+    <birth when="1633-07-17"/>
+    <death when="1705*"/>
+    <!--https://man8rove.com/fr/profile/r52hse06-catherine-charron-->
+  </person>
+  
+  <person xml:id="martinvast-scudery" sex="F">
+    <name>Moncel de Martinvast, Marie Madeleine du, épouse de Georges de Scudéry (1655)</name>
+    <socecStatus type="cour"/>
+    <birth when="1627"/>
+    <death when="1711-09-06"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Marie-Madeleine_de_Scud%C3%A9ry</identifier>
+    <identifier type="databnf">https://data.bnf.fr/ark:/12148/cb12336001c</identifier>
+    <identifier type="isni">0000 0000 3142 5870</identifier>
   </person>
   
 </listPerson>
