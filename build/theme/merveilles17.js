@@ -196,7 +196,9 @@ if (techlist) {
 
 /** Filters for the places */
 var placelist = document.querySelector(".placelist");
+var placegroup = document.querySelector("nav.filters div.placegroup");
 var place_matches = document.querySelectorAll("nav.filters a.place");
+var place_notice_matches = document.querySelectorAll("nav.filters a.notice");
 var doc_matches = document.querySelectorAll("a.document");
 var h3_doc_matches = document.querySelectorAll(".event div");
 let hasActivePlace = false;
@@ -248,7 +250,7 @@ function filterDocumentsByPlace(place_id) {
 function showChildren(place_id) {
   place_matches.forEach((match) => {
     if (match.href.split("#")[2] == place_id) {
-      match.style.display = "block";
+      match.parentNode.style.display = "flex";
     }
   });
 }
@@ -256,7 +258,7 @@ function showChildren(place_id) {
 function hideChildren(place_id) {
   place_matches.forEach((match) => {
     if (match.href.split("#")[2] == place_id) {
-      match.style.display = "none";
+      match.parentNode.style.display = "none";
     }
   });
 }
@@ -264,7 +266,7 @@ function hideChildren(place_id) {
 function showSiblings(place_parent) {
   place_matches.forEach((match) => {
     if (match.href.split("#")[2] == place_parent) {
-      match.style.display = "block";
+      match.parentNode.style.display = "flex";
     }
   });
 }
@@ -272,7 +274,7 @@ function showSiblings(place_parent) {
 function hideSiblings(place_parent) {
   place_matches.forEach((match) => {
     if (match.href.split("#")[2] == place_parent) {
-      match.style.display = "none";
+      match.parentNode.style.display = "none";
     }
   });
 }
@@ -294,8 +296,8 @@ function isDescendant(match, ancestorId) {
 function hideDescendants(place_id) {
   place_matches.forEach((match) => {
     if (isDescendant(match, place_id)) {
-      match.style.display = "none";
-      match.classList.remove("active");
+      match.parentNode.style.display = "none";
+      match.parentNode.classList.remove("active");
     }
   });
 }
@@ -331,14 +333,14 @@ if (placelist) {
       ) {
         // Si aucun lieu n'est actif OU si le lieu cliqué est un enfant du dernier lieu actif
         listActivePlaces.push(place_id);
-        this.classList.add("active");
+        this.parentNode.classList.add("active");
         showChildren(place_id);
         hideSiblings(place_parent);
-        this.style.display = "block";
+        this.parentNode.style.display = "flex";
       } else if (lastActivePlaceId === place_id) {
         // Si le lieu cliqué est le même que le dernier lieu actif
         listActivePlaces.pop();
-        this.classList.remove("active");
+        this.parentNode.classList.remove("active");
         hideDescendants(place_id);
         showSiblings(place_parent);
       } else if (listActivePlaces.includes(place_id)) {
@@ -347,17 +349,17 @@ if (placelist) {
           const removedId = listActivePlaces.pop();
           place_matches.forEach((match) => {
             if (parseInt(match.href.split("#")[1]) === removedId) {
-              match.classList.remove("active");
+              match.parentNode.classList.remove("active");
             }
           });
           hideDescendants(removedId);
         }
         hideDescendants(place_id);
         // Ajouter la classe "active" au lieu cliqué et afficher ses enfants
-        this.classList.add("active");
+        this.parentNode.classList.add("active");
         showChildren(place_id);
         hideSiblings(place_parent);
-        this.style.display = "block";
+        this.parentNode.style.display = "flex";
       }
       actuActivePlaces(place_id);
       const currentPlaceId = listActivePlaces[listActivePlaces.length - 1];

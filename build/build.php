@@ -1158,9 +1158,9 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
     $lieux->execute();
     while ($row = $lieux->fetch(PDO::FETCH_ASSOC)) {
       if ($row["parent"] == 0) {
-        $index .= '<a class="place rootplace" href="#' . $row['id'] . '#0' . '">' . $row['label'] . '</a>' . "\n";
+        $index .= '<div class="placegroup"><a title="Fiche lieu" class="notice" href="' . $row['code'] . '.html">◀</a><a class="place rootplace" href="#' . $row['id'] . '#0' . '">' . $row['label'] . '</a></div>' . "\n";
       } else {
-        $index .= '<a class="place" href="#' . $row['id'] . '#' . $row['parent'] . '">' . $row['label'] . '</a>' . "\n";
+        $index .= '<div class="placegroup"><a title="Fiche lieu" class="notice" href="' . $row['code'] . '.html">◀</a><a class="place" href="#' . $row['id'] . '#' . $row['parent'] . '">' . $row['label'] . '</a></div>' . "\n";
       }
     }
     $index .= '</nav>';
