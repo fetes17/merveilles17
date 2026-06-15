@@ -528,10 +528,10 @@ nav a.technique.active {
   background-color: var(--grege);
 }
 
-nav a.place:hover,
+/* nav a.place:hover,
 nav a.place.active {
   background-color: var(--grege);
-}
+} */
 
 .caldate.active,
 .caldate:hover {
@@ -1748,9 +1748,29 @@ table.sortable {
 
 /* Places */
 
-nav.filters a.place:not(.rootplace):not(.active) {
+nav.filters div.placegroup:not(:has(.rootplace)):not(:has(.active)) {
   display: none;
 }
+
+nav.filters div.placegroup {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.2rem 0.5rem;
+  cursor: pointer;
+}
+
+nav.filters a.place {
+  width: 100%;
+}
+
+nav.filters div.placegroup:hover a.place,
+nav.filters div.placegroup.active a.place {
+  background-color: var(--grege);
+}
+
+/* Sortable */
 
 .sortable tr td {
   border: none;
