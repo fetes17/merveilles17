@@ -923,6 +923,7 @@
   <person xml:id="laleu" sex="M">
     <name>Laleu, danseur</name>
     <socecStatus type="pro"/>
+    <!-- https://classiques-garnier.com/dictionnaire-des-musiciens-et-danseurs-a-la-cour-de-louis-xiv-et-des-princes-1643-1661-tome-ii-a-c.html p656-->
     <!-- danseur dans les AD. -->
   </person>
   
@@ -3132,6 +3133,9 @@
   <person xml:id="des_airs_l_aine" sex="M">
     <name>Des Airs ou Desairs ou Desert, François Galland, dit l'aîné, danseur</name>
     <socecStatus type="pro"/>
+    <birth when="1617"/>
+    <death when="1677*"/>
+    <!-- https://classiques-garnier.com/dictionnaire-des-musiciens-et-danseurs-a-la-cour-de-louis-xiv-et-des-princes-1643-1661-tome-ii-a-c.html p111-->
   </person>
 
   <person xml:id="des_airs_fils1" sex="M">
@@ -3218,8 +3222,12 @@
   </person>
   
   <person xml:id="dolivet" sex="M">
-    <name>Dolivet ou D'Olivet, Hilaire, danseur</name>
+    <name>Dolivet ou D'Olivet, François Hilaire, danseur</name>
     <socecStatus type="pro"/>
+    <birth when="1629"/>
+    <death when="1677"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Acad%C3%A9mie_royale_de_danse</identifier>
+    <!-- https://classiques-garnier.com/dictionnaire-des-musiciens-et-danseurs-a-la-cour-de-louis-xiv-et-des-princes-1643-1661-tome-ii-a-c.html p155-->  
     <!-- AD -->
   </person>
   
@@ -7829,6 +7837,204 @@
     <socecStatus type="cour"/>
     <death when="1689-01-22"/>
     <!--http://racineshistoire.free.fr/LGN/PDF/Sanguin.pdf -->
+  </person>
+  
+  <person xml:id="gobelin_elisabeth" sex="F">
+    <name>Gobelin. Elisabeth, épouse de Anne-Alexandere de Lhospital (1646)</name>
+    <socecStatus type="cour"/>
+    <birth when="1634*"/>
+    <death when="1721-10-23"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Guillaume_Fran%C3%A7ois_Antoine,_marquis_de_L%27H%C3%B4pital</identifier>
+  </person>
+  
+  <person xml:id="beauvilliers_anne" sex="F">
+    <name>Beauvilliers, Anne de, demoiselle de Saint-Aignan</name>
+    <socecStatus type="cour"/>
+    <birth when="1652"/>
+    <death when="1734"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Honorat_de_Beauvilliers</identifier>
+  </person>
+  
+  <person xml:id="hohenzollern_françoise" sex="F">
+    <name>Hohenzollern-Hechingen. Françoise de, épouse de Frédéric-Maurice de La Tour d'Auvergne, comte d'Auvergne (1662)</name>
+    <socecStatus type="cour"/>
+    <socecStatus type="foreign"/>
+    <birth when="1642"/>
+    <death when="1698-10-17"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Fran%C3%A7oise_de_Hohenzollern-Hechingen</identifier>
+  </person>
+  
+  <person xml:id="durfort_marie" sex="F">
+    <name>Durfort-Duras. Marie de</name>
+    <socecStatus type="cour"/>
+    <birth when="1648-01-26"/>
+    <death when="1689-05-16"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Marie_de_Durfort</identifier>
+    <!--https://man8rove.com/fr/profile/i4443anv8-marie-de-durfort-->
+    <!--https://gw.geneanet.org/genroy?lang=en&p=marie&n=de+durfort+duras-->
+  </person>
+  
+  <person xml:id="taillefer_anne" sex="F">
+    <name>Taillefer. Anne de, épouse de Charles de Fouilleuse, marquis de Flavacourt (1643)</name>
+    <socecStatus type="cour"/>
+    <birth when="1621*"/>
+    <death when="1674-01-11"/>
+    <!--http://racineshistoire.free.fr/LGN/PDF/Taillefer.pdf-->
+    <!--http://racineshistoire.free.fr/LGN/PDF/Fouilleuse_et_Flavacourt.pdf-->
+  </person>
+  
+  <person xml:id="godet_françoise" sex="F">
+    <name>Godet. Françoise, épouse Antoine de Brouilly de Pienne (1661)</name>
+    <socecStatus type="cour"/>
+    <birth when="1626*"/>
+    <death when="1678-04-16"/>
+    <!--https://favoritesroyales.canalblog.com/archives/2012/07/26/24782654.html-->
+    <!--https://man8rove.com/fr/profile/59dsv1lb-francoise-godet-->
+  </person>
+  
+  <person xml:id="durfort-duras_elisabeth" sex="F">
+    <name>Durfort de Duras, Elisabeth de, épouse de Frédéric Charles de La Rochefoucauld, comte de Roucy et de Roye (1656)</name>
+    <socecStatus type="cour"/>
+    <birth when="1633"/>
+    <death when="1715"/>
+    <!--https://francearchives.gouv.fr/agent/19021013-->
+	  <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Liste_des_comtes_de_Roucy#Maison_de_Roye</identifier>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Guy_Aldonce_Ier_de_Durfort</identifier>
+  </person>
+  
+  <person xml:id="scudery_madeleine" sex="F">
+    <name>Scudéry. Madeleine de, </name>
+    <socecStatus type="cour"/>
+    <birth when="1607-11-15"/>
+    <death when="1701-06-02"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Madeleine_de_Scud%C3%A9ry</identifier>
+    <identifier type="databnf">https://data.bnf.fr/ark:/12148/cb119242312</identifier>
+    <identifier type="isni">0000 0001 2121 4284</identifier>
+  </person>
+  
+  <person xml:id="saintot_catherine" sex="F">
+    <name>Saintot, Catherine-Françoise, épouse de Philippe de Dreux </name>
+    <birth when=""/>
+    <death when="1681*"/>
+    <identifier type="wikipedia">https://en.wikipedia.org/wiki/Fran%C3%A7oise_de_Dreux </identifier>
+  </person>
+  
+  <person xml:id="dartigny_marie" sex="F">
+    <name>Guast d’Artigny, Claude Marie du, demoiselle d’Artigny puis épouse de Louis Pierre Scipion Grimoard de Beauvoir du Roure (1666) </name>
+    <birth when="1636*"/>
+    <death when="1724*"/>
+    <identifier type="wikipedia"></identifier>
+    <!--https://man8rove.com/fr/profile/6jmdqcpl-marie-de-gast-->
+  </person>
+  
+  <person xml:id="renaudot_fils" sex="M">
+    <name>Renaudot. Théophraste, fils</name>
+    <socecStatus type="pro"/>
+    <birth when="1611"/>
+    <death when="1672-05-21"/>
+    <!--https://www.wikidata.org/wiki/Q108509054-->
+    <identifier type="isni">0000 0004 5950 8044</identifier>
+    <identifier type="databnf">https://data.bnf.fr/en/ark:/12148/cb10644996b</identifier> 
+  </person>
+  
+  <person xml:id="vanbeuningen" sex="M">
+    <name>Van Beuningen. Coenraad</name>
+    <socecStatus type="foreign"/>
+    <birth when="1622"/>
+    <death when="1693-10-26"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Coenraad_van_Beuningen</identifier>
+    <identifier type="databnf">https://data.bnf.fr/ark:/12148/cb10595895t</identifier>
+    <identifier type="isni">0000 0000 6303 7493</identifier>
+  </person>
+  
+  <person xml:id="huygens_lodewijk" sex="M">
+    <name>Huygens. Lodewijk</name>
+    <socecStatus type="foreign"/>
+    <birth when="1631-03-13"/>
+    <death when="1699-06-30"/>
+    <identifier type="wikipedia">https://en.wikipedia.org/wiki/Lodewijck_Huygens</identifier>
+  </person>
+  
+  <person xml:id="doublet_philips" sex="M">
+    <name>Doublet ou Doubleth. Philips</name>
+    <socecStatus type="foreign"/>
+    <birth when="1633"/>
+    <death when="1707-07-06"/>
+    <identifier type="wikipedia">https://nl.wikipedia.org/wiki/Philips_Doubleth</identifier>
+    <!--https://www.wikidata.org/wiki/Q18655453-->
+  </person>
+  
+  <person xml:id="buti_francesco" sex="M">
+    <name>Buti. Francesco, librettiste</name>
+    <socecStatus type="foreign"/>
+    <socecStatus type="pro"/>
+    <identifier type="wikipedia">https://en.wikipedia.org/wiki/Francesco_Buti </identifier>
+    <identifier type="databnf">https://data.bnf.fr/ark:/12148/cb134919763</identifier>
+    <identifier type="isni">0000 0001 0902 7574</identifier>
+  </person>
+  
+  <person xml:id="chambonnieres_jacques" sex="M">
+    <name>Champion de Chambonnières. Jacques, compositeur, claveciniste</name>
+    <socecStatus type="pro"/>
+    <birth when="1602*"/>
+    <death when="1672*"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Jacques_Champion_de_Chambonni%C3%A8res </identifier>
+    <identifier type="databnf">https://data.bnf.fr/ark:/12148/cb13892364c</identifier>
+    <identifier type="isni">0000 0001 2121 7629</identifier>
+  </person>
+  
+  <person xml:id="verbec" sex="M">
+    <name>Verbec, danseur</name>
+    <socecStatus type="pro"/>
+    <!-- https://classiques-garnier.com/dictionnaire-des-musiciens-et-danseurs-a-la-cour-de-louis-xiv-et-des-princes-1643-1661-tome-iii-a-c.html p657-->
+  </person>
+  
+  <person xml:id="Lelorain" sex="M">
+    <name>Le Lorain, Chantre</name>
+    <socecStatus type="pro"/>
+    <!-- https://classiques-garnier.com/dictionnaire-des-musiciens-et-danseurs-a-la-cour-de-louis-xiv-et-des-princes-1643-1661-tome-ii-a-c.html p774-->
+  </person>
+  
+  <person xml:id="lalleman" sex="M">
+    <name>Lalleman (L’Alleman), Chantre</name>
+    <socecStatus type="pro"/>
+    <!-- https://classiques-garnier.com/dictionnaire-des-musiciens-et-danseurs-a-la-cour-de-louis-xiv-et-des-princes-1643-1661-tome-ii-a-c.html p656-->
+  </person>
+  
+  <person xml:id="saint-fre" sex="M">
+    <name>Saint-Fré, danseur</name>
+    <socecStatus type="pro"/>
+    <!-- https://classiques-garnier.com/dictionnaire-des-musiciens-et-danseurs-a-la-cour-de-louis-xiv-et-des-princes-1643-1661-tome-iii-a-c.html p553-->
+  </person>
+  
+  <person xml:id="langlois" sex="M">
+    <name>Langlois, Danseur</name>
+    <socecStatus type="pro"/>
+    <!-- https://classiques-garnier.com/dictionnaire-des-musiciens-et-danseurs-a-la-cour-de-louis-xiv-et-des-princes-1643-1661-tome-ii-a-c.html p676-->
+  </person>
+  
+  <person xml:id="levacher_thomas" sex="M">
+    <name>Le Vacher. Thomas, danseur</name>
+    <socecStatus type="pro"/>
+    <birth when=""/>
+    <death when="1662"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Acad%C3%A9mie_royale_de_danse</identifier>
+    <!-- https://classiques-garnier.com/dictionnaire-des-musiciens-et-danseurs-a-la-cour-de-louis-xiv-et-des-princes-1643-1661-tome-ii-a-c.html p854-->
+  </person>
+  
+  <person xml:id="rodier_jacques" sex="M">
+    <name>Rodier, Jacques danseur</name>
+    <socecStatus type="pro"/>
+    <death when="1680"/>
+    <!-- https://classiques-garnier.com/dictionnaire-des-musiciens-et-danseurs-a-la-cour-de-louis-xiv-et-des-princes-1643-1661-tome-ii-a-c.html p506-->
+  </person>
+  
+  <person xml:id="geoffroy" sex="M">
+    <name>Geoffroy, danseur, flûtiste</name>
+    <socecStatus type="pro"/>
+    <birth when=""/>
+    <death when=""/>
+    <!-- https://classiques-garnier.com/dictionnaire-des-musiciens-et-danseurs-a-la-cour-de-louis-xiv-et-des-princes-1643-1661-tome-ii-a-c.html p774-->
   </person>
   
 </listPerson>
