@@ -1490,6 +1490,9 @@ table.sortable {
   color: #000;
 }
 
+/* Cette partie concernent principalement les filtres des index.
+Toutes les personnes ou documents sont d'abord cachées (display: none), mais si elles contiennent une certaine valeur dans l'attribut class, elles sont affichées. */
+
 .rolist.commanditaire tbody tr,
 .rolist.destinataire tbody tr,
 .rolist.organisation tbody tr,
