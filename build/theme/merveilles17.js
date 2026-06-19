@@ -195,6 +195,11 @@ if (techlist) {
 }
 
 /** Filters for the places */
+/** Est importé dans l'attribut class des lieux son id et l'id de son parent (sous cette forme : #5#2).
+ * Lorsqu'un lieu est cliqué, on affiche ses descendants et on cache les lieux ayant le même parent (siblings).
+ * Lorsqu'un lieu est cliqué une nouvelle fois, on cache ses descendants et on affiche ses siblings.
+ */
+
 var placelist = document.querySelector(".placelist");
 var placegroup = document.querySelector("nav.filters div.placegroup");
 var place_matches = document.querySelectorAll("nav.filters a.place");
@@ -333,7 +338,7 @@ if (placelist) {
       ) {
         // Si aucun lieu n'est actif OU si le lieu cliqué est un enfant du dernier lieu actif
         listActivePlaces.push(place_id);
-        this.parentNode.classList.add("active");
+        this.parentNode.classList.add("active"); // Utilisation de .parentNode car on veut aussi que la flèche vers la notice soit montrée ou cachée
         showChildren(place_id);
         hideSiblings(place_parent);
         this.parentNode.style.display = "flex";

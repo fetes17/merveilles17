@@ -253,6 +253,8 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
     "img" => "Images",
   );
 
+  // Les listes suivantes sont utilisées pour les index ainsi que les fiches personnes.
+
   static $role = array(
     "commanditaire" => "Commanditaire",
     "destinataire" => "Destinataire",
@@ -298,6 +300,7 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
   public static function init()
   {
     self::$home = dirname(dirname(__FILE__)) . '/';
+    // créer la base de données sqlite, cachée par le fichier gitignore
     self::$sqlfile = self::$home . "site/merveilles17.sqlite";
     self::$template = file_get_contents(self::$home . "build/template.html");
     // vider site avant de créer la base sqlite
@@ -954,6 +957,11 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
         */
     // passer les stats $row['docs'], $row['occs'] ?
     // $index = Build::transform(self::$home . "index/technique.xml", self::$home . "build/xsl/technique.xsl");
+
+    /**
+     * Générer l'index des techniques
+     */
+
     $index = '<div class="container">
 <div class="row">
 <div class="col-3">
@@ -1054,7 +1062,9 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
       file_put_contents(self::$home . "site/" . $href, str_replace("%main%", $page, $template));
     }
 
-
+    /**
+     * Générer l'index des personnes
+     */
 
     $index = '<div class="container">
 <div class="row">
@@ -1141,7 +1151,7 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
 
 
   /**
-   * Générer les pages lieux
+   * Générer l'index des lieux
    */
   public static function lieux()
   {
@@ -1177,6 +1187,10 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
 
     file_put_contents(self::$home . "site/lieu/index.html", str_replace("%main%", $index, $template));
     // 
+
+    /**
+     * Générer les pages lieux
+     */
 
     // boucler sur tous les termes
     $stmt = self::$pdo->prepare("SELECT * FROM lieu");
@@ -1628,6 +1642,7 @@ CREATE INDEX corpus_document_document ON corpus_document(document);
     return $html;
   }
 
+  // génère la liste des documents liés à un lieu, une personne, un corpus ou une technique
   private static function uldocs($table = null, $id = null)
   {
     $qdocument = self::$pdo->prepare('SELECT * FROM document WHERE id = ?');

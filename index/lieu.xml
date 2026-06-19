@@ -1867,7 +1867,14 @@
           <identifier type="wikipedia"
             >https://fr.wikipedia.org/wiki/Rue_de_la_Huchette</identifier>
         </place>
-        
+        <place xml:id="paris_petit-bourbon">
+          <name>Théâtre du petit Bourbon</name>
+          <geo>48.859500, 2.339700</geo>
+          <country>France</country>
+          <settlement>Paris</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Petit-Bourbon</identifier> 
+          <!--https://www.histoires-de-paris.fr/theatre-petit-bourbon/-->
+        </place>
         <place xml:id="paris_chaillot_couvent">
           <name>Paris, Couvent des Visitandines de Chaillot</name>
           <name>Détruit</name>
@@ -1926,6 +1933,13 @@
           <settlement>Paris</settlement>
           <identifier type="wikipedia"
             >https://fr.wikipedia.org/wiki/Th%C3%A9%C3%A2tre_du_Palais-Royal_(1641%E2%80%931781)</identifier>
+        </place>
+        <place xml:id="paris_notre-dame">
+          <name>Cathédrale Notre-Dame de Paris</name>
+          <geo>48.8529682,2.3473272,17</geo>
+          <country>France</country>
+          <settlement>Paris</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Cath%C3%A9drale_Notre-Dame_de_Paris</identifier>
         </place>
         <place xml:id="paris_place-vosges">
           <name>Paris, Place Royale</name>
