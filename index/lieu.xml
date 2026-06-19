@@ -70,6 +70,27 @@
       <settlement>France</settlement>
       <identifier type="wikipedia">https://fr.wikipedia.org/wiki/France</identifier>
       <identifier type="geonames">https://www.geonames.org/3017382</identifier>
+      
+      <place xml:id="anjou">
+        <name>Anjou</name>
+        <country>France</country>
+        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Anjou</identifier>
+        <place xml:id="armenonville">
+          <name>Bailleau-Armenonville</name>
+          <geo>48.5333, 1.6519</geo>
+          <country>France</country>
+          <settlement>Anjou</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Bailleau-Armenonville</identifier>
+        </place>
+        <place xml:id="vineul">
+          <name>Vineuil</name>
+          <geo>47.3453, 1.2224</geo>
+          <country>France</country>
+          <settlement>Anjou</settlement>
+          <identifier type="wikipedia"
+            >https://fr.wikipedia.org/wiki/Vineuil_(Loir-et-Cher)</identifier>
+        </place>
+      </place>
 
       <place xml:id="artois">
         <name>Artois</name>
@@ -82,24 +103,6 @@
           <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Aire-sur-la-Lys</identifier>
           <identifier type="geonames"
             >https://www.geonames.org/6450224/aire-sur-la-lys.html</identifier>
-          
-          <place xml:id="arras">
-            <name>Arras</name>
-            <geo>50.29301, 2.78186</geo>
-            <country>France</country>
-            <settlement>Haut-de-France</settlement>
-            <identifier type="geonames">https://www.geonames.org/3036784/arras.html</identifier>
-            <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Arras</identifier>
-          </place>
-
-          <place xml:id="fort-saint-françois">
-            <name>Fort Saint-François</name>
-            <geo>50.63861, 2.39667</geo>
-            <country>France</country>
-            <settlement>Aire-sur-la-Lys</settlement>
-            <identifier type="wikipedia"
-              >https://fr.wikipedia.org/wiki/Enceinte_d%27Aire-sur-la-Lys</identifier>
-          </place>
 
           <place xml:id="aire-sur-la-lys_fortifications">
             <name>Aire-sur-la-Lys, fortifications</name>
@@ -109,6 +112,24 @@
             <identifier type="wikipedia"
               >https://fr.wikipedia.org/wiki/Enceinte_d%27Aire-sur-la-Lys</identifier>
           </place>
+        </place>
+        
+        <place xml:id="arras">
+          <name>Arras</name>
+          <geo>50.29301, 2.78186</geo>
+          <country>France</country>
+          <settlement>Haut-de-France</settlement>
+          <identifier type="geonames">https://www.geonames.org/3036784/arras.html</identifier>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Arras</identifier>
+        </place>
+        
+        <place xml:id="fort-saint-françois">
+          <name>Fort Saint-François</name>
+          <geo>50.63861, 2.39667</geo>
+          <country>France</country>
+          <settlement>Aire-sur-la-Lys</settlement>
+          <identifier type="wikipedia"
+            >https://fr.wikipedia.org/wiki/Enceinte_d%27Aire-sur-la-Lys</identifier>
         </place>
       </place>
       
@@ -270,156 +291,8 @@
         </place>
       </place>
       
-      <place xml:id="hauts_de_france">
-        <name>Hauts-de-France</name>
-        <country>France</country>
-        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Hauts-de-France</identifier>
-        <identifier type="geonames"
-          >https://www.geonames.org/11071621/hauts-de-france.html</identifier>
-        <place xml:id="avilly">
-          <name>Avilly-Saint-Léonard</name>
-          <geo>49.1945, 2.5415</geo>
-          <country>France</country>
-          <settlement>Haut-de-France</settlement>
-          <identifier type="wikipedia"
-            >https://fr.wikipedia.org/wiki/Avilly-Saint-L%C3%A9onard</identifier>
-        </place>
-        <place xml:id="alatte">
-          <name>Verneuil-en-Halatte</name>
-          <geo>49.1638, 2.3123</geo>
-          <country>France</country>
-          <settlement>Haut-de-France</settlement>
-          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Verneuil-en-Halatte</identifier>
-          <identifier type="geonames"
-            >https://www.geonames.org/2969806/verneuil-en-halatte.html</identifier>
-        </place>
-        
-        
-        <place xml:id="fresnoylecheateau">
-          <name>Fresnoy-le-Château</name>
-          <geo>48.2093, 4.2235</geo>
-          <country>France</country>
-          <settlement>Fresnoy-le-Château</settlement>
-          <identifier type="wikipedia"
-            >https://fr.wikipedia.org/wiki/Fresnoy-le-Ch%C3%A2teau</identifier>
-        </place>
-        
-        
-        <place xml:id="villers-cotterets">
-          <name>Villers-Cotterêts</name>
-          <geo/>
-          <country>France</country>
-          <settlement>Villers-Cotterêts</settlement>
-          <identifier type="wikipedia"
-            >https://fr.wikipedia.org/wiki/Villers-Cotter%C3%AAts</identifier>
-          <identifier type="geonames"
-            >https://www.geonames.org/2968405/villers-cotterets.html</identifier>
-          
-          <place xml:id="chateauvillerscotteret">
-            <name>Château de Villers-Cotterêts</name>
-            <geo>49.1521, 3.0532</geo>
-            <!-- coordonnées approximatives -->
-            <country>France</country>
-            <settlement>Villers-Cotterêts</settlement>
-            <identifier type="wikipedia"
-              >https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Villers-Cotter%C3%AAts</identifier>
-            
-            <place xml:id="appartementroivillerscotteret">
-              <name>Appartement du Roi Château de Villers-Cotterêts</name>
-              <geo>49°15'22.6, 3.0530.7</geo>
-              <country>France</country>
-              <settlement>Château de Villers-Cotterêts</settlement>
-            </place>
-            <place xml:id="appartementprivechateauvillerscotteret">
-              <name>Appartement privé Chateau de Villers-Cotterêts</name>
-              <geo>49°15'22.6, 3.0500.7</geo>
-              <country>France</country>
-              <settlement>Château de Villers-Cotterêts</settlement>
-            </place>
-            
-            <place xml:id="avantcourchateauvillerscotteret">
-              <name>l’avant-Cour du Chateau</name>
-              <geo>49.1521.2, 3.0532.2</geo>
-              <country>France</country>
-              <settlement>Château de Villers-Cotterêts</settlement>
-            </place>
-            
-            <place xml:id="avenuechateauvillerscotteret">
-              <name>Grande avenue du Château de Villers-Cotterêts</name>
-              <geo>49.1527.2, 3.0532.4</geo>
-              <country>France</country>
-              <settlement>Château de Villers-Cotterêts</settlement>
-            </place>
-            <place xml:id="chapellechateauvillerscotteret">
-              <name>Chapelle du Chateau de Villers-Cotterêts</name>
-              <geo>49.256446, 3.092033</geo>
-              <country>France</country>
-              <settlement>Chateau de Villers-Cotterêts</settlement>
-            </place>
-            <place xml:id="courchateauvillerscotteret">
-              <name>Cour du Château de Villers-Cotterêts</name>
-              <geo>49.1520.5 3.0532.2</geo>
-              <country>France</country>
-              <settlement>Château de Villers-Cotterêts</settlement>
-            </place>
-            <place xml:id="courinterieurvillerscotteret">
-              <name>Cour intérieure du Château de Villers-Cotterêts</name>
-              <geo>49.1522.0, 3.0532.2</geo>
-              <country>France</country>
-              <settlement>Château de Villers-Cotterêts</settlement>
-            </place>
-            
-            <place xml:id="galleriechateauvillerscotteret">
-              <name>La Gallerie du Château de Villers-Cotterêts</name>
-              <geo>49.1523.0, 3.0531.0</geo>
-              <country>France</country>
-              <settlement>Château de Villers-Cotterêts</settlement>
-            </place>
-            
-            <place xml:id="jardinchateauvillerscotteret">
-              <name>Parc du Château de Villers-Cotterêts</name>
-              <geo>49.1524.1, 3.0532.2</geo>
-              <country>France</country>
-              <settlement>Château de Villers-Cotterêts</settlement>
-            </place>
-            <place xml:id="orangeriechateauvillerscotteret">
-              <name>Orangerie du Chateau de Villers-Cotterêts</name>
-              <geo>49.1524.1, 3.0132.2</geo>
-              <country>France</country>
-              <settlement>Château de Villers-Cotterêts</settlement>
-            </place>
-            <place xml:id="petitchateauvillerscotteret">
-              <name>Petit Chateau de Villers-Cotterêts</name>
-              <geo>49.1024.1, 3.0132.2</geo>
-              <country>France</country>
-              <settlement>Château de Villers-Cotterêts</settlement>
-            </place>
-            <place xml:id="terrassechateauvillerscotteret">
-              <name>Terrasse du Château de Villers-Cotterêts</name>
-              <geo>49.1519.0, 3.0532.7</geo>
-              <!-- coordonnées approximatives -->
-              <country>France</country>
-              <settlement>Château de Villers-Cotterêts</settlement>
-            </place>
-          </place>
-          <place xml:id="foretvillerscotteret">
-            <name>Forêt de Retz</name>
-            <geo>49.1533, 3.0533</geo>
-            <country>France</country>
-            <settlement>Haut-de-France</settlement>
-            <identifier type="wikipedia"
-              >https://fr.wikipedia.org/wiki/For%C3%AAt_de_Retz</identifier>
-          </place>
-        </place>
-        <place xml:id="senlis">
-          <name>Senlis</name>
-          <geo>49.1229, 2.3515</geo>
-          <country>France</country>
-          <settlement>Haut-de-France</settlement>
-          <identifier type="wikipedia"
-            >https://fr.wikipedia.org/wiki/Senlis_(Oise)</identifier>
-        </place>
-      </place>
+     
+       
       
       <place xml:id="franche-comte">
         <name>Franche-Comté</name>
@@ -460,15 +333,16 @@
           <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Saint-Firmin_(Sa%C3%B4ne-et-Loire)</identifier>
         </place>
       </place>
-      <place xml:id="nouvelle_aquitaine">
-        <name>Nouvelle-Aquitaine</name>
+      
+      <place xml:id="limousin">
+        <name>Limousin</name>
         <country>France</country>
-        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Nouvelle-Aquitaine</identifier>
+        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Limousin_(province)</identifier>
         <place xml:id="barville">
           <name>Bar</name>
           <geo>45.2046, 1.4855</geo>
           <country>France</country>
-          <settlement>Nouvelle-Aquitaine</settlement>
+          <settlement>Limousin</settlement>
           <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Bar_(Corr%C3%A8ze)</identifier>
         </place>
       </place>
@@ -488,25 +362,7 @@
         <name>Savoie</name>
         <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Savoie</identifier>
       </place>
-      <place xml:id="val_de_loire">
-        <name>Val de Loire</name>
-        <country>France</country>
-        <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Centre-Val_de_Loire</identifier>
-        <place xml:id="armenonville">
-          <name>Bailleau-Armenonville</name>
-          <geo>48.5333, 1.6519</geo>
-          <country>France</country>
-          <settlement>Val de Loire</settlement>
-          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Bailleau-Armenonville</identifier>
-        </place>
-        <place xml:id="vineul">
-          <name>Vineuil</name>
-          <geo>47.3453, 1.2224</geo>
-          <country>France</country>
-          <settlement>Val de Loire</settlement>
-          <identifier type="wikipedia"
-            >https://fr.wikipedia.org/wiki/Vineuil_(Loir-et-Cher)</identifier>
-        </place>
+     
         <place xml:id="touraine">
           <name>Touraine</name>
           <country>France</country>
@@ -520,7 +376,7 @@
           </place> 
           
         </place>
-      </place>
+     
       
       <place xml:id="flandre">
         <name>Flandre</name>
@@ -1275,6 +1131,24 @@
           </place>
         </place>
 
+        <place xml:id="avilly">
+          <name>Avilly-Saint-Léonard</name>
+          <geo>49.1945, 2.5415</geo>
+          <country>France</country>
+          <settlement>Haut-de-France</settlement>
+          <identifier type="wikipedia"
+            >https://fr.wikipedia.org/wiki/Avilly-Saint-L%C3%A9onard</identifier>
+        </place>
+        <place xml:id="alatte">
+          <name>Verneuil-en-Halatte</name>
+          <geo>49.1638, 2.3123</geo>
+          <country>France</country>
+          <settlement>Haut-de-France</settlement>
+          <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Verneuil-en-Halatte</identifier>
+          <identifier type="geonames"
+            >https://www.geonames.org/2969806/verneuil-en-halatte.html</identifier>
+        </place>
+        
         <place xml:id="beauvais">
           <name>Beauvais</name>
           <geo>49.430278, 2.095278</geo>
@@ -1420,6 +1294,15 @@
             >https://www.geonames.org/6438174/coudekerque-branche.html</identifier>
         </place>
 
+        <place xml:id="fresnoylecheateau">
+          <name>Fresnoy-le-Château</name>
+          <geo>48.2093, 4.2235</geo>
+          <country>France</country>
+          <settlement>Fresnoy-le-Château</settlement>
+          <identifier type="wikipedia"
+            >https://fr.wikipedia.org/wiki/Fresnoy-le-Ch%C3%A2teau</identifier>
+        </place>
+        
         <place xml:id="gravelines">
           <name>Gravelines</name>
           <geo>50.98639, 2.1275</geo>
@@ -1496,6 +1379,14 @@
           <identifier type="geonames">https://www.geonames.org/6617763</identifier>
         </place>
 
+        <place xml:id="senlis">
+          <name>Senlis</name>
+          <geo>49.1229, 2.3515</geo>
+          <country>France</country>
+          <settlement>Haut-de-France</settlement>
+          <identifier type="wikipedia"
+            >https://fr.wikipedia.org/wiki/Senlis_(Oise)</identifier>
+        </place>
         <place xml:id="silly-tillard">
           <name>Silly-Tillard</name>
           <geo>49.325278, 2.159722</geo>
@@ -1503,6 +1394,113 @@
           <settlement>Silly-Tillard</settlement>
           <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Silly-Tillard</identifier>
           <identifier type="geonames">https://www.geonames.org/6438981</identifier>
+        </place>
+
+        <place xml:id="villers-cotterets">
+          <name>Villers-Cotterêts</name>
+          <geo/>
+          <country>France</country>
+          <settlement>Villers-Cotterêts</settlement>
+          <identifier type="wikipedia"
+            >https://fr.wikipedia.org/wiki/Villers-Cotter%C3%AAts</identifier>
+          <identifier type="geonames"
+            >https://www.geonames.org/2968405/villers-cotterets.html</identifier>
+          
+          <place xml:id="chateauvillerscotteret">
+            <name>Château de Villers-Cotterêts</name>
+            <geo>49.1521, 3.0532</geo>
+            <!-- coordonnées approximatives -->
+            <country>France</country>
+            <settlement>Villers-Cotterêts</settlement>
+            <identifier type="wikipedia"
+              >https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Villers-Cotter%C3%AAts</identifier>
+            
+            <place xml:id="appartementroivillerscotteret">
+              <name>Appartement du Roi Château de Villers-Cotterêts</name>
+              <geo>49°15'22.6, 3.0530.7</geo>
+              <country>France</country>
+              <settlement>Château de Villers-Cotterêts</settlement>
+            </place>
+            <place xml:id="appartementprivechateauvillerscotteret">
+              <name>Appartement privé Chateau de Villers-Cotterêts</name>
+              <geo>49°15'22.6, 3.0500.7</geo>
+              <country>France</country>
+              <settlement>Château de Villers-Cotterêts</settlement>
+            </place>
+            
+            <place xml:id="avantcourchateauvillerscotteret">
+              <name>l’avant-Cour du Chateau</name>
+              <geo>49.1521.2, 3.0532.2</geo>
+              <country>France</country>
+              <settlement>Château de Villers-Cotterêts</settlement>
+            </place>
+            
+            <place xml:id="avenuechateauvillerscotteret">
+              <name>Grande avenue du Château de Villers-Cotterêts</name>
+              <geo>49.1527.2, 3.0532.4</geo>
+              <country>France</country>
+              <settlement>Château de Villers-Cotterêts</settlement>
+            </place>
+            <place xml:id="chapellechateauvillerscotteret">
+              <name>Chapelle du Chateau de Villers-Cotterêts</name>
+              <geo>49.256446, 3.092033</geo>
+              <country>France</country>
+              <settlement>Chateau de Villers-Cotterêts</settlement>
+            </place>
+            <place xml:id="courchateauvillerscotteret">
+              <name>Cour du Château de Villers-Cotterêts</name>
+              <geo>49.1520.5 3.0532.2</geo>
+              <country>France</country>
+              <settlement>Château de Villers-Cotterêts</settlement>
+            </place>
+            <place xml:id="courinterieurvillerscotteret">
+              <name>Cour intérieure du Château de Villers-Cotterêts</name>
+              <geo>49.1522.0, 3.0532.2</geo>
+              <country>France</country>
+              <settlement>Château de Villers-Cotterêts</settlement>
+            </place>
+            
+            <place xml:id="galleriechateauvillerscotteret">
+              <name>La Gallerie du Château de Villers-Cotterêts</name>
+              <geo>49.1523.0, 3.0531.0</geo>
+              <country>France</country>
+              <settlement>Château de Villers-Cotterêts</settlement>
+            </place>
+            
+            <place xml:id="jardinchateauvillerscotteret">
+              <name>Parc du Château de Villers-Cotterêts</name>
+              <geo>49.1524.1, 3.0532.2</geo>
+              <country>France</country>
+              <settlement>Château de Villers-Cotterêts</settlement>
+            </place>
+            <place xml:id="orangeriechateauvillerscotteret">
+              <name>Orangerie du Chateau de Villers-Cotterêts</name>
+              <geo>49.1524.1, 3.0132.2</geo>
+              <country>France</country>
+              <settlement>Château de Villers-Cotterêts</settlement>
+            </place>
+            <place xml:id="petitchateauvillerscotteret">
+              <name>Petit Chateau de Villers-Cotterêts</name>
+              <geo>49.1024.1, 3.0132.2</geo>
+              <country>France</country>
+              <settlement>Château de Villers-Cotterêts</settlement>
+            </place>
+            <place xml:id="terrassechateauvillerscotteret">
+              <name>Terrasse du Château de Villers-Cotterêts</name>
+              <geo>49.1519.0, 3.0532.7</geo>
+              <!-- coordonnées approximatives -->
+              <country>France</country>
+              <settlement>Château de Villers-Cotterêts</settlement>
+            </place>
+          </place>
+          <place xml:id="foretvillerscotteret">
+            <name>Forêt de Retz</name>
+            <geo>49.1533, 3.0533</geo>
+            <country>France</country>
+            <settlement>Haut-de-France</settlement>
+            <identifier type="wikipedia"
+              >https://fr.wikipedia.org/wiki/For%C3%AAt_de_Retz</identifier>
+          </place>
         </place>
       </place>
 
