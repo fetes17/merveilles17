@@ -8285,7 +8285,7 @@
   </person>
 
   <person xml:id="chiarini_guiseppe" sex="M">
-    <name>Chiarini. Giuseppe, chanteur, castrat</name>
+    <name>Chiarini, Giuseppe, chanteur, castrat</name>
     <socecStatus type="foreign"/>
     <socecStatus type="pro"/>
     <birth when=""/>
@@ -8296,7 +8296,7 @@
   </person>
 
   <person xml:id="ghigof_filiberto" sex="M">
-    <name>Ghigof. Filiberto, chantre castrat</name>
+    <name>Ghigof, Filiberto, chantre castrat</name>
     <socecStatus type="foreign"/>
     <socecStatus type="pro"/>
     <birth when=""/>
@@ -8331,8 +8331,9 @@
   </person>
 
   <person xml:id="sign_antonio_d_imola" sex="M">
-    <name>Sign Antonio d’Imola</name>
-    <socecStatus type="cour"/>
+    <name>Imola, Antonio d'</name>
+    <socecStatus type="pro"/>
+    <socecStatus type="foreign"/>
     <birth when=""/>
     <death when=""/>
     <!--https://chateauversailles-recherche.fr/curia/documents/reine-mere1663.pdf-->
@@ -8340,17 +8341,10 @@
   
   <person xml:id="grotteau" sex="M">
     <name>Grotteau.</name>
-    <socecStatus type="pro"/>
+    <socecStatus type="cour"/>
     <birth when=""/>
     <death when=""/>
     <!--https://chateauversailles-recherche.fr/IMG/pdf/t._ii_code_des_officiers_du_roi.pdf c'est soit le père soit le fils-->
-  </person>
-
-  <person xml:id="ambassadeur_venise" sex="F">
-    <name>Ambassadeur de Venise</name>
-    <birth when=""/>
-    <death when=""/>
-    <!--pour des textes de 1668 et 1674-->
   </person>
   
   <person xml:id="chevalier_clermont" sex="M">
@@ -8872,6 +8866,7 @@ https://man8rove.com/fr/found_surnames/?lastname=Benoist -->
   
   <person xml:id="ble-de-laye_marie" sex="F">
     <name>Blé de Laye. Marie, épouse de Henri de Beringhen (1646)</name>
+    <socecStatus type="cour"/>
     <birth when=""/>
     <death when="1676"/>
     <!--https://richelieuletters.hypotheses.org/26210--> 
@@ -8880,12 +8875,14 @@ https://man8rove.com/fr/found_surnames/?lastname=Benoist -->
   
   <person xml:id="mlle_de_beringhen" sex="F">
     <name>Mademoiselle de Beringhen </name>
+    <socecStatus type="cour"/>
     <birth when=""/>
     <death when=""/>
   </person>
   
   <person xml:id="princesse_d_espinoy" sex="F">
     <name>"Madame la Princesse d’Espinoy"</name>
+    <socecStatus type="cour"/>
       <!-- = https://fr.wikipedia.org/wiki/Liste_des_seigneurs,_comtes,_puis_princes_d%27%C3%89pinoy
         = il y a une grande lignée -->
   </person>
@@ -8950,13 +8947,16 @@ https://man8rove.com/fr/blason/1idyyp6-launay -->
   </person>
 
   <person xml:id="marguerite_papon" sex="F">
-    <name>Papon, Marguerite, épouse de Jean de Saint Martin(1655)</name>
+    <name>Papon, Marguerite, épouse de Jean de Saint Martin (1655)</name>
+    <socecStatus type="cour"/>
     <birth when=""/>
     <death when=""/>
     <!--https://man8rove.com/fr/profile/6w3tuezzl-marguerite-papon-->
   </person>
+  
   <person xml:id="louise_destailleurs" sex="F">
     <name>Destailleurs, Louise, épouse de Victor de Saint Martin (1656)</name>
+    <socecStatus type="cour"/>
     <birth when="1637"/>
     <death when="1675*"/>
     <!--https://man8rove.com/fr/profile/n79qp6pgt-louise-destailleurs-->
@@ -9198,7 +9198,7 @@ Sinon Anne ou madeleine, filles de 1ere épouse de Jacques rené d’escoubleau,
   </person>
   
   <person xml:id="mlle_de_sales" sex="F">
-    <name>Madame de Sales</name>
+    <name>Sales, Madame de </name>
     <socecStatus type="cour"/>
     <birth when=""/>
     <death when=""/>
@@ -9242,7 +9242,7 @@ Sinon Anne ou madeleine, filles de 1ere épouse de Jacques rené d’escoubleau,
     </person>
     
   <person xml:id="madame_de_fienne" sex="F">
-    <name>Madame de Fienne</name>
+    <name>Fiennes, Françoise de, dame d'atours d'Henriette-Marie de France  </name>
     <socecStatus type="cour"/>
     <!--piste : 
       <name>Guernonval. Catherine Cécile de, épouse de Maximilien de Fiennes (1662)</name>
@@ -9252,7 +9252,7 @@ http://racineshistoire.free.fr/LGN/PDF/Fiennes.pdf-->
   </person>
   
   <person xml:id="sainctot_nicolas" sex="M">
-    <name>Sainctot. Nicolas de, danseur</name>
+    <name>Sainctot, Nicolas de, danseur</name>
     <socecStatus type="pro"/>
     <birth when="1632"/>
     <death when=""/>	<!--https://chateauversailles-recherche.fr/IMG/pdf/memoires_de_sainctot_t._ii.pdf-->
@@ -9267,28 +9267,28 @@ http://racineshistoire.free.fr/LGN/PDF/Fiennes.pdf-->
   </person>
   
   <person xml:id="mlle_saint_gellais" sex="F">
-    <name>Mademoiselle de Saint Gellais</name>
+    <name>Saint Gellais, Mademoiselle de </name>
     <socecStatus type="cour"/>
     <birth when=""/>
     <death when=""/>
   </person>
 
   <person xml:id="le-camus_charlotte" sex="F">
-    <name>Charlotte Le Camus </name>
+    <name>Le Camus, Charlotte</name>
     <birth when=""/>
     <death when="1702-06-22"/>
     <!-- https://fr.wikisource.org/wiki/Ann%C3%A9e_des_dames/1/22_juin -->
   </person>
   
   <person xml:id="lormier_catherine" sex="F">
-    <name>Lormier, Catherine, (1656) Perrault</name>
+    <name>Lormier, Catherine, épouse (1656) Perrault</name>
     <socecStatus type="cour"/>
     <birth when=""/>
     <death when=""/>
   </person>
   
   <person xml:id="guillet_elisabeth" sex="F">
-    <name>Guillet, Elisabeth, de Monceaux</name>
+    <name>Guillet, Elisabeth, épouse de Monceaux</name>
     <socecStatus type="cour"/>
     <birth when=""/>
     <death when=""/>
@@ -9297,7 +9297,7 @@ http://racineshistoire.free.fr/LGN/PDF/Fiennes.pdf-->
   </person>
       
       <person xml:id="tiersant_anne" sex="F">
-        <name>Tiersant, Anne, Daquin</name>
+        <name>Tiersant, Anne, épouse Daquin</name>
         <socecStatus type="cour"/>
         <birth when=""/>
         <death when=""/>
@@ -9305,7 +9305,7 @@ http://racineshistoire.free.fr/LGN/PDF/Fiennes.pdf-->
       </person>
 
       <person xml:id="mademoiselle_canillac" sex="F">
-        <name>Mademoiselle de Canillac</name>
+        <name>Canillac, Mademoiselle de </name>
         <socecStatus type="cour"/>
         <birth when=""/>
         <death when=""/>
