@@ -547,7 +547,12 @@
     <name>Rouvroy, mr de, lieutenant</name>
     <socecStatus type="militaire"/>
   </person>
-  
+
+  <person xml:id="mme-rouvroy" sex="F">
+    <name>Rouvroy ou Rouvray, Madame de</name>
+    <socecStatus type="cour"/>
+  </person>
+
   <person xml:id="de_villars_chevalier" sex="M">
     <name>Villars, chevalier de, lieutenant</name>
     <socecStatus type="militaire"/>
@@ -1727,9 +1732,10 @@
   </person>
   
   <person xml:id="angelique_baudean_froulay" sex="F">
-    <name>Baudéan Froulay, Angélique de</name>
+    <name>Baudéan, Angélique de, épouse de Charles de Froulay</name>
     <socecStatus type="cour"/>
     <death when="1678"/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Famille_de_Froulay</identifier>
   </person>
   
   <person xml:id="anne_baviere_conde" sex="F">
@@ -2666,7 +2672,7 @@
   </person>
   
   <person xml:id="charles_albert_ailly" sex="M">
-    <name>Ailly, Charles Albert d’, duc de Chaulnes</name>
+    <name>Albert d’Ailly, Charles d', duc de Chaulnes</name>
     <socecStatus type="cour"/>
     <birth when="1625"/>
     <death when="1698"/>
@@ -8423,19 +8429,12 @@ ou sinon Marie de Taillefer (1616 - 1678) son mari est François de Brunes, seig
   </person>
 
   <person xml:id="marquise_de_crussol" sex="F">
-    <name>Madame la marquise de Crusol</name>
+    <name>Crussol, Madame la marquise de </name>
     <socecStatus type="cour"/>
     <birth when=""/>
     <death when=""/>
   </person>
-  
-  <person xml:id="contesse_de_crussol" sex="F">
-    <name>Madame la Comtesse de Crussol </name>
-    <socecStatus type="cour"/>
-    <birth when=""/>
-    <death when=""/>
-  </person>
-
+ 
   <person xml:id="madame_de_la_boulaye" sex="F">
     <name>Madame de la Boulaye</name>
     <socecStatus type="cour"/>
@@ -8660,7 +8659,7 @@ ou sinon Marie de Taillefer (1616 - 1678) son mari est François de Brunes, seig
   <!-- son mari, sieur de Monbron est indexé. Mais aucune spécification à son sujet-->
 
   <person xml:id="madame_de_sauvour" sex="F">
-    <name>Madame de Sauvour</name>
+    <name>Sauvour, Madame de</name>
     <socecStatus type="cour"/>
     <birth when=""/>
     <death when=""/>
@@ -8970,7 +8969,7 @@ https://man8rove.com/fr/blason/1idyyp6-launay -->
   </person>
 
   <person xml:id="mlle_saint_gelais" sex="F">
-    <name>Mademoiselle de Saint-Gelais</name>
+    <name>Saint-Gelais, Mademoiselle de </name>
     <socecStatus type="cour"/>
     <birth when=""/>
     <death when=""/>
@@ -8979,17 +8978,17 @@ https://man8rove.com/fr/blason/1idyyp6-launay -->
   <!--http://racineshistoire.free.fr/LGN/PDF/Chabot.pdf sinon il y a des seigneurs de saint gelais ici-->
   
   <person xml:id="mlle_marq" sex="F">
-    <name>Mademoiselle de la Marq</name>
+    <name>Échallard de la Marck, Marie-Françoise, comtesse de Lannion (1680)</name>
     <socecStatus type="cour"/>
     <birth when=""/>
-    <death when=""/>
+    <death when="1726"/>
     <!--piste : https://man8rove.com/fr/blason/b4qd005-eschalard 
 http://racineshistoire.free.fr/LGN/PDF/La-Marck.pdf -->
   </person>
 
 
   <person xml:id="madame_de_nogent" sex="F">
-    <name>Madame de Nogent</name>
+    <name>Nogent, Madame de </name>
     <socecStatus type="cour"/>
     <birth when=""/>
     <death when=""/>
