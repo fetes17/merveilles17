@@ -995,8 +995,10 @@
   </person>
   
   <person xml:id="louisI_sanguin" sex="M">
-    <name>Sanguin, Louis I</name>
-    <socecStatus type="pro"/>
+    <name>Sanguin, Louis I, marquis de Livry dit Sanguin le jeune ou Sanguin fils, premier maître d'hotel du roi (survivance: 1676, 1680)</name>
+    <socecStatus type="cour"/>
+    <birth when="1648"/>
+    <death when="1723"/>
   </person>
   
   <person xml:id="louis_chatillon" sex="M">
@@ -4883,9 +4885,17 @@
       <identifier type="wikipedia">https://fr.wikipedia.org/wiki/Maison_de_Bauffremont</identifier>
     </person>
     <person xml:id="jacques_livry" sex="M">
-      <name>Sanguin, Jacques, marquis de Livry</name>
+      <name>Sanguin, Jacques, marquis de Livry, maître d'hôtel ordinaire puis premier maître d'hôtel (1676) du roi</name>
       <socecStatus type="cour"/>
+      <birth when="1622"/>
+      <death when="1680"/>
     </person>
+  <person xml:id="mme-sanguin" sex="M">
+    <name>Bordeaux, Marie de, épouse de Jacques Sanguin, marquis de Livry, maître d'hôtel ordinaire du roi (1647)</name>
+    <birth when="1614"/>
+    <death when="1689"/>
+    <socecStatus type="cour"/>
+  </person>
     <person xml:id="louis_ii_sanguin" sex="M">
     <name>Sanguin, Louis II, Marquis de</name>
       <socecStatus type="cour"/>
@@ -5145,17 +5155,11 @@
     <socecStatus type="cour"/>
   </person>
   <person xml:id="mme_de_marse" sex="F">
-    <name>Marsé, Mme de</name>
+    <name>Marcé, Madameme de</name>
     <socecStatus type="cour"/>
-    <!--  peut-être 
-      <name>Bridonneau. Henriette, épouse de Jean de Marcé (1662)</name>
-      <socecStatus type="cour"/>
-      <birth when=""/>
-      <death when=""/>
-        https://man8rove.com/fr/profile/8uf6dr5ts-henriette-bridonneau
-  </person> -->
   </person>
 
+  
   <person xml:id="martineau" sex="M">
     <name>Martineau, violon</name>
     <socecStatus type="pro"/>
@@ -8680,28 +8684,36 @@ ou sinon Marie de Taillefer (1616 - 1678) son mari est François de Brunes, seig
     <death when=""/>
   </person>
 
-  <person xml:id="mademoiselle_de_fauseuse" sex="F">
-    <name>Mademoiselle de Fauseuse</name>
+  <person xml:id="fosseuse" sex="F">
+    <name>Fosseuse, mademoiselle de, fille d'honneur de la reine</name>
+    <socecStatus type="cour"/>
+    <birth when=""/>
+    <death when=""/>
+  </person>
+  
+  <person xml:id="ludre" sex="F">
+    <name>Ludres, Isabelle de, chanoinesse de Poussay, dame d'honneur d'Henriette d'Orléans (1664), de la reine (1670) et d'Elizabeth-Charlotte du Palatinat (1673) </name>
+    <socecStatus type="cour"/>
+    <birth when="1647"/>
+    <death when="1726"/>
+    <identifier type="wikipedia">https://en.wikipedia.org/wiki/Isabelle_de_Ludres</identifier>
+  </person>
+
+  <person xml:id="mademoiselle_du_coudray" sex="F">
+    <name>Coudray, Mademoiselle du </name>
     <socecStatus type="cour"/>
     <birth when=""/>
     <death when=""/>
   </person>
 
-  <person xml:id="mademoiselle_de_coudray" sex="F">
-    <name>Mademoiselle du Coudray</name>
+  <person xml:id="madame_de_rarey" sex="F">
+    <name>Angennes, Catherine d', baronne de Raray, gouvernante des filles de Gaston d'Orléans</name>
     <socecStatus type="cour"/>
-    <birth when=""/>
-    <death when=""/>
+    <birth when="1610"/>
+    <death when="1679"/>
   </person>
-
-  <person xml:id="madame_de_rarre" sex="F">
-    <name>Madame de Rarré</name>
-    <socecStatus type="cour"/>
-    <birth when=""/>
-    <death when=""/>
-  </person>
-  <person xml:id="mademoiselle_de_rarre" sex="F">
-    <name>Mademoiselle de Rarré</name>
+  <person xml:id="mademoiselle_de_rarey" sex="F">
+    <name>Raray, mademoiselle de, fille de Catherine d'Angennes baronne de Raray</name>
     <birth when=""/>
     <death when=""/>
   </person>
@@ -9005,21 +9017,14 @@ ou https://man8rove.com/fr/profile/wnl0rh1ul-nicole-tremisot -->
     <identifier type="wikipedia">https://fr.wikipedia.org/wiki/G%C3%A9n%C3%A9alogie_de_la_famille_Chabot</identifier>
     <!-- http://racineshistoire.free.fr/LGN/PDF/Chabot.pdf-->
   </person>
+ 
   
-  <person xml:id="mademoiselle_bellay" sex="F">
-    <name>du Bellay</name>
+  <person xml:id="bellenave" sex="F">
+    <name>Bellenave, Marie-Louise de, épouse d'Alexandre de Choiseul, comte du Plessis</name>
     <socecStatus type="cour"/>
     <birth when=""/>
     <death when=""/>
-    <!--peut-être https://man8rove.com/fr/profile/h70eaoe1n-anne-madeleine-du-bellay
-http://racineshistoire.free.fr/LGN/PDF/du_Bellay.pdf -->
-  </person>
-  
-  <person xml:id="comtesse_du_plessis" sex="F">
-    <name>Madame la comtesse du Plessis</name>
-    <socecStatus type="cour"/>
-    <birth when=""/>
-    <death when=""/>
+    <identifier type="wikipedia">https://fr.wikipedia.org/wiki/C%C3%A9sar_II_Auguste_de_Choiseul</identifier>
   </person>
   
   <person xml:id="madame_de_sourdy" sex="F">
@@ -9033,7 +9038,7 @@ http://racineshistoire.free.fr/LGN/PDF/du_Bellay.pdf -->
   </person>
   
   <person xml:id="mademoiselle_de_sourdy" sex="F">
-    <name>Mademoiselle de Sourdy</name>
+    <name>Sourdis, Mademoiselle de</name>
     <socecStatus type="cour"/>
     <birth when=""/>
     <death when=""/>
