@@ -2301,11 +2301,20 @@
 
   <person xml:id="francois_broglio" sex="M">
       <name>Broglio, François-Remond-Felix, chevalier de</name>
+    <birth when="1656"/>
+    <death when="1720"/>
     <socecStatus type="cour"/>
     </person>
   
   <person xml:id="madame_de_broglio" sex="F">
-    <name>Broglio, Mme de, épouse de François-Remond-Felix de Broglio</name>
+    <name>Broglio, Madame de. Peut-être : Lamoignon de Banville, Marie, épouse de Victor Maurice comte de Broglie (1666)</name>
+    <birth when="1645"/>
+    <death when="1733"/>
+    <socecStatus type="cour"/>
+  </person>
+  
+  <person xml:id="mademoiselle_broglio" sex="F">
+    <name>Brogle, Mademoiselle </name>
     <socecStatus type="cour"/>
   </person>
   
@@ -8723,7 +8732,7 @@ ou sinon Marie de Taillefer (1616 - 1678) son mari est François de Brunes, seig
   </person>
   
   <person xml:id="marquise_de_coasquin" sex="F">
-    <name>Madame la Marquise de Coasquin</name>
+    <name>Coasquin (ou Coetquen ?), marquise de</name>
     <socecStatus type="cour"/>
     <birth when=""/>
     <death when=""/>
@@ -8731,7 +8740,7 @@ ou sinon Marie de Taillefer (1616 - 1678) son mari est François de Brunes, seig
   </person>
 
   <person xml:id="mademoiselle_govesleau" sex="F">
-    <name>Mademoiselle Govesleau</name>
+    <name>Govesleau, Mademoiselle</name>
     <socecStatus type="cour"/>
     <birth when=""/>
     <death when=""/>
@@ -8895,16 +8904,9 @@ https://man8rove.com/fr/found_surnames/?lastname=Benoist -->
     <birth when=""/>
     <death when=""/>
   </person>
-  
-  <person xml:id="princesse_d_espinoy" sex="F">
-    <name>"Madame la Princesse d’Espinoy"</name>
-    <socecStatus type="cour"/>
-      <!-- = https://fr.wikipedia.org/wiki/Liste_des_seigneurs,_comtes,_puis_princes_d%27%C3%89pinoy
-        = il y a une grande lignée -->
-  </person>
  
   <person xml:id="mlle_de_mannicamp" sex="F">
-    <name>Mademoiselle de Manicamp</name>
+    <name>Manicamp, Mademoiselle de </name>
     <socecStatus type="cour"/>
     <!--piste <name>Longueval de Manicamp. Françoise de</name>
 	http://racineshistoire.free.fr/LGN/PDF/Longueval.pdf-->
